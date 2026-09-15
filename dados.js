@@ -1,6 +1,6 @@
 // ═══════════════════════════════════════════════════════════════════════
 //  DADOS DO RADAR DE CONCURSOS · Aula Nota 10
-//  Última verificação: 11/09/2026
+//  Última verificação: 15/09/2026
 //
 //  ESTE É O ÚNICO ARQUIVO QUE VOCÊ PRECISA EDITAR PARA ATUALIZAR O SITE.
 //  Não mexa no index.html.
@@ -18,7 +18,7 @@
 //  Sem data confirmada, use { tipo: "nao_divulgada" } e explique na nota.
 // ═══════════════════════════════════════════════════════════════════════
 
-window.RADAR_ATUALIZADO = "11/09/2026";
+window.RADAR_ATUALIZADO = "15/09/2026";
 
 window.CONCURSOS = [
 
@@ -1149,7 +1149,35 @@ window.CONCURSOS = [
         data: { tipo: "nao_divulgada", nota: "Consulte o cronograma no portal do Cebraspe" }, detalhe: {} }
     ],
     observacao: "Confira edital, retificações e cronograma no portal do Cebraspe."
-  }
+  },
   // >>>>>>>>>> FIM DO BLOCO UNCISAL <<<<<<<<<<
+
+  // ══════════ UNIFAL-MG · Edital Geral 002/2026 (MS · datas de prova não divulgadas) ══════════
+  {
+    id: "unifal-002-2026",
+    uf: "MG", sigla: "UNIFAL",
+    instituicao: "Universidade Federal de Alfenas",
+    nivel: "Magistério Superior",
+    numero_edital: "Edital Geral nº 002/2026",
+    areas: "8 vagas em Direito, Clínica Médica (Cardiologia), Língua Inglesa e Topografia e Georreferenciamento",
+    vagas: "8 vagas",
+    campi: "Consulte o edital da área",
+    titulacao: "Consulte o edital da área",
+    remuneracao: "Consulte o edital da área",
+    regime: "Consulte o edital da área",
+    banca: "Diretoria de Processos Seletivos da UNIFAL-MG",
+    link_oficial: "https://www.unifal-mg.edu.br/dips/edital-geral-no-002-2026/",
+    inscricao: { inicio: null, fim: null, situacao: "consultar" },
+    detalhamento: "basico",
+    etapas: [
+      { nome: "Prova Escrita", tipo: "discursiva", carater: "",
+        data: { tipo: "nao_divulgada", nota: "Cada área tem edital próprio, e as datas saem nele" }, detalhe: {} },
+      { nome: "Prova Didática", tipo: "didatica", carater: "",
+        data: { tipo: "nao_divulgada", nota: "Cada área tem edital próprio, e as datas saem nele" },
+        detalhe: { duracao: "", sorteio: "", nota_minima: "", arguicao: "", modalidade: "", plano_de_aula: "" } }
+    ],
+    observacao: "São oito editais separados, um por área. Abra o da sua antes de tudo, porque prazo e cronograma mudam de um para outro."
+  }
+  // >>>>>>>>>> FIM DO BLOCO UNIFAL <<<<<<<<<<
 
 ];
