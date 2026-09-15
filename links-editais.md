@@ -11,6 +11,37 @@ instituição ou da banca. Use no extrator de edital.
 - Edital nº 23/2026, retificação, publicado no DOU de 14/09/2026 (altera só o perfil da vaga 04, Engenharia de Água e Solo)
 - Contato oficial: docente.concurso@ufrpe.br
 
+### UNESP, 8 editais de Professor Assistente (Magistério Superior, SP)
+Portal de inscrições (só renderiza com JavaScript, não é legível por leitura automatizada): https://inscricoes.unesp.br/
+- 88/2026 Araraquara, Engenharia de Bioprocessos: https://inscricoes.unesp.br/concurso/6225
+- 743/2026 Botucatu, Ginecologia e Obstetrícia: https://inscricoes.unesp.br/concurso/6215
+- 729/2026 Botucatu, Zootecnia: https://inscricoes.unesp.br/concurso/6204
+- 217/2026 Ilha Solteira, Estruturas: https://inscricoes.unesp.br/concurso/6182
+- 336/2026 Jaboticabal, Farmacologia: https://inscricoes.unesp.br/concurso/6148
+- 091/2026 Rio Claro, Educação Física: https://inscricoes.unesp.br/concurso/6189
+- 163/2026 São José dos Campos, Odontologia: https://inscricoes.unesp.br/concurso/6203
+- 112/2026 Sorocaba, Sistemas de Computação: https://inscricoes.unesp.br/concurso/6217
+- Resolução UNESP nº 17/2023 rege todos. Os editais 112/2026 e 88/2026 foram lidos e têm prova didática idêntica: 40 a 60 minutos, ponto sorteado no dia da prova escrita, plano de aula entregue no dia, barema de 10 pontos.
+
+### UNESP, 12 editais de Professor Titular (Magistério Superior, SP)
+Regidos pela Resolução UNESP nº 49/2009 (os de Assistente seguem a 17/2023). CONFIRMADO: Titular na UNESP TEM prova didática, ao contrário da USP e da UFPE. Editais 138/2026 e 444/2026 lidos, idênticos entre si.
+- 138/2026 Araçatuba, Odontopediatria: https://inscricoes.unesp.br/concurso/6209
+- 139/2026 Araçatuba, Periodontia: https://inscricoes.unesp.br/concurso/6210
+- 135/2026 Araçatuba, Endodontia: https://inscricoes.unesp.br/concurso/6179
+- 111/2026 Araraquara, Ortodontia Preventiva: https://inscricoes.unesp.br/concurso/6213
+- 340/2026 Assis, Educação Comparada e Internacional: https://inscricoes.unesp.br/concurso/6186
+- 444/2026 Bauru, Conservação Genética de Peixes: https://inscricoes.unesp.br/concurso/6212
+- 68/2026 Botucatu, Medicina Interna: https://inscricoes.unesp.br/concurso/6206
+- 084/2026 Rio Claro, Condicionamento Físico: https://inscricoes.unesp.br/concurso/6171
+- 210/2026 Rio Claro, Probabilidade e Estatística: https://inscricoes.unesp.br/concurso/6177
+- 305/2026 S. J. Rio Preto, Química Inorgânica: https://inscricoes.unesp.br/concurso/6201
+- 294/2026 S. J. Rio Preto, Análise Sensorial de Alimentos: https://inscricoes.unesp.br/concurso/6172
+- 161/2026 S. J. Campos, Endodontia: https://inscricoes.unesp.br/concurso/6187
+
+PENDENTE NA UNESP:
+- 7 concursos de LIVRE-DOCENTE. Decisão de escopo pendente: livre-docência tem prova didática, mas é título, não provimento de cargo.
+- Fora de escopo, confirmado: 4 de Professor Substituto (CLT temporário) e 2 técnico-administrativos.
+
 ### UFPEL, Edital 028/2026 (Magistério Superior, RS)
 - Página oficial: https://ces.ufpel.edu.br/conctecadmed0028_2026/
 - PDF do edital: https://ces.ufpel.edu.br/conctecadmed0028_2026/download/2026/Edital_028_2026.pdf
