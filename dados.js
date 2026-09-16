@@ -1006,7 +1006,7 @@ window.CONCURSOS = [
 
   // ══════════ UFGD · Edital CCS 5/2026 (MS · didática 19 e 20/09) ══════════
   {
-    id: "ufgd-5-2026",
+    id: "ufgd-5-2026", logo: "ufgd.png",
     uf: "MS", sigla: "UFGD",
     instituicao: "Universidade Federal da Grande Dourados",
     nivel: "Magistério Superior",
@@ -1084,7 +1084,7 @@ window.CONCURSOS = [
 
   // ══════════ UFMG · Editais 1.632 e 1.633/2026 (MS · Escola de Belas Artes · provas até meados de novembro) ══════════
   {
-    id: "ufmg-1632-1633-2026",
+    id: "ufmg-1632-1633-2026", logo: "ufmg.png",
     uf: "MG", sigla: "UFMG",
     instituicao: "Universidade Federal de Minas Gerais, Escola de Belas Artes",
     nivel: "Magistério Superior",
@@ -1122,7 +1122,7 @@ window.CONCURSOS = [
 
   // ══════════ UFMG · Edital 1.638/2026 (MS · Instituto de Geociências · inscrição até 11/09) ══════════
   {
-    id: "ufmg-1638-2026",
+    id: "ufmg-1638-2026", logo: "ufmg.png",
     uf: "MG", sigla: "UFMG",
     instituicao: "Universidade Federal de Minas Gerais, Instituto de Geociências",
     nivel: "Magistério Superior",
@@ -1183,7 +1183,7 @@ window.CONCURSOS = [
 
   // ══════════ UNIFAL-MG · Edital Geral 002/2026 (MS · datas de prova não divulgadas) ══════════
   {
-    id: "unifal-002-2026",
+    id: "unifal-002-2026", logo: "unifal.png",
     uf: "MG", sigla: "UNIFAL",
     instituicao: "Universidade Federal de Alfenas",
     nivel: "Magistério Superior",
@@ -1211,7 +1211,7 @@ window.CONCURSOS = [
 
   // ══════════ UFPEL · Edital 028/2026 (MS · inscrição aberta · didática 23/11 a 11/12) ══════════
   {
-    id: "ufpel-028-2026",
+    id: "ufpel-028-2026", logo: "ufpel.png",
     uf: "RS", sigla: "UFPEL",
     instituicao: "Universidade Federal de Pelotas",
     nivel: "Magistério Superior",
@@ -1255,7 +1255,7 @@ window.CONCURSOS = [
 
   // ══════════ UESC · Edital 050/2026 (MS · didática a partir de 23/09) ══════════
   {
-    id: "uesc-050-2026",
+    id: "uesc-050-2026", logo: "uesc.png",
     uf: "BA", sigla: "UESC",
     instituicao: "Universidade Estadual de Santa Cruz",
     nivel: "Magistério Superior",
@@ -1294,7 +1294,7 @@ window.CONCURSOS = [
 
   // ══════════ UNEB · Edital 085/2026 (MS · inscrição abre em 17/09) ══════════
   {
-    id: "uneb-085-2026",
+    id: "uneb-085-2026", logo: "uneb.png",
     uf: "BA", sigla: "UNEB",
     instituicao: "Universidade do Estado da Bahia",
     nivel: "Magistério Superior",
@@ -1370,7 +1370,7 @@ window.CONCURSOS = [
 
   // ══════════ FURB · Edital 07/2026 (MS · didática em 29/09) ══════════
   {
-    id: "furb-07-2026",
+    id: "furb-07-2026", logo: "furb.png",
     uf: "SC", sigla: "FURB",
     instituicao: "Fundação Universidade Regional de Blumenau",
     nivel: "Magistério Superior",
@@ -1408,7 +1408,7 @@ window.CONCURSOS = [
 
   // ══════════ UFRPE · Edital 21/2026 (MS · inscrição aberta · didática 15 e 16/12) ══════════
   {
-    id: "ufrpe-21-2026",
+    id: "ufrpe-21-2026", logo: "ufrpe.png",
     uf: "PE", sigla: "UFRPE",
     instituicao: "Universidade Federal Rural de Pernambuco",
     nivel: "Magistério Superior",
