@@ -106,6 +106,16 @@ PENDENTE NA UNESP:
 - Anexos completos (I a XVIII), conferidos: Anexo I fixa inscrição de 20/07 a 06/08/2026 e prova de desempenho didático de 29/10 a 29/11/2026. Anexo XVI traz os 5 temas de sorteio de cada área. Anexo III traz o conteúdo programático da objetiva.
 - Contato oficial: dpi.concurso@ifmt.edu.br
 
+### UFRGS, Editais 08 e 09/2026
+- Portal PROGESP: https://www.ufrgs.br/progesp/pagina-inicial/concursos-e-processos-seletivos/1939-2/concursos-2/
+- Edital 09/2026, de 18/08/2026, publicado no DOU de 19/08/2026. 16 áreas, 20 vagas.
+- Retificação 33, de 21/08/2026: muda só o requisito de ingresso de Sociologia da Educação.
+- Retificação 34, de 25/08/2026: muda só os requisitos de Anatomia Patológica e de Entomologia Agrícola.
+- Resolução nº 093/2021 do CONSUN (consolidada, alterada em outubro/2023): é ela que define as regras das provas, inclusive a didática. Vale para os dois editais.
+- Manual de orientação geral ao candidato, da Divisão de Concursos Públicos.
+- Tópicos por área, publicados em arquivo próprio (ex.: Antropologia, subárea Teoria Antropológica).
+- REGRA-CHAVE: a prova didática da UFRGS é de TEMA LIVRE, escolhido pelo candidato dentro do programa do Departamento. Não há sorteio de ponto.
+
 ### UNIMONTES
 - Edital 01/2026, 1ª retificação, prova de conhecimentos para 14/02/2027: https://concurso.unimontes.br/wp-content/uploads/2026/08/Edital-01-Computacao_1a-retificacao-1.pdf
 - Edital 17/2026, 1ª retificação: https://concurso.unimontes.br/wp-content/uploads/2026/08/Edital-17-Letras_1a-retificacao.pdf
