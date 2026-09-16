@@ -745,27 +745,27 @@ window.CONCURSOS = [
   {
     id: "unifesp-2026", logo: "unifesp.png", uf: "SP", sigla: "UNIFESP",
     instituicao: "Universidade Federal de São Paulo", nivel: "Magistério Superior",
-    numero_edital: "Edital publicado no DOU de 17/06/2026",
-    areas: "Diversas áreas (Magistério Superior e EBTT)", vagas: "41 vagas",
+    numero_edital: "19 editais independentes em andamento: 365, 375, 377, 379, 381, 387, 391, 393, 395, 397, 399, 401, 407, 409, 411, 413, 415, 462 e 547/2026",
+    areas: "Diversas áreas, distribuídas em 19 editais separados, um por vaga ou por unidade. Confirme no edital da sua área se ele é de Magistério Superior ou EBTT", vagas: "41 vagas somadas, em 19 editais",
     campi: "Diadema, Baixada Santista (Santos), São José dos Campos, Osasco, Guarulhos, São Paulo e Núcleo Educacional Infantil Paulistinha",
     titulacao: "Doutorado (requisitos específicos por vaga)",
     remuneracao: "Conforme regime (20h, 40h ou DE)", regime: "20h, 40h ou dedicação exclusiva",
     banca: "Própria (portal de concursos da UNIFESP)",
     link_oficial: "https://concursos.unifesp.br/",
     inscricao: { inicio: "2026-06-22", fim: "2026-07-22", situacao: "encerrada" },
-    periodo_provas: { inicio: "2026-10-01", fim: "2026-12-31", nota: "Provas previstas entre outubro e dezembro de 2026." },
+    periodo_provas: { nota: "SEM DATA CONFIRMADA EM FONTE OFICIAL. São 19 editais independentes, cada um com cronograma próprio. O período de 01/10 a 31/12 que circulava foi retirado por não ter confirmação. Abra o edital da sua área em phpu.unifesp.br ou em concursos.unifesp.br." },
     detalhamento: "basico",
     etapas: [
       { nome: "Envio de documentação on-line", tipo: "outra", carater: "",
         data: { tipo: "periodo", valor: "2026-07-27", fim: "2026-08-05", nota: "Já realizado" }, detalhe: {} },
       { nome: "Prova Escrita", tipo: "discursiva", carater: "Eliminatória",
-        data: { tipo: "periodo", valor: "2026-10-01", fim: "2026-12-31", nota: "Data por área a divulgar" }, detalhe: {} },
+        data: { tipo: "nao_divulgada", nota: "Cada um dos 19 editais tem cronograma próprio. Consulte o da sua área" }, detalhe: {} },
       { nome: "Prova Didática", tipo: "didatica", carater: "Eliminatória e classificatória",
-        data: { tipo: "periodo", valor: "2026-10-01", fim: "2026-12-31", nota: "Data por área a divulgar" }, detalhe: {} },
+        data: { tipo: "nao_divulgada", nota: "Cada um dos 19 editais tem cronograma próprio, e as datas podem variar semanas entre eles. Consulte o edital da sua área em phpu.unifesp.br. As regras da aula, duração, sorteio e plano, também constam lá" }, detalhe: {} },
       { nome: "Prova de Títulos", tipo: "titulos", carater: "Classificatória",
         data: { tipo: "nao_divulgada" }, detalhe: {} }
     ],
-    observacao: "Acompanhe o portal de concursos da UNIFESP para a data da sua área."
+    observacao: "Não é um concurso só: são 19 editais independentes, cada um com a sua vaga, o seu cronograma e as suas regras. Abra o da sua área antes de qualquer coisa, em phpu.unifesp.br/concurso/inscricao/editais, e confirme se ele é de Magistério Superior ou EBTT. O radar ainda não tem as datas das provas confirmadas em fonte oficial, e por isso não publica período: preferimos não informar a informar errado."
   },
 
   // ══════════ UFRGS · Edital 08/2026 (MS · cronograma por área) ══════════
