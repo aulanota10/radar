@@ -116,6 +116,13 @@ PENDENTE NA UNESP:
 - Tópicos por área, publicados em arquivo próprio (ex.: Antropologia, subárea Teoria Antropológica).
 - REGRA-CHAVE: a prova didática da UFRGS é de TEMA LIVRE, escolhido pelo candidato dentro do programa do Departamento. Não há sorteio de ponto.
 
+### UNCISAL, Edital 01/2026
+- Portal do Cebraspe (só renderiza com JavaScript, não é legível por leitura automatizada): https://www.cebraspe.org.br/concursos/uncisal_26
+- Edital nº 1 – UNCISAL, de 25/06/2026, versão consolidada com a Retificação do Edital nº 2, de 16/07/2026. 34 cargos, 43 vagas imediatas e 109 de cadastro de reserva.
+- Cronograma (Anexo I): inscrição 20/07 a 21/08/2026, objetivas em 22/11/2026, resultado e convocação para a didática em 30/12/2026.
+- REGRA-CHAVE: prova didática HÍBRIDA (banca por vídeo, candidato presencial), tema sorteado antes, plano de aula enviado por upload valendo 2,00 dos 10,00, corte 6,00.
+- Pendente: valor da taxa de inscrição e remuneração não constam do texto consolidado.
+
 ### UNIMONTES
 - Edital 01/2026, 1ª retificação, prova de conhecimentos para 14/02/2027: https://concurso.unimontes.br/wp-content/uploads/2026/08/Edital-01-Computacao_1a-retificacao-1.pdf
 - Edital 17/2026, 1ª retificação: https://concurso.unimontes.br/wp-content/uploads/2026/08/Edital-17-Letras_1a-retificacao.pdf
@@ -156,7 +163,11 @@ PENDENTE NA UNESP:
 
 ### UNIFAL, Edital Geral 002/2026
 - Página do edital geral, com os oito editais de área: https://www.unifal-mg.edu.br/dips/edital-geral-no-002-2026/
-- Exemplo de edital de área: https://www.unifal-mg.edu.br/dips/edital-no-111-2026
+- Edital Geral 002/2026 no SEI: https://sei.unifal-mg.edu.br/sei/publicacoes/controlador_publicacoes.php?acao=publicacao_visualizar&id_documento=2025969&id_orgao_publicacao=0
+- Edital 111/2026 (Língua Inglesa), página: https://www.unifal-mg.edu.br/dips/edital-no-111-2026
+- Edital 111/2026 no SEI (texto integral, com as regras da prova didática): https://sei.unifal-mg.edu.br/sei/publicacoes/controlador_publicacoes.php?acao=publicacao_visualizar&id_documento=2074551&id_orgao_publicacao=0
+- OBSERVAÇÃO TÉCNICA: o sei.unifal-mg.edu.br é legível por leitura automatizada, ao contrário de muitos portais. As regras da didática foram extraídas de lá.
+- PENDENTE: faltam ler os outros 7 editais de área (39, 41, 102, 103, 104, 105 e 106/2026), para confirmar prazos de inscrição, taxa e barema de cada um.
 
 ## Pistas a confirmar, ainda não entraram no radar
 
