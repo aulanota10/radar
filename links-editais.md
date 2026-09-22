@@ -1,181 +1,196 @@
-# Links de editais e documentos oficiais
+# Links dos editais · Radar de Concursos · 21/09/2026
 
-Coletados na rotina do Radar de 15/09/2026. Todos em domínio oficial da
-instituição ou da banca. Use no extrator de edital.
+URLs diretas coletadas nos portais oficiais nesta rodada, para usar no extrator de edital. Onde não havia PDF direto, vai o link da página do edital.
 
-## Concursos novos, entraram no radar hoje
+## ufrn-058-2026
+- Edital nº 058/2026-PROGESP (página do edital no SIGRH; retornou 404 via acesso direto): https://sigrh.ufrn.br/publico/concursos/316/edital/420
+- Retificação do Edital, DOU nº 149 de 10/08/2026 (nota no SIGRH): https://sigrh.ufrn.br/publico/concursos/316/nota/2398
 
-### UFRPE, Edital 21/2026 (Magistério Superior, PE)
-- SIGRH, aba Concursos, onde o edital e os anexos são publicados: https://sigs.ufrpe.br/sigrh/public/home.jsf
-- Notícia oficial de abertura: http://ufrpe.br/notícias/ufrpe-divulga-concurso-para-magistério-superior/
-- Edital nº 23/2026, retificação, publicado no DOU de 14/09/2026 (altera só o perfil da vaga 04, Engenharia de Água e Solo)
-- Contato oficial: docente.concurso@ufrpe.br
+## ufla-127-2026
+- Edital PROGEPE nº 127/2026: https://sei.ufla.br/sei/publicacoes/controlador_publicacoes.php?acao=publicacao_visualizar&id_documento=865893&id_orgao_publicacao=0
+- Edital Complementar nº 136/2026 (listado como Retificação do Edital): https://sei.ufla.br/sei/publicacoes/controlador_publicacoes.php?acao=publicacao_visualizar&id_documento=916143&id_orgao_publicacao=0
+- Temas e bibliografia: https://progepe.ufla.br/images/concursos/2026/EBTT/TEMAS.pdf
 
-### UNESP, 8 editais de Professor Assistente (Magistério Superior, SP)
-Portal de inscrições (só renderiza com JavaScript, não é legível por leitura automatizada): https://inscricoes.unesp.br/
-- 88/2026 Araraquara, Engenharia de Bioprocessos: https://inscricoes.unesp.br/concurso/6225
-- 743/2026 Botucatu, Ginecologia e Obstetrícia: https://inscricoes.unesp.br/concurso/6215
-- 729/2026 Botucatu, Zootecnia: https://inscricoes.unesp.br/concurso/6204
-- 217/2026 Ilha Solteira, Estruturas: https://inscricoes.unesp.br/concurso/6182
-- 336/2026 Jaboticabal, Farmacologia: https://inscricoes.unesp.br/concurso/6148
-- 091/2026 Rio Claro, Educação Física: https://inscricoes.unesp.br/concurso/6189
-- 163/2026 São José dos Campos, Odontologia: https://inscricoes.unesp.br/concurso/6203
-- 112/2026 Sorocaba, Sistemas de Computação: https://inscricoes.unesp.br/concurso/6217
-- Resolução UNESP nº 17/2023 rege todos. Os editais 112/2026 e 88/2026 foram lidos e têm prova didática idêntica: 40 a 60 minutos, ponto sorteado no dia da prova escrita, plano de aula entregue no dia, barema de 10 pontos.
+## furb-07-2026
+- Edital nº 07/2026: https://anexos.cdn.selecao.net.br/uploads/342/concursos/528/anexos/d9dfe343-0c3f-4cda-a621-eb527baaafe5.pdf
+- Retificação do Edital (alteração de datas), 28/08/2026: https://anexos-r2.selecao.net.br/uploads/342/concursos/528/anexos/1b61208f-8c35-4c6e-9c04-75533461533f.pdf
 
-### UNESP, 12 editais de Professor Titular (Magistério Superior, SP)
-Regidos pela Resolução UNESP nº 49/2009 (os de Assistente seguem a 17/2023). CONFIRMADO: Titular na UNESP TEM prova didática, ao contrário da USP e da UFPE. Editais 138/2026 e 444/2026 lidos, idênticos entre si.
-- 138/2026 Araçatuba, Odontopediatria: https://inscricoes.unesp.br/concurso/6209
-- 139/2026 Araçatuba, Periodontia: https://inscricoes.unesp.br/concurso/6210
-- 135/2026 Araçatuba, Endodontia: https://inscricoes.unesp.br/concurso/6179
-- 111/2026 Araraquara, Ortodontia Preventiva: https://inscricoes.unesp.br/concurso/6213
-- 340/2026 Assis, Educação Comparada e Internacional: https://inscricoes.unesp.br/concurso/6186
-- 444/2026 Bauru, Conservação Genética de Peixes: https://inscricoes.unesp.br/concurso/6212
-- 68/2026 Botucatu, Medicina Interna: https://inscricoes.unesp.br/concurso/6206
-- 084/2026 Rio Claro, Condicionamento Físico: https://inscricoes.unesp.br/concurso/6171
-- 210/2026 Rio Claro, Probabilidade e Estatística: https://inscricoes.unesp.br/concurso/6177
-- 305/2026 S. J. Rio Preto, Química Inorgânica: https://inscricoes.unesp.br/concurso/6201
-- 294/2026 S. J. Rio Preto, Análise Sensorial de Alimentos: https://inscricoes.unesp.br/concurso/6172
-- 161/2026 S. J. Campos, Endodontia: https://inscricoes.unesp.br/concurso/6187
+## ufu-93-94-2026
+- Edital PROGEP nº 93/2026 (condições gerais, EBTT): https://www.portalselecao.ufu.br/servicos/ArquivoAdministrativo/download/d91f7910cd3924264d0a7732a94a624b
+- Edital PROGEP nº 94/2026 (condições gerais, Magistério Superior): https://www.portalselecao.ufu.br/servicos/ArquivoAdministrativo/download/61864b3fd1c2b21f77e9029973e5c123
+- Retificação IV do Edital 97/2026 (ESEBA), 09/09/2026: https://www.portalselecao.ufu.br/servicos/ArquivoAdministrativo/download/60315f2e8a5b4904cf2972fa3d2a3c19
 
-PENDENTE NA UNESP:
-- 7 concursos de LIVRE-DOCENTE. Decisão de escopo pendente: livre-docência tem prova didática, mas é título, não provimento de cargo.
-- Fora de escopo, confirmado: 4 de Professor Substituto (CLT temporário) e 2 técnico-administrativos.
+## uesc-050-2026
+- Edital UESC nº 50/2026 (página de busca de editais): https://www2.uesc.br/publicacoes/editais/busca#4712
+- Portaria 389/2026, quarta retificação do Edital 50: https://www2.uesc.br/publicacoes/portarias/arquivo/2026/06/389_2026.pdf
+- Pontos das provas: https://www.uesc.br/concurso/2026/pontos_concurso_50_2026.pdf
+- Cronograma das demais etapas (30/08/2026): https://drive.google.com/file/d/1xUnfqf5sZjjtXPmh03SSj8H-63bxn496/view?usp=sharing
 
-### UFPEL, Edital 028/2026 (Magistério Superior, RS)
-- Página oficial: https://ces.ufpel.edu.br/conctecadmed0028_2026/
-- PDF do edital: https://ces.ufpel.edu.br/conctecadmed0028_2026/download/2026/Edital_028_2026.pdf
+## ufu-118-2026
+- Edital PROGEP nº 118/2026 (condições gerais): https://www.portalselecao.ufu.br/servicos/ArquivoAdministrativo/download/3802a790a46bbd07be516237da0ff53d
+- Edital nº 119/2026 IME (condições específicas): https://www.portalselecao.ufu.br/servicos/ArquivoAdministrativo/download/cf9286ea3ff7def873076ec1ecaa0d2b
+- Edital nº 120/2026 FACOM (condições específicas): https://www.portalselecao.ufu.br/servicos/ArquivoAdministrativo/download/e9c6e8e9e7eb82debe397b2066a787b8
 
-### UESC, Edital 050/2026 (Magistério Superior, BA)
-- Página oficial: https://www.uesc.br/concurso/
-- Cronograma das demais etapas, com as datas da didática: https://drive.google.com/file/d/1xUnfqf5sZjjtXPmh03SSj8H-63bxn496/view
-- Pontos do concurso: https://www.uesc.br/concurso/2026/pontos_concurso_50_2026.pdf
-- Pontos escolhidos por candidato: https://www.uesc.br/concurso/2026/Pontos_Candidatos_50-2026.pdf
-- Locais de prova: https://www.uesc.br/concurso/2026/Locais_de_Prova_50-2026.pdf
-- Resultado preliminar da prova escrita: https://drive.google.com/file/d/1vd5SCHfnfBOXixVPU8cyZnEoKeOx4Lu-/view
-- Texto do edital (não abriu por robots nesta rotina, abre em navegador): https://www2.uesc.br/publicacoes/editais/busca#4712
+## unila-204-2026
+- Edital nº 204/2026: https://documentos.unila.edu.br/system/tdf/arquivos/concursos/edital_204-2026_1.pdf?file=1&type=node&id=20029&force=
+- Edital nº 205/2026 (conteúdo específico): https://documentos.unila.edu.br/system/tdf/arquivos/concursos/aa18b31fa4f4204cd4e8516fb586466c631cae2b00d5707bc922fa4bf69df23417851621351202292022525519533067.pdf
+- Retificação, Edital nº 211/2026: https://documentos.unila.edu.br/system/tdf/arquivos/concursos/retificacao_211_1.pdf?file=1&type=node&id=20029&force=
 
-### UNEB, Edital 085/2026 (Magistério Superior, BA)
-- Página oficial: https://uneb.selecao.net.br/informacoes/22/
-- PDF do edital: https://anexos-r2.selecao.net.br/uploads/789/concursos/22/anexos/a9721dc4-1ea6-472b-8dff-9b714c117ff6.pdf
+## uftm-28-2026
+- sem link direto coletado nesta rodada (portal não abriu)
 
-### USP, Edital DVACAD/FM/199/2026 (Magistério Superior, SP)
-- Página oficial dos concursos MS-3 da FMUSP: https://www.fm.usp.br/atac/professor-doutor/concursos-de-professor-doutor-ms-3-em-andamento
-- Publicação no Diário Oficial do Estado de SP: https://doe.sp.gov.br/executivo/universidade-de-sao-paulo/edital-dvacad-fm-199-2026-2026091113422223672120670
+## ifsuldeminas-188-2026
+- Edital nº 188/2026 (versão consolidada, retificado 1): https://portal.ifsuldeminas.edu.br/attachments/article/7580/Edital%20188_2026%20-%20Concurso%20PEBTT%20-%202%C2%BA%20semestre%202026%20-%20RETIFICADO%201.pdf
+- 2ª Retificação ao Edital nº 188/2026: https://portal.ifsuldeminas.edu.br/attachments/article/7580/2%C2%AA%20RETIFICA%C3%87%C3%83O%20AO%20EDITAL%20N%C2%BA%20188_2026.pdf
 
-### FURB, Edital 07/2026 (Magistério Superior, SC)
-- Página oficial: https://concursos.furb.br/informacoes/528/
-- Retificação com as datas das provas: https://anexos-r2.selecao.net.br/uploads/342/concursos/528/anexos/1b61208f-8c35-4c6e-9c04-75533461533f.pdf
-- Índice dos concursos docentes da FURB: https://concursos.furb.br/index/docente/
+## ifsc-01-2026
+- Edital nº 01/2026 (original): http://portalfaurgs.com.br/LerArquivo/ecd9f5df-8f30-4063-82bc-c65a5e94c0fd
+- Edital nº 01/2026 consolidado (retificação de 19/08/2026): http://portalfaurgs.com.br/LerArquivo/2f24ef5f-a655-4ddd-a3b2-ec3506edd4a9
+- Edital nº 07/2026 de Convocação às Provas Escritas: http://portalfaurgs.com.br/LerArquivo/70ea79dd-96b9-4c11-8368-b79bd385318d
 
-## Documentos novos de concursos que já estavam no radar
+## ifmt-03-2026
+- sem link direto coletado nesta rodada (portal não abriu)
 
-### IFSULDEMINAS, Edital 188/2026
-- Edital: https://portal.ifsuldeminas.edu.br/attachments/article/7580/Edital%20188_2026%20-%20Concurso%20PEBTT%20-%202%C2%BA%20semestre%202026.pdf
-- 1ª Retificação, que mudou a didática para 31/10 e 01/11: https://portal.ifsuldeminas.edu.br/attachments/article/7580/1%C2%AA%20RETIFICA%C3%87%C3%83O%20AO%20EDITAL%20N%C2%BA%20188_2026.pdf
-- 2ª Retificação: https://portal.ifsuldeminas.edu.br/attachments/article/7580/2%C2%AA%20RETIFICA%C3%87%C3%83O%20AO%20EDITAL%20N%C2%BA%20188_2026.pdf
+## ifmg-2026
+- Edital nº 607/2026: https://s3.sa-east-1.amazonaws.com/cdn.concursos.ifmg.edu.br/edital/1/165/f2894a48c71ba32658af4555ce3c7105.pdf
+- Retificação 01 (Anexo I, Cronograma), 04/09/2026: https://s3.sa-east-1.amazonaws.com/cdn.concursos.ifmg.edu.br/edital/1/165/d819bf89689873910129e4af1c868824.pdf
+- Retificação 04 (Anexo V), 09/09/2026: https://s3.sa-east-1.amazonaws.com/cdn.concursos.ifmg.edu.br/edital/1/165/4ac295fc09c8aa1716b8f786945f3dfd.pdf
 
-### UFPE, Editais 08 e 09/2026
-- Portal oficial: https://www.ufpe.br/progepe/concursos/concursos-em-andamento
-- SIGRH, área pública do concurso, onde saem notas informativas e cronogramas por área: https://sigrh.ufpe.br/
-- Edital 08/2026, de 29/06/2026, versão consolidada após 2 retificações (40 vagas, Recife, CAA e CAV)
-- Edital 09/2026, de 29/06/2026, versão consolidada com a Retificação 1 (16 vagas, Sertânia)
-- Resolução nº 15/2022 do CEPE, que define as etapas e as regras da prova didática, disponível no menu Concursos do SIGRH
-- Edital 10/2026, Professor Titular-Livre: NÃO entra no radar, não tem prova didática (etapas: prova escrita com defesa de projeto de pesquisa, defesa de memorial e títulos, pela Resolução 05/2014 do CONSUNI)
+## urca-2026
+- Edital nº 02/2026-GR: http://www.urca.br/prograd/wp-content/uploads/sites/36/2026/06/Edital-no-02-2026-GR-Concurso-Efetivo.pdf
+- Corrigenda nº 01: http://www.urca.br/prograd/wp-content/uploads/sites/36/2026/08/Corrigenda-No-01.pdf
+- Cronograma atualizado (20/08/2026): http://www.urca.br/prograd/wp-content/uploads/sites/36/2026/08/NOVO-CRONOGRAMA.pdf
 
-### UNILA, Edital 204/2026
-- Edital de abertura: https://documentos.unila.edu.br/system/tdf/arquivos/concursos/edital_204-2026_1.pdf
-- Edital 205/2026, conteúdo específico, é onde está a data da didática: https://documentos.unila.edu.br/system/tdf/arquivos/concursos/aa18b31fa4f4204cd4e8516fb586466c631cae2b00d5707bc922fa4bf69df23417851621351202292022525519533067.pdf
-- Retificação 211: https://documentos.unila.edu.br/system/tdf/arquivos/concursos/retificacao_211_1.pdf
+## unespar-023-2026
+- Edital nº 023/2026-CPPS (página do edital): https://progesp.unespar.edu.br/menu-principal/concursos-publicos/concurso-publico/edital-n-023-2026-cpps/editais/edital-n-023-2026-cpps
+- Edital nº 029/2026-CPPS (retificação, 09/09/2026): https://progesp.unespar.edu.br/menu-principal/concursos-publicos/concurso-publico/edital-n-023-2026-cpps/editais/edital-n-029-2026-cpps
 
-### UFSCAR, Edital Único 004/2026
-- Portal de concursos, onde ficam o edital completo e o Anexo VI (cronograma): https://concursos.ufscar.br/
-- Publicação no DOU de 12/08/2026 (sem os anexos): https://www.in.gov.br/web/dou/-/edital-n-4-de-11-de-agosto-de-2026-644718827
-- Página da ProGPe: https://www.progpe.ufscar.br/concursos-e-selecoes
-- Contato oficial: depm.concursos@ufscar.br
-- ATENÇÃO: o cronograma e as tabelas de pontuação NÃO saem no DOU. Só na página do concurso, menu Fase de Inscrição.
+## ufscar-004-2026
+- sem link direto coletado nesta rodada (portal não abriu)
 
-### UFS, Edital 008/2026
-- Calendário: https://cmop.ufs.br/uploads/content_attach/path/44105/Edital_n__008_2026_CALENDARIO.pdf
-- Retificação nº 01: https://cmop.ufs.br/uploads/content_attach/path/44131/Edital_de_Retifica__o_n__01_Edital_008-2026_DCC.pdf
-- Página de calendários por departamento: https://cmop.ufs.br/conteudo/79783
+## uncisal-01-2026
+- sem link direto coletado nesta rodada (portal não abriu)
 
-### IFMT, Edital 03/2026
-- Portal do edital: https://seletivo.ifmt.edu.br/edital/visualizar/173/
-- Edital consolidado com os Retificadores 01 a 04/2026 (corpo do edital, SEM os anexos)
-- Anexos completos (I a XVIII), conferidos: Anexo I fixa inscrição de 20/07 a 06/08/2026 e prova de desempenho didático de 29/10 a 29/11/2026. Anexo XVI traz os 5 temas de sorteio de cada área. Anexo III traz o conteúdo programático da objetiva.
-- Contato oficial: dpi.concurso@ifmt.edu.br
+## ufpe-08-2026
+- sem link direto coletado nesta rodada (portal não abriu)
 
-### UFRGS, Editais 08 e 09/2026
-- Portal PROGESP: https://www.ufrgs.br/progesp/pagina-inicial/concursos-e-processos-seletivos/1939-2/concursos-2/
-- Edital 09/2026, de 18/08/2026, publicado no DOU de 19/08/2026. 16 áreas, 20 vagas.
-- Retificação 33, de 21/08/2026: muda só o requisito de ingresso de Sociologia da Educação.
-- Retificação 34, de 25/08/2026: muda só os requisitos de Anatomia Patológica e de Entomologia Agrícola.
-- Resolução nº 093/2021 do CONSUN (consolidada, alterada em outubro/2023): é ela que define as regras das provas, inclusive a didática. Vale para os dois editais.
-- Manual de orientação geral ao candidato, da Divisão de Concursos Públicos.
-- Tópicos por área, publicados em arquivo próprio (ex.: Antropologia, subárea Teoria Antropológica).
-- REGRA-CHAVE: a prova didática da UFRGS é de TEMA LIVRE, escolhido pelo candidato dentro do programa do Departamento. Não há sorteio de ponto.
+## ufpe-09-2026
+- sem link direto coletado nesta rodada (portal não abriu)
 
-### UNCISAL, Edital 01/2026
-- Portal do Cebraspe (só renderiza com JavaScript, não é legível por leitura automatizada): https://www.cebraspe.org.br/concursos/uncisal_26
-- Edital nº 1 – UNCISAL, de 25/06/2026, versão consolidada com a Retificação do Edital nº 2, de 16/07/2026. 34 cargos, 43 vagas imediatas e 109 de cadastro de reserva.
-- Cronograma (Anexo I): inscrição 20/07 a 21/08/2026, objetivas em 22/11/2026, resultado e convocação para a didática em 30/12/2026.
-- REGRA-CHAVE: prova didática HÍBRIDA (banca por vídeo, candidato presencial), tema sorteado antes, plano de aula enviado por upload valendo 2,00 dos 10,00, corte 6,00.
-- Pendente: valor da taxa de inscrição e remuneração não constam do texto consolidado.
+## ufba-06-2026
+- Edital nº 06/2026 retificado em 24/07/2026 (URL encontrada em busca, não aberta; a versão de 11/09 não foi localizada): https://concursos.ufba.br/sites/concursos.ufba.br/files/docentes/edital_docente_efetivo_06_2026_retificado_em_24.07.26_atual.pdf
 
-### UNIMONTES
-- Edital 01/2026, 1ª retificação, prova de conhecimentos para 14/02/2027: https://concurso.unimontes.br/wp-content/uploads/2026/08/Edital-01-Computacao_1a-retificacao-1.pdf
-- Edital 17/2026, 1ª retificação: https://concurso.unimontes.br/wp-content/uploads/2026/08/Edital-17-Letras_1a-retificacao.pdf
-- Edital 17/2026, 2ª retificação, inscrições para 19/10 a 19/12: https://concurso.unimontes.br/wp-content/uploads/2026/09/Edital-17-Letras_2a-retificacao.pdf
+## ufs-08-2026
+- Edital nº 008/2026 (retificado em 20/07/2026): https://cmop.ufs.br/uploads/content_attach/path/44165/Edital_n__008_2026_Efetivo_-_site_Ret_01.pdf
+- Edital de Retificação nº 01 ao Edital 008/2026: https://cmop.ufs.br/uploads/content_attach/path/44131/Edital_de_Retifica__o_n__01_Edital_008-2026_DCC.pdf
+- Calendário do Edital nº 008/2026: https://cmop.ufs.br/uploads/content_attach/path/44105/Edital_n__008_2026_CALENDARIO.pdf
 
-### UEMA
-- Edital 234/2026-GR, suspensão dos editais 129 a 140: https://www.uema.br/2026/07/edital-n-o-234-2026-gr-uema/
-- Edital 241/2026-GR, retomada parcial de 04/09: https://www.uema.br/2026/09/edital-n-o-241-2026-gr-uema/
+## uema-2026
+- sem link direto coletado nesta rodada (portal não abriu)
 
-### UFMG, Edital 1638/2026
-- Retificação, Edital 1706/2026: https://igc.ufmg.br/wp-content/uploads/2026/07/Edital-n-1706-2026_RETIFICACAO_do_Edital-n-1638-2026_DCART_Geociencias_Cartografia-Geodesia.pdf
+## ufgd-5-2026
+- Edital de Abertura CCS nº 5/2026 (consolidado em 09/07/2026): https://files.ufgd.edu.br/arquivos/arquivos/78/DOCENTE-DE-PROVAS-E-TITULOS-CDPT/CDPT - 2026/Edital_Abertura_CCS_n°_5_CDPT_2026_consolidado em 9.7.2026.pdf
+- Edital de Retificação CCS nº 2/2026: https://files.ufgd.edu.br/arquivos/arquivos/78/DOCENTE-DE-PROVAS-E-TITULOS-CDPT/CDPT - 2026/Edital_Retificação_CCS_n°_2_titulação FAEN.pdf
+- Edital de Convocação CCS nº 14/2026 (prova didática): https://files.ufgd.edu.br/arquivos/arquivos/78/DOCENTE-DE-PROVAS-E-TITULOS-CDPT/CDPT - 2026/Edital de Convocacao_CCS_14_convoca prova didática_CDPT2026.pdf
 
-### URCA, Edital 02/2026-GR
-- Cronograma atualizado de 20/08: http://www.urca.br/prograd/wp-content/uploads/sites/36/2026/08/NOVO-CRONOGRAMA.pdf
+## uneb-085-2026
+- Edital nº 085/2026: https://anexos-r2.selecao.net.br/uploads/789/concursos/22/anexos/a9721dc4-1ea6-472b-8dff-9b714c117ff6.pdf
+- Resultado das impugnações contra o Edital de Abertura (17/09/2026): https://anexos-r2.selecao.net.br/uploads/789/concursos/22/anexos/24c91823-2192-470c-a5c5-c076124fcc30.pdf
 
-### UFRJ, Edital 942/2026
-- Anexo III, cronograma: https://concursos-pr4-ufrj-2022.com.br/UFRJ.2026.Edital942/Edital-942-AnexoIII-Cronograma.pdf
+## ufrpe-21-2026
+- sem link direto coletado nesta rodada (portal não abriu)
 
-### UFLA, Edital 127/2026
-- Comunicado aos candidatos de 11/09: https://progepe.ufla.br/images/concursos/2026/EBTT/Comunicado_aos_candidatos.pdf
-- Notícia oficial da retificação de 24/08: https://ufla.br/noticias/institucional/18785-ufla-retifica-edital-de-concurso-publico-para-professor-do-ensino-basico-tecnico-e-tecnologico-ebtt-cap-nedi-ufla
+## ufrgs-09-2026
+- sem link direto coletado nesta rodada (portal não abriu)
 
-### UFGD, Edital 5/2026
-- Notícia oficial que comprova que 19 e 20/09 é do CDPT 2025, não deste edital: https://portal.ufgd.edu.br/noticias/ufgd-retoma-concurso-de-cargos-do-magisterio-e-divulga-novo-cronograma-das-provas
-- Página oficial do CDPT 2026: https://portal.ufgd.edu.br/vestibular/docente-de-provas-e-titulos-cdpt/cdpt-2026
+## ufrgs-08-2026
+- Edital nº 08/2026, de 01/06/2026 (URL oficial localizada por busca, não aberta): https://www.ufrgs.br/progesp/wp-content/uploads/ConcursosProcessosSeletivos/Magist%C3%A9rioEduca%C3%A7%C3%A3oSuperior/Concursos/2026/08-2026/1.Ed.AI-Cont.Prog/AI-08-2026-PAGINA.pdf
 
-### UFU, Editais 93 e 94/2026
-- Cronogramas por edital de área, no Portal de Seleção:
-  96/2026 FEELT https://www.portalselecao.ufu.br/servicos/Edital/cronograma/1807
-  97/2026 ESEBA https://www.portalselecao.ufu.br/servicos/Edital/cronograma/1808
-  98/2026 FAMED https://www.portalselecao.ufu.br/servicos/Edital/cronograma/1809
-  99/2026 FAMED https://www.portalselecao.ufu.br/servicos/Edital/cronograma/1810
-  100/2026 FAMED https://www.portalselecao.ufu.br/servicos/Edital/cronograma/1811
-  95/2026 FAMED https://www.portalselecao.ufu.br/servicos/Edital/cronograma/1806
+## ufsm-221-2026
+- Edital nº 221/2026 (consolidado com a retificação de 25/08/2026): https://www.ufsm.br/app/uploads/sites/341/2026/08/Edital-de-abertura-MS-N.-221-de-20-de-agosto-de-2026-consolidado.pdf
+- Edital nº 221/2026 (DOU de 24/08/2026): https://www.ufsm.br/app/uploads/sites/341/2026/08/Edital-de-Abertura-N.-221.2026-DOU-24.08.2026-s.-3-p.-50-59.pdf
+- Retificação do Edital nº 221/2026 (DOU de 25/08/2026): https://portal.ufsm.br/documentos/download.html?action=arquivosIndexados&id=15925541
+- Anexo I, Instruções Específicas: https://www.ufsm.br/app/uploads/sites/341/2026/08/Anexo-I-edital-221.2026.pdf
 
-### UFU, Edital 118/2026
-- Cronogramas por área: https://www.portalselecao.ufu.br/servicos/Edital/cronograma/1826 e https://www.portalselecao.ufu.br/servicos/Edital/cronograma/1825
+## ufsm-198-2026
+- Edital nº 198/2026 (DOU de 29/06/2026): https://www.ufsm.br/app/uploads/sites/341/2026/06/INPDFViewer-1_merged.pdf
+- Edital de abertura nº 198/2026: https://portal.ufsm.br/documentos/download.html?action=arquivosIndexados&id=15847109&download=false
+- Anexo I, Instruções Específicas: https://www.ufsm.br/app/uploads/sites/341/2026/06/Anexo-I-Instrucoes-Especificas.pdf
+- Listagem definitiva de inscrições homologadas (19/08/2026): https://portal.ufsm.br/documentos/download.html?action=componente&download=false&id=7722752
 
-### UNIFAL, Edital Geral 002/2026
-- Página do edital geral, com os oito editais de área: https://www.unifal-mg.edu.br/dips/edital-geral-no-002-2026/
-- Edital Geral 002/2026 no SEI: https://sei.unifal-mg.edu.br/sei/publicacoes/controlador_publicacoes.php?acao=publicacao_visualizar&id_documento=2025969&id_orgao_publicacao=0
-- Edital 111/2026 (Língua Inglesa), página: https://www.unifal-mg.edu.br/dips/edital-no-111-2026
-- Edital 111/2026 no SEI (texto integral, com as regras da prova didática): https://sei.unifal-mg.edu.br/sei/publicacoes/controlador_publicacoes.php?acao=publicacao_visualizar&id_documento=2074551&id_orgao_publicacao=0
-- OBSERVAÇÃO TÉCNICA: o sei.unifal-mg.edu.br é legível por leitura automatizada, ao contrário de muitos portais. As regras da didática foram extraídas de lá.
-- PENDENTE: faltam ler os outros 7 editais de área (39, 41, 102, 103, 104, 105 e 106/2026), para confirmar prazos de inscrição, taxa e barema de cada um.
+## ufpel-028-2026
+- sem link direto coletado nesta rodada (portal não abriu)
 
-## Pistas a confirmar, ainda não entraram no radar
+## unifesp-2026
+- sem link direto coletado nesta rodada (portal não abriu)
 
-### UFMG, Escola de Enfermagem, Nutrição em Esporte e Exercício Físico
-Concurso confirmado, número e prazos não confirmados.
-- Página oficial com os PDFs: https://www.enf.ufmg.br/?page_id=11011
+## usp-fm-199-2026
+- Edital DVACAD/FM/199/2026 (DOE-SP de 14/09/2026): https://doe.sp.gov.br/executivo/universidade-de-sao-paulo/edital-dvacad-fm-199-2026-2026091113422223672120670
 
-### FURB, Editais 01 a 06/2026
-Certames vivos, sem data de prova publicada. PDFs em
-anexos.cdn.selecao.net.br, que não abre por robots mas abre em navegador.
-- https://concursos.furb.br/informacoes/522/ até /527/
+## unesp-assistente-2026
+- sem link direto coletado nesta rodada (portal não abriu)
+
+## unesp-titular-2026
+- sem link direto coletado nesta rodada (portal não abriu)
+
+## uerj-2026
+- UERJ 2026/213 Geografia, edital: https://prossim.uerj.br/selecoes/selecao_1812/edital.pdf
+- UERJ 2026/213 Geografia, errata de cronograma: https://prossim.uerj.br/selecoes/selecao_1812/aviso_1812_1785977885.pdf
+- UERJ 2026/228 Cardiologia, edital: https://prossim.uerj.br/selecoes/selecao_1827/edital.pdf
+- UERJ 2026/228 Cardiologia, edital de alteração: https://prossim.uerj.br/selecoes/selecao_1827/edital_1827_1788546062.pdf
+- UERJ 2026/237 Hematologia, edital: https://prossim.uerj.br/selecoes/selecao_1836/edital.pdf
+- UERJ 2026/237 Hematologia, errata: https://prossim.uerj.br/selecoes/selecao_1836/errata.pdf
+- UERJ 2026/246 Língua Portuguesa, edital: https://prossim.uerj.br/selecoes/selecao_1845/edital.pdf
+- UERJ 2026/243 Gastroenterologia, errata: https://prossim.uerj.br/selecoes/selecao_1842/errata_3a.pdf
+
+## ufsj-2026
+- sem link direto coletado nesta rodada (portal não abriu)
+
+## unimontes-2026
+- Unimontes Edital 01/2026 (Computação): https://concurso.unimontes.br/wp-content/uploads/2026/06/Edital-01_2026-do-Departamento-de-Ciencias-da-Computacao.pdf
+- Unimontes Edital 01/2026, 1ª retificação: https://concurso.unimontes.br/wp-content/uploads/2026/08/Edital-01-Computacao_1a-retificacao-1.pdf
+- Unimontes Edital 17/2026 (Letras), 2ª retificação: https://concurso.unimontes.br/wp-content/uploads/2026/09/Edital-17-Letras_2a-retificacao.pdf
+- Unimontes Edital 27/2026 (Artes): https://concurso.unimontes.br/wp-content/uploads/2026/08/Edital-27-Departamento-de-Artes.pdf
+
+## ufrj-942-2026
+- Edital nº 942/2026: https://concursos.pr4.ufrj.br/images/Edital-942-2026/Edital-942-Edital-SEI_6902675.pdf
+- Anexo III, Cronograma: https://concursos-pr4-ufrj-2022.com.br/UFRJ.2026.Edital942/Edital-942-AnexoIII-Cronograma.pdf
+- Tabela de pontuação de títulos e trabalhos (18/09/2026): https://concursos-pr4-ufrj-2022.com.br/UFRJ.2026.Edital942/Em-2026-09-18-Edital942-Tabela-Pontuacao-Titulos-Trabalhos.pdf
+
+## ufmg-1632-1633-2026
+- Edital nº 1.632/2026: https://www.eba.ufmg.br/wp-content/uploads/2026/07/Edital-1632-13_07_2026-publicado-em-16-07-2026.pdf
+- Edital nº 1.633/2026: https://www.eba.ufmg.br/wp-content/uploads/2026/07/EDITAL_N__1633__DE_13_DE_JULHO_DE_2026.pdf
+- Edital de Convocação nº 2050/2026 (Edital 1.633): https://www.eba.ufmg.br/wp-content/uploads/2026/09/Edital_5527855.html
+
+## ufmg-1638-2026
+- Edital nº 1.638/2026: https://igc.ufmg.br/wp-content/uploads/2026/07/Concurso_-Edital-N-1638_2026_-DCART_-Geociencias-Cartografia-e-Geodesia.pdf
+- Edital nº 1.706/2026 (retificação): https://igc.ufmg.br/wp-content/uploads/2026/07/Edital-n-1706-2026_RETIFICACAO_do_Edital-n-1638-2026_DCART_Geociencias_Cartografia-Geodesia.pdf
+
+## unifal-002-2026
+- Edital Geral nº 002/2026: https://sei.unifal-mg.edu.br/sei/publicacoes/controlador_publicacoes.php?acao=publicacao_visualizar&id_documento=2025969&id_orgao_publicacao=0
+- Edital nº 102/2026: https://sei.unifal-mg.edu.br/sei/publicacoes/controlador_publicacoes.php?acao=publicacao_visualizar&id_documento=2074446
+- Edital nº 111/2026: https://sei.unifal-mg.edu.br/sei/publicacoes/controlador_publicacoes.php?acao=publicacao_visualizar&id_documento=2074551
+- Edital nº 39/2026 (reabertura): https://sei.unifal-mg.edu.br/sei/publicacoes/controlador_publicacoes.php?acao=publicacao_visualizar&id_documento=2082013&id_orgao_publicacao=0
+- Edital nº 41/2026 (reabertura): https://sei.unifal-mg.edu.br/sei/publicacoes/controlador_publicacoes.php?acao=publicacao_visualizar&id_documento=2075075
+
+## usp-if-58-2026 (novo)
+- Edital IF-58/2026 (publicação no DOE): https://portal.if.usp.br/ataac/sites/portal.if.usp.br.ataac/files/Publica%C3%A7%C3%A3o%20DOE_EDITAL_FMA_58_26_concurso_ProfDr.pdf
+- Edital IF-58/2026 em inglês: https://portal.if.usp.br/ataac/sites/portal.if.usp.br.ataac/files/Edital%2058_26%20Informa%C3%A7%C3%A3o%20Qu%C3%A2ntica_em%20ingl%C3%AAs_FMA.pdf
+
+## usp-fm-152-168-2026 (novo)
+- DVACAD/FM/152/2026 (Patologia, Doenças do Sistema Nervoso Central): https://doe.sp.gov.br/executivo/universidade-de-sao-paulo/edital-dvacad-fm-152-2026-2026072813422223671870570
+- DVACAD/FM/153/2026 (Clínica Médica, Reumatologia): https://doe.sp.gov.br/executivo/universidade-de-sao-paulo/edital-dvacad-fm-153-2025-2025110413412223671447659
+- DVACAD/FM/154/2026 (Pediatria Preventiva e Social): https://doe.sp.gov.br/executivo/universidade-de-sao-paulo/edital-dvacad-fm-154-2026-2026072813422223671870806
+- DVACAD/FM/155/2026 (Cirurgia Geral e do Trauma): https://doe.sp.gov.br/executivo/universidade-de-sao-paulo/edital-dvacad-fm-155-2026-2026072813422223671870868
+- DVACAD/FM/166/2026 (Cirurgia Vascular e Endovascular): https://doe.sp.gov.br/executivo/universidade-de-sao-paulo/edital-dvacad-fm-166-2026-2026083113422223671870640
+- DVACAD/FM/167/2026 (Cirurgia Plástica): https://doe.sp.gov.br/executivo/universidade-de-sao-paulo/edital-dvacad-fm-167-2026-2026083113422223671870664
+- DVACAD/FM/168/2026 (Clínica Médica, Nefrologia e Fisiologia Renal): https://doe.sp.gov.br/executivo/universidade-de-sao-paulo/edital-dvacad-fm-168-2026-2026083113422223671870691
+
+## ufrn-108-2026 (novo)
+- Edital nº 108/2026 (DOU nº 175, 16/09/2026): https://sigrh.ufrn.br/publico/concursos/320/edital/424 (o link direto deu 404 fora de sessão; abra pela página https://sigrh.ufrn.br/publico/concursos/320)
+
+## ufersa-030-2026 (novo)
+- Edital nº 030/2026-UFERSA: https://meritux-s3.ufersa.edu.br/meritux/public/documentos/1789953003284-edital-030-2026-professor-efetivo.pdf
+- Anexo I, pontos de estudo: https://meritux-s3.ufersa.edu.br/meritux/public/documentos/1789953360478-anexo-i-pontos-de-estudos.pdf
+- Anexo II, cronograma provisório: https://meritux-s3.ufersa.edu.br/meritux/public/documentos/1789953505012-anexo-ii-cronograma-provisorio-efetivo-grupos-i-ii-e-iii.pdf
+- Anexo III, cálculo IDR/IGD/IEPCD: https://meritux-s3.ufersa.edu.br/meritux/public/documentos/1789953783979-anexo-iii-caculo-do-idr-igd-e-iepcd.pdf

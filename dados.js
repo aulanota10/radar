@@ -1,6 +1,6 @@
 // ═══════════════════════════════════════════════════════════════════════
 //  DADOS DO RADAR DE CONCURSOS · Aula Nota 10
-//  Última verificação: 15/09/2026
+//  Última verificação: 22/09/2026
 //
 //  ESTE É O ÚNICO ARQUIVO QUE VOCÊ PRECISA EDITAR PARA ATUALIZAR O SITE.
 //  Não mexa no index.html.
@@ -32,7 +32,7 @@
 //  Sem data confirmada, use { tipo: "nao_divulgada" } e explique na nota.
 // ═══════════════════════════════════════════════════════════════════════
 
-window.RADAR_ATUALIZADO = "16/09/2026";
+window.RADAR_ATUALIZADO = "22/09/2026";
 
 window.CONCURSOS = [
 
@@ -327,7 +327,7 @@ window.CONCURSOS = [
     regime: "Estatutário (RPPS), em TIDE ou T-34 conforme a vaga",
     banca: "CPPS/PROGESP UNESPAR",
     link_oficial: "https://progesp.unespar.edu.br/menu-principal/concursos-publicos/concurso-publico/edital-n-023-2026-cpps",
-    inscricao: { inicio: "2026-09-03", fim: "2026-09-16", situacao: "aberta", taxa: "R$ 250,00" },
+    inscricao: { inicio: "2026-09-03", fim: "2026-09-16", situacao: "encerrada", taxa: "R$ 250,00" },
     detalhamento: "completo",
     etapas: [
       { nome: "Sorteio dos pontos da prova escrita e da prova didática", tipo: "outra", carater: "",
@@ -385,7 +385,7 @@ window.CONCURSOS = [
     uf: "RJ", sigla: "UERJ",
     instituicao: "Universidade do Estado do Rio de Janeiro",
     nivel: "Magistério Superior",
-    numero_edital: "17 seleções abertas (2026/213, 224, 225, 226, 229, 230, 231, 232, 233, 234, 236, 238, 239, 243, 245, 250 e 251)",
+    numero_edital: "20 seleções abertas (2026/213, 224, 225, 226, 228, 229, 230, 231, 232, 233, 234, 236, 237, 238, 239, 243, 245, 246, 250 e 251)",
     areas: "Ciência da Computação, Metodologia e Técnicas de Computação, Engenharia Econômica, Física Geral, Geografia e Ensino de Geografia, Ciências Ambientais, Engenharia Ambiental, Clínica Médica, Gastroenterologia, Endocrinologia, Fisiatria, Hematologia, Ginecologia e Obstetrícia, Nefrologia e Sistemas Elétricos de Potência (2 seleções)",
     vagas: "1 a 2 vagas por seleção, em 17 seleções independentes",
     campi: "Maracanã, Resende, Cabo Frio e unidades de saúde em Vila Isabel (HUPE, Policlínica Piquet Carneiro, CEPEM)",
@@ -398,17 +398,17 @@ window.CONCURSOS = [
     detalhamento: "completo",
     etapas: [
       { nome: "Prova Escrita", tipo: "discursiva", carater: "Eliminatória e classificatória",
-        data: { tipo: "periodo", valor: "2026-10-26", fim: "2027-03-15", nota: "Cada seleção tem data própria. Geografia 26/10; Clínica Médica (229 e 230), Fisiatria, Hematologia e Gastroenterologia 03/11; Endocrinologia 04/11; Física Geral, Ginecologia e Obstetrícia e Nefrologia 09/11; Engenharia Ambiental e Ciências Ambientais 23/11; Sistemas Elétricos 2026/250 30/11; Engenharia Econômica 01/12; Sistemas Elétricos 2026/251 07/12; Metodologia e Técnicas de Computação 08/12; Ciência da Computação 15/03/2027" },
+        data: { tipo: "periodo", valor: "2026-10-26", fim: "2027-03-15", nota: "Cada seleção tem data própria. Geografia 26/10; Clínica Médica (229 e 230), Fisiatria, Hematologia 2026/232 e Gastroenterologia 03/11; Endocrinologia 04/11; Física Geral, Ginecologia e Obstetrícia e Nefrologia 09/11; Hematologia 2026/237 e Língua Portuguesa 16/11; Engenharia Ambiental e Ciências Ambientais 23/11; Cardiologia (Cabo Frio) 24/11; Sistemas Elétricos 2026/250 30/11; Engenharia Econômica 01/12; Sistemas Elétricos 2026/251 07/12; Metodologia e Técnicas de Computação 08/12; Ciência da Computação 15/03/2027" },
         detalhe: { duracao: "4 horas", formato: "Ponto sorteado poucos minutos antes do início da prova" } },
       { nome: "Prova de Aula", tipo: "didatica", carater: "Eliminatória e classificatória",
-        data: { tipo: "periodo", valor: "2026-10-30", fim: "2027-03-18", nota: "Cada seleção tem data própria. Geografia 30/10; Gastroenterologia 04/11; Clínica Médica (229 e 230) e Fisiatria 05/11; Hematologia e Endocrinologia 06/11; Ginecologia e Obstetrícia e Nefrologia 11/11; Física Geral 12/11; Engenharia Ambiental e Ciências Ambientais 26/11; Sistemas Elétricos 2026/250 02/12; Engenharia Econômica 03/12; Sistemas Elétricos 2026/251 09/12; Metodologia e Técnicas de Computação 10/12; Ciência da Computação 18/03/2027" },
+        data: { tipo: "periodo", valor: "2026-10-30", fim: "2027-03-18", nota: "Cada seleção tem data própria. Geografia 30/10; Gastroenterologia 04/11; Clínica Médica (229 e 230) e Fisiatria 05/11; Hematologia 2026/232 e Endocrinologia 06/11; Ginecologia e Obstetrícia e Nefrologia 11/11; Física Geral 12/11; Hematologia 2026/237 19/11 (sorteio em 18/11); Língua Portuguesa 24/11; Engenharia Ambiental e Ciências Ambientais 26/11; Cardiologia (Cabo Frio) 27/11; Sistemas Elétricos 2026/250 02/12; Engenharia Econômica 03/12; Sistemas Elétricos 2026/251 09/12; Metodologia e Técnicas de Computação 10/12; Ciência da Computação 18/03/2027" },
         detalhe: { duracao: "Aula de 50 a 60 minutos",
                    sorteio: "Sim. Ponto sorteado com 24 horas de antecedência, a partir de uma lista de no mínimo 10 pontos do programa divulgada pela banca",
                    nota_minima: "7,0 na maioria das seleções. Confira no edital da sua seleção",
                    modalidade: "Presencial, em sessão pública e em português. Os candidatos não assistem à aula uns dos outros",
                    criterios: "Três examinadores avaliam capacidade de comunicação, atualização, profundidade de conhecimento e precisão" } },
       { nome: "Entrega de títulos e trabalhos", tipo: "titulos", carater: "Classificatória",
-        data: { tipo: "periodo", valor: "2026-10-30", fim: "2027-03-19", nota: "Em geral no dia da prova de aula ou no dia seguinte. Nas seleções 225 e 226, em 27/11. Na 2026/250, após a prova prática de 04/12" }, detalhe: {} },
+        data: { tipo: "periodo", valor: "2026-10-30", fim: "2027-03-19", nota: "Em geral no dia da prova de aula ou no dia seguinte. Nas seleções 225 e 226, em 27/11. Na 2026/246 (Língua Portuguesa), em 26/11, dois dias após a aula. Na 2026/250, após a prova prática de 04/12" }, detalhe: {} },
       { nome: "Prova Prática (em parte das seleções)", tipo: "outra", carater: "",
         data: { tipo: "periodo", valor: "2026-12-04", fim: "2027-03-19", nota: "2026/250 em 04/12/2026 e 2026/224 em 19/03/2027" }, detalhe: {} },
       { nome: "Defesa de projeto (em parte das seleções)", tipo: "outra", carater: "",
@@ -600,10 +600,10 @@ window.CONCURSOS = [
     detalhamento: "completo",
     etapas: [
       { nome: "Prova Escrita", tipo: "discursiva", carater: "Eliminatória e classificatória",
-        data: { tipo: "exata", valor: "2026-08-30", nota: "Já realizada. Resultado ainda não publicado" },
+        data: { tipo: "exata", valor: "2026-08-30", nota: "Já realizada. Resultado publicado em 15/09" },
         detalhe: { duracao: "3 horas", formato: "Dissertativa, de 3 a 4 páginas", nota_minima: "70 de 100 pontos" } },
       { nome: "Sorteio do tema da prova didática", tipo: "outra", carater: "",
-        data: { tipo: "exata", valor: "2026-09-27", nota: "Previsto para as 8h, em local divulgado na página do edital. A UFLA pode alterar data, horário e local" }, detalhe: {} },
+        data: { tipo: "exata", valor: "2026-09-27", nota: "Às 8h, no Anfiteatro do Setor de Cafeicultura/DAG/ESAL. Levar documento de identidade; não há comprovante de inscrição para a prova didática" }, detalhe: {} },
       { nome: "Prova Didática", tipo: "didatica", carater: "Eliminatória e classificatória",
         data: { tipo: "exata", valor: "2026-09-28", nota: "A partir de 28/09, no mínimo 24 horas após o sorteio. Continua nos dias seguintes se o número de aprovados na escrita exigir" },
         detalhe: { duracao: "Aula de 50 minutos sobre tema sorteado",
@@ -756,9 +756,9 @@ window.CONCURSOS = [
     detalhamento: "completo",
     etapas: [
       { nome: "Homologação final das inscrições e convocação às provas", tipo: "outra", carater: "",
-        data: { tipo: "exata", valor: "2026-09-15" }, detalhe: {} },
+        data: { tipo: "exata", valor: "2026-09-15", nota: "Já realizada: Edital nº 07/2026 de Convocação publicado em 15/09" }, detalhe: {} },
       { nome: "Prova Objetiva", tipo: "objetiva", carater: "Eliminatória e classificatória",
-        data: { tipo: "exata", valor: "2026-09-27", nota: "Turno da tarde, conforme comunicado da FAURGS. O cronograma da banca ainda exibe a linha como data provável" },
+        data: { tipo: "exata", valor: "2026-09-27", nota: "Confirmada pelo Edital de Convocação nº 07/2026. Em Chapecó, Florianópolis e Joinville, portões das 14h45 às 15h30, início às 15h45" },
         detalhe: { questoes: "50 questões de múltipla escolha (5 alternativas, 1 correta). Sem desconto por erro.",
                    local: "Preferencialmente Chapecó, Florianópolis e Joinville",
                    nota_minima: "Mínimo de 55 pontos E acerto mínimo por bloco",
@@ -767,7 +767,7 @@ window.CONCURSOS = [
                      { nome: "Conhecimentos Específicos da área", questoes: 30, pontos: "" }
                    ] } },
       { nome: "Prova Discursiva", tipo: "discursiva", carater: "Eliminatória e classificatória",
-        data: { tipo: "exata", valor: "2026-09-27", nota: "Aplicada no mesmo dia da objetiva, turno da tarde" },
+        data: { tipo: "exata", valor: "2026-09-27", nota: "Aplicada junto com a objetiva, no turno da tarde, início às 15h45, conforme Edital de Convocação nº 07/2026" },
         detalhe: { formato: "Questão única, igual para todas as áreas docentes",
                    local: "Preferencialmente Chapecó, Florianópolis e Joinville" } },
       { nome: "Prova de Desempenho Didático", tipo: "didatica", carater: "Eliminatória e classificatória",
@@ -816,7 +816,7 @@ window.CONCURSOS = [
       { nome: "Prova Escrita", tipo: "discursiva", carater: "Eliminatória e classificatória",
         data: { tipo: "exata", valor: "2026-08-02", nota: "Das 10h às 14h, comum aos editais complementares 95 a 100/2026. Já realizada" }, detalhe: {} },
       { nome: "Prova Didática", tipo: "didatica", carater: "Eliminatória e classificatória",
-        data: { tipo: "periodo", valor: "2026-09-16", fim: "2026-09-18", nota: "Faltam só as da Faculdade de Medicina: Pneumologia (100/2026) em 16/09 às 8h30, com sorteio em 15/09, e Gastroenterologia (98/2026) em 18/09 às 8h30, com sorteio em 17/09. FEELT (03/09) e ESEBA (10/09) já realizadas. Endocrinologia (95/2026) e Psiquiatria (99/2026) ficaram desertas" },
+        data: { tipo: "periodo", valor: "2026-09-03", fim: "2026-09-18", nota: "Todas já realizadas: FEELT (96) em 03/09, ESEBA (97) em 10/09, Pneumologia (100) em 16/09 e Gastroenterologia (98) em 18/09. Resultado preliminar da didática da FEELT publicado em 15/09. Endocrinologia (95) e Psiquiatria (99) desertas" },
         detalhe: { duracao: "Aula de 40 a 50 minutos",
                    sorteio: "Sim. Tema sorteado com no mínimo 24 e no máximo 36 horas de antecedência, junto com o sorteio da ordem de apresentação",
                    arguicao: "No Edital 94/2026 (Magistério Superior), arguição da banca de até 30 minutos",
@@ -827,7 +827,7 @@ window.CONCURSOS = [
       { nome: "Prova Prática, Oral ou Defesa de Projeto (quando previsto)", tipo: "outra", carater: "",
         data: { tipo: "nao_divulgada", nota: "Depende do edital complementar" }, detalhe: {} }
     ],
-    observacao: "Restam duas aulas, ambas na Faculdade de Medicina: Pneumologia em 16/09 e Gastroenterologia em 18/09. O tema sai com 24 a 36 horas de antecedência e a aula é de 40 a 50 minutos, com arguição de até 30 minutos. Cronogramas em portalselecao.ufu.br."
+    observacao: "Todas as aulas deste lote já aconteceram, a última em 18/09 (Gastroenterologia). Agora é aguardar os resultados da prova didática e a análise de títulos no portalselecao.ufu.br."
   },
 
   // ══════════ URCA · Edital 02/2026-GR (MS · escrita 18/10 · didática 13 a 15/11) ══════════
@@ -1632,11 +1632,11 @@ window.CONCURSOS = [
     regime: "Estatutário estadual de Minas Gerais, 40 horas",
     banca: "Comissão própria, com banca examinadora de 3 titulares e 2 suplentes por área",
     link_oficial: "https://concurso.unimontes.br/editais-recentes/",
-    inscricao: { inicio: "2026-08-24", fim: "2026-12-19", situacao: "aberta", taxa: "R$ 100,00 (especialização), R$ 150,00 (mestrado), R$ 200,00 (doutorado). As datas variam por edital: o 01/2026 e outros vão de 24/08 a 24/10, e o 07/2026 e outros de 19/10 a 19/12" },
+    inscricao: { inicio: "2026-08-24", fim: "2026-12-19", situacao: "aberta", taxa: "R$ 100,00 (especialização), R$ 150,00 (mestrado), R$ 200,00 (doutorado). Cada edital tem prazo próprio: 01, 02, 03 e outros de 24/08 a 24/10; 06 de 31/08 a 01/11; 08, 09 e 11 de 03/09 a 03/11; e 07, 12 a 16, 17 (Letras, após a 2ª retificação), 18 a 22 e 24 só de 19/10 a 19/12. Confira o prazo no seu edital antes de pagar" },
     detalhamento: "completo",
     etapas: [
       { nome: "Prova de Conhecimentos", tipo: "discursiva", carater: "Eliminatória e classificatória",
-        data: { tipo: "periodo", valor: "2027-01-10", fim: "2027-02-21", nota: "A data varia por edital, após as retificações que adiaram a antiga data de 08/11/2026. Artes (27) em 10/01; editais 01, 04, 05, 07 e 10 em 14/02 de manhã; Letras (17) em 14/02 à tarde; Fisiopatologia (23) em 21/02 de manhã; Enfermagem (25) e Educação Física (26) em 21/02 à tarde" },
+        data: { tipo: "periodo", valor: "2027-01-10", fim: "2027-02-21", nota: "A data varia por edital, após as retificações que adiaram a antiga data de 08/11/2026. Artes (27) em 10/01; editais 01 a 10 em 14/02 de manhã; editais 11 a 17 em 14/02 à tarde; editais 18 a 23 em 21/02 de manhã; editais 24, 25 e 26 em 21/02 à tarde" },
         detalhe: {} },
       { nome: "Prova Didática", tipo: "didatica", carater: "Eliminatória e classificatória",
         data: { tipo: "nao_divulgada", nota: "Após a prova de conhecimentos do seu edital, marcada para 14/02/2027 nos editais 01 e 17, já retificados em 21/08. Data, horário e local da didática saem com antecedência mínima de 30 dias" },
@@ -1833,10 +1833,10 @@ window.CONCURSOS = [
       { nome: "Sorteio dos pontos das provas escrita e didática", tipo: "outra", carater: "",
         data: { tipo: "exata", valor: "2026-08-29", nota: "Realizado às 7h30, convocado pelo Edital de Convocação CCS n.º 12, de 27/08/2026. O ponto da aula já é conhecido desde então" }, detalhe: {} },
       { nome: "Prova Escrita", tipo: "discursiva", carater: "Eliminatória e classificatória",
-        data: { tipo: "exata", valor: "2026-08-30", nota: "Já realizada, às 8h30, nos Blocos B e C da Unidade 2 da UFGD, em Dourados/MS. Resultado preliminar em 10/09, com recurso em 11/09" },
+        data: { tipo: "exata", valor: "2026-08-30", nota: "Já realizada, às 8h30, nos Blocos B e C da Unidade 2 da UFGD, em Dourados/MS. Resultado final homologado pelo Edital de Homologação CCS n.º 41, de 16/09/2026" },
         detalhe: { duracao: "Até 3 horas, texto de 2 a 10 laudas", nota_minima: "7,00" } },
       { nome: "Prova Didática", tipo: "didatica", carater: "Eliminatória e classificatória · peso 4",
-        data: { tipo: "nao_divulgada", nota: "CONFIRMADO em três documentos oficiais: o Anexo II do edital consolidado não fixa data para a didática, o item 16.3 remete a Edital de Convocação próprio, e o Edital de Convocação CCS n.º 12, de 27/08, convocou só o sorteio e a prova escrita, sem nenhuma menção à aula. Ela é marcada em Edital de Convocação próprio. As datas 19 e 20/09 que circulam são do CDPT 2025, outro certame. Pelo próprio cronograma, a aula tem de ocorrer antes do resultado preliminar de 24/11/2026" },
+        data: { tipo: "exata", valor: "2026-09-19", nota: "Já realizada, no sábado 19/09, nos Blocos B e C da Unidade II da UFGD, em Dourados/MS, com sorteio da ordem de apresentação obrigatório. Convocada pelo Edital de Convocação CCS n.º 14, de 17/09/2026. Aguarde o resultado preliminar" },
         detalhe: { duracao: "Aula de 40 a 50 minutos, com tempo rigorosamente marcado. Ficar abaixo do mínimo ou passar do máximo custa 1 ponto na nota",
                    sorteio: "O ponto da didática é sorteado 24 horas antes do início da PROVA ESCRITA, na mesma sessão pública do ponto da escrita, com presença facultativa. Os pontos saem na página do concurso em até 2 horas. O ponto que caiu na escrita fica fora do sorteio da didática",
                    nota_minima: "7,00, com peso 4, o maior do concurso. A escrita tem peso 3 e os títulos, peso 3",
@@ -1849,7 +1849,7 @@ window.CONCURSOS = [
       { nome: "Resultado final", tipo: "resultado", carater: "",
         data: { tipo: "exata", valor: "2026-11-26", nota: "Homologação do resultado final, enviada ao DOU. Resultado preliminar em 24/11 e recurso em 25/11" }, detalhe: {} }
     ],
-    observacao: "O ponto da aula saiu em 29/08, junto com o da escrita, e a aula ainda não foi marcada: ninguém chega de surpresa, e a banca compara aulas preparadas com semanas de antecedência. A didática tem peso 4, o maior do concurso, contra 3 da escrita e 3 dos títulos. Só chegam nela os 5 melhores por vaga. Detalhes que pegam: o plano de aula é uma via impressa para CADA membro da banca, não uma só; a sala tem projetor HDMI, quadro e giz, mas NÃO tem Wi-Fi; e se você levar equipamento próprio, o tempo de montagem sai do seu tempo de aula. Fora do intervalo de 40 a 50 minutos, perde 1 ponto. Atenção à confusão que circula: as datas 19 e 20/09 são do CDPT 2025, não deste concurso. A convocação do Edital 5/2026 ainda não saiu, e pelo cronograma a aula tem de ocorrer antes de 24/11."
+    observacao: "A prova didática aconteceu em 19/09/2026, convocada pelo Edital CCS n.º 14 de 17/09, apenas dois dias antes. O ponto era conhecido desde 29/08. Agora é aguardar o resultado da didática e seguir para o cadastramento dos títulos, de 27 a 29/10. O resultado final está previsto para 26/11/2026."
   },
 
   // ══════════ UFU · Edital 118/2026 (MS · escrita 27/09 · didáticas de 27/10 a 11/11) ══════════
@@ -1923,10 +1923,10 @@ window.CONCURSOS = [
     detalhamento: "basico",
     etapas: [
       { nome: "Prova Escrita (somente Edital 1.633)", tipo: "discursiva", carater: "Eliminatória",
-        data: { tipo: "nao_divulgada", nota: "As provas começam entre 30 e 90 dias após 17/08, com convocação publicada com no mínimo 15 dias de antecedência" },
+        data: { tipo: "exata", valor: "2026-10-05", nota: "Das 13h30 às 18h30, sala D206, 2º andar do prédio sede da Escola de Belas Artes, campus Pampulha. A comissão se instala às 10h do mesmo dia. Edital de Convocação nº 2050/2026, de 04/09" },
         detalhe: { duracao: "Até 5 horas", nota_minima: "70%" } },
       { nome: "Prova Didática", tipo: "didatica", carater: "Classificatória",
-        data: { tipo: "nao_divulgada", nota: "O edital prevê início do concurso de 30 a 90 dias contados do encerramento das inscrições em 17/08, ou seja, entre 16/09 e 15/11/2026. A convocação sai com no mínimo 15 dias de antecedência" },
+        data: { tipo: "nao_divulgada", nota: "No Edital 1.633 (Moda), vem depois da prova escrita de 05/10/2026, em data ainda não publicada. No Edital 1.632 (Desenho e Artes Visuais), a convocação ainda não saiu: o concurso começa até 15/11/2026, com convocação publicada com no mínimo 15 dias de antecedência" },
         detalhe: { duracao: "50 minutos para a exposição do tema, seguidos de arguição pelo tempo do cronograma",
                    sorteio: "Ponto sorteado de lista organizada pela Comissão Examinadora, com base no programa do concurso, pelo menos 24 horas antes do início da prova",
                    nota_minima: "Média de 70 pontos no Edital 1.632. Cada examinador dá nota INTEIRA de 0 a 100. Confira o Edital 1.633",
@@ -1937,7 +1937,7 @@ window.CONCURSOS = [
       { nome: "Prova Prática de desenho de observação (Edital 1.632)", tipo: "outra", carater: "Classificatória",
         data: { tipo: "nao_divulgada", nota: "Na mesma janela de 16/09 a 15/11/2026. É a segunda das três provas do Edital 1.632, junto com Títulos e Didática" }, detalhe: { duracao: "Até 4 horas" } },
       { nome: "Análise de portfólio (Edital 1.633)", tipo: "outra", carater: "Classificatória",
-        data: { tipo: "nao_divulgada", nota: "Após a prova escrita" }, detalhe: { formato: "20 a 30 imagens" } },
+        data: { tipo: "nao_divulgada", nota: "Após a prova escrita de 05/10/2026" }, detalhe: { formato: "20 a 30 imagens" } },
       { nome: "Julgamento de Títulos", tipo: "titulos", carater: "Classificatória",
         data: { tipo: "nao_divulgada" }, detalhe: {} }
     ],
@@ -2247,7 +2247,7 @@ window.CONCURSOS = [
     regime: "40 horas semanais",
     banca: "IDCAP, em conjunto com a PGDP/UNEB",
     link_oficial: "https://uneb.selecao.net.br/informacoes/22/",
-    inscricao: { inicio: "2026-09-17", fim: "2026-10-01", situacao: "abre_em_breve", taxa: "R$ 200,00. Isenção em 17 e 18/09" },
+    inscricao: { inicio: "2026-09-17", fim: "2026-10-01", situacao: "aberta", taxa: "R$ 200,00. Isenção em 17 e 18/09" },
     detalhamento: "completo",
     etapas: [
       { nome: "Prova Escrita", tipo: "discursiva", carater: "Eliminatória e classificatória · peso 4",
@@ -2292,7 +2292,7 @@ window.CONCURSOS = [
     regime: "RTC, Regime de Turno Completo",
     banca: "Comissão julgadora própria da USP",
     link_oficial: "https://www.fm.usp.br/atac/professor-doutor/concursos-de-professor-doutor-ms-3-em-andamento",
-    inscricao: { inicio: "2026-09-21", fim: "2026-11-04", situacao: "abre_em_breve", taxa: "Consulte o edital" },
+    inscricao: { inicio: "2026-09-21", fim: "2026-11-04", situacao: "aberta", taxa: "Consulte o edital" },
     detalhamento: "basico",
     etapas: [
       { nome: "Julgamento do Memorial com Prova Pública de Arguição", tipo: "memorial", carater: "",
@@ -2527,6 +2527,152 @@ window.CONCURSOS = [
         data: { tipo: "nao_divulgada", nota: "Vence quem obtiver o maior número de indicações dos examinadores. Validade do concurso: 6 meses, prorrogáveis uma vez" }, detalhe: {} }
     ],
     observacao: "São 12 concursos independentes, com prazos de 16/09 a 22/10: confira o seu antes de tudo. O funcionamento é o oposto de tudo o mais no radar. Não há sorteio de ponto: o próprio candidato escolhe o assunto da aula na inscrição e já entrega ali o plano de aula e a bibliografia. A aula é de 50 a 60 minutos e em nível de pós-graduação, não de graduação. Como o tema é escolhido e o plano vai antes, a banca julga exatamente o que você se propôs a fazer, e a coerência entre proposta e execução é o que está em jogo. A didática pesa 1, contra 2 dos títulos, então decide desempate mais do que classificação. Exige Livre-Docência há pelo menos 6 anos: é concurso para quem já está na carreira, não porta de entrada. Cada edital tem página própria em inscricoes.unesp.br."
+  },
+
+  // ══════════ USP · Edital IF-58/2026, Instituto de Física (MS · didática sem data) ══════════
+  {
+    id: "usp-if-58-2026", logo: "usp.png",
+    formacoes_status: "nao_extraido",
+    familias: [],
+    formacoes: [],
+    familias_pos: [],
+    areas_formacoes: [],
+    uf: "SP", sigla: "USP",
+    instituicao: "Universidade de São Paulo, Instituto de Física",
+    nivel: "Magistério Superior",
+    numero_edital: "Edital IF-58/2026, de 25/06/2026 (DOE), página publicada em 06/07/2026",
+    areas: "1 vaga de Professor Doutor (MS-3) em Informação Quântica, no Departamento de Física Matemática",
+    vagas: "1 vaga",
+    campi: "Instituto de Física, Cidade Universitária, São Paulo/SP",
+    titulacao: "Doutorado (título outorgado pela USP, por ela reconhecido ou de validade nacional)",
+    remuneracao: "R$ 16.353,01 (referência maio/2025, RDIDP)",
+    regime: "RDIDP, Regime de Dedicação Integral à Docência e à Pesquisa",
+    banca: "Comissão julgadora própria da USP",
+    link_oficial: "https://portal.if.usp.br/ataac/pt-br/node/8165",
+    inscricao: { inicio: "2026-07-04", fim: "2026-10-01", situacao: "aberta", taxa: "Consultar o edital" },
+    detalhamento: "basico",
+    etapas: [
+      { nome: "Julgamento do Memorial com prova pública de arguição", tipo: "memorial", carater: "Peso 4",
+        data: { tipo: "nao_divulgada", nota: "As provas começam de 30 a 120 dias após a publicação da aprovação das inscrições, que só ocorre depois de 01/10" }, detalhe: {} },
+      { nome: "Prova Didática e arguição", tipo: "didatica", carater: "Peso 3",
+        data: { tipo: "nao_divulgada", nota: "De 30 a 120 dias após a publicação da aprovação das inscrições (fim das inscrições em 01/10)" }, detalhe: { duracao: "Mínimo de 40 e máximo de 60 minutos", sorteio: "Consultar o edital", nota_minima: "Nota final mínima 7, pela maioria dos examinadores", arguicao: "Sim, arguição após a aula", modalidade: "Presencial, pública, em português ou inglês (escolha na inscrição)", plano_de_aula: "Consultar o edital. Programa: oscilador harmônico quântico, átomo de hidrogênio, adição de momento angular, partículas idênticas, perturbações, WKB, espalhamento, matriz densidade e emaranhamento; nível de pós-graduação" } },
+      { nome: "Apresentação do Projeto de Pesquisa e arguição", tipo: "outra", carater: "Peso 3",
+        data: { tipo: "nao_divulgada", nota: "Na mesma janela das demais provas" }, detalhe: { duracao: "Até 60 minutos para a banca e 60 minutos para o candidato" } },
+      { nome: "Resultado final", tipo: "resultado", carater: "",
+        data: { tipo: "nao_divulgada", nota: "Após as provas" }, detalhe: {} }
+    ],
+    observacao: "Não tem prova escrita: a aula de 40 a 60 minutos, em nível de pós-graduação e com programa fechado de mecânica quântica, pesa 3 e divide a nota com o memorial arguido e o projeto de pesquisa. Dá para fazer em inglês."
+  },
+
+  // ══════════ USP · Editais DVACAD/FM 152 a 168/2026 (MS · didática sem data) ══════════
+  {
+    id: "usp-fm-152-168-2026", logo: "usp.png",
+    formacoes_status: "nao_extraido",
+    familias: [],
+    formacoes: [],
+    familias_pos: [],
+    areas_formacoes: [],
+    uf: "SP", sigla: "USP",
+    instituicao: "Universidade de São Paulo, Faculdade de Medicina",
+    nivel: "Magistério Superior",
+    numero_edital: "Editais DVACAD/FM nº 152, 153, 154, 155, 166, 167 e 168/2026",
+    areas: "7 concursos de Professor Doutor (MS-3): Doenças do Sistema Nervoso Central (Patologia), Reumatologia, Pediatria Preventiva e Social, Cirurgia Geral e do Trauma, Cirurgia Vascular e Endovascular, Cirurgia Plástica e Nefrologia/Fisiologia Renal",
+    vagas: "7 concursos (consultar o número de vagas em cada edital)",
+    campi: "Faculdade de Medicina, São Paulo/SP",
+    titulacao: "Doutorado, com requisitos específicos por área (consultar cada edital)",
+    remuneracao: "R$ 7.477,48 (RTC) ou R$ 16.994,01 (RDIDP), referência maio/2026, conforme o edital",
+    regime: "RTC ou RDIDP, conforme o edital",
+    banca: "Comissão julgadora própria da USP",
+    link_oficial: "https://www.fm.usp.br/atac/professor-doutor/concursos-de-professor-doutor-ms-3-em-andamento",
+    inscricao: { inicio: "2026-08-17", fim: "2026-10-23", situacao: "aberta", taxa: "Consultar o edital" },
+    detalhamento: "basico",
+    etapas: [
+      { nome: "Julgamento do Memorial com prova pública de arguição", tipo: "memorial", carater: "Consultar o edital",
+        data: { tipo: "nao_divulgada", nota: "Sai na convocação de cada edital, depois do fim das inscrições" }, detalhe: {} },
+      { nome: "Prova Didática", tipo: "didatica", carater: "Consultar o edital",
+        data: { tipo: "nao_divulgada", nota: "Sai na convocação de cada edital, depois do fim das inscrições (30/09, 02/10 ou 23/10, conforme o edital)" }, detalhe: { duracao: "Consultar o edital", sorteio: "Consultar o edital", nota_minima: "Consultar o edital", arguicao: "Consultar o edital", modalidade: "Presencial, na Faculdade de Medicina, em São Paulo", plano_de_aula: "Consultar o edital" } },
+      { nome: "Demais provas previstas no edital", tipo: "outra", carater: "Consultar o edital",
+        data: { tipo: "nao_divulgada", nota: "Na mesma convocação" }, detalhe: {} },
+      { nome: "Resultado final", tipo: "resultado", carater: "",
+        data: { tipo: "nao_divulgada", nota: "Após as provas" }, detalhe: {} }
+    ],
+    observacao: "São 7 concursos independentes, cada um com prazo próprio: 152 e 153 fecham em 30/09, 154 e 155 em 02/10, e 166, 167 e 168 em 23/10. Leia o seu edital para saber duração da aula, sorteio e demais provas."
+  },
+
+  // ══════════ UFRN · Edital 108/2026 (MS · inscrições de 28/09 a 23/10) ══════════
+  {
+    id: "ufrn-108-2026", logo: "ufrn.png",
+    formacoes_status: "nao_extraido",
+    familias: [],
+    formacoes: [],
+    familias_pos: [],
+    areas_formacoes: [],
+    uf: "RN", sigla: "UFRN",
+    instituicao: "Universidade Federal do Rio Grande do Norte",
+    nivel: "Magistério Superior",
+    numero_edital: "Edital nº 108/2026, de 15/09/2026, publicado no DOU nº 175 de 16/09/2026",
+    areas: "Medicina de Urgência, Ensino de História, três áreas de segurança cibernética no IMD, Biologia Celular e Molecular e Biofísica, Estado, Sociedade e Políticas Públicas, Funcionalidade do Corpo Humano, e Administração e Marketing",
+    vagas: "9 vagas, uma por área",
+    campi: "Natal (Departamento de Medicina Integrada e IMD), Caicó (CERES), Santa Cruz (FACISA) e Currais Novos (FELCS)",
+    titulacao: "Consultar o edital, conforme a área",
+    remuneracao: "Consultar o edital",
+    regime: "Consultar o edital, conforme a área",
+    banca: "Comissões julgadoras dos departamentos, com inscrição pelo SIGRH/UFRN",
+    link_oficial: "https://sigrh.ufrn.br/publico/concursos/320",
+    inscricao: { inicio: "2026-09-28", fim: "2026-10-23", situacao: "abre_em_breve", taxa: "Consultar o edital" },
+    detalhamento: "basico",
+    etapas: [
+      { nome: "Prova Escrita", tipo: "discursiva", carater: "Eliminatória e classificatória",
+        data: { tipo: "nao_divulgada", nota: "Consta do edital de abertura (DOU nº 175, de 16/09/2026), que não abriu nesta verificação. Confira no edital" }, detalhe: {} },
+      { nome: "Prova Didática", tipo: "didatica", carater: "Eliminatória e classificatória",
+        data: { tipo: "nao_divulgada", nota: "Após a prova escrita. Consta do edital de abertura (DOU nº 175, de 16/09/2026), que não abriu nesta verificação. Confira no edital" }, detalhe: {} },
+      { nome: "Avaliação de Memorial e Projeto Profissional", tipo: "memorial", carater: "",
+        data: { tipo: "nao_divulgada", nota: "Após a prova didática" }, detalhe: {} },
+      { nome: "Análise de Títulos", tipo: "titulos", carater: "Classificatória",
+        data: { tipo: "nao_divulgada" }, detalhe: {} },
+      { nome: "Resultado final", tipo: "resultado", carater: "",
+        data: { tipo: "nao_divulgada" }, detalhe: {} }
+    ],
+    observacao: "Inscrição de 28/09 a 23/10 pelo SIGRH, com 9 vagas espalhadas por Natal, Caicó, Santa Cruz e Currais Novos. As datas das provas estão no edital de abertura: leia antes de se inscrever e confira os pontos da sua área."
+  },
+
+  // ══════════ UFERSA · Edital 030/2026 (MS · didática de 30/11 a 03/12) ══════════
+  {
+    id: "ufersa-030-2026",
+    formacoes_status: "nao_extraido",
+    familias: [],
+    formacoes: [],
+    familias_pos: [],
+    areas_formacoes: [],
+    uf: "RN", sigla: "UFERSA",
+    instituicao: "Universidade Federal Rural do Semi-Árido",
+    nivel: "Magistério Superior",
+    numero_edital: "Edital nº 030/2026-UFERSA, de 21/09/2026, com Anexo I (pontos) e Anexo II (cronograma provisório)",
+    areas: "25 vagas de Professor Assistente A, em áreas como geologia, química, fenômenos de transporte, manejo e recuperação ambiental, direito, contabilidade, psicologia, microbiologia, saúde coletiva, biologia celular, fisiologia, medicina, fonoaudiologia, terapia ocupacional, língua latina, arquitetura, estruturas civis, engenharia de software e desenvolvimento web",
+    vagas: "25 vagas (14 ampla concorrência, 6 pretos e pardos, 1 indígena, 1 quilombola e 3 PcD)",
+    campi: "Mossoró, Caraúbas, Angicos e Pau dos Ferros, no RN",
+    titulacao: "Doutorado na maioria das vagas. Confira a exigência da sua área no quadro de vagas do edital",
+    remuneracao: "Até R$ 14.288,85 em 40 horas com dedicação exclusiva e doutorado, somando vencimento, retribuição por titulação e auxílio alimentação",
+    regime: "40 horas com dedicação exclusiva, com vagas em 20 horas conforme o quadro do edital",
+    banca: "UFERSA, com inscrição pelo sistema Meritux",
+    link_oficial: "https://meritux.ufersa.edu.br/processos/edital-030-2026",
+    inscricao: { inicio: "2026-09-25", fim: "2026-10-11", situacao: "abre_em_breve", taxa: "R$ 80,00 (20 horas), R$ 180,00 (40 horas com mestrado) e R$ 330,00 (40 horas com doutorado). Pagamento até 12/10" },
+    detalhamento: "completo",
+    etapas: [
+      { nome: "Prova Escrita", tipo: "discursiva", carater: "Eliminatória e classificatória",
+        data: { tipo: "exata", valor: "2026-11-22", nota: "Às 8h30, com 240 minutos de duração, peso 3 e nota mínima 7. Resultado em 25/11" }, detalhe: {} },
+      { nome: "Sorteio do ponto da prova de aptidão didática", tipo: "outra", carater: "",
+        data: { tipo: "periodo", valor: "2026-11-29", fim: "2026-12-01", nota: "Grupo I em 29/11, Grupo II em 30/11 e Grupo III em 01/12, com no mínimo 24 horas de antecedência em relação à aula" }, detalhe: {} },
+      { nome: "Prova de Aptidão Didática", tipo: "didatica", carater: "Eliminatória e classificatória · peso 3",
+        data: { tipo: "periodo", valor: "2026-11-30", fim: "2026-12-03", nota: "Pelo cronograma provisório (Anexo II): Grupo I em 30/11, podendo seguir em 01/12; Grupo II em 01/12, podendo seguir em 02/12; Grupo III em 02/12, podendo seguir em 03/12. Resultado preliminar em 02/12" }, detalhe: { duracao: "Aula expositiva teórico-prática, de 40 a 60 minutos", sorteio: "Ponto sorteado entre 9, excluído o que caiu na prova escrita, com no mínimo 24 horas de antecedência", nota_minima: "7,0", arguicao: "", modalidade: "Presencial, gravada em áudio e vídeo", plano_de_aula: "Três vias impressas, entregues à banca antes da apresentação" } },
+      { nome: "Defesa de Memorial e Plano de Trabalho", tipo: "memorial", carater: "Eliminatória e classificatória · peso 2",
+        data: { tipo: "periodo", valor: "2026-12-08", fim: "2026-12-10", nota: "Entrega dos documentos em 06 e 07/12. Apresentação: Grupo I em 08/12, Grupo II em 09/12 e Grupo III em 10/12" }, detalhe: {} },
+      { nome: "Exame de Títulos", tipo: "titulos", carater: "Classificatório · peso 2",
+        data: { tipo: "periodo", valor: "2026-12-13", fim: "2026-12-14", nota: "Período de envio dos títulos. Resultado em 16/12" }, detalhe: {} },
+      { nome: "Resultado final", tipo: "resultado", carater: "",
+        data: { tipo: "exata", valor: "2026-12-22" }, detalhe: {} }
+    ],
+    observacao: "A aula cai de 30/11 a 03/12, conforme o grupo, e o ponto sai com 24 horas de antecedência, tirado de 9 pontos do Anexo I, sem o que já caiu na escrita. São 40 a 60 minutos, com três vias impressas do plano de aula e gravação em áudio e vídeo. O cronograma é provisório: confirme o seu grupo antes de fechar a agenda."
   }
 
 ];
