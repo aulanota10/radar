@@ -1,6 +1,6 @@
 // ═══════════════════════════════════════════════════════════════════════
 //  DADOS DO RADAR DE CONCURSOS · Aula Nota 10
-//  Última verificação: 22/09/2026
+//  Última verificação: 23/09/2026
 //
 //  ESTE É O ÚNICO ARQUIVO QUE VOCÊ PRECISA EDITAR PARA ATUALIZAR O SITE.
 //  Não mexa no index.html.
@@ -32,7 +32,7 @@
 //  Sem data confirmada, use { tipo: "nao_divulgada" } e explique na nota.
 // ═══════════════════════════════════════════════════════════════════════
 
-window.RADAR_ATUALIZADO = "22/09/2026";
+window.RADAR_ATUALIZADO = "23/09/2026";
 
 window.CONCURSOS = [
 
@@ -1152,11 +1152,11 @@ window.CONCURSOS = [
       {"codigo": "04", "area": "Enfermagem.", "campus": "Centro de Educação Profissional / CEFORES", "vagas": 1, "requisito": "Graduação em Enfermagem; e Registro no Conselho competente, Conselho Regional de Enfermagem (COREN).", "fonte": "2, Quadro de Vagas - Abertura, Lotação 04, p. 2", "nivel_minimo": "graduacao", "formacoes": [{"curso": "Enfermagem", "familia": "Saúde", "modalidade": ["nao_especificada"], "carater": "exigida"}], "titulacoes": []}
     ],
     instituicao: "Universidade Federal do Triângulo Mineiro", nivel: "EBTT",
-    numero_edital: "Edital nº 28, de 17/07/2026, publicado em 20/07, com a Retificação 01 (adiou a escrita de 13/09 para 20/09) e a Retificação 02 de 24/08 (adiou a divulgação da banca de 25/08 para 28/08)",
+    numero_edital: "Edital nº 28/2026, publicado em 20/07, com a Retificação 01 de 23/07 (escrita de 13/09 para 20/09) e a Retificação 02 de 25/08 (banca e modalidade). Portarias de banca 833 a 836 de 28/08, sendo a da Lotação 01 retificada em 04/09 e em 11/09",
     areas: "Centro de Educação Profissional (CEFORES), em 4 lotações: Morfologia, Anatomia Patológica e Patologia Clínica (Lotação 01), Radiologia (Lotação 02), Odontologia, Clínica Odontológica e Materiais Odontológicos (Lotação 03) e Enfermagem (Lotação 04)",
     vagas: "4 vagas",
     campi: "Uberaba/MG, Centro de Educação Profissional CEFORES", titulacao: "Conforme a lotação",
-    remuneracao: "R$ 6.397,19 (Nível 1, Classe A) em 40h com dedicação exclusiva",
+    remuneracao: "R$ 6.397,19 de vencimento básico em 40 horas com dedicação exclusiva, chegando a R$ 13.753,96 com doutorado",
     regime: "40 horas com dedicação exclusiva",
     banca: "Comissão própria da UFTM",
     link_oficial: "https://sistemas.uftm.edu.br/integrado/sistemas/pub/publicacao.html?secao=101",
@@ -1164,25 +1164,27 @@ window.CONCURSOS = [
     detalhamento: "completo",
     etapas: [
       { nome: "Divulgação dos locais de prova e ensalamento", tipo: "outra", carater: "",
-        data: { tipo: "exata", valor: "2026-09-11", nota: "Prazo limite, conforme a Retificação 01" }, detalhe: {} },
+        data: { tipo: "exata", valor: "2026-09-10", nota: "Convocação para a prova escrita, com ensalamento, publicada em 10/09" }, detalhe: {} },
       { nome: "Prova Escrita", tipo: "discursiva", carater: "Eliminatória",
-        data: { tipo: "exata", valor: "2026-09-20", nota: "Data alterada pela Retificação 01. Era 13/09 e passou para 20/09. O resultado sai em data própria de cada lotação: 28/09 na Radiologia, 30/09 na Enfermagem e 05/10 na Lotação 01" },
+        data: { tipo: "exata", valor: "2026-09-20", nota: "Já realizada, às 8h, em Uberaba, com 4 horas de duração e a primeira hora reservada para consulta a material. O resultado sai por lotação: 28/09 nas Lotações 02 (Radiologia) e 03 (Odontologia), 30/09 na Lotação 04 (Enfermagem) e 05/10 na Lotação 01 (Morfologia e Patologia)" },
         detalhe: { formato: "Temas na Relação de Temas publicada em 20/07 (Anexo I), comum às provas escrita, didática e prática" } },
       { nome: "Prova Didática", tipo: "didatica", carater: "Eliminatória e classificatória",
-        data: { tipo: "periodo", valor: "2026-10-01", fim: "2026-11-17", nota: "Cronograma por lotação, publicado nas Portarias 833 a 836 de 28/08. Portaria 836: aulas de 01 a 07/10, resultado em 09/10. Portaria 835 (Enfermagem): 06 a 09/10, resultado em 16/10. Portaria 833 (Ciências Biológicas e Saúde): 09/10 a 17/11 em 8 turmas, resultado em 23/11. Portaria 834 (Radiologia): 21 a 23/10, resultado em 27/10. CONFIRA A SUA: as datas variam em mais de um mês entre lotações" },
+        data: { tipo: "periodo", valor: "2026-10-01", fim: "2026-11-24", nota: "Datas por lotação, nas Portarias 833 a 836 de 28/08, com a da Lotação 01 retificada em 11/09. Lotação 03 (Odontologia): aulas de 01 a 07/10, em 8 turmas, resultado em 09/10. Lotação 04 (Enfermagem): 06 a 09/10, em 8 turmas, resultado em 16/10. Lotação 02 (Radiologia): 21 a 23/10, em 4 turmas, resultado em 27/10. Lotação 01: 09/10, 16/10, 20/10, 27/10, 30/10, 06/11, 17/11 e 24/11, uma turma por data, resultado em 30/11" },
         detalhe: { duracao: "50 minutos, com tolerância de 5. Apresentar menos de 35 minutos, que é 70% do tempo, ELIMINA o candidato. Aos 55 minutos a banca interrompe",
-                   sorteio: "O tema sai do Anexo I, a mesma relação da prova escrita. Sorteado no dia anterior à aula, e o candidato fica em CONFINAMENTO até a apresentação",
+                   sorteio: "O tema sai do Anexo I, a mesma relação da prova escrita, excluído o tema já usado na escrita. Sorteado com no mínimo 24 horas de antecedência, em sessão pública de presença obrigatória, sob pena de eliminação. No dia da aula o candidato fica em confinamento até a apresentação",
                    nota_minima: "7,0, atribuído pela maioria dos avaliadores",
-                   arguicao: "Não prevista no edital",
-                   modalidade: "Presencial, no Centro Educacional da UFTM em Uberaba. A modalidade de cada lotação, presencial ou híbrida, foi divulgada em 28/08 junto com a banca",
+                   arguicao: "Sim. Ao final da aula a banca pode arguir sobre o tema sorteado, por até 30 minutos (item 8.4.23)",
+                   modalidade: "Presencial para o candidato, no Centro Educacional da UFTM em Uberaba. Lotações 02 e 03 são presenciais; Lotações 01 e 04 são híbridas, com até 2 membros titulares da banca por videoconferência. A aula é gravada",
                    ordem: "Os candidatos são divididos em turmas, com sorteio e aula em dias sucessivos. A Portaria 833 chega a 8 turmas",
-                   criterios: "10,00 pontos: domínio teórico-prático 4,50, organização e comunicabilidade 2,50, adequação ao tempo 2,00 e plano de aula 1,00" } },
+                   criterios: "10,00 pontos: domínio teórico-prático 4,50, organização de ideias, clareza e comunicabilidade 2,50, adequação ao tempo 2,00 e plano de aula 1,00",
+                   plano_de_aula: "Quatro cópias impressas entregues ao entrar na sala de confinamento, mais o PDF enviado ao e-mail do presidente da banca até 1 hora antes do confinamento. Deve trazer objetivos, conteúdo, metodologias, recursos, avaliação e referências. Falha aqui desconta nota",
+                   recursos: "Projetor multimídia e computador só se o candidato pedir na sessão de sorteio do tema. A UFTM não fornece equipamento para preparar a apresentação" } },
       { nome: "Prova Prática (somente Radiologia, Lotação 02)", tipo: "outra", carater: "",
-        data: { tipo: "exata", valor: "2026-10-08", nota: "Sorteio do tema às 13h e aplicação às 13h30, pela Portaria 834 de 28/08. Resultado em 09/10 às 17h" }, detalhe: {} },
+        data: { tipo: "exata", valor: "2026-10-08", nota: "Sorteio do tema às 13h e aplicação às 13h30, na Sala 322 do Centro Educacional. Simulação de exame de raios X, com até 12 minutos e tolerância de 3 para mais ou para menos, exige 60% para não eliminar. Resultado em 09/10 às 17h" }, detalhe: {} },
       { nome: "Avaliação de Títulos", tipo: "titulos", carater: "Classificatória",
-        data: { tipo: "nao_divulgada" }, detalhe: {} }
+        data: { tipo: "nao_divulgada", nota: "Upload dos títulos no Sistema Integrado UFTMNET em até 24 horas após a divulgação do resultado da prova didática da sua lotação" }, detalhe: {} }
     ],
-    observacao: "Confira a data da SUA lotação, porque elas variam mais de um mês: as aulas começam em 01/10 numa lotação e só terminam em 17/11 na outra. A escrita passou de 13/09 para 20/09 pela Retificação 01. O formato é duro: o tema sai no dia anterior e o candidato fica confinado até a hora da aula. E a regra de tempo é a mais severa do radar em um ponto específico: falar menos de 35 minutos ELIMINA, não desconta. São 50 minutos com 5 de tolerância, e aos 55 a banca corta. O tempo ainda vale 2,00 dos 10,00 no barema, contra 1,00 do plano de aula e 4,50 do domínio de conteúdo."
+    observacao: "Confira a data da SUA lotação: as aulas começam em 01/10 na Odontologia e só terminam em 24/11 na Lotação 01. O formato é duro. O tema sai com 24 horas de antecedência, em sessão de presença obrigatória, e no dia da aula você fica confinado até apresentar. São 50 minutos com tolerância de 5, e quem fala menos de 35 minutos está eliminado na hora. O plano de aula vai em quatro vias impressas e em PDF por e-mail uma hora antes do confinamento. No fim, a banca pode arguir por até 30 minutos."
   },
 
   // ══════════ UFS · Edital 008/2026 (MS e EBTT · provas de 21/09 a 11/01) ══════════
@@ -2638,7 +2640,7 @@ window.CONCURSOS = [
 
   // ══════════ UFERSA · Edital 030/2026 (MS · didática de 30/11 a 03/12) ══════════
   {
-    id: "ufersa-030-2026",
+    id: "ufersa-030-2026", logo: "ufersa.png",
     formacoes_status: "nao_extraido",
     familias: [],
     formacoes: [],
@@ -2673,6 +2675,43 @@ window.CONCURSOS = [
         data: { tipo: "exata", valor: "2026-12-22" }, detalhe: {} }
     ],
     observacao: "A aula cai de 30/11 a 03/12, conforme o grupo, e o ponto sai com 24 horas de antecedência, tirado de 9 pontos do Anexo I, sem o que já caiu na escrita. São 40 a 60 minutos, com três vias impressas do plano de aula e gravação em áudio e vídeo. O cronograma é provisório: confirme o seu grupo antes de fechar a agenda."
+  },
+
+  // ══════════ UFC · Edital 48/2026 (MS · inscrições de 02 a 13/10) ══════════
+  {
+    id: "ufc-48-2026", logo: "ufc.png",
+    formacoes_status: "nao_extraido",
+    familias: [],
+    formacoes: [],
+    familias_pos: [],
+    areas_formacoes: [],
+    uf: "CE", sigla: "UFC",
+    instituicao: "Universidade Federal do Ceará",
+    nivel: "Magistério Superior",
+    numero_edital: "Edital nº 48/2026, publicado no Diário Oficial da União de 23/09/2026",
+    areas: "61 vagas de professor efetivo do magistério superior, distribuídas por seis campi. Consulte o quadro de vagas do edital para ver a sua área",
+    vagas: "61 vagas (39 ampla concorrência, 15 pessoas negras, 2 indígenas, 1 quilombola e 4 PcD)",
+    campi: "Fortaleza, Crateús, Itapajé, Quixadá, Russas e Sobral, no CE",
+    titulacao: "Varia por área. Consultar o quadro de vagas do edital",
+    remuneracao: "De R$ 3.518,45 a R$ 13.753,96, conforme a carga horária da vaga, a titulação e o regime de trabalho",
+    regime: "Varia por vaga. Consultar o edital",
+    banca: "Central de Concursos e Verificações, CCV/FCPC, com inscrição em centraldeconcursos.fcpc.ufc.br",
+    link_oficial: "https://centraldeconcursos.fcpc.ufc.br",
+    inscricao: { inicio: "2026-10-02", fim: "2026-10-13", situacao: "abre_em_breve", taxa: "Consultar o edital. O pedido de isenção da taxa foi em 24 e 25/09" },
+    detalhamento: "basico",
+    etapas: [
+      { nome: "Prova Escrita", tipo: "discursiva", carater: "Eliminatória",
+        data: { tipo: "nao_divulgada", nota: "Consta do edital 48/2026 e do cronograma da CCV. O PDF não abriu nesta verificação: confira no site do concurso" }, detalhe: {} },
+      { nome: "Prova Didática", tipo: "didatica", carater: "Eliminatória e classificatória",
+        data: { tipo: "nao_divulgada", nota: "Após a prova escrita. Consta do edital 48/2026 e do cronograma da CCV. O PDF não abriu nesta verificação: confira no site do concurso" }, detalhe: { duracao: "Consultar o edital", sorteio: "Consultar o edital", nota_minima: "Consultar o edital", arguicao: "", modalidade: "Consultar o edital", plano_de_aula: "Consultar o edital" } },
+      { nome: "Prova Prática, prático-oral ou defesa de projeto de pesquisa (quando prevista para a área)", tipo: "outra", carater: "Eliminatória",
+        data: { tipo: "nao_divulgada", nota: "Só em parte das áreas. Confira no quadro de vagas e no edital" }, detalhe: {} },
+      { nome: "Avaliação de Títulos", tipo: "titulos", carater: "Classificatória",
+        data: { tipo: "nao_divulgada" }, detalhe: {} },
+      { nome: "Resultado final", tipo: "resultado", carater: "",
+        data: { tipo: "nao_divulgada" }, detalhe: {} }
+    ],
+    observacao: "Inscrição de 02 a 13/10 pelo site da CCV. São 61 vagas em seis campi, então a primeira coisa é achar a sua área no quadro de vagas e ler o cronograma próprio dela. As datas das provas estão no edital e no site do concurso."
   }
 
 ];

@@ -194,3 +194,7 @@ URLs diretas coletadas nos portais oficiais nesta rodada, para usar no extrator 
 - Anexo I, pontos de estudo: https://meritux-s3.ufersa.edu.br/meritux/public/documentos/1789953360478-anexo-i-pontos-de-estudos.pdf
 - Anexo II, cronograma provisório: https://meritux-s3.ufersa.edu.br/meritux/public/documentos/1789953505012-anexo-ii-cronograma-provisorio-efetivo-grupos-i-ii-e-iii.pdf
 - Anexo III, cálculo IDR/IGD/IEPCD: https://meritux-s3.ufersa.edu.br/meritux/public/documentos/1789953783979-anexo-iii-caculo-do-idr-igd-e-iepcd.pdf
+
+## ufc-48-2026 (novo)
+- Edital nº 48/2026 (DOU de 23/09/2026): documentos no site do concurso, https://centraldeconcursos.fcpc.ufc.br (a página só carrega com JavaScript; o PDF não foi capturado)
+- Notícia oficial da UFC: https://ufcinforma.ufc.br/pt/noticias/edital-da-ufc-oferta-61-vagas-de-professor-efetivo-nos-campi-de-fortaleza-crateus-itapaje-quixada-russas-e-sobral
