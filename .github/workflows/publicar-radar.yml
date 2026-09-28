@@ -28,20 +28,20 @@ jobs:
       - name: Validar o dados.js
         run: node validar-dados.js
 
-      - name: Enviar o dados.js para a Hostinger
+      - name: Separar o que vai ser publicado
+        run: |
+          mkdir -p publicar
+          cp dados.js publicar/dados.js
+          echo "Arquivos que serao enviados:"
+          ls -la publicar/
+
+      - name: Enviar para a Hostinger
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           server: ${{ secrets.FTP_SERVIDOR }}
           username: ${{ secrets.FTP_USUARIO }}
           password: ${{ secrets.FTP_SENHA }}
           protocol: ftps
-          local-dir: ./
+          local-dir: ./publicar/
           server-dir: public_html/radar/
-          include: |
-            dados.js
-          exclude: |
-            **/*
           dry-run: true
-
-      - name: Confirmar
-        run: echo "dados.js publicado em public_html/radar na Hostinger."
