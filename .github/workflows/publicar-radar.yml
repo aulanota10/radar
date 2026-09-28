@@ -43,5 +43,5 @@ jobs:
           password: ${{ secrets.FTP_SENHA }}
           protocol: ftps
           local-dir: ./publicar/
-          server-dir: public_html/radar/
+          server-dir: ./
           dry-run: false
