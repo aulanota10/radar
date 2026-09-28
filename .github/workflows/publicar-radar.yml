@@ -44,4 +44,4 @@ jobs:
           protocol: ftps
           local-dir: ./publicar/
           server-dir: public_html/radar/
-          dry-run: true
+          dry-run: false
