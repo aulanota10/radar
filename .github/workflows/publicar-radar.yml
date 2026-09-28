@@ -1,0 +1,47 @@
+name: Publicar Radar na Hostinger
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'dados.js'
+      - 'validar-dados.js'
+      - '.github/workflows/publicar-radar.yml'
+  workflow_dispatch:
+
+concurrency:
+  group: publicar-radar
+  cancel-in-progress: false
+
+jobs:
+  validar-e-publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar o repositorio
+        uses: actions/checkout@v4
+
+      - name: Instalar o node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Validar o dados.js
+        run: node validar-dados.js
+
+      - name: Enviar o dados.js para a Hostinger
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVIDOR }}
+          username: ${{ secrets.FTP_USUARIO }}
+          password: ${{ secrets.FTP_SENHA }}
+          protocol: ftps
+          local-dir: ./
+          server-dir: public_html/radar/
+          include: |
+            dados.js
+          exclude: |
+            **/*
+          dry-run: true
+
+      - name: Confirmar
+        run: echo "dados.js publicado em public_html/radar na Hostinger."
