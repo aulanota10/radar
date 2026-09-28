@@ -1,6 +1,6 @@
 // ═══════════════════════════════════════════════════════════════════════
 //  DADOS DO RADAR DE CONCURSOS · Aula Nota 10
-//  Última verificação: 23/09/2026
+//  Última verificação: 28/09/2026
 //
 //  ESTE É O ÚNICO ARQUIVO QUE VOCÊ PRECISA EDITAR PARA ATUALIZAR O SITE.
 //  Não mexa no index.html.
@@ -32,7 +32,7 @@
 //  Sem data confirmada, use { tipo: "nao_divulgada" } e explique na nota.
 // ═══════════════════════════════════════════════════════════════════════
 
-window.RADAR_ATUALIZADO = "23/09/2026";
+window.RADAR_ATUALIZADO = "28/09/2026";
 
 window.CONCURSOS = [
 
@@ -495,7 +495,7 @@ window.CONCURSOS = [
     regime: "Dedicação exclusiva e 40 horas, conforme a vaga",
     banca: "PROGEP/UFSM",
     link_oficial: "https://www.ufsm.br/pro-reitorias/progep/editais/221-2026",
-    inscricao: { inicio: "2026-08-25", fim: "2026-09-23", situacao: "aberta", taxa: "R$ 412,60 (doutorado DE), R$ 250,00 (doutorado 40h), R$ 154,00 (especialização 40h). GRU até 24/09" },
+    inscricao: { inicio: "2026-08-25", fim: "2026-10-27", situacao: "aberta", taxa: "R$ 412,60 (doutorado DE), R$ 250,00 (doutorado 40h), R$ 154,00 (especialização 40h). O prazo geral encerrou em 23/09, com GRU até 24/09. Só a área de Anestesiologia foi prorrogada, de 28/09 a 27/10, com GRU até 28/10" },
     detalhamento: "basico",
     etapas: [
       { nome: "Prova Escrita", tipo: "discursiva", carater: "Eliminatória e classificatória",
@@ -510,7 +510,7 @@ window.CONCURSOS = [
       { nome: "Prova de Títulos", tipo: "titulos", carater: "Classificatória",
         data: { tipo: "nao_divulgada" }, detalhe: {} }
     ],
-    observacao: "A UFSM abre uma janela larga de provas, então a didática pode cair de novembro a fevereiro. Preparação longa, com a defesa de produção intelectual junto, que muita gente subestima."
+    observacao: "A UFSM abre uma janela larga de provas, então a didática pode cair de novembro a fevereiro. Preparação longa, com a defesa de produção intelectual junto, que muita gente subestima. Atenção: a inscrição geral fechou em 23/09, mas a área de Ciências da Saúde, Medicina, Anestesiologia foi reaberta de 28/09 a 27/10 por comunicado de 25/09. Se a sua área é essa, ainda dá tempo."
   },
 
   // ══════════ UFSJ · Editais CPD 020 a 031/2026 (MS · inscrição fecha em 04/10) ══════════
@@ -1220,7 +1220,7 @@ window.CONCURSOS = [
       { nome: "Prova Escrita", tipo: "discursiva", carater: "Eliminatória",
         data: { tipo: "nao_divulgada", nota: "Calendário divulgado por departamento, dentro da janela de 21/09 a 11/01" }, detalhe: {} },
       { nome: "Prova Didática", tipo: "didatica", carater: "Eliminatória e classificatória",
-        data: { tipo: "nao_divulgada", nota: "O calendário é divulgado por cada departamento, com no mínimo 15 dias de antecedência do início das provas. Nenhum foi publicado até 15/09" },
+        data: { tipo: "nao_divulgada", nota: "O calendário é divulgado por cada departamento. O primeiro saiu em 24/09: Ciências Contábeis, em São Cristóvão, com escrita em 26/10, sorteio do ponto da didática em 03/11 e aula em 04 e 05/11. Os demais departamentos seguem sem data" },
         detalhe: { duracao: "50 minutos, com tolerância de 5 minutos para mais ou para menos",
                    sorteio: "Sim. Tema sorteado com 24 horas de antecedência" } },
       { nome: "Prova de Títulos", tipo: "titulos", carater: "Classificatória",
@@ -1228,7 +1228,7 @@ window.CONCURSOS = [
       { nome: "Projeto de Pesquisa (para doutores)", tipo: "outra", carater: "Eliminatória e classificatória",
         data: { tipo: "nao_divulgada" }, detalhe: {} }
     ],
-    observacao: "As provas podem cair a qualquer momento entre 21/09/2026 e 11/01/2027, conforme o departamento definir. Acompanhe cmop.ufs.br, porque o aviso pode vir com pouca antecedência."
+    observacao: "As provas podem cair a qualquer momento entre 21/09/2026 e 11/01/2027, conforme o departamento definir. O primeiro calendário saiu em 24/09, o de Ciências Contábeis, com aula em 04 e 05/11. Acompanhe cmop.ufs.br, porque o aviso do seu departamento pode vir com pouca antecedência."
   },
 
   // ══════════ UNIFESP · edital do DOU de 17/06/2026 (MS e EBTT) ══════════
@@ -1801,57 +1801,6 @@ window.CONCURSOS = [
         data: { tipo: "nao_divulgada" }, detalhe: {} }
     ],
     observacao: "Este é o mais imprevisível do radar. O concurso ficou parado por liminar de julho a setembro e acabou de voltar, em 04/09. Quem está inscrito precisa olhar o site da UEMA todo dia, porque o novo calendário sai a qualquer momento e o intervalo entre convocação e aula tende a ser curto. Regra dura de plano de aula: três vias na mão ou eliminação. Os editais 131, 135, 136, 138 e 140 seguem suspensos."
-  },
-
-  // ══════════ UFGD · Edital CCS 5/2026 (MS · didática 19 e 20/09) ══════════
-  {
-    id: "ufgd-5-2026", logo: "ufgd.png",
-    formacoes_status: "completo",
-    familias: ["Engenharias", "Educação", "Artes", "Abrangentes"],
-    formacoes: ["Educação Artística", "Engenharia Elétrica", "Engenharia Química", "Engenharia de Energia", "Engenharia de Produção", "Outra graduação (fora do vocabulário)", "Pedagogia", "Teatro e Artes Cênicas"],
-    familias_pos: ["Agrárias", "Engenharias", "Educação", "Artes"],
-    areas_formacoes: [
-      {"codigo": "1", "area": "Pedagogia/Educação em Espaços Escolares e não Escolares; Educação de Jovens e Adultos; e Estágio em Espaços Escolares e não Escolares", "campus": "Dourados/MS / Faculdade de Educação – FAED", "vagas": 1, "requisito": "1. Graduação: Pedagogia. 2. Doutorado: Educação.", "fonte": "Anexo I – FAED, p. 28", "nivel_minimo": "doutorado", "formacoes": [{"curso": "Pedagogia", "familia": "Educação", "modalidade": ["nao_especificada"], "carater": "exigida"}], "titulacoes": [{"nivel": "doutorado", "area_literal": "Educação", "curso": null, "familia": "Educação", "afins": false, "qualquer_area": false, "carater": "exigida"}]},
-      {"codigo": "2", "area": "Engenharia Elétrica, Modelagem digital, Energias Renováveis, Gestão da Energia e Eficiência", "campus": "Dourados/MS / Faculdade de Engenharia – FAEN", "vagas": 1, "requisito": "1. Graduação: Bacharelado em Engenharia Elétrica ou Engenharia de Energia. 2. Doutorado: Engenharia Elétrica ou Engenharia de Energia.", "fonte": "Anexo I – FAEN, p. 28", "nivel_minimo": "doutorado", "formacoes": [{"curso": "Engenharia Elétrica", "familia": "Engenharias", "modalidade": ["bacharelado"], "carater": "exigida"}, {"curso": "Engenharia de Energia", "familia": "Engenharias", "modalidade": ["bacharelado"], "carater": "exigida"}], "titulacoes": [{"nivel": "doutorado", "area_literal": "Engenharia Elétrica", "curso": "Engenharia Elétrica", "familia": "Engenharias", "afins": false, "qualquer_area": false, "carater": "exigida"}, {"nivel": "doutorado", "area_literal": "Engenharia de Energia", "curso": "Engenharia de Energia", "familia": "Engenharias", "afins": false, "qualquer_area": false, "carater": "exigida"}]},
-      {"codigo": "3", "area": "Gestão e Tecnologia da Produção", "campus": "Dourados/MS / Faculdade de Engenharia – FAEN", "vagas": 1, "requisito": "1. Graduação: Engenharia de Produção. 2. Doutorado: Qualquer Engenharia.", "fonte": "Anexo I – FAEN, p. 28", "nivel_minimo": "doutorado", "formacoes": [{"curso": "Engenharia de Produção", "familia": "Engenharias", "modalidade": ["nao_especificada"], "carater": "exigida"}], "titulacoes": [{"nivel": "doutorado", "area_literal": "Qualquer Engenharia", "curso": null, "familia": "Engenharias", "afins": false, "qualquer_area": false, "carater": "exigida"}]},
-      {"codigo": "4", "area": "Processos Biotecnológicos em Engenharia de Alimentos", "campus": "Dourados/MS / Faculdade de Engenharia – FAEN", "vagas": 1, "requisito": "1. Graduação: Engenharia de Alimentos; Engenharia Química ou Engenharia de Bioprocessos e Biotecnologia. 2. Doutorado: Engenharia de Alimentos; Ciência e Tecnologia de Alimentos; Ciência de Alimentos; ou Engenharia Química.", "fonte": "Edital de Retificação CCS n.º 2/2026, item 1 (Passe a constar), retificando o Anexo I – FAEN, p. 1", "nivel_minimo": "doutorado", "formacoes": [{"curso": "Engenharia Química", "familia": "Engenharias", "modalidade": ["nao_especificada"], "carater": "exigida"}, {"curso": "Outra graduação (fora do vocabulário)", "familia": "Abrangentes", "modalidade": ["nao_especificada"], "carater": "exigida", "curso_literal": "Engenharia de Alimentos"}, {"curso": "Outra graduação (fora do vocabulário)", "familia": "Abrangentes", "modalidade": ["nao_especificada"], "carater": "exigida", "curso_literal": "Engenharia de Bioprocessos e Biotecnologia"}], "titulacoes": [{"nivel": "doutorado", "area_literal": "Engenharia de Alimentos", "curso": null, "familia": "Agrárias", "afins": false, "qualquer_area": false, "carater": "exigida"}, {"nivel": "doutorado", "area_literal": "Ciência e Tecnologia de Alimentos", "curso": null, "familia": "Agrárias", "afins": false, "qualquer_area": false, "carater": "exigida"}, {"nivel": "doutorado", "area_literal": "Ciência de Alimentos", "curso": null, "familia": "Agrárias", "afins": false, "qualquer_area": false, "carater": "exigida"}, {"nivel": "doutorado", "area_literal": "Engenharia Química", "curso": "Engenharia Química", "familia": "Engenharias", "afins": false, "qualquer_area": false, "carater": "exigida"}]},
-      {"codigo": "5", "area": "Metodologia do Ensino do Teatro, Teatralidades Negras e Indígenas", "campus": "Dourados/MS / Faculdade de Comunicação, Artes e Letras – FALE", "vagas": 1, "requisito": "1. Graduação em Licenciatura em Artes Cênicas; Teatro ou Educação Artística, com Habilitação em Artes Cênicas. 2. Doutorado em Artes Cênicas; Teatro ou Artes.", "fonte": "Anexo I – FALE, p. 28", "nivel_minimo": "doutorado", "formacoes": [{"curso": "Teatro e Artes Cênicas", "familia": "Artes", "modalidade": ["licenciatura"], "carater": "exigida"}, {"curso": "Educação Artística", "familia": "Artes", "modalidade": ["licenciatura"], "carater": "exigida"}], "titulacoes": [{"nivel": "doutorado", "area_literal": "Artes Cênicas", "curso": null, "familia": "Artes", "afins": false, "qualquer_area": false, "carater": "exigida"}, {"nivel": "doutorado", "area_literal": "Teatro", "curso": null, "familia": "Artes", "afins": false, "qualquer_area": false, "carater": "exigida"}, {"nivel": "doutorado", "area_literal": "Artes", "curso": null, "familia": "Artes", "afins": false, "qualquer_area": false, "carater": "exigida"}]}
-    ],
-    uf: "MS", sigla: "UFGD",
-    instituicao: "Universidade Federal da Grande Dourados",
-    nivel: "Magistério Superior",
-    numero_edital: "Edital de Abertura CCS nº 5/2026 (CDPT 2026), com Retificações CCS nº 1 e 2/2026",
-    areas: "Pedagogia e Educação em Espaços Escolares e Não Escolares (FAED), Metodologia do Ensino do Teatro (FALE), e Engenharia Elétrica, Gestão e Tecnologia da Produção e Processos Biotecnológicos (FAEN)",
-    vagas: "5 vagas",
-    campi: "Dourados/MS",
-    titulacao: "Doutorado (Classe A)",
-    remuneracao: "R$ 13.288,85 + auxílio-alimentação de R$ 1.175,00",
-    regime: "40 horas com dedicação exclusiva",
-    banca: "Centro de Seleção da UFGD",
-    link_oficial: "https://portal.ufgd.edu.br/vestibular/docente-de-provas-e-titulos-cdpt/cdpt-2026",
-    inscricao: { inicio: "2026-07-02", fim: "2026-07-22", situacao: "encerrada", taxa: "R$ 200,00" },
-    detalhamento: "basico",
-    etapas: [
-      { nome: "Sorteio dos pontos das provas escrita e didática", tipo: "outra", carater: "",
-        data: { tipo: "exata", valor: "2026-08-29", nota: "Realizado às 7h30, convocado pelo Edital de Convocação CCS n.º 12, de 27/08/2026. O ponto da aula já é conhecido desde então" }, detalhe: {} },
-      { nome: "Prova Escrita", tipo: "discursiva", carater: "Eliminatória e classificatória",
-        data: { tipo: "exata", valor: "2026-08-30", nota: "Já realizada, às 8h30, nos Blocos B e C da Unidade 2 da UFGD, em Dourados/MS. Resultado final homologado pelo Edital de Homologação CCS n.º 41, de 16/09/2026" },
-        detalhe: { duracao: "Até 3 horas, texto de 2 a 10 laudas", nota_minima: "7,00" } },
-      { nome: "Prova Didática", tipo: "didatica", carater: "Eliminatória e classificatória · peso 4",
-        data: { tipo: "exata", valor: "2026-09-19", nota: "Já realizada, no sábado 19/09, nos Blocos B e C da Unidade II da UFGD, em Dourados/MS, com sorteio da ordem de apresentação obrigatório. Convocada pelo Edital de Convocação CCS n.º 14, de 17/09/2026. Aguarde o resultado preliminar" },
-        detalhe: { duracao: "Aula de 40 a 50 minutos, com tempo rigorosamente marcado. Ficar abaixo do mínimo ou passar do máximo custa 1 ponto na nota",
-                   sorteio: "O ponto da didática é sorteado 24 horas antes do início da PROVA ESCRITA, na mesma sessão pública do ponto da escrita, com presença facultativa. Os pontos saem na página do concurso em até 2 horas. O ponto que caiu na escrita fica fora do sorteio da didática",
-                   nota_minima: "7,00, com peso 4, o maior do concurso. A escrita tem peso 3 e os títulos, peso 3",
-                   arguicao: "Sim. A banca dispõe de até 15 minutos, divididos entre os membros, e o candidato tem no máximo 5 minutos por resposta",
-                   modalidade: "Presencial em Dourados/MS, pública, mas vedada a presença dos outros candidatos. Gravada em áudio ou áudio e vídeo pela UFGD, e o candidato não pode gravar. Só participam da didática os 5 melhores classificados por vaga na prova escrita",
-                   plano_de_aula: "Obrigatório: 1 via física para CADA membro presente da banca, entregue no início da prova, ou via digital quando houver membro participando remotamente. Quem não entrega não pontua nesse item",
-                   recursos: "A UFGD fornece apenas projetor multimídia com saída HDMI, cabo HDMI, quadro e giz ou caneta. NÃO há Wi-Fi. Equipamento próprio é responsabilidade do candidato, e o tempo de montagem conta dentro do tempo de aula" } },
-      { nome: "Prova de Títulos", tipo: "titulos", carater: "Classificatória · peso 3",
-        data: { tipo: "periodo", valor: "2026-10-27", fim: "2026-10-29", nota: "Período de cadastramento dos títulos. Resultado preliminar em 10/11 e homologação em 19/11" }, detalhe: {} },
-      { nome: "Resultado final", tipo: "resultado", carater: "",
-        data: { tipo: "exata", valor: "2026-11-26", nota: "Homologação do resultado final, enviada ao DOU. Resultado preliminar em 24/11 e recurso em 25/11" }, detalhe: {} }
-    ],
-    observacao: "A prova didática aconteceu em 19/09/2026, convocada pelo Edital CCS n.º 14 de 17/09, apenas dois dias antes. O ponto era conhecido desde 29/08. Agora é aguardar o resultado da didática e seguir para o cadastramento dos títulos, de 27 a 29/10. O resultado final está previsto para 26/11/2026."
   },
 
   // ══════════ UFU · Edital 118/2026 (MS · escrita 27/09 · didáticas de 27/10 a 11/11) ══════════
@@ -2612,7 +2561,7 @@ window.CONCURSOS = [
     uf: "RN", sigla: "UFRN",
     instituicao: "Universidade Federal do Rio Grande do Norte",
     nivel: "Magistério Superior",
-    numero_edital: "Edital nº 108/2026, de 15/09/2026, publicado no DOU nº 175 de 16/09/2026",
+    numero_edital: "Edital nº 108/2026, de 15/09/2026, publicado no DOU nº 175 de 16/09/2026, retificado no DOU nº 179 de 22/09/2026",
     areas: "Medicina de Urgência, Ensino de História, três áreas de segurança cibernética no IMD, Biologia Celular e Molecular e Biofísica, Estado, Sociedade e Políticas Públicas, Funcionalidade do Corpo Humano, e Administração e Marketing",
     vagas: "9 vagas, uma por área",
     campi: "Natal (Departamento de Medicina Integrada e IMD), Caicó (CERES), Santa Cruz (FACISA) e Currais Novos (FELCS)",
@@ -2621,7 +2570,7 @@ window.CONCURSOS = [
     regime: "Consultar o edital, conforme a área",
     banca: "Comissões julgadoras dos departamentos, com inscrição pelo SIGRH/UFRN",
     link_oficial: "https://sigrh.ufrn.br/publico/concursos/320",
-    inscricao: { inicio: "2026-09-28", fim: "2026-10-23", situacao: "abre_em_breve", taxa: "Consultar o edital" },
+    inscricao: { inicio: "2026-09-28", fim: "2026-10-23", situacao: "aberta", taxa: "Consultar o edital" },
     detalhamento: "basico",
     etapas: [
       { nome: "Prova Escrita", tipo: "discursiva", carater: "Eliminatória e classificatória",
@@ -2649,7 +2598,7 @@ window.CONCURSOS = [
     uf: "RN", sigla: "UFERSA",
     instituicao: "Universidade Federal Rural do Semi-Árido",
     nivel: "Magistério Superior",
-    numero_edital: "Edital nº 030/2026-UFERSA, de 21/09/2026, com Anexo I (pontos) e Anexo II (cronograma provisório)",
+    numero_edital: "Edital nº 030/2026-UFERSA, de 21/09/2026, retificado pelo Edital nº 031/2026 e pelo Edital Complementar nº 001/2026, ambos de 26/09/2026, com Anexo I (pontos) e Anexo II (cronograma) retificados",
     areas: "25 vagas de Professor Assistente A, em áreas como geologia, química, fenômenos de transporte, manejo e recuperação ambiental, direito, contabilidade, psicologia, microbiologia, saúde coletiva, biologia celular, fisiologia, medicina, fonoaudiologia, terapia ocupacional, língua latina, arquitetura, estruturas civis, engenharia de software e desenvolvimento web",
     vagas: "25 vagas (14 ampla concorrência, 6 pretos e pardos, 1 indígena, 1 quilombola e 3 PcD)",
     campi: "Mossoró, Caraúbas, Angicos e Pau dos Ferros, no RN",
@@ -2658,7 +2607,7 @@ window.CONCURSOS = [
     regime: "40 horas com dedicação exclusiva, com vagas em 20 horas conforme o quadro do edital",
     banca: "UFERSA, com inscrição pelo sistema Meritux",
     link_oficial: "https://meritux.ufersa.edu.br/processos/edital-030-2026",
-    inscricao: { inicio: "2026-09-25", fim: "2026-10-11", situacao: "abre_em_breve", taxa: "R$ 80,00 (20 horas), R$ 180,00 (40 horas com mestrado) e R$ 330,00 (40 horas com doutorado). Pagamento até 12/10" },
+    inscricao: { inicio: "2026-09-25", fim: "2026-10-11", situacao: "aberta", taxa: "R$ 80,00 (20 horas), R$ 180,00 (40 horas com mestrado) e R$ 330,00 (40 horas com doutorado). Pagamento até 12/10" },
     detalhamento: "completo",
     etapas: [
       { nome: "Prova Escrita", tipo: "discursiva", carater: "Eliminatória e classificatória",
@@ -2677,7 +2626,7 @@ window.CONCURSOS = [
     observacao: "A aula cai de 30/11 a 03/12, conforme o grupo, e o ponto sai com 24 horas de antecedência, tirado de 9 pontos do Anexo I, sem o que já caiu na escrita. São 40 a 60 minutos, com três vias impressas do plano de aula e gravação em áudio e vídeo. O cronograma é provisório: confirme o seu grupo antes de fechar a agenda."
   },
 
-  // ══════════ UFC · Edital 48/2026 (MS · inscrições de 02 a 13/10) ══════════
+  // ══════════ UFC · Edital 48/2026 (MS · inscrições de 04 a 13/10) ══════════
   {
     id: "ufc-48-2026", logo: "ufc.png",
     formacoes_status: "nao_extraido",
@@ -2697,7 +2646,7 @@ window.CONCURSOS = [
     regime: "Varia por vaga. Consultar o edital",
     banca: "Central de Concursos e Verificações, CCV/FCPC, com inscrição em centraldeconcursos.fcpc.ufc.br",
     link_oficial: "https://centraldeconcursos.fcpc.ufc.br",
-    inscricao: { inicio: "2026-10-02", fim: "2026-10-13", situacao: "abre_em_breve", taxa: "Consultar o edital. O pedido de isenção da taxa foi em 24 e 25/09" },
+    inscricao: { inicio: "2026-10-04", fim: "2026-10-13", situacao: "abre_em_breve", taxa: "Consultar o edital. O pedido de isenção da taxa vai de 28 a 30/09" },
     detalhamento: "basico",
     etapas: [
       { nome: "Prova Escrita", tipo: "discursiva", carater: "Eliminatória",
@@ -2711,7 +2660,132 @@ window.CONCURSOS = [
       { nome: "Resultado final", tipo: "resultado", carater: "",
         data: { tipo: "nao_divulgada" }, detalhe: {} }
     ],
-    observacao: "Inscrição de 02 a 13/10 pelo site da CCV. São 61 vagas em seis campi, então a primeira coisa é achar a sua área no quadro de vagas e ler o cronograma próprio dela. As datas das provas estão no edital e no site do concurso."
+    observacao: "Inscrição de 04/10, às 10h, a 13/10 pelo site da CCV. São 61 vagas em seis campi, então a primeira coisa é achar a sua área no quadro de vagas e ler o cronograma próprio dela. As datas das provas estão no edital e no site do concurso."
+  },
+
+  // ══════════ UFVJM · Edital 101/2026 (MS · inscrições de 25/09 a 23/10) ══════════
+  {
+    id: "ufvjm-101-2026",
+    formacoes_status: "nao_extraido",
+    familias: [],
+    formacoes: [],
+    familias_pos: [],
+    areas_formacoes: [],
+    uf: "MG", sigla: "UFVJM",
+    instituicao: "Universidade Federal dos Vales do Jequitinhonha e Mucuri",
+    nivel: "Magistério Superior",
+    numero_edital: "Edital nº 101/2026-PROGEP, publicado em 24/09/2026",
+    areas: "24 vagas em áreas como Ciência da Computação, Odontologia, Química, Agronomia, Farmácia, Nutrição, Educação, Psicologia, Geografia, Economia, Engenharia e Medicina Veterinária",
+    vagas: "24 vagas",
+    campi: "Diamantina (Campus JK e Campus I), Conceição do Mato Dentro, Teófilo Otoni (Campus do Mucuri), Janaúba e Unaí, em MG",
+    titulacao: "Doutorado em todas as vagas, com exigências adicionais de graduação em parte delas. Confira o anexo da sua vaga",
+    remuneracao: "R$ 13.288,85 com doutorado, sendo R$ 6.180,86 de vencimento básico e R$ 7.107,99 de retribuição por titulação",
+    regime: "40 horas semanais com dedicação exclusiva",
+    banca: "A própria UFVJM, com banca por vaga formada por três docentes efetivos, no mínimo um externo, publicada até 5 dias úteis antes do concurso",
+    link_oficial: "https://portal.ufvjm.edu.br/editais/progep/docentes/2026/edital-101-2026-progep",
+    inscricao: { inicio: "2026-09-25", fim: "2026-10-23", situacao: "aberta", taxa: "R$ 200,00, com pedido de isenção até 13/10" },
+    detalhamento: "completo",
+    etapas: [
+      { nome: "Prova Escrita", tipo: "discursiva", carater: "Eliminatória e classificatória",
+        data: { tipo: "nao_divulgada", nota: "O edital não traz cronograma. Cada unidade acadêmica define as datas e a PROGEP publica depois do fim das inscrições, em 23/10" }, detalhe: {} },
+      { nome: "Prova Didática", tipo: "didatica", carater: "Eliminatória e classificatória",
+        data: { tipo: "nao_divulgada", nota: "Sem data publicada. O cronograma é definido pela unidade acadêmica e divulgado pela PROGEP depois do encerramento das inscrições, em 23/10" },
+        detalhe: { duracao: "De 40 a 50 minutos",
+                   sorteio: "Tema sorteado em sessão pública, com no mínimo 24 horas de antecedência",
+                   nota_minima: "70 pontos",
+                   arguicao: "Arguição da banca de até 15 minutos, já incluído o tempo de resposta",
+                   modalidade: "Presencial, em sessão pública",
+                   plano_de_aula: "Não exigido no edital base. Confira as instruções específicas da sua vaga" } },
+      { nome: "Prova Prática (quando prevista para a vaga)", tipo: "outra", carater: "Eliminatória e classificatória",
+        data: { tipo: "nao_divulgada", nota: "Só em parte das vagas. Confira as instruções específicas" }, detalhe: {} },
+      { nome: "Projeto de Atividades Acadêmicas (quando previsto para a vaga)", tipo: "outra", carater: "Eliminatória e classificatória",
+        data: { tipo: "nao_divulgada", nota: "Só em parte das vagas. Confira as instruções específicas" }, detalhe: {} },
+      { nome: "Prova de Títulos", tipo: "titulos", carater: "Classificatória",
+        data: { tipo: "nao_divulgada" }, detalhe: {} },
+      { nome: "Resultado final", tipo: "resultado", carater: "",
+        data: { tipo: "nao_divulgada" }, detalhe: {} }
+    ],
+    observacao: "Inscrição até 23/10 e 24 vagas de doutorado em seis cidades de Minas. A aula é de 40 a 50 minutos, o tema sai com 24 horas de antecedência e o corte é 70 pontos, com arguição de até 15 minutos. O cronograma ainda não existe: ele sai por unidade acadêmica depois que as inscrições fecharem, o que dá tempo de preparação até o fim do ano."
+  },
+
+  // ══════════ UFRN · Edital 109/2026 (EBTT · edital de 22/09) ══════════
+  {
+    id: "ufrn-109-2026", logo: "ufrn.png",
+    formacoes_status: "nao_extraido",
+    familias: [],
+    formacoes: [],
+    familias_pos: [],
+    areas_formacoes: [],
+    uf: "RN", sigla: "UFRN",
+    instituicao: "Universidade Federal do Rio Grande do Norte",
+    nivel: "EBTT",
+    numero_edital: "Edital nº 109/2026, de 22/09/2026, publicado no DOU nº 179 de 22/09/2026",
+    areas: "Computação Cognitiva e Inteligência Artificial Responsável, Inteligência Computacional e Inovação Tecnológica em IA no IMD; Matemática e Geografia na Escola Agrícola de Jundiaí; Produção Musical e Teoria da Música na Escola de Música; e duas áreas de Enfermagem na Escola de Saúde",
+    vagas: "9 vagas, uma por área",
+    campi: "Natal (Instituto Metrópole Digital, Escola de Música e Escola de Saúde) e Macaíba (Escola Agrícola de Jundiaí), no RN",
+    titulacao: "Varia por área. Consultar o quadro de vagas do edital",
+    remuneracao: "Consultar o edital",
+    regime: "Consultar o edital",
+    banca: "Comissões examinadoras da UFRN, com inscrição pelo SIGRH",
+    link_oficial: "https://sigrh.ufrn.br/publico/concursos/321",
+    inscricao: { inicio: "", fim: "", situacao: "consultar", taxa: "Consultar o edital" },
+    detalhamento: "basico",
+    etapas: [
+      { nome: "Prova Escrita", tipo: "discursiva", carater: "Eliminatória e classificatória",
+        data: { tipo: "nao_divulgada", nota: "Consta do edital de abertura (DOU nº 179, de 22/09/2026), cujo PDF não abriu nesta verificação. Confira no edital" }, detalhe: {} },
+      { nome: "Prova Didática", tipo: "didatica", carater: "Eliminatória e classificatória",
+        data: { tipo: "nao_divulgada", nota: "Após a prova escrita. Consta do edital de abertura (DOU nº 179, de 22/09/2026), cujo PDF não abriu nesta verificação. Confira no edital e na Resolução nº 31/2025-CONSAD" }, detalhe: {} },
+      { nome: "Defesa de Memorial e Projeto de Atuação Profissional", tipo: "memorial", carater: "",
+        data: { tipo: "nao_divulgada", nota: "Após a prova didática" }, detalhe: {} },
+      { nome: "Prova de Títulos", tipo: "titulos", carater: "Classificatória",
+        data: { tipo: "nao_divulgada" }, detalhe: {} },
+      { nome: "Resultado final", tipo: "resultado", carater: "",
+        data: { tipo: "nao_divulgada" }, detalhe: {} }
+    ],
+    observacao: "Edital novo, saiu em 22/09, com 9 vagas de EBTT: três de inteligência artificial no IMD, Matemática e Geografia na Escola Agrícola de Jundiaí, duas na Escola de Música e duas de Enfermagem na Escola de Saúde. O período de inscrição e as datas de prova não estavam publicados na página do SIGRH nesta verificação: baixe o edital em sigrh.ufrn.br e confira o cronograma e os pontos da sua área."
+  },
+
+  // ══════════ UNICAMP · COTIL · Edital 06/2026 (ensino técnico · inscrições até 07/10) ══════════
+  {
+    id: "unicamp-cotil-06-2026",
+    formacoes_status: "nao_extraido",
+    familias: [],
+    formacoes: [],
+    familias_pos: [],
+    areas_formacoes: [],
+    uf: "SP", sigla: "UNICAMP",
+    instituicao: "Universidade Estadual de Campinas · Colégio Técnico de Limeira (COTIL)",
+    nivel: "EBTT",
+    numero_edital: "Edital nº 06/2026 (Processo nº 13-P-30496/2026), publicado no Diário Oficial do Estado de São Paulo de 04/09/2026",
+    areas: "Professor de ensino técnico no Departamento de Infraestrutura e Tecnologia, em 13 disciplinas de Engenharia Civil: técnicas construtivas, tecnologia da construção civil, topografia e desenho topográfico, instalações hidrossanitárias e elétricas prediais, planejamento e orçamento, fundações, materiais de construção, concreto armado, teoria das estruturas, mecânica dos fluidos, mecânica dos solos e estradas",
+    vagas: "1 vaga",
+    campi: "Limeira/SP",
+    titulacao: "Graduação em Engenharia Civil concluída, mais 6 meses de experiência profissional comprovada. Não exige pós-graduação",
+    remuneracao: "Não informada no edital",
+    regime: "10 horas semanais, cargo efetivo com estágio probatório de 3 anos, pelo regime ESUNICAMP",
+    banca: "A própria Unicamp, com banca de cinco examinadores",
+    link_oficial: "https://solicita.dados.unicamp.br/concurso/ver_edital_abertura/1105",
+    inscricao: { inicio: "2026-09-08", fim: "2026-10-07", situacao: "aberta", taxa: "Não mencionada no edital" },
+    detalhamento: "completo",
+    etapas: [
+      { nome: "Prova Escrita", tipo: "discursiva", carater: "Eliminatória se houver mais de 5 candidatos, e classificatória · peso 2",
+        data: { tipo: "nao_divulgada", nota: "Sem data publicada. Sai depois do encerramento das inscrições, em 07/10" }, detalhe: {} },
+      { nome: "Prova Didática", tipo: "didatica", carater: "Eliminatória e classificatória · peso 5",
+        data: { tipo: "nao_divulgada", nota: "Sem data publicada. Sai depois do encerramento das inscrições, em 07/10. Os 10 temas são divulgados com antecedência mínima de 20 dias úteis do início das provas" },
+        detalhe: { duracao: "Até 30 minutos",
+                   sorteio: "Tema sorteado 24 horas antes da apresentação, entre os 10 temas divulgados previamente",
+                   nota_minima: "Nota igual ou superior a 7,0 de no mínimo 3 dos 5 examinadores",
+                   arguicao: "A arguição é etapa separada, com peso 3, sobre pedagogia, conteúdo, plano de trabalho e currículo",
+                   modalidade: "Consultar o edital",
+                   plano_de_aula: "Não exigido na didática pelo edital. O plano de trabalho é cobrado na prova de arguição" } },
+      { nome: "Prova de Arguição", tipo: "outra", carater: "Classificatória · peso 3",
+        data: { tipo: "nao_divulgada" }, detalhe: {} },
+      { nome: "Prova de Títulos", tipo: "titulos", carater: "Classificatória · peso 2",
+        data: { tipo: "nao_divulgada" }, detalhe: {} },
+      { nome: "Resultado final", tipo: "resultado", carater: "",
+        data: { tipo: "nao_divulgada" }, detalhe: {} }
+    ],
+    observacao: "Uma vaga de professor de ensino técnico no colégio técnico da Unicamp em Limeira, para quem tem Engenharia Civil e seis meses de experiência, sem exigir pós. A carreira é a de Magistério Secundário Técnico da Unicamp, não a EBTT federal, mas a aula é para ensino técnico. A didática tem o maior peso do concurso, 5 de 12, e a aula é curta, até 30 minutos, com tema sorteado 24 horas antes de uma lista de 10 divulgada com 20 dias úteis de antecedência. Inscrição até 07/10."
   }
 
 ];
