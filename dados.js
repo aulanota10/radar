@@ -1,6 +1,6 @@
 // ═══════════════════════════════════════════════════════════════════════
 //  DADOS DO RADAR DE CONCURSOS · Aula Nota 10
-//  Última verificação: 28/09/2026
+//  Última verificação: 29/09/2026
 //
 //  ESTE É O ÚNICO ARQUIVO QUE VOCÊ PRECISA EDITAR PARA ATUALIZAR O SITE.
 //  Não mexa no index.html.
@@ -32,7 +32,7 @@
 //  Sem data confirmada, use { tipo: "nao_divulgada" } e explique na nota.
 // ═══════════════════════════════════════════════════════════════════════
 
-window.RADAR_ATUALIZADO = "28/09/2026";
+window.RADAR_ATUALIZADO = "29/09/2026";
 
 window.CONCURSOS = [
 
@@ -784,50 +784,6 @@ window.CONCURSOS = [
         data: { tipo: "exata", valor: "2027-01-13" }, detalhe: {} }
     ],
     observacao: "Nota mínima alta na prova didática, 70 pontos. A prova escrita reúne objetiva e discursiva no mesmo dia, 27/09, no turno da tarde. Duas retificações em agosto mudaram o número de convocados para a didática, então confira a sua posição depois do resultado da escrita."
-  },
-
-  // ══════════ UFU · Editais 93 e 94/2026 (EBTT e MS · últimas didáticas em 16 e 18/09) ══════════
-  {
-    id: "ufu-93-94-2026", logo: "ufu.png", uf: "MG", sigla: "UFU",
-    formacoes_status: "completo",
-    familias: ["Saúde", "Biológicas", "Computação", "Engenharias"],
-    formacoes: ["Ciências Biológicas", "Engenharia Eletrônica e de Telecomunicações", "Engenharia Elétrica", "Engenharia de Computação e de Software", "Engenharia de Controle e Automação e Mecatrônica", "Medicina"],
-    familias_pos: ["Saúde", "Engenharias"],
-    areas_formacoes: [
-      {"edital": "93/2026", "codigo": "1", "area": "Ciências da natureza", "campus": "Educação Física, localizado na cidade de Uberlândia (MG)", "vagas": 1, "requisito": "Licenciatura plena em Ciências Biológicas", "fonte": "3.1, p. 2", "nivel_minimo": "graduacao", "formacoes": [{"curso": "Ciências Biológicas", "familia": "Biológicas", "modalidade": ["licenciatura"], "carater": "exigida"}], "titulacoes": []},
-      {"edital": "94/2026", "codigo": "1", "area": "Engenharia Elétrica / Telecomunicações", "campus": "Santa Mônica, localizado na cidade de Uberlândia-MG", "vagas": 1, "requisito": "Graduação em Engenharia Elétrica ou Graduação em Engenharia Eletrônica ou Graduação em Engenharia de Telecomunicações ou Graduação em Engenharia Eletrônica e de Telecomunicações ou Graduação em Engenharia de Controle e Automação ou Graduação em Engenharia de Computação e Doutorado na área de Telecomunicações", "fonte": "3.1, p. 3", "nivel_minimo": "doutorado", "formacoes": [{"curso": "Engenharia Elétrica", "familia": "Engenharias", "modalidade": ["nao_especificada"], "carater": "exigida"}, {"curso": "Engenharia Eletrônica e de Telecomunicações", "familia": "Engenharias", "modalidade": ["nao_especificada"], "carater": "exigida"}, {"curso": "Engenharia de Controle e Automação e Mecatrônica", "familia": "Engenharias", "modalidade": ["nao_especificada"], "carater": "exigida"}, {"curso": "Engenharia de Computação e de Software", "familia": "Computação", "modalidade": ["nao_especificada"], "carater": "exigida"}], "titulacoes": [{"nivel": "doutorado", "area_literal": "Telecomunicações", "curso": null, "familia": "Engenharias", "afins": false, "qualquer_area": false, "carater": "exigida"}]},
-      {"edital": "94/2026", "codigo": "2", "area": "Medicina/Endocrinologia", "campus": "Umuarama, localizado na cidade de Uberlândia-MG", "vagas": 1, "requisito": "Graduação em Medicina, Residência Médica em Clínica Médica reconhecida pela Comissão Nacional de Residência Médica, Residência Médica em Endocrinologia reconhecida pela Comissão Nacional de Residência Médica ou Título de Especialista em Endocrinologia reconhecido pelo Conselho Federal de Medicina / Associação Médica Brasileira e Doutorado em Medicina ou Ciências da Saúde", "fonte": "3.1, p. 3", "nivel_minimo": "doutorado", "formacoes": [{"curso": "Medicina", "familia": "Saúde", "modalidade": ["nao_especificada"], "carater": "exigida"}], "titulacoes": [{"nivel": "residencia", "area_literal": "Clínica Médica", "curso": null, "familia": "Saúde", "afins": false, "qualquer_area": false, "carater": "exigida"}, {"nivel": "residencia", "area_literal": "Endocrinologia", "curso": null, "familia": "Saúde", "afins": false, "qualquer_area": false, "carater": "exigida"}, {"nivel": "titulo_especialista", "area_literal": "Endocrinologia", "curso": null, "familia": "Saúde", "afins": false, "qualquer_area": false, "carater": "exigida"}, {"nivel": "doutorado", "area_literal": "Medicina", "curso": "Medicina", "familia": "Saúde", "afins": false, "qualquer_area": false, "carater": "exigida"}, {"nivel": "doutorado", "area_literal": "Ciências da Saúde", "curso": null, "familia": "Saúde", "afins": false, "qualquer_area": false, "carater": "exigida"}]},
-      {"edital": "94/2026", "codigo": "3", "area": "Clínica Médica/Gastroenterologia", "campus": "Umuarama, localizado na cidade de Uberlândia-MG", "vagas": 1, "requisito": "Graduação em Medicina; e Residência Médica em Gastroenterologia reconhecida pela Comissão Nacional de Residência Médica (CNRM) ou título de especialista em Gastroenterologia reconhecido pela Federação Brasileira de Gastroenterologia", "fonte": "3.1, p. 4", "nivel_minimo": "especializacao", "formacoes": [{"curso": "Medicina", "familia": "Saúde", "modalidade": ["nao_especificada"], "carater": "exigida"}], "titulacoes": [{"nivel": "residencia", "area_literal": "Gastroenterologia", "curso": null, "familia": "Saúde", "afins": false, "qualquer_area": false, "carater": "exigida"}, {"nivel": "titulo_especialista", "area_literal": "Gastroenterologia", "curso": null, "familia": "Saúde", "afins": false, "qualquer_area": false, "carater": "exigida"}]},
-      {"edital": "94/2026", "codigo": "4", "area": "Clínica Médica/Pneumologia", "campus": "Umuarama, localizado na cidade de Uberlândia-MG", "vagas": 1, "requisito": "Graduação em Medicina, Residência Médica em Pneumologia em instituição reconhecida pela Comissão Nacional de Residência médica (CNRM) ou Título de Especialista em Pneumologia", "fonte": "3.1, p. 4", "nivel_minimo": "especializacao", "formacoes": [{"curso": "Medicina", "familia": "Saúde", "modalidade": ["nao_especificada"], "carater": "exigida"}], "titulacoes": [{"nivel": "residencia", "area_literal": "Pneumologia", "curso": null, "familia": "Saúde", "afins": false, "qualquer_area": false, "carater": "exigida"}, {"nivel": "titulo_especialista", "area_literal": "Pneumologia", "curso": null, "familia": "Saúde", "afins": false, "qualquer_area": false, "carater": "exigida"}]},
-      {"edital": "94/2026", "codigo": "5", "area": "Medicina/Psiquiatria", "campus": "Umuarama, localizado na cidade de Uberlândia-MG", "vagas": 1, "requisito": "Graduação em Medicina, Residência Médica em Psiquiatria em Programa de Residência Médica reconhecido pela Comissão Nacional de Residência Médica ou Título de Especialista em Psiquiatria pela Associação Médica Brasileira e doutorado em Ciências da Saúde", "fonte": "3.1, p. 4", "nivel_minimo": "doutorado", "formacoes": [{"curso": "Medicina", "familia": "Saúde", "modalidade": ["nao_especificada"], "carater": "exigida"}], "titulacoes": [{"nivel": "residencia", "area_literal": "Psiquiatria", "curso": null, "familia": "Saúde", "afins": false, "qualquer_area": false, "carater": "exigida"}, {"nivel": "titulo_especialista", "area_literal": "Psiquiatria", "curso": null, "familia": "Saúde", "afins": false, "qualquer_area": false, "carater": "exigida"}, {"nivel": "doutorado", "area_literal": "Ciências da Saúde", "curso": null, "familia": "Saúde", "afins": false, "qualquer_area": false, "carater": "exigida"}]}
-    ],
-    instituicao: "Universidade Federal de Uberlândia", nivel: "EBTT e Magistério Superior",
-    numero_edital: "Editais PROGEP nº 93/2026 (EBTT) e nº 94/2026 (Magistério Superior), com complementares 95 a 100/2026",
-    areas: "Ciências da Natureza e Educação Física na ESEBA (EBTT). Engenharia Elétrica e Telecomunicações e duas vagas na Faculdade de Medicina: Gastroenterologia e Pneumologia (Magistério Superior)",
-    vagas: "1 vaga no Edital 93/2026 (ESEBA) e 3 vagas ativas no Edital 94/2026 (Endocrinologia e Psiquiatria ficaram desertas)",
-    campi: "Santa Mônica (Uberlândia), ESEBA, Faculdade de Medicina",
-    titulacao: "Licenciatura plena em Ciências Biológicas para a vaga da ESEBA. Doutorado, em regra, para o Magistério Superior",
-    remuneracao: "Até R$ 13.288,85 + auxílio-alimentação", regime: "Dedicação exclusiva na FEELT e na ESEBA. 40 horas nas vagas da Faculdade de Medicina",
-    banca: "PROGEP/UFU",
-    link_oficial: "https://www.portalselecao.ufu.br/servicos/Edital/listar/concursos",
-    inscricao: { inicio: "2026-06-09", fim: "2026-06-24", situacao: "encerrada", taxa: "R$ 320,00, com pagamento até 25/06" },
-    detalhamento: "completo",
-    etapas: [
-      { nome: "Prova Escrita", tipo: "discursiva", carater: "Eliminatória e classificatória",
-        data: { tipo: "exata", valor: "2026-08-02", nota: "Das 10h às 14h, comum aos editais complementares 95 a 100/2026. Já realizada" }, detalhe: {} },
-      { nome: "Prova Didática", tipo: "didatica", carater: "Eliminatória e classificatória",
-        data: { tipo: "periodo", valor: "2026-09-03", fim: "2026-09-18", nota: "Todas já realizadas: FEELT (96) em 03/09, ESEBA (97) em 10/09, Pneumologia (100) em 16/09 e Gastroenterologia (98) em 18/09. Resultado preliminar da didática da FEELT publicado em 15/09. Endocrinologia (95) e Psiquiatria (99) desertas" },
-        detalhe: { duracao: "Aula de 40 a 50 minutos",
-                   sorteio: "Sim. Tema sorteado com no mínimo 24 e no máximo 36 horas de antecedência, junto com o sorteio da ordem de apresentação",
-                   arguicao: "No Edital 94/2026 (Magistério Superior), arguição da banca de até 30 minutos",
-                   modalidade: "Sala virtual no Edital 100/2026 (Pneumologia)",
-                   plano_de_aula: "No 98/2026, até 10 minutos antes da aula. No 100/2026, por e-mail até 16/09 às 8h30" } },
-      { nome: "Análise de Títulos e Experiência Profissional", tipo: "titulos", carater: "Classificatória",
-        data: { tipo: "nao_divulgada" }, detalhe: {} },
-      { nome: "Prova Prática, Oral ou Defesa de Projeto (quando previsto)", tipo: "outra", carater: "",
-        data: { tipo: "nao_divulgada", nota: "Depende do edital complementar" }, detalhe: {} }
-    ],
-    observacao: "Todas as aulas deste lote já aconteceram, a última em 18/09 (Gastroenterologia). Agora é aguardar os resultados da prova didática e a análise de títulos no portalselecao.ufu.br."
   },
 
   // ══════════ URCA · Edital 02/2026-GR (MS · escrita 18/10 · didática 13 a 15/11) ══════════
@@ -1674,7 +1630,7 @@ window.CONCURSOS = [
     regime: "40 horas com dedicação exclusiva",
     banca: "PR-4 e Comissão Julgadora da unidade",
     link_oficial: "https://concursos.pr4.ufrj.br/index.php/837-edital-n-942-de-18-de-agosto-de-2026",
-    inscricao: { inicio: "2026-09-03", fim: "2026-09-27", situacao: "aberta", taxa: "R$ 300,00, com pagamento até 29/09. Isenção de 03 a 11/09" },
+    inscricao: { inicio: "2026-09-03", fim: "2026-09-27", situacao: "encerrada", taxa: "R$ 300,00, com pagamento até 29/09. Isenção de 03 a 11/09" },
     detalhamento: "basico",
     etapas: [
       { nome: "Lista final de inscritos", tipo: "outra", carater: "",
@@ -1690,7 +1646,7 @@ window.CONCURSOS = [
       { nome: "Resultado final", tipo: "resultado", carater: "",
         data: { tipo: "exata", valor: "2027-04-16", nota: "Publicação no Boletim da UFRJ, conforme o Anexo III. Publicação no DOU até 04/05/2027" }, detalhe: {} }
     ],
-    observacao: "Inscrição aberta agora e prova só a partir do fim de dezembro. É o maior prazo de preparo do radar. Vaga única e muito específica. O detalhamento da prova didática não está no edital, sai no cronograma da Escola de Música, publicado com 30 dias de antecedência."
+    observacao: "Inscrição encerrada em 27/09 às 23h59 e prova só a partir do fim de dezembro. É o maior prazo de preparo do radar. Vaga única e muito específica. O detalhamento da prova didática não está no edital, sai no cronograma da Escola de Música, publicado com 30 dias de antecedência."
   },
 
   // ══════════ UFSM · Edital 198/2026 (MS · período provável a partir de 13/09 · sem cronograma por área) ══════════
@@ -2277,7 +2233,7 @@ window.CONCURSOS = [
     uf: "SC", sigla: "FURB",
     instituicao: "Fundação Universidade Regional de Blumenau",
     nivel: "Magistério Superior",
-    numero_edital: "Edital nº 07/2026, com Retificação de datas das provas de 28/08/2026",
+    numero_edital: "Edital nº 07/2026, com Retificação de datas das provas de 28/08/2026 e Retificação de sala de 24/09/2026",
     areas: "Professor Universitário na área de Contabilidade Tributária",
     vagas: "Consulte o edital",
     campi: "Blumenau/SC. Provas no Campus 1, Sala D-201",
@@ -2292,9 +2248,9 @@ window.CONCURSOS = [
       { nome: "Homologação das inscrições", tipo: "outra", carater: "",
         data: { tipo: "exata", valor: "2026-06-26", nota: "Já publicada" }, detalhe: {} },
       { nome: "Prova Escrita de Conhecimento", tipo: "discursiva", carater: "Eliminatória e classificatória",
-        data: { tipo: "exata", valor: "2026-09-28", nota: "Às 8h30, no Campus 1, Sala D-201. Data fixada pela retificação de 28/08" }, detalhe: {} },
+        data: { tipo: "exata", valor: "2026-09-28", nota: "Às 8h30, no Campus 1, Sala B-208. Sala alterada pela retificação de 24/09. A data foi fixada pela retificação de 28/08" }, detalhe: {} },
       { nome: "Prova Didática", tipo: "didatica", carater: "Eliminatória e classificatória",
-        data: { tipo: "exata", valor: "2026-09-29", nota: "Às 13h30, no Campus 1, Sala D-201. Data fixada pela retificação de 28/08" },
+        data: { tipo: "exata", valor: "2026-09-29", nota: "Às 13h30, no Campus 1, Sala B-208. Sala alterada pela retificação de 24/09, antes era a D-201. A data foi fixada pela retificação de 28/08" },
         detalhe: { duracao: "Consulte o edital",
                    sorteio: "Consulte o edital",
                    nota_minima: "7,50 é o corte para seguir ao exame de títulos",
@@ -2306,7 +2262,7 @@ window.CONCURSOS = [
       { nome: "Resultado final", tipo: "resultado", carater: "",
         data: { tipo: "nao_divulgada" }, detalhe: {} }
     ],
-    observacao: "Escrita em 28/09 pela manhã e aula no dia seguinte, 29/09 às 13h30, as duas no Campus 1. São menos de 30 horas entre uma coisa e outra, então o material da aula precisa estar pronto antes da escrita, não depois. O corte de 7,50 é o que libera o exame de títulos. A FURB tem mais seis concursos docentes do mesmo lote, os editais 01 a 06/2026, todos ainda sem data de prova publicada."
+    observacao: "Escrita em 28/09 pela manhã e aula no dia seguinte, 29/09 às 13h30, as duas no Campus 1, Sala B-208, sala nova definida pela retificação de 24/09. São menos de 30 horas entre uma coisa e outra, então o material da aula precisa estar pronto antes da escrita, não depois. O corte de 7,50 é o que libera o exame de títulos. A FURB tem mais seis concursos docentes do mesmo lote, os editais 01 a 06/2026, todos ainda sem data de prova publicada."
   },
 
   // ══════════ UFRPE · Edital 21/2026 (MS · inscrição aberta · didática 15 e 16/12) ══════════
@@ -2719,7 +2675,7 @@ window.CONCURSOS = [
     uf: "RN", sigla: "UFRN",
     instituicao: "Universidade Federal do Rio Grande do Norte",
     nivel: "EBTT",
-    numero_edital: "Edital nº 109/2026, de 22/09/2026, publicado no DOU nº 179 de 22/09/2026",
+    numero_edital: "Edital nº 109/2026, de 22/09/2026, publicado no DOU nº 179 de 22/09/2026, com duas retificações no SIGRH, uma no DOU nº 183 e outra no DOU nº 184, e versão retificada do edital publicada em 29/09/2026",
     areas: "Computação Cognitiva e Inteligência Artificial Responsável, Inteligência Computacional e Inovação Tecnológica em IA no IMD; Matemática e Geografia na Escola Agrícola de Jundiaí; Produção Musical e Teoria da Música na Escola de Música; e duas áreas de Enfermagem na Escola de Saúde",
     vagas: "9 vagas, uma por área",
     campi: "Natal (Instituto Metrópole Digital, Escola de Música e Escola de Saúde) e Macaíba (Escola Agrícola de Jundiaí), no RN",
@@ -2732,9 +2688,9 @@ window.CONCURSOS = [
     detalhamento: "basico",
     etapas: [
       { nome: "Prova Escrita", tipo: "discursiva", carater: "Eliminatória e classificatória",
-        data: { tipo: "nao_divulgada", nota: "Consta do edital de abertura (DOU nº 179, de 22/09/2026), cujo PDF não abriu nesta verificação. Confira no edital" }, detalhe: {} },
+        data: { tipo: "nao_divulgada", nota: "Consta do edital de abertura, agora na versão retificada publicada em 29/09/2026. O PDF não abriu nas duas últimas verificações. Confira no edital, em sigrh.ufrn.br" }, detalhe: {} },
       { nome: "Prova Didática", tipo: "didatica", carater: "Eliminatória e classificatória",
-        data: { tipo: "nao_divulgada", nota: "Após a prova escrita. Consta do edital de abertura (DOU nº 179, de 22/09/2026), cujo PDF não abriu nesta verificação. Confira no edital e na Resolução nº 31/2025-CONSAD" }, detalhe: {} },
+        data: { tipo: "nao_divulgada", nota: "Após a prova escrita. Consta do edital de abertura, agora na versão retificada publicada em 29/09/2026. O PDF não abriu nas duas últimas verificações. Confira no edital e na Resolução nº 31/2025-CONSAD" }, detalhe: {} },
       { nome: "Defesa de Memorial e Projeto de Atuação Profissional", tipo: "memorial", carater: "",
         data: { tipo: "nao_divulgada", nota: "Após a prova didática" }, detalhe: {} },
       { nome: "Prova de Títulos", tipo: "titulos", carater: "Classificatória",
@@ -2742,7 +2698,7 @@ window.CONCURSOS = [
       { nome: "Resultado final", tipo: "resultado", carater: "",
         data: { tipo: "nao_divulgada" }, detalhe: {} }
     ],
-    observacao: "Edital novo, saiu em 22/09, com 9 vagas de EBTT: três de inteligência artificial no IMD, Matemática e Geografia na Escola Agrícola de Jundiaí, duas na Escola de Música e duas de Enfermagem na Escola de Saúde. O período de inscrição e as datas de prova não estavam publicados na página do SIGRH nesta verificação: baixe o edital em sigrh.ufrn.br e confira o cronograma e os pontos da sua área."
+    observacao: "Edital novo, saiu em 22/09, com 9 vagas de EBTT: três de inteligência artificial no IMD, Matemática e Geografia na Escola Agrícola de Jundiaí, duas na Escola de Música e duas de Enfermagem na Escola de Saúde. Saíram duas retificações, em 28 e em 29/09, e a versão retificada do edital foi publicada em 29/09, então trabalhe sempre pela versão mais nova. O período de inscrição e as datas de prova continuam sem confirmação em fonte oficial legível: o PDF do edital não abriu nesta verificação. Baixe o edital retificado em sigrh.ufrn.br e confira o cronograma e os pontos da sua área."
   },
 
   // ══════════ UNICAMP · COTIL · Edital 06/2026 (ensino técnico · inscrições até 07/10) ══════════
@@ -2786,6 +2742,49 @@ window.CONCURSOS = [
         data: { tipo: "nao_divulgada" }, detalhe: {} }
     ],
     observacao: "Uma vaga de professor de ensino técnico no colégio técnico da Unicamp em Limeira, para quem tem Engenharia Civil e seis meses de experiência, sem exigir pós. A carreira é a de Magistério Secundário Técnico da Unicamp, não a EBTT federal, mas a aula é para ensino técnico. A didática tem o maior peso do concurso, 5 de 12, e a aula é curta, até 30 minutos, com tema sorteado 24 horas antes de uma lista de 10 divulgada com 20 dias úteis de antecedência. Inscrição até 07/10."
+  },
+
+  // ══════════ IFSP · Edital 183/2026 (EBTT · inscrições de 06/10 a 17/11 · didática 27/02 a 07/03/2027) ══════════
+  {
+    id: "ifsp-183-2026",
+    formacoes_status: "nao_extraido",
+    familias: [],
+    formacoes: [],
+    familias_pos: [],
+    areas_formacoes: [],
+    uf: "SP", sigla: "IFSP",
+    instituicao: "Instituto Federal de Educação, Ciência e Tecnologia de São Paulo",
+    nivel: "EBTT",
+    numero_edital: "Edital nº 183/2026, de 28/09/2026, com versão publicada no Diário Oficial da União e Comunicado nº 1/2026 com o cronograma previsto, ambos divulgados em 29/09/2026",
+    areas: "Doze áreas: Informática, Pedagogia, Eletrônica, Design Gráfico, Produção de Áudio e Vídeo, Segurança do Trabalho, Educação Especial, Artes Cênicas, Energias, Engenharia de Produção e Humanidades",
+    vagas: "45 vagas",
+    campi: "21 cidades de São Paulo: Avaré, Barretos, Bauru, Boituva, Campinas, Capivari, Caraguatatuba, Catanduva, Cubatão, Itaquaquecetuba, Matão, Miracatu, Presidente Epitácio, Registro, Santos, São João da Boa Vista, São José do Rio Preto, São José dos Campos, São Vicente, Suzano e a capital, nos câmpus São Paulo, Pirituba, Jardim Ângela, São Miguel Paulista e Cidade Tiradentes",
+    titulacao: "Nível superior específico de cada área de atuação, conforme o Quadro 1 do edital. Consulte a exigência da sua área",
+    remuneracao: "Vencimento básico de R$ 6.397,19, com retribuição por titulação de R$ 639,72 (aperfeiçoamento), R$ 1.279,44 (especialização), R$ 3.198,59 (mestrado) ou R$ 7.356,77 (doutorado)",
+    regime: "40h com dedicação exclusiva",
+    banca: "Comissão Organizadora de Concurso do IFSP, designada pela Portaria IFSP nº 5.830, de 16/09/2026",
+    link_oficial: "https://concursopublico.ifsp.edu.br/editais/edital-1832026-docentes",
+    inscricao: { inicio: "2026-10-06", fim: "2026-11-17", situacao: "abre_em_breve", taxa: "R$ 200,00, com pagamento da GRU até 18/11" },
+    detalhamento: "basico",
+    etapas: [
+      { nome: "Divulgação dos temas da prova de desempenho didático", tipo: "outra", carater: "",
+        data: { tipo: "exata", valor: "2026-11-04", nota: "Data provável. O tema de cada área de atuação é publicado no site do concurso, antes mesmo do fim das inscrições" }, detalhe: {} },
+      { nome: "Prova Objetiva", tipo: "objetiva", carater: "Eliminatória e classificatória",
+        data: { tipo: "exata", valor: "2026-12-13", nota: "Data provável. Gabarito preliminar em 14/12, recursos em 15 e 16/12, gabarito definitivo em 20/01/2027 e resultado em 26/01/2027" }, detalhe: {} },
+      { nome: "Prova de Desempenho Didático", tipo: "didatica", carater: "Eliminatória e classificatória",
+        data: { tipo: "periodo", valor: "2027-02-27", fim: "2027-03-07", nota: "Período previsto no Comunicado nº 1/2026. Resultado preliminar em 10/03/2027, recursos em 16 e 17/03 e resultado dos recursos em 25/03/2027" },
+        detalhe: { duracao: "45 minutos de aula, mais até 10 minutos de arguição da banca",
+                   sorteio: "Não há sorteio de ponto na hora. O tema de cada área é publicado antes, na data provável de 04/11/2026",
+                   nota_minima: "60 pontos",
+                   arguicao: "Sim, arguição da banca examinadora depois da aula",
+                   modalidade: "Presencial",
+                   plano_de_aula: "Exigido. Três vias do plano de aula, entregues à banca" } },
+      { nome: "Prova de Títulos", tipo: "titulos", carater: "Classificatória",
+        data: { tipo: "nao_divulgada", nota: "Resultado preliminar em 15/03/2027, recursos em 16 e 17/03 e resultado dos recursos em 23/03/2027" }, detalhe: {} },
+      { nome: "Resultado final", tipo: "resultado", carater: "",
+        data: { tipo: "exata", valor: "2027-03-30", nota: "Resultado preliminar do concurso em 24/03/2027 e homologação na imprensa oficial em 31/03/2027" }, detalhe: {} }
+    ],
+    observacao: "O maior concurso EBTT aberto agora: 45 vagas em 21 cidades de São Paulo, com Informática (18 vagas) e Pedagogia (7) concentrando a maior parte. Inscrição de 06/10 a 17/11, banca própria do IFSP, sem banca terceirizada. O detalhe que muda o preparo: não há sorteio de ponto no dia da aula. O tema de cada área sai em 04/11/2026, ou seja, você tem quase quatro meses para construir a aula antes de apresentá-la entre 27/02 e 07/03/2027. Aula de 45 minutos, mais até 10 de arguição, com três vias do plano de aula entregues à banca e corte de 60 pontos."
   }
 
 ];

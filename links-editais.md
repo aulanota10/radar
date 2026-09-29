@@ -1,70 +1,43 @@
-# Links dos editais do Radar · verificação de 28/09/2026
+# Links diretos de editais · Radar de Concursos Aula Nota 10
+Verificação de 29/09/2026
 
-URLs diretas para baixar e usar no extrator de edital. Todas de domínio oficial
-da instituição ou da banca.
+## Novo no radar nesta rodada
 
-## Editais novos desta rodada
+### IFSP · Edital nº 183/2026 (EBTT · 45 vagas · inscrições de 06/10 a 17/11)
+- Edital completo (PDF): https://concursopublico.ifsp.edu.br/sites/default/files/arquivos/edital-183-2026-suap.pdf
+- Comunicado nº 1/2026, cronograma previsto (PDF): https://concursopublico.ifsp.edu.br/sites/default/files/arquivos/comunicado-1-2026-cronograma-previsto.pdf
+- Página oficial do edital: https://concursopublico.ifsp.edu.br/editais/edital-1832026-docentes
+- Portal do concurso: https://concursopublico.ifsp.edu.br/
+- Orientações de GRU: https://concursopublico.ifsp.edu.br/arquivos/orientações-para-emissão-e-pagamento-da-guia-de-recolhimento-da-união-gru-edital-1832026
+- Versão publicada no DOU: https://concursopublico.ifsp.edu.br/arquivos/edital-1832026-versão-publicada-no-diário-oficial-da-união
 
-### UFVJM · Edital nº 101/2026-PROGEP (Magistério Superior · MG)
-- Página oficial: https://portal.ufvjm.edu.br/editais/progep/docentes/2026/edital-101-2026-progep
-- PDF do edital: https://portal.ufvjm.edu.br/editais/progep/docentes/2026/edital-101-2026-progep/edital-101-2026-concurso/@@download/file/Edital%20101.2026%20Concurso.pdf
+Prioridade de extração: alta. É o maior concurso EBTT aberto no radar e o edital tem quadro de vagas por área e câmpus, barema da prova de desempenho didático e regras de plano de aula.
 
-### UFRN · Edital nº 109/2026 (EBTT · RN)
-- Página oficial: https://sigrh.ufrn.br/publico/concursos/321
-- PDF do edital (listado pelo SIGRH, não abriu por robô): https://sigrh.ufrn.br/publico/concursos/321/edital/425
-- Norma de referência: Resolução nº 31/2025-CONSAD/UFRN
+## Alterações desta rodada
 
-### UNICAMP · COTIL · Edital nº 06/2026 (ensino técnico · SP)
-- Página oficial: https://solicita.dados.unicamp.br/concurso/ver_edital_abertura/1105
-- O PDF é servido pela própria página (sistema Solicita/Unicamp). Publicado no
-  DOE-SP de 04/09/2026, autenticidade 2026.09.03.1.3.43.2.26.6.2100449,
-  verificável em https://www.doe.sp.gov.br/autenticidade
+### FURB · Edital nº 07/2026 (retificação de sala, 24/09/2026)
+- Retificação de sala (PDF): https://anexos-r2.selecao.net.br/uploads/342/concursos/528/anexos/bf3199a2-3672-4d85-99ac-2e059fdb6918.pdf
+- Retificação de datas das provas, 28/08/2026 (PDF): https://anexos-r2.selecao.net.br/uploads/342/concursos/528/anexos/1b61208f-8c35-4c6e-9c04-75533461533f.pdf
+- Edital de abertura (PDF): https://anexos.cdn.selecao.net.br/uploads/342/concursos/528/anexos/d9dfe343-0c3f-4cda-a621-eb527baaafe5.pdf
+- Página oficial: https://concursos.furb.br/informacoes/528/
 
-## Editais com retificação nova ou dado alterado
+### UFRN · Edital nº 109/2026 (EBTT · duas retificações, 28 e 29/09/2026)
+- Página oficial no SIGRH: https://sigrh.ufrn.br/publico/concursos/321
+- Edital de abertura, versão retificada em 29/09: https://sigrh.ufrn.br/publico/concursos/321/edital/425
+- Resolução nº 31/2025-CONSAD (normativa das provas): https://sigrh.ufrn.br/publico/concursos/321/resolucao/850
+- Retificação DOU nº 183: https://sigrh.ufrn.br/publico/concursos/321/nota/2431
+- Retificação DOU nº 184: https://sigrh.ufrn.br/publico/concursos/321/nota/2433
 
-### UFERSA · Edital nº 030/2026 (MS · RN) — retificado em 26/09
-- Página oficial: https://meritux.ufersa.edu.br/processos/edital-030-2026
-- Edital 030/2026: https://meritux-s3.ufersa.edu.br/meritux/public/documentos/1789953003284-edital-030-2026-professor-efetivo.pdf
-- Retificação (Edital 031/2026): https://meritux-s3.ufersa.edu.br/meritux/public/documentos/1790384241829-edital-031-2026-retificacao-do-edital-030-2026.pdf
-- Anexo I retificado (pontos): https://meritux-s3.ufersa.edu.br/meritux/public/documentos/1790385466107-anexo-i-pontos-de-estudos-retificado-.pdf
-- Anexo II retificado (cronograma): https://meritux-s3.ufersa.edu.br/meritux/public/documentos/1790385604062-anexo-ii-cronograma-provisorio-efetivo-grupos-i-ii-e-iii-retificado.pdf
+Atenção: os três últimos links não abriram na verificação automática desta rodada. Baixe manualmente no navegador. O edital e as retificações são a única fonte do período de inscrição e das datas de prova, que continuam como nao_divulgada no radar.
 
-### UFS · Edital nº 008/2026 (MS e EBTT · SE) — primeiro cronograma de didática
-- Página do edital: https://cmop.ufs.br/conteudo/79778
-- Página dos calendários por departamento: https://cmop.ufs.br/conteudo/79783
-- Cronograma de Ciências Contábeis (didática em 04 e 05/11): https://cmop.ufs.br/uploads/content_attach/path/44455/CRONOGRAMA_EFETIVO_DCC_Edital_008_2026_Contabilidade.pdf
+### UFRJ · Edital nº 942/2026 (inscrições encerradas em 27/09)
+- Página oficial: https://concursos.pr4.ufrj.br/index.php/837-edital-n-942-de-18-de-agosto-de-2026
+- Anexo III, cronograma (PDF): https://concursos-pr4-ufrj-2022.com.br/UFRJ.2026.Edital942/Edital-942-AnexoIII-Cronograma.pdf
 
-### UFSM · Edital nº 221/2026 (MS · RS) — prorrogação de uma área
-- Página oficial: https://www.ufsm.br/pro-reitorias/progep/editais/221-2026
-- Comunicado de prorrogação de Anestesiologia (28/09 a 27/10): https://www.ufsm.br/app/uploads/sites/341/2026/08/Comunicado_prorrogacao_anestesiologia.pdf
+## Removido do radar
 
-### UFRN · Edital nº 108/2026 (MS · RN) — retificado no DOU 179 de 22/09
-- Página oficial: https://sigrh.ufrn.br/publico/concursos/320
+### UFU · Editais nº 93 e 94/2026 (com complementares 95 a 100/2026)
+- Portal de seleção, listagem de concursos docentes: https://www.portalselecao.ufu.br/servicos/Edital/listar/concurso_docente
+- Cronograma do Edital nº 97/2026, ESEBA: https://www.portalselecao.ufu.br/servicos/Edital/cronograma/1808
 
-### UFC · Edital nº 48/2026 (MS · CE) — inscrições de 04 a 13/10
-- Portal de inscrição: https://centraldeconcursos.fcpc.ufc.br
-- Nota oficial da UFC: https://ufcinforma.ufc.br/pt/noticias/edital-da-ufc-oferta-61-vagas-de-professor-efetivo-nos-campi-de-fortaleza-crateus-itapaje-quixada-russas-e-sobral
-
-## Pistas a confirmar à mão (não entraram no radar)
-
-Os portais abaixo bloqueiam leitura automatizada. Se abrirem no seu navegador,
-valem uma olhada, porque os três podem ser concurso com didática ainda por vir.
-
-### UFMG · COLTEC · Edital nº 1.221, de 21/05/2026 (EBTT · Automação e Eletrônica)
-- https://www.coltec.ufmg.br/coltec-ufmg/?p=14890
-- https://www.coltec.ufmg.br/coltec-ufmg/?page_id=1555
-- DOU: https://www.in.gov.br/web/dou/-/edital-n-1.221-de-21-de-maio-de-2026-707762408
-- Provas previstas entre 22/09 e 22/10/2026. É a pista mais promissora.
-
-### UFRR · edital EBTT com inscrições encerradas em 11/09/2026
-- https://ufrr.br/noticias/4805/
-- https://concursos.ufrr.br/
-
-### USP · Faculdade de Educação · Edital nº 36/2026 (Professor Doutor MS-3)
-- https://www4.fe.usp.br/acesso-rapido5/selecao-pessoal/docentes/concurso-publico
-- Inscrições até 13/10/2026, segundo triagem não confirmada em fonte oficial.
-
-### UENF · Professor Associado, Fitopatologia e Fitonematologia (RJ)
-- https://uenf.br/portal/noticias/concurso-para-professor-associado-area-de-fitopatologia-2/
-- https://uenf.br/portal/wp-content/uploads/2026/03/EDITAL_DE_CONCURSO_PARA_PROFESSOR_ASSOCIADO_Fitonematologia.pdf
-- Status oficial ainda é "inscrições prorrogadas", sem cronograma publicado.
+Motivo da saída: todas as provas de desempenho didático do lote já aconteceram, a última em 18/09, e o resultado preliminar da didática da ESEBA foi publicado em 21/09. O concurso deixou de atender ao critério de entrada do radar. O Edital nº 118/2026 da UFU, de Magistério Superior, continua no radar.
