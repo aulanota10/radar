@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'dados.js'
+      - 'index.html'
       - 'validar-dados.js'
       - '.github/workflows/publicar-radar.yml'
   workflow_dispatch:
@@ -32,6 +33,7 @@ jobs:
         run: |
           mkdir -p publicar
           cp dados.js publicar/dados.js
+          cp index.html publicar/index.html
           echo "Arquivos que serao enviados:"
           ls -la publicar/
 
@@ -43,5 +45,6 @@ jobs:
           password: ${{ secrets.FTP_SENHA }}
           protocol: ftps
           local-dir: ./publicar/
-          server-dir: ./
+          # A conta FTP abre em public_html/radar/public_html; o Radar fica um nível acima.
+          server-dir: ../
           dry-run: false
