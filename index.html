@@ -1242,7 +1242,20 @@ function Card({
     key: i,
     e: e,
     destaque: e.tipo === "didatica"
-  }))), c.observacao && /*#__PURE__*/React.createElement("div", {
+  }))), c.avisos_edital && c.avisos_edital.length > 0 && /*#__PURE__*/React.createElement("div", {
+    style: {
+      marginTop: 11,
+      background: "#fdf3dc",
+      borderLeft: "3px solid #c48a00",
+      borderRadius: 6,
+      padding: "8px 11px",
+      fontSize: 15.5,
+      color: "#7a5a00",
+      lineHeight: 1.5
+    }
+  }, /*#__PURE__*/React.createElement("b", null, "Possível erro no edital."), " Encontramos contas do edital que não fecham. Confira no edital antes de se preparar:", /*#__PURE__*/React.createElement("ul", {
+    style: { margin: "6px 0 0", paddingLeft: 18 }
+  }, c.avisos_edital.map((t, i) => /*#__PURE__*/React.createElement("li", { key: i }, t)))), c.observacao && /*#__PURE__*/React.createElement("div", {
     style: {
       marginTop: 11,
       fontSize: 15.5,
@@ -1251,6 +1264,13 @@ function Card({
       lineHeight: 1.5
     }
   }, c.observacao), /*#__PURE__*/React.createElement("div", {
+    style: {
+      marginTop: 11,
+      fontSize: 14.5,
+      color: C.cinza,
+      lineHeight: 1.45
+    }
+  }, "Resumo de apoio da Aula Nota 10. A informação oficial é a do edital e dos documentos publicados pela instituição."), /*#__PURE__*/React.createElement("div", {
     style: {
       display: "flex",
       gap: 9,
