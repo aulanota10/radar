@@ -83,5 +83,12 @@
     ],
     "conferido_em": "2026-10-05",
     "evidencia": "Edital 204/2026, item 2.1 (conferido pelo Samuel no PDF): Medicina de Família 03 AC + 01 PPP, Ginecologia 01 IND, Comunicação 01 AC; total 6. Edital 237/2026 confirma."
+  },
+  "uerj-2026": {
+    "campos": [
+      "vagas"
+    ],
+    "conferido_em": "2026-10-05",
+    "evidencia": "20 seleções no acervo e no pacotes.json; 213 com 2 vagas e as demais com 1. Na 238 (Nefrologia) o quadro do edital e da errata traz AC 01 e Total 0; conferido pelo Samuel: erro do edital, 1 vaga. Total 21."
   }
 }
