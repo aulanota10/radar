@@ -24,20 +24,22 @@ import argparse, collections, datetime as dt, glob, json, os, re
 
 # alerta agendado: tipo_evento -> [(marco, [dias de antecedência])]
 REGRAS = {
-    "inscricao": [("ini", [0]), ("fim", [3, 0])],
-    "isencao_pedido": [("fim", [2])],
-    "pagamento": [("fim", [1])],
-    "homologacao_inscricoes": [("ini", [0])],
-    "portaria_banca": [("ini", [0])],
-    "sorteio_tema": [("ini", [1, 0])],
-    "prova": [("ini", [7, 1])],
-    "entrega_documento": [("fim", [3])],
-    "resultado": [("ini", [0])],
+    # antecedência longa (pedido do Samuel em 05/10): o candidato não pode ser pego de surpresa.
+    # Datas que só aparecem perto do evento chegam pelo aviso de documento novo, que é o mais cedo possível.
+    "inscricao": [("ini", [0]), ("fim", [7, 2])],
+    "isencao_pedido": [("fim", [5, 2])],
+    "pagamento": [("fim", [2])],
+    "homologacao_inscricoes": [("ini", [2, 0])],
+    "portaria_banca": [("ini", [2, 0])],
+    "sorteio_tema": [("ini", [7, 1])],
+    "prova": [("ini", [30, 15, 7, 2])],
+    "entrega_documento": [("fim", [15, 7, 3])],
+    "resultado": [("ini", [2, 0])],
     "recurso_resultado": [("ini", [0])],
     "resultado_final": [("ini", [0])],
     "homologacao_resultado": [("ini", [0])],  # só se o concurso não tem resultado_final datado
-    "convocacao": [("ini", [0])],
-    "recurso": [("ini", [0])],  # só fixa ou janela; quase todos são relativos
+    "convocacao": [("ini", [2, 0])],
+    "recurso": [("ini", [0]), ("fim", [1])],  # só fixa ou janela; quase todos são relativos
 }
 
 # documento novo que vale aviso mesmo sem data (tipo da triagem)
