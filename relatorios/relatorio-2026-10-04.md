@@ -1,10 +1,29 @@
 # Relatório do compilador do Radar · 04/10/2026
 
-47 concursos no dados.js gerado; 45 vieram das extrações.
+47 concursos no dados.js gerado, 47 no publicado; 45 vieram das extrações.
+
+## O que muda no Radar em relação ao publicado (2 concursos)
+
+**unifesp-2026**
+- editais: "17 editais: 365/2026, 375/2026, 377/2026, 379/2026, 381/2026 e 387/2026 e mais 11" → "19 editais: 365/2026, 375/2026, 377/2026, 379/2026, 381/2026 e 387/2026 e mais 13"
+- áreas alterado
+
+**unesp-titular-2026**
+- editais: "7 editais: 444/2026, 138/2026, 139/2026, 111/2026, 294/2026 e 305/2026 e mais 1" → "9 editais: 444/2026, 135/2026, 138/2026, 139/2026, 111/2026 e 294/2026 e mais 3"
+- áreas alterado
+- locais alterado
+
+## Prova didática já terminou (3 concursos)
+
+Pelo critério do Radar, estes concursos saem da lista. O compilador não remove nada sozinho; confira e decida.
+
+- **ufrn-058-2026**: última data da prova didática 02/10/2026
+- **ufla-127-2026**: última data da prova didática 28/09/2026
+- **furb-07-2026**: última data da prova didática 29/09/2026
 
 ## Conferir antes de publicar (22 concursos)
 
-A extração e o dados.js anterior discordam. O dados.js gerado usa o valor da extração; confira no edital qual está certo.
+A extração e o dados.js publicado discordam. O dados.js gerado mantém o valor publicado (modo conservador); confira no edital qual está certo.
 
 **ufrn-058-2026**
 - Prova Didática: dados.js anterior 14/09/2026 a 02/10/2026, extração 14/09/2026 a 12/10/2026 (publicado o anterior)
@@ -44,7 +63,7 @@ A extração e o dados.js anterior discordam. O dados.js gerado usa o valor da e
 - De Títulos: dados.js anterior 03/09/2026 a 06/11/2026, extração 17/10/2026 a 31/10/2026 (publicado o anterior)
 
 **unifesp-2026**
-- vagas: o dados.js anterior dizia "41 vagas somadas, em 19 editais", a extração soma 17 (publicado o anterior)
+- vagas: o dados.js anterior dizia "41 vagas somadas, em 19 editais", a extração soma 22 (publicado o anterior)
 - inscrição fim: dados.js anterior 22/07/2026, extração 21/08/2026 (publicado o anterior)
 
 **ifmg-2026**
@@ -70,7 +89,7 @@ A extração e o dados.js anterior discordam. O dados.js gerado usa o valor da e
 - vagas: o dados.js anterior dizia "1 vaga por edital, em 8 concursos independentes", a extração soma 7 (publicado o anterior)
 
 **unesp-titular-2026**
-- vagas: o dados.js anterior dizia "1 cargo por edital, em 12 concursos independentes", a extração soma 7 (publicado o anterior)
+- vagas: o dados.js anterior dizia "1 cargo por edital, em 12 concursos independentes", a extração soma 9 (publicado o anterior)
 
 **ufrn-108-2026**
 - vagas: o dados.js anterior dizia "9 vagas, uma por área", a extração soma 15 (publicado o anterior)
@@ -81,72 +100,6 @@ A extração e o dados.js anterior discordam. O dados.js gerado usa o valor da e
 
 **ufc-48-2026**
 - vagas: o dados.js anterior dizia "61 vagas (39 ampla concorrência, 15 pessoas negras, 2 indígenas, 1 quilombola e 4 PcD)", a extração soma 65 (publicado o anterior)
-
-## Dados novos trazidos pela extração (13 concursos)
-
-Etapas que estavam sem data no Radar e agora têm data publicada.
-
-**ufrn-058-2026**
-- Resultado final agora tem data: 30/09/2026 a 02/10/2026
-
-**uerj-2026**
-- Resultado final agora tem data: 18/12/2026
-
-**ufsm-221-2026**
-- Prova Escrita agora tem data: 08/11/2026 a 21/02/2027
-
-**ufsj-2026**
-- Prova prática agora tem data: 12/11/2026 a 11/12/2026
-- Prova de títulos agora tem data: 12/11/2026 a 11/12/2026
-
-**ufs-08-2026**
-- Prova escrita agora tem data: 21/09/2026 a 11/01/2027
-- Prova didática agora tem data: 21/09/2026 a 11/01/2027
-- Prova de projeto de pesquisa agora tem data: 21/09/2026 a 11/01/2027
-- Prova de títulos agora tem data: 21/09/2026 a 11/01/2027
-
-**ufrgs-08-2026**
-- Prova Escrita agora tem data: 17/08/2026 a 21/09/2026
-- Prova Prática agora tem data: 07/10/2026
-- Prova Didática agora tem data: 25/08/2026 a 21/10/2026
-- Exame de Títulos e Trabalhos agora tem data: 23/08/2026 a 19/10/2026
-
-**ifmg-2026**
-- Prova de Títulos agora tem data: 27/01/2027 a 04/02/2027
-
-**unifal-002-2026**
-- Prova escrita agora tem data: 09/11/2026 a 30/11/2026
-
-**uneb-085-2026**
-- Prova Escrita agora tem data: 08/11/2026
-- Aula Pública agora tem data: 03/12/2026 a 05/12/2026
-- Apresentação de Memorial agora tem data: 05/01/2027 a 06/01/2027
-- Prova de Títulos agora tem data: 21/01/2027 a 24/01/2027
-
-**ufrn-108-2026**
-- Prova Escrita agora tem data: 21/02/2027
-- Prova Didática agora tem data: 22/02/2027 a 21/03/2027
-- Defesa de Memorial e Projeto de Atuação Profissional agora tem data: 22/02/2027 a 21/03/2027
-- Prova de Títulos agora tem data: 22/02/2027 a 21/03/2027
-
-**ufc-48-2026**
-- Prova escrita dissertativa agora tem data: 08/11/2026
-- Prova prática agora tem data: 18/01/2027 a 20/01/2027
-- Prova didática agora tem data: 07/12/2026 a 11/12/2026
-- Resultado final agora tem data: 22/02/2027
-
-**ufvjm-101-2026**
-- Prova Escrita agora tem data: 30/11/2026
-- Prova prática agora tem data: 27/01/2027
-- Prova Didática agora tem data: 26/01/2027 a 16/02/2027
-- Prova defesa de projeto de atividades acadêmicas agora tem data: 18/02/2027
-- Prova de Títulos agora tem data: 27/01/2027 a 19/02/2027
-
-**ufrn-109-2026**
-- Prova Escrita agora tem data: 21/03/2027
-- Prova Didática agora tem data: 22/03/2027 a 11/04/2027
-- Defesa de Memorial e Projeto de Atuação Profissional agora tem data: 22/03/2027 a 11/04/2027
-- Prova de Títulos agora tem data: 22/03/2027 a 11/04/2027
 
 ## Mantido do dados.js anterior (23 concursos)
 
