@@ -91,5 +91,13 @@
     ],
     "conferido_em": "2026-10-05",
     "evidencia": "20 seleções no acervo e no pacotes.json; 213 com 2 vagas e as demais com 1. Na 238 (Nefrologia) o quadro do edital e da errata traz AC 01 e Total 0; conferido pelo Samuel: erro do edital, 1 vaga. Total 21."
+  },
+  "unifesp-2026": {
+    "campos": [
+      "vagas",
+      "inscrição fim"
+    ],
+    "conferido_em": "2026-10-05",
+    "evidencia": "38 editais extraídos (pacote completo), 41 vagas. Prazos: 12 editais até 22/07, 15 até 21/08 e 11 até 20/09 (Edital 367, Anexo I, 1.1, conferido pelo Samuel), com reabertura de um dia em 22/09 (Edital 688/2026)."
   }
 }

@@ -771,7 +771,7 @@ def compila_grupo(id_radar, exts, atual, hoje, validador=None, conservador=False
             pass
         elif incompletas and segura("vagas"):
             novo["vagas"] = atual.get("vagas") or novo["vagas"]
-        elif m and int(m.group(1)) == total:
+        elif m and int(m.group(1)) == total and segura("vagas"):
             novo["vagas"] = atual["vagas"]
         elif m and total and not pacote_parcial:
             registra("vagas", f"vagas: o dados.js anterior dizia \"{atual.get('vagas')}\", "
