@@ -668,22 +668,27 @@ def compila_grupo(id_radar, exts, atual, hoje, validador=None, conservador=False
     # Resultado final, quando o edital ou um documento posterior o datou
     rf_periodos, rf_abertas = [], []
     for e in exts:
-        evs = [ev for ev in e.get("eventos") or []
-               if ev.get("tipo_evento") == "resultado_final" and ev.get("estado", "vigente") == "vigente"]
-        finais = [ev for ev in evs if "preliminar" not in (ev.get("descricao_literal") or "").lower()]
-        evs = finais or evs
-        fixos = [ev for ev in evs if intervalo(ev.get("data"))]
-        if fixos:   # o Radar mostra a última publicação do resultado final
-            evs = [max(fixos, key=lambda ev: intervalo(ev.get("data"))[1])]
-        for ev in evs:
-            if True:
-                iv = intervalo(ev.get("data"))
-                if iv:
-                    rf_periodos.append(iv)
-                else:
-                    t = descreve_data_aberta(ev.get("data"))
-                    if t:
-                        rf_abertas.append(t)
+        vig = [ev for ev in e.get("eventos") or [] if ev.get("estado", "vigente") == "vigente"]
+        homol = [ev for ev in vig if ev.get("tipo_evento") == "homologacao_resultado"]
+        # A fase do evento decide; sem fase, a descrição. Resultado só preliminar não vira data no Radar.
+        finais = [ev for ev in vig if ev.get("tipo_evento") == "resultado_final" and (
+                  ev.get("fase") == "final" or (ev.get("fase") is None and
+                  "preliminar" not in (ev.get("descricao_literal") or "").lower()))]
+        # Ordem: resultado final com data, homologação com data, resultado final aberto, homologação aberta.
+        escolhido = None
+        for grupo in (finais, homol):
+            fixos = [ev for ev in grupo if intervalo(ev.get("data"))]
+            if fixos:
+                escolhido = max(fixos, key=lambda ev: intervalo(ev.get("data"))[1])
+                rf_periodos.append(intervalo(escolhido.get("data")))
+                break
+        if not escolhido:
+            for grupo in (finais, homol):
+                textos = [descreve_data_aberta(ev.get("data")) for ev in grupo]
+                textos = [t for t in textos if t]
+                if textos:
+                    rf_abertas.append(textos[0])
+                    break
     if rf_periodos or rf_abertas:
         etapas.append({"nome": "Resultado final", "tipo": "resultado", "carater": "",
                        "data": data_radar(rf_periodos, juntar(unicos(rf_abertas), "/"), []),
