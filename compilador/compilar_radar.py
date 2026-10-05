@@ -574,6 +574,8 @@ def compila_grupo(id_radar, exts, atual, hoje, validador=None, conservador=False
     # Vagas
     vagas = [vg for e in exts for vg in (e.get("vagas") or [])
              if str(v(vg.get("situacao")) or "").lower() not in ("cancelada", "cancelado", "suspensa")]
+    incompletas = [((vg.get("codigo") or {}).get("numero") or (vg.get("codigo") or {}).get("literal") or "?")
+                   for vg in vagas if vg.get("vagas_imediatas") is None]
     pacote_total = max(e.get("_pacote_total", 1) for e in exts)
     pacote_parcial = em_pacote and len(exts) < pacote_total
     total = sum((vg.get("vagas_imediatas") or 0) for vg in vagas)
@@ -747,6 +749,8 @@ def compila_grupo(id_radar, exts, atual, hoje, validador=None, conservador=False
         m = re.match(r"\s*(\d+)", atual.get("vagas") or "")
         if pacote_parcial:
             pass
+        elif incompletas and segura("vagas"):
+            novo["vagas"] = atual.get("vagas") or novo["vagas"]
         elif m and int(m.group(1)) == total:
             novo["vagas"] = atual["vagas"]
         elif m and total and not pacote_parcial:
@@ -791,7 +795,16 @@ def compila_grupo(id_radar, exts, atual, hoje, validador=None, conservador=False
                     ni[k] = ai[k]
         if conservador:
             ni["situacao"] = situacao_inscricao(ni.get("inicio"), ni.get("fim"), hoje)
+    alertas = []
+    if incompletas:
+        conferido = not segura("vagas")
+        alertas.append(f"vagas incompletas na extração: {len(incompletas)} área(s) sem total de vagas "
+                       f"({', '.join(map(str, incompletas[:8]))}); "
+                       + ("vagas conferidas e liberadas, publicada a soma da extração (área sem total "
+                          "conferida como cadastro de reserva ou equivalente)" if conferido else
+                          "a soma não é publicada" + (" e fica o texto anterior do Radar" if atual else "")))
     novo["_conflitos"], novo["_recuperados"], novo["_liberados"] = conflitos, recuperados, liberados_aqui
+    novo["_alertas"] = alertas
 
     ds = [x for et in novo["etapas"] if et["tipo"] in ("objetiva", "discursiva", "didatica", "memorial")
           and et["data"].get("tipo") != "nao_divulgada"
@@ -965,6 +978,7 @@ def main():
                     rel.append((cid, "fora do Radar", ["a extração não tem prova didática"]))
                 continue
             conf, recu, libs = novo.pop("_conflitos"), novo.pop("_recuperados"), novo.pop("_liberados")
+            alts = novo.pop("_alertas")
             ganhos = []
             if atual:
                 usados = set()
@@ -977,7 +991,8 @@ def main():
                                       + (f" a {br(d['fim'])}" if d.get("fim") else ""))
             saida.append(novo)
             rel.append((cid, "atualizado pela extração" if atual else "novo",
-                        {"conflitos": conf, "recuperados": recu, "ganhos": ganhos, "liberados": libs}))
+                        {"conflitos": conf, "recuperados": recu, "ganhos": ganhos, "liberados": libs,
+                         "alertas": alts}))
         else:
             saida.append(atual)
             rel.append((cid, "sem extração, mantido como estava", []))
@@ -1033,6 +1048,9 @@ def main():
                        "Já estavam no relatório anterior e seguem sem conferência.", "conflitos")
         else:
             L += bloco("Conferir antes de publicar", EXPLICA_CONFLITO[a.conservador], "conflitos")
+        L += bloco("Extração incompleta",
+                   "A extração deixou área sem total de vagas. Corrigir na extração; até lá o Radar "
+                   "mantém o texto anterior.", "alertas")
         L += bloco("Liberados após conferência",
                    "Conferidos nos documentos oficiais (compilador/liberados.json); o dados.js gerado "
                    "publica o valor da extração.", "liberados")
