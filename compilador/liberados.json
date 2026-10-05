@@ -106,5 +106,12 @@
     ],
     "conferido_em": "2026-10-05",
     "evidencia": "Edital 241/2026-GR/UEMA (03/09/2026, conferido pelo Samuel): retomados 129, 130, 132, 133, 134, 137 e 139 (34 vagas pela extração); permanecem suspensos 131, 135, 136, 138 e 140 (20 vagas) desde o Edital 234 (23/07/2026)."
+  },
+  "ifsc-01-2026": {
+    "campos": [
+      "Resultado final"
+    ],
+    "conferido_em": "2026-10-05",
+    "evidencia": "Critério decidido pelo Samuel em 05/10/2026: resultado final é a divulgação da classificação final (12/01/2027); a homologação (13/01/2027) só entra quando o edital não dá data para o resultado."
   }
 }
