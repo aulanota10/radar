@@ -1,0 +1,1347 @@
+[
+ {
+  "concurso": "ufc-48-2026",
+  "codigo": "22",
+  "classe": "claro",
+  "requisito_literal": "Graduação em Pedagogia ou Licenciatura em Educação Especial e Doutorado em Educação, com tese desenvolvida na área da Educação Especial.",
+  "graduacoes": [
+   "pedagogia",
+   "educacao especial"
+  ],
+  "pos": {
+   "doutorado": [
+    "educacao"
+   ]
+  },
+  "titulacao_minima": "doutorado",
+  "afins": false,
+  "qualquer_area": false
+ },
+ {
+  "concurso": "ufvjm-101-2026",
+  "codigo": "101.9",
+  "classe": "claro",
+  "requisito_literal": "Graduação em Farmácia - E Doutorado em Ciências Farmacêuticas ou Ciências da Saúde",
+  "graduacoes": [
+   "farmacia"
+  ],
+  "pos": {
+   "doutorado": [
+    "ciencias farmaceuticas",
+    "ciencias da saude"
+   ]
+  },
+  "titulacao_minima": "doutorado",
+  "afins": false,
+  "qualquer_area": false
+ },
+ {
+  "concurso": "unimontes-27-2026",
+  "codigo": "06",
+  "classe": "claro",
+  "requisito_literal": "Graduação em Artes Visuais ou Cinema e Audiovisual e Mestrado em Artes, ou Artes Visuais, Arte e Cultura Visual, ou Cinema, ou Audiovisual.",
+  "graduacoes": [
+   "artes visuais",
+   "cinema e audiovisual"
+  ],
+  "pos": {
+   "mestrado": [
+    "artes",
+    "artes visuais",
+    "arte e cultura visual",
+    "cinema",
+    "audiovisual"
+   ]
+  },
+  "titulacao_minima": "mestrado",
+  "afins": false,
+  "qualquer_area": false
+ },
+ {
+  "concurso": "ufrgs-09-2026",
+  "codigo": "12",
+  "classe": "claro",
+  "requisito_literal": "Doutorado em Letras OU Doutorado em Estudos da Tradução",
+  "graduacoes": [],
+  "pos": {
+   "doutorado": [
+    "letras",
+    "estudos da traducao"
+   ]
+  },
+  "titulacao_minima": "doutorado",
+  "afins": false,
+  "qualquer_area": false
+ },
+ {
+  "concurso": "unifal-002-2026",
+  "codigo": "E",
+  "classe": "claro",
+  "requisito_literal": "Graduação em Direito com Mestrado em Direito (60100001) e/ou Doutorado em Direito (60100001)",
+  "graduacoes": [
+   "direito"
+  ],
+  "pos": {
+   "mestrado": [
+    "direito"
+   ],
+   "doutorado": [
+    "direito"
+   ]
+  },
+  "titulacao_minima": "mestrado",
+  "afins": false,
+  "qualquer_area": false
+ },
+ {
+  "concurso": "ufpe-08-2026",
+  "codigo": "25",
+  "classe": "claro",
+  "requisito_literal": "DOUTORADO em Odontologia; E ESPECIALIZAÇÃO em Dentística; E GRADUAÇÃO em Odontologia.",
+  "graduacoes": [
+   "odontologia"
+  ],
+  "pos": {
+   "doutorado": [
+    "odontologia"
+   ],
+   "especializacao": [
+    "dentistica"
+   ]
+  },
+  "titulacao_minima": "doutorado",
+  "afins": false,
+  "qualquer_area": false
+ },
+ {
+  "concurso": "unifal-002-2026",
+  "codigo": "A",
+  "classe": "claro",
+  "requisito_literal": "Graduação em Direito com Mestrado em Direito (60100001) ou Mestrado em Ciências Sociais Aplicadas (60000007) ou Mestrado em Ciências Humanas (70000000) ou Mestrado em Interdisciplinar - Sociais / Humanidades (90192000) e/ou Doutorado em Direito (60100001) ou Doutorado em Ciências Sociais Aplicadas (60000007) ou Doutorado em Ciências Humanas (70000000) ou Doutorado em Interdisciplinar - Sociais / Humanidades (90192000)",
+  "graduacoes": [
+   "direito"
+  ],
+  "pos": {
+   "mestrado": [
+    "direito",
+    "ciencias sociais aplicadas",
+    "ciencias humanas",
+    "interdisciplinar - sociais",
+    "humanidades"
+   ],
+   "doutorado": [
+    "direito",
+    "ciencias sociais aplicadas",
+    "ciencias humanas",
+    "interdisciplinar - sociais",
+    "humanidades"
+   ]
+  },
+  "titulacao_minima": "mestrado",
+  "afins": false,
+  "qualquer_area": false
+ },
+ {
+  "concurso": "unifesp-427-2026",
+  "codigo": "32",
+  "classe": "claro",
+  "requisito_literal": "Graduado(a) na(s) área(s) de: Medicina. Doutor(a) na(s) área(s) de: Medicina III - Otorrinolaringologia. Título de Especialista na(s) área(s) de: Otorrinolaringologia e Medicina do Sono.",
+  "graduacoes": [
+   "medicina"
+  ],
+  "pos": {
+   "doutorado": [
+    "medicina iii - otorrinolaringologia"
+   ],
+   "especializacao": [
+    "otorrinolaringologia e medicina do sono"
+   ]
+  },
+  "titulacao_minima": "doutorado",
+  "afins": false,
+  "qualquer_area": false
+ },
+ {
+  "concurso": "ufc-48-2026",
+  "codigo": "47",
+  "classe": "claro",
+  "requisito_literal": "Graduação em Odontologia, Especialização na Área do Concurso (Endodontia) e Doutorado na Área da Saúde",
+  "graduacoes": [
+   "odontologia"
+  ],
+  "pos": {
+   "especializacao": [
+    "concurso"
+   ],
+   "doutorado": [
+    "saude"
+   ]
+  },
+  "titulacao_minima": "doutorado",
+  "afins": false,
+  "qualquer_area": false
+ },
+ {
+  "concurso": "unifesp-413-2026",
+  "codigo": "25",
+  "classe": "claro",
+  "requisito_literal": "Graduado(a) na(s) área(s) de: Biológicas ou da Saúde. Doutor(a) na(s) área(s) de: Ciências ou Ciências da Saúde.",
+  "graduacoes": [
+   "biologicas",
+   "saude"
+  ],
+  "pos": {
+   "doutorado": [
+    "ciencias",
+    "ciencias da saude"
+   ]
+  },
+  "titulacao_minima": "doutorado",
+  "afins": false,
+  "qualquer_area": false
+ },
+ {
+  "concurso": "unimontes-03-2026",
+  "codigo": "03",
+  "classe": "claro",
+  "requisito_literal": "Graduação em História e Doutorado em História",
+  "graduacoes": [
+   "historia"
+  ],
+  "pos": {
+   "doutorado": [
+    "historia"
+   ]
+  },
+  "titulacao_minima": "doutorado",
+  "afins": false,
+  "qualquer_area": false
+ },
+ {
+  "concurso": "ufpel-028-2026",
+  "codigo": "01",
+  "classe": "claro",
+  "requisito_literal": "Graduação em Administração OU Comércio Exterior OU Processos Gerenciais COM Doutorado em Administração",
+  "graduacoes": [
+   "administracao",
+   "comercio exterior",
+   "processos gerenciais"
+  ],
+  "pos": {
+   "doutorado": [
+    "administracao"
+   ]
+  },
+  "titulacao_minima": "doutorado",
+  "afins": false,
+  "qualquer_area": false
+ },
+ {
+  "concurso": "ifmt-03-2026",
+  "codigo": "01",
+  "classe": "claro",
+  "requisito_literal": "Graduação em Administração",
+  "graduacoes": [
+   "administracao"
+  ],
+  "pos": {},
+  "titulacao_minima": "graduacao",
+  "afins": false,
+  "qualquer_area": false
+ },
+ {
+  "concurso": "ifsc-01-2026",
+  "codigo": "02",
+  "classe": "claro",
+  "requisito_literal": "Graduação em Administração ou em Tecnologia em Processos Gerenciais.",
+  "graduacoes": [
+   "administracao",
+   "tecnologia em processos gerenciais"
+  ],
+  "pos": {},
+  "titulacao_minima": "graduacao",
+  "afins": false,
+  "qualquer_area": false
+ },
+ {
+  "concurso": "ufscar-004-2026",
+  "codigo": "53",
+  "classe": "claro",
+  "requisito_literal": "Doutor em Educação.",
+  "graduacoes": [],
+  "pos": {
+   "doutorado": [
+    "educacao"
+   ]
+  },
+  "titulacao_minima": "doutorado",
+  "afins": false,
+  "qualquer_area": false
+ },
+ {
+  "concurso": "unimontes-14-2026",
+  "codigo": "08",
+  "classe": "claro",
+  "requisito_literal": "Graduação em Matemática ou Bacharelado em Estatística com Doutorado em Estatística; ou em Estatística Aplicada; ou em Modelagem Computacional; ou em Modelagem Computacional e de Sistemas.",
+  "graduacoes": [
+   "matematica",
+   "estatistica"
+  ],
+  "pos": {
+   "doutorado": [
+    "estatistica",
+    "estatistica aplicada",
+    "modelagem computacional",
+    "modelagem computacional e de sistemas"
+   ]
+  },
+  "titulacao_minima": "doutorado",
+  "afins": false,
+  "qualquer_area": false
+ },
+ {
+  "concurso": "uncisal-01-2026",
+  "codigo": "5",
+  "classe": "claro",
+  "requisito_literal": "diploma de conclusão de curso de graduação em Pedagogia e diploma de conclusão de Mestrado em Educação ou em Educação na área de Tecnologia da Informação e Comunicação, Tecnologia ou Ensino em Saúde e Tecnologia, devidamente registrados, fornecidos por instituição de ensino superior reconhecida pelo MEC.",
+  "graduacoes": [
+   "pedagogia"
+  ],
+  "pos": {
+   "mestrado": [
+    "educacao",
+    "educacao na area de tecnologia da informacao e comunicacao",
+    "tecnologia",
+    "ensino em saude e tecnologia"
+   ]
+  },
+  "titulacao_minima": "mestrado",
+  "afins": false,
+  "qualquer_area": false
+ },
+ {
+  "concurso": "ifsuldeminas-188-2026",
+  "codigo": "MCH-6",
+  "classe": "claro",
+  "requisito_literal": "Graduação em Matemática",
+  "graduacoes": [
+   "matematica"
+  ],
+  "pos": {},
+  "titulacao_minima": "graduacao",
+  "afins": false,
+  "qualquer_area": false
+ },
+ {
+  "concurso": "ufba-06-2026",
+  "codigo": "27",
+  "classe": "claro",
+  "requisito_literal": "Graduação Plena em Química. Doutorado em Química, com área de concentração em Química Analítica; ou Doutorado em Química Analítica; ou Doutorado em Ciências, com área de concentração em Química Analítica.",
+  "graduacoes": [
+   "quimica"
+  ],
+  "pos": {
+   "doutorado": [
+    "quimica",
+    "quimica analitica",
+    "ciencias"
+   ]
+  },
+  "titulacao_minima": "doutorado",
+  "afins": false,
+  "qualquer_area": false
+ },
+ {
+  "concurso": "ufpe-09-2026",
+  "codigo": "04",
+  "classe": "claro",
+  "requisito_literal": "DOUTORADO em Tecnologias Energéticas e Nucleares ou Oceanografia ou Engenharia Mecânica ou Ciências Climáticas; E GRADUAÇÃO em Engenharia de Energia ou Engenharia de Energias Renováveis ou Engenharia Mecânica ou Ciências Biológicas ou Ciências Ambientais ou Meteorologia ou Oceanografia.",
+  "graduacoes": [
+   "engenharia de energia",
+   "engenharia de energias renovaveis",
+   "engenharia mecanica",
+   "ciencias biologicas",
+   "ciencias ambientais",
+   "meteorologia",
+   "oceanografia"
+  ],
+  "pos": {
+   "doutorado": [
+    "tecnologias energeticas e nucleares",
+    "oceanografia",
+    "engenharia mecanica",
+    "ciencias climaticas"
+   ]
+  },
+  "titulacao_minima": "doutorado",
+  "afins": false,
+  "qualquer_area": false
+ },
+ {
+  "concurso": "ufpe-09-2026",
+  "codigo": "05",
+  "classe": "claro",
+  "requisito_literal": "DOUTORADO em História; E GRADUAÇÃO em História.",
+  "graduacoes": [
+   "historia"
+  ],
+  "pos": {
+   "doutorado": [
+    "historia"
+   ]
+  },
+  "titulacao_minima": "doutorado",
+  "afins": false,
+  "qualquer_area": false
+ },
+ {
+  "concurso": "ifsc-01-2026",
+  "codigo": "31",
+  "classe": "claro",
+  "requisito_literal": "Licenciatura em Letras com habilitação em Língua Inglesa ou Licenciatura em Inglês-Português.",
+  "graduacoes": [
+   "letras com habilitacao em lingua inglesa",
+   "ingles-portugues"
+  ],
+  "pos": {},
+  "titulacao_minima": "graduacao",
+  "afins": false,
+  "qualquer_area": false
+ },
+ {
+  "concurso": "uncisal-01-2026",
+  "codigo": "21",
+  "classe": "claro",
+  "requisito_literal": "diploma de conclusão de curso de graduação em Medicina com residência médica em Endocrinologia ou Título de Especialista e diploma de conclusão de Mestrado na área de Saúde, devidamente registrados, fornecidos por instituição de ensino superior reconhecida pelo MEC.",
+  "graduacoes": [
+   "medicina"
+  ],
+  "pos": {
+   "residencia": [
+    "endocrinologia"
+   ],
+   "mestrado": [
+    "saude"
+   ]
+  },
+  "titulacao_minima": "mestrado",
+  "afins": false,
+  "qualquer_area": false
+ },
+ {
+  "concurso": "ufu-118-2026",
+  "codigo": "3",
+  "classe": "claro",
+  "requisito_literal": "Graduação em Agronomia ou Engenharia Agronômica, e Doutorado em Fisiologia Vegetal, ou Agronomia, ou Fitotecnia, ou Produção Vegetal",
+  "graduacoes": [
+   "agronomia",
+   "engenharia agronomica"
+  ],
+  "pos": {
+   "doutorado": [
+    "fisiologia vegetal",
+    "agronomia",
+    "fitotecnia",
+    "producao vegetal"
+   ]
+  },
+  "titulacao_minima": "doutorado",
+  "afins": false,
+  "qualquer_area": false
+ },
+ {
+  "concurso": "unimontes-21-2026",
+  "codigo": "002",
+  "classe": "claro",
+  "requisito_literal": "Graduação em Direito e habilitação mínima: Mestrado em Direito ou Mestrado Interdisciplinar.",
+  "graduacoes": [
+   "direito e habilitacao minima"
+  ],
+  "pos": {
+   "mestrado": [
+    "direito",
+    "interdisciplinar"
+   ]
+  },
+  "titulacao_minima": "mestrado",
+  "afins": false,
+  "qualquer_area": false
+ },
+ {
+  "concurso": "uncisal-01-2026",
+  "codigo": "26",
+  "classe": "claro",
+  "requisito_literal": "diploma de conclusão de curso de graduação em Medicina com residência médica em Oncologia Clínica ou Título de Especialista em Oncologia Clínica e formação ou certificação em Medicina Paliativa/Cuidados Paliativos e diploma de conclusão de Mestrado na área de Saúde, devidamente registrados, fornecidos por instituição de ensino superior reconhecida pelo MEC.",
+  "graduacoes": [
+   "medicina"
+  ],
+  "pos": {
+   "residencia": [
+    "oncologia clinica"
+   ],
+   "especializacao": [
+    "oncologia clinica e formacao",
+    "certificacao em medicina paliativa",
+    "cuidados paliativos"
+   ],
+   "mestrado": [
+    "saude"
+   ]
+  },
+  "titulacao_minima": "mestrado",
+  "afins": false,
+  "qualquer_area": false
+ },
+ {
+  "concurso": "ifsc-01-2026",
+  "codigo": "22",
+  "classe": "claro",
+  "requisito_literal": "Licenciatura em Física.",
+  "graduacoes": [
+   "fisica"
+  ],
+  "pos": {},
+  "titulacao_minima": "graduacao",
+  "afins": false,
+  "qualquer_area": false
+ },
+ {
+  "concurso": "ufrpe-21-2026",
+  "codigo": "14",
+  "classe": "claro",
+  "requisito_literal": "BACHARELADO EM: ENGENHARIA ELÉTRICA OU EM ENGENHARIA ELETRÔNICA OU EM ENGENHARIA DE CONTROLE E AUTOMAÇÃO OU EM ENGENHARIA MECATRÔNICA COM DOUTORADO EM ENGENHARIAS IV (CAPES)",
+  "graduacoes": [
+   "engenharia eletrica",
+   "engenharia eletronica",
+   "engenharia de controle e automacao",
+   "engenharia mecatronica"
+  ],
+  "pos": {
+   "doutorado": [
+    "engenharias iv"
+   ]
+  },
+  "titulacao_minima": "doutorado",
+  "afins": false,
+  "qualquer_area": false
+ },
+ {
+  "concurso": "unimontes-07-2026",
+  "codigo": "02",
+  "classe": "claro",
+  "requisito_literal": "Graduação em Agronomia; Titulação Exigida: Doutorado em Melhoramento Vegetal ou Genética e Melhoramento ou Genética e Melhoramento de Plantas.",
+  "graduacoes": [
+   "agronomia"
+  ],
+  "pos": {
+   "doutorado": [
+    "melhoramento vegetal",
+    "genetica e melhoramento",
+    "genetica e melhoramento de plantas"
+   ]
+  },
+  "titulacao_minima": "doutorado",
+  "afins": false,
+  "qualquer_area": false
+ },
+ {
+  "concurso": "unifesp-395-2026",
+  "codigo": "16",
+  "classe": "claro",
+  "requisito_literal": "Graduado(a) na(s) área(s) de: Bacharel em Enfermagem. Doutor(a) na(s) área(s) de: Ciências ou Ciências da Saúde ou Enfermagem. Título de Especialista na(s) área(s) de: Enfermagem Obstétrica.",
+  "graduacoes": [
+   "enfermagem"
+  ],
+  "pos": {
+   "doutorado": [
+    "ciencias",
+    "ciencias da saude",
+    "enfermagem"
+   ],
+   "especializacao": [
+    "enfermagem obstetrica"
+   ]
+  },
+  "titulacao_minima": "doutorado",
+  "afins": false,
+  "qualquer_area": false
+ },
+ {
+  "concurso": "uerj-228-2026",
+  "codigo": "01",
+  "classe": "claro",
+  "requisito_literal": "Exigência Mínima de Qualificação: Doutorado. 2.1, f) possuir título de doutor em Medicina ou Ciências da Saúde ou Ciências Médicas obtido em curso de pósgraduação credenciado pelos órgãos competentes em âmbito nacional. 2.1, g) possuir diploma de curso de graduação em Medicina e Certificado de Conclusão de Programa de Residência Médica em Cardiologia ou Título de Especialista em Cardiologia.",
+  "graduacoes": [
+   "medicina"
+  ],
+  "pos": {
+   "doutorado": [
+    "medicina",
+    "ciencias da saude",
+    "ciencias medicas"
+   ],
+   "residencia": [
+    "cardiologia"
+   ],
+   "especializacao": [
+    "cardiologia"
+   ]
+  },
+  "titulacao_minima": "doutorado",
+  "afins": false,
+  "qualquer_area": false
+ },
+ {
+  "concurso": "urca-2026",
+  "codigo": "06",
+  "classe": "claro",
+  "requisito_literal": "Graduação em Medicina e especialista em clínica médica ou anestesiologia (RQE em clínica médica ou Anestesiologia).",
+  "graduacoes": [
+   "medicina"
+  ],
+  "pos": {
+   "especializacao": [
+    "clinica medica",
+    "anestesiologia rqe em clinica medica",
+    "anestesiologia"
+   ]
+  },
+  "titulacao_minima": "especializacao",
+  "afins": false,
+  "qualquer_area": false
+ },
+ {
+  "concurso": "ufscar-004-2026",
+  "codigo": "47",
+  "classe": "claro",
+  "requisito_literal": "1) Graduação em Nutrição (registro ativo no CRN exigido, no ato da posse, para as atividades privativas/responsabilidade técnica e supervisão de estágio); E 2) Título de Doutor(a) em Nutrição, ou em Saúde Coletiva, ou em Saúde Pública, ou em Ciências da Saúde, ou em Epidemiologia, ou em Vigilância Alimentar e Nutricional.",
+  "graduacoes": [
+   "nutricao registro ativo no crn exigido",
+   "para as atividades privativas",
+   "responsabilidade tecnica e supervisao de estagio"
+  ],
+  "pos": {
+   "doutorado": [
+    "nutricao",
+    "saude coletiva",
+    "saude publica",
+    "ciencias da saude",
+    "epidemiologia",
+    "vigilancia alimentar e nutricional"
+   ]
+  },
+  "titulacao_minima": "doutorado",
+  "afins": false,
+  "qualquer_area": false
+ },
+ {
+  "concurso": "ifsc-01-2026",
+  "codigo": "11",
+  "classe": "claro",
+  "requisito_literal": "Licenciatura em Educação Física e registro no respectivo conselho de classe.",
+  "graduacoes": [
+   "educacao fisica"
+  ],
+  "pos": {},
+  "titulacao_minima": "graduacao",
+  "afins": false,
+  "qualquer_area": false
+ },
+ {
+  "concurso": "ufc-48-2026",
+  "codigo": "09",
+  "classe": "claro",
+  "requisito_literal": "Graduação em qualquer área e Doutorado em Engenharia Agrícola",
+  "graduacoes": [],
+  "pos": {
+   "doutorado": [
+    "engenharia agricola"
+   ]
+  },
+  "titulacao_minima": "doutorado",
+  "afins": false,
+  "qualquer_area": true
+ },
+ {
+  "concurso": "uema-134-2026",
+  "codigo": "01",
+  "classe": "claro",
+  "requisito_literal": "Graduação em Psicologia, com Mestrado em Psicologia e Doutorado em Educação ou Psicologia",
+  "graduacoes": [
+   "psicologia"
+  ],
+  "pos": {
+   "mestrado": [
+    "psicologia"
+   ],
+   "doutorado": [
+    "educacao",
+    "psicologia"
+   ]
+  },
+  "titulacao_minima": "doutorado",
+  "afins": false,
+  "qualquer_area": false
+ },
+ {
+  "concurso": "uerj-238-2026",
+  "codigo": "01",
+  "classe": "claro",
+  "requisito_literal": "Exigência Mínima de Qualificação: Doutorado. f) possuir título de doutor em Medicina ou Ciências Biológicas ou Clínica Médica, obtido em curso de pósgraduação credenciado pelos órgãos competentes em âmbito nacional, ou obtido no exterior, desde que o tenha revalidado no país, em conformidade com as normas vigentes, conforme Lei Estadual n.º 5.343 de 08 de dezembro de 2008. g) possuir diploma de curso de graduação em Medicina e certificado de Residência Médica em Nefrologia ou Pós graduação em Nefrologia com Registro de Qualificação de Especialista - RQE, obtido em curso realizado em instituição oficial ou reconhecida de ensino superior, conforme Lei Estadual n.º 5.343 de 08 de dezembro de 2008.",
+  "graduacoes": [
+   "medicina"
+  ],
+  "pos": {
+   "doutorado": [
+    "medicina",
+    "ciencias biologicas",
+    "clinica medica",
+    "conformidade"
+   ],
+   "residencia": [
+    "nefrologia",
+    "posgraduacao em nefrologia"
+   ],
+   "especializacao": [
+    "rqe"
+   ]
+  },
+  "titulacao_minima": "doutorado",
+  "afins": false,
+  "qualquer_area": false
+ },
+ {
+  "concurso": "ifsc-01-2026",
+  "codigo": "08",
+  "classe": "claro",
+  "requisito_literal": "Graduação em Controle e Automação, ou em Mecatrônica, ou em Mecatrônica Industrial, ou em Automação Industrial, ou em Engenharia de Controle e Automação ou em Engenharia Mecatrônica.",
+  "graduacoes": [
+   "controle e automacao",
+   "mecatronica",
+   "mecatronica industrial",
+   "automacao industrial",
+   "engenharia de controle e automacao",
+   "engenharia mecatronica"
+  ],
+  "pos": {},
+  "titulacao_minima": "graduacao",
+  "afins": false,
+  "qualquer_area": false
+ },
+ {
+  "concurso": "unesp-ict-161-2026",
+  "codigo": "1",
+  "classe": "claro",
+  "requisito_literal": "Ser portador do título de Livre-Docente obtido na UNESP, USP, UNICAMP, ou pela UNESP declarado equivalente, que tenha sido conferido pelo menos 06 (seis) anos antes da data da inscrição.",
+  "graduacoes": [],
+  "pos": {
+   "livre_docencia": [
+    "usp",
+    "unicamp",
+    "que tenha sido conferido"
+   ]
+  },
+  "titulacao_minima": "livre_docencia",
+  "afins": false,
+  "qualquer_area": false
+ },
+ {
+  "concurso": "ufc-48-2026",
+  "codigo": "18",
+  "classe": "claro",
+  "requisito_literal": "Graduação em Ciências Sociais Aplicadas e Doutorado em Administração, Contabilidade, Economia ou Atuária",
+  "graduacoes": [
+   "ciencias sociais aplicadas"
+  ],
+  "pos": {
+   "doutorado": [
+    "administracao",
+    "contabilidade",
+    "economia",
+    "atuaria"
+   ]
+  },
+  "titulacao_minima": "doutorado",
+  "afins": false,
+  "qualquer_area": false
+ },
+ {
+  "concurso": "unimontes-07-2026",
+  "codigo": "14",
+  "classe": "claro",
+  "requisito_literal": "Graduação em Engenharia Florestal; Titulação Exigida: Doutorado em Engenharia Florestal ou Ciência Florestal ou Ciências Florestais ou Ciências Ambientais e Florestais ou Recursos Florestais ou Ciência e Tecnologia da Madeira.",
+  "graduacoes": [
+   "engenharia florestal"
+  ],
+  "pos": {
+   "doutorado": [
+    "engenharia florestal",
+    "ciencia florestal",
+    "ciencias florestais",
+    "ciencias ambientais e florestais",
+    "recursos florestais",
+    "ciencia e tecnologia da madeira"
+   ]
+  },
+  "titulacao_minima": "doutorado",
+  "afins": false,
+  "qualquer_area": false
+ },
+ {
+  "concurso": "ufscar-004-2026",
+  "codigo": "07",
+  "classe": "claro",
+  "requisito_literal": "Título de Doutor em Engenharia Química.",
+  "graduacoes": [],
+  "pos": {
+   "doutorado": [
+    "engenharia quimica"
+   ]
+  },
+  "titulacao_minima": "doutorado",
+  "afins": false,
+  "qualquer_area": false
+ },
+ {
+  "concurso": "ufsm-221-2026",
+  "codigo": "06",
+  "classe": "claro",
+  "requisito_literal": "Graduação em Administração e Doutorado na área de Administração ou na área de Planejamento Urbano e Regional ou na área Interdisciplinar*",
+  "graduacoes": [
+   "administracao"
+  ],
+  "pos": {
+   "doutorado": [
+    "administracao",
+    "planejamento urbano e regional",
+    "interdisciplinar"
+   ]
+  },
+  "titulacao_minima": "doutorado",
+  "afins": false,
+  "qualquer_area": false
+ },
+ {
+  "concurso": "unifesp-369-2026",
+  "codigo": "03",
+  "classe": "claro",
+  "requisito_literal": "Graduado(a) na(s) área(s) de: Pedagogia ou Licenciatura em Letras ou Licenciatura em Ciências ou Licenciatura em Química ou Licenciatura Física ou Licenciatura em Biologia ou Fonoaudiologia ou Psicologia. Doutor(a) na(s) área(s) de: Educação ou Letras ou Linguística. Título de Especialista na(s) área(s) de: Língua Brasileira de Sinais ou Educação Especial ou Educação Inclusiva.",
+  "graduacoes": [
+   "pedagogia",
+   "letras",
+   "ciencias",
+   "quimica",
+   "fisica",
+   "biologia",
+   "fonoaudiologia",
+   "psicologia"
+  ],
+  "pos": {
+   "doutorado": [
+    "educacao",
+    "letras",
+    "linguistica"
+   ],
+   "especializacao": [
+    "lingua brasileira de sinais",
+    "educacao especial",
+    "educacao inclusiva"
+   ]
+  },
+  "titulacao_minima": "doutorado",
+  "afins": false,
+  "qualquer_area": false
+ },
+ {
+  "concurso": "ufc-48-2026",
+  "codigo": "05",
+  "classe": "claro",
+  "requisito_literal": "Graduação em Arqueologia, História, Antropologia, Ciências Sociais ou Artes e Doutorado na Área do Concurso",
+  "graduacoes": [
+   "arqueologia",
+   "historia",
+   "antropologia",
+   "ciencias sociais",
+   "artes"
+  ],
+  "pos": {
+   "doutorado": [
+    "concurso"
+   ]
+  },
+  "titulacao_minima": "doutorado",
+  "afins": false,
+  "qualquer_area": false
+ },
+ {
+  "concurso": "ufc-48-2026",
+  "codigo": "51",
+  "classe": "claro",
+  "requisito_literal": "Graduação em Mecidina e Mestrado na Área do Concurso",
+  "graduacoes": [
+   "mecidina"
+  ],
+  "pos": {
+   "mestrado": [
+    "concurso"
+   ]
+  },
+  "titulacao_minima": "mestrado",
+  "afins": false,
+  "qualquer_area": false
+ },
+ {
+  "concurso": "usp-fm-167-2026",
+  "codigo": "1264478",
+  "classe": "claro",
+  "requisito_literal": "prova de que possui título de Doutor, na área de Clínica Cirúrgica ou Cirurgia Plástica, outorgado pela USP, por ela reconhecido ou de validade nacional",
+  "graduacoes": [],
+  "pos": {
+   "doutorado": [
+    "clinica cirurgica",
+    "cirurgia plastica",
+    "validade nacional"
+   ]
+  },
+  "titulacao_minima": "doutorado",
+  "afins": false,
+  "qualquer_area": false
+ },
+ {
+  "concurso": "ifsc-01-2026",
+  "codigo": "26",
+  "classe": "claro",
+  "requisito_literal": "Licenciatura em História.",
+  "graduacoes": [
+   "historia"
+  ],
+  "pos": {},
+  "titulacao_minima": "graduacao",
+  "afins": false,
+  "qualquer_area": false
+ },
+ {
+  "concurso": "unespar-023-2026",
+  "codigo": "1402",
+  "classe": "claro",
+  "requisito_literal": "Licenciatura em Letras Inglês, ou Letras Português-Inglês, ou línguas estrangeiras modernas com habilitação em língua inglesa e Doutorado em Letras, ou Estudos da Linguagem, ou Estudos Linguísticos, ou Linguística, ou Linguística Aplicada.",
+  "graduacoes": [
+   "letras ingles",
+   "letras portugues-ingles",
+   "linguas estrangeiras modernas com habilitacao em lingua inglesa"
+  ],
+  "pos": {
+   "doutorado": [
+    "letras",
+    "estudos da linguagem",
+    "estudos linguisticos",
+    "linguistica",
+    "linguistica aplicada"
+   ]
+  },
+  "titulacao_minima": "doutorado",
+  "afins": false,
+  "qualquer_area": false
+ },
+ {
+  "concurso": "ufpe-09-2026",
+  "codigo": "09",
+  "classe": "claro",
+  "requisito_literal": "MESTRADO em qualquer área; E GRADUAÇÃO em Medicina.",
+  "graduacoes": [
+   "medicina"
+  ],
+  "pos": {},
+  "titulacao_minima": "mestrado",
+  "afins": false,
+  "qualquer_area": true
+ },
+ {
+  "concurso": "ufba-06-2026",
+  "codigo": "35",
+  "classe": "afinidade",
+  "requisito_literal": "Graduação em Farmácia. Residência em Farmácia on Residência Multiprofissional em Saúde ou experiência profissional mínima de 2 anos em serviços clínico-farmacêuticos. Doutorado na área de Saúde Coletiva, Farmácia ou áreas afins, com tese defendida na área de conhecimento do concurso.",
+  "graduacoes": [
+   "farmacia"
+  ],
+  "pos": {
+   "residencia": [
+    "farmacia on",
+    "multiprofissional em saude"
+   ],
+   "doutorado": [
+    "saude coletiva",
+    "farmacia"
+   ]
+  },
+  "titulacao_minima": "doutorado",
+  "afins": true,
+  "qualquer_area": false
+ },
+ {
+  "concurso": "ufpe-08-2026",
+  "codigo": "10",
+  "classe": "afinidade",
+  "requisito_literal": "DOUTORADO em Música ou áreas afins (Ciências Humanas e Artes, com tese na área do concurso); E GRADUAÇÃO em Música.",
+  "graduacoes": [
+   "musica"
+  ],
+  "pos": {
+   "doutorado": [
+    "musica"
+   ]
+  },
+  "titulacao_minima": "doutorado",
+  "afins": true,
+  "qualquer_area": false
+ },
+ {
+  "concurso": "ufpe-08-2026",
+  "codigo": "18",
+  "classe": "afinidade",
+  "requisito_literal": "DOUTORADO em Zoologia OU áreas afins, com tese defendida e aprovada focada em Ornitologia com ênfase em: Sistemática ou Taxonomia ou Biogeografia ou Evolução.",
+  "graduacoes": [],
+  "pos": {
+   "doutorado": [
+    "zoologia",
+    "taxonomia",
+    "biogeografia",
+    "evolucao"
+   ]
+  },
+  "titulacao_minima": "doutorado",
+  "afins": true,
+  "qualquer_area": false
+ },
+ {
+  "concurso": "unimontes-26-2026",
+  "codigo": "009",
+  "classe": "afinidade",
+  "requisito_literal": "Graduação em Educação Física (Bacharelado ou Licenciatura ou Licenciatura Plena) ou Esportes e Mestrado na Área da Educação Física, ou da Educação, ou Interdisciplinar segundo a Tabela de áreas de Conhecimento da CAPES",
+  "graduacoes": [
+   "educacao fisica",
+   "esportes"
+  ],
+  "pos": {
+   "mestrado": [
+    "educacao fisica",
+    "educacao",
+    "interdisciplinar"
+   ]
+  },
+  "titulacao_minima": "mestrado",
+  "afins": true,
+  "qualquer_area": false
+ },
+ {
+  "concurso": "unimontes-26-2026",
+  "codigo": "005",
+  "classe": "afinidade",
+  "requisito_literal": "Graduação em Educação Física (Bacharelado ou Licenciatura ou Licenciatura Plena) e Doutorado na Área da Educação Física, ou das Ciências da Saúde, ou das Ciências Biológicas, ou da Interdisciplinar (Saúde e Biológicas), segundo a Tabela de áreas de Conhecimento da CAPES",
+  "graduacoes": [
+   "educacao fisica"
+  ],
+  "pos": {
+   "doutorado": [
+    "educacao fisica",
+    "das ciencias da saude",
+    "das ciencias biologicas",
+    "interdisciplinar"
+   ]
+  },
+  "titulacao_minima": "doutorado",
+  "afins": true,
+  "qualquer_area": false
+ },
+ {
+  "concurso": "unimontes-23-2026",
+  "codigo": "05",
+  "classe": "afinidade",
+  "requisito_literal": "Graduação em Farmácia; Doutorado em Ciências Farmacêuticas, Farmacologia, Biotecnologia, Ciências da Saúde ou áreas correlatas.",
+  "graduacoes": [
+   "farmacia"
+  ],
+  "pos": {
+   "doutorado": [
+    "ciencias farmaceuticas",
+    "farmacologia",
+    "biotecnologia",
+    "ciencias da saude",
+    "correlatas"
+   ]
+  },
+  "titulacao_minima": "doutorado",
+  "afins": true,
+  "qualquer_area": false
+ },
+ {
+  "concurso": "ufba-06-2026",
+  "codigo": "34",
+  "classe": "afinidade",
+  "requisito_literal": "Graduação em Psicologia com Doutorado em Psicologia ou áreas afins.",
+  "graduacoes": [
+   "psicologia"
+  ],
+  "pos": {
+   "doutorado": [
+    "psicologia"
+   ]
+  },
+  "titulacao_minima": "doutorado",
+  "afins": true,
+  "qualquer_area": false
+ },
+ {
+  "concurso": "ufc-48-2026",
+  "codigo": "52",
+  "classe": "afinidade",
+  "requisito_literal": "Graduação em Mecidina e Doutorado nas grandes áreas: Medicina, Ciências Biológicas, Patologia, Patologia Tropical e áreas fins",
+  "graduacoes": [
+   "mecidina"
+  ],
+  "pos": {
+   "doutorado": [
+    "grandes areas medicina",
+    "ciencias biologicas",
+    "patologia",
+    "patologia tropical e areas fins"
+   ]
+  },
+  "titulacao_minima": "doutorado",
+  "afins": true,
+  "qualquer_area": false
+ },
+ {
+  "concurso": "unimontes-22-2026",
+  "codigo": "10",
+  "classe": "afinidade",
+  "requisito_literal": "Graduação em Psicologia com Mestrado em Psicologia ou em áreas correlatas pertencentes à área de avaliação Psicologia da Coordenação de Aperfeiçoamento de Pessoal de Nível Superior - CAPES.",
+  "graduacoes": [
+   "psicologia"
+  ],
+  "pos": {
+   "mestrado": [
+    "psicologia"
+   ]
+  },
+  "titulacao_minima": "mestrado",
+  "afins": true,
+  "qualquer_area": false
+ },
+ {
+  "concurso": "unimontes-06-2026",
+  "codigo": "07",
+  "classe": "afinidade",
+  "requisito_literal": "Graduação em Pedagogia. Mestrado na grande área das Ciências Humanas (CAPES).",
+  "graduacoes": [
+   "pedagogia"
+  ],
+  "pos": {
+   "mestrado": [
+    "grande area das ciencias humanas"
+   ]
+  },
+  "titulacao_minima": "mestrado",
+  "afins": true,
+  "qualquer_area": false
+ },
+ {
+  "concurso": "uncisal-01-2026",
+  "codigo": "31",
+  "classe": "afinidade",
+  "requisito_literal": "diploma de conclusão de curso de graduação em Análise de Sistemas, Sistemas para Internet, Sistemas de Informação, Ciências da Computação, Engenharia da Computação ou Engenharia de Software e diploma de conclusão de Mestrado em áreas afins, devidamente registrados, fornecidos por instituição de ensino superior reconhecida pelo MEC.",
+  "graduacoes": [
+   "analise de sistemas",
+   "sistemas para internet",
+   "sistemas de informacao",
+   "ciencias da computacao",
+   "engenharia da computacao",
+   "engenharia de software"
+  ],
+  "pos": {},
+  "titulacao_minima": "mestrado",
+  "afins": true,
+  "qualquer_area": false
+ },
+ {
+  "concurso": "ufpe-08-2026",
+  "codigo": "11",
+  "classe": "afinidade",
+  "requisito_literal": "DOUTORADO em Música ou áreas afins (Ciências Humanas e Artes, com tese na área do concurso); E GRADUAÇÃO em Música.",
+  "graduacoes": [
+   "musica"
+  ],
+  "pos": {
+   "doutorado": [
+    "musica"
+   ]
+  },
+  "titulacao_minima": "doutorado",
+  "afins": true,
+  "qualquer_area": false
+ },
+ {
+  "concurso": "ufvjm-101-2026",
+  "codigo": "101.14",
+  "classe": "afinidade",
+  "requisito_literal": "Graduação em Psicologia - E Doutorado em Psicologia OU Saúde OU áreas afins",
+  "graduacoes": [
+   "psicologia"
+  ],
+  "pos": {
+   "doutorado": [
+    "psicologia",
+    "saude"
+   ]
+  },
+  "titulacao_minima": "doutorado",
+  "afins": true,
+  "qualquer_area": false
+ },
+ {
+  "concurso": "ufersa-030-2026",
+  "codigo": "09",
+  "classe": "afinidade",
+  "requisito_literal": "Graduação em Psicologia com Mestrado e Doutorado em Psicologia ou áreas afins, desde que comprovada, por meio de histórico escolar, tese defendida ou produção científica, formação com ênfase em temas pertinentes à área do concurso. Habilidade para conduzir atividade em ensino, pesquisa e extensão em nível de graduação e assumir funções administrativas",
+  "graduacoes": [
+   "psicologia",
+   "assumir funcoes administrativas"
+  ],
+  "pos": {
+   "doutorado": [
+    "psicologia",
+    "por meio de historico escolar",
+    "tese defendida",
+    "producao cientifica",
+    "formacao com enfase em temas pertinentes a area do concurso"
+   ]
+  },
+  "titulacao_minima": "doutorado",
+  "afins": true,
+  "qualquer_area": false
+ },
+ {
+  "concurso": "unimontes-17-2026",
+  "codigo": "10",
+  "classe": "afinidade",
+  "requisito_literal": "Graduação em Letras Libras, Letras ou Pedagogia, e Mestrado em Letras, Linguística, Linguística Aplicada, Estudos Linguísticos, Educação ou áreas afins. É necessário domínio da Língua Brasileira de Sinais - Libras.",
+  "graduacoes": [
+   "letras libras",
+   "letras",
+   "pedagogia"
+  ],
+  "pos": {
+   "mestrado": [
+    "letras",
+    "linguistica",
+    "linguistica aplicada",
+    "estudos linguisticos",
+    "educacao"
+   ]
+  },
+  "titulacao_minima": "mestrado",
+  "afins": true,
+  "qualquer_area": false
+ },
+ {
+  "concurso": "uneb-085-2026",
+  "codigo": "003",
+  "classe": "afinidade",
+  "requisito_literal": "Graduação em Medicina, com registro ativo e regular no Conselho Regional de Medicina, com Residência Médica concluída em Pediatria ou Título de Especialista em Pediatria reconhecido pela Sociedade Brasileira de Pediatria, com o respectivo Registro de Qualificação de Especialista e com Mestrado ou Doutorado em Medicina ou áreas afins.",
+  "graduacoes": [
+   "medicina"
+  ],
+  "pos": {
+   "residencia": [
+    "concluida em pediatria"
+   ],
+   "especializacao": [
+    "pediatria"
+   ],
+   "doutorado": [
+    "medicina"
+   ]
+  },
+  "titulacao_minima": "mestrado",
+  "afins": true,
+  "qualquer_area": false
+ },
+ {
+  "concurso": "ufrpe-21-2026",
+  "codigo": "04",
+  "classe": "afinidade",
+  "requisito_literal": "Bacharelado Em Engenharia Agrícola Ou Engenharia Agrícola e Ambiental Ou Engenharia Civil Ou Engenharia de Biossistemas Ou Engenharia Sanitária e Ambiental Ou Engenharia Ambiental e Sanitária Ou Engenharia Ambiental, Todos Com Doutorado Em Engenharia Agrícola Ou Engenharia Civil, Ambos Com Tese Defendida Na Área de Conhecimento do Concurso",
+  "graduacoes": [
+   "engenharia agricola",
+   "engenharia agricola e ambiental",
+   "engenharia civil",
+   "engenharia de biossistemas",
+   "engenharia sanitaria e ambiental",
+   "engenharia ambiental e sanitaria",
+   "engenharia ambiental"
+  ],
+  "pos": {
+   "doutorado": [
+    "engenharia agricola",
+    "engenharia civil"
+   ]
+  },
+  "titulacao_minima": "doutorado",
+  "afins": true,
+  "qualquer_area": false
+ },
+ {
+  "concurso": "uncisal-01-2026",
+  "codigo": "8",
+  "classe": "afinidade",
+  "requisito_literal": "diploma de conclusão de curso de graduação em Enfermagem e diploma de conclusão de Mestrado em Enfermagem, Ensino na Saúde ou áreas afins (com formação em Saúde da Mulher), devidamente registrados, fornecidos por instituição de ensino superior reconhecida pelo MEC.",
+  "graduacoes": [
+   "enfermagem"
+  ],
+  "pos": {
+   "mestrado": [
+    "enfermagem",
+    "ensino na saude"
+   ]
+  },
+  "titulacao_minima": "mestrado",
+  "afins": true,
+  "qualquer_area": false
+ },
+ {
+  "concurso": "unimontes-06-2026",
+  "codigo": "01",
+  "classe": "afinidade",
+  "requisito_literal": "Graduação em Pedagogia. Mestrado na grande área das Ciências Humanas (CAPES).",
+  "graduacoes": [
+   "pedagogia"
+  ],
+  "pos": {
+   "mestrado": [
+    "grande area das ciencias humanas"
+   ]
+  },
+  "titulacao_minima": "mestrado",
+  "afins": true,
+  "qualquer_area": false
+ },
+ {
+  "concurso": "unimontes-15-2026",
+  "codigo": "08",
+  "classe": "afinidade",
+  "requisito_literal": "Graduação em Ciências Biológicas ou Química com Doutorado em Bioquímica, Biotecnologia ou áreas afins.",
+  "graduacoes": [
+   "ciencias biologicas",
+   "quimica"
+  ],
+  "pos": {
+   "doutorado": [
+    "bioquimica",
+    "biotecnologia"
+   ]
+  },
+  "titulacao_minima": "doutorado",
+  "afins": true,
+  "qualquer_area": false
+ }
+]

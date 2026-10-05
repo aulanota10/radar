@@ -1,0 +1,5 @@
+# Catálogo de formações (base do alerta de concurso novo)
+
+`interpretar_requisitos.py` lê o requisito literal de cada vaga nas extrações do aulanota10/vigia-documentos e tenta transformá-lo em campos fechados (graduações aceitas, pós por nível, titulação mínima, áreas afins, qualquer área), montando o catálogo de formações. É um script separado, que não mexe no extrator.
+
+A medição de 05/10/2026 está em `medicao-2026-10-05/`. Sobre 937 vagas, o script classificou 684 como claras (72%), 184 como dependentes de afinidade (19%) e 69 para revisão (7%). Uma conferência independente de 70 vagas (50 claras e 20 de afinidade) contra o texto do edital deu, nas claras, 35 certas, 10 parciais e 5 erradas; nas de afinidade, 11 certas, 8 parciais e 1 errada. Os erros que se repetem são frase de ressalva virando formação, "área do concurso" guardada como nome de área, "e" cumulativo lido como alternativa, área de concentração perdida, erro de grafia do edital e afinidade marcada sem o texto dizer. A conclusão está em `claude/medicao-requisitos-sessao-5.md` nos documentos do projeto: a leitura por regras não tem precisão para disparar alerta sozinha.

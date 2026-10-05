@@ -1,0 +1,6162 @@
+{
+ "80300006 - artes": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "80308007 - cinema": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "acesso-a-informacao": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "acoes-e-programas": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "administracao": {
+  "nivel": [
+   "doutorado",
+   "graduacao",
+   "mestrado"
+  ],
+  "vagas": 64
+ },
+ "administracao e desenvolvimento rural": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "administracao e direito": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "administracao publica": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 2
+ },
+ "administracao rural": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "admitidas": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "aerea": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "agricola": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "agricultura e sociedade": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "agrocomputacao": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 4
+ },
+ "agroecologia": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 3
+ },
+ "agroecologia e desenvolvimento territorial": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "agroecossistemas": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "agronegocios": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 2
+ },
+ "agronomia": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 43
+ },
+ "alem dos registros de qualificacao": {
+  "nivel": [
+   "residencia"
+  ],
+  "vagas": 2
+ },
+ "alergia e imunologia": {
+  "nivel": [
+   "especializacao",
+   "residencia"
+  ],
+  "vagas": 2
+ },
+ "alergia e imunologia clinica": {
+  "nivel": [
+   "especializacao"
+  ],
+  "vagas": 1
+ },
+ "alfabetizacao": {
+  "nivel": [
+   "especializacao"
+  ],
+  "vagas": 1
+ },
+ "alimentos": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 2
+ },
+ "ambiente e territorio": {
+  "nivel": [
+   "mestrado"
+  ],
+  "vagas": 1
+ },
+ "analise de dados": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 3
+ },
+ "analise de desenvolvimento de sistemas": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 4
+ },
+ "analise de sistemas": {
+  "nivel": [
+   "doutorado",
+   "graduacao",
+   "mestrado"
+  ],
+  "vagas": 9
+ },
+ "analise e desenvolvimento de sistemas": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 5
+ },
+ "analise e desenvolvimento de software": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "analise e modelagem de sistemas ambientais": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "analises clinicas": {
+  "nivel": [
+   "mestrado"
+  ],
+  "vagas": 1
+ },
+ "anatomia": {
+  "nivel": [
+   "doutorado",
+   "mestrado"
+  ],
+  "vagas": 2
+ },
+ "anatomia humana": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "anatomia patologica": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "anestesiologia": {
+  "nivel": [
+   "especializacao",
+   "residencia"
+  ],
+  "vagas": 4
+ },
+ "anestesiologia rqe em clinica medica": {
+  "nivel": [
+   "especializacao"
+  ],
+  "vagas": 1
+ },
+ "angiologia e cirurgia vascular": {
+  "nivel": [
+   "residencia"
+  ],
+  "vagas": 1
+ },
+ "annelida": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "antropologia": {
+  "nivel": [
+   "doutorado",
+   "graduacao",
+   "mestrado"
+  ],
+  "vagas": 14
+ },
+ "antropologia e ciencias sociais": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "antropologia social": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "aquicultura": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 2
+ },
+ "arqueologia": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 5
+ },
+ "arquitetura": {
+  "nivel": [
+   "doutorado",
+   "graduacao",
+   "mestrado"
+  ],
+  "vagas": 8
+ },
+ "arquitetura da paisagem": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 2
+ },
+ "arquitetura e urbanismo": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 24
+ },
+ "arquivologia": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 2
+ },
+ "art": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "arte": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "arte e cultura visual": {
+  "nivel": [
+   "doutorado",
+   "mestrado"
+  ],
+  "vagas": 4
+ },
+ "arte e midia": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "arte-educacao": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "artes": {
+  "nivel": [
+   "doutorado",
+   "graduacao",
+   "mestrado"
+  ],
+  "vagas": 35
+ },
+ "artes cenicas": {
+  "nivel": [
+   "doutorado",
+   "graduacao",
+   "mestrado"
+  ],
+  "vagas": 14
+ },
+ "artes com enfase em artes visuais": {
+  "nivel": [
+   "mestrado"
+  ],
+  "vagas": 1
+ },
+ "artes da cena": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "artes e fonoaudiologia": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "artes plasticas": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 5
+ },
+ "artes visuais": {
+  "nivel": [
+   "doutorado",
+   "graduacao",
+   "mestrado"
+  ],
+  "vagas": 23
+ },
+ "artes visuais 80302009 - artes plasticas": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "artes-musica": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "artigos indexados publicados": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "as denominacoes compostas": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "associacao medica brasileira": {
+  "nivel": [
+   "residencia"
+  ],
+  "vagas": 1
+ },
+ "assumir funcoes administrativas": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 3
+ },
+ "astronomia": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 3
+ },
+ "atencao primaria": {
+  "nivel": [
+   "residencia"
+  ],
+  "vagas": 2
+ },
+ "atencao primaria a saude": {
+  "nivel": [
+   "mestrado"
+  ],
+  "vagas": 2
+ },
+ "atendimento educacional especializado": {
+  "nivel": [
+   "especializacao"
+  ],
+  "vagas": 1
+ },
+ "atuaria": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "audiovisual": {
+  "nivel": [
+   "doutorado",
+   "graduacao",
+   "mestrado"
+  ],
+  "vagas": 8
+ },
+ "automacao": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "automacao industrial": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 8
+ },
+ "avaliacao": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "avaliacao da capes": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "banco de dados": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 4
+ },
+ "bem como a inversao da ordem entre cariologia e dentistica": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "biblioteconomia": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "biociencias": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 2
+ },
+ "biodiversidade": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 9
+ },
+ "biofisica": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 2
+ },
+ "biogeografia": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 2
+ },
+ "bioinformatica": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 2
+ },
+ "biologia": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 6
+ },
+ "biologia animal": {
+  "nivel": [
+   "doutorado",
+   "mestrado"
+  ],
+  "vagas": 7
+ },
+ "biologia celular": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "biologia celular e estrutural": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "biologia celular e molecular": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 2
+ },
+ "biologia celular e tecidual": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "biologia computacional": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "biologia computacional e sistemas": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "biologia de agentes infecciosos e parasitarios": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "biologia do desenvolvimento": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 2
+ },
+ "biologia evolutiva": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "biologia geral": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 2
+ },
+ "biologia molecular": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 5
+ },
+ "biologia molecular e morfofuncional": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "biologia parasitaria": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "biologia tecidual": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "biologia vegetal": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 3
+ },
+ "biologicas": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 2
+ },
+ "biomedicina": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 11
+ },
+ "bioquimica": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 6
+ },
+ "biosseguranca": {
+  "nivel": [
+   "mestrado"
+  ],
+  "vagas": 1
+ },
+ "biotecnologia": {
+  "nivel": [
+   "doutorado",
+   "graduacao",
+   "mestrado"
+  ],
+  "vagas": 20
+ },
+ "biotecnologia e bioprocessos": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "botanica": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 5
+ },
+ "camara 3 - engenharia": {
+  "nivel": [
+   "doutorado",
+   "mestrado"
+  ],
+  "vagas": 2
+ },
+ "capes": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "capes educacao": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "cardiologia": {
+  "nivel": [
+   "doutorado",
+   "especializacao",
+   "residencia"
+  ],
+  "vagas": 7
+ },
+ "cardiologia e hemodinamica": {
+  "nivel": [
+   "residencia"
+  ],
+  "vagas": 2
+ },
+ "cardiologia intervencionista": {
+  "nivel": [
+   "especializacao"
+  ],
+  "vagas": 1
+ },
+ "cariologia e dentistica": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "centro cirurgico": {
+  "nivel": [
+   "residencia"
+  ],
+  "vagas": 2
+ },
+ "centro de esterilizacao e controle de infeccao hospitalar": {
+  "nivel": [
+   "residencia"
+  ],
+  "vagas": 2
+ },
+ "certificacao em medicina paliativa": {
+  "nivel": [
+   "especializacao"
+  ],
+  "vagas": 1
+ },
+ "ciencia": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 2
+ },
+ "ciencia ambiental": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "ciencia animal": {
+  "nivel": [
+   "doutorado",
+   "mestrado"
+  ],
+  "vagas": 12
+ },
+ "ciencia da computacao": {
+  "nivel": [
+   "doutorado",
+   "graduacao",
+   "mestrado"
+  ],
+  "vagas": 51
+ },
+ "ciencia da computacao em programa": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "ciencia da informacao": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 5
+ },
+ "ciencia da literatura": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "ciencia da saude": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "ciencia de alimentos": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 2
+ },
+ "ciencia de dados": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 7
+ },
+ "ciencia de dados e em inteligencia artificial": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "ciencia de dados e inteligencia artificial": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 3
+ },
+ "ciencia do solo": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "ciencia dos materiais": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "ciencia e tecnologia": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 2
+ },
+ "ciencia e tecnologia da computacao": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 2
+ },
+ "ciencia e tecnologia da madeira": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 2
+ },
+ "ciencia e tecnologia de alimentos": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 2
+ },
+ "ciencia e tecnologia de sementes": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "ciencia economica": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "ciencia entomologica": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "ciencia florestal": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 6
+ },
+ "ciencia politica": {
+  "nivel": [
+   "doutorado",
+   "graduacao",
+   "mestrado"
+  ],
+  "vagas": 13
+ },
+ "ciencia tecnologia e sociedade": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "ciencias": {
+  "nivel": [
+   "doutorado",
+   "graduacao",
+   "mestrado"
+  ],
+  "vagas": 37
+ },
+ "ciencias agrarias": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 11
+ },
+ "ciencias agricolas": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "ciencias ambientais": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 14
+ },
+ "ciencias ambientais e florestais": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 3
+ },
+ "ciencias atuariais": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "ciencias biologicas": {
+  "nivel": [
+   "doutorado",
+   "graduacao",
+   "mestrado"
+  ],
+  "vagas": 77
+ },
+ "ciencias biologicas i": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "ciencias biologicas ii": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "ciencias biomedicas": {
+  "nivel": [
+   "doutorado",
+   "graduacao",
+   "mestrado"
+  ],
+  "vagas": 5
+ },
+ "ciencias cartograficas": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "ciencias climaticas": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "ciencias com habilitacao em fisica": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 3
+ },
+ "ciencias com habilitacao em matematica": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 3
+ },
+ "ciencias com habilitacao em quimica": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 2
+ },
+ "ciencias computacionais e modelagem matematica": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "ciencias contabeis": {
+  "nivel": [
+   "doutorado",
+   "graduacao",
+   "mestrado"
+  ],
+  "vagas": 31
+ },
+ "ciencias da atividade fisica": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "ciencias da computacao": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 11
+ },
+ "ciencias da computacao e matematica computacional": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 2
+ },
+ "ciencias da comunicacao": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "ciencias da engenharia ambiental": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "ciencias da linguagem": {
+  "nivel": [
+   "doutorado",
+   "mestrado"
+  ],
+  "vagas": 4
+ },
+ "ciencias da natureza": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "ciencias da natureza com habilitacao em fisica": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 2
+ },
+ "ciencias da natureza com habilitacao em quimica": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 3
+ },
+ "ciencias da natureza e matematica": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "ciencias da reabilitacao": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "ciencias da religiao": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "ciencias da saude": {
+  "nivel": [
+   "doutorado",
+   "graduacao",
+   "mestrado"
+  ],
+  "vagas": 98
+ },
+ "ciencias da saude - capes": {
+  "nivel": [
+   "doutorado",
+   "mestrado"
+  ],
+  "vagas": 10
+ },
+ "ciencias da saude e areas afins": {
+  "nivel": [
+   "doutorado",
+   "mestrado"
+  ],
+  "vagas": 6
+ },
+ "ciencias da saude e areas correlatas": {
+  "nivel": [
+   "doutorado",
+   "mestrado"
+  ],
+  "vagas": 2
+ },
+ "ciencias de florestas tropicais": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "ciencias e ciencias da saude": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "ciencias economicas": {
+  "nivel": [
+   "doutorado",
+   "graduacao",
+   "mestrado"
+  ],
+  "vagas": 8
+ },
+ "ciencias em uma das seguintes areas ecologia": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "ciencias exatas": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 3
+ },
+ "ciencias exatas e da terra": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 7
+ },
+ "ciencias exatas e naturais": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 3
+ },
+ "ciencias farmaceuticas": {
+  "nivel": [
+   "doutorado",
+   "mestrado"
+  ],
+  "vagas": 12
+ },
+ "ciencias fisiologicas": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "ciencias florestais": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 6
+ },
+ "ciencias florestais e ambientais": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "ciencias fonoaudiologicas": {
+  "nivel": [
+   "mestrado"
+  ],
+  "vagas": 2
+ },
+ "ciencias genomicas": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "ciencias habilitacao em biologia": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 2
+ },
+ "ciencias humanas": {
+  "nivel": [
+   "doutorado",
+   "graduacao",
+   "mestrado"
+  ],
+  "vagas": 18
+ },
+ "ciencias medicas": {
+  "nivel": [
+   "doutorado",
+   "mestrado"
+  ],
+  "vagas": 12
+ },
+ "ciencias moleculares": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "ciencias morfofuncionais": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "ciencias naturais": {
+  "nivel": [
+   "mestrado"
+  ],
+  "vagas": 1
+ },
+ "ciencias no programa ciencia e tecnologia de alimentos": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "ciencias odontologicas": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "ciencias politicas": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 2
+ },
+ "ciencias sociais": {
+  "nivel": [
+   "doutorado",
+   "graduacao",
+   "mestrado"
+  ],
+  "vagas": 38
+ },
+ "ciencias sociais aplicadas": {
+  "nivel": [
+   "doutorado",
+   "graduacao",
+   "mestrado"
+  ],
+  "vagas": 12
+ },
+ "ciencias sociais e aplicadas": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "ciencias subarea em quimica": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "ciencias veterinarias": {
+  "nivel": [
+   "doutorado",
+   "mestrado"
+  ],
+  "vagas": 10
+ },
+ "cinema": {
+  "nivel": [
+   "doutorado",
+   "graduacao",
+   "mestrado"
+  ],
+  "vagas": 8
+ },
+ "cinema e audiovisual": {
+  "nivel": [
+   "graduacao",
+   "mestrado"
+  ],
+  "vagas": 5
+ },
+ "cinema e audiovisual 60900008 - comunicacao": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "cirurgia": {
+  "nivel": [
+   "doutorado",
+   "especializacao",
+   "mestrado",
+   "residencia"
+  ],
+  "vagas": 5
+ },
+ "cirurgia cardiovascular": {
+  "nivel": [
+   "especializacao"
+  ],
+  "vagas": 1
+ },
+ "cirurgia do aparelho digestivo": {
+  "nivel": [
+   "especializacao",
+   "residencia"
+  ],
+  "vagas": 2
+ },
+ "cirurgia do trauma": {
+  "nivel": [
+   "especializacao"
+  ],
+  "vagas": 1
+ },
+ "cirurgia e traumatologia bucomaxilofacial": {
+  "nivel": [
+   "especializacao"
+  ],
+  "vagas": 1
+ },
+ "cirurgia geral": {
+  "nivel": [
+   "especializacao",
+   "residencia"
+  ],
+  "vagas": 5
+ },
+ "cirurgia geral avancada": {
+  "nivel": [
+   "residencia"
+  ],
+  "vagas": 1
+ },
+ "cirurgia hepatica": {
+  "nivel": [
+   "especializacao"
+  ],
+  "vagas": 1
+ },
+ "cirurgia oncologica": {
+  "nivel": [
+   "residencia"
+  ],
+  "vagas": 1
+ },
+ "cirurgia plastica": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "cirurgicas": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 2
+ },
+ "civil": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "clinica cirurgica": {
+  "nivel": [
+   "doutorado",
+   "residencia"
+  ],
+  "vagas": 3
+ },
+ "clinica medica": {
+  "nivel": [
+   "doutorado",
+   "especializacao",
+   "residencia"
+  ],
+  "vagas": 16
+ },
+ "clinica odontologica": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "clinica veterinaria": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "coloproctologia": {
+  "nivel": [
+   "residencia"
+  ],
+  "vagas": 1
+ },
+ "comercio exterior": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "computacao": {
+  "nivel": [
+   "doutorado",
+   "graduacao",
+   "mestrado"
+  ],
+  "vagas": 26
+ },
+ "computacao aplicada": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 3
+ },
+ "computacao e matematica computacional": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "comunicacao": {
+  "nivel": [
+   "doutorado",
+   "graduacao",
+   "mestrado"
+  ],
+  "vagas": 7
+ },
+ "comunicacao e semiotica": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "comunicacao humana": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "comunicacao social": {
+  "nivel": [
+   "doutorado",
+   "graduacao",
+   "mestrado"
+  ],
+  "vagas": 9
+ },
+ "comunicacao social com habilitacao em jornalismo": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "comunicacao social com habilitacao em publicidade e propaganda": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "concedido": {
+  "nivel": [
+   "especializacao"
+  ],
+  "vagas": 2
+ },
+ "concentracao": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "concentracao em cariologia": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "concentracao em tecnologia da informacao": {
+  "nivel": [
+   "mestrado"
+  ],
+  "vagas": 1
+ },
+ "concluida": {
+  "nivel": [
+   "residencia"
+  ],
+  "vagas": 1
+ },
+ "concluida em cirurgia geral": {
+  "nivel": [
+   "residencia"
+  ],
+  "vagas": 1
+ },
+ "concluida em clinica medica": {
+  "nivel": [
+   "residencia"
+  ],
+  "vagas": 1
+ },
+ "concluida em ginecologia e obstetricia": {
+  "nivel": [
+   "residencia"
+  ],
+  "vagas": 1
+ },
+ "concluida em medicina de familia e comunidade": {
+  "nivel": [
+   "residencia"
+  ],
+  "vagas": 1
+ },
+ "concluida em oftalmologia": {
+  "nivel": [
+   "residencia"
+  ],
+  "vagas": 1
+ },
+ "concluida em pediatria": {
+  "nivel": [
+   "residencia"
+  ],
+  "vagas": 1
+ },
+ "concluida em psiquiatria": {
+  "nivel": [
+   "residencia"
+  ],
+  "vagas": 1
+ },
+ "concurso": {
+  "nivel": [
+   "doutorado",
+   "especializacao",
+   "mestrado"
+  ],
+  "vagas": 14
+ },
+ "conformidade": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 10
+ },
+ "conhecimento": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 6
+ },
+ "conhecimento capes - ciencias da saude": {
+  "nivel": [
+   "mestrado"
+  ],
+  "vagas": 1
+ },
+ "conhecimento do concurso": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "conhecimento objeto do concurso": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "construcao civil": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "contabilidade": {
+  "nivel": [
+   "doutorado",
+   "graduacao",
+   "mestrado"
+  ],
+  "vagas": 10
+ },
+ "contabilidade e direito": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "controladoria": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 3
+ },
+ "controle de insetos-praga de importancia agricola": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "controle e automacao": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 4
+ },
+ "correlata": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "correlatas": {
+  "nivel": [
+   "doutorado",
+   "especializacao",
+   "mestrado"
+  ],
+  "vagas": 21
+ },
+ "correlatas como biologia celular": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "correlatas da computacao": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "correlatas pertencentes a area de avaliacao arquitetura": {
+  "nivel": [
+   "mestrado"
+  ],
+  "vagas": 2
+ },
+ "criacao e producao de conteudos digitais": {
+  "nivel": [
+   "doutorado",
+   "mestrado"
+  ],
+  "vagas": 3
+ },
+ "cuidado primario em saude": {
+  "nivel": [
+   "mestrado"
+  ],
+  "vagas": 4
+ },
+ "cuidados paliativos": {
+  "nivel": [
+   "especializacao",
+   "residencia"
+  ],
+  "vagas": 3
+ },
+ "cuidados primarios em saude": {
+  "nivel": [
+   "doutorado",
+   "mestrado"
+  ],
+  "vagas": 2
+ },
+ "culturas e artes": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "culturas e tecnologias": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "curso multidisciplinar": {
+  "nivel": [
+   "mestrado"
+  ],
+  "vagas": 1
+ },
+ "curso vinculado a administracao": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "cursos da area de ciencias da saude": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "cursos da grande area das ciencias da saude": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "cursos das ciencias humanas": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 2
+ },
+ "dados": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 4
+ },
+ "danca": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 2
+ },
+ "das ciencias biologicas": {
+  "nivel": [
+   "doutorado",
+   "graduacao",
+   "mestrado"
+  ],
+  "vagas": 6
+ },
+ "das ciencias da saude": {
+  "nivel": [
+   "doutorado",
+   "especializacao",
+   "mestrado"
+  ],
+  "vagas": 9
+ },
+ "das ciencias humanas": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 3
+ },
+ "das ciencias sociais aplicadas": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "das dancas": {
+  "nivel": [
+   "doutorado",
+   "mestrado"
+  ],
+  "vagas": 2
+ },
+ "das engenharias": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "data da posse": {
+  "nivel": [
+   "residencia"
+  ],
+  "vagas": 1
+ },
+ "decapoda": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "defendida e homologada na area de imunologia": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "demografia": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 3
+ },
+ "dentistica": {
+  "nivel": [
+   "especializacao"
+  ],
+  "vagas": 3
+ },
+ "dermatologia": {
+  "nivel": [
+   "especializacao",
+   "residencia"
+  ],
+  "vagas": 2
+ },
+ "desenho": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "desenho e plastica": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "desenho industrial": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 2
+ },
+ "desenvolvimento": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "desenvolvimento e meio ambiente": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 2
+ },
+ "desenvolvimento economico": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 2
+ },
+ "desenvolvimento regional": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 3
+ },
+ "desenvolvimento regional e servico social": {
+  "nivel": [
+   "mestrado"
+  ],
+  "vagas": 1
+ },
+ "desenvolvimento rural": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 3
+ },
+ "desenvolvimento rural sustentavel": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "desenvolvimento social": {
+  "nivel": [
+   "doutorado",
+   "mestrado"
+  ],
+  "vagas": 7
+ },
+ "desenvolvimento territorial e meio ambiente": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "desenvolvimento territorial na america latina e caribe": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "desenvolvimento territorial sustentavel": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "desenvolvimento urbano": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 3
+ },
+ "design": {
+  "nivel": [
+   "doutorado",
+   "graduacao",
+   "mestrado"
+  ],
+  "vagas": 9
+ },
+ "design de moda": {
+  "nivel": [
+   "mestrado"
+  ],
+  "vagas": 1
+ },
+ "diferentes licenciaturas": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "difusao do conhecimento": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 2
+ },
+ "diploma": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "direcao teatral": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 6
+ },
+ "direito": {
+  "nivel": [
+   "doutorado",
+   "graduacao",
+   "mestrado"
+  ],
+  "vagas": 38
+ },
+ "direito ambiental": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "direito e habilitacao minima": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 2
+ },
+ "direito e habilitacao minima posgraduacao lato sensu em direito": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "direitos humanos": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "disfagia": {
+  "nivel": [
+   "mestrado"
+  ],
+  "vagas": 1
+ },
+ "disfuncao temporomandibular e dor orofacial": {
+  "nivel": [
+   "especializacao"
+  ],
+  "vagas": 1
+ },
+ "disponivel em http": {
+  "nivel": [
+   "residencia"
+  ],
+  "vagas": 1
+ },
+ "disponivel em https": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "disturbios da comunicacao humana": {
+  "nivel": [
+   "doutorado",
+   "mestrado"
+  ],
+  "vagas": 3
+ },
+ "documentos-de-apoio-1": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "doencas infecciosas de animais": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "doencas infecciosas e parasitarias": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "doencas parasitarias": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "dos": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "dos alimentos": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "doutrado em teatro": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "echinodermata": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "ecologia": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 8
+ },
+ "ecologia de invertebrados aquaticos": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "ecologia e recursos naturais": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "economia": {
+  "nivel": [
+   "doutorado",
+   "graduacao",
+   "mestrado"
+  ],
+  "vagas": 32
+ },
+ "economia aplicada": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 2
+ },
+ "economia do desenvolvimento": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "economia politica": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "economia politica internacional": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "economia rural": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "educacao": {
+  "nivel": [
+   "doutorado",
+   "graduacao",
+   "mestrado"
+  ],
+  "vagas": 111
+ },
+ "educacao - fundamentos da educacao e tecnologia educacional": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "educacao - subarea ensino-aprendizagem": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "educacao artistica": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 18
+ },
+ "educacao artistica com habilitacao em artes plasticas": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "educacao artistica com habilitacao em desenho": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "educacao artistica com habilitacao em musica": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "educacao bilingue": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "educacao de surdos": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "educacao do campo": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 2
+ },
+ "educacao em ciencias e matematica": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "educacao especial": {
+  "nivel": [
+   "doutorado",
+   "especializacao",
+   "graduacao",
+   "mestrado"
+  ],
+  "vagas": 11
+ },
+ "educacao fisica": {
+  "nivel": [
+   "doutorado",
+   "graduacao",
+   "mestrado"
+  ],
+  "vagas": 32
+ },
+ "educacao fisica com enfase em fisiologia do exercicio": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "educacao inclusiva": {
+  "nivel": [
+   "doutorado",
+   "especializacao"
+  ],
+  "vagas": 2
+ },
+ "educacao infantil": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "educacao matematica": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 2
+ },
+ "educacao matematica e tecnologica": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 2
+ },
+ "educacao musical": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "educacao na area de tecnologia da informacao e comunicacao": {
+  "nivel": [
+   "mestrado"
+  ],
+  "vagas": 1
+ },
+ "educacao para as ciencias": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "eixos de informacao e comunicacao": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "eletroeletronica": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "eletromecanica": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 4
+ },
+ "eletronica": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "eletronica industrial": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "eletrotecnica industrial": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "emergencia e urgencia": {
+  "nivel": [
+   "residencia"
+  ],
+  "vagas": 2
+ },
+ "endocrinologia": {
+  "nivel": [
+   "doutorado",
+   "especializacao",
+   "residencia"
+  ],
+  "vagas": 6
+ },
+ "endocrinologia por posgraduacao": {
+  "nivel": [
+   "especializacao"
+  ],
+  "vagas": 1
+ },
+ "endodontia": {
+  "nivel": [
+   "especializacao"
+  ],
+  "vagas": 1
+ },
+ "energia": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 2
+ },
+ "enfase": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 3
+ },
+ "enfase em artes plasticas": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "enfase em odontopediatria": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "enfermagem": {
+  "nivel": [
+   "doutorado",
+   "graduacao",
+   "mestrado"
+  ],
+  "vagas": 70
+ },
+ "enfermagem clinica medica": {
+  "nivel": [
+   "residencia"
+  ],
+  "vagas": 2
+ },
+ "enfermagem do trabalho": {
+  "nivel": [
+   "especializacao"
+  ],
+  "vagas": 1
+ },
+ "enfermagem e": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "enfermagem em atencao hospitalar": {
+  "nivel": [
+   "residencia"
+  ],
+  "vagas": 2
+ },
+ "enfermagem em central de material e esterilizacao": {
+  "nivel": [
+   "especializacao"
+  ],
+  "vagas": 1
+ },
+ "enfermagem em centro cirurgico": {
+  "nivel": [
+   "especializacao"
+  ],
+  "vagas": 1
+ },
+ "enfermagem em centro cirurgico e centro de material e de esterilizacao": {
+  "nivel": [
+   "residencia"
+  ],
+  "vagas": 1
+ },
+ "enfermagem em estomaterapia": {
+  "nivel": [
+   "especializacao"
+  ],
+  "vagas": 1
+ },
+ "enfermagem em oncologia": {
+  "nivel": [
+   "especializacao"
+  ],
+  "vagas": 1
+ },
+ "enfermagem em recuperacao pos-anestesica": {
+  "nivel": [
+   "especializacao"
+  ],
+  "vagas": 1
+ },
+ "enfermagem obstetrica": {
+  "nivel": [
+   "especializacao",
+   "residencia"
+  ],
+  "vagas": 5
+ },
+ "eng": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "engenharia": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 19
+ },
+ "engenharia aeroespacial": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "engenharia agricola": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 12
+ },
+ "engenharia agricola e ambiental": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 4
+ },
+ "engenharia agronomica": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 12
+ },
+ "engenharia ambiental": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 4
+ },
+ "engenharia ambiental e sanitaria": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 4
+ },
+ "engenharia automotiva": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "engenharia biomedica": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 7
+ },
+ "engenharia bioquimica": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "engenharia biotecnologica": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "engenharia cartografica": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "engenharia civil": {
+  "nivel": [
+   "doutorado",
+   "graduacao",
+   "mestrado"
+  ],
+  "vagas": 25
+ },
+ "engenharia com enfase em materiais": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "engenharia computacional": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "engenharia da computacao": {
+  "nivel": [
+   "doutorado",
+   "graduacao",
+   "mestrado"
+  ],
+  "vagas": 19
+ },
+ "engenharia da computacao e informatica": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 3
+ },
+ "engenharia de agrimensura e cartografica": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 2
+ },
+ "engenharia de alimentos": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 2
+ },
+ "engenharia de automacao": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 2
+ },
+ "engenharia de automacao e sistemas": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "engenharia de bioprocessos": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "engenharia de bioprocessos e biotecnologia": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 2
+ },
+ "engenharia de biossistemas": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 4
+ },
+ "engenharia de biotecnologia": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "engenharia de computacao": {
+  "nivel": [
+   "doutorado",
+   "graduacao",
+   "mestrado"
+  ],
+  "vagas": 43
+ },
+ "engenharia de controle e automacao": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 16
+ },
+ "engenharia de energia": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 3
+ },
+ "engenharia de energias renovaveis": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 2
+ },
+ "engenharia de estruturas": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "engenharia de informacao": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 2
+ },
+ "engenharia de infraestrutura": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "engenharia de manufatura": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 2
+ },
+ "engenharia de materiais": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 7
+ },
+ "engenharia de mecanica": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "engenharia de minas": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 4
+ },
+ "engenharia de pesca": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 2
+ },
+ "engenharia de petroleo": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "engenharia de producao": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 19
+ },
+ "engenharia de producao de software": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 2
+ },
+ "engenharia de producao mecanica": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 3
+ },
+ "engenharia de seguranca do trabalho": {
+  "nivel": [
+   "especializacao"
+  ],
+  "vagas": 1
+ },
+ "engenharia de sistemas": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 3
+ },
+ "engenharia de sistemas agricolas": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "engenharia de sistemas e computacao": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 2
+ },
+ "engenharia de software": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 16
+ },
+ "engenharia de telecomunicacoes": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 18
+ },
+ "engenharia de teleinformatica": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 11
+ },
+ "engenharia de transportes": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 2
+ },
+ "engenharia de transportes e logistica": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "engenharia e ciencia": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "engenharia e ciencias dos materiais": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "engenharia eletrica": {
+  "nivel": [
+   "doutorado",
+   "graduacao",
+   "mestrado"
+  ],
+  "vagas": 48
+ },
+ "engenharia eletrica e de computacao": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "engenharia eletronica": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 23
+ },
+ "engenharia eletronica e automacao": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 2
+ },
+ "engenharia eletronica e computacao": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "engenharia eletronica e de telecomunicacoes": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 4
+ },
+ "engenharia ferroviaria e metroviaria": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 3
+ },
+ "engenharia fisica": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 2
+ },
+ "engenharia florestal": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 15
+ },
+ "engenharia hidrica": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 2
+ },
+ "engenharia industrial": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "engenharia industrial madeireira": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 2
+ },
+ "engenharia industrial mecanica": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "engenharia iv": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 2
+ },
+ "engenharia mecanica": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 19
+ },
+ "engenharia mecanica aeronautica": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "engenharia mecanica automotiva": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "engenharia mecatronica": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 11
+ },
+ "engenharia mecatronica engenharia mecanica": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "engenharia metalurgica": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 3
+ },
+ "engenharia quimica": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 19
+ },
+ "engenharia sanitaria": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 5
+ },
+ "engenharia sanitaria e ambiental": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 4
+ },
+ "engenharia textil": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "engenharia urbana": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 3
+ },
+ "engenharias": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 18
+ },
+ "engenharias afins": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "engenharias i": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 3
+ },
+ "engenharias iii": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 3
+ },
+ "engenharias iv": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 7
+ },
+ "engenheiro ambiental": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "engenheiro ambiental e sanitarista": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "engenheiro de recursos hidricos e meio ambiente": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "engenheiro sanitarista e ambiental": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "enologia": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "ensino": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 2
+ },
+ "ensino das artes": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "ensino das ciencias": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "ensino de artes": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "ensino de ciencias": {
+  "nivel": [
+   "doutorado",
+   "mestrado"
+  ],
+  "vagas": 7
+ },
+ "ensino de ciencias e educacao matematica": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "ensino de ciencias e matematica": {
+  "nivel": [
+   "doutorado",
+   "mestrado"
+  ],
+  "vagas": 6
+ },
+ "ensino de ciencias exatas": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "ensino de fisica": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 2
+ },
+ "ensino de lingua espanhola": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "ensino em saude e tecnologia": {
+  "nivel": [
+   "mestrado"
+  ],
+  "vagas": 1
+ },
+ "ensino em saude e tecnologia e areas afins": {
+  "nivel": [
+   "mestrado"
+  ],
+  "vagas": 1
+ },
+ "ensino na saude": {
+  "nivel": [
+   "doutorado",
+   "mestrado"
+  ],
+  "vagas": 9
+ },
+ "ensino para ciencias e matematica": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "ensino superior em direito": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 3
+ },
+ "entomologia": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 2
+ },
+ "entomologia agricola": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "epidemiologia": {
+  "nivel": [
+   "doutorado",
+   "mestrado"
+  ],
+  "vagas": 6
+ },
+ "ergonomia": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "espanhol": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 2
+ },
+ "especialidades clinicas": {
+  "nivel": [
+   "residencia"
+  ],
+  "vagas": 1
+ },
+ "esporte": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "esportes": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 3
+ },
+ "estabelecidas": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "estatistica": {
+  "nivel": [
+   "doutorado",
+   "graduacao",
+   "mestrado"
+  ],
+  "vagas": 17
+ },
+ "estatistica aplicada": {
+  "nivel": [
+   "doutorado",
+   "mestrado"
+  ],
+  "vagas": 5
+ },
+ "estatistica e ciencia de dados": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "estomaterapia e feridas": {
+  "nivel": [
+   "residencia"
+  ],
+  "vagas": 2
+ },
+ "estomatologia": {
+  "nivel": [
+   "especializacao"
+  ],
+  "vagas": 1
+ },
+ "estruturas": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "estudos classicos": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "estudos contemporaneos das artes": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "estudos da linguagem": {
+  "nivel": [
+   "doutorado",
+   "mestrado"
+  ],
+  "vagas": 6
+ },
+ "estudos da midia": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 2
+ },
+ "estudos da traducao": {
+  "nivel": [
+   "doutorado",
+   "mestrado"
+  ],
+  "vagas": 4
+ },
+ "estudos linguisticos": {
+  "nivel": [
+   "doutorado",
+   "mestrado"
+  ],
+  "vagas": 14
+ },
+ "estudos linguisticos e literarios em ingles": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "estudos literarios": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 3
+ },
+ "evolucao": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 2
+ },
+ "expressao grafica": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "extensao rural": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 3
+ },
+ "fabricacao mecanica": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 3
+ },
+ "familia e comunidade": {
+  "nivel": [
+   "especializacao"
+  ],
+  "vagas": 1
+ },
+ "farmacalogia": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "farmacia": {
+  "nivel": [
+   "doutorado",
+   "graduacao",
+   "mestrado"
+  ],
+  "vagas": 29
+ },
+ "farmacia bioquimica": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "farmacia clinica": {
+  "nivel": [
+   "especializacao"
+  ],
+  "vagas": 1
+ },
+ "farmacia e bioquimica": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 3
+ },
+ "farmacia on": {
+  "nivel": [
+   "residencia"
+  ],
+  "vagas": 1
+ },
+ "farmacologia": {
+  "nivel": [
+   "doutorado",
+   "graduacao",
+   "mestrado"
+  ],
+  "vagas": 8
+ },
+ "filologia": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "filosofia": {
+  "nivel": [
+   "doutorado",
+   "graduacao",
+   "mestrado"
+  ],
+  "vagas": 30
+ },
+ "filosofia e historia das ciencias": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "financas": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "fisiatria": {
+  "nivel": [
+   "especializacao"
+  ],
+  "vagas": 1
+ },
+ "fisica": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 31
+ },
+ "fisica aplicada a medicina e biologia": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "fisica e areas afins": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "fisica e farmacia": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "fisica medica": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "fisico- quimica": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "fisico-quimica": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "fisiologia": {
+  "nivel": [
+   "doutorado",
+   "mestrado"
+  ],
+  "vagas": 6
+ },
+ "fisiologia humana": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "fisiologia vegetal": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 4
+ },
+ "fisioterapia": {
+  "nivel": [
+   "doutorado",
+   "graduacao",
+   "mestrado"
+  ],
+  "vagas": 15
+ },
+ "fisioterapia e terapia ocupacional": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 2
+ },
+ "fitopatologia": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 2
+ },
+ "fitossanidade": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 4
+ },
+ "fitotecnia": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 12
+ },
+ "fonoaudiologia": {
+  "nivel": [
+   "doutorado",
+   "graduacao",
+   "mestrado"
+  ],
+  "vagas": 21
+ },
+ "fonoaudiologia hospitalar": {
+  "nivel": [
+   "mestrado"
+  ],
+  "vagas": 1
+ },
+ "forense": {
+  "nivel": [
+   "residencia"
+  ],
+  "vagas": 1
+ },
+ "formacao": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "formacao com enfase em temas pertinentes a area do concurso": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 3
+ },
+ "formacao docente": {
+  "nivel": [
+   "especializacao"
+  ],
+  "vagas": 1
+ },
+ "formacao em musica": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "gastroenterologia": {
+  "nivel": [
+   "doutorado",
+   "residencia"
+  ],
+  "vagas": 3
+ },
+ "gastroenterologia em programa": {
+  "nivel": [
+   "residencia"
+  ],
+  "vagas": 1
+ },
+ "gastronomia": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "genetica": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 6
+ },
+ "genetica clinica": {
+  "nivel": [
+   "especializacao"
+  ],
+  "vagas": 1
+ },
+ "genetica e biologia molecular": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 2
+ },
+ "genetica e evolucao": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "genetica e melhoramento": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 2
+ },
+ "genetica e melhoramento de plantas": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 2
+ },
+ "genetica e melhoramento plantas": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "genetica e melhoramento vegetal": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "genetica medica": {
+  "nivel": [
+   "especializacao"
+  ],
+  "vagas": 1
+ },
+ "genomica": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "geociencias": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 8
+ },
+ "geodinamica e geofisica": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "geofisica": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 2
+ },
+ "geografia": {
+  "nivel": [
+   "doutorado",
+   "graduacao",
+   "mestrado"
+  ],
+  "vagas": 30
+ },
+ "geologia": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 5
+ },
+ "geotecnia": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 2
+ },
+ "geriatria": {
+  "nivel": [
+   "especializacao",
+   "residencia"
+  ],
+  "vagas": 5
+ },
+ "gerontologia": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "gestao": {
+  "nivel": [
+   "mestrado"
+  ],
+  "vagas": 1
+ },
+ "gestao ambiental": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 2
+ },
+ "gestao cultural": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 2
+ },
+ "gestao da assistencia farmaceutica": {
+  "nivel": [
+   "especializacao"
+  ],
+  "vagas": 1
+ },
+ "gestao da informacao": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 3
+ },
+ "gestao da tecnologia da informacao": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 4
+ },
+ "gestao da tecnologia de informacao": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 2
+ },
+ "gestao de alimentacao e nutricao": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "gestao de politicas publicas": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 2
+ },
+ "gestao do conhecimento": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "gestao e informatica em saude": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "gestao e negocios": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "gestao hospitalar": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "gestao urbana": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "ginecologia": {
+  "nivel": [
+   "especializacao"
+  ],
+  "vagas": 1
+ },
+ "ginecologia e obstetrecia": {
+  "nivel": [
+   "residencia"
+  ],
+  "vagas": 1
+ },
+ "ginecologia e obstetricia": {
+  "nivel": [
+   "especializacao",
+   "mestrado",
+   "residencia"
+  ],
+  "vagas": 15
+ },
+ "grande area das ciencias humanas": {
+  "nivel": [
+   "doutorado",
+   "mestrado"
+  ],
+  "vagas": 7
+ },
+ "grande area de engenharias": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "grandes areas ciencias da saude": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "grandes areas das ciencias biologicas": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 2
+ },
+ "grandes areas de ciencias exatas e da terra": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "grandes areas do cnpq ciencias humanas": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "grandes areas educacao": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "grandes areas medicina": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "hebiatra": {
+  "nivel": [
+   "residencia"
+  ],
+  "vagas": 1
+ },
+ "hematologia": {
+  "nivel": [
+   "doutorado",
+   "especializacao",
+   "residencia"
+  ],
+  "vagas": 4
+ },
+ "hematologia e hemoterapia": {
+  "nivel": [
+   "especializacao",
+   "residencia"
+  ],
+  "vagas": 4
+ },
+ "historia": {
+  "nivel": [
+   "doutorado",
+   "graduacao",
+   "mestrado"
+  ],
+  "vagas": 38
+ },
+ "historia da arte": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 2
+ },
+ "historia economica": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "homologado na area de conhecimento objeto do concurso": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 6
+ },
+ "humanidades": {
+  "nivel": [
+   "doutorado",
+   "mestrado"
+  ],
+  "vagas": 8
+ },
+ "iii": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "imagem e som": {
+  "nivel": [
+   "doutorado",
+   "mestrado"
+  ],
+  "vagas": 4
+ },
+ "imunologia": {
+  "nivel": [
+   "doutorado",
+   "mestrado"
+  ],
+  "vagas": 6
+ },
+ "infectologia": {
+  "nivel": [
+   "doutorado",
+   "especializacao",
+   "residencia"
+  ],
+  "vagas": 6
+ },
+ "infectologia pediatrica": {
+  "nivel": [
+   "especializacao"
+  ],
+  "vagas": 1
+ },
+ "informatica": {
+  "nivel": [
+   "doutorado",
+   "graduacao",
+   "mestrado"
+  ],
+  "vagas": 14
+ },
+ "informatica na educacao": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 3
+ },
+ "ingles": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "ingles e literaturas correspondentes": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "ingles-portugues": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "inovacao em tecnologias educacionais": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "instrumentos": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "inteligencia artificial": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 3
+ },
+ "interacao humano-computador": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "intercultural indigena": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "interdisciplinar": {
+  "nivel": [
+   "doutorado",
+   "mestrado"
+  ],
+  "vagas": 23
+ },
+ "interdisciplinar - sociais": {
+  "nivel": [
+   "doutorado",
+   "mestrado"
+  ],
+  "vagas": 6
+ },
+ "interdisciplinar da capes": {
+  "nivel": [
+   "doutorado",
+   "mestrado"
+  ],
+  "vagas": 2
+ },
+ "interdisciplinar em sociais e humanidades": {
+  "nivel": [
+   "mestrado"
+  ],
+  "vagas": 1
+ },
+ "interdisciplinar engenharia": {
+  "nivel": [
+   "mestrado"
+  ],
+  "vagas": 1
+ },
+ "interfaces e experiencia do usuario": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "interpretacao teatral": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 5
+ },
+ "latim": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "lato sensu em assistencia farmaceutica": {
+  "nivel": [
+   "especializacao"
+  ],
+  "vagas": 1
+ },
+ "lato sensu em enfermagem obstetrica": {
+  "nivel": [
+   "especializacao"
+  ],
+  "vagas": 1
+ },
+ "leitura": {
+  "nivel": [
+   "especializacao"
+  ],
+  "vagas": 1
+ },
+ "letras": {
+  "nivel": [
+   "doutorado",
+   "graduacao",
+   "mestrado"
+  ],
+  "vagas": 64
+ },
+ "letras - ingles": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "letras - portugues": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "letras classicas": {
+  "nivel": [
+   "doutorado",
+   "graduacao",
+   "mestrado"
+  ],
+  "vagas": 3
+ },
+ "letras com enfase em estudos literarios": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "letras com habilitacao em lingua inglesa": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 2
+ },
+ "letras com habilitacao em lingua portuguesa": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "letras com habilitacao em portugues": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "letras com habilitacao em portugues e espanhol dupla habilitacao": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "letras e artes": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 5
+ },
+ "letras espanhol": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 2
+ },
+ "letras ingles": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 5
+ },
+ "letras libras": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 8
+ },
+ "letras lingua inglesa": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "letras lingua portuguesa": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 2
+ },
+ "letras lingua portuguesa e respectivas literaturas": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "letras portugues": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 5
+ },
+ "letras portugues e espanhol": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "letras portugues e ingles": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 2
+ },
+ "letras portugues-espanhol": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "letras portugues-ingles": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "letras-ingles": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "letras-libras": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "letras-portugues e ingles": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "libras": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 2
+ },
+ "licenciaturas": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "limnologia": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 2
+ },
+ "lingua brasileira de sinais": {
+  "nivel": [
+   "especializacao"
+  ],
+  "vagas": 2
+ },
+ "lingua espanhola": {
+  "nivel": [
+   "doutorado",
+   "mestrado"
+  ],
+  "vagas": 2
+ },
+ "lingua inglesa": {
+  "nivel": [
+   "doutorado",
+   "mestrado"
+  ],
+  "vagas": 3
+ },
+ "lingua portuguesa": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 8
+ },
+ "lingua portuguesa como segunda lingua": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "linguagem": {
+  "nivel": [
+   "especializacao",
+   "mestrado"
+  ],
+  "vagas": 2
+ },
+ "linguas classicas": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "linguas estrangeiras modernas com habilitacao em lingua inglesa": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "linguistica": {
+  "nivel": [
+   "doutorado",
+   "graduacao",
+   "mestrado"
+  ],
+  "vagas": 43
+ },
+ "linguistica aplicada": {
+  "nivel": [
+   "doutorado",
+   "mestrado"
+  ],
+  "vagas": 21
+ },
+ "linha de pesquisa": {
+  "nivel": [
+   "mestrado"
+  ],
+  "vagas": 1
+ },
+ "literatura": {
+  "nivel": [
+   "doutorado",
+   "mestrado"
+  ],
+  "vagas": 5
+ },
+ "literatura brasileira": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "literatura comparada": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 2
+ },
+ "literatura e cultura": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "literatura portuguesa": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "matematica": {
+  "nivel": [
+   "doutorado",
+   "graduacao",
+   "mestrado"
+  ],
+  "vagas": 41
+ },
+ "matematica aplicada": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 5
+ },
+ "matematica aplicada e ciencia de dados": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "matematica computacional": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 5
+ },
+ "matematica e tecnologia": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "matematica industrial": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "matematica na area de analise": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "materiais": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 2
+ },
+ "mecanica": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "mecatronica": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 4
+ },
+ "mecatronica industrial": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 7
+ },
+ "mecidina": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 3
+ },
+ "mediacao cultural": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 2
+ },
+ "medicina": {
+  "nivel": [
+   "doutorado",
+   "graduacao",
+   "mestrado",
+   "residencia"
+  ],
+  "vagas": 158
+ },
+ "medicina da familia e comunidade": {
+  "nivel": [
+   "residencia"
+  ],
+  "vagas": 1
+ },
+ "medicina de emergencia": {
+  "nivel": [
+   "especializacao",
+   "residencia"
+  ],
+  "vagas": 3
+ },
+ "medicina de familia e comunidade": {
+  "nivel": [
+   "doutorado",
+   "especializacao",
+   "mestrado",
+   "residencia"
+  ],
+  "vagas": 11
+ },
+ "medicina do trabalho": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "medicina e ciencias medicas": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 2
+ },
+ "medicina e diploma": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "medicina geral e comunitaria": {
+  "nivel": [
+   "residencia"
+  ],
+  "vagas": 1
+ },
+ "medicina i e ii": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "medicina ii": {
+  "nivel": [
+   "doutorado",
+   "mestrado"
+  ],
+  "vagas": 2
+ },
+ "medicina iii": {
+  "nivel": [
+   "doutorado",
+   "mestrado"
+  ],
+  "vagas": 2
+ },
+ "medicina iii - otorrinolaringologia": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 2
+ },
+ "medicina intensiva": {
+  "nivel": [
+   "especializacao",
+   "residencia"
+  ],
+  "vagas": 4
+ },
+ "medicina legal": {
+  "nivel": [
+   "residencia"
+  ],
+  "vagas": 1
+ },
+ "medicina preventiva": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "medicina preventiva e social": {
+  "nivel": [
+   "residencia"
+  ],
+  "vagas": 2
+ },
+ "medicina tropical": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "medicina veterinaria": {
+  "nivel": [
+   "doutorado",
+   "graduacao",
+   "mestrado"
+  ],
+  "vagas": 45
+ },
+ "medicina veterinaria preventiva": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "meio ambiente e agrarias": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "meio ambiente e desenvolvimento": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "meio ambiente e sociedade": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "melhoramento de plantas": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "melhoramento genetico de plantas": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "melhoramento vegetal": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "metalurgica": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "metazoarios nao bilaterios": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "meteorologia": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 8
+ },
+ "microbiologia": {
+  "nivel": [
+   "doutorado",
+   "mestrado"
+  ],
+  "vagas": 3
+ },
+ "microbiologia agricola": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "microeletronica": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "midia": {
+  "nivel": [
+   "doutorado",
+   "mestrado"
+  ],
+  "vagas": 3
+ },
+ "midias digitais": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "mineral": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 2
+ },
+ "moda": {
+  "nivel": [
+   "mestrado"
+  ],
+  "vagas": 1
+ },
+ "modalidades": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 2
+ },
+ "modelagem computacional": {
+  "nivel": [
+   "doutorado",
+   "mestrado"
+  ],
+  "vagas": 11
+ },
+ "modelagem computacional de conhecimento": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "modelagem computacional e de sistemas": {
+  "nivel": [
+   "doutorado",
+   "mestrado"
+  ],
+  "vagas": 6
+ },
+ "modelagem computacional e sistemas": {
+  "nivel": [
+   "mestrado"
+  ],
+  "vagas": 1
+ },
+ "modelagem computacional e tecnologia industrial": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "modelagem matematica e computacional": {
+  "nivel": [
+   "doutorado",
+   "mestrado"
+  ],
+  "vagas": 3
+ },
+ "mollusca": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "morfologia": {
+  "nivel": [
+   "doutorado",
+   "mestrado"
+  ],
+  "vagas": 4
+ },
+ "morfologia com enfase em embriologia": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "motricidade orofacial": {
+  "nivel": [
+   "mestrado"
+  ],
+  "vagas": 1
+ },
+ "multidisciplinar": {
+  "nivel": [
+   "doutorado",
+   "mestrado"
+  ],
+  "vagas": 9
+ },
+ "multidisciplinar associado a biologicas": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "multidisciplinar associado a saude": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "multimeios": {
+  "nivel": [
+   "doutorado",
+   "mestrado"
+  ],
+  "vagas": 6
+ },
+ "multiprofissional em oncologia": {
+  "nivel": [
+   "residencia"
+  ],
+  "vagas": 1
+ },
+ "multiprofissional em saude": {
+  "nivel": [
+   "residencia"
+  ],
+  "vagas": 1
+ },
+ "multiprofissional em saude da familia": {
+  "nivel": [
+   "residencia"
+  ],
+  "vagas": 1
+ },
+ "multiprofissional em saude da familia e comunidade": {
+  "nivel": [
+   "residencia"
+  ],
+  "vagas": 1
+ },
+ "musica": {
+  "nivel": [
+   "doutorado",
+   "graduacao",
+   "mestrado"
+  ],
+  "vagas": 33
+ },
+ "musicoterapia": {
+  "nivel": [
+   "especializacao",
+   "graduacao"
+  ],
+  "vagas": 2
+ },
+ "nefrologia": {
+  "nivel": [
+   "doutorado",
+   "especializacao",
+   "residencia"
+  ],
+  "vagas": 7
+ },
+ "neonatologia": {
+  "nivel": [
+   "residencia"
+  ],
+  "vagas": 1
+ },
+ "neuroanatomia": {
+  "nivel": [
+   "mestrado"
+  ],
+  "vagas": 1
+ },
+ "neurociencia": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "neurociencias": {
+  "nivel": [
+   "doutorado",
+   "mestrado"
+  ],
+  "vagas": 5
+ },
+ "neurologia": {
+  "nivel": [
+   "doutorado",
+   "especializacao",
+   "residencia"
+  ],
+  "vagas": 3
+ },
+ "neuropsicologia": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "normal superior": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "nuclear": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "nutricao": {
+  "nivel": [
+   "doutorado",
+   "graduacao",
+   "mestrado"
+  ],
+  "vagas": 13
+ },
+ "nutricao e saude": {
+  "nivel": [
+   "doutorado",
+   "mestrado"
+  ],
+  "vagas": 2
+ },
+ "nutricao registro ativo no crn exigido": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "obstetricia": {
+  "nivel": [
+   "especializacao"
+  ],
+  "vagas": 2
+ },
+ "oceanografia": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 9
+ },
+ "oceanologia": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "odontogeriatria": {
+  "nivel": [
+   "especializacao"
+  ],
+  "vagas": 1
+ },
+ "odontologia": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 30
+ },
+ "odontologia hospitalar": {
+  "nivel": [
+   "especializacao"
+  ],
+  "vagas": 1
+ },
+ "odontologia social": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "odontopediatria": {
+  "nivel": [
+   "doutorado",
+   "especializacao"
+  ],
+  "vagas": 2
+ },
+ "oftalmologia": {
+  "nivel": [
+   "doutorado",
+   "especializacao",
+   "residencia"
+  ],
+  "vagas": 4
+ },
+ "oncologia": {
+  "nivel": [
+   "residencia"
+  ],
+  "vagas": 2
+ },
+ "oncologia clinica": {
+  "nivel": [
+   "especializacao",
+   "residencia"
+  ],
+  "vagas": 4
+ },
+ "oncologia clinica e formacao": {
+  "nivel": [
+   "especializacao"
+  ],
+  "vagas": 1
+ },
+ "opcao em agronomia": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "oralidade e escrita": {
+  "nivel": [
+   "especializacao"
+  ],
+  "vagas": 1
+ },
+ "ortopedia": {
+  "nivel": [
+   "especializacao",
+   "residencia"
+  ],
+  "vagas": 2
+ },
+ "ortopedia e traumatologia": {
+  "nivel": [
+   "especializacao",
+   "residencia"
+  ],
+  "vagas": 2
+ },
+ "otorrinolaringologia": {
+  "nivel": [
+   "especializacao",
+   "mestrado",
+   "residencia"
+  ],
+  "vagas": 7
+ },
+ "otorrinolaringologia e medicina do sono": {
+  "nivel": [
+   "especializacao"
+  ],
+  "vagas": 1
+ },
+ "outro": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "outros cursos de ciencias agrarias": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "paisagismo": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 2
+ },
+ "para as atividades privativas": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "parasitologia": {
+  "nivel": [
+   "doutorado",
+   "mestrado"
+  ],
+  "vagas": 7
+ },
+ "patologia": {
+  "nivel": [
+   "doutorado",
+   "especializacao",
+   "residencia"
+  ],
+  "vagas": 9
+ },
+ "patologia animal": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 2
+ },
+ "patologia cirurgica humana": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "patologia clinica": {
+  "nivel": [
+   "especializacao"
+  ],
+  "vagas": 1
+ },
+ "patologia da sociedade brasileira de patologia": {
+  "nivel": [
+   "especializacao"
+  ],
+  "vagas": 1
+ },
+ "patologia especial e comparada": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "patologia geral": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "patologia tropical e areas fins": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "pedagogia": {
+  "nivel": [
+   "especializacao",
+   "graduacao",
+   "mestrado"
+  ],
+  "vagas": 40
+ },
+ "pedagogia bilingue": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "pedagogia com habilitacao em educacao especial": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "pediatra": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "pediatria": {
+  "nivel": [
+   "doutorado",
+   "especializacao",
+   "mestrado",
+   "residencia"
+  ],
+  "vagas": 19
+ },
+ "planejamento territorial e desenvolvimento socioambiental": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "planejamento urbano": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 2
+ },
+ "planejamento urbano e regional": {
+  "nivel": [
+   "doutorado",
+   "mestrado"
+  ],
+  "vagas": 4
+ },
+ "plastica": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "platyhelminthes": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "pneumologia": {
+  "nivel": [
+   "especializacao",
+   "residencia"
+  ],
+  "vagas": 3
+ },
+ "politica cientifica e tecnologica": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 2
+ },
+ "politica social": {
+  "nivel": [
+   "doutorado",
+   "mestrado"
+  ],
+  "vagas": 3
+ },
+ "politicas e desenvolvimento de territorios": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "politicas publicas": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 3
+ },
+ "por meio de historico escolar": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 3
+ },
+ "porifera": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "posgraduacao em ciencias": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 2
+ },
+ "posgraduacao em nefrologia": {
+  "nivel": [
+   "residencia"
+  ],
+  "vagas": 1
+ },
+ "preferencialmente": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "probabilidade e estatistica": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 4
+ },
+ "probabilidade estatistica": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "processamento de dados": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 6
+ },
+ "processos culturais": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "processos gerenciais": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "processos perceptuais e cognitivos": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "producao agricola": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "producao animal": {
+  "nivel": [
+   "doutorado",
+   "mestrado"
+  ],
+  "vagas": 4
+ },
+ "producao cientifica": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 3
+ },
+ "producao cultural": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 3
+ },
+ "producao textil": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "producao vegetal": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 11
+ },
+ "proficiencia em libras": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "profissional comprovada em farmacologia": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "programa especial": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 9
+ },
+ "programa pertencente a grande area de ciencias exatas e da terra": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "programas": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 3
+ },
+ "programas de posgraduacao das grandes areas e subareas do conhecimento": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "programas de posgraduacao em alimentos": {
+  "nivel": [
+   "mestrado"
+  ],
+  "vagas": 1
+ },
+ "programas de posgraduacao em ciencias biologicas": {
+  "nivel": [
+   "mestrado"
+  ],
+  "vagas": 1
+ },
+ "programas de posgraduacao interdisciplinar cuja area de concentracao": {
+  "nivel": [
+   "mestrado"
+  ],
+  "vagas": 1
+ },
+ "programas interdisciplinares": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "promocao da saude": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "propriedade intelectual": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "protecao de plantas": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "protese buco- maxilofacial": {
+  "nivel": [
+   "especializacao"
+  ],
+  "vagas": 1
+ },
+ "protese dentaria": {
+  "nivel": [
+   "doutorado",
+   "especializacao"
+  ],
+  "vagas": 4
+ },
+ "psicanalise": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "psicobiologia": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 2
+ },
+ "psicolinguistica": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "psicologia": {
+  "nivel": [
+   "doutorado",
+   "graduacao",
+   "mestrado"
+  ],
+  "vagas": 66
+ },
+ "psicologia do desenvolvimento humano": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 2
+ },
+ "psicologia do ensino e da aprendizagem": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "psicologia experimental": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "psicologia social": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 3
+ },
+ "psicologia social e institucional": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "psicopedagogia": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "psiquiatria": {
+  "nivel": [
+   "especializacao",
+   "mestrado",
+   "residencia"
+  ],
+  "vagas": 9
+ },
+ "publicidade e propaganda": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "quando compativel": {
+  "nivel": [
+   "especializacao"
+  ],
+  "vagas": 1
+ },
+ "que tenha sido conferido": {
+  "nivel": [
+   "livre_docencia"
+  ],
+  "vagas": 9
+ },
+ "quimica": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 20
+ },
+ "quimica analitica": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "quimica com habilitacao em quimica textil": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "quimica de alimentos": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "quimica industrial": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 2
+ },
+ "quimica tecnologica": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "radiologia": {
+  "nivel": [
+   "especializacao",
+   "graduacao",
+   "residencia"
+  ],
+  "vagas": 3
+ },
+ "radiologia e diagnostico por imagem": {
+  "nivel": [
+   "especializacao",
+   "residencia"
+  ],
+  "vagas": 2
+ },
+ "reabilitacao oral": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "reconhecimento de notorio saber": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "recurso florestal": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "recursos florestais": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 5
+ },
+ "redes de computacao": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "redes de computadores": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 2
+ },
+ "relacoes internacionais": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 2
+ },
+ "respectivas subareas na plataforma sucupira ciencia da computacao": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 3
+ },
+ "responsabilidade tecnica e supervisao de estagio": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "reumatologia": {
+  "nivel": [
+   "especializacao",
+   "residencia"
+  ],
+  "vagas": 3
+ },
+ "rqe": {
+  "nivel": [
+   "especializacao"
+  ],
+  "vagas": 3
+ },
+ "rqe em hematologia e clinica medica": {
+  "nivel": [
+   "especializacao"
+  ],
+  "vagas": 2
+ },
+ "rural": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "saneamento e recursos hidricos": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "saude": {
+  "nivel": [
+   "doutorado",
+   "graduacao",
+   "mestrado"
+  ],
+  "vagas": 32
+ },
+ "saude bucal coletiva": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "saude coletiva": {
+  "nivel": [
+   "doutorado",
+   "especializacao",
+   "graduacao",
+   "mestrado",
+   "residencia"
+  ],
+  "vagas": 32
+ },
+ "saude da comunicacao humana": {
+  "nivel": [
+   "mestrado"
+  ],
+  "vagas": 2
+ },
+ "saude da crianca e do adolescente": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "saude da familia": {
+  "nivel": [
+   "doutorado",
+   "mestrado",
+   "residencia"
+  ],
+  "vagas": 5
+ },
+ "saude da familia na modalidade": {
+  "nivel": [
+   "especializacao"
+  ],
+  "vagas": 1
+ },
+ "saude da mulher": {
+  "nivel": [
+   "residencia"
+  ],
+  "vagas": 2
+ },
+ "saude do adulto": {
+  "nivel": [
+   "residencia"
+  ],
+  "vagas": 1
+ },
+ "saude do idoso": {
+  "nivel": [
+   "residencia"
+  ],
+  "vagas": 2
+ },
+ "saude do trabalhador": {
+  "nivel": [
+   "especializacao"
+  ],
+  "vagas": 1
+ },
+ "saude e ambiente": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "saude e biologicas": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 2
+ },
+ "saude materno infantil": {
+  "nivel": [
+   "mestrado"
+  ],
+  "vagas": 1
+ },
+ "saude mental": {
+  "nivel": [
+   "residencia"
+  ],
+  "vagas": 1
+ },
+ "saude publica": {
+  "nivel": [
+   "doutorado",
+   "especializacao",
+   "graduacao",
+   "mestrado"
+  ],
+  "vagas": 20
+ },
+ "saude unica": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "seguranca da informacao": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 4
+ },
+ "seguranca do trabalho": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "sensoriamento remoto": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 3
+ },
+ "servico social": {
+  "nivel": [
+   "doutorado",
+   "graduacao",
+   "mestrado"
+  ],
+  "vagas": 21
+ },
+ "siscnrm mec gov br": {
+  "nivel": [
+   "residencia"
+  ],
+  "vagas": 1
+ },
+ "sistema da informacao": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 3
+ },
+ "sistema de computacao": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "sistema de informacao": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "sistemas de energia": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "sistemas de informacao": {
+  "nivel": [
+   "doutorado",
+   "graduacao",
+   "mestrado"
+  ],
+  "vagas": 24
+ },
+ "sistemas de telecomunicacoes": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "sistemas de telecomunicacoes e redes de computadores": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 3
+ },
+ "sistemas e computacao": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "sistemas eletricos": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "sistemas eletronicos": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "sistemas para internet": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 7
+ },
+ "sistematica e evolucao": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 2
+ },
+ "sociedade": {
+  "nivel": [
+   "mestrado"
+  ],
+  "vagas": 1
+ },
+ "sociedade e ambiente": {
+  "nivel": [
+   "mestrado"
+  ],
+  "vagas": 1
+ },
+ "sociologia": {
+  "nivel": [
+   "doutorado",
+   "graduacao",
+   "mestrado"
+  ],
+  "vagas": 23
+ },
+ "sociologia da saude": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "sociologia urbana": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "stricto sensu em ciencias biologicas": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "subarea ciencias da saude subareas- nutricao": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "subarea de cariologia": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "subarea de ciencias odontologicas": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "subarea de clinica de suinos": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "subarea de clinica odontologica": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "subarea do concurso": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 2
+ },
+ "subarea do concurso psicologia": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "subarea do conhecimento clinica e cirurgia animal": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "subarea em anatomia humana": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "tabela-de-areas-de-conhecimento-avaliacao": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "taxonomia": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "teatro": {
+  "nivel": [
+   "doutorado",
+   "graduacao",
+   "mestrado"
+  ],
+  "vagas": 20
+ },
+ "tecnologia": {
+  "nivel": [
+   "mestrado"
+  ],
+  "vagas": 1
+ },
+ "tecnologia da informacao": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 4
+ },
+ "tecnologia de alimentos": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 2
+ },
+ "tecnologia e gestao": {
+  "nivel": [
+   "doutorado",
+   "mestrado"
+  ],
+  "vagas": 3
+ },
+ "tecnologia em analise de sistemas": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "tecnologia em desenvolvimento de software": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "tecnologia em eletronica industrial": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "tecnologia em processos gerenciais": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 2
+ },
+ "tecnologia em radiologia": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "tecnologia em redes de computadores": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 4
+ },
+ "tecnologia em sistemas de telecomunicacoes": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 2
+ },
+ "tecnologia em viticultura e enologia": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "tecnologia farmaceutica": {
+  "nivel": [
+   "doutorado",
+   "mestrado"
+  ],
+  "vagas": 2
+ },
+ "tecnologia na area de informatica": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 3
+ },
+ "tecnologia textil": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "tecnologias da informacao": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "tecnologias energeticas e nucleares": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 2
+ },
+ "tecnologos no eixo informacao e comunicacao": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "tego": {
+  "nivel": [
+   "residencia"
+  ],
+  "vagas": 1
+ },
+ "teoria da literatura": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "teoria e historia da arte": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "teoria economica": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 2
+ },
+ "teoria psicanalitica": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "terapia intensiva": {
+  "nivel": [
+   "residencia"
+  ],
+  "vagas": 2
+ },
+ "terapia ocupacional": {
+  "nivel": [
+   "doutorado",
+   "graduacao",
+   "mestrado"
+  ],
+  "vagas": 19
+ },
+ "tese": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "tese defendida": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 3
+ },
+ "tese versando sobre saude publica vigilancia em saude": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "titulo": {
+  "nivel": [
+   "especializacao"
+  ],
+  "vagas": 1
+ },
+ "todos os casos": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "traducao": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "traumato-ortopedia": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "traumatoortopedia": {
+  "nivel": [
+   "especializacao"
+  ],
+  "vagas": 1
+ },
+ "ultimos 05 anos": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "um entre os dois criterios seguintes": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "uma das seguintes areas ciencias biologicas": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "uma das seguintes areas de conhecimento capes design": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 2
+ },
+ "uma das seguintes engenharias minas": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "uma das seguintes grandes areas linguistica": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "unicamp": {
+  "nivel": [
+   "livre_docencia"
+  ],
+  "vagas": 9
+ },
+ "urbanismo": {
+  "nivel": [
+   "graduacao"
+  ],
+  "vagas": 1
+ },
+ "urbanismo e design": {
+  "nivel": [
+   "mestrado"
+  ],
+  "vagas": 2
+ },
+ "urgencia e emergencia": {
+  "nivel": [
+   "residencia"
+  ],
+  "vagas": 1
+ },
+ "urologia": {
+  "nivel": [
+   "especializacao",
+   "residencia"
+  ],
+  "vagas": 2
+ },
+ "usp": {
+  "nivel": [
+   "livre_docencia"
+  ],
+  "vagas": 9
+ },
+ "uti neonatal e pediatrico": {
+  "nivel": [
+   "residencia"
+  ],
+  "vagas": 1
+ },
+ "validade nacional": {
+  "nivel": [
+   "doutorado",
+   "graduacao"
+  ],
+  "vagas": 13
+ },
+ "validade nacional 1": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "veterinaria": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "vigilancia alimentar e nutricional": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "vigilancia em saude": {
+  "nivel": [
+   "especializacao"
+  ],
+  "vagas": 1
+ },
+ "voz": {
+  "nivel": [
+   "especializacao"
+  ],
+  "vagas": 1
+ },
+ "www gov br": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 1
+ },
+ "zoologia": {
+  "nivel": [
+   "doutorado"
+  ],
+  "vagas": 11
+ },
+ "zootecnia": {
+  "nivel": [
+   "doutorado",
+   "graduacao",
+   "mestrado"
+  ],
+  "vagas": 22
+ }
+}
