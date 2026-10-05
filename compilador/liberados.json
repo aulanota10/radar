@@ -99,5 +99,12 @@
     ],
     "conferido_em": "2026-10-05",
     "evidencia": "38 editais extraídos (pacote completo), 41 vagas. Prazos: 12 editais até 22/07, 15 até 21/08 e 11 até 20/09 (Edital 367, Anexo I, 1.1, conferido pelo Samuel), com reabertura de um dia em 22/09 (Edital 688/2026)."
+  },
+  "uema-2026": {
+    "campos": [
+      "vagas"
+    ],
+    "conferido_em": "2026-10-05",
+    "evidencia": "Edital 241/2026-GR/UEMA (03/09/2026, conferido pelo Samuel): retomados 129, 130, 132, 133, 134, 137 e 139 (34 vagas pela extração); permanecem suspensos 131, 135, 136, 138 e 140 (20 vagas) desde o Edital 234 (23/07/2026)."
   }
 }
