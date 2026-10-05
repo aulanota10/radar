@@ -19,6 +19,8 @@ Sem `--anterior`, a execução é linha de base e não gera aviso de documento n
 
 ## Ensaio
 
-As pastas `saida/2026-10-04` e `saida/2026-10-05` são o ensaio feito sobre o histórico do vigia-documentos (estados de 03, 04 e 05/10). A conferência independente dos 52 itens dessas filas contra os documentos deu 51 certos e 1 errado: a entrega do plano de aula da UFBA 06/2026, área 36, extraída como uma janela de 06/10 a 08/10 que junta os horários de todos os candidatos. O leitor passou a mostrar a descrição literal das entregas, e o caso foi para as correções do extrator.
+As pastas `saida/ensaio-2026-10-04` e `saida/ensaio-2026-10-05` são o ensaio feito sobre o histórico do vigia-documentos (estados de 03, 04 e 05/10). A conferência independente dos 52 itens dessas filas contra os documentos deu 51 certos e 1 errado: a entrega do plano de aula da UFBA 06/2026, área 36, extraída como uma janela de 06/10 a 08/10 que junta os horários de todos os candidatos. O leitor passou a mostrar a descrição literal das entregas, e o caso foi para as correções do extrator.
+
+A rotina agendada "Alertas do Radar, ensaio diário" roda todo dia às 13h12 (depois do disparo diário do extrator das 10h52), executa `rodada_diaria.sh`, faz o commit desta pasta e manda a fila ao Samuel.
 
 Nada desta pasta é enviado a candidato sem o Samuel aprovar o texto e o canal.
