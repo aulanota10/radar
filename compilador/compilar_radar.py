@@ -683,8 +683,19 @@ def compila_grupo(id_radar, exts, atual, hoje, validador=None, conservador=False
         for grupo in (finais, homol):
             fixos = [ev for ev in grupo if intervalo(ev.get("data"))]
             if fixos:
-                escolhido = max(fixos, key=lambda ev: intervalo(ev.get("data"))[1])
-                rf_periodos.append(intervalo(escolhido.get("data")))
+                por_area = all(ev.get("escopo") not in (None, "geral") for ev in fixos)
+                if por_area:
+                    # Cada área tem o seu resultado: o Radar mostra do primeiro ao último, como nas provas.
+                    ultimos = {}
+                    for ev in fixos:
+                        k = json.dumps(ev.get("escopo"))
+                        if k not in ultimos or intervalo(ev.get("data"))[1] > intervalo(ultimos[k].get("data"))[1]:
+                            ultimos[k] = ev
+                    rf_periodos += [intervalo(ev.get("data")) for ev in ultimos.values()]
+                    escolhido = True
+                else:
+                    escolhido = max(fixos, key=lambda ev: intervalo(ev.get("data"))[1])
+                    rf_periodos.append(intervalo(escolhido.get("data")))
                 break
         if not escolhido:
             for grupo in (finais, homol):
