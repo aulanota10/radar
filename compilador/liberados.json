@@ -1,0 +1,52 @@
+{
+  "ufrn-058-2026": {
+    "campos": ["Prova Didática", "Defesa de Memorial e Projeto de Atuação Profissional", "Prova de Títulos"],
+    "conferido_em": "2026-10-04",
+    "evidencia": "Retificação DOU 149 de 10/08/2026, item 12.1.1: leia-se 14/09/2026 a 12/10/2026. O Anexo II do edital ficou com 02/10 e não foi retificado."
+  },
+  "ufrn-108-2026": {
+    "campos": ["vagas"],
+    "conferido_em": "2026-10-04",
+    "evidencia": "Retificações DOU 179 (22/09) e DOU 184 (29/09): item 2.1 passa a 15 vagas imediatas em 14 áreas."
+  },
+  "ufersa-030-2026": {
+    "campos": ["vagas", "inscrição inicio"],
+    "conferido_em": "2026-10-04",
+    "evidencia": "Retificação do Edital 031-2026: quadro com 24 vagas (Angicos DENGE retirada) e item 7.2 com inscrições de 26/09 a 11/10/2026."
+  },
+  "ufba-06-2026": {
+    "campos": ["vagas", "Escrita", "Didática", "Defesa de Memorial", "De Títulos"],
+    "conferido_em": "2026-10-04",
+    "evidencia": "Retificação nº 1 (DOU 30/06): 39 vagas; Farmacologia cancelada em 30/09 (DOU 02/10), 38 vigentes. Datas das provas pelos cronogramas por área; o 03/09 a 06/11 era a janela geral do item 8.2."
+  },
+  "uesc-050-2026": {
+    "campos": ["vagas"],
+    "conferido_em": "2026-10-04",
+    "evidencia": "Portaria 338/2026: Anexo I retificado com 4 vagas imediatas e Pediatria em cadastro de reserva; o item 1.1 original (6 vagas) não foi retificado no texto."
+  },
+  "ufrpe-21-2026": {
+    "campos": ["vagas", "Resultado final"],
+    "conferido_em": "2026-10-04",
+    "evidencia": "Edital 24/2026 (DOU 21/09): vagas das áreas 07 e 08 suprimidas, Quadro 1 com 12. Cronograma do Anexo I: resultado final até 16/03/2027; o 15/02 é resultado preliminar da didática."
+  },
+  "unespar-023-2026": {
+    "campos": ["vagas"],
+    "conferido_em": "2026-10-04",
+    "evidencia": "Item 9 do edital retificado: 21 Ids somando 26 vagas; nenhum trecho fala em 23."
+  },
+  "ufc-48-2026": {
+    "campos": ["vagas"],
+    "conferido_em": "2026-10-04",
+    "evidencia": "Aditivo nº 02 (23/09/2026), item 3.4: 65 vagas (42 AC, 16 negras, 2 indígenas, 1 quilombola, 4 PcD), com Latim e Grego incluídos."
+  },
+  "ifmg-2026": {
+    "campos": ["Resultado final"],
+    "conferido_em": "2026-10-04",
+    "evidencia": "Retificação 01, Anexo I: homologação do resultado final em 03/04/2027; o 25/03 é o resultado final da confirmação de autodeclaração e PcD."
+  },
+  "unesp-titular-2026": {
+    "campos": ["vagas"],
+    "conferido_em": "2026-10-04",
+    "evidencia": "Nove editais de Professor Titular nos documentos (111, 135, 138, 139, 161, 210, 294, 305, 444), 1 cargo cada; nenhuma evidência dos 12 do texto anterior."
+  }
+}

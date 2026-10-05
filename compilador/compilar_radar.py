@@ -74,6 +74,7 @@ def carregar_extracoes(pasta):
         if not tri and pai:
             tri = glob.glob(os.path.join(pasta, pai, "triagem-*.json"))
         ext["_triagem"] = tri[0] if tri else None
+        ext["_pacote_total"] = len(pacotes.get(pai, [])) if pai else 1
         grupos.setdefault(filho_para_pai.get(slug, slug), []).append(ext)
     return grupos
 
@@ -262,15 +263,32 @@ def fases_de_pontuacao(ext):
     return fases
 
 
+def menos_dias(data_iso, n):
+    return (dt.date.fromisoformat(data_iso) - dt.timedelta(days=n)).isoformat()
+
+
 def periodos_da_etapa(ext, tipo):
     """[(escopo, (ini, fim))] da etapa, das fontes mais precisas para as menos."""
     achados = []
+    # Títulos: quando a entrega de títulos é feita perto da prova didática ou depois dela, a entrega
+    # é a própria etapa (UERJ). Entrega feita junto com a inscrição não é a etapa.
+    inicio_didatica = min((intervalo(e.get("data"))[0] for e in ext.get("eventos") or []
+                           if e.get("tipo_evento") == "prova" and e.get("etapa_ref") == "didatica"
+                           and e.get("estado", "vigente") == "vigente" and intervalo(e.get("data"))),
+                          default=None)
+    tem_exame = any(e.get("tipo_evento") == "prova" and e.get("etapa_ref") == tipo
+                    and e.get("estado", "vigente") == "vigente" for e in ext.get("eventos") or [])
     for e in ext.get("eventos") or []:
-        if (e.get("tipo_evento") == "prova" and e.get("etapa_ref") == tipo
-                and e.get("estado", "vigente") == "vigente"):
-            iv = intervalo(e.get("data"))
-            if iv:
-                achados.append((e.get("escopo") or "geral", iv))
+        if e.get("etapa_ref") != tipo or e.get("estado", "vigente") != "vigente":
+            continue
+        iv = intervalo(e.get("data"))
+        if not iv:
+            continue
+        if e.get("tipo_evento") == "prova":
+            achados.append((e.get("escopo") or "geral", iv))
+        elif (tipo == "titulos" and e.get("tipo_evento") == "entrega_documento"
+              and not tem_exame and inicio_didatica and iv[0] >= menos_dias(inicio_didatica, 15)):
+            achados.append((e.get("escopo") or "geral", iv))
     if tipo == "didatica":
         for lot in ext.get("lotacoes") or []:
             datas = [((t.get("apresentacao") or {}).get("data")) for t in lot.get("turmas") or []]
@@ -522,7 +540,7 @@ def situacao_inscricao(ini, fim, hoje):
     return "aberta"
 
 
-def compila_grupo(id_radar, exts, atual, hoje, validador=None, conservador=False):
+def compila_grupo(id_radar, exts, atual, hoje, validador=None, conservador=False, liberados=None):
     em_pacote = len(exts) > 1 or (id_radar != exts[0]["_slug"])
     base = exts[0]
     novo = {"id": id_radar}
@@ -554,7 +572,10 @@ def compila_grupo(id_radar, exts, atual, hoje, validador=None, conservador=False
         novo["numero_edital"] = (atual or {}).get("numero_edital", "")
 
     # Vagas
-    vagas = [vg for e in exts for vg in (e.get("vagas") or [])]
+    vagas = [vg for e in exts for vg in (e.get("vagas") or [])
+             if str(v(vg.get("situacao")) or "").lower() not in ("cancelada", "cancelado", "suspensa")]
+    pacote_total = max(e.get("_pacote_total", 1) for e in exts)
+    pacote_parcial = em_pacote and len(exts) < pacote_total
     total = sum((vg.get("vagas_imediatas") or 0) for vg in vagas)
     novo["vagas"] = (f"{total} vaga" + ("s" if total != 1 else "")) if total else "Cadastro reserva"
     areas = unicos((vg.get("area_conhecimento") or "").strip().rstrip(".") for vg in vagas)
@@ -645,8 +666,15 @@ def compila_grupo(id_radar, exts, atual, hoje, validador=None, conservador=False
     # Resultado final, quando o edital ou um documento posterior o datou
     rf_periodos, rf_abertas = [], []
     for e in exts:
-        for ev in e.get("eventos") or []:
-            if ev.get("tipo_evento") == "resultado_final" and ev.get("estado", "vigente") == "vigente":
+        evs = [ev for ev in e.get("eventos") or []
+               if ev.get("tipo_evento") == "resultado_final" and ev.get("estado", "vigente") == "vigente"]
+        finais = [ev for ev in evs if "preliminar" not in (ev.get("descricao_literal") or "").lower()]
+        evs = finais or evs
+        fixos = [ev for ev in evs if intervalo(ev.get("data"))]
+        if fixos:   # o Radar mostra a última publicação do resultado final
+            evs = [max(fixos, key=lambda ev: intervalo(ev.get("data"))[1])]
+        for ev in evs:
+            if True:
                 iv = intervalo(ev.get("data"))
                 if iv:
                     rf_periodos.append(iv)
@@ -687,7 +715,25 @@ def compila_grupo(id_radar, exts, atual, hoje, validador=None, conservador=False
     novo["avisos_edital"] = junta_avisos(avisos)
 
     # Nunca perder informação que o dados.js atual já tinha e a extração não trouxe.
-    conflitos, recuperados = [], []
+    conflitos, recuperados, liberados_aqui = [], [], []
+    campos_lib = set(((liberados or {}).get(id_radar) or {}).get("campos") or [])
+
+    def segura(rotulo):
+        """No modo conservador, o valor publicado fica, salvo campo liberado após conferência."""
+        return conservador and "*" not in campos_lib and rotulo not in campos_lib
+
+    def registra(rotulo, texto):
+        if conservador and not segura(rotulo):
+            liberados_aqui.append(texto + " (liberado após conferência: publicada a extração)")
+        else:
+            conflitos.append(texto + (" (publicado o anterior)" if conservador else ""))
+
+    if atual and pacote_parcial:
+        for k in ("numero_edital", "vagas", "areas", "campi", "regime", "titulacao", "remuneracao"):
+            if atual.get(k):
+                novo[k] = atual[k]
+        recuperados.append(f"pacote parcial: {len(exts)} de {pacote_total} editais extraídos; editais, vagas, "
+                           "áreas, locais, regime, titulação e remuneração mantidos do dados.js anterior")
     if atual:
         a_ins = atual.get("inscricao") or {}
         for k in ("inicio", "fim", "taxa"):
@@ -699,12 +745,14 @@ def compila_grupo(id_radar, exts, atual, hoje, validador=None, conservador=False
 
         # Vagas: se a contagem bate, fica o texto anterior, que traz a reserva
         m = re.match(r"\s*(\d+)", atual.get("vagas") or "")
-        if m and int(m.group(1)) == total:
+        if pacote_parcial:
+            pass
+        elif m and int(m.group(1)) == total:
             novo["vagas"] = atual["vagas"]
-        elif m and total:
-            conflitos.append(f"vagas: o dados.js anterior dizia \"{atual.get('vagas')}\", "
-                             f"a extração soma {total}" + (" (publicado o anterior)" if conservador else ""))
-            if conservador:
+        elif m and total and not pacote_parcial:
+            registra("vagas", f"vagas: o dados.js anterior dizia \"{atual.get('vagas')}\", "
+                              f"a extração soma {total}")
+            if segura("vagas"):
                 novo["vagas"] = atual["vagas"]
 
         # Etapas: se a extração não tem a data e o dados.js anterior tem, mantém a anterior
@@ -730,22 +778,20 @@ def compila_grupo(id_radar, exts, atual, hoje, validador=None, conservador=False
                     if da.get("nota"):
                         et["data"]["nota"] = da["nota"]   # mesma data: fica a nota escrita antes, mais rica
                 else:
-                    conflitos.append(f"{et['nome']}: dados.js anterior {br(da.get('valor'))}"
-                                     f"{' a ' + br(da['fim']) if da.get('fim') else ''}, extração "
-                                     f"{br(dn.get('valor'))}{' a ' + br(dn['fim']) if dn.get('fim') else ''}"
-                                     + (" (publicado o anterior)" if conservador else ""))
-                    if conservador:
+                    registra(et["nome"], f"{et['nome']}: dados.js anterior {br(da.get('valor'))}"
+                                         f"{' a ' + br(da['fim']) if da.get('fim') else ''}, extração "
+                                         f"{br(dn.get('valor'))}{' a ' + br(dn['fim']) if dn.get('fim') else ''}")
+                    if segura(et["nome"]):
                         et["data"] = da
         ai, ni = a_ins, novo["inscricao"]
         for k in ("inicio", "fim"):
             if ai.get(k) and ni.get(k) and ai[k] != ni[k]:
-                conflitos.append(f"inscrição {k}: dados.js anterior {br(ai[k])}, extração {br(ni[k])}"
-                                 + (" (publicado o anterior)" if conservador else ""))
-                if conservador:
+                registra(f"inscrição {k}", f"inscrição {k}: dados.js anterior {br(ai[k])}, extração {br(ni[k])}")
+                if segura(f"inscrição {k}"):
                     ni[k] = ai[k]
         if conservador:
             ni["situacao"] = situacao_inscricao(ni.get("inicio"), ni.get("fim"), hoje)
-    novo["_conflitos"], novo["_recuperados"] = conflitos, recuperados
+    novo["_conflitos"], novo["_recuperados"], novo["_liberados"] = conflitos, recuperados, liberados_aqui
 
     ds = [x for et in novo["etapas"] if et["tipo"] in ("objetiva", "discursiva", "didatica", "memorial")
           and et["data"].get("tipo") != "nao_divulgada"
@@ -893,12 +939,15 @@ def main():
                     help="onde extração e dados.js anterior discordam, publica o valor anterior")
     ap.add_argument("--validador", help="valida_concurso.py da skill extrator-concurso-docente; "
                     "com ele, contas do edital que não fecham viram aviso para o candidato")
+    ap.add_argument("--liberados", help="JSON {id: {campos: [rótulos ou *], conferido_em, evidencia}} "
+                    "com os campos conferidos em que a extração vale sobre o publicado")
     ap.add_argument("--conflitos-json", help="grava os conflitos desta rodada em JSON, "
                     "para a rodada seguinte separar os novos")
     ap.add_argument("--conflitos-anteriores", help="JSON gravado pela rodada anterior com --conflitos-json")
     a = ap.parse_args()
 
     atuais, _, cab = carregar_dados_atual(a.dados_atual)
+    liberados = json.load(open(a.liberados, encoding="utf-8")) if a.liberados and os.path.exists(a.liberados) else {}
     por_id = {c["id"]: c for c in atuais}
     grupos = carregar_extracoes(a.extracoes)
 
@@ -907,7 +956,7 @@ def main():
     for cid in ordem_ids:
         atual = por_id.get(cid)
         if cid in grupos:
-            novo = compila_grupo(cid, grupos[cid], atual, a.hoje, a.validador, a.conservador)
+            novo = compila_grupo(cid, grupos[cid], atual, a.hoje, a.validador, a.conservador, liberados)
             if not any(e["tipo"] == "didatica" for e in novo["etapas"]):
                 if atual:
                     saida.append(atual)
@@ -915,7 +964,7 @@ def main():
                 else:
                     rel.append((cid, "fora do Radar", ["a extração não tem prova didática"]))
                 continue
-            conf, recu = novo.pop("_conflitos"), novo.pop("_recuperados")
+            conf, recu, libs = novo.pop("_conflitos"), novo.pop("_recuperados"), novo.pop("_liberados")
             ganhos = []
             if atual:
                 usados = set()
@@ -928,7 +977,7 @@ def main():
                                       + (f" a {br(d['fim'])}" if d.get("fim") else ""))
             saida.append(novo)
             rel.append((cid, "atualizado pela extração" if atual else "novo",
-                        {"conflitos": conf, "recuperados": recu, "ganhos": ganhos}))
+                        {"conflitos": conf, "recuperados": recu, "ganhos": ganhos, "liberados": libs}))
         else:
             saida.append(atual)
             rel.append((cid, "sem extração, mantido como estava", []))
@@ -984,6 +1033,9 @@ def main():
                        "Já estavam no relatório anterior e seguem sem conferência.", "conflitos")
         else:
             L += bloco("Conferir antes de publicar", EXPLICA_CONFLITO[a.conservador], "conflitos")
+        L += bloco("Liberados após conferência",
+                   "Conferidos nos documentos oficiais (compilador/liberados.json); o dados.js gerado "
+                   "publica o valor da extração.", "liberados")
         L += bloco("Dados novos trazidos pela extração",
                    "Etapas que estavam sem data no Radar e agora têm data publicada.", "ganhos")
         L += bloco("Mantido do dados.js anterior",

@@ -33,6 +33,7 @@ python3 "$C/compilar_radar.py" \
   --relatorio "relatorios/relatorio-$HOJE.md" \
   --validador "$C/valida_concurso.py" \
   --conservador \
+  --liberados "$C/liberados.json" \
   --hoje "$HOJE" \
   --conflitos-json "relatorios/conflitos-$HOJE.json" \
   ${ANTERIOR:+--conflitos-anteriores "$ANTERIOR"}
