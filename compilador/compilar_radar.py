@@ -593,11 +593,14 @@ def compila_grupo(id_radar, exts, atual, hoje, validador=None, conservador=False
     # Inscrição (menor início e maior fim entre os editais do grupo)
     inis, fins, taxas = [], [], []
     for e in exts:
-        ins = (e.get("inscricao") or {}).get("padrao") or {}
-        if v(ins.get("inscricao_inicio")):
-            inis.append(v(ins["inscricao_inicio"]))
-        if v(ins.get("inscricao_fim")):
-            fins.append(v(ins["inscricao_fim"]))
+        blocos_ins = [(e.get("inscricao") or {}).get("padrao") or {}]
+        blocos_ins += (e.get("inscricao") or {}).get("por_escopo") or []   # prorrogação por área, prazo próprio
+        for ins in blocos_ins:
+            if v(ins.get("inscricao_inicio")):
+                inis.append(v(ins["inscricao_inicio"]))
+            if v(ins.get("inscricao_fim")):
+                fins.append(v(ins["inscricao_fim"]))
+        ins = blocos_ins[0]   # a taxa vem só do padrão; por área o Radar mantém o texto escrito antes
         if isinstance(v(ins.get("taxa")), (int, float)):
             taxas.append(v(ins["taxa"]))
     ini, fim = (min(inis) if inis else None), (max(fins) if fins else None)
