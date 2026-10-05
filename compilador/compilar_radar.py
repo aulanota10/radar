@@ -674,6 +674,10 @@ def compila_grupo(id_radar, exts, atual, hoje, validador=None, conservador=False
         finais = [ev for ev in vig if ev.get("tipo_evento") == "resultado_final" and (
                   ev.get("fase") == "final" or (ev.get("fase") is None and
                   "preliminar" not in (ev.get("descricao_literal") or "").lower()))]
+        # Evento de uma área só não define o resultado do concurso quando há evento geral.
+        if any(ev.get("escopo") in (None, "geral") for ev in homol + finais):
+            homol = [ev for ev in homol if ev.get("escopo") in (None, "geral")]
+            finais = [ev for ev in finais if ev.get("escopo") in (None, "geral")]
         # Ordem: resultado final com data, homologação com data, resultado final aberto, homologação aberta.
         escolhido = None
         for grupo in (finais, homol):
@@ -777,7 +781,7 @@ def compila_grupo(id_radar, exts, atual, hoje, validador=None, conservador=False
             if not et["carater"] and ant.get("carater"):
                 et["carater"] = ant["carater"]
             da, dn = ant.get("data") or {}, et["data"]
-            if dn["tipo"] == "nao_divulgada" and da.get("tipo") in ("exata", "periodo"):
+            if dn["tipo"] == "nao_divulgada" and da.get("tipo") in ("exata", "periodo") and segura(et["nome"]):
                 et["data"] = da
                 recuperados.append(f"data de {et['nome']} mantida do dados.js anterior "
                                    f"({br(da.get('valor'))}{' a ' + br(da['fim']) if da.get('fim') else ''}); "
