@@ -572,14 +572,34 @@ def compila_grupo(id_radar, exts, atual, hoje, validador=None, conservador=False
         novo["numero_edital"] = (atual or {}).get("numero_edital", "")
 
     # Vagas
-    vagas = [vg for e in exts for vg in (e.get("vagas") or [])
+    # Edital suspenso (evento suspensao vigente sem retomada posterior) fica fora da contagem de vagas.
+    def suspenso_desde(e):
+        evs = [ev for ev in e.get("eventos") or [] if ev.get("estado", "vigente") == "vigente"]
+        susp = [intervalo(ev.get("data"))[0] for ev in evs if ev.get("tipo_evento") == "suspensao" and intervalo(ev.get("data"))]
+        if not susp:
+            return None
+        ultima = max(susp)
+        retom = [intervalo(ev.get("data"))[0] for ev in evs if ev.get("tipo_evento") == "retomada" and intervalo(ev.get("data"))]
+        return None if any(r >= ultima for r in retom) else ultima
+    suspensos = {e["_slug"]: suspenso_desde(e) for e in exts if suspenso_desde(e)}
+    ativos = [e for e in exts if e["_slug"] not in suspensos] or exts
+    vagas = [vg for e in ativos for vg in (e.get("vagas") or [])
              if str(v(vg.get("situacao")) or "").lower() not in ("cancelada", "cancelado", "suspensa")]
+    vagas_susp = sum((vg.get("vagas_imediatas") or 0) for e in exts if e["_slug"] in suspensos
+                     for vg in (e.get("vagas") or []))
     incompletas = [((vg.get("codigo") or {}).get("numero") or (vg.get("codigo") or {}).get("literal") or "?")
                    for vg in vagas if vg.get("vagas_imediatas") is None]
     pacote_total = max(e.get("_pacote_total", 1) for e in exts)
     pacote_parcial = em_pacote and len(exts) < pacote_total
     total = sum((vg.get("vagas_imediatas") or 0) for vg in vagas)
     novo["vagas"] = (f"{total} vaga" + ("s" if total != 1 else "")) if total else "Cadastro reserva"
+    if suspensos and len(ativos) < len(exts):
+        desde = br(min(suspensos.values()))
+        n = len(suspensos)
+        novo["vagas"] += (f" nos editais em andamento; mais {vagas_susp} vaga{'s' if vagas_susp != 1 else ''} em "
+                          f"{n} edita{'is' if n > 1 else 'l'} suspenso{'s' if n > 1 else ''} desde {desde}")
+    elif suspensos:
+        novo["vagas"] += f" (concurso suspenso desde {br(min(suspensos.values()))})"
     areas = unicos((vg.get("area_conhecimento") or "").strip().rstrip(".") for vg in vagas)
     novo["areas"] = (juntar(areas) if len(areas) <= 6
                      else f"{len(areas)} áreas, entre elas " + juntar(areas[:5]))
