@@ -15,8 +15,8 @@ name: Rodada semanal do Radar
 
 on:
   schedule:
-    # 11:47 de America/Fortaleza (UTC-3) nas segundas = 14:47 UTC
-    - cron: '47 14 * * 1'
+    # 9:47 de America/Fortaleza (UTC-3) nas segundas = 12:47 UTC
+    - cron: '47 12 * * 1'
   workflow_dispatch:
 
 permissions:
