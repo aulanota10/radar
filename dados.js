@@ -35,7 +35,10 @@
 // Gerado por compilar_radar.py a partir das extrações v2 (vigia-documentos/extracoes).
 // Para corrigir um dado, corrija a extração e rode o compilador de novo.
 
-window.RADAR_ATUALIZADO = "04/10/2026";
+// Gerado por compilar_radar.py a partir das extrações v2 (vigia-documentos/extracoes).
+// Para corrigir um dado, corrija a extração e rode o compilador de novo.
+
+window.RADAR_ATUALIZADO = "07/10/2026";
 
 window.CONCURSOS = [
   {
@@ -82,8 +85,8 @@ window.CONCURSOS = [
         "data": {
           "tipo": "periodo",
           "valor": "2026-09-14",
-          "fim": "2026-10-02",
-          "nota": "A data exata da sua área está no calendário da comissão examinadora, divulgado em 10/08"
+          "fim": "2026-10-12",
+          "nota": "Datas por área: geral: 14/09 a 12/10; 268266 (Otoneurologia / Dispositivos Eletrônicos de…): 19/09; 267703 (Trompete): 21/09; 924708 (Doenças do Sistema Genitourinário): 21/09; 704339 (Endocrinologia e Metabologia): 22/09; 267823 (Paisagismo): 23/09; 270307 (Português Língua Estrangeira (PLE)): 17/09; 720982 (Fotografia Publicitária. Comunicação Visual.…): 21/09; 267710 (Paleografia, Arquivística e Patrimônio): 21/09; 267710 (Paleografia, Arquivística e Patrimônio): 23/09"
         },
         "detalhe": {
           "arguicao": "Sim, obrigatória para todos os membros da banca. Até 3 minutos de pergunta por membro e até 5 minutos de resposta",
@@ -103,7 +106,8 @@ window.CONCURSOS = [
         "data": {
           "tipo": "periodo",
           "valor": "2026-09-14",
-          "fim": "2026-10-02"
+          "fim": "2026-10-12",
+          "nota": "Datas por área: geral: 14/09 a 12/10; 267703 (Trompete): 24/09; 924708 (Doenças do Sistema Genitourinário): 23/09; 704339 (Endocrinologia e Metabologia): 24/09; 268266 (Otoneurologia / Dispositivos Eletrônicos de…): 23/09; 267823 (Paisagismo): 27/09; 270307 (Português Língua Estrangeira (PLE)): 22/09; 720982 (Fotografia Publicitária. Comunicação Visual.…): 24/09; 267710 (Paleografia, Arquivística e Patrimônio): 28/09"
         },
         "detalhe": {}
       },
@@ -124,7 +128,8 @@ window.CONCURSOS = [
         "data": {
           "tipo": "periodo",
           "valor": "2026-09-14",
-          "fim": "2026-10-02"
+          "fim": "2026-10-12",
+          "nota": "Datas por área: geral: 14/09 a 12/10; 267823 (Paisagismo): 30/09; 268266 (Otoneurologia / Dispositivos Eletrônicos de…): 27/09; 704339 (Endocrinologia e Metabologia): 01/10; 924708 (Doenças do Sistema Genitourinário): 28/09; 267703 (Trompete): 28/09"
         },
         "detalhe": {}
       },
@@ -133,16 +138,15 @@ window.CONCURSOS = [
         "tipo": "resultado",
         "carater": "",
         "data": {
-          "tipo": "periodo",
-          "valor": "2026-09-30",
-          "fim": "2026-10-02"
+          "tipo": "nao_divulgada",
+          "nota": "A partir de 09/11/2026"
         },
         "detalhe": {}
       }
     ],
     "periodo_provas": {
       "inicio": "2026-09-13",
-      "fim": "2026-10-02"
+      "fim": "2026-10-12"
     },
     "logo": "ufrn.png",
     "formacoes_status": "completo",
@@ -6509,7 +6513,7 @@ window.CONCURSOS = [
     "nivel": "Magistério Superior",
     "uf": "PR",
     "numero_edital": "Edital nº 023/2026 - CPPS, publicado em 24/08/2026, com 2 documentos de alteração publicados depois",
-    "vagas": "23 vagas (confira o Anexo I para a distribuição por campus)",
+    "vagas": "26 vagas",
     "areas": "20 áreas, entre elas BIOLOGIA CELULAR, MORFOLOGIA/HISTOLOGIA, SAÚDE COLETIVA, MEDICINA/CLÍNICA MÉDICA e CONTABILIDADE APLICADA",
     "campi": "Campus: Apucarana; Centro de Área: Ciências Humanas e da Educação, Campus: Campo Mourão; Centro de Área: Ciências Sociais Aplicadas, Campus: Campo Mourão; Centro de Área: Ciências Humanas e da Educação e Campus: Curitiba I; Centro de Área: Música",
     "titulacao": "Conforme a área",
@@ -7902,7 +7906,7 @@ window.CONCURSOS = [
     "nivel": "Magistério Superior",
     "uf": "RJ",
     "numero_edital": "20 editais: Seleção 2026/213, Seleção 2026/224, Seleção 2026/225, Seleção 2026/226, Seleção 2026/228 e Seleção 2026/229 e mais 14",
-    "vagas": "1 a 2 vagas por seleção, em 17 seleções independentes",
+    "vagas": "21 vagas",
     "areas": "18 áreas, entre elas Geografia/Ensino de Geografia, Ciência da Computação, Engenharias / Engenharia Ambiental, Ciências Ambientais e CARDIOLOGIA",
     "campi": "Rio de Janeiro / RJ, Resende, RJ, Rio de Janeiro - RJ, Rio de Janeiro, Centro de Tecnologia e Ciências; Instituto de Geografia; Departamento de Licenciatura em Geografia - DEPLIGEO/Campus Cabo Frio, Centro de Tecnologia e Ciências; Faculdade de Tecnologia; Departamento de Matemática, Física e Computação, Centro de Tecnologia e Ciências; Instituto de Geografia; Departamento de Ciências Ambientais - DEPCAMB/Campus Cabo Frio e Centro Biomédico; Faculdade de Ciências Médicas; Departamento de Ciências Médicas Integradas - Campus Cabo Frio",
     "titulacao": "Conforme a área",
@@ -9324,7 +9328,7 @@ window.CONCURSOS = [
     "nivel": "Magistério Superior",
     "uf": "PR",
     "numero_edital": "Edital nº 204/2026, com 1 documento de alteração publicado depois",
-    "vagas": "1 vaga, ampla concorrência",
+    "vagas": "6 vagas",
     "areas": "Área: CIÊNCIAS DA SAÚDE; Subárea: MEDICINA DE FAMÍLIA E COMUNIDADE, Área: CIÊNCIAS DA SAÚDE; Subárea: GINECOLOGIA E OBSTETRÍCIA e Área: HUMANIDADES /CIÊNCIAS SOCIAIS; Subárea: COMUNICAÇÃO OU MEDIAÇÃO CULTURAL OU LETRAS OU ARTES",
     "campi": "Foz do Iguaçu/PR",
     "titulacao": "Doutorado",
@@ -10114,7 +10118,7 @@ window.CONCURSOS = [
     "inscricao": {
       "inicio": "2026-09-03",
       "fim": "2026-10-04",
-      "situacao": "aberta",
+      "situacao": "encerrada",
       "taxa": "R$ 128,74 a R$ 343,85, conforme a vaga. Pedido de isenção até 13/09, prazo prorrogado pela retificação do cronograma de 09/09"
     },
     "etapas": [
@@ -10190,7 +10194,7 @@ window.CONCURSOS = [
         "carater": "",
         "data": {
           "tipo": "nao_divulgada",
-          "nota": "após sessão pública de apresentação das notas finais dos candidatos"
+          "nota": "Decorrido o prazo para interposição de recurso, não havendo pendência"
         },
         "detalhe": {}
       }
@@ -10909,7 +10913,7 @@ window.CONCURSOS = [
     "instituicao": "Instituto Federal de Educação, Ciência e Tecnologia do Sul de Minas Gerais",
     "nivel": "EBTT",
     "uf": "MG",
-    "numero_edital": "Edital nº 188/2026, publicado em 27/07/2026, com 3 documentos de alteração publicados depois",
+    "numero_edital": "Edital nº 188/2026, publicado em 27/07/2026, com 4 documentos de alteração publicados depois",
     "vagas": "19 vagas para Professor EBTT + cadastro de reserva",
     "areas": "15 áreas, entre elas Administração, Português/Espanhol, Zootecnia II - Suinocultura, Nutrição e Produção Animal, Informática e Biologia I",
     "campi": "Pouso Alegre/MG, Carmo de Minas, Inconfidentes, Machado e Muzambinho",
@@ -11766,8 +11770,9 @@ window.CONCURSOS = [
         "tipo": "titulos",
         "carater": "Classificatória",
         "data": {
-          "tipo": "nao_divulgada",
-          "nota": "O edital ainda não fixou a data"
+          "tipo": "periodo",
+          "valor": "2026-12-07",
+          "fim": "2026-12-09"
         },
         "detalhe": {
           "criterios": "Formulário de Relação de Títulos com envio eletrônico (JPG, JPEG ou PDF, até 5 MB por arquivo)"
@@ -11779,7 +11784,7 @@ window.CONCURSOS = [
         "carater": "",
         "data": {
           "tipo": "exata",
-          "valor": "2027-01-13"
+          "valor": "2027-01-12"
         },
         "detalhe": {}
       }
@@ -15251,6 +15256,16 @@ window.CONCURSOS = [
         "detalhe": {
           "criterios": "Análise curricular do candidato"
         }
+      },
+      {
+        "nome": "Resultado final",
+        "tipo": "resultado",
+        "carater": "",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "Até Janeiro/2027"
+        },
+        "detalhe": {}
       }
     ],
     "periodo_provas": {
@@ -17820,8 +17835,8 @@ window.CONCURSOS = [
     "nivel": "Magistério Superior",
     "uf": "BA",
     "numero_edital": "Edital nº 06/2026, publicado em 25/06/2026, com 5 documentos de alteração publicados depois",
-    "vagas": "37 vagas (24 ampla concorrência, 2 PcD, 9 negros, 1 indígena, 1 quilombola)",
-    "areas": "37 áreas, entre elas Gestão da Produção e Métodos Quantitativos, Enfermagem no Cuidado à Saúde da Mulher na Atenção Básica, Parto e Puerpério, Fundamentos de Enfermagem no Cuidado Individual e Cuidado em Enfermagem à Pessoa no Contexto Hospitalar, Gestão e Educação Permanente em Saúde e Enfermagem e Extensão Rural",
+    "vagas": "38 vagas",
+    "areas": "36 áreas, entre elas Gestão da Produção e Métodos Quantitativos, Enfermagem no Cuidado à Saúde da Mulher na Atenção Básica, Parto e Puerpério, Fundamentos de Enfermagem no Cuidado Individual e Cuidado em Enfermagem à Pessoa no Contexto Hospitalar, Gestão e Educação Permanente em Saúde e Enfermagem e Extensão Rural",
     "campi": "Salvador, Vitória da Conquista, Escola de Administração / Departamento: Coordenação Acadêmica, Escola de Enfermagem / Departamento: Coordenação Acadêmica, Escola de Medicina Veterinária e Zootecnia / Departamento: Medicina Veterinária Preventiva e Produção Animal e Escola Politécnica / Departamento: Ciência e Tecnologia dos Materiais",
     "titulacao": "Conforme a área",
     "regime": "Dedicação Exclusiva, 20 horas semanais e 40 horas semanais",
@@ -17840,9 +17855,9 @@ window.CONCURSOS = [
         "carater": "Eliminatória e classificatória",
         "data": {
           "tipo": "periodo",
-          "valor": "2026-09-03",
-          "fim": "2026-11-06",
-          "nota": "Data da sua área divulgada com 30 dias de antecedência"
+          "valor": "2026-09-21",
+          "fim": "2026-11-03",
+          "nota": "Datas por área: 16 (Filosofia/Ensino de Filosofia): 06/10; 17 (Sociologia/Sociologia das desigualdades…): 15/10; 22 (Sistema de informação gerencial aplicado à…): 03/11; 26 (Perspectivas indígenas nas artes): 15/10; 02 (Enfermagem no Cuidado à Saúde da Mulher na…): 28/09; 03 (Fundamentos de Enfermagem no Cuidado…) e 04 (Gestão e Educação Permanente em Saúde e…): 21/09; 24 (Geofísica Aplicada): 26/10; 25 (Partículas e Campos: Física da Interação…): 02/11; 06 (Geotecnia): 26/10; 14 (Educação, Gênero e Sexualidades): 06/10; 10 (Pesquisa Operacional e Ciência de Dados): 03/11; 21 (Patologia): 26/10; 20 (Psiquiatria): 13/10; 18 (MED D99 - Clínica Cirúrgica I - Bases da…): 29/10; 19 (MEDE09 - Cirurgia Torácica e Cardiovascular): 30/10; 05 (Extensão Rural): 26/10; 01 (Gestão da Produção e Métodos Quantitativos): 13/10; 15 (Arte e Educação): 19/10; 27 (Química Analítica: Eletroanalítica): 19/10; 12 (Contabilidade e Direito): 27/10; 13 (Contabilidade Pública): 03/11; 36 (Engenharia de Transportes - Planejamento de…): 05/10; 37 (Geodésia e Topografia): 26/10; 08 (Transporte/Infraestrutura de Transporte): 13/10; 09 (Eletrotécnica): 19/10; 07 (Materiais de Construção): 21/09; 11 (Engenharia de Controle e Automação): 26/10"
         },
         "detalhe": {
           "formato": "Avalia competência técnica, capacidade analítica e expressão escrita",
@@ -17856,9 +17871,9 @@ window.CONCURSOS = [
         "carater": "Classificatória",
         "data": {
           "tipo": "periodo",
-          "valor": "2026-09-03",
-          "fim": "2026-11-06",
-          "nota": "Data da sua área divulgada com 30 dias de antecedência"
+          "valor": "2026-09-23",
+          "fim": "2026-11-05",
+          "nota": "Datas por área: 26 (Perspectivas indígenas nas artes): 20/10; 02 (Enfermagem no Cuidado à Saúde da Mulher na…): 19/10; 03 (Fundamentos de Enfermagem no Cuidado…) e 04 (Gestão e Educação Permanente em Saúde e…): 19/10; 06 (Geotecnia): 27/10 a 28/10; 10 (Pesquisa Operacional e Ciência de Dados): 04/11 a 05/11; 21 (Patologia): 27/10; 20 (Psiquiatria): 14/10 a 15/10; 18 (MED D99 - Clínica Cirúrgica I - Bases da…): 30/10; 19 (MEDE09 - Cirurgia Torácica e Cardiovascular): 31/10; 27 (Química Analítica: Eletroanalítica): 21/10; 36 (Engenharia de Transportes - Planejamento de…): 06/10 a 08/10; 37 (Geodésia e Topografia): 27/10 a 28/10; 08 (Transporte/Infraestrutura de Transporte): 14/10 a 15/10; 07 (Materiais de Construção): 23/09; 11 (Engenharia de Controle e Automação): 27/10 a 28/10"
         },
         "detalhe": {
           "arguicao": "NÃO HÁ. O item 8.9.8 veda expressamente arguição da banca sobre a Prova Didática",
@@ -17876,8 +17891,9 @@ window.CONCURSOS = [
         "carater": "Classificatória",
         "data": {
           "tipo": "periodo",
-          "valor": "2026-09-03",
-          "fim": "2026-11-06"
+          "valor": "2026-09-24",
+          "fim": "2026-11-06",
+          "nota": "Datas por área: 26 (Perspectivas indígenas nas artes): 21/10 a 23/10; 06 (Geotecnia): 29/10; 06 (Geotecnia): 30/09; 10 (Pesquisa Operacional e Ciência de Dados): 06/11; 21 (Patologia): 28/10; 20 (Psiquiatria): 15/10 a 17/10; 18 (MED D99 - Clínica Cirúrgica I - Bases da…): 31/10; 19 (MEDE09 - Cirurgia Torácica e Cardiovascular): 31/10; 36 (Engenharia de Transportes - Planejamento de…): 08/10 a 10/10; 37 (Geodésia e Topografia): 28/10 a 29/10; 08 (Transporte/Infraestrutura de Transporte): 15/10 a 17/10; 07 (Materiais de Construção): 24/09; 11 (Engenharia de Controle e Automação): 28/10 a 29/10"
         },
         "detalhe": {
           "formato": "Defesa da trajetória acadêmica e profissional perante a banca"
@@ -17889,8 +17905,9 @@ window.CONCURSOS = [
         "carater": "Classificatória",
         "data": {
           "tipo": "periodo",
-          "valor": "2026-09-03",
-          "fim": "2026-11-06"
+          "valor": "2026-10-17",
+          "fim": "2026-10-31",
+          "nota": "Datas por área: 21 (Patologia): 29/10; 20 (Psiquiatria): 17/10; 18 (MED D99 - Clínica Cirúrgica I - Bases da…): 30/10; 19 (MEDE09 - Cirurgia Torácica e Cardiovascular): 31/10"
         },
         "detalhe": {
           "criterios": "Formação acadêmica e produção do candidato"
@@ -17909,7 +17926,7 @@ window.CONCURSOS = [
       }
     ],
     "periodo_provas": {
-      "inicio": "2026-09-03",
+      "inicio": "2026-09-21",
       "fim": "2026-11-06"
     },
     "logo": "ufba.png",
@@ -20651,10 +20668,10 @@ window.CONCURSOS = [
     "instituicao": "Universidade Federal de São Paulo",
     "nivel": "Magistério Superior",
     "uf": "SP",
-    "numero_edital": "17 editais: 365/2026, 375/2026, 377/2026, 379/2026, 381/2026 e 387/2026 e mais 11",
-    "vagas": "41 vagas somadas, em 19 editais",
-    "areas": "17 áreas, entre elas Engenharia Química/Operações Unitárias, Psicologia/Avaliação Psicológica, Ciências Biológicas/Biologia Molecular ou Genética, Fisioterapia/Exercícios Terapêuticos: Cinesioterapia/Fisioterapia Musculoesquelética/Estágio Supervisionado em Fisioterapia Musculoesquelética e Engenharia Elétrica/Engenharia de Computação",
-    "campi": "São Paulo - SP, São Paulo, Campus Diadema, Campus Baixada Santista, Campus São José dos Campos e Guarulhos",
+    "numero_edital": "38 editais: 365/2026, 367/2026, 369/2026, 371/2026, 373/2026 e 375/2026 e mais 32",
+    "vagas": "41 vagas",
+    "areas": "38 áreas, entre elas Engenharia Química/Operações Unitárias, Engenharia Química/Simulação, Projeto de Indústrias Químicas e Segurança Industrial, Educação/Educação Bilíngue - Língua Brasileira de Sinais, Farmácia/Dispensação de Medicamentos, Serviços Farmacêuticos e Estágio Supervisionado em Farmácia Universitária e Farmácia/Farmácia Clínica, Serviços Farmacêuticos, Estágio Supervisionado em Farmácia Universitária",
+    "campi": "Diadema, São José dos Campos, Osasco, Guarulhos, Campus Diadema, Campus Baixada Santista e Campus São José dos Campos",
     "titulacao": "Doutorado",
     "regime": "40h semanais/DE, 40h semanais e 20h semanais",
     "remuneracao": "R$ 6.397,19 de vencimento básico em 40 (quarenta) horas semanais - Dedicação Exclusiva, chegando a R$ 13.753,96 com a maior titulação",
@@ -20662,7 +20679,7 @@ window.CONCURSOS = [
     "link_oficial": "https://concursos.unifesp.br/",
     "inscricao": {
       "inicio": "2026-06-22",
-      "fim": "2026-07-22",
+      "fim": "2026-09-20",
       "situacao": "encerrada",
       "taxa": "de R$ 125,94 a R$ 343,85"
     },
@@ -20731,16 +20748,6 @@ window.CONCURSOS = [
           "nota": "O edital ainda não fixou a data"
         },
         "detalhe": {}
-      },
-      {
-        "nome": "Resultado final",
-        "tipo": "resultado",
-        "carater": "",
-        "data": {
-          "tipo": "nao_divulgada",
-          "nota": "Concluídos os trabalhos, o Presidente da Banca Examinadora divulgará, em sessão pública, o resultado provisório / Concluídos os trabalhos"
-        },
-        "detalhe": {}
       }
     ],
     "logo": "unifesp.png",
@@ -20758,24 +20765,45 @@ window.CONCURSOS = [
       "origem": "extracao_v2",
       "extracoes": [
         "unifesp-365-2026",
+        "unifesp-367-2026",
+        "unifesp-369-2026",
+        "unifesp-371-2026",
+        "unifesp-373-2026",
         "unifesp-375-2026",
         "unifesp-377-2026",
         "unifesp-379-2026",
         "unifesp-381-2026",
+        "unifesp-383-2026",
+        "unifesp-385-2026",
         "unifesp-387-2026",
+        "unifesp-389-2026",
         "unifesp-391-2026",
         "unifesp-393-2026",
         "unifesp-395-2026",
         "unifesp-397-2026",
         "unifesp-399-2026",
         "unifesp-401-2026",
+        "unifesp-403-2026",
+        "unifesp-405-2026",
         "unifesp-407-2026",
         "unifesp-409-2026",
         "unifesp-411-2026",
         "unifesp-413-2026",
-        "unifesp-415-2026"
+        "unifesp-415-2026",
+        "unifesp-417-2026",
+        "unifesp-419-2026",
+        "unifesp-421-2026",
+        "unifesp-423-2026",
+        "unifesp-425-2026",
+        "unifesp-427-2026",
+        "unifesp-429-2026",
+        "unifesp-431-2026",
+        "unifesp-433-2026",
+        "unifesp-435-2026",
+        "unifesp-437-2026",
+        "unifesp-439-2026"
       ],
-      "extraido_em": "2026-10-03",
+      "extraido_em": "2026-10-04",
       "em_conferencia": true
     }
   },
@@ -20785,7 +20813,7 @@ window.CONCURSOS = [
     "instituicao": "Universidade Federal do Rio Grande do Sul",
     "nivel": "Magistério Superior",
     "uf": "RS",
-    "numero_edital": "Edital nº 08/2026, publicado em 02/06/2026, com 9 documentos de alteração publicados depois",
+    "numero_edital": "Edital nº 08/2026, publicado em 02/06/2026, com 10 documentos de alteração publicados depois",
     "vagas": "15 vagas",
     "areas": "15 áreas, entre elas Artes Visuais, Subárea: Ensino de Artes Visuais, Ciência do Solo, Subárea: Química do Solo, Cinética, Catálise e Cálculo de Reatores Químicos, Educação, Subárea: Ensino de Alfabetização e Estratigrafia Sedimentar",
     "campi": "Instituto de Artes - Departamento de Artes Visuais, Faculdade de Agronomia - Departamento de Solos, Escola de Engenharia - Departamento de Engenharia Química e Faculdade de Educação - Departamento de Ensino e Currículo",
@@ -20877,17 +20905,6 @@ window.CONCURSOS = [
           "valor": "2026-08-24",
           "fim": "2026-10-20",
           "nota": "Datas por área: 1.2.8 (Farmácia, Subárea: Análises clínicas…): 25/08 a 26/08; 1.2.2 (Ciência do Solo, Subárea: Química do Solo): 24/08; 1.2.5 (Estratigrafia Sedimentar): 09/09; 1.2.7 (Conhecimento: Estruturas, Subárea: Pontes): 03/09; 1.2.9 (Fonoaudiologia, Subárea: Linguagem): 03/09; 1.2.6 (Estruturas, Subárea: Estruturas Mistas de…): 22/09; 1.2.3 (Cinética, Catálise e Cálculo de Reatores…): 02/09; 1.2.15 (Química Inorgânica Medicinal): 07/10; 1.2.13 (Medicina Veterinária, Subárea: Clínica de…): 06/10; 1.2.10 (Forrageiras, Subárea: Produção e Tecnologia…): 14/09; 1.2.4 (Educação, Subárea: Ensino de Alfabetização): 17/09; 1.2.11 (História, Subárea: História da América…): 22/09; 1.2.1 (Artes Visuais, Subárea: Ensino de Artes…): 23/09 a 24/09; 1.2.14 (Psicologia Social e Institucional, Subárea…): 17/10 a 18/10; 1.2.12 (Materiais para a Engenharia Química): 20/10"
-        },
-        "detalhe": {}
-      },
-      {
-        "nome": "Resultado final",
-        "tipo": "resultado",
-        "carater": "",
-        "data": {
-          "tipo": "periodo",
-          "valor": "2026-08-25",
-          "fim": "2026-10-21"
         },
         "detalhe": {}
       }
@@ -20998,8 +21015,7 @@ window.CONCURSOS = [
         "carater": "",
         "data": {
           "tipo": "exata",
-          "valor": "2027-03-25",
-          "nota": "Previsão de publicação do resultado final e homologação"
+          "valor": "2027-04-03"
         },
         "detalhe": {}
       }
@@ -21200,6 +21216,16 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2026-10-14",
           "fim": "2026-11-05"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Resultado final",
+        "tipo": "resultado",
+        "carater": "",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "Até Janeiro/2027"
         },
         "detalhe": {}
       }
@@ -33955,8 +33981,8 @@ window.CONCURSOS = [
     "instituicao": "Universidade Estadual do Maranhão",
     "nivel": "Magistério Superior",
     "uf": "MA",
-    "numero_edital": "7 editais: 129/2026-GR/UEMA, 130/2026-GR/UEMA, 132/2026-GR/UEMA, 133/2026-GR/UEMA, 134/2026-GR/UEMA e 137/2026-GR/UEMA e mais 1",
-    "vagas": "47 vagas imediatas mais cadastro de reserva no bloco original",
+    "numero_edital": "12 editais: 129/2026-GR/UEMA, 130/2026-GR/UEMA, 131/2026-GR/UEMA, 132/2026-GR/UEMA, 133/2026-GR/UEMA e 134/2026-GR/UEMA e mais 6",
+    "vagas": "34 vagas nos editais em andamento; mais 20 vagas em 5 editais suspensos desde 23/07/2026",
     "areas": "25 áreas, entre elas Ciências Biológicas / Botânica, Ciências Biológicas / Zoologia, Letras, Linguística, Artes: Letras / Língua Portuguesa, Linguística, Letras e Artes/ Letras: Língua Portuguesa; Línguas Clássicas e Linguística, Letras e Artes/ Letras: Teoria Literária; Literatura Brasileira",
     "campi": "Curso de Ciências Biológicas Licenciatura, Curso de Letras Licenciatura em Língua Portuguesa, Departamento de Letras e Pedagogia e Curso de Inteligência Artificial Bacharelado - CCT",
     "titulacao": "Doutorado",
@@ -33992,6 +34018,7 @@ window.CONCURSOS = [
         "detalhe": {
           "arguicao": "Facultativa, de até 10 minutos por examinador, após a aula",
           "nota_minima": "7,0",
+          "criterios": "10 pontos: 1. Aspectos Formais (2,0): Apresentação do Plano de Aula contendo… 0,5; 1. Aspectos Formais (2,0): Coerência entre objetivos, conteúdos… 1,0; 1. Aspectos Formais (2,0): Duração do tempo da aula mínimo de 45 min.… 0,5; 2. Aspectos Teóricos, Didáticos e Metodológicos (6,0): Utilização de… 1,0; 2. Aspectos Teóricos, Didáticos e Metodológicos (6,0): Exposição… 1,0; 2. Aspectos Teóricos, Didáticos e Metodológicos (6,0): Abordagem do… 1,0; 2. Aspectos Teóricos, Didáticos e Metodológicos (6,0): Adequação no… 1,0; 2. Aspectos Teóricos, Didáticos e Metodológicos (6,0): Explanação da… 1,0; 2. Aspectos Teóricos, Didáticos e Metodológicos (6,0): Formas e… 1,0; 3. Arguição (2,0): Defesa e argumento das ideias com coerência… 2,0",
           "plano_de_aula": "Três vias, entregues no início da prova. A não entrega elimina na hora",
           "duracao": "Aula de 45 a 55 minutos",
           "sorteio": "Sim. Tema sorteado da lista, excluído o da prova escrita, e comum a todos os candidatos",
@@ -34931,18 +34958,23 @@ window.CONCURSOS = [
     "observacao": "Este é o mais imprevisível do radar. O concurso ficou parado por liminar de julho a setembro e acabou de voltar, em 04/09. Quem está inscrito precisa olhar o site da UEMA todo dia, porque o novo calendário sai a qualquer momento e o intervalo entre convocação e aula tende a ser curto. Regra dura de plano de aula: três vias na mão ou eliminação. Os editais 131, 135, 136, 138 e 140 seguem suspensos.",
     "detalhamento": "completo",
     "avisos_edital": [
-      "Editais 129/2026-GR/UEMA, 130/2026-GR/UEMA, 132/2026-GR/UEMA, 133/2026-GR/UEMA, 134/2026-GR/UEMA, 137/2026-GR/UEMA e 139/2026-GR/UEMA, remuneração: o edital informa total de R$ 11.294,38, mas vencimento (R$ 7.058,99) mais retribuição (R$ 4.235,29) dão R$ 11.294,28. Pode ser erro de digitação do edital; confira no edital, que é a fonte oficial."
+      "Editais 129/2026-GR/UEMA, 130/2026-GR/UEMA, 131/2026-GR/UEMA, 132/2026-GR/UEMA, 133/2026-GR/UEMA, 134/2026-GR/UEMA, 135/2026-GR/UEMA, 136/2026-GR/UEMA, 137/2026-GR/UEMA, 138/2026-GR/UEMA, 139/2026-GR/UEMA e 140/2026-GR/UEMA, remuneração: o edital informa total de R$ 11.294,38, mas vencimento (R$ 7.058,99) mais retribuição (R$ 4.235,29) dão R$ 11.294,28. Pode ser erro de digitação do edital; confira no edital, que é a fonte oficial."
     ],
     "fonte_dados": {
       "origem": "extracao_v2",
       "extracoes": [
         "uema-129-2026",
         "uema-130-2026",
+        "uema-131-2026",
         "uema-132-2026",
         "uema-133-2026",
         "uema-134-2026",
+        "uema-135-2026",
+        "uema-136-2026",
         "uema-137-2026",
-        "uema-139-2026"
+        "uema-138-2026",
+        "uema-139-2026",
+        "uema-140-2026"
       ],
       "extraido_em": "2026-10-04",
       "em_conferencia": true
@@ -35291,8 +35323,8 @@ window.CONCURSOS = [
         "tipo": "discursiva",
         "carater": "Eliminatória",
         "data": {
-          "tipo": "nao_divulgada",
-          "nota": "O edital ainda não fixou a data"
+          "tipo": "exata",
+          "valor": "2026-10-27"
         },
         "detalhe": {
           "duracao": "Até 5 horas, com a primeira hora para consulta bibliográfica",
@@ -35338,6 +35370,10 @@ window.CONCURSOS = [
         "detalhe": {}
       }
     ],
+    "periodo_provas": {
+      "inicio": "2026-10-27",
+      "fim": "2026-10-27"
+    },
     "logo": "ufmg.png",
     "formacoes_status": "completo",
     "familias": [
@@ -37883,7 +37919,7 @@ window.CONCURSOS = [
     "inscricao": {
       "inicio": "2026-09-14",
       "fim": "2026-10-04",
-      "situacao": "aberta",
+      "situacao": "encerrada",
       "taxa": "R$ 240,00"
     },
     "etapas": [
@@ -38007,9 +38043,9 @@ window.CONCURSOS = [
     "nivel": "Magistério Superior",
     "uf": "BA",
     "numero_edital": "Edital nº 50/2026, com 4 documentos de alteração publicados depois",
-    "vagas": "6 vagas, 2 reservadas a autodeclarados pretos ou pardos",
+    "vagas": "4 vagas",
     "areas": "Ciência da Computação, Engenharia Civil, Medicina III/ Médico especialista em Cirurgia Geral, Medicina IV / Médico Especialista especialista em Ginecologia e Obstetrícia e Medicina II/ Médico Especialista em Pediatria",
-    "campi": "DEPARTAMENTO DE ENGENHARIA E COMPUTAÇÃO - DEC e DEPARTAMENTO DE CIÊNCIAS DA SAÚDE - DCS",
+    "campi": "Ilhéus - Bahia, DEPARTAMENTO DE ENGENHARIA E COMPUTAÇÃO - DEC e DEPARTAMENTO DE CIÊNCIAS DA SAÚDE - DCS",
     "titulacao": "Mestrado",
     "regime": "40h DE e 40h",
     "remuneracao": "Consulte o edital. A tabela geral da carreira, de julho de 2025, traz Professor Auxiliar Nível A em R$ 6.931,35 e Assistente Nível A em R$ 8.040,36, ambos em dedicação exclusiva",
@@ -38019,11 +38055,21 @@ window.CONCURSOS = [
       "inicio": "2026-05-18",
       "fim": "2026-06-19",
       "situacao": "encerrada",
-      "taxa": "Consulte o edital"
+      "taxa": "R$ 220,00"
     },
     "etapas": [
       {
-        "nome": "Prova Didática",
+        "nome": "Prova Escrita",
+        "tipo": "discursiva",
+        "carater": "Eliminatória e classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "em data e local a serem divulgados, oportunamente, por meio da Portaria de Homologação das Inscrições"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Prova Didática (Aula Pública)",
         "tipo": "didatica",
         "carater": "Eliminatória e classificatória",
         "data": {
@@ -38033,12 +38079,13 @@ window.CONCURSOS = [
           "nota": "Cronograma oficial publicado em 30/08. Engenharias e Computação (DEC) em 23/09 às 8h. Ciências da Saúde (DCS) em 25/09, 26/09, 01/10 e 14/10, às 8h. Confirme a data da sua área no PDF do cronograma, porque a amarração por área no DCS precisa de leitura visual"
         },
         "detalhe": {
+          "arguicao": "Consulte o edital",
+          "criterios": "I Plano de aula: Clareza dos objetivos 2; I Plano de aula: Adequação dos objetivos ao conteúdo 2; I Plano de aula: Coerência na subdivisão do conteúdo 2; I Plano de aula: Adequação do conteúdo ao tempo disponível 2; I Plano de aula: Seleção apropriada e criativa de recursos didáticos 2; II Desenvolvimento da aula: Relação de continuidade entre o plano e o… 10; II Desenvolvimento da aula: Linguagem clara, correta e adequada ao… 10; II Desenvolvimento da aula: Abordagem teórico-metodológica do… 30; II Desenvolvimento da aula: Adequação do conteúdo em função do tempo… 10; II Desenvolvimento da aula: Estrutura da aula, evidenciando… 10; II Desenvolvimento da aula: Apresentação do professor: criatividade… 20",
+          "plano_de_aula": "O concurso tem etapa própria de Plano de Trabalho, que não é plano de aula. A exigência de plano de aula não está publicada em fonte aberta",
           "duracao": "Consulte o edital",
           "sorteio": "No mesmo dia da aula, imediatamente antes. Não há 24 horas de preparo",
           "nota_minima": "Consulte o edital",
-          "arguicao": "Consulte o edital",
-          "modalidade": "Presencial. DEC em sala do Departamento de Engenharia e Computação, DCS na Sala de Multimeios 3103 do Pavilhão Jorge Amado",
-          "plano_de_aula": "O concurso tem etapa própria de Plano de Trabalho, que não é plano de aula. A exigência de plano de aula não está publicada em fonte aberta"
+          "modalidade": "Presencial. DEC em sala do Departamento de Engenharia e Computação, DCS na Sala de Multimeios 3103 do Pavilhão Jorge Amado"
         }
       },
       {
@@ -38349,7 +38396,7 @@ window.CONCURSOS = [
       "extracoes": [
         "uesc-050-2026"
       ],
-      "extraido_em": "2026-10-02",
+      "extraido_em": "2026-10-04",
       "em_conferencia": true
     }
   },
@@ -39113,7 +39160,7 @@ window.CONCURSOS = [
     "nivel": "Magistério Superior",
     "uf": "PE",
     "numero_edital": "Edital nº 21/2026, publicado em 08/09/2026, com 2 documentos de alteração publicados depois",
-    "vagas": "14 vagas, com 30% reservadas a pretos, pardos, indígenas e quilombolas e 5% a pessoas com deficiência",
+    "vagas": "12 vagas",
     "areas": "14 áreas, entre elas TÓPICOS ESPECÍFICOS DE EDUCAÇÃO, FUNDAMENTOS DA EDUCAÇÃO, EXTENSÃO RURAL, EDUCAÇÃO E AGROECOLOGIA, ENGENHARIA DE ÁGUA E SOLO e FITOSSANIDADE",
     "campi": "DEPARTAMENTO DE EDUCAÇÃO (DED/SEDE), DEPARTAMENTO DE ENGENHARIA AGRÍCOLA (DEAGRI/SEDE), DEPARTAMENTO DE AGRONOMIA (DEPA/SEDE) e DEPARTAMENTO DE BIOLOGIA (DB/SEDE)",
     "titulacao": "Doutorado",
@@ -39203,8 +39250,7 @@ window.CONCURSOS = [
         "carater": "",
         "data": {
           "tipo": "exata",
-          "valor": "2027-02-15",
-          "nota": "Início do prazo de 24 horas para pedir os formulários de avaliação e as gravações das provas"
+          "valor": "2027-03-16"
         },
         "detalhe": {}
       }
@@ -40334,7 +40380,7 @@ window.CONCURSOS = [
         "carater": "",
         "data": {
           "tipo": "nao_divulgada",
-          "nota": "após a publicação das notas da segunda fase, bem como da análise de seus respectivos recursos / após a análise dos recursos do resultado final preliminar"
+          "nota": "após a análise dos recursos do resultado final preliminar"
         },
         "detalhe": {}
       }
@@ -40685,10 +40731,10 @@ window.CONCURSOS = [
     "instituicao": "Universidade Estadual Paulista “Julio de Mesquita Filho”",
     "nivel": "Magistério Superior",
     "uf": "SP",
-    "numero_edital": "7 editais: 444/2026, 138/2026, 139/2026, 111/2026, 294/2026 e 305/2026 e mais 1",
-    "vagas": "1 cargo por edital, em 12 concursos independentes",
-    "areas": "7 áreas, entre elas disciplina “ONSERVAÇÃO GENÉTICA DE PEIXES”, conjunto de disciplinas “Odontopediatria I e Odontopediatria II”, conjunto de disciplinas “Periodontia I e Periodontia II”, conjunto de disciplinas \"Ortodontia Preventiva I\", \"Ortodontia Preventiva II\" e \"Ortopedia Funcional dos Maxilares\" e disciplina “Análise Sensorial de Alimentos”.A inscrição implicará a completa ciência e a tácita aceitação das normas e condições estabelecidas",
-    "campi": "Bauru, Araçatuba, Araraquara, São José do Rio Preto, Departamento de CIÊNCIAS BIOLÓGICAS, da Faculdade de Ciências, do Campus de Bauru, Departamento de Odontologia Infantil e Social, da Faculdade de Odontologia do Campus de Araçatuba, Departamento de Diagnóstico e Cirurgia, da Faculdade de Odontologia do Campus de Araçatuba e Departamento de Morfologia e Clínica Infantil, da Faculdade de Odontologia, do Campus de Araraquara",
+    "numero_edital": "9 editais: 444/2026, 135/2026, 138/2026, 139/2026, 111/2026 e 294/2026 e mais 3",
+    "vagas": "9 vagas",
+    "areas": "9 áreas, entre elas disciplina “ONSERVAÇÃO GENÉTICA DE PEIXES”, conjunto de disciplinas “Endodontia I e Endodontia II”, conjunto de disciplinas “Odontopediatria I e Odontopediatria II”, conjunto de disciplinas “Periodontia I e Periodontia II” e conjunto de disciplinas \"Ortodontia Preventiva I\", \"Ortodontia Preventiva II\" e \"Ortopedia Funcional dos Maxilares\"",
+    "campi": "Bauru, Araçatuba, Araraquara, São José do Rio Preto, Departamento de CIÊNCIAS BIOLÓGICAS, da Faculdade de Ciências, do Campus de Bauru, Departamento de Dentística e Endodontia, da Faculdade de Odontologia do Campus de Araçatuba, Departamento de Odontologia Infantil e Social, da Faculdade de Odontologia do Campus de Araçatuba e Departamento de Diagnóstico e Cirurgia, da Faculdade de Odontologia do Campus de Araçatuba",
     "titulacao": "Título de Livre-Docente pela UNESP, USP ou UNICAMP, ou equivalente declarado pela UNESP, obtido há pelo menos 6 anos, mais 6 anos de docência na graduação após a Livre-Docência e o cumprimento das 13 condições do item 3.2 do edital",
     "regime": "Regime de Dedicação Integral à Docência e à Pesquisa - RDIDP",
     "remuneracao": "R$ 25.261,98 de vencimento básico em RDIDP",
@@ -40980,11 +41026,13 @@ window.CONCURSOS = [
       "origem": "extracao_v2",
       "extracoes": [
         "unesp-fc-444-2026",
+        "unesp-foa-135-2026",
         "unesp-foa-138-2026",
         "unesp-foa-139-2026",
         "unesp-foar-111-2026",
         "unesp-ibilce-294-2026",
         "unesp-ibilce-305-2026",
+        "unesp-ict-161-2026",
         "unesp-igce-210-2026"
       ],
       "extraido_em": "2026-10-04",
@@ -41212,7 +41260,7 @@ window.CONCURSOS = [
     "nivel": "Magistério Superior",
     "uf": "RN",
     "numero_edital": "Edital nº 108/2026-PROGESP, publicado em 16/09/2026, com 2 documentos de alteração publicados depois",
-    "vagas": "9 vagas, uma por área",
+    "vagas": "15 vagas",
     "areas": "14 áreas, entre elas Internato em Medicina de Urgência com atuação em Unidades de Pronto Atendimento/UPAS, Ensino de História, Criptografia e Governança, Engenharia de Segurança Cibernética e Defesa Cibernética",
     "campi": "Natal-RN, Departamento de Medicina Integrada - Campus de Natal/RN, Departamento de História - Campus de Caicó/RN, Instituto Metrópole Digital - Campus de Natal/RN e Faculdade de Ciências da Saúde do Trairi - Campus de Santa Cruz/RN",
     "titulacao": "Doutorado",
@@ -41285,6 +41333,16 @@ window.CONCURSOS = [
           "fim": "2027-03-21"
         },
         "detalhe": {}
+      },
+      {
+        "nome": "Resultado final",
+        "tipo": "resultado",
+        "carater": "",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "A partir de 30/03/2027"
+        },
+        "detalhe": {}
       }
     ],
     "periodo_provas": {
@@ -41316,7 +41374,7 @@ window.CONCURSOS = [
     "nivel": "Magistério Superior",
     "uf": "RN",
     "numero_edital": "Edital nº 030/2026, publicado em 21/09/2026, com 1 documento de alteração publicado depois",
-    "vagas": "25 vagas (14 ampla concorrência, 6 pretos e pardos, 1 indígena, 1 quilombola e 3 PcD)",
+    "vagas": "24 vagas",
     "areas": "23 áreas, entre elas Fenômenos de Transportes, Química Aplicada à Engenharia e Química Geral, Língua Latina I; Língua Latina II; Formação Histórica da Língua Portuguesa; Pesquisa Aplicada à Língua e Literatura, Engenharia de Requisitos, Projeto e Design de Interfaces, Engenharia de Usabilidade, Projeto Detalhado de Software, Banco de Dados, Geologia e Geofísica do Petróleo; Técnicas e Análise de Operações de Perfilagem; e Geologia Geral e Direito Privado e Práticas Jurídicas",
     "campi": "Campus Caraúbas - DCT, Campus Caraúbas - DLCH, Campus Pau dos Ferros - DETEC e Campus Mossoró - DET",
     "titulacao": "Doutorado",
@@ -41325,7 +41383,7 @@ window.CONCURSOS = [
     "banca": "Comissão própria da UFERSA",
     "link_oficial": "https://meritux.ufersa.edu.br/processos/edital-030-2026",
     "inscricao": {
-      "inicio": "2026-09-25",
+      "inicio": "2026-09-26",
       "fim": "2026-10-11",
       "situacao": "aberta",
       "taxa": "R$ 80,00 (20 horas), R$ 180,00 (40 horas com mestrado) e R$ 330,00 (40 horas com doutorado). Pagamento até 12/10"
@@ -41437,7 +41495,7 @@ window.CONCURSOS = [
     "nivel": "Magistério Superior",
     "uf": "CE",
     "numero_edital": "Edital nº 48/2026/CCV/UFC, com 3 documentos de alteração publicados depois",
-    "vagas": "61 vagas (39 ampla concorrência, 15 pessoas negras, 2 indígenas, 1 quilombola e 4 PcD)",
+    "vagas": "65 vagas",
     "areas": "55 áreas, entre elas Genômica e Conservação de Polinizadores, Biotecnologia Industrial, Estatística e Matemática Aplicada, Física do Estado Sólido Experimental e Arte Rupestre",
     "campi": "Município de Fortaleza - Ceará, CENTRO DE CIÊNCIAS / CAMPUS DE FORTALEZA; Departamento de Biologia, CENTRO DE CIÊNCIAS / CAMPUS DE FORTALEZA; Departamento de Bioquímica e Biologia Molecular, CENTRO DE CIÊNCIAS / CAMPUS DE FORTALEZA; Departamento de Estatística e Matemática Aplicada e CENTRO DE CIÊNCIAS / CAMPUS DE FORTALEZA; Departamento de Física",
     "titulacao": "Conforme a área",
@@ -41507,8 +41565,9 @@ window.CONCURSOS = [
         "tipo": "titulos",
         "carater": "Classificatória",
         "data": {
-          "tipo": "nao_divulgada",
-          "nota": "O edital ainda não fixou a data"
+          "tipo": "periodo",
+          "valor": "2027-02-01",
+          "fim": "2027-02-02"
         },
         "detalhe": {}
       },
@@ -41630,6 +41689,16 @@ window.CONCURSOS = [
           "nota": "Datas por área: Área 101.4 (Odontologia (4.02.00.00- 0) - Subárea…): 27/01; Área 101.18 (Química (1.06.00.00-0) ou Ciências -…): 19/02"
         },
         "detalhe": {}
+      },
+      {
+        "nome": "Resultado final",
+        "tipo": "resultado",
+        "carater": "",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "Decorrido o prazo recursal sem a interposição de recursos, ou após o julgamento daqueles eventualmente interpostos"
+        },
+        "detalhe": {}
       }
     ],
     "periodo_provas": {
@@ -41671,7 +41740,7 @@ window.CONCURSOS = [
     "inscricao": {
       "inicio": "2026-10-07",
       "fim": "2026-11-05",
-      "situacao": "abre_em_breve",
+      "situacao": "aberta",
       "taxa": "R$ 150,00"
     },
     "etapas": [
@@ -41731,6 +41800,16 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2027-03-22",
           "fim": "2027-04-11"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Resultado final",
+        "tipo": "resultado",
+        "carater": "",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "A partir de 26/04/2027"
         },
         "detalhe": {}
       }
@@ -41956,5 +42035,106 @@ window.CONCURSOS = [
       }
     ],
     "observacao": "O maior concurso EBTT aberto agora: 45 vagas em 21 cidades de São Paulo, com Informática (18 vagas) e Pedagogia (7) concentrando a maior parte. Inscrição de 06/10 a 17/11, banca própria do IFSP, sem banca terceirizada. O detalhe que muda o preparo: não há sorteio de ponto no dia da aula. O tema de cada área sai em 04/11/2026, ou seja, você tem quase quatro meses para construir a aula antes de apresentá-la entre 27/02 e 07/03/2027. Aula de 45 minutos, mais até 10 de arguição, com três vias do plano de aula entregues à banca e corte de 60 pontos."
+  },
+  {
+    "id": "ifmg-1077-2026",
+    "sigla": "IFMG",
+    "instituicao": "Instituto Federal de Educação, Ciência e Tecnologia de Minas Gerais",
+    "nivel": "EBTT",
+    "uf": null,
+    "numero_edital": "Edital nº 1077/2026",
+    "vagas": "33 vagas",
+    "areas": "19 áreas, entre elas Ciências Biológicas, Educação Física, Enfermagem, Engenharia de Controle e Automação - Automação Industrial e Engenharia de Controle e Automação - Controle de sistemas",
+    "campi": "Ibirité, Sabará, Piumhi e Betim",
+    "titulacao": "Graduação",
+    "regime": "40h semanais Dedicação Exclusiva",
+    "remuneracao": "R$ 6.397,19 de vencimento básico em 40h semanais Dedicação Exclusiva, chegando a R$ 14.945,96 com a maior titulação",
+    "banca": "Comissão própria da IFMG",
+    "link_oficial": "https://portal.concursos.ifmg.edu.br/",
+    "inscricao": {
+      "inicio": "2026-10-13",
+      "fim": "2026-11-13",
+      "situacao": "abre_em_breve",
+      "taxa": "R$ 250,00"
+    },
+    "etapas": [
+      {
+        "nome": "Prova Objetiva",
+        "tipo": "objetiva",
+        "carater": "Eliminatória e classificatória",
+        "data": {
+          "tipo": "exata",
+          "valor": "2027-01-24"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Prova Dissertativa-Argumentativa",
+        "tipo": "discursiva",
+        "carater": "Eliminatória e classificatória",
+        "data": {
+          "tipo": "exata",
+          "valor": "2027-01-24"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Prova de Desempenho Didático",
+        "tipo": "didatica",
+        "carater": "Eliminatória e classificatória",
+        "data": {
+          "tipo": "periodo",
+          "valor": "2027-04-19",
+          "fim": "2027-04-29"
+        },
+        "detalhe": {
+          "arguicao": "Sim, por até 20 minutos",
+          "criterios": "100 pontos: 1. Plano de Aula (10 pontos): Estrutura formal, organização, clareza… 5; 1. Plano de Aula (10 pontos): Adequação, clareza e pertinência dos… 5; 2. Introdução da Aula (15 pontos): Apresentação clara aos alunos… 5; 2. Introdução da Aula (15 pontos): Uso de aspectos motivacionais para… 4; 2. Introdução da Aula (15 pontos): Contextualização, referência e… 6; 3. Desenvolvimento (40 pontos): Segurança, exatidão conceitual e… 10; 3. Desenvolvimento (40 pontos): Organização lógica, estrutura… 10; 3. Desenvolvimento (40 pontos): Adequação do vocabulário geral e uso… 5; 3. Desenvolvimento (40 pontos): Abrangência, profundidade e estrita… 5; 3. Desenvolvimento (40 pontos): Utilização de exemplos práticos… 5; 3. Desenvolvimento (40 pontos): Pertinência dos recursos didáticos… 2,5; 3. Desenvolvimento (40 pontos): Habilidade no manuseio, utilização e… 2,5; 4. Finalização (17 pontos): Capacidade de síntese, fechamento das… 8; 4. Finalização (17 pontos): Adequação e clareza nos procedimentos de… 3; 4. Finalização (17 pontos): Cumprimento rigoroso das etapas… 3; 4. Finalização (17 pontos): Gestão e distribuição adequada do tempo… 3; 5. Conduta e Arguição (18 pontos): Autocontrole, equilíbrio… 5; 5. Conduta e Arguição (18 pontos): Qualidade da dicção, projeção e… 3,5; 5. Conduta e Arguição (18 pontos): Postura corporal adequada, uso do… 3,5; 5. Conduta e Arguição (18 pontos): Domínio técnico e clareza no… 6",
+          "plano_de_aula": "Exigido: entregues conforme as datas constantes no Cronograma - Anexo I, com Objetivos e Referências bibliográficas",
+          "recursos": "Fornecidos: quadro, pincel, giz, projetor multimídia e computador com sistema operacional com software compatível com PDF (Portable Document Format)"
+        }
+      },
+      {
+        "nome": "Prova de Títulos",
+        "tipo": "titulos",
+        "carater": "Classificatória",
+        "data": {
+          "tipo": "periodo",
+          "valor": "2027-04-01",
+          "fim": "2027-04-09"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Resultado final",
+        "tipo": "resultado",
+        "carater": "",
+        "data": {
+          "tipo": "exata",
+          "valor": "2027-06-18"
+        },
+        "detalhe": {}
+      }
+    ],
+    "periodo_provas": {
+      "inicio": "2027-01-24",
+      "fim": "2027-04-29"
+    },
+    "formacoes_status": "nao_extraido",
+    "familias": [],
+    "formacoes": [],
+    "familias_pos": [],
+    "areas_formacoes": [],
+    "observacao": "",
+    "detalhamento": "completo",
+    "avisos_edital": [],
+    "fonte_dados": {
+      "origem": "extracao_v2",
+      "extracoes": [
+        "ifmg-1077-2026"
+      ],
+      "extraido_em": "2026-10-07",
+      "em_conferencia": true
+    }
   }
 ];
