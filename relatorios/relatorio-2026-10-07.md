@@ -1,8 +1,8 @@
 # Relatório do compilador do Radar · 07/10/2026
 
-47 concursos no dados.js gerado, 47 no publicado; 45 vieram das extrações.
+48 concursos no dados.js gerado, 47 no publicado; 46 vieram das extrações.
 
-## O que muda no Radar em relação ao publicado (23 concursos)
+## O que muda no Radar em relação ao publicado (26 concursos)
 
 **ufrn-058-2026**
 - Prova Didática: 14/09/2026 a 02/10/2026 → 14/09/2026 a 12/10/2026
@@ -22,6 +22,9 @@
 **ufsj-2026**
 - inscrição: aberta → encerrada
 - Resultado final: nota da data alterada
+
+**ifsuldeminas-188-2026**
+- editais alterado
 
 **ifsc-01-2026**
 - Prova de Títulos: sem data → 07/12/2026 a 09/12/2026
@@ -48,6 +51,7 @@
 
 **ufrgs-08-2026**
 - etapa retirada: Resultado final
+- editais alterado
 
 **ifmg-2026**
 - Resultado final: 25/03/2027 → 03/04/2027
@@ -60,6 +64,9 @@
 - editais alterado
 - vagas: "47 vagas imediatas mais cadastro de reserva no bloco original" → "34 vagas nos editais em andamento; mais 20 vagas em 5 editais suspensos desde 23/07/2026"
 - avisos de possível erro no edital alterado
+
+**ufmg-1638-2026**
+- Prova Escrita: sem data → 27/10/2026
 
 **ufpel-028-2026**
 - inscrição: aberta → encerrada
@@ -104,12 +111,28 @@
 - inscrição: abre_em_breve → aberta
 - etapa nova: Resultado final (sem data)
 
+**ifmg-1077-2026**
+- concurso novo no Radar
+
 ## Prova didática já terminou (2 concursos)
 
 Pelo critério do Radar, estes concursos saem da lista. O compilador não remove nada sozinho; confira e decida.
 
 - **ufla-127-2026**: última data da prova didática 28/09/2026
 - **furb-07-2026**: última data da prova didática 29/09/2026
+
+## Conflitos novos desta semana (2 concursos)
+
+Apareceram nesta rodada. A extração e o dados.js publicado discordam. O dados.js gerado mantém o valor publicado (modo conservador); confira no edital qual está certo.
+
+**ifsuldeminas-188-2026**
+- Prova Objetiva: dados.js anterior 13/09/2026, extração 13/09/2026 a 08/11/2026 (publicado o anterior)
+- Prova de Desempenho Didático: dados.js anterior 31/10/2026 a 01/11/2026, extração 31/10/2026 a 13/12/2026 (publicado o anterior)
+- Prova de Títulos: dados.js anterior 31/10/2026 a 01/11/2026, extração 31/10/2026 a 13/12/2026 (publicado o anterior)
+- Resultado final: dados.js anterior 10/12/2026, extração 10/12/2026 a 30/12/2026 (publicado o anterior)
+
+**ufrgs-08-2026**
+- Prova Prática: dados.js anterior 07/10/2026, extração 09/10/2026 (publicado o anterior)
 
 ## Conflitos que continuam da semana anterior (1 concursos)
 
@@ -183,12 +206,15 @@ Conferidos nos documentos oficiais (compilador/liberados.json); o dados.js gerad
 **ufc-48-2026**
 - vagas: o dados.js anterior dizia "61 vagas (39 ampla concorrência, 15 pessoas negras, 2 indígenas, 1 quilombola e 4 PcD)", a extração soma 65 (liberado após conferência: publicada a extração)
 
-## Dados novos trazidos pela extração (2 concursos)
+## Dados novos trazidos pela extração (3 concursos)
 
 Etapas que estavam sem data no Radar e agora têm data publicada.
 
 **ifsc-01-2026**
 - Prova de Títulos agora tem data: 07/12/2026 a 09/12/2026
+
+**ufmg-1638-2026**
+- Prova Escrita agora tem data: 27/10/2026
 
 **ufc-48-2026**
 - Avaliação de títulos agora tem data: 01/02/2027 a 02/02/2027
