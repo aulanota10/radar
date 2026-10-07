@@ -1,0 +1,277 @@
+name: Rodada semanal do Radar
+
+# Gera o dados.js conservador a partir das extrações do vigia-documentos,
+# grava o relatório da semana em main e abre o pull request do dados.js.
+#
+# NUNCA junta o pull request e NUNCA envia dados.js, index.html, validar-dados.js
+# ou .github para main. A publicação na Hostinger continua dependendo de o Samuel
+# apertar "Merge pull request", que é o que dispara o publicar-radar.yml.
+#
+# Pré-requisitos (uma vez só):
+#   1. Secret VIGIA_SSH_KEY: chave privada de uma deploy key de leitura
+#      cadastrada em aulanota10/vigia-documentos.
+#   2. Settings > Actions > General > Workflow permissions:
+#      "Allow GitHub Actions to create and approve pull requests" ligado.
+
+on:
+  schedule:
+    # 11:47 de America/Fortaleza (UTC-3) nas segundas = 14:47 UTC
+    - cron: '47 14 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: rodada-semanal-radar
+  cancel-in-progress: false
+
+jobs:
+  rodada:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Conferir o segredo de leitura do vigia
+        env:
+          CHAVE: ${{ secrets.VIGIA_SSH_KEY }}
+        run: |
+          if [ -z "$CHAVE" ]; then
+            echo "PARADO: o segredo VIGIA_SSH_KEY não está configurado neste repositório." >&2
+            echo "Cadastre a deploy key de leitura do vigia-documentos antes de rodar." >&2
+            exit 1
+          fi
+
+      - name: Baixar o radar
+        uses: actions/checkout@v4
+        with:
+          path: radar
+          fetch-depth: 0
+
+      - name: Baixar as extrações do vigia-documentos
+        uses: actions/checkout@v4
+        with:
+          repository: aulanota10/vigia-documentos
+          path: vigia
+          ssh-key: ${{ secrets.VIGIA_SSH_KEY }}
+          persist-credentials: false
+          fetch-depth: 1
+
+      - name: Preparar node e python
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Conferir o que a rodada precisa
+        run: |
+          test -x radar/compilador/rodada_semanal.sh || { echo "PARADO: falta o compilador/rodada_semanal.sh." >&2; exit 1; }
+          test -d vigia/extracoes || { echo "PARADO: falta a pasta extracoes/ no vigia-documentos." >&2; exit 1; }
+          echo "Extrações encontradas: $(find vigia/extracoes -maxdepth 1 -mindepth 1 -type d | wc -l)"
+
+      - name: Compilar o dados.js conservador
+        id: compilar
+        working-directory: radar
+        run: |
+          set -euo pipefail
+          HOJE="$(TZ=America/Fortaleza date +%F)"
+          echo "hoje=$HOJE" >> "$GITHUB_OUTPUT"
+          echo "hoje_br=$(TZ=America/Fortaleza date +%d/%m/%Y)" >> "$GITHUB_OUTPUT"
+
+          RC=0
+          ./compilador/rodada_semanal.sh "$GITHUB_WORKSPACE/vigia/extracoes" "$HOJE" 2>&1 | tee "$RUNNER_TEMP/saida.txt" || RC=$?
+
+          if grep -q '^PARADO' "$RUNNER_TEMP/saida.txt"; then
+            echo "PARADO: o script interrompeu a rodada. Nada foi comitado." >&2
+            exit 1
+          fi
+          if [ "$RC" != "0" ]; then
+            echo "PARADO: o script saiu com erro $RC. Nada foi comitado." >&2
+            exit 1
+          fi
+          RESUMO="$(grep -E '^RESUMO ' "$RUNNER_TEMP/saida.txt" | tail -1 || true)"
+          if [ -z "$RESUMO" ]; then
+            echo "PARADO: o script não imprimiu a linha RESUMO." >&2
+            exit 1
+          fi
+          echo "resumo=$RESUMO" >> "$GITHUB_OUTPUT"
+          echo "mudancas=$(sed -E 's/.*mudancas=([0-9]+).*/\1/' <<<"$RESUMO")" >> "$GITHUB_OUTPUT"
+          echo "conflitos=$(sed -E 's/.*conflitos_novos=([0-9]+).*/\1/' <<<"$RESUMO")" >> "$GITHUB_OUTPUT"
+          echo "encerradas=$(sed -E 's/.*didatica_encerrada=([0-9]+).*/\1/' <<<"$RESUMO")" >> "$GITHUB_OUTPUT"
+
+          # O dados.js gerado sai do caminho: main recebe só relatorios/.
+          cp dados.js "$RUNNER_TEMP/dados-novo.js"
+          git checkout -- dados.js
+
+      - name: Guardar a saída do script
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: saida-da-rodada
+          path: ${{ runner.temp }}/saida.txt
+          if-no-files-found: ignore
+
+      - name: Gravar o relatório em main
+        working-directory: radar
+        env:
+          HOJE: ${{ steps.compilar.outputs.hoje }}
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add relatorios
+          if git diff --cached --quiet; then
+            echo "Nenhum arquivo novo em relatorios/; nada a comitar."
+            exit 0
+          fi
+          git commit -m "Radar $HOJE: relatório da rodada semanal"
+
+          FORA="$(git diff --name-only origin/main HEAD | grep -v '^relatorios/' || true)"
+          if [ -n "$FORA" ]; then
+            git reset --soft origin/main
+            echo "PARADO: o commit tocaria arquivo fora de relatorios/:" >&2
+            echo "$FORA" >&2
+            exit 1
+          fi
+
+          for t in 1 2 3; do
+            git fetch origin main
+            git rebase origin/main
+            if git push origin HEAD:main; then exit 0; fi
+            echo "push recusado, tentando de novo ($t)"
+            sleep 5
+          done
+          echo "PARADO: não consegui enviar o relatório para main." >&2
+          exit 1
+
+      - name: Abrir ou atualizar o pull request do dados.js
+        id: pr
+        if: success() && (steps.compilar.outputs.mudancas != '0' || steps.compilar.outputs.conflitos != '0')
+        working-directory: radar
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          HOJE: ${{ steps.compilar.outputs.hoje }}
+          HOJE_BR: ${{ steps.compilar.outputs.hoje_br }}
+          MUDANCAS: ${{ steps.compilar.outputs.mudancas }}
+          CONFLITOS: ${{ steps.compilar.outputs.conflitos }}
+          RESUMO: ${{ steps.compilar.outputs.resumo }}
+        run: |
+          set -euo pipefail
+          RAMO="radar/$HOJE"
+          git checkout -B "$RAMO"
+          cp "$RUNNER_TEMP/dados-novo.js" dados.js
+          git add dados.js
+
+          STAGED="$(git diff --cached --name-only)"
+          if [ "$STAGED" != "dados.js" ]; then
+            echo "PARADO: o ramo prepararia mais que o dados.js:" >&2
+            echo "$STAGED" >&2
+            exit 1
+          fi
+
+          git commit -m "Radar $HOJE: dados.js conservador gerado das extrações" -m "$RESUMO"
+          git push --force origin "$RAMO"
+
+          CORPO="relatorios/relatorio-$HOJE.md"
+          N="$(gh api "repos/$GITHUB_REPOSITORY/pulls?state=open&head=${GITHUB_REPOSITORY%%/*}:$RAMO" --jq '.[0].number // empty')"
+          if [ -n "$N" ]; then
+            gh api -X PATCH "repos/$GITHUB_REPOSITORY/pulls/$N" -F "body=@$CORPO" >/dev/null
+            echo "Pull request $N atualizado."
+          else
+            N="$(gh api "repos/$GITHUB_REPOSITORY/pulls" \
+              -f title="Radar $HOJE_BR: $MUDANCAS concursos mudam, $CONFLITOS conflitos novos" \
+              -f head="$RAMO" -f base=main -F "body=@$CORPO" --jq .number)"
+            echo "Pull request $N aberto."
+          fi
+          echo "numero=$N" >> "$GITHUB_OUTPUT"
+          echo "url=https://github.com/$GITHUB_REPOSITORY/pull/$N" >> "$GITHUB_OUTPUT"
+
+          # Fecha os pull requests radar/ das semanas anteriores. Nunca junta nenhum.
+          gh api "repos/$GITHUB_REPOSITORY/pulls?state=open&per_page=100" \
+            --jq '.[] | select(.head.ref | startswith("radar/")) | .number' | while read -r M; do
+            if [ "$M" != "$N" ]; then
+              gh api -X POST "repos/$GITHUB_REPOSITORY/issues/$M/comments" \
+                -f body="Substituído pelo pull request da rodada de $HOJE_BR." >/dev/null
+              gh api -X PATCH "repos/$GITHUB_REPOSITORY/pulls/$M" -f state=closed >/dev/null
+              echo "Pull request $M fechado."
+            fi
+          done
+
+      - name: Registrar a rodada para o aviso ao Samuel
+        working-directory: radar
+        env:
+          HOJE: ${{ steps.compilar.outputs.hoje }}
+          MUDANCAS: ${{ steps.compilar.outputs.mudancas }}
+          CONFLITOS: ${{ steps.compilar.outputs.conflitos }}
+          ENCERRADAS: ${{ steps.compilar.outputs.encerradas }}
+          PR_NUMERO: ${{ steps.pr.outputs.numero }}
+          PR_URL: ${{ steps.pr.outputs.url }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json, os
+          d = {
+            "data": os.environ["HOJE"],
+            "mudancas": int(os.environ["MUDANCAS"]),
+            "conflitos_novos": int(os.environ["CONFLITOS"]),
+            "didatica_encerrada": int(os.environ["ENCERRADAS"]),
+            "pull_request": int(os.environ["PR_NUMERO"]) if os.environ.get("PR_NUMERO") else None,
+            "pull_request_url": os.environ.get("PR_URL") or None,
+            "relatorio": "relatorios/relatorio-%s.md" % os.environ["HOJE"],
+            "execucao": os.environ["RUN_URL"],
+          }
+          with open("relatorios/ultima-rodada.json", "w", encoding="utf-8") as f:
+            json.dump(d, f, ensure_ascii=False, indent=2)
+            f.write("\n")
+          PY
+          git checkout main
+          git add relatorios/ultima-rodada.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Radar $HOJE: registro da rodada"
+          FORA="$(git diff --name-only origin/main HEAD | grep -v '^relatorios/' || true)"
+          if [ -n "$FORA" ]; then
+            git reset --soft origin/main
+            echo "PARADO: o registro tocaria arquivo fora de relatorios/." >&2
+            exit 1
+          fi
+          for t in 1 2 3; do
+            git fetch origin main
+            git rebase origin/main
+            if git push origin HEAD:main; then exit 0; fi
+            sleep 5
+          done
+          echo "PARADO: não consegui enviar o registro para main." >&2
+          exit 1
+
+      - name: Resumo da execução
+        if: always()
+        env:
+          RESUMO: ${{ steps.compilar.outputs.resumo }}
+          HOJE: ${{ steps.compilar.outputs.hoje }}
+          PR_URL: ${{ steps.pr.outputs.url }}
+        run: |
+          {
+            echo "## Rodada de $HOJE"
+            echo
+            echo "\`${RESUMO:-sem resumo: a compilação não chegou ao fim}\`"
+            echo
+            if [ -n "${PR_URL:-}" ]; then
+              echo "Pull request: $PR_URL"
+              echo
+              echo "Para publicar, junte o pull request. Para não publicar, não faça nada."
+            else
+              echo "Nenhum pull request nesta semana."
+            fi
+            echo
+            if [ -f "radar/relatorios/relatorio-$HOJE.md" ]; then
+              echo "<details><summary>Relatório da semana</summary>"
+              echo
+              cat "radar/relatorios/relatorio-$HOJE.md"
+              echo
+              echo "</details>"
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"
