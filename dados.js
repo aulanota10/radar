@@ -38,7 +38,10 @@
 // Gerado por compilar_radar.py a partir das extrações v2 (vigia-documentos/extracoes).
 // Para corrigir um dado, corrija a extração e rode o compilador de novo.
 
-window.RADAR_ATUALIZADO = "07/10/2026";
+// Gerado por compilar_radar.py a partir das extrações v2 (vigia-documentos/extracoes).
+// Para corrigir um dado, corrija a extração e rode o compilador de novo.
+
+window.RADAR_ATUALIZADO = "09/10/2026";
 
 window.CONCURSOS = [
   {
@@ -13323,7 +13326,7 @@ window.CONCURSOS = [
     "instituicao": "Fundação Universidade Regional do Cariri",
     "nivel": "Magistério Superior",
     "uf": "CE",
-    "numero_edital": "Edital nº 02/2026, publicado em 22/06/2026, com 4 documentos de alteração publicados depois",
+    "numero_edital": "Edital nº 02/2026, publicado em 22/06/2026, com 5 documentos de alteração publicados depois",
     "vagas": "26 vagas",
     "areas": "18 áreas, entre elas ASSISTÊNCIA EM ENFERMAGEM, CLÍNICA CIRÚRGICA/ ANATOMIA/ HISTOLOGIA/ SEMIOLOGIA/ INTERNATO, IMUNOLOGIA / MICROBIOLOGIA / PATOLOGIA CLÍNICA / INTERNATO, HISTOLOGIA E EMBRIOLOGIA / INFECTOLOGIA / ANATOMIA PATOLÓGICA / INTERNATO e CLÍNICA MÉDICA / ANESTESIA / SEMIOLOGIA/ FARMACOLOGIA / INTERNATO",
     "campi": "CCBS - ENFERMAGEM, CCBS - MEDICINA, CH - LÍNGUAS E LITERATURAS e CH - CIÊNCIAS SOCIAIS",
@@ -17834,7 +17837,7 @@ window.CONCURSOS = [
     "instituicao": "Universidade Federal da Bahia",
     "nivel": "Magistério Superior",
     "uf": "BA",
-    "numero_edital": "Edital nº 06/2026, publicado em 25/06/2026, com 5 documentos de alteração publicados depois",
+    "numero_edital": "Edital nº 06/2026, publicado em 25/06/2026, com 7 documentos de alteração publicados depois",
     "vagas": "38 vagas",
     "areas": "36 áreas, entre elas Gestão da Produção e Métodos Quantitativos, Enfermagem no Cuidado à Saúde da Mulher na Atenção Básica, Parto e Puerpério, Fundamentos de Enfermagem no Cuidado Individual e Cuidado em Enfermagem à Pessoa no Contexto Hospitalar, Gestão e Educação Permanente em Saúde e Enfermagem e Extensão Rural",
     "campi": "Salvador, Vitória da Conquista, Escola de Administração / Departamento: Coordenação Acadêmica, Escola de Enfermagem / Departamento: Coordenação Acadêmica, Escola de Medicina Veterinária e Zootecnia / Departamento: Medicina Veterinária Preventiva e Produção Animal e Escola Politécnica / Departamento: Ciência e Tecnologia dos Materiais",
@@ -20905,6 +20908,16 @@ window.CONCURSOS = [
           "valor": "2026-08-24",
           "fim": "2026-10-20",
           "nota": "Datas por área: 1.2.8 (Farmácia, Subárea: Análises clínicas…): 25/08 a 26/08; 1.2.2 (Ciência do Solo, Subárea: Química do Solo): 24/08; 1.2.5 (Estratigrafia Sedimentar): 09/09; 1.2.7 (Conhecimento: Estruturas, Subárea: Pontes): 03/09; 1.2.9 (Fonoaudiologia, Subárea: Linguagem): 03/09; 1.2.6 (Estruturas, Subárea: Estruturas Mistas de…): 22/09; 1.2.3 (Cinética, Catálise e Cálculo de Reatores…): 02/09; 1.2.15 (Química Inorgânica Medicinal): 07/10; 1.2.13 (Medicina Veterinária, Subárea: Clínica de…): 06/10; 1.2.10 (Forrageiras, Subárea: Produção e Tecnologia…): 14/09; 1.2.4 (Educação, Subárea: Ensino de Alfabetização): 17/09; 1.2.11 (História, Subárea: História da América…): 22/09; 1.2.1 (Artes Visuais, Subárea: Ensino de Artes…): 23/09 a 24/09; 1.2.14 (Psicologia Social e Institucional, Subárea…): 17/10 a 18/10; 1.2.12 (Materiais para a Engenharia Química): 20/10"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Resultado final",
+        "tipo": "resultado",
+        "carater": "",
+        "data": {
+          "tipo": "exata",
+          "valor": "2026-10-07"
         },
         "detalhe": {}
       }
@@ -33419,8 +33432,8 @@ window.CONCURSOS = [
         "tipo": "memorial",
         "carater": "Eliminatória e classificatória",
         "data": {
-          "tipo": "nao_divulgada",
-          "nota": "O cronograma de cada etapa do certame será publicado e atualizado na página do concurso"
+          "tipo": "exata",
+          "valor": "2026-11-23"
         },
         "detalhe": {}
       },
@@ -35136,8 +35149,8 @@ window.CONCURSOS = [
         "tipo": "didatica",
         "carater": "Classificatória",
         "data": {
-          "tipo": "nao_divulgada",
-          "nota": "O edital ainda não fixou a data"
+          "tipo": "exata",
+          "valor": "2026-10-08"
         },
         "detalhe": {
           "duracao": "50 minutos para a exposição do tema, seguidos de arguição pelo tempo do cronograma",
@@ -35154,8 +35167,8 @@ window.CONCURSOS = [
         "tipo": "titulos",
         "carater": "Classificatória",
         "data": {
-          "tipo": "nao_divulgada",
-          "nota": "O edital ainda não fixou a data"
+          "tipo": "exata",
+          "valor": "2026-10-07"
         },
         "detalhe": {}
       },
@@ -35164,12 +35177,16 @@ window.CONCURSOS = [
         "tipo": "resultado",
         "carater": "",
         "data": {
-          "tipo": "nao_divulgada",
-          "nota": "em horário e data que serão comunicados aos candidatos, durante a realização do Concurso"
+          "tipo": "exata",
+          "valor": "2026-10-09"
         },
         "detalhe": {}
       }
     ],
+    "periodo_provas": {
+      "inicio": "2026-10-05",
+      "fim": "2026-10-08"
+    },
     "logo": "ufmg.png",
     "formacoes_status": "parcial",
     "familias": [
@@ -35282,10 +35299,6 @@ window.CONCURSOS = [
     "observacao": "Pelo edital, as provas caem entre 16/09 e 15/11/2026, e a convocação sai com só 15 dias de aviso: a lista de pontos precisa estar estudada antes dela. No Edital 1.632 NÃO há prova escrita, só Títulos, Prova Didática e Prova Prática de desenho de observação, então a aula de 50 minutos decide de verdade, e ela é ainda o primeiro critério de desempate. Como no 1638, a UFMG não pede plano de aula: o que a banca julga é a aula e a arguição que vem depois. A nota vai de 0 a 100 em número inteiro. O Edital 1.633 tem página própria no site da Escola de Belas Artes.",
     "detalhamento": "completo",
     "avisos_edital": [],
-    "periodo_provas": {
-      "inicio": "2026-10-05",
-      "fim": "2026-10-05"
-    },
     "fonte_dados": {
       "origem": "extracao_v2",
       "extracoes": [
@@ -41373,7 +41386,7 @@ window.CONCURSOS = [
     "instituicao": "Universidade Federal Rural do Semi-Árido",
     "nivel": "Magistério Superior",
     "uf": "RN",
-    "numero_edital": "Edital nº 030/2026, publicado em 21/09/2026, com 1 documento de alteração publicado depois",
+    "numero_edital": "Edital nº 030/2026, publicado em 21/09/2026, com 2 documentos de alteração publicados depois",
     "vagas": "24 vagas",
     "areas": "23 áreas, entre elas Fenômenos de Transportes, Química Aplicada à Engenharia e Química Geral, Língua Latina I; Língua Latina II; Formação Histórica da Língua Portuguesa; Pesquisa Aplicada à Língua e Literatura, Engenharia de Requisitos, Projeto e Design de Interfaces, Engenharia de Usabilidade, Projeto Detalhado de Software, Banco de Dados, Geologia e Geofísica do Petróleo; Técnicas e Análise de Operações de Perfilagem; e Geologia Geral e Direito Privado e Práticas Jurídicas",
     "campi": "Campus Caraúbas - DCT, Campus Caraúbas - DLCH, Campus Pau dos Ferros - DETEC e Campus Mossoró - DET",
@@ -41852,7 +41865,7 @@ window.CONCURSOS = [
     "banca": "Comissão própria da UNICAMP",
     "link_oficial": "https://solicita.dados.unicamp.br/concurso/ver_edital_abertura/1105",
     "inscricao": {
-      "situacao": "aberta",
+      "situacao": "encerrada",
       "inicio": "2026-09-08",
       "fim": "2026-10-07",
       "taxa": "Não mencionada no edital"
