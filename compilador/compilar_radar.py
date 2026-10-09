@@ -203,7 +203,7 @@ def data_radar(periodos, nota_aberta, notas_por_escopo):
             obj = {"tipo": "exata", "valor": ini}
         else:
             obj = {"tipo": "periodo", "valor": ini, "fim": fim}
-        if len(notas_por_escopo) > 1:
+        if len(notas_por_escopo) > 1 or any(n.startswith("demais áreas") for n in notas_por_escopo):
             obj["nota"] = "Datas por área: " + "; ".join(notas_por_escopo)
         return obj
     return {"tipo": "nao_divulgada",
@@ -673,6 +673,13 @@ def compila_grupo(id_radar, exts, atual, hoje, validador=None, conservador=False
                 ab = nota_aberta_da_etapa(e, tipo)
                 if ab:
                     abertas.append(ab)
+            elif all(esc != "geral" for esc, _ in achados):
+                # Só algumas áreas têm data e o evento geral continua em aberto (UFSM 198 em 09/10/2026:
+                # cronograma só de Ensino de Matemática). A data por área vai para a nota, para o
+                # candidato não ler a data de uma área como se fosse do concurso inteiro.
+                ab = nota_aberta_da_etapa(e, tipo)
+                if ab:
+                    notas.append(f"demais áreas: sem data ({ab})")
         nome = etapas_existentes[tipo] or NOME_PADRAO.get(tipo, tipo)
         nome = nome[0].upper() + nome[1:] if nome else NOME_PADRAO.get(tipo, tipo)
         fases = fases_de_pontuacao(base)
@@ -866,6 +873,8 @@ def compila_grupo(id_radar, exts, atual, hoje, validador=None, conservador=False
 # ───────────────────────── saída ─────────────────────────
 
 def escrever_js(caminho, concursos, atualizado, cabecalho):
+    # o comentário "Última verificação" do cabeçalho antigo acompanha a data da rodada
+    cabecalho = re.sub(r"(Última verificação: )\d{2}/\d{2}/\d{4}", lambda m: m.group(1) + atualizado, cabecalho or "")
     linhas = [cabecalho.rstrip() if cabecalho.strip() else "// DADOS DO RADAR DE CONCURSOS · Aula Nota 10", "",
               "// Gerado por compilar_radar.py a partir das extrações v2 (vigia-documentos/extracoes).",
               "// Para corrigir um dado, corrija a extração e rode o compilador de novo.", "",
