@@ -15,11 +15,12 @@ name: Rodada semanal do Radar
 
 on:
   schedule:
-    # 11:47 de America/Fortaleza (UTC-3) nas segundas = 14:47 UTC.
-    # Depois do disparo diário do extrator (10:52), para a compilação usar as
-    # extrações do próprio dia; em 07/10/2026 a rodada tinha sido adiantada para
-    # 9:47 e passou a compilar antes do extrator (auditoria de 09/10/2026).
-    - cron: '47 14 * * 1'
+    # 12:47 de America/Fortaleza (UTC-3) nas segundas = 15:47 UTC.
+    # Depois do disparo diário do extrator (9:07, que desde 09/10/2026 faz também
+    # as primeiras extrações e pode levar até três horas), para a compilação usar
+    # as extrações do próprio dia. Em 07/10/2026 a rodada tinha sido adiantada
+    # para 9:47 e passou a compilar antes do extrator (auditoria de 09/10/2026).
+    - cron: '47 15 * * 1'
   workflow_dispatch:
 
 permissions:
