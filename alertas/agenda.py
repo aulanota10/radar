@@ -457,9 +457,16 @@ def executar(vigia, hoje, anterior):
                                               "fonte": e["fonte"]})
 
         # pendência com prazo prometido vencido e ainda aberta
-        venc = [p for p in c.get("pendencias") or [] if p["tipo"] == "diferida" and p["estado"] == "aberta"
-                and (p.get("prazo_prometido") or {}).get("forma") == "fixa"
-                and D(p["prazo_prometido"].get("data")) and D(p["prazo_prometido"]["data"]) < hoje - dt.timedelta(days=1)]
+        # Data impossível (ano fora de hoje-1 a hoje+3) é erro de digitação do edital copiado
+        # literalmente pelo extrator (UERJ 250 e 251: "27/10/1026"); vai para "possível erro no
+        # edital", e não para a lista de vencidos (auditoria de 09/10/2026).
+        abertas = [p for p in c.get("pendencias") or [] if p["tipo"] == "diferida" and p["estado"] == "aberta"
+                   and (p.get("prazo_prometido") or {}).get("forma") == "fixa" and D(p["prazo_prometido"].get("data"))]
+        impossiveis = [p for p in abertas if not (hoje.year - 1 <= D(p["prazo_prometido"]["data"]).year <= hoje.year + 3)]
+        if impossiveis and sit == "ativo":
+            for p in impossiveis:
+                rel["inconsistencia"].append(f"{nome}: prazo prometido para {p['campo'].split('.')[0].split('[')[0]} com data impossível no edital ({p['prazo_prometido']['data']}); conferir o cronograma no PDF.")
+        venc = [p for p in abertas if p not in impossiveis and D(p["prazo_prometido"]["data"]) < hoje - dt.timedelta(days=1)]
         if venc and sit == "ativo":
             campos = collections.Counter(p["campo"].split(".")[0].split("[")[0] for p in venc)
             mais_antigo = min(D(p["prazo_prometido"]["data"]) for p in venc)
