@@ -122,9 +122,18 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
+          # Parte sempre do main atualizado e regrava o relatório do dia por cima:
+          # uma segunda execução no mesmo dia (07/10/2026) entrava em conflito no
+          # rebase, porque o relatório do dia já existia em main com outro conteúdo.
+          mkdir -p "$RUNNER_TEMP/relatorios-novos"
+          cp relatorios/relatorio-$HOJE.md relatorios/conflitos-$HOJE.json "$RUNNER_TEMP/relatorios-novos/" 2>/dev/null || true
+          git fetch origin main
+          git reset --hard origin/main
+          cp "$RUNNER_TEMP/relatorios-novos/"* relatorios/ 2>/dev/null || true
+
           git add relatorios
           if git diff --cached --quiet; then
-            echo "Nenhum arquivo novo em relatorios/; nada a comitar."
+            echo "Nenhum arquivo novo ou alterado em relatorios/; nada a comitar."
             exit 0
           fi
           git commit -m "Radar $HOJE: relatório da rodada semanal"
@@ -138,11 +147,11 @@ jobs:
           fi
 
           for t in 1 2 3; do
-            git fetch origin main
-            git rebase origin/main
             if git push origin HEAD:main; then exit 0; fi
             echo "push recusado, tentando de novo ($t)"
             sleep 5
+            git fetch origin main
+            git rebase origin/main || { git rebase --abort; git reset --hard origin/main; cp "$RUNNER_TEMP/relatorios-novos/"* relatorios/; git add relatorios; git commit -m "Radar $HOJE: relatório da rodada semanal"; }
           done
           echo "PARADO: não consegui enviar o relatório para main." >&2
           exit 1
@@ -228,7 +237,11 @@ jobs:
             json.dump(d, f, ensure_ascii=False, indent=2)
             f.write("\n")
           PY
-          git checkout main
+          cp relatorios/ultima-rodada.json "$RUNNER_TEMP/ultima-rodada.json"
+          git checkout -f main
+          git fetch origin main
+          git reset --hard origin/main
+          cp "$RUNNER_TEMP/ultima-rodada.json" relatorios/ultima-rodada.json
           git add relatorios/ultima-rodada.json
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "Radar $HOJE: registro da rodada"
@@ -239,10 +252,13 @@ jobs:
             exit 1
           fi
           for t in 1 2 3; do
-            git fetch origin main
-            git rebase origin/main
             if git push origin HEAD:main; then exit 0; fi
             sleep 5
+            git fetch origin main
+            git reset --hard origin/main
+            cp "$RUNNER_TEMP/ultima-rodada.json" relatorios/ultima-rodada.json
+            git add relatorios/ultima-rodada.json
+            git commit -m "Radar $HOJE: registro da rodada"
           done
           echo "PARADO: não consegui enviar o registro para main." >&2
           exit 1
