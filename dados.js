@@ -1,6 +1,6 @@
 // ═══════════════════════════════════════════════════════════════════════
 //  DADOS DO RADAR DE CONCURSOS · Aula Nota 10
-//  Última verificação: 29/09/2026
+//  Última verificação: 11/10/2026
 //
 //  ESTE É O ÚNICO ARQUIVO QUE VOCÊ PRECISA EDITAR PARA ATUALIZAR O SITE.
 //  Não mexa no index.html.
@@ -38,7 +38,10 @@
 // Gerado por compilar_radar.py a partir das extrações v2 (vigia-documentos/extracoes).
 // Para corrigir um dado, corrija a extração e rode o compilador de novo.
 
-window.RADAR_ATUALIZADO = "07/10/2026";
+// Gerado por compilar_radar.py a partir das extrações v2 (vigia-documentos/extracoes).
+// Para corrigir um dado, corrija a extração e rode o compilador de novo.
+
+window.RADAR_ATUALIZADO = "11/10/2026";
 
 window.CONCURSOS = [
   {
@@ -47,7 +50,7 @@ window.CONCURSOS = [
     "instituicao": "Universidade Federal do Rio Grande do Norte",
     "nivel": "Magistério Superior",
     "uf": "RN",
-    "numero_edital": "Edital nº 058/2026-PROGESP, publicado em 30/04/2026, com 4 documentos de alteração publicados depois",
+    "numero_edital": "Edital nº 058/2026-PROGESP, publicado em 30/04/2026, com 7 documentos de alteração publicados depois",
     "vagas": "26 vagas (5 PcD, 6 pretos e pardos, 1 indígena, 1 quilombola)",
     "areas": "26 áreas, entre elas Nutrição em Saúde Coletiva, Doenças do Sistema Genitourinário, Endocrinologia e Metabologia, Prótese Dentária, Oclusão e Anatomia e Escultura e Otoneurologia / Dispositivos Eletrônicos de Amplificação Sonora (DEAS)",
     "campi": "Natal-RN, Departamento de Nutrição - Campus de Natal/RN, Departamento de Medicina Integrada - Campus de Natal/RN, Departamento de Medicina Clínica - Campus de Natal/RN e Departamento de Odontologia - Campus de Natal/RN",
@@ -9380,7 +9383,8 @@ window.CONCURSOS = [
         "carater": "Classificatória",
         "data": {
           "tipo": "exata",
-          "valor": "2026-10-22"
+          "valor": "2026-10-22",
+          "nota": "Datas por área: COMUNICAÇÃO OU MEDIAÇÃO CULTURAL OU LETRAS OU ARTES (Área: HUMANIDADES /CIÊNCIAS SOCIAIS…): 22/10; MEDICINA DE FAMÍLIA E COMUNIDADE (Área: CIÊNCIAS DA SAÚDE; Subárea: MEDICINA…): 22/10; GINECOLOGIA E OBSTETRÍCIA (Área: CIÊNCIAS DA SAÚDE; Subárea…): 22/10"
         },
         "detalhe": {}
       },
@@ -10934,9 +10938,10 @@ window.CONCURSOS = [
         "tipo": "objetiva",
         "carater": "Eliminatória e classificatória",
         "data": {
-          "tipo": "exata",
+          "tipo": "periodo",
           "valor": "2026-09-13",
-          "nota": "Comunicado nº 1 de 21/08: a prova passou a ser em um único dia, domingo, em dois turnos"
+          "fim": "2026-11-08",
+          "nota": "Datas por área: MUZ-1 (Zootecnia I - Avicultura de Corte e Postura…), IFS-1 (Zootecnia II - Suinocultura, Nutrição e…), MUZ-2 (Zootecnia II - Suinocultura, Nutrição e…), MCH-1 (Zootecnia III - Bioclimatologia e Animais…), MCH-2 (Zootecnia IV - Fisiologia Animal) e IFS-6 (Engenharia Agrícola): 13/09; IFS-5 (Educação Matemática), MCH-6 (Matemática), MCH-5 (Sociologia) e IFS-3 (Biologia I): 13/09; CDM-1 (Administração), IFS-2 (Informática), MCH-3 (Informática), MUZ-3 (Informática) e IFS-4 (Biologia II): 13/09; CDM-2 (Português/Espanhol) e IFS-7 (Atendimento Educacional Especializado): 13/09; MCH-4 (Segurança do Trabalho): 08/11"
         },
         "detalhe": {
           "questoes": "50 questões",
@@ -10968,8 +10973,8 @@ window.CONCURSOS = [
         "data": {
           "tipo": "periodo",
           "valor": "2026-10-31",
-          "fim": "2026-11-01",
-          "nota": "Cronograma retificado. A prova didática passou de 24 e 25/10 para 31/10 e 01/11"
+          "fim": "2026-12-13",
+          "nota": "Datas por área: CDM-1 (Administração), CDM-2 (Português/Espanhol), IFS-1 (Zootecnia II - Suinocultura, Nutrição e…), IFS-2 (Informática), IFS-3 (Biologia I), IFS-4 (Biologia II), IFS-5 (Educação Matemática), IFS-6 (Engenharia Agrícola), IFS-7 (Atendimento Educacional Especializado), MCH-1 (Zootecnia III - Bioclimatologia e Animais…), MCH-2 (Zootecnia IV - Fisiologia Animal), MCH-3 (Informática), MCH-5 (Sociologia), MCH-6 (Matemática), MUZ-1 (Zootecnia I - Avicultura de Corte e Postura…), MUZ-2 (Zootecnia II - Suinocultura, Nutrição e…) e MUZ-3 (Informática): 31/10 a 01/11; MCH-4 (Segurança do Trabalho): 13/12"
         },
         "detalhe": {
           "arguicao": "Sim, até 10 minutos após a aula",
@@ -10990,8 +10995,8 @@ window.CONCURSOS = [
         "data": {
           "tipo": "periodo",
           "valor": "2026-10-31",
-          "fim": "2026-11-01",
-          "nota": "Entrega junto com a prova didática"
+          "fim": "2026-12-13",
+          "nota": "Datas por área: CDM-1 (Administração), CDM-2 (Português/Espanhol), IFS-1 (Zootecnia II - Suinocultura, Nutrição e…), IFS-2 (Informática), IFS-3 (Biologia I), IFS-4 (Biologia II), IFS-5 (Educação Matemática), IFS-6 (Engenharia Agrícola), IFS-7 (Atendimento Educacional Especializado), MCH-1 (Zootecnia III - Bioclimatologia e Animais…), MCH-2 (Zootecnia IV - Fisiologia Animal), MCH-3 (Informática), MCH-5 (Sociologia), MCH-6 (Matemática), MUZ-1 (Zootecnia I - Avicultura de Corte e Postura…), MUZ-2 (Zootecnia II - Suinocultura, Nutrição e…) e MUZ-3 (Informática): 31/10 a 01/11; MCH-4 (Segurança do Trabalho): 13/12"
         },
         "detalhe": {
           "criterios": "Títulos acadêmicos, experiência profissional na área e experiência docente (máx. 100 pontos)"
@@ -11002,16 +11007,16 @@ window.CONCURSOS = [
         "tipo": "resultado",
         "carater": "",
         "data": {
-          "tipo": "exata",
+          "tipo": "periodo",
           "valor": "2026-12-10",
-          "nota": "Homologação em 11/12/2026"
+          "fim": "2026-12-30"
         },
         "detalhe": {}
       }
     ],
     "periodo_provas": {
       "inicio": "2026-09-13",
-      "fim": "2026-11-01"
+      "fim": "2026-12-13"
     },
     "logo": "ifsuldeminas.png",
     "sigla_selo": "IF SUL DE MINAS",
@@ -13323,7 +13328,7 @@ window.CONCURSOS = [
     "instituicao": "Fundação Universidade Regional do Cariri",
     "nivel": "Magistério Superior",
     "uf": "CE",
-    "numero_edital": "Edital nº 02/2026, publicado em 22/06/2026, com 4 documentos de alteração publicados depois",
+    "numero_edital": "Edital nº 02/2026, publicado em 22/06/2026, com 5 documentos de alteração publicados depois",
     "vagas": "26 vagas",
     "areas": "18 áreas, entre elas ASSISTÊNCIA EM ENFERMAGEM, CLÍNICA CIRÚRGICA/ ANATOMIA/ HISTOLOGIA/ SEMIOLOGIA/ INTERNATO, IMUNOLOGIA / MICROBIOLOGIA / PATOLOGIA CLÍNICA / INTERNATO, HISTOLOGIA E EMBRIOLOGIA / INFECTOLOGIA / ANATOMIA PATOLÓGICA / INTERNATO e CLÍNICA MÉDICA / ANESTESIA / SEMIOLOGIA/ FARMACOLOGIA / INTERNATO",
     "campi": "CCBS - ENFERMAGEM, CCBS - MEDICINA, CH - LÍNGUAS E LITERATURAS e CH - CIÊNCIAS SOCIAIS",
@@ -17834,7 +17839,7 @@ window.CONCURSOS = [
     "instituicao": "Universidade Federal da Bahia",
     "nivel": "Magistério Superior",
     "uf": "BA",
-    "numero_edital": "Edital nº 06/2026, publicado em 25/06/2026, com 5 documentos de alteração publicados depois",
+    "numero_edital": "Edital nº 06/2026, publicado em 25/06/2026, com 7 documentos de alteração publicados depois",
     "vagas": "38 vagas",
     "areas": "36 áreas, entre elas Gestão da Produção e Métodos Quantitativos, Enfermagem no Cuidado à Saúde da Mulher na Atenção Básica, Parto e Puerpério, Fundamentos de Enfermagem no Cuidado Individual e Cuidado em Enfermagem à Pessoa no Contexto Hospitalar, Gestão e Educação Permanente em Saúde e Enfermagem e Extensão Rural",
     "campi": "Salvador, Vitória da Conquista, Escola de Administração / Departamento: Coordenação Acadêmica, Escola de Enfermagem / Departamento: Coordenação Acadêmica, Escola de Medicina Veterinária e Zootecnia / Departamento: Medicina Veterinária Preventiva e Produção Animal e Escola Politécnica / Departamento: Ciência e Tecnologia dos Materiais",
@@ -20849,7 +20854,7 @@ window.CONCURSOS = [
         "carater": "Eliminatória e classificatória",
         "data": {
           "tipo": "exata",
-          "valor": "2026-10-07"
+          "valor": "2026-10-09"
         },
         "detalhe": {}
       },
@@ -20905,6 +20910,16 @@ window.CONCURSOS = [
           "valor": "2026-08-24",
           "fim": "2026-10-20",
           "nota": "Datas por área: 1.2.8 (Farmácia, Subárea: Análises clínicas…): 25/08 a 26/08; 1.2.2 (Ciência do Solo, Subárea: Química do Solo): 24/08; 1.2.5 (Estratigrafia Sedimentar): 09/09; 1.2.7 (Conhecimento: Estruturas, Subárea: Pontes): 03/09; 1.2.9 (Fonoaudiologia, Subárea: Linguagem): 03/09; 1.2.6 (Estruturas, Subárea: Estruturas Mistas de…): 22/09; 1.2.3 (Cinética, Catálise e Cálculo de Reatores…): 02/09; 1.2.15 (Química Inorgânica Medicinal): 07/10; 1.2.13 (Medicina Veterinária, Subárea: Clínica de…): 06/10; 1.2.10 (Forrageiras, Subárea: Produção e Tecnologia…): 14/09; 1.2.4 (Educação, Subárea: Ensino de Alfabetização): 17/09; 1.2.11 (História, Subárea: História da América…): 22/09; 1.2.1 (Artes Visuais, Subárea: Ensino de Artes…): 23/09 a 24/09; 1.2.14 (Psicologia Social e Institucional, Subárea…): 17/10 a 18/10; 1.2.12 (Materiais para a Engenharia Química): 20/10"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Resultado final",
+        "tipo": "resultado",
+        "carater": "",
+        "data": {
+          "tipo": "exata",
+          "valor": "2026-10-07"
         },
         "detalhe": {}
       }
@@ -33401,10 +33416,9 @@ window.CONCURSOS = [
         "tipo": "didatica",
         "carater": "Eliminatória e classificatória",
         "data": {
-          "tipo": "periodo",
-          "valor": "2026-09-13",
-          "fim": "2026-12-27",
-          "nota": "Dentro do período provável das provas. Até 11/09 nenhum cronograma por área foi publicado"
+          "tipo": "exata",
+          "valor": "2026-11-23",
+          "nota": "Datas por área: 04 (Multidisciplinar/Ensino/ Ensino de Ciências…): 23/11; demais áreas: sem data (O cronograma de cada etapa do certame será publicado e atualizado na página do concurso)"
         },
         "detalhe": {
           "arguicao": "Facultativa, de até 15 minutos após a aula",
@@ -33419,8 +33433,9 @@ window.CONCURSOS = [
         "tipo": "memorial",
         "carater": "Eliminatória e classificatória",
         "data": {
-          "tipo": "nao_divulgada",
-          "nota": "O cronograma de cada etapa do certame será publicado e atualizado na página do concurso"
+          "tipo": "exata",
+          "valor": "2026-11-23",
+          "nota": "Datas por área: 04 (Multidisciplinar/Ensino/ Ensino de Ciências…): 23/11; demais áreas: sem data (O cronograma de cada etapa do certame será publicado e atualizado na página do concurso)"
         },
         "detalhe": {}
       },
@@ -35136,8 +35151,8 @@ window.CONCURSOS = [
         "tipo": "didatica",
         "carater": "Classificatória",
         "data": {
-          "tipo": "nao_divulgada",
-          "nota": "O edital ainda não fixou a data"
+          "tipo": "exata",
+          "valor": "2026-10-08"
         },
         "detalhe": {
           "duracao": "50 minutos para a exposição do tema, seguidos de arguição pelo tempo do cronograma",
@@ -35154,8 +35169,8 @@ window.CONCURSOS = [
         "tipo": "titulos",
         "carater": "Classificatória",
         "data": {
-          "tipo": "nao_divulgada",
-          "nota": "O edital ainda não fixou a data"
+          "tipo": "exata",
+          "valor": "2026-10-07"
         },
         "detalhe": {}
       },
@@ -35164,12 +35179,16 @@ window.CONCURSOS = [
         "tipo": "resultado",
         "carater": "",
         "data": {
-          "tipo": "nao_divulgada",
-          "nota": "em horário e data que serão comunicados aos candidatos, durante a realização do Concurso"
+          "tipo": "exata",
+          "valor": "2026-10-09"
         },
         "detalhe": {}
       }
     ],
+    "periodo_provas": {
+      "inicio": "2026-10-05",
+      "fim": "2026-10-08"
+    },
     "logo": "ufmg.png",
     "formacoes_status": "parcial",
     "familias": [
@@ -35282,10 +35301,6 @@ window.CONCURSOS = [
     "observacao": "Pelo edital, as provas caem entre 16/09 e 15/11/2026, e a convocação sai com só 15 dias de aviso: a lista de pontos precisa estar estudada antes dela. No Edital 1.632 NÃO há prova escrita, só Títulos, Prova Didática e Prova Prática de desenho de observação, então a aula de 50 minutos decide de verdade, e ela é ainda o primeiro critério de desempate. Como no 1638, a UFMG não pede plano de aula: o que a banca julga é a aula e a arguição que vem depois. A nota vai de 0 a 100 em número inteiro. O Edital 1.633 tem página própria no site da Escola de Belas Artes.",
     "detalhamento": "completo",
     "avisos_edital": [],
-    "periodo_provas": {
-      "inicio": "2026-10-05",
-      "fim": "2026-10-05"
-    },
     "fonte_dados": {
       "origem": "extracao_v2",
       "extracoes": [
@@ -37300,7 +37315,7 @@ window.CONCURSOS = [
     "inscricao": {
       "inicio": "2026-09-14",
       "fim": "2026-10-09",
-      "situacao": "aberta",
+      "situacao": "encerrada",
       "taxa": "R$ 344,00 no Edital 111/2026. CADA EDITAL TEM PRAZO PRÓPRIO: o 111/2026 (Língua Inglesa) vai de 14/09 a 09/10/2026, das 8h às 18h. Confirme o seu na página do edital"
     },
     "etapas": [
@@ -39000,6 +39015,81 @@ window.CONCURSOS = [
   },
   {
     "id": "furb-07-2026",
+    "sigla": "FURB",
+    "instituicao": "Fundação Universidade Regional de Blumenau",
+    "nivel": "Magistério Superior",
+    "uf": "SC",
+    "numero_edital": "Edital nº 007/2026, publicado em 06/04/2026, com 2 documentos de alteração publicados depois",
+    "vagas": "1 vaga",
+    "areas": "Contabilidade Tributária",
+    "campi": "Blumenau/SC",
+    "titulacao": "Doutorado",
+    "regime": "Tempo Parcial Horista - TPH; carga horária semanal mínima: 08 (oito) horas",
+    "remuneracao": "Consulte o edital",
+    "banca": "Comissão própria da FURB",
+    "link_oficial": "https://concursos.furb.br/informacoes/528/",
+    "inscricao": {
+      "inicio": "2026-04-23",
+      "fim": "2026-06-03",
+      "situacao": "encerrada",
+      "taxa": "R$ 230,34"
+    },
+    "etapas": [
+      {
+        "nome": "Prova Escrita de Conhecimento",
+        "tipo": "discursiva",
+        "carater": "Eliminatória e classificatória",
+        "data": {
+          "tipo": "exata",
+          "valor": "2026-09-28",
+          "nota": "Às 8h30, no Campus 1, Sala B-208. Sala alterada pela retificação de 24/09. A data foi fixada pela retificação de 28/08"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Prova Didática",
+        "tipo": "didatica",
+        "carater": "Eliminatória e classificatória",
+        "data": {
+          "tipo": "exata",
+          "valor": "2026-09-29",
+          "nota": "Às 13h30, no Campus 1, Sala B-208. Sala alterada pela retificação de 24/09, antes era a D-201. A data foi fixada pela retificação de 28/08"
+        },
+        "detalhe": {
+          "arguicao": "Consulte o edital",
+          "plano_de_aula": "Consulte o edital",
+          "recursos": "Fornecidos: quadro com giz ou pincel e projetor multimídia",
+          "duracao": "Consulte o edital",
+          "sorteio": "Consulte o edital",
+          "nota_minima": "7,50 é o corte para seguir ao exame de títulos",
+          "modalidade": "Presencial, Campus 1, Sala D-201, em Blumenau"
+        }
+      },
+      {
+        "nome": "Exame de Títulos",
+        "tipo": "titulos",
+        "carater": "Classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "Após o encerramento das provas escrita de conhecimento e didática, para os candidatos que obtiverem nota igual ou superior a 7,5 (sete vírgula cinco)"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Resultado final",
+        "tipo": "resultado",
+        "carater": "",
+        "data": {
+          "tipo": "exata",
+          "valor": "2026-10-08"
+        },
+        "detalhe": {}
+      }
+    ],
+    "periodo_provas": {
+      "inicio": "2026-09-28",
+      "fim": "2026-09-29"
+    },
     "logo": "furb.png",
     "formacoes_status": "completo",
     "familias": [
@@ -39070,88 +39160,17 @@ window.CONCURSOS = [
         ]
       }
     ],
-    "uf": "SC",
-    "sigla": "FURB",
-    "instituicao": "Fundação Universidade Regional de Blumenau",
-    "nivel": "Magistério Superior",
-    "numero_edital": "Edital nº 07/2026, com Retificação de datas das provas de 28/08/2026 e Retificação de sala de 24/09/2026",
-    "areas": "Professor Universitário na área de Contabilidade Tributária",
-    "vagas": "Consulte o edital",
-    "campi": "Blumenau/SC. Provas no Campus 1, Sala D-201",
-    "titulacao": "Consulte o edital",
-    "remuneracao": "Consulte o edital",
-    "regime": "Consulte o edital",
-    "banca": "Banca examinadora própria da FURB, nomeada em 05/08/2026 e retificada em 27/08/2026",
-    "link_oficial": "https://concursos.furb.br/informacoes/528/",
-    "inscricao": {
-      "inicio": "2026-04-23",
-      "fim": "2026-06-03",
-      "situacao": "encerrada",
-      "taxa": "Consulte o edital"
-    },
-    "detalhamento": "basico",
-    "etapas": [
-      {
-        "nome": "Homologação das inscrições",
-        "tipo": "outra",
-        "carater": "",
-        "data": {
-          "tipo": "exata",
-          "valor": "2026-06-26",
-          "nota": "Já publicada"
-        },
-        "detalhe": {}
-      },
-      {
-        "nome": "Prova Escrita de Conhecimento",
-        "tipo": "discursiva",
-        "carater": "Eliminatória e classificatória",
-        "data": {
-          "tipo": "exata",
-          "valor": "2026-09-28",
-          "nota": "Às 8h30, no Campus 1, Sala B-208. Sala alterada pela retificação de 24/09. A data foi fixada pela retificação de 28/08"
-        },
-        "detalhe": {}
-      },
-      {
-        "nome": "Prova Didática",
-        "tipo": "didatica",
-        "carater": "Eliminatória e classificatória",
-        "data": {
-          "tipo": "exata",
-          "valor": "2026-09-29",
-          "nota": "Às 13h30, no Campus 1, Sala B-208. Sala alterada pela retificação de 24/09, antes era a D-201. A data foi fixada pela retificação de 28/08"
-        },
-        "detalhe": {
-          "duracao": "Consulte o edital",
-          "sorteio": "Consulte o edital",
-          "nota_minima": "7,50 é o corte para seguir ao exame de títulos",
-          "arguicao": "Consulte o edital",
-          "modalidade": "Presencial, Campus 1, Sala D-201, em Blumenau",
-          "plano_de_aula": "Consulte o edital"
-        }
-      },
-      {
-        "nome": "Exame de Títulos",
-        "tipo": "titulos",
-        "carater": "Classificatória",
-        "data": {
-          "tipo": "nao_divulgada",
-          "nota": "Depois de encerradas a escrita e a didática, só para quem tirar 7,50 ou mais"
-        },
-        "detalhe": {}
-      },
-      {
-        "nome": "Resultado final",
-        "tipo": "resultado",
-        "carater": "",
-        "data": {
-          "tipo": "nao_divulgada"
-        },
-        "detalhe": {}
-      }
-    ],
-    "observacao": "Escrita em 28/09 pela manhã e aula no dia seguinte, 29/09 às 13h30, as duas no Campus 1, Sala B-208, sala nova definida pela retificação de 24/09. São menos de 30 horas entre uma coisa e outra, então o material da aula precisa estar pronto antes da escrita, não depois. O corte de 7,50 é o que libera o exame de títulos. A FURB tem mais seis concursos docentes do mesmo lote, os editais 01 a 06/2026, todos ainda sem data de prova publicada."
+    "observacao": "Escrita em 28/09 pela manhã e aula no dia seguinte, 29/09 às 13h30, as duas no Campus 1, Sala B-208, sala nova definida pela retificação de 24/09. São menos de 30 horas entre uma coisa e outra, então o material da aula precisa estar pronto antes da escrita, não depois. O corte de 7,50 é o que libera o exame de títulos. A FURB tem mais seis concursos docentes do mesmo lote, os editais 01 a 06/2026, todos ainda sem data de prova publicada.",
+    "detalhamento": "completo",
+    "avisos_edital": [],
+    "fonte_dados": {
+      "origem": "extracao_v2",
+      "extracoes": [
+        "furb-07-2026"
+      ],
+      "extraido_em": "2026-10-09",
+      "em_conferencia": true
+    }
   },
   {
     "id": "ufrpe-21-2026",
@@ -41373,7 +41392,7 @@ window.CONCURSOS = [
     "instituicao": "Universidade Federal Rural do Semi-Árido",
     "nivel": "Magistério Superior",
     "uf": "RN",
-    "numero_edital": "Edital nº 030/2026, publicado em 21/09/2026, com 1 documento de alteração publicado depois",
+    "numero_edital": "Edital nº 030/2026, publicado em 21/09/2026, com 2 documentos de alteração publicados depois",
     "vagas": "24 vagas",
     "areas": "23 áreas, entre elas Fenômenos de Transportes, Química Aplicada à Engenharia e Química Geral, Língua Latina I; Língua Latina II; Formação Histórica da Língua Portuguesa; Pesquisa Aplicada à Língua e Literatura, Engenharia de Requisitos, Projeto e Design de Interfaces, Engenharia de Usabilidade, Projeto Detalhado de Software, Banco de Dados, Geologia e Geofísica do Petróleo; Técnicas e Análise de Operações de Perfilagem; e Geologia Geral e Direito Privado e Práticas Jurídicas",
     "campi": "Campus Caraúbas - DCT, Campus Caraúbas - DLCH, Campus Pau dos Ferros - DETEC e Campus Mossoró - DET",
@@ -41645,7 +41664,8 @@ window.CONCURSOS = [
         "carater": "Eliminatória e classificatória",
         "data": {
           "tipo": "exata",
-          "valor": "2027-01-27"
+          "valor": "2027-01-27",
+          "nota": "Datas por área: Área 101.4 (Odontologia (4.02.00.00- 0) - Subárea…): 27/01; demais áreas: sem data (O cronograma será divulgado na página destinada ao concurso com antecedência mínima de 10 (dez) dias úteis da realização da primeira prova)"
         },
         "detalhe": {}
       },
@@ -41674,7 +41694,8 @@ window.CONCURSOS = [
         "carater": "Eliminatória e classificatória",
         "data": {
           "tipo": "exata",
-          "valor": "2027-02-18"
+          "valor": "2027-02-18",
+          "nota": "Datas por área: Área 101.18 (Química (1.06.00.00-0) ou Ciências -…): 18/02; demais áreas: sem data (O cronograma será divulgado na página destinada ao concurso com antecedência mínima de 10 (dez) dias úteis da realização da primeira prova)"
         },
         "detalhe": {}
       },
@@ -41728,7 +41749,7 @@ window.CONCURSOS = [
     "instituicao": "Universidade Federal do Rio Grande do Norte",
     "nivel": "EBTT",
     "uf": "RN",
-    "numero_edital": "Edital nº 109/2026-PROGESP, publicado em 22/09/2026, com 2 documentos de alteração publicados depois",
+    "numero_edital": "Edital nº 109/2026-PROGESP, publicado em 22/09/2026, com 3 documentos de alteração publicados depois",
     "vagas": "9 vagas, uma por área",
     "areas": "9 áreas, entre elas Computação Cognitiva e Inteligência Artificial Responsável, Inteligência Computacional, Inovação Tecnológica em Inteligência Artificial, Geografia e Matemática",
     "campi": "Natal-RN, Instituto Metrópole Digital - Campus de Natal/RN, Escola Agrícola de Jundiaí - Campus de Macaíba/RN, Escola de Música - Campus de Natal/RN e Escola de Saúde - Campus de Natal/RN",
@@ -41852,7 +41873,7 @@ window.CONCURSOS = [
     "banca": "Comissão própria da UNICAMP",
     "link_oficial": "https://solicita.dados.unicamp.br/concurso/ver_edital_abertura/1105",
     "inscricao": {
-      "situacao": "aberta",
+      "situacao": "encerrada",
       "inicio": "2026-09-08",
       "fim": "2026-10-07",
       "taxa": "Não mencionada no edital"
@@ -42134,6 +42155,848 @@ window.CONCURSOS = [
         "ifmg-1077-2026"
       ],
       "extraido_em": "2026-10-07",
+      "em_conferencia": true
+    }
+  },
+  {
+    "id": "ufmg-2229-2026",
+    "sigla": "UFMG",
+    "instituicao": "Universidade Federal de Minas Gerais",
+    "nivel": "Magistério Superior",
+    "uf": null,
+    "numero_edital": "Edital nº 2229/2026, publicado em 01/10/2026",
+    "vagas": "1 vaga",
+    "areas": "Dermatologia",
+    "campi": "DEPARTAMENTO DE CLÍNICA MÉDICA da FACULDADE DE MEDICINA",
+    "titulacao": "Mestrado",
+    "regime": "40 (quarenta) horas semanais, em tempo integral",
+    "remuneracao": "R$ 4.478,03 de vencimento básico em 40 (quarenta) horas semanais, em tempo integral, chegando a R$ 8.340,33 com a maior titulação",
+    "banca": "Comissão própria da UFMG",
+    "link_oficial": "https://www.medicina.ufmg.br/editais/?professores-cat=assistentes",
+    "inscricao": {
+      "situacao": "consultar",
+      "taxa": "R$ 215,99"
+    },
+    "etapas": [
+      {
+        "nome": "Prova Escrita",
+        "tipo": "discursiva",
+        "carater": "Eliminatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Prova Didática",
+        "tipo": "didatica",
+        "carater": "",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {
+          "duracao": "50 minutos",
+          "arguicao": "Sim",
+          "sorteio": "Tema sorteado com 24 horas de antecedência"
+        }
+      },
+      {
+        "nome": "Julgamento de Títulos",
+        "tipo": "titulos",
+        "carater": "",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Resultado final",
+        "tipo": "resultado",
+        "carater": "",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "em horário e data que serão comunicados aos candidatos, durante a realização do Concurso"
+        },
+        "detalhe": {}
+      }
+    ],
+    "formacoes_status": "nao_extraido",
+    "familias": [],
+    "formacoes": [],
+    "familias_pos": [],
+    "areas_formacoes": [],
+    "observacao": "",
+    "detalhamento": "completo",
+    "avisos_edital": [],
+    "fonte_dados": {
+      "origem": "extracao_v2",
+      "extracoes": [
+        "ufmg-2229-2026"
+      ],
+      "extraido_em": "2026-10-11",
+      "em_conferencia": true
+    }
+  },
+  {
+    "id": "ufmg-2249-2026",
+    "sigla": "UFMG",
+    "instituicao": "Universidade Federal de Minas Gerais",
+    "nivel": "Magistério Superior",
+    "uf": null,
+    "numero_edital": "Edital nº 2249/2026, publicado em 06/10/2026",
+    "vagas": "1 vaga",
+    "areas": "Matemática",
+    "campi": "INSTITUTO DE CIÊNCIAS AGRÁRIAS",
+    "titulacao": "Doutorado",
+    "regime": "40 (quarenta) horas semanais, em tempo integral, com dedicação exclusiva",
+    "remuneracao": "R$ 6.397,19 de vencimento básico em 40 (quarenta) horas semanais, em tempo integral, com dedicação exclusiva, chegando a R$ 13.753,96 com a maior titulação",
+    "banca": "Comissão própria da UFMG",
+    "link_oficial": "https://www.ufmg.br/montesclaros/concursos/",
+    "inscricao": {
+      "situacao": "consultar",
+      "taxa": "R$ 215,99"
+    },
+    "etapas": [
+      {
+        "nome": "Prova Escrita",
+        "tipo": "discursiva",
+        "carater": "Eliminatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Prova Didática",
+        "tipo": "didatica",
+        "carater": "",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {
+          "duracao": "50 minutos",
+          "arguicao": "Sim",
+          "sorteio": "Tema sorteado com 24 horas de antecedência"
+        }
+      },
+      {
+        "nome": "Julgamento de Títulos",
+        "tipo": "titulos",
+        "carater": "",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Resultado final",
+        "tipo": "resultado",
+        "carater": "",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "em horário e data que serão comunicados aos candidatos, durante a realização do Concurso"
+        },
+        "detalhe": {}
+      }
+    ],
+    "formacoes_status": "nao_extraido",
+    "familias": [],
+    "formacoes": [],
+    "familias_pos": [],
+    "areas_formacoes": [],
+    "observacao": "",
+    "detalhamento": "completo",
+    "avisos_edital": [],
+    "fonte_dados": {
+      "origem": "extracao_v2",
+      "extracoes": [
+        "ufmg-2249-2026"
+      ],
+      "extraido_em": "2026-10-11",
+      "em_conferencia": true
+    }
+  },
+  {
+    "id": "ufms-137-2026",
+    "sigla": "UFMS",
+    "instituicao": "Fundação Universidade Federal de Mato Grosso do Sul",
+    "nivel": "Magistério Superior",
+    "uf": null,
+    "numero_edital": "Edital nº 137/2026",
+    "vagas": "42 vagas",
+    "areas": "35 áreas, entre elas Linguística, Letras e Artes / Artes / Educação Artística, Ciências Sociais Aplicadas / Comunicação, Linguística, Letras e Artes / Artes, Ciências Humanas / Filosofia / História da Filosofia e Ciências Humanas / Psicologia / Processos de Aprendizagem, Memória e Motivação",
+    "campi": "Campo Grande, Aquidauana, Corumbá, Três Lagoas, FAALC, FACH, FACOM e FAENG",
+    "titulacao": "Conforme a área",
+    "regime": "Dedicação Exclusiva e 20 horas semanais",
+    "remuneracao": "R$ 6.397,19 de vencimento básico em Dedicação Exclusiva",
+    "banca": "Comissão própria da UFMS",
+    "link_oficial": "https://www.concursos.ufms.br",
+    "inscricao": {
+      "inicio": "2026-10-12",
+      "fim": "2026-10-25",
+      "situacao": "abre_em_breve",
+      "taxa": "R$ 350,00"
+    },
+    "etapas": [
+      {
+        "nome": "Prova Escrita",
+        "tipo": "discursiva",
+        "carater": "Eliminatória e classificatória",
+        "data": {
+          "tipo": "periodo",
+          "valor": "2026-12-08",
+          "fim": "2026-12-12"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Atividade Prática",
+        "tipo": "outra",
+        "carater": "",
+        "data": {
+          "tipo": "periodo",
+          "valor": "2026-12-08",
+          "fim": "2026-12-12"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Prova Didática",
+        "tipo": "didatica",
+        "carater": "Eliminatória e classificatória",
+        "data": {
+          "tipo": "periodo",
+          "valor": "2026-12-08",
+          "fim": "2026-12-12"
+        },
+        "detalhe": {
+          "arguicao": "Não há arguição",
+          "sorteio": "Tema sorteado com 24 horas de antecedência",
+          "nota_minima": "7 em 10",
+          "criterios": "10 pontos: procedimentos didáticos: planejamento da aula; organização e… nota de 0,00 a 1,00; domínio do conteúdo: exposição clara e coerente do conteúdo… notas de 0,00 a 3,00; conhecimento do assunto: adequada profundidade; demonstração de… notas de 0,00 a 3,00; capacidade de comunicação: dicção clara e fluente; entonação de voz… notas de 0,00 a 2,00; estruturação e desenvolvimento da aula: adequado desenvolvimento da… notas de 0,00 a 1,00",
+          "recursos": "Fornecidos: giz/pincel, quadro e apagador. Proibidos: computador, tela de projeção, projetor e telefone celular ou qualquer outro dispositivo que possibilite comunicação com terceiros ou acesso à internet"
+        }
+      },
+      {
+        "nome": "Arguição de Memorial",
+        "tipo": "memorial",
+        "carater": "",
+        "data": {
+          "tipo": "periodo",
+          "valor": "2026-12-08",
+          "fim": "2026-12-12"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Prova de Títulos ou Prova de Títulos com Arguição de Memorial",
+        "tipo": "titulos",
+        "carater": "Classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Resultado final",
+        "tipo": "resultado",
+        "carater": "",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "A partir de 04/01/2027"
+        },
+        "detalhe": {}
+      }
+    ],
+    "periodo_provas": {
+      "inicio": "2026-12-08",
+      "fim": "2026-12-12"
+    },
+    "formacoes_status": "nao_extraido",
+    "familias": [],
+    "formacoes": [],
+    "familias_pos": [],
+    "areas_formacoes": [],
+    "observacao": "",
+    "detalhamento": "completo",
+    "avisos_edital": [],
+    "fonte_dados": {
+      "origem": "extracao_v2",
+      "extracoes": [
+        "ufms-137-2026"
+      ],
+      "extraido_em": "2026-10-11",
+      "em_conferencia": true
+    }
+  },
+  {
+    "id": "ufpr-276-2026",
+    "sigla": "UFPR",
+    "instituicao": "Universidade Federal do Paraná",
+    "nivel": "Magistério Superior",
+    "uf": null,
+    "numero_edital": "Edital nº 276/2026, publicado em 25/09/2026, com 3 documentos de alteração publicados depois",
+    "vagas": "32 vagas",
+    "areas": "32 áreas, entre elas Sistemas de Informação Geográfica, Manejo de Florestas Naturais, Conservação da Natureza, Engenharia Civil e Engenharia Elétrica / Sub-área: Eletrônica e Telecomunicações",
+    "campi": "Setor de Ciências Agrárias / Departamento de Ciências Florestais, Setor de Tecnologia / Departamento de Transportes, Setor de Tecnologia / Departamento de Engenharia Elétrica e Setor de Ciências da Saúde / Departamento de Pediatria",
+    "titulacao": "Conforme a área",
+    "regime": "DE, 20 horas e 20 HORAS",
+    "remuneracao": "R$ 6.397,19 de vencimento básico em Dedicação Exclusiva (DE), chegando a R$ 13.753,96 com a maior titulação",
+    "banca": "Comissão própria da UFPR",
+    "link_oficial": null,
+    "inscricao": {
+      "inicio": "2026-09-28",
+      "fim": "2027-04-20",
+      "situacao": "aberta",
+      "taxa": "R$ 240,00"
+    },
+    "etapas": [
+      {
+        "nome": "Escrita",
+        "tipo": "discursiva",
+        "carater": "Eliminatória e classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "2° quinzena de abril (período provável de provas)"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Prática",
+        "tipo": "outra",
+        "carater": "Eliminatória e classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "1ª quinzena de dezembro (período provável de provas)"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Didática",
+        "tipo": "didatica",
+        "carater": "Eliminatória e classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "2° quinzena de abril (período provável de provas)"
+        },
+        "detalhe": {
+          "nota_minima": "7 em 10"
+        }
+      },
+      {
+        "nome": "Proposta de projeto de pesquisa na área de conhecimento do concurso (avaliada na Defesa do currículo e do projeto de pesquisa)",
+        "tipo": "outra",
+        "carater": "",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Análise de currículo",
+        "tipo": "titulos",
+        "carater": "Classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Defesa do currículo e do projeto de pesquisa na área de conhecimento do certame",
+        "tipo": "outra",
+        "carater": "Classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {}
+      }
+    ],
+    "formacoes_status": "nao_extraido",
+    "familias": [],
+    "formacoes": [],
+    "familias_pos": [],
+    "areas_formacoes": [],
+    "observacao": "",
+    "detalhamento": "completo",
+    "avisos_edital": [],
+    "fonte_dados": {
+      "origem": "extracao_v2",
+      "extracoes": [
+        "ufpr-276-2026"
+      ],
+      "extraido_em": "2026-10-11",
+      "em_conferencia": true
+    }
+  },
+  {
+    "id": "ufv-47-2026",
+    "sigla": "UFV",
+    "instituicao": "UNIVERSIDADE FEDERAL DE VIÇOSA",
+    "nivel": "Magistério Superior",
+    "uf": "MG",
+    "numero_edital": "Edital nº 47/2026",
+    "vagas": "1 vaga",
+    "areas": "Direito Civil e Prática Processual Civil",
+    "campi": "Viçosa/MG e Departamento de Direito, do Centro de Ciências Humanas, Letras e Artes",
+    "titulacao": "Doutorado",
+    "regime": "Dedicação Exclusiva (DE)",
+    "remuneracao": "R$ 6.180,86 de vencimento básico em Dedicação Exclusiva (DE)",
+    "banca": "Comissão própria da UFV",
+    "link_oficial": "https://www.ufv.br/soc",
+    "inscricao": {
+      "situacao": "consultar",
+      "taxa": "R$ 120,75"
+    },
+    "etapas": [
+      {
+        "nome": "Prova de Conhecimento",
+        "tipo": "discursiva",
+        "carater": "Eliminatória e classificatória",
+        "data": {
+          "tipo": "exata",
+          "valor": "2026-11-09"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Prova de Didática",
+        "tipo": "didatica",
+        "carater": "Eliminatória e classificatória",
+        "data": {
+          "tipo": "exata",
+          "valor": "2026-11-11"
+        },
+        "detalhe": {
+          "duracao": "50 minutos, com tolerância de 10 para mais ou para menos",
+          "arguicao": "Não há arguição",
+          "sorteio": "Tema sorteado com 24 horas de antecedência",
+          "nota_minima": "7 em 10",
+          "criterios": "10 pontos: I - Foco no ponto sorteado, aspecto passível de eliminação do…; II - Atualidade e exatidão de conteúdo, conceitos e informações; III - Coerência das estratégias didáticas com os objetivos e…; IV - Domínio do tema, segurança e clareza na apresentação da aula; V - Adequação na distribuição do tempo para abordagem dos tópicos da…; VI - Qualidade e utilização eficiente dos recursos didáticos; VII - Capacidade de análise e síntese do conteúdo tratado; VIII - Utilização de exemplos significativos",
+          "recursos": "Fornecidos: retroprojetor, projetor (tipo data show), quadro de giz ou quadro branco e computador. Proibidos: outro material didático diferente daquele entregue ao presidente da Banca"
+        }
+      },
+      {
+        "nome": "Prova de Defesa de Projeto em Pesquisa",
+        "tipo": "outra",
+        "carater": "Eliminatória e classificatória",
+        "data": {
+          "tipo": "exata",
+          "valor": "2026-11-12"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Prova de Títulos",
+        "tipo": "titulos",
+        "carater": "Classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {}
+      }
+    ],
+    "periodo_provas": {
+      "inicio": "2026-11-09",
+      "fim": "2026-11-11"
+    },
+    "formacoes_status": "nao_extraido",
+    "familias": [],
+    "formacoes": [],
+    "familias_pos": [],
+    "areas_formacoes": [],
+    "observacao": "",
+    "detalhamento": "completo",
+    "avisos_edital": [],
+    "fonte_dados": {
+      "origem": "extracao_v2",
+      "extracoes": [
+        "ufv-47-2026"
+      ],
+      "extraido_em": "2026-10-11",
+      "em_conferencia": true
+    }
+  },
+  {
+    "id": "ufv-48-49-2026",
+    "sigla": "UFV",
+    "instituicao": "Universidade Federal de Viçosa",
+    "nivel": "Magistério Superior",
+    "uf": "MG",
+    "numero_edital": "2 editais: 48/2026 e 49/2026",
+    "vagas": "2 vagas",
+    "areas": "Projeto Arquitetônico e Urbanístico e Teorias e práticas da arquitetura e do urbanismo contemporâneos",
+    "campi": "Viçosa/MG e Departamento de Arquitetura e Urbanismo, do Centro de Ciências Exatas e Tecnológicas",
+    "titulacao": "Doutorado",
+    "regime": "Dedicação Exclusiva (DE)",
+    "remuneracao": "R$ 6.180,86 de vencimento básico em Dedicação Exclusiva (DE)",
+    "banca": "Comissão própria da UFV",
+    "link_oficial": "https://www.ufv.br/soc",
+    "inscricao": {
+      "situacao": "consultar",
+      "taxa": "R$ 120,75"
+    },
+    "etapas": [
+      {
+        "nome": "Prova de Conhecimento",
+        "tipo": "discursiva",
+        "carater": "",
+        "data": {
+          "tipo": "exata",
+          "valor": "2026-11-23"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Prova de Conhecimento",
+        "tipo": "outra",
+        "carater": "Eliminatória e classificatória",
+        "data": {
+          "tipo": "exata",
+          "valor": "2026-11-30"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Prova de Didática",
+        "tipo": "didatica",
+        "carater": "Eliminatória e classificatória",
+        "data": {
+          "tipo": "periodo",
+          "valor": "2026-11-25",
+          "fim": "2026-12-02",
+          "nota": "Datas por área: 48/2026: 02/12; 49/2026: 25/11"
+        },
+        "detalhe": {
+          "duracao": "50 minutos, com tolerância de 10 para mais ou para menos",
+          "arguicao": "Não há arguição",
+          "sorteio": "Tema sorteado com 24 horas de antecedência",
+          "nota_minima": "7 em 10",
+          "criterios": "I - Foco no ponto sorteado, aspecto passível de eliminação do…; II - Atualidade e exatidão de conteúdo, conceitos e informações; III - Coerência das estratégias didáticas com os objetivos e…; IV - Domínio do tema, segurança e clareza na apresentação da aula; V - Adequação na distribuição do tempo para abordagem dos tópicos da…; VI - Qualidade e utilização eficiente dos recursos didáticos; VII - Capacidade de análise e síntese do conteúdo tratado; VIII - Utilização de exemplos significativos",
+          "recursos": "Fornecidos: retroprojetor, projetor (tipo data show), quadro de giz ou quadro branco e computador. Proibidos: outro material didático diferente daquele entregue ao presidente da Banca"
+        }
+      },
+      {
+        "nome": "Prova de Defesa de Memorial",
+        "tipo": "memorial",
+        "carater": "",
+        "data": {
+          "tipo": "exata",
+          "valor": "2026-11-27"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Prova de Títulos",
+        "tipo": "titulos",
+        "carater": "Classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {}
+      }
+    ],
+    "periodo_provas": {
+      "inicio": "2026-11-23",
+      "fim": "2026-12-02"
+    },
+    "formacoes_status": "nao_extraido",
+    "familias": [],
+    "formacoes": [],
+    "familias_pos": [],
+    "areas_formacoes": [],
+    "observacao": "",
+    "detalhamento": "completo",
+    "avisos_edital": [],
+    "fonte_dados": {
+      "origem": "extracao_v2",
+      "extracoes": [
+        "ufv-48-2026",
+        "ufv-49-2026"
+      ],
+      "extraido_em": "2026-10-11",
+      "em_conferencia": true
+    }
+  },
+  {
+    "id": "unila-240-2026",
+    "sigla": "UNILA",
+    "instituicao": "Universidade Federal da Integração Latino-Americana",
+    "nivel": "Magistério Superior",
+    "uf": "PR",
+    "numero_edital": "Edital nº 240/2026, publicado em 24/09/2026",
+    "vagas": "3 vagas",
+    "areas": "Área: Ciências Biológicas; Subárea: Morfologia/ Anatomia humana, Área: Ciências Biológicas; Subárea: Farmacologia/ Farmacologia clínica e Área: Ciências Da Saúde; Subárea: Saúde coletiva/ Saúde da família",
+    "campi": "Foz do Iguaçu/PR",
+    "titulacao": "Doutorado",
+    "regime": "40h com Dedicação Exclusiva",
+    "remuneracao": "R$ 6.180,86 de vencimento básico em DEDICAÇÃO EXCLUSIVA, chegando a R$ 13.288,85 com a maior titulação",
+    "banca": "Comissão própria da UNILA",
+    "link_oficial": "https://documentos.unila.edu.br/concursos",
+    "inscricao": {
+      "inicio": "2026-09-28",
+      "fim": "2026-10-27",
+      "situacao": "aberta",
+      "taxa": "R$ 215,00"
+    },
+    "etapas": [
+      {
+        "nome": "Prova Escrita",
+        "tipo": "discursiva",
+        "carater": "Eliminatória e classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "Segunda - 9h às 13h"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Prova Didática",
+        "tipo": "didatica",
+        "carater": "Classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "Terça - 14h às 18h"
+        },
+        "detalhe": {
+          "duracao": "45 minutos",
+          "plano_de_aula": "Exigido: entregues obrigatoriamente antes do início da apresentação da prova didática, com Tema da aula, Objetivos: gerais e específicos, Conteúdo/desenvolvimento do tema, Recursos Didáticos, Procedimentos metodológicos, Procedimentos de avaliação e Bibliografia",
+          "recursos": "Fornecidos: quadro de giz, giz, quadro branco, pincel e projetor multimídia (datashow)"
+        }
+      },
+      {
+        "nome": "Defesa da Proposta de Atuação Acadêmica",
+        "tipo": "outra",
+        "carater": "Classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "Quinta - 08h às 12h"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Análise de Títulos e Currículos",
+        "tipo": "titulos",
+        "carater": "Classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Resultado final",
+        "tipo": "resultado",
+        "carater": "",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "a partir de 11/02/2027"
+        },
+        "detalhe": {}
+      }
+    ],
+    "formacoes_status": "nao_extraido",
+    "familias": [],
+    "formacoes": [],
+    "familias_pos": [],
+    "areas_formacoes": [],
+    "observacao": "",
+    "detalhamento": "completo",
+    "avisos_edital": [],
+    "fonte_dados": {
+      "origem": "extracao_v2",
+      "extracoes": [
+        "unila-240-2026"
+      ],
+      "extraido_em": "2026-10-09",
+      "em_conferencia": true
+    }
+  },
+  {
+    "id": "unilab-14-2026",
+    "sigla": "UNILAB",
+    "instituicao": "UNIVERSIDADE DA INTEGRAÇÃO INTERNACIONAL DA LUSOFONIA AFRO-BRASILEIRA",
+    "nivel": "Magistério Superior",
+    "uf": "CE",
+    "numero_edital": "Edital nº 14/2026, publicado em 01/10/2026",
+    "vagas": "15 vagas",
+    "areas": "9 áreas, entre elas Avaliação Nutricional e Nutrição Clínica, Fundamentos da Terapia Ocupacional, Atividades e Recursos Terapêuticos Ocupacionais, Práticas em Atenção Primária à Saúde/Semiologia Médica, Anatomia Humana e Cirurgia e Medicina Baseada em Evidências, Epidemiologia e Pesquisa Clínica",
+    "campi": "Baturité/CE, São Francisco do Conde/BA, Instituto de Ciências da Saúde - ICS e Instituto de Ciências da Saúde - ICS / Campus dos Malês",
+    "titulacao": "Doutorado",
+    "regime": "40 horas com Dedicação Exclusiva e 40 horas",
+    "remuneracao": "R$ 6.397,19 de vencimento básico em 40 horas DE, chegando a R$ 13.753,96 com a maior titulação",
+    "banca": "Comissão própria da UNILAB",
+    "link_oficial": null,
+    "inscricao": {
+      "inicio": "2026-10-05",
+      "fim": "2026-11-03",
+      "situacao": "aberta",
+      "taxa": "R$ 190,00"
+    },
+    "etapas": [
+      {
+        "nome": "Prova escrita",
+        "tipo": "discursiva",
+        "carater": "Eliminatória",
+        "data": {
+          "tipo": "periodo",
+          "valor": "2026-11-03",
+          "fim": "2026-11-23",
+          "nota": "Datas por área: Avaliação Nutricional e Nutrição Clínica (Avaliação Nutricional e Nutrição Clínica): 23/11; Fundamentos da Terapia Ocupacional, Atividades e Recursos Terapêuticos Ocupacionais (Fundamentos da Terapia Ocupacional…): 23/11; Práticas em Atenção Primária à Saúde/Semiologia Médica (Práticas em Atenção Primária à…): 16/11; Anatomia Humana e Cirurgia (Anatomia Humana e Cirurgia): 16/11; Medicina Baseada em Evidências, Epidemiologia e Pesquisa Clínica (Medicina Baseada em Evidências…): 09/11; Saúde da Mulher (Saúde da Mulher): 03/11; Métodos de Imagem (Métodos de Imagem): 03/11; Saúde da Criança (Saúde da Criança): 09/11; Psiquiatria (Psiquiatria): 03/11"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Prova didática",
+        "tipo": "didatica",
+        "carater": "Eliminatória",
+        "data": {
+          "tipo": "periodo",
+          "valor": "2026-11-10",
+          "fim": "2026-12-02",
+          "nota": "Datas por área: Avaliação Nutricional e Nutrição Clínica (Avaliação Nutricional e Nutrição Clínica): 01/12 a 02/12; Fundamentos da Terapia Ocupacional, Atividades e Recursos Terapêuticos Ocupacionais (Fundamentos da Terapia Ocupacional…): 01/12 a 02/12; Práticas em Atenção Primária à Saúde/Semiologia Médica (Práticas em Atenção Primária à…): 24/11; Anatomia Humana e Cirurgia (Anatomia Humana e Cirurgia): 24/11; Medicina Baseada em Evidências, Epidemiologia e Pesquisa Clínica (Medicina Baseada em Evidências…): 17/11; Saúde da Mulher (Saúde da Mulher): 10/11; Métodos de Imagem (Métodos de Imagem): 10/11; Saúde da Criança (Saúde da Criança): 17/11; Psiquiatria (Psiquiatria): 10/11"
+        },
+        "detalhe": {
+          "sorteio": "Tema sorteado com 24 horas de antecedência",
+          "criterios": "Domínio do Conteúdo Pontuação máxima: 6; Coerência entre o tema, os objetivos previstos no plano de aula e os… Pontuação máxima: 1; Desempenho didático e utilização adequada do tempo Pontuação máxima: 1; Comunicação, Clareza, Pertinência e Objetividade Pontuação máxima: 1; Estruturação do Plano de Aula Pontuação máxima: 1"
+        }
+      },
+      {
+        "nome": "Avaliação de títulos",
+        "tipo": "titulos",
+        "carater": "Classificatória",
+        "data": {
+          "tipo": "periodo",
+          "valor": "2026-11-13",
+          "fim": "2026-12-07",
+          "nota": "Datas por área: Avaliação Nutricional e Nutrição Clínica (Avaliação Nutricional e Nutrição Clínica): 07/12; Fundamentos da Terapia Ocupacional, Atividades e Recursos Terapêuticos Ocupacionais (Fundamentos da Terapia Ocupacional…): 07/12; Práticas em Atenção Primária à Saúde/Semiologia Médica (Práticas em Atenção Primária à…): 27/11; Anatomia Humana e Cirurgia (Anatomia Humana e Cirurgia): 27/11; Medicina Baseada em Evidências, Epidemiologia e Pesquisa Clínica (Medicina Baseada em Evidências…): 23/11; Saúde da Mulher (Saúde da Mulher): 13/11; Métodos de Imagem (Métodos de Imagem): 13/11; Saúde da Criança (Saúde da Criança): 23/11; Psiquiatria (Psiquiatria): 13/11"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Resultado final",
+        "tipo": "resultado",
+        "carater": "",
+        "data": {
+          "tipo": "periodo",
+          "valor": "2026-11-19",
+          "fim": "2026-12-11"
+        },
+        "detalhe": {}
+      }
+    ],
+    "periodo_provas": {
+      "inicio": "2026-11-03",
+      "fim": "2026-12-02"
+    },
+    "formacoes_status": "nao_extraido",
+    "familias": [],
+    "formacoes": [],
+    "familias_pos": [],
+    "areas_formacoes": [],
+    "observacao": "",
+    "detalhamento": "completo",
+    "avisos_edital": [],
+    "fonte_dados": {
+      "origem": "extracao_v2",
+      "extracoes": [
+        "unilab-14-2026"
+      ],
+      "extraido_em": "2026-10-11",
+      "em_conferencia": true
+    }
+  },
+  {
+    "id": "usp-iau-03-2026",
+    "sigla": "USP",
+    "instituicao": "Instituto de Arquitetura e Urbanismo da Universidade de São Paulo",
+    "nivel": "Magistério Superior",
+    "uf": null,
+    "numero_edital": "Edital nº DVACAD/IAU - nº 03/2026, publicado em 02/10/2026",
+    "vagas": "1 vaga",
+    "areas": "Representação e Linguagem",
+    "campi": "Instituto de Arquitetura e Urbanismo",
+    "titulacao": "Doutorado",
+    "regime": "Regime de Dedicação Integral à Docência e à Pesquisa (RDIDP)",
+    "remuneracao": "",
+    "banca": "Comissão própria da USP",
+    "link_oficial": null,
+    "inscricao": {
+      "inicio": "2026-10-05",
+      "fim": "2026-11-03",
+      "situacao": "aberta",
+      "taxa": "R$ 345,78"
+    },
+    "etapas": [
+      {
+        "nome": "Prova escrita",
+        "tipo": "discursiva",
+        "carater": "Eliminatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "no prazo de trinta a cento e vinte dias, a contar da data da publicação no Diário Oficial do Estado da aprovação das inscrições"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Prova didática",
+        "tipo": "didatica",
+        "carater": "",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "no prazo de trinta a cento e vinte dias, a contar da data da publicação no Diário Oficial do Estado da aprovação das inscrições"
+        },
+        "detalhe": {
+          "arguicao": "Sim, a critério da banca",
+          "sorteio": "Tema sorteado com 24 horas de antecedência"
+        }
+      },
+      {
+        "nome": "Julgamento do memorial com prova pública de arguição",
+        "tipo": "memorial",
+        "carater": "",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "no prazo de trinta a cento e vinte dias, a contar da data da publicação no Diário Oficial do Estado da aprovação das inscrições"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Resultado final",
+        "tipo": "resultado",
+        "carater": "",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "imediatamente após seu término, em sessão pública"
+        },
+        "detalhe": {}
+      }
+    ],
+    "formacoes_status": "nao_extraido",
+    "familias": [],
+    "formacoes": [],
+    "familias_pos": [],
+    "areas_formacoes": [],
+    "observacao": "",
+    "detalhamento": "completo",
+    "avisos_edital": [],
+    "fonte_dados": {
+      "origem": "extracao_v2",
+      "extracoes": [
+        "usp-iau-03-2026"
+      ],
+      "extraido_em": "2026-10-11",
       "em_conferencia": true
     }
   }
