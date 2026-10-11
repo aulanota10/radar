@@ -21,6 +21,10 @@ Sem `--anterior`, a execução é linha de base e não gera aviso de documento n
 
 As pastas `saida/ensaio-2026-10-04` e `saida/ensaio-2026-10-05` são o ensaio feito sobre o histórico do vigia-documentos (estados de 03, 04 e 05/10). A conferência independente dos 52 itens dessas filas contra os documentos deu 51 certos e 1 errado: a entrega do plano de aula da UFBA 06/2026, área 36, extraída como uma janela de 06/10 a 08/10 que junta os horários de todos os candidatos. O leitor passou a mostrar a descrição literal das entregas, e o caso foi para as correções do extrator.
 
-A rotina agendada "Alertas do Radar, ensaio diário" roda todo dia às 13h12 (depois do disparo diário do extrator das 10h52), executa `rodada_diaria.sh`, faz o commit desta pasta e manda a fila ao Samuel.
+A rotina agendada "Alertas do Radar, ensaio diário" roda às 13h12, de domingo a sexta, executa `rodada_diaria.sh`, faz o commit desta pasta e, desde 12/10, pede a um agente independente a conferência de cada data da fila contra os documentos, gravada em `saida/AAAA-MM-DD/conferencia.md`. O relatório diário da cadeia leva ao Samuel a contagem de datas erradas.
+
+## Conferência de 11/10 e critério de passagem
+
+A conferência das filas de 08, 09 e 11/10 (`conferencias/2026-10-11.md`) achou 14 datas erradas em 234, nenhuma por destinatário errado. O leitor foi corrigido no mesmo dia: rótulo pela descrição literal do edital, janela provável longa sem aviso agendado, horário de janela de um dia só, entrega no horário de cada candidato sem "fim do prazo", retenção dos alertas agendados do concurso com retificação vista pelo vigia e ainda não lida, cobertura dos dias sem rodada, aviso para eventos de tipo "outro", títulos de documento limpos e documento repetido em dois links contado uma vez. O critério continua o mesmo: o teste com alunos começa depois de três rodadas seguidas com zero data errada na conferência diária.
 
 Nada desta pasta é enviado a candidato sem o Samuel aprovar o texto e o canal.
