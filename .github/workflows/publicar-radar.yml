@@ -7,7 +7,14 @@ on:
       - 'dados.js'
       - 'index.html'
       - 'validar-dados.js'
+      - 'gerar-paginas.js'
       - '.github/workflows/publicar-radar.yml'
+  # Todo dia às 6h13 de Fortaleza (9h13 UTC) as páginas de concurso são
+  # refeitas, para que a fase no título ("inscrições até 13/10", "prova
+  # didática em 29/10") acompanhe o calendário mesmo sem dados.js novo.
+  # Só os arquivos que mudaram são enviados.
+  schedule:
+    - cron: '13 9 * * *'
   workflow_dispatch:
 
 concurrency:
@@ -36,6 +43,13 @@ jobs:
           cp index.html publicar/index.html
           echo "Arquivos que serao enviados:"
           ls -la publicar/
+
+      # Uma página por concurso (concurso/<id>/), a lista escrita no index.html
+      # e o sitemap.xml, para o Google ler o Radar sem depender de JavaScript.
+      # Quando um concurso sai do dados.js, a página dele deixa de ser gerada
+      # e o envio abaixo apaga o arquivo do servidor.
+      - name: Gerar paginas para o Google
+        run: node gerar-paginas.js publicar
 
       - name: Enviar para a Hostinger
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
