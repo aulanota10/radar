@@ -6,7 +6,9 @@
 //      que o React substitui quando termina de carregar, então o visitante
 //      continua vendo o Radar de sempre);
 //   3. o sitemap.xml do Radar, com a página principal e todas as páginas
-//      de concurso.
+//      de concurso;
+//   4. o título e a descrição de busca do index.html, com o ano corrente e
+//      o número de concursos com inscrição aberta no dia.
 //
 // Uso: node gerar-paginas.js <pasta>
 // A pasta precisa conter o dados.js e o index.html que serão publicados.
@@ -413,6 +415,40 @@ function injetarLista(html) {
   return html.replace(alvo, `$1\n${bloco}`);
 }
 
+// ---------- título e descrição da página principal ----------
+
+// O título e a descrição que o Google mostra na busca são refeitos a cada
+// publicação, com o ano corrente e o número de concursos com inscrição
+// aberta naquele dia. Os textos de compartilhamento (og:, twitter:) ficam
+// como estão no index.html.
+function cabecalhoBusca() {
+  const abertos = CONCURSOS.filter((c) => fase(c).classe === "aberta").length;
+  const titulo = `Concursos para professor ${HOJE.slice(0, 4)}: editais EBTT e universidades | Aula Nota 10`;
+  const resto =
+    "EBTT e Magistério Superior: vagas, prazos e datas da prova didática, atualizados por quem já foi banca.";
+  const descricao =
+    abertos === 0
+      ? `Concursos para professor ${resto}`
+      : `${abertos} ${abertos === 1 ? "concurso" : "concursos"} para professor com inscrições abertas, ${resto}`;
+  return { titulo, descricao };
+}
+
+function atualizarCabecalho(html) {
+  const { titulo, descricao } = cabecalhoBusca();
+  const comTitulo = html.replace(/<title>[^<]*<\/title>/, `<title>${esc(titulo)}</title>`);
+  const comDescricao = comTitulo.replace(
+    /<meta name="description" content="[^"]*">/,
+    `<meta name="description" content="${esc(descricao)}">`
+  );
+  if (comTitulo === html && !html.includes(`<title>${esc(titulo)}</title>`)) {
+    throw new Error("Não achei a tag <title> no index.html.");
+  }
+  if (!/<meta name="description" content="[^"]*">/.test(html)) {
+    throw new Error('Não achei <meta name="description"> no index.html.');
+  }
+  return comDescricao;
+}
+
 // ---------- sitemap ----------
 
 function sitemap() {
@@ -449,7 +485,7 @@ for (const c of CONCURSOS) {
 }
 
 const indexPath = path.join(pasta, "index.html");
-fs.writeFileSync(indexPath, injetarLista(fs.readFileSync(indexPath, "utf8")));
+fs.writeFileSync(indexPath, atualizarCabecalho(injetarLista(fs.readFileSync(indexPath, "utf8"))));
 fs.writeFileSync(path.join(pasta, "sitemap.xml"), sitemap());
 
 console.log(`Páginas de concurso geradas: ${CONCURSOS.length}`);
