@@ -35352,7 +35352,7 @@ window.CONCURSOS = [
         "carater": "Classificatória, junto com o Julgamento de Títulos",
         "data": {
           "tipo": "nao_divulgada",
-          "nota": "O edital ainda não fixou a data"
+          "nota": "Ainda sem data própria; o concurso está previsto de 26/10 a 06/11/2026"
         },
         "detalhe": {
           "duracao": "50 minutos garantidos para a exposição, seguidos de arguição pelo tempo do cronograma. O edital diz expressamente que estourar o prazo NÃO anula a prova nem desclassifica o candidato por si só",
@@ -35386,8 +35386,9 @@ window.CONCURSOS = [
       }
     ],
     "periodo_provas": {
-      "inicio": "2026-10-27",
-      "fim": "2026-10-27"
+      "inicio": "2026-10-26",
+      "fim": "2026-11-06",
+      "nota": "Período previsto do concurso pela Portaria nº 10079, de 01/10/2026: de 26/10 a 06/11/2026, com sessão de instalação em 26/10 e prova escrita em 27/10, às 13h"
     },
     "logo": "ufmg.png",
     "formacoes_status": "completo",
@@ -41278,7 +41279,7 @@ window.CONCURSOS = [
     "instituicao": "Universidade Federal do Rio Grande do Norte",
     "nivel": "Magistério Superior",
     "uf": "RN",
-    "numero_edital": "Edital nº 108/2026-PROGESP, publicado em 16/09/2026, com 2 documentos de alteração publicados depois",
+    "numero_edital": "Edital nº 108/2026-PROGESP, publicado em 16/09/2026, com 3 documentos de alteração publicados depois",
     "vagas": "15 vagas",
     "areas": "14 áreas, entre elas Internato em Medicina de Urgência com atuação em Unidades de Pronto Atendimento/UPAS, Ensino de História, Criptografia e Governança, Engenharia de Segurança Cibernética e Defesa Cibernética",
     "campi": "Natal-RN, Departamento de Medicina Integrada - Campus de Natal/RN, Departamento de História - Campus de Caicó/RN, Instituto Metrópole Digital - Campus de Natal/RN e Faculdade de Ciências da Saúde do Trairi - Campus de Santa Cruz/RN",
@@ -41374,7 +41375,7 @@ window.CONCURSOS = [
     "formacoes": [],
     "familias_pos": [],
     "areas_formacoes": [],
-    "observacao": "Inscrição de 28/09 a 23/10 pelo SIGRH, com 9 vagas espalhadas por Natal, Caicó, Santa Cruz e Currais Novos. As datas das provas estão no edital de abertura: leia antes de se inscrever e confira os pontos da sua área.",
+    "observacao": "Inscrição de 28/09 a 23/10 pelo SIGRH. Depois das retificações de 22/09 e 29/09, o edital passou de 9 para 15 vagas, em 14 áreas, espalhadas por Natal, Caicó, Santa Cruz e Currais Novos, então trabalhe sempre pela versão retificada. A escrita e o sorteio dos temas da didática são em 21/02/2027, às 8h, menos nas áreas do Departamento de Informática e Matemática Aplicada, que fazem a escrita às 14h do mesmo dia, pela retificação de 09/10. Leia o edital antes de se inscrever e confira os pontos da sua área.",
     "detalhamento": "completo",
     "avisos_edital": [],
     "fonte_dados": {
@@ -41611,7 +41612,7 @@ window.CONCURSOS = [
     "formacoes": [],
     "familias_pos": [],
     "areas_formacoes": [],
-    "observacao": "Inscrição de 04/10, às 10h, a 13/10 pelo site da CCV. São 61 vagas em seis campi, então a primeira coisa é achar a sua área no quadro de vagas e ler o cronograma próprio dela. As datas das provas estão no edital e no site do concurso.",
+    "observacao": "Inscrição de 04/10, às 10h, a 13/10 pelo site da CCV. São 65 vagas em 55 áreas e seis campi, número fixado pelo Aditivo nº 02, então a primeira coisa é achar a sua área no quadro de vagas e ler o cronograma próprio dela. As datas das provas estão no edital e no site do concurso.",
     "detalhamento": "completo",
     "avisos_edital": [
       "Prova didática, áreas 33 (Aprendizado de Máquina e Visão Computacional), 34 (Cibersegurança), 35 (Criptografia), 36 (Engenharia de Software Seguro), 37 (Forense Digital), 38 (Processamento de Dados em Larga Escala e…), 39 (Processamento de Linguagem Natural) e 40 (Sistemas de Informação): os critérios somam 9 pontos, mas o edital declara total de 10. Pode ser erro de digitação do edital; confira no edital, que é a fonte oficial."
@@ -41644,7 +41645,7 @@ window.CONCURSOS = [
       "inicio": "2026-09-25",
       "fim": "2026-10-23",
       "situacao": "aberta",
-      "taxa": "R$ 200,00"
+      "taxa": "R$ 200,00. Nas áreas 101.3, 101.7, 101.8, 101.9, 101.20 e 101.23 a inscrição foi prorrogada até 06/11/2026 (Edital 102/2026)"
     },
     "etapas": [
       {
@@ -41677,7 +41678,7 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2027-01-26",
           "fim": "2027-02-16",
-          "nota": "Datas por área: Área 101.4 (Odontologia (4.02.00.00- 0) - Subárea…): 26/01; Área 101.18 (Química (1.06.00.00-0) ou Ciências -…): 16/02"
+          "nota": "Datas previstas, de caráter estimativo, nas Instruções Específicas de cada área. Exemplos: Área 101.4 (Odontologia): 26/01; Área 101.18 (Química): 16/02"
         },
         "detalhe": {
           "sorteio": "Tema sorteado em sessão pública, com no mínimo 24 horas de antecedência",
@@ -41731,7 +41732,7 @@ window.CONCURSOS = [
     "formacoes": [],
     "familias_pos": [],
     "areas_formacoes": [],
-    "observacao": "Inscrição até 23/10 e 24 vagas de doutorado em seis cidades de Minas. A aula é de 40 a 50 minutos, o tema sai com 24 horas de antecedência e o corte é 70 pontos, com arguição de até 15 minutos. O cronograma ainda não existe: ele sai por unidade acadêmica depois que as inscrições fecharem, o que dá tempo de preparação até o fim do ano.",
+    "observacao": "Inscrição até 23/10 e 24 vagas de doutorado em seis cidades de Minas. Seis áreas (101.3, 101.7, 101.8, 101.9, 101.20 e 101.23) tiveram a inscrição prorrogada até 06/11 pelo Edital 102/2026, de 08/10. A aula é de 40 a 50 minutos, o tema sai com 24 horas de antecedência e o corte é 70 pontos, com arguição de até 15 minutos. Cada área tem cronograma próprio nas Instruções Específicas, com datas que o próprio documento chama de estimativas e que podem mudar com aviso de 10 dias úteis antes da primeira prova. Em Odontologia e em Química, por exemplo, a escrita está prevista para 30/11 e a didática para 26/01 e 16/02/2027.",
     "detalhamento": "completo",
     "avisos_edital": [],
     "fonte_dados": {
@@ -42062,7 +42063,7 @@ window.CONCURSOS = [
     "sigla": "IFMG",
     "instituicao": "Instituto Federal de Educação, Ciência e Tecnologia de Minas Gerais",
     "nivel": "EBTT",
-    "uf": null,
+    "uf": "MG",
     "numero_edital": "Edital nº 1077/2026",
     "vagas": "33 vagas",
     "areas": "19 áreas, entre elas Ciências Biológicas, Educação Física, Enfermagem, Engenharia de Controle e Automação - Automação Industrial e Engenharia de Controle e Automação - Controle de sistemas",
@@ -42146,7 +42147,7 @@ window.CONCURSOS = [
     "formacoes": [],
     "familias_pos": [],
     "areas_formacoes": [],
-    "observacao": "",
+    "observacao": "São 33 vagas de EBTT em 19 áreas, nos campi Ibirité, Sabará, Piumhi e Betim, com inscrição de 13/10 a 13/11/2026 e objetiva e dissertativa no mesmo dia, 24/01/2027. O detalhe que muda o preparo: o tema da prova de desempenho didático é sorteado em 24/01, no dia da objetiva, e é um só para todos os candidatos da área. Como a aula só acontece entre 19 e 29/04/2027, quem passar na dissertativa terá quase três meses com o tema conhecido. A aula vai de 40 a 50 minutos e pode ser interrompida se passar do tempo, há até 20 minutos de arguição, e o plano de aula vale 10 dos 100 pontos.",
     "detalhamento": "completo",
     "avisos_edital": [],
     "fonte_dados": {
@@ -42163,7 +42164,7 @@ window.CONCURSOS = [
     "sigla": "UFMG",
     "instituicao": "Universidade Federal de Minas Gerais",
     "nivel": "Magistério Superior",
-    "uf": null,
+    "uf": "MG",
     "numero_edital": "Edital nº 2229/2026, publicado em 01/10/2026",
     "vagas": "1 vaga",
     "areas": "Dermatologia",
@@ -42175,7 +42176,7 @@ window.CONCURSOS = [
     "link_oficial": "https://www.medicina.ufmg.br/editais/?professores-cat=assistentes",
     "inscricao": {
       "situacao": "consultar",
-      "taxa": "R$ 215,99"
+      "taxa": "R$ 215,99. O edital não traz data final: a inscrição vai até 30 dias a partir da publicação do edital, que saiu no DOU de 01/10/2026, pelo formulário eletrônico da Faculdade de Medicina"
     },
     "etapas": [
       {
@@ -42228,7 +42229,7 @@ window.CONCURSOS = [
     "formacoes": [],
     "familias_pos": [],
     "areas_formacoes": [],
-    "observacao": "",
+    "observacao": "Uma vaga de professor assistente em Dermatologia na Faculdade de Medicina da UFMG, 40 horas, para quem tem residência ou título de especialista em Dermatologia e mestrado. O edital saiu no DOU de 01/10/2026 e não traz data final de inscrição: diz só que ela vai até 30 dias a partir da publicação. Confirme o prazo na página do concurso e não deixe para a última semana. As provas começam de 30 a 90 dias depois do fim das inscrições, e a lista de temas já está publicada na página do edital, então dá para começar agora. A aula tem 50 minutos garantidos, com tema sorteado 24 horas antes, e o edital não pede plano de aula: a banca julga a aula e a arguição.",
     "detalhamento": "completo",
     "avisos_edital": [],
     "fonte_dados": {
@@ -42245,7 +42246,7 @@ window.CONCURSOS = [
     "sigla": "UFMG",
     "instituicao": "Universidade Federal de Minas Gerais",
     "nivel": "Magistério Superior",
-    "uf": null,
+    "uf": "MG",
     "numero_edital": "Edital nº 2249/2026, publicado em 06/10/2026",
     "vagas": "1 vaga",
     "areas": "Matemática",
@@ -42256,8 +42257,10 @@ window.CONCURSOS = [
     "banca": "Comissão própria da UFMG",
     "link_oficial": "https://www.ufmg.br/montesclaros/concursos/",
     "inscricao": {
-      "situacao": "consultar",
-      "taxa": "R$ 215,99"
+      "inicio": "2026-10-07",
+      "fim": "2026-11-05",
+      "situacao": "aberta",
+      "taxa": "R$ 215,99. Inscrição por e-mail, de 07/10 (00h) a 05/11/2026 (23h59), horário de Brasília; pedido de isenção até 14/10"
     },
     "etapas": [
       {
@@ -42310,7 +42313,7 @@ window.CONCURSOS = [
     "formacoes": [],
     "familias_pos": [],
     "areas_formacoes": [],
-    "observacao": "",
+    "observacao": "Uma vaga de professor assistente em Matemática no Instituto de Ciências Agrárias da UFMG, campus Montes Claros, em dedicação exclusiva, para doutores em Matemática ou área afim. Inscrição por e-mail de 07/10 a 05/11/2026, com pedido de isenção só até 14/10, e o concurso está previsto para começar entre 06/11/2026 e 04/02/2027. A escrita vem primeiro e tem uma hora inicial de consulta bibliográfica a material impresso, então leve o material organizado. Na didática, a aula tem 50 minutos garantidos, tema sorteado 24 horas antes e arguição depois, e o edital não pede plano de aula.",
     "detalhamento": "completo",
     "avisos_edital": [],
     "fonte_dados": {
@@ -42327,7 +42330,7 @@ window.CONCURSOS = [
     "sigla": "UFMS",
     "instituicao": "Fundação Universidade Federal de Mato Grosso do Sul",
     "nivel": "Magistério Superior",
-    "uf": null,
+    "uf": "MS",
     "numero_edital": "Edital nº 137/2026",
     "vagas": "42 vagas",
     "areas": "35 áreas, entre elas Linguística, Letras e Artes / Artes / Educação Artística, Ciências Sociais Aplicadas / Comunicação, Linguística, Letras e Artes / Artes, Ciências Humanas / Filosofia / História da Filosofia e Ciências Humanas / Psicologia / Processos de Aprendizagem, Memória e Motivação",
@@ -42380,7 +42383,7 @@ window.CONCURSOS = [
           "sorteio": "Tema sorteado com 24 horas de antecedência",
           "nota_minima": "7 em 10",
           "criterios": "10 pontos: procedimentos didáticos: planejamento da aula; organização e… nota de 0,00 a 1,00; domínio do conteúdo: exposição clara e coerente do conteúdo… notas de 0,00 a 3,00; conhecimento do assunto: adequada profundidade; demonstração de… notas de 0,00 a 3,00; capacidade de comunicação: dicção clara e fluente; entonação de voz… notas de 0,00 a 2,00; estruturação e desenvolvimento da aula: adequado desenvolvimento da… notas de 0,00 a 1,00",
-          "recursos": "Fornecidos: giz/pincel, quadro e apagador. Proibidos: computador, tela de projeção, projetor e telefone celular ou qualquer outro dispositivo que possibilite comunicação com terceiros ou acesso à internet"
+          "recursos": "Fornecidos: giz/pincel, quadro e apagador. Equipamentos do local (computador, tela de projeção, projetor) não podem ser usados; o candidato pode levar computador e projetor próprios, com até 10 minutos para montar. Proibidos: telefone celular ou qualquer dispositivo que possibilite comunicação com terceiros ou acesso à internet, inclusive para controlar o tempo"
         }
       },
       {
@@ -42424,7 +42427,7 @@ window.CONCURSOS = [
     "formacoes": [],
     "familias_pos": [],
     "areas_formacoes": [],
-    "observacao": "",
+    "observacao": "São 42 vagas em 35 áreas, em Campo Grande, Aquidauana, Corumbá e Três Lagoas, com inscrição curta, de 12 a 25/10/2026, e todas as provas concentradas entre 08 e 12/12/2026. O detalhe que mais pesa no preparo: a UFMS só fornece quadro, giz ou pincel e apagador, e os equipamentos da sala não podem ser usados. Quem quiser projetar precisa levar computador e projetor próprios, com até dez minutos para montar, e cada minuto além disso custa três décimos da nota. A aula vai de 40 a 50 minutos, sem arguição, com o mesmo desconto de três décimos por minuto excedente e corte 7.",
     "detalhamento": "completo",
     "avisos_edital": [],
     "fonte_dados": {
@@ -42441,7 +42444,7 @@ window.CONCURSOS = [
     "sigla": "UFPR",
     "instituicao": "Universidade Federal do Paraná",
     "nivel": "Magistério Superior",
-    "uf": null,
+    "uf": "PR",
     "numero_edital": "Edital nº 276/2026, publicado em 25/09/2026, com 3 documentos de alteração publicados depois",
     "vagas": "32 vagas",
     "areas": "32 áreas, entre elas Sistemas de Informação Geográfica, Manejo de Florestas Naturais, Conservação da Natureza, Engenharia Civil e Engenharia Elétrica / Sub-área: Eletrônica e Telecomunicações",
@@ -42453,9 +42456,9 @@ window.CONCURSOS = [
     "link_oficial": null,
     "inscricao": {
       "inicio": "2026-09-28",
-      "fim": "2027-04-20",
+      "fim": "2026-10-28",
       "situacao": "aberta",
-      "taxa": "R$ 240,00"
+      "taxa": "De R$ 61,00 a R$ 240,00, conforme a área. O prazo de 28/09 a 28/10/2026 vale para 28 das 32 áreas. Têm prazo próprio Radiologia Odontológica e Imaginologia (21/12/2026 a 20/01/2027), Conservação da Natureza (18/01 a 17/02/2027), Sistemas de Informação Geográfica (18/02 a 19/03/2027) e Manejo de Florestas Naturais (22/03 a 20/04/2027). Confira o Anexo 02 do edital"
     },
     "etapas": [
       {
@@ -42464,7 +42467,7 @@ window.CONCURSOS = [
         "carater": "Eliminatória e classificatória",
         "data": {
           "tipo": "nao_divulgada",
-          "nota": "2° quinzena de abril (período provável de provas)"
+          "nota": "Período provável de provas, por área, no Anexo 02: segunda quinzena de novembro na maioria das áreas; primeira quinzena de dezembro em Arqueologia, Medicina Veterinária (Palotina) e Estatística e Ciência de Dados; nas áreas com inscrição em 2027, segunda quinzena de fevereiro (Radiologia Odontológica), primeira quinzena de março (Conservação da Natureza), segunda quinzena de abril (Sistemas de Informação Geográfica) e segunda quinzena de maio (Manejo de Florestas Naturais)"
         },
         "detalhe": {}
       },
@@ -42474,7 +42477,7 @@ window.CONCURSOS = [
         "carater": "Eliminatória e classificatória",
         "data": {
           "tipo": "nao_divulgada",
-          "nota": "1ª quinzena de dezembro (período provável de provas)"
+          "nota": "Só em Medicina Veterinária (Palotina), Anatomia Humana, Mineralogia e Radiologia Odontológica. Período provável, no Anexo 02: primeira quinzena de dezembro em Medicina Veterinária, segunda quinzena de novembro em Anatomia Humana e Mineralogia e segunda quinzena de fevereiro em Radiologia Odontológica"
         },
         "detalhe": {}
       },
@@ -42484,7 +42487,7 @@ window.CONCURSOS = [
         "carater": "Eliminatória e classificatória",
         "data": {
           "tipo": "nao_divulgada",
-          "nota": "2° quinzena de abril (período provável de provas)"
+          "nota": "Período provável de provas, por área, no Anexo 02: segunda quinzena de novembro na maioria das áreas; primeira quinzena de dezembro em Arqueologia, Medicina Veterinária (Palotina) e Estatística e Ciência de Dados; nas áreas com inscrição em 2027, segunda quinzena de fevereiro (Radiologia Odontológica), primeira quinzena de março (Conservação da Natureza), segunda quinzena de abril (Sistemas de Informação Geográfica) e segunda quinzena de maio (Manejo de Florestas Naturais)"
         },
         "detalhe": {
           "nota_minima": "7 em 10"
@@ -42526,7 +42529,7 @@ window.CONCURSOS = [
     "formacoes": [],
     "familias_pos": [],
     "areas_formacoes": [],
-    "observacao": "",
+    "observacao": "São 32 vagas, uma por área, em Curitiba, Palotina e Toledo, e cada área tem prazo e período de provas próprios. Em 28 áreas a inscrição vai de 28/09 a 28/10/2026 e as provas caem, na maioria, na segunda quinzena de novembro; Radiologia Odontológica e as três áreas de Ciências Florestais só abrem inscrição entre dezembro e março, com provas em 2027. Confira o Anexo 02 do edital antes de qualquer coisa. O ponto que mais pesa: para passar na didática não basta média 7, é preciso nota 7 ou mais de pelo menos três membros da banca, regra que vale também para a escrita e para a prática, onde houver.",
     "detalhamento": "completo",
     "avisos_edital": [],
     "fonte_dados": {
@@ -42544,7 +42547,7 @@ window.CONCURSOS = [
     "instituicao": "UNIVERSIDADE FEDERAL DE VIÇOSA",
     "nivel": "Magistério Superior",
     "uf": "MG",
-    "numero_edital": "Edital nº 47/2026",
+    "numero_edital": "Edital nº 47/2026, publicado no DOU de 11/09/2026",
     "vagas": "1 vaga",
     "areas": "Direito Civil e Prática Processual Civil",
     "campi": "Viçosa/MG e Departamento de Direito, do Centro de Ciências Humanas, Letras e Artes",
@@ -42554,8 +42557,10 @@ window.CONCURSOS = [
     "banca": "Comissão própria da UFV",
     "link_oficial": "https://www.ufv.br/soc",
     "inscricao": {
-      "situacao": "consultar",
-      "taxa": "R$ 120,75"
+      "inicio": "2026-09-11",
+      "fim": "2026-10-11",
+      "situacao": "aberta",
+      "taxa": "R$ 120,75. Inscrição pelo sistema GPS da UFV"
     },
     "etapas": [
       {
@@ -42615,7 +42620,7 @@ window.CONCURSOS = [
     "formacoes": [],
     "familias_pos": [],
     "areas_formacoes": [],
-    "observacao": "",
+    "observacao": "Uma vaga em Direito Civil e Prática Processual Civil na UFV, em Viçosa, para doutores em Direito com graduação em Direito, em dedicação exclusiva. A inscrição vai até 11/10/2026, pelo sistema GPS da UFV. A escrita é em 09/11, a didática na data provável de 11/11 e a defesa do projeto de pesquisa em 12/11. Duas regras da aula eliminam sem discussão: ela precisa durar 50 minutos, com tolerância de 10 para mais ou para menos, e todo o material, inclusive computador, é entregue ao presidente da banca logo depois do sorteio da ordem de apresentação. Fugir do ponto sorteado também pode eliminar.",
     "detalhamento": "completo",
     "avisos_edital": [],
     "fonte_dados": {
@@ -42633,7 +42638,7 @@ window.CONCURSOS = [
     "instituicao": "Universidade Federal de Viçosa",
     "nivel": "Magistério Superior",
     "uf": "MG",
-    "numero_edital": "2 editais: 48/2026 e 49/2026",
+    "numero_edital": "2 editais: 48/2026 e 49/2026, publicados no DOU de 28/09/2026",
     "vagas": "2 vagas",
     "areas": "Projeto Arquitetônico e Urbanístico e Teorias e práticas da arquitetura e do urbanismo contemporâneos",
     "campi": "Viçosa/MG e Departamento de Arquitetura e Urbanismo, do Centro de Ciências Exatas e Tecnológicas",
@@ -42643,8 +42648,10 @@ window.CONCURSOS = [
     "banca": "Comissão própria da UFV",
     "link_oficial": "https://www.ufv.br/soc",
     "inscricao": {
-      "situacao": "consultar",
-      "taxa": "R$ 120,75"
+      "inicio": "2026-09-28",
+      "fim": "2026-11-12",
+      "situacao": "aberta",
+      "taxa": "R$ 120,75. Inscrição pelo sistema GPS da UFV"
     },
     "etapas": [
       {
@@ -42716,7 +42723,7 @@ window.CONCURSOS = [
     "formacoes": [],
     "familias_pos": [],
     "areas_formacoes": [],
-    "observacao": "",
+    "observacao": "Duas vagas em Arquitetura e Urbanismo na UFV, em Viçosa: Projeto Arquitetônico e Urbanístico (Edital 48) e Teorias e práticas da arquitetura e do urbanismo contemporâneos (Edital 49), para doutores em dedicação exclusiva. A inscrição vai até 12/11/2026, pelo sistema GPS da UFV, e cada edital tem cronograma próprio, com a didática do 49 em 25/11 e a do 48 em 02/12. As regras da aula são duras: 50 minutos com tolerância de 10 para mais ou para menos, sob pena de eliminação, e todo o material, inclusive computador, fica com o presidente da banca desde o sorteio da ordem de apresentação.",
     "detalhamento": "completo",
     "avisos_edital": [],
     "fonte_dados": {
@@ -42756,8 +42763,10 @@ window.CONCURSOS = [
         "tipo": "discursiva",
         "carater": "Eliminatória e classificatória",
         "data": {
-          "tipo": "nao_divulgada",
-          "nota": "Segunda - 9h às 13h"
+          "tipo": "periodo",
+          "valor": "2027-01-25",
+          "fim": "2027-01-29",
+          "nota": "Semana de provas de 25 a 29/01/2027. Cronograma prévio dos editais de área, que pode mudar durante o concurso: escrita na segunda, das 9h às 13h"
         },
         "detalhe": {}
       },
@@ -42766,8 +42775,10 @@ window.CONCURSOS = [
         "tipo": "didatica",
         "carater": "Classificatória",
         "data": {
-          "tipo": "nao_divulgada",
-          "nota": "Terça - 14h às 18h"
+          "tipo": "periodo",
+          "valor": "2027-01-25",
+          "fim": "2027-01-29",
+          "nota": "Semana de provas de 25 a 29/01/2027. Cronograma prévio dos editais de área, que pode mudar durante o concurso: aula na terça, das 14h às 18h, ou na quarta, das 8h às 12h"
         },
         "detalhe": {
           "duracao": "45 minutos",
@@ -42780,8 +42791,10 @@ window.CONCURSOS = [
         "tipo": "outra",
         "carater": "Classificatória",
         "data": {
-          "tipo": "nao_divulgada",
-          "nota": "Quinta - 08h às 12h"
+          "tipo": "periodo",
+          "valor": "2027-01-25",
+          "fim": "2027-01-29",
+          "nota": "Semana de provas de 25 a 29/01/2027. Cronograma prévio dos editais de área, que pode mudar durante o concurso: defesa na quinta, das 8h às 12h"
         },
         "detalhe": {}
       },
@@ -42811,7 +42824,7 @@ window.CONCURSOS = [
     "formacoes": [],
     "familias_pos": [],
     "areas_formacoes": [],
-    "observacao": "",
+    "observacao": "Três vagas de doutorado na UNILA, em Foz do Iguaçu: Anatomia humana, Farmacologia clínica e Saúde da família. Inscrição de 28/09 a 27/10/2026, com as provas marcadas para a semana de 25 a 29/01/2027. O detalhe que muda o preparo é o ritmo: a escrita é na segunda de manhã, o ponto da aula é sorteado logo depois dela, sem repetir o ponto da escrita, e a didática vem na terça à tarde ou na quarta de manhã. A aula tem 45 minutos, em sessão fechada, com plano entregue à banca antes de começar, e as provas podem ser feitas em português ou espanhol.",
     "detalhamento": "completo",
     "avisos_edital": [],
     "fonte_dados": {
@@ -42821,6 +42834,10 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-09",
       "em_conferencia": true
+    },
+    "periodo_provas": {
+      "inicio": "2027-01-25",
+      "fim": "2027-01-29"
     }
   },
   {
@@ -42905,7 +42922,7 @@ window.CONCURSOS = [
     "formacoes": [],
     "familias_pos": [],
     "areas_formacoes": [],
-    "observacao": "",
+    "observacao": "São 15 vagas de doutorado em 9 áreas da saúde na Unilab, em Baturité (CE) e no Campus dos Malês, em São Francisco do Conde (BA), com inscrição de 05/10 a 03/11/2026 e cronograma próprio por área, de novembro ao início de dezembro. Na didática, o domínio do conteúdo vale 6 dos 10 pontos da ficha de avaliação, e o plano de aula vale 1. A aula tem de 45 a 50 minutos, começa 24 horas depois do sorteio do ponto, e qualquer recurso audiovisual é por conta do candidato. Faltar ao sorteio da ordem de apresentação elimina.",
     "detalhamento": "completo",
     "avisos_edital": [],
     "fonte_dados": {
@@ -42922,7 +42939,7 @@ window.CONCURSOS = [
     "sigla": "USP",
     "instituicao": "Instituto de Arquitetura e Urbanismo da Universidade de São Paulo",
     "nivel": "Magistério Superior",
-    "uf": null,
+    "uf": "SP",
     "numero_edital": "Edital nº DVACAD/IAU - nº 03/2026, publicado em 02/10/2026",
     "vagas": "1 vaga",
     "areas": "Representação e Linguagem",
@@ -42988,7 +43005,7 @@ window.CONCURSOS = [
     "formacoes": [],
     "familias_pos": [],
     "areas_formacoes": [],
-    "observacao": "",
+    "observacao": "Uma vaga de professor doutor em Representação e Linguagem no Instituto de Arquitetura e Urbanismo da USP, em dedicação integral à docência e à pesquisa. Inscrição de 05/10 a 03/11/2026, e as provas acontecem de 30 a 120 dias depois de o Diário Oficial do Estado publicar a aprovação das inscrições. O detalhe que muda o preparo: a lista de dez pontos da didática só é conhecida imediatamente antes do sorteio, então não há ponto para estudar antes, é o programa inteiro. A aula vai de 40 a 60 minutos, e terminar antes do 40º minuto dá nota zero. O memorial arguido pesa 4, mais que a escrita e a didática, que pesam 3 cada.",
     "detalhamento": "completo",
     "avisos_edital": [],
     "fonte_dados": {
