@@ -1,8 +1,8 @@
 # Relatório do compilador do Radar · 11/10/2026
 
-49 concursos no dados.js gerado, 48 no publicado; 48 vieram das extrações.
+57 concursos no dados.js gerado, 48 no publicado; 56 vieram das extrações.
 
-## O que muda no Radar em relação ao publicado (15 concursos)
+## O que muda no Radar em relação ao publicado (23 concursos)
 
 **ufrn-058-2026**
 - editais alterado
@@ -66,7 +66,31 @@
 **unicamp-cotil-06-2026**
 - inscrição: aberta → encerrada
 
+**ufmg-2229-2026**
+- concurso novo no Radar
+
+**ufmg-2249-2026**
+- concurso novo no Radar
+
+**ufms-137-2026**
+- concurso novo no Radar
+
+**ufpr-276-2026**
+- concurso novo no Radar
+
+**ufv-47-2026**
+- concurso novo no Radar
+
+**ufv-48-49-2026**
+- concurso novo no Radar
+
 **unila-240-2026**
+- concurso novo no Radar
+
+**unilab-14-2026**
+- concurso novo no Radar
+
+**usp-iau-03-2026**
 - concurso novo no Radar
 
 ## Prova didática já terminou (3 concursos)
