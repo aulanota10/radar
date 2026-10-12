@@ -224,7 +224,11 @@ def rotulo(e):
     "homologação" para a lista de inscritos, "Outro", "Impugnacao banca"), enquanto o texto literal
     traz o que importa ("horário de fechamento das salas", "previsão")."""
     lit = re.sub(r"\s*\((?:Edital\b|item\b|itens\b|faixa\b|ver\b|cf\.)[^)]*\)", "", e.get("descricao_literal") or "", flags=re.I)
+    # a marca de previsão que o extrator põe no fim do literal (regra de 12/10) não pode sumir no corte
+    marca = re.search(r"\s*\((?:previs|prov[áa]vel|data prev|datas prov|data prov|cronograma previsto)[^)]*\)\s*$", lit, re.I)
     lit = corta(lit)
+    if marca and marca.group(0).strip() not in lit:
+        lit = corta(lit[: -len(marca.group(0))] if lit.endswith(marca.group(0)) else lit, 180 - len(marca.group(0))) + " " + marca.group(0).strip()
     if len(lit) >= 8:
         return lit[0].upper() + lit[1:]
     n = nome_evento(e)

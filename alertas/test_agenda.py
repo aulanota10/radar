@@ -54,6 +54,10 @@ class Rotulo(unittest.TestCase):
                       "descricao_literal": "Recurso (verificação documental complementar para pessoas indígenas)"})
         self.assertIn("verificação documental", r)
 
+    def test_marca_de_previsao_sobrevive_ao_corte(self):  # UFRN 058, regra de 12/10 do extrator
+        r = A.rotulo({"tipo_evento": "resultado_final", "descricao_literal": "Divulgação do resultado final " + "x " * 120 + "(previsão)"})
+        self.assertTrue(r.endswith("(previsão)"))
+
     def test_entrega_individual(self):  # UFBA 06
         self.assertTrue(A.horario_individual({"tipo_evento": "entrega_documento",
                                               "descricao_literal": "Entrega, por cada candidato, no horário do sorteio do seu ponto"}))
