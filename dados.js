@@ -44,6 +44,9 @@
 // Gerado por compilar_radar.py a partir das extrações v2 (vigia-documentos/extracoes).
 // Para corrigir um dado, corrija a extração e rode o compilador de novo.
 
+// Gerado por compilar_radar.py a partir das extrações v2 (vigia-documentos/extracoes).
+// Para corrigir um dado, corrija a extração e rode o compilador de novo.
+
 window.RADAR_ATUALIZADO = "11/10/2026";
 
 window.CONCURSOS = [
@@ -53,7 +56,7 @@ window.CONCURSOS = [
     "instituicao": "Universidade Federal do Rio Grande do Norte",
     "nivel": "Magistério Superior",
     "uf": "RN",
-    "numero_edital": "Edital nº 058/2026-PROGESP, publicado em 30/04/2026, com 7 documentos de alteração publicados depois",
+    "numero_edital": "Edital nº 058/2026-PROGESP, publicado em 30/04/2026, com 8 documentos de alteração publicados depois",
     "vagas": "26 vagas (5 PcD, 6 pretos e pardos, 1 indígena, 1 quilombola)",
     "areas": "26 áreas, entre elas Nutrição em Saúde Coletiva, Doenças do Sistema Genitourinário, Endocrinologia e Metabologia, Prótese Dentária, Oclusão e Anatomia e Escultura e Otoneurologia / Dispositivos Eletrônicos de Amplificação Sonora (DEAS)",
     "campi": "Natal-RN, Departamento de Nutrição - Campus de Natal/RN, Departamento de Medicina Integrada - Campus de Natal/RN, Departamento de Medicina Clínica - Campus de Natal/RN e Departamento de Odontologia - Campus de Natal/RN",
@@ -9650,6 +9653,13 @@ window.CONCURSOS = [
       "inicio": "2026-08-25",
       "fim": "2026-09-23",
       "situacao": "encerrada",
+      "excecoes": [
+        {
+          "areas": "02 (Ciências da Saúde/ Medicina/ Anestesiologia)",
+          "inicio": "2026-09-28",
+          "fim": "2026-10-27"
+        }
+      ],
       "taxa": "R$ 412,60 (doutorado DE), R$ 250,00 (doutorado 40h), R$ 154,00 (especialização 40h). O prazo geral encerrou em 23/09, com GRU até 24/09. Só a área de Anestesiologia foi prorrogada, de 28/09 a 27/10, com GRU até 28/10"
     },
     "etapas": [
@@ -41647,7 +41657,14 @@ window.CONCURSOS = [
       "inicio": "2026-09-25",
       "fim": "2026-10-23",
       "situacao": "aberta",
-      "taxa": "R$ 200,00. Prazo de inscrição próprio: Área 101.3 (Interdisciplinar, Sociologia), Área 101.7 (Recursos Florestais E Engenharia Florestal -…), Área 101.8 (Farmácia - Subárea: Cuidado Farmacêutico…), Área 101.9 (Farmácia - Subárea: Farmacotecnia), Área 101.20 (Economia) e Área 101.23 (Medicina Veterinária - Subárea: Clínica e…), de 25/09/2026 a 06/11/2026"
+      "taxa": "R$ 200,00",
+      "excecoes": [
+        {
+          "areas": "Área 101.3 (Interdisciplinar, Sociologia), Área 101.7 (Recursos Florestais E Engenharia Florestal -…), Área 101.8 (Farmácia - Subárea: Cuidado Farmacêutico…), Área 101.9 (Farmácia - Subárea: Farmacotecnia), Área 101.20 (Economia) e Área 101.23 (Medicina Veterinária - Subárea: Clínica e…)",
+          "inicio": "2026-09-25",
+          "fim": "2026-11-06"
+        }
+      ]
     },
     "etapas": [
       {
@@ -42460,7 +42477,29 @@ window.CONCURSOS = [
       "inicio": "2026-09-28",
       "fim": "2026-10-28",
       "situacao": "aberta",
-      "taxa": "R$ 240,00. Prazo de inscrição próprio: Item 1.1 (Sistemas de Informação Geográfica), de 18/02/2027 a 19/03/2027; Item 1.2 (Manejo de Florestas Naturais), de 22/03/2027 a 20/04/2027; Item 1.3 (Conservação da Natureza), de 18/01/2027 a 17/02/2027; Item 1.28 (Radiologia Odontológica e Imaginologia), de 21/12/2026 a 20/01/2027. A taxa varia de R$ 61,00 a R$ 240,00, conforme a área (Anexo 02 do edital)"
+      "taxa": "R$ 240,00. A taxa varia de R$ 61,00 a R$ 240,00, conforme a área (Anexo 02 do edital)",
+      "excecoes": [
+        {
+          "areas": "Item 1.28 (Radiologia Odontológica e Imaginologia)",
+          "inicio": "2026-12-21",
+          "fim": "2027-01-20"
+        },
+        {
+          "areas": "Item 1.3 (Conservação da Natureza)",
+          "inicio": "2027-01-18",
+          "fim": "2027-02-17"
+        },
+        {
+          "areas": "Item 1.1 (Sistemas de Informação Geográfica)",
+          "inicio": "2027-02-18",
+          "fim": "2027-03-19"
+        },
+        {
+          "areas": "Item 1.2 (Manejo de Florestas Naturais)",
+          "inicio": "2027-03-22",
+          "fim": "2027-04-20"
+        }
+      ]
     },
     "etapas": [
       {

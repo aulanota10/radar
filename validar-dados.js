@@ -51,6 +51,20 @@ c.forEach((x, i) => {
   if (ins.inicio && ins.fim && re.test(ins.inicio) && re.test(ins.fim) && ins.fim < ins.inicio) {
     erros.push(ref + ': inscricao termina antes de comecar');
   }
+  // Prazos próprios de algumas áreas (decisão de 11/10/2026): [{areas, inicio, fim}]
+  if (ins.excecoes !== undefined) {
+    if (!Array.isArray(ins.excecoes)) {
+      erros.push(ref + ': inscricao.excecoes nao e lista');
+    } else {
+      ins.excecoes.forEach((x, k) => {
+        const p = ref + ': inscricao.excecoes[' + k + ']';
+        if (!x || typeof x.areas !== 'string' || !x.areas.trim()) erros.push(p + ' sem areas');
+        if (!re.test(x && x.fim || '')) erros.push(p + ': fim fora do formato AAAA-MM-DD');
+        if (x && x.inicio && !re.test(x.inicio)) erros.push(p + ': inicio fora do formato AAAA-MM-DD');
+        if (x && x.inicio && x.fim && x.fim < x.inicio) erros.push(p + ': termina antes de comecar');
+      });
+    }
+  }
 
   etapas.forEach(e => {
     const d = e.data || {};
