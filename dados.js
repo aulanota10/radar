@@ -91,8 +91,8 @@ window.CONCURSOS = [
         "data": {
           "tipo": "periodo",
           "valor": "2026-09-14",
-          "fim": "2026-10-12",
-          "nota": "Datas por área: geral: 14/09 a 12/10; 268266 (Otoneurologia / Dispositivos Eletrônicos de…): 19/09; 267703 (Trompete): 21/09; 924708 (Doenças do Sistema Genitourinário): 21/09; 704339 (Endocrinologia e Metabologia): 22/09; 267823 (Paisagismo): 23/09; 270307 (Português Língua Estrangeira (PLE)): 17/09; 720982 (Fotografia Publicitária. Comunicação Visual.…): 21/09; 267710 (Paleografia, Arquivística e Patrimônio): 21/09; 267710 (Paleografia, Arquivística e Patrimônio): 23/09"
+          "fim": "2026-10-23",
+          "nota": "Datas por área: geral: 14/09 a 23/10; 268266 (Otoneurologia / Dispositivos Eletrônicos de…): 19/09; 267703 (Trompete): 21/09; 924708 (Doenças do Sistema Genitourinário): 21/09; 704339 (Endocrinologia e Metabologia): 22/09; 267823 (Paisagismo): 23/09; 270307 (Português Língua Estrangeira (PLE)): 17/09; 720982 (Fotografia Publicitária. Comunicação Visual.…): 21/09; 267710 (Paleografia, Arquivística e Patrimônio): 21/09; 267710 (Paleografia, Arquivística e Patrimônio): 23/09"
         },
         "detalhe": {
           "arguicao": "Sim, obrigatória para todos os membros da banca. Até 3 minutos de pergunta por membro e até 5 minutos de resposta",
@@ -112,8 +112,8 @@ window.CONCURSOS = [
         "data": {
           "tipo": "periodo",
           "valor": "2026-09-14",
-          "fim": "2026-10-12",
-          "nota": "Datas por área: geral: 14/09 a 12/10; 267703 (Trompete): 24/09; 924708 (Doenças do Sistema Genitourinário): 23/09; 704339 (Endocrinologia e Metabologia): 24/09; 268266 (Otoneurologia / Dispositivos Eletrônicos de…): 23/09; 267823 (Paisagismo): 27/09; 270307 (Português Língua Estrangeira (PLE)): 22/09; 720982 (Fotografia Publicitária. Comunicação Visual.…): 24/09; 267710 (Paleografia, Arquivística e Patrimônio): 28/09"
+          "fim": "2026-10-23",
+          "nota": "Datas por área: geral: 14/09 a 23/10; 267703 (Trompete): 24/09; 924708 (Doenças do Sistema Genitourinário): 23/09; 704339 (Endocrinologia e Metabologia): 24/09; 268266 (Otoneurologia / Dispositivos Eletrônicos de…): 23/09; 267823 (Paisagismo): 27/09; 270307 (Português Língua Estrangeira (PLE)): 22/09; 720982 (Fotografia Publicitária. Comunicação Visual.…): 24/09; 267710 (Paleografia, Arquivística e Patrimônio): 28/09"
         },
         "detalhe": {}
       },
@@ -134,8 +134,8 @@ window.CONCURSOS = [
         "data": {
           "tipo": "periodo",
           "valor": "2026-09-14",
-          "fim": "2026-10-12",
-          "nota": "Datas por área: geral: 14/09 a 12/10; 267823 (Paisagismo): 30/09; 268266 (Otoneurologia / Dispositivos Eletrônicos de…): 27/09; 704339 (Endocrinologia e Metabologia): 01/10; 924708 (Doenças do Sistema Genitourinário): 28/09; 267703 (Trompete): 28/09"
+          "fim": "2026-10-23",
+          "nota": "Datas por área: geral: 14/09 a 23/10; 267823 (Paisagismo): 30/09; 268266 (Otoneurologia / Dispositivos Eletrônicos de…): 27/09; 704339 (Endocrinologia e Metabologia): 01/10; 924708 (Doenças do Sistema Genitourinário): 28/09; 267703 (Trompete): 28/09"
         },
         "detalhe": {}
       },
@@ -152,7 +152,7 @@ window.CONCURSOS = [
     ],
     "periodo_provas": {
       "inicio": "2026-09-13",
-      "fim": "2026-10-12"
+      "fim": "2026-10-23"
     },
     "logo": "ufrn.png",
     "formacoes_status": "completo",
@@ -1499,7 +1499,7 @@ window.CONCURSOS = [
         ]
       }
     ],
-    "observacao": "O ponto da aula sai no mesmo dia da prova escrita, 13/09, e a janela da didática é apertada: aula, defesa de memorial e títulos entre 14/09 e 02/10. São três eliminatórias com mínimo 7,0 cada. O plano de aula vale 2 dos 10 pontos da didática e é entregue 30 minutos antes, em PDF. É ponto que se ganha em casa.",
+    "observacao": "O ponto da aula sai no mesmo dia da prova escrita, 13/09, e a janela da didática é apertada: aula, defesa de memorial e títulos entre 14/09 e 23/10, prazo estendido pela retificação do DOU de 09/10. São três eliminatórias com mínimo 7,0 cada. O plano de aula vale 2 dos 10 pontos da didática e é entregue 30 minutos antes, em PDF. É ponto que se ganha em casa.",
     "detalhamento": "completo",
     "avisos_edital": [],
     "fonte_dados": {
