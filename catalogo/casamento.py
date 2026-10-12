@@ -258,7 +258,7 @@ def comparar_area(cat, e, p):
         and p.get("nivel") in ("especializacao", "mestrado", "doutorado", "livre_docencia")
     prog = p.get("programa")
     if not areas:
-        return R(PODE, "em qualquer área")
+        return R(PODE, " ou ".join(e.get("niveis") or ["pós"]) + " em qualquer área")
     areas_c, dec = areas_do_candidato(cat, prog, p.get("area_capes"), "pos")
     if dec:
         # a área declarada vale mais que a do catálogo: se as duas concordam, as
@@ -415,6 +415,13 @@ def comparar_pos(cat, cam, perfil, area_vaga=None):
     # doutorado em Música"), e a área diferente impede o reaproveitamento sozinha
     tabela = [[comparar_exigencia(cat, e, q, area_vaga) for q in pos] for e in exig]
     melhores = [melhor(linha) for linha in tabela]
+    # certificação ("formação em", título de sociedade, complementação) que o perfil não
+    # registra: o formulário não cobre bem esse tipo de título, então fica para o candidato conferir
+    for e, m in zip(exig, melhores):
+        if m.nivel == NAO and e.get("niveis") == ["certificacao"]:
+            nomes = ", ".join(a.get("nome") or "" for a in e.get("areas") or []) or "a formação pedida"
+            m.nivel = DEPENDE
+            m.motivos = [f"o edital exige também certificação ou formação em {nomes}, que o perfil não registra; confira se você tem"]
     return junta(*melhores)
 
 

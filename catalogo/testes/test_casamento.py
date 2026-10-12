@@ -272,6 +272,15 @@ class Rodada5(unittest.TestCase):
         self.assertEqual(nivel(v, perfil(self.P, [pos("doutorado", "Arqueologia", area_capes="Antropologia / Arqueologia")])), "pode_servir")
 
 
+class Rodada6(unittest.TestCase):
+    def test_certificacao_que_o_perfil_nao_registra_depende(self):
+        v = vaga(([grad("Enfermagem")], [exig(["mestrado"], "Enfermagem"), exig(["certificacao"], "Saúde do Adulto e do Idoso")]))
+        p = perfil([("Enfermagem", "bacharelado")], [pos("doutorado", "Enfermagem", area_capes="Enfermagem")])
+        self.assertEqual(nivel(v, p), "depende_da_banca")
+        sem_mestrado = perfil([("Enfermagem", "bacharelado")], [])
+        self.assertEqual(nivel(v, sem_mestrado), "nao_serve")
+
+
 class Vaga(unittest.TestCase):
     def test_ambiguo_rebaixa(self):
         v = vaga(([grad("Química")], []), ambiguo=True, nota="duas leituras")

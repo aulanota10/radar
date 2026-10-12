@@ -1,0 +1,1551 @@
+[
+ {
+  "perfil": {
+   "id": "p85-agronomia-doutorado-ciencia-do-solo",
+   "graduacoes": [
+    {
+     "curso": "Agronomia",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "doutorado",
+     "programa": "Ciência do Solo",
+     "area_capes": "Ciências Agrárias I",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "ufrpe-21-2026",
+  "vaga": "06",
+  "area": "PLANTAS ALIMENTÍCIAS E/OU INDUSTRIAIS",
+  "requisito_literal": "GRADUAÇÃO EM AGRONOMIA OU BACHARELADO EM AGRONOMIA OU ENGENHARIA AGRONÔMICA COM DOUTORADO EM AGRONOMIA OU PRODUÇÃO VEGETAL OU PRODUÇÃO AGRÍCOLA OU FITOTECNIA OU GENÉTICA E MELHORAMENTO VEGETAL OU MELHORAMENTO GENÉTICO DE PLANTAS COM TESE DEFENDIDA NA ÁREA DO CONCURSO",
+  "decisao": "depende_da_banca",
+  "motivos": [
+   "graduação em AGRONOMIA",
+   "o edital pede AGRONOMIA; seu programa (Ciência do Solo) está na área de avaliação Ciências Agrárias I, que esse nome cobre; confira se a banca aceita"
+  ],
+  "n": 5052
+ },
+ {
+  "perfil": {
+   "id": "p82-ciencias-contabeis-doutorado-administracao",
+   "graduacoes": [
+    {
+     "curso": "Ciências Contábeis",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "doutorado",
+     "programa": "Administração",
+     "area_capes": "Administração Pública e de Empresas, Ciências Contábeis e Turismo",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "ufrpe-21-2026",
+  "vaga": "12",
+  "area": "ADMINISTRAÇÃO FINANCEIRA/ CIÊNCIAS CONTÁBEIS",
+  "requisito_literal": "BACHARELADO EM ADMINISTRAÇÃO OU CIÊNCIAS CONTÁBEIS E DOUTORADO EM ADMINISTRAÇÃO OU CIÊNCIAS CONTÁBEIS OU CONTROLADORIA",
+  "decisao": "pode_servir",
+  "motivos": [
+   "graduação em CIÊNCIAS CONTÁBEIS",
+   "pós em ADMINISTRAÇÃO"
+  ],
+  "n": 5053
+ },
+ {
+  "perfil": {
+   "id": "p84-biologia-lic-doutorado-botanica",
+   "graduacoes": [
+    {
+     "curso": "Ciências Biológicas",
+     "grau": "licenciatura"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "doutorado",
+     "programa": "Botânica",
+     "area_capes": "Biodiversidade",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "ufpel-028-2026",
+  "vaga": "27",
+  "area": "Fisiologia",
+  "requisito_literal": "Graduação em qualquer área COM Doutorado em Ciências OU Ciências Fisiológicas OU Ciências Biológicas OU Veterinária OU Ciências da Saúde",
+  "decisao": "depende_da_banca",
+  "motivos": [
+   "o caminho aceita qualquer graduação",
+   "o edital pede Ciências Biológicas; seu programa (Botânica) está na área de avaliação Biodiversidade, que esse nome cobre; confira se a banca aceita"
+  ],
+  "n": 5054
+ },
+ {
+  "perfil": {
+   "id": "p83-direito-mestrado-sem-area",
+   "graduacoes": [
+    {
+     "curso": "Direito",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "especializacao",
+     "programa": "Direito Público",
+     "concluida": true
+    },
+    {
+     "nivel": "mestrado",
+     "programa": "Direito",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "unimontes-18-2026",
+  "vaga": "01",
+  "area": "CIÊNCIAS SOCIAIS APLICADAS/DIREITO",
+  "requisito_literal": "Graduação em Direito. Mestrado em Direito.",
+  "decisao": "pode_servir",
+  "motivos": [
+   "graduação em Direito",
+   "pós em Direito"
+  ],
+  "n": 5055
+ },
+ {
+  "perfil": {
+   "id": "p88-fisica-lic-doutorado-fisica",
+   "graduacoes": [
+    {
+     "curso": "Física",
+     "grau": "licenciatura"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "mestrado",
+     "programa": "Física",
+     "area_capes": "Astronomia / Física",
+     "concluida": true
+    },
+    {
+     "nivel": "doutorado",
+     "programa": "Física",
+     "area_capes": "Astronomia / Física",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "ifsc-01-2026",
+  "vaga": "21",
+  "area": "Física",
+  "requisito_literal": "Licenciatura em Física.",
+  "decisao": "pode_servir",
+  "motivos": [
+   "graduação em Física"
+  ],
+  "n": 5056
+ },
+ {
+  "perfil": {
+   "id": "p78-pedagogia-mestrado-educacao-doutorado-em-curso",
+   "graduacoes": [
+    {
+     "curso": "Pedagogia",
+     "grau": "licenciatura"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "mestrado",
+     "programa": "Educação",
+     "area_capes": "Educação",
+     "concluida": true
+    },
+    {
+     "nivel": "doutorado",
+     "programa": "Educação",
+     "area_capes": "Educação",
+     "concluida": false
+    }
+   ]
+  },
+  "concurso": "ufscar-004-2026",
+  "vaga": "33",
+  "area": "Educação; Subárea: Educação Infantil e Sociologia da Infância",
+  "requisito_literal": "Título de Doutorado em Educação.",
+  "decisao": "depende_da_banca",
+  "motivos": [
+   "o caminho aceita qualquer graduação",
+   "pós em Educação",
+   "seu doutorado está em curso; confira em que momento o edital exige o título (inscrição ou posse)"
+  ],
+  "n": 5057
+ },
+ {
+  "perfil": {
+   "id": "p85-agronomia-doutorado-ciencia-do-solo",
+   "graduacoes": [
+    {
+     "curso": "Agronomia",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "doutorado",
+     "programa": "Ciência do Solo",
+     "area_capes": "Ciências Agrárias I",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "ifsuldeminas-188-2026",
+  "vaga": "MCH-2",
+  "area": "Zootecnia IV - Fisiologia Animal",
+  "requisito_literal": "Graduação em Zootecnia; ou Medicina Veterinária; ou Agronomia",
+  "decisao": "pode_servir",
+  "motivos": [
+   "graduação em Agronomia"
+  ],
+  "n": 5058
+ },
+ {
+  "perfil": {
+   "id": "p88-fisica-lic-doutorado-fisica",
+   "graduacoes": [
+    {
+     "curso": "Física",
+     "grau": "licenciatura"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "mestrado",
+     "programa": "Física",
+     "area_capes": "Astronomia / Física",
+     "concluida": true
+    },
+    {
+     "nivel": "doutorado",
+     "programa": "Física",
+     "area_capes": "Astronomia / Física",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "ufscar-004-2026",
+  "vaga": "09",
+  "area": "Física teórica; Subárea: Óptica Quântica, Informação Quântica, Física da Matéria Condensada, Física de Materiais, Física Atômica, Sistemas Complexos, Física Matemática, Física de Partículas e Campos.",
+  "requisito_literal": "Título de Doutor em Física, ou Título de Doutor em Ciências com área de concentração em Física.",
+  "decisao": "pode_servir",
+  "motivos": [
+   "o caminho aceita qualquer graduação",
+   "pós em Física"
+  ],
+  "n": 5059
+ },
+ {
+  "perfil": {
+   "id": "p78-pedagogia-mestrado-educacao-doutorado-em-curso",
+   "graduacoes": [
+    {
+     "curso": "Pedagogia",
+     "grau": "licenciatura"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "mestrado",
+     "programa": "Educação",
+     "area_capes": "Educação",
+     "concluida": true
+    },
+    {
+     "nivel": "doutorado",
+     "programa": "Educação",
+     "area_capes": "Educação",
+     "concluida": false
+    }
+   ]
+  },
+  "concurso": "unimontes-06-2026",
+  "vaga": "07",
+  "area": "CIÊNCIAS HUMANAS/EDUCAÇÃO",
+  "requisito_literal": "Graduação em Pedagogia. Mestrado na grande área das Ciências Humanas (CAPES).",
+  "decisao": "pode_servir",
+  "motivos": [
+   "graduação em Pedagogia",
+   "programa na grande área Ciências Humanas, pela área que você declarou"
+  ],
+  "n": 5060
+ },
+ {
+  "perfil": {
+   "id": "p82-ciencias-contabeis-doutorado-administracao",
+   "graduacoes": [
+    {
+     "curso": "Ciências Contábeis",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "doutorado",
+     "programa": "Administração",
+     "area_capes": "Administração Pública e de Empresas, Ciências Contábeis e Turismo",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "unimontes-20-2026",
+  "vaga": "01",
+  "area": "CIÊNCIAS SOCIAIS APLICADAS/ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO",
+  "requisito_literal": "Graduação em Administração. Doutorado em Administração.",
+  "decisao": "nao_serve",
+  "motivos": [],
+  "n": 5061
+ },
+ {
+  "perfil": {
+   "id": "p72-eng-eletrica-doutorado-eng-biomedica",
+   "graduacoes": [
+    {
+     "curso": "Engenharia Elétrica",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "doutorado",
+     "programa": "Engenharia Biomédica",
+     "area_capes": "Engenharias IV",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "ufrn-109-2026",
+  "vaga": "01",
+  "area": "Computação Cognitiva e Inteligência Artificial Responsável",
+  "requisito_literal": "Graduação em Ciência da Computação, em Tecnologia da Informação, em Sistema de Informação, em Análise e Desenvolvimento de Software, em Redes de Computação, em Engenharia de Software, em Engenharia de Computação, em Engenharia de Controle e Automação, em Engenharia Elétrica, em Engenharia Eletrônica, em Engenharia Mecatrônica, em Engenharia de Telecomunicações, em Engenharia de Teleinformática, em Ciência de Dados e em Inteligência Artificial + Doutorado em qualquer área",
+  "decisao": "pode_servir",
+  "motivos": [
+   "graduação em Engenharia Elétrica",
+   "em qualquer área"
+  ],
+  "n": 5062
+ },
+ {
+  "perfil": {
+   "id": "p73-eng-civil-mestrado-transportes",
+   "graduacoes": [
+    {
+     "curso": "Engenharia Civil",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "mestrado",
+     "programa": "Engenharia de Transportes",
+     "area_capes": "Engenharias I",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "ufpe-08-2026",
+  "vaga": "34",
+  "area": "Engenharia Civil/Transportes",
+  "requisito_literal": "DOUTORADO em Engenharia Civil, ou Engenharia de Transportes; E GRADUAÇÃO em Engenharia Civil ou Engenharia de Transportes.",
+  "decisao": "nao_serve",
+  "motivos": [],
+  "n": 5063
+ },
+ {
+  "perfil": {
+   "id": "p79-letras-espanhol-doutorado-linguistica-aplicada",
+   "graduacoes": [
+    {
+     "curso": "Letras - Espanhol",
+     "grau": "licenciatura"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "doutorado",
+     "programa": "Linguística Aplicada",
+     "area_capes": "Linguística e Literatura",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "unimontes-17-2026",
+  "vaga": "07",
+  "area": "LINGUÍSTICA, LETRAS E ARTES/LINGUÍSTICA E LITERATURA",
+  "requisito_literal": "Graduação em Letras (licenciatura) e Doutorado em Letras, Linguística, Linguística Aplicada, Estudos Linguísticos, Filologia, Línguas Clássicas ou Estudos Clássicos.",
+  "decisao": "pode_servir",
+  "motivos": [
+   "graduação em Letras",
+   "o edital pede Linguística, e seu programa (Linguística Aplicada) é um recorte dessa área"
+  ],
+  "n": 5064
+ },
+ {
+  "perfil": {
+   "id": "p78-pedagogia-mestrado-educacao-doutorado-em-curso",
+   "graduacoes": [
+    {
+     "curso": "Pedagogia",
+     "grau": "licenciatura"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "mestrado",
+     "programa": "Educação",
+     "area_capes": "Educação",
+     "concluida": true
+    },
+    {
+     "nivel": "doutorado",
+     "programa": "Educação",
+     "area_capes": "Educação",
+     "concluida": false
+    }
+   ]
+  },
+  "concurso": "ufscar-004-2026",
+  "vaga": "53",
+  "area": "Pedagogia; Subárea: Política Educacional e Gestão Escolar",
+  "requisito_literal": "Doutor em Educação.",
+  "decisao": "depende_da_banca",
+  "motivos": [
+   "o caminho aceita qualquer graduação",
+   "pós em Educação",
+   "seu doutorado está em curso; confira em que momento o edital exige o título (inscrição ou posse)"
+  ],
+  "n": 5065
+ },
+ {
+  "perfil": {
+   "id": "p84-biologia-lic-doutorado-botanica",
+   "graduacoes": [
+    {
+     "curso": "Ciências Biológicas",
+     "grau": "licenciatura"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "doutorado",
+     "programa": "Botânica",
+     "area_capes": "Biodiversidade",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "unimontes-15-2026",
+  "vaga": "07",
+  "area": "CIÊNCIAS BIOLÓGICAS/CIÊNCIAS BIOLÓGICAS III",
+  "requisito_literal": "Graduação em Ciências Biológicas.",
+  "decisao": "pode_servir",
+  "motivos": [
+   "graduação em Ciências Biológicas",
+   "em qualquer área"
+  ],
+  "n": 5066
+ },
+ {
+  "perfil": {
+   "id": "p86-medicina-veterinaria-doutorado-zootecnia",
+   "graduacoes": [
+    {
+     "curso": "Medicina Veterinária",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "doutorado",
+     "programa": "Zootecnia",
+     "area_capes": "Zootecnia / Recursos Pesqueiros",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "ifsuldeminas-188-2026",
+  "vaga": "MCH-2",
+  "area": "Zootecnia IV - Fisiologia Animal",
+  "requisito_literal": "Graduação em Zootecnia; ou Medicina Veterinária; ou Agronomia",
+  "decisao": "pode_servir",
+  "motivos": [
+   "graduação em Medicina Veterinária"
+  ],
+  "n": 5067
+ },
+ {
+  "perfil": {
+   "id": "p83-direito-mestrado-sem-area",
+   "graduacoes": [
+    {
+     "curso": "Direito",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "especializacao",
+     "programa": "Direito Público",
+     "concluida": true
+    },
+    {
+     "nivel": "mestrado",
+     "programa": "Direito",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "unimontes-21-2026",
+  "vaga": "001",
+  "area": "CIÊNCIAS SOCIAIS APLICADAS/DIREITO",
+  "requisito_literal": "Graduação em Direito e habilitação mínima: Doutorado em Direito ou Doutorado Interdisciplinar.",
+  "decisao": "nao_serve",
+  "motivos": [],
+  "n": 5068
+ },
+ {
+  "perfil": {
+   "id": "p80-historia-lic-mestrado-historia",
+   "graduacoes": [
+    {
+     "curso": "História",
+     "grau": "licenciatura"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "mestrado",
+     "programa": "História",
+     "area_capes": "História",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "ifsc-01-2026",
+  "vaga": "28",
+  "area": "História",
+  "requisito_literal": "Licenciatura em História.",
+  "decisao": "pode_servir",
+  "motivos": [
+   "graduação em História"
+  ],
+  "n": 5069
+ },
+ {
+  "perfil": {
+   "id": "p82-ciencias-contabeis-doutorado-administracao",
+   "graduacoes": [
+    {
+     "curso": "Ciências Contábeis",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "doutorado",
+     "programa": "Administração",
+     "area_capes": "Administração Pública e de Empresas, Ciências Contábeis e Turismo",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "ufpe-08-2026",
+  "vaga": "39",
+  "area": "Contabilidade Financeira:Contabilidade Geral, Contabilidade Intermediária, Contabilidade Societária e Análise das Demonstrações Contábeis",
+  "requisito_literal": "DOUTORADO em Ciências Contábeis e GRADUAÇÃO em Ciências Contábeis",
+  "decisao": "depende_da_banca",
+  "motivos": [
+   "graduação em Ciências Contábeis",
+   "o edital pede Ciências Contábeis, que na tabela do CNPq fica dentro de Administração; confira se sua tese é nesse tema"
+  ],
+  "n": 5070
+ },
+ {
+  "perfil": {
+   "id": "p92-tecnologo-radiologia-especializacao",
+   "graduacoes": [
+    {
+     "curso": "Radiologia",
+     "grau": "tecnologo"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "especializacao",
+     "programa": "Radiologia e Diagnóstico por Imagem",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "ufpr-276-2026",
+  "vaga": "1.28",
+  "area": "Radiologia Odontológica e Imaginologia",
+  "requisito_literal": "Graduação em Odontologia com Doutorado em Radiologia ou Graduação em Odontologia com Doutorado em Odontologia com especialização Radiologia Odontológica e Imaginologia, obtidos na forma da lei.",
+  "decisao": "nao_serve",
+  "motivos": [],
+  "n": 5071
+ },
+ {
+  "perfil": {
+   "id": "p84-biologia-lic-doutorado-botanica",
+   "graduacoes": [
+    {
+     "curso": "Ciências Biológicas",
+     "grau": "licenciatura"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "doutorado",
+     "programa": "Botânica",
+     "area_capes": "Biodiversidade",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "unimontes-15-2026",
+  "vaga": "03",
+  "area": "CIÊNCIAS BIOLÓGICAS/BIODIVERSIDADE",
+  "requisito_literal": "Graduação em Ciências Biológicas com Doutorado em Botânica ou Ecologia ou Biodiversidade.",
+  "decisao": "pode_servir",
+  "motivos": [
+   "graduação em Ciências Biológicas",
+   "pós em Botânica"
+  ],
+  "n": 5072
+ },
+ {
+  "perfil": {
+   "id": "p79-letras-espanhol-doutorado-linguistica-aplicada",
+   "graduacoes": [
+    {
+     "curso": "Letras - Espanhol",
+     "grau": "licenciatura"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "doutorado",
+     "programa": "Linguística Aplicada",
+     "area_capes": "Linguística e Literatura",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "ufrgs-09-2026",
+  "vaga": "12",
+  "area": "Língua Alemã, Literatura de Língua Alemã e Tradução de Língua Alemã",
+  "requisito_literal": "Doutorado em Letras OU Doutorado em Estudos da Tradução",
+  "decisao": "depende_da_banca",
+  "motivos": [
+   "o caminho aceita qualquer graduação",
+   "o edital pede Letras; seu programa (Linguística Aplicada) está na área de avaliação Linguística e Literatura, que esse nome cobre; confira se a banca aceita"
+  ],
+  "n": 5073
+ },
+ {
+  "perfil": {
+   "id": "p74-medicina-residencia-anestesiologia",
+   "graduacoes": [
+    {
+     "curso": "Medicina",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "residencia",
+     "programa": "Anestesiologia",
+     "concluida": true
+    },
+    {
+     "nivel": "doutorado",
+     "programa": "Ciências Cirúrgicas",
+     "area_capes": "Medicina III",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "ufrn-058-2026",
+  "vaga": "924708",
+  "area": "Doenças do Sistema Genitourinário",
+  "requisito_literal": "Graduação em Medicina + Título de Especialista em Nefrologia pela Associação Médica Brasileira (AMB) em parceria com Sociedade Brasileira de Nefrologia (SBN) ou Residência Médica em Nefrologia reconhecida pela Comissão Nacional de Residência Médica (CNRM) + Doutorado na área da Saúde",
+  "decisao": "nao_serve",
+  "motivos": [],
+  "n": 5074
+ },
+ {
+  "perfil": {
+   "id": "p77-fisioterapia-mestrado-sem-area",
+   "graduacoes": [
+    {
+     "curso": "Fisioterapia",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "mestrado",
+     "programa": "Fisioterapia",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "ufscar-004-2026",
+  "vaga": "22",
+  "area": "Fisioterapia; Subárea: Fisioterapia Cardiorrespiratória Ambulatorial, Fisioterapia Hospitalar e Cinesioterapia.",
+  "requisito_literal": "1) Graduação em Fisioterapia E; 2) Título de Doutor.",
+  "decisao": "nao_serve",
+  "motivos": [],
+  "n": 5075
+ },
+ {
+  "perfil": {
+   "id": "p82-ciencias-contabeis-doutorado-administracao",
+   "graduacoes": [
+    {
+     "curso": "Ciências Contábeis",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "doutorado",
+     "programa": "Administração",
+     "area_capes": "Administração Pública e de Empresas, Ciências Contábeis e Turismo",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "ufrn-058-2026",
+  "vaga": "721003",
+  "area": "Administração e Gestão de Tecnologia da Informação",
+  "requisito_literal": "Graduação em Administração + Doutorado em Administração ou em áreas correlatas da Computação",
+  "decisao": "nao_serve",
+  "motivos": [],
+  "n": 5076
+ },
+ {
+  "perfil": {
+   "id": "p87-ciencia-computacao-lic-mestrado-informatica-educacao",
+   "graduacoes": [
+    {
+     "curso": "Computação",
+     "grau": "licenciatura"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "mestrado",
+     "programa": "Informática na Educação",
+     "area_capes": "Ensino",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "ufrn-058-2026",
+  "vaga": "267380",
+  "area": "Educação e Tecnologia",
+  "requisito_literal": "Licenciatura Plena em qualquer área do conhecimento + Doutorado em Inovação em Tecnologias Educacionais ou em Educação",
+  "decisao": "nao_serve",
+  "motivos": [],
+  "n": 5077
+ },
+ {
+  "perfil": {
+   "id": "p79-letras-espanhol-doutorado-linguistica-aplicada",
+   "graduacoes": [
+    {
+     "curso": "Letras - Espanhol",
+     "grau": "licenciatura"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "doutorado",
+     "programa": "Linguística Aplicada",
+     "area_capes": "Linguística e Literatura",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "ufscar-004-2026",
+  "vaga": "27",
+  "area": "Língua Espanhola; Subárea: Língua Espanhola",
+  "requisito_literal": "Doutorado em Língua Espanhola, ou Letras, ou Linguística, ou Linguística Aplicada, ou Estudos da Linguagem, ou Estudos Linguísticos, ou Educação.",
+  "decisao": "pode_servir",
+  "motivos": [
+   "o caminho aceita qualquer graduação",
+   "o edital pede Linguística, e seu programa (Linguística Aplicada) é um recorte dessa área"
+  ],
+  "n": 5078
+ },
+ {
+  "perfil": {
+   "id": "p80-historia-lic-mestrado-historia",
+   "graduacoes": [
+    {
+     "curso": "História",
+     "grau": "licenciatura"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "mestrado",
+     "programa": "História",
+     "area_capes": "História",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "ifsc-01-2026",
+  "vaga": "26",
+  "area": "História",
+  "requisito_literal": "Licenciatura em História.",
+  "decisao": "pode_servir",
+  "motivos": [
+   "graduação em História"
+  ],
+  "n": 5079
+ },
+ {
+  "perfil": {
+   "id": "p88-fisica-lic-doutorado-fisica",
+   "graduacoes": [
+    {
+     "curso": "Física",
+     "grau": "licenciatura"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "mestrado",
+     "programa": "Física",
+     "area_capes": "Astronomia / Física",
+     "concluida": true
+    },
+    {
+     "nivel": "doutorado",
+     "programa": "Física",
+     "area_capes": "Astronomia / Física",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "unimontes-26-2026",
+  "vaga": "005",
+  "area": "CIÊNCIAS DA SAÚDE/EDUCAÇÃO FÍSICA",
+  "requisito_literal": "Graduação em Educação Física (Bacharelado ou Licenciatura ou Licenciatura Plena) e Doutorado na Área da Educação Física, ou das Ciências da Saúde, ou das Ciências Biológicas, ou da Interdisciplinar (Saúde e Biológicas), segundo a Tabela de áreas de Conhecimento da CAPES",
+  "decisao": "nao_serve",
+  "motivos": [],
+  "n": 5080
+ },
+ {
+  "perfil": {
+   "id": "p76-enfermagem-doutorado-enfermagem-concentracao",
+   "graduacoes": [
+    {
+     "curso": "Enfermagem",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "doutorado",
+     "programa": "Enfermagem",
+     "area_capes": "Enfermagem",
+     "concentracao": "Enfermagem Obstétrica",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "uncisal-01-2026",
+  "vaga": "9",
+  "area": "Enfermagem na Saúde do Adulto e do Idoso",
+  "requisito_literal": "diploma de conclusão de curso de graduação em Enfermagem e diploma de conclusão de Mestrado em Enfermagem, Ensino na Saúde ou áreas afins (com formação em Saúde do Adulto e do Idoso), devidamente registrados, fornecidos por instituição de ensino superior reconhecida pelo MEC.",
+  "decisao": "nao_serve",
+  "motivos": [],
+  "n": 5081
+ },
+ {
+  "perfil": {
+   "id": "p76-enfermagem-doutorado-enfermagem-concentracao",
+   "graduacoes": [
+    {
+     "curso": "Enfermagem",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "doutorado",
+     "programa": "Enfermagem",
+     "area_capes": "Enfermagem",
+     "concentracao": "Enfermagem Obstétrica",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "ufba-06-2026",
+  "vaga": "29",
+  "area": "Enfermagem na Atenção a Saúde da Criança em Unidade Hospitalar e Bases Fundamentais do Cuidado de Enfermagem",
+  "requisito_literal": "Bacharelado em Enfermagem. Doutorado na área de Enfermagem ou Ciências da Saúde ou áreas afins. Experiência de um ano como enfermeiro assistencial em unidade de atendimento hospitalar a criança e adolescente e experiência de um ano como enfermeiro assistencial em unidade de atendimento hospitalar a pacientes adultos.",
+  "decisao": "pode_servir",
+  "motivos": [
+   "graduação em Enfermagem",
+   "pós em Enfermagem",
+   "confira também: experiência de um ano como enfermeiro assistencial em unidade de atendimento hospitalar a criança e adolescente; experiência de um ano como enfermeiro assistencial em unidade de atendimento hospitalar a pacientes adultos"
+  ],
+  "n": 5082
+ },
+ {
+  "perfil": {
+   "id": "p84-biologia-lic-doutorado-botanica",
+   "graduacoes": [
+    {
+     "curso": "Ciências Biológicas",
+     "grau": "licenciatura"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "doutorado",
+     "programa": "Botânica",
+     "area_capes": "Biodiversidade",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "ufrgs-09-2026",
+  "vaga": "06",
+  "area": "Ecofisiologia e Manejo de Plantas de Lavoura",
+  "requisito_literal": "Doutorado em Fitotecnia, ou Agronomia, ou Produção Vegetal, ou Fisiologia Vegetal, com tese defendida e homologada na área do concurso.",
+  "decisao": "depende_da_banca",
+  "motivos": [
+   "o caminho aceita qualquer graduação",
+   "o edital pede Fisiologia Vegetal, que na tabela do CNPq fica dentro de Botânica; confira se sua tese é nesse tema"
+  ],
+  "n": 5083
+ },
+ {
+  "perfil": {
+   "id": "p76-enfermagem-doutorado-enfermagem-concentracao",
+   "graduacoes": [
+    {
+     "curso": "Enfermagem",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "doutorado",
+     "programa": "Enfermagem",
+     "area_capes": "Enfermagem",
+     "concentracao": "Enfermagem Obstétrica",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "urca-2026",
+  "vaga": "18",
+  "area": "ASSISTÊNCIA EM ENFERMAGEM",
+  "requisito_literal": "Graduação em Enfermagem, com doutorado em Enfermagem ou em áreas de Ciências da Saúde.",
+  "decisao": "pode_servir",
+  "motivos": [
+   "graduação em Enfermagem",
+   "pós em Enfermagem"
+  ],
+  "n": 5084
+ },
+ {
+  "perfil": {
+   "id": "p78-pedagogia-mestrado-educacao-doutorado-em-curso",
+   "graduacoes": [
+    {
+     "curso": "Pedagogia",
+     "grau": "licenciatura"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "mestrado",
+     "programa": "Educação",
+     "area_capes": "Educação",
+     "concluida": true
+    },
+    {
+     "nivel": "doutorado",
+     "programa": "Educação",
+     "area_capes": "Educação",
+     "concluida": false
+    }
+   ]
+  },
+  "concurso": "unimontes-06-2026",
+  "vaga": "04",
+  "area": "CIÊNCIAS HUMANAS/EDUCAÇÃO",
+  "requisito_literal": "Graduação em Pedagogia. Mestrado na grande área das Ciências Humanas (CAPES).",
+  "decisao": "pode_servir",
+  "motivos": [
+   "graduação em Pedagogia",
+   "programa na grande área Ciências Humanas, pela área que você declarou"
+  ],
+  "n": 5085
+ },
+ {
+  "perfil": {
+   "id": "p85-agronomia-doutorado-ciencia-do-solo",
+   "graduacoes": [
+    {
+     "curso": "Agronomia",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "doutorado",
+     "programa": "Ciência do Solo",
+     "area_capes": "Ciências Agrárias I",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "ifsuldeminas-188-2026",
+  "vaga": "MUZ-1",
+  "area": "Zootecnia I - Avicultura de Corte e Postura e Piscicultura",
+  "requisito_literal": "Graduação em Zootecnia; ou Medicina Veterinária; ou Agronomia",
+  "decisao": "pode_servir",
+  "motivos": [
+   "graduação em Agronomia"
+  ],
+  "n": 5086
+ },
+ {
+  "perfil": {
+   "id": "p78-pedagogia-mestrado-educacao-doutorado-em-curso",
+   "graduacoes": [
+    {
+     "curso": "Pedagogia",
+     "grau": "licenciatura"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "mestrado",
+     "programa": "Educação",
+     "area_capes": "Educação",
+     "concluida": true
+    },
+    {
+     "nivel": "doutorado",
+     "programa": "Educação",
+     "area_capes": "Educação",
+     "concluida": false
+    }
+   ]
+  },
+  "concurso": "ufrgs-08-2026",
+  "vaga": "09",
+  "area": "Fonoaudiologia, Subárea: Linguagem",
+  "requisito_literal": "Graduação em Fonoaudiologia e Doutorado na área da Fonoaudiologia (CNPq 4.07.00.00-3) ou Distúrbios da Comunicação Humana ou Ciências Médicas ou Ciências da Reabilitação ou Ciências da Saúde ou Saúde Coletiva ou Saúde Pública ou Neurociências ou Ciências Humanas ou Linguística ou Educação ou Letras ou Patologia ou Gerontologia ou Fisioterapia ou Psicologia ou Ensino na Saúde ou Saúde da Criança e do Adolescente ou Psicolinguística ou Ciências da Comunicação ou Comunicação Humana ou Psicopedagogia ou Epidemiologia ou Educação Especial e Registro Profissional emitida pelo Conselho de Fonoaudiologia",
+  "decisao": "nao_serve",
+  "motivos": [],
+  "n": 5087
+ },
+ {
+  "perfil": {
+   "id": "p77-fisioterapia-mestrado-sem-area",
+   "graduacoes": [
+    {
+     "curso": "Fisioterapia",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "mestrado",
+     "programa": "Fisioterapia",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "ufpe-08-2026",
+  "vaga": "28",
+  "area": "Fisioterapia Neuromuscular, Esquelética e Tegumentar / Subárea: Fisioterapia Neurofuncional",
+  "requisito_literal": "DOUTORADO em Fisioterapia OU em Ciências da Saúde OU nas áreas de Ciências Biológicas, OU Engenharias, OU Ciências Sociais e Aplicadas, OU Ciências Humanas, OU Educação, OU Multidisciplinar; E GRADUAÇÃO em Fisioterapia.",
+  "decisao": "nao_serve",
+  "motivos": [],
+  "n": 5088
+ },
+ {
+  "perfil": {
+   "id": "p75-medicina-residencia-medicina-familia",
+   "graduacoes": [
+    {
+     "curso": "Medicina",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "residencia",
+     "programa": "Medicina de Família e Comunidade",
+     "concluida": true
+    },
+    {
+     "nivel": "mestrado",
+     "programa": "Saúde Coletiva",
+     "area_capes": "Saúde Coletiva",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "ufscar-004-2026",
+  "vaga": "18",
+  "area": "Medicina; Subárea: Medicina de Família e Comunidade",
+  "requisito_literal": "1) Graduação em Medicina; E 2) Residência Médica em Medicina de Família e Comunidade; ou Título de Especialista em Medicina de Família e Comunidade; E 3) Mestrado reconhecido pela CAPES.",
+  "decisao": "pode_servir",
+  "motivos": [
+   "graduação em Medicina",
+   "pós em Medicina de Família e Comunidade",
+   "em qualquer área"
+  ],
+  "n": 5089
+ },
+ {
+  "perfil": {
+   "id": "p75-medicina-residencia-medicina-familia",
+   "graduacoes": [
+    {
+     "curso": "Medicina",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "residencia",
+     "programa": "Medicina de Família e Comunidade",
+     "concluida": true
+    },
+    {
+     "nivel": "mestrado",
+     "programa": "Saúde Coletiva",
+     "area_capes": "Saúde Coletiva",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "ifmt-03-2026",
+  "vaga": "12",
+  "area": "Medicina Veterinária - Clínica médica e cirurgia de pequenos animais",
+  "requisito_literal": "Graduação em Medicina Veterinária e registro no Conselho Profissional competente.",
+  "decisao": "nao_serve",
+  "motivos": [],
+  "n": 5090
+ },
+ {
+  "perfil": {
+   "id": "p92-tecnologo-radiologia-especializacao",
+   "graduacoes": [
+    {
+     "curso": "Radiologia",
+     "grau": "tecnologo"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "especializacao",
+     "programa": "Radiologia e Diagnóstico por Imagem",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "uftm-28-2026",
+  "vaga": "02",
+  "area": "Radiologia: Saúde e Biológicas",
+  "requisito_literal": "Tecnólogo em Radiologia; e Registro no Conselho competente (Conselho de Técnicos em Radiologia 3ª Região).",
+  "decisao": "pode_servir",
+  "motivos": [
+   "graduação em Radiologia",
+   "confira também: Registro no Conselho competente (Conselho de Técnicos em Radiologia 3ª Região)"
+  ],
+  "n": 5091
+ },
+ {
+  "perfil": {
+   "id": "p75-medicina-residencia-medicina-familia",
+   "graduacoes": [
+    {
+     "curso": "Medicina",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "residencia",
+     "programa": "Medicina de Família e Comunidade",
+     "concluida": true
+    },
+    {
+     "nivel": "mestrado",
+     "programa": "Saúde Coletiva",
+     "area_capes": "Saúde Coletiva",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "ufpe-08-2026",
+  "vaga": "04",
+  "area": "Medicina/Medicina de Família e Comunidade",
+  "requisito_literal": "ESPECIALIZAÇÃO ou Residência Médica em medicina de família e comunidade; E GRADUAÇÃO em Medicina.",
+  "decisao": "pode_servir",
+  "motivos": [
+   "graduação em Medicina",
+   "pós em medicina de família e comunidade"
+  ],
+  "n": 5092
+ },
+ {
+  "perfil": {
+   "id": "p76-enfermagem-doutorado-enfermagem-concentracao",
+   "graduacoes": [
+    {
+     "curso": "Enfermagem",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "doutorado",
+     "programa": "Enfermagem",
+     "area_capes": "Enfermagem",
+     "concentracao": "Enfermagem Obstétrica",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "ufba-06-2026",
+  "vaga": "04",
+  "area": "Gestão e Educação Permanente em Saúde e Enfermagem",
+  "requisito_literal": "Graduação em Enfermagem e Mestrado em Enfermagem ou áreas afins",
+  "decisao": "pode_servir",
+  "motivos": [
+   "graduação em Enfermagem",
+   "doutorado atende a exigência de mestrado na mesma área",
+   "pós em Enfermagem"
+  ],
+  "n": 5093
+ },
+ {
+  "perfil": {
+   "id": "p78-pedagogia-mestrado-educacao-doutorado-em-curso",
+   "graduacoes": [
+    {
+     "curso": "Pedagogia",
+     "grau": "licenciatura"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "mestrado",
+     "programa": "Educação",
+     "area_capes": "Educação",
+     "concluida": true
+    },
+    {
+     "nivel": "doutorado",
+     "programa": "Educação",
+     "area_capes": "Educação",
+     "concluida": false
+    }
+   ]
+  },
+  "concurso": "ufersa-030-2026",
+  "vaga": "21",
+  "area": "Ciência da Fonoaudiologia; Tecnologia e Fonoaudiologia. Ensino Tutorial - PBL",
+  "requisito_literal": "Graduação em Fonoaudiologia. Doutorado em Ciências da Saúde ou Educação",
+  "decisao": "nao_serve",
+  "motivos": [],
+  "n": 5094
+ },
+ {
+  "perfil": {
+   "id": "p89-arquitetura-mestrado-urbanismo",
+   "graduacoes": [
+    {
+     "curso": "Arquitetura e Urbanismo",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "mestrado",
+     "programa": "Urbanismo",
+     "area_capes": "Arquitetura, Urbanismo e Design",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "ufscar-004-2026",
+  "vaga": "65",
+  "area": "Design/ Desenho Industrial; Subárea: Design de Produto",
+  "requisito_literal": "Título de Doutor em uma das seguintes áreas de conhecimento Capes: Design (61200000), ou Desenho Industrial (61200000) ou Engenharia de Produção (30800005) ou Engenharia Mecânica (30500001) ou Engenharia de Manufatura, ou Arquitetura e Urbanismo (60400005)",
+  "decisao": "nao_serve",
+  "motivos": [],
+  "n": 5095
+ },
+ {
+  "perfil": {
+   "id": "p82-ciencias-contabeis-doutorado-administracao",
+   "graduacoes": [
+    {
+     "curso": "Ciências Contábeis",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "doutorado",
+     "programa": "Administração",
+     "area_capes": "Administração Pública e de Empresas, Ciências Contábeis e Turismo",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "unespar-023-2026",
+  "vaga": "1320",
+  "area": "CIÊNCIAS CONTÁBEIS",
+  "requisito_literal": "Bacharelado em Ciências Contábeis. Doutorado em Ciências Contábeis ou Contabilidade",
+  "decisao": "depende_da_banca",
+  "motivos": [
+   "graduação em Ciências Contábeis",
+   "o edital pede Ciências Contábeis, que na tabela do CNPq fica dentro de Administração; confira se sua tese é nesse tema"
+  ],
+  "n": 5096
+ },
+ {
+  "perfil": {
+   "id": "p73-eng-civil-mestrado-transportes",
+   "graduacoes": [
+    {
+     "curso": "Engenharia Civil",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "mestrado",
+     "programa": "Engenharia de Transportes",
+     "area_capes": "Engenharias I",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "unimontes-14-2026",
+  "vaga": "01",
+  "area": "ENGENHARIAS/ENGENHARIAS I",
+  "requisito_literal": "Bacharelado em Engenharia Civil com Mestrado em Engenharia Civil; ou em áreas correlatas pertencentes à área de avaliação Engenharias I da Coordenação de Aperfeiçoamento de Pessoal de Nível Superior - CAPES; ou em Modelagem Computacional; ou em Modelagem Computacional e de Sistemas.",
+  "decisao": "pode_servir",
+  "motivos": [
+   "graduação em Engenharia Civil",
+   "programa na área de avaliação Engenharias I, como você declarou"
+  ],
+  "n": 5097
+ },
+ {
+  "perfil": {
+   "id": "p83-direito-mestrado-sem-area",
+   "graduacoes": [
+    {
+     "curso": "Direito",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "especializacao",
+     "programa": "Direito Público",
+     "concluida": true
+    },
+    {
+     "nivel": "mestrado",
+     "programa": "Direito",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "unifal-002-2026",
+  "vaga": "G",
+  "area": "Direito privado e demais unidades curriculares da área jurídica dos cursos oferecido pela UNIFAL/MG.",
+  "requisito_literal": "Graduação em Direito com Mestrado em Direito (60100001) e/ou Doutorado em Direito (60100001)",
+  "decisao": "pode_servir",
+  "motivos": [
+   "graduação em Direito",
+   "pós em Direito"
+  ],
+  "n": 5098
+ },
+ {
+  "perfil": {
+   "id": "p72-eng-eletrica-doutorado-eng-biomedica",
+   "graduacoes": [
+    {
+     "curso": "Engenharia Elétrica",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "doutorado",
+     "programa": "Engenharia Biomédica",
+     "area_capes": "Engenharias IV",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "ufc-48-2026",
+  "vaga": "15",
+  "area": "Eletrônica de Potência e Acionamento de Máquinas Elétricas",
+  "requisito_literal": "Graduação em Engenharia Elétrica ou Engenharia Eletrônica e Doutorado na Área do Concurso",
+  "decisao": "depende_da_banca",
+  "motivos": [
+   "graduação em Engenharia Elétrica",
+   "o edital pede a área do concurso (Eletrônica de Potência e Acionamento de Máquinas Elétricas); confira se seu programa ou sua tese é nela"
+  ],
+  "n": 5099
+ },
+ {
+  "perfil": {
+   "id": "p75-medicina-residencia-medicina-familia",
+   "graduacoes": [
+    {
+     "curso": "Medicina",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "residencia",
+     "programa": "Medicina de Família e Comunidade",
+     "concluida": true
+    },
+    {
+     "nivel": "mestrado",
+     "programa": "Saúde Coletiva",
+     "area_capes": "Saúde Coletiva",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "ufrn-058-2026",
+  "vaga": "704339",
+  "area": "Endocrinologia e Metabologia",
+  "requisito_literal": "Graduação em Medicina + Residência Médica ou Título de Especialista em Endocrinologia + Mestrado ou Doutorado em Endocrinologia ou em área correlata",
+  "decisao": "nao_serve",
+  "motivos": [],
+  "n": 5100
+ },
+ {
+  "perfil": {
+   "id": "p72-eng-eletrica-doutorado-eng-biomedica",
+   "graduacoes": [
+    {
+     "curso": "Engenharia Elétrica",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "doutorado",
+     "programa": "Engenharia Biomédica",
+     "area_capes": "Engenharias IV",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "ufc-48-2026",
+  "vaga": "36",
+  "area": "Engenharia de Software Seguro",
+  "requisito_literal": "Graduação em Computação ou Engenharia Elétrica ou Engenharia Eletrônica ou Engenharia de Computação ou Engenharia de Teleinformática ou Engenharia de Telecomunicações e Mestrado em Computação ou Engenharia de Computação",
+  "decisao": "nao_serve",
+  "motivos": [],
+  "n": 5101
+ },
+ {
+  "perfil": {
+   "id": "p72-eng-eletrica-doutorado-eng-biomedica",
+   "graduacoes": [
+    {
+     "curso": "Engenharia Elétrica",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "doutorado",
+     "programa": "Engenharia Biomédica",
+     "area_capes": "Engenharias IV",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "uerj-239-2026",
+  "vaga": "01",
+  "area": "Engenharia Econômica",
+  "requisito_literal": "Doutorado (Exigência Mínima de Qualificação do quadro preambular); 2.1, f: possuir título de DOUTOR em Engenharia OU Administração OU Ciências Econômicas OU Economia, obtido em curso de pós-graduação credenciado pelos órgãos competentes em âmbito nacional, ou obtido no exterior, desde que o tenha revalidado no país, em conformidade com as normas vigentes, conforme Lei Estadual n.º 5.343 de 08 de dezembro de 2008. 2.1, g: possuir diploma de curso de graduação em Engenharia OU Administração OU Economia OU Ciências Econômicas OU Ciências Contábeis, obtido em curso realizado em instituição oficial ou reconhecida de ensino superior, conforme Lei Estadual n.º 5.343 de 08 de dezembro de 2008.",
+  "decisao": "pode_servir",
+  "motivos": [
+   "graduação em Engenharia",
+   "o edital pede Engenharia, e seu programa (Engenharia Biomédica) é um recorte dessa área"
+  ],
+  "n": 5102
+ },
+ {
+  "perfil": {
+   "id": "p82-ciencias-contabeis-doutorado-administracao",
+   "graduacoes": [
+    {
+     "curso": "Ciências Contábeis",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "doutorado",
+     "programa": "Administração",
+     "area_capes": "Administração Pública e de Empresas, Ciências Contábeis e Turismo",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "ufersa-030-2026",
+  "vaga": "08",
+  "area": "Contabilidade Avançada, Auditoria e Perícia",
+  "requisito_literal": "Graduação em Ciências Contábeis, com mestrado em Ciências Contábeis ou Administração, e doutorado em Ciências Contábeis ou Administração",
+  "decisao": "pode_servir",
+  "motivos": [
+   "graduação em Ciências Contábeis",
+   "doutorado atende a exigência de mestrado na mesma área",
+   "pós em Administração",
+   "pós em Administração"
+  ],
+  "n": 5103
+ }
+]

@@ -1,0 +1,410 @@
+[
+ {
+  "n": 5001,
+  "concurso": "ufms-137-2026",
+  "vaga": "1195",
+  "decisao": "depende_da_banca",
+  "veredito": "certo",
+  "explicacao": "Graduação confere; doutorado em programa de Engenharias IV, mas a área básica pedida é Engenharia Elétrica e o programa é de Engenharia Biomédica; área básica/concentração não informada no perfil, depende da banca é razoável."
+ },
+ {
+  "n": 5002,
+  "concurso": "unimontes-25-2026",
+  "vaga": "002",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Exige especialização/residência em Pediatria, Neonatologia ou UTI neonatal/pediátrica; o perfil não tem nenhuma (doutorado com concentração obstétrica não supre)."
+ },
+ {
+  "n": 5003,
+  "concurso": "unimontes-06-2026",
+  "vaga": "02",
+  "decisao": "depende_da_banca",
+  "veredito": "certo",
+  "explicacao": "Pedagogia confere e Educação está em Ciências Humanas, mas o doutorado está em curso; depende da banca correto."
+ },
+ {
+  "n": 5004,
+  "concurso": "ufpe-08-2026",
+  "vaga": "12",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Exige doutorado; candidata tem só mestrado."
+ },
+ {
+  "n": 5005,
+  "concurso": "ufpe-08-2026",
+  "vaga": "03",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Exige graduação em Licenciatura Intercultural Indígena; candidato é licenciado em Computação."
+ },
+ {
+  "n": 5006,
+  "concurso": "ifsuldeminas-188-2026",
+  "vaga": "MUZ-1",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Medicina Veterinária é uma das graduações aceitas."
+ },
+ {
+  "n": 5007,
+  "concurso": "ufba-06-2026",
+  "vaga": "21",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Exige graduação em Medicina com residência/título em Patologia; candidato é médico veterinário."
+ },
+ {
+  "n": 5008,
+  "concurso": "ufscar-004-2026",
+  "vaga": "53",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Doutor em Educação; o requisito não exige graduação específica."
+ },
+ {
+  "n": 5009,
+  "concurso": "uema-137-2026",
+  "vaga": "03",
+  "decisao": "depende_da_banca",
+  "veredito": "certo",
+  "explicacao": "Graduação em Agronomia confere; doutorado em Ciência do Solo (subárea de Agronomia, Ciências Agrárias I) não tem o nome pedido (Agronomia, Fitotecnia, Produção Vegetal); enquadramento plausível pela banca."
+ },
+ {
+  "n": 5010,
+  "concurso": "ifsc-01-2026",
+  "vaga": "16",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Licenciatura em Letras Espanhol é um dos cursos aceitos."
+ },
+ {
+  "n": 5011,
+  "concurso": "ufsm-198-2026",
+  "vaga": "02",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Graduação em Engenharia Ambiental (sem Sanitária) não está na lista e não há doutorado."
+ },
+ {
+  "n": 5012,
+  "concurso": "ufc-48-2026",
+  "vaga": "34",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Graduação confere, mas exige mestrado em Computação ou Engenharia de Computação; o doutorado é em Engenharia Biomédica."
+ },
+ {
+  "n": 5013,
+  "concurso": "unimontes-12-2026",
+  "vaga": "110.2",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Exige doutorado em Filosofia; o doutorado é em Educação."
+ },
+ {
+  "n": 5014,
+  "concurso": "ifsuldeminas-188-2026",
+  "vaga": "IFS-1",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Medicina Veterinária é uma das graduações aceitas."
+ },
+ {
+  "n": 5015,
+  "concurso": "ufrgs-08-2026",
+  "vaga": "11",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Exige doutorado em História; candidato tem só mestrado."
+ },
+ {
+  "n": 5016,
+  "concurso": "ifsuldeminas-188-2026",
+  "vaga": "IFS-1",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Agronomia é uma das graduações aceitas."
+ },
+ {
+  "n": 5017,
+  "concurso": "unimontes-26-2026",
+  "vaga": "003",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Exige graduação em Educação Física; candidato é graduado em Filosofia."
+ },
+ {
+  "n": 5018,
+  "concurso": "ufc-48-2026",
+  "vaga": "17",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Exige doutorado em Direito; candidato tem mestrado e especialização."
+ },
+ {
+  "n": 5019,
+  "concurso": "furb-07-2026",
+  "vaga": "01",
+  "decisao": "depende_da_banca",
+  "veredito": "certo",
+  "explicacao": "Graduação confere; doutorado em Administração não está na lista nominal, mas está na área de avaliação que inclui Ciências Contábeis e a tese pode ser em contabilidade; depende da banca defensável, embora no limite."
+ },
+ {
+  "n": 5020,
+  "concurso": "ufpel-028-2026",
+  "vaga": "27",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Doutorado em Ciências Cirúrgicas (Medicina III) está sem dúvida na grande área Ciências da Saúde, aceita pelo requisito."
+ },
+ {
+  "n": 5021,
+  "concurso": "unimontes-04-2026",
+  "vaga": "04",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Exige graduação em Medicina com residência/especialização em GO; candidato é veterinário."
+ },
+ {
+  "n": 5022,
+  "concurso": "ufc-48-2026",
+  "vaga": "19",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Graduação em Ciências Contábeis e doutorado em Administração, que está na lista."
+ },
+ {
+  "n": 5023,
+  "concurso": "ufscar-004-2026",
+  "vaga": "59",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Exige doutorado; candidato tem só mestrado."
+ },
+ {
+  "n": 5024,
+  "concurso": "ufrn-109-2026",
+  "vaga": "09",
+  "decisao": "depende_da_banca",
+  "veredito": "certo",
+  "explicacao": "Graduação confere; não há especialização, e o doutorado em Enfermagem (concentração Obstétrica) só serviria como área afim a Saúde Coletiva/Saúde do Trabalhador, o que é julgamento da banca; aceitável, mas no limite."
+ },
+ {
+  "n": 5025,
+  "concurso": "ufrgs-08-2026",
+  "vaga": "04",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Doutor em Educação; o requisito não exige graduação específica."
+ },
+ {
+  "n": 5026,
+  "concurso": "unimontes-15-2026",
+  "vaga": "05",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Ciências Biológicas e doutorado em Botânica, ambos pedidos."
+ },
+ {
+  "n": 5027,
+  "concurso": "ufscar-004-2026",
+  "vaga": "25",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Doutorado em Educação é uma das alternativas; sem exigência de graduação."
+ },
+ {
+  "n": 5028,
+  "concurso": "unimontes-09-2026",
+  "vaga": "01",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Exige graduação em Serviço Social; candidata é de Letras."
+ },
+ {
+  "n": 5029,
+  "concurso": "unimontes-26-2026",
+  "vaga": "008",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Exige graduação em Educação Física; candidato é de Física."
+ },
+ {
+  "n": 5030,
+  "concurso": "unimontes-27-2026",
+  "vaga": "02",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Exige graduação em Comunicação/Artes/Cinema/Audiovisual e doutorado; candidato é tecnólogo em Radiologia com especialização."
+ },
+ {
+  "n": 5031,
+  "concurso": "uema-139-2026",
+  "vaga": "06",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Licenciatura em Física e doutorado em Física, como pedido."
+ },
+ {
+  "n": 5032,
+  "concurso": "ufrgs-09-2026",
+  "vaga": "02",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Exige doutorado; candidata tem só mestrado."
+ },
+ {
+  "n": 5033,
+  "concurso": "ufms-137-2026",
+  "vaga": "1170",
+  "decisao": "depende_da_banca",
+  "veredito": "certo",
+  "explicacao": "Licenciatura em Letras confere e o programa é de Linguística e Literatura, mas a área básica pedida é Letras/Teoria Literária/Língua Portuguesa e o programa é de Linguística Aplicada; depende da banca razoável."
+ },
+ {
+  "n": 5034,
+  "concurso": "unimontes-26-2026",
+  "vaga": "001",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Exige graduação em Educação Física; candidata é de Ciências Biológicas."
+ },
+ {
+  "n": 5035,
+  "concurso": "uneb-085-2026",
+  "vaga": "006",
+  "decisao": "depende_da_banca",
+  "veredito": "certo",
+  "explicacao": "Medicina com residência em MFC confere; mestrado em Saúde Coletiva entra como área afim a Medicina, que o edital admite; depende da banca correto."
+ },
+ {
+  "n": 5036,
+  "concurso": "uerj-225-2026",
+  "vaga": "01",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Exige doutorado; candidato não tem pós."
+ },
+ {
+  "n": 5037,
+  "concurso": "ufrgs-09-2026",
+  "vaga": "06",
+  "decisao": "depende_da_banca",
+  "veredito": "certo",
+  "explicacao": "Doutorado em Ciência do Solo não tem o nome pedido e o edital exige tese na área do concurso (ecofisiologia e manejo de plantas), diferente da do programa; pela convenção, depende da banca."
+ },
+ {
+  "n": 5038,
+  "concurso": "unifesp-365-2026",
+  "vaga": "01",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Exige graduação em Engenharia Química e doutorado; candidato é licenciado em Química com mestrado."
+ },
+ {
+  "n": 5039,
+  "concurso": "ufpel-028-2026",
+  "vaga": "16",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Medicina com residência em Medicina de Família e Comunidade, como pedido."
+ },
+ {
+  "n": 5040,
+  "concurso": "ifmg-1077-2026",
+  "vaga": "17",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Exige Letras com dupla habilitação Português/Espanhol; candidata tem licenciatura só em Espanhol."
+ },
+ {
+  "n": 5041,
+  "concurso": "usp-fm-166-2026",
+  "vaga": "1266500",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Doutorado em Ciências Cirúrgicas, área Medicina III declarada, atende 'doutor na área de Medicina'."
+ },
+ {
+  "n": 5042,
+  "concurso": "ufsm-221-2026",
+  "vaga": "02",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Residência em Anestesiologia e doutorado na área de Medicina, como pedido."
+ },
+ {
+  "n": 5043,
+  "concurso": "ufrn-058-2026",
+  "vaga": "267703",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Exige doutorado em Música; candidato tem só mestrado."
+ },
+ {
+  "n": 5044,
+  "concurso": "ifmg-2026",
+  "vaga": "04",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Bacharelado em Direito, único requisito de formação."
+ },
+ {
+  "n": 5045,
+  "concurso": "ufc-48-2026",
+  "vaga": "01",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Graduação em Agronomia confere, mas o doutorado em Ciência do Solo (Ciências Agrárias I) não é Biodiversidade nem Ciências Biológicas I/II."
+ },
+ {
+  "n": 5046,
+  "concurso": "ufpe-08-2026",
+  "vaga": "28",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Exige graduação em Fisioterapia; candidata é de Ciências Biológicas."
+ },
+ {
+  "n": 5047,
+  "concurso": "unimontes-06-2026",
+  "vaga": "06",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Pedagogia e mestrado em Educação (Ciências Humanas) concluído."
+ },
+ {
+  "n": 5048,
+  "concurso": "ufms-137-2026",
+  "vaga": "1175",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Exige doutorado em História; candidato tem só mestrado."
+ },
+ {
+  "n": 5049,
+  "concurso": "ufersa-030-2026",
+  "vaga": "02",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Exige graduação e doutorado em Engenharia Química; candidato é licenciado em Química."
+ },
+ {
+  "n": 5050,
+  "concurso": "uneb-085-2026",
+  "vaga": "003",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Exige residência ou título em Pediatria; candidato tem residência em Anestesiologia."
+ },
+ {
+  "n": 5051,
+  "concurso": "ifsc-01-2026",
+  "vaga": "14",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Engenharia Elétrica é uma das graduações aceitas."
+ }
+]
