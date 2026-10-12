@@ -41,6 +41,9 @@
 // Gerado por compilar_radar.py a partir das extrações v2 (vigia-documentos/extracoes).
 // Para corrigir um dado, corrija a extração e rode o compilador de novo.
 
+// Gerado por compilar_radar.py a partir das extrações v2 (vigia-documentos/extracoes).
+// Para corrigir um dado, corrija a extração e rode o compilador de novo.
+
 window.RADAR_ATUALIZADO = "11/10/2026";
 
 window.CONCURSOS = [
@@ -9645,8 +9648,8 @@ window.CONCURSOS = [
     "link_oficial": "https://www.ufsm.br/pro-reitorias/progep/editais/221-2026",
     "inscricao": {
       "inicio": "2026-08-25",
-      "fim": "2026-10-27",
-      "situacao": "aberta",
+      "fim": "2026-09-23",
+      "situacao": "encerrada",
       "taxa": "R$ 412,60 (doutorado DE), R$ 250,00 (doutorado 40h), R$ 154,00 (especialização 40h). O prazo geral encerrou em 23/09, com GRU até 24/09. Só a área de Anestesiologia foi prorrogada, de 28/09 a 27/10, com GRU até 28/10"
     },
     "etapas": [
@@ -35386,9 +35389,8 @@ window.CONCURSOS = [
       }
     ],
     "periodo_provas": {
-      "inicio": "2026-10-26",
-      "fim": "2026-11-06",
-      "nota": "Período previsto do concurso pela Portaria nº 10079, de 01/10/2026: de 26/10 a 06/11/2026, com sessão de instalação em 26/10 e prova escrita em 27/10, às 13h"
+      "inicio": "2026-10-27",
+      "fim": "2026-10-27"
     },
     "logo": "ufmg.png",
     "formacoes_status": "completo",
@@ -41632,7 +41634,7 @@ window.CONCURSOS = [
     "instituicao": "Universidade Federal dos Vales do Jequitinhonha e Mucuri",
     "nivel": "Magistério Superior",
     "uf": "MG",
-    "numero_edital": "Edital nº 101/2026",
+    "numero_edital": "Edital nº 101/2026, com 1 documento de alteração publicado depois",
     "vagas": "24 vagas",
     "areas": "23 áreas, entre elas Ciência da Computação (ou Informática) OU Engenharias - Subárea: Análise de Algoritmos e Complexidade de Computação ou Metodologia e Técnicas da Computação ou Banco de Dados ou Sistemas de Informação ou Linguagens de Programação ou Inteligência Artificial ou Inteligência Computacional, Ciência da Computação (ou Informática) OU Engenharias - Subárea: Sistemas de Computação OU Arquitetura de Sistemas de Computação OU Hardware OU Linguagens de Programação OU Metodologia e Técnicas da Computação OU Sistemas de Informação OU Inteligência Artificia, Interdisciplinar, Sociologia, Odontologia (4.02.00.00- 0) - Subárea: Clínica Odontológica (4.02.01.00-7) - Especialidade: em Dentística ou Prótese Dentária e Ciências Exatas e da Terra/Química",
     "campi": "Conceição do Mato Dentro, Diamantina, Janaúba, Teófilo Otoni, Faculdade de Ciências Exatas - FACET Conceição do Mato Dentro, Faculdade de Ciências Biológicas e da Saúde - FCBS Campus I e Campus JK, Faculdade de Ciências Exatas - FACET Campus JK e Faculdade de Ciências Agrárias - FCA Campus JK",
@@ -41645,7 +41647,7 @@ window.CONCURSOS = [
       "inicio": "2026-09-25",
       "fim": "2026-10-23",
       "situacao": "aberta",
-      "taxa": "R$ 200,00. Nas áreas 101.3, 101.7, 101.8, 101.9, 101.20 e 101.23 a inscrição foi prorrogada até 06/11/2026 (Edital 102/2026)"
+      "taxa": "R$ 200,00. Prazo de inscrição próprio: Área 101.3 (Interdisciplinar, Sociologia), Área 101.7 (Recursos Florestais E Engenharia Florestal -…), Área 101.8 (Farmácia - Subárea: Cuidado Farmacêutico…), Área 101.9 (Farmácia - Subárea: Farmacotecnia), Área 101.20 (Economia) e Área 101.23 (Medicina Veterinária - Subárea: Clínica e…), de 25/09/2026 a 06/11/2026"
     },
     "etapas": [
       {
@@ -41862,7 +41864,7 @@ window.CONCURSOS = [
     "id": "unicamp-cotil-06-2026",
     "sigla": "UNICAMP",
     "instituicao": "Universidade Estadual de Campinas",
-    "nivel": "EBTT",
+    "nivel": "Magistério Secundário Técnico",
     "uf": "SP",
     "numero_edital": "Edital nº 06/2026, publicado em 04/09/2026",
     "vagas": "1 vaga",
@@ -41953,7 +41955,7 @@ window.CONCURSOS = [
     "formacoes": [],
     "familias_pos": [],
     "areas_formacoes": [],
-    "observacao": "Uma vaga de professor de ensino técnico no colégio técnico da Unicamp em Limeira, para quem tem Engenharia Civil e seis meses de experiência, sem exigir pós. A carreira é a de Magistério Secundário Técnico da Unicamp, não a EBTT federal, mas a aula é para ensino técnico. A didática tem o maior peso do concurso, 5 de 12, e a aula é curta, até 30 minutos, com tema sorteado 24 horas antes de uma lista de 10 divulgada com 20 dias úteis de antecedência. Inscrição até 07/10.",
+    "observacao": "Uma vaga de professor de ensino técnico no colégio técnico da Unicamp em Limeira, para quem tem Engenharia Civil e seis meses de experiência, sem exigir pós. A carreira é a de Magistério Secundário Técnico da Unicamp, não a EBTT federal, mas a aula é para ensino técnico. A didática tem o maior peso do concurso, 5 de 12, e a aula é curta, até 30 minutos, com tema sorteado 24 horas antes de uma lista de 10 divulgada com 20 dias úteis de antecedência.",
     "detalhamento": "completo",
     "avisos_edital": [],
     "fonte_dados": {
@@ -42458,7 +42460,7 @@ window.CONCURSOS = [
       "inicio": "2026-09-28",
       "fim": "2026-10-28",
       "situacao": "aberta",
-      "taxa": "De R$ 61,00 a R$ 240,00, conforme a área. O prazo de 28/09 a 28/10/2026 vale para 28 das 32 áreas. Têm prazo próprio Radiologia Odontológica e Imaginologia (21/12/2026 a 20/01/2027), Conservação da Natureza (18/01 a 17/02/2027), Sistemas de Informação Geográfica (18/02 a 19/03/2027) e Manejo de Florestas Naturais (22/03 a 20/04/2027). Confira o Anexo 02 do edital"
+      "taxa": "R$ 240,00. Prazo de inscrição próprio: Item 1.1 (Sistemas de Informação Geográfica), de 18/02/2027 a 19/03/2027; Item 1.2 (Manejo de Florestas Naturais), de 22/03/2027 a 20/04/2027; Item 1.3 (Conservação da Natureza), de 18/01/2027 a 17/02/2027; Item 1.28 (Radiologia Odontológica e Imaginologia), de 21/12/2026 a 20/01/2027. A taxa varia de R$ 61,00 a R$ 240,00, conforme a área (Anexo 02 do edital)"
     },
     "etapas": [
       {
@@ -42467,7 +42469,7 @@ window.CONCURSOS = [
         "carater": "Eliminatória e classificatória",
         "data": {
           "tipo": "nao_divulgada",
-          "nota": "Período provável de provas, por área, no Anexo 02: segunda quinzena de novembro na maioria das áreas; primeira quinzena de dezembro em Arqueologia, Medicina Veterinária (Palotina) e Estatística e Ciência de Dados; nas áreas com inscrição em 2027, segunda quinzena de fevereiro (Radiologia Odontológica), primeira quinzena de março (Conservação da Natureza), segunda quinzena de abril (Sistemas de Informação Geográfica) e segunda quinzena de maio (Manejo de Florestas Naturais)"
+          "nota": "Por área: Item 1.1 (Sistemas de Informação Geográfica): 2° quinzena de abril (período provável de provas); Item 1.2 (Manejo de Florestas Naturais): 2ª quinzena de maio (período provável de provas); Item 1.3 (Conservação da Natureza): 1° quinzena de março (período provável de provas); 25 áreas: 2ª quinzena de novembro (período provável de provas); Item 1.8 (Arqueologia, com subárea em Arqueologia de…), Item 1.13 (Medicina Veterinária/Clínica Cirúrgica de…) e Item 1.32 (Estatística e Ciência de Dados): 1ª quinzena de dezembro (período provável de provas); Item 1.28 (Radiologia Odontológica e Imaginologia): 2ª quinzena de fevereiro (período provável de provas)"
         },
         "detalhe": {}
       },
@@ -42477,7 +42479,7 @@ window.CONCURSOS = [
         "carater": "Eliminatória e classificatória",
         "data": {
           "tipo": "nao_divulgada",
-          "nota": "Só em Medicina Veterinária (Palotina), Anatomia Humana, Mineralogia e Radiologia Odontológica. Período provável, no Anexo 02: primeira quinzena de dezembro em Medicina Veterinária, segunda quinzena de novembro em Anatomia Humana e Mineralogia e segunda quinzena de fevereiro em Radiologia Odontológica"
+          "nota": "Por área: Item 1.13 (Medicina Veterinária/Clínica Cirúrgica de…): 1ª quinzena de dezembro (período provável de provas); Item 1.21 (Anatomia Humana) e Item 1.24 (Mineralogia): 2ª quinzena de novembro (período provável de provas); Item 1.28 (Radiologia Odontológica e Imaginologia): 2ª quinzena de fevereiro (período provável de provas)"
         },
         "detalhe": {}
       },
@@ -42487,7 +42489,7 @@ window.CONCURSOS = [
         "carater": "Eliminatória e classificatória",
         "data": {
           "tipo": "nao_divulgada",
-          "nota": "Período provável de provas, por área, no Anexo 02: segunda quinzena de novembro na maioria das áreas; primeira quinzena de dezembro em Arqueologia, Medicina Veterinária (Palotina) e Estatística e Ciência de Dados; nas áreas com inscrição em 2027, segunda quinzena de fevereiro (Radiologia Odontológica), primeira quinzena de março (Conservação da Natureza), segunda quinzena de abril (Sistemas de Informação Geográfica) e segunda quinzena de maio (Manejo de Florestas Naturais)"
+          "nota": "Por área: Item 1.1 (Sistemas de Informação Geográfica): 2° quinzena de abril (período provável de provas); Item 1.2 (Manejo de Florestas Naturais): 2ª quinzena de maio (período provável de provas); Item 1.3 (Conservação da Natureza): 1° quinzena de março (período provável de provas); 25 áreas: 2ª quinzena de novembro (período provável de provas); Item 1.8 (Arqueologia, com subárea em Arqueologia de…), Item 1.13 (Medicina Veterinária/Clínica Cirúrgica de…) e Item 1.32 (Estatística e Ciência de Dados): 1ª quinzena de dezembro (período provável de provas); Item 1.28 (Radiologia Odontológica e Imaginologia): 2ª quinzena de fevereiro (período provável de provas)"
         },
         "detalhe": {
           "nota_minima": "7 em 10"
@@ -42547,7 +42549,7 @@ window.CONCURSOS = [
     "instituicao": "UNIVERSIDADE FEDERAL DE VIÇOSA",
     "nivel": "Magistério Superior",
     "uf": "MG",
-    "numero_edital": "Edital nº 47/2026, publicado no DOU de 11/09/2026",
+    "numero_edital": "Edital nº 47/2026, publicado em 11/09/2026",
     "vagas": "1 vaga",
     "areas": "Direito Civil e Prática Processual Civil",
     "campi": "Viçosa/MG e Departamento de Direito, do Centro de Ciências Humanas, Letras e Artes",
@@ -42638,7 +42640,7 @@ window.CONCURSOS = [
     "instituicao": "Universidade Federal de Viçosa",
     "nivel": "Magistério Superior",
     "uf": "MG",
-    "numero_edital": "2 editais: 48/2026 e 49/2026, publicados no DOU de 28/09/2026",
+    "numero_edital": "2 editais: 48/2026 e 49/2026",
     "vagas": "2 vagas",
     "areas": "Projeto Arquitetônico e Urbanístico e Teorias e práticas da arquitetura e do urbanismo contemporâneos",
     "campi": "Viçosa/MG e Departamento de Arquitetura e Urbanismo, do Centro de Ciências Exatas e Tecnológicas",
@@ -42827,6 +42829,10 @@ window.CONCURSOS = [
     "observacao": "Três vagas de doutorado na UNILA, em Foz do Iguaçu: Anatomia humana, Farmacologia clínica e Saúde da família. Inscrição de 28/09 a 27/10/2026, com as provas marcadas para a semana de 25 a 29/01/2027. O detalhe que muda o preparo é o ritmo: a escrita é na segunda de manhã, o ponto da aula é sorteado logo depois dela, sem repetir o ponto da escrita, e a didática vem na terça à tarde ou na quarta de manhã. A aula tem 45 minutos, em sessão fechada, com plano entregue à banca antes de começar, e as provas podem ser feitas em português ou espanhol.",
     "detalhamento": "completo",
     "avisos_edital": [],
+    "periodo_provas": {
+      "inicio": "2027-01-25",
+      "fim": "2027-01-29"
+    },
     "fonte_dados": {
       "origem": "extracao_v2",
       "extracoes": [
@@ -42834,10 +42840,6 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-09",
       "em_conferencia": true
-    },
-    "periodo_provas": {
-      "inicio": "2027-01-25",
-      "fim": "2027-01-29"
     }
   },
   {
