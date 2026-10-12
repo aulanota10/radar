@@ -1,0 +1,10 @@
+[
+ {"id":"p21-servico-social-mestrado","graduacoes":[{"curso":"Serviço Social","grau":"bacharelado"}],"pos":[{"nivel":"mestrado","programa":"Serviço Social","area_capes":"Serviço Social","concluida":true}]},
+ {"id":"p22-arquitetura-doutorado","graduacoes":[{"curso":"Arquitetura e Urbanismo","grau":"bacharelado"}],"pos":[{"nivel":"mestrado","programa":"Arquitetura e Urbanismo","area_capes":"Arquitetura, Urbanismo e Design","concluida":true},{"nivel":"doutorado","programa":"Planejamento Urbano e Regional","area_capes":"Planejamento Urbano e Regional / Demografia","concluida":true}]},
+ {"id":"p23-nutricao-residencia-multi","graduacoes":[{"curso":"Nutrição","grau":"bacharelado"}],"pos":[{"nivel":"residencia","programa":"Residência Multiprofissional em Saúde","concluida":true},{"nivel":"mestrado","programa":"Nutrição","area_capes":"Nutrição","concluida":true}]},
+ {"id":"p24-computacao-doutorado","graduacoes":[{"curso":"Ciência da Computação","grau":"bacharelado"}],"pos":[{"nivel":"mestrado","programa":"Ciência da Computação","area_capes":"Computação","concluida":true},{"nivel":"doutorado","programa":"Ciência da Computação","area_capes":"Computação","concluida":true}]},
+ {"id":"p25-zootecnia-doutorado","graduacoes":[{"curso":"Zootecnia","grau":"bacharelado"}],"pos":[{"nivel":"doutorado","programa":"Zootecnia","area_capes":"Zootecnia / Recursos Pesqueiros","concluida":true}]},
+ {"id":"p26-enfermagem-mestrado-saude-coletiva","graduacoes":[{"curso":"Enfermagem","grau":"bacharelado"}],"pos":[{"nivel":"especializacao","programa":"Saúde da Família","concluida":true},{"nivel":"mestrado","programa":"Saúde Coletiva","area_capes":"Saúde Coletiva","concluida":true}]},
+ {"id":"p27-filosofia-doutorado","graduacoes":[{"curso":"Filosofia","grau":"licenciatura"}],"pos":[{"nivel":"doutorado","programa":"Filosofia","area_capes":"Filosofia","concluida":true}]},
+ {"id":"p28-fisioterapia-doutorado","graduacoes":[{"curso":"Fisioterapia","grau":"bacharelado"}],"pos":[{"nivel":"doutorado","programa":"Ciências da Reabilitação","area_capes":"Educação Física, Fisioterapia, Fonoaudiologia e Terapia Ocupacional","concluida":true}]}
+]

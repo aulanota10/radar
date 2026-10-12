@@ -67,6 +67,20 @@ class Graduacao(unittest.TestCase):
         v = vaga(("qualquer", []))
         self.assertEqual(nivel(v, perfil([("Direito", "bacharelado")])), "pode_servir")
 
+    def test_mesmo_curso_nos_dois_graus_nao_restringe(self):
+        v = vaga(([grad("Física", "licenciatura"), grad("Física", "bacharelado")], []))
+        self.assertEqual(nivel(v, perfil([("Física", None)])), "pode_servir")
+
+    def test_nome_do_candidato_mais_especifico(self):
+        v = vaga(([grad("Letras", "licenciatura")], []))
+        self.assertEqual(nivel(v, perfil([("Letras - Língua Portuguesa", "licenciatura")])), "pode_servir")
+        v = vaga(([grad("Ciências", "licenciatura")], []))
+        self.assertEqual(nivel(v, perfil([("Ciências Sociais", "licenciatura")])), "nao_serve")
+
+    def test_grande_area_com_afins_depende(self):
+        v = vaga(([grad("Ciências da Saúde", escala="grande_area_capes")], [], "afins"))
+        self.assertEqual(nivel(v, perfil([("Enfermagem", "bacharelado")])), "depende_da_banca")
+
     def test_curso_diferente_nao_serve(self):
         v = vaga(([grad("Física")], []))
         self.assertEqual(nivel(v, perfil([("Química", None)])), "nao_serve")
@@ -96,9 +110,38 @@ class Pos(unittest.TestCase):
         v = vaga(("qualquer", [exig(["mestrado"], "Química")]))
         self.assertEqual(nivel(v, perfil(self.P, [pos("doutorado", "Química")])), "pode_servir")
 
-    def test_superior_a_especializacao_depende(self):
+    def test_superior_a_especializacao(self):
         v = vaga(("qualquer", [exig(["especializacao"], "Química")]))
-        self.assertEqual(nivel(v, perfil(self.P, [pos("mestrado", "Química")])), "depende_da_banca")
+        self.assertEqual(nivel(v, perfil(self.P, [pos("mestrado", "Química")])), "pode_servir")
+        medica = vaga(([grad("Medicina")], [exig(["especializacao"], "Pediatria")]))
+        self.assertEqual(nivel(medica, perfil([("Medicina", None)], [pos("mestrado", "Pediatria")])), "depende_da_banca")
+
+    def test_doutorado_cobre_mestrado_e_doutorado_da_mesma_area(self):
+        v = vaga(([grad("Música")], [exig(["mestrado"], "Música"), exig(["doutorado"], "Música")]))
+        self.assertEqual(nivel(v, perfil([("Música", None)], [pos("doutorado", "Música")])), "pode_servir")
+
+    def test_area_de_avaliacao_escrita_como_nome(self):
+        v = vaga(("qualquer", [exig(["doutorado"], "Artes")]))
+        self.assertEqual(nivel(v, perfil(self.P, [pos("doutorado", "Música", area_capes="Artes")])), "pode_servir")
+        self.assertEqual(nivel(v, perfil(self.P, [pos("doutorado", "Música")])), "depende_da_banca")
+
+    def test_subarea_do_cnpq_depende(self):
+        v = vaga(("qualquer", [exig(["doutorado"], "Agronomia")]))
+        self.assertEqual(nivel(v, perfil(self.P, [pos("doutorado", "Fitotecnia")])), "depende_da_banca")
+
+    def test_area_irma_nao_serve(self):
+        v = vaga(("qualquer", [exig(["doutorado"], "Botânica", area("Botânica", "area_capes"))]))
+        p = perfil(self.P, [pos("doutorado", "Ecologia", area_capes="Biodiversidade")])
+        self.assertEqual(nivel(v, p), "nao_serve")
+
+    def test_tese_em_tema_fora_da_area(self):
+        e = dict(exig(["doutorado"], tese=True), nota="tese em Química do Solo")
+        v = {"area_conhecimento": "Química do Solo",
+             "requisito_interpretado": {"caminhos": [{"graduacao": [], "graduacao_qualquer": True, "graduacao_afins": False,
+                                                      "exigencias": [e], "outras_exigencias": []}], "ambiguo": False, "nota": None}}
+        r = lambda q: C.NOME_NIVEL[C.avaliar_vaga(cat, v, perfil(self.P, [q]))[0].nivel]
+        self.assertEqual(r(pos("doutorado", "Música", area_capes="Artes")), "nao_serve")
+        self.assertEqual(r(pos("doutorado", "Química", area_capes="Química")), "depende_da_banca")
 
     def test_titulo_academico_nao_supre_residencia(self):
         v = vaga(([grad("Medicina")], [exig(["residencia", "especializacao"], "Pediatria")]))

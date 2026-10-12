@@ -1,0 +1,714 @@
+[
+ {
+  "n": 90,
+  "concurso": "ufscar-004-2026",
+  "vaga": "16",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito."
+ },
+ {
+  "n": 91,
+  "concurso": "ufscar-004-2026",
+  "vaga": "54",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito."
+ },
+ {
+  "n": 92,
+  "concurso": "ufms-137-2026",
+  "vaga": "1172",
+  "decisao": "depende_da_banca",
+  "veredito": "nivel_trocado",
+  "explicacao": "O primeiro caminho é Psicologia / Psicologia, e o candidato tem doutorado em programa chamado Psicologia na área Psicologia que ele declarou; cumpre pelo nome e pela área, devia ser pode_servir."
+ },
+ {
+  "n": 93,
+  "concurso": "urca-2026",
+  "vaga": "05",
+  "decisao": "depende_da_banca",
+  "veredito": "nivel_trocado",
+  "explicacao": "O candidato tem residência em Clínica Médica, opção expressa do requisito; a ambiguidade Patologia/Patologia Clínica não o atinge e RQE não é formação, devia ser pode_servir."
+ },
+ {
+  "n": 94,
+  "concurso": "ifmt-03-2026",
+  "vaga": "16",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Bacharelado em Química com certificação (complementação pedagógica) em Química cumpre o caminho do bacharel."
+ },
+ {
+  "n": 95,
+  "concurso": "unespar-023-2026",
+  "vaga": "1383",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito."
+ },
+ {
+  "n": 96,
+  "concurso": "ifmt-03-2026",
+  "vaga": "03",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito."
+ },
+ {
+  "n": 97,
+  "concurso": "urca-2026",
+  "vaga": "04",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito."
+ },
+ {
+  "n": 98,
+  "concurso": "ufscar-004-2026",
+  "vaga": "41",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito."
+ },
+ {
+  "n": 99,
+  "concurso": "ufc-48-2026",
+  "vaga": "32",
+  "decisao": "nao_serve",
+  "veredito": "errado_deixaria_de_avisar",
+  "explicacao": "Graduação em Música está na lista e o doutorado em Música tem área CAPES Artes declarada; 'Doutorado em ... Artes' é ao menos plausível, devia ser depende_da_banca ou pode_servir."
+ },
+ {
+  "n": 100,
+  "concurso": "ufpe-08-2026",
+  "vaga": "02",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito."
+ },
+ {
+  "n": 101,
+  "concurso": "ufrn-109-2026",
+  "vaga": "07",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito."
+ },
+ {
+  "n": 102,
+  "concurso": "ufrn-108-2026",
+  "vaga": "03",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito."
+ },
+ {
+  "n": 103,
+  "concurso": "ufrgs-08-2026",
+  "vaga": "02",
+  "decisao": "depende_da_banca",
+  "veredito": "errado_avisaria_quem_nao_pode",
+  "explicacao": "O caminho 'outro doutorado' exige tese no tema de Química do Solo; um doutorado em Música não comporta plausivelmente essa tese, o depende_da_banca só cabe para doutores de áreas vizinhas (Agronomia, Química, Geociências, Ambientais)."
+ },
+ {
+  "n": 104,
+  "concurso": "ifmg-1077-2026",
+  "vaga": "01",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito."
+ },
+ {
+  "n": 105,
+  "concurso": "unifesp-389-2026",
+  "vaga": "13",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito."
+ },
+ {
+  "n": 106,
+  "concurso": "ufpel-028-2026",
+  "vaga": "10",
+  "decisao": "nao_serve",
+  "veredito": "errado_deixaria_de_avisar",
+  "explicacao": "Fitotecnia é subárea de Agronomia (Ciências Agrárias I declarada) e o requisito aceita Doutorado em Agronomia; o enquadramento é plausível, devia ser depende_da_banca."
+ },
+ {
+  "n": 107,
+  "concurso": "ufrn-108-2026",
+  "vaga": "04",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito."
+ },
+ {
+  "n": 108,
+  "concurso": "ufc-48-2026",
+  "vaga": "27",
+  "decisao": "depende_da_banca",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito."
+ },
+ {
+  "n": 109,
+  "concurso": "uerj-224-2026",
+  "vaga": "01",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito."
+ },
+ {
+  "n": 110,
+  "concurso": "ufscar-004-2026",
+  "vaga": "16",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito."
+ },
+ {
+  "n": 111,
+  "concurso": "ufvjm-101-2026",
+  "vaga": "101.20",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito."
+ },
+ {
+  "n": 112,
+  "concurso": "ifmt-03-2026",
+  "vaga": "01",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito."
+ },
+ {
+  "n": 113,
+  "concurso": "ufrn-109-2026",
+  "vaga": "07",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito."
+ },
+ {
+  "n": 114,
+  "concurso": "unimontes-22-2026",
+  "vaga": "11",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito."
+ },
+ {
+  "n": 115,
+  "concurso": "ufvjm-101-2026",
+  "vaga": "101.14",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito."
+ },
+ {
+  "n": 116,
+  "concurso": "ufsj-2026",
+  "vaga": "022",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito."
+ },
+ {
+  "n": 117,
+  "concurso": "ufsm-221-2026",
+  "vaga": "03",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito."
+ },
+ {
+  "n": 118,
+  "concurso": "ufscar-004-2026",
+  "vaga": "08",
+  "decisao": "depende_da_banca",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito."
+ },
+ {
+  "n": 119,
+  "concurso": "uftm-28-2026",
+  "vaga": "01",
+  "decisao": "pode_servir",
+  "veredito": "nivel_trocado",
+  "explicacao": "Educação Física não está nominalmente listada e entra só por 'áreas afins das Ciências da Saúde', o que é juízo da banca; devia ser depende_da_banca."
+ },
+ {
+  "n": 120,
+  "concurso": "unimontes-20-2026",
+  "vaga": "09",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito."
+ },
+ {
+  "n": 121,
+  "concurso": "unifesp-407-2026",
+  "vaga": "22",
+  "decisao": "depende_da_banca",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito."
+ },
+ {
+  "n": 122,
+  "concurso": "ufrn-108-2026",
+  "vaga": "14",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito."
+ },
+ {
+  "n": 123,
+  "concurso": "unimontes-15-2026",
+  "vaga": "04",
+  "decisao": "depende_da_banca",
+  "veredito": "errado_avisaria_quem_nao_pode",
+  "explicacao": "O requisito pede doutorado em Botânica ou Biologia Vegetal, sem 'afins'; doutorado em Ecologia não é nenhum dos dois, e compartilhar a área de avaliação Biodiversidade não basta."
+ },
+ {
+  "n": 124,
+  "concurso": "usp-if-58-2026",
+  "vaga": "1265555",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito."
+ },
+ {
+  "n": 125,
+  "concurso": "ufscar-004-2026",
+  "vaga": "17",
+  "decisao": "depende_da_banca",
+  "veredito": "certo",
+  "explicacao": "Ambiguidade real do texto 'Doutor em Ciências em ... Ecologia'; depende aceitável."
+ },
+ {
+  "n": 126,
+  "concurso": "ufpr-276-2026",
+  "vaga": "1.2",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito."
+ },
+ {
+  "n": 127,
+  "concurso": "ufc-48-2026",
+  "vaga": "55",
+  "decisao": "depende_da_banca",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito."
+ },
+ {
+  "n": 128,
+  "concurso": "unifesp-425-2026",
+  "vaga": "31",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito."
+ },
+ {
+  "n": 129,
+  "concurso": "ufrpe-21-2026",
+  "vaga": "05",
+  "decisao": "depende_da_banca",
+  "veredito": "certo",
+  "explicacao": "Decisão aceitável (Fitotecnia equivale a Produção Vegetal/subárea de Agronomia), mas o motivo 'aceita áreas afins' não está no texto."
+ },
+ {
+  "n": 130,
+  "concurso": "unespar-023-2026",
+  "vaga": "1416",
+  "decisao": "nao_serve",
+  "veredito": "errado_deixaria_de_avisar",
+  "explicacao": "Graduação em Agronomia cumpre e o doutorado em Fitotecnia (Ciências Agrárias I) é subárea de Agronomia, que o requisito aceita; plausível, devia ser depende_da_banca (incoerente com o item 129)."
+ },
+ {
+  "n": 131,
+  "concurso": "unifesp-431-2026",
+  "vaga": "34",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito."
+ },
+ {
+  "n": 132,
+  "concurso": "unimontes-13-2026",
+  "vaga": "08",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito."
+ },
+ {
+  "n": 133,
+  "concurso": "ufscar-004-2026",
+  "vaga": "28",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito."
+ },
+ {
+  "n": 134,
+  "concurso": "ufc-48-2026",
+  "vaga": "41",
+  "decisao": "depende_da_banca",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito."
+ },
+ {
+  "n": 135,
+  "concurso": "ufu-118-2026",
+  "vaga": "1",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito."
+ },
+ {
+  "n": 136,
+  "concurso": "ifmg-1077-2026",
+  "vaga": "02",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito."
+ },
+ {
+  "n": 137,
+  "concurso": "unimontes-03-2026",
+  "vaga": "02",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito."
+ },
+ {
+  "n": 138,
+  "concurso": "ufscar-004-2026",
+  "vaga": "35",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito."
+ },
+ {
+  "n": 139,
+  "concurso": "ufba-06-2026",
+  "vaga": "36",
+  "decisao": "depende_da_banca",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito."
+ },
+ {
+  "n": 140,
+  "concurso": "ufrgs-08-2026",
+  "vaga": "02",
+  "decisao": "depende_da_banca",
+  "veredito": "errado_avisaria_quem_nao_pode",
+  "explicacao": "O caminho 'outro doutorado' exige tese no tema de Química do Solo; doutorado em Educação de licenciado em Física não comporta plausivelmente tese nesse tema."
+ },
+ {
+  "n": 141,
+  "concurso": "ufs-08-2026",
+  "vaga": "01",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito."
+ },
+ {
+  "n": 142,
+  "concurso": "ufrn-108-2026",
+  "vaga": "03",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito."
+ },
+ {
+  "n": 143,
+  "concurso": "ufba-06-2026",
+  "vaga": "37",
+  "decisao": "depende_da_banca",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito."
+ },
+ {
+  "n": 144,
+  "concurso": "ifsuldeminas-188-2026",
+  "vaga": "IFS-5",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito."
+ },
+ {
+  "n": 145,
+  "concurso": "ufrn-109-2026",
+  "vaga": "06",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito."
+ },
+ {
+  "n": 146,
+  "concurso": "ifsuldeminas-188-2026",
+  "vaga": "MCH-6",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito."
+ },
+ {
+  "n": 147,
+  "concurso": "ufpel-028-2026",
+  "vaga": "04",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito."
+ },
+ {
+  "n": 148,
+  "concurso": "ufrgs-08-2026",
+  "vaga": "02",
+  "decisao": "depende_da_banca",
+  "veredito": "errado_avisaria_quem_nao_pode",
+  "explicacao": "O caminho 'outro doutorado' exige tese no tema de Química do Solo; doutorado em Linguística não comporta plausivelmente tese nesse tema."
+ },
+ {
+  "n": 149,
+  "concurso": "uncisal-01-2026",
+  "vaga": "6",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito."
+ },
+ {
+  "n": 150,
+  "concurso": "unimontes-07-2026",
+  "vaga": "03",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito."
+ },
+ {
+  "n": 151,
+  "concurso": "ufrn-108-2026",
+  "vaga": "03",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito."
+ },
+ {
+  "n": 152,
+  "concurso": "ufrgs-09-2026",
+  "vaga": "10",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito."
+ },
+ {
+  "n": 153,
+  "concurso": "ufrgs-08-2026",
+  "vaga": "02",
+  "decisao": "depende_da_banca",
+  "veredito": "errado_avisaria_quem_nao_pode",
+  "explicacao": "O caminho 'outro doutorado' exige tese no tema de Química do Solo; doutorado em História não comporta plausivelmente tese nesse tema."
+ },
+ {
+  "n": 154,
+  "concurso": "unesp-fcfar-88-2026",
+  "vaga": "01",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito."
+ },
+ {
+  "n": 155,
+  "concurso": "ufscar-004-2026",
+  "vaga": "19",
+  "decisao": "depende_da_banca",
+  "veredito": "nivel_trocado",
+  "explicacao": "Residência em Clínica Médica cumpre nas duas leituras apontadas (qualquer residência ou residência nas três áreas); devia ser pode_servir."
+ },
+ {
+  "n": 156,
+  "concurso": "ufrn-108-2026",
+  "vaga": "05",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito."
+ },
+ {
+  "n": 157,
+  "concurso": "ufpe-08-2026",
+  "vaga": "14",
+  "decisao": "nao_serve",
+  "veredito": "errado_deixaria_de_avisar",
+  "explicacao": "Graduação em Letras cumpre e o doutorado em Linguística (Linguística e Literatura) com tese, por natureza, em estudos linguísticos é plausivelmente 'Doutorado em Letras'; devia ser ao menos depende_da_banca."
+ },
+ {
+  "n": 158,
+  "concurso": "ifsc-01-2026",
+  "vaga": "10",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito."
+ },
+ {
+  "n": 159,
+  "concurso": "ufrgs-08-2026",
+  "vaga": "02",
+  "decisao": "depende_da_banca",
+  "veredito": "errado_avisaria_quem_nao_pode",
+  "explicacao": "O caminho 'outro doutorado' exige tese no tema de Química do Solo; doutorado em Ciências Farmacêuticas, ainda em curso, não comporta plausivelmente tese nesse tema."
+ },
+ {
+  "n": 160,
+  "concurso": "ifsc-01-2026",
+  "vaga": "41",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito."
+ },
+ {
+  "n": 161,
+  "concurso": "unifesp-381-2026",
+  "vaga": "09",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito."
+ },
+ {
+  "n": 162,
+  "concurso": "ifsc-01-2026",
+  "vaga": "29",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito."
+ },
+ {
+  "n": 163,
+  "concurso": "unespar-023-2026",
+  "vaga": "1321",
+  "decisao": "nao_serve",
+  "veredito": "errado_deixaria_de_avisar",
+  "explicacao": "Licenciatura em Música cumpre e o doutorado em Música atende tanto a exigência de doutorado quanto a de mestrado (título superior na mesma área); devia ser pode_servir."
+ },
+ {
+  "n": 164,
+  "concurso": "uneb-085-2026",
+  "vaga": "002",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito."
+ },
+ {
+  "n": 165,
+  "concurso": "ufersa-030-2026",
+  "vaga": "11",
+  "decisao": "nao_serve",
+  "veredito": "errado_deixaria_de_avisar",
+  "explicacao": "Graduação e doutorado em Psicologia cumprem (doutorado supre o mestrado); só a ênfase em temas da área depende de comprovação, logo devia ser depende_da_banca."
+ },
+ {
+  "n": 166,
+  "concurso": "ufrgs-08-2026",
+  "vaga": "02",
+  "decisao": "depende_da_banca",
+  "veredito": "errado_avisaria_quem_nao_pode",
+  "explicacao": "O caminho 'outro doutorado' exige tese no tema de Química do Solo; o doutorado em Engenharia Civil tem concentração declarada em Estruturas, incompatível com o tema."
+ },
+ {
+  "n": 167,
+  "concurso": "ufpe-08-2026",
+  "vaga": "18",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito."
+ },
+ {
+  "n": 168,
+  "concurso": "ufsm-198-2026",
+  "vaga": "01",
+  "decisao": "depende_da_banca",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito."
+ },
+ {
+  "n": 169,
+  "concurso": "ufrgs-08-2026",
+  "vaga": "02",
+  "decisao": "depende_da_banca",
+  "veredito": "errado_avisaria_quem_nao_pode",
+  "explicacao": "O caminho 'outro doutorado' exige tese no tema de Química do Solo; doutorado em Direito não comporta plausivelmente tese nesse tema."
+ },
+ {
+  "n": 170,
+  "concurso": "unimontes-24-2026",
+  "vaga": "03",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito."
+ },
+ {
+  "n": 171,
+  "concurso": "ufpe-08-2026",
+  "vaga": "33",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito."
+ },
+ {
+  "n": 172,
+  "concurso": "ifsc-01-2026",
+  "vaga": "11",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito."
+ },
+ {
+  "n": 173,
+  "concurso": "ifmt-03-2026",
+  "vaga": "17",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito."
+ },
+ {
+  "n": 174,
+  "concurso": "uncisal-01-2026",
+  "vaga": "17",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito."
+ },
+ {
+  "n": 175,
+  "concurso": "ufrn-109-2026",
+  "vaga": "03",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito."
+ },
+ {
+  "n": 176,
+  "concurso": "ufvjm-101-2026",
+  "vaga": "101.16",
+  "decisao": "depende_da_banca",
+  "veredito": "nivel_trocado",
+  "explicacao": "O requisito aceita bacharelado ou licenciatura em Geografia, e Geografia só existe nesses graus; o grau não informado é irrelevante (o motivo 'exige bacharelado' é falso), devia ser pode_servir."
+ },
+ {
+  "n": 177,
+  "concurso": "ufpe-08-2026",
+  "vaga": "23",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito."
+ },
+ {
+  "n": 178,
+  "concurso": "unimontes-14-2026",
+  "vaga": "02",
+  "decisao": "depende_da_banca",
+  "veredito": "certo",
+  "explicacao": "Decisão aceitável por outra razão: o texto admite ler 'Graduação em Matemática' como caminho isolado; pela leitura com mestrado obrigatório, mestrado em Matemática não seria Estatística, e o motivo dado (mesma área de avaliação) não sustentaria o depende."
+ }
+]

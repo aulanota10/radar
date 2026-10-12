@@ -1,0 +1,642 @@
+[
+ {
+  "n": 2080,
+  "concurso": "uncisal-01-2026",
+  "vaga": "1",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito e o perfil."
+ },
+ {
+  "n": 2081,
+  "concurso": "ufsm-221-2026",
+  "vaga": "05",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito e o perfil."
+ },
+ {
+  "n": 2082,
+  "concurso": "unicamp-cotil-06-2026",
+  "vaga": "01",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito e o perfil."
+ },
+ {
+  "n": 2083,
+  "concurso": "ufms-137-2026",
+  "vaga": "1203",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito e o perfil."
+ },
+ {
+  "n": 2084,
+  "concurso": "ufersa-030-2026",
+  "vaga": "14",
+  "decisao": "nao_serve",
+  "veredito": "errado_deixaria_de_avisar",
+  "explicacao": "Psicologia é graduação aceita e o doutorado admite 'áreas afins' a Saúde Pública/Coletiva; um doutorado em Psicologia é afim plausível para a banca (psicologia da saúde), então caberia depende_da_banca, não nao_serve."
+ },
+ {
+  "n": 2085,
+  "concurso": "ufersa-030-2026",
+  "vaga": "16",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito e o perfil."
+ },
+ {
+  "n": 2086,
+  "concurso": "ufrn-058-2026",
+  "vaga": "721017",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito e o perfil."
+ },
+ {
+  "n": 2087,
+  "concurso": "ufpr-276-2026",
+  "vaga": "1.14",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito e o perfil."
+ },
+ {
+  "n": 2088,
+  "concurso": "ifmg-1077-2026",
+  "vaga": "13",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito e o perfil."
+ },
+ {
+  "n": 2089,
+  "concurso": "unimontes-15-2026",
+  "vaga": "08",
+  "decisao": "depende_da_banca",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito e o perfil."
+ },
+ {
+  "n": 2090,
+  "concurso": "ifsuldeminas-188-2026",
+  "vaga": "MCH-4",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Falta a especialização em Engenharia de Segurança do Trabalho; nao_serve correto."
+ },
+ {
+  "n": 2091,
+  "concurso": "ufscar-004-2026",
+  "vaga": "58",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito e o perfil."
+ },
+ {
+  "n": 2092,
+  "concurso": "ufpe-08-2026",
+  "vaga": "23",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito e o perfil."
+ },
+ {
+  "n": 2093,
+  "concurso": "ufrn-109-2026",
+  "vaga": "07",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito e o perfil."
+ },
+ {
+  "n": 2094,
+  "concurso": "ufms-137-2026",
+  "vaga": "1212",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito e o perfil."
+ },
+ {
+  "n": 2095,
+  "concurso": "ufc-48-2026",
+  "vaga": "45",
+  "decisao": "depende_da_banca",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito e o perfil."
+ },
+ {
+  "n": 2096,
+  "concurso": "unimontes-07-2026",
+  "vaga": "02",
+  "decisao": "depende_da_banca",
+  "veredito": "certo",
+  "explicacao": "Melhoramento Vegetal fica dentro de Fitotecnia; programa relacionado, tese não informada, depende_da_banca correto."
+ },
+ {
+  "n": 2097,
+  "concurso": "ufmg-1638-2026",
+  "vaga": "01",
+  "decisao": "depende_da_banca",
+  "veredito": "certo",
+  "explicacao": "Áreas afins a Cartografia e Geodésia; Engenharia Civil (Engenharias I) é afim discutível mas plausível, depende_da_banca aceitável."
+ },
+ {
+  "n": 2098,
+  "concurso": "urca-2026",
+  "vaga": "06",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito e o perfil."
+ },
+ {
+  "n": 2099,
+  "concurso": "unimontes-23-2026",
+  "vaga": "02",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito e o perfil."
+ },
+ {
+  "n": 2100,
+  "concurso": "ufms-137-2026",
+  "vaga": "1182",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito e o perfil."
+ },
+ {
+  "n": 2101,
+  "concurso": "unimontes-24-2026",
+  "vaga": "09",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito e o perfil."
+ },
+ {
+  "n": 2102,
+  "concurso": "unimontes-09-2026",
+  "vaga": "09",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito e o perfil."
+ },
+ {
+  "n": 2103,
+  "concurso": "ufla-127-2026",
+  "vaga": "01",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito e o perfil."
+ },
+ {
+  "n": 2104,
+  "concurso": "ufrgs-09-2026",
+  "vaga": "11",
+  "decisao": "depende_da_banca",
+  "veredito": "certo",
+  "explicacao": "Área CAPES do doutorado em Ciência Animal não declarada e tema da tese não informado; depende_da_banca correto."
+ },
+ {
+  "n": 2105,
+  "concurso": "ifsc-01-2026",
+  "vaga": "27",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito e o perfil."
+ },
+ {
+  "n": 2106,
+  "concurso": "ufv-49-2026",
+  "vaga": "01",
+  "decisao": "depende_da_banca",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito e o perfil."
+ },
+ {
+  "n": 2107,
+  "concurso": "ufpr-276-2026",
+  "vaga": "1.29",
+  "decisao": "depende_da_banca",
+  "veredito": "errado_avisaria_quem_nao_pode",
+  "explicacao": "O candidato declarou área CAPES Medicina II para o mestrado em Saúde da Criança e do Adolescente e tem residência em Pediatria; nada disso é especialização em MFC nem pós em Saúde da Comunidade/Coletiva/Atenção Básica, e o sistema ignorou a área declarada ao enquadrar o programa em Saúde Coletiva pelo catálogo."
+ },
+ {
+  "n": 2108,
+  "concurso": "ufrn-108-2026",
+  "vaga": "03",
+  "decisao": "depende_da_banca",
+  "veredito": "certo",
+  "explicacao": "Doutorado exigido em qualquer área, mas em curso; depende_da_banca correto."
+ },
+ {
+  "n": 2109,
+  "concurso": "unespar-023-2026",
+  "vaga": "1404",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito e o perfil."
+ },
+ {
+  "n": 2110,
+  "concurso": "unimontes-07-2026",
+  "vaga": "04",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito e o perfil."
+ },
+ {
+  "n": 2111,
+  "concurso": "ifmg-1077-2026",
+  "vaga": "10",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito e o perfil."
+ },
+ {
+  "n": 2112,
+  "concurso": "ufpr-276-2026",
+  "vaga": "1.6",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito e o perfil."
+ },
+ {
+  "n": 2113,
+  "concurso": "ufrn-108-2026",
+  "vaga": "12",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito e o perfil."
+ },
+ {
+  "n": 2114,
+  "concurso": "ufsm-221-2026",
+  "vaga": "03",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito e o perfil."
+ },
+ {
+  "n": 2115,
+  "concurso": "ufc-48-2026",
+  "vaga": "08",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito e o perfil."
+ },
+ {
+  "n": 2116,
+  "concurso": "uftm-28-2026",
+  "vaga": "01",
+  "decisao": "depende_da_banca",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito e o perfil."
+ },
+ {
+  "n": 2117,
+  "concurso": "unimontes-18-2026",
+  "vaga": "02",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito e o perfil."
+ },
+ {
+  "n": 2118,
+  "concurso": "ufrn-108-2026",
+  "vaga": "03",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito e o perfil."
+ },
+ {
+  "n": 2119,
+  "concurso": "ufpe-09-2026",
+  "vaga": "01",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito e o perfil."
+ },
+ {
+  "n": 2120,
+  "concurso": "unimontes-09-2026",
+  "vaga": "03",
+  "decisao": "depende_da_banca",
+  "veredito": "certo",
+  "explicacao": "Ambiguidade marcada pelo edital rebaixa para depende_da_banca por convenção, embora o candidato case direto (Serviço Social)."
+ },
+ {
+  "n": 2121,
+  "concurso": "ufs-08-2026",
+  "vaga": "01",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito e o perfil."
+ },
+ {
+  "n": 2122,
+  "concurso": "uftm-28-2026",
+  "vaga": "04",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito e o perfil."
+ },
+ {
+  "n": 2123,
+  "concurso": "ifmg-1077-2026",
+  "vaga": "07",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito e o perfil."
+ },
+ {
+  "n": 2124,
+  "concurso": "ufvjm-101-2026",
+  "vaga": "101.1",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito e o perfil."
+ },
+ {
+  "n": 2125,
+  "concurso": "ufpe-08-2026",
+  "vaga": "33",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito e o perfil."
+ },
+ {
+  "n": 2126,
+  "concurso": "ifsc-01-2026",
+  "vaga": "30",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito e o perfil."
+ },
+ {
+  "n": 2127,
+  "concurso": "ufpe-09-2026",
+  "vaga": "08",
+  "decisao": "depende_da_banca",
+  "veredito": "certo",
+  "explicacao": "Enfermagem em Ciências da Saúde, doutorado em curso; depende_da_banca correto."
+ },
+ {
+  "n": 2128,
+  "concurso": "unimontes-25-2026",
+  "vaga": "006",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Falta a especialização/residência exigida em uma das áreas listadas; nao_serve correto."
+ },
+ {
+  "n": 2129,
+  "concurso": "ufscar-004-2026",
+  "vaga": "44",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito e o perfil."
+ },
+ {
+  "n": 2130,
+  "concurso": "ufsj-2026",
+  "vaga": "025",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito e o perfil."
+ },
+ {
+  "n": 2131,
+  "concurso": "ufba-06-2026",
+  "vaga": "35",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito e o perfil."
+ },
+ {
+  "n": 2132,
+  "concurso": "uncisal-01-2026",
+  "vaga": "1",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito e o perfil."
+ },
+ {
+  "n": 2133,
+  "concurso": "ufscar-004-2026",
+  "vaga": "41",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito e o perfil."
+ },
+ {
+  "n": 2134,
+  "concurso": "ufrpe-21-2026",
+  "vaga": "03",
+  "decisao": "depende_da_banca",
+  "veredito": "certo",
+  "explicacao": "Zootecnia em 'outros cursos de Ciências Agrárias' depende da leitura (só licenciaturas?) marcada como ambígua; depende_da_banca correto."
+ },
+ {
+  "n": 2135,
+  "concurso": "ufpe-08-2026",
+  "vaga": "02",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito e o perfil."
+ },
+ {
+  "n": 2136,
+  "concurso": "ufrgs-08-2026",
+  "vaga": "12",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito e o perfil."
+ },
+ {
+  "n": 2137,
+  "concurso": "ufba-06-2026",
+  "vaga": "03",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito e o perfil."
+ },
+ {
+  "n": 2138,
+  "concurso": "ufpr-276-2026",
+  "vaga": "1.9",
+  "decisao": "depende_da_banca",
+  "veredito": "certo",
+  "explicacao": "Concentração do doutorado em Odontologia não informada; depende_da_banca correto."
+ },
+ {
+  "n": 2139,
+  "concurso": "uema-132-2026",
+  "vaga": "03",
+  "decisao": "depende_da_banca",
+  "veredito": "certo",
+  "explicacao": "Graduação e doutorado em Ciência da Computação casam; ambiguidade marcada rebaixa para depende_da_banca por convenção."
+ },
+ {
+  "n": 2140,
+  "concurso": "unespar-023-2026",
+  "vaga": "1396",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Doutorado na grande área LLA supre o mestrado exigido, pela regra de título superior; graduação Música em LLA."
+ },
+ {
+  "n": 2141,
+  "concurso": "unifesp-397-2026",
+  "vaga": "17",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito e o perfil."
+ },
+ {
+  "n": 2142,
+  "concurso": "ufrn-058-2026",
+  "vaga": "268407",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito e o perfil."
+ },
+ {
+  "n": 2143,
+  "concurso": "ufrpe-21-2026",
+  "vaga": "03",
+  "decisao": "depende_da_banca",
+  "veredito": "certo",
+  "explicacao": "Bacharelado em Biologia depende da leitura ambígua; doutorado em Ecologia só por afinidade (item 17.7); depende_da_banca correto."
+ },
+ {
+  "n": 2144,
+  "concurso": "usp-iau-03-2026",
+  "vaga": "1267116",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito e o perfil."
+ },
+ {
+  "n": 2145,
+  "concurso": "ufmg-1632-2026",
+  "vaga": "01",
+  "decisao": "depende_da_banca",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito e o perfil."
+ },
+ {
+  "n": 2146,
+  "concurso": "ufs-08-2026",
+  "vaga": "01",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito e o perfil."
+ },
+ {
+  "n": 2147,
+  "concurso": "ufs-08-2026",
+  "vaga": "01",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito e o perfil."
+ },
+ {
+  "n": 2148,
+  "concurso": "unimontes-27-2026",
+  "vaga": "04",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito e o perfil."
+ },
+ {
+  "n": 2149,
+  "concurso": "uncisal-01-2026",
+  "vaga": "11",
+  "decisao": "depende_da_banca",
+  "veredito": "certo",
+  "explicacao": "Área 21 da CAPES é compartilhada com EF/Fono/TO, e o edital fala em afins; depende_da_banca defensável."
+ },
+ {
+  "n": 2150,
+  "concurso": "ifsc-01-2026",
+  "vaga": "32",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito e o perfil."
+ },
+ {
+  "n": 2151,
+  "concurso": "ifsc-01-2026",
+  "vaga": "35",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito e o perfil."
+ },
+ {
+  "n": 2152,
+  "concurso": "unila-240-2026",
+  "vaga": "03",
+  "decisao": "nao_serve",
+  "veredito": "errado_deixaria_de_avisar",
+  "explicacao": "O requisito aceita doutorado em Ciências da Saúde ou áreas afins com ênfase em Saúde da Família/APS; o doutorado em Ciências da Reabilitação (área 21, grande área Ciências da Saúde) é plausível e a ênfase da tese não está no perfil, logo caberia depende_da_banca."
+ },
+ {
+  "n": 2153,
+  "concurso": "ufscar-004-2026",
+  "vaga": "31",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito e o perfil."
+ },
+ {
+  "n": 2154,
+  "concurso": "ufu-118-2026",
+  "vaga": "8",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito e o perfil."
+ },
+ {
+  "n": 2155,
+  "concurso": "uncisal-01-2026",
+  "vaga": "5",
+  "decisao": "depende_da_banca",
+  "veredito": "certo",
+  "explicacao": "Pedagogia + Mestrado em Educação casam; ambiguidade marcada rebaixa para depende_da_banca por convenção."
+ },
+ {
+  "n": 2156,
+  "concurso": "uncisal-01-2026",
+  "vaga": "1",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito e o perfil."
+ },
+ {
+  "n": 2157,
+  "concurso": "ufrgs-08-2026",
+  "vaga": "02",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Não tem doutorado; nao_serve correto."
+ },
+ {
+  "n": 2158,
+  "concurso": "unimontes-07-2026",
+  "vaga": "07",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito e o perfil."
+ },
+ {
+  "n": 2159,
+  "concurso": "unimontes-24-2026",
+  "vaga": "02",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Decisão compatível com o texto do requisito e o perfil."
+ }
+]

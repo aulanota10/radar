@@ -11723,5 +11723,6084 @@
  },
  "sinonimos_pos": {
   "ciencias": "Ciências (título de pós-graduação sem área)"
- }
+ },
+ "hierarquia_cnpq": {
+  "acustica": [
+   "areas classicas de fenomenologia e suas aplicacoes",
+   "fisica",
+   "ciencias exatas e da terra"
+  ],
+  "adequacao ambiental": [
+   "tecnologia de arquitetura e urbanismo",
+   "arquitetura e urbanismo",
+   "ciencias sociais aplicadas"
+  ],
+  "administracao": [
+   "ciencias sociais aplicadas"
+  ],
+  "administracao da producao": [
+   "administracao de empresas",
+   "administracao",
+   "ciencias sociais aplicadas"
+  ],
+  "administracao de empresas": [
+   "administracao",
+   "ciencias sociais aplicadas"
+  ],
+  "administracao de pessoal": [
+   "administracao publica",
+   "administracao",
+   "ciencias sociais aplicadas"
+  ],
+  "administracao de recursos humanos": [
+   "administracao de empresas",
+   "administracao",
+   "ciencias sociais aplicadas"
+  ],
+  "administracao de setores especificos": [
+   "administracao",
+   "ciencias sociais aplicadas"
+  ],
+  "administracao de sistemas educacionais": [
+   "administracao educacional",
+   "educacao",
+   "ciencias humanas"
+  ],
+  "administracao de unidades educativas": [
+   "administracao educacional",
+   "educacao",
+   "ciencias humanas"
+  ],
+  "administracao e producao de filmes": [
+   "cinema",
+   "artes",
+   "linguistica letras e artes"
+  ],
+  "administracao educacional": [
+   "educacao",
+   "ciencias humanas"
+  ],
+  "administracao financeira": [
+   "administracao de empresas",
+   "administracao",
+   "ciencias sociais aplicadas"
+  ],
+  "administracao florestal": [
+   "manejo florestal",
+   "recursos florestais e engenharia florestal",
+   "ciencias agrarias"
+  ],
+  "administracao municipal e urbana": [
+   "servicos urbanos e regionais",
+   "planejamento urbano e regional",
+   "ciencias sociais aplicadas"
+  ],
+  "administracao publica": [
+   "administracao",
+   "ciencias sociais aplicadas"
+  ],
+  "aerodinamica": [
+   "engenharia aeroespacial",
+   "engenharias"
+  ],
+  "aerodinamica de aeronaves espaciais": [
+   "aerodinamica",
+   "engenharia aeroespacial",
+   "engenharias"
+  ],
+  "aerodinamica dos processos geofisicos e interplanetarios": [
+   "aerodinamica",
+   "engenharia aeroespacial",
+   "engenharias"
+  ],
+  "aeroelasticicidade": [
+   "estruturas aeroespaciais",
+   "engenharia aeroespacial",
+   "engenharias"
+  ],
+  "aeronomia": [
+   "geofisica",
+   "geociencias",
+   "ciencias exatas e da terra"
+  ],
+  "aeroportos projeto e construcao": [
+   "infra estrutura de transportes",
+   "engenharia civil",
+   "engenharias"
+  ],
+  "aglomeracao": [
+   "metalurgia extrativa",
+   "engenharia de materiais e metalurgica",
+   "engenharias"
+  ],
+  "aglomerados de galaxias": [
+   "astrofisica extragalactica",
+   "astronomia",
+   "ciencias exatas e da terra"
+  ],
+  "agrometeorologia": [
+   "agronomia",
+   "ciencias agrarias"
+  ],
+  "agronomia": [
+   "ciencias agrarias"
+  ],
+  "aguas subterraneas e pocos profundos": [
+   "recursos hidricos",
+   "engenharia sanitaria",
+   "engenharias"
+  ],
+  "alergologia e imunologia clinica": [
+   "clinica medica",
+   "medicina",
+   "ciencias da saude"
+  ],
+  "algebra": [
+   "matematica",
+   "ciencias exatas e da terra"
+  ],
+  "algebra comutativa": [
+   "algebra",
+   "matematica",
+   "ciencias exatas e da terra"
+  ],
+  "alimentos e alimentacao coletiva": [
+   "nutricao",
+   "ciencias da saude"
+  ],
+  "analise": [
+   "matematica",
+   "ciencias exatas e da terra"
+  ],
+  "analise complexa": [
+   "analise",
+   "matematica",
+   "ciencias exatas e da terra"
+  ],
+  "analise de algoritmos e complexidade de computacao": [
+   "teoria da computacao",
+   "ciencia da computacao",
+   "ciencias exatas e da terra"
+  ],
+  "analise de custos": [
+   "engenharia economica",
+   "engenharia de producao",
+   "engenharias"
+  ],
+  "analise de dados": [
+   "estatistica",
+   "probabilidade e estatistica",
+   "ciencias exatas e da terra"
+  ],
+  "analise de impactos produzidos por sistemas energeticos": [
+   "planejamento energetico",
+   "engenharia de energia",
+   "engenharias"
+  ],
+  "analise de sistemas propulsores": [
+   "maquinas maritimas",
+   "engenharia naval e oceanica",
+   "engenharias"
+  ],
+  "analise de tensoes": [
+   "mecanica dos solidos",
+   "engenharia mecanica",
+   "engenharias"
+  ],
+  "analise de tracos e quimica ambiental": [
+   "quimica analitica",
+   "quimica",
+   "ciencias exatas e da terra"
+  ],
+  "analise do processo decisorio": [
+   "politicas publicas",
+   "ciencia politica",
+   "ciencias humanas"
+  ],
+  "analise estocastica": [
+   "probabilidade",
+   "probabilidade e estatistica",
+   "ciencias exatas e da terra"
+  ],
+  "analise funcional": [
+   "analise",
+   "matematica",
+   "ciencias exatas e da terra"
+  ],
+  "analise funcional nao linear": [
+   "analise",
+   "matematica",
+   "ciencias exatas e da terra"
+  ],
+  "analise institucional": [
+   "psicologia do trabalho e organizacional",
+   "psicologia",
+   "ciencias humanas",
+   "politicas publicas",
+   "ciencia politica"
+  ],
+  "analise multivariada": [
+   "estatistica",
+   "probabilidade e estatistica",
+   "ciencias exatas e da terra"
+  ],
+  "analise numerica": [
+   "matematica aplicada",
+   "matematica",
+   "ciencias exatas e da terra"
+  ],
+  "analise regional": [
+   "geografia regional",
+   "geografia",
+   "ciencias humanas"
+  ],
+  "analise teorica e experimental de estrutura": [
+   "estruturas navais e oceanicas",
+   "engenharia naval e oceanica",
+   "engenharias"
+  ],
+  "anatomia": [
+   "morfologia",
+   "ciencias biologicas"
+  ],
+  "anatomia animal": [
+   "anatomia",
+   "morfologia",
+   "ciencias biologicas"
+  ],
+  "anatomia e identificacao de produtos florestais": [
+   "tecnologia e utilizacao de produtos florestais",
+   "recursos florestais e engenharia florestal",
+   "ciencias agrarias"
+  ],
+  "anatomia humana": [
+   "anatomia",
+   "morfologia",
+   "ciencias biologicas"
+  ],
+  "anatomia patologia animal": [
+   "patologia animal",
+   "medicina veterinaria",
+   "ciencias agrarias"
+  ],
+  "anatomia patologica e patologia clinica": [
+   "medicina",
+   "ciencias da saude"
+  ],
+  "anatomia vegetal": [
+   "morfologia vegetal",
+   "botanica",
+   "ciencias biologicas"
+  ],
+  "anestesiologia": [
+   "cirurgia",
+   "medicina",
+   "ciencias da saude"
+  ],
+  "anestesiologia animal": [
+   "clinica e cirurgia animal",
+   "medicina veterinaria",
+   "ciencias agrarias"
+  ],
+  "angiologia": [
+   "clinica medica",
+   "medicina",
+   "ciencias da saude"
+  ],
+  "antropologia": [
+   "ciencias humanas"
+  ],
+  "antropologia das populacoes afro brasileiras": [
+   "antropologia",
+   "ciencias humanas"
+  ],
+  "antropologia educacional": [
+   "fundamentos da educacao",
+   "educacao",
+   "ciencias humanas"
+  ],
+  "antropologia juridica": [
+   "teoria do direito",
+   "direito",
+   "ciencias sociais aplicadas"
+  ],
+  "antropologia rural": [
+   "antropologia",
+   "ciencias humanas"
+  ],
+  "antropologia urbana": [
+   "antropologia",
+   "ciencias humanas"
+  ],
+  "aplicacoes de radioisotopos": [
+   "engenharia nuclear",
+   "engenharias"
+  ],
+  "aplicacoes industriais de radioisotopos": [
+   "aplicacoes de radioisotopos",
+   "engenharia nuclear",
+   "engenharias"
+  ],
+  "aprendizagem e desempenho academicos": [
+   "psicologia do ensino e da aprendizagem",
+   "psicologia",
+   "ciencias humanas"
+  ],
+  "aproveitamento da energia": [
+   "engenharia termica",
+   "engenharia mecanica",
+   "engenharias"
+  ],
+  "aproveitamento de energia": [
+   "projetos de maquinas",
+   "engenharia mecanica",
+   "engenharias"
+  ],
+  "aproveitamento de subprodutos": [
+   "tecnologia de alimentos",
+   "ciencia e tecnologia de alimentos",
+   "ciencias agrarias"
+  ],
+  "aquicultura": [
+   "recursos pesqueiros e engenharia de pesca",
+   "ciencias agrarias"
+  ],
+  "arborizacao de vias publicas": [
+   "floricultura parques e jardins",
+   "agronomia",
+   "ciencias agrarias"
+  ],
+  "areas classicas de fenomenologia e suas aplicacoes": [
+   "fisica",
+   "ciencias exatas e da terra"
+  ],
+  "armazenamento de alimentos": [
+   "engenharia de alimentos",
+   "ciencia e tecnologia de alimentos",
+   "ciencias agrarias"
+  ],
+  "armazenamento de produtos agricolas": [
+   "engenharia de processamento de produtos agricolas",
+   "engenharia agricola",
+   "ciencias agrarias"
+  ],
+  "arqueologia": [
+   "ciencias humanas"
+  ],
+  "arqueologia historica": [
+   "arqueologia",
+   "ciencias humanas"
+  ],
+  "arqueologia pre historica": [
+   "arqueologia",
+   "ciencias humanas"
+  ],
+  "arquitetura de sistemas de computacao": [
+   "sistemas de computacao",
+   "ciencia da computacao",
+   "ciencias exatas e da terra"
+  ],
+  "arquitetura e urbanismo": [
+   "ciencias sociais aplicadas"
+  ],
+  "arquivologia": [
+   "ciencia da informacao",
+   "ciencias sociais aplicadas"
+  ],
+  "artes": [
+   "linguistica letras e artes"
+  ],
+  "artes do video": [
+   "artes",
+   "linguistica letras e artes"
+  ],
+  "artes plasticas": [
+   "artes",
+   "linguistica letras e artes"
+  ],
+  "aspectos economicos de reatores": [
+   "tecnologia dos reatores",
+   "engenharia nuclear",
+   "engenharias"
+  ],
+  "aspectos economicos do planejamento urbano e regional": [
+   "servicos urbanos e regionais",
+   "planejamento urbano e regional",
+   "ciencias sociais aplicadas"
+  ],
+  "aspectos fisico ambientais do planejamento urbano e regional": [
+   "servicos urbanos e regionais",
+   "planejamento urbano e regional",
+   "ciencias sociais aplicadas"
+  ],
+  "aspectos sociais do planejamento urbano e regional": [
+   "servicos urbanos e regionais",
+   "planejamento urbano e regional",
+   "ciencias sociais aplicadas"
+  ],
+  "assentamento rural": [
+   "construcoes rurais e ambiencia",
+   "engenharia agricola",
+   "ciencias agrarias"
+  ],
+  "astrofisica do meio interestelar": [
+   "astronomia",
+   "ciencias exatas e da terra"
+  ],
+  "astrofisica do sistema solar": [
+   "astronomia",
+   "ciencias exatas e da terra"
+  ],
+  "astrofisica estelar": [
+   "astronomia",
+   "ciencias exatas e da terra"
+  ],
+  "astrofisica extragalactica": [
+   "astronomia",
+   "ciencias exatas e da terra"
+  ],
+  "astronomia": [
+   "ciencias exatas e da terra"
+  ],
+  "astronomia de posicao e mecanica celeste": [
+   "astronomia",
+   "ciencias exatas e da terra"
+  ],
+  "astronomia dinamica": [
+   "astronomia de posicao e mecanica celeste",
+   "astronomia",
+   "ciencias exatas e da terra"
+  ],
+  "astronomia espacial": [
+   "instrumentacao astronomica",
+   "astronomia",
+   "ciencias exatas e da terra"
+  ],
+  "astronomia fundamental": [
+   "astronomia de posicao e mecanica celeste",
+   "astronomia",
+   "ciencias exatas e da terra"
+  ],
+  "astronomia otica": [
+   "instrumentacao astronomica",
+   "astronomia",
+   "ciencias exatas e da terra"
+  ],
+  "atitude e ideologias politicas": [
+   "comportamento politico",
+   "ciencia politica",
+   "ciencias humanas"
+  ],
+  "automacao eletronica de processos eletricos e industriais": [
+   "eletronica industrial sistemas e controles eletronicos",
+   "engenharia eletrica",
+   "engenharias"
+  ],
+  "avaliacao da aprendizagem": [
+   "ensino aprendizagem",
+   "educacao",
+   "ciencias humanas"
+  ],
+  "avaliacao de alimentos para animais": [
+   "nutricao e alimentacao animal",
+   "zootecnia",
+   "ciencias agrarias"
+  ],
+  "avaliacao de estoques pesqueiros de aguas interiores": [
+   "recursos pesqueiros de aguas interiores",
+   "recursos pesqueiros e engenharia de pesca",
+   "ciencias agrarias"
+  ],
+  "avaliacao de estoques pesqueiros marinhos": [
+   "recursos pesqueiros marinhos",
+   "recursos pesqueiros e engenharia de pesca",
+   "ciencias agrarias"
+  ],
+  "avaliacao de projetos": [
+   "engenharia economica",
+   "engenharia de producao",
+   "engenharias"
+  ],
+  "avaliacao de sistemas instituicoes planos e programas educacionais": [
+   "politica planejamento e avaliacao educacional",
+   "educacao",
+   "ciencias humanas"
+  ],
+  "avaliacao e analises toxicologicas": [
+   "farmacia",
+   "ciencias da saude"
+  ],
+  "avaliacao e controle de qualidade de alimentos": [
+   "ciencia de alimentos",
+   "ciencia e tecnologia de alimentos",
+   "ciencias agrarias"
+  ],
+  "avaliacao producao e conservacao de forragens": [
+   "pastagem e forragicultura",
+   "zootecnia",
+   "ciencias agrarias"
+  ],
+  "avioes": [
+   "sistemas aeroespaciais",
+   "engenharia aeroespacial",
+   "engenharias"
+  ],
+  "bacteriologia": [
+   "biologia e fisiologia dos microorganismos",
+   "microbiologia",
+   "ciencias biologicas"
+  ],
+  "balanco de pagamentos financas internacionais": [
+   "economia internacional",
+   "economia",
+   "ciencias sociais aplicadas"
+  ],
+  "banco de dados": [
+   "metodologia e tecnicas da computacao",
+   "ciencia da computacao",
+   "ciencias exatas e da terra"
+  ],
+  "biblioteconomia": [
+   "ciencia da informacao",
+   "ciencias sociais aplicadas"
+  ],
+  "biocombustiveis": [
+   "biotecnologia industrial",
+   "biotecnologia",
+   "ciencias biologicas"
+  ],
+  "biodisponibilidade": [
+   "farmacologia geral",
+   "farmacologia",
+   "ciencias biologicas"
+  ],
+  "biodiversidade": [
+   "biotecnologia ambiental e recursos naturais",
+   "biotecnologia",
+   "ciencias biologicas"
+  ],
+  "bioengenharia": [
+   "engenharia biomedica",
+   "engenharias"
+  ],
+  "bioetica": [
+   "outra"
+  ],
+  "biofisica": [
+   "ciencias biologicas"
+  ],
+  "biofisica celular": [
+   "biofisica",
+   "ciencias biologicas"
+  ],
+  "biofisica de processos e sistemas": [
+   "biofisica",
+   "ciencias biologicas"
+  ],
+  "biofisica molecular": [
+   "biofisica",
+   "ciencias biologicas"
+  ],
+  "biologia e fisiologia dos microorganismos": [
+   "microbiologia",
+   "ciencias biologicas"
+  ],
+  "biologia geral": [
+   "ciencias biologicas"
+  ],
+  "biologia molecular": [
+   "bioquimica",
+   "ciencias biologicas"
+  ],
+  "biomatematica": [
+   "matematica aplicada",
+   "matematica",
+   "ciencias exatas e da terra"
+  ],
+  "biomateriais e materiais biocompativeis": [
+   "engenharia medica",
+   "engenharia biomedica",
+   "engenharias"
+  ],
+  "bioprocessos": [
+   "biotecnologia industrial",
+   "biotecnologia",
+   "ciencias biologicas"
+  ],
+  "bioprospeccao": [
+   "biotecnologia ambiental e recursos naturais",
+   "biotecnologia",
+   "ciencias biologicas"
+  ],
+  "bioquimica": [
+   "ciencias biologicas"
+  ],
+  "bioquimica dos microorganismos": [
+   "bioquimica",
+   "ciencias biologicas"
+  ],
+  "biotecnologia": [
+   "ciencias biologicas"
+  ],
+  "biotecnologia ambiental e recursos naturais": [
+   "biotecnologia",
+   "ciencias biologicas"
+  ],
+  "biotecnologia em saude humana e animal": [
+   "biotecnologia",
+   "ciencias biologicas"
+  ],
+  "biotecnologia industrial": [
+   "biotecnologia",
+   "ciencias biologicas"
+  ],
+  "biotecnologia vegetal": [
+   "biotecnologia",
+   "ciencias biologicas"
+  ],
+  "botanica": [
+   "ciencias biologicas"
+  ],
+  "botanica aplicada": [
+   "botanica",
+   "ciencias biologicas"
+  ],
+  "campos de coordenacao": [
+   "quimica inorganica",
+   "quimica",
+   "ciencias exatas e da terra"
+  ],
+  "campos quanticos e solidos helio liquido solido": [
+   "fisica da materia condensada",
+   "fisica",
+   "ciencias exatas e da terra"
+  ],
+  "cancerologia": [
+   "clinica medica",
+   "medicina",
+   "ciencias da saude"
+  ],
+  "canto": [
+   "musica",
+   "artes",
+   "linguistica letras e artes"
+  ],
+  "capacidade de vias de transporte": [
+   "operacoes de transportes",
+   "engenharia de transportes",
+   "engenharias"
+  ],
+  "capital humano": [
+   "economia dos recursos humanos",
+   "economia",
+   "ciencias sociais aplicadas"
+  ],
+  "caracterizacao do minerio": [
+   "pesquisa mineral",
+   "engenharia de minas",
+   "engenharias"
+  ],
+  "carcinocultura": [
+   "aquicultura",
+   "recursos pesqueiros e engenharia de pesca",
+   "ciencias agrarias"
+  ],
+  "cardiologia": [
+   "clinica medica",
+   "medicina",
+   "ciencias da saude"
+  ],
+  "cartografia basica": [
+   "geodesia",
+   "geociencias",
+   "ciencias exatas e da terra"
+  ],
+  "cartografia geologica": [
+   "geologia",
+   "geociencias",
+   "ciencias exatas e da terra"
+  ],
+  "casamento e divorcio": [
+   "nupcialidade e familia",
+   "demografia",
+   "ciencias sociais aplicadas"
+  ],
+  "cenografia": [
+   "teatro",
+   "artes",
+   "linguistica letras e artes"
+  ],
+  "ceramica": [
+   "artes plasticas",
+   "artes",
+   "linguistica letras e artes"
+  ],
+  "ceramicos": [
+   "materiais nao metalicos",
+   "engenharia de materiais e metalurgica",
+   "engenharias"
+  ],
+  "ciencia da computacao": [
+   "ciencias exatas e da terra"
+  ],
+  "ciencia da informacao": [
+   "ciencias sociais aplicadas"
+  ],
+  "ciencia de alimentos": [
+   "ciencia e tecnologia de alimentos",
+   "ciencias agrarias"
+  ],
+  "ciencia do solo": [
+   "agronomia",
+   "ciencias agrarias"
+  ],
+  "ciencia e tecnologia de alimentos": [
+   "ciencias agrarias"
+  ],
+  "ciencia politica": [
+   "ciencias humanas"
+  ],
+  "ciencias agrarias": [],
+  "ciencias ambientais": [
+   "outra"
+  ],
+  "ciencias biologicas": [],
+  "ciencias contabeis": [
+   "administracao",
+   "ciencias sociais aplicadas"
+  ],
+  "ciencias da linguagem religiosa": [
+   "teologia",
+   "ciencias humanas"
+  ],
+  "ciencias da religiao aplicada": [
+   "teologia",
+   "ciencias humanas"
+  ],
+  "ciencias da saude": [],
+  "ciencias de animais de laboratorios": [
+   "biotecnologia em saude humana e animal",
+   "biotecnologia",
+   "ciencias biologicas"
+  ],
+  "ciencias empiricas da religiao": [
+   "teologia",
+   "ciencias humanas"
+  ],
+  "ciencias exatas e da terra": [],
+  "ciencias humanas": [],
+  "ciencias humanas e sociais em alimentacao e nutricao": [
+   "nutricao",
+   "ciencias da saude"
+  ],
+  "ciencias sociais aplicadas": [],
+  "ciencias sociais e humanidades em saude": [
+   "saude coletiva",
+   "ciencias da saude"
+  ],
+  "cinema": [
+   "artes",
+   "linguistica letras e artes"
+  ],
+  "cinesiologia": [
+   "fisiologia de orgaos e sistemas",
+   "fisiologia",
+   "ciencias biologicas"
+  ],
+  "cinetica e teoria de transporte de fluidos propriedades fisicas de gases": [
+   "fisica dos fluidos fisica de plasmas e descargas eletricas",
+   "fisica",
+   "ciencias exatas e da terra"
+  ],
+  "cinetica quimica e catalise": [
+   "fisico quimica",
+   "quimica",
+   "ciencias exatas e da terra"
+  ],
+  "circuitos eletricos magneticos e eletronicos": [
+   "engenharia eletrica",
+   "engenharias"
+  ],
+  "circuitos eletronicos": [
+   "circuitos eletricos magneticos e eletronicos",
+   "engenharia eletrica",
+   "engenharias"
+  ],
+  "circuitos lineares e nao lineares": [
+   "circuitos eletricos magneticos e eletronicos",
+   "engenharia eletrica",
+   "engenharias"
+  ],
+  "circuitos magneticos magnetismos e eletromagnetismos": [
+   "circuitos eletricos magneticos e eletronicos",
+   "engenharia eletrica",
+   "engenharias"
+  ],
+  "cirurgia": [
+   "medicina",
+   "ciencias da saude"
+  ],
+  "cirurgia buco maxilo facial": [
+   "odontologia",
+   "ciencias da saude"
+  ],
+  "cirurgia cardiovascular": [
+   "cirurgia",
+   "medicina",
+   "ciencias da saude"
+  ],
+  "cirurgia experimental": [
+   "cirurgia",
+   "medicina",
+   "ciencias da saude"
+  ],
+  "cirurgia gastroenterologia": [
+   "cirurgia",
+   "medicina",
+   "ciencias da saude"
+  ],
+  "cirurgia oftalmologica": [
+   "cirurgia",
+   "medicina",
+   "ciencias da saude"
+  ],
+  "cirurgia ortopedica": [
+   "cirurgia",
+   "medicina",
+   "ciencias da saude"
+  ],
+  "cirurgia otorrinolaringologica": [
+   "cirurgia",
+   "medicina",
+   "ciencias da saude"
+  ],
+  "cirurgia pediatrica": [
+   "cirurgia",
+   "medicina",
+   "ciencias da saude"
+  ],
+  "cirurgia plastica e restauradora": [
+   "cirurgia",
+   "medicina",
+   "ciencias da saude"
+  ],
+  "cirurgia proctologica": [
+   "cirurgia",
+   "medicina",
+   "ciencias da saude"
+  ],
+  "cirurgia toraxica": [
+   "cirurgia",
+   "medicina",
+   "ciencias da saude"
+  ],
+  "cirurgia traumatologica": [
+   "cirurgia",
+   "medicina",
+   "ciencias da saude"
+  ],
+  "cirurgia urologica": [
+   "cirurgia",
+   "medicina",
+   "ciencias da saude"
+  ],
+  "citologia e biologia celular": [
+   "morfologia",
+   "ciencias biologicas"
+  ],
+  "citologia vegetal": [
+   "morfologia vegetal",
+   "botanica",
+   "ciencias biologicas"
+  ],
+  "classes sociais e grupos de interesse": [
+   "comportamento politico",
+   "ciencia politica",
+   "ciencias humanas"
+  ],
+  "climatologia": [
+   "meteorologia",
+   "geociencias",
+   "ciencias exatas e da terra"
+  ],
+  "climatologia geografica": [
+   "geografia fisica",
+   "geociencias",
+   "ciencias exatas e da terra"
+  ],
+  "clinica cirurgica animal": [
+   "clinica e cirurgia animal",
+   "medicina veterinaria",
+   "ciencias agrarias"
+  ],
+  "clinica e cirurgia animal": [
+   "medicina veterinaria",
+   "ciencias agrarias"
+  ],
+  "clinica medica": [
+   "medicina",
+   "ciencias da saude"
+  ],
+  "clinica odontologica": [
+   "odontologia",
+   "ciencias da saude"
+  ],
+  "clinica veterinaria": [
+   "clinica e cirurgia animal",
+   "medicina veterinaria",
+   "ciencias agrarias"
+  ],
+  "combustao e escoamento com reacoes quimicas": [
+   "propulsao aeroespacial",
+   "engenharia aeroespacial",
+   "engenharias"
+  ],
+  "combustivel nuclear": [
+   "engenharia nuclear",
+   "engenharias"
+  ],
+  "componentes da dinamica demografica": [
+   "demografia",
+   "ciencias sociais aplicadas"
+  ],
+  "comportamento animal": [
+   "zoologia",
+   "ciencias biologicas"
+  ],
+  "comportamento legislativo": [
+   "comportamento politico",
+   "ciencia politica",
+   "ciencias humanas"
+  ],
+  "comportamento politico": [
+   "ciencia politica",
+   "ciencias humanas"
+  ],
+  "composicao musical": [
+   "musica",
+   "artes",
+   "linguistica letras e artes"
+  ],
+  "compostos organo metalicos": [
+   "quimica inorganica",
+   "quimica",
+   "ciencias exatas e da terra"
+  ],
+  "computabilidade e modelos de computacao": [
+   "teoria da computacao",
+   "ciencia da computacao",
+   "ciencias exatas e da terra"
+  ],
+  "comunicacao": [
+   "ciencias sociais aplicadas"
+  ],
+  "comunicacao visual e cinema": [
+   "comunicacao",
+   "ciencias sociais aplicadas"
+  ],
+  "conceituacao de paisagismo e metodologia do paisagismo": [
+   "paisagismo",
+   "arquitetura e urbanismo",
+   "ciencias sociais aplicadas"
+  ],
+  "conflitos e coalizoes politicas": [
+   "comportamento politico",
+   "ciencia politica",
+   "ciencias humanas"
+  ],
+  "conformacao mecanica": [
+   "metalurgia de transformacao",
+   "engenharia de materiais e metalurgica",
+   "engenharias"
+  ],
+  "conjuntos": [
+   "algebra",
+   "matematica",
+   "ciencias exatas e da terra"
+  ],
+  "conservacao da natureza": [
+   "recursos florestais e engenharia florestal",
+   "ciencias agrarias"
+  ],
+  "conservacao das especies animais": [
+   "zoologia aplicada",
+   "zoologia",
+   "ciencias biologicas"
+  ],
+  "conservacao de alimentos para animais": [
+   "nutricao e alimentacao animal",
+   "zootecnia",
+   "ciencias agrarias"
+  ],
+  "conservacao de areas silvestres": [
+   "conservacao da natureza",
+   "recursos florestais e engenharia florestal",
+   "ciencias agrarias"
+  ],
+  "conservacao de bacias hidrograficas": [
+   "conservacao da natureza",
+   "recursos florestais e engenharia florestal",
+   "ciencias agrarias"
+  ],
+  "conservacao de solo e agua": [
+   "engenharia de agua e solo",
+   "engenharia agricola",
+   "ciencias agrarias"
+  ],
+  "conservacao e multiplicacao de germoplasma": [
+   "biotecnologia vegetal",
+   "biotecnologia",
+   "ciencias biologicas"
+  ],
+  "construcao civil": [
+   "engenharia civil",
+   "engenharias"
+  ],
+  "construcao e validade de testes escalas e outras medidas psicologicas": [
+   "fundamentos e medidas da psicologia",
+   "psicologia",
+   "ciencias humanas"
+  ],
+  "construcoes rurais e ambiencia": [
+   "engenharia agricola",
+   "ciencias agrarias"
+  ],
+  "contabilidade e financas publicas": [
+   "administracao publica",
+   "administracao",
+   "ciencias sociais aplicadas"
+  ],
+  "contabilidade nacional": [
+   "metodos quantitativos em economia",
+   "economia",
+   "ciencias sociais aplicadas"
+  ],
+  "controle ambiental": [
+   "engenharia termica",
+   "engenharia mecanica",
+   "engenharias"
+  ],
+  "controle da poluicao": [
+   "saneamento ambiental",
+   "engenharia sanitaria",
+   "engenharias"
+  ],
+  "controle de enchentes e de barragens": [
+   "recursos hidricos",
+   "engenharia sanitaria",
+   "engenharias"
+  ],
+  "controle de processos eletronicos retroalimentacao": [
+   "eletronica industrial sistemas e controles eletronicos",
+   "engenharia eletrica",
+   "engenharias"
+  ],
+  "controle de sistemas mecanicos": [
+   "projetos de maquinas",
+   "engenharia mecanica",
+   "engenharias"
+  ],
+  "controle e automacao de sistemas propulsores": [
+   "maquinas maritimas",
+   "engenharia naval e oceanica",
+   "engenharias"
+  ],
+  "controle numerico": [
+   "processos de fabricacao",
+   "engenharia mecanica",
+   "engenharias"
+  ],
+  "controle populacional de animais": [
+   "zoologia aplicada",
+   "zoologia",
+   "ciencias biologicas"
+  ],
+  "conversao e retificacao da energia eletrica": [
+   "sistemas eletricos de potencia",
+   "engenharia eletrica",
+   "engenharias"
+  ],
+  "conversao enriquecimento e fabricacao de combustivel nuclear": [
+   "combustivel nuclear",
+   "engenharia nuclear",
+   "engenharias"
+  ],
+  "coreografia": [
+   "danca",
+   "artes",
+   "linguistica letras e artes"
+  ],
+  "corrosao": [
+   "metalurgia fisica",
+   "engenharia de materiais e metalurgica",
+   "engenharias"
+  ],
+  "cosmologia": [
+   "astrofisica extragalactica",
+   "astronomia",
+   "ciencias exatas e da terra"
+  ],
+  "crescimento e desenvolvimento economico": [
+   "crescimento flutuacoes e planejamento economico",
+   "economia",
+   "ciencias sociais aplicadas"
+  ],
+  "crescimento flutuacoes e planejamento economico": [
+   "economia",
+   "ciencias sociais aplicadas"
+  ],
+  "criacao de animais": [
+   "producao animal",
+   "zootecnia",
+   "ciencias agrarias"
+  ],
+  "critica da arte": [
+   "fundamentos e critica das artes",
+   "artes",
+   "linguistica letras e artes"
+  ],
+  "curriculo": [
+   "educacao",
+   "ciencias humanas"
+  ],
+  "curriculos especificos para niveis e tipos de educacao": [
+   "curriculo",
+   "educacao",
+   "ciencias humanas"
+  ],
+  "custos de construcao naval": [
+   "tecnologia de construcao naval e de sistemas oceanicos",
+   "engenharia naval e oceanica",
+   "engenharias"
+  ],
+  "danca": [
+   "artes",
+   "linguistica letras e artes"
+  ],
+  "defesa": [
+   "outra"
+  ],
+  "defesa fitossanitaria": [
+   "fitossanidade",
+   "agronomia",
+   "ciencias agrarias"
+  ],
+  "demografia": [
+   "ciencias sociais aplicadas"
+  ],
+  "demografia economica": [
+   "economia dos recursos humanos",
+   "economia",
+   "ciencias sociais aplicadas"
+  ],
+  "demografia historica": [
+   "demografia",
+   "ciencias sociais aplicadas"
+  ],
+  "dendrologia": [
+   "silvicultura",
+   "recursos florestais e engenharia florestal",
+   "ciencias agrarias"
+  ],
+  "dendrometria e inventario florestal": [
+   "manejo florestal",
+   "recursos florestais e engenharia florestal",
+   "ciencias agrarias"
+  ],
+  "dermatologia": [
+   "clinica medica",
+   "medicina",
+   "ciencias da saude"
+  ],
+  "desenho": [
+   "artes plasticas",
+   "artes",
+   "linguistica letras e artes"
+  ],
+  "desenho de produto": [
+   "desenho industrial",
+   "ciencias sociais aplicadas"
+  ],
+  "desenho industrial": [
+   "ciencias sociais aplicadas"
+  ],
+  "desenvolvimento de instrumentacao geofisica": [
+   "geofisica",
+   "geociencias",
+   "ciencias exatas e da terra"
+  ],
+  "desenvolvimento de produto": [
+   "engenharia do produto",
+   "engenharia de producao",
+   "engenharias"
+  ],
+  "desenvolvimento historico do paisagismo": [
+   "paisagismo",
+   "arquitetura e urbanismo",
+   "ciencias sociais aplicadas"
+  ],
+  "desenvolvimento social e da personalidade": [
+   "psicologia do desenvolvimento humano",
+   "psicologia",
+   "ciencias humanas"
+  ],
+  "desintegracao nuclear e radioatividade": [
+   "fisica nuclear",
+   "fisica",
+   "ciencias exatas e da terra"
+  ],
+  "desvios da conduta": [
+   "tratamento e prevencao psicologica",
+   "psicologia",
+   "ciencias humanas"
+  ],
+  "determinacao de estrutura de compostos inorganicos": [
+   "quimica inorganica",
+   "quimica",
+   "ciencias exatas e da terra"
+  ],
+  "dimensionamento de jazidas": [
+   "pesquisa mineral",
+   "engenharia de minas",
+   "engenharias"
+  ],
+  "dinamica da rede e estatistica de cristais": [
+   "fisica da materia condensada",
+   "fisica",
+   "ciencias exatas e da terra"
+  ],
+  "dinamica de voo": [
+   "engenharia aeroespacial",
+   "engenharias"
+  ],
+  "dinamica dos corpos rigidos elasticos e plasticos": [
+   "mecanica dos solidos",
+   "engenharia mecanica",
+   "engenharias"
+  ],
+  "dinamica dos fluidos": [
+   "areas classicas de fenomenologia e suas aplicacoes",
+   "fisica",
+   "ciencias exatas e da terra"
+  ],
+  "dinamica dos gases": [
+   "fenomenos de transporte",
+   "engenharia mecanica",
+   "engenharias"
+  ],
+  "dinamica estrutural naval e oceanica": [
+   "estruturas navais e oceanicas",
+   "engenharia naval e oceanica",
+   "engenharias"
+  ],
+  "direcao teatral": [
+   "teatro",
+   "artes",
+   "linguistica letras e artes"
+  ],
+  "direito": [
+   "ciencias sociais aplicadas"
+  ],
+  "direito administrativo": [
+   "direito publico",
+   "direito",
+   "ciencias sociais aplicadas"
+  ],
+  "direito civil": [
+   "direito privado",
+   "direito",
+   "ciencias sociais aplicadas"
+  ],
+  "direito comercial": [
+   "direito privado",
+   "direito",
+   "ciencias sociais aplicadas"
+  ],
+  "direito constitucional": [
+   "direito publico",
+   "direito",
+   "ciencias sociais aplicadas"
+  ],
+  "direito do trabalho": [
+   "direito privado",
+   "direito",
+   "ciencias sociais aplicadas"
+  ],
+  "direito internacional privado": [
+   "direito privado",
+   "direito",
+   "ciencias sociais aplicadas"
+  ],
+  "direito internacional publico": [
+   "direito publico",
+   "direito",
+   "ciencias sociais aplicadas"
+  ],
+  "direito penal": [
+   "direito publico",
+   "direito",
+   "ciencias sociais aplicadas"
+  ],
+  "direito privado": [
+   "direito",
+   "ciencias sociais aplicadas"
+  ],
+  "direito processual civil": [
+   "direito publico",
+   "direito",
+   "ciencias sociais aplicadas"
+  ],
+  "direito processual penal": [
+   "direito publico",
+   "direito",
+   "ciencias sociais aplicadas"
+  ],
+  "direito publico": [
+   "direito",
+   "ciencias sociais aplicadas"
+  ],
+  "direito tributario": [
+   "direito publico",
+   "direito",
+   "ciencias sociais aplicadas"
+  ],
+  "direitos especiais": [
+   "direito",
+   "ciencias sociais aplicadas"
+  ],
+  "dispositivos": [
+   "microeletronica",
+   "outra"
+  ],
+  "distribuicao espacial": [
+   "demografia",
+   "ciencias sociais aplicadas",
+   "demografia historica"
+  ],
+  "distribuicao espacial geral": [
+   "distribuicao espacial",
+   "demografia",
+   "ciencias sociais aplicadas"
+  ],
+  "distribuicao espacial rural": [
+   "distribuicao espacial",
+   "demografia",
+   "ciencias sociais aplicadas"
+  ],
+  "distribuicao espacial urbana": [
+   "distribuicao espacial",
+   "demografia",
+   "ciencias sociais aplicadas"
+  ],
+  "disturbios da linguagem": [
+   "tratamento e prevencao psicologica",
+   "psicologia",
+   "ciencias humanas"
+  ],
+  "disturbios psicossomaticos": [
+   "tratamento e prevencao psicologica",
+   "psicologia",
+   "ciencias humanas"
+  ],
+  "divulgacao cientifica": [
+   "outra"
+  ],
+  "doencas infecciosas de animais": [
+   "medicina veterinaria preventiva",
+   "medicina veterinaria",
+   "ciencias agrarias"
+  ],
+  "doencas infecciosas e parasitarias": [
+   "clinica medica",
+   "medicina",
+   "ciencias da saude"
+  ],
+  "doencas parasitarias de animais": [
+   "medicina veterinaria preventiva",
+   "medicina veterinaria",
+   "ciencias agrarias"
+  ],
+  "dramaturgia": [
+   "teatro",
+   "artes",
+   "linguistica letras e artes"
+  ],
+  "drenagem de aguas residuarias": [
+   "saneamento basico",
+   "engenharia sanitaria",
+   "engenharias"
+  ],
+  "drenagem urbana de aguas pluviais": [
+   "saneamento basico",
+   "engenharia sanitaria",
+   "engenharias"
+  ],
+  "ecofisiologia vegetal": [
+   "fisiologia vegetal",
+   "botanica",
+   "ciencias biologicas"
+  ],
+  "ecologia": [
+   "ciencias biologicas"
+  ],
+  "ecologia aplicada": [
+   "ecologia",
+   "ciencias biologicas"
+  ],
+  "ecologia aplicada a engenharia sanitaria": [
+   "saneamento ambiental",
+   "engenharia sanitaria",
+   "engenharias"
+  ],
+  "ecologia de ecossistemas": [
+   "ecologia",
+   "ciencias biologicas"
+  ],
+  "ecologia dos animais domesticos e etologia": [
+   "zootecnia",
+   "ciencias agrarias"
+  ],
+  "ecologia teorica": [
+   "ecologia",
+   "ciencias biologicas"
+  ],
+  "economia": [
+   "ciencias sociais aplicadas"
+  ],
+  "economia agraria": [
+   "economias agraria e dos recursos naturais",
+   "economia",
+   "ciencias sociais aplicadas"
+  ],
+  "economia da educacao": [
+   "fundamentos da educacao",
+   "educacao",
+   "ciencias humanas"
+  ],
+  "economia de tecnologia": [
+   "engenharia economica",
+   "engenharia de producao",
+   "engenharias"
+  ],
+  "economia do bem estar social": [
+   "economia",
+   "ciencias sociais aplicadas"
+  ],
+  "economia do consumidor": [
+   "economia do bem estar social",
+   "economia",
+   "ciencias sociais aplicadas"
+  ],
+  "economia domestica": [
+   "ciencias sociais aplicadas"
+  ],
+  "economia dos programas de bem estar social": [
+   "economia do bem estar social",
+   "economia",
+   "ciencias sociais aplicadas"
+  ],
+  "economia dos recursos humanos": [
+   "economia",
+   "ciencias sociais aplicadas"
+  ],
+  "economia dos recursos naturais": [
+   "economias agraria e dos recursos naturais",
+   "economia",
+   "ciencias sociais aplicadas"
+  ],
+  "economia dos transportes": [
+   "planejamento de transportes",
+   "engenharia de transportes",
+   "engenharias"
+  ],
+  "economia florestal": [
+   "manejo florestal",
+   "recursos florestais e engenharia florestal",
+   "ciencias agrarias"
+  ],
+  "economia geral": [
+   "teoria economica",
+   "economia",
+   "ciencias sociais aplicadas"
+  ],
+  "economia industrial": [
+   "economia",
+   "ciencias sociais aplicadas"
+  ],
+  "economia internacional": [
+   "economia",
+   "ciencias sociais aplicadas"
+  ],
+  "economia matematica": [
+   "metodos quantitativos em economia",
+   "economia",
+   "ciencias sociais aplicadas"
+  ],
+  "economia monetaria e fiscal": [
+   "economia",
+   "ciencias sociais aplicadas"
+  ],
+  "economia regional": [
+   "economia regional e urbana",
+   "economia",
+   "ciencias sociais aplicadas"
+  ],
+  "economia regional e urbana": [
+   "economia",
+   "ciencias sociais aplicadas"
+  ],
+  "economia urbana": [
+   "economia regional e urbana",
+   "economia",
+   "ciencias sociais aplicadas"
+  ],
+  "economias agraria e dos recursos naturais": [
+   "economia",
+   "ciencias sociais aplicadas"
+  ],
+  "eda": [
+   "microeletronica",
+   "outra"
+  ],
+  "educacao": [
+   "ciencias humanas"
+  ],
+  "educacao artistica": [
+   "artes",
+   "linguistica letras e artes"
+  ],
+  "educacao de adultos": [
+   "topicos especificos de educacao",
+   "educacao",
+   "ciencias humanas"
+  ],
+  "educacao e diversidade": [
+   "educacao",
+   "ciencias humanas"
+  ],
+  "educacao e relacoes etnico raciais": [
+   "educacao e diversidade",
+   "educacao",
+   "ciencias humanas"
+  ],
+  "educacao em periferias urbanas": [
+   "topicos especificos de educacao",
+   "educacao",
+   "ciencias humanas"
+  ],
+  "educacao escolar indigena": [
+   "educacao e diversidade",
+   "educacao",
+   "ciencias humanas"
+  ],
+  "educacao especial": [
+   "topicos especificos de educacao",
+   "educacao",
+   "ciencias humanas"
+  ],
+  "educacao fisica": [
+   "ciencias da saude"
+  ],
+  "educacao genero e diversidade sexual": [
+   "educacao e diversidade",
+   "educacao",
+   "ciencias humanas"
+  ],
+  "educacao inclusiva": [
+   "educacao e diversidade",
+   "educacao",
+   "ciencias humanas"
+  ],
+  "educacao permanente": [
+   "topicos especificos de educacao",
+   "educacao",
+   "ciencias humanas"
+  ],
+  "educacao pre escolar": [
+   "topicos especificos de educacao",
+   "educacao",
+   "ciencias humanas"
+  ],
+  "educacao rural": [
+   "topicos especificos de educacao",
+   "educacao",
+   "ciencias humanas"
+  ],
+  "elementos de maquinas": [
+   "projetos de maquinas",
+   "engenharia mecanica",
+   "engenharias"
+  ],
+  "eletricidade e magnetismo campos e particulas carregadas": [
+   "areas classicas de fenomenologia e suas aplicacoes",
+   "fisica",
+   "ciencias exatas e da terra"
+  ],
+  "eletroanalitica": [
+   "quimica analitica",
+   "quimica",
+   "ciencias exatas e da terra"
+  ],
+  "eletrometalurgia": [
+   "metalurgia extrativa",
+   "engenharia de materiais e metalurgica",
+   "engenharias"
+  ],
+  "eletronica industrial": [
+   "eletronica industrial sistemas e controles eletronicos",
+   "engenharia eletrica",
+   "engenharias"
+  ],
+  "eletronica industrial sistemas e controles eletronicos": [
+   "engenharia eletrica",
+   "engenharias"
+  ],
+  "eletroquimica": [
+   "fisico quimica",
+   "quimica",
+   "ciencias exatas e da terra"
+  ],
+  "embalagens de produtos alimentares": [
+   "tecnologia de alimentos",
+   "ciencia e tecnologia de alimentos",
+   "ciencias agrarias"
+  ],
+  "embriologia": [
+   "morfologia",
+   "ciencias biologicas"
+  ],
+  "emissao eletronica e ionica por liquidos e solidos fenomenos de impacto": [
+   "fisica da materia condensada",
+   "fisica",
+   "ciencias exatas e da terra"
+  ],
+  "endocrinologia": [
+   "clinica medica",
+   "medicina",
+   "ciencias da saude"
+  ],
+  "endodontia": [
+   "odontologia",
+   "ciencias da saude"
+  ],
+  "energia das ondas e mares": [
+   "fontes renovaveis de energia",
+   "engenharia de energia",
+   "engenharias"
+  ],
+  "energia de biomassa": [
+   "fontes renovaveis de energia",
+   "engenharia de energia",
+   "engenharias"
+  ],
+  "energia de biomassa florestal": [
+   "recursos florestais e engenharia florestal",
+   "ciencias agrarias"
+  ],
+  "energia eolica": [
+   "fontes renovaveis de energia",
+   "engenharia de energia",
+   "engenharias"
+  ],
+  "energia solar fotovoltaica": [
+   "fontes renovaveis de energia",
+   "engenharia de energia",
+   "engenharias"
+  ],
+  "energia solar termica": [
+   "fontes renovaveis de energia",
+   "engenharia de energia",
+   "engenharias"
+  ],
+  "energizacao rural": [
+   "engenharia agricola",
+   "ciencias agrarias"
+  ],
+  "enfermagem": [
+   "ciencias da saude"
+  ],
+  "enfermagem em doencas emergentes reemergentes e negligenciadas": [
+   "enfermagem",
+   "ciencias da saude"
+  ],
+  "enfermagem em saude coletiva": [
+   "enfermagem",
+   "ciencias da saude"
+  ],
+  "enfermagem em saude da crianca e do adolescente": [
+   "enfermagem",
+   "ciencias da saude"
+  ],
+  "enfermagem em saude da mulher": [
+   "enfermagem",
+   "ciencias da saude"
+  ],
+  "enfermagem em saude do adulto e do idoso": [
+   "enfermagem",
+   "ciencias da saude"
+  ],
+  "enfermagem em saude mental": [
+   "enfermagem",
+   "ciencias da saude"
+  ],
+  "enfermagem fundamental": [
+   "enfermagem",
+   "ciencias da saude"
+  ],
+  "enfermagem na gestao e gerenciamento": [
+   "enfermagem",
+   "ciencias da saude"
+  ],
+  "engenharia aeroespacial": [
+   "engenharias"
+  ],
+  "engenharia agricola": [
+   "ciencias agrarias"
+  ],
+  "engenharia biomedica": [
+   "engenharias"
+  ],
+  "engenharia civil": [
+   "engenharias"
+  ],
+  "engenharia de agua e solo": [
+   "engenharia agricola",
+   "ciencias agrarias"
+  ],
+  "engenharia de alimentos": [
+   "ciencia e tecnologia de alimentos",
+   "ciencias agrarias"
+  ],
+  "engenharia de construcoes rurais": [
+   "construcoes rurais e ambiencia",
+   "engenharia agricola",
+   "ciencias agrarias"
+  ],
+  "engenharia de energia": [
+   "engenharias"
+  ],
+  "engenharia de materiais e metalurgica": [
+   "engenharias"
+  ],
+  "engenharia de minas": [
+   "engenharias"
+  ],
+  "engenharia de pesca": [
+   "recursos pesqueiros e engenharia de pesca",
+   "ciencias agrarias"
+  ],
+  "engenharia de processamento de produtos agricolas": [
+   "engenharia agricola",
+   "ciencias agrarias"
+  ],
+  "engenharia de producao": [
+   "engenharias"
+  ],
+  "engenharia de reacoes quimicas e catalise": [
+   "engenharia quimica",
+   "engenharias"
+  ],
+  "engenharia de separacoes e termodinamica": [
+   "engenharia quimica",
+   "engenharias"
+  ],
+  "engenharia de software": [
+   "metodologia e tecnicas da computacao",
+   "ciencia da computacao",
+   "ciencias exatas e da terra"
+  ],
+  "engenharia de tecidos": [
+   "biotecnologia em saude humana e animal",
+   "biotecnologia",
+   "ciencias biologicas"
+  ],
+  "engenharia de trafego": [
+   "operacoes de transportes",
+   "engenharia de transportes",
+   "engenharias"
+  ],
+  "engenharia de transportes": [
+   "engenharias"
+  ],
+  "engenharia do produto": [
+   "engenharia de producao",
+   "engenharias"
+  ],
+  "engenharia economica": [
+   "engenharia de producao",
+   "engenharias"
+  ],
+  "engenharia eletrica": [
+   "engenharias"
+  ],
+  "engenharia hidraulica": [
+   "engenharia civil",
+   "engenharias"
+  ],
+  "engenharia mecanica": [
+   "engenharias"
+  ],
+  "engenharia medica": [
+   "engenharia biomedica",
+   "engenharias"
+  ],
+  "engenharia naval e oceanica": [
+   "engenharias"
+  ],
+  "engenharia nuclear": [
+   "engenharias"
+  ],
+  "engenharia quimica": [
+   "engenharias"
+  ],
+  "engenharia sanitaria": [
+   "engenharias"
+  ],
+  "engenharia termica": [
+   "engenharia mecanica",
+   "engenharias"
+  ],
+  "engenharias": [],
+  "ensino": [
+   "outra"
+  ],
+  "ensino aprendizagem": [
+   "educacao",
+   "ciencias humanas"
+  ],
+  "ensino de ciencias e matematica": [
+   "ensino",
+   "outra"
+  ],
+  "ensino e aprendizagem na sala de aula": [
+   "psicologia do ensino e da aprendizagem",
+   "psicologia",
+   "ciencias humanas"
+  ],
+  "ensino profissionalizante": [
+   "topicos especificos de educacao",
+   "educacao",
+   "ciencias humanas"
+  ],
+  "entomologia agricola": [
+   "fitossanidade",
+   "agronomia",
+   "ciencias agrarias"
+  ],
+  "entomologia e malacologia de parasitos e vetores": [
+   "parasitologia",
+   "ciencias biologicas"
+  ],
+  "enzimologia": [
+   "bioquimica",
+   "ciencias biologicas"
+  ],
+  "epidemiologia": [
+   "saude coletiva",
+   "ciencias da saude"
+  ],
+  "epidemiologia animal": [
+   "medicina veterinaria preventiva",
+   "medicina veterinaria",
+   "ciencias agrarias"
+  ],
+  "epidemiologia e politicas de alimentacao e nutricao": [
+   "nutricao",
+   "ciencias da saude"
+  ],
+  "epistemologia": [
+   "filosofia",
+   "ciencias humanas"
+  ],
+  "epistemologia das ciencias da religiao": [
+   "teologia",
+   "ciencias humanas"
+  ],
+  "equacao de estado equilibrio de fases e transicoes de fase": [
+   "fisica da materia condensada",
+   "fisica",
+   "ciencias exatas e da terra"
+  ],
+  "equacoes diferenciais funcionais": [
+   "analise",
+   "matematica",
+   "ciencias exatas e da terra"
+  ],
+  "equacoes diferenciais ordinarias": [
+   "analise",
+   "matematica",
+   "ciencias exatas e da terra"
+  ],
+  "equacoes diferenciais parciais": [
+   "analise",
+   "matematica",
+   "ciencias exatas e da terra"
+  ],
+  "equipamentos auxiliares do sistema propulsivo": [
+   "maquinas maritimas",
+   "engenharia naval e oceanica",
+   "engenharias"
+  ],
+  "equipamentos auxiliares e controles": [
+   "veiculos e equipamentos de controle",
+   "engenharia de transportes",
+   "engenharias"
+  ],
+  "equipamentos de beneficiamento de minerios": [
+   "tratamento de minerios",
+   "engenharia de minas",
+   "engenharias"
+  ],
+  "equipamentos de lavra": [
+   "lavra",
+   "engenharia de minas",
+   "engenharias"
+  ],
+  "equipamentos metalurgicos": [
+   "instalacoes e equipamentos metalurgicos",
+   "engenharia de materiais e metalurgica",
+   "engenharias"
+  ],
+  "ergonomia": [
+   "engenharia do produto",
+   "engenharia de producao",
+   "engenharias"
+  ],
+  "escultura": [
+   "artes plasticas",
+   "artes",
+   "linguistica letras e artes"
+  ],
+  "espectros atomicos e integracao de fotons": [
+   "fisica atomica e molecular",
+   "fisica",
+   "ciencias exatas e da terra"
+  ],
+  "espectros moleculares e interacoes de fotons com moleculas": [
+   "fisica atomica e molecular",
+   "fisica",
+   "ciencias exatas e da terra"
+  ],
+  "espectroscopia": [
+   "fisico quimica",
+   "quimica",
+   "ciencias exatas e da terra"
+  ],
+  "estabilidade e controle": [
+   "dinamica de voo",
+   "engenharia aeroespacial",
+   "engenharias"
+  ],
+  "estacao de transporte": [
+   "veiculos e equipamentos de controle",
+   "engenharia de transportes",
+   "engenharias"
+  ],
+  "estado e governo": [
+   "ciencia politica",
+   "ciencias humanas"
+  ],
+  "estados eletronicos": [
+   "fisica da materia condensada",
+   "fisica",
+   "ciencias exatas e da terra"
+  ],
+  "estados subjetivos e emocao": [
+   "psicologia experimental",
+   "psicologia",
+   "ciencias humanas"
+  ],
+  "estatica e dinamica aplicada": [
+   "projetos de maquinas",
+   "engenharia mecanica",
+   "engenharias"
+  ],
+  "estatistica": [
+   "probabilidade e estatistica",
+   "ciencias exatas e da terra"
+  ],
+  "estatistica socio economica": [
+   "metodos quantitativos em economia",
+   "economia",
+   "ciencias sociais aplicadas"
+  ],
+  "estetica e filosofia da arte": [
+   "filosofia",
+   "ciencias humanas"
+  ],
+  "estimulacao eletrica e com drogas comportamento": [
+   "psicologia fisiologica",
+   "psicologia",
+   "ciencias humanas"
+  ],
+  "estratigrafia": [
+   "geologia",
+   "geociencias",
+   "ciencias exatas e da terra"
+  ],
+  "estrutura conformacao e estereoquimica": [
+   "quimica organica",
+   "quimica",
+   "ciencias exatas e da terra"
+  ],
+  "estrutura de liquidos e solidos cristalografia": [
+   "fisica da materia condensada",
+   "fisica",
+   "ciencias exatas e da terra"
+  ],
+  "estrutura dos metais e ligas": [
+   "metalurgia fisica",
+   "engenharia de materiais e metalurgica",
+   "engenharias"
+  ],
+  "estrutura e transformacao do estado": [
+   "estado e governo",
+   "ciencia politica",
+   "ciencias humanas"
+  ],
+  "estrutura eletronica de atomos e moleculas teoria": [
+   "fisica atomica e molecular",
+   "fisica",
+   "ciencias exatas e da terra"
+  ],
+  "estrutura nuclear": [
+   "fisica nuclear",
+   "fisica",
+   "ciencias exatas e da terra"
+  ],
+  "estruturas": [
+   "engenharia civil",
+   "engenharias"
+  ],
+  "estruturas aeroespaciais": [
+   "engenharia aeroespacial",
+   "engenharias"
+  ],
+  "estruturas de concreto": [
+   "estruturas",
+   "engenharia civil",
+   "engenharias"
+  ],
+  "estruturas de madeiras": [
+   "estruturas",
+   "engenharia civil",
+   "engenharias"
+  ],
+  "estruturas eletronicas e propriedades eletricas de superficies interf e particulas": [
+   "fisica da materia condensada",
+   "fisica",
+   "ciencias exatas e da terra"
+  ],
+  "estruturas metalicas": [
+   "estruturas",
+   "engenharia civil",
+   "engenharias"
+  ],
+  "estruturas navais e oceanicas": [
+   "engenharia naval e oceanica",
+   "engenharias"
+  ],
+  "estudo de mercado": [
+   "engenharia economica",
+   "engenharia de producao",
+   "engenharias"
+  ],
+  "estudos da habitacao": [
+   "servicos urbanos e regionais",
+   "planejamento urbano e regional",
+   "ciencias sociais aplicadas"
+  ],
+  "estudos de atomos e moleculas especiais": [
+   "fisica atomica e molecular",
+   "fisica",
+   "ciencias exatas e da terra"
+  ],
+  "estudos de organizacao do espaco exterior": [
+   "paisagismo",
+   "arquitetura e urbanismo",
+   "ciencias sociais aplicadas"
+  ],
+  "estudos do poder local": [
+   "estado e governo",
+   "ciencia politica",
+   "ciencias humanas"
+  ],
+  "estudos e caracterizacao de efluentes industriais": [
+   "tratamento de aguas de abastecimento e residuarias",
+   "engenharia sanitaria",
+   "engenharias"
+  ],
+  "estudos eleitorais e partidos politicos": [
+   "comportamento politico",
+   "ciencia politica",
+   "ciencias humanas"
+  ],
+  "estudos naturalisticos do comportamento animal": [
+   "psicologia comparativa",
+   "psicologia",
+   "ciencias humanas"
+  ],
+  "etica": [
+   "filosofia",
+   "ciencias humanas"
+  ],
+  "etnofarmacologia": [
+   "farmacologia",
+   "ciencias biologicas"
+  ],
+  "etnologia indigena": [
+   "antropologia",
+   "ciencias humanas"
+  ],
+  "evolucao sistematica e ecologia quimica": [
+   "quimica organica",
+   "quimica",
+   "ciencias exatas e da terra"
+  ],
+  "execucao da danca": [
+   "danca",
+   "artes",
+   "linguistica letras e artes"
+  ],
+  "exigencias nutricionais dos animais": [
+   "nutricao e alimentacao animal",
+   "zootecnia",
+   "ciencias agrarias"
+  ],
+  "exploracao florestal": [
+   "tecnicas e operacoes florestais",
+   "recursos florestais e engenharia florestal",
+   "ciencias agrarias"
+  ],
+  "exploracao pesqueira marinha": [
+   "recursos pesqueiros marinhos",
+   "recursos pesqueiros e engenharia de pesca",
+   "ciencias agrarias"
+  ],
+  "explotacao pesqueira de aguas interiores": [
+   "recursos pesqueiros de aguas interiores",
+   "recursos pesqueiros e engenharia de pesca",
+   "ciencias agrarias"
+  ],
+  "extensao rural": [
+   "agronomia",
+   "ciencias agrarias"
+  ],
+  "extracao de combustivel nuclear": [
+   "combustivel nuclear",
+   "engenharia nuclear",
+   "engenharias"
+  ],
+  "extracao e transformacao de materiais": [
+   "materiais nao metalicos",
+   "engenharia de materiais e metalurgica",
+   "engenharias"
+  ],
+  "fadiga": [
+   "estruturas aeroespaciais",
+   "engenharia aeroespacial",
+   "engenharias"
+  ],
+  "familia e reproducao": [
+   "nupcialidade e familia",
+   "demografia",
+   "ciencias sociais aplicadas"
+  ],
+  "farmacia": [
+   "ciencias da saude"
+  ],
+  "farmacia clinica assistencia e atencao farmaceuticas": [
+   "farmacia",
+   "ciencias da saude"
+  ],
+  "farmacocinetica": [
+   "farmacologia geral",
+   "farmacologia",
+   "ciencias biologicas"
+  ],
+  "farmacognosia": [
+   "farmacia",
+   "ciencias da saude"
+  ],
+  "farmacologia": [
+   "ciencias biologicas"
+  ],
+  "farmacologia autonomica": [
+   "farmacologia",
+   "ciencias biologicas"
+  ],
+  "farmacologia bioquimica e molecular": [
+   "farmacologia",
+   "ciencias biologicas"
+  ],
+  "farmacologia cardiorenal": [
+   "farmacologia",
+   "ciencias biologicas"
+  ],
+  "farmacologia clinica": [
+   "farmacologia",
+   "ciencias biologicas"
+  ],
+  "farmacologia e terapeutica animal": [
+   "clinica e cirurgia animal",
+   "medicina veterinaria",
+   "ciencias agrarias"
+  ],
+  "farmacologia geral": [
+   "farmacologia",
+   "ciencias biologicas"
+  ],
+  "farmacotecnica e tecnologia farmaceutica": [
+   "farmacia",
+   "ciencias da saude"
+  ],
+  "fatores abioticos de aguas interiores": [
+   "recursos pesqueiros de aguas interiores",
+   "recursos pesqueiros e engenharia de pesca",
+   "ciencias agrarias"
+  ],
+  "fatores abioticos do mar": [
+   "recursos pesqueiros marinhos",
+   "recursos pesqueiros e engenharia de pesca",
+   "ciencias agrarias"
+  ],
+  "fatores humanos no trabalho": [
+   "psicologia do trabalho e organizacional",
+   "psicologia",
+   "ciencias humanas"
+  ],
+  "fecundidade": [
+   "componentes da dinamica demografica",
+   "demografia",
+   "ciencias sociais aplicadas"
+  ],
+  "fenomenos de transporte": [
+   "engenharia mecanica",
+   "engenharias"
+  ],
+  "fenomenos de transporte materiais e particulados": [
+   "engenharia quimica",
+   "engenharias"
+  ],
+  "ferrovias projetos e construcao": [
+   "infra estrutura de transportes",
+   "engenharia civil",
+   "engenharias"
+  ],
+  "fertilidade do solo e adubacao": [
+   "ciencia do solo",
+   "agronomia",
+   "ciencias agrarias"
+  ],
+  "filosofia": [
+   "ciencias humanas"
+  ],
+  "filosofia brasileira": [
+   "filosofia",
+   "ciencias humanas"
+  ],
+  "filosofia da educacao": [
+   "fundamentos da educacao",
+   "educacao",
+   "ciencias humanas"
+  ],
+  "filosofia da linguagem": [
+   "linguistica",
+   "linguistica letras e artes"
+  ],
+  "filosofia do direito": [
+   "teoria do direito",
+   "direito",
+   "ciencias sociais aplicadas"
+  ],
+  "financas publicas internas": [
+   "economia monetaria e fiscal",
+   "economia",
+   "ciencias sociais aplicadas"
+  ],
+  "fisiatria": [
+   "clinica medica",
+   "medicina",
+   "ciencias da saude"
+  ],
+  "fisica": [
+   "ciencias exatas e da terra"
+  ],
+  "fisica atomica e molecular": [
+   "fisica",
+   "ciencias exatas e da terra"
+  ],
+  "fisica classica e fisica quantica mecanica e campos": [
+   "fisica geral",
+   "fisica",
+   "ciencias exatas e da terra"
+  ],
+  "fisica da materia condensada": [
+   "fisica",
+   "ciencias exatas e da terra"
+  ],
+  "fisica das particulas elementares e campos": [
+   "fisica",
+   "ciencias exatas e da terra"
+  ],
+  "fisica de plasmas e descargas eletricas": [
+   "fisica dos fluidos fisica de plasmas e descargas eletricas",
+   "fisica",
+   "ciencias exatas e da terra"
+  ],
+  "fisica do solo": [
+   "ciencia do solo",
+   "agronomia",
+   "ciencias agrarias"
+  ],
+  "fisica dos fluidos fisica de plasmas e descargas eletricas": [
+   "fisica",
+   "ciencias exatas e da terra"
+  ],
+  "fisica estatistica e termodinamica": [
+   "fisica geral",
+   "fisica",
+   "ciencias exatas e da terra"
+  ],
+  "fisica geral": [
+   "fisica",
+   "ciencias exatas e da terra"
+  ],
+  "fisica matematica": [
+   "matematica aplicada",
+   "matematica",
+   "ciencias exatas e da terra"
+  ],
+  "fisica nuclear": [
+   "fisica",
+   "ciencias exatas e da terra"
+  ],
+  "fisica solar": [
+   "astrofisica do sistema solar",
+   "astronomia",
+   "ciencias exatas e da terra"
+  ],
+  "fisico quimica": [
+   "quimica",
+   "ciencias exatas e da terra"
+  ],
+  "fisico quimica inorganica": [
+   "quimica inorganica",
+   "quimica",
+   "ciencias exatas e da terra"
+  ],
+  "fisico quimica organica": [
+   "quimica organica",
+   "quimica",
+   "ciencias exatas e da terra"
+  ],
+  "fisiologia": [
+   "ciencias biologicas"
+  ],
+  "fisiologia cardiovascular": [
+   "fisiologia de orgaos e sistemas",
+   "fisiologia",
+   "ciencias biologicas"
+  ],
+  "fisiologia comparada": [
+   "fisiologia",
+   "ciencias biologicas"
+  ],
+  "fisiologia da digestao": [
+   "fisiologia de orgaos e sistemas",
+   "fisiologia",
+   "ciencias biologicas"
+  ],
+  "fisiologia da respiracao": [
+   "fisiologia de orgaos e sistemas",
+   "fisiologia",
+   "ciencias biologicas"
+  ],
+  "fisiologia de orgaos e sistemas": [
+   "fisiologia",
+   "ciencias biologicas"
+  ],
+  "fisiologia de plantas cultivadas": [
+   "fitotecnia",
+   "agronomia",
+   "ciencias agrarias"
+  ],
+  "fisiologia de plantas forrageiras": [
+   "pastagem e forragicultura",
+   "zootecnia",
+   "ciencias agrarias"
+  ],
+  "fisiologia do esforco": [
+   "fisiologia",
+   "ciencias biologicas"
+  ],
+  "fisiologia dos grupos recentes": [
+   "zoologia",
+   "ciencias biologicas"
+  ],
+  "fisiologia endocrina": [
+   "fisiologia de orgaos e sistemas",
+   "fisiologia",
+   "ciencias biologicas"
+  ],
+  "fisiologia florestal": [
+   "silvicultura",
+   "recursos florestais e engenharia florestal",
+   "ciencias agrarias"
+  ],
+  "fisiologia geral": [
+   "fisiologia",
+   "ciencias biologicas"
+  ],
+  "fisiologia pos colheita": [
+   "ciencia de alimentos",
+   "ciencia e tecnologia de alimentos",
+   "ciencias agrarias"
+  ],
+  "fisiologia renal": [
+   "fisiologia de orgaos e sistemas",
+   "fisiologia",
+   "ciencias biologicas"
+  ],
+  "fisiologia vegetal": [
+   "botanica",
+   "ciencias biologicas"
+  ],
+  "fisiopatologia da reproducao animal": [
+   "reproducao animal",
+   "medicina veterinaria",
+   "ciencias agrarias"
+  ],
+  "fisiopatologia e diagnostico laboratorial": [
+   "farmacia",
+   "ciencias da saude"
+  ],
+  "fisioterapia e terapia ocupacional": [
+   "ciencias da saude"
+  ],
+  "fitogeografia": [
+   "botanica",
+   "ciencias biologicas"
+  ],
+  "fitopatologia": [
+   "fitossanidade",
+   "agronomia",
+   "ciencias agrarias"
+  ],
+  "fitossanidade": [
+   "agronomia",
+   "ciencias agrarias"
+  ],
+  "fitotecnia": [
+   "agronomia",
+   "ciencias agrarias"
+  ],
+  "florestamento e reflorestamento": [
+   "silvicultura",
+   "recursos florestais e engenharia florestal",
+   "ciencias agrarias"
+  ],
+  "floricultura": [
+   "floricultura parques e jardins",
+   "agronomia",
+   "ciencias agrarias"
+  ],
+  "floricultura parques e jardins": [
+   "agronomia",
+   "ciencias agrarias"
+  ],
+  "flutuacoes ciclicas e projecoes economicas": [
+   "crescimento flutuacoes e planejamento economico",
+   "economia",
+   "ciencias sociais aplicadas"
+  ],
+  "foguetes": [
+   "sistemas aeroespaciais",
+   "engenharia aeroespacial",
+   "engenharias"
+  ],
+  "fonoaudiologia": [
+   "ciencias da saude"
+  ],
+  "fontes de dados demograficos": [
+   "demografia",
+   "ciencias sociais aplicadas"
+  ],
+  "fontes renovaveis de energia": [
+   "engenharia de energia",
+   "engenharias"
+  ],
+  "foto quimica inorganica": [
+   "quimica inorganica",
+   "quimica",
+   "ciencias exatas e da terra"
+  ],
+  "fotogeografia fisico ecologica": [
+   "geografia fisica",
+   "geociencias",
+   "ciencias exatas e da terra"
+  ],
+  "fotografia": [
+   "artes",
+   "linguistica letras e artes"
+  ],
+  "fotogrametria": [
+   "geodesia",
+   "geociencias",
+   "ciencias exatas e da terra"
+  ],
+  "fotointerpretacao florestal": [
+   "manejo florestal",
+   "recursos florestais e engenharia florestal",
+   "ciencias agrarias"
+  ],
+  "fotoquimica organica": [
+   "quimica organica",
+   "quimica",
+   "ciencias exatas e da terra"
+  ],
+  "fundacoes e escavacoes": [
+   "geotecnica",
+   "engenharia civil",
+   "engenharias"
+  ],
+  "fundamentos da educacao": [
+   "educacao",
+   "ciencias humanas"
+  ],
+  "fundamentos da estatistica": [
+   "estatistica",
+   "probabilidade e estatistica",
+   "ciencias exatas e da terra"
+  ],
+  "fundamentos da sociologia": [
+   "sociologia",
+   "ciencias humanas"
+  ],
+  "fundamentos de arquitetura e urbanismo": [
+   "arquitetura e urbanismo",
+   "ciencias sociais aplicadas"
+  ],
+  "fundamentos do planejamento urbano e regional": [
+   "planejamento urbano e regional",
+   "ciencias sociais aplicadas"
+  ],
+  "fundamentos do servico social": [
+   "servico social",
+   "ciencias sociais aplicadas"
+  ],
+  "fundamentos e critica das artes": [
+   "artes",
+   "linguistica letras e artes"
+  ],
+  "fundamentos e medidas da psicologia": [
+   "psicologia",
+   "ciencias humanas"
+  ],
+  "fundamentos gerais de projetos das maquinas": [
+   "projetos de maquinas",
+   "engenharia mecanica",
+   "engenharias"
+  ],
+  "fundicao": [
+   "metalurgia de transformacao",
+   "engenharia de materiais e metalurgica",
+   "engenharias"
+  ],
+  "fusao controlada": [
+   "engenharia nuclear",
+   "engenharias"
+  ],
+  "galaxias": [
+   "astrofisica extragalactica",
+   "astronomia",
+   "ciencias exatas e da terra"
+  ],
+  "garantia de controle de qualidade": [
+   "gerencia de producao",
+   "engenharia de producao",
+   "engenharias"
+  ],
+  "garantia e controle de qualidade farmaceuticos": [
+   "farmacia",
+   "ciencias da saude"
+  ],
+  "gastroenterologia": [
+   "clinica medica",
+   "medicina",
+   "ciencias da saude"
+  ],
+  "genese morfologia e classificacao dos solos": [
+   "ciencia do solo",
+   "agronomia",
+   "ciencias agrarias"
+  ],
+  "genetica": [
+   "ciencias biologicas"
+  ],
+  "genetica animal": [
+   "genetica",
+   "ciencias biologicas"
+  ],
+  "genetica e melhoramento dos animais domesticos": [
+   "zootecnia",
+   "ciencias agrarias"
+  ],
+  "genetica e melhoramento florestal": [
+   "silvicultura",
+   "recursos florestais e engenharia florestal",
+   "ciencias agrarias"
+  ],
+  "genetica humana e medica": [
+   "genetica",
+   "ciencias biologicas"
+  ],
+  "genetica molecular e de microorganismos": [
+   "genetica",
+   "ciencias biologicas"
+  ],
+  "genetica quantitativa": [
+   "genetica",
+   "ciencias biologicas"
+  ],
+  "genetica vegetal": [
+   "genetica",
+   "ciencias biologicas"
+  ],
+  "geocartografia": [
+   "geografia fisica",
+   "geociencias",
+   "ciencias exatas e da terra"
+  ],
+  "geociencias": [
+   "ciencias exatas e da terra"
+  ],
+  "geocronologia": [
+   "geologia",
+   "geociencias",
+   "ciencias exatas e da terra"
+  ],
+  "geodesia": [
+   "geociencias",
+   "ciencias exatas e da terra"
+  ],
+  "geodesia celeste": [
+   "geodesia",
+   "geociencias",
+   "ciencias exatas e da terra"
+  ],
+  "geodesia fisica": [
+   "geodesia",
+   "geociencias",
+   "ciencias exatas e da terra"
+  ],
+  "geodesia geometrica": [
+   "geodesia",
+   "geociencias",
+   "ciencias exatas e da terra"
+  ],
+  "geoecologia": [
+   "geografia fisica",
+   "geociencias",
+   "ciencias exatas e da terra"
+  ],
+  "geofisica": [
+   "geociencias",
+   "ciencias exatas e da terra"
+  ],
+  "geofisica aplicada": [
+   "geofisica",
+   "geociencias",
+   "ciencias exatas e da terra"
+  ],
+  "geofisica marinha": [
+   "oceanografia geologica",
+   "oceanografia",
+   "ciencias exatas e da terra"
+  ],
+  "geofisica nuclear": [
+   "geofisica",
+   "geociencias",
+   "ciencias exatas e da terra"
+  ],
+  "geografia": [
+   "ciencias humanas"
+  ],
+  "geografia agraria": [
+   "geografia humana",
+   "geografia",
+   "ciencias humanas"
+  ],
+  "geografia da populacao": [
+   "geografia humana",
+   "geografia",
+   "ciencias humanas"
+  ],
+  "geografia economica": [
+   "geografia humana",
+   "geografia",
+   "ciencias humanas"
+  ],
+  "geografia fisica": [
+   "geociencias",
+   "ciencias exatas e da terra"
+  ],
+  "geografia humana": [
+   "geografia",
+   "ciencias humanas"
+  ],
+  "geografia politica": [
+   "geografia humana",
+   "geografia",
+   "ciencias humanas"
+  ],
+  "geografia regional": [
+   "geografia",
+   "ciencias humanas"
+  ],
+  "geografia urbana": [
+   "geografia humana",
+   "geografia",
+   "ciencias humanas"
+  ],
+  "geologia": [
+   "geociencias",
+   "ciencias exatas e da terra"
+  ],
+  "geologia ambiental": [
+   "geologia",
+   "geociencias",
+   "ciencias exatas e da terra"
+  ],
+  "geologia regional": [
+   "geologia",
+   "geociencias",
+   "ciencias exatas e da terra"
+  ],
+  "geomagnetismo": [
+   "geofisica",
+   "geociencias",
+   "ciencias exatas e da terra"
+  ],
+  "geometria algebrica": [
+   "algebra",
+   "matematica",
+   "ciencias exatas e da terra"
+  ],
+  "geometria diferencial": [
+   "geometria e topologia",
+   "matematica",
+   "ciencias exatas e da terra"
+  ],
+  "geometria e topologia": [
+   "matematica",
+   "ciencias exatas e da terra"
+  ],
+  "geomorfologia": [
+   "geografia fisica",
+   "geociencias",
+   "ciencias exatas e da terra"
+  ],
+  "geomorfologia submarina": [
+   "oceanografia geologica",
+   "oceanografia",
+   "ciencias exatas e da terra"
+  ],
+  "geoquimica": [
+   "geologia",
+   "geociencias",
+   "ciencias exatas e da terra"
+  ],
+  "geoquimica marinha": [
+   "oceanografia geologica",
+   "oceanografia",
+   "ciencias exatas e da terra"
+  ],
+  "geotecnica": [
+   "engenharia civil",
+   "engenharias"
+  ],
+  "geotectonica": [
+   "geologia",
+   "geociencias",
+   "ciencias exatas e da terra"
+  ],
+  "geotermia e fluxo termico": [
+   "geofisica",
+   "geociencias",
+   "ciencias exatas e da terra"
+  ],
+  "geracao da energia eletrica": [
+   "sistemas eletricos de potencia",
+   "engenharia eletrica",
+   "engenharias"
+  ],
+  "geracao e integracao com sistemas eletricos em reatores": [
+   "tecnologia dos reatores",
+   "engenharia nuclear",
+   "engenharias"
+  ],
+  "gerencia de producao": [
+   "engenharia de producao",
+   "engenharias"
+  ],
+  "gerencia do projeto e do produto": [
+   "engenharia do produto",
+   "engenharia de producao",
+   "engenharias"
+  ],
+  "ginecologia e andrologia animal": [
+   "reproducao animal",
+   "medicina veterinaria",
+   "ciencias agrarias"
+  ],
+  "ginecologia e obstetricia": [
+   "clinica medica",
+   "medicina",
+   "ciencias da saude"
+  ],
+  "glicideos": [
+   "quimica de macromoleculas",
+   "bioquimica",
+   "ciencias biologicas"
+  ],
+  "gravimetria": [
+   "quimica analitica",
+   "quimica",
+   "ciencias exatas e da terra",
+   "geofisica",
+   "geociencias"
+  ],
+  "gravura": [
+   "artes plasticas",
+   "artes",
+   "linguistica letras e artes"
+  ],
+  "grupos de algebra nao comutativa": [
+   "algebra",
+   "matematica",
+   "ciencias exatas e da terra"
+  ],
+  "hardware": [
+   "sistemas de computacao",
+   "ciencia da computacao",
+   "ciencias exatas e da terra"
+  ],
+  "helicopteros": [
+   "sistemas aeroespaciais",
+   "engenharia aeroespacial",
+   "engenharias"
+  ],
+  "helmintologia animal": [
+   "helmintologia de parasitos",
+   "parasitologia",
+   "ciencias biologicas"
+  ],
+  "helmintologia de parasitos": [
+   "parasitologia",
+   "ciencias biologicas"
+  ],
+  "helmintologia humana": [
+   "helmintologia de parasitos",
+   "parasitologia",
+   "ciencias biologicas"
+  ],
+  "hematologia": [
+   "clinica medica",
+   "medicina",
+   "ciencias da saude"
+  ],
+  "hidraulica": [
+   "engenharia hidraulica",
+   "engenharia civil",
+   "engenharias"
+  ],
+  "hidrodinamica de navios e sistemas oceanicos": [
+   "engenharia naval e oceanica",
+   "engenharias"
+  ],
+  "hidrogeografia": [
+   "geografia fisica",
+   "geociencias",
+   "ciencias exatas e da terra"
+  ],
+  "hidrogeologia": [
+   "geologia",
+   "geociencias",
+   "ciencias exatas e da terra"
+  ],
+  "hidrologia": [
+   "engenharia hidraulica",
+   "engenharia civil",
+   "engenharias"
+  ],
+  "hidrologia florestal": [
+   "conservacao da natureza",
+   "recursos florestais e engenharia florestal",
+   "ciencias agrarias"
+  ],
+  "hidrometalurgia": [
+   "metalurgia extrativa",
+   "engenharia de materiais e metalurgica",
+   "engenharias"
+  ],
+  "higiene e seguranca do trabalho": [
+   "gerencia de producao",
+   "engenharia de producao",
+   "engenharias"
+  ],
+  "histologia": [
+   "morfologia",
+   "ciencias biologicas"
+  ],
+  "historia": [
+   "ciencias humanas"
+  ],
+  "historia antiga e medieval": [
+   "historia",
+   "ciencias humanas"
+  ],
+  "historia da america": [
+   "historia",
+   "ciencias humanas"
+  ],
+  "historia da arquitetura e urbanismo": [
+   "fundamentos de arquitetura e urbanismo",
+   "arquitetura e urbanismo",
+   "ciencias sociais aplicadas"
+  ],
+  "historia da arte": [
+   "fundamentos e critica das artes",
+   "artes",
+   "linguistica letras e artes"
+  ],
+  "historia da educacao": [
+   "fundamentos da educacao",
+   "educacao",
+   "ciencias humanas"
+  ],
+  "historia da filosofia": [
+   "filosofia",
+   "ciencias humanas"
+  ],
+  "historia da sociologia": [
+   "fundamentos da sociologia",
+   "sociologia",
+   "ciencias humanas"
+  ],
+  "historia das ciencias": [
+   "historia",
+   "ciencias humanas"
+  ],
+  "historia das teologias e religioes": [
+   "teologia",
+   "ciencias humanas"
+  ],
+  "historia do brasil": [
+   "historia",
+   "ciencias humanas"
+  ],
+  "historia do brasil colonia": [
+   "historia do brasil",
+   "historia",
+   "ciencias humanas"
+  ],
+  "historia do brasil imperio": [
+   "historia do brasil",
+   "historia",
+   "ciencias humanas"
+  ],
+  "historia do brasil republica": [
+   "historia do brasil",
+   "historia",
+   "ciencias humanas"
+  ],
+  "historia do direito": [
+   "teoria do direito",
+   "direito",
+   "ciencias sociais aplicadas"
+  ],
+  "historia do pensamento economico": [
+   "teoria economica",
+   "economia",
+   "ciencias sociais aplicadas"
+  ],
+  "historia do urbanismo": [
+   "fundamentos de arquitetura e urbanismo",
+   "arquitetura e urbanismo",
+   "ciencias sociais aplicadas"
+  ],
+  "historia dos estados unidos": [
+   "historia da america",
+   "historia",
+   "ciencias humanas"
+  ],
+  "historia economica": [
+   "teoria economica",
+   "economia",
+   "ciencias sociais aplicadas"
+  ],
+  "historia latino americana": [
+   "historia da america",
+   "historia",
+   "ciencias humanas"
+  ],
+  "historia moderna e contemporanea": [
+   "historia",
+   "ciencias humanas"
+  ],
+  "historia regional do brasil": [
+   "historia do brasil",
+   "historia",
+   "ciencias humanas"
+  ],
+  "historia teorias e sistemas em psicologia": [
+   "fundamentos e medidas da psicologia",
+   "psicologia",
+   "ciencias humanas"
+  ],
+  "historia urbana": [
+   "fundamentos do planejamento urbano e regional",
+   "planejamento urbano e regional",
+   "ciencias sociais aplicadas"
+  ],
+  "hovercraft": [
+   "sistemas aeroespaciais",
+   "engenharia aeroespacial",
+   "engenharias"
+  ],
+  "imunogenetica": [
+   "imunologia",
+   "ciencias biologicas"
+  ],
+  "imunologia": [
+   "ciencias biologicas"
+  ],
+  "imunologia aplicada": [
+   "imunologia",
+   "ciencias biologicas"
+  ],
+  "imunologia celular": [
+   "imunologia",
+   "ciencias biologicas"
+  ],
+  "imunoquimica": [
+   "imunologia",
+   "ciencias biologicas"
+  ],
+  "inf sobre atomos e moleculas obtidos experimentalmente instrumentacao e tecnicas": [
+   "fisica atomica e molecular",
+   "fisica",
+   "ciencias exatas e da terra"
+  ],
+  "inferencia em processos estocasticos": [
+   "estatistica",
+   "probabilidade e estatistica",
+   "ciencias exatas e da terra"
+  ],
+  "inferencia nao parametrica": [
+   "estatistica",
+   "probabilidade e estatistica",
+   "ciencias exatas e da terra"
+  ],
+  "inferencia parametrica": [
+   "estatistica",
+   "probabilidade e estatistica",
+   "ciencias exatas e da terra"
+  ],
+  "inflacao": [
+   "crescimento flutuacoes e planejamento economico",
+   "economia",
+   "ciencias sociais aplicadas"
+  ],
+  "informacao cadastro e mapeamento": [
+   "metodos e tecnicas do planejamento urbano e regional",
+   "planejamento urbano e regional",
+   "ciencias sociais aplicadas"
+  ],
+  "infra estrutura de transportes": [
+   "engenharia civil",
+   "engenharias"
+  ],
+  "infra estruturas urbanas e regionais": [
+   "servicos urbanos e regionais",
+   "planejamento urbano e regional",
+   "ciencias sociais aplicadas"
+  ],
+  "inseminacao artificial animal": [
+   "reproducao animal",
+   "medicina veterinaria",
+   "ciencias agrarias"
+  ],
+  "inspecao de produtos de origem animal": [
+   "medicina veterinaria",
+   "ciencias agrarias"
+  ],
+  "instalacoes e equipamentos metalurgicos": [
+   "engenharia de materiais e metalurgica",
+   "engenharias"
+  ],
+  "instalacoes eletricas e industriais": [
+   "sistemas eletricos de potencia",
+   "engenharia eletrica",
+   "engenharias"
+  ],
+  "instalacoes hidraulico sanitarias": [
+   "saneamento basico",
+   "engenharia sanitaria",
+   "engenharias"
+  ],
+  "instalacoes industriais de producao de alimentos": [
+   "engenharia de alimentos",
+   "ciencia e tecnologia de alimentos",
+   "ciencias agrarias"
+  ],
+  "instalacoes metalurgicas": [
+   "instalacoes e equipamentos metalurgicos",
+   "engenharia de materiais e metalurgica",
+   "engenharias"
+  ],
+  "instalacoes para producao animal": [
+   "producao animal",
+   "zootecnia",
+   "ciencias agrarias"
+  ],
+  "instalacoes prediais": [
+   "construcao civil",
+   "engenharia civil",
+   "engenharias"
+  ],
+  "instituicoes governamentais especificas": [
+   "estado e governo",
+   "ciencia politica",
+   "ciencias humanas"
+  ],
+  "instituicoes monetarias e financeiras do brasil": [
+   "economia monetaria e fiscal",
+   "economia",
+   "ciencias sociais aplicadas"
+  ],
+  "instrumentacao analitica": [
+   "quimica analitica",
+   "quimica",
+   "ciencias exatas e da terra"
+  ],
+  "instrumentacao astronomica": [
+   "astronomia",
+   "ciencias exatas e da terra"
+  ],
+  "instrumentacao eletromecanica": [
+   "medidas eletricas magneticas e eletronicas instrumentacao",
+   "engenharia eletrica",
+   "engenharias"
+  ],
+  "instrumentacao eletronica": [
+   "medidas eletricas magneticas e eletronicas instrumentacao",
+   "engenharia eletrica",
+   "engenharias"
+  ],
+  "instrumentacao especifica de uso geral em fisica": [
+   "fisica geral",
+   "fisica",
+   "ciencias exatas e da terra"
+  ],
+  "instrumentacao meteorologica": [
+   "meteorologia",
+   "geociencias",
+   "ciencias exatas e da terra"
+  ],
+  "instrumentacao musical": [
+   "musica",
+   "artes",
+   "linguistica letras e artes"
+  ],
+  "instrumentacao odontologica e medico hospitalar": [
+   "engenharia medica",
+   "engenharia biomedica",
+   "engenharias"
+  ],
+  "instrumentacao para medida e controle de radiacao": [
+   "aplicacoes de radioisotopos",
+   "engenharia nuclear",
+   "engenharias"
+  ],
+  "instrumentacao para operacao e controle de reatores": [
+   "tecnologia dos reatores",
+   "engenharia nuclear",
+   "engenharias"
+  ],
+  "integracao internacional conflito guerra e paz": [
+   "politica internacional",
+   "ciencia politica",
+   "ciencias humanas"
+  ],
+  "interacao do oceano com a atmosfera": [
+   "oceanografia fisica",
+   "oceanografia",
+   "ciencias exatas e da terra"
+  ],
+  "interacao do oceano com o leito do mar": [
+   "oceanografia fisica",
+   "oceanografia",
+   "ciencias exatas e da terra"
+  ],
+  "interacao entre os organismos marinhos e os parametros ambientais": [
+   "oceanografia biologica",
+   "oceanografia",
+   "ciencias exatas e da terra"
+  ],
+  "interacoes quimico biologicas geologicas das substancias quimicas da agua do mar": [
+   "oceanografia quimica",
+   "oceanografia",
+   "ciencias exatas e da terra"
+  ],
+  "interpretacao cinematografica": [
+   "cinema",
+   "artes",
+   "linguistica letras e artes"
+  ],
+  "interpretacao teatral": [
+   "teatro",
+   "artes",
+   "linguistica letras e artes"
+  ],
+  "intervencao terapeutica": [
+   "tratamento e prevencao psicologica",
+   "psicologia",
+   "ciencias humanas"
+  ],
+  "investimentos internacionais e ajuda externa": [
+   "economia internacional",
+   "economia",
+   "ciencias sociais aplicadas"
+  ],
+  "irrigacao e drenagem": [
+   "engenharia de agua e solo",
+   "engenharia agricola",
+   "ciencias agrarias"
+  ],
+  "jornalismo e editoracao": [
+   "comunicacao",
+   "ciencias sociais aplicadas"
+  ],
+  "jornalismo especializado comunitario rural empresarial cientifico": [
+   "jornalismo e editoracao",
+   "comunicacao",
+   "ciencias sociais aplicadas"
+  ],
+  "lavra": [
+   "engenharia de minas",
+   "engenharias"
+  ],
+  "lavra a ceu aberto": [
+   "lavra",
+   "engenharia de minas",
+   "engenharias"
+  ],
+  "lavra de mina subterranea": [
+   "lavra",
+   "engenharia de minas",
+   "engenharias"
+  ],
+  "layout de processos industriais": [
+   "tratamento de aguas de abastecimento e residuarias",
+   "engenharia sanitaria",
+   "engenharias"
+  ],
+  "legislacao ambiental": [
+   "saneamento ambiental",
+   "engenharia sanitaria",
+   "engenharias"
+  ],
+  "legislacao urbana e regional": [
+   "servicos urbanos e regionais",
+   "planejamento urbano e regional",
+   "ciencias sociais aplicadas"
+  ],
+  "letras": [
+   "linguistica letras e artes"
+  ],
+  "limpeza publica": [
+   "saneamento basico",
+   "engenharia sanitaria",
+   "engenharias"
+  ],
+  "lingua portuguesa": [
+   "letras",
+   "linguistica letras e artes"
+  ],
+  "linguagem formais e automatos": [
+   "teoria da computacao",
+   "ciencia da computacao",
+   "ciencias exatas e da terra"
+  ],
+  "linguagens de programacao": [
+   "metodologia e tecnicas da computacao",
+   "ciencia da computacao",
+   "ciencias exatas e da terra"
+  ],
+  "linguas classicas": [
+   "letras",
+   "linguistica letras e artes"
+  ],
+  "linguas estrangeiras modernas": [
+   "letras",
+   "linguistica letras e artes"
+  ],
+  "linguas indigenas": [
+   "letras",
+   "linguistica letras e artes"
+  ],
+  "linguistica": [
+   "linguistica letras e artes"
+  ],
+  "linguistica aplicada": [
+   "linguistica",
+   "linguistica letras e artes"
+  ],
+  "linguistica historica": [
+   "linguistica",
+   "linguistica letras e artes"
+  ],
+  "linguistica letras e artes": [],
+  "lipideos": [
+   "quimica de macromoleculas",
+   "bioquimica",
+   "ciencias biologicas"
+  ],
+  "literatura brasileira": [
+   "letras",
+   "linguistica letras e artes"
+  ],
+  "literatura comparada": [
+   "letras",
+   "linguistica letras e artes"
+  ],
+  "literaturas classicas": [
+   "letras",
+   "linguistica letras e artes"
+  ],
+  "literaturas estrangeiras modernas": [
+   "letras",
+   "linguistica letras e artes"
+  ],
+  "localizacao industrial": [
+   "engenharia economica",
+   "engenharia de producao",
+   "engenharias"
+  ],
+  "logica": [
+   "filosofia",
+   "ciencias humanas"
+  ],
+  "logica juridica": [
+   "teoria do direito",
+   "direito",
+   "ciencias sociais aplicadas"
+  ],
+  "logica matematica": [
+   "algebra",
+   "matematica",
+   "ciencias exatas e da terra"
+  ],
+  "logicas e semantica de programas": [
+   "teoria da computacao",
+   "ciencia da computacao",
+   "ciencias exatas e da terra"
+  ],
+  "manejo de animais": [
+   "producao animal",
+   "zootecnia",
+   "ciencias agrarias"
+  ],
+  "manejo e conservacao de pastagens": [
+   "pastagem e forragicultura",
+   "zootecnia",
+   "ciencias agrarias"
+  ],
+  "manejo e conservacao de recursos pesqueiros de aguas interiores": [
+   "recursos pesqueiros de aguas interiores",
+   "recursos pesqueiros e engenharia de pesca",
+   "ciencias agrarias"
+  ],
+  "manejo e conservacao de recursos pesqueiros marinhos": [
+   "recursos pesqueiros marinhos",
+   "recursos pesqueiros e engenharia de pesca",
+   "ciencias agrarias"
+  ],
+  "manejo e conservacao do solo": [
+   "ciencia do solo",
+   "agronomia",
+   "ciencias agrarias"
+  ],
+  "manejo e tratos culturais": [
+   "fitotecnia",
+   "agronomia",
+   "ciencias agrarias"
+  ],
+  "manejo florestal": [
+   "recursos florestais e engenharia florestal",
+   "ciencias agrarias"
+  ],
+  "manutencao de sistemas aeroespaciais": [
+   "sistemas aeroespaciais",
+   "engenharia aeroespacial",
+   "engenharias"
+  ],
+  "maquinas de fluxo": [
+   "propulsao aeroespacial",
+   "engenharia aeroespacial",
+   "engenharias"
+  ],
+  "maquinas de usinagem e conformacao": [
+   "processos de fabricacao",
+   "engenharia mecanica",
+   "engenharias"
+  ],
+  "maquinas e implementos agricolas": [
+   "engenharia agricola",
+   "ciencias agrarias"
+  ],
+  "maquinas eletricas e dispositivos de potencia": [
+   "sistemas eletricos de potencia",
+   "engenharia eletrica",
+   "engenharias"
+  ],
+  "maquinas maritimas": [
+   "engenharia naval e oceanica",
+   "engenharias"
+  ],
+  "maquinas motores e equipamentos": [
+   "projetos de maquinas",
+   "engenharia mecanica",
+   "engenharias"
+  ],
+  "maricultura": [
+   "aquicultura",
+   "recursos pesqueiros e engenharia de pesca",
+   "ciencias agrarias"
+  ],
+  "matematica": [
+   "ciencias exatas e da terra"
+  ],
+  "matematica aplicada": [
+   "matematica",
+   "ciencias exatas e da terra"
+  ],
+  "matematica da computacao": [
+   "ciencia da computacao",
+   "ciencias exatas e da terra"
+  ],
+  "matematica discreta e combinatoria": [
+   "matematica aplicada",
+   "matematica",
+   "ciencias exatas e da terra"
+  ],
+  "matematica simbolica": [
+   "matematica da computacao",
+   "ciencia da computacao",
+   "ciencias exatas e da terra"
+  ],
+  "materiais condutores": [
+   "materiais eletricos",
+   "engenharia eletrica",
+   "engenharias"
+  ],
+  "materiais conjugados nao metalicos": [
+   "materiais nao metalicos",
+   "engenharia de materiais e metalurgica",
+   "engenharias"
+  ],
+  "materiais dieletricos e propriedades dieletricas": [
+   "fisica da materia condensada",
+   "fisica",
+   "ciencias exatas e da terra"
+  ],
+  "materiais dieletricos piezoeletricos e ferroeletricos": [
+   "materiais eletricos",
+   "engenharia eletrica",
+   "engenharias"
+  ],
+  "materiais e componentes de construcao": [
+   "construcao civil",
+   "engenharia civil",
+   "engenharias"
+  ],
+  "materiais e componentes eletrooticos e magnetooticos materiais fotoeletricos": [
+   "materiais eletricos",
+   "engenharia eletrica",
+   "engenharias"
+  ],
+  "materiais e componentes semicondutores": [
+   "materiais eletricos",
+   "engenharia eletrica",
+   "engenharias"
+  ],
+  "materiais e dispositivos magneticos": [
+   "materiais eletricos",
+   "engenharia eletrica",
+   "engenharias"
+  ],
+  "materiais e dispositivos supercondutores": [
+   "materiais eletricos",
+   "engenharia eletrica",
+   "engenharias"
+  ],
+  "materiais e processos para engenharia aeronautica e aeroespacial": [
+   "engenharia aeroespacial",
+   "engenharias"
+  ],
+  "materiais eletricos": [
+   "engenharia eletrica",
+   "engenharias"
+  ],
+  "materiais magneticos e propriedades magneticas": [
+   "fisica da materia condensada",
+   "fisica",
+   "ciencias exatas e da terra"
+  ],
+  "materiais nao metalicos": [
+   "engenharia de materiais e metalurgica",
+   "engenharias"
+  ],
+  "materiais nucleares e blindagem de reatores": [
+   "tecnologia dos reatores",
+   "engenharia nuclear",
+   "engenharias"
+  ],
+  "materiais odontologicos": [
+   "odontologia",
+   "ciencias da saude"
+  ],
+  "matologia": [
+   "fitotecnia",
+   "agronomia",
+   "ciencias agrarias"
+  ],
+  "matrizes e ferramentas": [
+   "processos de fabricacao",
+   "engenharia mecanica",
+   "engenharias"
+  ],
+  "mecanica das estruturas": [
+   "estruturas",
+   "engenharia civil",
+   "engenharias"
+  ],
+  "mecanica dos corpos solidos elasticos e plasticos": [
+   "mecanica dos solidos",
+   "engenharia mecanica",
+   "engenharias"
+  ],
+  "mecanica dos fluidos": [
+   "fenomenos de transporte",
+   "engenharia mecanica",
+   "engenharias"
+  ],
+  "mecanica dos solidos": [
+   "engenharia mecanica",
+   "engenharias"
+  ],
+  "mecanica elasticidade e reologia": [
+   "areas classicas de fenomenologia e suas aplicacoes",
+   "fisica",
+   "ciencias exatas e da terra"
+  ],
+  "mecanicas das rochas": [
+   "geotecnica",
+   "engenharia civil",
+   "engenharias"
+  ],
+  "mecanicas dos solos": [
+   "geotecnica",
+   "engenharia civil",
+   "engenharias"
+  ],
+  "mecanismos instintivos e processos sociais em animais": [
+   "psicologia comparativa",
+   "psicologia",
+   "ciencias humanas"
+  ],
+  "mecanizacao agricola": [
+   "fitotecnia",
+   "agronomia",
+   "ciencias agrarias"
+  ],
+  "mecanizacao florestal": [
+   "tecnicas e operacoes florestais",
+   "recursos florestais e engenharia florestal",
+   "ciencias agrarias"
+  ],
+  "medicao controle correcao e protecao de sistemas eletricos de potencia": [
+   "sistemas eletricos de potencia",
+   "engenharia eletrica",
+   "engenharias"
+  ],
+  "medicina": [
+   "ciencias da saude"
+  ],
+  "medicina legal e deontologia": [
+   "medicina",
+   "ciencias da saude"
+  ],
+  "medicina veterinaria": [
+   "ciencias agrarias"
+  ],
+  "medicina veterinaria preventiva": [
+   "medicina veterinaria",
+   "ciencias agrarias"
+  ],
+  "medidas eletricas": [
+   "medidas eletricas magneticas e eletronicas instrumentacao",
+   "engenharia eletrica",
+   "engenharias"
+  ],
+  "medidas eletricas magneticas e eletronicas instrumentacao": [
+   "engenharia eletrica",
+   "engenharias"
+  ],
+  "medidas magneticas": [
+   "medidas eletricas magneticas e eletronicas instrumentacao",
+   "engenharia eletrica",
+   "engenharias"
+  ],
+  "meio interestelar": [
+   "astrofisica do meio interestelar",
+   "astronomia",
+   "ciencias exatas e da terra"
+  ],
+  "melhoramento de plantas": [
+   "biotecnologia vegetal",
+   "biotecnologia",
+   "ciencias biologicas"
+  ],
+  "melhoramento de plantas forrageiras e producao de sementes": [
+   "pastagem e forragicultura",
+   "zootecnia",
+   "ciencias agrarias"
+  ],
+  "melhoramento vegetal": [
+   "fitotecnia",
+   "agronomia",
+   "ciencias agrarias"
+  ],
+  "mercado de trabalho politica do governo": [
+   "economia dos recursos humanos",
+   "economia",
+   "ciencias sociais aplicadas"
+  ],
+  "mercadologia": [
+   "administracao de empresas",
+   "administracao",
+   "ciencias sociais aplicadas"
+  ],
+  "metabolismo e bioenergetica": [
+   "bioquimica",
+   "ciencias biologicas"
+  ],
+  "metafisica": [
+   "filosofia",
+   "ciencias humanas"
+  ],
+  "metalogenia": [
+   "geologia",
+   "geociencias",
+   "ciencias exatas e da terra"
+  ],
+  "metalurgia de po": [
+   "metalurgia de transformacao",
+   "engenharia de materiais e metalurgica",
+   "engenharias"
+  ],
+  "metalurgia de transformacao": [
+   "engenharia de materiais e metalurgica",
+   "engenharias"
+  ],
+  "metalurgia extrativa": [
+   "engenharia de materiais e metalurgica",
+   "engenharias"
+  ],
+  "metalurgia fisica": [
+   "engenharia de materiais e metalurgica",
+   "engenharias"
+  ],
+  "meteorologia": [
+   "geociencias",
+   "ciencias exatas e da terra"
+  ],
+  "meteorologia aplicada": [
+   "meteorologia",
+   "geociencias",
+   "ciencias exatas e da terra"
+  ],
+  "meteorologia dinamica": [
+   "meteorologia",
+   "geociencias",
+   "ciencias exatas e da terra"
+  ],
+  "meteorologia fisica": [
+   "meteorologia",
+   "geociencias",
+   "ciencias exatas e da terra"
+  ],
+  "meteorologia sinotica": [
+   "meteorologia",
+   "geociencias",
+   "ciencias exatas e da terra"
+  ],
+  "metodologia de projeto do produto": [
+   "engenharia do produto",
+   "engenharia de producao",
+   "engenharias"
+  ],
+  "metodologia e tecnicas da computacao": [
+   "ciencia da computacao",
+   "ciencias exatas e da terra"
+  ],
+  "metodologia instrumentacao e equipamento em psicologia": [
+   "fundamentos e medidas da psicologia",
+   "psicologia",
+   "ciencias humanas"
+  ],
+  "metodologias alternativas ao uso de animais": [
+   "biotecnologia em saude humana e animal",
+   "biotecnologia",
+   "ciencias biologicas"
+  ],
+  "metodos de concentracao e enriquecimento de minerios": [
+   "tratamento de minerios",
+   "engenharia de minas",
+   "engenharias"
+  ],
+  "metodos de fabricacao de navios e sistemas oceanicos": [
+   "tecnologia de construcao naval e de sistemas oceanicos",
+   "engenharia naval e oceanica",
+   "engenharias"
+  ],
+  "metodos de sintese e otimizacao aplicados ao projeto mecanico": [
+   "projetos de maquinas",
+   "engenharia mecanica",
+   "engenharias"
+  ],
+  "metodos e modelos matematicos econometricos e estatisticos": [
+   "metodos quantitativos em economia",
+   "economia",
+   "ciencias sociais aplicadas"
+  ],
+  "metodos e tecnicas de demografia historica": [
+   "demografia historica",
+   "demografia",
+   "ciencias sociais aplicadas"
+  ],
+  "metodos e tecnicas de ensino": [
+   "ensino aprendizagem",
+   "educacao",
+   "ciencias humanas"
+  ],
+  "metodos e tecnicas do planejamento urbano e regional": [
+   "planejamento urbano e regional",
+   "ciencias sociais aplicadas"
+  ],
+  "metodos experimentais e instrumentacao para particulas elementares e fisica nuclear": [
+   "fisica nuclear",
+   "fisica",
+   "ciencias exatas e da terra"
+  ],
+  "metodos matematicos da fisica": [
+   "fisica geral",
+   "fisica",
+   "ciencias exatas e da terra"
+  ],
+  "metodos oticos de analise": [
+   "quimica analitica",
+   "quimica",
+   "ciencias exatas e da terra"
+  ],
+  "metodos quantitativos bibliometria": [
+   "biblioteconomia",
+   "ciencia da informacao",
+   "ciencias sociais aplicadas"
+  ],
+  "metodos quantitativos em economia": [
+   "economia",
+   "ciencias sociais aplicadas"
+  ],
+  "metrologia tecnicas gerais de laboratorio sistema de instrumentacao": [
+   "fisica geral",
+   "fisica",
+   "ciencias exatas e da terra"
+  ],
+  "micologia": [
+   "biologia e fisiologia dos microorganismos",
+   "microbiologia",
+   "ciencias biologicas"
+  ],
+  "micro centrais hidreletricas": [
+   "fontes renovaveis de energia",
+   "engenharia de energia",
+   "engenharias"
+  ],
+  "microbiologia": [
+   "ciencias biologicas"
+  ],
+  "microbiologia agricola": [
+   "fitossanidade",
+   "agronomia",
+   "ciencias agrarias"
+  ],
+  "microbiologia aplicada": [
+   "microbiologia",
+   "ciencias biologicas"
+  ],
+  "microbiologia aplicada e engenharia sanitaria": [
+   "saneamento ambiental",
+   "engenharia sanitaria",
+   "engenharias"
+  ],
+  "microbiologia de alimentos": [
+   "ciencia de alimentos",
+   "ciencia e tecnologia de alimentos",
+   "ciencias agrarias"
+  ],
+  "microbiologia e bioquimica do solo": [
+   "ciencia do solo",
+   "agronomia",
+   "ciencias agrarias"
+  ],
+  "microbiologia industrial e de fermentacao": [
+   "microbiologia aplicada",
+   "microbiologia",
+   "ciencias biologicas"
+  ],
+  "microbiologia medica": [
+   "microbiologia aplicada",
+   "microbiologia",
+   "ciencias biologicas"
+  ],
+  "microeletronica": [
+   "outra"
+  ],
+  "micrometeorologia": [
+   "meteorologia",
+   "geociencias",
+   "ciencias exatas e da terra"
+  ],
+  "migracao": [
+   "componentes da dinamica demografica",
+   "demografia",
+   "ciencias sociais aplicadas"
+  ],
+  "mineralogia": [
+   "geologia",
+   "geociencias",
+   "ciencias exatas e da terra"
+  ],
+  "modelagem de fenomenos biologicos": [
+   "bioengenharia",
+   "engenharia biomedica",
+   "engenharias"
+  ],
+  "modelagem de sistemas biologicos": [
+   "bioengenharia",
+   "engenharia biomedica",
+   "engenharias"
+  ],
+  "modelagem simulacao sintese otimizacao e controle de processos": [
+   "engenharia quimica",
+   "engenharias"
+  ],
+  "modelos analiticos e de simulacao": [
+   "matematica da computacao",
+   "ciencia da computacao",
+   "ciencias exatas e da terra"
+  ],
+  "morfologia": [
+   "ciencias biologicas"
+  ],
+  "morfologia dos grupos recentes": [
+   "zoologia",
+   "ciencias biologicas"
+  ],
+  "morfologia externa": [
+   "morfologia vegetal",
+   "botanica",
+   "ciencias biologicas"
+  ],
+  "morfologia vegetal": [
+   "botanica",
+   "ciencias biologicas"
+  ],
+  "mortalidade": [
+   "componentes da dinamica demografica",
+   "demografia",
+   "ciencias sociais aplicadas"
+  ],
+  "motor de propulsao": [
+   "maquinas maritimas",
+   "engenharia naval e oceanica",
+   "engenharias"
+  ],
+  "motores alternativos": [
+   "propulsao aeroespacial",
+   "engenharia aeroespacial",
+   "engenharias"
+  ],
+  "movimento da agua do mar": [
+   "oceanografia fisica",
+   "oceanografia",
+   "ciencias exatas e da terra"
+  ],
+  "movimento da terra": [
+   "astrofisica do sistema solar",
+   "astronomia",
+   "ciencias exatas e da terra"
+  ],
+  "mudanca tecnologica": [
+   "economia industrial",
+   "economia",
+   "ciencias sociais aplicadas"
+  ],
+  "multidisciplinar": [
+   "outra"
+  ],
+  "museologia": [
+   "ciencias sociais aplicadas"
+  ],
+  "musica": [
+   "artes",
+   "linguistica letras e artes"
+  ],
+  "mutagenese": [
+   "genetica",
+   "ciencias biologicas"
+  ],
+  "nao metais e seus compostos": [
+   "quimica inorganica",
+   "quimica",
+   "ciencias exatas e da terra"
+  ],
+  "natalidade mortalidade migracao": [
+   "demografia historica",
+   "demografia",
+   "ciencias sociais aplicadas"
+  ],
+  "nebulosa": [
+   "astrofisica do meio interestelar",
+   "astronomia",
+   "ciencias exatas e da terra"
+  ],
+  "nefrologia": [
+   "clinica medica",
+   "medicina",
+   "ciencias da saude"
+  ],
+  "negocios internacionais": [
+   "administracao de empresas",
+   "administracao",
+   "ciencias sociais aplicadas"
+  ],
+  "neurocirurgia": [
+   "cirurgia",
+   "medicina",
+   "ciencias da saude"
+  ],
+  "neurofisiologia": [
+   "fisiologia de orgaos e sistemas",
+   "fisiologia",
+   "ciencias biologicas"
+  ],
+  "neurologia": [
+   "clinica medica",
+   "medicina",
+   "ciencias da saude"
+  ],
+  "neurologia eletrofisiologia e comportamento": [
+   "psicologia fisiologica",
+   "psicologia",
+   "ciencias humanas"
+  ],
+  "neuropsicofarmacologia": [
+   "farmacologia",
+   "ciencias biologicas"
+  ],
+  "normatizacao e certificacao de qualidade de aeronaves e componentes": [
+   "sistemas aeroespaciais",
+   "engenharia aeroespacial",
+   "engenharias"
+  ],
+  "normatizacao e certificacao de qualidade de navios": [
+   "tecnologia de construcao naval e de sistemas oceanicos",
+   "engenharia naval e oceanica",
+   "engenharias"
+  ],
+  "novas drogas terapeuticas": [
+   "biotecnologia em saude humana e animal",
+   "biotecnologia",
+   "ciencias biologicas"
+  ],
+  "nucleo do reator": [
+   "tecnologia dos reatores",
+   "engenharia nuclear",
+   "engenharias"
+  ],
+  "nupcialidade e familia": [
+   "demografia",
+   "ciencias sociais aplicadas",
+   "demografia historica"
+  ],
+  "nutricao": [
+   "ciencias da saude"
+  ],
+  "nutricao basica e experimental": [
+   "nutricao",
+   "ciencias da saude"
+  ],
+  "nutricao clinica": [
+   "nutricao",
+   "ciencias da saude"
+  ],
+  "nutricao e alimentacao animal": [
+   "zootecnia",
+   "ciencias agrarias"
+  ],
+  "nutricao e crescimento vegetal": [
+   "fisiologia vegetal",
+   "botanica",
+   "ciencias biologicas"
+  ],
+  "nutricao florestal": [
+   "silvicultura",
+   "recursos florestais e engenharia florestal",
+   "ciencias agrarias"
+  ],
+  "obras de terra e enrocamento": [
+   "geotecnica",
+   "engenharia civil",
+   "engenharias"
+  ],
+  "obstetricia animal": [
+   "clinica e cirurgia animal",
+   "medicina veterinaria",
+   "ciencias agrarias"
+  ],
+  "oceanografia": [
+   "ciencias exatas e da terra"
+  ],
+  "oceanografia biologica": [
+   "oceanografia",
+   "ciencias exatas e da terra"
+  ],
+  "oceanografia fisica": [
+   "oceanografia",
+   "ciencias exatas e da terra"
+  ],
+  "oceanografia geologica": [
+   "oceanografia",
+   "ciencias exatas e da terra"
+  ],
+  "oceanografia quimica": [
+   "oceanografia",
+   "ciencias exatas e da terra"
+  ],
+  "odontologia": [
+   "ciencias da saude"
+  ],
+  "odontologia social e preventiva": [
+   "odontologia",
+   "ciencias da saude"
+  ],
+  "odontopediatria": [
+   "odontologia",
+   "ciencias da saude"
+  ],
+  "oftalmologia": [
+   "clinica medica",
+   "medicina",
+   "ciencias da saude"
+  ],
+  "opera": [
+   "artes",
+   "linguistica letras e artes"
+  ],
+  "operacao de sistemas de transporte": [
+   "operacoes de transportes",
+   "engenharia de transportes",
+   "engenharias"
+  ],
+  "operacoes de transportes": [
+   "engenharia de transportes",
+   "engenharias"
+  ],
+  "ordenamento florestal": [
+   "manejo florestal",
+   "recursos florestais e engenharia florestal",
+   "ciencias agrarias"
+  ],
+  "organizacao comercial de jornais": [
+   "jornalismo e editoracao",
+   "comunicacao",
+   "ciencias sociais aplicadas"
+  ],
+  "organizacao de arquivos": [
+   "arquivologia",
+   "ciencia da informacao",
+   "ciencias sociais aplicadas"
+  ],
+  "organizacao editorial de jornais": [
+   "jornalismo e editoracao",
+   "comunicacao",
+   "ciencias sociais aplicadas"
+  ],
+  "organizacao industrial e estudos industriais": [
+   "economia industrial",
+   "economia",
+   "ciencias sociais aplicadas"
+  ],
+  "organizacoes internacionais": [
+   "politica internacional",
+   "ciencia politica",
+   "ciencias humanas"
+  ],
+  "organizacoes publicas": [
+   "administracao publica",
+   "administracao",
+   "ciencias sociais aplicadas"
+  ],
+  "orientacao e aconselhamento": [
+   "educacao",
+   "ciencias humanas"
+  ],
+  "orientacao educacional": [
+   "orientacao e aconselhamento",
+   "educacao",
+   "ciencias humanas"
+  ],
+  "orientacao vocacional": [
+   "orientacao e aconselhamento",
+   "educacao",
+   "ciencias humanas"
+  ],
+  "origem das massas de agua": [
+   "oceanografia fisica",
+   "oceanografia",
+   "ciencias exatas e da terra"
+  ],
+  "ortodontia": [
+   "odontologia",
+   "ciencias da saude"
+  ],
+  "ortopedia": [
+   "clinica medica",
+   "medicina",
+   "ciencias da saude"
+  ],
+  "ostreicultura": [
+   "aquicultura",
+   "recursos pesqueiros e engenharia de pesca",
+   "ciencias agrarias"
+  ],
+  "otica": [
+   "areas classicas de fenomenologia e suas aplicacoes",
+   "fisica",
+   "ciencias exatas e da terra"
+  ],
+  "outra": [],
+  "outras literaturas vernaculas": [
+   "letras",
+   "linguistica letras e artes"
+  ],
+  "outras sociologias especificas": [
+   "sociologia",
+   "ciencias humanas"
+  ],
+  "padroes legislacao e fiscalizacao de alimentos": [
+   "ciencia de alimentos",
+   "ciencia e tecnologia de alimentos",
+   "ciencias agrarias"
+  ],
+  "paisagismo": [
+   "arquitetura e urbanismo",
+   "ciencias sociais aplicadas"
+  ],
+  "paleobotanica": [
+   "botanica",
+   "ciencias biologicas"
+  ],
+  "paleontologia estratigrafica": [
+   "geologia",
+   "geociencias",
+   "ciencias exatas e da terra"
+  ],
+  "paleozoologia": [
+   "zoologia",
+   "ciencias biologicas"
+  ],
+  "palinologia": [
+   "morfologia vegetal",
+   "botanica",
+   "ciencias biologicas"
+  ],
+  "papeis e estruturas sociais individuo": [
+   "psicologia social",
+   "psicologia",
+   "ciencias humanas"
+  ],
+  "parasitologia": [
+   "ciencias biologicas"
+  ],
+  "parasitologia agricola": [
+   "fitossanidade",
+   "agronomia",
+   "ciencias agrarias"
+  ],
+  "parasitologia aplicada a engenharia sanitaria": [
+   "saneamento ambiental",
+   "engenharia sanitaria",
+   "engenharias"
+  ],
+  "parques e jardins": [
+   "floricultura parques e jardins",
+   "agronomia",
+   "ciencias agrarias"
+  ],
+  "pastagem e forragicultura": [
+   "zootecnia",
+   "ciencias agrarias"
+  ],
+  "patologia animal": [
+   "medicina veterinaria",
+   "ciencias agrarias"
+  ],
+  "patologia aviaria": [
+   "patologia animal",
+   "medicina veterinaria",
+   "ciencias agrarias"
+  ],
+  "patologia clinica animal": [
+   "patologia animal",
+   "medicina veterinaria",
+   "ciencias agrarias"
+  ],
+  "pavimentos": [
+   "geotecnica",
+   "engenharia civil",
+   "engenharias"
+  ],
+  "pediatria": [
+   "clinica medica",
+   "medicina",
+   "ciencias da saude"
+  ],
+  "pedologia": [
+   "geografia fisica",
+   "geociencias",
+   "ciencias exatas e da terra"
+  ],
+  "periodontia": [
+   "odontologia",
+   "ciencias da saude"
+  ],
+  "pesquisa mineral": [
+   "engenharia de minas",
+   "engenharias"
+  ],
+  "pesquisa operacional": [
+   "engenharia de producao",
+   "engenharias"
+  ],
+  "petrologia": [
+   "geologia",
+   "geociencias",
+   "ciencias exatas e da terra"
+  ],
+  "pintura": [
+   "artes plasticas",
+   "artes",
+   "linguistica letras e artes"
+  ],
+  "pirometalurgia": [
+   "metalurgia extrativa",
+   "engenharia de materiais e metalurgica",
+   "engenharias"
+  ],
+  "piscicultura": [
+   "aquicultura",
+   "recursos pesqueiros e engenharia de pesca",
+   "ciencias agrarias"
+  ],
+  "planejamento ambiental e comportamento humano": [
+   "psicologia do trabalho e organizacional",
+   "psicologia",
+   "ciencias humanas"
+  ],
+  "planejamento de experimentos": [
+   "estatistica",
+   "probabilidade e estatistica",
+   "ciencias exatas e da terra"
+  ],
+  "planejamento de instalacoes industriais": [
+   "gerencia de producao",
+   "engenharia de producao",
+   "engenharias"
+  ],
+  "planejamento de transportes": [
+   "engenharia de transportes",
+   "engenharias"
+  ],
+  "planejamento e organizacao do sistema de transporte": [
+   "planejamento de transportes",
+   "engenharia de transportes",
+   "engenharias"
+  ],
+  "planejamento e projeto do equipamento": [
+   "projeto de arquitetura e urbanismo",
+   "arquitetura e urbanismo",
+   "ciencias sociais aplicadas"
+  ],
+  "planejamento e projeto do espaco urbano": [
+   "projeto de arquitetura e urbanismo",
+   "arquitetura e urbanismo",
+   "ciencias sociais aplicadas"
+  ],
+  "planejamento e projetos da edificacao": [
+   "projeto de arquitetura e urbanismo",
+   "arquitetura e urbanismo",
+   "ciencias sociais aplicadas"
+  ],
+  "planejamento educacional": [
+   "politica planejamento e avaliacao educacional",
+   "educacao",
+   "ciencias humanas"
+  ],
+  "planejamento em ciencia e tecnologia": [
+   "administracao publica",
+   "administracao",
+   "ciencias sociais aplicadas"
+  ],
+  "planejamento energetico": [
+   "engenharia de energia",
+   "engenharias"
+  ],
+  "planejamento institucional": [
+   "psicologia do ensino e da aprendizagem",
+   "psicologia",
+   "ciencias humanas"
+  ],
+  "planejamento integrado dos recursos hidricos": [
+   "recursos hidricos",
+   "engenharia sanitaria",
+   "engenharias"
+  ],
+  "planejamento projeto e controle de sistemas de producao": [
+   "gerencia de producao",
+   "engenharia de producao",
+   "engenharias"
+  ],
+  "planejamento urbano e regional": [
+   "ciencias sociais aplicadas"
+  ],
+  "plantas transgenicas": [
+   "biotecnologia vegetal",
+   "biotecnologia",
+   "ciencias biologicas"
+  ],
+  "pneumologia": [
+   "clinica medica",
+   "medicina",
+   "ciencias da saude"
+  ],
+  "polimeros aplicacoes": [
+   "materiais nao metalicos",
+   "engenharia de materiais e metalurgica",
+   "engenharias"
+  ],
+  "polimeros e coloides": [
+   "quimica organica",
+   "quimica",
+   "ciencias exatas e da terra"
+  ],
+  "politica e legislacao florestal": [
+   "manejo florestal",
+   "recursos florestais e engenharia florestal",
+   "ciencias agrarias"
+  ],
+  "politica e planejamento governamentais": [
+   "administracao publica",
+   "administracao",
+   "ciencias sociais aplicadas"
+  ],
+  "politica educacional": [
+   "politica planejamento e avaliacao educacional",
+   "educacao",
+   "ciencias humanas"
+  ],
+  "politica energetica regional e nacional": [
+   "planejamento energetico",
+   "engenharia de energia",
+   "engenharias"
+  ],
+  "politica externa do brasil": [
+   "politica internacional",
+   "ciencia politica",
+   "ciencias humanas"
+  ],
+  "politica fiscal do brasil": [
+   "economia monetaria e fiscal",
+   "economia",
+   "ciencias sociais aplicadas"
+  ],
+  "politica internacional": [
+   "ciencia politica",
+   "ciencias humanas"
+  ],
+  "politica planejamento e avaliacao educacional": [
+   "educacao",
+   "ciencias humanas"
+  ],
+  "politica planejamento gestao e avaliacao": [
+   "saude coletiva",
+   "ciencias da saude"
+  ],
+  "politica populacional": [
+   "politica publica e populacao",
+   "demografia",
+   "ciencias sociais aplicadas"
+  ],
+  "politica publica e populacao": [
+   "demografia",
+   "ciencias sociais aplicadas"
+  ],
+  "politica urbana": [
+   "fundamentos do planejamento urbano e regional",
+   "planejamento urbano e regional",
+   "ciencias sociais aplicadas"
+  ],
+  "politicas de planejamento familiar": [
+   "politica publica e populacao",
+   "demografia",
+   "ciencias sociais aplicadas"
+  ],
+  "politicas de redistribuicao de populacao": [
+   "politica publica e populacao",
+   "demografia",
+   "ciencias sociais aplicadas"
+  ],
+  "politicas publicas": [
+   "ciencia politica",
+   "ciencias humanas"
+  ],
+  "portos e vias navegaveis projeto e construcao": [
+   "infra estrutura de transportes",
+   "engenharia civil",
+   "engenharias"
+  ],
+  "pre processamento de produtos agricolas": [
+   "engenharia de processamento de produtos agricolas",
+   "engenharia agricola",
+   "ciencias agrarias"
+  ],
+  "principios variacionais e metodos numericos": [
+   "fenomenos de transporte",
+   "engenharia mecanica",
+   "engenharias"
+  ],
+  "probabilidade": [
+   "probabilidade e estatistica",
+   "ciencias exatas e da terra"
+  ],
+  "probabilidade e estatistica": [
+   "ciencias exatas e da terra"
+  ],
+  "probabilidade e estatistica aplicadas": [
+   "probabilidade e estatistica",
+   "ciencias exatas e da terra"
+  ],
+  "problemas tecnologicos da fusao controlada": [
+   "fusao controlada",
+   "engenharia nuclear",
+   "engenharias"
+  ],
+  "processamento de dados astronomicos": [
+   "instrumentacao astronomica",
+   "astronomia",
+   "ciencias exatas e da terra"
+  ],
+  "processamento de sinais biologicos": [
+   "bioengenharia",
+   "engenharia biomedica",
+   "engenharias"
+  ],
+  "processamento grafico graphics": [
+   "metodologia e tecnicas da computacao",
+   "ciencia da computacao",
+   "ciencias exatas e da terra"
+  ],
+  "processamento mecanico da madeira": [
+   "tecnologia e utilizacao de produtos florestais",
+   "recursos florestais e engenharia florestal",
+   "ciencias agrarias"
+  ],
+  "processos ambientais e tecnologias limpas": [
+   "engenharia quimica",
+   "engenharias"
+  ],
+  "processos biotecnologicos e alimentos": [
+   "engenharia quimica",
+   "engenharias"
+  ],
+  "processos cognitivos e atencionais": [
+   "psicologia experimental",
+   "psicologia",
+   "ciencias humanas"
+  ],
+  "processos construtivos": [
+   "construcao civil",
+   "engenharia civil",
+   "engenharias"
+  ],
+  "processos da comunicacao": [
+   "teoria da informacao",
+   "ciencia da informacao",
+   "ciencias sociais aplicadas"
+  ],
+  "processos de aprendizagem memoria e motivacao": [
+   "psicologia experimental",
+   "psicologia",
+   "ciencias humanas"
+  ],
+  "processos de colisao e interacoes de atomos e moleculas": [
+   "fisica atomica e molecular",
+   "fisica",
+   "ciencias exatas e da terra"
+  ],
+  "processos de disseminacao da informacao": [
+   "biblioteconomia",
+   "ciencia da informacao",
+   "ciencias sociais aplicadas"
+  ],
+  "processos de fabricacao": [
+   "engenharia mecanica",
+   "engenharias",
+   "microeletronica",
+   "outra"
+  ],
+  "processos de fabricacao selecao economica": [
+   "processos de fabricacao",
+   "engenharia mecanica",
+   "engenharias"
+  ],
+  "processos de trabalho": [
+   "engenharia do produto",
+   "engenharia de producao",
+   "engenharias"
+  ],
+  "processos estocasticos e teoria das filas": [
+   "pesquisa operacional",
+   "engenharia de producao",
+   "engenharias"
+  ],
+  "processos estocasticos especiais": [
+   "probabilidade",
+   "probabilidade e estatistica",
+   "ciencias exatas e da terra"
+  ],
+  "processos grupais e de comunicacao": [
+   "psicologia social",
+   "psicologia",
+   "ciencias humanas"
+  ],
+  "processos industriais da fusao controlada": [
+   "fusao controlada",
+   "engenharia nuclear",
+   "engenharias"
+  ],
+  "processos markovianos": [
+   "probabilidade",
+   "probabilidade e estatistica",
+   "ciencias exatas e da terra"
+  ],
+  "processos perceptuais e cognitivos desenvolvimento": [
+   "psicologia do desenvolvimento humano",
+   "psicologia",
+   "ciencias humanas"
+  ],
+  "processos perceptuais e motores": [
+   "psicologia experimental",
+   "psicologia",
+   "ciencias humanas"
+  ],
+  "processos psico fisiologicos": [
+   "psicologia fisiologica",
+   "psicologia",
+   "ciencias humanas"
+  ],
+  "processos simplificados de tratamento de aguas": [
+   "tratamento de aguas de abastecimento e residuarias",
+   "engenharia sanitaria",
+   "engenharias"
+  ],
+  "producao animal": [
+   "zootecnia",
+   "ciencias agrarias"
+  ],
+  "producao de mudas": [
+   "fitotecnia",
+   "agronomia",
+   "ciencias agrarias"
+  ],
+  "producao de radioisotopos": [
+   "aplicacoes de radioisotopos",
+   "engenharia nuclear",
+   "engenharias"
+  ],
+  "producao e beneficiamento de sementes": [
+   "fitotecnia",
+   "agronomia",
+   "ciencias agrarias"
+  ],
+  "programacao de condicoes de ensino": [
+   "psicologia do ensino e da aprendizagem",
+   "psicologia",
+   "ciencias humanas"
+  ],
+  "programacao linear nao linear mista e dinamica": [
+   "pesquisa operacional",
+   "engenharia de producao",
+   "engenharias"
+  ],
+  "programacao visual": [
+   "desenho industrial",
+   "ciencias sociais aplicadas"
+  ],
+  "programas de atendimento comunitario": [
+   "tratamento e prevencao psicologica",
+   "psicologia",
+   "ciencias humanas"
+  ],
+  "projecoes": [
+   "tendencia populacional",
+   "demografia",
+   "ciencias sociais aplicadas"
+  ],
+  "projeto": [
+   "microeletronica",
+   "outra"
+  ],
+  "projeto de arquitetura e urbanismo": [
+   "arquitetura e urbanismo",
+   "ciencias sociais aplicadas"
+  ],
+  "projeto de estruturas aeroespaciais": [
+   "estruturas aeroespaciais",
+   "engenharia aeroespacial",
+   "engenharias"
+  ],
+  "projeto de navios e de sistemas oceanicos": [
+   "engenharia naval e oceanica",
+   "engenharias"
+  ],
+  "projetos de embarcacoes nao convencionais": [
+   "projeto de navios e de sistemas oceanicos",
+   "engenharia naval e oceanica",
+   "engenharias"
+  ],
+  "projetos de espacos livres urbanos": [
+   "paisagismo",
+   "arquitetura e urbanismo",
+   "ciencias sociais aplicadas"
+  ],
+  "projetos de maquinas": [
+   "engenharia mecanica",
+   "engenharias"
+  ],
+  "projetos de navios": [
+   "projeto de navios e de sistemas oceanicos",
+   "engenharia naval e oceanica",
+   "engenharias"
+  ],
+  "projetos de sistemas oceanicos fixos e semi fixos": [
+   "projeto de navios e de sistemas oceanicos",
+   "engenharia naval e oceanica",
+   "engenharias"
+  ],
+  "prop oticas e espectrosc da mat condens outras inter da mat com rad e part": [
+   "fisica da materia condensada",
+   "fisica",
+   "ciencias exatas e da terra"
+  ],
+  "propriedades de nucleos especificos": [
+   "fisica nuclear",
+   "fisica",
+   "ciencias exatas e da terra"
+  ],
+  "propriedades de particulas especificas e ressonancias": [
+   "fisica das particulas elementares e campos",
+   "fisica",
+   "ciencias exatas e da terra"
+  ],
+  "propriedades de transportes de materia condensada nao eletronica": [
+   "fisica da materia condensada",
+   "fisica",
+   "ciencias exatas e da terra"
+  ],
+  "propriedades fisicas das rochas": [
+   "geofisica",
+   "geociencias",
+   "ciencias exatas e da terra"
+  ],
+  "propriedades fisicas dos metais e ligas": [
+   "metalurgia fisica",
+   "engenharia de materiais e metalurgica",
+   "engenharias"
+  ],
+  "propriedades fisico mecanicas da madeira": [
+   "tecnologia e utilizacao de produtos florestais",
+   "recursos florestais e engenharia florestal",
+   "ciencias agrarias"
+  ],
+  "propriedades mecanicas dos metais e ligas": [
+   "metalurgia fisica",
+   "engenharia de materiais e metalurgica",
+   "engenharias"
+  ],
+  "propriedades mecanicas e acusticas da materia condensada": [
+   "fisica da materia condensada",
+   "fisica",
+   "ciencias exatas e da terra"
+  ],
+  "propriedades quimicas da agua do mar": [
+   "oceanografia quimica",
+   "oceanografia",
+   "ciencias exatas e da terra"
+  ],
+  "propriedades termicas da materia condensada": [
+   "fisica da materia condensada",
+   "fisica",
+   "ciencias exatas e da terra"
+  ],
+  "propulsao aeroespacial": [
+   "engenharia aeroespacial",
+   "engenharias"
+  ],
+  "propulsao de foguetes": [
+   "propulsao aeroespacial",
+   "engenharia aeroespacial",
+   "engenharias"
+  ],
+  "propulsao de navios": [
+   "hidrodinamica de navios e sistemas oceanicos",
+   "engenharia naval e oceanica",
+   "engenharias"
+  ],
+  "prospeccao mineral": [
+   "geologia",
+   "geociencias",
+   "ciencias exatas e da terra"
+  ],
+  "protecao florestal": [
+   "silvicultura",
+   "recursos florestais e engenharia florestal",
+   "ciencias agrarias"
+  ],
+  "proteinas": [
+   "quimica de macromoleculas",
+   "bioquimica",
+   "ciencias biologicas"
+  ],
+  "protozoologia de parasitos": [
+   "parasitologia",
+   "ciencias biologicas"
+  ],
+  "protozoologia parasitaria animal": [
+   "protozoologia de parasitos",
+   "parasitologia",
+   "ciencias biologicas"
+  ],
+  "protozoologia parasitaria humana": [
+   "protozoologia de parasitos",
+   "parasitologia",
+   "ciencias biologicas"
+  ],
+  "psicobiologia": [
+   "psicologia fisiologica",
+   "psicologia",
+   "ciencias humanas"
+  ],
+  "psicolinguistica": [
+   "linguistica",
+   "linguistica letras e artes"
+  ],
+  "psicologia": [
+   "ciencias humanas"
+  ],
+  "psicologia cognitiva": [
+   "psicologia",
+   "ciencias humanas"
+  ],
+  "psicologia comparativa": [
+   "psicologia",
+   "ciencias humanas"
+  ],
+  "psicologia do desenvolvimento humano": [
+   "psicologia",
+   "ciencias humanas"
+  ],
+  "psicologia do ensino e da aprendizagem": [
+   "psicologia",
+   "ciencias humanas"
+  ],
+  "psicologia do trabalho e organizacional": [
+   "psicologia",
+   "ciencias humanas"
+  ],
+  "psicologia educacional": [
+   "fundamentos da educacao",
+   "educacao",
+   "ciencias humanas"
+  ],
+  "psicologia experimental": [
+   "psicologia",
+   "ciencias humanas"
+  ],
+  "psicologia fisiologica": [
+   "psicologia",
+   "ciencias humanas"
+  ],
+  "psicologia social": [
+   "psicologia",
+   "ciencias humanas"
+  ],
+  "psiquiatria": [
+   "medicina",
+   "ciencias da saude"
+  ],
+  "qualidade do ar das aguas e do solo": [
+   "saneamento ambiental",
+   "engenharia sanitaria",
+   "engenharias"
+  ],
+  "quasares": [
+   "astrofisica extragalactica",
+   "astronomia",
+   "ciencias exatas e da terra"
+  ],
+  "quimica": [
+   "ciencias exatas e da terra"
+  ],
+  "quimica analitica": [
+   "quimica",
+   "ciencias exatas e da terra"
+  ],
+  "quimica bio inorganica": [
+   "quimica inorganica",
+   "quimica",
+   "ciencias exatas e da terra"
+  ],
+  "quimica da atmosfera": [
+   "meteorologia",
+   "geociencias",
+   "ciencias exatas e da terra"
+  ],
+  "quimica da madeira": [
+   "tecnologia e utilizacao de produtos florestais",
+   "recursos florestais e engenharia florestal",
+   "ciencias agrarias"
+  ],
+  "quimica de interfaces": [
+   "fisico quimica",
+   "quimica",
+   "ciencias exatas e da terra"
+  ],
+  "quimica de macromoleculas": [
+   "bioquimica",
+   "ciencias biologicas"
+  ],
+  "quimica do estado condensado": [
+   "fisico quimica",
+   "quimica",
+   "ciencias exatas e da terra"
+  ],
+  "quimica do solo": [
+   "ciencia do solo",
+   "agronomia",
+   "ciencias agrarias"
+  ],
+  "quimica dos produtos naturais": [
+   "quimica organica",
+   "quimica",
+   "ciencias exatas e da terra"
+  ],
+  "quimica farmaceutica medicinal": [
+   "farmacia",
+   "ciencias da saude"
+  ],
+  "quimica fisica fisico quimica e bioquimica dos alim e das mat primas alimentares": [
+   "ciencia de alimentos",
+   "ciencia e tecnologia de alimentos",
+   "ciencias agrarias"
+  ],
+  "quimica inorganica": [
+   "quimica",
+   "ciencias exatas e da terra"
+  ],
+  "quimica nuclear e radioquimica": [
+   "fisico quimica",
+   "quimica",
+   "ciencias exatas e da terra"
+  ],
+  "quimica organica": [
+   "quimica",
+   "ciencias exatas e da terra"
+  ],
+  "quimica sanitaria": [
+   "tratamento de aguas de abastecimento e residuarias",
+   "engenharia sanitaria",
+   "engenharias"
+  ],
+  "quimica teorica": [
+   "fisico quimica",
+   "quimica",
+   "ciencias exatas e da terra"
+  ],
+  "radio e televisao": [
+   "comunicacao",
+   "ciencias sociais aplicadas"
+  ],
+  "radioastronomia": [
+   "instrumentacao astronomica",
+   "astronomia",
+   "ciencias exatas e da terra"
+  ],
+  "radiodifusao": [
+   "radio e televisao",
+   "comunicacao",
+   "ciencias sociais aplicadas"
+  ],
+  "radiologia de animais": [
+   "clinica e cirurgia animal",
+   "medicina veterinaria",
+   "ciencias agrarias"
+  ],
+  "radiologia e fotobiologia": [
+   "biofisica",
+   "ciencias biologicas"
+  ],
+  "radiologia medica": [
+   "medicina",
+   "ciencias da saude"
+  ],
+  "radiologia odontologica": [
+   "odontologia",
+   "ciencias da saude"
+  ],
+  "radionavegacao e radioastronomia": [
+   "telecomunicacoes",
+   "engenharia eletrica",
+   "engenharias"
+  ],
+  "reacoes especificas e fenomiologia de particulas": [
+   "fisica das particulas elementares e campos",
+   "fisica",
+   "ciencias exatas e da terra"
+  ],
+  "reacoes nucleares e espalhamento geral": [
+   "fisica nuclear",
+   "fisica",
+   "ciencias exatas e da terra"
+  ],
+  "reacoes nucleares e espalhamento reacoes especificas": [
+   "fisica nuclear",
+   "fisica",
+   "ciencias exatas e da terra"
+  ],
+  "recobrimentos": [
+   "metalurgia de transformacao",
+   "engenharia de materiais e metalurgica",
+   "engenharias"
+  ],
+  "recrutamento e selecao de pessoal": [
+   "psicologia do trabalho e organizacional",
+   "psicologia",
+   "ciencias humanas"
+  ],
+  "recuperacao de areas degradadas": [
+   "conservacao da natureza",
+   "recursos florestais e engenharia florestal",
+   "ciencias agrarias"
+  ],
+  "recursos florestais e engenharia florestal": [
+   "ciencias agrarias"
+  ],
+  "recursos hidricos": [
+   "engenharia sanitaria",
+   "engenharias"
+  ],
+  "recursos pesqueiros de aguas interiores": [
+   "recursos pesqueiros e engenharia de pesca",
+   "ciencias agrarias"
+  ],
+  "recursos pesqueiros e engenharia de pesca": [
+   "ciencias agrarias"
+  ],
+  "recursos pesqueiros marinhos": [
+   "recursos pesqueiros e engenharia de pesca",
+   "ciencias agrarias"
+  ],
+  "regencia": [
+   "musica",
+   "artes",
+   "linguistica letras e artes"
+  ],
+  "regionalizacao": [
+   "geografia regional",
+   "geografia",
+   "ciencias humanas"
+  ],
+  "regressao e correlacao": [
+   "estatistica",
+   "probabilidade e estatistica",
+   "ciencias exatas e da terra"
+  ],
+  "rejeitos de combustivel nuclear": [
+   "combustivel nuclear",
+   "engenharia nuclear",
+   "engenharias"
+  ],
+  "relacoes agua madeira e secagem": [
+   "tecnologia e utilizacao de produtos florestais",
+   "recursos florestais e engenharia florestal",
+   "ciencias agrarias"
+  ],
+  "relacoes do comercio politica comercial integracao economica": [
+   "economia internacional",
+   "economia",
+   "ciencias sociais aplicadas"
+  ],
+  "relacoes intergovernamentais": [
+   "estado e governo",
+   "ciencia politica",
+   "ciencias humanas"
+  ],
+  "relacoes internacionais bilaterais e multilaterais": [
+   "politica internacional",
+   "ciencia politica",
+   "ciencias humanas"
+  ],
+  "relacoes interpessoais": [
+   "psicologia social",
+   "psicologia",
+   "ciencias humanas"
+  ],
+  "relacoes publicas e propaganda": [
+   "comunicacao",
+   "ciencias sociais aplicadas"
+  ],
+  "relatividade e gravitacao": [
+   "fisica geral",
+   "fisica",
+   "ciencias exatas e da terra"
+  ],
+  "renda e tributacao": [
+   "economia regional e urbana",
+   "economia",
+   "ciencias sociais aplicadas"
+  ],
+  "representacao da informacao": [
+   "teoria da informacao",
+   "ciencia da informacao",
+   "ciencias sociais aplicadas"
+  ],
+  "reprocessamento de combustivel nuclear": [
+   "combustivel nuclear",
+   "engenharia nuclear",
+   "engenharias"
+  ],
+  "reproducao animal": [
+   "medicina veterinaria",
+   "ciencias agrarias"
+  ],
+  "reproducao vegetal": [
+   "fisiologia vegetal",
+   "botanica",
+   "ciencias biologicas"
+  ],
+  "residuos radioativos": [
+   "tratamento de aguas de abastecimento e residuarias",
+   "engenharia sanitaria",
+   "engenharias"
+  ],
+  "residuos solidos domesticos e industriais": [
+   "saneamento basico",
+   "engenharia sanitaria",
+   "engenharias"
+  ],
+  "resinas de madeiras": [
+   "tecnologia e utilizacao de produtos florestais",
+   "recursos florestais e engenharia florestal",
+   "ciencias agrarias"
+  ],
+  "resistencia hidrodinamica": [
+   "hidrodinamica de navios e sistemas oceanicos",
+   "engenharia naval e oceanica",
+   "engenharias"
+  ],
+  "ressonancia mag e relax na mat condens efeitos mosbauer corr ang pertubada": [
+   "fisica da materia condensada",
+   "fisica",
+   "ciencias exatas e da terra"
+  ],
+  "reumatologia": [
+   "clinica medica",
+   "medicina",
+   "ciencias da saude"
+  ],
+  "robotica mecatronica e automacao": [
+   "outra"
+  ],
+  "robotizacao": [
+   "processos de fabricacao",
+   "engenharia mecanica",
+   "engenharias"
+  ],
+  "rodovias projeto e construcao": [
+   "infra estrutura de transportes",
+   "engenharia civil",
+   "engenharias"
+  ],
+  "roteiro e direcao cinematograficos": [
+   "cinema",
+   "artes",
+   "linguistica letras e artes"
+  ],
+  "saneamento ambiental": [
+   "engenharia sanitaria",
+   "engenharias"
+  ],
+  "saneamento aplicado a saude do homem": [
+   "medicina veterinaria preventiva",
+   "medicina veterinaria",
+   "ciencias agrarias"
+  ],
+  "saneamento basico": [
+   "engenharia sanitaria",
+   "engenharias"
+  ],
+  "saneamento rural": [
+   "construcoes rurais e ambiencia",
+   "engenharia agricola",
+   "ciencias agrarias"
+  ],
+  "satelites e outros dispositivos aeroespaciais": [
+   "sistemas aeroespaciais",
+   "engenharia aeroespacial",
+   "engenharias"
+  ],
+  "saude animal programas sanitarios": [
+   "medicina veterinaria preventiva",
+   "medicina veterinaria",
+   "ciencias agrarias"
+  ],
+  "saude coletiva": [
+   "ciencias da saude"
+  ],
+  "saude materno infantil": [
+   "medicina",
+   "ciencias da saude"
+  ],
+  "secretariado executivo": [
+   "outra"
+  ],
+  "sedimentologia": [
+   "geologia",
+   "geociencias",
+   "ciencias exatas e da terra",
+   "recursos hidricos",
+   "engenharia sanitaria",
+   "engenharias"
+  ],
+  "sedimentologia marinha": [
+   "oceanografia geologica",
+   "oceanografia",
+   "ciencias exatas e da terra"
+  ],
+  "seguranca contra incendio": [
+   "outra"
+  ],
+  "seguranca localizacao e licenciamento de reatores": [
+   "tecnologia dos reatores",
+   "engenharia nuclear",
+   "engenharias"
+  ],
+  "sementes florestais": [
+   "silvicultura",
+   "recursos florestais e engenharia florestal",
+   "ciencias agrarias"
+  ],
+  "sensoriamento remoto": [
+   "geofisica",
+   "geociencias",
+   "ciencias exatas e da terra"
+  ],
+  "sensoriamento remoto da atmosfera": [
+   "meteorologia",
+   "geociencias",
+   "ciencias exatas e da terra"
+  ],
+  "separacao": [
+   "quimica analitica",
+   "quimica",
+   "ciencias exatas e da terra"
+  ],
+  "series temporais": [
+   "pesquisa operacional",
+   "engenharia de producao",
+   "engenharias"
+  ],
+  "servico social": [
+   "ciencias sociais aplicadas"
+  ],
+  "servico social aplicado": [
+   "servico social",
+   "ciencias sociais aplicadas"
+  ],
+  "servico social da educacao": [
+   "servico social aplicado",
+   "servico social",
+   "ciencias sociais aplicadas"
+  ],
+  "servico social da habitacao": [
+   "servico social aplicado",
+   "servico social",
+   "ciencias sociais aplicadas"
+  ],
+  "servico social da saude": [
+   "servico social aplicado",
+   "servico social",
+   "ciencias sociais aplicadas"
+  ],
+  "servico social do menor": [
+   "servico social aplicado",
+   "servico social",
+   "ciencias sociais aplicadas"
+  ],
+  "servico social do trabalho": [
+   "servico social aplicado",
+   "servico social",
+   "ciencias sociais aplicadas"
+  ],
+  "servicos comunitarios": [
+   "servicos urbanos e regionais",
+   "planejamento urbano e regional",
+   "ciencias sociais aplicadas"
+  ],
+  "servicos urbanos e regionais": [
+   "planejamento urbano e regional",
+   "ciencias sociais aplicadas"
+  ],
+  "silvicultura": [
+   "recursos florestais e engenharia florestal",
+   "ciencias agrarias"
+  ],
+  "sindicatos dissidios coletivos relacoes de emprego empregador empregado": [
+   "economia dos recursos humanos",
+   "economia",
+   "ciencias sociais aplicadas"
+  ],
+  "sintese estrutural naval e oceanica": [
+   "estruturas navais e oceanicas",
+   "engenharia naval e oceanica",
+   "engenharias"
+  ],
+  "sintese organica": [
+   "quimica organica",
+   "quimica",
+   "ciencias exatas e da terra"
+  ],
+  "sismologia": [
+   "geofisica",
+   "geociencias",
+   "ciencias exatas e da terra"
+  ],
+  "sistema planetario": [
+   "astrofisica do sistema solar",
+   "astronomia",
+   "ciencias exatas e da terra"
+  ],
+  "sistemas aeroespaciais": [
+   "engenharia aeroespacial",
+   "engenharias"
+  ],
+  "sistemas de computacao": [
+   "ciencia da computacao",
+   "ciencias exatas e da terra"
+  ],
+  "sistemas de informacao": [
+   "metodologia e tecnicas da computacao",
+   "ciencia da computacao",
+   "ciencias exatas e da terra"
+  ],
+  "sistemas de telecomunicacoes": [
+   "telecomunicacoes",
+   "engenharia eletrica",
+   "engenharias"
+  ],
+  "sistemas dinamicos": [
+   "geometria e topologia",
+   "matematica",
+   "ciencias exatas e da terra"
+  ],
+  "sistemas economicos": [
+   "teoria economica",
+   "economia",
+   "ciencias sociais aplicadas"
+  ],
+  "sistemas eletricos de potencia": [
+   "engenharia eletrica",
+   "engenharias"
+  ],
+  "sistemas eletronicos de medida e de controle": [
+   "medidas eletricas magneticas e eletronicas instrumentacao",
+   "engenharia eletrica",
+   "engenharias"
+  ],
+  "sistemas energeticos": [
+   "planejamento energetico",
+   "engenharia de energia",
+   "engenharias"
+  ],
+  "sistemas governamentais comparados": [
+   "estado e governo",
+   "ciencia politica",
+   "ciencias humanas"
+  ],
+  "sistemas hibridos e sistemas nao convencionais de armazenagem de energia": [
+   "fontes renovaveis de energia",
+   "engenharia de energia",
+   "engenharias"
+  ],
+  "sociolinguistica e dialetologia": [
+   "linguistica",
+   "linguistica letras e artes"
+  ],
+  "sociologia": [
+   "ciencias humanas"
+  ],
+  "sociologia da educacao": [
+   "fundamentos da educacao",
+   "educacao",
+   "ciencias humanas"
+  ],
+  "sociologia da saude": [
+   "sociologia",
+   "ciencias humanas"
+  ],
+  "sociologia do conhecimento": [
+   "sociologia",
+   "ciencias humanas"
+  ],
+  "sociologia do desenvolvimento": [
+   "sociologia",
+   "ciencias humanas"
+  ],
+  "sociologia juridica": [
+   "teoria do direito",
+   "direito",
+   "ciencias sociais aplicadas"
+  ],
+  "sociologia rural": [
+   "sociologia",
+   "ciencias humanas"
+  ],
+  "sociologia urbana": [
+   "sociologia",
+   "ciencias humanas"
+  ],
+  "software basico": [
+   "sistemas de computacao",
+   "ciencia da computacao",
+   "ciencias exatas e da terra"
+  ],
+  "soldagem": [
+   "metalurgia de transformacao",
+   "engenharia de materiais e metalurgica",
+   "engenharias"
+  ],
+  "soldagem de estruturas navais e oceanicos": [
+   "tecnologia de construcao naval e de sistemas oceanicos",
+   "engenharia naval e oceanica",
+   "engenharias"
+  ],
+  "solos florestais": [
+   "silvicultura",
+   "recursos florestais e engenharia florestal",
+   "ciencias agrarias"
+  ],
+  "supercondutividade": [
+   "fisica da materia condensada",
+   "fisica",
+   "ciencias exatas e da terra"
+  ],
+  "superficies e interfaces peliculas e filamentos": [
+   "fisica da materia condensada",
+   "fisica",
+   "ciencias exatas e da terra"
+  ],
+  "suprimentos": [
+   "gerencia de producao",
+   "engenharia de producao",
+   "engenharias"
+  ],
+  "taxas e estimativas correntes": [
+   "tendencia populacional",
+   "demografia",
+   "ciencias sociais aplicadas"
+  ],
+  "taxonomia de criptogamos": [
+   "taxonomia vegetal",
+   "botanica",
+   "ciencias biologicas"
+  ],
+  "taxonomia de fanerogamos": [
+   "taxonomia vegetal",
+   "botanica",
+   "ciencias biologicas"
+  ],
+  "taxonomia dos grupos recentes": [
+   "zoologia",
+   "ciencias biologicas"
+  ],
+  "taxonomia vegetal": [
+   "botanica",
+   "ciencias biologicas"
+  ],
+  "teatro": [
+   "artes",
+   "linguistica letras e artes"
+  ],
+  "tecelagem": [
+   "artes plasticas",
+   "artes",
+   "linguistica letras e artes"
+  ],
+  "tecnica cirurgica animal": [
+   "clinica e cirurgia animal",
+   "medicina veterinaria",
+   "ciencias agrarias"
+  ],
+  "tecnica de previsao urbana e regional": [
+   "metodos e tecnicas do planejamento urbano e regional",
+   "planejamento urbano e regional",
+   "ciencias sociais aplicadas"
+  ],
+  "tecnicas avancadas de tratamento de aguas": [
+   "tratamento de aguas de abastecimento e residuarias",
+   "engenharia sanitaria",
+   "engenharias"
+  ],
+  "tecnicas convencionais de tratamento de aguas": [
+   "tratamento de aguas de abastecimento e residuarias",
+   "engenharia sanitaria",
+   "engenharias"
+  ],
+  "tecnicas de abastecimento da agua": [
+   "saneamento basico",
+   "engenharia sanitaria",
+   "engenharias"
+  ],
+  "tecnicas de analise e avaliacao urbana e regional": [
+   "metodos e tecnicas do planejamento urbano e regional",
+   "planejamento urbano e regional",
+   "ciencias sociais aplicadas"
+  ],
+  "tecnicas de antecipacao": [
+   "politicas publicas",
+   "ciencia politica",
+   "ciencias humanas"
+  ],
+  "tecnicas de planejamento e projeto urbanos e regionais": [
+   "metodos e tecnicas do planejamento urbano e regional",
+   "planejamento urbano e regional",
+   "ciencias sociais aplicadas"
+  ],
+  "tecnicas de processamento estatistico matematico e computacional em psicologia": [
+   "fundamentos e medidas da psicologia",
+   "psicologia",
+   "ciencias humanas"
+  ],
+  "tecnicas de recuperacao de informacao": [
+   "biblioteconomia",
+   "ciencia da informacao",
+   "ciencias sociais aplicadas"
+  ],
+  "tecnicas de registro e processamento de filmes": [
+   "cinema",
+   "artes",
+   "linguistica letras e artes"
+  ],
+  "tecnicas de reproducao": [
+   "biotecnologia em saude humana e animal",
+   "biotecnologia",
+   "ciencias biologicas"
+  ],
+  "tecnicas e operacoes florestais": [
+   "recursos florestais e engenharia florestal",
+   "ciencias agrarias"
+  ],
+  "tecnologia das bebidas": [
+   "tecnologia de alimentos",
+   "ciencia e tecnologia de alimentos",
+   "ciencias agrarias"
+  ],
+  "tecnologia de alimentos": [
+   "ciencia e tecnologia de alimentos",
+   "ciencias agrarias"
+  ],
+  "tecnologia de alimentos dieteticos e nutricionais": [
+   "tecnologia de alimentos",
+   "ciencia e tecnologia de alimentos",
+   "ciencias agrarias"
+  ],
+  "tecnologia de arquitetura e urbanismo": [
+   "arquitetura e urbanismo",
+   "ciencias sociais aplicadas"
+  ],
+  "tecnologia de celulose e papel": [
+   "tecnologia e utilizacao de produtos florestais",
+   "recursos florestais e engenharia florestal",
+   "ciencias agrarias"
+  ],
+  "tecnologia de chapas": [
+   "tecnologia e utilizacao de produtos florestais",
+   "recursos florestais e engenharia florestal",
+   "ciencias agrarias"
+  ],
+  "tecnologia de construcao naval e de sistemas oceanicos": [
+   "engenharia naval e oceanica",
+   "engenharias"
+  ],
+  "tecnologia de processos e produtos": [
+   "biotecnologia vegetal",
+   "biotecnologia",
+   "ciencias biologicas"
+  ],
+  "tecnologia de produtos de origem animal": [
+   "tecnologia de alimentos",
+   "ciencia e tecnologia de alimentos",
+   "ciencias agrarias"
+  ],
+  "tecnologia de produtos de origem vegetal": [
+   "tecnologia de alimentos",
+   "ciencia e tecnologia de alimentos",
+   "ciencias agrarias"
+  ],
+  "tecnologia de proteses": [
+   "engenharia medica",
+   "engenharia biomedica",
+   "engenharias"
+  ],
+  "tecnologia dos reatores": [
+   "engenharia nuclear",
+   "engenharias"
+  ],
+  "tecnologia e problemas sanitarios de irrigacao": [
+   "recursos hidricos",
+   "engenharia sanitaria",
+   "engenharias"
+  ],
+  "tecnologia e utilizacao de produtos florestais": [
+   "recursos florestais e engenharia florestal",
+   "ciencias agrarias"
+  ],
+  "tecnologia educacional": [
+   "ensino aprendizagem",
+   "educacao",
+   "ciencias humanas"
+  ],
+  "telecomunicacoes": [
+   "engenharia eletrica",
+   "engenharias"
+  ],
+  "teleinformatica": [
+   "sistemas de computacao",
+   "ciencia da computacao",
+   "ciencias exatas e da terra"
+  ],
+  "tendencia populacional": [
+   "demografia",
+   "ciencias sociais aplicadas"
+  ],
+  "tendencias passadas": [
+   "tendencia populacional",
+   "demografia",
+   "ciencias sociais aplicadas"
+  ],
+  "teologia": [
+   "ciencias humanas"
+  ],
+  "teologia fundamental sistematica": [
+   "teologia",
+   "ciencias humanas"
+  ],
+  "teologia pratica": [
+   "teologia",
+   "ciencias humanas"
+  ],
+  "teoremas de limite": [
+   "probabilidade",
+   "probabilidade e estatistica",
+   "ciencias exatas e da terra"
+  ],
+  "teoria antropologica": [
+   "antropologia",
+   "ciencias humanas"
+  ],
+  "teoria da arquitetura": [
+   "fundamentos de arquitetura e urbanismo",
+   "arquitetura e urbanismo",
+   "ciencias sociais aplicadas"
+  ],
+  "teoria da arte": [
+   "fundamentos e critica das artes",
+   "artes",
+   "linguistica letras e artes"
+  ],
+  "teoria da classificacao": [
+   "biblioteconomia",
+   "ciencia da informacao",
+   "ciencias sociais aplicadas"
+  ],
+  "teoria da computacao": [
+   "ciencia da computacao",
+   "ciencias exatas e da terra"
+  ],
+  "teoria da comunicacao": [
+   "comunicacao",
+   "ciencias sociais aplicadas"
+  ],
+  "teoria da informacao": [
+   "ciencia da informacao",
+   "ciencias sociais aplicadas"
+  ],
+  "teoria da urbanizacao": [
+   "fundamentos do planejamento urbano e regional",
+   "planejamento urbano e regional",
+   "ciencias sociais aplicadas"
+  ],
+  "teoria das folheacoes": [
+   "geometria e topologia",
+   "matematica",
+   "ciencias exatas e da terra"
+  ],
+  "teoria das singularidades e teoria das catastrofes": [
+   "geometria e topologia",
+   "matematica",
+   "ciencias exatas e da terra"
+  ],
+  "teoria do comercio internacional": [
+   "economia internacional",
+   "economia",
+   "ciencias sociais aplicadas"
+  ],
+  "teoria do desenvolvimento regional": [
+   "geografia regional",
+   "geografia",
+   "ciencias humanas"
+  ],
+  "teoria do direito": [
+   "direito",
+   "ciencias sociais aplicadas"
+  ],
+  "teoria do estado": [
+   "teoria do direito",
+   "direito",
+   "ciencias sociais aplicadas"
+  ],
+  "teoria do planejamento urbano e regional": [
+   "fundamentos do planejamento urbano e regional",
+   "planejamento urbano e regional",
+   "ciencias sociais aplicadas"
+  ],
+  "teoria do urbanismo": [
+   "fundamentos de arquitetura e urbanismo",
+   "arquitetura e urbanismo",
+   "ciencias sociais aplicadas"
+  ],
+  "teoria dos grafos": [
+   "pesquisa operacional",
+   "engenharia de producao",
+   "engenharias"
+  ],
+  "teoria dos jogos": [
+   "pesquisa operacional",
+   "engenharia de producao",
+   "engenharias"
+  ],
+  "teoria dos mecanismos": [
+   "projetos de maquinas",
+   "engenharia mecanica",
+   "engenharias"
+  ],
+  "teoria dos numeros": [
+   "algebra",
+   "matematica",
+   "ciencias exatas e da terra"
+  ],
+  "teoria e analise linguistica": [
+   "linguistica",
+   "linguistica letras e artes"
+  ],
+  "teoria e etica do jornalismo": [
+   "jornalismo e editoracao",
+   "comunicacao",
+   "ciencias sociais aplicadas"
+  ],
+  "teoria e filosofia da historia": [
+   "historia",
+   "ciencias humanas"
+  ],
+  "teoria e metodo em arqueologia": [
+   "arqueologia",
+   "ciencias humanas"
+  ],
+  "teoria e politica de planejamento economico": [
+   "crescimento flutuacoes e planejamento economico",
+   "economia",
+   "ciencias sociais aplicadas"
+  ],
+  "teoria economica": [
+   "economia",
+   "ciencias sociais aplicadas"
+  ],
+  "teoria eletromagnetica microondas propagacao de ondas antenas": [
+   "telecomunicacoes",
+   "engenharia eletrica",
+   "engenharias"
+  ],
+  "teoria geral da economia": [
+   "teoria economica",
+   "economia",
+   "ciencias sociais aplicadas"
+  ],
+  "teoria geral da informacao": [
+   "teoria da informacao",
+   "ciencia da informacao",
+   "ciencias sociais aplicadas"
+  ],
+  "teoria geral de particulas e campos": [
+   "fisica das particulas elementares e campos",
+   "fisica",
+   "ciencias exatas e da terra"
+  ],
+  "teoria geral de planejamento e desenvolvimento curricular": [
+   "curriculo",
+   "educacao",
+   "ciencias humanas"
+  ],
+  "teoria geral do direito": [
+   "teoria do direito",
+   "direito",
+   "ciencias sociais aplicadas"
+  ],
+  "teoria geral do processo": [
+   "teoria do direito",
+   "direito",
+   "ciencias sociais aplicadas"
+  ],
+  "teoria geral dos circuitos eletricos": [
+   "circuitos eletricos magneticos e eletronicos",
+   "engenharia eletrica",
+   "engenharias"
+  ],
+  "teoria geral e fundamentos da probabilidade": [
+   "probabilidade",
+   "probabilidade e estatistica",
+   "ciencias exatas e da terra"
+  ],
+  "teoria geral e processos estocasticos": [
+   "probabilidade",
+   "probabilidade e estatistica",
+   "ciencias exatas e da terra"
+  ],
+  "teoria literaria": [
+   "letras",
+   "linguistica letras e artes"
+  ],
+  "teoria monetaria e financeira": [
+   "economia monetaria e fiscal",
+   "economia",
+   "ciencias sociais aplicadas"
+  ],
+  "teoria politica": [
+   "ciencia politica",
+   "ciencias humanas"
+  ],
+  "teoria politica classica": [
+   "teoria politica",
+   "ciencia politica",
+   "ciencias humanas"
+  ],
+  "teoria politica contemporanea": [
+   "teoria politica",
+   "ciencia politica",
+   "ciencias humanas"
+  ],
+  "teoria politica medieval": [
+   "teoria politica",
+   "ciencia politica",
+   "ciencias humanas"
+  ],
+  "teoria politica moderna": [
+   "teoria politica",
+   "ciencia politica",
+   "ciencias humanas"
+  ],
+  "teoria sociologica": [
+   "fundamentos da sociologia",
+   "sociologia",
+   "ciencias humanas"
+  ],
+  "teorias da instrucao": [
+   "ensino aprendizagem",
+   "educacao",
+   "ciencias humanas"
+  ],
+  "teorias especificas e modelos de interacao sistematica de particulas raios cosmicos": [
+   "fisica das particulas elementares e campos",
+   "fisica",
+   "ciencias exatas e da terra"
+  ],
+  "termodinamica": [
+   "engenharia termica",
+   "engenharia mecanica",
+   "engenharias"
+  ],
+  "termodinamica quimica": [
+   "fisico quimica",
+   "quimica",
+   "ciencias exatas e da terra"
+  ],
+  "termoelasticidade": [
+   "mecanica dos solidos",
+   "engenharia mecanica",
+   "engenharias"
+  ],
+  "teste e tolerancia a falhas": [
+   "microeletronica",
+   "outra"
+  ],
+  "titimetria": [
+   "quimica analitica",
+   "quimica",
+   "ciencias exatas e da terra"
+  ],
+  "topicos especificos de educacao": [
+   "educacao",
+   "ciencias humanas"
+  ],
+  "topologia algebrica": [
+   "geometria e topologia",
+   "matematica",
+   "ciencias exatas e da terra"
+  ],
+  "topologia das variedades": [
+   "geometria e topologia",
+   "matematica",
+   "ciencias exatas e da terra"
+  ],
+  "toxicidade e residuos de pesticidas em alimentos": [
+   "ciencia de alimentos",
+   "ciencia e tecnologia de alimentos",
+   "ciencias agrarias"
+  ],
+  "toxicologia": [
+   "farmacologia",
+   "ciencias biologicas"
+  ],
+  "toxicologia animal": [
+   "clinica e cirurgia animal",
+   "medicina veterinaria",
+   "ciencias agrarias"
+  ],
+  "toxicologia e plantas toxicas": [
+   "pastagem e forragicultura",
+   "zootecnia",
+   "ciencias agrarias"
+  ],
+  "tradicoes e escrituras sagradas": [
+   "teologia",
+   "ciencias humanas"
+  ],
+  "trajetorias e orbitas": [
+   "dinamica de voo",
+   "engenharia aeroespacial",
+   "engenharias"
+  ],
+  "transdutores para aplicacoes biomedicas": [
+   "engenharia medica",
+   "engenharia biomedica",
+   "engenharias"
+  ],
+  "transferencia de calor": [
+   "fenomenos de transporte",
+   "engenharia mecanica",
+   "engenharias"
+  ],
+  "transferencia de calor em reatores": [
+   "tecnologia dos reatores",
+   "engenharia nuclear",
+   "engenharias"
+  ],
+  "transferencia de calor processos termicos e termodinamicos": [
+   "areas classicas de fenomenologia e suas aplicacoes",
+   "fisica",
+   "ciencias exatas e da terra"
+  ],
+  "transferencia de produtos agricolas": [
+   "engenharia de processamento de produtos agricolas",
+   "engenharia agricola",
+   "ciencias agrarias"
+  ],
+  "transformacao de fases": [
+   "metalurgia fisica",
+   "engenharia de materiais e metalurgica",
+   "engenharias"
+  ],
+  "transmissao da energia eletrica distribuicao da energia eletrica": [
+   "sistemas eletricos de potencia",
+   "engenharia eletrica",
+   "engenharias"
+  ],
+  "transp eletronicos e prop eletricas de superficies interfaces e peliculas": [
+   "fisica da materia condensada",
+   "fisica",
+   "ciencias exatas e da terra"
+  ],
+  "transporte e trafego urbano e regional": [
+   "servicos urbanos e regionais",
+   "planejamento urbano e regional",
+   "ciencias sociais aplicadas"
+  ],
+  "tratamento biologico de residuos": [
+   "biotecnologia ambiental e recursos naturais",
+   "biotecnologia",
+   "ciencias biologicas"
+  ],
+  "tratamento da madeira": [
+   "tecnologia e utilizacao de produtos florestais",
+   "recursos florestais e engenharia florestal",
+   "ciencias agrarias"
+  ],
+  "tratamento de aguas de abastecimento e residuarias": [
+   "engenharia sanitaria",
+   "engenharias"
+  ],
+  "tratamento de minerios": [
+   "engenharia de minas",
+   "engenharias",
+   "metalurgia extrativa",
+   "engenharia de materiais e metalurgica"
+  ],
+  "tratamento e prevencao psicologica": [
+   "psicologia",
+   "ciencias humanas"
+  ],
+  "tratamentos termicos mecanicos e quimicos": [
+   "metalurgia de transformacao",
+   "engenharia de materiais e metalurgica",
+   "engenharias"
+  ],
+  "treinamento de pessoal": [
+   "psicologia do ensino e da aprendizagem",
+   "psicologia",
+   "ciencias humanas"
+  ],
+  "treinamento e alocacao de mao de obra oferta de mao de obra e forca de trabalho": [
+   "economia dos recursos humanos",
+   "economia",
+   "ciencias sociais aplicadas"
+  ],
+  "treinamento e avaliacao": [
+   "psicologia do trabalho e organizacional",
+   "psicologia",
+   "ciencias humanas"
+  ],
+  "treinamento e reabilitacao": [
+   "tratamento e prevencao psicologica",
+   "psicologia",
+   "ciencias humanas"
+  ],
+  "turismo": [
+   "ciencias sociais aplicadas"
+  ],
+  "usinagem": [
+   "metalurgia de transformacao",
+   "engenharia de materiais e metalurgica",
+   "engenharias"
+  ],
+  "uso eficiente de energia": [
+   "planejamento energetico",
+   "engenharia de energia",
+   "engenharias"
+  ],
+  "utilizacao dos animais": [
+   "zoologia aplicada",
+   "zoologia",
+   "ciencias biologicas"
+  ],
+  "vacinas e kits para diagnosticos": [
+   "biotecnologia em saude humana e animal",
+   "biotecnologia",
+   "ciencias biologicas"
+  ],
+  "valor nutritivo de alimentos": [
+   "ciencia de alimentos",
+   "ciencia e tecnologia de alimentos",
+   "ciencias agrarias"
+  ],
+  "variaveis fisicas da agua do mar": [
+   "oceanografia fisica",
+   "oceanografia",
+   "ciencias exatas e da terra"
+  ],
+  "veiculos de transportes": [
+   "veiculos e equipamentos de controle",
+   "engenharia de transportes",
+   "engenharias"
+  ],
+  "veiculos e equipamentos de controle": [
+   "engenharia de transportes",
+   "engenharias"
+  ],
+  "vias de transporte": [
+   "veiculos e equipamentos de controle",
+   "engenharia de transportes",
+   "engenharias"
+  ],
+  "vida economica dos equipamentos": [
+   "engenharia economica",
+   "engenharia de producao",
+   "engenharias"
+  ],
+  "videodifusao": [
+   "radio e televisao",
+   "comunicacao",
+   "ciencias sociais aplicadas"
+  ],
+  "virologia": [
+   "biologia e fisiologia dos microorganismos",
+   "microbiologia",
+   "ciencias biologicas"
+  ],
+  "zoologia": [
+   "ciencias biologicas"
+  ],
+  "zoologia aplicada": [
+   "zoologia",
+   "ciencias biologicas"
+  ],
+  "zootecnia": [
+   "ciencias agrarias"
+  ]
+ },
+ "fonte_hierarquia": "Tabela de Áreas do Conhecimento do CNPq (relatório Lattes de 30/06/2025, base da tabela CAPES de 2022): para cada termo (chave normalizada), os termos acima dele, do mais próximo ao mais geral."
 }

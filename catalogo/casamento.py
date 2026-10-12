@@ -36,7 +36,7 @@ Uso:
   python3 catalogo/casamento.py --vigia ../vigia-documentos --perfil perfil.json \
       [--hoje AAAA-MM-DD] [--saida resultado.json] [--md resultado.md]
 """
-import argparse, datetime as dt, itertools, json, os, sys
+import argparse, datetime as dt, json, os, sys
 
 AQUI = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, AQUI)
@@ -122,8 +122,17 @@ def comparar_graduacao(cat, cam, perfil):
     lista = cam.get("graduacao") or []
     if not lista:
         return R(PODE, "o caminho não restringe a graduação")
+    # o mesmo curso aceito em licenciatura e em bacharelado (ou sem grau) não restringe o grau
+    graus = {}
+    for g in lista:
+        k = cat.nome_canonico(g.get("nome"), "graduacao") or chave(g.get("nome") or "")
+        graus.setdefault((k, g.get("escala")), set()).add(g.get("grau"))
     rs = []
     for g in lista:
+        k = cat.nome_canonico(g.get("nome"), "graduacao") or chave(g.get("nome") or "")
+        gs = graus[(k, g.get("escala"))]
+        if g.get("nome") and (None in gs or {"licenciatura", "bacharelado"} <= gs):
+            g = dict(g, grau=None)
         for cg in grads:
             rs.append(_uma_graduacao(cat, g, cg, cam.get("graduacao_afins")))
     return melhor(rs)
@@ -139,38 +148,53 @@ def _grau(g, cg):
     return R(NAO, f"o edital exige {g['grau']}")
 
 
-def _habilitacao(g, cg):
+_VAZIAS = {"de", "da", "do", "e", "em", "lingua", "linguas", "literatura", "literaturas",
+           "respectivas", "habilitacao", "com", "a", "o", "as", "os"}
+
+
+def _radicais(texto):
+    return {w[:5] for w in chave(texto or "").split() if w not in _VAZIAS}
+
+
+def _habilitacao(g, cg, resto=""):
     h = g.get("habilitacao")
     if not h:
         return R(PODE)
-    if cg.get("habilitacao"):
-        return R(PODE) if chave(cg["habilitacao"]) == chave(h) else R(NAO, f"o edital exige habilitação em {h}")
+    dele = cg.get("habilitacao") or resto
+    if dele:
+        return R(PODE) if _radicais(h) <= _radicais(dele) else R(NAO, f"o edital exige habilitação em {h}")
     return R(DEPENDE, f"o edital exige habilitação em {h}; confirme a do seu curso")
 
 
 def _uma_graduacao(cat, g, cg, afins):
-    curso = cat.nome_canonico(cg["curso"], "graduacao") or cg["curso"]
+    original = cg["curso"]
+    curso = cat.nome_canonico(original, "graduacao") or original
     nome = g.get("nome")
     if not nome:  # "qualquer licenciatura"
         r = _grau(g, cg)
         return R(r.nivel, f"o edital aceita qualquer {g.get('grau') or 'graduação'}", *r.motivos)
-    if mesmo_nome(cat, nome, curso, "graduacao"):
-        r = junta(_grau(g, cg), _habilitacao(g, cg))
+    if mesmo_nome(cat, nome, curso, "graduacao") or cat.comeca_com(original, nome, "graduacao"):
+        resto = cat.resto_do_nome(original, nome) or cat.resto_do_nome(curso, nome)
+        r = junta(_grau(g, cg), _habilitacao(g, cg, resto))
         return R(r.nivel, f"graduação em {nome}", *r.motivos) if r.nivel else r
     esc = g.get("escala") or "curso"
-    areas_c, dec = areas_do_candidato(cat, curso, None, "graduacao")
+    areas_c, _ = areas_do_candidato(cat, curso, None, "graduacao")
     if esc == "area_capes":
         alvo = cat.area_avaliacao_exata(nome) or cat.areas_da_formacao(nome, "graduacao")[0]
         if alvo and alvo in areas_c:
             r = _grau(g, cg)
-            return R(min(DEPENDE, r.nivel), f"o edital pede graduação na área {nome}; pelo catálogo, {curso} está em {alvo}", *r.motivos)
+            fc = cat.resolver(curso, "graduacao") or {}
+            firme = fc.get("area_avaliacao") == alvo and fc.get("confianca") == "alta" \
+                and cat.area_avaliacao_exata(nome) and not afins
+            return R(min(PODE if firme else DEPENDE, r.nivel), f"o edital pede graduação na área {nome}, e {curso} está em {alvo}", *r.motivos)
     if esc == "grande_area_capes":
         ga = cat.grande_area_de(nome)
         fc = cat.resolver(curso, "graduacao")
         if ga and fc and fc.get("grande_area") == ga:
             r = _grau(g, cg)
-            teto = PODE if fc.get("confianca") == "alta" else DEPENDE
-            return R(min(teto, r.nivel), f"o edital pede graduação na grande área {nome}, e {curso} está nela", *r.motivos)
+            teto = PODE if fc.get("confianca") == "alta" and not afins else DEPENDE
+            extra = "; o edital fala em áreas afins" if afins else ""
+            return R(min(teto, r.nivel), f"o edital pede graduação na grande área {nome}, e {curso} está nela{extra}", *r.motivos)
     if afins:
         pv, alt = cat.areas_da_formacao(nome, "graduacao")
         if areas_c & {x for x in [pv] + alt if x}:
@@ -185,7 +209,7 @@ def _rank(n):
     return NIVEIS_ACADEMICOS.index(n) if n in NIVEIS_ACADEMICOS else -1
 
 
-def comparar_nivel(niveis, p):
+def comparar_nivel(niveis, p, medica=False):
     n = p["nivel"]
     if n in niveis:
         return R(PODE)
@@ -198,18 +222,42 @@ def comparar_nivel(niveis, p):
     acad = [x for x in niveis if x in NIVEIS_ACADEMICOS]
     if acad and n in NIVEIS_ACADEMICOS and _rank(n) > max(_rank(x) for x in acad):
         teto = max(acad, key=_rank)
-        if teto == "especializacao":
-            return R(DEPENDE, f"o edital pede especialização; confirme se aceita {n} no lugar")
+        if teto == "especializacao" and medica:
+            return R(DEPENDE, f"o edital pede título de especialista; confirme se aceita {n} no lugar")
         return R(PODE, f"{n} atende a exigência de {teto} na mesma área")
     return R(NAO)
 
 
+def _area_exata(cat, nome, dec, areas_c, prog):
+    """O edital pede uma área de avaliação pelo nome. Vale a declarada pelo candidato;
+    sem declaração, só a área principal do programa no catálogo (as alternativas do
+    catálogo servem para afinidade, não para enquadrar)."""
+    exata = cat.area_avaliacao_exata(nome)
+    if not exata:
+        return None
+    if dec == exata:
+        return R(PODE, f"programa na área de avaliação {exata}, como você declarou")
+    if not dec and cat.areas_da_formacao(prog, "pos")[0] == exata:
+        return R(DEPENDE, f"o edital pede a área {exata}; pelo catálogo, {prog} está nela; confirme a área do seu programa")
+    return None
+
+
 def comparar_area(cat, e, p):
+    """Compara as áreas de uma exigência com um título do candidato. As aproximações
+    (recorte do nome, tabela do CNPq, área do concurso) valem só para mestrado e
+    doutorado: residência e especialização exigem a especialidade pelo nome."""
     areas = e.get("areas") or []
+    academico = not (set(e.get("niveis") or []) & {"residencia", "certificacao"}) \
+        and p.get("nivel") in ("especializacao", "mestrado", "doutorado", "livre_docencia")
     prog = p.get("programa")
     if not areas:
         return R(PODE, "em qualquer área")
     areas_c, dec = areas_do_candidato(cat, prog, p.get("area_capes"), "pos")
+    if dec:
+        # a área declarada vale mais que a do catálogo: se as duas concordam, as
+        # alternativas do catálogo continuam; se discordam, fica só a declarada
+        principal = cat.areas_da_formacao(prog, "pos")[0]
+        areas_c = areas_c | {dec} if principal == dec else {dec}
     rs = []
     for a in areas:
         nome = a.get("nome")
@@ -217,7 +265,7 @@ def comparar_area(cat, e, p):
             continue
         if mesmo_nome(cat, nome, prog, "pos"):
             conc = a.get("concentracao")
-            if not conc:
+            if not conc or chave(conc) in (chave(nome), chave(prog or "")):
                 rs.append(R(PODE, f"pós em {nome}"))
             elif p.get("concentracao"):
                 ok = chave(p["concentracao"]) == chave(conc)
@@ -228,17 +276,14 @@ def comparar_area(cat, e, p):
             continue
         esc = a.get("escala") or "curso"
         antes = len(rs)
-        if esc == "area_capes":
-            exata = cat.area_avaliacao_exata(nome)
-            if exata and dec == exata:
-                rs.append(R(PODE, f"programa na área de avaliação {exata}, como você declarou"))
-            elif exata and exata in areas_c:
-                rs.append(R(DEPENDE, f"o edital pede a área {exata}; pelo catálogo, {prog} está nela; confirme a área do seu programa"))
-            elif not exata:
-                alvo = cat.areas_da_formacao(nome, "pos")[0]
-                if alvo and (dec == alvo or alvo in areas_c):
-                    rs.append(R(DEPENDE, f"o edital pede a área {nome}, que o catálogo põe em {alvo}, a mesma do seu programa"))
-        elif esc == "grande_area_capes":
+        if esc in ("curso", "area_capes"):
+            r = _area_exata(cat, nome, dec, areas_c, prog)
+            if r:
+                rs.append(r)
+        if esc == "area_capes" and not rs[antes:] and not cat.area_avaliacao_exata(nome) \
+                and (cat.resolver(nome, "pos") or {}).get("tipo") == "grande_area":
+            esc = "grande_area_capes"
+        if esc == "grande_area_capes":
             ga = cat.grande_area_de(nome)
             if ga and dec and cat.areas[dec]["grande_area"] == ga:
                 rs.append(R(PODE, f"programa na grande área {nome}, pela área que você declarou"))
@@ -247,45 +292,81 @@ def comparar_area(cat, e, p):
                 if ga and fp and fp.get("grande_area") == ga:
                     teto = PODE if fp.get("confianca") == "alta" else DEPENDE
                     rs.append(R(teto, f"o edital pede a grande área {nome}, e {prog} está nela"))
-        if e.get("afins") and len(rs) == antes:
-            pv, alt = cat.areas_da_formacao(nome, "pos")
-            alvo = {x for x in [pv] + alt if x}
-            if (dec and dec in alvo) or (areas_c & alvo):
-                rs.append(R(DEPENDE, f"o edital aceita áreas afins a {nome}"))
+        fn = cat.resolver(nome, "pos") or {}
+        especialidade = fn.get("tipo") == "especialidade_medica" and \
+            bool(set(e.get("niveis") or []) & {"especializacao", "residencia"})
+        aproximar = academico and not especialidade
+        if aproximar and len(rs) == antes and cat.comeca_com(prog, nome, "pos"):
+            generico = not fn.get("area_avaliacao")
+            rs.append(R(PODE if generico else DEPENDE,
+                        f"o edital pede {nome}, e seu programa ({prog}) é {'uma delas' if generico else 'um recorte dessa área'}"))
+        if aproximar and len(rs) == antes and cat.e_subarea_de(prog, nome):
+            rs.append(R(DEPENDE, f"pela tabela do CNPq, {prog} é subárea de {nome}"))
+        if aproximar and len(rs) == antes and cat.e_subarea_de(nome, prog):
+            rs.append(R(DEPENDE, f"o edital pede {nome}, que na tabela do CNPq fica dentro de {prog}; confira se sua tese é nesse tema"))
+        if len(rs) == antes and (e.get("afins") or (aproximar and a.get("area_do_concurso"))):
+            alvo = cat.areas_do_tema(nome, "pos")
+            outra_conc = not e.get("afins") and a.get("area_do_concurso") and p.get("concentracao") and \
+                not (_radicais(p["concentracao"]) & _radicais(nome))
+            if _medicina(areas_c) & _medicina(alvo) and not outra_conc:
+                if e.get("afins"):
+                    rs.append(R(DEPENDE, f"o edital aceita áreas afins a {nome}"))
+                else:
+                    rs.append(R(DEPENDE, f"o edital pede a área do concurso ({nome}); confira se seu programa ou sua tese é nela"))
     return melhor(rs)
 
 
-def comparar_exigencia(cat, e, p):
-    rn = comparar_nivel(e.get("niveis") or [], p)
+def _medicina(areas):
+    """Para afinidade, as três áreas de Medicina contam como uma só."""
+    m = {"Medicina I", "Medicina II", "Medicina III"}
+    return set(areas) | (m if set(areas) & m else set())
+
+
+def _medica(cat, e):
+    for a in e.get("areas") or []:
+        f = cat.resolver(a.get("nome"), "pos")
+        if f and f.get("tipo") == "especialidade_medica":
+            return True
+    return False
+
+
+def comparar_exigencia(cat, e, p, area_vaga=None):
+    rn = comparar_nivel(e.get("niveis") or [], p, _medica(cat, e))
     if rn.nivel == NAO:
         return R(NAO)
     ra = comparar_area(cat, e, p)
     r = junta(rn, ra)
-    # tese na área sem ênfase própria (nota vazia) é a própria área do título, já conferida
-    if r.nivel == PODE and e.get("tese_na_area") and e.get("nota"):
-        r = R(DEPENDE, *r.motivos, "o edital exige tese ou dissertação na área")
+    if r.nivel > NAO and e.get("tese_na_area") and e.get("nota"):
+        if not e.get("areas") and area_vaga:
+            # qualquer doutorado, desde que com tese num tema: o tema tem de ter relação com o programa
+            alvo = cat.areas_do_tema(area_vaga, "pos")
+            areas_c, dec = areas_do_candidato(cat, p.get("programa"), p.get("area_capes"), "pos")
+            tema, prog = chave(area_vaga), chave(p.get("programa") or "")
+            ligado_pelo_nome = bool(prog) and (tema == prog or tema.startswith(prog + " "))
+            if alvo and not ligado_pelo_nome and not ((areas_c | ({dec} if dec else set())) & alvo):
+                return R(NAO, "o edital exige tese num tema fora da área do seu programa")
+        sobra = _radicais(e["nota"]) - _radicais(" ".join(a.get("nome") or "" for a in e.get("areas") or [])) \
+            - {"edita", "exige", "douto", "mestr", "tese", "defen", "disse", "area", "sem", "nomea", "progr", "que", "na", "no"}
+        if r.nivel == PODE and sobra:
+            r = R(DEPENDE, *r.motivos, "o edital exige tese ou dissertação num tema específico: " + e["nota"])
     if r.nivel > NAO and p.get("concluida") is False:
         r = R(DEPENDE, *r.motivos, f"seu {p['nivel']} está em curso; confira em que momento o edital exige o título (inscrição ou posse)")
     return r
 
 
-def comparar_pos(cat, cam, perfil):
+def comparar_pos(cat, cam, perfil, area_vaga=None):
     exig = cam.get("exigencias") or []
     if not exig:
         return R(PODE)
     pos = perfil.get("pos", [])
-    if len(pos) < len(exig):
-        return R(NAO, "o caminho tem mais exigências de pós do que o perfil")
-    melhor_r = R(NAO)
-    # cada exigência cumulativa precisa de um título diferente do candidato
-    for perm in itertools.permutations(range(len(pos)), len(exig)):
-        rs = [comparar_exigencia(cat, e, pos[i]) for e, i in zip(exig, perm)]
-        r = junta(*rs)
-        if r.nivel > melhor_r.nivel:
-            melhor_r = r
-            if r.nivel == PODE:
-                break
-    return melhor_r
+    if not pos:
+        return R(NAO, "o caminho exige pós e o perfil não tem")
+    # cada exigência cumulativa precisa de um título do candidato; o mesmo título pode
+    # cobrir duas exigências da mesma área (o doutorado em Música cobre "mestrado e
+    # doutorado em Música"), e a área diferente impede o reaproveitamento sozinha
+    tabela = [[comparar_exigencia(cat, e, q, area_vaga) for q in pos] for e in exig]
+    melhores = [melhor(linha) for linha in tabela]
+    return junta(*melhores)
 
 
 # ------------------------------------------------------------------ vaga
@@ -296,7 +377,7 @@ def avaliar_vaga(cat, vaga, perfil):
         return R(NAO, "vaga sem requisito interpretado"), None
     best, idx = R(NAO), None
     for i, cam in enumerate(ri.get("caminhos") or []):
-        r = junta(comparar_graduacao(cat, cam, perfil), comparar_pos(cat, cam, perfil))
+        r = junta(comparar_graduacao(cat, cam, perfil), comparar_pos(cat, cam, perfil, vaga.get("area_conhecimento")))
         if r.nivel > best.nivel:
             best, idx = r, i
     if best.nivel > NAO:

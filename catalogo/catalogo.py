@@ -54,6 +54,10 @@ class Catalogo:
         self._areas_norm = {normalizar(a): a for a in self.areas}
         self.grandes_areas = dados["grandes_areas"]
         self._ga_norm = {normalizar(g): g for g in self.grandes_areas}
+        self._ga_chaves = {chave(g) for g in self.grandes_areas} | {
+            "ciencias exatas e da terra", "ciencias biologicas", "engenharias", "ciencias da saude",
+            "ciencias agrarias", "ciencias sociais aplicadas", "ciencias humanas",
+            "linguistica letras e artes", "outra", "multidisciplinar"}
 
     @classmethod
     def carregar(cls, arquivo=ARQUIVO):
@@ -98,6 +102,62 @@ class Catalogo:
             a = self.area_avaliacao_exata(nome or "")
             return (a, []) if a else (None, [])
         return f.get("area_avaliacao"), list(f.get("areas_alternativas") or [])
+
+    def e_subarea_de(self, nome, acima):
+        """True se, na tabela do CNPq, `nome` fica abaixo de `acima` (Fitotecnia está em
+        Agronomia). Usa a grafia dada e a canônica dos dois lados."""
+        hier = self.dados.get("hierarquia_cnpq", {})
+        if self._ga_norm.get(normalizar(acima)) or chave(acima) in self._ga_chaves:
+            return False  # estar na mesma grande área não aproxima dois programas
+        alvos = {chave(acima)}
+        ca = self.nome_canonico(acima)
+        if ca:
+            alvos.add(chave(ca))
+        for n in {nome, self.nome_canonico(nome) or nome}:
+            if alvos & set(hier.get(chave(n), [])):
+                return True
+        return False
+
+    def comeca_com(self, nome, inicio, contexto=None):
+        """True se o nome do candidato começa pelo nome do edital, palavra a palavra
+        ("Letras Português" começa por "Letras"), e os dois ficam na mesma área de
+        avaliação, ou o nome do edital é genérico ("Engenharia"). Assim "Medicina
+        Veterinária" não passa por "Medicina" nem "Educação Física" por "Educação".
+        "Ciências" sozinho não vale (Ciências Sociais, Ciências Biológicas)."""
+        ki = chave(inicio)
+        if ki in ("ciencias", "ciencia", ""):
+            return False
+        c = self.nome_canonico(nome, contexto)
+        ks = {chave(nome)} | ({chave(c)} if c else set())
+        if not any(k != ki and k.startswith(ki + " ") for k in ks):
+            return False
+        fi, fn = self.resolver(inicio, contexto), self.resolver(nome, contexto)
+        if not fn or not fi or not fi.get("area_avaliacao"):
+            return True  # nome do candidato fora do catálogo, ou nome do edital genérico
+        return fi.get("area_avaliacao") == fn.get("area_avaliacao")
+
+    def resto_do_nome(self, nome, inicio):
+        """O que sobra do nome do candidato depois do nome do edital
+        ("Letras Língua Portuguesa" menos "Letras" = "lingua portuguesa")."""
+        k, ki = chave(nome), chave(inicio)
+        return k[len(ki):].strip() if k.startswith(ki + " ") else ""
+
+    def areas_do_tema(self, nome, contexto=None):
+        """Áreas de avaliação de um tema que pode não estar no catálogo (área do concurso,
+        tema de tese): pelo catálogo; se não houver, pelo termo mais próximo acima dele
+        na tabela do CNPq que o catálogo conheça."""
+        partes = [nome or ""] + [x for x in re.split(r"[,:;/()]| subarea | subárea ", nome or "") if x.strip()]
+        for parte in partes:
+            p, alt = self.areas_da_formacao(parte.strip(), contexto)
+            if p:
+                return {x for x in [p] + alt if x}
+        for parte in partes:
+            acima = self.dados.get("hierarquia_cnpq", {}).get(chave(parte), [])
+            for termo in acima:  # do mais próximo ao mais geral
+                p, alt = self.areas_da_formacao(termo, contexto)
+                if p:
+                    return {x for x in [p] + alt if x}
+        return set()
 
     def opcoes_graduacao(self):
         """Lista para o formulário do candidato: cursos que aparecem como graduação."""
