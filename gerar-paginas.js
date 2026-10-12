@@ -163,6 +163,17 @@ function fase(c) {
   if (inscricaoCorrendo) {
     return { curta: `inscrições até ${dataCurta(i.fim)}`, rotulo: "Inscrições abertas", classe: "aberta" };
   }
+  // Prazo geral encerrado, mas algumas áreas ainda recebem inscrição (decisão de 11/10/2026)
+  const exc = (i.excecoes || [])
+    .filter((x) => x && ehData(x.fim) && x.fim >= HOJE && (!ehData(x.inicio) || x.inicio <= HOJE))
+    .sort((a, b) => a.fim.localeCompare(b.fim))[0];
+  if (exc) {
+    return {
+      curta: `inscrições até ${dataCurta(exc.fim)} em parte das áreas`,
+      rotulo: "Inscrições abertas em parte das áreas",
+      classe: "aberta",
+    };
+  }
   if (i.situacao === "abre_em_breve" || (ehData(i.inicio) && i.inicio > HOJE)) {
     return {
       curta: ehData(i.inicio) && i.inicio > HOJE ? `inscrições a partir de ${dataCurta(i.inicio)}` : "inscrições em breve",
@@ -347,6 +358,7 @@ ${linhaFicha("Titulação", c.titulacao)}
 ${linhaFicha("Regime", c.regime)}
 ${linhaFicha("Remuneração", c.remuneracao)}
 ${linhaFicha("Inscrição", periodoInscricao)}
+${linhaFicha("Prazo próprio", (i.excecoes || []).map((x) => `${x.areas}, ${ehData(x.inicio) ? dataLonga(x.inicio) + " a " : "até "}${dataLonga(x.fim)}`).join("; "))}
 ${linhaFicha("Taxa", i.taxa)}
 ${linhaFicha("Banca", c.banca)}
 </dl></section>

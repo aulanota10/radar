@@ -36,20 +36,25 @@ python3 "$C/compilar_radar.py" \
   --liberados "$C/liberados.json" \
   --hoje "$HOJE" \
   --conflitos-json "relatorios/conflitos-$HOJE.json" \
+  --remover-apos-resultado 30 \
+  --removidos-json "$TMP/removidos.json" \
   ${ANTERIOR:+--conflitos-anteriores "$ANTERIOR"}
 
 # Validação do Radar (a mesma que o GitHub Actions roda antes de publicar)
 node validar-dados.js > "$TMP/validacao.txt" || { cat "$TMP/validacao.txt"; cp "$TMP/dados-publicado.js" dados.js; echo "PARADO: o dados.js gerado não passou no validar-dados.js; o publicado foi restaurado."; exit 1; }
 tail -1 "$TMP/validacao.txt"
 
-# Nenhum concurso publicado pode sumir
+# Nenhum concurso publicado pode sumir, salvo os que a regra de 11/10/2026 tira
+# (resultado final há mais de 30 dias), listados pelo compilador em removidos.json
 node -e '
 const ler=f=>{global.window={};delete require.cache[require.resolve(f)];require(f);return window.CONCURSOS.map(c=>c.id)};
 const a=ler(process.argv[1]), b=new Set(ler(process.argv[2]));
-const sumiram=a.filter(x=>!b.has(x));
+const fora=new Set(JSON.parse(require("fs").readFileSync(process.argv[3],"utf8")).map(x=>x.id));
+if(fora.size) console.log("Saem pela regra do resultado final: "+[...fora].join(", "));
+const sumiram=a.filter(x=>!b.has(x)&&!fora.has(x));
 console.log("Concursos: publicado "+a.length+", gerado "+b.size+", novos "+[...b].filter(x=>!a.includes(x)).length);
 if(sumiram.length){console.log("SUMIRAM: "+sumiram.join(", "));process.exit(1)}
-' "$TMP/dados-publicado.js" "$RAIZ/dados.js" || { cp "$TMP/dados-publicado.js" dados.js; echo "PARADO: concurso publicado sumiu do dados.js gerado; o publicado foi restaurado."; exit 1; }
+' "$TMP/dados-publicado.js" "$RAIZ/dados.js" "$TMP/removidos.json" || { cp "$TMP/dados-publicado.js" dados.js; echo "PARADO: concurso publicado sumiu do dados.js gerado; o publicado foi restaurado."; exit 1; }
 
 R="relatorios/relatorio-$HOJE.md"
 conta() { grep -m1 "^## $1" "$R" | sed -E 's/.*\(([0-9]+) concursos?\).*/\1/' || true; }

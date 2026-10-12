@@ -117,6 +117,14 @@ function textoData(dt) {
 function didaticaDe(c) {
   return c.etapas.find(e => e.tipo === "didatica") || null;
 }
+// Prazo próprio de algumas áreas (decisão de 11/10/2026): o que ainda recebe inscrição
+// hoje ou vai abrir; entre vários, o que fecha primeiro.
+function excecaoAtiva(c) {
+  const ex = ((c.inscricao || {}).excecoes || []).filter(x => x && d(x.fim) && d(x.fim) >= HOJE);
+  if (!ex.length) return null;
+  ex.sort((a, b) => a.fim.localeCompare(b.fim));
+  return ex.find(x => !x.inicio || d(x.inicio) <= HOJE) || ex[0];
+}
 function situacaoInscricao(c) {
   const ins = c.inscricao || {};
   if (ins.situacao === "consultar") return {
@@ -141,6 +149,30 @@ function situacaoInscricao(c) {
       urgente,
       dias: n,
       texto: "Inscrição aberta",
+      cor: urgente ? "#8a3327" : "#1f6b3a",
+      bg: urgente ? "#fbe7e3" : "#e4f2e9"
+    };
+  }
+  // Prazo geral encerrado, mas algumas áreas ainda recebem inscrição
+  const ex = excecaoAtiva(c);
+  if (ex) {
+    if (ex.inicio && d(ex.inicio) > HOJE) return {
+      chave: "abre",
+      parcial: true,
+      excecao: ex,
+      texto: `Inscrição abre em ${fmtCurto(ex.inicio)} em parte das áreas`,
+      cor: "#9a6a00",
+      bg: "#fdf3dc"
+    };
+    const n = dias(ex.fim);
+    const urgente = n <= 7;
+    return {
+      chave: "aberta",
+      parcial: true,
+      excecao: ex,
+      urgente,
+      dias: n,
+      texto: "Inscrição aberta em parte das áreas",
       cor: urgente ? "#8a3327" : "#1f6b3a",
       bg: urgente ? "#fbe7e3" : "#e4f2e9"
     };
@@ -622,6 +654,14 @@ function proximoMarco(c) {
     dias: dias(ins.fim),
     fase: "inscricao"
   };
+  // prazo geral encerrado, mas algumas áreas ainda recebem inscrição
+  const exM = excecaoAtiva(c);
+  if (exM && (!exM.inicio || d(exM.inicio) <= HOJE)) return {
+    rotulo: "Inscrição em parte das áreas encerra em",
+    data: exM.fim,
+    dias: dias(exM.fim),
+    fase: "inscricao"
+  };
   const futura = e => {
     if (!e.data || e.data.tipo === "nao_divulgada") return false;
     const ref = e.data.fim || e.data.valor;
@@ -666,6 +706,17 @@ function proximoMarco(c) {
 function oQueFazerAgora(c) {
   const sit = situacaoInscricao(c);
   const dd = didaticaDe(c);
+  if (sit.parcial) {
+    const ex = sit.excecao;
+    if (sit.chave === "abre") return {
+      texto: `A inscrição geral encerrou, mas ${ex.areas} abre inscrição em ${fmtCurto(ex.inicio)}, até ${fmt(ex.fim)}. Confira se a sua área é essa.`,
+      tom: "aviso"
+    };
+    return {
+      texto: `A inscrição geral encerrou, mas ${ex.areas} ainda recebe inscrição até ${fmt(ex.fim)}. Confira se a sua área é essa.`,
+      tom: sit.urgente ? "urgente" : "aviso"
+    };
+  }
   if (sit.chave === "abre") return {
     texto: `As inscrições abrem em ${fmtCurto(c.inscricao.inicio)}. Prepare os documentos e já comece a estudar o edital.`,
     tom: "aviso"
@@ -1198,7 +1249,11 @@ function Card({
     style: {
       color: C.azul
     }
-  }, "Inscrições:"), " ", c.inscricao.inicio ? `${fmt(c.inscricao.inicio)} a ${fmt(c.inscricao.fim)}` : "consulte o portal", c.inscricao.taxa ? ` · taxa ${c.inscricao.taxa}` : "")), /*#__PURE__*/React.createElement(Vagas, {
+  }, "Inscrições:"), " ", c.inscricao.inicio ? `${fmt(c.inscricao.inicio)} a ${fmt(c.inscricao.fim)}` : "consulte o portal", c.inscricao.taxa ? ` · taxa ${c.inscricao.taxa}` : ""), (c.inscricao.excecoes || []).length > 0 && /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("b", {
+    style: {
+      color: C.azul
+    }
+  }, "Prazo próprio:"), " ", c.inscricao.excecoes.map(x => `${x.areas}, ${x.inicio ? fmt(x.inicio) + " a " : "até "}${fmt(x.fim)}`).join("; "))), /*#__PURE__*/React.createElement(Vagas, {
     c: c,
     familia: familia
   }), (() => {

@@ -673,7 +673,7 @@ def compila_grupo(id_radar, exts, atual, hoje, validador=None, conservador=False
                 quem = rotulo(b.get("codigos"), rot, e, em_pacote)
                 if quem == "geral":
                     quem = "parte das áreas"
-                excecoes.append(f"{quem}, de {br(b_ini or p_ini)} a {br(b_fim or p_fim)}")
+                excecoes.append({"areas": quem, "inicio": b_ini or p_ini, "fim": b_fim or p_fim})
         for ins in blocos_ins:
             if v(ins.get("inscricao_inicio")):
                 inis.append(v(ins["inscricao_inicio"]))
@@ -687,10 +687,18 @@ def compila_grupo(id_radar, exts, atual, hoje, validador=None, conservador=False
     if taxas:
         partes_taxa.append(moeda(taxas[0]) if len(set(taxas)) == 1
                            else f"de {moeda(min(taxas))} a {moeda(max(taxas))}")
-    if excecoes:
-        partes_taxa.append("Prazo de inscrição próprio: " + "; ".join(unicos(excecoes)))
     if partes_taxa:
         insc["taxa"] = ". ".join(partes_taxa)
+    if excecoes:
+        # Decisão de 11/10/2026 (caminho C): as áreas com prazo próprio vão num campo que o site mostra
+        # ao lado do selo, e o selo fica "aberta em parte das áreas" quando só elas ainda recebem inscrição.
+        vistos, lista = set(), []
+        for x in excecoes:
+            k = (x["areas"], x["inicio"], x["fim"])
+            if k not in vistos:
+                vistos.add(k)
+                lista.append(x)
+        insc["excecoes"] = sorted(lista, key=lambda x: (x["fim"] or "", x["areas"]))
     taxa_so_excecoes = bool(excecoes) and not taxas
     novo["inscricao"] = {k: x for k, x in insc.items() if x is not None}
 
@@ -1003,6 +1011,8 @@ def mudancas_no_site(atuais, saida):
                 linhas.append(f"inscrição {k}: {br(ai.get(k) or '')} → {br(di.get(k) or '')}")
         if ai.get("taxa") != di.get("taxa"):
             linhas.append("taxa de inscrição alterada")
+        if (ai.get("excecoes") or []) != (di.get("excecoes") or []):
+            linhas.append("prazos de inscrição por área alterados")
         ea = {}
         for e in a.get("etapas") or []:
             ea.setdefault(e.get("nome"), []).append(e)
@@ -1029,6 +1039,33 @@ def mudancas_no_site(atuais, saida):
         if linhas:
             res.append((cid, linhas))
     return res
+
+
+def resultado_final_de(c):
+    """Última data do resultado final publicado na ficha, ou None."""
+    datas = [(e["data"].get("fim") or e["data"].get("valor")) for e in c.get("etapas") or []
+             if e.get("tipo") == "resultado" and (e.get("data") or {}).get("tipo") in ("exata", "periodo")]
+    return max(datas) if datas else None
+
+
+def ultima_data(c):
+    datas = [(e["data"].get("fim") or e["data"].get("valor")) for e in c.get("etapas") or []
+             if (e.get("data") or {}).get("tipo") in ("exata", "periodo")]
+    return max(datas) if datas else None
+
+
+def saem_do_radar(saida, hoje, dias):
+    """Regra de 11/10/2026: o concurso fica até `dias` dias depois do resultado final."""
+    lim = (dt.date.fromisoformat(hoje) - dt.timedelta(days=dias)).isoformat()
+    return [(c["id"], resultado_final_de(c)) for c in saida
+            if resultado_final_de(c) and resultado_final_de(c) < lim]
+
+
+def parados_sem_resultado(saida, hoje, dias=60):
+    """Concursos sem resultado final na ficha cuja última data conhecida passou há mais de `dias` dias."""
+    lim = (dt.date.fromisoformat(hoje) - dt.timedelta(days=dias)).isoformat()
+    return [(c["id"], ultima_data(c)) for c in saida
+            if not resultado_final_de(c) and ultima_data(c) and ultima_data(c) < lim]
 
 
 def didatica_encerrada(saida, hoje):
@@ -1060,6 +1097,10 @@ def main():
     ap.add_argument("--conflitos-json", help="grava os conflitos desta rodada em JSON, "
                     "para a rodada seguinte separar os novos")
     ap.add_argument("--conflitos-anteriores", help="JSON gravado pela rodada anterior com --conflitos-json")
+    ap.add_argument("--remover-apos-resultado", type=int, metavar="DIAS",
+                    help="tira do dados.js gerado o concurso cujo resultado final passou há mais de DIAS dias "
+                    "(regra de 11/10/2026: 30); sem a opção, nada sai")
+    ap.add_argument("--removidos-json", help="grava a lista dos concursos tirados nesta rodada")
     a = ap.parse_args()
 
     atuais, _, cab = carregar_dados_atual(a.dados_atual)
@@ -1100,6 +1141,14 @@ def main():
             saida.append(atual)
             rel.append((cid, "sem extração, mantido como estava", []))
 
+    removidos = saem_do_radar(saida, a.hoje, a.remover_apos_resultado) if a.remover_apos_resultado is not None else []
+    if removidos:
+        fora = {cid for cid, _ in removidos}
+        saida = [c for c in saida if c["id"] not in fora]
+    if a.removidos_json:
+        json.dump([{"id": cid, "resultado_final": d} for cid, d in removidos],
+                  open(a.removidos_json, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+
     atualizado = br(a.hoje)
     escrever_js(a.saida, saida, atualizado, cab)
 
@@ -1121,6 +1170,8 @@ def main():
              f"{len(saida)} concursos no dados.js gerado, {len(atuais)} no publicado; "
              f"{n_ext} vieram das extrações.", ""]
         mud = mudancas_no_site(atuais, saida)
+        mud += [(cid, [f"sai do Radar: resultado final em {br(d)}, há mais de "
+                       f"{a.remover_apos_resultado} dias (regra de 11/10/2026)"]) for cid, d in removidos]
         L += [f"## O que muda no Radar em relação ao publicado ({len(mud)} concursos)", ""]
         if mud:
             for cid, linhas in mud:
@@ -1136,6 +1187,13 @@ def main():
                   "30 dias depois do resultado final, porque a plataforma cobre todas as etapas; "
                   "a prova didática ter passado não tira o concurso da lista.", ""]
             L += [f"- **{cid}**: última data da prova didática {br(d)}" for cid, d in enc]
+            L.append("")
+        parados = parados_sem_resultado(saida, a.hoje)
+        if parados:
+            L += [f"## Sem resultado final no Radar ({len(parados)} concursos)", "",
+                  "A última data conhecida passou há mais de 60 dias e a ficha não tem resultado final. "
+                  "Sem ele, a regra de saída não tem como contar os 30 dias: confira se o resultado já saiu.", ""]
+            L += [f"- **{cid}**: última data conhecida {br(d)}" for cid, d in parados]
             L.append("")
         anteriores = None
         if a.conflitos_anteriores and os.path.exists(a.conflitos_anteriores):
