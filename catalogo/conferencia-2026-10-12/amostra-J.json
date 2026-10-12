@@ -1,0 +1,1636 @@
+[
+ {
+  "perfil": {
+   "id": "p64-ciencias-biologicas-lic-mestrado-ensino-biologia",
+   "graduacoes": [
+    {
+     "curso": "Ciências Biológicas",
+     "grau": "licenciatura"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "mestrado",
+     "programa": "Ensino de Biologia",
+     "area_capes": "Ensino",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "ifsuldeminas-188-2026",
+  "vaga": "IFS-3",
+  "area": "Biologia I",
+  "requisito_literal": "Graduação em Licenciatura em Ciências Biológicas",
+  "decisao": "pode_servir",
+  "motivos": [
+   "graduação em Ciências Biológicas"
+  ],
+  "n": 4056
+ },
+ {
+  "perfil": {
+   "id": "p68-psicologia-mestrado-sem-area",
+   "graduacoes": [
+    {
+     "curso": "Psicologia",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "mestrado",
+     "programa": "Psicologia Social",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "unimontes-16-2026",
+  "vaga": "01",
+  "area": "CIÊNCIAS HUMANAS/EDUCAÇÃO",
+  "requisito_literal": "Graduação em Pedagogia ou Graduação em Psicologia, com Mestrado em Educação ou Mestrado em áreas afins das Ciências Humanas.",
+  "decisao": "pode_servir",
+  "motivos": [
+   "graduação em Psicologia",
+   "o edital pede a grande área Ciências Humanas, e Psicologia Social está nela"
+  ],
+  "n": 4057
+ },
+ {
+  "perfil": {
+   "id": "p64-ciencias-biologicas-lic-mestrado-ensino-biologia",
+   "graduacoes": [
+    {
+     "curso": "Ciências Biológicas",
+     "grau": "licenciatura"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "mestrado",
+     "programa": "Ensino de Biologia",
+     "area_capes": "Ensino",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "ufsm-198-2026",
+  "vaga": "04",
+  "area": "Multidisciplinar/Ensino/ Ensino de Ciências e Matemática",
+  "requisito_literal": "Graduação em Matemática (Licenciatura ou Bacharelado) e Doutorado na área de Ensino de Ciências e Matemática*",
+  "decisao": "nao_serve",
+  "motivos": [],
+  "n": 4058
+ },
+ {
+  "perfil": {
+   "id": "p60-geografia-lic-doutorado-geografia",
+   "graduacoes": [
+    {
+     "curso": "Geografia",
+     "grau": "licenciatura"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "doutorado",
+     "programa": "Geografia",
+     "area_capes": "Geografia",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "unimontes-17-2026",
+  "vaga": "08",
+  "area": "LINGUÍSTICA, LETRAS E ARTES/LINGUÍSTICA E LITERATURA",
+  "requisito_literal": "Graduação em Letras (licenciatura) ou em cursos das Ciências Humanas, e Doutorado em Estudos Linguísticos, Linguística ou Letras, ou Doutorado em cursos das Ciências Humanas.",
+  "decisao": "pode_servir",
+  "motivos": [
+   "o edital pede graduação na grande área Ciências Humanas, e Geografia está nela",
+   "programa na grande área Ciências Humanas, pela área que você declarou"
+  ],
+  "n": 4059
+ },
+ {
+  "perfil": {
+   "id": "p53-eng-producao-mestrado",
+   "graduacoes": [
+    {
+     "curso": "Engenharia de Produção",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "mestrado",
+     "programa": "Engenharia de Produção",
+     "area_capes": "Engenharias III",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "uerj-245-2026",
+  "vaga": "01",
+  "area": "Metodologia e Técnicas de Computação",
+  "requisito_literal": "Doutorado (Exigência Mínima de Qualificação do quadro preambular); 2.1, f: possuir título de DOUTOR em Engenharia de Produção OU Engenharia de Mecânica OU Engenharia Elétrica OU Engenharia Mecatrônica OU Engenharia de Sistemas OU Engenharia de Computação OU Ciência de Dados OU Ciência da Computação OU Sistemas de informação OU Tecnologia da Informação, obtido em curso de pós-graduação credenciado pelos órgãos competentes em âmbito nacional, ou obtido no exterior, desde que o tenha revalidado no país, em conformidade com as normas vigentes, conforme Lei Estadual n.º 5.343 de 08 de dezembro de 2008. 2.1, g: possuir diploma de curso de graduação em Engenharia de Produção OU Engenharia Mecatrônica Engenharia Mecânica OU Engenharia Elétrica OU Ciência da Computação OU Engenharia da Computação OU Engenharia de Sistemas OU Sistemas de Informação OU Ciência de Dados OU Tecnologia da Informação OU Análise de Sistemas OU Matemática, obtido em curso realizado em instituição oficial ou reconhecida de ensino superior, conforme Lei Estadual n.º 5.343 de 08 de dezembro de 2008.",
+  "decisao": "nao_serve",
+  "motivos": [],
+  "n": 4060
+ },
+ {
+  "perfil": {
+   "id": "p54-sistemas-informacao-mestrado-em-curso",
+   "graduacoes": [
+    {
+     "curso": "Sistemas de Informação",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "especializacao",
+     "programa": "Engenharia de Software",
+     "concluida": true
+    },
+    {
+     "nivel": "mestrado",
+     "programa": "Computação Aplicada",
+     "area_capes": "Computação",
+     "concluida": false
+    }
+   ]
+  },
+  "concurso": "ufc-48-2026",
+  "vaga": "40",
+  "area": "Sistemas de Informação",
+  "requisito_literal": "Graduação em Sistemas de Informação ou Engenharia de Software ou Ciência da Computação ou Administração ou Engenharia de Produção e Mestrado em Sistemas de Informação ou Computação",
+  "decisao": "depende_da_banca",
+  "motivos": [
+   "graduação em Sistemas de Informação",
+   "programa na área de avaliação Computação, como você declarou",
+   "seu mestrado está em curso; confira em que momento o edital exige o título (inscrição ou posse)"
+  ],
+  "n": 4061
+ },
+ {
+  "perfil": {
+   "id": "p59-historia-bach-doutorado-arqueologia",
+   "graduacoes": [
+    {
+     "curso": "História",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "doutorado",
+     "programa": "Arqueologia",
+     "area_capes": "Antropologia / Arqueologia",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "ufpr-276-2026",
+  "vaga": "1.8",
+  "area": "Arqueologia, com subárea em Arqueologia de povos agricultores e ceramistas no Brasil.",
+  "requisito_literal": "Doutorado na Área de Arqueologia, ou Doutorado com Área de concentração em Arqueologia",
+  "decisao": "pode_servir",
+  "motivos": [
+   "o caminho aceita qualquer graduação",
+   "pós em Arqueologia"
+  ],
+  "n": 4062
+ },
+ {
+  "perfil": {
+   "id": "p57-matematica-bach-doutorado-matematica-aplicada",
+   "graduacoes": [
+    {
+     "curso": "Matemática",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "doutorado",
+     "programa": "Matemática Aplicada",
+     "area_capes": "Matemática / Probabilidade e Estatística",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "ufms-137-2026",
+  "vaga": "1208",
+  "area": "Ciências Exatas e da Terra / Probabilidade e Estatística / Estatística",
+  "requisito_literal": "Graduação em: Estatística (Bacharelado) ou Matemática (Bacharelado ou Licenciatura) ou Matemática Aplicada (Bacharelado). Doutorado na Área de Avaliação: Matemática/Probabilidade e Estatística; ou Ciência da Computação; ou na Área de Avaliação/Área Básica: Ciências Agrárias I / Agronomia",
+  "decisao": "pode_servir",
+  "motivos": [
+   "graduação em Matemática",
+   "programa na área de avaliação Matemática / Probabilidade e Estatística, como você declarou"
+  ],
+  "n": 4063
+ },
+ {
+  "perfil": {
+   "id": "p65-medicina-veterinaria-residencia-doutorado",
+   "graduacoes": [
+    {
+     "curso": "Medicina Veterinária",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "residencia",
+     "programa": "Clínica Cirúrgica de Pequenos Animais",
+     "concluida": true
+    },
+    {
+     "nivel": "doutorado",
+     "programa": "Ciências Veterinárias",
+     "area_capes": "Medicina Veterinária",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "ufpel-028-2026",
+  "vaga": "25",
+  "area": "Inspeção de Produtos de Origem Animal OU Tecnologia de Produtos de Origem Animal OU Bem-Estar Animal",
+  "requisito_literal": "Graduação em Medicina Veterinária COM Doutorado em qualquer área",
+  "decisao": "pode_servir",
+  "motivos": [
+   "graduação em Medicina Veterinária",
+   "em qualquer área"
+  ],
+  "n": 4064
+ },
+ {
+  "perfil": {
+   "id": "p68-psicologia-mestrado-sem-area",
+   "graduacoes": [
+    {
+     "curso": "Psicologia",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "mestrado",
+     "programa": "Psicologia Social",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "unimontes-22-2026",
+  "vaga": "05",
+  "area": "CIÊNCIAS HUMANAS/PSICOLOGIA",
+  "requisito_literal": "Graduação em Psicologia com Mestrado em Psicologia ou em áreas correlatas pertencentes à área de avaliação Psicologia da Coordenação de Aperfeiçoamento de Pessoal de Nível Superior - CAPES.",
+  "decisao": "depende_da_banca",
+  "motivos": [
+   "graduação em Psicologia",
+   "o edital pede a área Psicologia; pelo catálogo, Psicologia Social está nela; confirme a área do seu programa"
+  ],
+  "n": 4065
+ },
+ {
+  "perfil": {
+   "id": "p67-ciencia-alimentos-doutorado",
+   "graduacoes": [
+    {
+     "curso": "Engenharia de Alimentos",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "doutorado",
+     "programa": "Ciência e Tecnologia de Alimentos",
+     "area_capes": "Ciência de Alimentos",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "ufc-48-2026",
+  "vaga": "10",
+  "area": "Ciência e Tecnologia de Alimentos",
+  "requisito_literal": "Graduação em Engenharia de Alimentos, Tecnologia de Alimentos, Ciência de Alimentos ou Química de Alimentos e Doutorado em Ciência de Alimentos, Ciência e Tecnologia de Alimentos, Tecnologia de Alimentos, Engenharia de Alimentos, Engenharia Química ou Biotecnologia",
+  "decisao": "pode_servir",
+  "motivos": [
+   "graduação em Engenharia de Alimentos",
+   "programa na área de avaliação Ciência de Alimentos, como você declarou"
+  ],
+  "n": 4066
+ },
+ {
+  "perfil": {
+   "id": "p70-eng-computacao-doutorado-eng-eletrica",
+   "graduacoes": [
+    {
+     "curso": "Engenharia de Computação",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "doutorado",
+     "programa": "Engenharia Elétrica",
+     "area_capes": "Engenharias IV",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "ufpr-276-2026",
+  "vaga": "1.32",
+  "area": "Estatística e Ciência de Dados",
+  "requisito_literal": "Doutorado em alguma das áreas: Estatística; Probabilidade e Estatística; Estatística e Experimentação Agronômica; Estatística e Experimentação Agropecuária; Biometria e Estatística Aplicada; Bioestatística; Biometria; Demografia; População, Território e Estatísticas Públicas; Ciência da Computação; Informática; Bioinformática; Matemática Aplicada; Doutorado em qualquer área com área de concentração em Estatística; Doutorado em qualquer área com Mestrado em Estatística ou Estatística e Ciência de Dados; Doutorado em qualquer área com Mestrado com área de concentração em Estatística; Doutorado em qualquer área com Graduação em Estatística ou Estatística e Ciência de Dados; obtidos na forma da lei.",
+  "decisao": "nao_serve",
+  "motivos": [],
+  "n": 4067
+ },
+ {
+  "perfil": {
+   "id": "p62-design-mestrado",
+   "graduacoes": [
+    {
+     "curso": "Design",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "mestrado",
+     "programa": "Design",
+     "area_capes": "Arquitetura, Urbanismo e Design",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "ufc-48-2026",
+  "vaga": "16",
+  "area": "Expressão Gráfica Aplicada a Projetos em Engenharia (EGAP)",
+  "requisito_literal": "Graduação em Arquitetura ou Arquitetura e Urbanismo ou Design e Doutorado em Arquitetura ou Arquitetura e Urbanismo ou Design",
+  "decisao": "nao_serve",
+  "motivos": [],
+  "n": 4068
+ },
+ {
+  "perfil": {
+   "id": "p50-medicina-residencia-psiquiatria",
+   "graduacoes": [
+    {
+     "curso": "Medicina",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "residencia",
+     "programa": "Psiquiatria",
+     "concluida": true
+    },
+    {
+     "nivel": "mestrado",
+     "programa": "Saúde Mental",
+     "area_capes": "Medicina II",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "urca-2026",
+  "vaga": "02",
+  "area": "CLÍNICA CIRÚRGICA/ ANATOMIA/ HISTOLOGIA/ SEMIOLOGIA/ INTERNATO",
+  "requisito_literal": "Graduação em Medicina e especialista em Cirurgia (RQE em cirurgia).",
+  "decisao": "nao_serve",
+  "motivos": [],
+  "n": 4069
+ },
+ {
+  "perfil": {
+   "id": "p55-quimica-industrial-doutorado-quimica",
+   "graduacoes": [
+    {
+     "curso": "Química Industrial",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "doutorado",
+     "programa": "Química",
+     "area_capes": "Química",
+     "concentracao": "Química Orgânica",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "ufvjm-101-2026",
+  "vaga": "101.5",
+  "area": "Ciências Exatas e da Terra/Química",
+  "requisito_literal": "Graduação em Química Tecnológica OU Química Industrial OU Engenharia Química - E Doutorado em Química",
+  "decisao": "pode_servir",
+  "motivos": [
+   "graduação em Química Industrial",
+   "pós em Química"
+  ],
+  "n": 4070
+ },
+ {
+  "perfil": {
+   "id": "p70-eng-computacao-doutorado-eng-eletrica",
+   "graduacoes": [
+    {
+     "curso": "Engenharia de Computação",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "doutorado",
+     "programa": "Engenharia Elétrica",
+     "area_capes": "Engenharias IV",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "ifsuldeminas-188-2026",
+  "vaga": "MUZ-3",
+  "area": "Informática",
+  "requisito_literal": "Graduação em Licenciatura em Computação; ou Bacharelado em Ciência da Computação; ou Sistema da Informação; ou Engenharia da Computação; ou Engenharia de Software; ou Curso de Tecnologia na Área de Informática/Computação",
+  "decisao": "pode_servir",
+  "motivos": [
+   "graduação em Engenharia da Computação"
+  ],
+  "n": 4071
+ },
+ {
+  "perfil": {
+   "id": "p63-teatro-doutorado-artes-cenicas",
+   "graduacoes": [
+    {
+     "curso": "Teatro",
+     "grau": "licenciatura"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "doutorado",
+     "programa": "Artes Cênicas",
+     "area_capes": "Artes",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "unimontes-27-2026",
+  "vaga": "11",
+  "area": "LINGUÍSTICA, LETRAS E ARTES/ARTES",
+  "requisito_literal": "Graduação em Educação Artística, ou Artes/Teatro ou Teatro, ou Interpretação Teatral, ou Direção Teatral. Mestrado em Teatro, ou Artes Cênicas, ou Educação, ou Letras.",
+  "decisao": "pode_servir",
+  "motivos": [
+   "graduação em Teatro",
+   "doutorado atende a exigência de mestrado na mesma área",
+   "pós em Artes Cênicas"
+  ],
+  "n": 4072
+ },
+ {
+  "perfil": {
+   "id": "p70-eng-computacao-doutorado-eng-eletrica",
+   "graduacoes": [
+    {
+     "curso": "Engenharia de Computação",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "doutorado",
+     "programa": "Engenharia Elétrica",
+     "area_capes": "Engenharias IV",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "ufba-06-2026",
+  "vaga": "09",
+  "area": "Eletrotécnica",
+  "requisito_literal": "Graduação em Engenharia Elétrica ou áreas afins e Doutorado em Engenharia Elétrica ou áreas afins",
+  "decisao": "depende_da_banca",
+  "motivos": [
+   "o edital aceita graduação afim a Engenharia Elétrica",
+   "pós em Engenharia Elétrica"
+  ],
+  "n": 4073
+ },
+ {
+  "perfil": {
+   "id": "p68-psicologia-mestrado-sem-area",
+   "graduacoes": [
+    {
+     "curso": "Psicologia",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "mestrado",
+     "programa": "Psicologia Social",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "ufscar-004-2026",
+  "vaga": "49",
+  "area": "Psicologia; Subárea: Psicologia Ambiental",
+  "requisito_literal": "1) Graduação em Psicologia; E 2) Título de Doutor na área ou subárea do concurso: Psicologia; ou Psicologia Social; ou Ciências Ambientais; ou Arquitetura e Urbanismo.",
+  "decisao": "nao_serve",
+  "motivos": [],
+  "n": 4074
+ },
+ {
+  "perfil": {
+   "id": "p66-engenharia-ambiental-doutorado-ciencias-ambientais",
+   "graduacoes": [
+    {
+     "curso": "Engenharia Ambiental",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "doutorado",
+     "programa": "Ciências Ambientais",
+     "area_capes": "Ciências Ambientais",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "ufms-137-2026",
+  "vaga": "1194",
+  "area": "Engenharias / Engenharia Sanitária / Recursos Hídricos",
+  "requisito_literal": "Graduado em: Engenharia Ambiental (Bacharelado); ou Engenharia Sanitária e Ambiental (Bacharelado); ou Engenharia Civil (Bacharelado); e Doutorado na Área de Avaliação / Área Básica: Ciências Ambientais / Ciências Ambientais; ou Engenharias I / Engenharia Sanitária; ou Engenharias I / Engenharia Civil; ou Engenharias I / Engenharia Hidráulica; ou Engenharias I / Recursos Hídricos",
+  "decisao": "pode_servir",
+  "motivos": [
+   "graduação em Engenharia Ambiental",
+   "pós em Ciências Ambientais"
+  ],
+  "n": 4075
+ },
+ {
+  "perfil": {
+   "id": "p59-historia-bach-doutorado-arqueologia",
+   "graduacoes": [
+    {
+     "curso": "História",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "doutorado",
+     "programa": "Arqueologia",
+     "area_capes": "Antropologia / Arqueologia",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "ufrpe-21-2026",
+  "vaga": "09",
+  "area": "HISTÓRIA ANTIGA E MEDIEVAL",
+  "requisito_literal": "LICENCIATURA EM HISTÓRIA E DOUTORADO EM HISTÓRIA",
+  "decisao": "nao_serve",
+  "motivos": [],
+  "n": 4076
+ },
+ {
+  "perfil": {
+   "id": "p67-ciencia-alimentos-doutorado",
+   "graduacoes": [
+    {
+     "curso": "Engenharia de Alimentos",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "doutorado",
+     "programa": "Ciência e Tecnologia de Alimentos",
+     "area_capes": "Ciência de Alimentos",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "ufscar-004-2026",
+  "vaga": "46",
+  "area": "Ciência e Tecnologia de Alimentos; Subárea: Ciência de Alimentos; Tecnologia de Alimentos; Engenharia de Alimentos.",
+  "requisito_literal": "Título de Doutor obtido em um programa de pós-graduação registrado em uma das seguintes áreas básicas da Capes: Tecnologia de/dos/em Alimentos (50702009); ou em Ciência(s) de/dos/em Alimentos (50701002); ou em Ciência(s) e Tecnologia de/dos/em Alimentos; ou em Engenharia e Ciência(s) de/dos/em Alimentos; ou em Engenharia de/dos Alimentos (50703005); ou em Ciências no programa: Ciência e Tecnologia de Alimentos.",
+  "decisao": "pode_servir",
+  "motivos": [
+   "o caminho aceita qualquer graduação",
+   "pós em Ciência(s) e Tecnologia de/dos/em Alimentos"
+  ],
+  "n": 4077
+ },
+ {
+  "perfil": {
+   "id": "p49-letras-portugues-doutorado-literatura",
+   "graduacoes": [
+    {
+     "curso": "Letras - Português",
+     "grau": "licenciatura"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "mestrado",
+     "programa": "Letras",
+     "area_capes": "Linguística e Literatura",
+     "concluida": true
+    },
+    {
+     "nivel": "doutorado",
+     "programa": "Estudos Literários",
+     "area_capes": "Linguística e Literatura",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "ifmg-1077-2026",
+  "vaga": "16",
+  "area": "Letras - Língua Portuguesa, suas Literaturas e Redação",
+  "requisito_literal": "Diploma, devidamente registrado, de conclusão de curso de graduação de nível superior em Licenciatura em Letras com habilitação em Língua Portuguesa (ou Licenciatura em Letras - Língua Portuguesa e suas Literaturas), fornecido por instituição de ensino superior reconhecida pelo Ministério da Educação (MEC).",
+  "decisao": "pode_servir",
+  "motivos": [
+   "graduação em Letras"
+  ],
+  "n": 4078
+ },
+ {
+  "perfil": {
+   "id": "p52-eng-quimica-doutorado-eng-quimica",
+   "graduacoes": [
+    {
+     "curso": "Engenharia Química",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "mestrado",
+     "programa": "Engenharia Química",
+     "area_capes": "Engenharias II",
+     "concluida": true
+    },
+    {
+     "nivel": "doutorado",
+     "programa": "Engenharia Química",
+     "area_capes": "Engenharias II",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "ufc-48-2026",
+  "vaga": "10",
+  "area": "Ciência e Tecnologia de Alimentos",
+  "requisito_literal": "Graduação em Engenharia de Alimentos, Tecnologia de Alimentos, Ciência de Alimentos ou Química de Alimentos e Doutorado em Ciência de Alimentos, Ciência e Tecnologia de Alimentos, Tecnologia de Alimentos, Engenharia de Alimentos, Engenharia Química ou Biotecnologia",
+  "decisao": "nao_serve",
+  "motivos": [],
+  "n": 4079
+ },
+ {
+  "perfil": {
+   "id": "p49-letras-portugues-doutorado-literatura",
+   "graduacoes": [
+    {
+     "curso": "Letras - Português",
+     "grau": "licenciatura"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "mestrado",
+     "programa": "Letras",
+     "area_capes": "Linguística e Literatura",
+     "concluida": true
+    },
+    {
+     "nivel": "doutorado",
+     "programa": "Estudos Literários",
+     "area_capes": "Linguística e Literatura",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "unimontes-08-2026",
+  "vaga": "02",
+  "area": "MULTIDISCIPLINAR/INTERDISCIPLINAR",
+  "requisito_literal": "Graduação em Letras Português (Licenciatura). Doutorado em Linguística ou Doutorado em Letras: Língua Portuguesa ou Doutorado em Estudos Literários ou Doutorado em Educação.",
+  "decisao": "pode_servir",
+  "motivos": [
+   "graduação em Letras",
+   "pós em Estudos Literários"
+  ],
+  "n": 4080
+ },
+ {
+  "perfil": {
+   "id": "p55-quimica-industrial-doutorado-quimica",
+   "graduacoes": [
+    {
+     "curso": "Química Industrial",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "doutorado",
+     "programa": "Química",
+     "area_capes": "Química",
+     "concentracao": "Química Orgânica",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "unimontes-14-2026",
+  "vaga": "03",
+  "area": "CIÊNCIAS EXATAS E DA TERRA/QUÍMICA",
+  "requisito_literal": "Graduação em Química com Doutorado em Química; ou em áreas correlatas pertencentes à área de avaliação Química da Coordenação de Aperfeiçoamento de Pessoal de Nível Superior - CAPES.",
+  "decisao": "pode_servir",
+  "motivos": [
+   "graduação em Química",
+   "pós em Química"
+  ],
+  "n": 4081
+ },
+ {
+  "perfil": {
+   "id": "p54-sistemas-informacao-mestrado-em-curso",
+   "graduacoes": [
+    {
+     "curso": "Sistemas de Informação",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "especializacao",
+     "programa": "Engenharia de Software",
+     "concluida": true
+    },
+    {
+     "nivel": "mestrado",
+     "programa": "Computação Aplicada",
+     "area_capes": "Computação",
+     "concluida": false
+    }
+   ]
+  },
+  "concurso": "ifsuldeminas-188-2026",
+  "vaga": "MUZ-3",
+  "area": "Informática",
+  "requisito_literal": "Graduação em Licenciatura em Computação; ou Bacharelado em Ciência da Computação; ou Sistema da Informação; ou Engenharia da Computação; ou Engenharia de Software; ou Curso de Tecnologia na Área de Informática/Computação",
+  "decisao": "pode_servir",
+  "motivos": [
+   "graduação em Sistema da Informação"
+  ],
+  "n": 4082
+ },
+ {
+  "perfil": {
+   "id": "p59-historia-bach-doutorado-arqueologia",
+   "graduacoes": [
+    {
+     "curso": "História",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "doutorado",
+     "programa": "Arqueologia",
+     "area_capes": "Antropologia / Arqueologia",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "unimontes-17-2026",
+  "vaga": "08",
+  "area": "LINGUÍSTICA, LETRAS E ARTES/LINGUÍSTICA E LITERATURA",
+  "requisito_literal": "Graduação em Letras (licenciatura) ou em cursos das Ciências Humanas, e Doutorado em Estudos Linguísticos, Linguística ou Letras, ou Doutorado em cursos das Ciências Humanas.",
+  "decisao": "pode_servir",
+  "motivos": [
+   "o edital pede graduação na grande área Ciências Humanas, e História está nela",
+   "programa na grande área Ciências Humanas, pela área que você declarou"
+  ],
+  "n": 4083
+ },
+ {
+  "perfil": {
+   "id": "p65-medicina-veterinaria-residencia-doutorado",
+   "graduacoes": [
+    {
+     "curso": "Medicina Veterinária",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "residencia",
+     "programa": "Clínica Cirúrgica de Pequenos Animais",
+     "concluida": true
+    },
+    {
+     "nivel": "doutorado",
+     "programa": "Ciências Veterinárias",
+     "area_capes": "Medicina Veterinária",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "unimontes-10-2026",
+  "vaga": "04",
+  "area": "CIÊNCIAS DA SAÚDE/MEDICINA III",
+  "requisito_literal": "Graduação em Medicina com Residência em Otorrinolaringologia e/ou Título de Especialista em Otorrinolaringologia reconhecido pela Sociedade Brasileira de Otorrinolaringologia e Mestrado em Otorrinolaringologia e/ou Mestrado em Ciências da Saúde e/ou Mestrado em Cuidado Primário em Saúde.",
+  "decisao": "nao_serve",
+  "motivos": [],
+  "n": 4084
+ },
+ {
+  "perfil": {
+   "id": "p67-ciencia-alimentos-doutorado",
+   "graduacoes": [
+    {
+     "curso": "Engenharia de Alimentos",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "doutorado",
+     "programa": "Ciência e Tecnologia de Alimentos",
+     "area_capes": "Ciência de Alimentos",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "ifmg-1077-2026",
+  "vaga": "15",
+  "area": "Informática / Ciência da Computação / Engenharia de Computação",
+  "requisito_literal": "Diploma, devidamente registrado, de conclusão de curso de graduação de nível superior (Bacharelado, Licenciatura ou Tecnologia) em Ciência da Computação, Informática, Engenharia da Computação, Engenharia de Software, Sistemas de Informação, Sistemas de Computação, Análise e Desenvolvimento de Sistemas, Sistemas para Internet, Análise de Sistemas. fornecido por instituição de ensino superior credenciada e reconhecida pelo Ministério da Educação (MEC).",
+  "decisao": "nao_serve",
+  "motivos": [],
+  "n": 4085
+ },
+ {
+  "perfil": {
+   "id": "p57-matematica-bach-doutorado-matematica-aplicada",
+   "graduacoes": [
+    {
+     "curso": "Matemática",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "doutorado",
+     "programa": "Matemática Aplicada",
+     "area_capes": "Matemática / Probabilidade e Estatística",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "ufpr-276-2026",
+  "vaga": "1.32",
+  "area": "Estatística e Ciência de Dados",
+  "requisito_literal": "Doutorado em alguma das áreas: Estatística; Probabilidade e Estatística; Estatística e Experimentação Agronômica; Estatística e Experimentação Agropecuária; Biometria e Estatística Aplicada; Bioestatística; Biometria; Demografia; População, Território e Estatísticas Públicas; Ciência da Computação; Informática; Bioinformática; Matemática Aplicada; Doutorado em qualquer área com área de concentração em Estatística; Doutorado em qualquer área com Mestrado em Estatística ou Estatística e Ciência de Dados; Doutorado em qualquer área com Mestrado com área de concentração em Estatística; Doutorado em qualquer área com Graduação em Estatística ou Estatística e Ciência de Dados; obtidos na forma da lei.",
+  "decisao": "pode_servir",
+  "motivos": [
+   "o caminho aceita qualquer graduação",
+   "pós em Matemática Aplicada"
+  ],
+  "n": 4086
+ },
+ {
+  "perfil": {
+   "id": "p55-quimica-industrial-doutorado-quimica",
+   "graduacoes": [
+    {
+     "curso": "Química Industrial",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "doutorado",
+     "programa": "Química",
+     "area_capes": "Química",
+     "concentracao": "Química Orgânica",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "ufba-06-2026",
+  "vaga": "27",
+  "area": "Química Analítica: Eletroanalítica",
+  "requisito_literal": "Graduação Plena em Química. Doutorado em Química, com área de concentração em Química Analítica; ou Doutorado em Química Analítica; ou Doutorado em Ciências, com área de concentração em Química Analítica.",
+  "decisao": "depende_da_banca",
+  "motivos": [
+   "graduação em Química",
+   "o edital pede Química Analítica, que na tabela do CNPq fica dentro de Química; confira se sua tese é nesse tema"
+  ],
+  "n": 4087
+ },
+ {
+  "perfil": {
+   "id": "p69-odontologia-residencia-cirurgia-buco",
+   "graduacoes": [
+    {
+     "curso": "Odontologia",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "residencia",
+     "programa": "Cirurgia e Traumatologia Bucomaxilofacial",
+     "concluida": true
+    },
+    {
+     "nivel": "mestrado",
+     "programa": "Odontologia",
+     "area_capes": "Odontologia",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "ufba-06-2026",
+  "vaga": "19",
+  "area": "MEDE09 - Cirurgia Torácica e Cardiovascular",
+  "requisito_literal": "Graduação em Medicina; e Residência Médica reconhecida em Cirurgia Cardiovascular ou título de especialista em Cirurgia Cardiovascular, admitindo-se também formação especializada em abordagem cardíaca transcateter/Cardiologia Intervencionista, quando compatível com o perfil acadêmico-assistencial pretendido",
+  "decisao": "nao_serve",
+  "motivos": [],
+  "n": 4088
+ },
+ {
+  "perfil": {
+   "id": "p62-design-mestrado",
+   "graduacoes": [
+    {
+     "curso": "Design",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "mestrado",
+     "programa": "Design",
+     "area_capes": "Arquitetura, Urbanismo e Design",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "unimontes-14-2026",
+  "vaga": "04",
+  "area": "CIÊNCIAS SOCIAIS APLICADAS/ARQUITETURA, URBANISMO E DESIGN",
+  "requisito_literal": "Graduação em Arquitetura e Urbanismo com Mestrado em Arquitetura, Urbanismo e Design; ou em áreas correlatas pertencentes à área de avaliação Arquitetura, Urbanismo e Design da Coordenação de Aperfeiçoamento de Pessoal de Nível Superior - CAPES.",
+  "decisao": "depende_da_banca",
+  "motivos": [
+   "o edital pede graduação na área Arquitetura e Urbanismo, e Design está em Arquitetura, Urbanismo e Design",
+   "programa na área de avaliação Arquitetura, Urbanismo e Design, como você declarou"
+  ],
+  "n": 4089
+ },
+ {
+  "perfil": {
+   "id": "p57-matematica-bach-doutorado-matematica-aplicada",
+   "graduacoes": [
+    {
+     "curso": "Matemática",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "doutorado",
+     "programa": "Matemática Aplicada",
+     "area_capes": "Matemática / Probabilidade e Estatística",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "ufrn-058-2026",
+  "vaga": "268284",
+  "area": "Análise Matemática",
+  "requisito_literal": "Graduação em Matemática + Doutorado em Matemática na área de Análise",
+  "decisao": "depende_da_banca",
+  "motivos": [
+   "graduação em Matemática",
+   "o edital pede Matemática, e seu programa (Matemática Aplicada) é um recorte dessa área"
+  ],
+  "n": 4090
+ },
+ {
+  "perfil": {
+   "id": "p68-psicologia-mestrado-sem-area",
+   "graduacoes": [
+    {
+     "curso": "Psicologia",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "mestrado",
+     "programa": "Psicologia Social",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "unimontes-22-2026",
+  "vaga": "08",
+  "area": "CIÊNCIAS HUMANAS/PSICOLOGIA",
+  "requisito_literal": "Graduação em Psicologia com Mestrado em Psicologia ou em áreas correlatas pertencentes à área de avaliação Psicologia da Coordenação de Aperfeiçoamento de Pessoal de Nível Superior - CAPES.",
+  "decisao": "depende_da_banca",
+  "motivos": [
+   "graduação em Psicologia",
+   "o edital pede a área Psicologia; pelo catálogo, Psicologia Social está nela; confirme a área do seu programa"
+  ],
+  "n": 4091
+ },
+ {
+  "perfil": {
+   "id": "p50-medicina-residencia-psiquiatria",
+   "graduacoes": [
+    {
+     "curso": "Medicina",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "residencia",
+     "programa": "Psiquiatria",
+     "concluida": true
+    },
+    {
+     "nivel": "mestrado",
+     "programa": "Saúde Mental",
+     "area_capes": "Medicina II",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "ufc-48-2026",
+  "vaga": "51",
+  "area": "Clínica Médica/Pneumologia/Semiologia",
+  "requisito_literal": "Graduação em Mecidina e Mestrado na Área do Concurso",
+  "decisao": "depende_da_banca",
+  "motivos": [
+   "graduação em Medicina",
+   "o edital pede a área do concurso (Clínica Médica/Pneumologia/Semiologia); confira se seu programa ou sua tese é nela"
+  ],
+  "n": 4092
+ },
+ {
+  "perfil": {
+   "id": "p64-ciencias-biologicas-lic-mestrado-ensino-biologia",
+   "graduacoes": [
+    {
+     "curso": "Ciências Biológicas",
+     "grau": "licenciatura"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "mestrado",
+     "programa": "Ensino de Biologia",
+     "area_capes": "Ensino",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "ifsuldeminas-188-2026",
+  "vaga": "IFS-4",
+  "area": "Biologia II",
+  "requisito_literal": "Graduação em Licenciatura em Ciências Biológicas",
+  "decisao": "pode_servir",
+  "motivos": [
+   "graduação em Ciências Biológicas"
+  ],
+  "n": 4093
+ },
+ {
+  "perfil": {
+   "id": "p56-fisica-bach-doutorado-fisica",
+   "graduacoes": [
+    {
+     "curso": "Física",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "doutorado",
+     "programa": "Física",
+     "area_capes": "Astronomia / Física",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "unimontes-26-2026",
+  "vaga": "004",
+  "area": "CIÊNCIAS DA SAÚDE/EDUCAÇÃO FÍSICA",
+  "requisito_literal": "Graduação em Educação Física (Bacharelado ou Licenciatura ou Licenciatura Plena) ou Esportes e Mestrado na Área da Educação Física, ou da Educação, ou Interdisciplinar segundo a Tabela de áreas de Conhecimento da CAPES",
+  "decisao": "nao_serve",
+  "motivos": [],
+  "n": 4094
+ },
+ {
+  "perfil": {
+   "id": "p57-matematica-bach-doutorado-matematica-aplicada",
+   "graduacoes": [
+    {
+     "curso": "Matemática",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "doutorado",
+     "programa": "Matemática Aplicada",
+     "area_capes": "Matemática / Probabilidade e Estatística",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "unespar-023-2026",
+  "vaga": "1402",
+  "area": "LÍNGUA INGLESA - ESTÁGIO SUPERVISIONADO DE LÍNGUA INGLESA",
+  "requisito_literal": "Licenciatura em Letras Inglês, ou Letras Português-Inglês, ou línguas estrangeiras modernas com habilitação em língua inglesa e Doutorado em Letras, ou Estudos da Linguagem, ou Estudos Linguísticos, ou Linguística, ou Linguística Aplicada.",
+  "decisao": "nao_serve",
+  "motivos": [],
+  "n": 4095
+ },
+ {
+  "perfil": {
+   "id": "p62-design-mestrado",
+   "graduacoes": [
+    {
+     "curso": "Design",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "mestrado",
+     "programa": "Design",
+     "area_capes": "Arquitetura, Urbanismo e Design",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "ufpe-08-2026",
+  "vaga": "13",
+  "area": "Tecnologias Digitais de Representação Gráfica para Engenharia, Arquitetura e Urbanismo e Design, Apoiados No Bim, Modelagem Paramétrica e Algorítmica.",
+  "requisito_literal": "DOUTORADO em Arquitetura e Urbanismo ou Engenharias ou Desenvolvimento Urbano ou Planejamento Urbano ou Design ou Ciências da Computação ou Educação Matemática e Tecnológica ou Ensino das Ciências; E GRADUAÇÃO em Licenciatura em Expressão Gráfica ou Licenciatura em Desenho e Plástica ou Arquitetura e Urbanismo ou Engenharias ou Design.",
+  "decisao": "nao_serve",
+  "motivos": [],
+  "n": 4096
+ },
+ {
+  "perfil": {
+   "id": "p57-matematica-bach-doutorado-matematica-aplicada",
+   "graduacoes": [
+    {
+     "curso": "Matemática",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "doutorado",
+     "programa": "Matemática Aplicada",
+     "area_capes": "Matemática / Probabilidade e Estatística",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "ufc-48-2026",
+  "vaga": "42",
+  "area": "Cálculo, Álgebra Linear e Equações Diferenciais",
+  "requisito_literal": "Graduação em Matemática e Doutorado em Matemática",
+  "decisao": "depende_da_banca",
+  "motivos": [
+   "graduação em Matemática",
+   "o edital pede Matemática, e seu programa (Matemática Aplicada) é um recorte dessa área"
+  ],
+  "n": 4097
+ },
+ {
+  "perfil": {
+   "id": "p58-pedagogia-doutorado-ensino",
+   "graduacoes": [
+    {
+     "curso": "Pedagogia",
+     "grau": "licenciatura"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "doutorado",
+     "programa": "Ensino de Ciências e Matemática",
+     "area_capes": "Ensino",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "uerj-245-2026",
+  "vaga": "01",
+  "area": "Metodologia e Técnicas de Computação",
+  "requisito_literal": "Doutorado (Exigência Mínima de Qualificação do quadro preambular); 2.1, f: possuir título de DOUTOR em Engenharia de Produção OU Engenharia de Mecânica OU Engenharia Elétrica OU Engenharia Mecatrônica OU Engenharia de Sistemas OU Engenharia de Computação OU Ciência de Dados OU Ciência da Computação OU Sistemas de informação OU Tecnologia da Informação, obtido em curso de pós-graduação credenciado pelos órgãos competentes em âmbito nacional, ou obtido no exterior, desde que o tenha revalidado no país, em conformidade com as normas vigentes, conforme Lei Estadual n.º 5.343 de 08 de dezembro de 2008. 2.1, g: possuir diploma de curso de graduação em Engenharia de Produção OU Engenharia Mecatrônica Engenharia Mecânica OU Engenharia Elétrica OU Ciência da Computação OU Engenharia da Computação OU Engenharia de Sistemas OU Sistemas de Informação OU Ciência de Dados OU Tecnologia da Informação OU Análise de Sistemas OU Matemática, obtido em curso realizado em instituição oficial ou reconhecida de ensino superior, conforme Lei Estadual n.º 5.343 de 08 de dezembro de 2008.",
+  "decisao": "nao_serve",
+  "motivos": [],
+  "n": 4098
+ },
+ {
+  "perfil": {
+   "id": "p52-eng-quimica-doutorado-eng-quimica",
+   "graduacoes": [
+    {
+     "curso": "Engenharia Química",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "mestrado",
+     "programa": "Engenharia Química",
+     "area_capes": "Engenharias II",
+     "concluida": true
+    },
+    {
+     "nivel": "doutorado",
+     "programa": "Engenharia Química",
+     "area_capes": "Engenharias II",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "ufrgs-09-2026",
+  "vaga": "09",
+  "area": "Engenharia, Subárea: Polímeros",
+  "requisito_literal": "Doutorado em Engenharia de Materiais ou Ciência dos Materiais ou Engenharia Química ou Química",
+  "decisao": "pode_servir",
+  "motivos": [
+   "o caminho aceita qualquer graduação",
+   "pós em Engenharia Química"
+  ],
+  "n": 4099
+ },
+ {
+  "perfil": {
+   "id": "p54-sistemas-informacao-mestrado-em-curso",
+   "graduacoes": [
+    {
+     "curso": "Sistemas de Informação",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "especializacao",
+     "programa": "Engenharia de Software",
+     "concluida": true
+    },
+    {
+     "nivel": "mestrado",
+     "programa": "Computação Aplicada",
+     "area_capes": "Computação",
+     "concluida": false
+    }
+   ]
+  },
+  "concurso": "ifmg-1077-2026",
+  "vaga": "15",
+  "area": "Informática / Ciência da Computação / Engenharia de Computação",
+  "requisito_literal": "Diploma, devidamente registrado, de conclusão de curso de graduação de nível superior (Bacharelado, Licenciatura ou Tecnologia) em Ciência da Computação, Informática, Engenharia da Computação, Engenharia de Software, Sistemas de Informação, Sistemas de Computação, Análise e Desenvolvimento de Sistemas, Sistemas para Internet, Análise de Sistemas. fornecido por instituição de ensino superior credenciada e reconhecida pelo Ministério da Educação (MEC).",
+  "decisao": "pode_servir",
+  "motivos": [
+   "graduação em Sistemas de Informação"
+  ],
+  "n": 4100
+ },
+ {
+  "perfil": {
+   "id": "p58-pedagogia-doutorado-ensino",
+   "graduacoes": [
+    {
+     "curso": "Pedagogia",
+     "grau": "licenciatura"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "doutorado",
+     "programa": "Ensino de Ciências e Matemática",
+     "area_capes": "Ensino",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "unimontes-16-2026",
+  "vaga": "03",
+  "area": "CIÊNCIAS HUMANAS/EDUCAÇÃO",
+  "requisito_literal": "Graduação em Pedagogia ou Graduação em Psicologia, com Doutorado em Educação ou Doutorado em áreas afins das Ciências Humanas.",
+  "decisao": "depende_da_banca",
+  "motivos": [
+   "graduação em Pedagogia",
+   "o edital aceita áreas afins a Educação"
+  ],
+  "n": 4101
+ },
+ {
+  "perfil": {
+   "id": "p51-medicina-so-graduacao-rqe-ortopedia",
+   "graduacoes": [
+    {
+     "curso": "Medicina",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "certificacao",
+     "programa": "Ortopedia e Traumatologia",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "ufpr-276-2026",
+  "vaga": "1.18",
+  "area": "Radiologia com atuação complementar em Propedêutica Médica",
+  "requisito_literal": "Graduação em Medicina com Residência em Radiologia e/ou Especialização reconhecida pelo MEC em Radiologia e Doutorado em Clínica Médica e/ou Medicina Interna e/ou Radiologia.",
+  "decisao": "nao_serve",
+  "motivos": [],
+  "n": 4102
+ },
+ {
+  "perfil": {
+   "id": "p50-medicina-residencia-psiquiatria",
+   "graduacoes": [
+    {
+     "curso": "Medicina",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "residencia",
+     "programa": "Psiquiatria",
+     "concluida": true
+    },
+    {
+     "nivel": "mestrado",
+     "programa": "Saúde Mental",
+     "area_capes": "Medicina II",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "unimontes-22-2026",
+  "vaga": "04",
+  "area": "CIÊNCIAS DA SAÚDE/MEDICINA II",
+  "requisito_literal": "Graduação em Medicina com Residência em Psiquiatria e/ou Título de Especialista em Psiquiatria reconhecido pela Associação Brasileira de Psiquiatria.",
+  "decisao": "pode_servir",
+  "motivos": [
+   "graduação em Medicina",
+   "pós em Psiquiatria"
+  ],
+  "n": 4103
+ },
+ {
+  "perfil": {
+   "id": "p58-pedagogia-doutorado-ensino",
+   "graduacoes": [
+    {
+     "curso": "Pedagogia",
+     "grau": "licenciatura"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "doutorado",
+     "programa": "Ensino de Ciências e Matemática",
+     "area_capes": "Ensino",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "unimontes-16-2026",
+  "vaga": "01",
+  "area": "CIÊNCIAS HUMANAS/EDUCAÇÃO",
+  "requisito_literal": "Graduação em Pedagogia ou Graduação em Psicologia, com Mestrado em Educação ou Mestrado em áreas afins das Ciências Humanas.",
+  "decisao": "depende_da_banca",
+  "motivos": [
+   "graduação em Pedagogia",
+   "doutorado atende a exigência de mestrado na mesma área",
+   "o edital aceita áreas afins a Educação"
+  ],
+  "n": 4104
+ },
+ {
+  "perfil": {
+   "id": "p52-eng-quimica-doutorado-eng-quimica",
+   "graduacoes": [
+    {
+     "curso": "Engenharia Química",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "mestrado",
+     "programa": "Engenharia Química",
+     "area_capes": "Engenharias II",
+     "concluida": true
+    },
+    {
+     "nivel": "doutorado",
+     "programa": "Engenharia Química",
+     "area_capes": "Engenharias II",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "ufrgs-08-2026",
+  "vaga": "03",
+  "area": "Cinética, Catálise e Cálculo de Reatores Químicos",
+  "requisito_literal": "Graduação em Engenharia Química e Doutorado em Engenharia Química, com tese na área do concurso",
+  "decisao": "depende_da_banca",
+  "motivos": [
+   "graduação em Engenharia Química",
+   "pós em Engenharia Química",
+   "o edital exige tese ou dissertação num tema específico: tese na área do concurso (Cinética, Catálise e Cálculo de Reatores Químicos)"
+  ],
+  "n": 4105
+ },
+ {
+  "perfil": {
+   "id": "p49-letras-portugues-doutorado-literatura",
+   "graduacoes": [
+    {
+     "curso": "Letras - Português",
+     "grau": "licenciatura"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "mestrado",
+     "programa": "Letras",
+     "area_capes": "Linguística e Literatura",
+     "concluida": true
+    },
+    {
+     "nivel": "doutorado",
+     "programa": "Estudos Literários",
+     "area_capes": "Linguística e Literatura",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "unimontes-17-2026",
+  "vaga": "08",
+  "area": "LINGUÍSTICA, LETRAS E ARTES/LINGUÍSTICA E LITERATURA",
+  "requisito_literal": "Graduação em Letras (licenciatura) ou em cursos das Ciências Humanas, e Doutorado em Estudos Linguísticos, Linguística ou Letras, ou Doutorado em cursos das Ciências Humanas.",
+  "decisao": "depende_da_banca",
+  "motivos": [
+   "graduação em Letras",
+   "o edital pede Linguística; seu programa (Estudos Literários) está na área de avaliação Linguística e Literatura, que esse nome cobre; confira se a banca aceita"
+  ],
+  "n": 4106
+ },
+ {
+  "perfil": {
+   "id": "p49-letras-portugues-doutorado-literatura",
+   "graduacoes": [
+    {
+     "curso": "Letras - Português",
+     "grau": "licenciatura"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "mestrado",
+     "programa": "Letras",
+     "area_capes": "Linguística e Literatura",
+     "concluida": true
+    },
+    {
+     "nivel": "doutorado",
+     "programa": "Estudos Literários",
+     "area_capes": "Linguística e Literatura",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "unifal-002-2026",
+  "vaga": "F",
+  "area": "Língua Inglesa: Linguística e Ensino",
+  "requisito_literal": "Graduação em Letras ou Linguística com Doutorado em Linguística ou Linguística Aplicada",
+  "decisao": "depende_da_banca",
+  "motivos": [
+   "graduação em Letras",
+   "o edital pede Linguística; seu programa (Estudos Literários) está na área de avaliação Linguística e Literatura, que esse nome cobre; confira se a banca aceita"
+  ],
+  "n": 4107
+ },
+ {
+  "perfil": {
+   "id": "p56-fisica-bach-doutorado-fisica",
+   "graduacoes": [
+    {
+     "curso": "Física",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "doutorado",
+     "programa": "Física",
+     "area_capes": "Astronomia / Física",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "ufscar-004-2026",
+  "vaga": "15",
+  "area": "Ciência e Engenharia da Computação; Subárea: Metodologia e Técnicas de Computação: Inteligência Artificial",
+  "requisito_literal": "Título de Doutor em Programa de Pós Graduação cadastrado em uma das seguintes áreas de avaliação da CAPES: Computação, ou Física, ou Matemática, ou Probabilidade e Estatística, ou Engenharias III, ou Engenharias IV",
+  "decisao": "pode_servir",
+  "motivos": [
+   "o caminho aceita qualquer graduação",
+   "pós em Física"
+  ],
+  "n": 4108
+ },
+ {
+  "perfil": {
+   "id": "p52-eng-quimica-doutorado-eng-quimica",
+   "graduacoes": [
+    {
+     "curso": "Engenharia Química",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "mestrado",
+     "programa": "Engenharia Química",
+     "area_capes": "Engenharias II",
+     "concluida": true
+    },
+    {
+     "nivel": "doutorado",
+     "programa": "Engenharia Química",
+     "area_capes": "Engenharias II",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "ufscar-004-2026",
+  "vaga": "11",
+  "area": "Engenharia de Materiais; Subárea: Reologia, Processamento e Reciclagem de Polímeros",
+  "requisito_literal": "Título de Doutor obtido ou revalidado em curso de doutorado cadastrado em uma das seguintes áreas básicas na plataforma Sucupira (CAPES): Engenharia de Materiais e Metalúrgica (30300002); ou Materiais (90300009); ou Química (10600000); ou Engenharia Química (30600006); ou Engenharia Mecânica (30500001).",
+  "decisao": "pode_servir",
+  "motivos": [
+   "o caminho aceita qualquer graduação",
+   "pós em Engenharia Química"
+  ],
+  "n": 4109
+ },
+ {
+  "perfil": {
+   "id": "p55-quimica-industrial-doutorado-quimica",
+   "graduacoes": [
+    {
+     "curso": "Química Industrial",
+     "grau": "bacharelado"
+    }
+   ],
+   "pos": [
+    {
+     "nivel": "doutorado",
+     "programa": "Química",
+     "area_capes": "Química",
+     "concentracao": "Química Orgânica",
+     "concluida": true
+    }
+   ]
+  },
+  "concurso": "ufpel-028-2026",
+  "vaga": "08",
+  "area": "Tecnologia e Utilização de Produtos Florestais OU Estruturas de Madeira",
+  "requisito_literal": "Graduação em Engenharia Industrial Madeireira OU Engenharia Florestal OU Engenharia Civil COM Doutorado em Engenharia Florestal OU Ciências Florestais OU Engenharia Civil OU Engenharia de Estruturas",
+  "decisao": "nao_serve",
+  "motivos": [],
+  "n": 4110
+ }
+]

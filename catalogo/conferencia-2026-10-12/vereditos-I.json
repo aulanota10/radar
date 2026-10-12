@@ -1,0 +1,442 @@
+[
+ {
+  "n": 4001,
+  "concurso": "ufscar-004-2026",
+  "vaga": "07",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Doutorado em Engenharia Química, exatamente o pedido."
+ },
+ {
+  "n": 4002,
+  "concurso": "unimontes-27-2026",
+  "vaga": "08",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Licenciatura em Teatro listada; doutorado em Artes Cênicas supera o mestrado pedido na mesma área."
+ },
+ {
+  "n": 4003,
+  "concurso": "unifesp-367-2026",
+  "vaga": "02",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Graduação em Química Industrial não é Engenharia Química, exigida sem alternativa."
+ },
+ {
+  "n": 4004,
+  "concurso": "uerj-246-2026",
+  "vaga": "01",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Pedagogia e doutorado em Ensino não atendem Letras/Linguística."
+ },
+ {
+  "n": 4005,
+  "concurso": "ifsuldeminas-188-2026",
+  "vaga": "MCH-3",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Sistemas de Informação está na lista de graduações."
+ },
+ {
+  "n": 4006,
+  "concurso": "ufsm-198-2026",
+  "vaga": "03",
+  "decisao": "depende_da_banca",
+  "veredito": "nivel_trocado",
+  "explicacao": "Doutorado em Matemática Aplicada com área CAPES declarada Matemática/Probabilidade e Estatística está sem dúvida na área de Matemática; devia ser pode_servir (o asterisco remete a nota não transcrita)."
+ },
+ {
+  "n": 4007,
+  "concurso": "uema-132-2026",
+  "vaga": "02",
+  "decisao": "depende_da_banca",
+  "veredito": "certo",
+  "explicacao": "Graduação e doutorado (Engenharia Elétrica) atendem; rebaixado a depende_da_banca pela marcação de ambiguidade do edital, conforme a convenção."
+ },
+ {
+  "n": 4008,
+  "concurso": "unimontes-22-2026",
+  "vaga": "07",
+  "decisao": "depende_da_banca",
+  "veredito": "nivel_trocado",
+  "explicacao": "Mestrado em Psicologia Social é sem dúvida Psicologia (área de avaliação pedida); devia ser pode_servir."
+ },
+ {
+  "n": 4009,
+  "concurso": "ufrn-108-2026",
+  "vaga": "01",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Odontologia não atende Medicina com residência médica."
+ },
+ {
+  "n": 4010,
+  "concurso": "ifsc-01-2026",
+  "vaga": "20",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Bacharelado em Física não atende a exigência de licenciatura."
+ },
+ {
+  "n": 4011,
+  "concurso": "ufpe-08-2026",
+  "vaga": "16",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Graduação e doutorado em Geografia, ambos listados."
+ },
+ {
+  "n": 4012,
+  "concurso": "ifmg-1077-2026",
+  "vaga": "15",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Engenharia de Computação = Engenharia da Computação, listada."
+ },
+ {
+  "n": 4013,
+  "concurso": "unimontes-14-2026",
+  "vaga": "09",
+  "decisao": "depende_da_banca",
+  "veredito": "errado_avisaria_quem_nao_pode",
+  "explicacao": "O edital exige graduação em Arquitetura e Urbanismo; as \"áreas correlatas da CAPES\" qualificam o mestrado, e graduação em Design não é Arquitetura e Urbanismo (só uma leitura forçada do ponto e vírgula salvaria)."
+ },
+ {
+  "n": 4014,
+  "concurso": "uncisal-01-2026",
+  "vaga": "31",
+  "decisao": "depende_da_banca",
+  "veredito": "certo",
+  "explicacao": "Graduação listada; mestrado em áreas afins e ainda em curso justificam depende_da_banca."
+ },
+ {
+  "n": 4015,
+  "concurso": "ufms-137-2026",
+  "vaga": "1169",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Sistemas de Informação não atende Letras/Linguística."
+ },
+ {
+  "n": 4016,
+  "concurso": "uema-139-2026",
+  "vaga": "04",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Engenharia de Computação e doutorado em Engenharia Elétrica, ambos listados."
+ },
+ {
+  "n": 4017,
+  "concurso": "ufscar-004-2026",
+  "vaga": "49",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Exige graduação em Psicologia; o candidato é engenheiro ambiental."
+ },
+ {
+  "n": 4018,
+  "concurso": "uftm-28-2026",
+  "vaga": "03",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Graduação em Odontologia; registro no conselho não é formação."
+ },
+ {
+  "n": 4019,
+  "concurso": "ufs-08-2026",
+  "vaga": "08",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Residência em Psiquiatria não atende a exigência de Oftalmologia."
+ },
+ {
+  "n": 4020,
+  "concurso": "ifsc-01-2026",
+  "vaga": "04",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Licenciatura em Teatro não é Artes, Artes Visuais ou Educação Artística no edital que lista Teatro à parte."
+ },
+ {
+  "n": 4021,
+  "concurso": "ufrn-058-2026",
+  "vaga": "268032",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Exige graduação em Serviço Social; o candidato é psicólogo."
+ },
+ {
+  "n": 4022,
+  "concurso": "ufscar-004-2026",
+  "vaga": "01",
+  "decisao": "depende_da_banca",
+  "veredito": "certo",
+  "explicacao": "Qualquer graduação; doutorado em Arqueologia (área CAPES Antropologia/Arqueologia) diante de Antropologia/Ciências Sociais é plausível, depende da banca."
+ },
+ {
+  "n": 4023,
+  "concurso": "unifesp-375-2026",
+  "vaga": "06",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Exige graduação em Psicologia."
+ },
+ {
+  "n": 4024,
+  "concurso": "ufms-137-2026",
+  "vaga": "1169",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Matemática não atende Letras/Linguística."
+ },
+ {
+  "n": 4025,
+  "concurso": "ufms-137-2026",
+  "vaga": "1208",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Engenharia de Computação não é Estatística/Matemática."
+ },
+ {
+  "n": 4026,
+  "concurso": "unespar-023-2026",
+  "vaga": "1398",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Letras não atende licenciatura em Artes Visuais/Plásticas/Desenho."
+ },
+ {
+  "n": 4027,
+  "concurso": "uerj-234-2026",
+  "vaga": "01",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Graduação e doutorado em Física."
+ },
+ {
+  "n": 4028,
+  "concurso": "ifsc-01-2026",
+  "vaga": "03",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Licenciatura em Teatro listada."
+ },
+ {
+  "n": 4029,
+  "concurso": "uncisal-01-2026",
+  "vaga": "29",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Medicina, residência em Psiquiatria e mestrado em Saúde Mental (Medicina II) atendem."
+ },
+ {
+  "n": 4030,
+  "concurso": "ufvjm-101-2026",
+  "vaga": "101.23",
+  "decisao": "pode_servir",
+  "veredito": "nivel_trocado",
+  "explicacao": "O requisito qualifica o doutorado com subáreas (Clínica e Cirurgia Animal, Preventiva etc.) e o perfil não informa a concentração; devia ser depende_da_banca."
+ },
+ {
+  "n": 4031,
+  "concurso": "ufpr-276-2026",
+  "vaga": "1.18",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Medicina Veterinária não atende Medicina com residência em Radiologia."
+ },
+ {
+  "n": 4032,
+  "concurso": "ufrgs-09-2026",
+  "vaga": "08",
+  "decisao": "depende_da_banca",
+  "veredito": "certo",
+  "explicacao": "Doutorado em Arqueologia diante de Ciências Sociais é plausível pela área CAPES Antropologia/Arqueologia; depende da banca."
+ },
+ {
+  "n": 4033,
+  "concurso": "ufvjm-101-2026",
+  "vaga": "101.5",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Graduação atende, mas o doutorado exigido é em Química, não Engenharia Química."
+ },
+ {
+  "n": 4034,
+  "concurso": "unimontes-16-2026",
+  "vaga": "04",
+  "decisao": "depende_da_banca",
+  "veredito": "certo",
+  "explicacao": "Pedagogia listada; doutorado em Ensino cabe em \"áreas afins\", depende da banca."
+ },
+ {
+  "n": 4035,
+  "concurso": "ufpe-08-2026",
+  "vaga": "29",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Arqueologia não é História, Filosofia ou Educação, e o edital não aceita afins."
+ },
+ {
+  "n": 4036,
+  "concurso": "ufms-137-2026",
+  "vaga": "1169",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Letras e doutorado em Estudos Literários na área Linguística e Literatura/Letras."
+ },
+ {
+  "n": 4037,
+  "concurso": "ufc-48-2026",
+  "vaga": "07",
+  "decisao": "depende_da_banca",
+  "veredito": "nivel_trocado",
+  "explicacao": "Doutorado em Arqueologia é o programa da área do concurso (Teoria e História da Arqueologia); devia ser pode_servir."
+ },
+ {
+  "n": 4038,
+  "concurso": "ufersa-030-2026",
+  "vaga": "03",
+  "decisao": "depende_da_banca",
+  "veredito": "nivel_trocado",
+  "explicacao": "Estudos Literários é sem dúvida Letras, e o candidato tem também mestrado em Letras; devia ser pode_servir."
+ },
+ {
+  "n": 4039,
+  "concurso": "ufersa-030-2026",
+  "vaga": "12",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Engenharia de Alimentos não está nas graduações exigidas."
+ },
+ {
+  "n": 4040,
+  "concurso": "uema-132-2026",
+  "vaga": "01",
+  "decisao": "depende_da_banca",
+  "veredito": "certo",
+  "explicacao": "Atende graduação e doutorado; rebaixado pela marcação de ambiguidade do edital, conforme a convenção."
+ },
+ {
+  "n": 4041,
+  "concurso": "ufc-48-2026",
+  "vaga": "04",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Graduação e doutorado em Física."
+ },
+ {
+  "n": 4042,
+  "concurso": "urca-2026",
+  "vaga": "22",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Sistemas de Informação não atende Letras."
+ },
+ {
+  "n": 4043,
+  "concurso": "ufc-48-2026",
+  "vaga": "02",
+  "decisao": "depende_da_banca",
+  "veredito": "certo",
+  "explicacao": "Doutorado em Engenharia Química diante da área do concurso Biotecnologia Industrial: área diferente do programa, depende da banca pela convenção."
+ },
+ {
+  "n": 4044,
+  "concurso": "ifsc-01-2026",
+  "vaga": "25",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Engenharia de Produção listada."
+ },
+ {
+  "n": 4045,
+  "concurso": "ifmg-1077-2026",
+  "vaga": "12",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Licenciatura em Geografia."
+ },
+ {
+  "n": 4046,
+  "concurso": "ufscar-004-2026",
+  "vaga": "63",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Só mestrado, e o edital exige doutorado."
+ },
+ {
+  "n": 4047,
+  "concurso": "ufvjm-101-2026",
+  "vaga": "101.18",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Química Industrial está na área Química (código CNPq citado) e doutorado em Química."
+ },
+ {
+  "n": 4048,
+  "concurso": "ufs-08-2026",
+  "vaga": "05",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Licenciatura em Ciências Biológicas equivale a licenciatura em Biologia."
+ },
+ {
+  "n": 4049,
+  "concurso": "unimontes-01-2026",
+  "vaga": "01",
+  "decisao": "depende_da_banca",
+  "veredito": "certo",
+  "explicacao": "Graduação em Computação atende; mestrado em curso e Computação Aplicada justificam depende_da_banca."
+ },
+ {
+  "n": 4050,
+  "concurso": "unimontes-17-2026",
+  "vaga": "02",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Exige Letras Espanhol; o candidato é de Letras Português."
+ },
+ {
+  "n": 4051,
+  "concurso": "unimontes-24-2026",
+  "vaga": "05",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Medicina com mestrado em Saúde Mental (Ciências da Saúde) cumpre o caminho alternativo do mestrado."
+ },
+ {
+  "n": 4052,
+  "concurso": "unimontes-07-2026",
+  "vaga": "11",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Medicina Veterinária e doutorado em Ciências Veterinárias, listados."
+ },
+ {
+  "n": 4053,
+  "concurso": "unimontes-07-2026",
+  "vaga": "15",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Exige graduação em Engenharia Florestal."
+ },
+ {
+  "n": 4054,
+  "concurso": "uncisal-01-2026",
+  "vaga": "29",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Ciências Biológicas não atende Medicina."
+ },
+ {
+  "n": 4055,
+  "concurso": "unimontes-24-2026",
+  "vaga": "06",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Sem residência/título em Cardiologia e sem doutorado."
+ }
+]

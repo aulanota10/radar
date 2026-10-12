@@ -36,7 +36,7 @@ Uso:
   python3 catalogo/casamento.py --vigia ../vigia-documentos --perfil perfil.json \
       [--hoje AAAA-MM-DD] [--saida resultado.json] [--md resultado.md]
 """
-import argparse, datetime as dt, json, os, sys
+import argparse, datetime as dt, json, os, re, sys
 
 AQUI = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, AQUI)
@@ -154,6 +154,13 @@ _VAZIAS = {"de", "da", "do", "e", "em", "lingua", "linguas", "literatura", "lite
 
 def _radicais(texto):
     return {w[:5] for w in chave(texto or "").split() if w not in _VAZIAS}
+
+
+def _conc_bate(do_candidato, do_edital):
+    """Concentração do candidato atende a do edital quando uma contém a outra por
+    palavras inteiras ("Química Analítica" não atende "Química Orgânica")."""
+    a, b = set(chave(do_candidato).split()), set(chave(do_edital).split())
+    return bool(a) and bool(b) and (a <= b or b <= a)
 
 
 def _habilitacao(g, cg, resto=""):
@@ -276,11 +283,25 @@ def comparar_area(cat, e, p):
             continue
         esc = a.get("escala") or "curso"
         antes = len(rs)
+        fn = cat.resolver(nome, "pos") or {}
+        especialidade = fn.get("tipo") == "especialidade_medica" and \
+            bool(set(e.get("niveis") or []) & {"especializacao", "residencia"})
+        aproximar = academico and not especialidade
+        if aproximar and not a.get("concentracao") and cat.comeca_com(prog, nome, "pos") and not (
+                not fn.get("area_avaliacao") and dec and cat.grande_area_de(nome) and cat.areas[dec]["grande_area"] != cat.grande_area_de(nome)):
+            rs.append(R(PODE, f"o edital pede {nome}, e seu programa ({prog}) é um recorte dessa área"))
+            continue
         if esc in ("curso", "area_capes"):
             r = _area_exata(cat, nome, dec, areas_c, prog)
+            conc = a.get("concentracao")
+            if r and conc and not (p.get("concentracao") and _conc_bate(p["concentracao"], conc)):
+                if _conc_bate(prog or "", conc):
+                    pass  # a concentração pedida é o próprio nome do programa
+                else:
+                    r = None if p.get("concentracao") else R(DEPENDE, *r.motivos, f"o edital exige concentração em {conc}; confirme a do seu programa")
             if r:
                 rs.append(r)
-        if esc == "area_capes" and not rs[antes:] and not cat.area_avaliacao_exata(nome) \
+        if esc in ("curso", "area_capes") and not rs[antes:] and not cat.area_avaliacao_exata(nome) \
                 and (cat.resolver(nome, "pos") or {}).get("tipo") == "grande_area":
             esc = "grande_area_capes"
         if esc == "grande_area_capes":
@@ -303,22 +324,30 @@ def comparar_area(cat, e, p):
             if fora:
                 rs.append(R(DEPENDE, f"o edital pede {nome}, e seu programa ({prog}) tem esse nome, mas você o declarou na área {dec}, fora de {ga_nome}"))
             else:
-                rs.append(R(PODE if generico else DEPENDE,
-                            f"o edital pede {nome}, e seu programa ({prog}) é {'uma delas' if generico else 'um recorte dessa área'}"))
-        if aproximar and len(rs) == antes and dec and fn.get("tipo") == "curso_graduacao" \
-                and set(e.get("niveis") or []) & {"mestrado", "doutorado"}:
+                rs.append(R(PODE, f"o edital pede {nome}, e seu programa ({prog}) é {'uma delas' if generico else 'um recorte dessa área'}"))
+        if aproximar and len(rs) == antes and dec and set(e.get("niveis") or []) & {"mestrado", "doutorado"}:
             # nome amplo de disciplina ("Letras", "Ciências Sociais", "Medicina") e o
-            # candidato declarou a área de avaliação em que esse nome se enquadra
-            if chave(nome) == "medicina" and dec in ("Medicina I", "Medicina II", "Medicina III"):
-                rs.append(R(PODE, f"o edital pede Medicina, e seu programa está na área {dec}, como você declarou"))
-            elif fn.get("area_avaliacao") == dec:
-                rs.append(R(DEPENDE, f"o edital pede {nome}; seu programa ({prog}) está na mesma área de avaliação ({dec}); confira se a banca aceita"))
+            # candidato declarou o programa numa área de avaliação que esse nome cobre
+            cobre = cat.dados.get("guarda_chuva", {}).get(chave(nome), [])
+            conc_ok = not a.get("concentracao") or (p.get("concentracao") and _conc_bate(p["concentracao"], a["concentracao"]))
+            if dec in cobre and conc_ok:
+                if chave(nome) == "medicina":
+                    rs.append(R(PODE, f"o edital pede Medicina, e seu programa está na área {dec}, como você declarou"))
+                else:
+                    rs.append(R(DEPENDE, f"o edital pede {nome}; seu programa ({prog}) está na área de avaliação {dec}, que esse nome cobre; confira se a banca aceita"))
         if aproximar and len(rs) == antes and cat.e_subarea_de(prog, nome):
             rs.append(R(DEPENDE, f"pela tabela do CNPq, {prog} é subárea de {nome}"))
-        if aproximar and len(rs) == antes and cat.e_subarea_de(nome, prog):
+        if aproximar and len(rs) == antes and cat.e_subarea_de(nome, prog) \
+                and not (p.get("concentracao") and not _conc_bate(p["concentracao"], nome)):
             rs.append(R(DEPENDE, f"o edital pede {nome}, que na tabela do CNPq fica dentro de {prog}; confira se sua tese é nesse tema"))
+        if aproximar and len(rs) == antes and a.get("area_do_concurso") and prog \
+                and re.search(r"(^| )" + re.escape(chave(prog)) + r"( |$)", chave(nome)):
+            rs.append(R(PODE, f"a área do concurso ({nome}) é da sua área ({prog})"))
         if len(rs) == antes and (e.get("afins") or (aproximar and a.get("area_do_concurso"))):
             alvo = cat.areas_do_tema(nome, "pos")
+            fp = cat.resolver(prog, "pos") or {}
+            if fp.get("tipo") == "especialidade_medica" and fn.get("area_avaliacao") not in ("Medicina I", "Medicina II", "Medicina III"):
+                continue  # residência ou especialidade médica não é afim de área fora da Medicina
             outra_conc = not e.get("afins") and a.get("area_do_concurso") and p.get("concentracao") and \
                 not (_radicais(p["concentracao"]) & _radicais(nome))
             if _medicina(areas_c) & _medicina(alvo) and not outra_conc:
@@ -354,6 +383,8 @@ def comparar_exigencia(cat, e, p, area_vaga=None):
         tema, prog = chave(area_vaga), chave(p.get("programa") or "")
         if r.nivel == PODE and prog and not (tema == prog or tema.startswith(prog + " ") or prog.startswith(tema + " ")):
             r = R(DEPENDE, *r.motivos, f"o edital exige tese na área do concurso ({area_vaga}); confira o tema da sua")
+    if r.nivel == PODE and not e.get("tese_na_area") and "nfase" in (e.get("nota") or ""):
+        r = R(DEPENDE, *r.motivos, "o edital pede ênfase num tema: " + e["nota"])
     if r.nivel > NAO and e.get("tese_na_area") and e.get("nota"):
         if not e.get("areas") and area_vaga:
             # qualquer doutorado, desde que com tese num tema: o tema tem de ter relação com o programa

@@ -1,0 +1,442 @@
+[
+ {
+  "n": 4056,
+  "concurso": "ifsuldeminas-188-2026",
+  "vaga": "IFS-3",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Licenciatura em Ciências Biológicas, exatamente o pedido."
+ },
+ {
+  "n": 4057,
+  "concurso": "unimontes-16-2026",
+  "vaga": "01",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Graduação em Psicologia listada; mestrado em Psicologia Social está sem dúvida em Ciências Humanas, que o edital aceita."
+ },
+ {
+  "n": 4058,
+  "concurso": "ufsm-198-2026",
+  "vaga": "04",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Exige graduação em Matemática; candidato é de Ciências Biológicas."
+ },
+ {
+  "n": 4059,
+  "concurso": "unimontes-17-2026",
+  "vaga": "08",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Geografia está na grande área Ciências Humanas, aceita tanto na graduação quanto no doutorado."
+ },
+ {
+  "n": 4060,
+  "concurso": "uerj-245-2026",
+  "vaga": "01",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Exige doutorado; candidato só tem mestrado."
+ },
+ {
+  "n": 4061,
+  "concurso": "ufc-48-2026",
+  "vaga": "40",
+  "decisao": "depende_da_banca",
+  "veredito": "certo",
+  "explicacao": "Graduação e área do mestrado batem, mas o mestrado está em curso; depende_da_banca é o nível correto."
+ },
+ {
+  "n": 4062,
+  "concurso": "ufpr-276-2026",
+  "vaga": "1.8",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Doutorado em Arqueologia, exatamente o pedido; graduação não é exigida."
+ },
+ {
+  "n": 4063,
+  "concurso": "ufms-137-2026",
+  "vaga": "1208",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Graduação em Matemática listada e doutorado na área de avaliação Matemática/Probabilidade e Estatística declarada."
+ },
+ {
+  "n": 4064,
+  "concurso": "ufpel-028-2026",
+  "vaga": "25",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Medicina Veterinária com doutorado em qualquer área."
+ },
+ {
+  "n": 4065,
+  "concurso": "unimontes-22-2026",
+  "vaga": "05",
+  "decisao": "depende_da_banca",
+  "veredito": "nivel_trocado",
+  "explicacao": "O edital aceita Mestrado em Psicologia pelo nome; Mestrado em Psicologia Social é mestrado em Psicologia sem dúvida, então pode_servir, mesmo sem área CAPES declarada."
+ },
+ {
+  "n": 4066,
+  "concurso": "ufc-48-2026",
+  "vaga": "10",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Graduação em Engenharia de Alimentos e doutorado em Ciência e Tecnologia de Alimentos, ambos listados."
+ },
+ {
+  "n": 4067,
+  "concurso": "ufpr-276-2026",
+  "vaga": "1.32",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Doutorado em Engenharia Elétrica não está na lista; o caminho 'qualquer área com concentração em Estatística' não serve a um programa de Engenharia Elétrica sem concentração informada."
+ },
+ {
+  "n": 4068,
+  "concurso": "ufc-48-2026",
+  "vaga": "16",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Exige doutorado; candidato só tem mestrado."
+ },
+ {
+  "n": 4069,
+  "concurso": "urca-2026",
+  "vaga": "02",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Exige especialista em Cirurgia (RQE); candidato tem residência em Psiquiatria."
+ },
+ {
+  "n": 4070,
+  "concurso": "ufvjm-101-2026",
+  "vaga": "101.5",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Química Industrial listada e doutorado em Química."
+ },
+ {
+  "n": 4071,
+  "concurso": "ifsuldeminas-188-2026",
+  "vaga": "MUZ-3",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Engenharia de Computação equivale a Engenharia da Computação listada."
+ },
+ {
+  "n": 4072,
+  "concurso": "unimontes-27-2026",
+  "vaga": "11",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Graduação em Teatro listada; doutorado em Artes Cênicas supre o mestrado em Artes Cênicas."
+ },
+ {
+  "n": 4073,
+  "concurso": "ufba-06-2026",
+  "vaga": "09",
+  "decisao": "depende_da_banca",
+  "veredito": "certo",
+  "explicacao": "Graduação em Engenharia de Computação só entra como afim a Engenharia Elétrica; depende_da_banca correto."
+ },
+ {
+  "n": 4074,
+  "concurso": "ufscar-004-2026",
+  "vaga": "49",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Exige doutorado; candidato só tem mestrado."
+ },
+ {
+  "n": 4075,
+  "concurso": "ufms-137-2026",
+  "vaga": "1194",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Engenharia Ambiental listada e doutorado na área Ciências Ambientais."
+ },
+ {
+  "n": 4076,
+  "concurso": "ufrpe-21-2026",
+  "vaga": "09",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Exige licenciatura em História e doutorado em História; candidato é bacharel com doutorado em Arqueologia."
+ },
+ {
+  "n": 4077,
+  "concurso": "ufscar-004-2026",
+  "vaga": "46",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Doutorado em Ciência e Tecnologia de Alimentos, área básica listada."
+ },
+ {
+  "n": 4078,
+  "concurso": "ifmg-1077-2026",
+  "vaga": "16",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Licenciatura em Letras-Português, exatamente o pedido."
+ },
+ {
+  "n": 4079,
+  "concurso": "ufc-48-2026",
+  "vaga": "10",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Graduação em Engenharia Química não está entre as graduações aceitas."
+ },
+ {
+  "n": 4080,
+  "concurso": "unimontes-08-2026",
+  "vaga": "02",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Licenciatura em Letras-Português e doutorado em Estudos Literários, ambos listados."
+ },
+ {
+  "n": 4081,
+  "concurso": "unimontes-14-2026",
+  "vaga": "03",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Química Industrial é bacharelado em Química (atribuições tecnológicas) e o doutorado é em Química; aceitável como pode_servir, embora alguns editais listem Química Industrial à parte."
+ },
+ {
+  "n": 4082,
+  "concurso": "ifsuldeminas-188-2026",
+  "vaga": "MUZ-3",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Sistemas de Informação listada; o requisito é só graduação."
+ },
+ {
+  "n": 4083,
+  "concurso": "unimontes-17-2026",
+  "vaga": "08",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "História e Arqueologia (Antropologia/Arqueologia) estão em Ciências Humanas, aceitas na graduação e no doutorado."
+ },
+ {
+  "n": 4084,
+  "concurso": "unimontes-10-2026",
+  "vaga": "04",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Exige graduação em Medicina; candidato é médico veterinário."
+ },
+ {
+  "n": 4085,
+  "concurso": "ifmg-1077-2026",
+  "vaga": "15",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Engenharia de Alimentos não está entre as graduações de Computação exigidas."
+ },
+ {
+  "n": 4086,
+  "concurso": "ufpr-276-2026",
+  "vaga": "1.32",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Doutorado em Matemática Aplicada consta da lista; graduação não é exigida."
+ },
+ {
+  "n": 4087,
+  "concurso": "ufba-06-2026",
+  "vaga": "27",
+  "decisao": "depende_da_banca",
+  "veredito": "errado_avisaria_quem_nao_pode",
+  "explicacao": "O edital exige doutorado com concentração em Química Analítica e o perfil declara concentração em Química Orgânica; o dado está informado e não atende, então nao_serve."
+ },
+ {
+  "n": 4088,
+  "concurso": "ufba-06-2026",
+  "vaga": "19",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Exige graduação em Medicina; candidato é dentista."
+ },
+ {
+  "n": 4089,
+  "concurso": "unimontes-14-2026",
+  "vaga": "04",
+  "decisao": "depende_da_banca",
+  "veredito": "certo",
+  "explicacao": "A redação ('...com Mestrado em AUD; ou em áreas correlatas...') é ambígua sobre se a alternativa vale para a graduação; Design só entra por essa leitura, então depende_da_banca é razoável."
+ },
+ {
+  "n": 4090,
+  "concurso": "ufrn-058-2026",
+  "vaga": "268284",
+  "decisao": "depende_da_banca",
+  "veredito": "certo",
+  "explicacao": "Doutorado em Matemática na área de Análise: o programa é Matemática Aplicada e a concentração não é informada; depende_da_banca correto."
+ },
+ {
+  "n": 4091,
+  "concurso": "unimontes-22-2026",
+  "vaga": "08",
+  "decisao": "depende_da_banca",
+  "veredito": "nivel_trocado",
+  "explicacao": "Mesmo caso do 4065: Mestrado em Psicologia Social atende 'Mestrado em Psicologia' pelo nome; deveria ser pode_servir."
+ },
+ {
+  "n": 4092,
+  "concurso": "ufc-48-2026",
+  "vaga": "51",
+  "decisao": "depende_da_banca",
+  "veredito": "certo",
+  "explicacao": "Mestrado na área do concurso (Clínica Médica/Pneumologia) e o programa é Saúde Mental; pela convenção, depende_da_banca."
+ },
+ {
+  "n": 4093,
+  "concurso": "ifsuldeminas-188-2026",
+  "vaga": "IFS-4",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Licenciatura em Ciências Biológicas, exatamente o pedido."
+ },
+ {
+  "n": 4094,
+  "concurso": "unimontes-26-2026",
+  "vaga": "004",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Exige graduação em Educação Física ou Esportes; candidato é físico."
+ },
+ {
+  "n": 4095,
+  "concurso": "unespar-023-2026",
+  "vaga": "1402",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Exige licenciatura em Letras-Inglês; candidato é matemático."
+ },
+ {
+  "n": 4096,
+  "concurso": "ufpe-08-2026",
+  "vaga": "13",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Exige doutorado; candidato só tem mestrado."
+ },
+ {
+  "n": 4097,
+  "concurso": "ufc-48-2026",
+  "vaga": "42",
+  "decisao": "depende_da_banca",
+  "veredito": "nivel_trocado",
+  "explicacao": "Doutorado em Matemática Aplicada, com área CAPES Matemática/Probabilidade e Estatística declarada, atende 'Doutorado em Matemática' sem condicionante de subárea; deveria ser pode_servir."
+ },
+ {
+  "n": 4098,
+  "concurso": "uerj-245-2026",
+  "vaga": "01",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Pedagogia e doutorado em Ensino não constam das listas."
+ },
+ {
+  "n": 4099,
+  "concurso": "ufrgs-09-2026",
+  "vaga": "09",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Doutorado em Engenharia Química listado; graduação não é exigida."
+ },
+ {
+  "n": 4100,
+  "concurso": "ifmg-1077-2026",
+  "vaga": "15",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Sistemas de Informação listada."
+ },
+ {
+  "n": 4101,
+  "concurso": "unimontes-16-2026",
+  "vaga": "03",
+  "decisao": "depende_da_banca",
+  "veredito": "certo",
+  "explicacao": "Pedagogia listada; doutorado em Ensino só entra como área afim; depende_da_banca correto."
+ },
+ {
+  "n": 4102,
+  "concurso": "ufpr-276-2026",
+  "vaga": "1.18",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Exige residência/especialização em Radiologia e doutorado; candidato tem só certificação em Ortopedia."
+ },
+ {
+  "n": 4103,
+  "concurso": "unimontes-22-2026",
+  "vaga": "04",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Medicina com residência em Psiquiatria."
+ },
+ {
+  "n": 4104,
+  "concurso": "unimontes-16-2026",
+  "vaga": "01",
+  "decisao": "depende_da_banca",
+  "veredito": "certo",
+  "explicacao": "Pedagogia listada; doutorado em Ensino supre mestrado mas só como área afim; depende_da_banca correto."
+ },
+ {
+  "n": 4105,
+  "concurso": "ufrgs-08-2026",
+  "vaga": "03",
+  "decisao": "depende_da_banca",
+  "veredito": "certo",
+  "explicacao": "Graduação e doutorado em Engenharia Química, mas exige tese na área do concurso, que o perfil não informa; depende_da_banca correto."
+ },
+ {
+  "n": 4106,
+  "concurso": "unimontes-17-2026",
+  "vaga": "08",
+  "decisao": "depende_da_banca",
+  "veredito": "nivel_trocado",
+  "explicacao": "O edital aceita Doutorado em Letras e Estudos Literários (área Linguística e Literatura) é doutorado em Letras sem dúvida; o sistema só considerou o caminho Linguística e deveria dar pode_servir."
+ },
+ {
+  "n": 4107,
+  "concurso": "unifal-002-2026",
+  "vaga": "F",
+  "decisao": "depende_da_banca",
+  "veredito": "errado_avisaria_quem_nao_pode",
+  "explicacao": "O edital exige doutorado em Linguística ou Linguística Aplicada; Estudos Literários é Literatura, não Linguística, e o requisito não fala em área de avaliação, então nao_serve."
+ },
+ {
+  "n": 4108,
+  "concurso": "ufscar-004-2026",
+  "vaga": "15",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Doutorado em Física, área de avaliação listada."
+ },
+ {
+  "n": 4109,
+  "concurso": "ufscar-004-2026",
+  "vaga": "11",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Doutorado em Engenharia Química, área básica listada."
+ },
+ {
+  "n": 4110,
+  "concurso": "ufpel-028-2026",
+  "vaga": "08",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Química Industrial e doutorado em Química não constam das listas."
+ }
+]

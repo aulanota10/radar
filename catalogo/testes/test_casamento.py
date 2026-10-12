@@ -242,6 +242,36 @@ class Rodada4(unittest.TestCase):
         self.assertEqual(r("Engenharia Agrícola"), "pode_servir")
 
 
+class Rodada5(unittest.TestCase):
+    P = [("Letras", "licenciatura")]
+
+    def test_recorte_pelo_nome_pode_servir(self):
+        v = vaga(("qualquer", [exig(["mestrado"], "Psicologia", area("Psicologia", "area_capes"))]))
+        self.assertEqual(nivel(v, perfil(self.P, [pos("mestrado", "Psicologia Social")])), "pode_servir")
+
+    def test_literatura_nao_e_linguistica(self):
+        v = vaga(("qualquer", [exig(["doutorado"], "Linguística", "Linguística Aplicada")]))
+        p = perfil(self.P, [pos("doutorado", "Estudos Literários", area_capes="Linguística e Literatura")])
+        self.assertEqual(nivel(v, p), "nao_serve")
+        v = vaga(("qualquer", [exig(["doutorado"], "Letras")]))
+        self.assertEqual(nivel(v, p), "depende_da_banca")
+
+    def test_concentracao_declarada_diferente_nao_serve(self):
+        v = vaga(("qualquer", [exig(["doutorado"], "Química Analítica")]))
+        self.assertEqual(nivel(v, perfil(self.P, [pos("doutorado", "Química", concentracao="Química Orgânica")])), "nao_serve")
+        self.assertEqual(nivel(v, perfil(self.P, [pos("doutorado", "Química")])), "depende_da_banca")
+
+    def test_area_declarada_com_concentracoes_listadas(self):
+        v = vaga(("qualquer", [exig(["doutorado"], area("Medicina Veterinária", "area_capes", "Clínica Veterinária"))]))
+        p = perfil(self.P, [pos("doutorado", "Ciências Veterinárias", area_capes="Medicina Veterinária")])
+        self.assertEqual(nivel(v, p), "depende_da_banca")
+
+    def test_area_do_concurso_que_contem_o_programa(self):
+        a = dict(area("Teoria e História da Arqueologia"), area_do_concurso=True)
+        v = vaga(("qualquer", [exig(["doutorado"], a)]))
+        self.assertEqual(nivel(v, perfil(self.P, [pos("doutorado", "Arqueologia", area_capes="Antropologia / Arqueologia")])), "pode_servir")
+
+
 class Vaga(unittest.TestCase):
     def test_ambiguo_rebaixa(self):
         v = vaga(([grad("Química")], []), ambiguo=True, nota="duas leituras")

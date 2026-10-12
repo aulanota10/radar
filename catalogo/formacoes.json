@@ -17802,5 +17802,132 @@
    "ciencias agrarias"
   ]
  },
- "fonte_hierarquia": "Tabela de Áreas do Conhecimento do CNPq (relatório Lattes de 30/06/2025, base da tabela CAPES de 2022): para cada termo (chave normalizada), os termos acima dele, do mais próximo ao mais geral."
+ "fonte_hierarquia": "Tabela de Áreas do Conhecimento do CNPq (relatório Lattes de 30/06/2025, base da tabela CAPES de 2022): para cada termo (chave normalizada), os termos acima dele, do mais próximo ao mais geral.",
+ "guarda_chuva": {
+  "letras": [
+   "Linguística e Literatura"
+  ],
+  "ciencias sociais": [
+   "Sociologia",
+   "Antropologia / Arqueologia",
+   "Ciência Política e Relações Internacionais"
+  ],
+  "medicina": [
+   "Medicina I",
+   "Medicina II",
+   "Medicina III"
+  ],
+  "ciencias biologicas": [
+   "Ciências Biológicas I",
+   "Ciências Biológicas II",
+   "Ciências Biológicas III",
+   "Biodiversidade"
+  ],
+  "biologia": [
+   "Ciências Biológicas I",
+   "Ciências Biológicas II",
+   "Ciências Biológicas III",
+   "Biodiversidade"
+  ],
+  "artes": [
+   "Artes"
+  ],
+  "computacao": [
+   "Computação"
+  ],
+  "ciencia da computacao": [
+   "Computação"
+  ],
+  "informatica": [
+   "Computação"
+  ],
+  "educacao": [
+   "Educação"
+  ],
+  "historia": [
+   "História"
+  ],
+  "filosofia": [
+   "Filosofia"
+  ],
+  "geografia": [
+   "Geografia"
+  ],
+  "psicologia": [
+   "Psicologia"
+  ],
+  "direito": [
+   "Direito"
+  ],
+  "economia": [
+   "Economia"
+  ],
+  "administracao": [
+   "Administração Pública e de Empresas, Ciências Contábeis e Turismo"
+  ],
+  "odontologia": [
+   "Odontologia"
+  ],
+  "enfermagem": [
+   "Enfermagem"
+  ],
+  "farmacia": [
+   "Farmácia"
+  ],
+  "nutricao": [
+   "Nutrição"
+  ],
+  "quimica": [
+   "Química"
+  ],
+  "fisica": [
+   "Astronomia / Física"
+  ],
+  "matematica": [
+   "Matemática / Probabilidade e Estatística"
+  ],
+  "geociencias": [
+   "Geociências"
+  ],
+  "agronomia": [
+   "Ciências Agrárias I"
+  ],
+  "ciencias agrarias": [
+   "Ciências Agrárias I",
+   "Ciência de Alimentos",
+   "Medicina Veterinária",
+   "Zootecnia / Recursos Pesqueiros"
+  ],
+  "medicina veterinaria": [
+   "Medicina Veterinária"
+  ],
+  "zootecnia": [
+   "Zootecnia / Recursos Pesqueiros"
+  ],
+  "educacao fisica": [
+   "Educação Física, Fisioterapia, Fonoaudiologia e Terapia Ocupacional"
+  ],
+  "servico social": [
+   "Serviço Social"
+  ],
+  "arquitetura e urbanismo": [
+   "Arquitetura, Urbanismo e Design"
+  ],
+  "comunicacao": [
+   "Comunicação, Informação e Museologia"
+  ],
+  "sociologia": [
+   "Sociologia"
+  ],
+  "antropologia": [
+   "Antropologia / Arqueologia"
+  ],
+  "saude coletiva": [
+   "Saúde Coletiva"
+  ],
+  "ensino": [
+   "Ensino"
+  ]
+ },
+ "fonte_guarda_chuva": "Nomes amplos de disciplina que os editais usam como área de pós (\"Doutorado em Letras\", \"em Ciências Sociais\") e as áreas de avaliação da CAPES que eles cobrem; mantido à mão. Programa que o candidato declarou numa dessas áreas é lido como recorte plausível do nome (depende da banca; Medicina pode servir)."
 }
