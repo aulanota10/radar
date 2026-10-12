@@ -322,6 +322,24 @@ def nota_aberta_da_etapa(ext, tipo):
     return ""
 
 
+def notas_abertas_por_escopo(ext, tipo, em_pacote):
+    """Quando a etapa só tem datas abertas e cada grupo de áreas tem a sua (UFPR 276: período
+    provável por área no Anexo 02), devolve uma nota por grupo em vez de só a primeira."""
+    rot = rotulos_de_escopo(ext, em_pacote)
+    notas = []
+    for e in ext.get("eventos") or []:
+        if (e.get("tipo_evento") != "prova" or e.get("etapa_ref") != tipo
+                or e.get("estado", "vigente") != "vigente" or intervalo(e.get("data"))):
+            continue
+        t = descreve_data_aberta(e.get("data"))
+        esc = e.get("escopo")
+        if not t or not (isinstance(esc, list) and esc):
+            return []   # há evento geral: vale a nota única de sempre
+        quem = rotulo(esc, rot, ext, em_pacote) if len(esc) <= 3 else f"{len(esc)} áreas"
+        notas.append(f"{quem}: {t}")
+    return unicos(notas) if len(unicos(notas)) > 1 else []
+
+
 def detalhe_didatica(ext):
     """Detalhe da prova didática montado só com o que foi extraído."""
     p = ((ext.get("didatica") or {}).get("padrao")) or {}
@@ -633,24 +651,47 @@ def compila_grupo(id_radar, exts, atual, hoje, validador=None, conservador=False
         url = "https://" + url
     novo["link_oficial"] = (atual or {}).get("link_oficial") or url
 
-    # Inscrição (menor início e maior fim entre os editais do grupo)
-    inis, fins, taxas = [], [], []
+    # Inscrição. Decisão do Samuel em 11/10/2026 (regra da maioria): quando o edital tem um prazo
+    # geral e algumas áreas têm prazo próprio (prorrogação, cronograma por área), as datas publicadas
+    # são as do prazo geral, e as áreas com prazo próprio vão escritas no texto da inscrição.
+    # Entre editais diferentes de um mesmo grupo continua valendo o menor início e o maior fim.
+    # Sem prazo geral na extração, os prazos por área continuam formando o período, como antes.
+    inis, fins, taxas, excecoes = [], [], [], []
     for e in exts:
-        blocos_ins = [(e.get("inscricao") or {}).get("padrao") or {}]
-        blocos_ins += (e.get("inscricao") or {}).get("por_escopo") or []   # prorrogação por área, prazo próprio
+        padrao = (e.get("inscricao") or {}).get("padrao") or {}
+        escopos = (e.get("inscricao") or {}).get("por_escopo") or []
+        p_ini, p_fim = v(padrao.get("inscricao_inicio")), v(padrao.get("inscricao_fim"))
+        blocos_ins = [padrao] if (p_ini or p_fim) else []
+        rot = rotulos_de_escopo(e, em_pacote) if escopos else {}
+        for b in escopos:
+            b_ini, b_fim = v(b.get("inscricao_inicio")), v(b.get("inscricao_fim"))
+            if not (b_ini or b_fim):
+                continue
+            if not blocos_ins or blocos_ins[0] is not padrao:
+                blocos_ins.append(b)
+            elif (b_ini or p_ini, b_fim or p_fim) != (p_ini, p_fim):
+                quem = rotulo(b.get("codigos"), rot, e, em_pacote)
+                if quem == "geral":
+                    quem = "parte das áreas"
+                excecoes.append(f"{quem}, de {br(b_ini or p_ini)} a {br(b_fim or p_fim)}")
         for ins in blocos_ins:
             if v(ins.get("inscricao_inicio")):
                 inis.append(v(ins["inscricao_inicio"]))
             if v(ins.get("inscricao_fim")):
                 fins.append(v(ins["inscricao_fim"]))
-        ins = blocos_ins[0]   # a taxa vem só do padrão; por área o Radar mantém o texto escrito antes
-        if isinstance(v(ins.get("taxa")), (int, float)):
-            taxas.append(v(ins["taxa"]))
+        if isinstance(v(padrao.get("taxa")), (int, float)):   # a taxa vem só do padrão
+            taxas.append(v(padrao["taxa"]))
     ini, fim = (min(inis) if inis else None), (max(fins) if fins else None)
     insc = {"inicio": ini, "fim": fim, "situacao": situacao_inscricao(ini, fim, hoje)}
+    partes_taxa = []
     if taxas:
-        insc["taxa"] = (moeda(taxas[0]) if len(set(taxas)) == 1
-                        else f"de {moeda(min(taxas))} a {moeda(max(taxas))}")
+        partes_taxa.append(moeda(taxas[0]) if len(set(taxas)) == 1
+                           else f"de {moeda(min(taxas))} a {moeda(max(taxas))}")
+    if excecoes:
+        partes_taxa.append("Prazo de inscrição próprio: " + "; ".join(unicos(excecoes)))
+    if partes_taxa:
+        insc["taxa"] = ". ".join(partes_taxa)
+    taxa_so_excecoes = bool(excecoes) and not taxas
     novo["inscricao"] = {k: x for k, x in insc.items() if x is not None}
 
     # Etapas
@@ -670,7 +711,8 @@ def compila_grupo(id_radar, exts, atual, hoje, validador=None, conservador=False
                 txt = br_curta(iv[0]) if iv[0] == iv[1] else f"{br_curta(iv[0])} a {br_curta(iv[1])}"
                 notas.append(f"{rotulo(esc, rot, e, em_pacote)}: {txt}")
             if not achados:
-                ab = nota_aberta_da_etapa(e, tipo)
+                por_area = notas_abertas_por_escopo(e, tipo, em_pacote)
+                ab = ("Por área: " + "; ".join(por_area)) if por_area else nota_aberta_da_etapa(e, tipo)
                 if ab:
                     abertas.append(ab)
             elif all(esc != "geral" for esc, _ in achados):
@@ -789,6 +831,12 @@ def compila_grupo(id_radar, exts, atual, hoje, validador=None, conservador=False
             if not novo["inscricao"].get(k) and a_ins.get(k):
                 novo["inscricao"][k] = a_ins[k]
                 recuperados.append(f"inscrição {k} mantida do dados.js anterior ({a_ins[k]})")
+        # Texto da taxa completado à mão (regra de prazo, forma de inscrição, isenção): se o texto
+        # publicado começa pelo que a extração gera, ele fica, para a nota escrita não se perder.
+        t_novo, t_ant = novo["inscricao"].get("taxa"), a_ins.get("taxa")
+        if t_novo and t_ant and t_ant != t_novo and (t_ant.startswith(t_novo) or taxa_so_excecoes):
+            # Sem valor de taxa na extração, o texto publicado (que já cita as exceções) também fica.
+            novo["inscricao"]["taxa"] = t_ant
         novo["inscricao"]["situacao"] = situacao_inscricao(
             novo["inscricao"].get("inicio"), novo["inscricao"].get("fim"), hoje)
 
@@ -819,6 +867,12 @@ def compila_grupo(id_radar, exts, atual, hoje, validador=None, conservador=False
             if not et["carater"] and ant.get("carater"):
                 et["carater"] = ant["carater"]
             da, dn = ant.get("data") or {}, et["data"]
+            # Data ainda aberta nas duas versões: a extração só sabe dizer o texto padrão, e uma nota
+            # escrita depois (portaria com período previsto, por exemplo) não deve ser apagada.
+            if (dn["tipo"] == "nao_divulgada" and da.get("tipo") == "nao_divulgada"
+                    and dn.get("nota") == "O edital ainda não fixou a data"
+                    and da.get("nota") and da.get("nota") != dn.get("nota")):
+                et["data"] = dict(da)
             if dn["tipo"] == "nao_divulgada" and da.get("tipo") in ("exata", "periodo") and segura(et["nome"]):
                 et["data"] = da
                 recuperados.append(f"data de {et['nome']} mantida do dados.js anterior "
@@ -1078,8 +1132,9 @@ def main():
         enc = didatica_encerrada(saida, a.hoje)
         if enc:
             L += [f"## Prova didática já terminou ({len(enc)} concursos)", "",
-                  "Pelo critério do Radar, estes concursos saem da lista. O compilador não remove "
-                  "nada sozinho; confira e decida.", ""]
+                  "Só para informação. Pela regra de 11/10/2026, o concurso continua no Radar até "
+                  "30 dias depois do resultado final, porque a plataforma cobre todas as etapas; "
+                  "a prova didática ter passado não tira o concurso da lista.", ""]
             L += [f"- **{cid}**: última data da prova didática {br(d)}" for cid, d in enc]
             L.append("")
         anteriores = None
