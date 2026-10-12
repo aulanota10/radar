@@ -45,12 +45,27 @@ REGRAS = {
     "outro": [("ini", [2])],
     "procedimento_cotas": [("ini", [2, 0])],
     "impugnacao_banca": [("fim", [1])],
+    # Sorteio da ordem ou da turma: em vários editais quem falta é eliminado, e ele vem minutos antes
+    # do evento que já tinha aviso (UESC 050, UFU 118, UFTM 28, UFRPE 21; amostra de 12/10).
+    "sorteio_ordem": [("ini", [7, 1])],
+    "sorteio_turma": [("ini", [7, 1])],
 }
+
+# Compromisso de tipo "outro" que exige presença (instalação, abertura, portões): avisa como prova,
+# e não só dois dias antes (UFBA 06, UNILA 240; amostra de 12/10).
+PRESENCA = re.compile(r"port[õoã]|instala[çc][ãa]o|sess[ãa]o de abertura|abertura dos trabalhos|presen[çc]a|comparec|apresentar-se|identifica[çc][ãa]o dos candidat", re.I)
+REGRA_PRESENCA = [("ini", [7, 2, 1])]
+
+# Prazos: uma data fixa num deles é o último dia, e a hora é limite ("até 16:00"), não horário de
+# início (FMUSP 168, UFRJ 942; amostra de 12/10). Entrega com hora marcada é compromisso, não prazo.
+PRAZOS = {"inscricao", "isencao_pedido", "pagamento", "entrega_documento", "recurso",
+          "impugnacao_edital", "impugnacao_banca"}
 
 # Tipos de evento que acontecem num dia só. Uma janela longa num deles é "período provável"
 # (UFSM 221: provas "de 08/11/2026 a 21/02/2027"), não a data do evento: não vira alerta agendado.
 PONTUAIS = {"prova", "sorteio_tema", "convocacao", "resultado", "resultado_final", "homologacao_inscricoes",
-            "homologacao_resultado", "portaria_banca", "recurso_resultado", "isencao_resultado"}
+            "homologacao_resultado", "portaria_banca", "recurso_resultado", "isencao_resultado",
+            "sorteio_ordem", "sorteio_turma"}
 JANELA_LONGA = 7  # dias
 
 # documento novo que vale aviso mesmo sem data (tipo da triagem)
@@ -98,6 +113,7 @@ NOME_EVENTO = {
     "resultado": "resultado", "recurso_resultado": "resultado dos recursos",
     "resultado_final": "resultado final", "homologacao_resultado": "homologação do resultado",
     "convocacao": "convocação", "recurso": "prazo de recurso",
+    "sorteio_ordem": "sorteio da ordem de apresentação", "sorteio_turma": "sorteio das turmas",
 }
 NOME_ETAPA = {"defesa_producao": "defesa da produção intelectual", "didatica": "prova didática", "escrita": "prova escrita", "objetiva": "prova objetiva",
               "titulos": "prova de títulos", "memorial": "defesa de memorial", "projeto": "projeto",
@@ -154,11 +170,20 @@ def limpa_ancora(a):
     return a.replace("_", " ").strip() or "o evento de referência"
 
 
-def texto_data(data, hoje):
+def prazo_fixo(tipo, data):
+    """Data fixa que é o último dia de um prazo (e não um compromisso com hora marcada)."""
+    f, i, _, h = intervalo(data)
+    return f == "fixa" and i and tipo in PRAZOS and not (tipo == "entrega_documento" and h)
+
+
+def texto_data(data, hoje, tipo=None):
+    """tipo é o tipo_evento: sem ele, vale o comportamento antigo (janela longa = período provável)."""
     if not isinstance(data, dict):
         return str(data) if data not in (None, "") else "não informado"
     f, i, j, h = intervalo(data)
     hora = f", às {h}" if h else ""
+    if prazo_fixo(tipo, data):
+        return f"até {fmt(i)}{', ' + h if h else ''}"
     if f == "fixa" and i:
         return f"{fmt(i)}{hora}"
     if f == "janela" and i and j:
@@ -166,16 +191,19 @@ def texto_data(data, hoje):
         if i == j:  # a hora não pode sumir: UFBA, entrega de 30 minutos virou "de 19/10 a 19/10"
             return (f"{fmt(i)}, das {hi} às {hj}" if hi and hj else
                     f"{fmt(i)}, a partir das {hi}" if hi else f"{fmt(i)}, até {hj}" if hj else fmt(i))
-        if (j - i).days > JANELA_LONGA and not (hi or hj):
+        # só evento pontual tem "período provável"; inscrição de 15 dias é prazo firme (UNILAB 14, UFRN 108)
+        if (j - i).days > JANELA_LONGA and not (hi or hj) and (tipo is None or tipo in PONTUAIS):
             return f"período provável de {fmt(i)} a {fmt(j)}"
         return f"de {fmt(i)}{', às ' + hi if hi else ''} a {fmt(j)}{', até ' + hj if hj else ''}"
     if f == "janela" and (i or j):
         return f"{'a partir de ' + fmt(i) if i else 'até ' + fmt(j)}"
     if f == "relativa":
         q, u = data.get("quantidade"), data.get("unidade")
-        u = "" if u in (None, "nao_informada") else f" {UNIDADE.get(u, u.replace('_', ' '))}"
+        # sem unidade, a frase não pode virar "7 depois de" (UERJ 233 e 250): diz que o edital não informa
+        u = " (unidade não informada no edital)" if u in (None, "nao_informada") else f" {UNIDADE.get(u, u.replace('_', ' '))}"
         s = "depois de" if data.get("sentido") == "apos" else "antes de"
-        return f"{q}{u} {s} {limpa_ancora(data.get('evento_ancora'))}"
+        ate = "até " if tipo in PRAZOS and data.get("sentido") == "apos" else ""  # "em até 3 dias úteis" é limite
+        return f"{ate}{q}{u} {s} {limpa_ancora(data.get('evento_ancora'))}"
     if f == "condicionada":
         return data.get("condicao_literal") or "data a definir"
     return "data não informada"
@@ -195,7 +223,7 @@ def rotulo(e):
     A conferência de 11/10 mostrou que o tipo engana ("resultado final" para o resultado preliminar,
     "homologação" para a lista de inscritos, "Outro", "Impugnacao banca"), enquanto o texto literal
     traz o que importa ("horário de fechamento das salas", "previsão")."""
-    lit = re.sub(r"\s*\((?:Edital|item|faixa|ver|cf\.)[^)]*\)", "", e.get("descricao_literal") or "", flags=re.I)
+    lit = re.sub(r"\s*\((?:Edital\b|item\b|itens\b|faixa\b|ver\b|cf\.)[^)]*\)", "", e.get("descricao_literal") or "", flags=re.I)
     lit = corta(lit)
     if len(lit) >= 8:
         return lit[0].upper() + lit[1:]
@@ -446,9 +474,9 @@ def executar(vigia, hoje, anterior):
             pseudo = ev_por_id.get(ea.get("evento_id")) or {"tipo_evento": ea.get("tipo_evento") or "evento",
                                                               "etapa_ref": ea.get("etapa_ref"), "fase": None}
             item = {"tipo": "mudanca", "doc": cam,
-                    "texto": (f"{rotulo(pseudo)}: era {texto_data(alt.get('valor_anterior'), hoje)}, agora é {texto_data(alt.get('valor_novo'), hoje)}"
+                    "texto": (f"{rotulo(pseudo)}: era {texto_data(alt.get('valor_anterior'), hoje, pseudo.get('tipo_evento'))}, agora é {texto_data(alt.get('valor_novo'), hoje, pseudo.get('tipo_evento'))}"
                               if intervalo(alt.get("valor_anterior"))[1] else
-                              f"{rotulo(pseudo)}: {texto_data(alt.get('valor_novo'), hoje)}"),
+                              f"{rotulo(pseudo)}: {texto_data(alt.get('valor_novo'), hoje, pseudo.get('tipo_evento'))}"),
                     "fonte": alt.get("fonte") or {}}
             for d in destinos(ea.get("escopo") or "geral"):
                 avisos[(slug, d)].append(item)
@@ -467,7 +495,7 @@ def executar(vigia, hoje, anterior):
                            "tipo_evento": e["tipo_evento"], "etapa": e.get("etapa_ref"), "fase": e.get("fase"),
                            "escopo": e["escopo"], "descricao": e.get("descricao_literal"), "forma": f,
                            "inicio": i.isoformat() if i else None, "fim": j.isoformat() if j else None,
-                           "hora": h, "data_texto": texto_data(e["data"], hoje),
+                           "hora": h, "data_texto": texto_data(e["data"], hoje, e["tipo_evento"]),
                            "documento": fonte.get("documento"), "item": fonte.get("item"), "pagina": fonte.get("pagina")})
 
             # correção do extrator: data mudou e o documento já era conhecido
@@ -492,17 +520,23 @@ def executar(vigia, hoje, anterior):
                 kk = json.dumps([e["tipo_evento"], e.get("etapa_ref"), e["escopo"], chave_data(e["data"])], ensure_ascii=False)
                 if futura and kk not in alteradas:
                     item = {"tipo": "data_nova", "doc": fonte["documento"],
-                            "texto": f"{rotulo(e)}: {texto_data(e['data'], hoje)}", "fonte": fonte}
+                            "texto": f"{rotulo(e)}: {texto_data(e['data'], hoje, e['tipo_evento'])}", "fonte": fonte}
                     for d in dest:
                         avisos[(slug, d)].append(item)
 
             # alerta agendado
             regra = REGRAS.get(e["tipo_evento"])
+            presenca = e["tipo_evento"] == "outro" and (f == "fixa" or i == j) and PRESENCA.search(e.get("descricao_literal") or "")
+            if presenca:
+                regra = REGRA_PRESENCA
             if not regra or f not in ("fixa", "janela") or pendentes_leitura or janela_longa(e):
                 continue
             individual = horario_individual(e)
-            if individual or (e["tipo_evento"] == "outro" and f == "janela"):
+            if individual or (e["tipo_evento"] == "outro" and f == "janela" and not presenca):
                 regra = [("ini" if individual else "fim", [2])]
+            prazo = prazo_fixo(e["tipo_evento"], e["data"])
+            if prazo:  # data fixa de prazo é o último dia: todos os avisos contam do fim (UFRJ 942, recurso "até 31/10")
+                regra = [("fim", sorted({n for _, ants in regra for n in ants}, reverse=True))]
             if e["tipo_evento"] == "homologacao_resultado" and tem_res_final:
                 continue
             for marco, ants in regra:
@@ -519,17 +553,18 @@ def executar(vigia, hoje, anterior):
                             rot = "abertura das inscrições" if marco == "ini" else "fim das inscrições"
                         if individual:
                             item = {"tipo": "agendado", "data": ref,
-                                    "texto": f"{texto_data(e['data'], hoje)}, no horário de cada candidato definido pelo sorteio: {rot} ({falta(ref, hoje)})",
+                                    "texto": f"{texto_data(e['data'], hoje, e['tipo_evento'])}, no horário de cada candidato definido pelo sorteio: {rot} ({falta(ref, hoje)})",
                                     "fonte": fonte}
                         elif f == "janela" and i == j:  # janela de um dia só: mostra das X às Y
                             item = {"tipo": "agendado", "data": ref,
-                                    "texto": f"{texto_data(e['data'], hoje)}: {rot} ({falta(ref, hoje)})", "fonte": fonte}
+                                    "texto": f"{texto_data(e['data'], hoje, e['tipo_evento'])}: {rot} ({falta(ref, hoje)})", "fonte": fonte}
                         else:
-                            if f == "janela" and marco == "fim" and e["tipo_evento"] != "inscricao":
-                                rot = f"último dia: {rot}"
+                            if (f == "janela" and marco == "fim" and e["tipo_evento"] != "inscricao") or (prazo and e["tipo_evento"] != "inscricao"):
+                                if not re.match(r"(último|ultimo) dia|prazo final|até\b", rot, re.I):  # FMUSP: "último dia: Último dia..."
+                                    rot = f"último dia: {rot}"
                             hfim = ((e["data"].get("fim") or {}).get("hora") if f == "janela" and marco == "fim"
                                     else (e["data"].get("inicio") or {}).get("hora") if f == "janela" else h)
-                            hora = f", até {hfim}" if hfim and marco == "fim" and f == "janela" else f", às {hfim}" if hfim else ""
+                            hora = f", até {hfim}" if hfim and marco == "fim" and (f == "janela" or prazo) else f", às {hfim}" if hfim else ""
                             item = {"tipo": "agendado", "data": ref,
                                     "texto": f"{fmt(ref)}{hora}: {rot} ({falta(ref, hoje)})", "fonte": fonte}
                         for d in dest:

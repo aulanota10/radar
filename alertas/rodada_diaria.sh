@@ -10,6 +10,9 @@ AQUI="$(cd "$(dirname "$0")" && pwd)"
 HOJE="$(TZ=America/Fortaleza date +%F)"
 TMP="$(mktemp -d)"
 
+# testes de regra do leitor: se algum falhar, a rodada para antes de gerar fila
+(cd "$AQUI" && python3 -W ignore -m unittest -q test_agenda)
+
 python3 "$AQUI/agenda.py" --vigia "$VIGIA" --hoje "$HOJE" \
   --anterior "$AQUI/estado/estado.json" --saida "$TMP"
 
