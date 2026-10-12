@@ -1,0 +1,252 @@
+[
+ {
+  "id": "s024",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "20/10/2026 (terça): Divulgação do Resultado Final das Inscrições; fila 18/10, faltam 2 dias",
+  "documento_diz": "Cronograma Saúde da Mulher: \"Divulgação do Resultado Final das Inscrições 20/10/2026\"",
+  "fonte_conferida": "documentos/unilab-14-2026/Cronograma-Saude-da-Mulher.pdf, p. 1 (pdftotext)",
+  "observacao": null
+ },
+ {
+  "id": "s025",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "29/10/2026 (quinta): fim das inscrições; fila 22/10, faltam 7 dias",
+  "documento_diz": "Cronograma Práticas em APS/Semiologia: \"Período de Inscrições 14/10/2026 a 29/10/2026\"; edital 3.1 não fixa hora-limite",
+  "fonte_conferida": "documentos/unilab-14-2026/Cronograma-Praticas-em-Atencao-Primaria-a-Saude_Semiologia-Medica-Males.pdf, p. 1; Edital-no-14_2026-Versao-SEI.pdf, item 3.1",
+  "observacao": null
+ },
+ {
+  "id": "s079",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "19/10/2026 (segunda): último dia: Período de Recurso; fila 18/10, é amanhã",
+  "documento_diz": "Cronograma Saúde da Mulher: \"Homologação das Inscrições 16/10/2026\"; \"Período de Recurso 19/10/2026\"",
+  "fonte_conferida": "documentos/unilab-14-2026/Cronograma-Saude-da-Mulher.pdf, p. 1; Edital SEI item 12.1",
+  "observacao": "O edital (12.1) dá até 2 dias úteis a partir da lista preliminar (16/10), o que poderia ir a 20/10; o cronograma fixa 19/10 e a linha segue o cronograma, que é o mais cedo, sem risco de perda."
+ },
+ {
+  "id": "s087",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "horario_presenca_omitido",
+  "atribuicao": "extrator",
+  "linha_diz": "16/11/2026 (segunda): Sorteio dos Pontos; fila 18/10, faltam 29 dias",
+  "documento_diz": "Cronograma MBE: \"Sorteio dos Pontos 16/11/2026\"; edital 6.8.3 II: \"todos os candidatos devem, obrigatoriamente, estar presentes no horário oficial previsto [...] com penalidade de eliminação sumária\"",
+  "fonte_conferida": "documentos/unilab-14-2026/Cronograma-Medicina-Baseada-em-Evidencias-Epidemiologia-e-Pesquisa-Clinica.pdf, p. 1; Edital-no-14_2026-Versao-SEI.pdf, item 6.8.3 I a III",
+  "observacao": "Data, dia e contagem certos. A linha (e a mensagem) não diz que a presença no sorteio é obrigatória e elimina; a hora ainda não foi publicada (item 6.12). Não há presença anterior ao sorteio."
+ },
+ {
+  "id": "s092",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "03/11/2026 (terça): fim das inscrições; fila 27/10, faltam 7 dias",
+  "documento_diz": "Cronograma Avaliação Nutricional: \"Período de Inscrições 19/10/2026 a 03/11/2026\"",
+  "fonte_conferida": "documentos/unilab-14-2026/Cronograma-Avaliacao-Nutricional-e-Nutricao-Clinica.pdf, p. 1",
+  "observacao": null
+ },
+ {
+  "id": "s116",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "horario_presenca_omitido",
+  "atribuicao": "extrator",
+  "linha_diz": "de 30/11/2026 (segunda) a 01/12/2026 (terça): Sorteio dos Pontos; fila 01/11, faltam 29 dias",
+  "documento_diz": "Cronograma Avaliação Nutricional: \"Sorteio dos Pontos 30/11/2026 e 01/12/2026\"; edital 6.8.3 II: presença obrigatória no sorteio da ordem, \"com penalidade de eliminação sumária\"",
+  "fonte_conferida": "documentos/unilab-14-2026/Cronograma-Avaliacao-Nutricional-e-Nutricao-Clinica.pdf, p. 1; Edital SEI item 6.8.3",
+  "observacao": "Datas e contagem certas; a linha não avisa que a presença no sorteio é obrigatória e elimina."
+ },
+ {
+  "id": "s124",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "horario_presenca_omitido",
+  "atribuicao": "extrator",
+  "linha_diz": "09/11/2026 (segunda): Sorteio dos Pontos; fila 26/10, faltam 14 dias",
+  "documento_diz": "Cronograma Saúde da Mulher: \"Sorteio dos Pontos 09/11/2026\"; edital 6.8.3 II: presença obrigatória, \"eliminação sumária\"",
+  "fonte_conferida": "documentos/unilab-14-2026/Cronograma-Saude-da-Mulher.pdf, p. 1; Edital SEI item 6.8.3",
+  "observacao": "Data e contagem certas; falta dizer que a presença no sorteio é obrigatória e elimina."
+ },
+ {
+  "id": "s129",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "23/11/2026 (segunda): Prova Escrita; fila 24/10, faltam 30 dias",
+  "documento_diz": "Cronograma Avaliação Nutricional: \"Prova Escrita 23/11/2026\"; edital 6.3 só exige comparecimento no horário determinado",
+  "fonte_conferida": "documentos/unilab-14-2026/Cronograma-Avaliacao-Nutricional-e-Nutricao-Clinica.pdf, p. 1; Edital SEI itens 6.2 a 6.4.1",
+  "observacao": "Sem hora no cronograma e sem exigência de chegada antecipada no edital."
+ },
+ {
+  "id": "s150",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "30/10/2026 (sexta): Homologação das Inscrições; fila 28/10, faltam 2 dias",
+  "documento_diz": "Cronograma Práticas em APS/Semiologia: \"Homologação das Inscrições 30/10/2026\"",
+  "fonte_conferida": "documentos/unilab-14-2026/Cronograma-Praticas-em-Atencao-Primaria-a-Saude_Semiologia-Medica-Males.pdf, p. 1",
+  "observacao": null
+ },
+ {
+  "id": "s016",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "26/10/2026 (segunda), às 08:00: comparecimento 60 min antes do sorteio do ponto da escrita (09h00); fila 19/10, faltam 7 dias",
+  "documento_diz": "Edital 11.1 i: \"Sorteio do ponto para a prova escrita – 26/10/2026, às 09h00\"; 11.2: \"deverá se apresentar 60 minutos antes de cada hora marcada\"; errata do cronograma mantém \"sorteio do ponto para a prova escrita: 26/10/2026, às 9h\"",
+  "fonte_conferida": "documentos/uerj-2026/01 - Seleção 2026-213 - Edital.pdf, itens 11.1 i e 11.2; 21 - Seleção 2026-213 - Errata do cronograma.docling.md",
+  "observacao": null
+ },
+ {
+  "id": "s072",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "27/10/2026 (terça), às 08:00: comparecimento 60 min antes da continuação da leitura (09h00, a depender do número de candidatos); fila 15/10, faltam 12 dias",
+  "documento_diz": "Edital 11.1 l: \"Continuação da leitura da prova escrita – 27/10/2026, às 09h00 (a depender do número de candidatos)\"; 11.2 (60 min antes); errata: \"continuação da leitura da prova escrita: 27/10/2026, às 9h\"",
+  "fonte_conferida": "documentos/uerj-2026/01 - Seleção 2026-213 - Edital.pdf, itens 11.1 l e 11.2; 21 - Errata do cronograma",
+  "observacao": null
+ },
+ {
+  "id": "s073",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "29/10/2026 (quinta), às 08:30: comparecimento 60 min antes do sorteio do ponto da prova de aula (09h30); fila 15/10, faltam 14 dias",
+  "documento_diz": "Edital 11.1 o: \"Sorteio do ponto para a prova de aula – 29/10/2026, às 09h30\"; 11.2 (60 min antes); errata: \"sorteio da prova de aula: 29/10/2026, às 9h30\"",
+  "fonte_conferida": "documentos/uerj-2026/01 - Seleção 2026-213 - Edital.pdf, itens 11.1 o e 11.2; 21 - Errata do cronograma",
+  "observacao": "A mesma mensagem traz também o comparecimento das 08:00 para a divulgação dos pontos (09h00, presença de todos, item 7 c)."
+ },
+ {
+  "id": "s149",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "29/10/2026 (quinta), às 09:00: Resultado da prova escrita; fila 27/10, faltam 2 dias",
+  "documento_diz": "Edital 11.1 m: \"Resultado da prova escrita – 29/10/2026, às 09h00\"; errata: \"resultado da prova escrita: 29/10/2026, às 9h\"",
+  "fonte_conferida": "documentos/uerj-2026/01 - Seleção 2026-213 - Edital.pdf, item 11.1 m; 21 - Errata do cronograma",
+  "observacao": "O comparecimento de 60 min (11.2) para as 09h00 está na mesma mensagem (linha das 08:00 da divulgação dos pontos)."
+ },
+ {
+  "id": "s028",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "18/10/2026 (domingo), às 13:30: Prova escrita, 4 horas; fila 16/10, faltam 2 dias",
+  "documento_diz": "Edital 11.1: \"terá a duração de 04 (quatro) horas, e será realizada em 18/10/2026 às 13:30\"; 11.3: antecedência mínima de 60 min; 11.4: portas fechadas no horário de início",
+  "fonte_conferida": "documentos/ufscar-004-2026/51 - Edital Único 004-2026 (arquivo do Google Drive do DCI).pdf, itens 11.1 a 11.6",
+  "observacao": "A linha de comparecimento às 12:30 está na mesma mensagem."
+ },
+ {
+  "id": "s074",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "texto_do_leitor",
+  "atribuicao": "ambos",
+  "linha_diz": "sem data: \"em data e horário previstos conforme CRONOGRAMA Anexo VI deste edital\": sorteio do tema da escrita por Google Meet (antes da prova escrita)",
+  "documento_diz": "Edital 11.13: sorteio do tema \"em tempo real, por meio do aplicativo de videoconferência 'Google Meet' em data e horário previstos conforme CRONOGRAMA Anexo VI deste edital\"",
+  "fonte_conferida": "documentos/ufscar-004-2026/51 - Edital Único 004-2026 (arquivo do Google Drive do DCI).pdf, item 11.13 e obs. final (anexos fora do DOU)",
+  "observacao": "Fiel ao edital, mas sem data: o Anexo VI não está na pasta (pendência diferida na extração) e a linha repete \"deste edital\", que no WhatsApp não aponta para nada. O edital não exige presença no sorteio."
+ },
+ {
+  "id": "s101",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "texto_do_leitor",
+  "atribuicao": "ambos",
+  "linha_diz": "sem data: \"em data estabelecida no CRONOGRAMA - Anexo VI deste edital\": locais da prova escrita em concursos.ufscar.br (meus concursos)",
+  "documento_diz": "Edital 11.2: \"Os respectivos locais de realização da prova escrita serão disponibilizados no endereço eletrônico https://concursos.ufscar.br em data estabelecida no CRONOGRAMA - Anexo VI deste edital\"; 11.2.1 (menu meus concursos)",
+  "fonte_conferida": "documentos/ufscar-004-2026/51 - Edital Único 004-2026 (arquivo do Google Drive do DCI).pdf, itens 11.2 e 11.2.1",
+  "observacao": "Fiel ao edital, mas sem data (Anexo VI ausente da pasta) e com \"deste edital\". A dois dias da prova, a mensagem não diz que os locais já devem estar publicados."
+ },
+ {
+  "id": "s138",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "periodo_provavel",
+  "atribuicao": "extrator",
+  "linha_diz": "01/12/2026 (terça), às 08:00: PAD, sorteio da ordem de apresentação, Grupo III, pontualmente às 8h; fila 02/11, faltam 29 dias",
+  "documento_diz": "Anexo II \"CRONOGRAMA PROVISÓRIO\": sorteio da ordem \"01/12/2026 – Grupo III | Pontualmente às 8h\"; edital 12.3: calendário traz \"de modo preciso, apenas a data de realização da Prova Escrita e, de modo aproximado, as demais etapas\"; 8.13.7: portões cerrados às 08h",
+  "fonte_conferida": "documentos/ufersa-030-2026/05 - Anexo II - Cronograma provisório grupos I, II e III (retificado).pdf, p. 2; 01 - Edital 030-2026, itens 8.4, 8.13.6 a 8.13.9.10, 12.3; 02 - Retificação 031 (Hematologia no Grupo III)",
+  "observacao": "Data, hora, grupo e contagem certos, mas a data é provisória e a linha a dá como firme (a palavra só aparece no nome da fonte). Também não diz que os portões fecham às 8h e que a presença é obrigatória (8.13.9.10)."
+ },
+ {
+  "id": "s139",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "periodo_provavel",
+  "atribuicao": "extrator",
+  "linha_diz": "de 30/11/2026 (segunda) a 01/12/2026 (terça): PAD, apresentação, Grupo I (pode se estender até 01/12); fila 31/10, faltam 30 dias",
+  "documento_diz": "Anexo II provisório: apresentação \"Grupo I - 30/11/2026 (pode se estender até o dia 01/12/2026 a depender do número de candidatos aprovados para esta etapa)\", 24 h após o sorteio do ponto; edital 12.3 (demais etapas aproximadas)",
+  "fonte_conferida": "documentos/ufersa-030-2026/05 - Anexo II - Cronograma provisório (retificado).pdf, p. 2; 01 - Edital 030-2026, item 12.3; 02 - Retificação 031 (área no Grupo I)",
+  "observacao": "Datas e contagem certas; a previsão aparece como data firme. A janela é do grupo; o horário de cada candidato sai do sorteio da ordem."
+ },
+ {
+  "id": "s145",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "periodo_provavel",
+  "atribuicao": "extrator",
+  "linha_diz": "de 01/12/2026 (terça) a 02/12/2026 (quarta): PAD, sorteio do ponto, Grupo III (pode se estender até 02/12); fila 02/11, faltam 29 dias",
+  "documento_diz": "Anexo II provisório: sorteio do ponto \"Grupo III - 01/12/2026 (pode se estender até o dia 02/12/2026 [...])\", \"conforme sorteio da ordem\"; edital 8.13.9.10: presença obrigatória nos sorteios",
+  "fonte_conferida": "documentos/ufersa-030-2026/05 - Anexo II - Cronograma provisório (retificado).pdf, p. 2; 01 - Edital 030-2026, itens 8.13.9.2, 8.13.9.10, 12.3",
+  "observacao": "Datas e contagem certas; provisório dado como firme. O sorteio de cada candidato é escalonado de hora e meia em hora e meia conforme a ordem; a presença obrigatória não é dita."
+ },
+ {
+  "id": "s059",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "horarios_individuais",
+  "atribuicao": "ambos",
+  "linha_diz": "de 17/10/2026 (sábado), às 09:00 a 18/10/2026 (domingo), até 12:05: Sessão da DPI; fila 15/10, faltam 2 dias",
+  "documento_diz": "Cronograma final Psicologia Social do Trabalho: DPI 17/10 (candidatas 01 a 04, 09h00 a 17h05) e 18/10 (05 às 09h00, 06 às 10h35 a 12h05); \"Obrigatória a presença do Candidato na data e no horário estipulados para sua defesa\"",
+  "fonte_conferida": "documentos/ufrgs-08-2026/147 - Psicologia Social do Trabalho - Cronograma final.pdf, p. 3",
+  "observacao": "Dias e limites certos, mas os horários nominais de cada candidato viram uma janela comum com \"até 12:05\" com cara de prazo. Não leva ninguém a chegar depois do seu horário."
+ },
+ {
+  "id": "s126",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "21/10/2026 (quarta), às 16:30: Sessão de Proclamação do Resultado Preliminar; fila 21/10, é hoje",
+  "documento_diz": "Cronograma final Materiais: \"Sessão de Proclamação do Resultado Preliminar do Concurso [...] presença não obrigatória [...] Data: 21 de outubro de 2026 (quarta-feira). Horário: 16:30\"",
+  "fonte_conferida": "documentos/ufrgs-08-2026/133 - Materiais para Eng. Química - Cronograma final.pdf, p. 3",
+  "observacao": "Não há documento posterior ao 133 para a área."
+ },
+ {
+  "id": "s114",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "sem data: no dia, hora e local da Prova de Didática, inicialmente, sorteio da ordem de apresentação (antes da Didática, data provável 02/12/2026)",
+  "documento_diz": "Edital 4.3.2.9: \"No dia, hora e local definidos para a realização da Prova de Didática, inicialmente, será feito o sorteio para a ordem de apresentação dos candidatos\"; 4.3.1: \"data provável de 02 de dezembro de 2026\"",
+  "fonte_conferida": "documentos/ufv-48-2026/Edital-48-2026-DAU-1.pdf, itens 4.3.1, 4.3.2.2, 4.3.2.9",
+  "observacao": "A presença que elimina (sorteio do ponto, 4.3.2.2) tem linha própria na mesma mensagem."
+ },
+ {
+  "id": "s123",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "30/11/2026 (segunda), às 07:45: comparecimento 15 min antes da Prova de Conhecimento das 08:00; fila 31/10, faltam 30 dias",
+  "documento_diz": "Edital 4.2.1: \"no dia 30 de novembro de 2026, às 08h\"; 4.2.3.1: \"antecedência mínima de 15 minutos [...] o candidato que não estiver presente será automaticamente eliminado\"",
+  "fonte_conferida": "documentos/ufv-48-2026/Edital-48-2026-DAU-1.pdf, itens 4.2.1, 4.2.2, 4.2.3.1",
+  "observacao": null
+ },
+ {
+  "id": "s091",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "texto_do_leitor",
+  "atribuicao": "leitor",
+  "linha_diz": "de 19/10/2026 (segunda) a 23/10/2026 (sexta): Realização das provas; fila 21/10, faltam 2 dias",
+  "documento_diz": "Edital 259/2026, 1.1: \"As provas serão realizadas no período de 19 a 23 de outubro de 2026, de segunda a sexta-feira\"; 1.3: fechamento das salas às 9h no primeiro dia",
+  "fonte_conferida": "documentos/unila-204-2026/d9cd10bee65...946.pdf (Edital 259/2026), itens 1.1 a 1.3.1",
+  "observacao": "Datas certas, mas em 21/10 a janela já está em curso e \"faltam 2 dias\" conta até o fim, como se as provas ainda fossem começar. O fechamento das 9h de 19/10 foi avisado nas filas de 13, 17, 18 e 19/10."
+ },
+ {
+  "id": "s128",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "outra",
+  "atribuicao": "extrator",
+  "linha_diz": "28/10/2026 (quarta): último dia: pagamento da taxa no Banco do Brasil até 28/10/2026; fila 26/10, faltam 2 dias",
+  "documento_diz": "Comunicado: \"O pagamento da taxa de inscrição deverá ser efetuado no Banco do Brasil até o dia 28/10/2026 (quarta-feira), conforme expediente bancário\"; inscrições até 23h59 de 27/10",
+  "fonte_conferida": "documentos/ufsm-221-2026/09 - Comunicado de prorrogação - Anestesiologia (28-09 a 27-10).pdf, p. 1",
+  "observacao": "Dia certo e área certa (Anestesiologia), mas a extração cortou \"conforme expediente bancário\": quem pagar à noite de 28/10 pode ficar fora. Não há hora explícita no documento."
+ }
+]

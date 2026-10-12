@@ -1,0 +1,252 @@
+[
+ {
+  "id": "s006",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "Regra 8.5.4: ordem de apresentação por sorteio após o resultado da escrita, antes do início da didática do 1º candidato",
+  "documento_diz": "Edital 8.5.4: \"...será definida por sorteio conduzido pela Banca Examinadora, após a divulgação dos resultados da Prova Teórico-Prática ou Escrita.\" Cronograma atualizado Saúde da Mulher: resultado 15/10 15h00; \"19/10/2026 07:45 Sorteio da ordem de apresentação\"; 10h00 início da didática do 1º.",
+  "fonte_conferida": "documentos/ufba-06-2026/52 - Edital 06-2026 - versão completa retificada em 11-09-2026.pdf, itens 8.5.4-8.5.5 e 8.3.2; documentos/ufba-06-2026/cronograma_edital_06.2026_s_da_mulher_atualizado_-_divulgacao_do_resultado_da_prova_escrita.pdf p.1-2; documentos/ufba-06-2026/57 - Cronograma - Enfermagem - Saúde da Mulher.pdf",
+  "observacao": "A data concreta do sorteio da ordem (19/10 07:45, presença eliminatória pelo 8.5.5) está na mesma mensagem."
+ },
+ {
+  "id": "s007",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "Regra 8.9.3: cada candidato sorteia o ponto 2 h antes da sua apresentação, antes da didática de 04/11",
+  "documento_diz": "Edital 8.9.3: \"Cada candidato/a sorteará o ponto de sua Prova Didática 2 (duas) horas antes do horário previsto para sua apresentação.\" Cronograma: 04/11 sorteio 09h00-16h00 e didática 11h00-19h00; 05/11 sorteio 08h00-16h00 e didática 10h00-18h00.",
+  "fonte_conferida": "documentos/ufba-06-2026/52 - Edital ... retificada em 11-09-2026.pdf item 8.9.3; documentos/ufba-06-2026/68 - Cronograma - Pesquisa Operacional e Ciência de Dados.pdf p.1-2",
+  "observacao": "As janelas concretas de sorteio e didática estão na mesma mensagem; a presença anterior (abertura 03/11 07:50) também."
+ },
+ {
+  "id": "s008",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "Regra 8.9.3: sorteio do ponto 2 h antes da apresentação, antes das didáticas dos candidatos 1 a 12",
+  "documento_diz": "Edital 8.9.3 (transcrito também no cronograma de Geotecnia): sorteio 2 h antes; cronograma: sorteio do Candidato 1 às 12h00 e didática às 14h00 de 27/10.",
+  "fonte_conferida": "documentos/ufba-06-2026/65 - Cronograma - Geotecnia.pdf p.1-2; documentos/ufba-06-2026/52 - Edital ... retificada em 11-09-2026.pdf item 8.9.3",
+  "observacao": "Abertura 26/10 08:00 e sorteio da ordem 27/10 11:40 (presenças eliminatórias) estão na mesma mensagem."
+ },
+ {
+  "id": "s014",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "03/11 (terça) 07:50: comparecer à Escola Politécnica para início do concurso; faltam 15 dias (fila 19/10)",
+  "documento_diz": "Cronograma, Observações: \"Os candidatos deverão comparecer às 07h50 ... do dia 03 de Novembro de 2026 à Escola Politécnica da UFBA ... para início das atividades do Concurso.\"",
+  "fonte_conferida": "documentos/ufba-06-2026/68 - Cronograma - Pesquisa Operacional e Ciência de Dados.pdf p.1",
+  "observacao": null
+ },
+ {
+  "id": "s019",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "horarios_individuais",
+  "atribuicao": "extrator",
+  "linha_diz": "de 27/10 14:00 a 28/10 \"até 19:00\": provas didáticas dos candidatos 1 a 12",
+  "documento_diz": "Cronograma: 27/10 \"14h00 – Início da prova didática Candidato 1\" ... 28/10 \"19h00 – Início da prova didática Candidato 12\".",
+  "fonte_conferida": "documentos/ufba-06-2026/65 - Cronograma - Geotecnia.pdf p.2",
+  "observacao": "Datas e início certos, mas 19:00 é o início da aula do candidato 12, não o fim da janela; o \"até 19:00\" junta horários individuais como se fosse término comum. Não induz erro de dia. Presenças anteriores (26/10 08:00 e sorteio da ordem 27/10 11:40) estão na mesma mensagem."
+ },
+ {
+  "id": "s026",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "texto_do_leitor",
+  "atribuicao": "leitor",
+  "linha_diz": "de 26/10 (segunda) a 30/10 (sexta): período de realização das provas; \"faltam 2 dias\" na fila de 28/10",
+  "documento_diz": "Cronograma: \"Período de realização das provas do concurso: 26/10/2026 a 30/10/2026.\"",
+  "fonte_conferida": "documentos/ufba-06-2026/65 - Cronograma - Geotecnia.pdf p.1 e p.3",
+  "observacao": "Datas certas. Em 28/10 o período já começou; \"faltam 2 dias\" conta até o fim, enquanto para períodos futuros a mesma expressão conta até o início, o que pode ser lido como \"começa daqui a 2 dias\". À parte: o cronograma traz \"30/09/2026 – SEXTA-FEIRA\" para os memoriais 8 a 12 e a sessão de resultado; a extração (ev-0183, ev-0184) tomou 30/09 literalmente, então esses eventos de 30/10 não geram alerta, e a mensagem de 28/10 também não traz os memoriais de 29/10."
+ },
+ {
+  "id": "s043",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "04/11 (quarta) 08:00: divulgação do resultado da prova escrita; faltam 2 dias (fila 02/11)",
+  "documento_diz": "Cronograma: \"04/11 – QUARTA-FEIRA ... 08h00 – Divulgação do resultado da prova escrita\".",
+  "fonte_conferida": "documentos/ufba-06-2026/68 - Cronograma - Pesquisa Operacional e Ciência de Dados.pdf p.2; Edital item 8.3.3 (presença não obrigatória na divulgação)",
+  "observacao": null
+ },
+ {
+  "id": "s049",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "29/10 (quinta) 08:15-09:15: consulta bibliográfica, até 1 hora; faltam 2 dias (fila 27/10)",
+  "documento_diz": "Cronograma, primeiro dia 29/10/2026: \"08h15 às 09h15 Consulta bibliográfica pelos candidatos. Duração máxima: até 1 (uma) hora\".",
+  "fonte_conferida": "documentos/ufba-06-2026/78 - Cronograma - Clínica Cirúrgica I - Bases da Cirurgia.pdf p.1",
+  "observacao": "A abertura às 08:00 (presença eliminatória pelo 8.3.2) e o sorteio às 08:15 estão na mesma mensagem."
+ },
+ {
+  "id": "s067",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "27/10 (terça) 08:00-12:00, no horário de cada candidato: entrega do plano de aula (3 vias), CV etc. no horário do sorteio do seu ponto",
+  "documento_diz": "Cronograma, segundo dia 27/10: sorteios do 1º ao 4º às 08h00, 09h00, 11h00 e 12h00, cada um com \"Entrega ... de: três vias impressas do plano de aula ...; uma via impressa do Curriculum Vitae; três vias impressas do Memorial ...\".",
+  "fonte_conferida": "documentos/ufba-06-2026/76 - Cronograma - Patologia.pdf p.2",
+  "observacao": "O sorteio da ordem (27/10 07:50) está na mesma mensagem."
+ },
+ {
+  "id": "s069",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "outra",
+  "atribuicao": "extrator",
+  "linha_diz": "Após o resultado da escrita: a ordem de apresentação \"será definida de acordo com os subitens 8.5.4 e 8.5.5 deste Edital\" (antes da Defesa de Memorial)",
+  "documento_diz": "Edital 8.11.2.2: \"A ordem de apresentação dos/as candidatos/as será definida de acordo com os subitens 8.5.4 e 8.5.5 deste Edital.\" O cronograma da área 10 não dá hora para esse sorteio.",
+  "fonte_conferida": "documentos/ufba-06-2026/52 - Edital ... retificada em 11-09-2026.pdf itens 8.5.4, 8.5.5, 8.11.2.2; documentos/ufba-06-2026/68 - Cronograma - Pesquisa Operacional e Ciência de Dados.pdf",
+  "observacao": "Transcrição certa, mas a linha remete a subitens que o candidato não tem e não diz o essencial do 8.5.5 (sorteio único, com presença obrigatória e eliminatória). Pode sugerir um segundo sorteio só para o memorial. Não induz erro de dia."
+ },
+ {
+  "id": "s030",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "29/10 (quinta) 18:00: respostas aos recursos e resultado final da Prova Escrita; faltam 2 dias (fila 27/10)",
+  "documento_diz": "Cronograma efetivo: \"RESULTADO FINAL DA PROVA ESCRITA ... 29/10/2026 18:00 Respostas aos recursos e divulgação do resultado final da Prova Escrita\".",
+  "fonte_conferida": "documentos/ufs-08-2026/04 - Cronograma efetivo DCC - Ciências Contábeis-Contabilidade (prova didática).pdf p.2",
+  "observacao": null
+ },
+ {
+  "id": "s106",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "de 03/11 08:30 a 04/11 até 18:40: sorteio do ponto da didática (presença obrigatória), no horário de cada candidato; faltam 14 dias (fila 20/10)",
+  "documento_diz": "Cronograma efetivo: sorteio do ponto 03/11 às 08:30 (Candidato 01) ... 04/11 às 18:40 (Candidato 15); OBS. 2: presença obrigatória no sorteio do ponto, sob pena de eliminação.",
+  "fonte_conferida": "documentos/ufs-08-2026/04 - Cronograma efetivo DCC ... (prova didática).pdf p.2-3; 01 - Edital de abertura 008-2026 (retificado em 20-07-2026).pdf item 13.1",
+  "observacao": "A prova escrita de 26/10 (presença obrigatória) teve linha na fila de 19/10. O sorteio da ordem de 30/10 08:00 (presença obrigatória) não está nesta fila nem antes, mas sai nas filas de 23/10 e 29/10, antes de acontecer."
+ },
+ {
+  "id": "s121",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "03/11 a 04/11: entrega do Projeto de Pesquisa no dia do sorteio do ponto da didática de cada candidato; faltam 2 dias (fila 01/11)",
+  "documento_diz": "Cronograma efetivo, Orientações: \"O Relatório Descritivo ou Currículo Lattes e o Projeto de Pesquisa (no caso de Professor Adjunto) deverão ser entregues no dia do sorteio do ponto da prova didática, exclusivamente no Departamento de Ciências Contábeis, sala 50\".",
+  "fonte_conferida": "documentos/ufs-08-2026/04 - Cronograma efetivo DCC ... (prova didática).pdf p.1-2; 01 - Edital de abertura item 15.1 (projeto para doutor)",
+  "observacao": "O prefixo \"no horário de cada candidato\" é mais estreito que o documento (\"no dia\"), mas quem seguir a linha cumpre o prazo. O local (sala 50) fica no trecho cortado."
+ },
+ {
+  "id": "s122",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "horarios_individuais",
+  "atribuicao": "extrator",
+  "linha_diz": "de 04/11 08:30 a 05/11 \"até 18:40\": Prova Didática (presença obrigatória), no horário de cada candidato; faltam 15 dias (fila 20/10)",
+  "documento_diz": "Cronograma efetivo: Prova Didática 04/11 08:30 (Candidato 01) ... 05/11 18:40 (Candidato 15); edital 13.1: duração de 50 minutos.",
+  "fonte_conferida": "documentos/ufs-08-2026/04 - Cronograma efetivo DCC ... (prova didática).pdf p.2-3; 01 - Edital de abertura item 13.1",
+  "observacao": "Datas certas; 18:40 é o início da aula do candidato 15, não o fim da janela. Não induz erro de dia. Presença anterior: escrita de 26/10 na fila de 19/10; sorteio da ordem de 30/10 só nas filas de 23/10 e 29/10."
+ },
+ {
+  "id": "s033",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "24/11 (terça) 08:00: sorteio do ponto da prova escrita; faltam 30 dias (fila 25/10)",
+  "documento_diz": "Edital 11.1 i: \"Sorteio do ponto para a prova escrita - 24/11/2026, às 8h00.\"; 11.2: apresentar-se 20 minutos antes de cada hora marcada.",
+  "fonte_conferida": "documentos/uerj-2026/05 - Seleção 2026-228 - Edital.pdf item 11.1-11.2 (p.9-10); 23 - Seleção 2026-228 - Edital de alteração de item.pdf (só vencimento e taxa)",
+  "observacao": "A linha de comparecimento às 07:40 está na mesma fila."
+ },
+ {
+  "id": "s135",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "24/11 (terça) 08:40: comparecimento obrigatório 20 min antes do início da prova escrita (09h00); faltam 30 dias",
+  "documento_diz": "Edital 11.1 j: \"Prova escrita - 24/11/2026, das 09h00 às 13h00.\"; 11.2: \"O candidato deverá se apresentar 20 minutos antes de cada hora marcada no cronograma\".",
+  "fonte_conferida": "documentos/uerj-2026/05 - Seleção 2026-228 - Edital.pdf itens 9.1.1 d, 11.1, 11.2",
+  "observacao": "Aplicação literal do 11.2. Na prática o candidato já está na sala desde o sorteio (9.1.1 d proíbe ausentar-se); a linha de 07:40 para o sorteio vem antes na mesma mensagem."
+ },
+ {
+  "id": "s143",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "29/10 (quinta) 15:00: divulgação da lista de inscritos e da Comissão Examinadora; faltam 2 dias (fila 27/10)",
+  "documento_diz": "Edital 11.1 h: \"Divulgação da lista dos candidatos inscritos (no sistema PROSSIM) e da composição da Comissão Examinadora – 29/10/2026, às 15h00.\"",
+  "fonte_conferida": "documentos/uerj-2026/05 - Seleção 2026-228 - Edital.pdf item 11.1 h",
+  "observacao": null
+ },
+ {
+  "id": "s015",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "03/11 (terça) 08:30: comparecimento obrigatório 30 min antes da prova escrita (09h00); faltam 15 dias (fila 19/10)",
+  "documento_diz": "Edital 11.1 j: \"Prova escrita – 03/11/2026, das 09:00 às 13:00 h.\"; 11.2: \"O candidato deverá se apresentar 30 minutos antes de cada hora marcada no cronograma\".",
+  "fonte_conferida": "documentos/uerj-2026/07 - Seleção 2026-230 - Edital.pdf item 11.1-11.2; 25 - Seleção 2026-230 - Errata.pdf (só vagas e taxa)",
+  "observacao": "A linha de 07:30 para o sorteio das 08:00 vem antes na mesma mensagem."
+ },
+ {
+  "id": "s022",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "03/11 (terça) 14:00: leitura da prova escrita; faltam 2 dias (fila 01/11)",
+  "documento_diz": "Edital 11.1 k: \"Leitura da prova escrita – 03/11/2026, às 14:00 h.\"",
+  "fonte_conferida": "documentos/uerj-2026/07 - Seleção 2026-230 - Edital.pdf item 11.1 k e 9.1.1 h-i",
+  "observacao": "A linha de comparecimento às 13:30 está na mesma fila."
+ },
+ {
+  "id": "s053",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "texto_do_leitor",
+  "atribuicao": "extrator",
+  "linha_diz": "18/10 (domingo): \"Ensalamento Geral para a realização do Sorteio dos Pontos e da Prova Escrita - Campus: Curitiba 1\"; faltam 2 dias (fila 16/10)",
+  "documento_diz": "Edital 038/2026-CPPS: vaga 1321 no Campus Curitiba 1, Rua Barão do Rio Branco 370 (Sede Barão); \"O Sorteio dos pontos ... e a realização da Prova Escrita ocorrerá no dia 18/10/2026\".",
+  "fonte_conferida": "documentos/unespar-023-2026/EDITAL 38 2026 CPPS Ensalamento sorteio infos.pdf p.1-2; 51 - Edital de abertura 023-2026 itens 4.2, 4.10, 4.11.1",
+  "observacao": "Data e campus certos, mas o evento aparece rotulado como \"Ensalamento\" (que é o título do edital de 30/09), não como sorteio e prova naquele campus, e o endereço da extração não aparece. O fechamento dos portões às 08:00 está na mesma fila."
+ },
+ {
+  "id": "s088",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "texto_do_leitor",
+  "atribuicao": "extrator",
+  "linha_diz": "18/10 (domingo): \"Ensalamento Geral para a realização do Sorteio dos Pontos e da Prova Escrita - Campus: Campo Mourão\"; faltam 2 dias (fila 16/10)",
+  "documento_diz": "Edital 038/2026-CPPS: vaga 1405 no Campus Campo Mourão, Av. Comendador Norberto Marcondes, 733; sorteio e prova escrita em 18/10/2026; portões fecham às 8h.",
+  "fonte_conferida": "documentos/unespar-023-2026/EDITAL 38 2026 CPPS Ensalamento sorteio infos.pdf p.1-2; 51 - Edital de abertura item 9 (Id 1405, Campus Campo Mourão), 4.2, 4.11.1",
+  "observacao": "Mesmo caso do s053: data e campus certos, rótulo de \"Ensalamento\" e sem endereço. Portões às 08:00 na mesma fila."
+ },
+ {
+  "id": "s096",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "24/11 (terça) 08:00: prova escrita do Edital 106/2026 (área G); faltam 30 dias (fila 25/10)",
+  "documento_diz": "Edital 106/2026, Anexo I, 2: \"DATA/HORÁRIO/SALA DA PROVA ESCRITA: 24/11/2026, horário: 8h, sala: 203, prédio D.\"",
+  "fonte_conferida": "documentos/unifal-002-2026/56 - Edital 106-2026 - Direito Privado (SEI).html.docling.md Anexo I item 2; itens 5.1 e 5.1.1",
+  "observacao": "Pelo 5.1/5.1.1, a antecedência de 30 min é preferencial e elimina só quem chega depois do início, por isso não há presença anterior a alertar."
+ },
+ {
+  "id": "s130",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "23/11 (segunda) 08:00: prova escrita do Edital 111/2026 (área F); faltam 30 dias (fila 24/10)",
+  "documento_diz": "Edital 111/2026, Anexo I, 2: \"DATA/HORÁRIO/SALA DA PROVA ESCRITA: 23/11/2026, horário: 8h, sala: 202, prédio PCA.\"",
+  "fonte_conferida": "documentos/unifal-002-2026/57 - Edital 111-2026 - Língua Inglesa (SEI).html.docling.md Anexo I item 2; itens 5.1 e 5.1.1",
+  "observacao": null
+ },
+ {
+  "id": "s090",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "05/11 (quinta): fim das inscrições; faltam 7 dias (fila 29/10)",
+  "documento_diz": "Edital 109/2026, 9.1: \"A inscrição será feita ... a partir do dia 07/10/2026 até o dia 05/11/2026\"; pagamento da GRU de 09/10 a 10/11/2026 (9.1 e).",
+  "fonte_conferida": "documentos/ufrn-109-2026/01 - Edital de abertura 109-2026.pdf item 9.1; retificações EDITAL_N_115 (DOU 28/09), DOU 184 de 29/09 e DOU 192 de 09/10, que não alteram 9.1",
+  "observacao": null
+ },
+ {
+  "id": "s118",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "09/11 (segunda) 09:00-13:00: prova escrita; faltam 15 dias (fila 25/10)",
+  "documento_diz": "Edital 11.1 j: \"Prova escrita - 09/11/2026, das 09:00 às 13h.\"; 11.2: apresentar-se 60 minutos antes de cada hora marcada.",
+  "fonte_conferida": "documentos/uerj-2026/14 - Seleção 2026-238 - Edital.pdf item 11.1-11.2; 31 - Seleção 2026-238 - Errata.pdf (só vagas e taxa); isencao_1837_1790599608.pdf",
+  "observacao": "As linhas de comparecimento às 07:00 (sorteio) e às 08:00 (prova) estão na mesma fila."
+ }
+]

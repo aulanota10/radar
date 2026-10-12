@@ -1,0 +1,252 @@
+[
+  {
+    "id": "s039",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "linha_diz": "Proclamação do Resultado Preliminar: 19/11/2026 (quinta), às 17:30",
+    "documento_diz": "6.5 Sessão de Proclamação do Resultado Preliminar do Concurso: \"DIA: 19/11/2026 – Quinta-feira / Horário: 17h30min\"; \"presença não obrigatória do Candidato\"",
+    "fonte_conferida": "documentos/ufrgs-09-2026/CI-Engenharia-subarea-Polimeros-Ed-09-26.pdf, item 6.5, p. 3",
+    "observacao": "Bloco de documento novo (sem contagem). Nenhum documento posterior da subárea altera o cronograma (Edital 40 e Portaria 7504 só tratam da banca)."
+  },
+  {
+    "id": "s042",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "linha_diz": "PD 19/11/2026 (quinta), das 08:30 às 15:00, presença obrigatória no horário de cada candidato; faltam 30 dias (fila 20/10)",
+    "documento_diz": "6.4 Prova Didática: \"Obrigatória a presença do Candidato na data e no horário estipulados para sua prova\"; \"DIA: 19/11/2026 – Quinta-feira\"; PD Candidato 1 08h30min ... Candidato 6 15h00min",
+    "fonte_conferida": "documentos/ufrgs-09-2026/CI-Engenharia-subarea-Polimeros-Ed-09-26.pdf, item 6.4, p. 2-3; Resolução 093-2021 art. 17 §4-A",
+    "observacao": "20/10 a 19/11 = 30 dias. \"das 08:30 às 15:00\" são os inícios do 1º e do 6º candidato, não o fim da sessão; o parêntese truncado (\"Candidato 6 às...\") deixa isso implícito, sem induzir erro. Presença eliminatória anterior (Ato de Instalação 09/11 08:30) saiu na fila de 13/10 e sai em 25/10 e 02/11 para o mesmo destinatário."
+  },
+  {
+    "id": "s058",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "linha_diz": "Prova Escrita 09/11/2026 (segunda), às 09:30, obrigatória, até 4 h; faltam 15 dias (fila 25/10)",
+    "documento_diz": "4.2 Sessão da Prova Escrita: \"Sessão obrigatória para todos os Candidatos\"; \"duração máxima de 4 horas\"; \"DIA: 09/11/2026 – Segunda-feira / Horário de início: 09h30min\"",
+    "fonte_conferida": "documentos/ufrgs-09-2026/CI-Engenharia-subarea-Polimeros-Ed-09-26.pdf, itens 4.1 e 4.2, p. 1",
+    "observacao": "25/10 a 09/11 = 15 dias. A presença eliminatória anterior (Ato de Instalação 09/11 às 08:30, 4.1, §1º art. 21) está na mesma mensagem."
+  },
+  {
+    "id": "s070",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "linha_diz": "Proclamação do Resultado da 1ª Fase: 11/11/2026 (quarta), às 17:30",
+    "documento_diz": "4.4 Sessão de Proclamação do Resultado da 1ª Fase: \"DIA: 11/11/2026 – Quarta-feira / Horário: 17h30min\"",
+    "fonte_conferida": "documentos/ufrgs-09-2026/CI-Engenharia-subarea-Polimeros-Ed-09-26.pdf, item 4.4, p. 2",
+    "observacao": "Bloco de documento novo (sem contagem)."
+  },
+  {
+    "id": "s081",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "linha_diz": "Prova Escrita 09/11/2026 (segunda), às 09:30, obrigatória, até 4 h",
+    "documento_diz": "4.2: \"DIA: 09/11/2026 – Segunda-feira / Horário de início: 09h30min\"; \"duração máxima de 4 horas\"",
+    "fonte_conferida": "documentos/ufrgs-09-2026/CI-Engenharia-subarea-Polimeros-Ed-09-26.pdf, itens 4.1 e 4.2, p. 1",
+    "observacao": "Bloco de documento novo; o Ato de Instalação (09/11 às 08:30, eliminatório) vem na mesma mensagem."
+  },
+  {
+    "id": "s089",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "linha_diz": "Sorteio da ordem de apresentação: ao final da primeira fase, após a proclamação dos resultados da prova escrita (antes da PD)",
+    "documento_diz": "Res. 093/2021 art. 17 §4-A: \"Ao final da primeira fase, após a proclamação dos resultados da prova escrita, será realizado o sorteio da ordem de apresentação dos candidatos na prova didática, na prova prática, se houver, e na defesa da produção intelectual\"",
+    "fonte_conferida": "documentos/ufrgs-09-2026/57 - Resolução 093-2021 CONSUN - normas de concurso.pdf (art. 17 §4-A, p. 10); documentos/ufrgs-09-2026/CI-Educacao-Subarea-Educacao-e-Artes-Visuais-Edital-09-26.pdf (Proclamação 1ª fase 05/11 10h30; PD 10/11); Informativo de retificação (só locais)",
+    "observacao": "Linha relativa fiel à norma; o cronograma da subárea não traz o sorteio. A proclamação (05/11 às 10:30) é de presença não obrigatória e a norma não exige presença no sorteio. Ato de Instalação (03/11 12:30) já alertado em 13/10 e 19/10."
+  },
+  {
+    "id": "s002",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "linha_diz": "Comparecimento 09/11/2026 (segunda) às 09:45, 15 min antes da prova escrita das 10:00; faltam 27 dias",
+    "documento_diz": "11.1 j) \"Prova escrita - 09/11/2026, das 10:00 às 14:00 h.\"; 11.2 \"O candidato deverá se apresentar 15 (quinze) minutos antes de cada hora marcada no cronograma\"",
+    "fonte_conferida": "documentos/uerj-2026/11 - Seleção 2026-234 - Edital.pdf, itens 11.1 j e 11.2, p. 10; 16.9 c",
+    "observacao": "13/10 a 09/11 = 27 dias. O comparecimento anterior (08:45, sorteio do ponto às 09:00) está na mesma mensagem. Não há errata desta seleção no pacote."
+  },
+  {
+    "id": "s010",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "linha_diz": "Comparecimento 10/11/2026 (terça) às 15:45, 15 min antes da entrega do Projeto às 16:00; faltam 28 dias",
+    "documento_diz": "11.1 n) \"Entrega do Projeto de Pesquisa escrito – 10/11/2026, às 16:00h.\"; 11.2 apresentar-se 15 minutos antes de cada hora marcada",
+    "fonte_conferida": "documentos/uerj-2026/11 - Seleção 2026-234 - Edital.pdf, itens 11.1 n e 11.2, p. 10",
+    "observacao": "13/10 a 10/11 = 28 dias."
+  },
+  {
+    "id": "s012",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "linha_diz": "Comparecimento 10/11/2026 (terça) às 09:45, 15 min antes da continuação da leitura às 10:00; faltam 28 dias",
+    "documento_diz": "11.1 l) \"Continuação da leitura da prova escrita – 10/11/2026, das 10:00h às 13:00h.\"; 11.2 apresentar-se 15 minutos antes",
+    "fonte_conferida": "documentos/uerj-2026/11 - Seleção 2026-234 - Edital.pdf, itens 11.1 l e 11.2, p. 10",
+    "observacao": "13/10 a 10/11 = 28 dias."
+  },
+  {
+    "id": "s013",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "linha_diz": "Comparecimento 13/11/2026 (sexta) às 15:45, 15 min antes da entrega de Títulos às 16:00; faltam 15 dias (fila 29/10)",
+    "documento_diz": "11.1 u) \"Entrega de Títulos e Trabalhos – 13/11/2026, às 16:00h.\"; 11.2 apresentar-se 15 minutos antes",
+    "fonte_conferida": "documentos/uerj-2026/11 - Seleção 2026-234 - Edital.pdf, itens 11.1 u e 11.2, p. 10",
+    "observacao": "29/10 a 13/11 = 15 dias."
+  },
+  {
+    "id": "s034",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "linha_diz": "Prova de aula 11/11/2026 (quarta), às 09:00; faltam 29 dias",
+    "documento_diz": "11.1 o) \"Prova de aula - 11/11/2026, às 9 h.\"; 11.2 \"apresentar 20 minutos antes de cada hora marcada\"",
+    "fonte_conferida": "documentos/uerj-2026/08 - Seleção 2026-231 - Edital.pdf, itens 11.1 o, 11.2 e 9.1.2; errata 26 (só vencimento e taxa)",
+    "observacao": "13/10 a 11/11 = 29 dias. Comparecimento das 08:40 na mesma mensagem. Nota: 9.1.2 c manda todos se apresentarem na divulgação dos pontos, que não tem hora fixa (\"imediatamente após o resultado da Prova Escrita\", até 60 min após a leitura de 09/11); a fila cobre a leitura (13:40) e o sorteio (15:40) desse dia, sem linha própria para a divulgação. Não há eliminação expressa por essa ausência."
+  },
+  {
+    "id": "s103",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "linha_diz": "Comparecimento 11/11/2026 (quarta) às 08:40, 20 min antes da prova de aula das 09:00; faltam 29 dias",
+    "documento_diz": "11.1 o) \"Prova de aula - 11/11/2026, às 9 h.\"; 11.2 \"O candidato deverá se apresentar 20 minutos antes de cada hora marcada no cronograma\"",
+    "fonte_conferida": "documentos/uerj-2026/08 - Seleção 2026-231 - Edital.pdf, itens 11.1 o e 11.2, p. 9",
+    "observacao": "13/10 a 11/11 = 29 dias."
+  },
+  {
+    "id": "s104",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "linha_diz": "Comparecimento 09/11/2026 (segunda) às 08:40, 20 min antes da prova escrita das 09:00; faltam 27 dias",
+    "documento_diz": "11.1 j) \"Prova escrita - 09/11/2026, das 9 às 13 h.\"; 11.2 apresentar-se 20 minutos antes",
+    "fonte_conferida": "documentos/uerj-2026/08 - Seleção 2026-231 - Edital.pdf, itens 11.1 i, j e 11.2, p. 9",
+    "observacao": "13/10 a 09/11 = 27 dias. O comparecimento anterior (07:40, sorteio do ponto às 08:00) está na mesma mensagem."
+  },
+  {
+    "id": "s133",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "linha_diz": "Comparecimento 11/11/2026 (quarta) às 12:40, 20 min antes do resultado da aula e entrega de títulos às 13:00; faltam 15 dias (fila 27/10)",
+    "documento_diz": "11.1 p) \"Resultado da prova de aula – 11/11/2026, às 13 h.\"; q) \"Entrega de Títulos e Trabalhos – 11/11/2026, às 13 h. imediatamente após o resultado da Prova de Aula.\"; 11.2 20 minutos antes",
+    "fonte_conferida": "documentos/uerj-2026/08 - Seleção 2026-231 - Edital.pdf, itens 11.1 p, q e 11.2, p. 9",
+    "observacao": "27/10 a 11/11 = 15 dias."
+  },
+  {
+    "id": "s060",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "linha_diz": "de 29/10/2026 (quinta) a 30/10/2026 (sexta): prazo de recurso do resultado preliminar da prova escrita (é hoje, fila 29/10)",
+    "documento_diz": "Cronograma: \"29 e 30/10/2026 ON LINE PRAZO PARA INTERPOSIÇÃO DE RECURSO DO RESULTADO PRELIMINAR DA PROVA ESCRITA\"",
+    "fonte_conferida": "documentos/urca-2026/03 - Cronograma do concurso (original).pdf e 04 - Novo cronograma (atualizado).pdf, p. 2 (Aplicação e resultados)",
+    "observacao": "Datas iguais no cronograma original citado e no novo cronograma (04), que é o vigente; a fonte da mensagem cita o original. A mesma fila traz a linha \"30/10 último dia (é amanhã)\"."
+  },
+  {
+    "id": "s099",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "linha_diz": "Sorteio do ponto da didática 24 h antes da prova didática do candidato (antes da aplicação 13 a 15/11)",
+    "documento_diz": "Edital 9.3: tema \"sorteado com 24 (vinte e quatro) horas de antecedência de sua realização\"; 9.2: data, local e horário do sorteio divulgados com o resultado da Prova Escrita; cronograma: \"13 à 15/11/2026 APLICAÇÃO DA PROVA DIDÁTICA (24h após o sorteio do ponto)\"",
+    "fonte_conferida": "documentos/urca-2026/01 - Edital nº 02-2026-GR (Concurso Efetivo).pdf, itens 9.2, 9.2.1 e 9.3; documentos/urca-2026/03 - Cronograma do concurso (original).pdf e 04 - Novo cronograma (atualizado).pdf",
+    "observacao": "Linha relativa fiel. 9.2.1: na ausência do candidato o sorteio se realiza mesmo assim, então não há presença eliminatória a alertar."
+  },
+  {
+    "id": "s113",
+    "veredito": "ERRADA",
+    "categoria": "horarios_individuais",
+    "atribuicao": "extrator",
+    "linha_diz": "15/11/2026 (domingo): último dia de recebimento de títulos, 08h-12h e 13h-18h (Observar o item 10.6); faltam 15 dias (fila 31/10)",
+    "documento_diz": "Cronograma: \"12 à 15/11/2026 ... RECEBIMENTO DE TÍTULOS ... Observar o item 10.6 do Edital ... Horário: 08h às 12h e 13h às 18h\"; Corrigenda nº 01, 10.6 (leia-se): \"A entrega do currículo comprovado deverá ser realizada, em período estipulado no cronograma do concurso, até o início da aula do candidato (Prova Didática)\"; 10.10: quem não entregar no prazo recebe nota 0,0",
+    "fonte_conferida": "documentos/urca-2026/03 - Cronograma do concurso (original).pdf e 04 - Novo cronograma (atualizado).pdf, p. 2; documentos/urca-2026/02 - Corrigenda nº 01.pdf (item 10.6); Edital 01 itens 10.6 e 10.10",
+    "observacao": "As aulas são de 13 a 15/11; o prazo efetivo de cada candidato termina no início da sua aula, antes de 15/11 às 18h para todos. Quem tiver aula em 13 ou 14/11 e confiar no \"último dia 15/11\" entrega fora do prazo e fica com zero em títulos. O evento da extração (ev-0027) guarda só a janela 12-15/11, sem o limite individual do 10.6 corrigido. Data e dia da semana estão certos e a contagem também (31/10 a 15/11 = 15)."
+  },
+  {
+    "id": "s023",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "linha_diz": "de 20/10/2026 (terça) a 21/10/2026 (quarta): recursos contra o resultado preliminar das isenções (é hoje)",
+    "documento_diz": "Anexo I: \"Interposição de recursos contra o resultado preliminar dos pedidos de isenção da taxa de inscrição 20/10/2026 21/10/2026\"",
+    "fonte_conferida": "documentos/ifmg-1077-2026/07-10-2026 EDITAL DE ABERTURA 1077-2026 E SEUS ANEXOS DOWNLOAD.pdf, Anexo I (p. 35) e item 5; retificações 01-03 de 09/10 sem mudança no cronograma",
+    "observacao": "\"é hoje\" refere-se ao início da janela; a mesma mensagem traz \"21/10 último dia (é amanhã)\"."
+  },
+  {
+    "id": "s119",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "linha_diz": "21/10/2026 (quarta): último dia de recurso contra o resultado preliminar das isenções (é amanhã, fila 20/10)",
+    "documento_diz": "Anexo I: recursos contra o resultado preliminar das isenções, início 20/10/2026, fim 21/10/2026",
+    "fonte_conferida": "documentos/ifmg-1077-2026/07-10-2026 EDITAL DE ABERTURA 1077-2026 E SEUS ANEXOS DOWNLOAD.pdf, Anexo I (p. 35)",
+    "observacao": null
+  },
+  {
+    "id": "s064",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "linha_diz": "Sorteio do ponto da prova de aula 04/11/2026 (quarta), às 09:00; faltam 14 dias (fila 21/10)",
+    "documento_diz": "11.1 n) \"Sorteio do ponto para a prova de aula - 04/11/2026, às 9h\"; 11.2 \"apresentar 30 (trinta) minutos antes de cada hora marcada\"",
+    "fonte_conferida": "documentos/uerj-2026/10 - Seleção 2026-233 - Edital.pdf, itens 11.1 n e 11.2, p. 9; errata 28, lista e banca de 01/10 sem mudança de data",
+    "observacao": "21/10 a 04/11 = 14 dias. Comparecimento das 08:30 na mesma mensagem."
+  },
+  {
+    "id": "s117",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "linha_diz": "Comparecimento 05/11/2026 (quinta) às 15:30, 30 min antes do resultado da aula e entrega de títulos às 16:00; faltam 15 dias (fila 21/10)",
+    "documento_diz": "11.1 p) \"Resultado da prova de aula – 05/11/2026, às 16h\"; q) \"Entrega de Títulos e Trabalhos – 05/11/2026, às 16h. imediatamente após o resultado da Prova de Aula.\"; 11.2 30 minutos antes",
+    "fonte_conferida": "documentos/uerj-2026/10 - Seleção 2026-233 - Edital.pdf, itens 11.1 p, q e 11.2, p. 9",
+    "observacao": "21/10 a 05/11 = 15 dias."
+  },
+  {
+    "id": "s029",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "linha_diz": "22/10/2026 (quinta), até 17:00: último dia do pagamento da taxa de R$ 286,00; faltam 2 dias (fila 20/10)",
+    "documento_diz": "2.1: pagamento da taxa \"no valor de R$ 286,00\" ... \"no período das 00:00 do dia 08/09/2026 às 17hs do dia 22/10/2026, observado o horário de Brasília\"",
+    "fonte_conferida": "documentos/unesp-titular-2026/7ea08df5-5fe3-4852-8c07-905765ae07c0.pdf (Edital 111/2026 FO/CAr), item 2.1, p. 1",
+    "observacao": "20/10 a 22/10 = 2 dias. Nenhum documento posterior do 111 na pasta."
+  },
+  {
+    "id": "s056",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "linha_diz": "Quem não constar na listagem tem até 13/10/2026 (terça) para contatar concursos@ufpel.edu.br",
+    "documento_diz": "Obs. 4: \"Caso o nome do(a) candidato(a) não conste na listagem, este terá até o dia 13/10/2026 para entrar em contato com o setor de concursos da UFPel, pelo e-mail concursos@ufpel.edu.br, apresentando o comprovante de pagamento da GRU\"",
+    "fonte_conferida": "documentos/ufpel-028-2026/inscricoes efetivadas 028_2026.pdf, Obs. 4; 54 - Cronograma geral, item 6 (\"Até 13/10/2026\")",
+    "observacao": "Bloco de documento novo; a mesma mensagem marca o prazo como \"é hoje\" na linha do item 6 do cronograma."
+  },
+  {
+    "id": "s105",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "linha_diz": "04/11/2026 (quarta), até 16:00: fim das inscrições; faltam 7 dias (fila 28/10)",
+    "documento_diz": "Preâmbulo: inscrições \"com início às 10 horas (horário de Brasília) do dia 21 de setembro de 2026 e término às 16 horas (horário de Brasília) do dia 04 de novembro de 2026\"",
+    "fonte_conferida": "documentos/usp-fm-199-2026/Edital DVACAD-FM-199-2026.pdf, preâmbulo, p. 1 (e versão DOE 51)",
+    "observacao": "28/10 a 04/11 = 7 dias. As retificações e a suspensão da pasta são de outros editais (9, 58, 203)."
+  },
+  {
+    "id": "s137",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "linha_diz": "de 28/09/2026 (segunda) a 23/10/2026 (sexta): anexação do laudo médico (PcD e condições especiais); faltam 2 dias (fila 21/10)",
+    "documento_diz": "Anexo II: \"Anexação eletrônica do laudo médico na ficha de inscrição para os candidatos com deficiência ... 28/09/2026 a 23/10/2026\"; 9.1 inscrição \"no período de 28/09/2026 a 23/10/2026\"",
+    "fonte_conferida": "documentos/ufrn-108-2026/01 - Edital de abertura 108-2026 (DOU 175, retificado em 22-09-2026).pdf, item 9.1 e Anexo II; retificações DOU 179 e 184 sem mudança desse prazo (DOU 192 é do 058)",
+    "observacao": "21/10 a 23/10 = 2 dias, contados até o fim da janela, que já está aberta."
+  }
+]
