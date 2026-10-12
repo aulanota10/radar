@@ -1,0 +1,965 @@
+[
+ {
+  "id": "uerj-224-2026#ev-0020",
+  "estrato": "datada/entrega_documento",
+  "peso": 7.3,
+  "concurso": "uerj-224-2026",
+  "nome": "UERJ Seleção 2026/224",
+  "evento_id": "ev-0020",
+  "tipo_evento": "entrega_documento",
+  "etapa": "projeto",
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Entrega dos planos de trabalhos referentes à prova prática - 19/03/2027, imediatamente após o resultado da Prova de Aula",
+  "forma": "fixa",
+  "inicio": "2027-03-19",
+  "fim": "2027-03-19",
+  "hora": null,
+  "documento": "documentos/uerj-2026/02 - Seleção 2026-224 - Edital.pdf",
+  "item": "11.1, r",
+  "pagina": 11,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2027-03-19"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Entrega dos planos de trabalhos referentes à prova prática - 19/03/2027, imediatamente após o resultado da Prova de Aula",
+   "data": "19/03/2027 (sexta)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "fim",
+     [
+      15,
+      7,
+      3
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "uerj-224-2026#ev-0004",
+  "estrato": "datada/isencao_pedido",
+  "peso": 5.0,
+  "concurso": "uerj-224-2026",
+  "nome": "UERJ Seleção 2026/224",
+  "evento_id": "ev-0004",
+  "tipo_evento": "isencao_pedido",
+  "etapa": null,
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Pedido de isenção da taxa de inscrição - até o dia 14/01/2027",
+  "forma": "fixa",
+  "inicio": "2027-01-14",
+  "fim": "2027-01-14",
+  "hora": null,
+  "documento": "documentos/uerj-2026/02 - Seleção 2026-224 - Edital.pdf",
+  "item": "11.1, d",
+  "pagina": 10,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2027-01-14"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Pedido de isenção da taxa de inscrição - até o dia 14/01/2027",
+   "data": "14/01/2027 (quinta)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "fim",
+     [
+      5,
+      2
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "uerj-224-2026#ev-0013",
+  "estrato": "datada/outro",
+  "peso": 8.176470588235293,
+  "concurso": "uerj-224-2026",
+  "nome": "UERJ Seleção 2026/224",
+  "evento_id": "ev-0013",
+  "tipo_evento": "outro",
+  "etapa": "escrita",
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Continuação da leitura da prova escrita",
+  "forma": "fixa",
+  "inicio": "2027-03-16",
+  "fim": "2027-03-16",
+  "hora": "08:00",
+  "documento": "documentos/uerj-2026/02 - Seleção 2026-224 - Edital.pdf",
+  "item": "11.1, l",
+  "pagina": 10,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2027-03-16",
+   "hora": "08:00"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Continuação da leitura da prova escrita",
+   "data": "16/03/2027 (terça), às 08:00",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      2
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "uerj-224-2026#ev-0009",
+  "estrato": "datada/portaria_banca",
+  "peso": 5.4,
+  "concurso": "uerj-224-2026",
+  "nome": "UERJ Seleção 2026/224",
+  "evento_id": "ev-0009",
+  "tipo_evento": "portaria_banca",
+  "etapa": null,
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Divulgação da composição da Comissão Examinadora (no sistema PROSSIM) - 26/02/2027, até às 18 h",
+  "forma": "fixa",
+  "inicio": "2027-02-26",
+  "fim": "2027-02-26",
+  "hora": "18:00",
+  "documento": "documentos/uerj-2026/02 - Seleção 2026-224 - Edital.pdf",
+  "item": "11.1, h",
+  "pagina": 10,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2027-02-26",
+   "hora": "18:00"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Divulgação da composição da Comissão Examinadora (no sistema PROSSIM) - 26/02/2027, até às 18 h",
+   "data": "26/02/2027 (sexta), às 18:00",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      2,
+      0
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "uerj-224-2026#ev-0026",
+  "estrato": "nao_datada/recurso",
+  "peso": 39.214285714285715,
+  "concurso": "uerj-224-2026",
+  "nome": "UERJ Seleção 2026/224",
+  "evento_id": "ev-0026",
+  "tipo_evento": "recurso",
+  "etapa": null,
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Revisão e/ou impugnação dos resultados das provas, do julgamento de títulos ou de qualquer outro aspecto, junto à Comissão Examinadora, por e-mail",
+  "forma": "relativa",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/uerj-2026/02 - Seleção 2026-224 - Edital.pdf",
+  "item": "13.1",
+  "pagina": 11,
+  "data_extraida": {
+   "forma": "relativa",
+   "quantidade": 7,
+   "unidade": "dias_uteis",
+   "evento_ancora": "divulgação do resultado final (resultado_final)",
+   "sentido": "apos"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Revisão e/ou impugnação dos resultados das provas, do julgamento de títulos ou de qualquer outro aspecto, junto à Comissão Examinadora, por e-mail",
+   "data": "7 dias úteis depois de divulgação do resultado final",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      0
+     ]
+    ],
+    [
+     "fim",
+     [
+      1
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ufvjm-101-2026#ev-0033",
+  "estrato": "datada/outro",
+  "peso": 8.176470588235293,
+  "concurso": "ufvjm-101-2026",
+  "nome": "UFVJM 101/2026",
+  "evento_id": "ev-0033",
+  "tipo_evento": "outro",
+  "etapa": "didatica",
+  "fase": null,
+  "escopo": [
+   "101.4"
+  ],
+  "descricao": "Sessão de Abertura da prova didática",
+  "forma": "fixa",
+  "inicio": "2027-01-25",
+  "fim": "2027-01-25",
+  "hora": "08:00",
+  "documento": "documentos/ufvjm-101-2026/Área 101.4.pdf",
+  "item": "2.2, cronograma previsto",
+  "pagina": 1,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2027-01-25",
+   "hora": "08:00"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Sessão de Abertura da prova didática",
+   "data": "25/01/2027 (segunda), às 08:00",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      2
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ufvjm-101-2026#ev-0036",
+  "estrato": "datada/sorteio_tema",
+  "peso": 7.785714285714286,
+  "concurso": "ufvjm-101-2026",
+  "nome": "UFVJM 101/2026",
+  "evento_id": "ev-0036",
+  "tipo_evento": "sorteio_tema",
+  "etapa": "didatica",
+  "fase": null,
+  "escopo": [
+   "101.4"
+  ],
+  "descricao": "Sorteio do tema da prova didática",
+  "forma": "fixa",
+  "inicio": "2027-01-25",
+  "fim": "2027-01-25",
+  "hora": "09:00",
+  "documento": "documentos/ufvjm-101-2026/Área 101.4.pdf",
+  "item": "2.2, cronograma previsto",
+  "pagina": 1,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2027-01-25",
+   "hora": "09:00"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Sorteio do tema da prova didática",
+   "data": "25/01/2027 (segunda), às 09:00",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      7,
+      1
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ufvjm-101-2026#ev-0144",
+  "estrato": "nao_datada/entrega_documento",
+  "peso": 31.428571428571427,
+  "concurso": "ufvjm-101-2026",
+  "nome": "UFVJM 101/2026",
+  "evento_id": "ev-0144",
+  "tipo_evento": "entrega_documento",
+  "etapa": "titulos",
+  "fase": null,
+  "escopo": [
+   "101.23"
+  ],
+  "descricao": "Entrega do barema e dos comprovantes para avaliação de títulos",
+  "forma": "condicionada",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/ufvjm-101-2026/Área 101.23.pdf",
+  "item": "6.2",
+  "pagina": 3,
+  "data_extraida": {
+   "forma": "condicionada",
+   "condicao_literal": "na sessão de abertura da prova didática"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Entrega do barema e dos comprovantes para avaliação de títulos",
+   "data": "na sessão de abertura da prova didática",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "fim",
+     [
+      15,
+      7,
+      3
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ufvjm-101-2026#ev-0029",
+  "estrato": "nao_datada/prova",
+  "peso": 27.0,
+  "concurso": "ufvjm-101-2026",
+  "nome": "UFVJM 101/2026",
+  "evento_id": "ev-0029",
+  "tipo_evento": "prova",
+  "etapa": "didatica",
+  "fase": null,
+  "escopo": [
+   "101.3"
+  ],
+  "descricao": "Prova didática (data a divulgar no cronograma da área)",
+  "forma": "condicionada",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/ufvjm-101-2026/Área 101.3 - Interdisciplinar, Sociologia.pdf",
+  "item": "2.2",
+  "pagina": 2,
+  "data_extraida": {
+   "forma": "condicionada",
+   "condicao_literal": "O cronograma será divulgado na página destinada ao concurso com antecedência mínima de 10 (dez) dias úteis da realização da primeira prova"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Prova didática (data a divulgar no cronograma da área)",
+   "data": "O cronograma será divulgado na página destinada ao concurso com antecedência mínima de 10 (dez) dias úteis da realização da primeira prova",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      30,
+      15,
+      7,
+      2
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ufvjm-101-2026#ev-0054",
+  "estrato": "nao_datada/prova",
+  "peso": 27.0,
+  "concurso": "ufvjm-101-2026",
+  "nome": "UFVJM 101/2026",
+  "evento_id": "ev-0054",
+  "tipo_evento": "prova",
+  "etapa": "pratica",
+  "fase": null,
+  "escopo": [
+   "101.8"
+  ],
+  "descricao": "Prova prática (data a divulgar no cronograma da área)",
+  "forma": "condicionada",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/ufvjm-101-2026/Área 101.8 - Farmácia - Cuidado Farmacêutico.pdf",
+  "item": "2.2",
+  "pagina": 2,
+  "data_extraida": {
+   "forma": "condicionada",
+   "condicao_literal": "O cronograma será divulgado na página destinada ao concurso com antecedência mínima de 10 (dez) dias úteis da realização da primeira prova"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Prova prática (data a divulgar no cronograma da área)",
+   "data": "O cronograma será divulgado na página destinada ao concurso com antecedência mínima de 10 (dez) dias úteis da realização da primeira prova",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      30,
+      15,
+      7,
+      2
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ufpel-028-2026#ev-0022",
+  "estrato": "datada/prova",
+  "peso": 8.96875,
+  "concurso": "ufpel-028-2026",
+  "nome": "UFPel 028/2026",
+  "evento_id": "ev-0022",
+  "tipo_evento": "prova",
+  "etapa": "pratica",
+  "fase": null,
+  "escopo": [
+   "21",
+   "26"
+  ],
+  "descricao": "Período de Provas (faixa geral de todas as provas; a data da Prova Prática sai no cronograma específico da área)",
+  "forma": "janela",
+  "inicio": "2026-11-23",
+  "fim": "2026-12-11",
+  "hora": null,
+  "documento": "documentos/ufpel-028-2026/51 - Edital de abertura 028-2026.pdf",
+  "item": "6.3",
+  "pagina": 8,
+  "data_extraida": {
+   "forma": "janela",
+   "inicio": {
+    "data": "2026-11-23"
+   },
+   "fim": {
+    "data": "2026-12-11"
+   }
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Período de Provas",
+   "data": "período provável de 23/11/2026 (segunda) a 11/12/2026 (sexta)",
+   "agendado": false,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      30,
+      15,
+      7,
+      2
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ufpel-028-2026#ev-0008",
+  "estrato": "nao_datada/outro",
+  "peso": 20.25,
+  "concurso": "ufpel-028-2026",
+  "nome": "UFPel 028/2026",
+  "evento_id": "ev-0008",
+  "tipo_evento": "outro",
+  "etapa": null,
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Enviar o formulário (inciso II) e a documentação (inciso III) da reserva para pessoas com deficiência até o primeiro dia útil após o encerramento das inscrições",
+  "forma": "relativa",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/ufpel-028-2026/51 - Edital de abertura 028-2026.pdf",
+  "item": "4.9.2, IV",
+  "pagina": 6,
+  "data_extraida": {
+   "forma": "relativa",
+   "quantidade": 1,
+   "unidade": "dias_uteis",
+   "evento_ancora": "encerramento das inscrições (inscricao)",
+   "sentido": "apos"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Enviar o formulário (inciso II) e a documentação (inciso III) da reserva para pessoas com deficiência até o primeiro dia útil após o encerramento das inscrições",
+   "data": "1 dias úteis depois de encerramento das inscrições",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      2
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ufpel-028-2026#ev-0009",
+  "estrato": "nao_datada/outro",
+  "peso": 20.25,
+  "concurso": "ufpel-028-2026",
+  "nome": "UFPel 028/2026",
+  "evento_id": "ev-0009",
+  "tipo_evento": "outro",
+  "etapa": null,
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Solicitação de atendimento diferenciado: todo o material deve ser enviado por meio do formulário online até o dia seguinte ao término das inscrições",
+  "forma": "relativa",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/ufpel-028-2026/51 - Edital de abertura 028-2026.pdf",
+  "item": "7.1",
+  "pagina": 19,
+  "data_extraida": {
+   "forma": "relativa",
+   "quantidade": 1,
+   "unidade": "dias_corridos",
+   "evento_ancora": "término das inscrições (inscricao)",
+   "sentido": "apos"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Solicitação de atendimento diferenciado: todo o material deve ser enviado por meio do formulário online até o dia seguinte ao término das inscrições",
+   "data": "1 dias depois de término das inscrições",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      2
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ufpel-028-2026#ev-0030",
+  "estrato": "nao_datada/procedimento_cotas",
+  "peso": 31.833333333333332,
+  "concurso": "ufpel-028-2026",
+  "nome": "UFPel 028/2026",
+  "evento_id": "ev-0030",
+  "tipo_evento": "procedimento_cotas",
+  "etapa": null,
+  "fase": "convocacao",
+  "escopo": "geral",
+  "descricao": "Comunicado/convocação dos candidatos cotistas para realização dos procedimentos complementares de confirmação das autodeclarações",
+  "forma": "condicionada",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/ufpel-028-2026/54 - Cronograma geral do certame.pdf",
+  "item": "Cronograma, item 11",
+  "pagina": 1,
+  "data_extraida": {
+   "forma": "condicionada",
+   "condicao_literal": "Após a publicação do resultado dos recursos, conforme convocação"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Comunicado/convocação dos candidatos cotistas para realização dos procedimentos complementares de confirmação das autodeclarações",
+   "data": "Após a publicação do resultado dos recursos, conforme convocação",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      2,
+      0
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "uftm-28-2026#ev-0050",
+  "estrato": "datada/sorteio_turma",
+  "peso": 1.0,
+  "concurso": "uftm-28-2026",
+  "nome": "UFTM 28/2026",
+  "evento_id": "ev-0050",
+  "tipo_evento": "sorteio_turma",
+  "etapa": "didatica",
+  "fase": null,
+  "escopo": [
+   "02"
+  ],
+  "descricao": "SESSÃO PÚBLICA DE SORTEIO DOS CANDIDATOS POR TURMAS DE APRESENTAÇÃO DA PROVA DIDÁTICA",
+  "forma": "fixa",
+  "inicio": "2026-10-20",
+  "fim": "2026-10-20",
+  "hora": "13:15",
+  "documento": "documentos/uftm-28-2026/58 - Banca examinadora, sorteios e cronograma - Lotação 02.pdf",
+  "item": "sorteio de turmas",
+  "pagina": 2,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-10-20",
+   "hora": "13:15"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "SESSÃO PÚBLICA DE SORTEIO DOS CANDIDATOS POR TURMAS DE APRESENTAÇÃO DA PROVA DIDÁTICA",
+   "data": "20/10/2026 (terça), às 13:15",
+   "agendado": false,
+   "regra_antecedencia": null
+  }
+ },
+ {
+  "id": "uftm-28-2026#ev-0035",
+  "estrato": "nao_datada/procedimento_cotas",
+  "peso": 31.833333333333332,
+  "concurso": "uftm-28-2026",
+  "nome": "UFTM 28/2026",
+  "evento_id": "ev-0035",
+  "tipo_evento": "procedimento_cotas",
+  "etapa": null,
+  "fase": "convocacao",
+  "escopo": "geral",
+  "descricao": "Divulgação dos candidatos indígenas e quilombolas habilitados para o procedimento de verificação documental complementar, informando a data e outras orientações.",
+  "forma": "condicionada",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/uftm-28-2026/51 - Edital 28-2026 - abertura (20-07-2026).pdf",
+  "item": "cronograma, item 4",
+  "pagina": 3,
+  "data_extraida": {
+   "forma": "condicionada",
+   "condicao_literal": "Após a divulgação do resultado preliminar e de acordo com o cronograma de cada lotação."
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Divulgação dos candidatos indígenas e quilombolas habilitados para o procedimento de verificação documental complementar, informando a data e outras orientações",
+   "data": "Após a divulgação do resultado preliminar e de acordo com o cronograma de cada lotação.",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      2,
+      0
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "uftm-28-2026#ev-0013",
+  "estrato": "nao_datada/sorteio_reserva",
+  "peso": 1.0,
+  "concurso": "uftm-28-2026",
+  "nome": "UFTM 28/2026",
+  "evento_id": "ev-0013",
+  "tipo_evento": "sorteio_reserva",
+  "etapa": null,
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Divulgação da data de realização, horário e link para o sorteio público das vagas de cotas.",
+  "forma": "condicionada",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/uftm-28-2026/51 - Edital 28-2026 - abertura (20-07-2026).pdf",
+  "item": "cronograma, item 4",
+  "pagina": 2,
+  "data_extraida": {
+   "forma": "condicionada",
+   "condicao_literal": "Após a divulgação da lista final das inscrições homologadas."
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Divulgação da data de realização, horário e link para o sorteio público das vagas de cotas",
+   "data": "Após a divulgação da lista final das inscrições homologadas.",
+   "agendado": false,
+   "regra_antecedencia": null
+  }
+ },
+ {
+  "id": "unesp-ict-163-2026#ev-0010",
+  "estrato": "nao_datada/convocacao",
+  "peso": 15.0,
+  "concurso": "unesp-ict-163-2026",
+  "nome": "UNESP 163/2026 - ICT/CSJC",
+  "evento_id": "ev-0010",
+  "tipo_evento": "convocacao",
+  "etapa": "escrita",
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Convocação para as provas, publicada no Diário Oficial do Estado e disponibilizada no Sistema de Inscrições, com pelo menos 05 (cinco) dias úteis de antecedência",
+  "forma": "relativa",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/unesp-assistente-2026/53 - Edital 163-2026 ICT-CSJC - Odontologia - São José dos Campos (DOE-SP 21-08-2026).html",
+  "item": "10.1",
+  "pagina": null,
+  "data_extraida": {
+   "forma": "relativa",
+   "quantidade": 5,
+   "unidade": "dias_uteis",
+   "evento_ancora": "data de realização da prova",
+   "sentido": "antes"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Convocação para as provas, publicada no Diário Oficial do Estado e disponibilizada no Sistema de Inscrições, com pelo menos 05 (cinco) dias úteis de antecedência",
+   "data": "5 dias úteis antes de data de realização da prova",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      2,
+      0
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "unesp-ict-163-2026#ev-0009",
+  "estrato": "nao_datada/impugnacao_banca",
+  "peso": 31.666666666666668,
+  "concurso": "unesp-ict-163-2026",
+  "nome": "UNESP 163/2026 - ICT/CSJC",
+  "evento_id": "ev-0009",
+  "tipo_evento": "impugnacao_banca",
+  "etapa": null,
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Impugnação do nome de um ou mais membros da Banca Examinadora, titulares ou suplentes, ao Diretor da Unidade, pelo Sistema de Inscrições",
+  "forma": "relativa",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/unesp-assistente-2026/53 - Edital 163-2026 ICT-CSJC - Odontologia - São José dos Campos (DOE-SP 21-08-2026).html",
+  "item": "9.3",
+  "pagina": null,
+  "data_extraida": {
+   "forma": "relativa",
+   "quantidade": 2,
+   "unidade": "dias_uteis",
+   "evento_ancora": "publicação da composição provisória da Banca Examinadora no Diário Oficial e disponibilização no Sistema de Inscrições (portaria_banca)",
+   "sentido": "apos"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Impugnação do nome de um ou mais membros da Banca Examinadora, titulares ou suplentes, ao Diretor da Unidade, pelo Sistema de Inscrições",
+   "data": "2 dias úteis depois de publicação da composição provisória da Banca Examinadora no Diário Oficial e disponibilização no Sistema de Inscrições",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "fim",
+     [
+      1
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "unimontes-03-2026#ev-0010",
+  "estrato": "datada/inscricao",
+  "peso": 7.1,
+  "concurso": "unimontes-03-2026",
+  "nome": "UNIMONTES 03/2026",
+  "evento_id": "ev-0010",
+  "tipo_evento": "inscricao",
+  "etapa": null,
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "inscrições exclusivamente pela internet, no período das 8h00 do dia 24/08/2026 às 23h59 do dia 24/10/2026",
+  "forma": "janela",
+  "inicio": "2026-08-24",
+  "fim": "2026-10-24",
+  "hora": "08:00",
+  "documento": "documentos/unimontes-2026/06 - Edital 03-2026 - Retificação 1 (História).pdf",
+  "item": "III (subsubitem 4.2.1, leia-se)",
+  "pagina": 1,
+  "data_extraida": {
+   "forma": "janela",
+   "inicio": {
+    "data": "2026-08-24",
+    "hora": "08:00"
+   },
+   "fim": {
+    "data": "2026-10-24",
+    "hora": "23:59"
+   }
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Inscrições exclusivamente pela internet, no período das 8h00 do dia 24/08/2026 às 23h59 do dia 24/10/2026",
+   "data": "de 24/08/2026 (segunda), às 08:00 a 24/10/2026 (sábado), até 23:59",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      0
+     ]
+    ],
+    [
+     "fim",
+     [
+      7,
+      2
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "uerj-229-2026#ev-0013",
+  "estrato": "datada/outro",
+  "peso": 8.176470588235293,
+  "concurso": "uerj-229-2026",
+  "nome": "UERJ Seleção 2026/229",
+  "evento_id": "ev-0013",
+  "tipo_evento": "outro",
+  "etapa": "escrita",
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Leitura da prova escrita - 03/11/2026, às 14h",
+  "forma": "fixa",
+  "inicio": "2026-11-03",
+  "fim": "2026-11-03",
+  "hora": "14:00",
+  "documento": "documentos/uerj-2026/06 - Seleção 2026-229 - Edital.pdf",
+  "item": "11.1, k",
+  "pagina": 9,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-11-03",
+   "hora": "14:00"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Leitura da prova escrita - 03/11/2026, às 14h",
+   "data": "03/11/2026 (terça), às 14:00",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      2
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "usp-if-58-2026#ev-0016",
+  "estrato": "nao_datada/homologacao_resultado",
+  "peso": 16.0,
+  "concurso": "usp-if-58-2026",
+  "nome": "USP IF 58/2026",
+  "evento_id": "ev-0016",
+  "tipo_evento": "homologacao_resultado",
+  "etapa": null,
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Apreciação do relatório da Comissão Julgadora pela Congregação, para fins de homologação, após exame formal; decisão e relatório publicados no prazo de 5 (cinco) dias úteis",
+  "forma": "condicionada",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/usp-if-58-2026/01 - Edital IF-58-2026 (publicação DOE).pdf",
+  "item": "13",
+  "pagina": 7,
+  "data_extraida": {
+   "forma": "condicionada",
+   "condicao_literal": "no prazo máximo de 90 (noventa) dias; a decisão da Congregação e o relatório da Comissão Julgadora deverão ser publicados no prazo de 5 (cinco) dias úteis"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Apreciação do relatório da Comissão Julgadora pela Congregação, para fins de homologação, após exame formal; decisão e relatório publicados no prazo de 5 (cinco) dias úteis",
+   "data": "no prazo máximo de 90 (noventa) dias; a decisão da Congregação e o relatório da Comissão Julgadora deverão ser publicados no prazo de 5 (cinco) dias úteis",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      0
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "unifesp-417-2026#ev-0006",
+  "estrato": "nao_datada/pagamento",
+  "peso": 11.5,
+  "concurso": "unifesp-417-2026",
+  "nome": "UNIFESP 417/2026",
+  "evento_id": "ev-0006",
+  "tipo_evento": "pagamento",
+  "etapa": null,
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Pagamento da taxa de inscrição por PIX ou cartão de crédito, dentro do período de inscrição",
+  "forma": "condicionada",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/unifesp-2026/Edital 417-2026 - texto integral (HTML).pdf",
+  "item": "Anexo I, 1.1.3.2",
+  "pagina": 26,
+  "data_extraida": {
+   "forma": "condicionada",
+   "condicao_literal": "dentro do período de inscrição, previsto no item 4.4 do edital de abertura"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Pagamento da taxa de inscrição por PIX ou cartão de crédito, dentro do período de inscrição",
+   "data": "dentro do período de inscrição, previsto no item 4.4 do edital de abertura",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "fim",
+     [
+      2
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "usp-fm-167-2026#ev-0010",
+  "estrato": "nao_datada/recurso",
+  "peso": 39.214285714285715,
+  "concurso": "usp-fm-167-2026",
+  "nome": "FMUSP DVACAD/FM/167/2026",
+  "evento_id": "ev-0010",
+  "tipo_evento": "recurso",
+  "etapa": null,
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "recurso contra a apreciação das inscrições pela Congregação, no que tange aos requisitos formais, contado da publicação do ato no Diário Oficial do Estado, sob pena de preclusão",
+  "forma": "relativa",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/usp-fm-199-2026/Edital DVACAD-FM-167-2026.pdf",
+  "item": "15, II",
+  "pagina": 7,
+  "data_extraida": {
+   "forma": "relativa",
+   "quantidade": 10,
+   "unidade": "dias_corridos",
+   "evento_ancora": "publicação no Diário Oficial do Estado da apreciação das inscrições (homologacao_inscricoes)",
+   "sentido": "apos"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Recurso contra a apreciação das inscrições pela Congregação, no que tange aos requisitos formais, contado da publicação do ato no Diário Oficial do Estado, sob pena de preclusão",
+   "data": "10 dias depois de publicação no Diário Oficial do Estado da apreciação das inscrições",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      0
+     ]
+    ],
+    [
+     "fim",
+     [
+      1
+     ]
+    ]
+   ]
+  }
+ }
+]

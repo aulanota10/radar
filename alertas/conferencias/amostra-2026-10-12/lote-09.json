@@ -1,0 +1,1034 @@
+[
+ {
+  "id": "unila-204-2026#ev-0055",
+  "estrato": "datada/procedimento_cotas",
+  "peso": 7.2727272727272725,
+  "concurso": "unila-204-2026",
+  "nome": "UNILA 204/2026",
+  "evento_id": "ev-0055",
+  "tipo_evento": "procedimento_cotas",
+  "etapa": null,
+  "fase": "convocacao",
+  "escopo": [
+   "01"
+  ],
+  "descricao": "Previsão para bancas de verificação das condições autodeclaradas.",
+  "forma": "fixa",
+  "inicio": "2026-10-23",
+  "fim": "2026-10-23",
+  "hora": null,
+  "documento": "documentos/unila-204-2026/0a604de4c967f5ce64c26ee0c9e87434ecbac42e1ad973bcf745a111be0c6f2517851613805062546542650317242705.pdf",
+  "item": "2, cronograma das bancas de ações afirmativas",
+  "pagina": 2,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-10-23"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Previsão para bancas de verificação das condições autodeclaradas",
+   "data": "23/10/2026 (sexta)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      2,
+      0
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "unila-204-2026#ev-0072",
+  "estrato": "datada/prova",
+  "peso": 8.96875,
+  "concurso": "unila-204-2026",
+  "nome": "UNILA 204/2026",
+  "evento_id": "ev-0072",
+  "tipo_evento": "prova",
+  "etapa": "didatica",
+  "fase": null,
+  "escopo": [
+   "02"
+  ],
+  "descricao": "Prova Didática (21/10, das 8h às 12h)",
+  "forma": "janela",
+  "inicio": "2026-10-21",
+  "fim": "2026-10-21",
+  "hora": "08:00",
+  "documento": "documentos/unila-204-2026/373cbc4f58883a5f8c64bb2a26688b2f826c6d0c23461b82f1f1b98a144a388c17851604899667525544394398738217.pdf",
+  "item": "2, cronograma prévio das provas",
+  "pagina": 2,
+  "data_extraida": {
+   "forma": "janela",
+   "inicio": {
+    "data": "2026-10-21",
+    "hora": "08:00"
+   },
+   "fim": {
+    "data": "2026-10-21",
+    "hora": "12:00"
+   }
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Prova Didática (21/10, das 8h às 12h)",
+   "data": "21/10/2026 (quarta), das 08:00 às 12:00",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      30,
+      15,
+      7,
+      2
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "unila-204-2026#ev-0048",
+  "estrato": "datada/prova",
+  "peso": 8.96875,
+  "concurso": "unila-204-2026",
+  "nome": "UNILA 204/2026",
+  "evento_id": "ev-0048",
+  "tipo_evento": "prova",
+  "etapa": "escrita",
+  "fase": null,
+  "escopo": [
+   "01"
+  ],
+  "descricao": "Prova escrita: horário de fechamento das salas no primeiro dia do concurso (Edital 259/2026)",
+  "forma": "fixa",
+  "inicio": "2026-10-19",
+  "fim": "2026-10-19",
+  "hora": "09:00",
+  "documento": "documentos/unila-204-2026/d9cd10bee6558840d16005a4fbe0ee2203b71a6db4e40ee18586192720842a0c17914843610532208456918381203946.pdf",
+  "item": "1.3 e 1.2.1",
+  "pagina": 2,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-10-19",
+   "hora": "09:00"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Prova escrita: horário de fechamento das salas no primeiro dia do concurso",
+   "data": "19/10/2026 (segunda), às 09:00",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      30,
+      15,
+      7,
+      2
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "unila-204-2026#ev-0074",
+  "estrato": "datada/prova",
+  "peso": 8.96875,
+  "concurso": "unila-204-2026",
+  "nome": "UNILA 204/2026",
+  "evento_id": "ev-0074",
+  "tipo_evento": "prova",
+  "etapa": "projeto",
+  "fase": null,
+  "escopo": [
+   "02"
+  ],
+  "descricao": "Defesa da Proposta de Atuação Acadêmica",
+  "forma": "janela",
+  "inicio": "2026-10-22",
+  "fim": "2026-10-22",
+  "hora": "08:00",
+  "documento": "documentos/unila-204-2026/373cbc4f58883a5f8c64bb2a26688b2f826c6d0c23461b82f1f1b98a144a388c17851604899667525544394398738217.pdf",
+  "item": "2, cronograma prévio das provas",
+  "pagina": 2,
+  "data_extraida": {
+   "forma": "janela",
+   "inicio": {
+    "data": "2026-10-22",
+    "hora": "08:00"
+   },
+   "fim": {
+    "data": "2026-10-22",
+    "hora": "18:00"
+   }
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Defesa da Proposta de Atuação Acadêmica",
+   "data": "22/10/2026 (quinta), das 08:00 às 18:00",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      30,
+      15,
+      7,
+      2
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "unila-204-2026#ev-0070",
+  "estrato": "datada/resultado",
+  "peso": 8.590909090909092,
+  "concurso": "unila-204-2026",
+  "nome": "UNILA 204/2026",
+  "evento_id": "ev-0070",
+  "tipo_evento": "resultado",
+  "etapa": "escrita",
+  "fase": null,
+  "escopo": [
+   "02"
+  ],
+  "descricao": "Resultado da Prova Escrita",
+  "forma": "fixa",
+  "inicio": "2026-10-20",
+  "fim": "2026-10-20",
+  "hora": "12:00",
+  "documento": "documentos/unila-204-2026/373cbc4f58883a5f8c64bb2a26688b2f826c6d0c23461b82f1f1b98a144a388c17851604899667525544394398738217.pdf",
+  "item": "2, cronograma prévio das provas",
+  "pagina": 2,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-10-20",
+   "hora": "12:00"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Resultado da Prova Escrita",
+   "data": "20/10/2026 (terça), às 12:00",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      2,
+      0
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "unila-204-2026#ev-0029",
+  "estrato": "datada/resultado",
+  "peso": 8.590909090909092,
+  "concurso": "unila-204-2026",
+  "nome": "UNILA 204/2026",
+  "evento_id": "ev-0029",
+  "tipo_evento": "resultado",
+  "etapa": "escrita",
+  "fase": null,
+  "escopo": [
+   "03"
+  ],
+  "descricao": "Resultado da Prova Escrita",
+  "forma": "fixa",
+  "inicio": "2026-10-20",
+  "fim": "2026-10-20",
+  "hora": "12:00",
+  "documento": "documentos/unila-204-2026/03 - Edital de conteúdo específico 205-2026 (Mediação Cultural).pdf",
+  "item": "2, cronograma prévio das provas",
+  "pagina": 2,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-10-20",
+   "hora": "12:00"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Resultado da Prova Escrita",
+   "data": "20/10/2026 (terça), às 12:00",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      2,
+      0
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "unila-204-2026#ev-0062",
+  "estrato": "datada/resultado_final",
+  "peso": 7.111111111111111,
+  "concurso": "unila-204-2026",
+  "nome": "UNILA 204/2026",
+  "evento_id": "ev-0062",
+  "tipo_evento": "resultado_final",
+  "etapa": null,
+  "fase": "preliminar",
+  "escopo": [
+   "01"
+  ],
+  "descricao": "Resultado",
+  "forma": "fixa",
+  "inicio": "2026-10-23",
+  "fim": "2026-10-23",
+  "hora": "18:00",
+  "documento": "documentos/unila-204-2026/0a604de4c967f5ce64c26ee0c9e87434ecbac42e1ad973bcf745a111be0c6f2517851613805062546542650317242705.pdf",
+  "item": "2, cronograma prévio das provas",
+  "pagina": 2,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-10-23",
+   "hora": "18:00"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Resultado",
+   "data": "23/10/2026 (sexta), às 18:00",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      0
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ufsm-221-2026#ev-0054",
+  "estrato": "datada/inscricao",
+  "peso": 7.1,
+  "concurso": "ufsm-221-2026",
+  "nome": "UFSM 221/2026",
+  "evento_id": "ev-0054",
+  "tipo_evento": "inscricao",
+  "etapa": null,
+  "fase": null,
+  "escopo": [
+   "02"
+  ],
+  "descricao": "inscrições para a área de Ciências da Saúde/Medicina/Anestesiologia abertas por mais 30 (trinta dias) a partir de 28/09/2026, nos termos do subitem 3.5",
+  "forma": "janela",
+  "inicio": "2026-09-28",
+  "fim": "2026-10-27",
+  "hora": "09:00",
+  "documento": "documentos/ufsm-221-2026/09 - Comunicado de prorrogação - Anestesiologia (28-09 a 27-10).pdf",
+  "item": "comunicado",
+  "pagina": 1,
+  "data_extraida": {
+   "forma": "janela",
+   "inicio": {
+    "data": "2026-09-28",
+    "hora": "09:00"
+   },
+   "fim": {
+    "data": "2026-10-27",
+    "hora": "23:59"
+   }
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Inscrições para a área de Ciências da Saúde/Medicina/Anestesiologia abertas por mais 30 (trinta dias) a partir de 28/09/2026, nos termos do subitem 3.5",
+   "data": "de 28/09/2026 (segunda), às 09:00 a 27/10/2026 (terça), até 23:59",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      0
+     ]
+    ],
+    [
+     "fim",
+     [
+      7,
+      2
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ufsm-221-2026#ev-0057",
+  "estrato": "nao_datada/homologacao_inscricoes",
+  "peso": 13.666666666666666,
+  "concurso": "ufsm-221-2026",
+  "nome": "UFSM 221/2026",
+  "evento_id": "ev-0057",
+  "tipo_evento": "homologacao_inscricoes",
+  "etapa": null,
+  "fase": "preliminar",
+  "escopo": [
+   "02"
+  ],
+  "descricao": "Listagem preliminar de inscrições homologadas da área de Anestesiologia",
+  "forma": "condicionada",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/ufsm-221-2026/List. prel. 221.2026 -exceto rea de Anestesiologia.pdf",
+  "item": "texto",
+  "pagina": 1,
+  "data_extraida": {
+   "forma": "condicionada",
+   "condicao_literal": "será publicada oportunamente, tendo em vista a prorrogação do período de inscrições"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Listagem preliminar de inscrições homologadas da área de Anestesiologia",
+   "data": "será publicada oportunamente, tendo em vista a prorrogação do período de inscrições",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      2,
+      0
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ufsm-221-2026#ev-0038",
+  "estrato": "nao_datada/procedimento_cotas",
+  "peso": 31.833333333333332,
+  "concurso": "ufsm-221-2026",
+  "nome": "UFSM 221/2026",
+  "evento_id": "ev-0038",
+  "tipo_evento": "procedimento_cotas",
+  "etapa": null,
+  "fase": "resultado",
+  "escopo": "geral",
+  "descricao": "O resultado das avaliações da equipe multiprofissional e interdisciplinar será divulgado por Edital na página do concurso público",
+  "forma": "condicionada",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/ufsm-221-2026/02 - Edital de abertura 221-2026 (publicação original DOU 24-08-2026).pdf",
+  "item": "4.17",
+  "pagina": 2,
+  "data_extraida": {
+   "forma": "condicionada",
+   "condicao_literal": "por Edital na página do concurso público"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "O resultado das avaliações da equipe multiprofissional e interdisciplinar será divulgado por Edital na página do concurso público",
+   "data": "por Edital na página do concurso público",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      2,
+      0
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ufsm-221-2026#ev-0025",
+  "estrato": "nao_datada/prova",
+  "peso": 27.0,
+  "concurso": "ufsm-221-2026",
+  "nome": "UFSM 221/2026",
+  "evento_id": "ev-0025",
+  "tipo_evento": "prova",
+  "etapa": "didatica",
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Prova Didática (2ª Etapa)",
+  "forma": "condicionada",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/ufsm-221-2026/02 - Edital de abertura 221-2026 (publicação original DOU 24-08-2026).pdf",
+  "item": "15.3",
+  "pagina": 7,
+  "data_extraida": {
+   "forma": "condicionada",
+   "condicao_literal": "O cronograma de cada etapa do certame será publicado e atualizado na página do concurso"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Prova Didática (2ª Etapa)",
+   "data": "O cronograma de cada etapa do certame será publicado e atualizado na página do concurso",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      30,
+      15,
+      7,
+      2
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ufrn-108-2026#ev-0010",
+  "estrato": "datada/homologacao_inscricoes",
+  "peso": 6.714285714285714,
+  "concurso": "ufrn-108-2026",
+  "nome": "UFRN 108/2026-PROGESP",
+  "evento_id": "ev-0010",
+  "tipo_evento": "homologacao_inscricoes",
+  "etapa": null,
+  "fase": "preliminar",
+  "escopo": "geral",
+  "descricao": "Divulgação da relação preliminar de inscritos (ampla concorrência, pessoa com deficiência, pretos, pardos, indígenas, quilombolas e condições especiais)",
+  "forma": "fixa",
+  "inicio": "2026-11-06",
+  "fim": "2026-11-06",
+  "hora": null,
+  "documento": "documentos/ufrn-108-2026/01 - Edital de abertura 108-2026 (DOU 175, retificado em 22-09-2026).pdf",
+  "item": "Anexo II",
+  "pagina": 31,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-11-06"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Divulgação da relação preliminar de inscritos (ampla concorrência, pessoa com deficiência, pretos, pardos, indígenas, quilombolas e condições especiais)",
+   "data": "06/11/2026 (sexta)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      2,
+      0
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ufrn-108-2026#ev-0005",
+  "estrato": "datada/inscricao",
+  "peso": 7.1,
+  "concurso": "ufrn-108-2026",
+  "nome": "UFRN 108/2026-PROGESP",
+  "evento_id": "ev-0005",
+  "tipo_evento": "inscricao",
+  "etapa": null,
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Inscrições",
+  "forma": "janela",
+  "inicio": "2026-09-28",
+  "fim": "2026-10-23",
+  "hora": null,
+  "documento": "documentos/ufrn-108-2026/01 - Edital de abertura 108-2026 (DOU 175, retificado em 22-09-2026).pdf",
+  "item": "9.1",
+  "pagina": 10,
+  "data_extraida": {
+   "forma": "janela",
+   "inicio": {
+    "data": "2026-09-28"
+   },
+   "fim": {
+    "data": "2026-10-23"
+   }
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Inscrições",
+   "data": "período provável de 28/09/2026 (segunda) a 23/10/2026 (sexta)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      0
+     ]
+    ],
+    [
+     "fim",
+     [
+      7,
+      2
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ufrn-108-2026#ev-0003",
+  "estrato": "nao_datada/impugnacao_edital_resultado",
+  "peso": 16.0,
+  "concurso": "ufrn-108-2026",
+  "nome": "UFRN 108/2026-PROGESP",
+  "evento_id": "ev-0003",
+  "tipo_evento": "impugnacao_edital_resultado",
+  "etapa": null,
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "O pedido de impugnação será analisado no prazo de 5 (cinco) dias corridos, podendo ser estendido até o dobro do período inicial",
+  "forma": "relativa",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/ufrn-108-2026/01 - Edital de abertura 108-2026 (DOU 175, retificado em 22-09-2026).pdf",
+  "item": "1.4.1",
+  "pagina": 1,
+  "data_extraida": {
+   "forma": "relativa",
+   "quantidade": 5,
+   "unidade": "dias_corridos",
+   "evento_ancora": "pedido de impugnação do edital",
+   "sentido": "apos"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "O pedido de impugnação será analisado no prazo de 5 (cinco) dias corridos, podendo ser estendido até o dobro do período inicial",
+   "data": "5 dias depois de pedido de impugnação do edital",
+   "agendado": false,
+   "regra_antecedencia": null
+  }
+ },
+ {
+  "id": "uerj-231-2026#ev-0010",
+  "estrato": "datada/portaria_banca",
+  "peso": 5.4,
+  "concurso": "uerj-231-2026",
+  "nome": "UERJ Seleção 2026/231",
+  "evento_id": "ev-0010",
+  "tipo_evento": "portaria_banca",
+  "etapa": null,
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Divulgação da lista dos candidatos inscritos (no sistema PROSSIM) e da composição da Comissão Examinadora - 14/10/2026, às 16h.",
+  "forma": "fixa",
+  "inicio": "2026-10-14",
+  "fim": "2026-10-14",
+  "hora": "16:00",
+  "documento": "documentos/uerj-2026/08 - Seleção 2026-231 - Edital.pdf",
+  "item": "11.1, h",
+  "pagina": 9,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-10-14",
+   "hora": "16:00"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Divulgação da lista dos candidatos inscritos (no sistema PROSSIM) e da composição da Comissão Examinadora - 14/10/2026, às 16h",
+   "data": "14/10/2026 (quarta), às 16:00",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      2,
+      0
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "uerj-231-2026#ev-0021",
+  "estrato": "datada/resultado",
+  "peso": 8.590909090909092,
+  "concurso": "uerj-231-2026",
+  "nome": "UERJ Seleção 2026/231",
+  "evento_id": "ev-0021",
+  "tipo_evento": "resultado",
+  "etapa": "didatica",
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Resultado da prova de aula - 11/11/2026, às 13 h.",
+  "forma": "fixa",
+  "inicio": "2026-11-11",
+  "fim": "2026-11-11",
+  "hora": "13:00",
+  "documento": "documentos/uerj-2026/08 - Seleção 2026-231 - Edital.pdf",
+  "item": "11.1, p",
+  "pagina": 9,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-11-11",
+   "hora": "13:00"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Resultado da prova de aula - 11/11/2026, às 13 h",
+   "data": "11/11/2026 (quarta), às 13:00",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      2,
+      0
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "uerj-231-2026#ev-0013",
+  "estrato": "datada/sorteio_tema",
+  "peso": 7.785714285714286,
+  "concurso": "uerj-231-2026",
+  "nome": "UERJ Seleção 2026/231",
+  "evento_id": "ev-0013",
+  "tipo_evento": "sorteio_tema",
+  "etapa": "escrita",
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Sorteio do ponto para a prova escrita - 09/11/2026, às 8 h.",
+  "forma": "fixa",
+  "inicio": "2026-11-09",
+  "fim": "2026-11-09",
+  "hora": "08:00",
+  "documento": "documentos/uerj-2026/08 - Seleção 2026-231 - Edital.pdf",
+  "item": "11.1, i",
+  "pagina": 9,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-11-09",
+   "hora": "08:00"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Sorteio do ponto para a prova escrita - 09/11/2026, às 8 h",
+   "data": "09/11/2026 (segunda), às 08:00",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      7,
+      1
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "unimontes-24-2026#ev-0009",
+  "estrato": "datada/prova",
+  "peso": 8.96875,
+  "concurso": "unimontes-24-2026",
+  "nome": "Unimontes 24/2026",
+  "evento_id": "ev-0009",
+  "tipo_evento": "prova",
+  "etapa": "escrita",
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Prova de Conhecimentos, correspondente à prova escrita do Concurso, no dia 21/02/2027, no turno vespertino, em local e horário a serem divulgados por ato próprio",
+  "forma": "fixa",
+  "inicio": "2027-02-21",
+  "fim": "2027-02-21",
+  "hora": null,
+  "documento": "documentos/unimontes-2026/53 - Edital 24-2026 - Retificação 1 (Clínica Médica).pdf",
+  "item": "I (1.12)",
+  "pagina": 1,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2027-02-21"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Prova de Conhecimentos, correspondente à prova escrita do Concurso, no dia 21/02/2027, no turno vespertino, em local e horário a serem divulgados por ato próprio",
+   "data": "21/02/2027 (domingo)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      30,
+      15,
+      7,
+      2
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "unimontes-24-2026#ev-0005",
+  "estrato": "nao_datada/isencao_resultado",
+  "peso": 16.666666666666668,
+  "concurso": "unimontes-24-2026",
+  "nome": "Unimontes 24/2026",
+  "evento_id": "ev-0005",
+  "tipo_evento": "isencao_resultado",
+  "etapa": null,
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "decisões quanto aos pedidos de isenção comunicadas por meio eletrônico até 10 (dez) dias corridos antes do término do prazo das inscrições",
+  "forma": "relativa",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/unimontes-2026/52 - Edital 24-2026 - Clínica Médica.pdf",
+  "item": "4.4.18",
+  "pagina": 12,
+  "data_extraida": {
+   "forma": "relativa",
+   "quantidade": 10,
+   "unidade": "dias_corridos",
+   "evento_ancora": "término do prazo das inscrições (inscricao)",
+   "sentido": "antes"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Decisões quanto aos pedidos de isenção comunicadas por meio eletrônico até 10 (dez) dias corridos antes do término do prazo das inscrições",
+   "data": "10 dias antes de término do prazo das inscrições",
+   "agendado": false,
+   "regra_antecedencia": null
+  }
+ },
+ {
+  "id": "unifesp-383-2026#ev-0011",
+  "estrato": "nao_datada/recurso",
+  "peso": 39.214285714285715,
+  "concurso": "unifesp-383-2026",
+  "nome": "UNIFESP 383/2026",
+  "evento_id": "ev-0011",
+  "tipo_evento": "recurso",
+  "etapa": null,
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Recurso contra o parecer da comissão de verificação documental complementar de pessoas quilombolas",
+  "forma": "relativa",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/unifesp-2026/Edital 383-2026 - texto integral (HTML).pdf",
+  "item": "7.45.1",
+  "pagina": 16,
+  "data_extraida": {
+   "forma": "relativa",
+   "quantidade": 2,
+   "unidade": "dias_uteis",
+   "evento_ancora": "divulgação do resultado da verificação documental de quilombolas (procedimento_cotas)",
+   "sentido": "apos"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Recurso contra o parecer da comissão de verificação documental complementar de pessoas quilombolas",
+   "data": "2 dias úteis depois de divulgação do resultado da verificação documental de quilombolas",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      0
+     ]
+    ],
+    [
+     "fim",
+     [
+      1
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "unifesp-383-2026#ev-0010",
+  "estrato": "nao_datada/recurso",
+  "peso": 39.214285714285715,
+  "concurso": "unifesp-383-2026",
+  "nome": "UNIFESP 383/2026",
+  "evento_id": "ev-0010",
+  "tipo_evento": "recurso",
+  "etapa": null,
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Recurso contra o parecer da comissão de verificação documental complementar de pessoas indígenas",
+  "forma": "relativa",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/unifesp-2026/Edital 383-2026 - texto integral (HTML).pdf",
+  "item": "7.36",
+  "pagina": 15,
+  "data_extraida": {
+   "forma": "relativa",
+   "quantidade": 2,
+   "unidade": "dias_uteis",
+   "evento_ancora": "divulgação do resultado da verificação documental de indígenas (procedimento_cotas)",
+   "sentido": "apos"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Recurso contra o parecer da comissão de verificação documental complementar de pessoas indígenas",
+   "data": "2 dias úteis depois de divulgação do resultado da verificação documental de indígenas",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      0
+     ]
+    ],
+    [
+     "fim",
+     [
+      1
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "unesp-ibilce-294-2026#ev-0013",
+  "estrato": "nao_datada/entrega_documento",
+  "peso": 31.428571428571427,
+  "concurso": "unesp-ibilce-294-2026",
+  "nome": "UNESP 294/2026",
+  "evento_id": "ev-0013",
+  "tipo_evento": "entrega_documento",
+  "etapa": "didatica",
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "plano de aula e bibliografia pertinentes, anexados no ato da inscrição, com a indicação do ponto ou assunto da prova didática",
+  "forma": "condicionada",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/unesp-titular-2026/56 - Edital 294-2026 CSJRP - Análise Sensorial - São José do Rio Preto (DOE-SP 23-07-2026).html",
+  "item": "4.2",
+  "pagina": null,
+  "data_extraida": {
+   "forma": "condicionada",
+   "condicao_literal": "no ato da inscrição"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Plano de aula e bibliografia pertinentes, anexados no ato da inscrição, com a indicação do ponto ou assunto da prova didática",
+   "data": "no ato da inscrição",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "fim",
+     [
+      15,
+      7,
+      3
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "unifesp-393-2026#ev-0003",
+  "estrato": "nao_datada/impugnacao_edital",
+  "peso": 21.75,
+  "concurso": "unifesp-393-2026",
+  "nome": "UNIFESP 393/2026",
+  "evento_id": "ev-0003",
+  "tipo_evento": "impugnacao_edital",
+  "etapa": null,
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "impugnação do edital, em até 2 dias úteis após o início das inscrições",
+  "forma": "relativa",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/unifesp-2026/65 - Edital 393-2026 - texto integral (HTML).html",
+  "item": "2.1",
+  "pagina": null,
+  "data_extraida": {
+   "forma": "relativa",
+   "quantidade": 2,
+   "unidade": "dias_uteis",
+   "evento_ancora": "início das inscrições (inscricao)",
+   "sentido": "apos"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Impugnação do edital, em até 2 dias úteis após o início das inscrições",
+   "data": "2 dias úteis depois de início das inscrições",
+   "agendado": false,
+   "regra_antecedencia": null
+  }
+ },
+ {
+  "id": "ufmg-1638-2026#ev-0010",
+  "estrato": "nao_datada/recurso",
+  "peso": 39.214285714285715,
+  "concurso": "ufmg-1638-2026",
+  "nome": "UFMG 1638/2026",
+  "evento_id": "ev-0010",
+  "tipo_evento": "recurso",
+  "etapa": null,
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Recursos contra decisão da Comissão Examinadora, à Câmara Departamental ou estrutura equivalente",
+  "forma": "relativa",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/ufmg-1638-2026/01 - Edital nº 1.638-2026 - DCART Cartografia e Geodesia.pdf",
+  "item": "14.1.1",
+  "pagina": 7,
+  "data_extraida": {
+   "forma": "relativa",
+   "quantidade": 10,
+   "unidade": "dias_corridos",
+   "evento_ancora": "divulgação do resultado do concurso na sessão pública final (resultado_final)",
+   "sentido": "apos"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Recursos contra decisão da Comissão Examinadora, à Câmara Departamental ou estrutura equivalente",
+   "data": "10 dias depois de divulgação do resultado do concurso na sessão pública final",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      0
+     ]
+    ],
+    [
+     "fim",
+     [
+      1
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "unesp-fcfar-88-2026#ev-0016",
+  "estrato": "nao_datada/sorteio_tema",
+  "peso": 17.75,
+  "concurso": "unesp-fcfar-88-2026",
+  "nome": "UNESP 88/2026 - DTAd-FCF/CAr",
+  "evento_id": "ev-0016",
+  "tipo_evento": "sorteio_tema",
+  "etapa": "didatica",
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Sorteio do ponto da prova didática no dia da prova escrita, dentre os pontos do edital, excluído o ponto sorteado para a prova escrita",
+  "forma": "condicionada",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/unesp-assistente-2026/131f2d93-6fb4-4e23-ae5f-81eef9935934.pdf",
+  "item": "12.6.1",
+  "pagina": 12,
+  "data_extraida": {
+   "forma": "condicionada",
+   "condicao_literal": "no dia da prova escrita"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Sorteio do ponto da prova didática no dia da prova escrita, dentre os pontos do edital, excluído o ponto sorteado para a prova escrita",
+   "data": "no dia da prova escrita",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      7,
+      1
+     ]
+    ]
+   ]
+  }
+ }
+]

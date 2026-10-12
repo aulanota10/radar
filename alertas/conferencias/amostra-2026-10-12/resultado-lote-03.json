@@ -1,0 +1,252 @@
+[
+  {
+    "id": "ifsuldeminas-188-2026#ev-0102",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "extracao_diz": "Convocação para PDD e Entrega dos Títulos, MCH-4, 27/11/2026",
+    "documento_diz": "Anexo I do Edital Complementar (227/2026): \"Convocação para Prova de Desempenho Didático e Entrega dos Títulos | 27/11/2026\"; cronograma substitui as datas só para MCH-4 (item 4.2)",
+    "fonte_conferida": "documentos/ifsuldeminas-188-2026/Edital Complementar.pdf, p. 3 (Anexo I - Cronograma), conferido no docling e no pdftotext; itens 4.1 e 4.2 na p. 2",
+    "observacao": "Mesma linha do cronograma gera também ev-0100 (convocação, MCH-4, 27/11); o candidato pode receber dois avisos iguais. Nenhum documento posterior ao Edital Complementar altera a data."
+  },
+  {
+    "id": "ifsuldeminas-188-2026#ev-0116",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "extracao_diz": "PDD e Entrega dos Títulos, MCH-4, 13/12/2026, sem hora",
+    "documento_diz": "\"Prova de Desempenho Didático e Entrega dos Títulos | 13/12/2026\"; horário individual sai na convocação (edital 7.6), chegada 1h antes é sugestão (7.7) e quem chega após o horário agendado é desclassificado (7.8)",
+    "fonte_conferida": "documentos/ifsuldeminas-188-2026/Edital Complementar.pdf, p. 3 (Anexo I - Cronograma), conferido no docling e no pdftotext; itens 4.1 e 4.2 na p. 2; edital consolidado (02) itens 7.6 a 7.13",
+    "observacao": "Sem hora porque o edital remete o horário individual à convocação de 27/11; quando sair, a hora agendada (que elimina, item 7.8) precisa entrar na agenda. Sorteio do tema 24h antes, online e de presença facultativa (7.11-7.13), está na agenda só como relativo geral (ev-0049). Mesma linha gera ev-0114 (prova)."
+  },
+  {
+    "id": "ifsuldeminas-188-2026#ev-0154",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "extracao_diz": "Homologação do Resultado Final, MCH-4, 31/12/2026",
+    "documento_diz": "\"Homologação do Resultado Final | 31/12/2026\"",
+    "fonte_conferida": "documentos/ifsuldeminas-188-2026/Edital Complementar.pdf, p. 3 (Anexo I - Cronograma), conferido no docling e no pdftotext; itens 4.1 e 4.2 na p. 2",
+    "observacao": null
+  },
+  {
+    "id": "ifsuldeminas-188-2026#ev-0109",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "extracao_diz": "Impugnação da composição das bancas da PDD, demais áreas (exceto MCH-4), 15/10/2026",
+    "documento_diz": "\"Período de Impugnação da Composição das Bancas da Prova de Desempenho Didático | até 15/10/2026\" (igual no edital de abertura, na versão DOU e na 1ª retificação)",
+    "fonte_conferida": "documentos/ifsuldeminas-188-2026/01 - Edital de abertura 188-2026 (PEBTT 2º semestre 2026).pdf, Anexo I, p. 18 (pdftotext); conferido também 04 - 1ª Retificação, Anexo I p. 6, e 05 (DOU)",
+    "observacao": "Data é o fim do prazo ('até 15/10'), que começa com a publicação preliminar de 14/10; o rótulo diz 'Período' e a data sai sem 'até', o que não leva a perder o prazo. Escopo correto: MCH-4 tem prazo próprio (até 30/11, ev-0110). Cronograma do edital é marcado como 'datas prováveis, sujeitas a alterações'."
+  },
+  {
+    "id": "ifsuldeminas-188-2026#ev-0108",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "extracao_diz": "Composição preliminar das bancas da PDD, MCH-4, 27/11/2026",
+    "documento_diz": "\"Publicação da Composição Preliminar das Bancas da Prova de Desempenho Didático | 27/11/2026\"",
+    "fonte_conferida": "documentos/ifsuldeminas-188-2026/Edital Complementar.pdf, p. 3 (Anexo I - Cronograma), conferido no docling e no pdftotext; itens 4.1 e 4.2 na p. 2",
+    "observacao": null
+  },
+  {
+    "id": "ifsuldeminas-188-2026#ev-0112",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "extracao_diz": "Composição final das bancas, MCH-4, 04/12/2026",
+    "documento_diz": "\"Publicação da Composição Final das Bancas | 04/12/2026\"",
+    "fonte_conferida": "documentos/ifsuldeminas-188-2026/Edital Complementar.pdf, p. 3 (Anexo I - Cronograma), conferido no docling e no pdftotext; itens 4.1 e 4.2 na p. 2",
+    "observacao": null
+  },
+  {
+    "id": "ifsuldeminas-188-2026#ev-0107",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "extracao_diz": "Composição preliminar das bancas da PDD, demais áreas (exceto MCH-4), 14/10/2026",
+    "documento_diz": "\"Publicação da Composição Preliminar das Bancas da Prova de Desempenho Didático | 14/10/2026\" (mantida na 1ª retificação e na versão DOU)",
+    "fonte_conferida": "documentos/ifsuldeminas-188-2026/01 - Edital de abertura 188-2026 (PEBTT 2º semestre 2026).pdf, Anexo I, p. 18 (pdftotext); conferido também 04 - 1ª Retificação, Anexo I p. 6",
+    "observacao": "A fonte vigente seria a 1ª retificação (que republicou o Anexo I), mas a data é a mesma."
+  },
+  {
+    "id": "ifsuldeminas-188-2026#ev-0143",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "extracao_diz": "Resultado final do procedimento de heteroidentificação/PcD, demais áreas, 03/12/2026",
+    "documento_diz": "1ª retificação, Anexo I: \"Resultado Final do Procedimento de confirmação da autodeclaração ... (PcD) | 03/12/2026\" (o edital original dizia 26/11/2026; a extração aplicou a retificação)",
+    "fonte_conferida": "documentos/ifsuldeminas-188-2026/04 - 1ª Retificação ao Edital 188-2026.pdf, Anexo I, p. 6 (pdftotext); conferido também 05 - 1ª Retificação (versão DOU); comparado com 01 - Edital de abertura p. 18",
+    "observacao": null
+  },
+  {
+    "id": "ifsuldeminas-188-2026#ev-0104",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "extracao_diz": "Convocação para heteroidentificação/avaliação PcD, MCH-4, 27/11/2026",
+    "documento_diz": "\"Convocação para o Procedimento de confirmação da autodeclaração ... (PcD) | 27/11/2026\"",
+    "fonte_conferida": "documentos/ifsuldeminas-188-2026/Edital Complementar.pdf, p. 3 (Anexo I - Cronograma), conferido no docling e no pdftotext; itens 4.1 e 4.2 na p. 2",
+    "observacao": "Linha duplicada na agenda como ev-0106 (mesmo texto, mesma data)."
+  },
+  {
+    "id": "ifsuldeminas-188-2026#ev-0133",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "extracao_diz": "Resultado preliminar do procedimento de heteroidentificação/PcD, demais áreas, 26/11/2026",
+    "documento_diz": "1ª retificação, Anexo I: \"Resultado Preliminar do Procedimento de confirmação da autodeclaração ... (PcD) | 26/11/2026\" (original: 19/11/2026)",
+    "fonte_conferida": "documentos/ifsuldeminas-188-2026/04 - 1ª Retificação ao Edital 188-2026.pdf, Anexo I, p. 6 (pdftotext); conferido também 05 - 1ª Retificação (versão DOU); comparado com 01 - Edital de abertura p. 18",
+    "observacao": "Linha duplicada na agenda como ev-0131."
+  },
+  {
+    "id": "ifsuldeminas-188-2026#ev-0134",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "extracao_diz": "Resultado preliminar do procedimento de heteroidentificação/PcD, MCH-4, 18/12/2026",
+    "documento_diz": "\"Resultado Preliminar do Procedimento de confirmação da autodeclaração ... (PcD) | 18/12/2026\"",
+    "fonte_conferida": "documentos/ifsuldeminas-188-2026/Edital Complementar.pdf, p. 3 (Anexo I - Cronograma), conferido no docling e no pdftotext; itens 4.1 e 4.2 na p. 2",
+    "observacao": "Linha duplicada na agenda como ev-0132."
+  },
+  {
+    "id": "ifsuldeminas-188-2026#ev-0082",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "extracao_diz": "Reaplicação da prova objetiva MCH-4, 08/11/2026, 09:00; descrição cita portão aberto 8h e fechado 8h45",
+    "documento_diz": "Item 1.3: \"reaplicação da Prova Objetiva da área MCH-4 ... para o dia 8 de novembro de 2026, com início às 9h. O portão de acesso ao local de prova será aberto às 8h e fechado às 8h45, não sendo permitido o acesso após o fechamento.\"",
+    "fonte_conferida": "documentos/ifsuldeminas-188-2026/Edital Complementar.pdf, p. 1, item 1.3 (docling e pdftotext); Anexo I p. 3",
+    "observacao": "O fechamento do portão às 8h45 elimina e não existe como evento próprio na agenda; hoje só chega ao candidato porque o rótulo copia a descrição inteira, enquanto a linha de data diz 'às 09:00'. Se o rótulo for truncado ou reescrito, o 8h45 se perde; o campo hora deveria ser 08:45 ou haver evento próprio. Nenhum documento posterior altera a data."
+  },
+  {
+    "id": "ifsuldeminas-188-2026#ev-0125",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "extracao_diz": "Resultado dos recursos e resultado final da PDD, demais áreas, 26/11/2026",
+    "documento_diz": "1ª retificação, Anexo I: \"Publicação do resultado dos recursos e do Resultado Final da Prova de Desempenho Didático | 26/11/2026\" (original: 19/11/2026)",
+    "fonte_conferida": "documentos/ifsuldeminas-188-2026/04 - 1ª Retificação ao Edital 188-2026.pdf, Anexo I, p. 6 (pdftotext); conferido também 05 - 1ª Retificação (versão DOU)",
+    "observacao": "A mesma linha gera ev-0127 (resultado final); dois avisos para o mesmo ato no mesmo dia."
+  },
+  {
+    "id": "ifsuldeminas-188-2026#ev-0127",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "extracao_diz": "Resultado final da PDD, demais áreas, 26/11/2026",
+    "documento_diz": "1ª retificação, Anexo I: \"Publicação do resultado dos recursos e do Resultado Final da Prova de Desempenho Didático | 26/11/2026\"",
+    "fonte_conferida": "documentos/ifsuldeminas-188-2026/04 - 1ª Retificação ao Edital 188-2026.pdf, Anexo I, p. 6 (pdftotext); conferido também 05 - 1ª Retificação (versão DOU)",
+    "observacao": "Duplicata de ev-0125 (mesma linha, tipo recurso_resultado)."
+  },
+  {
+    "id": "uerj-239-2026#ev-0001",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "extracao_diz": "Inscrições de 01/09/2026 00:00 a 30/10/2026 23:59",
+    "documento_diz": "11.1 a) \"Inscrições - a partir de 00h00 do dia 01/09/2026 até as 23h59 do dia 30/10/2026.\"",
+    "fonte_conferida": "documentos/uerj-2026/15 - Seleção 2026-239 - Edital.pdf, p. 9, item 11.1 a (pdftotext)",
+    "observacao": "Não há errata nem outro documento posterior da Seleção 2026/239 na pasta uerj-2026."
+  },
+  {
+    "id": "uerj-239-2026#ev-0004",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "extracao_diz": "Pedido de isenção até 13/10/2026",
+    "documento_diz": "11.1 d) \"Pedido de isenção da taxa de inscrição - até o dia 13/10/2026.\"; pedido só pelo Sistema PROSSIM (4.3, 4.4)",
+    "fonte_conferida": "documentos/uerj-2026/15 - Seleção 2026-239 - Edital.pdf, p. 9, item 11.1 d; itens 4.3 a 4.6",
+    "observacao": "Prazo vence amanhã (13/10); os avisos de 5 e 2 dias antes (08/10 e 11/10) já ficaram no passado."
+  },
+  {
+    "id": "uerj-239-2026#ev-0010",
+    "veredito": "TEXTO_CONFUSO",
+    "categoria": "horario_presenca_omitido",
+    "atribuicao": "extrator",
+    "extracao_diz": "Sorteio do ponto da prova escrita, 01/12/2026, 09:10",
+    "documento_diz": "11.1 i) \"Sorteio do ponto para a prova escrita - 01/12/2026, às 9h10.\"; 11.2 \"O candidato deverá se apresentar 30 [trinta] minutos antes de cada hora marcada no cronograma (item 11.1)\"",
+    "fonte_conferida": "documentos/uerj-2026/15 - Seleção 2026-239 - Edital.pdf, p. 10, itens 11.1 i e 11.2 (pdftotext); 9.1.1 c-d e 16.3 no docling",
+    "observacao": "Data e hora certas, mas a apresentação obrigatória às 8h40 (11.2) não está na agenda nem no alerta. O edital não diz que o atraso de 30 min elimina; elimina quem deixa de comparecer à prova (16.3), e quem não está no sorteio perde a ciência da lista e a chance de impugnar ponto (9.1.1 c). Inconsistência do edital: 9.1.1 d fixa 60 min entre sorteio e prova, mas o cronograma dá 9h10 e 10h15."
+  },
+  {
+    "id": "uerj-230-2026#ev-0019",
+    "veredito": "TEXTO_CONFUSO",
+    "categoria": "horario_presenca_omitido",
+    "atribuicao": "extrator",
+    "extracao_diz": "Entrega de títulos e trabalhos, 05/11/2026, 16:00",
+    "documento_diz": "11.1 q) \"Entrega de Títulos e Trabalhos - 05/11/2026, às 16:00h. imediatamente após o resultado da Prova de Aula.\"; 11.2 \"O candidato deverá se apresentar 30 minutos antes de cada hora marcada no cronograma\"",
+    "fonte_conferida": "documentos/uerj-2026/07 - Seleção 2026-230 - Edital.pdf, p. 10, itens 11.1 q e 11.2 (pdftotext); errata 25 - Seleção 2026-230 - Errata (só altera tabela de vagas e taxa)",
+    "observacao": "Data e hora certas; falta a apresentação às 15h30 exigida por 11.2, que não está na agenda nem no alerta (o edital não diz expressamente que o atraso elimina). Entrega é só para aprovados na escrita e na aula (9.1.3 b); o rótulo não diz isso."
+  },
+  {
+    "id": "uerj-230-2026#ev-0016",
+    "veredito": "TEXTO_CONFUSO",
+    "categoria": "horario_presenca_omitido",
+    "atribuicao": "extrator",
+    "extracao_diz": "Sorteio do ponto da prova de aula, 04/11/2026, 09:00",
+    "documento_diz": "11.1 n) \"Sorteio do ponto para a prova de aula - 04/11/2026, às 09:00 h.\"; 11.2 \"deverá se apresentar 30 minutos antes de cada hora marcada\"",
+    "fonte_conferida": "documentos/uerj-2026/07 - Seleção 2026-230 - Edital.pdf, pp. 9-10, itens 11.1 m-n, 11.2 e 11.3 (pdftotext); 9.1.2 no docling; errata 25 sem mudança de data",
+    "observacao": "Data e hora certas; falta a apresentação às 8h30 (11.2), ausente da agenda e do alerta. O edital se contradiz: a obs. do item 11.1 m diz que, havendo mais de um candidato, serão divulgados dia e hora do sorteio de cada um, enquanto 9.1.2 d manda sortear um único ponto para todos; 11.3 permite mudar o cronograma se houver mais de 10 candidatos. A data pode virar horário individual."
+  },
+  {
+    "id": "unifesp-389-2026#ev-0003",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "extracao_diz": "Impugnação do edital: 2 dias úteis após o início das inscrições (relativa, não agendada)",
+    "documento_diz": "2.1 \"... em até 2 (dois) dias úteis, após o início das inscrições, tendo como termo inicial o 1º dia subsequente à data de início das inscrições.\"",
+    "fonte_conferida": "documentos/unifesp-2026/Edital 389-2026 - texto integral (HTML).docling.md, p. 3, item 2.1",
+    "observacao": "Âncora, quantidade, unidade e sentido corretos; a contagem começa no dia seguinte ao início, o que a forma 'X dias úteis após' comporta. Prazo já passado (inscrições abertas em 22/07, conforme a agenda) e o evento não é agendado. A reabertura de 22/09 (Edital 688) não abre nova janela de impugnação no texto."
+  },
+  {
+    "id": "unifesp-389-2026#ev-0011",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "extracao_diz": "Resultado provisório do concurso, condicionado à conclusão dos trabalhos, em sessão pública",
+    "documento_diz": "14.14 \"Concluídos os trabalhos, o Presidente da Banca Examinadora divulgará, em sessão pública, o resultado provisório do CONCURSO PÚBLICO ...\"",
+    "fonte_conferida": "documentos/unifesp-2026/Edital 389-2026 - texto integral (HTML).docling.md, p. 24, item 14.14",
+    "observacao": "Tipo e fase coerentes (resultado do concurso, preliminar/provisório). Está marcado agendado=true sem data possível; só faz sentido quando houver cronograma das provas. O recurso (17.2) conta da publicação no site, não da sessão pública."
+  },
+  {
+    "id": "unimontes-11-2026#ev-0009",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "extracao_diz": "Prova de Conhecimentos (escrita), 14/02/2027, turno vespertino, sem hora",
+    "documento_diz": "1ª retificação, I e IV: \"1.12. ... será realizada no dia 14/02/2027, no turno vespertino, em local e horário a serem divulgados por ato próprio\" (antes: 13/12/2026)",
+    "fonte_conferida": "documentos/unimontes-2026/25 - Edital 11-2026 - Retificação 1 (Contábeis).docling.md, p. 1, itens I e IV; edital 24 item 9.7",
+    "observacao": "A retificação foi aplicada. Edital 9.7 exige comparecer 30 min antes do horário de início, que ainda será divulgado; quando sair o ato de local e horário, a hora e a chegada antecipada precisam entrar na agenda. Não há documento posterior do Edital 11/2026 na pasta."
+  },
+  {
+    "id": "usp-fm-199-2026#ev-0012",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "extracao_diz": "Recurso contra a decisão que constituir a Comissão Julgadora: 10 dias corridos após a publicação no DOE",
+    "documento_diz": "15. \"Caberá recurso, no prazo de 10 (dez) dias, contados da data da publicação do respectivo ato no Diário Oficial do Estado, sob pena de preclusão, nas seguintes hipóteses: I - decisão da Congregação que constituir a Comissão Julgadora\"",
+    "fonte_conferida": "documentos/usp-fm-199-2026/Edital DVACAD-FM-199-2026.pdf, p. 7, item 15 (pdftotext); conferida a versão DOE (51 - ... abertura (DOE-SP 14-09-2026).html.docling.md), texto igual",
+    "observacao": "O edital diz só '10 (dez) dias', sem qualificar; ler como corridos é a leitura padrão. Âncora e sentido corretos."
+  },
+  {
+    "id": "unifesp-423-2026#ev-0009",
+    "veredito": "TEXTO_CONFUSO",
+    "categoria": "outra",
+    "atribuicao": "ambos",
+    "extracao_diz": "Divulgação da banca: 5 dias úteis antes do início das provas",
+    "documento_diz": "15.4 \"A composição da Banca Examinadora será divulgada ... com antecedência mínima de 5 (cinco) dias úteis da data de início das provas.\"",
+    "fonte_conferida": "documentos/unifesp-2026/Edital 423-2026 - texto integral (HTML).docling.md, p. 22, item 15.4",
+    "observacao": "Quantidade, unidade e sentido certos, mas o texto fixa um limite ('no mínimo 5 dias úteis antes', ou seja, até essa data), não a data do ato; o objeto relativo não guarda o 'no mínimo' e a linha de data diz '5 dias úteis antes de', como se fosse o dia exato. Importa porque a impugnação de membro da banca (15.5, ev-0010) conta 2 dias úteis da publicação real, que pode ser anterior. O rótulo literal preserva 'antecedência mínima'. Âncora 'data de início das provas' não tem evento correspondente na agenda do concurso."
+  },
+  {
+    "id": "unifesp-425-2026#ev-0013",
+    "veredito": "TEXTO_CONFUSO",
+    "categoria": "outra",
+    "atribuicao": "ambos",
+    "extracao_diz": "Análise do recurso contra o resultado provisório: 15 dias úteis após a interposição do recurso, agendada (aviso no dia)",
+    "documento_diz": "17.4 \"O recurso será analisado no prazo máximo de 15 (quinze) dias úteis e não haverá efeito suspensivo ..., podendo o prazo de análise ser prorrogado por igual período ante justificativa explícita.\"",
+    "fonte_conferida": "documentos/unifesp-2026/Edital 425-2026 - texto integral (HTML).docling.md, p. 23, item 17.4",
+    "observacao": "Prazo máximo da administração, prorrogável, tratado como evento agendado com aviso no dia; a linha de data ('15 dias úteis depois de ...') não diz 'no máximo'. A âncora 'interposição' não está no texto (que não diz de quando conta) e é individual de cada recorrente, então não vira data comum. O rótulo literal preserva 'prazo máximo ... prorrogável', por isso não induz erro de prazo."
+  }
+]

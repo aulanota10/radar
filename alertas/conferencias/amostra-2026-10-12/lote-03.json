@@ -1,0 +1,1097 @@
+[
+ {
+  "id": "ifsuldeminas-188-2026#ev-0102",
+  "estrato": "datada/convocacao",
+  "peso": 5.666666666666667,
+  "concurso": "ifsuldeminas-188-2026",
+  "nome": "IFSULDEMINAS 188/2026",
+  "evento_id": "ev-0102",
+  "tipo_evento": "convocacao",
+  "etapa": "titulos",
+  "fase": null,
+  "escopo": [
+   "MCH-4"
+  ],
+  "descricao": "Convocação para Prova de Desempenho Didático e Entrega dos Títulos",
+  "forma": "fixa",
+  "inicio": "2026-11-27",
+  "fim": "2026-11-27",
+  "hora": null,
+  "documento": "documentos/ifsuldeminas-188-2026/Edital Complementar.pdf",
+  "item": "Anexo I",
+  "pagina": 3,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-11-27"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Convocação para Prova de Desempenho Didático e Entrega dos Títulos",
+   "data": "27/11/2026 (sexta)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      2,
+      0
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ifsuldeminas-188-2026#ev-0116",
+  "estrato": "datada/entrega_documento",
+  "peso": 7.3,
+  "concurso": "ifsuldeminas-188-2026",
+  "nome": "IFSULDEMINAS 188/2026",
+  "evento_id": "ev-0116",
+  "tipo_evento": "entrega_documento",
+  "etapa": "titulos",
+  "fase": null,
+  "escopo": [
+   "MCH-4"
+  ],
+  "descricao": "Prova de Desempenho Didático e Entrega dos Títulos",
+  "forma": "fixa",
+  "inicio": "2026-12-13",
+  "fim": "2026-12-13",
+  "hora": null,
+  "documento": "documentos/ifsuldeminas-188-2026/Edital Complementar.pdf",
+  "item": "Anexo I",
+  "pagina": 3,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-12-13"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Prova de Desempenho Didático e Entrega dos Títulos",
+   "data": "13/12/2026 (domingo)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "fim",
+     [
+      15,
+      7,
+      3
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ifsuldeminas-188-2026#ev-0154",
+  "estrato": "datada/homologacao_resultado",
+  "peso": 2.6666666666666665,
+  "concurso": "ifsuldeminas-188-2026",
+  "nome": "IFSULDEMINAS 188/2026",
+  "evento_id": "ev-0154",
+  "tipo_evento": "homologacao_resultado",
+  "etapa": null,
+  "fase": null,
+  "escopo": [
+   "MCH-4"
+  ],
+  "descricao": "Homologação do Resultado Final",
+  "forma": "fixa",
+  "inicio": "2026-12-31",
+  "fim": "2026-12-31",
+  "hora": null,
+  "documento": "documentos/ifsuldeminas-188-2026/Edital Complementar.pdf",
+  "item": "Anexo I",
+  "pagina": 3,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-12-31"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Homologação do Resultado Final",
+   "data": "31/12/2026 (quinta)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      0
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ifsuldeminas-188-2026#ev-0109",
+  "estrato": "datada/impugnacao_banca",
+  "peso": 2.0,
+  "concurso": "ifsuldeminas-188-2026",
+  "nome": "IFSULDEMINAS 188/2026",
+  "evento_id": "ev-0109",
+  "tipo_evento": "impugnacao_banca",
+  "etapa": null,
+  "fase": null,
+  "escopo": [
+   "CDM-1",
+   "CDM-2",
+   "IFS-1",
+   "IFS-2",
+   "IFS-3",
+   "IFS-4",
+   "IFS-5",
+   "IFS-6",
+   "IFS-7",
+   "MCH-1",
+   "MCH-2",
+   "MCH-3",
+   "MCH-5",
+   "MCH-6",
+   "MUZ-1",
+   "MUZ-2",
+   "MUZ-3"
+  ],
+  "descricao": "Período de Impugnação da Composição das Bancas da Prova de Desempenho Didático",
+  "forma": "fixa",
+  "inicio": "2026-10-15",
+  "fim": "2026-10-15",
+  "hora": null,
+  "documento": "documentos/ifsuldeminas-188-2026/01 - Edital de abertura 188-2026 (PEBTT 2º semestre 2026).pdf",
+  "item": "Anexo I",
+  "pagina": 18,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-10-15"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Período de Impugnação da Composição das Bancas da Prova de Desempenho Didático",
+   "data": "15/10/2026 (quinta)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "fim",
+     [
+      1
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ifsuldeminas-188-2026#ev-0108",
+  "estrato": "datada/portaria_banca",
+  "peso": 5.4,
+  "concurso": "ifsuldeminas-188-2026",
+  "nome": "IFSULDEMINAS 188/2026",
+  "evento_id": "ev-0108",
+  "tipo_evento": "portaria_banca",
+  "etapa": null,
+  "fase": null,
+  "escopo": [
+   "MCH-4"
+  ],
+  "descricao": "Publicação da Composição Preliminar das Bancas da Prova de Desempenho Didático",
+  "forma": "fixa",
+  "inicio": "2026-11-27",
+  "fim": "2026-11-27",
+  "hora": null,
+  "documento": "documentos/ifsuldeminas-188-2026/Edital Complementar.pdf",
+  "item": "Anexo I",
+  "pagina": 3,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-11-27"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Publicação da Composição Preliminar das Bancas da Prova de Desempenho Didático",
+   "data": "27/11/2026 (sexta)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      2,
+      0
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ifsuldeminas-188-2026#ev-0112",
+  "estrato": "datada/portaria_banca",
+  "peso": 5.4,
+  "concurso": "ifsuldeminas-188-2026",
+  "nome": "IFSULDEMINAS 188/2026",
+  "evento_id": "ev-0112",
+  "tipo_evento": "portaria_banca",
+  "etapa": null,
+  "fase": null,
+  "escopo": [
+   "MCH-4"
+  ],
+  "descricao": "Publicação da Composição Final das Bancas",
+  "forma": "fixa",
+  "inicio": "2026-12-04",
+  "fim": "2026-12-04",
+  "hora": null,
+  "documento": "documentos/ifsuldeminas-188-2026/Edital Complementar.pdf",
+  "item": "Anexo I",
+  "pagina": 3,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-12-04"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Publicação da Composição Final das Bancas",
+   "data": "04/12/2026 (sexta)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      2,
+      0
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ifsuldeminas-188-2026#ev-0107",
+  "estrato": "datada/portaria_banca",
+  "peso": 5.4,
+  "concurso": "ifsuldeminas-188-2026",
+  "nome": "IFSULDEMINAS 188/2026",
+  "evento_id": "ev-0107",
+  "tipo_evento": "portaria_banca",
+  "etapa": null,
+  "fase": null,
+  "escopo": [
+   "CDM-1",
+   "CDM-2",
+   "IFS-1",
+   "IFS-2",
+   "IFS-3",
+   "IFS-4",
+   "IFS-5",
+   "IFS-6",
+   "IFS-7",
+   "MCH-1",
+   "MCH-2",
+   "MCH-3",
+   "MCH-5",
+   "MCH-6",
+   "MUZ-1",
+   "MUZ-2",
+   "MUZ-3"
+  ],
+  "descricao": "Publicação da Composição Preliminar das Bancas da Prova de Desempenho Didático",
+  "forma": "fixa",
+  "inicio": "2026-10-14",
+  "fim": "2026-10-14",
+  "hora": null,
+  "documento": "documentos/ifsuldeminas-188-2026/01 - Edital de abertura 188-2026 (PEBTT 2º semestre 2026).pdf",
+  "item": "Anexo I",
+  "pagina": 18,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-10-14"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Publicação da Composição Preliminar das Bancas da Prova de Desempenho Didático",
+   "data": "14/10/2026 (quarta)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      2,
+      0
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ifsuldeminas-188-2026#ev-0143",
+  "estrato": "datada/procedimento_cotas",
+  "peso": 7.2727272727272725,
+  "concurso": "ifsuldeminas-188-2026",
+  "nome": "IFSULDEMINAS 188/2026",
+  "evento_id": "ev-0143",
+  "tipo_evento": "procedimento_cotas",
+  "etapa": null,
+  "fase": "resultado_final",
+  "escopo": [
+   "CDM-1",
+   "CDM-2",
+   "IFS-1",
+   "IFS-2",
+   "IFS-3",
+   "IFS-4",
+   "IFS-5",
+   "IFS-6",
+   "IFS-7",
+   "MCH-1",
+   "MCH-2",
+   "MCH-3",
+   "MCH-5",
+   "MCH-6",
+   "MUZ-1",
+   "MUZ-2",
+   "MUZ-3"
+  ],
+  "descricao": "Resultado Final do Procedimento de confirmação da autodeclaração para candidatos inscritos nas vagas para Pessoas Pretas e Pardas e Avaliação para candidatos inscritos nas vagas para Pessoas com Deficiência (PcD)",
+  "forma": "fixa",
+  "inicio": "2026-12-03",
+  "fim": "2026-12-03",
+  "hora": null,
+  "documento": "documentos/ifsuldeminas-188-2026/04 - 1ª Retificação ao Edital 188-2026.pdf",
+  "item": "Anexo I, nova redação",
+  "pagina": 6,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-12-03"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Resultado Final do Procedimento de confirmação da autodeclaração para candidatos inscritos nas vagas para Pessoas Pretas e Pardas e Avaliação para candidatos inscritos nas vagas...",
+   "data": "03/12/2026 (quinta)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      2,
+      0
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ifsuldeminas-188-2026#ev-0104",
+  "estrato": "datada/procedimento_cotas",
+  "peso": 7.2727272727272725,
+  "concurso": "ifsuldeminas-188-2026",
+  "nome": "IFSULDEMINAS 188/2026",
+  "evento_id": "ev-0104",
+  "tipo_evento": "procedimento_cotas",
+  "etapa": null,
+  "fase": "convocacao",
+  "escopo": [
+   "MCH-4"
+  ],
+  "descricao": "Convocação para o Procedimento de confirmação da autodeclaração para candidatos inscritos nas vagas para Pessoas Pretas e Pardas e para a Avaliação dos candidatos inscritos nas vagas para Pessoas com Deficiência (PcD)",
+  "forma": "fixa",
+  "inicio": "2026-11-27",
+  "fim": "2026-11-27",
+  "hora": null,
+  "documento": "documentos/ifsuldeminas-188-2026/Edital Complementar.pdf",
+  "item": "Anexo I",
+  "pagina": 3,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-11-27"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Convocação para o Procedimento de confirmação da autodeclaração para candidatos inscritos nas vagas para Pessoas Pretas e Pardas e para a Avaliação dos candidatos inscritos nas...",
+   "data": "27/11/2026 (sexta)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      2,
+      0
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ifsuldeminas-188-2026#ev-0133",
+  "estrato": "datada/procedimento_cotas",
+  "peso": 7.2727272727272725,
+  "concurso": "ifsuldeminas-188-2026",
+  "nome": "IFSULDEMINAS 188/2026",
+  "evento_id": "ev-0133",
+  "tipo_evento": "procedimento_cotas",
+  "etapa": null,
+  "fase": "resultado",
+  "escopo": [
+   "CDM-1",
+   "CDM-2",
+   "IFS-1",
+   "IFS-2",
+   "IFS-3",
+   "IFS-4",
+   "IFS-5",
+   "IFS-6",
+   "IFS-7",
+   "MCH-1",
+   "MCH-2",
+   "MCH-3",
+   "MCH-5",
+   "MCH-6",
+   "MUZ-1",
+   "MUZ-2",
+   "MUZ-3"
+  ],
+  "descricao": "Resultado Preliminar do Procedimento de confirmação da autodeclaração para candidatos inscritos nas vagas para Pessoas Pretas e Pardas e Avaliação para candidatos inscritos nas vagas para Pessoas com Deficiência (PcD)",
+  "forma": "fixa",
+  "inicio": "2026-11-26",
+  "fim": "2026-11-26",
+  "hora": null,
+  "documento": "documentos/ifsuldeminas-188-2026/04 - 1ª Retificação ao Edital 188-2026.pdf",
+  "item": "Anexo I, nova redação",
+  "pagina": 6,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-11-26"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Resultado Preliminar do Procedimento de confirmação da autodeclaração para candidatos inscritos nas vagas para Pessoas Pretas e Pardas e Avaliação para candidatos inscritos nas...",
+   "data": "26/11/2026 (quinta)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      2,
+      0
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ifsuldeminas-188-2026#ev-0134",
+  "estrato": "datada/procedimento_cotas",
+  "peso": 7.2727272727272725,
+  "concurso": "ifsuldeminas-188-2026",
+  "nome": "IFSULDEMINAS 188/2026",
+  "evento_id": "ev-0134",
+  "tipo_evento": "procedimento_cotas",
+  "etapa": null,
+  "fase": "resultado",
+  "escopo": [
+   "MCH-4"
+  ],
+  "descricao": "Resultado Preliminar do Procedimento de confirmação da autodeclaração para candidatos inscritos nas vagas para Pessoas Pretas e Pardas e Avaliação para candidatos inscritos nas vagas para Pessoas com Deficiência (PcD)",
+  "forma": "fixa",
+  "inicio": "2026-12-18",
+  "fim": "2026-12-18",
+  "hora": null,
+  "documento": "documentos/ifsuldeminas-188-2026/Edital Complementar.pdf",
+  "item": "Anexo I",
+  "pagina": 3,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-12-18"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Resultado Preliminar do Procedimento de confirmação da autodeclaração para candidatos inscritos nas vagas para Pessoas Pretas e Pardas e Avaliação para candidatos inscritos nas...",
+   "data": "18/12/2026 (sexta)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      2,
+      0
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ifsuldeminas-188-2026#ev-0082",
+  "estrato": "datada/prova",
+  "peso": 8.96875,
+  "concurso": "ifsuldeminas-188-2026",
+  "nome": "IFSULDEMINAS 188/2026",
+  "evento_id": "ev-0082",
+  "tipo_evento": "prova",
+  "etapa": "objetiva",
+  "fase": null,
+  "escopo": [
+   "MCH-4"
+  ],
+  "descricao": "Reaplicação da Prova Objetiva da área MCH-4 - Segurança do Trabalho, com início às 9h; portão aberto às 8h e fechado às 8h45",
+  "forma": "fixa",
+  "inicio": "2026-11-08",
+  "fim": "2026-11-08",
+  "hora": "09:00",
+  "documento": "documentos/ifsuldeminas-188-2026/Edital Complementar.pdf",
+  "item": "1.3",
+  "pagina": 1,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-11-08",
+   "hora": "09:00"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Reaplicação da Prova Objetiva da área MCH-4 - Segurança do Trabalho, com início às 9h; portão aberto às 8h e fechado às 8h45",
+   "data": "08/11/2026 (domingo), às 09:00",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      30,
+      15,
+      7,
+      2
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ifsuldeminas-188-2026#ev-0125",
+  "estrato": "datada/recurso_resultado",
+  "peso": 4.833333333333333,
+  "concurso": "ifsuldeminas-188-2026",
+  "nome": "IFSULDEMINAS 188/2026",
+  "evento_id": "ev-0125",
+  "tipo_evento": "recurso_resultado",
+  "etapa": "didatica",
+  "fase": null,
+  "escopo": [
+   "CDM-1",
+   "CDM-2",
+   "IFS-1",
+   "IFS-2",
+   "IFS-3",
+   "IFS-4",
+   "IFS-5",
+   "IFS-6",
+   "IFS-7",
+   "MCH-1",
+   "MCH-2",
+   "MCH-3",
+   "MCH-5",
+   "MCH-6",
+   "MUZ-1",
+   "MUZ-2",
+   "MUZ-3"
+  ],
+  "descricao": "Publicação do resultado dos recursos e do Resultado Final da Prova de Desempenho Didático",
+  "forma": "fixa",
+  "inicio": "2026-11-26",
+  "fim": "2026-11-26",
+  "hora": null,
+  "documento": "documentos/ifsuldeminas-188-2026/04 - 1ª Retificação ao Edital 188-2026.pdf",
+  "item": "Anexo I, nova redação",
+  "pagina": 6,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-11-26"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Publicação do resultado dos recursos e do Resultado Final da Prova de Desempenho Didático",
+   "data": "26/11/2026 (quinta)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      0
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ifsuldeminas-188-2026#ev-0127",
+  "estrato": "datada/resultado",
+  "peso": 8.590909090909092,
+  "concurso": "ifsuldeminas-188-2026",
+  "nome": "IFSULDEMINAS 188/2026",
+  "evento_id": "ev-0127",
+  "tipo_evento": "resultado",
+  "etapa": "didatica",
+  "fase": "final",
+  "escopo": [
+   "CDM-1",
+   "CDM-2",
+   "IFS-1",
+   "IFS-2",
+   "IFS-3",
+   "IFS-4",
+   "IFS-5",
+   "IFS-6",
+   "IFS-7",
+   "MCH-1",
+   "MCH-2",
+   "MCH-3",
+   "MCH-5",
+   "MCH-6",
+   "MUZ-1",
+   "MUZ-2",
+   "MUZ-3"
+  ],
+  "descricao": "Publicação do resultado dos recursos e do Resultado Final da Prova de Desempenho Didático",
+  "forma": "fixa",
+  "inicio": "2026-11-26",
+  "fim": "2026-11-26",
+  "hora": null,
+  "documento": "documentos/ifsuldeminas-188-2026/04 - 1ª Retificação ao Edital 188-2026.pdf",
+  "item": "Anexo I, nova redação",
+  "pagina": 6,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-11-26"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Publicação do resultado dos recursos e do Resultado Final da Prova de Desempenho Didático",
+   "data": "26/11/2026 (quinta)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      2,
+      0
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "uerj-239-2026#ev-0001",
+  "estrato": "datada/inscricao",
+  "peso": 7.1,
+  "concurso": "uerj-239-2026",
+  "nome": "UERJ Seleção 2026/239",
+  "evento_id": "ev-0001",
+  "tipo_evento": "inscricao",
+  "etapa": null,
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Inscrições - a partir de 00h00 até as 23h59",
+  "forma": "janela",
+  "inicio": "2026-09-01",
+  "fim": "2026-10-30",
+  "hora": "00:00",
+  "documento": "documentos/uerj-2026/15 - Seleção 2026-239 - Edital.pdf",
+  "item": "11.1, a",
+  "pagina": 9,
+  "data_extraida": {
+   "forma": "janela",
+   "inicio": {
+    "data": "2026-09-01",
+    "hora": "00:00"
+   },
+   "fim": {
+    "data": "2026-10-30",
+    "hora": "23:59"
+   }
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Inscrições - a partir de 00h00 até as 23h59",
+   "data": "de 01/09/2026 (terça), às 00:00 a 30/10/2026 (sexta), até 23:59",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      0
+     ]
+    ],
+    [
+     "fim",
+     [
+      7,
+      2
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "uerj-239-2026#ev-0004",
+  "estrato": "datada/isencao_pedido",
+  "peso": 5.0,
+  "concurso": "uerj-239-2026",
+  "nome": "UERJ Seleção 2026/239",
+  "evento_id": "ev-0004",
+  "tipo_evento": "isencao_pedido",
+  "etapa": null,
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Pedido de isenção da taxa de inscrição - até o dia 13/10/2026",
+  "forma": "fixa",
+  "inicio": "2026-10-13",
+  "fim": "2026-10-13",
+  "hora": null,
+  "documento": "documentos/uerj-2026/15 - Seleção 2026-239 - Edital.pdf",
+  "item": "11.1, d",
+  "pagina": 9,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-10-13"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Pedido de isenção da taxa de inscrição - até o dia 13/10/2026",
+   "data": "13/10/2026 (terça)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "fim",
+     [
+      5,
+      2
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "uerj-239-2026#ev-0010",
+  "estrato": "datada/sorteio_tema",
+  "peso": 7.785714285714286,
+  "concurso": "uerj-239-2026",
+  "nome": "UERJ Seleção 2026/239",
+  "evento_id": "ev-0010",
+  "tipo_evento": "sorteio_tema",
+  "etapa": "escrita",
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Sorteio do ponto para a prova escrita",
+  "forma": "fixa",
+  "inicio": "2026-12-01",
+  "fim": "2026-12-01",
+  "hora": "09:10",
+  "documento": "documentos/uerj-2026/15 - Seleção 2026-239 - Edital.pdf",
+  "item": "11.1, i",
+  "pagina": 10,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-12-01",
+   "hora": "09:10"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Sorteio do ponto para a prova escrita",
+   "data": "01/12/2026 (terça), às 09:10",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      7,
+      1
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "uerj-230-2026#ev-0019",
+  "estrato": "datada/entrega_documento",
+  "peso": 7.3,
+  "concurso": "uerj-230-2026",
+  "nome": "UERJ Seleção 2026/230",
+  "evento_id": "ev-0019",
+  "tipo_evento": "entrega_documento",
+  "etapa": "titulos",
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Entrega de Títulos e Trabalhos - 05/11/2026, às 16:00h. imediatamente após o resultado da Prova de Aula.",
+  "forma": "fixa",
+  "inicio": "2026-11-05",
+  "fim": "2026-11-05",
+  "hora": "16:00",
+  "documento": "documentos/uerj-2026/07 - Seleção 2026-230 - Edital.pdf",
+  "item": "11.1, q",
+  "pagina": 10,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-11-05",
+   "hora": "16:00"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Entrega de Títulos e Trabalhos - 05/11/2026, às 16:00h. imediatamente após o resultado da Prova de Aula",
+   "data": "05/11/2026 (quinta), às 16:00",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "fim",
+     [
+      15,
+      7,
+      3
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "uerj-230-2026#ev-0016",
+  "estrato": "datada/sorteio_tema",
+  "peso": 7.785714285714286,
+  "concurso": "uerj-230-2026",
+  "nome": "UERJ Seleção 2026/230",
+  "evento_id": "ev-0016",
+  "tipo_evento": "sorteio_tema",
+  "etapa": "didatica",
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Sorteio do ponto para a prova de aula - 04/11/2026, às 09:00 h.",
+  "forma": "fixa",
+  "inicio": "2026-11-04",
+  "fim": "2026-11-04",
+  "hora": "09:00",
+  "documento": "documentos/uerj-2026/07 - Seleção 2026-230 - Edital.pdf",
+  "item": "11.1, n",
+  "pagina": 10,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-11-04",
+   "hora": "09:00"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Sorteio do ponto para a prova de aula - 04/11/2026, às 09:00 h",
+   "data": "04/11/2026 (quarta), às 09:00",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      7,
+      1
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "unifesp-389-2026#ev-0003",
+  "estrato": "nao_datada/impugnacao_edital",
+  "peso": 21.75,
+  "concurso": "unifesp-389-2026",
+  "nome": "UNIFESP 389/2026",
+  "evento_id": "ev-0003",
+  "tipo_evento": "impugnacao_edital",
+  "etapa": null,
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "impugnação do edital, em até 2 dias úteis após o início das inscrições",
+  "forma": "relativa",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/unifesp-2026/Edital 389-2026 - texto integral (HTML).pdf",
+  "item": "2.1",
+  "pagina": 3,
+  "data_extraida": {
+   "forma": "relativa",
+   "quantidade": 2,
+   "unidade": "dias_uteis",
+   "evento_ancora": "início das inscrições (inscricao)",
+   "sentido": "apos"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Impugnação do edital, em até 2 dias úteis após o início das inscrições",
+   "data": "2 dias úteis depois de início das inscrições",
+   "agendado": false,
+   "regra_antecedencia": null
+  }
+ },
+ {
+  "id": "unifesp-389-2026#ev-0011",
+  "estrato": "nao_datada/resultado_final",
+  "peso": 23.75,
+  "concurso": "unifesp-389-2026",
+  "nome": "UNIFESP 389/2026",
+  "evento_id": "ev-0011",
+  "tipo_evento": "resultado_final",
+  "etapa": null,
+  "fase": "preliminar",
+  "escopo": "geral",
+  "descricao": "Concluídos os trabalhos, o Presidente da Banca Examinadora divulgará, em sessão pública, o resultado provisório do CONCURSO PÚBLICO, com o(s) nome(s) e nota(s) final ( is ) do(as) candidatos(as) aprovado(s) e classificação.",
+  "forma": "condicionada",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/unifesp-2026/Edital 389-2026 - texto integral (HTML).pdf",
+  "item": "14.14",
+  "pagina": 24,
+  "data_extraida": {
+   "forma": "condicionada",
+   "condicao_literal": "Concluídos os trabalhos, o Presidente da Banca Examinadora divulgará, em sessão pública, o resultado provisório"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Concluídos os trabalhos, o Presidente da Banca Examinadora divulgará, em sessão pública, o resultado provisório do CONCURSO PÚBLICO...",
+   "data": "Concluídos os trabalhos, o Presidente da Banca Examinadora divulgará, em sessão pública, o resultado provisório",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      0
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "unimontes-11-2026#ev-0009",
+  "estrato": "datada/prova",
+  "peso": 8.96875,
+  "concurso": "unimontes-11-2026",
+  "nome": "Unimontes 11/2026",
+  "evento_id": "ev-0009",
+  "tipo_evento": "prova",
+  "etapa": "escrita",
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Prova de Conhecimentos, correspondente à prova escrita do Concurso, no dia 14/02/2027, no turno vespertino, em local e horário a serem divulgados por ato próprio",
+  "forma": "fixa",
+  "inicio": "2027-02-14",
+  "fim": "2027-02-14",
+  "hora": null,
+  "documento": "documentos/unimontes-2026/25 - Edital 11-2026 - Retificação 1 (Contábeis).pdf",
+  "item": "I e IV (1.12 e 9.2)",
+  "pagina": 1,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2027-02-14"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Prova de Conhecimentos, correspondente à prova escrita do Concurso, no dia 14/02/2027, no turno vespertino, em local e horário a serem divulgados por ato próprio",
+   "data": "14/02/2027 (domingo)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      30,
+      15,
+      7,
+      2
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "usp-fm-199-2026#ev-0012",
+  "estrato": "nao_datada/impugnacao_banca",
+  "peso": 31.666666666666668,
+  "concurso": "usp-fm-199-2026",
+  "nome": "FMUSP DVACAD/FM/199/2026",
+  "evento_id": "ev-0012",
+  "tipo_evento": "impugnacao_banca",
+  "etapa": null,
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "recurso contra a decisão da Congregação que constituir a Comissão Julgadora, contado da publicação do ato no Diário Oficial do Estado, sob pena de preclusão",
+  "forma": "relativa",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/usp-fm-199-2026/Edital DVACAD-FM-199-2026.pdf",
+  "item": "15, I",
+  "pagina": 7,
+  "data_extraida": {
+   "forma": "relativa",
+   "quantidade": 10,
+   "unidade": "dias_corridos",
+   "evento_ancora": "publicação no Diário Oficial do Estado da decisão que constituir a Comissão Julgadora (portaria_banca)",
+   "sentido": "apos"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Recurso contra a decisão da Congregação que constituir a Comissão Julgadora, contado da publicação do ato no Diário Oficial do Estado, sob pena de preclusão",
+   "data": "10 dias depois de publicação no Diário Oficial do Estado da decisão que constituir a Comissão Julgadora",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "fim",
+     [
+      1
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "unifesp-423-2026#ev-0009",
+  "estrato": "nao_datada/portaria_banca",
+  "peso": 20.5,
+  "concurso": "unifesp-423-2026",
+  "nome": "UNIFESP 423/2026",
+  "evento_id": "ev-0009",
+  "tipo_evento": "portaria_banca",
+  "etapa": null,
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Divulgação da composição da Banca Examinadora no endereço eletrônico, com antecedência mínima de 5 (cinco) dias úteis da data de início das provas",
+  "forma": "relativa",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/unifesp-2026/Edital 423-2026 - texto integral (HTML).pdf",
+  "item": "15.4",
+  "pagina": 22,
+  "data_extraida": {
+   "forma": "relativa",
+   "quantidade": 5,
+   "unidade": "dias_uteis",
+   "evento_ancora": "data de início das provas",
+   "sentido": "antes"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Divulgação da composição da Banca Examinadora no endereço eletrônico, com antecedência mínima de 5 (cinco) dias úteis da data de início das provas",
+   "data": "5 dias úteis antes de data de início das provas",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      2,
+      0
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "unifesp-425-2026#ev-0013",
+  "estrato": "nao_datada/recurso_resultado",
+  "peso": 18.333333333333332,
+  "concurso": "unifesp-425-2026",
+  "nome": "UNIFESP 425/2026",
+  "evento_id": "ev-0013",
+  "tipo_evento": "recurso_resultado",
+  "etapa": null,
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Análise do recurso contra o resultado provisório no prazo máximo de 15 (quinze) dias úteis, prorrogável por igual período",
+  "forma": "relativa",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/unifesp-2026/Edital 425-2026 - texto integral (HTML).pdf",
+  "item": "17.4",
+  "pagina": 23,
+  "data_extraida": {
+   "forma": "relativa",
+   "quantidade": 15,
+   "unidade": "dias_uteis",
+   "evento_ancora": "interposição do recurso contra o resultado provisório (recurso)",
+   "sentido": "apos"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Análise do recurso contra o resultado provisório no prazo máximo de 15 (quinze) dias úteis, prorrogável por igual período",
+   "data": "15 dias úteis depois de interposição do recurso contra o resultado provisório",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      0
+     ]
+    ]
+   ]
+  }
+ }
+]

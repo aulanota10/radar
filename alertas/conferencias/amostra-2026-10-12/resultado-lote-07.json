@@ -1,0 +1,252 @@
+[
+ {
+  "id": "ufc-48-2026#ev-0014",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Recurso contra a composição das bancas em 22/10/2026 (dia único), escopo geral",
+  "documento_diz": "\"Recurso administrativo contra a composição das bancas. | 22/10/2026\"",
+  "fonte_conferida": "documentos/ufc-48-2026/API 04 - EDITAL Nº 48-2026-CCV-UFC (...).pdf, item 22 (cronograma), pdf pg. 27-28; conferido também Aditivos 01 (API 03 / 0c320481), 02 (API 02), 03 (API 01) e versões consolidadas 12a28d02, eed3f465 e API 05",
+  "observacao": "Aditivo 01 alterou só datas de impugnação, isenção e inscrição; a linha das bancas ficou igual (22/10). Aditivos 02 e 03 não tocam o cronograma."
+ },
+ {
+  "id": "ufc-48-2026#ev-0015",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Resultado dos recursos e composição final das bancas em 26/10/2026",
+  "documento_diz": "\"Divulgação do resultado dos recursos contra a composição das bancas e resultado final da composição das bancas. | 26/10/2026\"",
+  "fonte_conferida": "documentos/ufc-48-2026/API 04 - EDITAL Nº 48-2026-CCV-UFC (...).pdf, item 22 (cronograma), pdf pg. 27-28; conferido também Aditivos 01 (API 03 / 0c320481), 02 (API 02), 03 (API 01) e versões consolidadas 12a28d02, eed3f465 e API 05",
+  "observacao": null
+ },
+ {
+  "id": "ufc-48-2026#ev-0034",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Período de realização das Provas Prática, Prático-oral e Defesa de Projeto de 18 a 20/01/2027, escopo nas 10 áreas de defesa de projeto",
+  "documento_diz": "\"Período de realização das Provas: Prática, Prática-oral e Defesa de Projeto de Pesquisa. | 18/01 a 20/01/2027\"; Anexo II lista 10 setores com defesa de projeto (01,02,03,04,15,21,22,24,25,26)",
+  "fonte_conferida": "documentos/ufc-48-2026/API 04 - EDITAL Nº 48-2026-CCV-UFC (...).pdf, item 22 (cronograma), pdf pg. 27-28; conferido também Aditivos 01 (API 03 / 0c320481), 02 (API 02), 03 (API 01) e versões consolidadas 12a28d02, eed3f465 e API 05; Anexo II do edital e Aditivo 03 (retifica Anexo II, só a lista de prova prática)",
+  "observacao": "O rótulo diz período, não prazo, e é o que o edital traz. O dia e a hora de cada candidato saem na convocação de 15/01/2027, que está na agenda (ev-0033). O edital não fixa horário de presença anterior para esta etapa (cap. 15 remete à convocação). O evento gêmeo das áreas de prática (ev-0055) existe."
+ },
+ {
+  "id": "ufc-48-2026#ev-0025",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Recurso contra resultado preliminar da Prova Didática em 18/12/2026",
+  "documento_diz": "\"Recurso administrativo contra resultado preliminar na Prova Didática. | 18/12/2026\"",
+  "fonte_conferida": "documentos/ufc-48-2026/API 04 - EDITAL Nº 48-2026-CCV-UFC (...).pdf, item 22 (cronograma), pdf pg. 27-28; conferido também Aditivos 01 (API 03 / 0c320481), 02 (API 02), 03 (API 01) e versões consolidadas 12a28d02, eed3f465 e API 05; item 20.1-20.2 (recursos pela internet, no prazo do cronograma)",
+  "observacao": "O edital não fixa hora de encerramento do recurso."
+ },
+ {
+  "id": "ufc-48-2026#ev-0057",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Recurso contra resultado preliminar das Provas Prática/Prático-oral/Defesa em 26/01/2027, escopo nas 6 áreas de prova prática ou prático-oral",
+  "documento_diz": "\"Recurso administrativo contra resultado preliminar das Provas: Prática, Prático-oral e Defesa de Projeto de Pesquisa. | 26/01/2027\"; prática: EGAP (16), Periodontia (23), Latim (54) e Grego (55), estas duas pelo Aditivo 03; prático-oral: Endodontia (47) e Patologia Geral (52)",
+  "fonte_conferida": "documentos/ufc-48-2026/API 04 - EDITAL Nº 48-2026-CCV-UFC (...).pdf, item 22 (cronograma), pdf pg. 27-28; conferido também Aditivos 01 (API 03 / 0c320481), 02 (API 02), 03 (API 01) e versões consolidadas 12a28d02, eed3f465 e API 05; Anexo II e Aditivo 03 (API 01), leia-se do Anexo II",
+  "observacao": "O escopo já aplica o Aditivo 03. As áreas de defesa de projeto têm evento gêmeo (ev-0036)."
+ },
+ {
+  "id": "ufc-48-2026#ev-0035",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Resultado preliminar das Provas Prática/Prático-oral/Defesa em 25/01/2027 (fase preliminar), escopo nas áreas de defesa de projeto",
+  "documento_diz": "\"Resultado preliminar das Provas: Prática, Prática-oral e Defesa de Projeto de Pesquisa. | 25/01/2027\"",
+  "fonte_conferida": "documentos/ufc-48-2026/API 04 - EDITAL Nº 48-2026-CCV-UFC (...).pdf, item 22 (cronograma), pdf pg. 27-28; conferido também Aditivos 01 (API 03 / 0c320481), 02 (API 02), 03 (API 01) e versões consolidadas 12a28d02, eed3f465 e API 05",
+  "observacao": "O resultado definitivo desta etapa é outro evento, em 29/01/2027 (ev-0037)."
+ },
+ {
+  "id": "ufc-48-2026#ev-0042",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Resultado final do concurso em 22/02/2027",
+  "documento_diz": "\"Divulgação do resultado final do Concurso | 22/02/2027\"",
+  "fonte_conferida": "documentos/ufc-48-2026/API 04 - EDITAL Nº 48-2026-CCV-UFC (...).pdf, item 22 (cronograma), pdf pg. 27-28; conferido também Aditivos 01 (API 03 / 0c320481), 02 (API 02), 03 (API 01) e versões consolidadas 12a28d02, eed3f465 e API 05",
+  "observacao": null
+ },
+ {
+  "id": "ufms-137-2026#ev-0013",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Homologação das inscrições deferidas e divulgação das indeferidas em 11/11/2026 (fase final)",
+  "documento_diz": "\"11/11/2026 | I - respostas aos recursos; II - homologação das inscrições deferidas; e III - divulgação das inscrições indeferidas.\"",
+  "fonte_conferida": "documentos/ufms-137-2026/edital_progep_2026_137.pdf, item 2.1 (Cronograma), pdf pg. 2 (pdftotext); não há documento posterior na pasta",
+  "observacao": "É a homologação mesmo, posterior ao período de recurso de 05 e 06/11. O rótulo começa com \"II -\", herança da enumeração do edital. Fica feio, mas não engana."
+ },
+ {
+  "id": "ufms-137-2026#ev-0007",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Resultado definitivo das isenções em 23/10/2026",
+  "documento_diz": "\"23/10/2026 | Divulgação do resultado definitivo das solicitações de isenção do pagamento da taxa de inscrição.\"",
+  "fonte_conferida": "documentos/ufms-137-2026/edital_progep_2026_137.pdf, item 2.1, pdf pg. 2",
+  "observacao": null
+ },
+ {
+  "id": "ufms-137-2026#ev-0005",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Resultado preliminar das isenções em 19/10/2026",
+  "documento_diz": "\"19/10/2026 | Divulgação do resultado preliminar das solicitações de isenção da taxa de inscrição.\"",
+  "fonte_conferida": "documentos/ufms-137-2026/edital_progep_2026_137.pdf, item 2.1, pdf pg. 2",
+  "observacao": null
+ },
+ {
+  "id": "ufms-137-2026#ev-0021",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "horarios_individuais",
+  "atribuicao": "extrator",
+  "extracao_diz": "Prova Escrita em janela de 08 a 12/12/2026, sem hora; o alerta diz \"Prova Escrita de 08/12 a 12/12\"",
+  "documento_diz": "Cronograma: \"8 a 12/12/2026 | Realização de todas as Etapas das Provas\"; 13.1: \"No primeiro dia do Concurso, antecedendo o início das Provas, às 8 horas, haverá uma Sessão Pública na qual será sorteado [...] o tema para a Prova Escrita\"; 13.2: \"sendo eliminado o candidato ausente [...] às 8h\"; 14.1: a Prova Escrita começa uma hora após a saída da Banca",
+  "fonte_conferida": "documentos/ufms-137-2026/edital_progep_2026_137.pdf, item 2.1 (pg. 2), itens 12.9, 13.1-13.8 e 14.1 (pg. 15-16, pdftotext)",
+  "observacao": "A janela de 8 a 12/12 vale para todas as etapas de todas as áreas. A escrita é uma prova de 3 h, feita no primeiro dia do concurso de cada área, que a convocação de 01/12 vai definir. O alerta trata como se a escrita durasse a janela inteira e não traz a hora. A presença às 8h, que elimina quem faltar, existe na agenda como ev-0019 (sorteio_tema), mas condicionada e sem hora, e por isso não gera aviso. Quem confiar só nos avisos não fica sabendo do horário eliminatório. A didática (ev-0025) usa a mesma janela."
+ },
+ {
+  "id": "ufu-118-2026#ev-0036",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Envio do Projeto de Pesquisa de 26/10/2026 00:00 a 27/10/2026 23:59, área 7 (FACOM)",
+  "documento_diz": "\"Envio do Projeto de Pesquisa | 26/10/2026 a 27/10/2026 | De 00h00min de 26/10/2026 às 23h59min de 27/10/2026 | Entrega por e-mail: ingresso@facom.ufu.br\"",
+  "fonte_conferida": "documentos/ufu-118-2026/06 - Edital 120-2026 FACOM - Condições Específicas.pdf, item 2.2, pg. 3; conferidos 05 (Condições Gerais) e 07 (Portaria da banca), sem alteração",
+  "observacao": "O escopo 7 é Ciência da Computação/IA (FACOM). O alerta não diz que o envio é por e-mail, mas isso não muda a data."
+ },
+ {
+  "id": "ufu-118-2026#ev-0037",
+  "veredito": "ERRADA",
+  "categoria": "outra",
+  "atribuicao": "leitor",
+  "extracao_diz": "Sorteio público da ordem de defesa do projeto em 05/11/2026 às 08:30, área 7; o alerta tem agendado=false",
+  "documento_diz": "\"Sorteio público da ordem de defesa do projeto | 05/11/2026 | 08h30min\"; 2.2.2: \"deverá comparecer [...] inclusive à sessão de abertura e ao(s) sorteio(s) da ordem de apresentação [...] sendo eliminados(as) aqueles(as) que não comparecerem ou se atrasarem\"",
+  "fonte_conferida": "documentos/ufu-118-2026/06 - Edital 120-2026 FACOM - Condições Específicas.pdf, item 2.2 (pg. 3) e 2.2.2; Edital 118 (portaria 07), item 6.14.4",
+  "observacao": "Data e hora estão certas na extração. O problema é que o leitor não agenda aviso para sorteio_ordem, e aqui a presença no sorteio elimina quem faltar. O candidato recebe o aviso da defesa (05/11, 09:00, ev-0038), chega às 9h e perde o sorteio das 08h30, o que o elimina. Categoria proposta: aviso não agendado para presença eliminatória."
+ },
+ {
+  "id": "ufu-118-2026#ev-0077",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Sorteio público do tema da Prova Didática em 26/10/2026 às 08:15, área 6 (ICENP)",
+  "documento_diz": "Edital 123, item 2.2: \"Sorteio público do tema da Prova Didática | 26/10/2026 | 08h15min | Remoto [...] ConferênciaWeb\"; a Retificação I só corrige o link da sala virtual",
+  "fonte_conferida": "documentos/ufu-118-2026/15 - Edital 123-2026 ICENP - Condições Específicas.pdf, item 2.2 e 2.2.2; 16 - Retificação I (leia-se só do link); 17 - Retificação II (só títulos)",
+  "observacao": "O sorteio da ordem, às 08:00 do mesmo dia, também elimina quem faltar (2.2.2). Ele está na agenda como ev-0076, mas é sorteio_ordem, que o leitor não agenda. Quem seguir só este aviso das 08:15 chega depois do sorteio das 08:00. É o mesmo defeito de ufu-118-2026#ev-0037, mas no evento ev-0076, não neste."
+ },
+ {
+  "id": "ufrn-109-2026#ev-0011",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Divulgação das inscrições isentas em 05/11/2026 (fase final)",
+  "documento_diz": "Anexo II: \"Divulgação das inscrições isentas | 05/11/2026 (previsão)\"; 8.8: \"na data provável de 05/11/2026\"; 8.8.1: \"Não será aceito pedido de reconsideração/recurso\"",
+  "fonte_conferida": "documentos/ufrn-109-2026/01 - Edital de abertura 109-2026.pdf, Anexo II (pg. 31) e itens 8.8-8.9; retificações DOU 184 e 192 e Edital 115 não tocam o evento",
+  "observacao": "É uma data única marcada como previsão. A extração e o alerta perderam o \"(previsão)\", mas o evento não é agendado e é só uma divulgação. Como não há recurso, faz sentido chamar de final."
+ },
+ {
+  "id": "ufrn-109-2026#ev-0029",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "periodo_provavel",
+  "atribuicao": "extrator",
+  "extracao_diz": "Entrevista de heteroidentificação, verificação documental e avaliação biopsicossocial de 13 a 16/04/2027, como janela firme",
+  "documento_diz": "Anexo II: \"13/04/2027 a 16/04/2027 (previsão)\"; 5.12: a entrevista \"será convocada em Edital específico\"",
+  "fonte_conferida": "documentos/ufrn-109-2026/01 - Edital de abertura 109-2026.pdf, Anexo II (pg. 32) e itens 4.6.1, 5.11-5.12",
+  "observacao": "A janela é previsão e junta os horários individuais que o edital de convocação vai fixar (horarios_individuais). A extração descartou o \"(previsão)\", que só ficou no trecho, e o alerta dá a janela como certa. Ele não erra o dia hoje, mas leva o candidato a contar com essa janela em vez de acompanhar a convocação específica."
+ },
+ {
+  "id": "ufrn-109-2026#ev-0030",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Resultado das entrevistas de heteroidentificação, verificação documental e biopsicossocial em 19/04/2027",
+  "documento_diz": "Anexo II: \"Resultado das entrevistas [...] | 19/04/2027 (previsão)\"",
+  "fonte_conferida": "documentos/ufrn-109-2026/01 - Edital de abertura 109-2026.pdf, Anexo II, pg. 32",
+  "observacao": "É data única de divulgação com \"(previsão)\", que nem a extração nem o alerta mostram. Isso não induz a erro de prazo."
+ },
+ {
+  "id": "ufsj-2026#ev-0010",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Data provável da confirmação do horário e local das provas em 16/10/2026",
+  "documento_diz": "Anexo II: \"Data provável da confirmação do horário e local das provas | 16/10/2026 | Nota Informativa no portal público do SIGRH/UFSJ\"",
+  "fonte_conferida": "documentos/ufsj-2026/63 - Edital de abertura (versão DOU 26-08-2026).pdf, Anexo II, pg. 8; 64 (consolidado após a 5ª retificação), cronograma igual; 70 (retificação do cronograma) só mexe na isenção",
+  "observacao": "O rótulo mantém \"Data provável\", então o candidato sabe que é estimativa."
+ },
+ {
+  "id": "ufsj-2026#ev-0023",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Prazo da comissão de 2 dias úteis após a interposição do recurso de reconsideração de nota",
+  "documento_diz": "8.14.1: \"A comissão examinadora terá o prazo de 2 (dois) dias úteis para apreciar eventuais pedidos de recurso com pedido de reconsideração de nota\"; 8.14.2: resultado por Nota Informativa",
+  "fonte_conferida": "documentos/ufsj-2026/63 - Edital de abertura (versão DOU 26-08-2026).pdf, itens 8.14-8.14.2 (pg. 5); 64 consolidado, mesmo texto",
+  "observacao": "O texto não diz de onde se contam os 2 dias úteis. A âncora \"interposição do recurso\" é leitura razoável, mas também poderia ser o fim do prazo de 3 dias úteis do 8.14. A quantidade, a unidade e o sentido batem, e o rótulo deixa claro que o prazo é da comissão."
+ },
+ {
+  "id": "unifesp-373-2026#ev-0006",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "outra",
+  "atribuicao": "extrator",
+  "extracao_diz": "Pagamento por PIX ou cartão condicionado a \"dentro do período de inscrição, previsto no item 4.4\", sem data",
+  "documento_diz": "Anexo I 1.1: inscrições \"no período de 22 de julho a 20 de setembro de 2026\"; 1.1.3.2: pagamento \"dentro do período de inscrição\"; Edital nº 688 (DOU 22/09): reabertura \"exclusivamente no dia 22/09/2026\"",
+  "fonte_conferida": "documentos/unifesp-2026/Edital 373-2026 - texto integral (HTML).pdf, Edital 688 (pg. 1), itens 4.4-4.9 e Anexo I 1.1-1.1.3.2 (pg. 29)",
+  "observacao": "A condição se resolve com datas que estão no mesmo documento e na própria agenda (ev-0004 e ev-0021). Era para ser prazo até 20/09/2026, com reabertura no dia 22/09/2026. Do jeito que está, o aviso de \"2 dias antes do fim\" não tem data para disparar e o candidato não recebe o prazo concreto. Hoje o prazo já passou, então não há dano prático."
+ },
+ {
+  "id": "unifesp-373-2026#ev-0008",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Convocação para a confirmação complementar à autodeclaração 5 dias úteis antes da data da aferição",
+  "documento_diz": "7.4.1: \"A convocação [...] será publicada [...] com antecedência mínima de 05 (cinco) dias úteis da data da aferição.\"",
+  "fonte_conferida": "documentos/unifesp-2026/Edital 373-2026 - texto integral (HTML).pdf, itens 7.4-7.4.3 (pg. 13)",
+  "observacao": "A âncora, a quantidade, a unidade e o sentido batem. A palavra \"mínima\" está no rótulo, mas não no objeto de data, porque a convocação pode sair antes. Para o candidato é só um aviso informativo."
+ },
+ {
+  "id": "uesc-050-2026#ev-0036",
+  "veredito": "ERRADA",
+  "categoria": "outra",
+  "atribuicao": "leitor",
+  "extracao_diz": "Sorteio (da ordem da Prova Didática) em 14/10/2026 às 08:00, área 04 (Ginecologia e Obstetrícia); o alerta diz \"Sorteio ordem\" e tem agendado=false",
+  "documento_diz": "Cronograma: \"14/10/26 (08h): Sorteio; Prova Didática; Plano de Trabalho; 15/10/26 (08h) Prova de títulos\"; 7.3.3: \"ficam obrigados a comparecer ao sorteio da ordem de realização da Prova Didática\"; 7.3.4: no sorteio deve entregar o currículo e o Plano de Trabalho encadernados",
+  "fonte_conferida": "documentos/uesc-050-2026/51 - Cronograma da 2ª fase (arquivo do Google Drive).pdf, pg. 1; 50_2026 (edital), itens 7.2.5-7.2.6 e 7.3.3-7.3.4; retificações 01-05 não tocam o cronograma",
+  "observacao": "Data, hora e escopo estão certos. Mas o evento, daqui a dois dias, é de presença obrigatória, o candidato precisa entregar documentos nele, e mesmo assim não gera aviso porque o leitor não agenda sorteio_ordem. Os eventos de didática e Plano de Trabalho do mesmo dia (ev-0037 e ev-0038) não têm hora. Na prática, o único horário que importa nesse dia, 08h, não chega ao candidato. O rótulo \"Sorteio ordem\" também é pobre: não diz que é da Prova Didática nem fala da entrega de documentos (texto_do_leitor)."
+ },
+ {
+  "id": "unimontes-15-2026#ev-0002",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Impugnação do edital até 5 dias úteis após a publicação",
+  "documento_diz": "1.20.1: \"no prazo de 5 (cinco) dias úteis, contado do primeiro dia útil subsequente à data de sua publicação\"",
+  "fonte_conferida": "documentos/unimontes-2026/32 - Edital 15-2026 - Biologia Geral.pdf (docling), item 1.20.1; 33 - Retificação 1 (Biologia) não altera o item",
+  "observacao": "Contar 5 dias úteis a partir do primeiro dia útil seguinte à publicação equivale a \"5 dias úteis depois da publicação\". O evento não é agendado."
+ },
+ {
+  "id": "unesp-foa-138-2026#ev-0012",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Recurso à Congregação contra o resultado final até 10 dias úteis após a publicação no DOE",
+  "documento_diz": "12.4.1: \"O candidato poderá interpor recurso à Congregação, sob os aspectos legal e formal, [...] em até 10 (dez) dias úteis, após a publicação no Diário Oficial do Estado.\" (12.4: o resultado final é publicado no DOE)",
+  "fonte_conferida": "documentos/unesp-titular-2026/52 - Edital 138-2026 STGP-DTAd - Odontopediatria - Araçatuba (DOE-SP 26-08-2026).html.docling.md, itens 12.1, 12.4-12.4.2",
+  "observacao": "A âncora, a quantidade, a unidade e o sentido batem. O texto do alerta (\"10 dias úteis depois de...\") não diz \"até\", mas o rótulo de recurso e a regra de aviso de fim deixam claro que é um prazo."
+ },
+ {
+  "id": "ufpe-08-2026#ev-0026",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Sorteio da ordem de apresentação de cada turno imediatamente antes do início da prova didática (condicionada)",
+  "documento_diz": "17.5: \"A ordem de apresentação de cada turno será sorteada imediatamente antes do início da realização da prova didática, devendo todas as pessoas candidatas de cada turno comparecer no horário definido para o grupo\"",
+  "fonte_conferida": "documentos/ufpe-08-2026/01 - Edital nº 08, de 29-06-2026 (versão corrigida), item 17.5 (pg. 14); consolidado após a 2ª retificação, item 17.5 igual",
+  "observacao": "A condição é fiel ao texto. O horário de presença é o do turno do grupo, que sai no cronograma da unidade. A agenda só tem a janela geral das provas (ev-0018), e o horário do turno vai depender do cronograma de cada área quando ele for publicado."
+ }
+]

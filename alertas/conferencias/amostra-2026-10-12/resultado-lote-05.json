@@ -1,0 +1,252 @@
+[
+ {
+  "id": "ifmg-1077-2026#ev-0016",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Comunicado dos locais de prova e comprovante de inscrição em 03/12/2026",
+  "documento_diz": "Anexo I: \"Comunicado dos Locais de Prova e Disponibilização do Comprovante de Inscrição | 03/12/2026\"",
+  "fonte_conferida": "documentos/ifmg-1077-2026/07-10-2026 EDITAL DE ABERTURA 1077-2026 E SEUS ANEXOS DOWNLOAD.pdf, Anexo I, pág. 35 (pdftotext); retificações 01-03 de 09/10/2026 não mexem no cronograma",
+  "observacao": "Cronograma declarado estimativo (26.20), mas a data é a do Anexo I vigente. Há duplicata ev-0017 (etapa escrita) com a mesma data."
+ },
+ {
+  "id": "ifmg-1077-2026#ev-0030",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Convocação para a PDD em 31/03/2027",
+  "documento_diz": "Anexo I: \"Convocação para a Prova de Desempenho Didático | 31/03/2027\"",
+  "fonte_conferida": "documentos/ifmg-1077-2026/07-10-2026 EDITAL DE ABERTURA 1077-2026 E SEUS ANEXOS DOWNLOAD.pdf, Anexo I, pág. 36",
+  "observacao": null
+ },
+ {
+  "id": "ifmg-1077-2026#ev-0014",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Recursos contra composição preliminar das bancas de 26/11 a 27/11/2026",
+  "documento_diz": "Anexo I: \"Interposição de recursos contra a composição preliminar das Bancas Examinadoras | 26/11/2026 | 27/11/2026\"; 15.11 remete ao prazo do cronograma",
+  "fonte_conferida": "documentos/ifmg-1077-2026/07-10-2026 EDITAL DE ABERTURA 1077-2026 E SEUS ANEXOS DOWNLOAD.pdf, Anexo I, pág. 35; itens 5.2, 15.8, 15.11",
+  "observacao": "Edital não fixa hora limite para os recursos (5.2: 2 dias úteis previstos no cronograma)."
+ },
+ {
+  "id": "ifmg-1077-2026#ev-0003",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Inscrições de 13/10/2026 a 13/11/2026, até 18:00",
+  "documento_diz": "Anexo I: \"Realização de Inscrição (até as 18h do último dia) | 13/10/2026 | 13/11/2026\"; 2.1: \"até às 18h00, no horário de Brasília\"",
+  "fonte_conferida": "documentos/ifmg-1077-2026/07-10-2026 EDITAL DE ABERTURA 1077-2026 E SEUS ANEXOS DOWNLOAD.pdf, Anexo I, pág. 35; item 2.1",
+  "observacao": "A mensagem poderia dizer 'horário de Brasília'."
+ },
+ {
+  "id": "ifmg-1077-2026#ev-0009",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Último dia de pagamento 13/11/2026, 18:00",
+  "documento_diz": "Anexo I: \"Último dia para realização de pagamento da taxa de inscrição (até as 18h) | 13/11/2026\"; 2.3.1: QR Code válido \"até as 18h00 do último dia de inscrição\"",
+  "fonte_conferida": "documentos/ifmg-1077-2026/07-10-2026 EDITAL DE ABERTURA 1077-2026 E SEUS ANEXOS DOWNLOAD.pdf, Anexo I, pág. 35; item 2.3.1",
+  "observacao": "A linha de data diz 'às 18:00'; o rótulo traz '(até as 18h)', então o sentido de limite se mantém."
+ },
+ {
+  "id": "ifmg-1077-2026#ev-0045",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Resultado final dos procedimentos complementares (PN/PI/PQ/PcD) em 09/06/2027",
+  "documento_diz": "Anexo I: \"Publicação de resultado final dos procedimentos complementares à Autodeclaração (PN, PI, PQ) e Avaliação de Equipe Multidisciplinar (PcD) | 09/06/2027\"",
+  "fonte_conferida": "documentos/ifmg-1077-2026/07-10-2026 EDITAL DE ABERTURA 1077-2026 E SEUS ANEXOS DOWNLOAD.pdf, Anexo I, pág. 36",
+  "observacao": null
+ },
+ {
+  "id": "ifmg-1077-2026#ev-0041",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Janela 17/05 a 27/05/2027 para os procedimentos complementares",
+  "documento_diz": "Anexo I: \"(período para) Realização dos procedimentos Complementares ... | 17/05/2027 | 27/05/2027\"",
+  "fonte_conferida": "documentos/ifmg-1077-2026/07-10-2026 EDITAL DE ABERTURA 1077-2026 E SEUS ANEXOS DOWNLOAD.pdf, Anexo I, pág. 36",
+  "observacao": "É a janela dentro da qual cada candidato cotista terá data e horário próprios, definidos na convocação de 12/05/2027 (ev-0040); a mensagem já diz 'período provável', o que evita lê-la como data única. Aplica-se só a optantes por reserva, o que o rótulo deixa claro."
+ },
+ {
+  "id": "ifmg-1077-2026#ev-0018",
+  "veredito": "ERRADA",
+  "categoria": "horario_presenca_omitido",
+  "atribuicao": "extrator",
+  "extracao_diz": "Provas objetiva e dissertativa em 24/01/2027, sem hora",
+  "documento_diz": "Anexo I: \"Realização das Provas Objetiva e Dissertativa | 24/01/2027\" (data certa); 15.22: \"Os portões ... serão fechados 15 (quinze) minutos antes do início das provas, às 07h45\"; 16.10: portão \"aberto às 07h15 e será fechado impreterivelmente às 07h45\"; 16.12: \"A prova terá início às 08h00\"",
+  "fonte_conferida": "documentos/ifmg-1077-2026/07-10-2026 EDITAL DE ABERTURA 1077-2026 E SEUS ANEXOS DOWNLOAD.pdf, Anexo I, pág. 35; itens 15.22, 15.23, 16.10, 16.12, 18.4 (docling)",
+  "observacao": "Data certa, mas a extração ficou sem hora (08h00) e a agenda do concurso não tem evento de fechamento dos portões às 07h45, que elimina quem chegar depois (15.23). A mensagem só traz '24/01/2027 (domingo)'. O mesmo vale para a duplicata ev-0019 (etapa escrita)."
+ },
+ {
+  "id": "ifmg-1077-2026#ev-0028",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Recursos contra resultado preliminar da dissertativa de 24/03 a 25/03/2027",
+  "documento_diz": "Anexo I: \"Interposição de recursos contra o resultado preliminar Prova Dissertativa | 24/03/2027 | 25/03/2027\"",
+  "fonte_conferida": "documentos/ifmg-1077-2026/07-10-2026 EDITAL DE ABERTURA 1077-2026 E SEUS ANEXOS DOWNLOAD.pdf, Anexo I, pág. 36; item 18.22",
+  "observacao": null
+ },
+ {
+  "id": "ifmg-1077-2026#ev-0025",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Resultado final da prova objetiva em 18/02/2027",
+  "documento_diz": "Anexo I: \"Publicação de resultado final da Prova Objetiva | 18/02/2027\"",
+  "fonte_conferida": "documentos/ifmg-1077-2026/07-10-2026 EDITAL DE ABERTURA 1077-2026 E SEUS ANEXOS DOWNLOAD.pdf, Anexo I, pág. 36",
+  "observacao": null
+ },
+ {
+  "id": "ifmg-1077-2026#ev-0046",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Resultado preliminar do concurso em 11/06/2027",
+  "documento_diz": "Anexo I: \"Publicação do resultado preliminar do concurso | 11/06/2027\"",
+  "fonte_conferida": "documentos/ifmg-1077-2026/07-10-2026 EDITAL DE ABERTURA 1077-2026 E SEUS ANEXOS DOWNLOAD.pdf, Anexo I, pág. 36",
+  "observacao": "Tipo e fase corretos (preliminar); o final/homologação é 18/06/2027 (ev-0048/0049)."
+ },
+ {
+  "id": "unesp-ibrc-091-2026#ev-0010",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Convocação para as provas: 5 dias úteis antes da data de realização da prova",
+  "documento_diz": "10.1: \"A convocação para as provas será feita por meio de publicação no Diário Oficial do Estado ... com, pelo menos, 05 (cinco) dias úteis de antecedência à data de realização da prova.\"",
+  "fonte_conferida": "documentos/unesp-assistente-2026/52 - Edital 091-2026 STGP-IB - Educação Física - Rio Claro (DOE-SP 11-08-2026).html.docling.md, item 10.1 (sem documentos posteriores do 091 na pasta unesp-assistente-2026)",
+  "observacao": "Quantidade, unidade, sentido e âncora certos. A linha de data perde o 'pelo menos', mas o rótulo o conserva. Data e horário das provas só virão na convocação, então não há horário de presença a cobrar agora (16.2 elimina quem não comparecer no horário que a convocação fixar)."
+ },
+ {
+  "id": "unesp-ibrc-091-2026#ev-0019",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "texto_do_leitor",
+  "atribuicao": "leitor",
+  "extracao_diz": "Envio do Lattes com comprovantes: 3 dias úteis após a publicação do edital de convocação para a 2ª fase",
+  "documento_diz": "10.8: \"Os candidatos aprovados para a segunda fase deverão, em até 3 (três) dias úteis após a publicação do edital de convocação, apresentar, via Sistema de Inscrições ... o Curriculum Lattes circunstanciado com os documentos comprobatórios.\"; 10.8.3: \"O não atendimento deste prazo implicará a eliminação do candidato.\"",
+  "fonte_conferida": "documentos/unesp-assistente-2026/52 - Edital 091-2026 STGP-IB - Educação Física - Rio Claro (DOE-SP 11-08-2026).html.docling.md, itens 10.8, 10.8.3, 12.1, 16.2",
+  "observacao": "Âncora, quantidade, unidade e sentido certos. A mensagem diz '3 dias úteis depois de publicação...' sem o 'em até', e pode ser lida como data em que o envio acontece, e não como prazo-limite eliminatório que começa a correr na publicação. Deveria dizer 'até 3 dias úteis após'."
+ },
+ {
+  "id": "unesp-ibrc-091-2026#ev-0006",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Publicação das inscrições deferidas/indeferidas no DOE na mesma data da composição da banca",
+  "documento_diz": "8.1: indeferidas \"publicadas no Diário Oficial do Estado, juntamente com as deferidas, na mesma data de divulgação da composição da Banca examinadora\"; 9.1 confirma a simultaneidade",
+  "fonte_conferida": "documentos/unesp-assistente-2026/52 - Edital 091-2026 STGP-IB - Educação Física - Rio Claro (DOE-SP 11-08-2026).html.docling.md, itens 8.1, 8.2, 9.1",
+  "observacao": "É o ato oficial de deferimento (não mera lista de inscritos), embora sujeito a reconsideração em 5 dias úteis (8.2, ev-0007)."
+ },
+ {
+  "id": "unesp-ibrc-091-2026#ev-0012",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Edital de convocação dos aprovados para a 2ª fase, após o exame de todos os recursos",
+  "documento_diz": "12.1: \"O Edital de convocação dos candidatos aprovados para a segunda fase será divulgado no Sistema de Inscrições ... após o exame de todos os recursos.\"",
+  "fonte_conferida": "documentos/unesp-assistente-2026/52 - Edital 091-2026 STGP-IB - Educação Física - Rio Claro (DOE-SP 11-08-2026).html.docling.md, item 12.1",
+  "observacao": "Tipo 'outro' quando é uma convocação; é a âncora do prazo eliminatório de 3 dias úteis do Lattes (ev-0019), e convém que a mensagem lembre isso."
+ },
+ {
+  "id": "unespar-023-2026#ev-0037",
+  "veredito": "ERRADA",
+  "categoria": "horario_presenca_omitido",
+  "atribuicao": "extrator",
+  "extracao_diz": "Ensalamento para sorteio e prova escrita, Campus Curitiba 2 (1396, 1398, 1395), 18/10/2026, sem hora",
+  "documento_diz": "Edital 038/2026, I: Curitiba 2, \"Rua dos Funcionários, 1357 - Cabral\", códigos 1396, 1398, 1395; II.1: sorteio e prova escrita \"no dia 18/10/2026\"; II.2: \"Os portões serão abertos a partir das 07h30min ... e serão fechados pontualmente às 8 horas ... não sendo permitida a entrada após o fechamento.\"; II.6: ausência elimina",
+  "fonte_conferida": "documentos/unespar-023-2026/EDITAL 38 2026 CPPS Ensalamento sorteio infos.docling.md, págs. 1-2; edital de abertura 51, itens 4.10, 4.11.1",
+  "observacao": "Data e escopo certos. Falta a hora: a agenda do concurso não tem evento de fechamento dos portões às 8h00 (só o sorteio às 08:30, ev-0016), e a mensagem traz só '18/10/2026 (domingo)', sem hora nem endereço. A prova é daqui a 6 dias."
+ },
+ {
+  "id": "unespar-023-2026#ev-0017",
+  "veredito": "ERRADA",
+  "categoria": "horario_presenca_omitido",
+  "atribuicao": "extrator",
+  "extracao_diz": "Prova escrita em 18/10/2026, sem hora, imediatamente após o sorteio",
+  "documento_diz": "4.2: prova escrita \"no dia 18/10/2026 imediatamente após o sorteio dos pontos\"; 4.10: sorteio \"às 8h30min\"; 4.11.1: \"Os portões serão fechados às 8h00 (oito horas) e não será, em hipótese alguma, permitida a entrada após o fechamento.\"; 4.7: ausência no sorteio elimina",
+  "fonte_conferida": "documentos/unespar-023-2026/51 - Edital de abertura 023-2026-CPPS (inclui anexos I a V no corpo) (texto da página).docling.md, itens 4.2, 4.7, 4.10, 4.11.1; Edital 038/2026, II.2; retificações 025 e 029 sem mudança de data",
+  "observacao": "Data certa e não superada. O horário eliminatório de fechamento dos portões (8h00) não existe como evento na agenda, e a mensagem não traz hora nenhuma."
+ },
+ {
+  "id": "uerj-225-2026#ev-0021",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Entrega de Títulos e Trabalhos em 27/11/2026, 14:00",
+  "documento_diz": "11.1 r): \"Entrega de Títulos e Trabalhos -27/11/2026, às 14h. Imediatamente após o resultado da Prova de Aula.\"; 11.2: \"O candidato deverá se apresentar 60 minutos antes de cada hora marcada no cronograma\"",
+  "fonte_conferida": "documentos/uerj-2026/03 - Seleção 2026-225 - Edital.pdf, pág. 9 (pdftotext), itens 9.1.3 b/c, 11.1, 11.2; sem documento posterior da 225 no pacote",
+  "observacao": "Data e hora certas. O 11.2 manda apresentar-se 60 min antes (13h) e o local, mas não declara eliminação, por isso não conta como horário de presença omitido; seria útil na mensagem. Vale só para aprovados na prova de aula. O rótulo começa com o artefato 'R)'."
+ },
+ {
+  "id": "uerj-225-2026#ev-0020",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Resultado da prova de aula em 27/11/2026, 14:00",
+  "documento_diz": "11.1 q): \"Resultado da prova de aula -27/11/2026, às 14h.\"",
+  "fonte_conferida": "documentos/uerj-2026/03 - Seleção 2026-225 - Edital.pdf, pág. 9",
+  "observacao": "O edital não qualifica como preliminar ou final; o resultado final do concurso vem em até 7 dias úteis (12.1). O rótulo começa com o artefato 'Q)'."
+ },
+ {
+  "id": "unifesp-421-2026#ev-0004",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Respostas às impugnações do edital: 2 dias úteis após o término do prazo de impugnação",
+  "documento_diz": "2.4: \"As respostas às impugnações serão disponibilizadas em um único arquivo no endereço eletrônico http://concursos.unifesp.br/ , em até 2 (dois) dias úteis do término do prazo de impugnação.\"",
+  "fonte_conferida": "documentos/unifesp-2026/Edital 421-2026 - texto integral (HTML).pdf, pág. 2, item 2.4 (e docling)",
+  "observacao": "É um prazo máximo ('em até') da administração, e não um evento do candidato; não é agendado. O edital se contradiz no 23.12 (\"respostas às impugnações ao Edital ... serão enviadas exclusivamente por correio eletrônico\"). O prazo de impugnação já passou (inscrições de 22/06 a 22/07/2026)."
+ },
+ {
+  "id": "unifesp-421-2026#ev-0013",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Análise do recurso: 15 dias úteis após a interposição",
+  "documento_diz": "17.4: \"O recurso será analisado no prazo máximo de 15 (quinze) dias úteis e não haverá efeito suspensivo ..., podendo o prazo de análise ser prorrogado por igual período ante justificativa explícita.\"",
+  "fonte_conferida": "documentos/unifesp-2026/Edital 421-2026 - texto integral (HTML).pdf, pág. 22, itens 17.2-17.4",
+  "observacao": "O edital não diz o termo inicial; a âncora 'interposição' é uma leitura razoável. O rótulo mantém 'prazo máximo', mas o corte em '...' tira a possibilidade de prorrogação por igual período, e a mensagem agendada no dia pode criar a expectativa de decisão naquela data."
+ },
+ {
+  "id": "ufs-08-2026#ev-0038",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "periodo_provavel",
+  "atribuicao": "extrator",
+  "extracao_diz": "Prova de Títulos como janela de 21/09/2026 a 11/01/2027, escopo geral",
+  "documento_diz": "Calendário: \"Prazo para realização das provas | A partir do dia 21/09/2026 até o dia 11/01/2027, conforme o máximo de 180 (cento e oitenta) dias corridos após a publicação do edital\"; 14.2: relatório/currículo entregue \"pelos meios e no período estipulado pelo Cronograma de Provas\"",
+  "fonte_conferida": "documentos/ufs-08-2026/03 - Calendário do Edital 008-2026 (15-07-2026).pdf, pág. 1; 01 - Edital de abertura, item 14.2; 04 - Cronograma efetivo DCC",
+  "observacao": "As datas batem, mas a faixa é o prazo legal para todas as provas, e não a data da prova de títulos; a data real vem do Calendário de Provas de cada área. A mensagem atenua o erro ao dizer 'período provável' e não agendar. Para Contabilidade/DCC, o doc 04 já fixa a entrega do relatório/Lattes no dia do sorteio do ponto da didática (03-04/11/2026) e a prova escrita em 26/10/2026 às 08:00; nenhum evento desse cronograma aparece na agenda do ufs-08-2026 (lacuna fora deste item, mas urgente)."
+ },
+ {
+  "id": "unifesp-397-2026#ev-0010",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Manifestação da Pró-Reitora sobre impugnação de banca: 2 dias úteis após a interposição",
+  "documento_diz": "15.5: recurso de impugnação \"no prazo de 02 (dois) dias úteis contados a partir da publicação do edital de sua constituição ..., que deverá ser dirigido à Pró-Reitora de Gestão com Pessoas, que se manifestará no prazo de até 2 (dois) dias úteis.\"",
+  "fonte_conferida": "documentos/unifesp-2026/69 - Edital 397-2026 - texto integral (HTML).html.docling.md, item 15.5",
+  "observacao": "O termo inicial não é explícito no edital; a âncora 'interposição' é razoável. É prazo máximo da administração, sem alerta agendado."
+ },
+ {
+  "id": "usp-fm-154-2026#ev-0019",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Seminário condicionado: o concurso se realiza de 30 a 120 dias após a publicação da aprovação das inscrições",
+  "documento_diz": "Item 3, § 2º: \"O concurso deverá realizar-se no prazo de trinta a cento e vinte dias, a contar da data da publicação no Diário Oficial do Estado da aprovação das inscrições\"; item 4 § 1º: convocação no DOE \"no mínimo 5 (cinco) dias úteis antes de sua realização\"",
+  "fonte_conferida": "documentos/usp-fm-199-2026/Edital DVACAD-FM-154-2026.pdf, pág. 4 (pdftotext) e docling; nenhum documento posterior do 154 na pasta",
+  "observacao": "A mensagem transcreve a condição literal e não dá data falsa. É a janela legal do concurso inteiro, e não do seminário; a data e o horário (cujo atraso elimina, 4 § 2º a) virão na convocação (ev-0018). O alerta agendado de 30/15/7/2 dias antes não tem data para disparar até a convocação."
+ },
+ {
+  "id": "unifesp-437-2026#ev-0017",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Resultado provisório divulgado em sessão pública, concluídos os trabalhos",
+  "documento_diz": "14.14: \"Concluídos os trabalhos, o Presidente da Banca Examinadora divulgará, em sessão pública, o resultado provisório do CONCURSO PÚBLICO\"",
+  "fonte_conferida": "documentos/unifesp-2026/Edital 437-2026 - texto integral (HTML).pdf, pág. 22, item 14.14; item 17.2",
+  "observacao": "Tipo e fase certos (provisório = preliminar). O prazo de recurso de 5 dias corridos conta da publicação no site (17.2), e não da sessão."
+ }
+]

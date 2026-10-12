@@ -1,0 +1,1037 @@
+[
+ {
+  "id": "unilab-14-2026#ev-0089",
+  "estrato": "datada/homologacao_inscricoes",
+  "peso": 6.714285714285714,
+  "concurso": "unilab-14-2026",
+  "nome": "UNILAB 14/2026",
+  "evento_id": "ev-0089",
+  "tipo_evento": "homologacao_inscricoes",
+  "etapa": null,
+  "fase": "final",
+  "escopo": [
+   "05"
+  ],
+  "descricao": "Divulgação do Resultado Final das Inscrições",
+  "forma": "fixa",
+  "inicio": "2026-10-26",
+  "fim": "2026-10-26",
+  "hora": null,
+  "documento": "documentos/unilab-14-2026/Cronograma-Medicina-Baseada-em-Evidencias-Epidemiologia-e-Pesquisa-Clinica.pdf",
+  "item": "Cronograma",
+  "pagina": 1,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-10-26"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Divulgação do Resultado Final das Inscrições",
+   "data": "26/10/2026 (segunda)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      2,
+      0
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "unilab-14-2026#ev-0069",
+  "estrato": "datada/homologacao_inscricoes",
+  "peso": 6.714285714285714,
+  "concurso": "unilab-14-2026",
+  "nome": "UNILAB 14/2026",
+  "evento_id": "ev-0069",
+  "tipo_evento": "homologacao_inscricoes",
+  "etapa": null,
+  "fase": "final",
+  "escopo": [
+   "04"
+  ],
+  "descricao": "Divulgação do Resultado Final das Inscrições",
+  "forma": "fixa",
+  "inicio": "2026-11-04",
+  "fim": "2026-11-04",
+  "hora": null,
+  "documento": "documentos/unilab-14-2026/Cronograma-Anatomia-Humana.pdf",
+  "item": "Cronograma",
+  "pagina": 1,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-11-04"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Divulgação do Resultado Final das Inscrições",
+   "data": "04/11/2026 (quarta)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      2,
+      0
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "unilab-14-2026#ev-0127",
+  "estrato": "datada/homologacao_inscricoes",
+  "peso": 6.714285714285714,
+  "concurso": "unilab-14-2026",
+  "nome": "UNILAB 14/2026",
+  "evento_id": "ev-0127",
+  "tipo_evento": "homologacao_inscricoes",
+  "etapa": null,
+  "fase": "preliminar",
+  "escopo": [
+   "07"
+  ],
+  "descricao": "Homologação das Inscrições",
+  "forma": "fixa",
+  "inicio": "2026-10-16",
+  "fim": "2026-10-16",
+  "hora": null,
+  "documento": "documentos/unilab-14-2026/Cronograma-Metodos-de-Imagem.pdf",
+  "item": "Cronograma",
+  "pagina": 1,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-10-16"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Homologação das Inscrições",
+   "data": "16/10/2026 (sexta)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      2,
+      0
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "unilab-14-2026#ev-0107",
+  "estrato": "datada/homologacao_inscricoes",
+  "peso": 6.714285714285714,
+  "concurso": "unilab-14-2026",
+  "nome": "UNILAB 14/2026",
+  "evento_id": "ev-0107",
+  "tipo_evento": "homologacao_inscricoes",
+  "etapa": null,
+  "fase": "preliminar",
+  "escopo": [
+   "06"
+  ],
+  "descricao": "Homologação das Inscrições",
+  "forma": "fixa",
+  "inicio": "2026-10-16",
+  "fim": "2026-10-16",
+  "hora": null,
+  "documento": "documentos/unilab-14-2026/Cronograma-Saude-da-Mulher.pdf",
+  "item": "Cronograma",
+  "pagina": 1,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-10-16"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Homologação das Inscrições",
+   "data": "16/10/2026 (sexta)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      2,
+      0
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "unilab-14-2026#ev-0146",
+  "estrato": "datada/inscricao",
+  "peso": 7.1,
+  "concurso": "unilab-14-2026",
+  "nome": "UNILAB 14/2026",
+  "evento_id": "ev-0146",
+  "tipo_evento": "inscricao",
+  "etapa": null,
+  "fase": null,
+  "escopo": [
+   "08"
+  ],
+  "descricao": "Período de Inscrições",
+  "forma": "janela",
+  "inicio": "2026-10-07",
+  "fim": "2026-10-21",
+  "hora": null,
+  "documento": "documentos/unilab-14-2026/Cronograma-Saude-da-Crianca.pdf",
+  "item": "Cronograma",
+  "pagina": 1,
+  "data_extraida": {
+   "forma": "janela",
+   "inicio": {
+    "data": "2026-10-07"
+   },
+   "fim": {
+    "data": "2026-10-21"
+   }
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Período de Inscrições",
+   "data": "período provável de 07/10/2026 (quarta) a 21/10/2026 (quarta)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      0
+     ]
+    ],
+    [
+     "fim",
+     [
+      7,
+      2
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "unilab-14-2026#ev-0159",
+  "estrato": "datada/prova",
+  "peso": 8.96875,
+  "concurso": "unilab-14-2026",
+  "nome": "UNILAB 14/2026",
+  "evento_id": "ev-0159",
+  "tipo_evento": "prova",
+  "etapa": "titulos",
+  "fase": null,
+  "escopo": [
+   "08"
+  ],
+  "descricao": "Prova de Títulos",
+  "forma": "fixa",
+  "inicio": "2026-11-23",
+  "fim": "2026-11-23",
+  "hora": null,
+  "documento": "documentos/unilab-14-2026/Cronograma-Saude-da-Crianca.pdf",
+  "item": "Cronograma",
+  "pagina": 2,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-11-23"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Prova de Títulos",
+   "data": "23/11/2026 (segunda)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      30,
+      15,
+      7,
+      2
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "unilab-14-2026#ev-0035",
+  "estrato": "datada/prova",
+  "peso": 8.96875,
+  "concurso": "unilab-14-2026",
+  "nome": "UNILAB 14/2026",
+  "evento_id": "ev-0035",
+  "tipo_evento": "prova",
+  "etapa": "didatica",
+  "fase": null,
+  "escopo": [
+   "02"
+  ],
+  "descricao": "Prova Didática",
+  "forma": "janela",
+  "inicio": "2026-12-01",
+  "fim": "2026-12-02",
+  "hora": null,
+  "documento": "documentos/unilab-14-2026/Cronograma-Fundamentos-da-Terapia-Ocupacional-Atividades-e-Recursos-Terapeuticos-Ocupacionais.pdf",
+  "item": "Cronograma",
+  "pagina": 1,
+  "data_extraida": {
+   "forma": "janela",
+   "inicio": {
+    "data": "2026-12-01"
+   },
+   "fim": {
+    "data": "2026-12-02"
+   }
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Prova Didática",
+   "data": "de 01/12/2026 (terça) a 02/12/2026 (quarta)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      30,
+      15,
+      7,
+      2
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "unilab-14-2026#ev-0177",
+  "estrato": "datada/recurso",
+  "peso": 8.2,
+  "concurso": "unilab-14-2026",
+  "nome": "UNILAB 14/2026",
+  "evento_id": "ev-0177",
+  "tipo_evento": "recurso",
+  "etapa": "didatica",
+  "fase": null,
+  "escopo": [
+   "09"
+  ],
+  "descricao": "Recurso Prova Didática",
+  "forma": "fixa",
+  "inicio": "2026-11-11",
+  "fim": "2026-11-11",
+  "hora": null,
+  "documento": "documentos/unilab-14-2026/Cronograma-Psiquiatria.pdf",
+  "item": "Cronograma",
+  "pagina": 1,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-11-11"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Recurso Prova Didática",
+   "data": "11/11/2026 (quarta)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      0
+     ]
+    ],
+    [
+     "fim",
+     [
+      1
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "unilab-14-2026#ev-0061",
+  "estrato": "datada/recurso",
+  "peso": 8.2,
+  "concurso": "unilab-14-2026",
+  "nome": "UNILAB 14/2026",
+  "evento_id": "ev-0061",
+  "tipo_evento": "recurso",
+  "etapa": "titulos",
+  "fase": null,
+  "escopo": [
+   "03"
+  ],
+  "descricao": "Recurso Prova de Títulos",
+  "forma": "fixa",
+  "inicio": "2026-11-30",
+  "fim": "2026-11-30",
+  "hora": null,
+  "documento": "documentos/unilab-14-2026/Cronograma-Praticas-em-Atencao-Primaria-a-Saude_Semiologia-Medica-Males.pdf",
+  "item": "Cronograma",
+  "pagina": 2,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-11-30"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Recurso Prova de Títulos",
+   "data": "30/11/2026 (segunda)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      0
+     ]
+    ],
+    [
+     "fim",
+     [
+      1
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "unilab-14-2026#ev-0012",
+  "estrato": "datada/recurso",
+  "peso": 8.2,
+  "concurso": "unilab-14-2026",
+  "nome": "UNILAB 14/2026",
+  "evento_id": "ev-0012",
+  "tipo_evento": "recurso",
+  "etapa": "escrita",
+  "fase": null,
+  "escopo": [
+   "01"
+  ],
+  "descricao": "Recurso Prova Escrita",
+  "forma": "fixa",
+  "inicio": "2026-11-25",
+  "fim": "2026-11-25",
+  "hora": null,
+  "documento": "documentos/unilab-14-2026/Cronograma-Avaliacao-Nutricional-e-Nutricao-Clinica.pdf",
+  "item": "Cronograma",
+  "pagina": 1,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-11-25"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Recurso Prova Escrita",
+   "data": "25/11/2026 (quarta)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      0
+     ]
+    ],
+    [
+     "fim",
+     [
+      1
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "unilab-14-2026#ev-0152",
+  "estrato": "datada/recurso",
+  "peso": 8.2,
+  "concurso": "unilab-14-2026",
+  "nome": "UNILAB 14/2026",
+  "evento_id": "ev-0152",
+  "tipo_evento": "recurso",
+  "etapa": "escrita",
+  "fase": null,
+  "escopo": [
+   "08"
+  ],
+  "descricao": "Recurso Prova Escrita",
+  "forma": "fixa",
+  "inicio": "2026-11-11",
+  "fim": "2026-11-11",
+  "hora": null,
+  "documento": "documentos/unilab-14-2026/Cronograma-Saude-da-Crianca.pdf",
+  "item": "Cronograma",
+  "pagina": 1,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-11-11"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Recurso Prova Escrita",
+   "data": "11/11/2026 (quarta)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      0
+     ]
+    ],
+    [
+     "fim",
+     [
+      1
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "unilab-14-2026#ev-0157",
+  "estrato": "datada/recurso",
+  "peso": 8.2,
+  "concurso": "unilab-14-2026",
+  "nome": "UNILAB 14/2026",
+  "evento_id": "ev-0157",
+  "tipo_evento": "recurso",
+  "etapa": "didatica",
+  "fase": null,
+  "escopo": [
+   "08"
+  ],
+  "descricao": "Recurso Prova Didática",
+  "forma": "fixa",
+  "inicio": "2026-11-18",
+  "fim": "2026-11-18",
+  "hora": null,
+  "documento": "documentos/unilab-14-2026/Cronograma-Saude-da-Crianca.pdf",
+  "item": "Cronograma",
+  "pagina": 1,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-11-18"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Recurso Prova Didática",
+   "data": "18/11/2026 (quarta)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      0
+     ]
+    ],
+    [
+     "fim",
+     [
+      1
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "unilab-14-2026#ev-0093",
+  "estrato": "datada/resultado",
+  "peso": 8.590909090909092,
+  "concurso": "unilab-14-2026",
+  "nome": "UNILAB 14/2026",
+  "evento_id": "ev-0093",
+  "tipo_evento": "resultado",
+  "etapa": "escrita",
+  "fase": "final",
+  "escopo": [
+   "05"
+  ],
+  "descricao": "Resultado da Prova Escrita",
+  "forma": "fixa",
+  "inicio": "2026-11-12",
+  "fim": "2026-11-12",
+  "hora": null,
+  "documento": "documentos/unilab-14-2026/Cronograma-Medicina-Baseada-em-Evidencias-Epidemiologia-e-Pesquisa-Clinica.pdf",
+  "item": "Cronograma",
+  "pagina": 1,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-11-12"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Resultado da Prova Escrita",
+   "data": "12/11/2026 (quinta)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      2,
+      0
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "unilab-14-2026#ev-0073",
+  "estrato": "datada/resultado",
+  "peso": 8.590909090909092,
+  "concurso": "unilab-14-2026",
+  "nome": "UNILAB 14/2026",
+  "evento_id": "ev-0073",
+  "tipo_evento": "resultado",
+  "etapa": "escrita",
+  "fase": "final",
+  "escopo": [
+   "04"
+  ],
+  "descricao": "Resultado Final Prova Escrita",
+  "forma": "fixa",
+  "inicio": "2026-11-19",
+  "fim": "2026-11-19",
+  "hora": null,
+  "documento": "documentos/unilab-14-2026/Cronograma-Anatomia-Humana.pdf",
+  "item": "Cronograma",
+  "pagina": 1,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-11-19"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Resultado Final Prova Escrita",
+   "data": "19/11/2026 (quinta)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      2,
+      0
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "unilab-14-2026#ev-0178",
+  "estrato": "datada/resultado",
+  "peso": 8.590909090909092,
+  "concurso": "unilab-14-2026",
+  "nome": "UNILAB 14/2026",
+  "evento_id": "ev-0178",
+  "tipo_evento": "resultado",
+  "etapa": "didatica",
+  "fase": "final",
+  "escopo": [
+   "09"
+  ],
+  "descricao": "Resultado Final Prova Didática",
+  "forma": "fixa",
+  "inicio": "2026-11-12",
+  "fim": "2026-11-12",
+  "hora": null,
+  "documento": "documentos/unilab-14-2026/Cronograma-Psiquiatria.pdf",
+  "item": "Cronograma",
+  "pagina": 2,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-11-12"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Resultado Final Prova Didática",
+   "data": "12/11/2026 (quinta)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      2,
+      0
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "unilab-14-2026#ev-0102",
+  "estrato": "datada/resultado",
+  "peso": 8.590909090909092,
+  "concurso": "unilab-14-2026",
+  "nome": "UNILAB 14/2026",
+  "evento_id": "ev-0102",
+  "tipo_evento": "resultado",
+  "etapa": "titulos",
+  "fase": "final",
+  "escopo": [
+   "05"
+  ],
+  "descricao": "Resultado Final Prova de Títulos",
+  "forma": "fixa",
+  "inicio": "2026-11-25",
+  "fim": "2026-11-25",
+  "hora": null,
+  "documento": "documentos/unilab-14-2026/Cronograma-Medicina-Baseada-em-Evidencias-Epidemiologia-e-Pesquisa-Clinica.pdf",
+  "item": "Cronograma",
+  "pagina": 2,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-11-25"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Resultado Final Prova de Títulos",
+   "data": "25/11/2026 (quarta)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      2,
+      0
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "unilab-14-2026#ev-0058",
+  "estrato": "datada/resultado",
+  "peso": 8.590909090909092,
+  "concurso": "unilab-14-2026",
+  "nome": "UNILAB 14/2026",
+  "evento_id": "ev-0058",
+  "tipo_evento": "resultado",
+  "etapa": "didatica",
+  "fase": "final",
+  "escopo": [
+   "03"
+  ],
+  "descricao": "Resultado Final Prova Didática",
+  "forma": "fixa",
+  "inicio": "2026-11-26",
+  "fim": "2026-11-26",
+  "hora": null,
+  "documento": "documentos/unilab-14-2026/Cronograma-Praticas-em-Atencao-Primaria-a-Saude_Semiologia-Medica-Males.pdf",
+  "item": "Cronograma",
+  "pagina": 2,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-11-26"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Resultado Final Prova Didática",
+   "data": "26/11/2026 (quinta)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      2,
+      0
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "unilab-14-2026#ev-0043",
+  "estrato": "datada/resultado_final",
+  "peso": 7.111111111111111,
+  "concurso": "unilab-14-2026",
+  "nome": "UNILAB 14/2026",
+  "evento_id": "ev-0043",
+  "tipo_evento": "resultado_final",
+  "etapa": null,
+  "fase": "preliminar",
+  "escopo": [
+   "02"
+  ],
+  "descricao": "Resultado Final Preliminar",
+  "forma": "fixa",
+  "inicio": "2026-12-09",
+  "fim": "2026-12-09",
+  "hora": null,
+  "documento": "documentos/unilab-14-2026/Cronograma-Fundamentos-da-Terapia-Ocupacional-Atividades-e-Recursos-Terapeuticos-Ocupacionais.pdf",
+  "item": "Cronograma",
+  "pagina": 2,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-12-09"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Resultado Final Preliminar",
+   "data": "09/12/2026 (quarta)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      0
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "unilab-14-2026#ev-0023",
+  "estrato": "datada/resultado_final",
+  "peso": 7.111111111111111,
+  "concurso": "unilab-14-2026",
+  "nome": "UNILAB 14/2026",
+  "evento_id": "ev-0023",
+  "tipo_evento": "resultado_final",
+  "etapa": null,
+  "fase": "preliminar",
+  "escopo": [
+   "01"
+  ],
+  "descricao": "Resultado Final Preliminar",
+  "forma": "fixa",
+  "inicio": "2026-12-09",
+  "fim": "2026-12-09",
+  "hora": null,
+  "documento": "documentos/unilab-14-2026/Cronograma-Avaliacao-Nutricional-e-Nutricao-Clinica.pdf",
+  "item": "Cronograma",
+  "pagina": 2,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-12-09"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Resultado Final Preliminar",
+   "data": "09/12/2026 (quarta)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      0
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "unilab-14-2026#ev-0154",
+  "estrato": "datada/sorteio_tema",
+  "peso": 7.785714285714286,
+  "concurso": "unilab-14-2026",
+  "nome": "UNILAB 14/2026",
+  "evento_id": "ev-0154",
+  "tipo_evento": "sorteio_tema",
+  "etapa": "didatica",
+  "fase": null,
+  "escopo": [
+   "08"
+  ],
+  "descricao": "Sorteio dos Pontos",
+  "forma": "fixa",
+  "inicio": "2026-11-16",
+  "fim": "2026-11-16",
+  "hora": null,
+  "documento": "documentos/unilab-14-2026/Cronograma-Saude-da-Crianca.pdf",
+  "item": "Cronograma",
+  "pagina": 1,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-11-16"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Sorteio dos Pontos",
+   "data": "16/11/2026 (segunda)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      7,
+      1
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "unilab-14-2026#ev-0114",
+  "estrato": "datada/sorteio_tema",
+  "peso": 7.785714285714286,
+  "concurso": "unilab-14-2026",
+  "nome": "UNILAB 14/2026",
+  "evento_id": "ev-0114",
+  "tipo_evento": "sorteio_tema",
+  "etapa": "didatica",
+  "fase": null,
+  "escopo": [
+   "06"
+  ],
+  "descricao": "Sorteio dos Pontos",
+  "forma": "fixa",
+  "inicio": "2026-11-09",
+  "fim": "2026-11-09",
+  "hora": null,
+  "documento": "documentos/unilab-14-2026/Cronograma-Saude-da-Mulher.pdf",
+  "item": "Cronograma",
+  "pagina": 1,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-11-09"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Sorteio dos Pontos",
+   "data": "09/11/2026 (segunda)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      7,
+      1
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "unilab-14-2026#ev-0002",
+  "estrato": "nao_datada/isencao_pedido",
+  "peso": 17.0,
+  "concurso": "unilab-14-2026",
+  "nome": "UNILAB 14/2026",
+  "evento_id": "ev-0002",
+  "tipo_evento": "isencao_pedido",
+  "etapa": null,
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Requerimento de Isenção da Taxa de Inscrição enviado para o e-mail indicado no edital referente ao respectivo setor de estudos, até o terceiro dia do período de inscrição",
+  "forma": "condicionada",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/unilab-14-2026/Edital-no-14_2026-Versao-SEI.pdf",
+  "item": "4.2",
+  "pagina": 5,
+  "data_extraida": {
+   "forma": "condicionada",
+   "condicao_literal": "até o terceiro dia do período de inscrição"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Requerimento de Isenção da Taxa de Inscrição enviado para o e-mail indicado no edital referente ao respectivo setor de estudos, até o terceiro dia do período de inscrição",
+   "data": "até o terceiro dia do período de inscrição",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "fim",
+     [
+      5,
+      2
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "unilab-14-2026#ev-0004",
+  "estrato": "nao_datada/sorteio_ordem",
+  "peso": 11.0,
+  "concurso": "unilab-14-2026",
+  "nome": "UNILAB 14/2026",
+  "evento_id": "ev-0004",
+  "tipo_evento": "sorteio_ordem",
+  "etapa": "didatica",
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Serão realizados sorteios públicos, após a divulgação do resultado da prova escrita, conduzidos pelo Secretário e por, pelo menos, um dos membros da Comissão Julgadora",
+  "forma": "condicionada",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/unilab-14-2026/Edital-no-14_2026-Versao-SEI.pdf",
+  "item": "6.8.3, I",
+  "pagina": 8,
+  "data_extraida": {
+   "forma": "condicionada",
+   "condicao_literal": "após a divulgação do resultado da prova escrita"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Serão realizados sorteios públicos, após a divulgação do resultado da prova escrita, conduzidos pelo Secretário e por, pelo menos, um dos membros da Comissão Julgadora",
+   "data": "após a divulgação do resultado da prova escrita",
+   "agendado": false,
+   "regra_antecedencia": null
+  }
+ },
+ {
+  "id": "unesp-foa-139-2026#ev-0009",
+  "estrato": "nao_datada/portaria_banca",
+  "peso": 20.5,
+  "concurso": "unesp-foa-139-2026",
+  "nome": "UNESP 139/2026",
+  "evento_id": "ev-0009",
+  "tipo_evento": "portaria_banca",
+  "etapa": null,
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "composição da Comissão Examinadora, divulgada no endereço eletrônico e publicada no DOE",
+  "forma": "condicionada",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/unesp-titular-2026/53 - Edital 139-2026 STGP-DTAd - Periodontia - Araçatuba (DOE-SP 26-08-2026).html",
+  "item": "7.2",
+  "pagina": null,
+  "data_extraida": {
+   "forma": "condicionada",
+   "condicao_literal": "na mesma data da publicação do deferimento/indeferimento das inscrições"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Composição da Comissão Examinadora, divulgada no endereço eletrônico e publicada no DOE",
+   "data": "na mesma data da publicação do deferimento/indeferimento das inscrições",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      2,
+      0
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "unifesp-433-2026#ev-0007",
+  "estrato": "nao_datada/recurso",
+  "peso": 39.214285714285715,
+  "concurso": "unifesp-433-2026",
+  "nome": "UNIFESP 433/2026",
+  "evento_id": "ev-0007",
+  "tipo_evento": "recurso",
+  "etapa": null,
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "requerimentos relacionados à relação de candidatos inscritos, por e-mail, em 2 dias corridos da publicação da relação de inscritos",
+  "forma": "relativa",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/unifesp-2026/Edital 433-2026 - texto integral (HTML).pdf",
+  "item": "4.15.3.1",
+  "pagina": 10,
+  "data_extraida": {
+   "forma": "relativa",
+   "quantidade": 2,
+   "unidade": "dias_corridos",
+   "evento_ancora": "publicação da relação de inscritos (homologacao_inscricoes)",
+   "sentido": "apos"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Requerimentos relacionados à relação de candidatos inscritos, por e-mail, em 2 dias corridos da publicação da relação de inscritos",
+   "data": "2 dias depois de publicação da relação de inscritos",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      0
+     ]
+    ],
+    [
+     "fim",
+     [
+      1
+     ]
+    ]
+   ]
+  }
+ }
+]

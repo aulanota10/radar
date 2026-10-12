@@ -1,0 +1,252 @@
+[
+ {
+  "id": "ifmg-2026#ev-0017",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Comunicado dos locais de prova e comprovante de inscrição em 15/10/2026 (fixa).",
+  "documento_diz": "Anexo I: \"Comunicado dos Locais de Prova e Disponibilização do Comprovante de Inscrição | 15/10/2026\"; a Retificação 01 (leia-se do Anexo I) mantém 15/10/2026.",
+  "fonte_conferida": "ifmg-2026/01 - Edital de abertura 607-2026 (docling, página 45, Anexo I); 02 - Retificação 01 (p. 2); Retificações 02, 03, 05, 06, 07 e 08 olhadas, nenhuma muda a data",
+  "observacao": "Evento duplicado na agenda (ev-0016 com etapa objetiva, ev-0017 com etapa escrita, mesmo texto e data): o candidato pode receber o mesmo aviso duas vezes."
+ },
+ {
+  "id": "ifmg-2026#ev-0083",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Homologação do resultado final em 03/04/2027 (fixa).",
+  "documento_diz": "Retificação 01, Anexo I leia-se: \"Publicação do resultado final do concurso (HOMOLOGAÇÃO DO RESULTADO FINAL) | 03/04/2027\" (antes era 02/03/2027).",
+  "fonte_conferida": "ifmg-2026/02 - Retificação 01 (p. 2); Retificações posteriores (02 a 08) sem mudança de cronograma",
+  "observacao": "ev-0082 (resultado_final) e ev-0083 (homologacao_resultado) apontam a mesma linha; correto pelo texto do próprio edital."
+ },
+ {
+  "id": "ifmg-2026#ev-0053",
+  "veredito": "ERRADA",
+  "categoria": "horario_presenca_omitido",
+  "atribuicao": "extrator",
+  "extracao_diz": "Provas objetiva e dissertativa em 29/11/2026, sem hora; nenhum evento para o fechamento dos portões.",
+  "documento_diz": "Retificação 01: \"Realização das Provas Objetiva e Dissertativa | 29/11/2026\" (data certa). Edital 15.21: \"Os portões de todos os locais de aplicação serão fechados 15 (quinze) minutos antes do início das provas, às 07h45\"; 15.22: nenhum acesso após o fechamento; 15.23: ausente é eliminado. Prova \"no turno da manhã, das 8h00 às 12h00\".",
+  "fonte_conferida": "ifmg-2026/02 - Retificação 01 (p. 2); 01 - Edital de abertura 607-2026 (itens 15.21 a 15.23 e 17.x, conferidos no PDF com pdftotext); agenda inteira do slug ifmg-2026",
+  "observacao": "A data 29/11/2026 está certa. O alerta sai sem hora alguma e a agenda não tem evento para os portões às 07h45, embora a extração conheça o horário 8h00-12h00 no módulo da escrita. Mesmo problema em ev-0052 (etapa objetiva)."
+ },
+ {
+  "id": "ifmg-2026#ev-0070",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Recurso contra resultados preliminares de títulos e didática de 25/02/2027 a 26/02/2027.",
+  "documento_diz": "Retificação 01: \"Interposição de recursos contra o resultado preliminar Prova de Títulos e resultado preliminar Prova de Desempenho Didático | 25/02/2027 | 26/02/2027\".",
+  "fonte_conferida": "ifmg-2026/02 - Retificação 01 (p. 2); edital item 5 (recurso no portal, prazos do Anexo I, sem hora específica)",
+  "observacao": null
+ },
+ {
+  "id": "ifmg-2026#ev-0057",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Resultado preliminar da prova objetiva em 14/12/2026.",
+  "documento_diz": "Retificação 01: \"Publicação do resultado preliminar da Prova Objetiva | 14/12/2026\".",
+  "fonte_conferida": "ifmg-2026/02 - Retificação 01 (p. 2)",
+  "observacao": null
+ },
+ {
+  "id": "uerj-245-2026#ev-0005",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Resultado da análise da isenção em 14/10/2026.",
+  "documento_diz": "11.1 e): \"Resultado da análise da isenção - dia 14/10/2026.\"",
+  "fonte_conferida": "uerj-2026/17 - Seleção 2026-245 - Edital (docling p. 10; processo SEI-260006/015913/2026, sem documento posterior na pasta)",
+  "observacao": null
+ },
+ {
+  "id": "uerj-245-2026#ev-0002",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "outra",
+  "atribuicao": "extrator",
+  "extracao_diz": "Envio da documentação do item 3.7.2 em 13/10/2026, forma fixa, sem marca de prazo-limite; aviso só 2 dias antes do início.",
+  "documento_diz": "11.1 b): \"Envio da documentação do item 3.7.2 - até o dia 13/10/2026.\"",
+  "fonte_conferida": "uerj-2026/17 - Seleção 2026-245 - Edital (docling p. 10; item 3.7.2 na p. 3)",
+  "observacao": "Prazo-limite (\"até\") gravado como data fixa; a descrição perdeu o \"até\" e o alerta lê \"13/10/2026\" como dia do envio, sem dizer que é o último dia. Não leva a perder o prazo, mas não avisa que é prazo. O item 3.7.2 manda juntar os comprovantes \"no ato da inscrição\", e as inscrições vão até 30/10: pequena tensão interna do edital."
+ },
+ {
+  "id": "uerj-245-2026#ev-0007",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Resultado do recurso da isenção em 19/10/2026.",
+  "documento_diz": "11.1 g): \"Resultado do recurso da isenção - até o dia 19/10/2026.\"",
+  "fonte_conferida": "uerj-2026/17 - Seleção 2026-245 - Edital (docling p. 10)",
+  "observacao": "O edital diz \"até\" 19/10; a extração trata como data fixa. Para uma publicação da banca, sem ação do candidato, não induz erro."
+ },
+ {
+  "id": "uerj-245-2026#ev-0021",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Resultado final do concurso no PROSSIM em 18/12/2026.",
+  "documento_diz": "12.1: \"A divulgação pela Comissão Examinadora do Resultado Final do Concurso ocorrerá até o dia 18/12/2026, no Sistema PROSSIM.\"",
+  "fonte_conferida": "uerj-2026/17 - Seleção 2026-245 - Edital (docling p. 10)",
+  "observacao": "Também é \"até\" no edital; tratado como data fixa. Sem prejuízo ao candidato, mas o prazo de 7 dias úteis para revisão (13.1) conta da divulgação real, que pode ser anterior."
+ },
+ {
+  "id": "uerj-245-2026#ev-0023",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Homologação condicionada: após os 7 dias úteis de recursos em 1ª instância; divulgação em até 30 dias após a homologação, no DOERJ.",
+  "documento_diz": "12.3: \"será homologado pelo Conselho Departamental ... após decorridos os 07 (sete) dias úteis para recursos em 1a instância, e será divulgado no prazo máximo de 30 (trinta) dias após a homologação, através de Edital publicado no ... DOERJ\".",
+  "fonte_conferida": "uerj-2026/17 - Seleção 2026-245 - Edital (docling p. 10)",
+  "observacao": "Marcado agendado=true sem data resolvível; não há como disparar aviso na data."
+ },
+ {
+  "id": "uerj-246-2026#ev-0014",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Leitura da prova escrita em 16/11/2026 às 14:30.",
+  "documento_diz": "11.1 k): \"Leitura da prova escrita - 16/11/2026, às _14 h30.\"",
+  "fonte_conferida": "uerj-2026/18 - Seleção 2026-246 - Edital (docling p. 10; processo SEI-260006/017283/2026, sem documento posterior)",
+  "observacao": "11.2 manda o candidato \"se apresentar 30 minutos antes de cada hora marcada\" (14h00), sem dizer que elimina; cada candidato lê a própria prova (8.x, i). Convém citar o horário de apresentação no aviso. Rótulo com o \"K)\" e o \"_14 h30\" do edital, feio mas certo."
+ },
+ {
+  "id": "uerj-246-2026#ev-0015",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Continuação da leitura da prova escrita em 17/11/2026 às 09:00.",
+  "documento_diz": "11.1 l): \"Continuação da leitura da prova escrita - 17/11/2026, às 09 h.\"",
+  "fonte_conferida": "uerj-2026/18 - Seleção 2026-246 - Edital (docling p. 10)",
+  "observacao": "Mesma observação do item 11.2 (apresentar-se 30 min antes, às 08h30), sem cláusula de eliminação."
+ },
+ {
+  "id": "uerj-246-2026#ev-0020",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Resultado da prova de aula em 25/11/2026 às 17:00.",
+  "documento_diz": "11.1 q): \"Resultado da prova de aula - 25/11/2026, às 17 h.\"",
+  "fonte_conferida": "uerj-2026/18 - Seleção 2026-246 - Edital (docling p. 11)",
+  "observacao": null
+ },
+ {
+  "id": "uerj-246-2026#ev-0024",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Homologação condicionada: após os 7 dias úteis de recursos em 1ª instância; divulgação em até 30 dias após a homologação.",
+  "documento_diz": "12.3: \"homologado pelo Conselho Departamental ... após decorridos os 07 (sete) dias úteis para recursos em 1 a instância, e será divulgado no prazo máximo de 30 (trinta) dias após a homologação ... DOERJ\".",
+  "fonte_conferida": "uerj-2026/18 - Seleção 2026-246 - Edital (docling p. 11)",
+  "observacao": "Agendado=true sem data resolvível."
+ },
+ {
+  "id": "ufsm-198-2026#ev-0070",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Prova escrita da área 04 em 26/10/2026, das 08:30 às 13:30, presença obrigatória.",
+  "documento_diz": "Memorando 001/2026-DMTM (07/10/2026), área Ensino de Ciências e Matemática: \"26/10/2026 | 08h30min até 13h30min | Realização da Prova Escrita | Obrigatória\"; antes, \"26/10/2026 | 08h | Início do Concurso Público ... Sorteio do ponto da Prova Escrita | Obrigatória\"; \"O candidato que não comparecer ou chegar atrasado ... para o início do concurso público será considerado eliminado\".",
+  "fonte_conferida": "ufsm-221-2026/Memorando-de-divulgao-de-incio-do-concurso-Ensino-Matemtica (docling p. 1-2); o Memorando 002 (arquivo -1) é da área Matemática, não da 04; quadro de vagas do Edital 198 (4ª linha = Ensino de Ciências e Matemática)",
+  "observacao": "O horário eliminatório das 08h existe como evento próprio (ev-0067, convocacao, 26/10 08:00, área 04), então o item passa. O memorando é cronograma preliminar e pode mudar no primeiro dia."
+ },
+ {
+  "id": "ufsm-198-2026#ev-0073",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Prazo de resposta da Comissão aos recursos, de 11/11/2026 a 12/11/2026 (área 04).",
+  "documento_diz": "Memorando 001/2026-DMTM: \"11/11/2026 e 12/11/2026 | Prazo de resposta da Comissão Examinadora aos recursos dos candidatos conforme item 8.12.12 do Edital 198/2026 | Sem a presença de candidatos\".",
+  "fonte_conferida": "ufsm-221-2026/Memorando-de-divulgao-de-incio-do-concurso-Ensino-Matemtica (docling p. 1)",
+  "observacao": null
+ },
+ {
+  "id": "ufsm-198-2026#ev-0050",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "outra",
+  "atribuicao": "extrator",
+  "extracao_diz": "Envio do Memorial (PEN-SIE) condicionado: do dia útil seguinte ao Resultado Definitivo da 1ª etapa até o dia útil anterior ao início da 2ª etapa; sem hora.",
+  "documento_diz": "8.12.16: \"a partir do dia útil subsequente à divulgação do Resultado Definitivo da 1ª etapa até o dia útil que antecede o início da 2ª Etapa\"; 8.12.18: cadastro de usuário externo no PEN-SIE \"deverá ser concluído, impreterivelmente, até às 15 horas do último dia para envio, para que seja possível o envio do Memorial Descritivo até às 23h59min do mesmo dia\".",
+  "fonte_conferida": "ufsm-198-2026/Edital de abertura MS N. 198 de 25 de junho de 2026 (docling p. 12, itens 8.12.16 a 8.12.18)",
+  "observacao": "A janela está certa, mas faltam o limite das 23h59 e a exigência do cadastro no PEN-SIE até as 15h do último dia, que pode fazer perder o envio quem ainda não tem cadastro. Para a área 04 as âncoras já existem (resultado definitivo em 12/11 às 16h, ev-0074; 2ª etapa prevista para 23/11, ev-0075), o que daria envio de 13/11 a 19/11, já que 20/11 é feriado nacional. Mesmo assim o evento continua condicionado e geral, e o aviso fica sem data."
+ },
+ {
+  "id": "ufrgs-09-2026#ev-0010",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Resposta por e-mail ao pedido de atendimento especial até 5 dias antes do Ato de Instalação (condicionada, não agendada).",
+  "documento_diz": "3.16.2.3: \"O candidato será informado, por e-mail, sobre o deferimento ou indeferimento da solicitação até 5 (cinco) dias antes do início do Ato de Instalação do Concurso.\"",
+  "fonte_conferida": "ufrgs-09-2026/51 - Edital de abertura 09-2026 (página) (docling p. 6); Retificações 33 e 34 só mudam requisitos de áreas",
+  "observacao": null
+ },
+ {
+  "id": "ufrgs-09-2026#ev-0035",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "texto_do_leitor",
+  "atribuicao": "leitor",
+  "extracao_diz": "Recurso contra o resultado das inscrições, área 04: 5 dias úteis após a divulgação do Edital HI (relativa).",
+  "documento_diz": "Edital HI nº 45, de 15/09/2026 (Anatomia Patológica e Patologia Clínica): \"A contar da data de divulgação deste Edital caberá recurso, no prazo máximo de 05 (cinco) dias úteis\".",
+  "fonte_conferida": "ufrgs-09-2026/HI-Ciencias-da-saude (docling p. 1); agenda: ev-0034 (HI nº 45 em 15/09/2026, área 04)",
+  "observacao": "Os parâmetros da relativa estão certos (5 dias úteis, após, âncora HI). Mas o alerta diz \"5 dias úteis depois de divulgação do Edital HI\", o que pode ser lido como o dia do recurso e não como prazo máximo que começa na divulgação. Além disso não resolve a data, embora a âncora seja conhecida (15/09/2026): o prazo terminou em 22/09/2026. Se for enviado hoje, o aviso descreve um prazo já encerrado como se estivesse aberto."
+ },
+ {
+  "id": "unimontes-13-2026#ev-0009",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Inscrições das 08:00 de 19/10/2026 às 23:59 de 19/12/2026.",
+  "documento_diz": "Retificação 1 do Edital 13/2026, leia-se 4.2.1: \"no período das 8h00 do dia 19/10/2026 às 23h59 do dia 19/12/2026\".",
+  "fonte_conferida": "unimontes-2026/29 - Edital 13-2026 - Retificação 1 (Odontologia) (docling p. 1); não há retificação posterior do Edital 13 na pasta",
+  "observacao": null
+ },
+ {
+  "id": "unimontes-18-2026#ev-0011",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Pedido de isenção das 08:00 de 19/10/2026 às 23:59 de 19/11/2026.",
+  "documento_diz": "Retificação 1 do Edital 18/2026, leia-se 4.4.2: \"no período de 8h00 do dia 19/10/2026 às 23h59 do dia 19/11/2026\".",
+  "fonte_conferida": "unimontes-2026/40 - Edital 18-2026 - Retificação 1 (Direito Público Substantivo) (docling p. 1, conferido no PDF com pdftotext); não há retificação posterior do Edital 18",
+  "observacao": null
+ },
+ {
+  "id": "unesp-ibilce-305-2026#ev-0007",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Relação das inscrições deferidas e indeferidas no DOE, na mesma data da composição da Comissão Examinadora (condicionada).",
+  "documento_diz": "6.2: \"Será publicada no Diário Oficial do Estado ... a relação das inscrições deferidas e indeferidas ... na mesma data de divulgação da composição da Comissão Examinadora.\"",
+  "fonte_conferida": "unesp-titular-2026/57 - Edital 305-2026 CSJRP - Química Inorgânica (html.docling, item 6.2); nenhum documento posterior do 305 na pasta",
+  "observacao": "É a homologação pela Congregação (6.1), sujeita a reconsideração em 10 dias úteis (6.3); tipo homologacao_inscricoes adequado."
+ },
+ {
+  "id": "unifesp-403-2026#ev-0005",
+  "veredito": "ERRADA",
+  "categoria": "relativa_errada",
+  "atribuicao": "extrator",
+  "extracao_diz": "Isenção: 5 dias úteis depois do início das inscrições (relativa, quantidade 5, após).",
+  "documento_diz": "10.2: \"poderá ser solicitada somente no prazo compreendido entre o 1º (primeiro) e o 5º (quinto) dia útil do início das inscrições\"; inscrições a partir de 22/06/2026 (Anexo I, 1.1).",
+  "fonte_conferida": "unifesp-2026/Edital 403-2026 - texto integral (HTML) (docling, item 10.2, p. 19); agenda ev-0004 (inscrições 22/06 a 20/09/2026)",
+  "observacao": "O 1º dia útil é o próprio dia de início, então o 5º dia útil é o início mais 4 dias úteis: a janela foi de 22/06 a 26/06/2026. Contar \"5 dias úteis depois\" leva a 29/06, um dia útil além do prazo, e quem calcular pelo alerta perde a isenção. A âncora tem data conhecida, mas o leitor não resolveu. O evento já passou, então não há risco hoje, mas o erro de contagem se repete em qualquer \"entre o 1º e o Nº dia útil\"."
+ },
+ {
+  "id": "ufpe-09-2026#ev-0026",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "texto_do_leitor",
+  "atribuicao": "leitor",
+  "extracao_diz": "Recurso de 2 dias contra o resultado preliminar da verificação documental complementar (pessoas indígenas), condicionado à divulgação.",
+  "documento_diz": "4.7.8: \"Da divulgação do resultado preliminar correrá o prazo de 2 (dois) dias para interposição de recurso à decisão da comissão\" (seção 4.7, verificação documental de pessoas autodeclaradas indígenas).",
+  "fonte_conferida": "ufpe-09-2026/51 - Edital 09-2026 - Sertânia - consolidado com a Retificação 1 (docling p. 4-5, itens 4.7.2 a 4.7.11)",
+  "observacao": "A extração está certa e a descrição traz o qualificador \"(verificação documental complementar para pessoas indígenas)\". O rótulo do alerta tira o parêntese e fica \"Da divulgação do resultado preliminar correrá o prazo de 2 (dois) dias para interposição de recurso à decisão da comissão\", sem dizer qual resultado nem a quem se aplica, e vai com escopo geral para todos. Pode ser confundido com recurso de resultado preliminar de prova."
+ },
+ {
+  "id": "ufla-127-2026#ev-0021",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Sorteio do dia da prova didática, condicionado a não caberem todas as provas num só dia (não agendado).",
+  "documento_diz": "6.4.5.1: \"Se o número de pessoas candidatas for tal que não permita a realização de todas as provas em um mesmo dia, deverá ser observada a seguinte sequência: I- sorteio do dia da prova das pessoas candidatas\".",
+  "fonte_conferida": "ufla-127-2026/51 - Edital PROGEPE 127-2026 (texto do SEI) (html.docling, itens 6.4.2 a 6.4.5.1 e 7.3 a 7.3.3); resultado_final_educacao_basica_1272026; agenda ufla-127-2026",
+  "observacao": "A presença nos sorteios elimina quem faltar (7.3.3), e a sessão de 27/09/2026 às 08h existe como ev-0018. O concurso já tem resultado final publicado, mas segue \"ativo\" na agenda."
+ }
+]

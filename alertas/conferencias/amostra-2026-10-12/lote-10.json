@@ -1,0 +1,1034 @@
+[
+ {
+  "id": "ufersa-030-2026#ev-0034",
+  "estrato": "datada/atendimento_especial_resultado",
+  "peso": 1.3333333333333333,
+  "concurso": "ufersa-030-2026",
+  "nome": "UFERSA 030/2026",
+  "evento_id": "ev-0034",
+  "tipo_evento": "atendimento_especial_resultado",
+  "etapa": null,
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Resultado do pedido de atendimento especial",
+  "forma": "fixa",
+  "inicio": "2026-10-20",
+  "fim": "2026-10-20",
+  "hora": null,
+  "documento": "documentos/ufersa-030-2026/05 - Anexo II - Cronograma provisório grupos I, II e III (retificado).pdf",
+  "item": "Cronograma provisório",
+  "pagina": 1,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-10-20"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Resultado do pedido de atendimento especial",
+   "data": "20/10/2026 (terça)",
+   "agendado": false,
+   "regra_antecedencia": null
+  }
+ },
+ {
+  "id": "ufersa-030-2026#ev-0022",
+  "estrato": "datada/entrega_documento",
+  "peso": 7.3,
+  "concurso": "ufersa-030-2026",
+  "nome": "UFERSA 030/2026",
+  "evento_id": "ev-0022",
+  "tipo_evento": "entrega_documento",
+  "etapa": "memorial",
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "A Prova de Memorial e Plano de Trabalho consiste em um documento único (em formato PDF), que deverá ser encaminhado via sistema, no período de 06 a 07 de dezembro de 2026. O link do formulário para envio do arquivo será disponibilizado na publicação do resultado da Prova de Aptidão Didática.",
+  "forma": "janela",
+  "inicio": "2026-12-06",
+  "fim": "2026-12-07",
+  "hora": null,
+  "documento": "documentos/ufersa-030-2026/01 - Edital de abertura 030-2026.pdf",
+  "item": "8.14.3",
+  "pagina": 16,
+  "data_extraida": {
+   "forma": "janela",
+   "inicio": {
+    "data": "2026-12-06"
+   },
+   "fim": {
+    "data": "2026-12-07"
+   }
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "A Prova de Memorial e Plano de Trabalho consiste em um documento único (em formato PDF), que deverá ser encaminhado via sistema...",
+   "data": "de 06/12/2026 (domingo) a 07/12/2026 (segunda)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "fim",
+     [
+      15,
+      7,
+      3
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ufersa-030-2026#ev-0035",
+  "estrato": "datada/outro",
+  "peso": 8.176470588235293,
+  "concurso": "ufersa-030-2026",
+  "nome": "UFERSA 030/2026",
+  "evento_id": "ev-0035",
+  "tipo_evento": "outro",
+  "etapa": null,
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Divulgação do cartão de inscrição (o local da Prova Escrita é informado no cartão de inscrição, 8.12.4)",
+  "forma": "fixa",
+  "inicio": "2026-11-09",
+  "fim": "2026-11-09",
+  "hora": null,
+  "documento": "documentos/ufersa-030-2026/05 - Anexo II - Cronograma provisório grupos I, II e III (retificado).pdf",
+  "item": "Cronograma provisório",
+  "pagina": 1,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-11-09"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Divulgação do cartão de inscrição (o local da Prova Escrita é informado no cartão de inscrição, 8.12.4)",
+   "data": "09/11/2026 (segunda)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      2
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ufersa-030-2026#ev-0007",
+  "estrato": "datada/pagamento",
+  "peso": 3.8,
+  "concurso": "ufersa-030-2026",
+  "nome": "UFERSA 030/2026",
+  "evento_id": "ev-0007",
+  "tipo_evento": "pagamento",
+  "etapa": null,
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "O pagamento da taxa de inscrição deverá ser efetuado até às 23h59min do dia 12 de outubro de 2026, respeitado o expediente bancário.",
+  "forma": "fixa",
+  "inicio": "2026-10-12",
+  "fim": "2026-10-12",
+  "hora": "23:59",
+  "documento": "documentos/ufersa-030-2026/01 - Edital de abertura 030-2026.pdf",
+  "item": "7.4",
+  "pagina": 11,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-10-12",
+   "hora": "23:59"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "O pagamento da taxa de inscrição deverá ser efetuado até às 23h59min do dia 12 de outubro de 2026, respeitado o expediente bancário",
+   "data": "12/10/2026 (segunda), às 23:59",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "fim",
+     [
+      2
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ufersa-030-2026#ev-0063",
+  "estrato": "datada/resultado",
+  "peso": 8.590909090909092,
+  "concurso": "ufersa-030-2026",
+  "nome": "UFERSA 030/2026",
+  "evento_id": "ev-0063",
+  "tipo_evento": "resultado",
+  "etapa": "titulos",
+  "fase": "final",
+  "escopo": "geral",
+  "descricao": "Resposta aos recursos e Resultado Final da Etapa Exame de Título",
+  "forma": "fixa",
+  "inicio": "2026-12-18",
+  "fim": "2026-12-18",
+  "hora": null,
+  "documento": "documentos/ufersa-030-2026/05 - Anexo II - Cronograma provisório grupos I, II e III (retificado).pdf",
+  "item": "Cronograma provisório",
+  "pagina": 3,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-12-18"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Resposta aos recursos e Resultado Final da Etapa Exame de Título",
+   "data": "18/12/2026 (sexta)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      2,
+      0
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "usp-iau-03-2026#ev-0002",
+  "estrato": "datada/inscricao",
+  "peso": 7.1,
+  "concurso": "usp-iau-03-2026",
+  "nome": "USP DVACAD/IAU - nº 03/2026",
+  "evento_id": "ev-0002",
+  "tipo_evento": "inscricao",
+  "etapa": null,
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Inscrições exclusivamente por meio do link https://uspdigital.usp.br/gr/admissao, pelo prazo de 30 (trinta) dias",
+  "forma": "janela",
+  "inicio": "2026-10-05",
+  "fim": "2026-11-03",
+  "hora": "09:00",
+  "documento": "documentos/usp-iau-03-2026/Edital-DVACAD-03-2026-Doutor-em-Representacao-e-Linguagem-Publicado-DOE-02.10.2026.pdf",
+  "item": "preâmbulo",
+  "pagina": 1,
+  "data_extraida": {
+   "forma": "janela",
+   "inicio": {
+    "data": "2026-10-05",
+    "hora": "09:00"
+   },
+   "fim": {
+    "data": "2026-11-03",
+    "hora": "17:00"
+   }
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Inscrições exclusivamente por meio do link https://uspdigital.usp.br/gr/admissao, pelo prazo de 30 (trinta) dias",
+   "data": "de 05/10/2026 (segunda), às 09:00 a 03/11/2026 (terça), até 17:00",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      0
+     ]
+    ],
+    [
+     "fim",
+     [
+      7,
+      2
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "usp-iau-03-2026#ev-0008",
+  "estrato": "datada/pagamento",
+  "peso": 3.8,
+  "concurso": "usp-iau-03-2026",
+  "nome": "USP DVACAD/IAU - nº 03/2026",
+  "evento_id": "ev-0008",
+  "tipo_evento": "pagamento",
+  "etapa": null,
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Pagamento da taxa por transferência PIX, com código gerado no site https://pagamentos.iau.usp.br/, e compensação dentro do prazo de inscrições; comprovante anexado no momento da inscrição",
+  "forma": "fixa",
+  "inicio": "2026-11-03",
+  "fim": "2026-11-03",
+  "hora": null,
+  "documento": "documentos/usp-iau-03-2026/Edital-DVACAD-03-2026-Doutor-em-Representacao-e-Linguagem-Publicado-DOE-02.10.2026.pdf",
+  "item": "2, § 9º",
+  "pagina": 6,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-11-03"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Pagamento da taxa por transferência PIX, com código gerado no site https://pagamentos.iau.usp.br/, e compensação dentro do prazo de inscrições...",
+   "data": "03/11/2026 (terça)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "fim",
+     [
+      2
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "usp-iau-03-2026#ev-0005",
+  "estrato": "datada/recurso",
+  "peso": 8.2,
+  "concurso": "usp-iau-03-2026",
+  "nome": "USP DVACAD/IAU - nº 03/2026",
+  "evento_id": "ev-0005",
+  "tipo_evento": "recurso",
+  "etapa": null,
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Pedido de reconsideração, diretamente no sistema de inscrições, no caso de indeferimento da isenção ou da redução de taxa",
+  "forma": "janela",
+  "inicio": "2026-10-19",
+  "fim": "2026-10-20",
+  "hora": null,
+  "documento": "documentos/usp-iau-03-2026/Edital-DVACAD-03-2026-Doutor-em-Representacao-e-Linguagem-Publicado-DOE-02.10.2026.pdf",
+  "item": "2, § 5º",
+  "pagina": 5,
+  "data_extraida": {
+   "forma": "janela",
+   "inicio": {
+    "data": "2026-10-19"
+   },
+   "fim": {
+    "data": "2026-10-20"
+   }
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Pedido de reconsideração, diretamente no sistema de inscrições, no caso de indeferimento da isenção ou da redução de taxa",
+   "data": "de 19/10/2026 (segunda) a 20/10/2026 (terça)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      0
+     ]
+    ],
+    [
+     "fim",
+     [
+      1
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "usp-iau-03-2026#ev-0007",
+  "estrato": "nao_datada/isencao_resultado",
+  "peso": 16.666666666666668,
+  "concurso": "usp-iau-03-2026",
+  "nome": "USP DVACAD/IAU - nº 03/2026",
+  "evento_id": "ev-0007",
+  "tipo_evento": "isencao_resultado",
+  "etapa": null,
+  "fase": "final",
+  "escopo": "geral",
+  "descricao": "O resultado final dos pedidos de isenção e redução de taxa será publicado no Diário Oficial do Estado.",
+  "forma": "condicionada",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/usp-iau-03-2026/Edital-DVACAD-03-2026-Doutor-em-Representacao-e-Linguagem-Publicado-DOE-02.10.2026.pdf",
+  "item": "2, § 7º",
+  "pagina": 5,
+  "data_extraida": {
+   "forma": "condicionada",
+   "condicao_literal": "será publicado no Diário Oficial do Estado"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "O resultado final dos pedidos de isenção e redução de taxa será publicado no Diário Oficial do Estado",
+   "data": "será publicado no Diário Oficial do Estado",
+   "agendado": false,
+   "regra_antecedencia": null
+  }
+ },
+ {
+  "id": "usp-iau-03-2026#ev-0017",
+  "estrato": "nao_datada/resultado",
+  "peso": 11.666666666666666,
+  "concurso": "usp-iau-03-2026",
+  "nome": "USP DVACAD/IAU - nº 03/2026",
+  "evento_id": "ev-0017",
+  "tipo_evento": "resultado",
+  "etapa": "escrita",
+  "fase": "final",
+  "escopo": "geral",
+  "descricao": "As notas e o resultado da primeira fase serão apresentados pela Comissão Julgadora, em sessão pública, ou publicados no Diário Oficial do Estado",
+  "forma": "condicionada",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/usp-iau-03-2026/Edital-DVACAD-03-2026-Doutor-em-Representacao-e-Linguagem-Publicado-DOE-02.10.2026.pdf",
+  "item": "6, § 1º",
+  "pagina": 7,
+  "data_extraida": {
+   "forma": "condicionada",
+   "condicao_literal": "em sessão pública, ou publicados no Diário Oficial do Estado no mínimo 5 (cinco) dias úteis antes da convocação dos candidatos para a segunda fase do concurso"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "As notas e o resultado da primeira fase serão apresentados pela Comissão Julgadora, em sessão pública, ou publicados no Diário Oficial do Estado",
+   "data": "em sessão pública, ou publicados no Diário Oficial do Estado no mínimo 5 (cinco) dias úteis antes da convocação dos candidatos para a segunda fase do concurso",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      2,
+      0
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "unila-240-2026#ev-0003",
+  "estrato": "datada/inscricao",
+  "peso": 7.1,
+  "concurso": "unila-240-2026",
+  "nome": "UNILA 240/2026",
+  "evento_id": "ev-0003",
+  "tipo_evento": "inscricao",
+  "etapa": null,
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Período de Inscrições",
+  "forma": "janela",
+  "inicio": "2026-09-28",
+  "fim": "2026-10-27",
+  "hora": null,
+  "documento": "documentos/unila-240-2026/edital_240-2026_condicoes_gerais.pdf",
+  "item": "Anexo I",
+  "pagina": 29,
+  "data_extraida": {
+   "forma": "janela",
+   "inicio": {
+    "data": "2026-09-28"
+   },
+   "fim": {
+    "data": "2026-10-27"
+   }
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Período de Inscrições",
+   "data": "período provável de 28/09/2026 (segunda) a 27/10/2026 (terça)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      0
+     ]
+    ],
+    [
+     "fim",
+     [
+      7,
+      2
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "unila-240-2026#ev-0040",
+  "estrato": "datada/outro",
+  "peso": 8.176470588235293,
+  "concurso": "unila-240-2026",
+  "nome": "UNILA 240/2026",
+  "evento_id": "ev-0040",
+  "tipo_evento": "outro",
+  "etapa": null,
+  "fase": null,
+  "escopo": [
+   "02"
+  ],
+  "descricao": "Realização das Provas",
+  "forma": "janela",
+  "inicio": "2027-01-25",
+  "fim": "2027-01-29",
+  "hora": null,
+  "documento": "documentos/unila-240-2026/Edital 243-2026 - Publicação no DOU Edição- 181 - Seção- 3 - Página- 52 (link is.pdf",
+  "item": "2, cronograma específico",
+  "pagina": 1,
+  "data_extraida": {
+   "forma": "janela",
+   "inicio": {
+    "data": "2027-01-25"
+   },
+   "fim": {
+    "data": "2027-01-29"
+   }
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Realização das Provas",
+   "data": "de 25/01/2027 (segunda) a 29/01/2027 (sexta)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      2
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "unila-240-2026#ev-0039",
+  "estrato": "nao_datada/portaria_banca",
+  "peso": 20.5,
+  "concurso": "unila-240-2026",
+  "nome": "UNILA 240/2026",
+  "evento_id": "ev-0039",
+  "tipo_evento": "portaria_banca",
+  "etapa": null,
+  "fase": null,
+  "escopo": [
+   "02"
+  ],
+  "descricao": "Divulgação da Banca Examinadora",
+  "forma": "condicionada",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/unila-240-2026/Edital 243-2026 - Publicação no DOU Edição- 181 - Seção- 3 - Página- 52 (link is.pdf",
+  "item": "2, cronograma específico",
+  "pagina": 1,
+  "data_extraida": {
+   "forma": "condicionada",
+   "condicao_literal": "a partir de 18/11/2026"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Divulgação da Banca Examinadora",
+   "data": "a partir de 18/11/2026",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      2,
+      0
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "unila-240-2026#ev-0033",
+  "estrato": "nao_datada/prova",
+  "peso": 27.0,
+  "concurso": "unila-240-2026",
+  "nome": "UNILA 240/2026",
+  "evento_id": "ev-0033",
+  "tipo_evento": "prova",
+  "etapa": "escrita",
+  "fase": null,
+  "escopo": [
+   "01"
+  ],
+  "descricao": "Prova Escrita",
+  "forma": "condicionada",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/unila-240-2026/Edital 241-2026 - Publicação no DOU Edição- 181 - Seção- 3 - Página- 53 (link is.pdf",
+  "item": "2, cronograma prévio das provas",
+  "pagina": 1,
+  "data_extraida": {
+   "forma": "condicionada",
+   "condicao_literal": "Segunda - 9h às 13h"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Prova Escrita",
+   "data": "Segunda - 9h às 13h",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      30,
+      15,
+      7,
+      2
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "unifal-002-2026#ev-0023",
+  "estrato": "datada/prova",
+  "peso": 8.96875,
+  "concurso": "unifal-002-2026",
+  "nome": "UNIFAL-MG 002/2026",
+  "evento_id": "ev-0023",
+  "tipo_evento": "prova",
+  "etapa": "escrita",
+  "fase": null,
+  "escopo": [
+   "H"
+  ],
+  "descricao": "Prova escrita do Edital nº 41/2026",
+  "forma": "fixa",
+  "inicio": "2026-11-16",
+  "fim": "2026-11-16",
+  "hora": "08:00",
+  "documento": "documentos/unifal-002-2026/59 - Edital 41-2026 - Reabertura Topografia e Georreferenciamento (SEI).html",
+  "item": "Anexo I, 2",
+  "pagina": null,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-11-16",
+   "hora": "08:00"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Prova escrita do Edital nº 41/2026",
+   "data": "16/11/2026 (segunda), às 08:00",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      30,
+      15,
+      7,
+      2
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "unifal-002-2026#ev-0032",
+  "estrato": "nao_datada/procedimento_cotas",
+  "peso": 31.833333333333332,
+  "concurso": "unifal-002-2026",
+  "nome": "UNIFAL-MG 002/2026",
+  "evento_id": "ev-0032",
+  "tipo_evento": "procedimento_cotas",
+  "etapa": null,
+  "fase": "convocacao",
+  "escopo": "geral",
+  "descricao": "Convocação do candidato classificado na condição de pessoa com deficiência para a perícia da equipe multiprofissional",
+  "forma": "condicionada",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/unifal-002-2026/52 - Edital 102-2026 - Direito Público (SEI).html",
+  "item": "Anexo II, 1.7",
+  "pagina": null,
+  "data_extraida": {
+   "forma": "condicionada",
+   "condicao_literal": "Antes da homologação do Resultado Final do concurso público; convocação publicada no site do concurso, com local, data e horário prováveis"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Convocação do candidato classificado na condição de pessoa com deficiência para a perícia da equipe multiprofissional",
+   "data": "Antes da homologação do Resultado Final do concurso público; convocação publicada no site do concurso, com local, data e horário prováveis",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      2,
+      0
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "unifal-002-2026#ev-0024",
+  "estrato": "nao_datada/recurso",
+  "peso": 39.214285714285715,
+  "concurso": "unifal-002-2026",
+  "nome": "UNIFAL-MG 002/2026",
+  "evento_id": "ev-0024",
+  "tipo_evento": "recurso",
+  "etapa": null,
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Recurso contra o resultado de cada prova (escrita, didática, defesa de projeto e títulos), no primeiro dia útil após a divulgação, das 8h às 17h",
+  "forma": "relativa",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/unifal-002-2026/52 - Edital 102-2026 - Direito Público (SEI).html",
+  "item": "14.2",
+  "pagina": null,
+  "data_extraida": {
+   "forma": "relativa",
+   "quantidade": 1,
+   "unidade": "dias_uteis",
+   "evento_ancora": "divulgação do resultado da prova (resultado)",
+   "sentido": "apos"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Recurso contra o resultado de cada prova (escrita, didática, defesa de projeto e títulos), no primeiro dia útil após a divulgação, das 8h às 17h",
+   "data": "1 dias úteis depois de divulgação do resultado da prova",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      0
+     ]
+    ],
+    [
+     "fim",
+     [
+      1
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ufv-47-2026#ev-0005",
+  "estrato": "datada/prova",
+  "peso": 8.96875,
+  "concurso": "ufv-47-2026",
+  "nome": "UFV 47/2026",
+  "evento_id": "ev-0005",
+  "tipo_evento": "prova",
+  "etapa": "escrita",
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Prova de Conhecimento, aferida por meio de prova escrita",
+  "forma": "fixa",
+  "inicio": "2026-11-09",
+  "fim": "2026-11-09",
+  "hora": "09:00",
+  "documento": "documentos/ufv-47-2026/Edital-47-2026-DPD.pdf",
+  "item": "4.2.1",
+  "pagina": 1,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-11-09",
+   "hora": "09:00"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Prova de Conhecimento, aferida por meio de prova escrita",
+   "data": "09/11/2026 (segunda), às 09:00",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      30,
+      15,
+      7,
+      2
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ufv-47-2026#ev-0001",
+  "estrato": "nao_datada/inscricao",
+  "peso": 4.5,
+  "concurso": "ufv-47-2026",
+  "nome": "UFV 47/2026",
+  "evento_id": "ev-0001",
+  "tipo_evento": "inscricao",
+  "etapa": null,
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "abertura das inscrições, exclusivamente, através do link https://www.gps.ufv.br, no prazo de 30 (trinta) dias corridos, a contar da data de publicação deste Edital no Diário Oficial da União",
+  "forma": "relativa",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/ufv-47-2026/Edital-47-2026-DPD.pdf",
+  "item": "preâmbulo",
+  "pagina": 1,
+  "data_extraida": {
+   "forma": "relativa",
+   "quantidade": 30,
+   "unidade": "dias_corridos",
+   "evento_ancora": "publicação do Edital no Diário Oficial da União (publicacao_edital)",
+   "sentido": "apos"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Abertura das inscrições, exclusivamente, através do link https://www.gps.ufv.br, no prazo de 30 (trinta) dias corridos...",
+   "data": "30 dias depois de publicação do Edital no Diário Oficial da União",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      0
+     ]
+    ],
+    [
+     "fim",
+     [
+      7,
+      2
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "uerj-237-2026#ev-0021",
+  "estrato": "datada/entrega_documento",
+  "peso": 7.3,
+  "concurso": "uerj-237-2026",
+  "nome": "UERJ Seleção 2026/237",
+  "evento_id": "ev-0021",
+  "tipo_evento": "entrega_documento",
+  "etapa": "titulos",
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "q) Entrega de Títulos e Trabalhos - 19/11/2026, imediatamente após o resultado da Prova de Aula.",
+  "forma": "fixa",
+  "inicio": "2026-11-19",
+  "fim": "2026-11-19",
+  "hora": null,
+  "documento": "documentos/uerj-2026/13 - Seleção 2026-237 - Edital.pdf",
+  "item": "11.1",
+  "pagina": 10,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-11-19"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Q) Entrega de Títulos e Trabalhos - 19/11/2026, imediatamente após o resultado da Prova de Aula",
+   "data": "19/11/2026 (quinta)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "fim",
+     [
+      15,
+      7,
+      3
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "unimontes-10-2026#ev-0011",
+  "estrato": "datada/isencao_pedido",
+  "peso": 5.0,
+  "concurso": "unimontes-10-2026",
+  "nome": "Unimontes 10/2026",
+  "evento_id": "ev-0011",
+  "tipo_evento": "isencao_pedido",
+  "etapa": null,
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Pedido de isenção do valor de inscrição, das 8h00 do dia 19/10/2026 às 23h59 do dia 19/11/2026",
+  "forma": "janela",
+  "inicio": "2026-10-19",
+  "fim": "2026-11-19",
+  "hora": "08:00",
+  "documento": "documentos/unimontes-2026/23 - Edital 10-2026 - Retificação 1 (Clínica Cirúrgica).pdf",
+  "item": "III (4.4.2)",
+  "pagina": 1,
+  "data_extraida": {
+   "forma": "janela",
+   "inicio": {
+    "data": "2026-10-19",
+    "hora": "08:00"
+   },
+   "fim": {
+    "data": "2026-11-19",
+    "hora": "23:59"
+   }
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Pedido de isenção do valor de inscrição, das 8h00 do dia 19/10/2026 às 23h59 do dia 19/11/2026",
+   "data": "de 19/10/2026 (segunda), às 08:00 a 19/11/2026 (quinta), até 23:59",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "fim",
+     [
+      5,
+      2
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "unimontes-17-2026#ev-0007",
+  "estrato": "nao_datada/entrega_documento",
+  "peso": 31.428571428571427,
+  "concurso": "unimontes-17-2026",
+  "nome": "Unimontes 17/2026",
+  "evento_id": "ev-0007",
+  "tipo_evento": "entrega_documento",
+  "etapa": "didatica",
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Inserção do plano de aula e da apresentação da Prova Didática, em PDF, na área da pessoa candidata no sistema do Concurso, em até, no máximo, 1 (uma) hora antes do horário previsto para sua apresentação",
+  "forma": "relativa",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/unimontes-2026/36 - Edital 17-2026 - Comunicação e Letras.pdf",
+  "item": "10.3.10",
+  "pagina": 29,
+  "data_extraida": {
+   "forma": "relativa",
+   "quantidade": 1,
+   "unidade": "horas",
+   "evento_ancora": "horário previsto para a apresentação na Prova Didática (prova)",
+   "sentido": "antes"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Inserção do plano de aula e da apresentação da Prova Didática, em PDF, na área da pessoa candidata no sistema do Concurso, em até, no máximo...",
+   "data": "1 horas antes de horário previsto para a apresentação na Prova Didática",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "fim",
+     [
+      15,
+      7,
+      3
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "unifesp-391-2026#ev-0005",
+  "estrato": "nao_datada/isencao_pedido",
+  "peso": 17.0,
+  "concurso": "unifesp-391-2026",
+  "nome": "UNIFESP 391/2026",
+  "evento_id": "ev-0005",
+  "tipo_evento": "isencao_pedido",
+  "etapa": null,
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "A solicitação de isenção da taxa de inscrição poderá ser solicitada somente no prazo compreendido entre o 1º (primeiro) e o 5º (quinto) dia útil do início das inscrições , seguindo as etapas dos itens abaixo.",
+  "forma": "relativa",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/unifesp-2026/63 - Edital 391-2026 - texto integral (HTML).html",
+  "item": "10.2",
+  "pagina": null,
+  "data_extraida": {
+   "forma": "relativa",
+   "quantidade": 5,
+   "unidade": "dias_uteis",
+   "evento_ancora": "início das inscrições (inscricao)",
+   "sentido": "apos"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "A solicitação de isenção da taxa de inscrição poderá ser solicitada somente no prazo compreendido entre o 1º (primeiro) e o 5º (quinto) dia útil do início das inscrições ...",
+   "data": "5 dias úteis depois de início das inscrições",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "fim",
+     [
+      5,
+      2
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "unifesp-395-2026#ev-0007",
+  "estrato": "nao_datada/recurso",
+  "peso": 39.214285714285715,
+  "concurso": "unifesp-395-2026",
+  "nome": "UNIFESP 395/2026",
+  "evento_id": "ev-0007",
+  "tipo_evento": "recurso",
+  "etapa": null,
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "requerimentos relacionados à relação de candidatos inscritos, por e-mail, em 2 dias corridos da publicação da relação de inscritos",
+  "forma": "relativa",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/unifesp-2026/67 - Edital 395-2026 - texto integral (HTML).html",
+  "item": "4.15.3.1",
+  "pagina": null,
+  "data_extraida": {
+   "forma": "relativa",
+   "quantidade": 2,
+   "unidade": "dias_corridos",
+   "evento_ancora": "publicação da relação de inscritos (homologacao_inscricoes)",
+   "sentido": "apos"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Requerimentos relacionados à relação de candidatos inscritos, por e-mail, em 2 dias corridos da publicação da relação de inscritos",
+   "data": "2 dias depois de publicação da relação de inscritos",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      0
+     ]
+    ],
+    [
+     "fim",
+     [
+      1
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "uema-132-2026#ev-0018",
+  "estrato": "nao_datada/sorteio_tema",
+  "peso": 17.75,
+  "concurso": "uema-132-2026",
+  "nome": "UEMA 132/2026-GR/UEMA",
+  "evento_id": "ev-0018",
+  "tipo_evento": "sorteio_tema",
+  "etapa": "didatica",
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "a banca examinadora sorteará o tema para a prova didática",
+  "forma": "condicionada",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/uema-2026/03 - Edital 132-2026-GR - CCT (Inteligência Artificial).pdf",
+  "item": "1.3.4",
+  "pagina": 2,
+  "data_extraida": {
+   "forma": "condicionada",
+   "condicao_literal": "Após a leitura pública da prova escrita"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "A banca examinadora sorteará o tema para a prova didática",
+   "data": "Após a leitura pública da prova escrita",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      7,
+      1
+     ]
+    ]
+   ]
+  }
+ }
+]

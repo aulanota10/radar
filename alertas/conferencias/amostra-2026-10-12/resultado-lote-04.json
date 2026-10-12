@@ -1,0 +1,252 @@
+[
+ {
+  "id": "ufrpe-21-2026#ev-0012",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "20/10/2026, divulgação preliminar da homologação e do atendimento especializado; não agendado",
+  "documento_diz": "Anexo I: \"20/10/2026 - Divulgação Preliminar da Homologação das Inscrições, conforme item 12.8. do Edital e da solicitação de Atendimento Especializado (Início do período de 24 horas para recurso e retificação)\"",
+  "fonte_conferida": "documentos/ufrpe-21-2026/63 - Edital 21-2026 - abertura (versão PDF do SIGRH).pdf, Anexo I, p. 52 (pdftotext); Retificações 65 (Edital 23/2026) e 66 (Edital 24/2026) não mudam o cronograma",
+  "observacao": "Mesma linha que ev-0011 (homologacao_inscricoes, agendado); este desdobramento não gera aviso próprio."
+ },
+ {
+  "id": "ufrpe-21-2026#ev-0025",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "19/11/2026, divulgação das bancas impugnadas (banca examinadora)",
+  "documento_diz": "Anexo I: \"19/11/2026 - Divulgação das Bancas Impugnadas, se houver.\" (após 18/11 Prazo para Impugnação da Banca)",
+  "fonte_conferida": "documentos/ufrpe-21-2026/63 - Edital 21-2026 - abertura (versão PDF do SIGRH).pdf, Anexo I, p. 53 (imagem da página e pdftotext); retificações 65 e 66 sem mudança",
+  "observacao": null
+ },
+ {
+  "id": "ufrpe-21-2026#ev-0064",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "25/02/2027, convocação dos PPP aprovados para heteroidentificação",
+  "documento_diz": "Anexo I: \"25/02/2027 - Convocação dos candidatos PPP aprovados para a Reunião de Heteroidentificação (Apenas para as vagas com candidatos PPP/PCD aprovados)\"",
+  "fonte_conferida": "documentos/ufrpe-21-2026/63 - Edital 21-2026 - abertura (versão PDF do SIGRH).pdf, Anexo I, p. 55 (imagem da página: célula 25/02/2027 mesclada com as três convocações)",
+  "observacao": "Escopo 'geral', mas só se aplica a vagas com PPP aprovados; o rótulo deixa isso explícito."
+ },
+ {
+  "id": "ufrpe-21-2026#ev-0050",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "16/12/2026, sem hora, início da Prova Didática do Turno 4 com entrega das 4 vias do plano",
+  "documento_diz": "Anexo I: \"16/12/2026 | 14 horas | FECHAMENTO DO ACESSO AO LOCAL DA PROVA DIDÁTICA\" seguido de \"- | Início da realização da Prova Didática - Turno 4 (Entrega das 04 vias do Plano de Aula...)\"",
+  "fonte_conferida": "documentos/ufrpe-21-2026/63 - Edital 21-2026 - abertura (versão PDF do SIGRH).pdf, Anexo I, p. 54 (imagem da página); itens 20.4, 20.7 e 20.10.1",
+  "observacao": "O horário eliminatório (fechamento às 14h, item 20.4) existe como evento próprio (ev-0049, convocacao 14:00, aviso 2 dias antes e no dia). Só vale para quem for sorteado no Turno 4 em 14/12; o rótulo diz 'Turno 4'."
+ },
+ {
+  "id": "ufrpe-21-2026#ev-0030",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "02/12/2026, término do prazo de 24 h do recurso da prova escrita",
+  "documento_diz": "Anexo I: \"02/12/2026 - Término do prazo de de 24 horas do Recurso da Prova Escrita\" (01/12 início do prazo recursal)",
+  "fonte_conferida": "documentos/ufrpe-21-2026/63 - Edital 21-2026 - abertura (versão PDF do SIGRH).pdf, Anexo I, p. 53; itens 16.12 e 16.13.1",
+  "observacao": "Prazo contado em horas (24 h a partir do fim da janela de solicitação, que começa no horário da publicação do resultado de 30/11), então pode terminar antes do fim do dia 02/12; o cronograma não dá hora."
+ },
+ {
+  "id": "ufrpe-21-2026#ev-0020",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "11/11/2026, fim do período de recurso da Fase I",
+  "documento_diz": "Anexo I: \"11/11/2026 - Fim do período de recurso da Fase I\" (10/11 resultado preliminar, início das 24 h)",
+  "fonte_conferida": "documentos/ufrpe-21-2026/63 - Edital 21-2026 - abertura (versão PDF do SIGRH).pdf, Anexo I, p. 53; item 16.13.2",
+  "observacao": "Item 16.13.2: recurso em 24 h 'a partir do horário da publicação do resultado preliminar', logo o fim em 11/11 tem a hora da publicação de 10/11, não o fim do dia; o alerta não tem como dizer a hora."
+ },
+ {
+  "id": "ufrpe-21-2026#ev-0080",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "16/03/2027 (fixa), resultado final do concurso, rótulo com '(até 16/03/2027)'",
+  "documento_diz": "Anexo I: \"Até 16/03/2027 - RESULTADO FINAL DO CONCURSO PÚBLICO\"",
+  "fonte_conferida": "documentos/ufrpe-21-2026/63 - Edital 21-2026 - abertura (versão PDF do SIGRH).pdf, Anexo I, p. 55",
+  "observacao": "É data-limite ('Até'); o rótulo preserva o 'até'. Para vagas sem PPPIQ aprovados o resultado final sai em 02/03/2027 (ev-0068)."
+ },
+ {
+  "id": "ufrpe-21-2026#ev-0035",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "14/12/2026, sem hora, sorteio da ordem e do ponto do Turno 1; não agendado",
+  "documento_diz": "Anexo I: 14/12/2026, após \"8 horas FECHAMENTO DO ACESSO AO LOCAL DO SORTEIO / Sorteio dos Turnos (1 a 4)...\": \"- | Sorteio da ordem de apresentação e do Ponto da Prova Didática - Turno 1\"",
+  "fonte_conferida": "documentos/ufrpe-21-2026/63 - Edital 21-2026 - abertura (versão PDF do SIGRH).pdf, Anexo I, p. 53 (imagem da página); itens 20.3 e 20.4",
+  "observacao": "Data certa. O horário eliminatório das 8h de 14/12 existe na agenda (ev-0034), mas não gera aviso: ver ev-0034."
+ },
+ {
+  "id": "ufrpe-21-2026#ev-0043",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "15/12/2026, sem hora, sorteio do ponto do Turno 4",
+  "documento_diz": "Anexo I: \"15/12/2026 | 14 horas | FECHAMENTO DO ACESSO AO LOCAL DO SORTEIO E DA PROVA DIDÁTICA\" seguido de \"- | Sorteio do ponto da Prova Didática - Turno 4\"",
+  "fonte_conferida": "documentos/ufrpe-21-2026/63 - Edital 21-2026 - abertura (versão PDF do SIGRH).pdf, Anexo I, p. 54 (imagem da página: célula 15/12 cobre de 'Sorteio Turno 3' a 'Início Turno 2')",
+  "observacao": "Hora eliminatória (14h) existe como evento próprio (ev-0042, convocacao 14:00, agendado). O aviso deste item, 7 e 1 dia antes, sai sem a hora."
+ },
+ {
+  "id": "ufrpe-21-2026#ev-0027",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "25/11/2026, sem hora, entrega do código, sorteio do ponto e início da prova escrita (4 h)",
+  "documento_diz": "Anexo I: \"25/11/2026 | 8 horas | Prova Escrita (Fase II) FECHAMENTO DO ACESSO AO LOCAL DE PROVA\"; \"- | Entrega do código...; Sorteio do ponto...; Início da Prova Escrita (duração de 4 horas)\"",
+  "fonte_conferida": "documentos/ufrpe-21-2026/63 - Edital 21-2026 - abertura (versão PDF do SIGRH).pdf, Anexo I, p. 53; item 19.2 (elimina quem não comparecer ao sorteio)",
+  "observacao": "O fechamento às 8h existe como evento próprio (ev-0026, prova 08:00, avisos 30/15/7/2 dias). O aviso deste item (7 e 1 dia antes) sai sem a hora; o da véspera, portanto, não lembra as 8h."
+ },
+ {
+  "id": "ufrpe-21-2026#ev-0034",
+  "veredito": "ERRADA",
+  "categoria": "horario_presenca_omitido",
+  "atribuicao": "leitor",
+  "extracao_diz": "14/12/2026 às 08:00, fechamento do acesso e sorteio dos turnos, comparecimento obrigatório de todos; agendado=false",
+  "documento_diz": "Anexo I: \"14/12/2026 | 8 horas | FECHAMENTO DO ACESSO AO LOCAL DO SORTEIO / Sorteio dos Turnos (1 a 4) da Prova Didática (Fase III) (É obrigatório o comparecimento de TODOS os candidatos)\"; item 20.4: \"Será eliminado do concurso o candidato que não comparecer aos sorteios descritos no item 20.3\"",
+  "fonte_conferida": "documentos/ufrpe-21-2026/63 - Edital 21-2026 - abertura (versão PDF do SIGRH).pdf, Anexo I, p. 53 (imagem da página); itens 20.3, 20.4; agenda.py REGRAS",
+  "observacao": "Extração certa (data, hora e sentido). O tipo sorteio_turma não está em REGRAS, então o compromisso eliminatório das 8h para TODOS nunca vira aviso. Os únicos avisos do dia 14/12 são 'Sorteio... Turno 1' sem hora (ev-0036) e 'às 14:00 ... Sorteio do Ponto - Turno 2' (ev-0037): quem ainda não sabe o turno pode chegar às 14h e ser eliminado."
+ },
+ {
+  "id": "urca-2026#ev-0039",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "16/12/2026, resposta de recurso do resultado preliminar do concurso",
+  "documento_diz": "Cronograma: \"16/12/2026 ON LINE RESPOSTA DE RECURSO DO RESULTADO PRELIMINAR DO CONCURSO\"",
+  "fonte_conferida": "documentos/urca-2026/03 - Cronograma do concurso (original).pdf, p. 3; 04 - Novo cronograma (atualizado).pdf, p. 3 (mesma data); Comunicados I a IV",
+  "observacao": "A extração cita o cronograma original (03), substituído pelo novo cronograma (04), que só mudou o fim das inscrições (Comunicado IV); a data deste evento é a mesma nos dois."
+ },
+ {
+  "id": "urca-2026#ev-0033",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "30/11/2026, previsão do resultado preliminar da prova de títulos",
+  "documento_diz": "Cronograma: \"30/11/2026 ON LINE PREVISÃO DO RESULTADO PRELIMINAR DA PROVA DE TÍTULOS\"",
+  "fonte_conferida": "documentos/urca-2026/03 - Cronograma do concurso (original).pdf, p. 2; 04 - Novo cronograma (atualizado).pdf, p. 2 (igual)",
+  "observacao": "Data única marcada como previsão; o rótulo mantém 'PREVISÃO'. Mesma observação sobre citar o cronograma 03 em vez do 04."
+ },
+ {
+  "id": "urca-2026#ev-0036",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "08/12/2026, resultado final da prova de títulos",
+  "documento_diz": "Cronograma: \"08/12/2026 ON LINE RESULTADO FINAL DA PROVA DE TÍTULOS\"",
+  "fonte_conferida": "documentos/urca-2026/03 - Cronograma do concurso (original).pdf, p. 3; 04 - Novo cronograma (atualizado).pdf, p. 3 (igual)",
+  "observacao": null
+ },
+ {
+  "id": "urca-2026#ev-0044",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "condicionada: plano de aula entregue a cada membro da banca ao iniciar a exposição",
+  "documento_diz": "9.3.4: \"...o respectivo Plano de Aula que deverá ser entregue a cada um dos membros da Banca Examinadora ao iniciar a exposição\"",
+  "fonte_conferida": "documentos/urca-2026/01 - Edital nº 02-2026-GR (Concurso Efetivo).docling.md, item 9.3.4 (p. 6); itens 7.5, 9.2.1, 9.3; Corrigenda nº 01 não altera 9.3.4",
+  "observacao": "Momento individual de cada candidato (24 h após o sorteio do ponto, prova entre 13 e 15/11, ev-0028). agendado=true no lote é inócuo: agenda.py só agenda formas fixa e janela."
+ },
+ {
+  "id": "ufv-49-2026#ev-0002",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "texto_do_leitor",
+  "atribuicao": "ambos",
+  "extracao_diz": "relativa: 45 dias corridos após a publicação no DOU, tipo inscricao, descrição 'abertura das inscrições...'",
+  "documento_diz": "Preâmbulo: \"torna pública a abertura das inscrições, exclusivamente, através do link https://www.gps.ufv.br, no prazo de 45 (quarenta e cinco) dias corridos, a contar da data de publicação deste Edital no Diário Oficial da União\"",
+  "fonte_conferida": "documentos/ufv-48-2026/Edital-49-2026-DAU.pdf, p. 1 (pdftotext); extracoes/ufv-49-2026/relatorio-ufv-49-2026.md",
+  "observacao": "Âncora, quantidade, unidade e sentido batem. Mas a inscrição é a janela que vai da publicação até +45 dias, e o objeto relativo guarda só o fim sem dizer que é o fim. A mensagem junta 'Abertura das inscrições...' com '45 dias depois de data de publicação...', o que pode ser lido como abertura daqui a 45 dias. Seria melhor janela com início na publicação e fim relativo. A data do DOU não está em nenhum documento da pasta (o Batedor fala em 28/09/2026, sem confirmação)."
+ },
+ {
+  "id": "ufv-49-2026#ev-0001",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "condicionada: data de publicação deste Edital no DOU",
+  "documento_diz": "Preâmbulo: \"a contar da data de publicação deste Edital no Diário Oficial da União\"; o documento do SEI não traz data de DOU",
+  "fonte_conferida": "documentos/ufv-48-2026/Edital-49-2026-DAU.pdf, p. 1",
+  "observacao": "Ninguém conferiu a data do DOU (o Batedor fala em 28/09/2026). Sem ela, a inscrição (ev-0002) não tem data concreta."
+ },
+ {
+  "id": "ufv-49-2026#ev-0004",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "condicionada: imediatamente antes do início da Prova de Conhecimento",
+  "documento_diz": "4.2.3.6: \"Será realizado o sorteio do ponto para a Prova de Conhecimento, o qual será o mesmo para todos os candidatos, sendo o início da Prova imediatamente após o sorteio.\"; 4.2.1: prova em 23/11/2026 às 08h",
+  "fonte_conferida": "documentos/ufv-48-2026/Edital-49-2026-DAU.pdf, p. 2 (itens 4.2.1, 4.2.3.1, 4.2.3.6)",
+  "observacao": "Daria para datar em 23/11/2026 a partir das 08h. A presença eliminatória (lista de presença no horário marcado, 4.2.3.1) coincide com a prova (ev-0005, 23/11 08:00, agendado). A chegada 15 min antes é exigida, mas não tem evento próprio."
+ },
+ {
+  "id": "ufscar-004-2026#ev-0036",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "condicionada: locais da prova escrita disponibilizados em data do Cronograma (Anexo VI)",
+  "documento_diz": "11.2: \"Os respectivos locais de realização da prova escrita serão disponibilizados no endereço eletrônico https://concursos.ufscar.br em data estabelecida no CRONOGRAMA - Anexo VI deste edital.\"",
+  "fonte_conferida": "documentos/ufscar-004-2026/51 - Edital Único 004-2026 (arquivo do Google Drive do DCI).pdf, item 11.2 (pdftotext); itens 11.1, 11.3, 11.4",
+  "observacao": "O Anexo VI não está na pasta (o PDF é a versão DOU, e a nota final diz que os anexos não saem no DOU), então a data não é conferível. A prova escrita é em 18/10/2026 às 13:30 (ev-0021), daqui a 6 dias. As portas fecham no início da prova (11.4), que é a hora do ev-0021; a chegada 60 min antes (11.3) não tem evento próprio."
+ },
+ {
+  "id": "ufscar-004-2026#ev-0016",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "condicionada: data, horário e link da videoconferência no Cronograma (Anexo VI)",
+  "documento_diz": "8.2: \"O procedimento público de distribuição das vagas reservadas será realizado por meio do aplicativo de videoconferência Google Meet... A data, o horário e o link de acesso à videoconferência constam no CRONOGRAMA - Anexo VI deste Edital.\"",
+  "fonte_conferida": "documentos/ufscar-004-2026/51 - Edital Único 004-2026 (arquivo do Google Drive do DCI).pdf, item 8.2 (pdftotext)",
+  "observacao": "Anexo VI ausente da pasta. Sessão pública sem presença obrigatória; não agendado."
+ },
+ {
+  "id": "unimontes-26-2026#ev-0011",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "janela 28/09/2026 08:00 a 28/10/2026 23:59, pedido de isenção",
+  "documento_diz": "Retificação 1, III (leia-se 4.4.2): \"no período de 8h00 do dia 28/09/2026 às 23h59 do dia 28/10/2026\" (original: até 07/10/2026)",
+  "fonte_conferida": "documentos/unimontes-2026/58 - Edital 26-2026 - Retificação 1 (Educação Física).pdf, p. 1; 57 (original, 4.4.2); 59 (Ato Complementar 06/2026, só vagas)",
+  "observacao": "A extração aplicou a retificação. As inscrições foram até 28/11, mas a isenção termina em 28/10."
+ },
+ {
+  "id": "unimontes-21-2026#ev-0009",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "21/02/2027, sem hora, Prova de Conhecimentos no turno matutino",
+  "documento_diz": "Retificação 1, I (leia-se 1.12): \"será realizada no dia 21/02/2027, no turno matutino, em local e horário a serem divulgados por ato próprio\" (idem IV, 9.2)",
+  "fonte_conferida": "documentos/unimontes-2026/46 - Edital 21-2026 - Retificação 1 (Direito Público Adjetivo).pdf, p. 1-2; 45 (original, 1.12, 9.2, 9.7, 9.8)",
+  "observacao": "Hora e local ainda não foram publicados; quando saírem, o edital exige chegada 30 min antes (9.7) e elimina quem chegar depois do início (9.8). 21/02/2027 é domingo."
+ },
+ {
+  "id": "uerj-233-2026#ev-0020",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "texto_do_leitor",
+  "atribuicao": "leitor",
+  "extracao_diz": "relativa: 7, unidade não informada, após a divulgação da composição da Comissão Examinadora",
+  "documento_diz": "8.7: \"...qualquer nome que integre a Comissão Examinadora, no prazo máximo de 07 (sete) dias a contar da data da divulgação da composição da Comissão Examinadora\"; 11.1 h: divulgação da composição \"01/10/2026, às 15h\"",
+  "fonte_conferida": "documentos/uerj-2026/10 - Seleção 2026-233 - Edital.docling.md, itens 8.5, 8.7 e 11.1 h; 28 - Seleção 2026-233 - Errata (não altera)",
+  "observacao": "A extração é fiel: o edital diz só 'dias'. A mensagem perde a palavra 'dias' ('7 depois de divulgação da composição...'), porque UNIDADE nao_informada vira vazio. Além disso, a âncora já tem data (ev-0010, 01/10/2026 15h), então o prazo terminou por volta de 08/10/2026, antes de hoje. Nenhuma data concreta chega ao candidato."
+ },
+ {
+  "id": "unifesp-407-2026#ev-0012",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "relativa: 5 dias úteis antes do comparecimento ao Núcleo de Atenção à Saúde do Trabalhador (publicação da data/hora/local de entrega do laudo)",
+  "documento_diz": "8.5.3: \"A data, o horário e o local para entrega do laudo... será publicado... com antecedência mínima de 05 (cinco) dias úteis da data de comparecimento ao Núcleo de Atenção à Saúde do Trabalhador(a)/ DSTra /UNIFESP\"",
+  "fonte_conferida": "documentos/unifesp-2026/75 - Edital 407-2026 - texto integral (HTML).html.docling.md, itens 8.5, 8.5.3, 8.9",
+  "observacao": "Âncora, quantidade, unidade e sentido batem. É uma antecedência mínima, não exata, mas o rótulo diz 'antecedência mínima'. Só vale para candidatos PcD aprovados. Quem faltar sai da lista PcD (8.9)."
+ },
+ {
+  "id": "unifesp-439-2026#ev-0017",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "condicionada 'Concluídos os trabalhos', tipo resultado_final, fase preliminar: resultado provisório em sessão pública",
+  "documento_diz": "14.14: \"Concluídos os trabalhos, o Presidente da Banca Examinadora divulgará, em sessão pública, o resultado provisório do CONCURSO PÚBLICO...\"",
+  "fonte_conferida": "documentos/unifesp-2026/Edital 439-2026 - texto integral (HTML).pdf, p. 27 (pdftotext); item 17.2",
+  "observacao": "O rótulo diz 'Resultado provisório' e fase=preliminar, então não se confunde com o final. O recurso é de 5 dias corridos após a publicação no site (17.2)."
+ }
+]

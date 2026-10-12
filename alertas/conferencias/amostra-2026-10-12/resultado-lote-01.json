@@ -1,0 +1,262 @@
+[
+ {
+  "id": "ufba-06-2026#ev-0230",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "horarios_individuais",
+  "atribuicao": "ambos",
+  "extracao_diz": "Janela de entrega 14/10 08:00 a 15/10 09:00 (Psiquiatria), regra de antecedência pelo fim.",
+  "documento_diz": "Entrega individual no horário do sorteio do ponto de cada candidato: 14/10 às 08h00 (1º), 09h00, 10h00, 12h00, 13h00, 14h00 e 15/10 às 08h00 (7º) e 09h00 (8º). \"Sorteio do ponto da Prova Didática do 1° candidato. Entrega, pelo 1º candidato, de: três vias impressas do plano de aula [...]\"; edital 8.9.4: entrega \"imediatamente após o sorteio [...] eliminando-se os/as candidatos/as que não o fizerem\".",
+  "fonte_conferida": "documentos/ufba-06-2026/77 - Cronograma - Psiquiatria.pdf, p. 2-3 (pdftotext); edital 52, itens 8.6 e 8.9.4",
+  "observacao": "Datas extremas batem, mas a janela junta 8 horários individuais; o leitor apresenta como prazo \"até 15/10 09:00\" e usa o fim para antecedência, o que sugere prazo comum. O rótulo salva parcialmente (\"no horário do sorteio do seu ponto\"). Não agendado. O 1º candidato entrega também cópia do documento de identidade, que some no rótulo truncado."
+ },
+ {
+  "id": "ufba-06-2026#ev-0088",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Instalação do Concurso, 03/11/2026 às 08:00 (Arquivologia, área 22).",
+  "documento_diz": "\"03/11/2026 08h Instalação do Concurso – Sessão pública da Congregação para abertura/instalação do Concurso.\"",
+  "fonte_conferida": "documentos/ufba-06-2026/80 - Cronograma - Arquivologia - Sistema de informação gerencial (preliminar).pdf, p. 1",
+  "observacao": "Cronograma é \"PRELIMINAR\" (período 03 a 06/11), mas o primeiro dia está fixado. Presença eliminatória pelo edital 8.3.2; o rótulo não diz isso e o aviso é só 2 dias antes (tipo outro), enquanto a prova escrita do mesmo dia (09:20) recebe 30/15/7/2. Nenhum documento posterior da área."
+ },
+ {
+  "id": "ufba-06-2026#ev-0249",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Consulta bibliográfica 30/10/2026 das 08:15 às 09:15 (Cirurgia Torácica, área 19).",
+  "documento_diz": "\"Primeiro dia – 30 de outubro de 2026 [...] 08h15 às 09h15 Consulta bibliográfica pelos candidatos. Duração máxima: até 1 (uma) hora\"",
+  "fonte_conferida": "documentos/ufba-06-2026/79 - Cronograma - Cirurgia Torácica e Cardiovascular.pdf, p. 1",
+  "observacao": "Abertura/instalação às 08:00 existe na agenda (ev-0247)."
+ },
+ {
+  "id": "ufba-06-2026#ev-0302",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Abertura/Instalação, Reunião da Congregação, 27/10/2026 às 09:00 (Contabilidade e Direito, área 12).",
+  "documento_diz": "\"DIA 27 DE OUTUBRO DE 2026 09:00 - ABERTURA: Instalação Reunião da Congregação e sorteio dos pontos prova escrita\"",
+  "fonte_conferida": "documentos/ufba-06-2026/70 - Cronograma - Contabilidade e Direito.pdf, p. 1",
+  "observacao": "Presença eliminatória (edital 8.3.2) não aparece no rótulo. Fora deste item: o mesmo cronograma marca homologação em 30/12/2026, fora do período de provas do edital (até 06/11), possível erro do documento."
+ },
+ {
+  "id": "ufba-06-2026#ev-0274",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Período de consulta 13/10/2026 das 08:30 às 09:30 (Gestão da Produção, área 01).",
+  "documento_diz": "Tabela: \"13/10/2026 | 8h30min às 9h30min | Período de consulta\"",
+  "fonte_conferida": "documentos/ufba-06-2026/56 - Cronograma - GESTÃO DA PRODUÇÃO E MÉTODOS QUANTITATIVOS.pdf, p. 1 (conferido por imagem; PDF sem camada de texto)",
+  "observacao": "Rótulo seco (\"Período de consulta\"), sem dizer que é a consulta bibliográfica da prova escrita, mas não induz erro. Instalação às 08:00, com ausência eliminatória (p. 2), existe na agenda (ev-0272)."
+ },
+ {
+  "id": "ufba-06-2026#ev-0091",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Prova escrita 03/11/2026 das 09:20 às 13:20 (Arquivologia, área 22).",
+  "documento_diz": "\"09h20 Início da Prova Escrita (duração máxima de 4 horas). 13h20 Encerramento da Prova Escrita\"",
+  "fonte_conferida": "documentos/ufba-06-2026/80 - Cronograma - Arquivologia - Sistema de informação gerencial (preliminar).pdf, p. 1",
+  "observacao": "Instalação 08:00 (ev-0088) e sorteio 08:10 (ev-0089) estão na agenda. Mas o aviso de prova (30/15/7/2 dias) diz 09:20 sem lembrar a presença obrigatória às 08:00, que só tem aviso 2 dias antes."
+ },
+ {
+  "id": "ufba-06-2026#ev-0265",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Prova escrita 26/10/2026 das 10:45 às 14:45 (Extensão Rural, área 05).",
+  "documento_diz": "\"DIA 26/10/2026 [...] 10:45 às 14:45 Realização da Prova Escrita\"",
+  "fonte_conferida": "documentos/ufba-06-2026/60 - Cronograma - Extensão Rural.pdf, p. 1",
+  "observacao": "Instalação \"09:00 PONTUALMENTE\" existe na agenda (ev-0262). A \"Recepção/identificação dos candidatos\" às 08:30 não está na agenda (o documento não diz que é eliminatória)."
+ },
+ {
+  "id": "ufba-06-2026#ev-0212",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Prova escrita 26/10/2026 das 09:15 às 13:15 (Patologia, área 21).",
+  "documento_diz": "\"Primeiro dia – 26 de outubro de 2026 [...] 09h15 às 13h15 Realização da prova escrita. Duração máxima de 4 (quatro) horas.\"",
+  "fonte_conferida": "documentos/ufba-06-2026/76 - Cronograma - Patologia.pdf, p. 1",
+  "observacao": "Abertura às 08:00 na agenda (ev-0209)."
+ },
+ {
+  "id": "ufba-06-2026#ev-0382",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "horarios_individuais",
+  "atribuicao": "extrator",
+  "extracao_diz": "Janela de defesa de memorial de 28/10 13:30 a 29/10 16:00 (Eng. de Controle e Automação, área 11).",
+  "documento_diz": "Horários individuais de início: 28/10 13:30 (1º), 15:00 (2º), 16:30 (3º); 29/10 08:30 (4º), 10:00, 13:00, 14:30 e \"16:00: Início da defesa de memorial do oitavo candidato\".",
+  "fonte_conferida": "documentos/ufba-06-2026/64 - Cronograma - Engenharia de Controle e Automação.pdf, p. 2",
+  "observacao": "Extremos batem, mas 16:00 é o início da defesa do 8º, não o fim da janela. O leitor escreve \"até 16:00\", e o horário de cada um depende da ordem sorteada em 27/10. Não muda o dia de quem já está no concurso."
+ },
+ {
+  "id": "ufba-06-2026#ev-0339",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Prova escrita 26/10/2026 das 09:00 às 14:00, consulta incluída (Geodésia e Topografia, área 37).",
+  "documento_diz": "\"Dia 26/10/2026 [...] 09h00 às 14h00: Realização da prova escrita, incluído o tempo para consulta bibliográfica (1 hora – vide Normas Complementares)\"",
+  "fonte_conferida": "documentos/ufba-06-2026/62 - Cronograma - Geodésia e Topografia.pdf, p. 1",
+  "observacao": "Abertura às 08:30 (ev-0337) e sorteio às 08:45 (ev-0338) estão na agenda."
+ },
+ {
+  "id": "ufba-06-2026#ev-0299",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Prova escrita 19/10/2026 das 09:00 às 13:00 (Química Analítica, área 27).",
+  "documento_diz": "\"Realização da prova escrita 19/10/2026 das 09h:00min às 13h:00min\"",
+  "fonte_conferida": "documentos/ufba-06-2026/85 - Cronograma - Química Analítica - Eletroanalítica.pdf, p. 1",
+  "observacao": "Presença obrigatória às 07:45 (\"A ausência [...] implicará em desistência e desclassificação\") está na agenda (ev-0296)."
+ },
+ {
+  "id": "ufba-06-2026#ev-0231",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "horarios_individuais",
+  "atribuicao": "extrator",
+  "extracao_diz": "Janela da prova didática de 14/10 10:00 a 15/10 11:00 (Psiquiatria, área 20).",
+  "documento_diz": "Prova individual na ordem sorteada: 14/10 10h00 (1º), 11h00, 12h00, 14h00, 15h00, 16h00; 15/10 10h00 (7º) e \"11h00 Prova Didática do 8° (oitavo) candidato\".",
+  "fonte_conferida": "documentos/ufba-06-2026/77 - Cronograma - Psiquiatria.pdf, p. 2-3",
+  "observacao": "Extremos batem, mas 11:00 de 15/10 é o início da aula do 8º. Os avisos (30/15/7/2 dias) dizem 14/10 às 10:00, porém a presença é exigida antes: sorteio da ordem às 07:50 (ev-0226, eliminatório pelo edital 8.5.5, sem aviso agendado) e sorteio do ponto do 1º às 08:00 (ev-0229)."
+ },
+ {
+  "id": "ufba-06-2026#ev-0393",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Prova escrita 15/10/2026 das 10:15 às 15:15 (Perspectivas Indígenas nas Artes, área 26), pelo cronograma retificado.",
+  "documento_diz": "\"15/10 [...] 10h15 às 15h15 Realização da prova escrita\" (o cronograma retificado de 06/10 mantém o horário do original 84).",
+  "fonte_conferida": "documentos/ufba-06-2026/cronograma_retificado_do_concurso_edital_062026_0.pdf, p. 1; comparado com 84 - Cronograma - Perspectivas Indígenas nas Artes.pdf",
+  "observacao": "Presença às 09h com portas fechadas (\"comparecer impreterivelmente às 09h\") está na agenda (ev-0391). As 5 horas incluem 60 min de consulta."
+ },
+ {
+  "id": "ufba-06-2026#ev-0253",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Prova de Títulos 31/10/2026 às 11:10 (Cirurgia Torácica, área 19).",
+  "documento_diz": "\"Segundo dia – 31 de outubro de 2026 [...] 11h10 Prova de Títulos\"",
+  "fonte_conferida": "documentos/ufba-06-2026/79 - Cronograma - Cirurgia Torácica e Cardiovascular.pdf, p. 2",
+  "observacao": "O cronograma avisa que os horários podem mudar conforme ausentes e reprovados na escrita."
+ },
+ {
+  "id": "ufba-06-2026#ev-0347",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Resultado final 30/10/2026 às 17:00 na Sala da Congregação (Geodésia e Topografia, área 37).",
+  "documento_diz": "\"Dia 30/10/2026 [...] 17h00: Divulgação do resultado final do concurso na Sala da Congregação da Escola Politécnica da UFBA\"",
+  "fonte_conferida": "documentos/ufba-06-2026/62 - Cronograma - Geodésia e Topografia.pdf, p. 2",
+  "observacao": "Data certa no cronograma INICIAL. A Obs. 1 diz que o período (26 a 31/10) é estimado e que o cronograma final sai com o resultado da escrita (27/10), então a data pode ser antecipada. Presença não obrigatória (edital 8.3.3)."
+ },
+ {
+  "id": "ufba-06-2026#ev-0316",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "outra",
+  "atribuicao": "leitor",
+  "extracao_diz": "Sorteio da ordem de apresentação do memorial, 05/11/2026 às 08:00 (Contabilidade Pública, área 13); não agendado.",
+  "documento_diz": "\"DIA 05 DE NOVEMBRO DE 2026 08:00 – Sorteio da Ordem de Apresentação do Memorial, conforme item 8.11 do edital\"; edital 8.5.5: o candidato fica \"automaticamente eliminado/a se ausente deste sorteio\".",
+  "fonte_conferida": "documentos/ufba-06-2026/71 - Cronograma - Contabilidade Pública.pdf, p. 1; edital 52, itens 8.3.2 e 8.5.5",
+  "observacao": "Data e hora batem. Problema: é sorteio com presença eliminatória e o leitor não agenda aviso (agendado=false). Em 05/11 não há outro evento com aviso que leve o candidato ao local."
+ },
+ {
+  "id": "ufba-06-2026#ev-0113",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "outra",
+  "atribuicao": "leitor",
+  "extracao_diz": "Sorteio da ordem da Prova Didática e Defesa de Memorial, 19/10/2026 às 07:45 (Enf. Saúde da Mulher, área 02); não agendado.",
+  "documento_diz": "\"19/10/2026 (2ª feira) 07:45 Sorteio da ordem de apresentação da Prova Didática e Defesa de Memorial\"; o cronograma atualizado mantém o mesmo horário. Edital 8.5.5: ausência elimina.",
+  "fonte_conferida": "documentos/ufba-06-2026/57 - Cronograma - Enfermagem - Saúde da Mulher.pdf, p. 2; cronograma_edital_06.2026_s_da_mulher_atualizado_-_divulgacao_do_resultado_da_prova_escrita.pdf, p. 2",
+  "observacao": "Data certa e não superada. Problema: sorteio eliminatório sem aviso agendado, e o próximo evento avisado é o sorteio do ponto às 08:00 (ev-0114). Fora deste item: o cronograma atualizado antecipou o resultado da escrita para 15/10 às 15h00, mas a agenda ainda tem ev-0112 em 16/10 às 18:00 (superada)."
+ },
+ {
+  "id": "ufba-06-2026#ev-0379",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "outra",
+  "atribuicao": "leitor",
+  "extracao_diz": "Sorteio da ordem das demais provas, presença obrigatória, 27/10/2026 às 08:20 (Eng. de Controle e Automação, área 11); não agendado.",
+  "documento_diz": "\"27/10/2026 [...] 08:20: Sorteio da ordem de realização das demais provas do concurso (presença obrigatória).\"",
+  "fonte_conferida": "documentos/ufba-06-2026/64 - Cronograma - Engenharia de Controle e Automação.pdf, p. 1",
+  "observacao": "Data e hora batem, e o próprio rótulo diz presença obrigatória, mas não há aviso agendado. O próximo evento avisado é o sorteio do ponto, a partir das 08:30 (ev-0380). Quem seguir só os avisos chegaria depois das 08:20 e seria eliminado."
+ },
+ {
+  "id": "ufba-06-2026#ev-0240",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "outra",
+  "atribuicao": "leitor",
+  "extracao_diz": "Sorteio da ordem da Prova Didática e Memorial, 30/10/2026 às 07:50 (Clínica Cirúrgica I, área 18); não agendado.",
+  "documento_diz": "\"Segundo dia – 30 de outubro de 2026 [...] 07h50 Abertura dos envelopes das senhas. Sorteio, pelos candidatos aprovados, da ordem de apresentação para a Prova Didática e Defesa do Memorial\"",
+  "fonte_conferida": "documentos/ufba-06-2026/78 - Cronograma - Clínica Cirúrgica I - Bases da Cirurgia.pdf, p. 2; edital 52, item 8.5.5",
+  "observacao": "Data certa. Sorteio eliminatório (8.5.5) sem aviso agendado; o próximo evento avisado é o sorteio do ponto às 08:00 (ev-0243)."
+ },
+ {
+  "id": "ufba-06-2026#ev-0056",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Sorteio do ponto da prova escrita, 15/10/2026 às 09:20 (Sociologia das Desigualdades, área 17).",
+  "documento_diz": "\"DIA 15/10/2026 [...] 09:20 Sorteio do ponto da Prova Escrita pelo(a) Presidente da Banca\"",
+  "fonte_conferida": "documentos/ufba-06-2026/75 - Cronograma - Sociologia das Desigualdades Sociais.pdf, p. 1",
+  "observacao": "Instalação \"09:00 PONTUALMENTE\" está na agenda (ev-0055). A recepção/identificação às 08:30 não está (o documento não diz que é eliminatória)."
+ },
+ {
+  "id": "ufba-06-2026#ev-0374",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Sorteio dos pontos da prova escrita, 26/10/2026 às 08:50 (Eng. de Controle e Automação, área 11).",
+  "documento_diz": "\"26/10/2026 [...] 08:50: Sorteio do pontos da prova escrita pelo(a) Presidente da Banca Examinadora.\"",
+  "fonte_conferida": "documentos/ufba-06-2026/64 - Cronograma - Engenharia de Controle e Automação.pdf, p. 1",
+  "observacao": "Abertura às 08:30, eliminatória (Obs. 2 / edital 8.3.2), está na agenda (ev-0373)."
+ },
+ {
+  "id": "ufba-06-2026#ev-0355",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "horarios_individuais",
+  "atribuicao": "extrator",
+  "extracao_diz": "Janela do sorteio do ponto da didática de 14/10 12:00 a 15/10 15:00, \"cada um em seu horário\" (Transporte/Infraestrutura, área 08).",
+  "documento_diz": "Sorteios individuais de hora em hora: 14/10 de 12h00 (1º) a 19h00 (8º); 15/10 08h00 (9º), 09h00, 10h00, 13h00, 14h00 e \"15h00: sorteio do ponto [...] do 14º candidato\".",
+  "fonte_conferida": "documentos/ufba-06-2026/63 - Cronograma - Transporte - Infraestrutura de Transporte.pdf, p. 1-2",
+  "observacao": "Extremos batem, mas o \"até 15:00\" é o horário do 14º. O aviso de 1 dia antes leva o candidato a 14/10 às 12:00, porém em 14/10 às 08:50 há sorteio da ordem com presença obrigatória (ev-0353, sem aviso agendado). O cronograma é INICIAL, com período estimado; o final sai em 14/10 às 08:30."
+ },
+ {
+  "id": "ufba-06-2026#ev-0315",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Sorteio da ordem e dos pontos da Prova Didática, 04/11/2026 às 08:00 (Contabilidade Pública, área 13).",
+  "documento_diz": "\"DIA 04 DE NOVEMBRO DE 2026 08:00 – Apresentação da Lista De Candidatos Aprovados na Prova Escrita; Sorteio da Ordem de Apresentação e Pontos da Prova Didática\"",
+  "fonte_conferida": "documentos/ufba-06-2026/71 - Cronograma - Contabilidade Pública.pdf, p. 1",
+  "observacao": null
+ },
+ {
+  "id": "ufba-06-2026#ev-0018",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Relativa: 10 dias corridos após a publicação da composição da Banca (portaria_banca), escopo geral.",
+  "documento_diz": "Item 12.1: \"no prazo de 10 (dez) dias a partir da publicação: [...] b) da composição da Banca da Examinadora\"",
+  "fonte_conferida": "documentos/ufba-06-2026/51 - Edital 06-2026 - publicação no DOU.pdf, p. 5 (item 12.1, b); igual no 52 (versão retificada)",
+  "observacao": "O edital diz só \"10 (dez) dias\", sem qualificar; ler como dias corridos é razoável (Lei 9.784, art. 66). O escopo geral está certo, mas duplica os eventos por área. A âncora muda de área para área, então a versão geral não tem data única."
+ },
+ {
+  "id": "ufba-06-2026#ev-0186",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Relativa: 10 dias corridos após a publicação da composição da Banca (portaria_banca), escopo 14.",
+  "documento_diz": "Item 12.1: \"no prazo de 10 (dez) dias a partir da publicação: [...] b) da composição da Banca da Examinadora\"",
+  "fonte_conferida": "documentos/ufba-06-2026/51 - Edital 06-2026 - publicação no DOU.pdf, p. 5 (item 12.1, b); igual no 52 (versão retificada)",
+  "observacao": "O edital diz só \"10 (dez) dias\", sem qualificar; ler como dias corridos é razoável (Lei 9.784, art. 66). A agenda tem a âncora da área (03/09/2026 (ev-0185)), mas o alerta não converte a regra em data, e o prazo já venceu antes de hoje."
+ },
+ {
+  "id": "ufba-06-2026#ev-0130",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Relativa: 10 dias corridos após a publicação da composição da Banca (portaria_banca), escopo 02.",
+  "documento_diz": "Item 12.1: \"no prazo de 10 (dez) dias a partir da publicação: [...] b) da composição da Banca da Examinadora\"",
+  "fonte_conferida": "documentos/ufba-06-2026/51 - Edital 06-2026 - publicação no DOU.pdf, p. 5 (item 12.1, b); igual no 52 (versão retificada)",
+  "observacao": "O edital diz só \"10 (dez) dias\", sem qualificar; ler como dias corridos é razoável (Lei 9.784, art. 66). A agenda tem a âncora da área (18/08/2026 (ev-0129)), mas o alerta não converte a regra em data, e o prazo já venceu antes de hoje."
+ }
+]

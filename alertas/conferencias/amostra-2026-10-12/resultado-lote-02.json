@@ -1,0 +1,252 @@
+[
+ {
+  "id": "unilab-14-2026#ev-0089",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "homologacao_inscricoes final, área 05, 26/10/2026",
+  "documento_diz": "'Divulgação do Resultado Final das Inscrições 26/10/2026' (após Homologação 22/10 e Período de Recurso 23/10)",
+  "fonte_conferida": "documentos/unilab-14-2026/Cronograma-Medicina-Baseada-em-Evidencias-Epidemiologia-e-Pesquisa-Clinica.pdf (pdftotext -layout), p. 1",
+  "observacao": null
+ },
+ {
+  "id": "unilab-14-2026#ev-0069",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "homologacao_inscricoes final, área 04, 04/11/2026",
+  "documento_diz": "'Divulgação do Resultado Final das Inscrições 04/11/2026'",
+  "fonte_conferida": "documentos/unilab-14-2026/Cronograma-Anatomia-Humana.pdf (pdftotext -layout), p. 1",
+  "observacao": null
+ },
+ {
+  "id": "unilab-14-2026#ev-0127",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "homologacao_inscricoes preliminar, área 07, 16/10/2026",
+  "documento_diz": "'Homologação das Inscrições 16/10/2026', seguida de 'Período de Recurso 19/10/2026' e 'Resultado Final das Inscrições 20/10/2026'",
+  "fonte_conferida": "documentos/unilab-14-2026/Cronograma-Metodos-de-Imagem.pdf (pdftotext -layout), p. 1",
+  "observacao": "Fase preliminar correta (há recurso depois; edital 12.1 fala em 'lista preliminar de inscrições deferidas'). O rótulo usa o nome do cronograma, sem 'preliminar'; não induz erro."
+ },
+ {
+  "id": "unilab-14-2026#ev-0107",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "homologacao_inscricoes preliminar, área 06, 16/10/2026",
+  "documento_diz": "'Homologação das Inscrições 16/10/2026', seguida de 'Período de Recurso 19/10/2026'",
+  "fonte_conferida": "documentos/unilab-14-2026/Cronograma-Saude-da-Mulher.pdf (pdftotext -layout), p. 1",
+  "observacao": null
+ },
+ {
+  "id": "unilab-14-2026#ev-0146",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "texto_do_leitor",
+  "atribuicao": "leitor",
+  "extracao_diz": "inscricao, área 08, janela 07/10/2026 a 21/10/2026",
+  "documento_diz": "'Período de Inscrições 07/10/2026 a 21/10/2026'; edital 3.1: inscrição 'no período de inscrição contido em cada respectivo cronograma'",
+  "fonte_conferida": "documentos/unilab-14-2026/Cronograma-Saude-da-Crianca.pdf (pdftotext -layout), p. 1; Edital-no-14_2026-Versao-SEI item 3.1",
+  "observacao": "Data certa. O leitor (texto_data em agenda.py) chama de 'período provável' qualquer janela > 7 dias sem hora, inclusive inscrição, que é prazo firme; o candidato pode achar que as datas não estão fixadas. Os avisos agendados usam 'fim das inscrições' e estão certos; o problema fica no texto de data (data_nova/listagem). Edital não fixa hora de fim da inscrição (só 5.17: desistência de cota até 17h do último dia)."
+ },
+ {
+  "id": "unilab-14-2026#ev-0159",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "prova títulos, área 08, 23/11/2026",
+  "documento_diz": "'Prova de Títulos 23/11/2026' (p. 2)",
+  "fonte_conferida": "documentos/unilab-14-2026/Cronograma-Saude-da-Crianca.pdf (pdftotext -layout), p. 2; Edital SEI item 7.4 p. 8",
+  "observacao": "Não é sessão presencial: é análise do Lattes. A obrigação do candidato é a entrega do CV 'no primeiro dia útil após a data da divulgação do resultado da última prova eliminatória' (7.4), que está na agenda como ev-0005 (relativa, geral). Para a área 08, contando do resultado final da didática (19/11) e com 20/11 feriado nacional, cai em 23/11; contando do preliminar (17/11), em 18/11. O edital não diz qual resultado."
+ },
+ {
+  "id": "unilab-14-2026#ev-0035",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "prova didática, área 02, janela 01/12/2026 a 02/12/2026",
+  "documento_diz": "'Prova Didática 01/12/2026 e 02/12/2026'; 'Sorteio dos Pontos 30/11/2026 e 01/12/2026'",
+  "fonte_conferida": "documentos/unilab-14-2026/Cronograma-Fundamentos-da-Terapia-Ocupacional-Atividades-e-Recursos-Terapeuticos-Ocupacionais.pdf (pdftotext -layout), p. 1; Edital SEI 6.8.2-6.8.3 p. 8",
+  "observacao": "Os dois dias juntam provas de candidatos diferentes (cada um 24h após o próprio sorteio, 6.8.2); o alerta não diz que é prazo para todos, então não induz erro. Exigência anterior que elimina: presença de todos no sorteio da ordem (6.8.3 II), registrada só em ev-0004 (condicionada, não agendada); ver itens ev-0004/ev-0154/ev-0114."
+ },
+ {
+  "id": "unilab-14-2026#ev-0177",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "recurso didática, área 09, 11/11/2026",
+  "documento_diz": "'Recurso Prova Didática 11/11/2026' (preliminar didática 10/11)",
+  "fonte_conferida": "documentos/unilab-14-2026/Cronograma-Psiquiatria.pdf (pdftotext -layout), p. 1; Edital SEI 12.2 p. 9-10",
+  "observacao": "Edital 12.2 (SEI p. 9-10) dá 'no máximo 2 (dois) dias contados a partir do primeiro dia útil seguinte à publicação da lista preliminar'; o cronograma da área dá um dia só. Seguir o cronograma não faz perder prazo (é o dia mais cedo), mas o edital diverge do cronograma."
+ },
+ {
+  "id": "unilab-14-2026#ev-0061",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "recurso títulos, área 03, 30/11/2026",
+  "documento_diz": "'Recurso Prova de Títulos 30/11/2026' (p. 2; preliminar títulos 27/11)",
+  "fonte_conferida": "documentos/unilab-14-2026/Cronograma-Praticas-em-Atencao-Primaria-a-Saude_Semiologia-Medica-Males.pdf (pdftotext -layout), p. 2; Edital SEI 12.2",
+  "observacao": "Edital 12.2 (SEI p. 9-10) dá 'no máximo 2 (dois) dias contados a partir do primeiro dia útil seguinte à publicação da lista preliminar'; o cronograma da área dá um dia só. Seguir o cronograma não faz perder prazo (é o dia mais cedo), mas o edital diverge do cronograma."
+ },
+ {
+  "id": "unilab-14-2026#ev-0012",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "recurso escrita, área 01, 25/11/2026",
+  "documento_diz": "'Recurso Prova Escrita 25/11/2026' (preliminar escrita 24/11)",
+  "fonte_conferida": "documentos/unilab-14-2026/Cronograma-Avaliacao-Nutricional-e-Nutricao-Clinica.pdf (pdftotext -layout), p. 1; Edital SEI 12.2",
+  "observacao": "Edital 12.2 (SEI p. 9-10) dá 'no máximo 2 (dois) dias contados a partir do primeiro dia útil seguinte à publicação da lista preliminar'; o cronograma da área dá um dia só. Seguir o cronograma não faz perder prazo (é o dia mais cedo), mas o edital diverge do cronograma."
+ },
+ {
+  "id": "unilab-14-2026#ev-0152",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "recurso escrita, área 08, 11/11/2026",
+  "documento_diz": "'Recurso Prova Escrita 11/11/2026' (preliminar escrita 10/11)",
+  "fonte_conferida": "documentos/unilab-14-2026/Cronograma-Saude-da-Crianca.pdf (pdftotext -layout), p. 1; Edital SEI 12.2",
+  "observacao": "Edital 12.2 (SEI p. 9-10) dá 'no máximo 2 (dois) dias contados a partir do primeiro dia útil seguinte à publicação da lista preliminar'; o cronograma da área dá um dia só. Seguir o cronograma não faz perder prazo (é o dia mais cedo), mas o edital diverge do cronograma."
+ },
+ {
+  "id": "unilab-14-2026#ev-0157",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "recurso didática, área 08, 18/11/2026",
+  "documento_diz": "'Recurso Prova Didática 18/11/2026' (preliminar didática 17/11)",
+  "fonte_conferida": "documentos/unilab-14-2026/Cronograma-Saude-da-Crianca.pdf (pdftotext -layout), p. 1; Edital SEI 12.2",
+  "observacao": "Edital 12.2 (SEI p. 9-10) dá 'no máximo 2 (dois) dias contados a partir do primeiro dia útil seguinte à publicação da lista preliminar'; o cronograma da área dá um dia só. Seguir o cronograma não faz perder prazo (é o dia mais cedo), mas o edital diverge do cronograma."
+ },
+ {
+  "id": "unilab-14-2026#ev-0093",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "resultado escrita final, área 05, 12/11/2026",
+  "documento_diz": "'Resultado da Prova Escrita 12/11/2026', depois de 'Resultado Preliminar' 10/11 e 'Recurso' 11/11",
+  "fonte_conferida": "documentos/unilab-14-2026/Cronograma-Medicina-Baseada-em-Evidencias-Epidemiologia-e-Pesquisa-Clinica.pdf (pdftotext -layout), p. 1",
+  "observacao": "O cronograma não usa a palavra 'final', mas a posição após o recurso confirma que é o resultado final da escrita."
+ },
+ {
+  "id": "unilab-14-2026#ev-0073",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "resultado escrita final, área 04, 19/11/2026",
+  "documento_diz": "'Resultado Final Prova Escrita 19/11/2026'",
+  "fonte_conferida": "documentos/unilab-14-2026/Cronograma-Anatomia-Humana.pdf (pdftotext -layout), p. 1",
+  "observacao": null
+ },
+ {
+  "id": "unilab-14-2026#ev-0178",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "resultado didática final, área 09, 12/11/2026",
+  "documento_diz": "'Resultado Final Prova Didática 12/11/2026' (p. 2)",
+  "fonte_conferida": "documentos/unilab-14-2026/Cronograma-Psiquiatria.pdf (pdftotext -layout), p. 2",
+  "observacao": null
+ },
+ {
+  "id": "unilab-14-2026#ev-0102",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "resultado títulos final, área 05, 25/11/2026",
+  "documento_diz": "'Resultado Final Prova de Títulos 25/11/2026' (p. 2)",
+  "fonte_conferida": "documentos/unilab-14-2026/Cronograma-Medicina-Baseada-em-Evidencias-Epidemiologia-e-Pesquisa-Clinica.pdf (pdftotext -layout), p. 2",
+  "observacao": null
+ },
+ {
+  "id": "unilab-14-2026#ev-0058",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "resultado didática final, área 03, 26/11/2026",
+  "documento_diz": "'Resultado Final Prova Didática 26/11/2026' (p. 2)",
+  "fonte_conferida": "documentos/unilab-14-2026/Cronograma-Praticas-em-Atencao-Primaria-a-Saude_Semiologia-Medica-Males.pdf (pdftotext -layout), p. 2",
+  "observacao": null
+ },
+ {
+  "id": "unilab-14-2026#ev-0043",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "resultado_final preliminar, área 02, 09/12/2026",
+  "documento_diz": "'Resultado Final Preliminar 09/12/2026' (p. 2); 'Resultado Final Definitivo 11/12/2026'",
+  "fonte_conferida": "documentos/unilab-14-2026/Cronograma-Fundamentos-da-Terapia-Ocupacional-Atividades-e-Recursos-Terapeuticos-Ocupacionais.pdf (pdftotext -layout), p. 2",
+  "observacao": null
+ },
+ {
+  "id": "unilab-14-2026#ev-0023",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "resultado_final preliminar, área 01, 09/12/2026",
+  "documento_diz": "'Resultado Final Preliminar 09/12/2026' (p. 2); 'Resultado Final Definitivo 11/12/2026'",
+  "fonte_conferida": "documentos/unilab-14-2026/Cronograma-Avaliacao-Nutricional-e-Nutricao-Clinica.pdf (pdftotext -layout), p. 2",
+  "observacao": null
+ },
+ {
+  "id": "unilab-14-2026#ev-0154",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "horario_presenca_omitido",
+  "atribuicao": "extrator",
+  "extracao_diz": "sorteio_tema didática, área 08, 16/11/2026, sem hora",
+  "documento_diz": "Cronograma: 'Sorteio dos Pontos 16/11/2026'. Edital 6.8.3: a didática 'se iniciará com o sorteio da ordem dos candidatos e dos pontos'; II: 'todos os candidatos devem, obrigatoriamente, estar presentes no horário oficial previsto para o início das atividades [...] com penalidade de eliminação sumária'",
+  "fonte_conferida": "documentos/unilab-14-2026/Cronograma-Saude-da-Crianca.pdf (pdftotext -layout), p. 1; Edital-no-14_2026-Versao-SEI.pdf p. 8, item 6.8.3 I-III",
+  "observacao": "Data certa. O alerta só diz 'Sorteio dos Pontos' e não avisa que no início das atividades há o sorteio da ordem com presença obrigatória de todos sob eliminação; o inciso III diz que no sorteio do tema só o próprio candidato precisa estar, o que pode levar o candidato a vir só no 'seu' horário. O sorteio da ordem está na agenda apenas como ev-0004 (condicionada, geral, não agendada, sem a exigência de presença). Hora oficial ainda não publicada (6.12)."
+ },
+ {
+  "id": "unilab-14-2026#ev-0114",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "horario_presenca_omitido",
+  "atribuicao": "extrator",
+  "extracao_diz": "sorteio_tema didática, área 06, 09/11/2026, sem hora",
+  "documento_diz": "Cronograma: 'Sorteio dos Pontos 09/11/2026'. Edital 6.8.3 II: presença obrigatória de todos no sorteio da ordem, 'com penalidade de eliminação sumária'",
+  "fonte_conferida": "documentos/unilab-14-2026/Cronograma-Saude-da-Mulher.pdf (pdftotext -layout), p. 1; Edital SEI p. 8, item 6.8.3",
+  "observacao": "Mesmo caso de ev-0154: data certa, mas a exigência eliminatória de presença de todos no sorteio da ordem (que abre as atividades) não aparece no alerta nem como evento datado na agenda."
+ },
+ {
+  "id": "unilab-14-2026#ev-0002",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "isencao_pedido condicionada, geral: 'até o terceiro dia do período de inscrição'",
+  "documento_diz": "4.2: requerimento de isenção 'enviado para o e-mail indicado no edital referente ao respectivo setor de estudos, até o terceiro dia do período de inscrição'",
+  "fonte_conferida": "documentos/unilab-14-2026/Edital-no-14_2026-Versao-SEI.pdf p. 5, item 4.2 (conferido também na versão DOU)",
+  "observacao": "Literal certo e escopo geral correto. Daria para resolver por área com os cronogramas: 01/02 até 21/10; 03/04 até 16/10; 05/08 até 09/10 e 06/07/09 até 07/10 (estes já passaram). O lote marca agendado=true, mas agenda.py só agenda fixa/janela, então esse prazo não gera lembrete."
+ },
+ {
+  "id": "unilab-14-2026#ev-0004",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "horario_presenca_omitido",
+  "atribuicao": "extrator",
+  "extracao_diz": "sorteio_ordem condicionada, geral: 'após a divulgação do resultado da prova escrita'; não agendado",
+  "documento_diz": "6.8.3 I: 'Serão realizados sorteios públicos, após a divulgação do resultado da prova escrita [...] acompanhados obrigatoriamente pelos candidatos aprovados'; II: 'todos os candidatos devem, obrigatoriamente, estar presentes no horário oficial [...] com penalidade de eliminação sumária do certame'",
+  "fonte_conferida": "documentos/unilab-14-2026/Edital-no-14_2026-Versao-SEI.pdf p. 8, item 6.8.3 I-III",
+  "observacao": "A condição está certa, mas a descrição corta a frase antes de 'acompanhados obrigatoriamente' e não registra o inciso II (presença eliminatória). O evento poderia ser ancorado por área na data de 'Sorteio dos Pontos' de cada cronograma (6.8.3: a didática 'se iniciará com o sorteio da ordem dos candidatos e dos pontos'). Como está, a etapa eliminatória fica sem data e sem lembrete."
+ },
+ {
+  "id": "unesp-foa-139-2026#ev-0009",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "portaria_banca condicionada: 'na mesma data da publicação do deferimento/indeferimento das inscrições'",
+  "documento_diz": "7.2: 'A composição da Comissão Examinadora será divulgada [...] https://inscricoes.unesp.br, e publicado no Diário Oficial do Estado, na mesma data da publicação do deferimento/indeferimento das inscrições'; 6.2 confirma",
+  "fonte_conferida": "documentos/unesp-titular-2026/53 - Edital 139-2026 STGP-DTAd - Periodontia - Araçatuba (DOE-SP 26-08-2026).html (texto extraído do HTML; o .docling.md só traz a lista de periódicos), itens 6.2 e 7.2",
+  "observacao": "Não há documento posterior do 139/2026 na pasta (inscrições até 19/10). A composição publicada é provisória (7.4, 7.6), o que importa para o prazo de impugnação de 2 dias úteis (ev-0010). Condicionada não gera lembrete no agenda.py, apesar de agendado=true no lote."
+ },
+ {
+  "id": "unifesp-433-2026#ev-0007",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "recurso relativo: 2 dias corridos após a publicação da relação de inscritos",
+  "documento_diz": "4.15.3.1: 'no prazo 2 (dois) dias corridos contados da publicação da relação de inscritos(as) [...] tendo como termo inicial o 1º dia subsequente à data da referida publicação'",
+  "fonte_conferida": "documentos/unifesp-2026/Edital 433-2026 - texto integral (HTML).pdf (pdftotext), p. 10, item 4.15.3.1; Anexo I 1.1.3.3",
+  "observacao": "Âncora, quantidade, unidade e sentido conferem. A âncora é a relação provisória de inscritos (Anexo I 1.1.3.3), não a relação definitiva; a etiqueta interna '(homologacao_inscricoes)' não pode ser resolvida contra uma homologação final. Não há evento datado da relação de inscritos na agenda nem documento posterior do 433 na pasta. O texto '2 dias depois de' ficaria mais claro como 'até 2 dias corridos após', mas o rótulo já diz o prazo."
+ }
+]

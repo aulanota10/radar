@@ -1,0 +1,343 @@
+{
+ "hoje": "2026-10-12",
+ "semente": 20261012,
+ "populacao": 3640,
+ "estratos": [
+  {
+   "grupo": "datada",
+   "tipo_evento": "atendimento_especial_resultado",
+   "N": 4,
+   "n": 3,
+   "peso": 1.3333333333333333
+  },
+  {
+   "grupo": "datada",
+   "tipo_evento": "convocacao",
+   "N": 34,
+   "n": 6,
+   "peso": 5.666666666666667
+  },
+  {
+   "grupo": "datada",
+   "tipo_evento": "entrega_documento",
+   "N": 73,
+   "n": 10,
+   "peso": 7.3
+  },
+  {
+   "grupo": "datada",
+   "tipo_evento": "homologacao_inscricoes",
+   "N": 47,
+   "n": 7,
+   "peso": 6.714285714285714
+  },
+  {
+   "grupo": "datada",
+   "tipo_evento": "homologacao_resultado",
+   "N": 8,
+   "n": 3,
+   "peso": 2.6666666666666665
+  },
+  {
+   "grupo": "datada",
+   "tipo_evento": "impugnacao_banca",
+   "N": 8,
+   "n": 4,
+   "peso": 2.0
+  },
+  {
+   "grupo": "datada",
+   "tipo_evento": "impugnacao_banca_resultado",
+   "N": 5,
+   "n": 3,
+   "peso": 1.6666666666666667
+  },
+  {
+   "grupo": "datada",
+   "tipo_evento": "inscricao",
+   "N": 71,
+   "n": 10,
+   "peso": 7.1
+  },
+  {
+   "grupo": "datada",
+   "tipo_evento": "isencao_pedido",
+   "N": 25,
+   "n": 5,
+   "peso": 5.0
+  },
+  {
+   "grupo": "datada",
+   "tipo_evento": "isencao_resultado",
+   "N": 10,
+   "n": 4,
+   "peso": 2.5
+  },
+  {
+   "grupo": "datada",
+   "tipo_evento": "outro",
+   "N": 139,
+   "n": 17,
+   "peso": 8.176470588235293
+  },
+  {
+   "grupo": "datada",
+   "tipo_evento": "pagamento",
+   "N": 19,
+   "n": 5,
+   "peso": 3.8
+  },
+  {
+   "grupo": "datada",
+   "tipo_evento": "portaria_banca",
+   "N": 27,
+   "n": 5,
+   "peso": 5.4
+  },
+  {
+   "grupo": "datada",
+   "tipo_evento": "procedimento_cotas",
+   "N": 80,
+   "n": 11,
+   "peso": 7.2727272727272725
+  },
+  {
+   "grupo": "datada",
+   "tipo_evento": "prova",
+   "N": 287,
+   "n": 32,
+   "peso": 8.96875
+  },
+  {
+   "grupo": "datada",
+   "tipo_evento": "recurso",
+   "N": 123,
+   "n": 15,
+   "peso": 8.2
+  },
+  {
+   "grupo": "datada",
+   "tipo_evento": "recurso_resultado",
+   "N": 29,
+   "n": 6,
+   "peso": 4.833333333333333
+  },
+  {
+   "grupo": "datada",
+   "tipo_evento": "resultado",
+   "N": 189,
+   "n": 22,
+   "peso": 8.590909090909092
+  },
+  {
+   "grupo": "datada",
+   "tipo_evento": "resultado_final",
+   "N": 64,
+   "n": 9,
+   "peso": 7.111111111111111
+  },
+  {
+   "grupo": "datada",
+   "tipo_evento": "sorteio_ordem",
+   "N": 39,
+   "n": 7,
+   "peso": 5.571428571428571
+  },
+  {
+   "grupo": "datada",
+   "tipo_evento": "sorteio_tema",
+   "N": 109,
+   "n": 14,
+   "peso": 7.785714285714286
+  },
+  {
+   "grupo": "datada",
+   "tipo_evento": "sorteio_turma",
+   "N": 2,
+   "n": 2,
+   "peso": 1.0
+  },
+  {
+   "grupo": "nao_datada",
+   "tipo_evento": "atendimento_especial_resultado",
+   "N": 10,
+   "n": 2,
+   "peso": 5.0
+  },
+  {
+   "grupo": "nao_datada",
+   "tipo_evento": "convocacao",
+   "N": 45,
+   "n": 3,
+   "peso": 15.0
+  },
+  {
+   "grupo": "nao_datada",
+   "tipo_evento": "entrega_documento",
+   "N": 220,
+   "n": 7,
+   "peso": 31.428571428571427
+  },
+  {
+   "grupo": "nao_datada",
+   "tipo_evento": "homologacao_inscricoes",
+   "N": 41,
+   "n": 3,
+   "peso": 13.666666666666666
+  },
+  {
+   "grupo": "nao_datada",
+   "tipo_evento": "homologacao_resultado",
+   "N": 48,
+   "n": 3,
+   "peso": 16.0
+  },
+  {
+   "grupo": "nao_datada",
+   "tipo_evento": "impugnacao_banca",
+   "N": 190,
+   "n": 6,
+   "peso": 31.666666666666668
+  },
+  {
+   "grupo": "nao_datada",
+   "tipo_evento": "impugnacao_banca_resultado",
+   "N": 66,
+   "n": 3,
+   "peso": 22.0
+  },
+  {
+   "grupo": "nao_datada",
+   "tipo_evento": "impugnacao_edital",
+   "N": 87,
+   "n": 4,
+   "peso": 21.75
+  },
+  {
+   "grupo": "nao_datada",
+   "tipo_evento": "impugnacao_edital_resultado",
+   "N": 48,
+   "n": 3,
+   "peso": 16.0
+  },
+  {
+   "grupo": "nao_datada",
+   "tipo_evento": "inscricao",
+   "N": 9,
+   "n": 2,
+   "peso": 4.5
+  },
+  {
+   "grupo": "nao_datada",
+   "tipo_evento": "isencao_pedido",
+   "N": 51,
+   "n": 3,
+   "peso": 17.0
+  },
+  {
+   "grupo": "nao_datada",
+   "tipo_evento": "isencao_resultado",
+   "N": 50,
+   "n": 3,
+   "peso": 16.666666666666668
+  },
+  {
+   "grupo": "nao_datada",
+   "tipo_evento": "outro",
+   "N": 81,
+   "n": 4,
+   "peso": 20.25
+  },
+  {
+   "grupo": "nao_datada",
+   "tipo_evento": "pagamento",
+   "N": 23,
+   "n": 2,
+   "peso": 11.5
+  },
+  {
+   "grupo": "nao_datada",
+   "tipo_evento": "portaria_banca",
+   "N": 82,
+   "n": 4,
+   "peso": 20.5
+  },
+  {
+   "grupo": "nao_datada",
+   "tipo_evento": "procedimento_cotas",
+   "N": 191,
+   "n": 6,
+   "peso": 31.833333333333332
+  },
+  {
+   "grupo": "nao_datada",
+   "tipo_evento": "prova",
+   "N": 162,
+   "n": 6,
+   "peso": 27.0
+  },
+  {
+   "grupo": "nao_datada",
+   "tipo_evento": "publicacao_edital",
+   "N": 3,
+   "n": 2,
+   "peso": 1.5
+  },
+  {
+   "grupo": "nao_datada",
+   "tipo_evento": "recurso",
+   "N": 549,
+   "n": 14,
+   "peso": 39.214285714285715
+  },
+  {
+   "grupo": "nao_datada",
+   "tipo_evento": "recurso_resultado",
+   "N": 55,
+   "n": 3,
+   "peso": 18.333333333333332
+  },
+  {
+   "grupo": "nao_datada",
+   "tipo_evento": "resultado",
+   "N": 35,
+   "n": 3,
+   "peso": 11.666666666666666
+  },
+  {
+   "grupo": "nao_datada",
+   "tipo_evento": "resultado_final",
+   "N": 95,
+   "n": 4,
+   "peso": 23.75
+  },
+  {
+   "grupo": "nao_datada",
+   "tipo_evento": "sorteio_ordem",
+   "N": 33,
+   "n": 3,
+   "peso": 11.0
+  },
+  {
+   "grupo": "nao_datada",
+   "tipo_evento": "sorteio_reserva",
+   "N": 2,
+   "n": 2,
+   "peso": 1.0
+  },
+  {
+   "grupo": "nao_datada",
+   "tipo_evento": "sorteio_tema",
+   "N": 71,
+   "n": 4,
+   "peso": 17.75
+  },
+  {
+   "grupo": "nao_datada",
+   "tipo_evento": "sorteio_turma",
+   "N": 1,
+   "n": 1,
+   "peso": 1.0
+  }
+ ]
+}

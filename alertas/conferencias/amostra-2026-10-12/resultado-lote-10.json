@@ -1,0 +1,252 @@
+[
+  {
+    "id": "ufersa-030-2026#ev-0034",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "extracao_diz": "Resultado do pedido de atendimento especial, 20/10/2026",
+    "documento_diz": "Cronograma: \"Resultado do pedido de atendimento especial | 20/10/2026\"",
+    "fonte_conferida": "documentos/ufersa-030-2026/05 - Anexo II - Cronograma provisório grupos I, II e III (retificado).pdf, p. 1 (pdftotext); conferidos 02 - Retificação 031-2026 e 03 - Edital Complementar 001-2026, que não mexem nessa data",
+    "observacao": "O edital (5.8) chama de relação preliminar e prevê recurso de 24h (5.9); o cronograma não dá data própria ao final. Sem aviso agendado, ok."
+  },
+  {
+    "id": "ufersa-030-2026#ev-0022",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "extracao_diz": "Entrega do Memorial e Plano de Trabalho (PDF via sistema), janela 06/12 a 07/12/2026",
+    "documento_diz": "8.14.3: \"deverá ser encaminhado via sistema, no período de 06 a 07 de dezembro de 2026\"; cronograma: \"Grupos I, II e III – 06/12/2026 a 07/12/2026\"",
+    "fonte_conferida": "documentos/ufersa-030-2026/01 - Edital de abertura 030-2026.pdf, p. 16, item 8.14.3; documentos/ufersa-030-2026/05 - Anexo II - Cronograma provisório grupos I, II e III (retificado).pdf, p. 3",
+    "observacao": "Vale só para aprovados na didática; sem hora-limite no edital. Retificação 031 não altera."
+  },
+  {
+    "id": "ufersa-030-2026#ev-0035",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "extracao_diz": "Divulgação do cartão de inscrição, 09/11/2026",
+    "documento_diz": "Cronograma: \"Divulgação do cartão de inscrição | 09/11/2026\"",
+    "fonte_conferida": "documentos/ufersa-030-2026/05 - Anexo II - Cronograma provisório grupos I, II e III (retificado).pdf, p. 1",
+    "observacao": "Cronograma é provisório (8.4.1 prevê cronograma executivo), mas a data é a publicada; nenhum documento posterior muda."
+  },
+  {
+    "id": "ufersa-030-2026#ev-0007",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "extracao_diz": "Pagamento da taxa até 12/10/2026, 23:59",
+    "documento_diz": "7.4: \"O pagamento da taxa de inscrição deverá ser efetuado até às 23h59min do dia 12 de outubro de 2026, respeitado o expediente bancário\"; cronograma: \"Data limite para pagamento da inscrição 12/10/2026\"",
+    "fonte_conferida": "documentos/ufersa-030-2026/01 - Edital de abertura 030-2026.pdf, p. 11, item 7.4; documentos/ufersa-030-2026/05 - Anexo II - Cronograma provisório grupos I, II e III (retificado).pdf, p. 1",
+    "observacao": "Retificação 031 só alterou 7.2 (início das inscrições para 26/09) e 7.15; 7.4 mantido. O aviso de 2 dias antes já passou (hoje é 12/10)."
+  },
+  {
+    "id": "ufersa-030-2026#ev-0063",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "extracao_diz": "Resposta aos recursos e Resultado Final da Etapa Exame de Título, 18/12/2026",
+    "documento_diz": "Cronograma: \"Resposta aos recursos e Resultado Final da Etapa Exame de Título | 18/12/2026\"",
+    "fonte_conferida": "documentos/ufersa-030-2026/05 - Anexo II - Cronograma provisório grupos I, II e III (retificado).pdf, p. 3",
+    "observacao": "Resultado final da etapa (o preliminar é 16/12); tipo e fase corretos."
+  },
+  {
+    "id": "usp-iau-03-2026#ev-0002",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "extracao_diz": "Inscrições de 05/10/2026 09:00 a 03/11/2026 17:00",
+    "documento_diz": "Preâmbulo: \"com início às 9 horas (horário de Brasília) do dia 05/10/2026 e término às 17 horas (horário de Brasília) do dia 03/11/2026\"",
+    "fonte_conferida": "documentos/usp-iau-03-2026/Edital-DVACAD-03-2026-Doutor-em-Representacao-e-Linguagem-Publicado-DOE-02.10.2026.pdf, p. 1, preâmbulo",
+    "observacao": "Não há documento posterior na pasta."
+  },
+  {
+    "id": "usp-iau-03-2026#ev-0008",
+    "veredito": "ERRADA",
+    "categoria": "data_lida_errada",
+    "atribuicao": "extrator",
+    "extracao_diz": "Pagamento da taxa (PIX), data fixa 03/11/2026, sem hora",
+    "documento_diz": "Item 2: comprovante anexado \"no momento da inscrição\"; § 9º: \"a ausência de compensação bancária do valor da taxa de inscrição, na forma indicada e dentro do prazo de inscrições, implicará o cancelamento\"; o prazo de inscrições termina \"às 17 horas ... do dia 03/11/2026\"",
+    "fonte_conferida": "documentos/usp-iau-03-2026/Edital-DVACAD-03-2026-Doutor-em-Representacao-e-Linguagem-Publicado-DOE-02.10.2026.pdf, p. 5 (item 2, caput) e p. 6 (§ 9º); preâmbulo p. 1",
+    "observacao": "A hora que importa (17h de 03/11) sumiu: o alerta \"03/11/2026 (terça)\" sugere o dia inteiro, e quem pagar à noite fica fora. Na prática o pagamento tem de vir antes de concluir a inscrição, porque o comprovante é anexado nela. Extração deveria levar hora 17:00 (ou ancorar no fim das inscrições)."
+  },
+  {
+    "id": "usp-iau-03-2026#ev-0005",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "extracao_diz": "Pedido de reconsideração do indeferimento de isenção/redução, 19/10 a 20/10/2026",
+    "documento_diz": "§ 5º: \"pedido de reconsideração, no prazo de 19/10/2026 a 20/10/2026\"",
+    "fonte_conferida": "documentos/usp-iau-03-2026/Edital-DVACAD-03-2026-Doutor-em-Representacao-e-Linguagem-Publicado-DOE-02.10.2026.pdf, p. 5, item 2 § 5º",
+    "observacao": null
+  },
+  {
+    "id": "usp-iau-03-2026#ev-0007",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "extracao_diz": "Resultado final de isenção/redução, condicionado: publicado no DOE, sem data",
+    "documento_diz": "§ 7º: \"O resultado final dos pedidos de isenção e redução de taxa será publicado no Diário Oficial do Estado.\"",
+    "fonte_conferida": "documentos/usp-iau-03-2026/Edital-DVACAD-03-2026-Doutor-em-Representacao-e-Linguagem-Publicado-DOE-02.10.2026.pdf, p. 5, item 2 § 7º",
+    "observacao": "O edital não dá data ao resultado final (o dos pedidos de reconsideração é 22/10, § 6º, outro evento). Sem aviso agendado, correto."
+  },
+  {
+    "id": "usp-iau-03-2026#ev-0017",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "extracao_diz": "Resultado da 1ª fase (escrita), condicionado: em sessão pública ou no DOE no mínimo 5 dias úteis antes da convocação para a 2ª fase",
+    "documento_diz": "6 § 1º: \"As notas e o resultado da primeira fase serão apresentados pela Comissão Julgadora, em sessão pública, ou publicados no Diário Oficial do Estado no mínimo 5 (cinco) dias úteis antes da convocação dos candidatos para a segunda fase do concurso.\"",
+    "fonte_conferida": "documentos/usp-iau-03-2026/Edital-DVACAD-03-2026-Doutor-em-Representacao-e-Linguagem-Publicado-DOE-02.10.2026.pdf, p. 7, item 6 § 1º",
+    "observacao": "Transcrição literal, sem data possível hoje (concurso só se realiza 30 a 120 dias após aprovação das inscrições, 3 § 2º)."
+  },
+  {
+    "id": "unila-240-2026#ev-0003",
+    "veredito": "TEXTO_CONFUSO",
+    "categoria": "texto_do_leitor",
+    "atribuicao": "leitor",
+    "extracao_diz": "Inscrições, janela 28/09/2026 a 27/10/2026 (sem hora)",
+    "documento_diz": "Anexo I - Cronograma Geral: \"Período de Inscrições | 28/09/2026 a 27/10/2026\" (prazo firme, não previsão)",
+    "fonte_conferida": "documentos/unila-240-2026/edital_240-2026_condicoes_gerais.pdf, p. 29, Anexo I",
+    "observacao": "Datas certas, mas o alerta diz \"período provável de 28/09 a 27/10\". O leitor (agenda.py, texto_data) põe \"período provável\" em toda janela > 7 dias sem hora, sem olhar o tipo; para inscrição isso desqualifica um prazo firme. O mesmo ocorre nas inscrições da UNIFESP 391/395."
+  },
+  {
+    "id": "unila-240-2026#ev-0040",
+    "veredito": "TEXTO_CONFUSO",
+    "categoria": "horario_presenca_omitido",
+    "atribuicao": "extrator",
+    "extracao_diz": "Realização das Provas (área 02, Farmacologia), 25/01 a 29/01/2027",
+    "documento_diz": "Ed. 243, cronograma específico: \"Realização das Provas | De 25/01/2027 a até 29/01/2027\"; Ed. 240: 14.2 \"No primeiro dia, para a prova escrita, o candidato deverá comparecer ... com antecedência mínima de 30 (trinta) minutos\"; 15.2 \"É obrigatório o comparecimento do candidato no ato de instalação do certame\"; 14.9 não comparecimento a etapa do 14.7 (inclui o Ato de Instalação) \"implicará na sua eliminação\"",
+    "fonte_conferida": "documentos/unila-240-2026/Edital 243-2026 - Publicação no DOU Edição- 181 - Seção- 3 - Página- 52 (link is.pdf, p. 1, item 2; documentos/unila-240-2026/edital_240-2026_condicoes_gerais.pdf, itens 14.2, 14.7, 14.9, 15.1-15.2 (pp. 18-22)",
+    "observacao": "Data e escopo certos (02 = Farmacologia). Mas a agenda do concurso não tem evento para o Ato de Instalação obrigatório nem para a chegada 30 min antes da escrita de segunda 25/01 9h; o aviso de 2 dias antes não diz hora nenhuma."
+  },
+  {
+    "id": "unila-240-2026#ev-0039",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "extracao_diz": "Divulgação da Banca Examinadora (área 02), condicionada \"a partir de 18/11/2026\"",
+    "documento_diz": "Ed. 243, cronograma específico: \"Divulgação da Banca Examinadora | a partir de 18/11/2026\"",
+    "fonte_conferida": "documentos/unila-240-2026/Edital 243-2026 - Publicação no DOU Edição- 181 - Seção- 3 - Página- 52 (link is.pdf, p. 1, item 2",
+    "observacao": "Escopo certo (02 = Farmacologia/Ed. 243)."
+  },
+  {
+    "id": "unila-240-2026#ev-0033",
+    "veredito": "ERRADA",
+    "categoria": "horario_presenca_omitido",
+    "atribuicao": "extrator",
+    "extracao_diz": "Prova Escrita (área 01, Morfologia/Anatomia), condicionada \"Segunda - 9h às 13h\", sem data",
+    "documento_diz": "Ed. 241: \"Realização das Provas | De 25/01/2027 a até 29/01/2027\" e cronograma prévio \"Prova Escrita | Segunda - 9h às 13h\" (\"pode ser alterado\"); Ed. 240: 14.2 comparecer \"com antecedência mínima de 30 (trinta) minutos do horário fixado\"; 15.2 \"É obrigatório o comparecimento do candidato no ato de instalação do certame\"; 14.9 ausência a etapa do 14.7 (a: Ato de Instalação) elimina",
+    "fonte_conferida": "documentos/unila-240-2026/Edital 241-2026 - Publicação no DOU Edição- 181 - Seção- 3 - Página- 53 (link is.pdf, p. 1, item 2; documentos/unila-240-2026/edital_240-2026_condicoes_gerais.pdf, itens 14.2, 14.7, 14.9, 15.1-15.2",
+    "observacao": "Quem seguir o alerta chega às 9h, mas o edital manda chegar às 8h30 e exige presença no Ato de Instalação (identificação e lista de presença), sob pena de eliminação; nenhum desses horários existe na agenda do concurso. Problema adicional (outra): \"Segunda\" não foi resolvida para 25/01/2027 (segunda-feira da semana de provas), então o alerta sai sem dia. Vale igual para ev-0045 e ev-0057 (áreas 02 e 03)."
+  },
+  {
+    "id": "unifal-002-2026#ev-0023",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "extracao_diz": "Prova escrita do Edital 41/2026 (vaga H), 16/11/2026 às 08:00",
+    "documento_diz": "Anexo I, 2: \"DATA/HORÁRIO/SALA DA PROVA ESCRITA : 16/11/2026, horário: 8h, sala: PCA-202 , prédio PCA.\"",
+    "fonte_conferida": "documentos/unifal-002-2026/59 - Edital 41-2026 - Reabertura Topografia e Georreferenciamento (SEI).html.docling.md, Anexo I item 2; itens 5.1 e 5.1.1",
+    "observacao": "Antecedência de 30 min é só \"preferencialmente\" (5.1); a eliminação é para quem não comparecer \"até o horário estipulado para inicio\" (5.1.1), que é a hora do alerta. Escopo H = Topografia/Georreferenciamento, certo. Nenhum documento posterior altera."
+  },
+  {
+    "id": "unifal-002-2026#ev-0032",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "extracao_diz": "Convocação do PcD classificado para perícia, condicionada: antes da homologação do resultado final, publicada no site com local, data e horário prováveis",
+    "documento_diz": "Anexo II 1.7: \"Antes da homologação do Resultado Final do concurso público, a condição de pessoa com deficiência do candidato, se classificado, será confirmada mediante perícia\"; 1.7.1: \"A convocação para a perícia se dará por meio de publicação no site do concurso, com indicação de local, data e horário prováveis\"",
+    "fonte_conferida": "documentos/unifal-002-2026/52 - Edital 102-2026 - Direito Público (SEI).html.docling.md, Anexo II 1.7 e 1.7.1",
+    "observacao": null
+  },
+  {
+    "id": "unifal-002-2026#ev-0024",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "extracao_diz": "Recurso contra resultado de cada prova: 1 dia útil após a divulgação, das 8h às 17h",
+    "documento_diz": "14.2: \"O candidato poderá interpor recurso contra o resultado de cada prova, após a sua divulgação, no primeiro dia útil, das 8h às 17h\"",
+    "fonte_conferida": "documentos/unifal-002-2026/52 - Edital 102-2026 - Direito Público (SEI).html.docling.md, item 14.2; mesma redação conferida nos editais 103, 104, 105, 106, 111, 039 e 41",
+    "observacao": "Escopo geral se justifica: cláusula idêntica em todos os editais específicos. O horário 8h-17h está no rótulo, não na linha de data."
+  },
+  {
+    "id": "ufv-47-2026#ev-0005",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "extracao_diz": "Prova de Conhecimento (escrita), 09/11/2026 às 09:00",
+    "documento_diz": "4.2.1: \"a ser aplicada no dia 09 de novembro de 2026, às 09h (nove horas), no Departamento de Direito\"; 4.2.3.1: \"deverão se apresentar ... com antecedência mínima de 15 minutos ... No horário marcado e divulgado, será passada uma lista de presença e o candidato que não estiver presente será automaticamente eliminado\"",
+    "fonte_conferida": "documentos/ufv-47-2026/Edital-47-2026-DPD.pdf, p. 1, itens 4.2.1 e 4.2.3.1",
+    "observacao": "A eliminação ocorre no horário marcado (9h), que é o do alerta; a apresentação 15 min antes é exigida sem sanção própria. Seria prudente o texto mencionar 8h45."
+  },
+  {
+    "id": "ufv-47-2026#ev-0001",
+    "veredito": "TEXTO_CONFUSO",
+    "categoria": "texto_do_leitor",
+    "atribuicao": "ambos",
+    "extracao_diz": "Inscrições: relativa, 30 dias corridos após a publicação do edital no DOU",
+    "documento_diz": "Preâmbulo: \"torna pública a abertura das inscrições ... no prazo de 30 (trinta) dias corridos, a contar da data de publicação deste Edital no Diário Oficial da União\"",
+    "fonte_conferida": "documentos/ufv-47-2026/Edital-47-2026-DPD.pdf, p. 1, preâmbulo; data de publicação 11/09/2026 (DOU nº 172) registrada em data_publicacao da extração",
+    "observacao": "A relativa bate com o texto, mas descreve só o fim do prazo. O alerta junta \"Abertura das inscrições...\" com \"30 dias depois de publicação do Edital\" e dá a entender que as inscrições abrem 30 dias após a publicação, quando elas abrem na publicação e fecham por volta de 11/10/2026 (já encerradas). Extrator poderia ter montado janela com início na publicação (11/09) e fim relativo/resolvido; leitor não marca que a relativa é o fim."
+  },
+  {
+    "id": "uerj-237-2026#ev-0021",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "extracao_diz": "Entrega de Títulos e Trabalhos, 19/11/2026, imediatamente após o resultado da Prova de Aula",
+    "documento_diz": "11.1 q): \"Entrega de Títulos e Trabalhos – 19/11/2026, imediatamente após o resultado da Prova de Aula.\" (resultado: p) \"19/11/2026, às 15h\")",
+    "fonte_conferida": "documentos/uerj-2026/13 - Seleção 2026-237 - Edital.pdf, p. 10, item 11.1 q) e 11.2; errata 30 - Seleção 2026-237 - Errata (só vencimento e taxa)",
+    "observacao": "O rótulo traz o \"imediatamente após o resultado\" (15h). Local é outro (Secretaria de Hematologia, HUPE, 11.2). A exclusão por atraso (16.9 c, p. 13) vale para provas, não para a entrega; a apresentação 30 min antes (11.2) não tem sanção própria. Só aprovados entregam."
+  },
+  {
+    "id": "unimontes-10-2026#ev-0011",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "extracao_diz": "Pedido de isenção, 19/10/2026 08:00 a 19/11/2026 23:59",
+    "documento_diz": "Retificação 1, III (4.4.2): \"no período de 8h00 do dia 19/10/2026 às 23h59 do dia 19/11/2026\"",
+    "fonte_conferida": "documentos/unimontes-2026/23 - Edital 10-2026 - Retificação 1 (Clínica Cirúrgica).pdf, p. 1, item III",
+    "observacao": "Extração aplicou a retificação (original era 03/09 a 12/09). Nenhum documento posterior trata do Edital 10 (o Comunicado 01/2026 só cobre 06, 08, 09, 23, 25 e 26)."
+  },
+  {
+    "id": "unimontes-17-2026#ev-0007",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "extracao_diz": "Inserção do plano de aula e da apresentação em PDF: até 1 hora antes do horário previsto da apresentação na Prova Didática",
+    "documento_diz": "10.3.10: \"deverá inserir, em sua área no sistema do Concurso, em até, no máximo, 1 (uma) hora antes do horário previsto para sua apresentação\"",
+    "fonte_conferida": "documentos/unimontes-2026/36 - Edital 17-2026 - Comunicação e Letras.pdf, p. 29, item 10.3.10; retificações 37 e 38 não alteram o item",
+    "observacao": "Âncora é o horário individual de cada candidato, o que é correto para relativa. \"1 horas\" é só deslize gramatical."
+  },
+  {
+    "id": "unifesp-391-2026#ev-0005",
+    "veredito": "ERRADA",
+    "categoria": "relativa_errada",
+    "atribuicao": "extrator",
+    "extracao_diz": "Pedido de isenção: relativa, 5 dias úteis após o início das inscrições",
+    "documento_diz": "10.2: \"somente no prazo compreendido entre o 1º (primeiro) e o 5º (quinto) dia útil do início das inscrições\"; Anexo I 1.1: inscrições \"no período de 22 de junho de 2026 a 22 de julho de 2026\"",
+    "fonte_conferida": "documentos/unifesp-2026/63 - Edital 391-2026 - texto integral (HTML).html.docling.md, itens 10.2 e Anexo I 1.1",
+    "observacao": "O dia de início conta como 1º dia útil: janela 22/06 a 26/06/2026. \"5 dias úteis depois do início\" cai em 29/06, um dia útil além do fim, e ainda apaga o começo da janela. A âncora já tinha data (22/06), então dava para gravar janela fixa. O prazo já passou e não haverá aviso, mas o mesmo padrão deve estar em unifesp-395 ev-0005 e nos editais irmãos."
+  },
+  {
+    "id": "unifesp-395-2026#ev-0007",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "extracao_diz": "Requerimento sobre a relação de inscritos, por e-mail: 2 dias corridos após a publicação da relação de inscritos",
+    "documento_diz": "4.15.3.1: \"no prazo 2 (dois) dias corridos contados da publicação da relação de inscritos(as) ... tendo como termo inicial o 1º dia subsequente à data da referida publicação\"",
+    "fonte_conferida": "documentos/unifesp-2026/67 - Edital 395-2026 - texto integral (HTML).html.docling.md, item 4.15.3.1 e Anexo I 1.1.3.3",
+    "observacao": "Quantidade, unidade e sentido certos. Ressalva: a âncora vem marcada como (homologacao_inscricoes), mas é a relação provisória de inscritos (Anexo I 1.1.3.3); a definitiva sai depois, com a decisão dos requerimentos (4.15.3.2). Hoje o texto não é afetado, porém um resolvedor que ligue a âncora pelo tipo pegaria o evento errado."
+  },
+  {
+    "id": "uema-132-2026#ev-0018",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "extracao_diz": "Sorteio do tema da prova didática, condicionado: após a leitura pública da prova escrita",
+    "documento_diz": "1.3.4: \"Após a leitura pública, a banca examinadora sorteará o tema para a prova didática, designando dia, hora e local para sua realização\"",
+    "fonte_conferida": "documentos/uema-2026/03 - Edital 132-2026-GR - CCT (Inteligência Artificial).pdf, p. 2, item 1.3.4; documentos 08 a 13 (errata, prorrogações, retificação 183, suspensão 234, retomada 241) não alteram o item",
+    "observacao": "Sem data até o novo cronograma prometido no Ed. 241/2026. Fora do item: a leitura pública tem presença obrigatória sob eliminação (1.3.3) e não existe como evento na agenda, nem a prova escrita; convém olhar quando sair o cronograma."
+  }
+]

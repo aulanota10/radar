@@ -1,0 +1,1123 @@
+[
+ {
+  "id": "ufba-06-2026#ev-0230",
+  "estrato": "datada/entrega_documento",
+  "peso": 7.3,
+  "concurso": "ufba-06-2026",
+  "nome": "UFBA 06/2026",
+  "evento_id": "ev-0230",
+  "tipo_evento": "entrega_documento",
+  "etapa": "didatica",
+  "fase": null,
+  "escopo": [
+   "20"
+  ],
+  "descricao": "Entrega, por cada candidato, no horário do sorteio do seu ponto, de: três vias impressas do plano de aula sobre o tema sorteado; uma via impressa do Curriculum Vitae; três vias impressas do Memorial além de cópia dos documentos comprobatórios (item 8.6)",
+  "forma": "janela",
+  "inicio": "2026-10-14",
+  "fim": "2026-10-15",
+  "hora": "08:00",
+  "documento": "documentos/ufba-06-2026/77 - Cronograma - Psiquiatria.pdf",
+  "item": "cronograma",
+  "pagina": 2,
+  "data_extraida": {
+   "forma": "janela",
+   "inicio": {
+    "data": "2026-10-14",
+    "hora": "08:00"
+   },
+   "fim": {
+    "data": "2026-10-15",
+    "hora": "09:00"
+   }
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Entrega, por cada candidato, no horário do sorteio do seu ponto, de: três vias impressas do plano de aula sobre o tema sorteado; uma via impressa do Curriculum Vitae...",
+   "data": "de 14/10/2026 (quarta), às 08:00 a 15/10/2026 (quinta), até 09:00",
+   "agendado": false,
+   "regra_antecedencia": [
+    [
+     "fim",
+     [
+      15,
+      7,
+      3
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ufba-06-2026#ev-0088",
+  "estrato": "datada/outro",
+  "peso": 8.176470588235293,
+  "concurso": "ufba-06-2026",
+  "nome": "UFBA 06/2026",
+  "evento_id": "ev-0088",
+  "tipo_evento": "outro",
+  "etapa": null,
+  "fase": null,
+  "escopo": [
+   "22"
+  ],
+  "descricao": "Instalação do Concurso - Sessão pública da Congregação para abertura/instalação do Concurso.",
+  "forma": "fixa",
+  "inicio": "2026-11-03",
+  "fim": "2026-11-03",
+  "hora": "08:00",
+  "documento": "documentos/ufba-06-2026/80 - Cronograma - Arquivologia - Sistema de informação gerencial (preliminar).pdf",
+  "item": "cronograma",
+  "pagina": 1,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-11-03",
+   "hora": "08:00"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Instalação do Concurso - Sessão pública da Congregação para abertura/instalação do Concurso",
+   "data": "03/11/2026 (terça), às 08:00",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      2
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ufba-06-2026#ev-0249",
+  "estrato": "datada/outro",
+  "peso": 8.176470588235293,
+  "concurso": "ufba-06-2026",
+  "nome": "UFBA 06/2026",
+  "evento_id": "ev-0249",
+  "tipo_evento": "outro",
+  "etapa": "escrita",
+  "fase": null,
+  "escopo": [
+   "19"
+  ],
+  "descricao": "Consulta bibliográfica pelos candidatos. Duração máxima: até 1 (uma) hora (fontes de exclusiva responsabilidade dos candidatos)",
+  "forma": "janela",
+  "inicio": "2026-10-30",
+  "fim": "2026-10-30",
+  "hora": "08:15",
+  "documento": "documentos/ufba-06-2026/79 - Cronograma - Cirurgia Torácica e Cardiovascular.pdf",
+  "item": "cronograma",
+  "pagina": 1,
+  "data_extraida": {
+   "forma": "janela",
+   "inicio": {
+    "data": "2026-10-30",
+    "hora": "08:15"
+   },
+   "fim": {
+    "data": "2026-10-30",
+    "hora": "09:15"
+   }
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Consulta bibliográfica pelos candidatos. Duração máxima: até 1 (uma) hora (fontes de exclusiva responsabilidade dos candidatos)",
+   "data": "30/10/2026 (sexta), das 08:15 às 09:15",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      2
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ufba-06-2026#ev-0302",
+  "estrato": "datada/outro",
+  "peso": 8.176470588235293,
+  "concurso": "ufba-06-2026",
+  "nome": "UFBA 06/2026",
+  "evento_id": "ev-0302",
+  "tipo_evento": "outro",
+  "etapa": null,
+  "fase": null,
+  "escopo": [
+   "12"
+  ],
+  "descricao": "ABERTURA: Instalação Reunião da Congregação",
+  "forma": "fixa",
+  "inicio": "2026-10-27",
+  "fim": "2026-10-27",
+  "hora": "09:00",
+  "documento": "documentos/ufba-06-2026/70 - Cronograma - Contabilidade e Direito.pdf",
+  "item": "cronograma",
+  "pagina": 1,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-10-27",
+   "hora": "09:00"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "ABERTURA: Instalação Reunião da Congregação",
+   "data": "27/10/2026 (terça), às 09:00",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      2
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ufba-06-2026#ev-0274",
+  "estrato": "datada/outro",
+  "peso": 8.176470588235293,
+  "concurso": "ufba-06-2026",
+  "nome": "UFBA 06/2026",
+  "evento_id": "ev-0274",
+  "tipo_evento": "outro",
+  "etapa": "escrita",
+  "fase": null,
+  "escopo": [
+   "01"
+  ],
+  "descricao": "Período de consulta",
+  "forma": "janela",
+  "inicio": "2026-10-13",
+  "fim": "2026-10-13",
+  "hora": "08:30",
+  "documento": "documentos/ufba-06-2026/56 - Cronograma - GESTÃO DA PRODUÇÃO E MÉTODOS QUANTITATIVOS.pdf",
+  "item": "cronograma",
+  "pagina": 1,
+  "data_extraida": {
+   "forma": "janela",
+   "inicio": {
+    "data": "2026-10-13",
+    "hora": "08:30"
+   },
+   "fim": {
+    "data": "2026-10-13",
+    "hora": "09:30"
+   }
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Período de consulta",
+   "data": "13/10/2026 (terça), das 08:30 às 09:30",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      2
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ufba-06-2026#ev-0091",
+  "estrato": "datada/prova",
+  "peso": 8.96875,
+  "concurso": "ufba-06-2026",
+  "nome": "UFBA 06/2026",
+  "evento_id": "ev-0091",
+  "tipo_evento": "prova",
+  "etapa": "escrita",
+  "fase": null,
+  "escopo": [
+   "22"
+  ],
+  "descricao": "Início da Prova Escrita (duração máxima de 4 horas). Encerramento da Prova Escrita às 13h20.",
+  "forma": "janela",
+  "inicio": "2026-11-03",
+  "fim": "2026-11-03",
+  "hora": "09:20",
+  "documento": "documentos/ufba-06-2026/80 - Cronograma - Arquivologia - Sistema de informação gerencial (preliminar).pdf",
+  "item": "cronograma",
+  "pagina": 1,
+  "data_extraida": {
+   "forma": "janela",
+   "inicio": {
+    "data": "2026-11-03",
+    "hora": "09:20"
+   },
+   "fim": {
+    "data": "2026-11-03",
+    "hora": "13:20"
+   }
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Início da Prova Escrita (duração máxima de 4 horas). Encerramento da Prova Escrita às 13h20",
+   "data": "03/11/2026 (terça), das 09:20 às 13:20",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      30,
+      15,
+      7,
+      2
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ufba-06-2026#ev-0265",
+  "estrato": "datada/prova",
+  "peso": 8.96875,
+  "concurso": "ufba-06-2026",
+  "nome": "UFBA 06/2026",
+  "evento_id": "ev-0265",
+  "tipo_evento": "prova",
+  "etapa": "escrita",
+  "fase": null,
+  "escopo": [
+   "05"
+  ],
+  "descricao": "Realização da Prova Escrita",
+  "forma": "janela",
+  "inicio": "2026-10-26",
+  "fim": "2026-10-26",
+  "hora": "10:45",
+  "documento": "documentos/ufba-06-2026/60 - Cronograma - Extensão Rural.pdf",
+  "item": "cronograma",
+  "pagina": 1,
+  "data_extraida": {
+   "forma": "janela",
+   "inicio": {
+    "data": "2026-10-26",
+    "hora": "10:45"
+   },
+   "fim": {
+    "data": "2026-10-26",
+    "hora": "14:45"
+   }
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Realização da Prova Escrita",
+   "data": "26/10/2026 (segunda), das 10:45 às 14:45",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      30,
+      15,
+      7,
+      2
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ufba-06-2026#ev-0212",
+  "estrato": "datada/prova",
+  "peso": 8.96875,
+  "concurso": "ufba-06-2026",
+  "nome": "UFBA 06/2026",
+  "evento_id": "ev-0212",
+  "tipo_evento": "prova",
+  "etapa": "escrita",
+  "fase": null,
+  "escopo": [
+   "21"
+  ],
+  "descricao": "Realização da prova escrita. Duração máxima de 4 (quatro) horas.",
+  "forma": "janela",
+  "inicio": "2026-10-26",
+  "fim": "2026-10-26",
+  "hora": "09:15",
+  "documento": "documentos/ufba-06-2026/76 - Cronograma - Patologia.pdf",
+  "item": "cronograma",
+  "pagina": 1,
+  "data_extraida": {
+   "forma": "janela",
+   "inicio": {
+    "data": "2026-10-26",
+    "hora": "09:15"
+   },
+   "fim": {
+    "data": "2026-10-26",
+    "hora": "13:15"
+   }
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Realização da prova escrita. Duração máxima de 4 (quatro) horas",
+   "data": "26/10/2026 (segunda), das 09:15 às 13:15",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      30,
+      15,
+      7,
+      2
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ufba-06-2026#ev-0382",
+  "estrato": "datada/prova",
+  "peso": 8.96875,
+  "concurso": "ufba-06-2026",
+  "nome": "UFBA 06/2026",
+  "evento_id": "ev-0382",
+  "tipo_evento": "prova",
+  "etapa": "memorial",
+  "fase": null,
+  "escopo": [
+   "11"
+  ],
+  "descricao": "Início da defesa de memorial do primeiro ao oitavo candidato",
+  "forma": "janela",
+  "inicio": "2026-10-28",
+  "fim": "2026-10-29",
+  "hora": "13:30",
+  "documento": "documentos/ufba-06-2026/64 - Cronograma - Engenharia de Controle e Automação.pdf",
+  "item": "cronograma",
+  "pagina": 2,
+  "data_extraida": {
+   "forma": "janela",
+   "inicio": {
+    "data": "2026-10-28",
+    "hora": "13:30"
+   },
+   "fim": {
+    "data": "2026-10-29",
+    "hora": "16:00"
+   }
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Início da defesa de memorial do primeiro ao oitavo candidato",
+   "data": "de 28/10/2026 (quarta), às 13:30 a 29/10/2026 (quinta), até 16:00",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      30,
+      15,
+      7,
+      2
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ufba-06-2026#ev-0339",
+  "estrato": "datada/prova",
+  "peso": 8.96875,
+  "concurso": "ufba-06-2026",
+  "nome": "UFBA 06/2026",
+  "evento_id": "ev-0339",
+  "tipo_evento": "prova",
+  "etapa": "escrita",
+  "fase": null,
+  "escopo": [
+   "37"
+  ],
+  "descricao": "Realização da prova escrita, incluído o tempo para consulta bibliográfica (1 hora - vide Normas Complementares)",
+  "forma": "janela",
+  "inicio": "2026-10-26",
+  "fim": "2026-10-26",
+  "hora": "09:00",
+  "documento": "documentos/ufba-06-2026/62 - Cronograma - Geodésia e Topografia.pdf",
+  "item": "cronograma",
+  "pagina": 1,
+  "data_extraida": {
+   "forma": "janela",
+   "inicio": {
+    "data": "2026-10-26",
+    "hora": "09:00"
+   },
+   "fim": {
+    "data": "2026-10-26",
+    "hora": "14:00"
+   }
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Realização da prova escrita, incluído o tempo para consulta bibliográfica (1 hora - vide Normas Complementares)",
+   "data": "26/10/2026 (segunda), das 09:00 às 14:00",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      30,
+      15,
+      7,
+      2
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ufba-06-2026#ev-0299",
+  "estrato": "datada/prova",
+  "peso": 8.96875,
+  "concurso": "ufba-06-2026",
+  "nome": "UFBA 06/2026",
+  "evento_id": "ev-0299",
+  "tipo_evento": "prova",
+  "etapa": "escrita",
+  "fase": null,
+  "escopo": [
+   "27"
+  ],
+  "descricao": "Realização da prova escrita",
+  "forma": "janela",
+  "inicio": "2026-10-19",
+  "fim": "2026-10-19",
+  "hora": "09:00",
+  "documento": "documentos/ufba-06-2026/85 - Cronograma - Química Analítica - Eletroanalítica.pdf",
+  "item": "cronograma",
+  "pagina": 1,
+  "data_extraida": {
+   "forma": "janela",
+   "inicio": {
+    "data": "2026-10-19",
+    "hora": "09:00"
+   },
+   "fim": {
+    "data": "2026-10-19",
+    "hora": "13:00"
+   }
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Realização da prova escrita",
+   "data": "19/10/2026 (segunda), das 09:00 às 13:00",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      30,
+      15,
+      7,
+      2
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ufba-06-2026#ev-0231",
+  "estrato": "datada/prova",
+  "peso": 8.96875,
+  "concurso": "ufba-06-2026",
+  "nome": "UFBA 06/2026",
+  "evento_id": "ev-0231",
+  "tipo_evento": "prova",
+  "etapa": "didatica",
+  "fase": null,
+  "escopo": [
+   "20"
+  ],
+  "descricao": "Prova Didática dos candidatos, na ordem sorteada",
+  "forma": "janela",
+  "inicio": "2026-10-14",
+  "fim": "2026-10-15",
+  "hora": "10:00",
+  "documento": "documentos/ufba-06-2026/77 - Cronograma - Psiquiatria.pdf",
+  "item": "cronograma",
+  "pagina": 2,
+  "data_extraida": {
+   "forma": "janela",
+   "inicio": {
+    "data": "2026-10-14",
+    "hora": "10:00"
+   },
+   "fim": {
+    "data": "2026-10-15",
+    "hora": "11:00"
+   }
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Prova Didática dos candidatos, na ordem sorteada",
+   "data": "de 14/10/2026 (quarta), às 10:00 a 15/10/2026 (quinta), até 11:00",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      30,
+      15,
+      7,
+      2
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ufba-06-2026#ev-0393",
+  "estrato": "datada/prova",
+  "peso": 8.96875,
+  "concurso": "ufba-06-2026",
+  "nome": "UFBA 06/2026",
+  "evento_id": "ev-0393",
+  "tipo_evento": "prova",
+  "etapa": "escrita",
+  "fase": null,
+  "escopo": [
+   "26"
+  ],
+  "descricao": "Realização da prova escrita",
+  "forma": "janela",
+  "inicio": "2026-10-15",
+  "fim": "2026-10-15",
+  "hora": "10:15",
+  "documento": "documentos/ufba-06-2026/cronograma_retificado_do_concurso_edital_062026_0.pdf",
+  "item": "cronograma",
+  "pagina": 1,
+  "data_extraida": {
+   "forma": "janela",
+   "inicio": {
+    "data": "2026-10-15",
+    "hora": "10:15"
+   },
+   "fim": {
+    "data": "2026-10-15",
+    "hora": "15:15"
+   }
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Realização da prova escrita",
+   "data": "15/10/2026 (quinta), das 10:15 às 15:15",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      30,
+      15,
+      7,
+      2
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ufba-06-2026#ev-0253",
+  "estrato": "datada/prova",
+  "peso": 8.96875,
+  "concurso": "ufba-06-2026",
+  "nome": "UFBA 06/2026",
+  "evento_id": "ev-0253",
+  "tipo_evento": "prova",
+  "etapa": "titulos",
+  "fase": null,
+  "escopo": [
+   "19"
+  ],
+  "descricao": "Prova de Títulos",
+  "forma": "fixa",
+  "inicio": "2026-10-31",
+  "fim": "2026-10-31",
+  "hora": "11:10",
+  "documento": "documentos/ufba-06-2026/79 - Cronograma - Cirurgia Torácica e Cardiovascular.pdf",
+  "item": "cronograma",
+  "pagina": 2,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-10-31",
+   "hora": "11:10"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Prova de Títulos",
+   "data": "31/10/2026 (sábado), às 11:10",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      30,
+      15,
+      7,
+      2
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ufba-06-2026#ev-0347",
+  "estrato": "datada/resultado_final",
+  "peso": 7.111111111111111,
+  "concurso": "ufba-06-2026",
+  "nome": "UFBA 06/2026",
+  "evento_id": "ev-0347",
+  "tipo_evento": "resultado_final",
+  "etapa": null,
+  "fase": "final",
+  "escopo": [
+   "37"
+  ],
+  "descricao": "Divulgação do resultado final do concurso na Sala da Congregação da Escola Politécnica da UFBA",
+  "forma": "fixa",
+  "inicio": "2026-10-30",
+  "fim": "2026-10-30",
+  "hora": "17:00",
+  "documento": "documentos/ufba-06-2026/62 - Cronograma - Geodésia e Topografia.pdf",
+  "item": "cronograma",
+  "pagina": 2,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-10-30",
+   "hora": "17:00"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Divulgação do resultado final do concurso na Sala da Congregação da Escola Politécnica da UFBA",
+   "data": "30/10/2026 (sexta), às 17:00",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      0
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ufba-06-2026#ev-0316",
+  "estrato": "datada/sorteio_ordem",
+  "peso": 5.571428571428571,
+  "concurso": "ufba-06-2026",
+  "nome": "UFBA 06/2026",
+  "evento_id": "ev-0316",
+  "tipo_evento": "sorteio_ordem",
+  "etapa": "memorial",
+  "fase": null,
+  "escopo": [
+   "13"
+  ],
+  "descricao": "Sorteio da Ordem de Apresentação do Memorial, conforme item 8.11 do edital 06/2026 e definição do horário para início das apresentações.",
+  "forma": "fixa",
+  "inicio": "2026-11-05",
+  "fim": "2026-11-05",
+  "hora": "08:00",
+  "documento": "documentos/ufba-06-2026/71 - Cronograma - Contabilidade Pública.pdf",
+  "item": "cronograma",
+  "pagina": 1,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-11-05",
+   "hora": "08:00"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Sorteio da Ordem de Apresentação do Memorial, conforme item 8.11 do edital 06/2026 e definição do horário para início das apresentações",
+   "data": "05/11/2026 (quinta), às 08:00",
+   "agendado": false,
+   "regra_antecedencia": null
+  }
+ },
+ {
+  "id": "ufba-06-2026#ev-0113",
+  "estrato": "datada/sorteio_ordem",
+  "peso": 5.571428571428571,
+  "concurso": "ufba-06-2026",
+  "nome": "UFBA 06/2026",
+  "evento_id": "ev-0113",
+  "tipo_evento": "sorteio_ordem",
+  "etapa": "didatica",
+  "fase": null,
+  "escopo": [
+   "02"
+  ],
+  "descricao": "Sorteio da ordem de apresentação da Prova Didática e Defesa de Memorial",
+  "forma": "fixa",
+  "inicio": "2026-10-19",
+  "fim": "2026-10-19",
+  "hora": "07:45",
+  "documento": "documentos/ufba-06-2026/57 - Cronograma - Enfermagem - Saúde da Mulher.pdf",
+  "item": "cronograma",
+  "pagina": 2,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-10-19",
+   "hora": "07:45"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Sorteio da ordem de apresentação da Prova Didática e Defesa de Memorial",
+   "data": "19/10/2026 (segunda), às 07:45",
+   "agendado": false,
+   "regra_antecedencia": null
+  }
+ },
+ {
+  "id": "ufba-06-2026#ev-0379",
+  "estrato": "datada/sorteio_ordem",
+  "peso": 5.571428571428571,
+  "concurso": "ufba-06-2026",
+  "nome": "UFBA 06/2026",
+  "evento_id": "ev-0379",
+  "tipo_evento": "sorteio_ordem",
+  "etapa": "didatica",
+  "fase": null,
+  "escopo": [
+   "11"
+  ],
+  "descricao": "Sorteio da ordem de realização das demais provas do concurso (presença obrigatória).",
+  "forma": "fixa",
+  "inicio": "2026-10-27",
+  "fim": "2026-10-27",
+  "hora": "08:20",
+  "documento": "documentos/ufba-06-2026/64 - Cronograma - Engenharia de Controle e Automação.pdf",
+  "item": "cronograma",
+  "pagina": 1,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-10-27",
+   "hora": "08:20"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Sorteio da ordem de realização das demais provas do concurso (presença obrigatória)",
+   "data": "27/10/2026 (terça), às 08:20",
+   "agendado": false,
+   "regra_antecedencia": null
+  }
+ },
+ {
+  "id": "ufba-06-2026#ev-0240",
+  "estrato": "datada/sorteio_ordem",
+  "peso": 5.571428571428571,
+  "concurso": "ufba-06-2026",
+  "nome": "UFBA 06/2026",
+  "evento_id": "ev-0240",
+  "tipo_evento": "sorteio_ordem",
+  "etapa": "didatica",
+  "fase": null,
+  "escopo": [
+   "18"
+  ],
+  "descricao": "Sorteio, pelos candidatos aprovados, da ordem de apresentação para a Prova Didática e Defesa do Memorial",
+  "forma": "fixa",
+  "inicio": "2026-10-30",
+  "fim": "2026-10-30",
+  "hora": "07:50",
+  "documento": "documentos/ufba-06-2026/78 - Cronograma - Clínica Cirúrgica I - Bases da Cirurgia.pdf",
+  "item": "cronograma",
+  "pagina": 2,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-10-30",
+   "hora": "07:50"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Sorteio, pelos candidatos aprovados, da ordem de apresentação para a Prova Didática e Defesa do Memorial",
+   "data": "30/10/2026 (sexta), às 07:50",
+   "agendado": false,
+   "regra_antecedencia": null
+  }
+ },
+ {
+  "id": "ufba-06-2026#ev-0056",
+  "estrato": "datada/sorteio_tema",
+  "peso": 7.785714285714286,
+  "concurso": "ufba-06-2026",
+  "nome": "UFBA 06/2026",
+  "evento_id": "ev-0056",
+  "tipo_evento": "sorteio_tema",
+  "etapa": "escrita",
+  "fase": null,
+  "escopo": [
+   "17"
+  ],
+  "descricao": "Sorteio do ponto da Prova Escrita pelo(a) Presidente da Banca",
+  "forma": "fixa",
+  "inicio": "2026-10-15",
+  "fim": "2026-10-15",
+  "hora": "09:20",
+  "documento": "documentos/ufba-06-2026/75 - Cronograma - Sociologia das Desigualdades Sociais.pdf",
+  "item": "cronograma",
+  "pagina": 1,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-10-15",
+   "hora": "09:20"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Sorteio do ponto da Prova Escrita pelo(a) Presidente da Banca",
+   "data": "15/10/2026 (quinta), às 09:20",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      7,
+      1
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ufba-06-2026#ev-0374",
+  "estrato": "datada/sorteio_tema",
+  "peso": 7.785714285714286,
+  "concurso": "ufba-06-2026",
+  "nome": "UFBA 06/2026",
+  "evento_id": "ev-0374",
+  "tipo_evento": "sorteio_tema",
+  "etapa": "escrita",
+  "fase": null,
+  "escopo": [
+   "11"
+  ],
+  "descricao": "Sorteio do pontos da prova escrita pelo(a) Presidente da Banca Examinadora.",
+  "forma": "fixa",
+  "inicio": "2026-10-26",
+  "fim": "2026-10-26",
+  "hora": "08:50",
+  "documento": "documentos/ufba-06-2026/64 - Cronograma - Engenharia de Controle e Automação.pdf",
+  "item": "cronograma",
+  "pagina": 1,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-10-26",
+   "hora": "08:50"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Sorteio do pontos da prova escrita pelo(a) Presidente da Banca Examinadora",
+   "data": "26/10/2026 (segunda), às 08:50",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      7,
+      1
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ufba-06-2026#ev-0355",
+  "estrato": "datada/sorteio_tema",
+  "peso": 7.785714285714286,
+  "concurso": "ufba-06-2026",
+  "nome": "UFBA 06/2026",
+  "evento_id": "ev-0355",
+  "tipo_evento": "sorteio_tema",
+  "etapa": "didatica",
+  "fase": null,
+  "escopo": [
+   "08"
+  ],
+  "descricao": "sorteio do ponto para prova didática, do 1º ao 14º candidato, cada um em seu horário",
+  "forma": "janela",
+  "inicio": "2026-10-14",
+  "fim": "2026-10-15",
+  "hora": "12:00",
+  "documento": "documentos/ufba-06-2026/63 - Cronograma - Transporte - Infraestrutura de Transporte.pdf",
+  "item": "cronograma",
+  "pagina": 1,
+  "data_extraida": {
+   "forma": "janela",
+   "inicio": {
+    "data": "2026-10-14",
+    "hora": "12:00"
+   },
+   "fim": {
+    "data": "2026-10-15",
+    "hora": "15:00"
+   }
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Sorteio do ponto para prova didática, do 1º ao 14º candidato, cada um em seu horário",
+   "data": "de 14/10/2026 (quarta), às 12:00 a 15/10/2026 (quinta), até 15:00",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      7,
+      1
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ufba-06-2026#ev-0315",
+  "estrato": "datada/sorteio_tema",
+  "peso": 7.785714285714286,
+  "concurso": "ufba-06-2026",
+  "nome": "UFBA 06/2026",
+  "evento_id": "ev-0315",
+  "tipo_evento": "sorteio_tema",
+  "etapa": "didatica",
+  "fase": null,
+  "escopo": [
+   "13"
+  ],
+  "descricao": "Sorteio da Ordem de Apresentação e Pontos da Prova Didática",
+  "forma": "fixa",
+  "inicio": "2026-11-04",
+  "fim": "2026-11-04",
+  "hora": "08:00",
+  "documento": "documentos/ufba-06-2026/71 - Cronograma - Contabilidade Pública.pdf",
+  "item": "cronograma",
+  "pagina": 1,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-11-04",
+   "hora": "08:00"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Sorteio da Ordem de Apresentação e Pontos da Prova Didática",
+   "data": "04/11/2026 (quarta), às 08:00",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      7,
+      1
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ufba-06-2026#ev-0018",
+  "estrato": "nao_datada/impugnacao_banca",
+  "peso": 31.666666666666668,
+  "concurso": "ufba-06-2026",
+  "nome": "UFBA 06/2026",
+  "evento_id": "ev-0018",
+  "tipo_evento": "impugnacao_banca",
+  "etapa": null,
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "recurso à composição da Banca Examinadora, no prazo de 10 (dez) dias a partir da publicação da composição da Banca",
+  "forma": "relativa",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/ufba-06-2026/51 - Edital 06-2026 - publicação no DOU.pdf",
+  "item": "12.1, b",
+  "pagina": 5,
+  "data_extraida": {
+   "forma": "relativa",
+   "quantidade": 10,
+   "unidade": "dias_corridos",
+   "evento_ancora": "publicação da composição da Banca Examinadora (portaria_banca)",
+   "sentido": "apos"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Recurso à composição da Banca Examinadora, no prazo de 10 (dez) dias a partir da publicação da composição da Banca",
+   "data": "10 dias depois de publicação da composição da Banca Examinadora",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "fim",
+     [
+      1
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ufba-06-2026#ev-0186",
+  "estrato": "nao_datada/impugnacao_banca",
+  "peso": 31.666666666666668,
+  "concurso": "ufba-06-2026",
+  "nome": "UFBA 06/2026",
+  "evento_id": "ev-0186",
+  "tipo_evento": "impugnacao_banca",
+  "etapa": null,
+  "fase": null,
+  "escopo": [
+   "14"
+  ],
+  "descricao": "recurso à composição da Banca Examinadora, no prazo de 10 (dez) dias a partir da publicação da composição da Banca",
+  "forma": "relativa",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/ufba-06-2026/51 - Edital 06-2026 - publicação no DOU.pdf",
+  "item": "12.1, b",
+  "pagina": 5,
+  "data_extraida": {
+   "forma": "relativa",
+   "quantidade": 10,
+   "unidade": "dias_corridos",
+   "evento_ancora": "publicação da composição da Banca Examinadora (portaria_banca)",
+   "sentido": "apos"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Recurso à composição da Banca Examinadora, no prazo de 10 (dez) dias a partir da publicação da composição da Banca",
+   "data": "10 dias depois de publicação da composição da Banca Examinadora",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "fim",
+     [
+      1
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ufba-06-2026#ev-0130",
+  "estrato": "nao_datada/impugnacao_banca",
+  "peso": 31.666666666666668,
+  "concurso": "ufba-06-2026",
+  "nome": "UFBA 06/2026",
+  "evento_id": "ev-0130",
+  "tipo_evento": "impugnacao_banca",
+  "etapa": null,
+  "fase": null,
+  "escopo": [
+   "02"
+  ],
+  "descricao": "recurso à composição da Banca Examinadora, no prazo de 10 (dez) dias a partir da publicação da composição da Banca",
+  "forma": "relativa",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/ufba-06-2026/51 - Edital 06-2026 - publicação no DOU.pdf",
+  "item": "12.1, b",
+  "pagina": 5,
+  "data_extraida": {
+   "forma": "relativa",
+   "quantidade": 10,
+   "unidade": "dias_corridos",
+   "evento_ancora": "publicação da composição da Banca Examinadora (portaria_banca)",
+   "sentido": "apos"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Recurso à composição da Banca Examinadora, no prazo de 10 (dez) dias a partir da publicação da composição da Banca",
+   "data": "10 dias depois de publicação da composição da Banca Examinadora",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "fim",
+     [
+      1
+     ]
+    ]
+   ]
+  }
+ }
+]

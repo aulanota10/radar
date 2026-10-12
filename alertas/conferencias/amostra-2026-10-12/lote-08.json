@@ -1,0 +1,970 @@
+[
+ {
+  "id": "ufrj-942-2026#ev-0022",
+  "estrato": "datada/impugnacao_banca",
+  "peso": 2.0,
+  "concurso": "ufrj-942-2026",
+  "nome": "UFRJ 942/2026",
+  "evento_id": "ev-0022",
+  "tipo_evento": "impugnacao_banca",
+  "etapa": null,
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Requerimento de impugnação da Comissão Julgadora (Art. 30 da Resolução Consuni nº 15/2020)",
+  "forma": "fixa",
+  "inicio": "2026-11-21",
+  "fim": "2026-11-21",
+  "hora": null,
+  "documento": "documentos/ufrj-942-2026/01 - Edital de abertura 942-2026.pdf",
+  "item": "Anexo III, item 17",
+  "pagina": 9,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-11-21"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Requerimento de impugnação da Comissão Julgadora (Art. 30 da Resolução Consuni nº 15/2020)",
+   "data": "21/11/2026 (sábado)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "fim",
+     [
+      1
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ufrj-942-2026#ev-0023",
+  "estrato": "datada/impugnacao_banca_resultado",
+  "peso": 1.6666666666666667,
+  "concurso": "ufrj-942-2026",
+  "nome": "UFRJ 942/2026",
+  "evento_id": "ev-0023",
+  "tipo_evento": "impugnacao_banca_resultado",
+  "etapa": null,
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Divulgação da Comissão Julgadora após apreciação dos requerimentos de impugnação (§3º Art. 30 da Resolução Consuni nº 15/2020 e seus parágrafos)",
+  "forma": "fixa",
+  "inicio": "2026-11-30",
+  "fim": "2026-11-30",
+  "hora": null,
+  "documento": "documentos/ufrj-942-2026/01 - Edital de abertura 942-2026.pdf",
+  "item": "Anexo III, item 18",
+  "pagina": 9,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-11-30"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Divulgação da Comissão Julgadora após apreciação dos requerimentos de impugnação (§3º Art. 30 da Resolução Consuni nº 15/2020 e seus parágrafos)",
+   "data": "30/11/2026 (segunda)",
+   "agendado": false,
+   "regra_antecedencia": null
+  }
+ },
+ {
+  "id": "ufrj-942-2026#ev-0038",
+  "estrato": "datada/outro",
+  "peso": 8.176470588235293,
+  "concurso": "ufrj-942-2026",
+  "nome": "UFRJ 942/2026",
+  "evento_id": "ev-0038",
+  "tipo_evento": "outro",
+  "etapa": null,
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Envio, pela PR-4, à Unidade Acadêmica, do Resultado Final",
+  "forma": "fixa",
+  "inicio": "2027-03-26",
+  "fim": "2027-03-26",
+  "hora": null,
+  "documento": "documentos/ufrj-942-2026/01 - Edital de abertura 942-2026.pdf",
+  "item": "Anexo III, item 29",
+  "pagina": 10,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2027-03-26"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Envio, pela PR-4, à Unidade Acadêmica, do Resultado Final",
+   "data": "26/03/2027 (sexta)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      2
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ufrj-942-2026#ev-0019",
+  "estrato": "datada/recurso",
+  "peso": 8.2,
+  "concurso": "ufrj-942-2026",
+  "nome": "UFRJ 942/2026",
+  "evento_id": "ev-0019",
+  "tipo_evento": "recurso",
+  "etapa": null,
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Interposição de recurso contra a homologação das inscrições (§4º do Art. 18 da Resolução Consuni/UFRJ nº 15/2020)",
+  "forma": "fixa",
+  "inicio": "2026-10-31",
+  "fim": "2026-10-31",
+  "hora": null,
+  "documento": "documentos/ufrj-942-2026/01 - Edital de abertura 942-2026.pdf",
+  "item": "Anexo III, item 14",
+  "pagina": 9,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-10-31"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Interposição de recurso contra a homologação das inscrições (§4º do Art. 18 da Resolução Consuni/UFRJ nº 15/2020)",
+   "data": "31/10/2026 (sábado)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      0
+     ]
+    ],
+    [
+     "fim",
+     [
+      1
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ufrj-942-2026#ev-0009",
+  "estrato": "nao_datada/isencao_resultado",
+  "peso": 16.666666666666668,
+  "concurso": "ufrj-942-2026",
+  "nome": "UFRJ 942/2026",
+  "evento_id": "ev-0009",
+  "tipo_evento": "isencao_resultado",
+  "etapa": null,
+  "fase": "final",
+  "escopo": "geral",
+  "descricao": "Resultado da análise de eventuais recursos (isenção), divulgado através do sítio eletrônico a partir das 10 horas",
+  "forma": "condicionada",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/ufrj-942-2026/01 - Edital de abertura 942-2026.pdf",
+  "item": "4.2.5",
+  "pagina": 3,
+  "data_extraida": {
+   "forma": "condicionada",
+   "condicao_literal": "a partir das 10 horas, na data prevista para tal divulgação, constante do cronograma do concurso"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Resultado da análise de eventuais recursos (isenção), divulgado através do sítio eletrônico a partir das 10 horas",
+   "data": "a partir das 10 horas, na data prevista para tal divulgação, constante do cronograma do concurso",
+   "agendado": false,
+   "regra_antecedencia": null
+  }
+ },
+ {
+  "id": "ufrj-942-2026#ev-0052",
+  "estrato": "nao_datada/outro",
+  "peso": 20.25,
+  "concurso": "ufrj-942-2026",
+  "nome": "UFRJ 942/2026",
+  "evento_id": "ev-0052",
+  "tipo_evento": "outro",
+  "etapa": "pratica",
+  "fase": null,
+  "escopo": [
+   "RP-001"
+  ],
+  "descricao": "envio aos candidatos das duas obras corais contrastantes da prova prática (breve preparo vocal e ensaio, com a presença de um coro da Escola de Música da UFRJ)",
+  "forma": "relativa",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/ufrj-942-2026/07 - Conteúdo programático e sistematização da prova prática (vaga RP-001).pdf",
+  "item": "Sistematização da Prova Prática",
+  "pagina": 2,
+  "data_extraida": {
+   "forma": "relativa",
+   "quantidade": 30,
+   "unidade": "dias_corridos",
+   "evento_ancora": "data da prova prática (prova, pratica)",
+   "sentido": "antes"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Envio aos candidatos das duas obras corais contrastantes da prova prática (breve preparo vocal e ensaio, com a presença de um coro da Escola de Música da UFRJ)",
+   "data": "30 dias antes de data da prova prática",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      2
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ufrj-942-2026#ev-0047",
+  "estrato": "nao_datada/resultado",
+  "peso": 11.666666666666666,
+  "concurso": "ufrj-942-2026",
+  "nome": "UFRJ 942/2026",
+  "evento_id": "ev-0047",
+  "tipo_evento": "resultado",
+  "etapa": "escrita",
+  "fase": "preliminar",
+  "escopo": "geral",
+  "descricao": "divulgação, em sessão pública, das listas com os códigos de desidentificação dos aprovados (nota igual ou superior a 7) e dos eliminados na prova escrita (art. 39), na data do cronograma detalhado (art. 34, II)",
+  "forma": "condicionada",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/ufrj-942-2026/Resolucao_15_de_2020_alterada.pdf",
+  "item": "art. 34, II",
+  "pagina": 13,
+  "data_extraida": {
+   "forma": "condicionada",
+   "condicao_literal": "data da divulgação do resultado da Prova Escrita constante do cronograma detalhado (art. 34, II)"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Divulgação, em sessão pública, das listas com os códigos de desidentificação dos aprovados (nota igual ou superior a 7) e dos eliminados na prova escrita (art. 39)...",
+   "data": "data da divulgação do resultado da Prova Escrita constante do cronograma detalhado (art. 34, II)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      2,
+      0
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ifmt-03-2026#ev-0073",
+  "estrato": "datada/homologacao_resultado",
+  "peso": 2.6666666666666665,
+  "concurso": "ifmt-03-2026",
+  "nome": "IFMT 03/2026",
+  "evento_id": "ev-0073",
+  "tipo_evento": "homologacao_resultado",
+  "etapa": null,
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Publicação da Homologação do Concurso",
+  "forma": "fixa",
+  "inicio": "2026-12-29",
+  "fim": "2026-12-29",
+  "hora": null,
+  "documento": "documentos/ifmt-03-2026/01 - Pagina de arquivos do Edital 03, de 13 de julho de 2026 (edital consolidado e retificadores; nao foi possivel.pdf",
+  "item": "Anexo I",
+  "pagina": 5,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-12-29"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Publicação da Homologação do Concurso",
+   "data": "29/12/2026 (terça)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      0
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ifmt-03-2026#ev-0063",
+  "estrato": "datada/recurso",
+  "peso": 8.2,
+  "concurso": "ifmt-03-2026",
+  "nome": "IFMT 03/2026",
+  "evento_id": "ev-0063",
+  "tipo_evento": "recurso",
+  "etapa": "didatica",
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Recursos contra a pontuação obtida na Prova de Desempenho Didático.",
+  "forma": "janela",
+  "inicio": "2026-11-30",
+  "fim": "2026-12-01",
+  "hora": "23:59",
+  "documento": "documentos/ifmt-03-2026/01 - Pagina de arquivos do Edital 03, de 13 de julho de 2026 (edital consolidado e retificadores; nao foi possivel.pdf",
+  "item": "Anexo I",
+  "pagina": 4,
+  "data_extraida": {
+   "forma": "janela",
+   "inicio": {
+    "data": "2026-11-30"
+   },
+   "fim": {
+    "data": "2026-12-01",
+    "hora": "23:59"
+   }
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Recursos contra a pontuação obtida na Prova de Desempenho Didático",
+   "data": "de 30/11/2026 (segunda) a 01/12/2026 (terça), até 23:59",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      0
+     ]
+    ],
+    [
+     "fim",
+     [
+      1
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ifmt-03-2026#ev-0064",
+  "estrato": "datada/recurso_resultado",
+  "peso": 4.833333333333333,
+  "concurso": "ifmt-03-2026",
+  "nome": "IFMT 03/2026",
+  "evento_id": "ev-0064",
+  "tipo_evento": "recurso_resultado",
+  "etapa": "didatica",
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Resultado da análise dos recursos contra a pontuação obtida na Prova de Desempenho Didático.",
+  "forma": "fixa",
+  "inicio": "2026-12-11",
+  "fim": "2026-12-11",
+  "hora": null,
+  "documento": "documentos/ifmt-03-2026/01 - Pagina de arquivos do Edital 03, de 13 de julho de 2026 (edital consolidado e retificadores; nao foi possivel.pdf",
+  "item": "Anexo I",
+  "pagina": 4,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-12-11"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Resultado da análise dos recursos contra a pontuação obtida na Prova de Desempenho Didático",
+   "data": "11/12/2026 (sexta)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      0
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ifmt-03-2026#ev-0065",
+  "estrato": "datada/resultado",
+  "peso": 8.590909090909092,
+  "concurso": "ifmt-03-2026",
+  "nome": "IFMT 03/2026",
+  "evento_id": "ev-0065",
+  "tipo_evento": "resultado",
+  "etapa": "didatica",
+  "fase": "final",
+  "escopo": "geral",
+  "descricao": "Divulgação da pontuação de cada candidato na Prova de Desempenho Didático após análise dos recursos.",
+  "forma": "fixa",
+  "inicio": "2026-12-11",
+  "fim": "2026-12-11",
+  "hora": null,
+  "documento": "documentos/ifmt-03-2026/01 - Pagina de arquivos do Edital 03, de 13 de julho de 2026 (edital consolidado e retificadores; nao foi possivel.pdf",
+  "item": "Anexo I",
+  "pagina": 5,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-12-11"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Divulgação da pontuação de cada candidato na Prova de Desempenho Didático após análise dos recursos",
+   "data": "11/12/2026 (sexta)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      2,
+      0
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "uerj-232-2026#ev-0022",
+  "estrato": "datada/entrega_documento",
+  "peso": 7.3,
+  "concurso": "uerj-232-2026",
+  "nome": "UERJ Seleção 2026/232",
+  "evento_id": "ev-0022",
+  "tipo_evento": "entrega_documento",
+  "etapa": "titulos",
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Entrega de Títulos e Trabalhos - 06/11/2026, imediatamente após o resultado da Prova de Aula.",
+  "forma": "fixa",
+  "inicio": "2026-11-06",
+  "fim": "2026-11-06",
+  "hora": null,
+  "documento": "documentos/uerj-2026/09 - Seleção 2026-232 - Edital.pdf",
+  "item": "11.1, q",
+  "pagina": 10,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-11-06"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Entrega de Títulos e Trabalhos - 06/11/2026, imediatamente após o resultado da Prova de Aula",
+   "data": "06/11/2026 (sexta)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "fim",
+     [
+      15,
+      7,
+      3
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "uerj-232-2026#ev-0020",
+  "estrato": "datada/prova",
+  "peso": 8.96875,
+  "concurso": "uerj-232-2026",
+  "nome": "UERJ Seleção 2026/232",
+  "evento_id": "ev-0020",
+  "tipo_evento": "prova",
+  "etapa": "didatica",
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Prova de aula - 06/11/2026, às 9h.",
+  "forma": "fixa",
+  "inicio": "2026-11-06",
+  "fim": "2026-11-06",
+  "hora": "09:00",
+  "documento": "documentos/uerj-2026/09 - Seleção 2026-232 - Edital.pdf",
+  "item": "11.1, o",
+  "pagina": 10,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-11-06",
+   "hora": "09:00"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Prova de aula - 06/11/2026, às 9h",
+   "data": "06/11/2026 (sexta), às 09:00",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      30,
+      15,
+      7,
+      2
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "uerj-232-2026#ev-0016",
+  "estrato": "nao_datada/resultado",
+  "peso": 11.666666666666666,
+  "concurso": "uerj-232-2026",
+  "nome": "UERJ Seleção 2026/232",
+  "evento_id": "ev-0016",
+  "tipo_evento": "resultado",
+  "etapa": "escrita",
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Resultado da prova escrita - em até 1 (um) dia útil após o término da leitura da prova escrita",
+  "forma": "relativa",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/uerj-2026/09 - Seleção 2026-232 - Edital.pdf",
+  "item": "11.1, l",
+  "pagina": 10,
+  "data_extraida": {
+   "forma": "relativa",
+   "quantidade": 1,
+   "unidade": "dias_uteis",
+   "evento_ancora": "término da leitura da prova escrita (outro, escrita)",
+   "sentido": "apos"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Resultado da prova escrita - em até 1 (um) dia útil após o término da leitura da prova escrita",
+   "data": "1 dias úteis depois de término da leitura da prova escrita",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      2,
+      0
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "uerj-250-2026#ev-0012",
+  "estrato": "datada/outro",
+  "peso": 8.176470588235293,
+  "concurso": "uerj-250-2026",
+  "nome": "UERJ Seleção 2026/250",
+  "evento_id": "ev-0012",
+  "tipo_evento": "outro",
+  "etapa": "escrita",
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Leitura da prova escrita",
+  "forma": "fixa",
+  "inicio": "2026-11-30",
+  "fim": "2026-11-30",
+  "hora": "15:00",
+  "documento": "documentos/uerj-2026/19 - Seleção 2026-250 - Edital.pdf",
+  "item": "11.1, k",
+  "pagina": 10,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-11-30",
+   "hora": "15:00"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Leitura da prova escrita",
+   "data": "30/11/2026 (segunda), às 15:00",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      2
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "uerj-250-2026#ev-0011",
+  "estrato": "datada/prova",
+  "peso": 8.96875,
+  "concurso": "uerj-250-2026",
+  "nome": "UERJ Seleção 2026/250",
+  "evento_id": "ev-0011",
+  "tipo_evento": "prova",
+  "etapa": "escrita",
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Prova escrita",
+  "forma": "janela",
+  "inicio": "2026-11-30",
+  "fim": "2026-11-30",
+  "hora": "10:00",
+  "documento": "documentos/uerj-2026/19 - Seleção 2026-250 - Edital.pdf",
+  "item": "11.1, j",
+  "pagina": 10,
+  "data_extraida": {
+   "forma": "janela",
+   "inicio": {
+    "data": "2026-11-30",
+    "hora": "10:00"
+   },
+   "fim": {
+    "data": "2026-11-30",
+    "hora": "14:00"
+   }
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Prova escrita",
+   "data": "30/11/2026 (segunda), das 10:00 às 14:00",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      30,
+      15,
+      7,
+      2
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "uerj-250-2026#ev-0022",
+  "estrato": "nao_datada/impugnacao_banca_resultado",
+  "peso": 22.0,
+  "concurso": "uerj-250-2026",
+  "nome": "UERJ Seleção 2026/250",
+  "evento_id": "ev-0022",
+  "tipo_evento": "impugnacao_banca_resultado",
+  "etapa": null,
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Parecer do Conselho Departamental sobre a impugnação, no prazo máximo de 07 (sete) dias a partir da data da impugnação",
+  "forma": "relativa",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/uerj-2026/19 - Seleção 2026-250 - Edital.pdf",
+  "item": "8.7",
+  "pagina": 6,
+  "data_extraida": {
+   "forma": "relativa",
+   "quantidade": 7,
+   "unidade": "nao_informada",
+   "evento_ancora": "data da impugnação (impugnacao_banca)",
+   "sentido": "apos"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Parecer do Conselho Departamental sobre a impugnação, no prazo máximo de 07 (sete) dias a partir da data da impugnação",
+   "data": "7 depois de data da impugnação",
+   "agendado": false,
+   "regra_antecedencia": null
+  }
+ },
+ {
+  "id": "ufrn-058-2026#ev-0029",
+  "estrato": "datada/procedimento_cotas",
+  "peso": 7.2727272727272725,
+  "concurso": "ufrn-058-2026",
+  "nome": "UFRN 058/2026-PROGESP",
+  "evento_id": "ev-0029",
+  "tipo_evento": "procedimento_cotas",
+  "etapa": null,
+  "fase": "resultado",
+  "escopo": "geral",
+  "descricao": "Resultado das entrevistas com a comissão de heteroidentificação, verificação documental e da avaliação biopsicossocial",
+  "forma": "fixa",
+  "inicio": "2026-10-13",
+  "fim": "2026-10-13",
+  "hora": null,
+  "documento": "documentos/ufrn-058-2026/01 - Edital de abertura 058-2026 (DOU 80 de 30-04-2026, retificado em 10-08-2026).pdf",
+  "item": "Anexo II",
+  "pagina": 36,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-10-13"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Resultado das entrevistas com a comissão de heteroidentificação, verificação documental e da avaliação biopsicossocial",
+   "data": "13/10/2026 (terça)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      2,
+      0
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ufrn-058-2026#ev-0033",
+  "estrato": "nao_datada/recurso",
+  "peso": 39.214285714285715,
+  "concurso": "ufrn-058-2026",
+  "nome": "UFRN 058/2026-PROGESP",
+  "evento_id": "ev-0033",
+  "tipo_evento": "recurso",
+  "etapa": null,
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Pedido de reconsideração do resultado final do concurso homologado pelo Conselho de Centro ou Unidade Acadêmica Especializada",
+  "forma": "condicionada",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/ufrn-058-2026/01 - Edital de abertura 058-2026 (DOU 80 de 30-04-2026, retificado em 10-08-2026).pdf",
+  "item": "19.3",
+  "pagina": 25,
+  "data_extraida": {
+   "forma": "condicionada",
+   "condicao_literal": "no prazo de 10 (dez) dias, a contar da data de publicação do resultado final no Diário Oficial da União"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Pedido de reconsideração do resultado final do concurso homologado pelo Conselho de Centro ou Unidade Acadêmica Especializada",
+   "data": "no prazo de 10 (dez) dias, a contar da data de publicação do resultado final no Diário Oficial da União",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      0
+     ]
+    ],
+    [
+     "fim",
+     [
+      1
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "usp-fm-152-2026#ev-0011",
+  "estrato": "nao_datada/portaria_banca",
+  "peso": 20.5,
+  "concurso": "usp-fm-152-2026",
+  "nome": "FMUSP DVACAD/FM/152/2026",
+  "evento_id": "ev-0011",
+  "tipo_evento": "portaria_banca",
+  "etapa": null,
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "decisão da Congregação que constituir a Comissão Julgadora, publicada no Diário Oficial do Estado",
+  "forma": "condicionada",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/usp-fm-199-2026/Edital DVACAD-FM-152-2026.pdf",
+  "item": "15, I",
+  "pagina": 7,
+  "data_extraida": {
+   "forma": "condicionada",
+   "condicao_literal": "decisão da Congregação que constituir a Comissão Julgadora"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Decisão da Congregação que constituir a Comissão Julgadora, publicada no Diário Oficial do Estado",
+   "data": "decisão da Congregação que constituir a Comissão Julgadora",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      2,
+      0
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "usp-fm-152-2026#ev-0015",
+  "estrato": "nao_datada/prova",
+  "peso": 27.0,
+  "concurso": "usp-fm-152-2026",
+  "nome": "FMUSP DVACAD/FM/152/2026",
+  "evento_id": "ev-0015",
+  "tipo_evento": "prova",
+  "etapa": "memorial",
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "julgamento do memorial com prova pública de arguição; o concurso deverá realizar-se no prazo de 30 a 120 dias a contar da publicação da aprovação das inscrições",
+  "forma": "condicionada",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/usp-fm-199-2026/Edital DVACAD-FM-152-2026.pdf",
+  "item": "3, § 2º",
+  "pagina": 5,
+  "data_extraida": {
+   "forma": "condicionada",
+   "condicao_literal": "O concurso deverá realizar-se no prazo de trinta a cento e vinte dias, a contar da data da publicação no Diário Oficial do Estado da aprovação das inscrições"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Julgamento do memorial com prova pública de arguição; o concurso deverá realizar-se no prazo de 30 a 120 dias a contar da publicação da aprovação das inscrições",
+   "data": "O concurso deverá realizar-se no prazo de trinta a cento e vinte dias, a contar da data da publicação no Diário Oficial do Estado da aprovação das inscrições",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      30,
+      15,
+      7,
+      2
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ufmg-2249-2026#ev-0006",
+  "estrato": "nao_datada/atendimento_especial_resultado",
+  "peso": 5.0,
+  "concurso": "ufmg-2249-2026",
+  "nome": "UFMG 2249/2026",
+  "evento_id": "ev-0006",
+  "tipo_evento": "atendimento_especial_resultado",
+  "etapa": null,
+  "fase": "final",
+  "escopo": "geral",
+  "descricao": "Resultado dos pedidos de condições especiais para realização das provas, publicado no site do Quadro 1",
+  "forma": "relativa",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/ufmg-2249-2026/DOU06.102249Matematicacompleto.pdf",
+  "item": "6.13.1",
+  "pagina": 4,
+  "data_extraida": {
+   "forma": "relativa",
+   "quantidade": 15,
+   "unidade": "dias_corridos",
+   "evento_ancora": "divulgação das inscrições (homologacao_inscricoes)",
+   "sentido": "apos"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Resultado dos pedidos de condições especiais para realização das provas, publicado no site do Quadro 1",
+   "data": "15 dias depois de divulgação das inscrições",
+   "agendado": false,
+   "regra_antecedencia": null
+  }
+ },
+ {
+  "id": "unimontes-05-2026#ev-0002",
+  "estrato": "nao_datada/impugnacao_edital",
+  "peso": 21.75,
+  "concurso": "unimontes-05-2026",
+  "nome": "UNIMONTES 05/2026",
+  "evento_id": "ev-0002",
+  "tipo_evento": "impugnacao_edital",
+  "etapa": null,
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "impugnação parcial ou total deste Edital, no prazo de 5 (cinco) dias úteis, contado do primeiro dia útil subsequente à data de sua publicação",
+  "forma": "relativa",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/unimontes-2026/09 - Edital 05-2026 - Geociências.pdf",
+  "item": "1.20.1",
+  "pagina": 2,
+  "data_extraida": {
+   "forma": "relativa",
+   "quantidade": 5,
+   "unidade": "dias_uteis",
+   "evento_ancora": "publicação do Edital (publicacao_edital), contado do primeiro dia útil subsequente",
+   "sentido": "apos"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Impugnação parcial ou total deste Edital, no prazo de 5 (cinco) dias úteis, contado do primeiro dia útil subsequente à data de sua publicação",
+   "data": "5 dias úteis depois de publicação do Edital, contado do primeiro dia útil subsequente",
+   "agendado": false,
+   "regra_antecedencia": null
+  }
+ },
+ {
+  "id": "ufrgs-08-2026#ev-0039",
+  "estrato": "nao_datada/recurso",
+  "peso": 39.214285714285715,
+  "concurso": "ufrgs-08-2026",
+  "nome": "UFRGS 08/2026",
+  "evento_id": "ev-0039",
+  "tipo_evento": "recurso",
+  "etapa": null,
+  "fase": null,
+  "escopo": [
+   "13"
+  ],
+  "descricao": "Recurso contra o resultado das inscrições (Edital HI)",
+  "forma": "relativa",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/ufrgs-08-2026/Edital-HI-27-Medicina-Veterinaria-Subarea-Clinica-de-suinos-exceto-producao-e-reproducao-de-suinos-Edital-08-2026.pdf",
+  "item": "recurso",
+  "pagina": 1,
+  "data_extraida": {
+   "forma": "relativa",
+   "quantidade": 5,
+   "unidade": "dias_uteis",
+   "evento_ancora": "divulgação do Edital HI (homologacao_inscricoes)",
+   "sentido": "apos"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Recurso contra o resultado das inscrições",
+   "data": "5 dias úteis depois de divulgação do Edital HI",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      0
+     ]
+    ],
+    [
+     "fim",
+     [
+      1
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "uema-134-2026#ev-0018",
+  "estrato": "nao_datada/sorteio_tema",
+  "peso": 17.75,
+  "concurso": "uema-134-2026",
+  "nome": "UEMA 134/2026-GR/UEMA",
+  "evento_id": "ev-0018",
+  "tipo_evento": "sorteio_tema",
+  "etapa": "didatica",
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "a banca examinadora sorteará o tema para a prova didática",
+  "forma": "condicionada",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/uema-2026/05 - Edital 134-2026-GR - CECEN (Educação Especial Inclusiva).pdf",
+  "item": "1.3.4",
+  "pagina": 2,
+  "data_extraida": {
+   "forma": "condicionada",
+   "condicao_literal": "Após a leitura pública da prova escrita"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "A banca examinadora sorteará o tema para a prova didática",
+   "data": "Após a leitura pública da prova escrita",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      7,
+      1
+     ]
+    ]
+   ]
+  }
+ }
+]

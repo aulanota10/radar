@@ -1,0 +1,252 @@
+[
+ {
+  "id": "ufrj-942-2026#ev-0022",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "texto_do_leitor",
+  "atribuicao": "ambos",
+  "extracao_diz": "fixa 21/11/2026; alerta '21/11/2026 (sábado)', aviso 1 dia antes",
+  "documento_diz": "Anexo III item 17: 'Requerimento de impugnação da Comissão Julgadora (Art. 30 ...) | Até 21/11/2026'",
+  "fonte_conferida": "documentos/ufrj-942-2026/01 - Edital de abertura 942-2026.pdf, p. 9 (Anexo III - Cronograma Previsto, item 17); conferido também 04 - Anexo III - Cronograma.pdf (idêntico) e Resolucao_15_de_2020_alterada, art. 30",
+  "observacao": "A data bate e nenhum documento posterior a altera. O cronograma diz 'Até 21/11', mas a extração grava uma data fixa e o alerta mostra só a data, sem dizer que é o último dia de um prazo que começa na divulgação da banca (10/11). Pelo art. 30 da Res. 15/2020, o prazo real é de 10 dias a contar da publicação da banca no BUFRJ. Se essa publicação atrasar, o prazo muda."
+ },
+ {
+  "id": "ufrj-942-2026#ev-0023",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "fixa 30/11/2026, não agendado",
+  "documento_diz": "Anexo III item 18: 'Divulgação da Comissão Julgadora após apreciação dos requerimentos de impugnação ... | Até 30/11/2026'",
+  "fonte_conferida": "documentos/ufrj-942-2026/01 - Edital de abertura 942-2026.pdf, p. 9 (Anexo III, item 18)",
+  "observacao": "A data é um limite ('Até'), não um dia certo, e a divulgação pode sair antes. Como o evento não gera aviso agendado e não exige ação do candidato, isso não induz erro."
+ },
+ {
+  "id": "ufrj-942-2026#ev-0038",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "texto_do_leitor",
+  "atribuicao": "ambos",
+  "extracao_diz": "fixa 26/03/2027, tipo outro, aviso agendado 2 dias antes",
+  "documento_diz": "Anexo III item 29: 'Envio, pela PR-4, à Unidade Acadêmica, do Resultado Final | Até 26/03/2027'",
+  "fonte_conferida": "documentos/ufrj-942-2026/01 - Edital de abertura 942-2026.pdf, p. 10 (Anexo III, item 29)",
+  "observacao": "A data bate. É um trâmite interno (a PR-4 envia o resultado à Unidade), com data-limite 'Até'. O candidato não vê esse envio nem precisa fazer nada. Mesmo assim, o tipo 'outro' gera aviso agendado com uma data seca, que pode ser lida como o dia do resultado. O resultado final é o item 30 (até 16/04/2027)."
+ },
+ {
+  "id": "ufrj-942-2026#ev-0019",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "texto_do_leitor",
+  "atribuicao": "ambos",
+  "extracao_diz": "fixa 31/10/2026; alerta '31/10/2026 (sábado)', avisos no dia (ini 0) e 1 dia antes",
+  "documento_diz": "Anexo III item 14: 'Interposição de recurso contra a homologação das inscrições - (§4º do Art. 18 ...) | Até 31/10/2026'",
+  "fonte_conferida": "documentos/ufrj-942-2026/01 - Edital de abertura 942-2026.pdf, p. 9 (Anexo III, item 14); Resolucao_15_de_2020_alterada.docling.md, art. 18 §4º",
+  "observacao": "A data bate com o cronograma e não foi alterada. Mas 'Até 31/10' virou data fixa, e o aviso 'ini 0' cai no último dia, como se o prazo abrisse nesse dia. O art. 18 §4º da Res. 15/2020 fixa 10 dias a contar da divulgação do indeferimento. A homologação sai 'Até 20/10'. Se sair antes, o prazo da resolução termina antes de 31/10, e o edital e a resolução podem divergir."
+ },
+ {
+  "id": "ufrj-942-2026#ev-0009",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "condicionada: 'a partir das 10 horas, na data prevista ... constante do cronograma'",
+  "documento_diz": "4.2.5: 'O resultado da análise de eventuais recursos apresentados será divulgado ... a partir das 10 horas ... na data prevista para tal divulgação, constante do cronograma do concurso.'",
+  "fonte_conferida": "documentos/ufrj-942-2026/01 - Edital de abertura 942-2026.pdf, p. 3 (item 4.2.5) e Anexo III (que não tem item próprio para o resultado do recurso de isenção)",
+  "observacao": "O texto é literal e o tipo está certo. A fase de isenção já passou (setembro de 2026)."
+ },
+ {
+  "id": "ufrj-942-2026#ev-0052",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "relativa: 30 dias corridos antes da prova prática; escopo RP-001",
+  "documento_diz": "'ensaio de duas obras corais contrastantes, as quais serão enviadas aos candidatos com 30 dias de antecedência à data da prova.'",
+  "fonte_conferida": "documentos/ufrj-942-2026/07 - Conteúdo programático e sistematização da prova prática (vaga RP-001).pdf, p. 2 (Sistematização da Prova Prática)",
+  "observacao": "A âncora, a quantidade e o sentido batem. RP-001 é a única vaga. A prova prática ainda só tem a janela do edital (28/12/2026 a 26/02/2027)."
+ },
+ {
+  "id": "ufrj-942-2026#ev-0047",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "condicionada: data do resultado da Prova Escrita no cronograma detalhado (art. 34, II); fase preliminar",
+  "documento_diz": "Res. 15/2020, art. 34, II: 'A data da divulgação do resultado da Prova Escrita'; art. 39: sessão pública com listas de códigos de aprovados (nota >= 7) e eliminados",
+  "fonte_conferida": "documentos/ufrj-942-2026/Resolucao_15_de_2020_alterada.pdf (docling: arts. 34, 39 e 40); edital Anexo III, item 20",
+  "observacao": "O resultado é preliminar mesmo, porque cabe recurso em 24 h (art. 40). A sessão pública não exige presença do candidato. O cronograma detalhado ainda não foi publicado."
+ },
+ {
+  "id": "ifmt-03-2026#ev-0073",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "fixa 29/12/2026",
+  "documento_diz": "Anexo I: 'Publicação da Homologação do Concurso | 29/12/2026 | D.O.U (Alterado pelo Edital Retificador 03/2026)'",
+  "fonte_conferida": "documentos/ifmt-03-2026/01 - Pagina de arquivos do Edital 03 ... .pdf, p. 5 (Anexo I)",
+  "observacao": "Nenhum documento posterior muda essa data. O lote marca o evento como agendado, mas agenda.py (l. 506) descarta o aviso de homologacao_resultado quando há resultado final datado, como aqui (23/12, a partir das 17h)."
+ },
+ {
+  "id": "ifmt-03-2026#ev-0063",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "janela 30/11 a 01/12/2026, até 23:59",
+  "documento_diz": "Anexo I: 'Recursos contra a pontuação obtida na Prova de Desempenho Didático. | 30/11 e 01/12/2026 Até as 23h59'",
+  "fonte_conferida": "documentos/ifmt-03-2026/01 - Pagina de arquivos do Edital 03 ... .pdf, p. 4 (Anexo I); conferido também cronograma-da-prova-de-desempenho-didatico.pdf (PDD em 06 a 08/11, sem mudança no prazo)",
+  "observacao": null
+ },
+ {
+  "id": "ifmt-03-2026#ev-0064",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "fixa 11/12/2026",
+  "documento_diz": "Anexo I: 'Resultado da análise dos recursos contra a pontuação obtida na Prova de Desempenho Didático. | 11/12/2026'",
+  "fonte_conferida": "documentos/ifmt-03-2026/01 - Pagina de arquivos do Edital 03 ... .pdf, p. 4 (Anexo I)",
+  "observacao": null
+ },
+ {
+  "id": "ifmt-03-2026#ev-0065",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "fixa 11/12/2026, resultado didática fase final",
+  "documento_diz": "Anexo I: 'Divulgação da pontuação de cada candidato na Prova de Desempenho Didático após análise dos recursos. | 11/12/2026'",
+  "fonte_conferida": "documentos/ifmt-03-2026/01 - Pagina de arquivos do Edital 03 ... .pdf, p. 5 (Anexo I)",
+  "observacao": "É o resultado após recursos, então a fase 'final' está certa. O resultado preliminar é o ev-0062 (30/11)."
+ },
+ {
+  "id": "uerj-232-2026#ev-0022",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "fixa 06/11/2026, sem hora; o rótulo diz 'imediatamente após o resultado da Prova de Aula'",
+  "documento_diz": "11.1 q) 'Entrega de Títulos e Trabalhos – 06/11/2026, imediatamente após o resultado da Prova de Aula.' (resultado: p) 06/11/2026, às 15h)",
+  "fonte_conferida": "documentos/uerj-2026/09 - Seleção 2026-232 - Edital.pdf, p. 10 (11.1 q, 11.2); errata 27 - Seleção 2026-232 - Errata.pdf (só muda vencimento e taxa)",
+  "observacao": "O local da entrega é diferente do local das provas: Secretaria de Hematologia, 3º andar do HUPE (11.2). O alerta não diz isso, mas o rótulo dá o momento certo."
+ },
+ {
+  "id": "uerj-232-2026#ev-0020",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "horario_presenca_omitido",
+  "atribuicao": "extrator",
+  "extracao_diz": "fixa 06/11/2026 às 09:00",
+  "documento_diz": "11.1 o) 'Prova de aula – 06/11/2026, às 9h.'; 11.2 'O candidato deverá se apresentar 30 minutos antes de cada hora marcada no cronograma (item 11.1).'",
+  "fonte_conferida": "documentos/uerj-2026/09 - Seleção 2026-232 - Edital.pdf, p. 9-10 (11.1 m-o, 11.2, 11.4) e p. 8 (9.1.2 d)",
+  "observacao": "A data e a hora batem. O item 11.2 manda chegar às 8h30, e esse horário não está na agenda (o edital não diz que elimina). Com mais de um candidato, o dia e a hora de cada um saem com o resultado da escrita (11.1 m, Obs.; 9.1.2 d), então 9h pode não valer para todos."
+ },
+ {
+  "id": "uerj-232-2026#ev-0016",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "relativa: 1 dia útil após o término da leitura da prova escrita",
+  "documento_diz": "11.1 l) 'Resultado da prova escrita – em até 1 (um) dia útil após o término da leitura da prova escrita ...'",
+  "fonte_conferida": "documentos/uerj-2026/09 - Seleção 2026-232 - Edital.pdf, p. 10 (11.1 l); leitura em 11.1 k) 03/11/2026, às 14h",
+  "observacao": "A âncora, a quantidade, a unidade e o sentido batem. É um prazo máximo ('em até'), e o rótulo preserva isso. O campo de data diz '1 dias úteis depois de', sem o 'até' e com erro de concordância."
+ },
+ {
+  "id": "uerj-250-2026#ev-0012",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "horario_presenca_omitido",
+  "atribuicao": "extrator",
+  "extracao_diz": "fixa 30/11/2026 às 15:00",
+  "documento_diz": "11.1 k) 'Leitura da prova escrita - 30/11/2026, às 15h00.'; 9.1.1 i) cada candidato lê a própria prova; 11.2 'deverá se apresentar 30 minutos antes de cada hora marcada'",
+  "fonte_conferida": "documentos/uerj-2026/19 - Seleção 2026-250 - Edital.pdf, p. 10 (11.1 k, 11.2) e p. 7-8 (9.1.1 h-i)",
+  "observacao": "A data e a hora batem. A leitura é feita pelo próprio candidato, e o item 11.2 manda chegar às 14h30. Esse horário não está na agenda (o edital não diz que a falta elimina)."
+ },
+ {
+  "id": "uerj-250-2026#ev-0011",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "horario_presenca_omitido",
+  "atribuicao": "extrator",
+  "extracao_diz": "janela 30/11/2026 das 10:00 às 14:00",
+  "documento_diz": "11.1 i) 'Sorteio do ponto para a prova escrita - 30/11/2026, às 09h00.' j) 'Prova escrita - 30/11/2026, das 10h00 às 14h00.'; 9.1.1 d) intervalo de 60 min entre sorteio e prova, sem sair do recinto; 11.2 chegar 30 min antes",
+  "fonte_conferida": "documentos/uerj-2026/19 - Seleção 2026-250 - Edital.pdf, p. 10 (11.1 i-j, 11.2) e p. 7 (9.1.1 c-d)",
+  "observacao": "O horário da prova bate. Mas a sessão começa às 9h com o sorteio do ponto e a hora de consulta, e o item 11.2 manda chegar às 8h30. O sorteio está na agenda como evento próprio (ev-0010, 09:00), mas o aviso da prova diz 10h e as 8h30 não aparecem em lugar nenhum."
+ },
+ {
+  "id": "uerj-250-2026#ev-0022",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "texto_do_leitor",
+  "atribuicao": "leitor",
+  "extracao_diz": "relativa: 7, unidade nao_informada, após a data da impugnação; alerta '7 depois de data da impugnação'",
+  "documento_diz": "8.7: '... tendo o Conselho Departamental prazo máximo de 07 (sete) dias (Res. 03/91 - art.12 § 8 o .: \"... 5 dias úteis\") a partir da data da impugnação para divulgar seu parecer ...'",
+  "fonte_conferida": "documentos/uerj-2026/19 - Seleção 2026-250 - Edital.pdf, p. 6 (8.7)",
+  "observacao": "A extração está fiel ao texto: 7 dias, sem unidade. A frase do alerta saiu truncada ('7 depois de'), sem 'dias' e sem 'até'. O evento não é agendado. A nota do próprio edital cita 5 dias úteis da Res. 03/91."
+ },
+ {
+  "id": "ufrn-058-2026#ev-0029",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "periodo_provavel",
+  "atribuicao": "extrator",
+  "extracao_diz": "fixa 13/10/2026; alerta '13/10/2026 (terça)', avisos 2 dias antes e no dia",
+  "documento_diz": "Anexo II: 'Resultado das entrevistas com a comissão de heteroidentificação, verificação documental e da avaliação biopsicossocial | 13/10/2026 (previsão)'",
+  "fonte_conferida": "documentos/ufrn-058-2026/01 - Edital de abertura 058-2026 ... .pdf, p. 36 (Anexo II); Edital_Convocao_-_Heteroidentificao.pdf (cronograma resumido: 'Resultado das entrevistas presenciais (previsão): 13/10/2026'); RESULTADO_DA_AVALIAO.pdf; RETIFICAO_-_DOU_n_192_de_09-10-2026",
+  "observacao": "O edital e a convocação marcam a data como '(previsão)', e o alerta a dá como certa. O resultado da avaliação biopsicossocial já saiu em 06/10 (RESULTADO_DA_AVALIAO.pdf), então essa parte do rótulo está superada. A retificação de 09/10 estende as etapas até 23/10, mas não toca nessa data. O prazo de recurso da heteroidentificação é de 48 h após a divulgação."
+ },
+ {
+  "id": "ufrn-058-2026#ev-0033",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "condicionada: 'no prazo de 10 (dez) dias, a contar da data de publicação do resultado final no DOU'",
+  "documento_diz": "19.3: '... no prazo de 10 (dez) dias, a contar da data de publicação do resultado final no Diário Oficial da União.'",
+  "fonte_conferida": "documentos/ufrn-058-2026/01 - Edital de abertura 058-2026 ... .pdf, p. 25 (19.1 c, 19.3)",
+  "observacao": "O texto e o escopo estão certos. Poderia ser relativa (10 dias após a publicação no DOU), mas a forma condicionada não muda o sentido. O Anexo II prevê a homologação e a publicação no DOU 'A partir de 09/11/2026'."
+ },
+ {
+  "id": "usp-fm-152-2026#ev-0011",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "condicionada: 'decisão da Congregação que constituir a Comissão Julgadora'",
+  "documento_diz": "15, I: 'Caberá recurso, no prazo de 10 (dez) dias, contados da data da publicação do respectivo ato no Diário Oficial do Estado ...: I – decisão da Congregação que constituir a Comissão Julgadora'",
+  "fonte_conferida": "documentos/usp-fm-199-2026/Edital DVACAD-FM-152-2026.pdf, p. 7 (item 15); pasta usp-fm-152-168-2026 só tem a abertura",
+  "observacao": "Nenhum documento posterior desse concurso no vigia. O evento não tem data. A condição só repete o próprio ato, mas não induz erro."
+ },
+ {
+  "id": "usp-fm-152-2026#ev-0015",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "condicionada: 'O concurso deverá realizar-se no prazo de trinta a cento e vinte dias, a contar da ... aprovação das inscrições'",
+  "documento_diz": "3 § 2º: 'O concurso deverá realizar-se no prazo de trinta a cento e vinte dias, a contar da data da publicação no Diário Oficial do Estado da aprovação das inscrições'",
+  "fonte_conferida": "documentos/usp-fm-199-2026/Edital DVACAD-FM-152-2026.pdf, p. 5 (3 §2º; 4 §§1º-2º)",
+  "observacao": "O intervalo de 30 a 120 dias não virou data. A data real vem pela convocação, publicada no DOE com pelo menos 5 dias úteis (4 §1º; ev-0014 na agenda). Pelo item 4 §2º a), quem chegar após o início dos trabalhos é eliminado, mas não há horário de chegada anterior a cumprir."
+ },
+ {
+  "id": "ufmg-2249-2026#ev-0006",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "relativa: 15 dias corridos após a divulgação das inscrições; não agendado",
+  "documento_diz": "6.13.1: 'O resultado dos pedidos de condições especiais para realização das provas será divulgado oficialmente em até 15 dias após a divulgação das inscrições ...'",
+  "fonte_conferida": "documentos/ufmg-2249-2026/DOU06.102249Matematicacompleto.pdf, p. 4 (6.13.1); docling linha 299",
+  "observacao": "É um prazo máximo ('em até'), e o alerta diz '15 dias depois', sem o 'até'. O edital não diz se os dias são corridos; a extração assumiu corridos, o que é defensável (Lei 9.784). A âncora é a 'divulgação das inscrições', tipada como homologacao_inscricoes. Não exige ação do candidato e não é agendado. Na pasta, não há documento posterior do Edital 2249."
+ },
+ {
+  "id": "unimontes-05-2026#ev-0002",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "relativa: 5 dias úteis após a publicação do edital, contado do primeiro dia útil subsequente",
+  "documento_diz": "1.20.1: '... impugnação parcial ou total deste Edital, no prazo de 5 (cinco) dias úteis, contado do primeiro dia útil subsequente à data de sua publicação.'",
+  "fonte_conferida": "documentos/unimontes-2026/09 - Edital 05-2026 - Geociências.pdf (docling linha 58, item 1.20.1); conferida também a 10 - Retificação 1 (Geociências)",
+  "observacao": "O edital foi publicado no DOE-MG em 27/06/2026, então o prazo já venceu. O evento não é agendado. A retificação não mexe no item 1.20."
+ },
+ {
+  "id": "ufrgs-08-2026#ev-0039",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "relativa: 5 dias úteis após a divulgação do Edital HI; escopo 13",
+  "documento_diz": "'A contar da data de divulgação deste Edital caberá recurso, no prazo máximo de 05 (cinco) dias úteis, conforme artigo 4º, § 2º, da Resolução nº 93/2021 do CONSUN.'",
+  "fonte_conferida": "documentos/ufrgs-08-2026/Edital-HI-27-Medicina-Veterinaria-Subarea-Clinica-de-suinos-...-Edital-08-2026.pdf, p. 1",
+  "observacao": "O escopo 13 é Medicina Veterinária, Clínica de suínos (vaga 1.2.13), e está certo. O Edital HI 27 é de 01/07/2026, então a âncora já tinha data e o prazo já venceu."
+ },
+ {
+  "id": "uema-134-2026#ev-0018",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "horario_presenca_omitido",
+  "atribuicao": "extrator",
+  "extracao_diz": "condicionada: 'Após a leitura pública da prova escrita'",
+  "documento_diz": "1.3.4: 'Após a leitura pública, a banca examinadora sorteará o tema para a prova didática, designando dia, hora e local para sua realização ...'; 1.3.3: 'O candidato deverá estar presente no horário estabelecido pela banca examinadora para início da leitura dos trabalhos ... sob pena de ser automaticamente eliminado.'",
+  "fonte_conferida": "documentos/uema-2026/05 - Edital 134-2026-GR - CECEN (Educação Especial Inclusiva).pdf, p. 2 (1.3.1-1.3.4); 13 - Edital 241-2026-GR (retomada)",
+  "observacao": "A condição está certa. Mas o sorteio vem logo depois da leitura pública, que exige presença no início sob pena de eliminação (1.3.3), e a agenda do concurso não tem evento de leitura pública nem de prova escrita. O certame foi suspenso em 23/07 e retomado em 03/09, e o edital de retomada promete um novo cronograma, ainda não publicado."
+ }
+]

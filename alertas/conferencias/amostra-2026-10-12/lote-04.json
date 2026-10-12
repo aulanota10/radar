@@ -1,0 +1,938 @@
+[
+ {
+  "id": "ufrpe-21-2026#ev-0012",
+  "estrato": "datada/atendimento_especial_resultado",
+  "peso": 1.3333333333333333,
+  "concurso": "ufrpe-21-2026",
+  "nome": "UFRPE 21/2026",
+  "evento_id": "ev-0012",
+  "tipo_evento": "atendimento_especial_resultado",
+  "etapa": null,
+  "fase": "preliminar",
+  "escopo": "geral",
+  "descricao": "Divulgação Preliminar da Homologação das Inscrições, conforme item 12.8. do Edital e da solicitação de Atendimento Especializado (Início do período de 24 horas para recurso e retificação)",
+  "forma": "fixa",
+  "inicio": "2026-10-20",
+  "fim": "2026-10-20",
+  "hora": null,
+  "documento": "documentos/ufrpe-21-2026/63 - Edital 21-2026 - abertura (versão PDF do SIGRH).pdf",
+  "item": "Anexo I",
+  "pagina": 52,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-10-20"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Divulgação Preliminar da Homologação das Inscrições, conforme item 12.8. do Edital e da solicitação de Atendimento Especializado (Início do período de 24 horas para recurso e...",
+   "data": "20/10/2026 (terça)",
+   "agendado": false,
+   "regra_antecedencia": null
+  }
+ },
+ {
+  "id": "ufrpe-21-2026#ev-0025",
+  "estrato": "datada/impugnacao_banca_resultado",
+  "peso": 1.6666666666666667,
+  "concurso": "ufrpe-21-2026",
+  "nome": "UFRPE 21/2026",
+  "evento_id": "ev-0025",
+  "tipo_evento": "impugnacao_banca_resultado",
+  "etapa": null,
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Divulgação das Bancas Impugnadas, se houver (Banca Examinadora)",
+  "forma": "fixa",
+  "inicio": "2026-11-19",
+  "fim": "2026-11-19",
+  "hora": null,
+  "documento": "documentos/ufrpe-21-2026/63 - Edital 21-2026 - abertura (versão PDF do SIGRH).pdf",
+  "item": "Anexo I",
+  "pagina": 53,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-11-19"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Divulgação das Bancas Impugnadas, se houver (Banca Examinadora)",
+   "data": "19/11/2026 (quinta)",
+   "agendado": false,
+   "regra_antecedencia": null
+  }
+ },
+ {
+  "id": "ufrpe-21-2026#ev-0064",
+  "estrato": "datada/procedimento_cotas",
+  "peso": 7.2727272727272725,
+  "concurso": "ufrpe-21-2026",
+  "nome": "UFRPE 21/2026",
+  "evento_id": "ev-0064",
+  "tipo_evento": "procedimento_cotas",
+  "etapa": null,
+  "fase": "convocacao",
+  "escopo": "geral",
+  "descricao": "Convocação dos candidatos PPP aprovados para a Reunião de Heteroidentificação (Apenas para as vagas com candidatos PPP/PCD aprovados)",
+  "forma": "fixa",
+  "inicio": "2027-02-25",
+  "fim": "2027-02-25",
+  "hora": null,
+  "documento": "documentos/ufrpe-21-2026/63 - Edital 21-2026 - abertura (versão PDF do SIGRH).pdf",
+  "item": "Anexo I",
+  "pagina": 55,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2027-02-25"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Convocação dos candidatos PPP aprovados para a Reunião de Heteroidentificação (Apenas para as vagas com candidatos PPP/PCD aprovados)",
+   "data": "25/02/2027 (quinta)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      2,
+      0
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ufrpe-21-2026#ev-0050",
+  "estrato": "datada/prova",
+  "peso": 8.96875,
+  "concurso": "ufrpe-21-2026",
+  "nome": "UFRPE 21/2026",
+  "evento_id": "ev-0050",
+  "tipo_evento": "prova",
+  "etapa": "didatica",
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Início da realização da Prova Didática - Turno 4 (Entrega das 04 vias do Plano de Aula, conforme item 20.10. do Edital)",
+  "forma": "fixa",
+  "inicio": "2026-12-16",
+  "fim": "2026-12-16",
+  "hora": null,
+  "documento": "documentos/ufrpe-21-2026/63 - Edital 21-2026 - abertura (versão PDF do SIGRH).pdf",
+  "item": "Anexo I",
+  "pagina": 54,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-12-16"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Início da realização da Prova Didática - Turno 4 (Entrega das 04 vias do Plano de Aula, conforme item 20.10. do Edital)",
+   "data": "16/12/2026 (quarta)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      30,
+      15,
+      7,
+      2
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ufrpe-21-2026#ev-0030",
+  "estrato": "datada/recurso",
+  "peso": 8.2,
+  "concurso": "ufrpe-21-2026",
+  "nome": "UFRPE 21/2026",
+  "evento_id": "ev-0030",
+  "tipo_evento": "recurso",
+  "etapa": "escrita",
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Término do prazo de de 24 horas do Recurso da Prova Escrita",
+  "forma": "fixa",
+  "inicio": "2026-12-02",
+  "fim": "2026-12-02",
+  "hora": null,
+  "documento": "documentos/ufrpe-21-2026/63 - Edital 21-2026 - abertura (versão PDF do SIGRH).pdf",
+  "item": "Anexo I",
+  "pagina": 53,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-12-02"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Término do prazo de de 24 horas do Recurso da Prova Escrita",
+   "data": "02/12/2026 (quarta)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      0
+     ]
+    ],
+    [
+     "fim",
+     [
+      1
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ufrpe-21-2026#ev-0020",
+  "estrato": "datada/recurso",
+  "peso": 8.2,
+  "concurso": "ufrpe-21-2026",
+  "nome": "UFRPE 21/2026",
+  "evento_id": "ev-0020",
+  "tipo_evento": "recurso",
+  "etapa": "compatibilidade_perfil",
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Fim do período de recurso da Fase I",
+  "forma": "fixa",
+  "inicio": "2026-11-11",
+  "fim": "2026-11-11",
+  "hora": null,
+  "documento": "documentos/ufrpe-21-2026/63 - Edital 21-2026 - abertura (versão PDF do SIGRH).pdf",
+  "item": "Anexo I",
+  "pagina": 53,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-11-11"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Fim do período de recurso da Fase I",
+   "data": "11/11/2026 (quarta)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      0
+     ]
+    ],
+    [
+     "fim",
+     [
+      1
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ufrpe-21-2026#ev-0080",
+  "estrato": "datada/resultado_final",
+  "peso": 7.111111111111111,
+  "concurso": "ufrpe-21-2026",
+  "nome": "UFRPE 21/2026",
+  "evento_id": "ev-0080",
+  "tipo_evento": "resultado_final",
+  "etapa": null,
+  "fase": "final",
+  "escopo": "geral",
+  "descricao": "RESULTADO FINAL DO CONCURSO PÚBLICO (até 16/03/2027)",
+  "forma": "fixa",
+  "inicio": "2027-03-16",
+  "fim": "2027-03-16",
+  "hora": null,
+  "documento": "documentos/ufrpe-21-2026/63 - Edital 21-2026 - abertura (versão PDF do SIGRH).pdf",
+  "item": "Anexo I",
+  "pagina": 55,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2027-03-16"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "RESULTADO FINAL DO CONCURSO PÚBLICO (até 16/03/2027)",
+   "data": "16/03/2027 (terça)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      0
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ufrpe-21-2026#ev-0035",
+  "estrato": "datada/sorteio_ordem",
+  "peso": 5.571428571428571,
+  "concurso": "ufrpe-21-2026",
+  "nome": "UFRPE 21/2026",
+  "evento_id": "ev-0035",
+  "tipo_evento": "sorteio_ordem",
+  "etapa": "didatica",
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Sorteio da ordem de apresentação e do Ponto da Prova Didática - Turno 1",
+  "forma": "fixa",
+  "inicio": "2026-12-14",
+  "fim": "2026-12-14",
+  "hora": null,
+  "documento": "documentos/ufrpe-21-2026/63 - Edital 21-2026 - abertura (versão PDF do SIGRH).pdf",
+  "item": "Anexo I",
+  "pagina": 53,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-12-14"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Sorteio da ordem de apresentação e do Ponto da Prova Didática - Turno 1",
+   "data": "14/12/2026 (segunda)",
+   "agendado": false,
+   "regra_antecedencia": null
+  }
+ },
+ {
+  "id": "ufrpe-21-2026#ev-0043",
+  "estrato": "datada/sorteio_tema",
+  "peso": 7.785714285714286,
+  "concurso": "ufrpe-21-2026",
+  "nome": "UFRPE 21/2026",
+  "evento_id": "ev-0043",
+  "tipo_evento": "sorteio_tema",
+  "etapa": "didatica",
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Sorteio do ponto da Prova Didática - Turno 4",
+  "forma": "fixa",
+  "inicio": "2026-12-15",
+  "fim": "2026-12-15",
+  "hora": null,
+  "documento": "documentos/ufrpe-21-2026/63 - Edital 21-2026 - abertura (versão PDF do SIGRH).pdf",
+  "item": "Anexo I",
+  "pagina": 54,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-12-15"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Sorteio do ponto da Prova Didática - Turno 4",
+   "data": "15/12/2026 (terça)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      7,
+      1
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ufrpe-21-2026#ev-0027",
+  "estrato": "datada/sorteio_tema",
+  "peso": 7.785714285714286,
+  "concurso": "ufrpe-21-2026",
+  "nome": "UFRPE 21/2026",
+  "evento_id": "ev-0027",
+  "tipo_evento": "sorteio_tema",
+  "etapa": "escrita",
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Entrega do código para prova escrita; Sorteio do ponto para a Prova Escrita; Início da Prova Escrita (duração de 4 horas).",
+  "forma": "fixa",
+  "inicio": "2026-11-25",
+  "fim": "2026-11-25",
+  "hora": null,
+  "documento": "documentos/ufrpe-21-2026/63 - Edital 21-2026 - abertura (versão PDF do SIGRH).pdf",
+  "item": "Anexo I",
+  "pagina": 53,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-11-25"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Entrega do código para prova escrita; Sorteio do ponto para a Prova Escrita; Início da Prova Escrita (duração de 4 horas)",
+   "data": "25/11/2026 (quarta)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      7,
+      1
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ufrpe-21-2026#ev-0034",
+  "estrato": "datada/sorteio_turma",
+  "peso": 1.0,
+  "concurso": "ufrpe-21-2026",
+  "nome": "UFRPE 21/2026",
+  "evento_id": "ev-0034",
+  "tipo_evento": "sorteio_turma",
+  "etapa": "didatica",
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "FECHAMENTO DO ACESSO AO LOCAL DO SORTEIO às 8 horas. Sorteio dos Turnos (1 a 4) da Prova Didática (Fase III) (É obrigatório o comparecimento de TODOS os candidatos)",
+  "forma": "fixa",
+  "inicio": "2026-12-14",
+  "fim": "2026-12-14",
+  "hora": "08:00",
+  "documento": "documentos/ufrpe-21-2026/63 - Edital 21-2026 - abertura (versão PDF do SIGRH).pdf",
+  "item": "Anexo I",
+  "pagina": 53,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-12-14",
+   "hora": "08:00"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "FECHAMENTO DO ACESSO AO LOCAL DO SORTEIO às 8 horas. Sorteio dos Turnos (1 a 4) da Prova Didática (Fase III) (É obrigatório o comparecimento de TODOS os candidatos)",
+   "data": "14/12/2026 (segunda), às 08:00",
+   "agendado": false,
+   "regra_antecedencia": null
+  }
+ },
+ {
+  "id": "urca-2026#ev-0039",
+  "estrato": "datada/recurso_resultado",
+  "peso": 4.833333333333333,
+  "concurso": "urca-2026",
+  "nome": "URCA 02/2026",
+  "evento_id": "ev-0039",
+  "tipo_evento": "recurso_resultado",
+  "etapa": null,
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "RESPOSTA DE RECURSO DO RESULTADO PRELIMINAR DO CONCURSO",
+  "forma": "fixa",
+  "inicio": "2026-12-16",
+  "fim": "2026-12-16",
+  "hora": null,
+  "documento": "documentos/urca-2026/03 - Cronograma do concurso (original).pdf",
+  "item": "Cronograma de Execução",
+  "pagina": 3,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-12-16"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "RESPOSTA DE RECURSO DO RESULTADO PRELIMINAR DO CONCURSO",
+   "data": "16/12/2026 (quarta)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      0
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "urca-2026#ev-0033",
+  "estrato": "datada/resultado",
+  "peso": 8.590909090909092,
+  "concurso": "urca-2026",
+  "nome": "URCA 02/2026",
+  "evento_id": "ev-0033",
+  "tipo_evento": "resultado",
+  "etapa": "titulos",
+  "fase": "preliminar",
+  "escopo": "geral",
+  "descricao": "PREVISÃO DO RESULTADO PRELIMINAR DA PROVA DE TÍTULOS",
+  "forma": "fixa",
+  "inicio": "2026-11-30",
+  "fim": "2026-11-30",
+  "hora": null,
+  "documento": "documentos/urca-2026/03 - Cronograma do concurso (original).pdf",
+  "item": "Cronograma de Execução",
+  "pagina": 2,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-11-30"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "PREVISÃO DO RESULTADO PRELIMINAR DA PROVA DE TÍTULOS",
+   "data": "30/11/2026 (segunda)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      2,
+      0
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "urca-2026#ev-0036",
+  "estrato": "datada/resultado",
+  "peso": 8.590909090909092,
+  "concurso": "urca-2026",
+  "nome": "URCA 02/2026",
+  "evento_id": "ev-0036",
+  "tipo_evento": "resultado",
+  "etapa": "titulos",
+  "fase": "final",
+  "escopo": "geral",
+  "descricao": "RESULTADO FINAL DA PROVA DE TÍTULOS",
+  "forma": "fixa",
+  "inicio": "2026-12-08",
+  "fim": "2026-12-08",
+  "hora": null,
+  "documento": "documentos/urca-2026/03 - Cronograma do concurso (original).pdf",
+  "item": "Cronograma de Execução",
+  "pagina": 3,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-12-08"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "RESULTADO FINAL DA PROVA DE TÍTULOS",
+   "data": "08/12/2026 (terça)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      2,
+      0
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "urca-2026#ev-0044",
+  "estrato": "nao_datada/entrega_documento",
+  "peso": 31.428571428571427,
+  "concurso": "urca-2026",
+  "nome": "URCA 02/2026",
+  "evento_id": "ev-0044",
+  "tipo_evento": "entrega_documento",
+  "etapa": "didatica",
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Plano de Aula entregue a cada um dos membros da Banca Examinadora ao iniciar a exposição",
+  "forma": "condicionada",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/urca-2026/01 - Edital nº 02-2026-GR (Concurso Efetivo).pdf",
+  "item": "9.3.4",
+  "pagina": 6,
+  "data_extraida": {
+   "forma": "condicionada",
+   "condicao_literal": "deverá ser entregue a cada um dos membros da Banca Examinadora ao iniciar a exposição"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Plano de Aula entregue a cada um dos membros da Banca Examinadora ao iniciar a exposição",
+   "data": "deverá ser entregue a cada um dos membros da Banca Examinadora ao iniciar a exposição",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "fim",
+     [
+      15,
+      7,
+      3
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ufv-49-2026#ev-0002",
+  "estrato": "nao_datada/inscricao",
+  "peso": 4.5,
+  "concurso": "ufv-49-2026",
+  "nome": "UFV 49/2026",
+  "evento_id": "ev-0002",
+  "tipo_evento": "inscricao",
+  "etapa": null,
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "abertura das inscrições, exclusivamente, através do link https://www.gps.ufv.br, no prazo de 45 (quarenta e cinco) dias corridos, a contar da data de publicação deste Edital no Diário Oficial da União",
+  "forma": "relativa",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/ufv-48-2026/Edital-49-2026-DAU.pdf",
+  "item": "preâmbulo",
+  "pagina": 1,
+  "data_extraida": {
+   "forma": "relativa",
+   "quantidade": 45,
+   "unidade": "dias_corridos",
+   "evento_ancora": "data de publicação deste Edital no Diário Oficial da União (publicacao_edital)",
+   "sentido": "apos"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Abertura das inscrições, exclusivamente, através do link https://www.gps.ufv.br, no prazo de 45 (quarenta e cinco) dias corridos...",
+   "data": "45 dias depois de data de publicação deste Edital no Diário Oficial da União",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      0
+     ]
+    ],
+    [
+     "fim",
+     [
+      7,
+      2
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ufv-49-2026#ev-0001",
+  "estrato": "nao_datada/publicacao_edital",
+  "peso": 1.5,
+  "concurso": "ufv-49-2026",
+  "nome": "UFV 49/2026",
+  "evento_id": "ev-0001",
+  "tipo_evento": "publicacao_edital",
+  "etapa": null,
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "publicação deste Edital no Diário Oficial da União",
+  "forma": "condicionada",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/ufv-48-2026/Edital-49-2026-DAU.pdf",
+  "item": "preâmbulo",
+  "pagina": 1,
+  "data_extraida": {
+   "forma": "condicionada",
+   "condicao_literal": "data de publicação deste Edital no Diário Oficial da União"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Publicação deste Edital no Diário Oficial da União",
+   "data": "data de publicação deste Edital no Diário Oficial da União",
+   "agendado": false,
+   "regra_antecedencia": null
+  }
+ },
+ {
+  "id": "ufv-49-2026#ev-0004",
+  "estrato": "nao_datada/sorteio_tema",
+  "peso": 17.75,
+  "concurso": "ufv-49-2026",
+  "nome": "UFV 49/2026",
+  "evento_id": "ev-0004",
+  "tipo_evento": "sorteio_tema",
+  "etapa": "escrita",
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "sorteio do ponto para a Prova de Conhecimento, o mesmo para todos os candidatos",
+  "forma": "condicionada",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/ufv-48-2026/Edital-49-2026-DAU.pdf",
+  "item": "4.2.3.6",
+  "pagina": 2,
+  "data_extraida": {
+   "forma": "condicionada",
+   "condicao_literal": "imediatamente antes do início da Prova de Conhecimento (o início da Prova é imediatamente após o sorteio)"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Sorteio do ponto para a Prova de Conhecimento, o mesmo para todos os candidatos",
+   "data": "imediatamente antes do início da Prova de Conhecimento (o início da Prova é imediatamente após o sorteio)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      7,
+      1
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ufscar-004-2026#ev-0036",
+  "estrato": "nao_datada/convocacao",
+  "peso": 15.0,
+  "concurso": "ufscar-004-2026",
+  "nome": "UFSCar 004/26",
+  "evento_id": "ev-0036",
+  "tipo_evento": "convocacao",
+  "etapa": "escrita",
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Os respectivos locais de realização da prova escrita serão disponibilizados no endereço eletrônico https://concursos.ufscar.br (menu \"meus concursos\")",
+  "forma": "condicionada",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/ufscar-004-2026/51 - Edital Único 004-2026 (arquivo do Google Drive do DCI).pdf",
+  "item": "11.2",
+  "pagina": 27,
+  "data_extraida": {
+   "forma": "condicionada",
+   "condicao_literal": "em data estabelecida no CRONOGRAMA - Anexo VI deste edital"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Os respectivos locais de realização da prova escrita serão disponibilizados no endereço eletrônico https://concursos.ufscar.br (menu \"meus concursos\")",
+   "data": "em data estabelecida no CRONOGRAMA - Anexo VI deste edital",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      2,
+      0
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ufscar-004-2026#ev-0016",
+  "estrato": "nao_datada/sorteio_reserva",
+  "peso": 1.0,
+  "concurso": "ufscar-004-2026",
+  "nome": "UFSCar 004/26",
+  "evento_id": "ev-0016",
+  "tipo_evento": "sorteio_reserva",
+  "etapa": null,
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "procedimento público de distribuição das vagas reservadas por meio do aplicativo de videoconferência Google Meet, com gravação integral da sessão",
+  "forma": "condicionada",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/ufscar-004-2026/51 - Edital Único 004-2026 (arquivo do Google Drive do DCI).pdf",
+  "item": "8.2",
+  "pagina": 24,
+  "data_extraida": {
+   "forma": "condicionada",
+   "condicao_literal": "A data, o horário e o link de acesso à videoconferência constam no CRONOGRAMA - Anexo VI deste Edital."
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Procedimento público de distribuição das vagas reservadas por meio do aplicativo de videoconferência Google Meet, com gravação integral da sessão",
+   "data": "A data, o horário e o link de acesso à videoconferência constam no CRONOGRAMA - Anexo VI deste Edital.",
+   "agendado": false,
+   "regra_antecedencia": null
+  }
+ },
+ {
+  "id": "unimontes-26-2026#ev-0011",
+  "estrato": "datada/isencao_pedido",
+  "peso": 5.0,
+  "concurso": "unimontes-26-2026",
+  "nome": "UNIMONTES 26/2026",
+  "evento_id": "ev-0011",
+  "tipo_evento": "isencao_pedido",
+  "etapa": null,
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "pedido de isenção no período de 8h00 do dia 28/09/2026 às 23h59 do dia 28/10/2026",
+  "forma": "janela",
+  "inicio": "2026-09-28",
+  "fim": "2026-10-28",
+  "hora": "08:00",
+  "documento": "documentos/unimontes-2026/58 - Edital 26-2026 - Retificação 1 (Educação Física).pdf",
+  "item": "III (leia-se 4.4.2)",
+  "pagina": 1,
+  "data_extraida": {
+   "forma": "janela",
+   "inicio": {
+    "data": "2026-09-28",
+    "hora": "08:00"
+   },
+   "fim": {
+    "data": "2026-10-28",
+    "hora": "23:59"
+   }
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Pedido de isenção no período de 8h00 do dia 28/09/2026 às 23h59 do dia 28/10/2026",
+   "data": "de 28/09/2026 (segunda), às 08:00 a 28/10/2026 (quarta), até 23:59",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "fim",
+     [
+      5,
+      2
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "unimontes-21-2026#ev-0009",
+  "estrato": "datada/prova",
+  "peso": 8.96875,
+  "concurso": "unimontes-21-2026",
+  "nome": "UNIMONTES 21/2026",
+  "evento_id": "ev-0009",
+  "tipo_evento": "prova",
+  "etapa": "escrita",
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Prova de Conhecimentos, correspondente à prova escrita do Concurso, no dia 21/02/2027, no turno matutino",
+  "forma": "fixa",
+  "inicio": "2027-02-21",
+  "fim": "2027-02-21",
+  "hora": null,
+  "documento": "documentos/unimontes-2026/46 - Edital 21-2026 - Retificação 1 (Direito Público Adjetivo).pdf",
+  "item": "I (leia-se 1.12)",
+  "pagina": 1,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2027-02-21"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Prova de Conhecimentos, correspondente à prova escrita do Concurso, no dia 21/02/2027, no turno matutino",
+   "data": "21/02/2027 (domingo)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      30,
+      15,
+      7,
+      2
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "uerj-233-2026#ev-0020",
+  "estrato": "nao_datada/impugnacao_banca",
+  "peso": 31.666666666666668,
+  "concurso": "uerj-233-2026",
+  "nome": "UERJ Seleção 2026/233",
+  "evento_id": "ev-0020",
+  "tipo_evento": "impugnacao_banca",
+  "etapa": null,
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Impugnação de nome da Comissão Examinadora junto ao Conselho Departamental, em até 07 (sete) dias da divulgação da composição",
+  "forma": "relativa",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/uerj-2026/10 - Seleção 2026-233 - Edital.pdf",
+  "item": "8.7",
+  "pagina": 6,
+  "data_extraida": {
+   "forma": "relativa",
+   "quantidade": 7,
+   "unidade": "nao_informada",
+   "evento_ancora": "divulgação da composição da Comissão Examinadora (portaria_banca)",
+   "sentido": "apos"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Impugnação de nome da Comissão Examinadora junto ao Conselho Departamental, em até 07 (sete) dias da divulgação da composição",
+   "data": "7 depois de divulgação da composição da Comissão Examinadora",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "fim",
+     [
+      1
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "unifesp-407-2026#ev-0012",
+  "estrato": "nao_datada/procedimento_cotas",
+  "peso": 31.833333333333332,
+  "concurso": "unifesp-407-2026",
+  "nome": "UNIFESP 407/2026",
+  "evento_id": "ev-0012",
+  "tipo_evento": "procedimento_cotas",
+  "etapa": null,
+  "fase": "convocacao",
+  "escopo": "geral",
+  "descricao": "Data, horário e local para entrega do laudo médico, publicados com antecedência mínima de 5 dias úteis da data de comparecimento ao Núcleo de Atenção à Saúde do Trabalhador(a)/DSTra/UNIFESP",
+  "forma": "relativa",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/unifesp-2026/75 - Edital 407-2026 - texto integral (HTML).html",
+  "item": "8.5.3",
+  "pagina": null,
+  "data_extraida": {
+   "forma": "relativa",
+   "quantidade": 5,
+   "unidade": "dias_uteis",
+   "evento_ancora": "data de comparecimento ao Núcleo de Atenção à Saúde do Trabalhador(a)",
+   "sentido": "antes"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Data, horário e local para entrega do laudo médico, publicados com antecedência mínima de 5 dias úteis da data de comparecimento ao Núcleo de Atenção à Saúde do...",
+   "data": "5 dias úteis antes de data de comparecimento ao Núcleo de Atenção à Saúde do Trabalhador",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      2,
+      0
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "unifesp-439-2026#ev-0017",
+  "estrato": "nao_datada/resultado_final",
+  "peso": 23.75,
+  "concurso": "unifesp-439-2026",
+  "nome": "UNIFESP 439/2026",
+  "evento_id": "ev-0017",
+  "tipo_evento": "resultado_final",
+  "etapa": null,
+  "fase": "preliminar",
+  "escopo": "geral",
+  "descricao": "Resultado provisório divulgado pelo Presidente da Banca Examinadora em sessão pública, concluídos os trabalhos",
+  "forma": "condicionada",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/unifesp-2026/Edital 439-2026 - texto integral (HTML).pdf",
+  "item": "14.14",
+  "pagina": 27,
+  "data_extraida": {
+   "forma": "condicionada",
+   "condicao_literal": "Concluídos os trabalhos"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Resultado provisório divulgado pelo Presidente da Banca Examinadora em sessão pública, concluídos os trabalhos",
+   "data": "Concluídos os trabalhos",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      0
+     ]
+    ]
+   ]
+  }
+ }
+]

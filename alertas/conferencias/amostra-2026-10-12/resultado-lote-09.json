@@ -1,0 +1,252 @@
+[
+ {
+  "id": "unila-204-2026#ev-0055",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Previsão para bancas de verificação das condições autodeclaradas, 23/10/2026, área 01 (MFC)",
+  "documento_diz": "Edital 207/2026 (MFC), cronograma das bancas de ações afirmativas: \"Previsão para bancas de verificação das condições autodeclaradas. | 23/10/2026\"",
+  "fonte_conferida": "documentos/unila-204-2026/0a604de4...2705.pdf (Edital 207/2026), p. 2, pdftotext; Edital 204/2026 itens 7.3, 7.5, 7.8",
+  "observacao": "O rótulo mantém a palavra 'Previsão', então não vende data firma. A convocação nominal sai por edital próprio (7.3), ainda não publicado; o não comparecimento à heteroidentificação tira o direito à cota (7.8). Área 01 tem candidatos PPP e PcD homologados (Edital 239)."
+ },
+ {
+  "id": "unila-204-2026#ev-0072",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "horarios_individuais",
+  "atribuicao": "extrator",
+  "extracao_diz": "Prova Didática, janela 21/10/2026 08:00-12:00, área 02 (GO), como evento de prova próprio",
+  "documento_diz": "Edital 206/2026, cronograma prévio: \"Prova Didática | 20/10, das 14h às 18h. 21/10, das 8h às 12h.\"; Edital 204, 17.2: sessão de 45 min; 17.5: \"A ordem de apresentação da prova didática seguirá a ordem de entrega da prova escrita\"",
+  "fonte_conferida": "documentos/unila-204-2026/373cbc4f...8217.pdf (Edital 206/2026), p. 2, pdftotext; 01 - Edital de abertura 204-2026, itens 16.7.2, 17.2, 17.5",
+  "observacao": "Data e hora batem. O problema é a partição: os dois turnos (ev-0071 em 20/10 e ev-0072 em 21/10) são o período da etapa, e cada candidato apresenta só em um deles, conforme a ordem de entrega da prova escrita. Dois alertas 'Prova Didática' sem essa ressalva sugerem duas provas ou presença nos dois turnos. A área 02 tem só uma candidata homologada (Edital 239), que pela ordem cairia no turno de 20/10. O cronograma é prévio e 'pode ser alterado durante a realização do concurso'."
+ },
+ {
+  "id": "unila-204-2026#ev-0048",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Prova escrita: fechamento das salas no primeiro dia, 19/10/2026 às 09:00, área 01",
+  "documento_diz": "Edital 259/2026, 1.3: \"O horário de fechamento das salas para a realização da prova escrita, no primeiro dia do concurso, será às 9h (horário de Brasília)\"; 1.3.1: após o fechamento não será permitida a entrada; 1.1: provas de 19 a 23/10/2026",
+  "fonte_conferida": "documentos/unila-204-2026/d9cd10bee...3946.docling.md (Edital 259/2026, 08/10/2026), p. 1-2",
+  "observacao": "É o horário de presença que elimina e já está na agenda (ev-0047/0048/0049, um por área). Ele também cobre o ato de instalação, de comparecimento obrigatório (Edital 204, 15.2). A tabela de ensalamento do docling tem as colunas trocadas (MFC na sala G103-2), o que não afeta a data."
+ },
+ {
+  "id": "unila-204-2026#ev-0074",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Defesa da Proposta de Atuação Acadêmica, janela 22/10/2026 08:00-18:00, área 02",
+  "documento_diz": "Edital 206/2026, cronograma prévio: \"Defesa da Proposta de Atuação Acadêmica | 22/10, das 8h às 18h\"",
+  "fonte_conferida": "documentos/unila-204-2026/373cbc4f...8217.pdf (Edital 206/2026), p. 2, pdftotext; Edital 204, 19.4-19.5.2",
+  "observacao": "A janela é o período da sessão, e cada candidato tem até 60 min (19.5.2) em horário que a banca define. Como é um único dia com início às 8h, o alerta não leva a erro. O cronograma é prévio e alterável."
+ },
+ {
+  "id": "unila-204-2026#ev-0070",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Resultado da Prova Escrita, 20/10/2026 às 12:00, área 02",
+  "documento_diz": "Edital 206/2026, cronograma prévio: \"Resultado da Prova Escrita | até as 12h do dia 20/10\"",
+  "fonte_conferida": "documentos/unila-204-2026/373cbc4f...8217.pdf (Edital 206/2026), p. 2, pdftotext; Edital 204, 16.8 e 16.10",
+  "observacao": "O documento diz 'até as 12h', e o alerta escreve 'às 12:00'. A diferença é pequena. Esse resultado é a lista de classificados sem notas (16.8) e abre o recurso de 1 dia útil para os não classificados (16.10)."
+ },
+ {
+  "id": "unila-204-2026#ev-0029",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Resultado da Prova Escrita, 20/10/2026 às 12:00, área 03",
+  "documento_diz": "Edital 205/2026 (Mediação Cultural), cronograma prévio: \"Resultado da Prova Escrita | até as 12h do dia 20/10\"",
+  "fonte_conferida": "documentos/unila-204-2026/03 - Edital de conteúdo específico 205-2026 (Mediação Cultural).pdf, p. 2, pdftotext",
+  "observacao": "Mesma ressalva do ev-0070: o documento diz 'até as 12h' e o alerta 'às 12:00'. Não há documento posterior que altere o cronograma prévio."
+ },
+ {
+  "id": "unila-204-2026#ev-0062",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "texto_do_leitor",
+  "atribuicao": "leitor",
+  "extracao_diz": "tipo resultado_final, fase preliminar, descrição 'Resultado', 23/10/2026 às 18:00, área 01",
+  "documento_diz": "Edital 207/2026, cronograma prévio: \"Resultado | até as 18h do dia 23/10\"; cronograma específico: \"Divulgação do Resultado Provisório | 23/10/2026\" e \"Prazo para recurso do Resultado Provisório | 02 dias úteis após a divulgação\"",
+  "fonte_conferida": "documentos/unila-204-2026/0a604de4...2705.pdf (Edital 207/2026), p. 2, pdftotext; Edital 204, 21.2 e 22.1",
+  "observacao": "Data e hora batem, e a extração marca fase=preliminar. Mas o alerta diz só 'Resultado', sem 'provisório', e assim não avisa que esse resultado abre o prazo de recurso de 2 dias úteis (22.1). Esse evento duplica o ev-0052 (Resultado Provisório 23/10, sem hora). O documento diz 'até as 18h' e o alerta 'às 18:00'."
+ },
+ {
+  "id": "ufsm-221-2026#ev-0054",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Inscrições Anestesiologia (área 02), de 28/09/2026 09:00 a 27/10/2026 23:59",
+  "documento_diz": "Comunicado de 25/09/2026: \"Início: 9h do dia 28 de setembro de 2026 (segunda-feira). Término: 23h59min do dia 27 de outubro de 2026 (terça-feira).\"",
+  "fonte_conferida": "documentos/ufsm-221-2026/09 - Comunicado de prorrogação - Anestesiologia (28-09 a 27-10).pdf, p. 1 (docling e pdftotext)",
+  "observacao": "O escopo 02 é Anestesiologia na extração. O pagamento vai até 28/10/2026 (ev-0055). O rótulo é longo, mas está correto."
+ },
+ {
+  "id": "ufsm-221-2026#ev-0057",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Listagem preliminar de inscrições homologadas de Anestesiologia, condicionada: 'será publicada oportunamente'",
+  "documento_diz": "Edital UFSM 239/2026: \"Com relação à área de Ciências da Saúde/ Medicina/ Anestesiologia, a listagem preliminar de inscrições homologadas será publicada oportunamente, tendo em vista a prorrogação do período de inscrições\"",
+  "fonte_conferida": "documentos/ufsm-221-2026/List. prel. 221.2026 -exceto rea de Anestesiologia.docling.md, p. 1",
+  "observacao": "Sem data no documento, e a condição foi transcrita fielmente. O edital de abertura (3.6, a) prevê homologação em até 15 dias corridos após o encerramento das inscrições, o que daria até cerca de 11/11/2026 para Anestesiologia. Isso não foi extraído aqui, mas é só uma possível melhoria."
+ },
+ {
+  "id": "ufsm-221-2026#ev-0038",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Resultado das avaliações da equipe multiprofissional (PcD), condicionada: 'por Edital na página do concurso público'",
+  "documento_diz": "Edital 221/2026, 4.17: \"O resultado das avaliações da equipe multiprofissional e interdisciplinar será divulgado por Edital na página do concurso público\"; 4.13: avaliação \"Posteriormente à realização do concurso público\"",
+  "fonte_conferida": "documentos/ufsm-221-2026/02 - Edital de abertura 221-2026 (publicação original DOU 24-08-2026).docling.md, p. 2, itens 4.13-4.18",
+  "observacao": "O documento não dá data, e o texto está correto. A condicao_literal registra o meio de publicação, não o momento: o momento está em 4.13 (depois do concurso, só para os habilitados PcD). O consolidado não muda o item."
+ },
+ {
+  "id": "ufsm-221-2026#ev-0025",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Prova Didática (2ª etapa), condicionada: cronograma será publicado na página do concurso",
+  "documento_diz": "Edital 221/2026, 15.3: \"O cronograma de cada etapa do certame será publicado e atualizado na página do concurso\"",
+  "fonte_conferida": "documentos/ufsm-221-2026/02 - Edital de abertura 221-2026 (publicação original DOU 24-08-2026).docling.md, p. 7, item 15.3; varredura dos documentos da pasta que citam 221/2026",
+  "observacao": "Nenhum documento posterior do 221/2026 publicou o cronograma da 2ª etapa (os cronogramas da pasta são de outros editais). O sorteio do ponto 24h antes da didática de cada candidato (8.13.2, a) está na agenda como ev-0048."
+ },
+ {
+  "id": "ufrn-108-2026#ev-0010",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "homologacao_inscricoes preliminar: divulgação da relação preliminar de inscritos, 06/11/2026",
+  "documento_diz": "Anexo II: \"Divulgação da relação preliminar de inscritos (...) | 06/11/2026 (previsão)\"; item 9.5: \"No dia 06/11/2026, será disponibilizado (...) a relação preliminar de inscritos\"",
+  "fonte_conferida": "documentos/ufrn-108-2026/01 - Edital de abertura 108-2026 (DOU 175, retificado em 22-09-2026).docling.md, p. 31 (Anexo II) e p. 10 (9.5-9.7); retificações DOU 179, 184 e 192",
+  "observacao": "Nenhuma retificação alterou a data. O cronograma do topo do PDF 'DOU 179' (19-24/11, 25/11, prova em 21/03/2027) é de outro edital ('Edital nº 004/2026') que está na mesma página do DOU e não se aplica ao 108. O tipo homologacao_inscricoes é aceitável, porque essa é a lista de deferidas com recurso por pagamento não identificado (9.6); o rótulo usa o termo literal do edital."
+ },
+ {
+  "id": "ufrn-108-2026#ev-0005",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "texto_do_leitor",
+  "atribuicao": "leitor",
+  "extracao_diz": "Inscrições, janela 28/09/2026 a 23/10/2026",
+  "documento_diz": "Item 9.1: \"A inscrição será feita, exclusivamente, via internet (https://sigrh.ufrn.br), no período de 28/09/2026 a 23/10/2026, observando o horário local\"; Anexo II: \"Inscrições | 28/09/2026 a 23/10/2026\" (sem 'previsão')",
+  "fonte_conferida": "documentos/ufrn-108-2026/01 - Edital de abertura 108-2026 (DOU 175, retificado em 22-09-2026).docling.md, p. 10 (9.1) e p. 31 (Anexo II)",
+  "observacao": "Datas certas na extração, mas o alerta escreve 'período provável de 28/09 a 23/10', e o edital dá o período como firme. Esse qualificador falso enfraquece um prazo real de inscrição. O pagamento vai de 30/09 a 29/10 (9.1, e)."
+ },
+ {
+  "id": "ufrn-108-2026#ev-0003",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Relativa: análise da impugnação em 5 dias corridos após o pedido de impugnação",
+  "documento_diz": "Item 1.4.1: \"O pedido de impugnação será analisado no prazo de 5 (cinco) dias corridos, podendo ser estendido até o dobro do período inicial\"",
+  "fonte_conferida": "documentos/ufrn-108-2026/01 - Edital de abertura 108-2026 (DOU 175, retificado em 22-09-2026).docling.md, p. 1, item 1.4.1",
+  "observacao": "Âncora, quantidade, unidade e sentido batem. A possível prorrogação até 10 dias está no rótulo. O evento não é agendado."
+ },
+ {
+  "id": "uerj-231-2026#ev-0010",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "portaria_banca: divulgação da lista de inscritos e da composição da Comissão Examinadora, 14/10/2026 às 16:00",
+  "documento_diz": "Item 11.1, h: \"Divulgação da lista dos candidatos inscritos (no sistema PROSSIM) e da composição da Comissão Examinadora - 14/10/2026, às 16h.\"",
+  "fonte_conferida": "documentos/uerj-2026/08 - Seleção 2026-231 - Edital.docling.md, p. 9, item 11.1; 26 - Seleção 2026-231 - Errata.docling.md",
+  "observacao": "A errata só altera a tabela de vagas e a taxa (3.1, f). A divulgação abre os 7 dias para impugnar membro da banca (8.7, ev-0011)."
+ },
+ {
+  "id": "uerj-231-2026#ev-0021",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Resultado da prova de aula, 11/11/2026 às 13:00",
+  "documento_diz": "Item 11.1, p: \"Resultado da prova de aula - 11/11/2026, às 13 h.\"",
+  "fonte_conferida": "documentos/uerj-2026/08 - Seleção 2026-231 - Edital.docling.md, p. 9, item 11.1; errata 26",
+  "observacao": "A errata não muda o cronograma. A entrega de títulos é no mesmo horário (q), e o candidato deve chegar 20 min antes (11.2); a entrega está na agenda como ev-0022."
+ },
+ {
+  "id": "uerj-231-2026#ev-0013",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "horario_presenca_omitido",
+  "atribuicao": "extrator",
+  "extracao_diz": "Sorteio do ponto da prova escrita, 09/11/2026 às 08:00",
+  "documento_diz": "Item 11.1, i: \"Sorteio do ponto para a prova escrita - 09/11/2026, às 8 h.\"; 11.2: \"O candidato deverá se apresentar 20 minutos antes de cada hora marcada no cronograma (item 11.1)\"; 16.3: excluído quem deixar de comparecer a qualquer prova",
+  "fonte_conferida": "documentos/uerj-2026/08 - Seleção 2026-231 - Edital.docling.md, p. 7 (9.1.1, c-d), p. 9 (11.1-11.2), item 16.3; errata 26",
+  "observacao": "Data e hora do sorteio batem. Não há evento para a apresentação às 07h40 (11.2), e o alerta de 08:00 não a menciona. O edital não declara eliminatório chegar depois das 07h40, por isso a classificação não é ERRADA. Só a lista de pontos é mostrada aos 'candidatos presentes' imediatamente antes do sorteio (9.1.1, c), e a prova começa 60 min depois, sem saída do recinto."
+ },
+ {
+  "id": "unimontes-24-2026#ev-0009",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Prova de Conhecimentos (escrita), 21/02/2027, turno vespertino, local e horário a divulgar",
+  "documento_diz": "Retificação 1, I (1.12) e IV (9.2): \"será realizada no dia 21/02/2027, no turno vespertino, em local e horário a serem divulgados por ato próprio\" (antes: 09/01/2027)",
+  "fonte_conferida": "documentos/unimontes-2026/53 - Edital 24-2026 - Retificação 1 (Clínica Médica).docling.md, p. 1; 52 - Edital 24-2026, itens 9.7-9.8",
+  "observacao": "A extração já aplicou a retificação. Chegar depois do início elimina (9.8), e a presença é exigida 30 min antes (9.7), mas o horário ainda não foi divulgado; quando sair o ato próprio, esse horário de presença precisa virar evento. Não há documento posterior para o Edital 24."
+ },
+ {
+  "id": "unimontes-24-2026#ev-0005",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Relativa: decisões de isenção comunicadas até 10 dias corridos antes do término das inscrições",
+  "documento_diz": "Item 4.4.18: \"As decisões quanto aos pedidos de isenção serão formalmente comunicadas às pessoas interessadas por meio eletrônico até 10 (dez) dias corridos antes do término do prazo das inscrições.\"",
+  "fonte_conferida": "documentos/unimontes-2026/52 - Edital 24-2026 - Clínica Médica.docling.md, p. 12, item 4.4.18; Retificação 1, II (4.2.1)",
+  "observacao": "Âncora, quantidade, unidade e sentido batem. Com a retificação, as inscrições terminam em 19/12/2026 às 23h59, o que leva o limite a 09/12/2026. É um prazo da administração ('até'), não do candidato."
+ },
+ {
+  "id": "unifesp-383-2026#ev-0011",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Recurso contra parecer da verificação documental de quilombolas: 2 dias úteis após a divulgação do resultado",
+  "documento_diz": "Item 7.45.1: \"no prazo de 2 (dois) dias úteis, a serem contados do primeiro dia útil subsequente ao da divulgação da lista\"",
+  "fonte_conferida": "documentos/unifesp-2026/Edital 383-2026 - texto integral (HTML).docling.md, p. 16, seção 7.40 (quilombolas), itens 7.45-7.45.2",
+  "observacao": "A contagem a partir do primeiro dia útil seguinte equivale a '2 dias úteis depois' da divulgação. Âncora e sentido estão corretos."
+ },
+ {
+  "id": "unifesp-383-2026#ev-0010",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Recurso contra parecer da verificação documental de indígenas: 2 dias úteis após a divulgação do resultado",
+  "documento_diz": "Item 7.36: \"no prazo de 2 (dois) dias úteis, a serem contados do primeiro dia útil subsequente ao da divulgação da lista\"",
+  "fonte_conferida": "documentos/unifesp-2026/Edital 383-2026 - texto integral (HTML).docling.md, p. 15, seção 7.30 (indígenas), itens 7.35-7.36.1",
+  "observacao": null
+ },
+ {
+  "id": "unesp-ibilce-294-2026#ev-0013",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Entrega do plano de aula e bibliografia, com indicação do ponto da didática, condicionada: 'no ato da inscrição'",
+  "documento_diz": "Item 4.2: \"O candidato indicará, no ato da inscrição, o ponto ou assunto, sobre o qual versará sua prova didática (...) e deverá anexar o plano de aula e bibliografia pertinentes\"; 2.1: inscrições \"das 00:00 do dia 03/08/2026 às 17:00 horas do dia 16/09/2026\"",
+  "fonte_conferida": "documentos/unesp-titular-2026/56 - Edital 294-2026 CSJRP - Análise Sensorial - São José do Rio Preto (DOE-SP 23-07-2026).html.docling.md, itens 2.1 e 4.2",
+  "observacao": "O texto confere. O prazo real é o fim das inscrições, 16/09/2026 às 17h, já passado, e não há documento posterior sobre o Edital 294 no acervo. Um aviso disparado agora ficaria sem efeito."
+ },
+ {
+  "id": "unifesp-393-2026#ev-0003",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Impugnação do edital até 2 dias úteis após o início das inscrições",
+  "documento_diz": "Item 2.1: \"em até 2 (dois) dias úteis, após o início das inscrições, tendo como termo inicial o 1º dia subsequente à data de início das inscrições\"",
+  "fonte_conferida": "documentos/unifesp-2026/65 - Edital 393-2026 - texto integral (HTML).html.docling.md, item 2.1; Anexo I, 1.1 (inscrições de 22/06 a 21/08/2026)",
+  "observacao": "Âncora, quantidade, unidade e sentido batem. Com as inscrições abertas em 22/06/2026, o prazo já venceu. O evento não é agendado."
+ },
+ {
+  "id": "ufmg-1638-2026#ev-0010",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Recurso à Câmara Departamental: 10 dias corridos após a divulgação do resultado na sessão pública final",
+  "documento_diz": "Item 14.1.1: \"Recursos contra decisão da Comissão Examinadora serão apresentados à Câmara Departamental ou estrutura equivalente no prazo de dez dias, contados a partir da data de divulgação do resultado do concurso na sessão pública final informada no subitem 11.10\"",
+  "fonte_conferida": "documentos/ufmg-1638-2026/01 - Edital nº 1.638-2026 - DCART Cartografia e Geodesia.docling.md, p. 7, itens 11.10 e 14.1.1; 02 - Edital nº 1.706-2026 (retificação)",
+  "observacao": "O edital diz só 'dez dias'. Ler como dias corridos segue a regra geral do processo administrativo (Lei 9.784, art. 66), mas é uma interpretação. A retificação 1.706 só troca o link da GRU."
+ },
+ {
+  "id": "unesp-fcfar-88-2026#ev-0016",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Sorteio do ponto da didática, condicionada: 'no dia da prova escrita'",
+  "documento_diz": "Item 12.6.1: \"O ponto da prova didática será sorteado no dia da prova escrita, dentre os pontos do concurso previstos no edital, excluído o ponto sorteado para a prova escrita.\"",
+  "fonte_conferida": "documentos/unesp-assistente-2026/131f2d93-6fb4-4e23-ae5f-81eef9935934.docling.md, p. 12, item 12.6.1; item 16.2; Comunicado 03/2026 (0b061653...)",
+  "observacao": "A data da prova escrita ainda não foi publicada (a convocação é o ev-0010), e a agenda não tem evento de prova escrita para este concurso. Faltar ao sorteio ou à prova no horário elimina (16.2); quando sair a convocação, esse horário precisa entrar na agenda."
+ }
+]

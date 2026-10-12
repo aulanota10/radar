@@ -1,0 +1,977 @@
+[
+ {
+  "id": "ufc-48-2026#ev-0014",
+  "estrato": "datada/impugnacao_banca",
+  "peso": 2.0,
+  "concurso": "ufc-48-2026",
+  "nome": "UFC 48/2026/CCV/UFC",
+  "evento_id": "ev-0014",
+  "tipo_evento": "impugnacao_banca",
+  "etapa": null,
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Recurso administrativo contra a composição das bancas.",
+  "forma": "fixa",
+  "inicio": "2026-10-22",
+  "fim": "2026-10-22",
+  "hora": null,
+  "documento": "documentos/ufc-48-2026/API 04 - EDITAL Nº 48-2026-CCV-UFC - CONCURSO PÚBLICO PARA PROVIMENTO DE CARGOS DE PROFESSOR DO MAGISTÉRIO SU.pdf",
+  "item": "22, cronograma",
+  "pagina": 28,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-10-22"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Recurso administrativo contra a composição das bancas",
+   "data": "22/10/2026 (quinta)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "fim",
+     [
+      1
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ufc-48-2026#ev-0015",
+  "estrato": "datada/impugnacao_banca_resultado",
+  "peso": 1.6666666666666667,
+  "concurso": "ufc-48-2026",
+  "nome": "UFC 48/2026/CCV/UFC",
+  "evento_id": "ev-0015",
+  "tipo_evento": "impugnacao_banca_resultado",
+  "etapa": null,
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Divulgação do resultado dos recursos contra a composição das bancas e resultado final da composição das bancas.",
+  "forma": "fixa",
+  "inicio": "2026-10-26",
+  "fim": "2026-10-26",
+  "hora": null,
+  "documento": "documentos/ufc-48-2026/API 04 - EDITAL Nº 48-2026-CCV-UFC - CONCURSO PÚBLICO PARA PROVIMENTO DE CARGOS DE PROFESSOR DO MAGISTÉRIO SU.pdf",
+  "item": "22, cronograma",
+  "pagina": 28,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-10-26"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Divulgação do resultado dos recursos contra a composição das bancas e resultado final da composição das bancas",
+   "data": "26/10/2026 (segunda)",
+   "agendado": false,
+   "regra_antecedencia": null
+  }
+ },
+ {
+  "id": "ufc-48-2026#ev-0034",
+  "estrato": "datada/prova",
+  "peso": 8.96875,
+  "concurso": "ufc-48-2026",
+  "nome": "UFC 48/2026/CCV/UFC",
+  "evento_id": "ev-0034",
+  "tipo_evento": "prova",
+  "etapa": "projeto",
+  "fase": null,
+  "escopo": [
+   "02",
+   "15",
+   "03",
+   "04",
+   "24",
+   "01",
+   "25",
+   "21",
+   "26",
+   "22"
+  ],
+  "descricao": "Período de realização das Provas: Prática, Prática-oral e Defesa de Projeto de Pesquisa.",
+  "forma": "janela",
+  "inicio": "2027-01-18",
+  "fim": "2027-01-20",
+  "hora": null,
+  "documento": "documentos/ufc-48-2026/API 04 - EDITAL Nº 48-2026-CCV-UFC - CONCURSO PÚBLICO PARA PROVIMENTO DE CARGOS DE PROFESSOR DO MAGISTÉRIO SU.pdf",
+  "item": "22, cronograma",
+  "pagina": 28,
+  "data_extraida": {
+   "forma": "janela",
+   "inicio": {
+    "data": "2027-01-18"
+   },
+   "fim": {
+    "data": "2027-01-20"
+   }
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Período de realização das Provas: Prática, Prática-oral e Defesa de Projeto de Pesquisa",
+   "data": "de 18/01/2027 (segunda) a 20/01/2027 (quarta)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      30,
+      15,
+      7,
+      2
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ufc-48-2026#ev-0025",
+  "estrato": "datada/recurso",
+  "peso": 8.2,
+  "concurso": "ufc-48-2026",
+  "nome": "UFC 48/2026/CCV/UFC",
+  "evento_id": "ev-0025",
+  "tipo_evento": "recurso",
+  "etapa": "didatica",
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Recurso administrativo contra resultado preliminar na Prova Didática.",
+  "forma": "fixa",
+  "inicio": "2026-12-18",
+  "fim": "2026-12-18",
+  "hora": null,
+  "documento": "documentos/ufc-48-2026/API 04 - EDITAL Nº 48-2026-CCV-UFC - CONCURSO PÚBLICO PARA PROVIMENTO DE CARGOS DE PROFESSOR DO MAGISTÉRIO SU.pdf",
+  "item": "22, cronograma",
+  "pagina": 28,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-12-18"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Recurso administrativo contra resultado preliminar na Prova Didática",
+   "data": "18/12/2026 (sexta)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      0
+     ]
+    ],
+    [
+     "fim",
+     [
+      1
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ufc-48-2026#ev-0057",
+  "estrato": "datada/recurso",
+  "peso": 8.2,
+  "concurso": "ufc-48-2026",
+  "nome": "UFC 48/2026/CCV/UFC",
+  "evento_id": "ev-0057",
+  "tipo_evento": "recurso",
+  "etapa": "pratica",
+  "fase": null,
+  "escopo": [
+   "16",
+   "23",
+   "47",
+   "52",
+   "54",
+   "55"
+  ],
+  "descricao": "Recurso administrativo contra resultado preliminar das Provas: Prática, Prático-oral e Defesa de Projeto de Pesquisa.",
+  "forma": "fixa",
+  "inicio": "2027-01-26",
+  "fim": "2027-01-26",
+  "hora": null,
+  "documento": "documentos/ufc-48-2026/API 04 - EDITAL Nº 48-2026-CCV-UFC - CONCURSO PÚBLICO PARA PROVIMENTO DE CARGOS DE PROFESSOR DO MAGISTÉRIO SU.pdf",
+  "item": "22, cronograma",
+  "pagina": 28,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2027-01-26"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Recurso administrativo contra resultado preliminar das Provas: Prática, Prático-oral e Defesa de Projeto de Pesquisa",
+   "data": "26/01/2027 (terça)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      0
+     ]
+    ],
+    [
+     "fim",
+     [
+      1
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ufc-48-2026#ev-0035",
+  "estrato": "datada/resultado",
+  "peso": 8.590909090909092,
+  "concurso": "ufc-48-2026",
+  "nome": "UFC 48/2026/CCV/UFC",
+  "evento_id": "ev-0035",
+  "tipo_evento": "resultado",
+  "etapa": "projeto",
+  "fase": "preliminar",
+  "escopo": [
+   "02",
+   "15",
+   "03",
+   "04",
+   "24",
+   "01",
+   "25",
+   "21",
+   "26",
+   "22"
+  ],
+  "descricao": "Resultado preliminar das Provas: Prática, Prática-oral e Defesa de Projeto de Pesquisa.",
+  "forma": "fixa",
+  "inicio": "2027-01-25",
+  "fim": "2027-01-25",
+  "hora": null,
+  "documento": "documentos/ufc-48-2026/API 04 - EDITAL Nº 48-2026-CCV-UFC - CONCURSO PÚBLICO PARA PROVIMENTO DE CARGOS DE PROFESSOR DO MAGISTÉRIO SU.pdf",
+  "item": "22, cronograma",
+  "pagina": 28,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2027-01-25"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Resultado preliminar das Provas: Prática, Prática-oral e Defesa de Projeto de Pesquisa",
+   "data": "25/01/2027 (segunda)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      2,
+      0
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ufc-48-2026#ev-0042",
+  "estrato": "datada/resultado_final",
+  "peso": 7.111111111111111,
+  "concurso": "ufc-48-2026",
+  "nome": "UFC 48/2026/CCV/UFC",
+  "evento_id": "ev-0042",
+  "tipo_evento": "resultado_final",
+  "etapa": null,
+  "fase": "final",
+  "escopo": "geral",
+  "descricao": "Divulgação do resultado final do Concurso",
+  "forma": "fixa",
+  "inicio": "2027-02-22",
+  "fim": "2027-02-22",
+  "hora": null,
+  "documento": "documentos/ufc-48-2026/API 04 - EDITAL Nº 48-2026-CCV-UFC - CONCURSO PÚBLICO PARA PROVIMENTO DE CARGOS DE PROFESSOR DO MAGISTÉRIO SU.pdf",
+  "item": "22, cronograma",
+  "pagina": 28,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2027-02-22"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Divulgação do resultado final do Concurso",
+   "data": "22/02/2027 (segunda)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      0
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ufms-137-2026#ev-0013",
+  "estrato": "datada/homologacao_inscricoes",
+  "peso": 6.714285714285714,
+  "concurso": "ufms-137-2026",
+  "nome": "UFMS 137/2026",
+  "evento_id": "ev-0013",
+  "tipo_evento": "homologacao_inscricoes",
+  "etapa": null,
+  "fase": "final",
+  "escopo": "geral",
+  "descricao": "II - homologação das inscrições deferidas; e III - divulgação das inscrições indeferidas.",
+  "forma": "fixa",
+  "inicio": "2026-11-11",
+  "fim": "2026-11-11",
+  "hora": null,
+  "documento": "documentos/ufms-137-2026/edital_progep_2026_137.pdf",
+  "item": "2.1 (Cronograma)",
+  "pagina": 2,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-11-11"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "II - homologação das inscrições deferidas; e III - divulgação das inscrições indeferidas",
+   "data": "11/11/2026 (quarta)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      2,
+      0
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ufms-137-2026#ev-0007",
+  "estrato": "datada/isencao_resultado",
+  "peso": 2.5,
+  "concurso": "ufms-137-2026",
+  "nome": "UFMS 137/2026",
+  "evento_id": "ev-0007",
+  "tipo_evento": "isencao_resultado",
+  "etapa": null,
+  "fase": "final",
+  "escopo": "geral",
+  "descricao": "Divulgação do resultado definitivo das solicitações de isenção do pagamento da taxa de inscrição.",
+  "forma": "fixa",
+  "inicio": "2026-10-23",
+  "fim": "2026-10-23",
+  "hora": null,
+  "documento": "documentos/ufms-137-2026/edital_progep_2026_137.pdf",
+  "item": "2.1 (Cronograma)",
+  "pagina": 2,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-10-23"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Divulgação do resultado definitivo das solicitações de isenção do pagamento da taxa de inscrição",
+   "data": "23/10/2026 (sexta)",
+   "agendado": false,
+   "regra_antecedencia": null
+  }
+ },
+ {
+  "id": "ufms-137-2026#ev-0005",
+  "estrato": "datada/isencao_resultado",
+  "peso": 2.5,
+  "concurso": "ufms-137-2026",
+  "nome": "UFMS 137/2026",
+  "evento_id": "ev-0005",
+  "tipo_evento": "isencao_resultado",
+  "etapa": null,
+  "fase": "preliminar",
+  "escopo": "geral",
+  "descricao": "Divulgação do resultado preliminar das solicitações de isenção da taxa de inscrição.",
+  "forma": "fixa",
+  "inicio": "2026-10-19",
+  "fim": "2026-10-19",
+  "hora": null,
+  "documento": "documentos/ufms-137-2026/edital_progep_2026_137.pdf",
+  "item": "2.1 (Cronograma)",
+  "pagina": 2,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-10-19"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Divulgação do resultado preliminar das solicitações de isenção da taxa de inscrição",
+   "data": "19/10/2026 (segunda)",
+   "agendado": false,
+   "regra_antecedencia": null
+  }
+ },
+ {
+  "id": "ufms-137-2026#ev-0021",
+  "estrato": "datada/prova",
+  "peso": 8.96875,
+  "concurso": "ufms-137-2026",
+  "nome": "UFMS 137/2026",
+  "evento_id": "ev-0021",
+  "tipo_evento": "prova",
+  "etapa": "escrita",
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Prova Escrita (realização de todas as etapas das provas de 8 a 12/12/2026; a Prova Escrita começa uma hora após a saída da Banca, ao final da Sessão de Sorteio dos Temas)",
+  "forma": "janela",
+  "inicio": "2026-12-08",
+  "fim": "2026-12-12",
+  "hora": null,
+  "documento": "documentos/ufms-137-2026/edital_progep_2026_137.pdf",
+  "item": "2.1 (Cronograma)",
+  "pagina": 2,
+  "data_extraida": {
+   "forma": "janela",
+   "inicio": {
+    "data": "2026-12-08"
+   },
+   "fim": {
+    "data": "2026-12-12"
+   }
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Prova Escrita (realização de todas as etapas das provas de 8 a 12/12/2026; a Prova Escrita começa uma hora após a saída da Banca, ao final da Sessão de Sorteio dos Temas)",
+   "data": "de 08/12/2026 (terça) a 12/12/2026 (sábado)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      30,
+      15,
+      7,
+      2
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ufu-118-2026#ev-0036",
+  "estrato": "datada/entrega_documento",
+  "peso": 7.3,
+  "concurso": "ufu-118-2026",
+  "nome": "UFU 118/2026",
+  "evento_id": "ev-0036",
+  "tipo_evento": "entrega_documento",
+  "etapa": "projeto",
+  "fase": null,
+  "escopo": [
+   "7"
+  ],
+  "descricao": "Envio do Projeto de Pesquisa",
+  "forma": "janela",
+  "inicio": "2026-10-26",
+  "fim": "2026-10-27",
+  "hora": "00:00",
+  "documento": "documentos/ufu-118-2026/06 - Edital 120-2026 FACOM - Condições Específicas.pdf",
+  "item": "2.2, cronograma previsto",
+  "pagina": 3,
+  "data_extraida": {
+   "forma": "janela",
+   "inicio": {
+    "data": "2026-10-26",
+    "hora": "00:00"
+   },
+   "fim": {
+    "data": "2026-10-27",
+    "hora": "23:59"
+   }
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Envio do Projeto de Pesquisa",
+   "data": "de 26/10/2026 (segunda), às 00:00 a 27/10/2026 (terça), até 23:59",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "fim",
+     [
+      15,
+      7,
+      3
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ufu-118-2026#ev-0037",
+  "estrato": "datada/sorteio_ordem",
+  "peso": 5.571428571428571,
+  "concurso": "ufu-118-2026",
+  "nome": "UFU 118/2026",
+  "evento_id": "ev-0037",
+  "tipo_evento": "sorteio_ordem",
+  "etapa": "projeto",
+  "fase": null,
+  "escopo": [
+   "7"
+  ],
+  "descricao": "Sorteio público da ordem de defesa do projeto",
+  "forma": "fixa",
+  "inicio": "2026-11-05",
+  "fim": "2026-11-05",
+  "hora": "08:30",
+  "documento": "documentos/ufu-118-2026/06 - Edital 120-2026 FACOM - Condições Específicas.pdf",
+  "item": "2.2, cronograma previsto",
+  "pagina": 3,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-11-05",
+   "hora": "08:30"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Sorteio público da ordem de defesa do projeto",
+   "data": "05/11/2026 (quinta), às 08:30",
+   "agendado": false,
+   "regra_antecedencia": null
+  }
+ },
+ {
+  "id": "ufu-118-2026#ev-0077",
+  "estrato": "datada/sorteio_tema",
+  "peso": 7.785714285714286,
+  "concurso": "ufu-118-2026",
+  "nome": "UFU 118/2026",
+  "evento_id": "ev-0077",
+  "tipo_evento": "sorteio_tema",
+  "etapa": "didatica",
+  "fase": null,
+  "escopo": [
+   "6"
+  ],
+  "descricao": "Sorteio público do tema da Prova Didática",
+  "forma": "fixa",
+  "inicio": "2026-10-26",
+  "fim": "2026-10-26",
+  "hora": "08:15",
+  "documento": "documentos/ufu-118-2026/16 - Edital 123-2026 ICENP - Retificação I das Condições Específicas (13-08-2026).pdf",
+  "item": "I) (leia-se), item 2.2 do Edital 123",
+  "pagina": 1,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-10-26",
+   "hora": "08:15"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Sorteio público do tema da Prova Didática",
+   "data": "26/10/2026 (segunda), às 08:15",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      7,
+      1
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ufrn-109-2026#ev-0011",
+  "estrato": "datada/isencao_resultado",
+  "peso": 2.5,
+  "concurso": "ufrn-109-2026",
+  "nome": "UFRN 109/2026-PROGESP",
+  "evento_id": "ev-0011",
+  "tipo_evento": "isencao_resultado",
+  "etapa": null,
+  "fase": "final",
+  "escopo": "geral",
+  "descricao": "Divulgação das inscrições isentas",
+  "forma": "fixa",
+  "inicio": "2026-11-05",
+  "fim": "2026-11-05",
+  "hora": null,
+  "documento": "documentos/ufrn-109-2026/01 - Edital de abertura 109-2026.pdf",
+  "item": "Anexo II",
+  "pagina": 31,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-11-05"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Divulgação das inscrições isentas",
+   "data": "05/11/2026 (quinta)",
+   "agendado": false,
+   "regra_antecedencia": null
+  }
+ },
+ {
+  "id": "ufrn-109-2026#ev-0029",
+  "estrato": "datada/procedimento_cotas",
+  "peso": 7.2727272727272725,
+  "concurso": "ufrn-109-2026",
+  "nome": "UFRN 109/2026-PROGESP",
+  "evento_id": "ev-0029",
+  "tipo_evento": "procedimento_cotas",
+  "etapa": null,
+  "fase": "convocacao",
+  "escopo": "geral",
+  "descricao": "Entrevista com a comissão de heteroidentificação (pretos/pardos), verificação documental complementar (indígenas/quilombolas) e avaliação biopsicossocial (pessoas com deficiência)",
+  "forma": "janela",
+  "inicio": "2027-04-13",
+  "fim": "2027-04-16",
+  "hora": null,
+  "documento": "documentos/ufrn-109-2026/01 - Edital de abertura 109-2026.pdf",
+  "item": "Anexo II",
+  "pagina": 32,
+  "data_extraida": {
+   "forma": "janela",
+   "inicio": {
+    "data": "2027-04-13"
+   },
+   "fim": {
+    "data": "2027-04-16"
+   }
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Entrevista com a comissão de heteroidentificação (pretos/pardos), verificação documental complementar (indígenas/quilombolas) e avaliação biopsicossocial (pessoas com deficiência)",
+   "data": "de 13/04/2027 (terça) a 16/04/2027 (sexta)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      2,
+      0
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ufrn-109-2026#ev-0030",
+  "estrato": "datada/procedimento_cotas",
+  "peso": 7.2727272727272725,
+  "concurso": "ufrn-109-2026",
+  "nome": "UFRN 109/2026-PROGESP",
+  "evento_id": "ev-0030",
+  "tipo_evento": "procedimento_cotas",
+  "etapa": null,
+  "fase": "resultado",
+  "escopo": "geral",
+  "descricao": "Resultado das entrevistas com a comissão de heteroidentificação, verificação documental e da avaliação biopsicossocial",
+  "forma": "fixa",
+  "inicio": "2027-04-19",
+  "fim": "2027-04-19",
+  "hora": null,
+  "documento": "documentos/ufrn-109-2026/01 - Edital de abertura 109-2026.pdf",
+  "item": "Anexo II",
+  "pagina": 32,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2027-04-19"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Resultado das entrevistas com a comissão de heteroidentificação, verificação documental e da avaliação biopsicossocial",
+   "data": "19/04/2027 (segunda)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      2,
+      0
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ufsj-2026#ev-0010",
+  "estrato": "datada/outro",
+  "peso": 8.176470588235293,
+  "concurso": "ufsj-2026",
+  "nome": "UFSJ",
+  "evento_id": "ev-0010",
+  "tipo_evento": "outro",
+  "etapa": null,
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Data provável da confirmação do horário e local das provas",
+  "forma": "fixa",
+  "inicio": "2026-10-16",
+  "fim": "2026-10-16",
+  "hora": null,
+  "documento": "documentos/ufsj-2026/63 - Edital de abertura CPD 020 a 031-2026 (versão DOU 26-08-2026).pdf",
+  "item": "Anexo II, Cronograma Geral",
+  "pagina": 8,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-10-16"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Data provável da confirmação do horário e local das provas",
+   "data": "16/10/2026 (sexta)",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      2
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ufsj-2026#ev-0023",
+  "estrato": "nao_datada/recurso_resultado",
+  "peso": 18.333333333333332,
+  "concurso": "ufsj-2026",
+  "nome": "UFSJ",
+  "evento_id": "ev-0023",
+  "tipo_evento": "recurso_resultado",
+  "etapa": null,
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "A comissão examinadora terá o prazo de 2 (dois) dias úteis para apreciar eventuais pedidos de recurso com pedido de reconsideração de nota; resultado disponibilizado por Nota Informativa (8.14.2)",
+  "forma": "relativa",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/ufsj-2026/63 - Edital de abertura CPD 020 a 031-2026 (versão DOU 26-08-2026).pdf",
+  "item": "8.14.1",
+  "pagina": 5,
+  "data_extraida": {
+   "forma": "relativa",
+   "quantidade": 2,
+   "unidade": "dias_uteis",
+   "evento_ancora": "interposição do recurso com pedido de reconsideração de nota (recurso)",
+   "sentido": "apos"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "A comissão examinadora terá o prazo de 2 (dois) dias úteis para apreciar eventuais pedidos de recurso com pedido de reconsideração de nota...",
+   "data": "2 dias úteis depois de interposição do recurso com pedido de reconsideração de nota",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      0
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "unifesp-373-2026#ev-0006",
+  "estrato": "nao_datada/pagamento",
+  "peso": 11.5,
+  "concurso": "unifesp-373-2026",
+  "nome": "UNIFESP 373/2026",
+  "evento_id": "ev-0006",
+  "tipo_evento": "pagamento",
+  "etapa": null,
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Pagamento da taxa de inscrição por PIX ou cartão de crédito, dentro do período de inscrição",
+  "forma": "condicionada",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/unifesp-2026/Edital 373-2026 - texto integral (HTML).pdf",
+  "item": "Anexo I, 1.1.3.2",
+  "pagina": 29,
+  "data_extraida": {
+   "forma": "condicionada",
+   "condicao_literal": "dentro do período de inscrição, previsto no item 4.4 do edital de abertura"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Pagamento da taxa de inscrição por PIX ou cartão de crédito, dentro do período de inscrição",
+   "data": "dentro do período de inscrição, previsto no item 4.4 do edital de abertura",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "fim",
+     [
+      2
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "unifesp-373-2026#ev-0008",
+  "estrato": "nao_datada/procedimento_cotas",
+  "peso": 31.833333333333332,
+  "concurso": "unifesp-373-2026",
+  "nome": "UNIFESP 373/2026",
+  "evento_id": "ev-0008",
+  "tipo_evento": "procedimento_cotas",
+  "etapa": null,
+  "fase": "convocacao",
+  "escopo": "geral",
+  "descricao": "Convocação para o procedimento de confirmação complementar à autodeclaração, com antecedência mínima de 5 dias úteis da data da aferição",
+  "forma": "relativa",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/unifesp-2026/Edital 373-2026 - texto integral (HTML).pdf",
+  "item": "7.4.1",
+  "pagina": 13,
+  "data_extraida": {
+   "forma": "relativa",
+   "quantidade": 5,
+   "unidade": "dias_uteis",
+   "evento_ancora": "data da aferição pela comissão",
+   "sentido": "antes"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Convocação para o procedimento de confirmação complementar à autodeclaração, com antecedência mínima de 5 dias úteis da data da aferição",
+   "data": "5 dias úteis antes de data da aferição pela comissão",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      2,
+      0
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "uesc-050-2026#ev-0036",
+  "estrato": "datada/sorteio_ordem",
+  "peso": 5.571428571428571,
+  "concurso": "uesc-050-2026",
+  "nome": "UESC 50/2026",
+  "evento_id": "ev-0036",
+  "tipo_evento": "sorteio_ordem",
+  "etapa": "didatica",
+  "fase": null,
+  "escopo": [
+   "04"
+  ],
+  "descricao": "Sorteio",
+  "forma": "fixa",
+  "inicio": "2026-10-14",
+  "fim": "2026-10-14",
+  "hora": "08:00",
+  "documento": "documentos/uesc-050-2026/51 - Cronograma da 2ª fase (arquivo do Google Drive).pdf",
+  "item": "CRONOGRAMA DAS DEMAIS ETAPAS",
+  "pagina": 1,
+  "data_extraida": {
+   "forma": "fixa",
+   "data": "2026-10-14",
+   "hora": "08:00"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Sorteio ordem",
+   "data": "14/10/2026 (quarta), às 08:00",
+   "agendado": false,
+   "regra_antecedencia": null
+  }
+ },
+ {
+  "id": "unimontes-15-2026#ev-0002",
+  "estrato": "nao_datada/impugnacao_edital",
+  "peso": 21.75,
+  "concurso": "unimontes-15-2026",
+  "nome": "Unimontes 15/2026",
+  "evento_id": "ev-0002",
+  "tipo_evento": "impugnacao_edital",
+  "etapa": null,
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "Impugnação parcial ou total do Edital, no prazo de 5 (cinco) dias úteis, contado do primeiro dia útil subsequente à data de sua publicação",
+  "forma": "relativa",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/unimontes-2026/32 - Edital 15-2026 - Biologia Geral.pdf",
+  "item": "1.20.1",
+  "pagina": 2,
+  "data_extraida": {
+   "forma": "relativa",
+   "quantidade": 5,
+   "unidade": "dias_uteis",
+   "evento_ancora": "publicação do edital (publicacao_edital)",
+   "sentido": "apos"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Impugnação parcial ou total do Edital, no prazo de 5 (cinco) dias úteis, contado do primeiro dia útil subsequente à data de sua publicação",
+   "data": "5 dias úteis depois de publicação do edital",
+   "agendado": false,
+   "regra_antecedencia": null
+  }
+ },
+ {
+  "id": "unesp-foa-138-2026#ev-0012",
+  "estrato": "nao_datada/recurso",
+  "peso": 39.214285714285715,
+  "concurso": "unesp-foa-138-2026",
+  "nome": "UNESP 138/2026",
+  "evento_id": "ev-0012",
+  "tipo_evento": "recurso",
+  "etapa": null,
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "recurso à Congregação contra o resultado final, sob os aspectos legal e formal",
+  "forma": "relativa",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/unesp-titular-2026/52 - Edital 138-2026 STGP-DTAd - Odontopediatria - Araçatuba (DOE-SP 26-08-2026).html",
+  "item": "12.4.1",
+  "pagina": null,
+  "data_extraida": {
+   "forma": "relativa",
+   "quantidade": 10,
+   "unidade": "dias_uteis",
+   "evento_ancora": "publicação do resultado final no Diário Oficial do Estado (resultado_final)",
+   "sentido": "apos"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "Recurso à Congregação contra o resultado final, sob os aspectos legal e formal",
+   "data": "10 dias úteis depois de publicação do resultado final no Diário Oficial do Estado",
+   "agendado": true,
+   "regra_antecedencia": [
+    [
+     "ini",
+     [
+      0
+     ]
+    ],
+    [
+     "fim",
+     [
+      1
+     ]
+    ]
+   ]
+  }
+ },
+ {
+  "id": "ufpe-08-2026#ev-0026",
+  "estrato": "nao_datada/sorteio_ordem",
+  "peso": 11.0,
+  "concurso": "ufpe-08-2026",
+  "nome": "UFPE 08/2026",
+  "evento_id": "ev-0026",
+  "tipo_evento": "sorteio_ordem",
+  "etapa": "didatica",
+  "fase": null,
+  "escopo": "geral",
+  "descricao": "A ordem de apresentação de cada turno será sorteada imediatamente antes do início da realização da prova didática",
+  "forma": "condicionada",
+  "inicio": null,
+  "fim": null,
+  "hora": null,
+  "documento": "documentos/ufpe-08-2026/01 - Edital nº 08, de 29-06-2026 - Docentes Efetivos Recife-CAA-CAV (versão corrigida).pdf",
+  "item": "17.5",
+  "pagina": 14,
+  "data_extraida": {
+   "forma": "condicionada",
+   "condicao_literal": "imediatamente antes do início da realização da prova didática"
+  },
+  "como_o_alerta_leria": {
+   "rotulo": "A ordem de apresentação de cada turno será sorteada imediatamente antes do início da realização da prova didática",
+   "data": "imediatamente antes do início da realização da prova didática",
+   "agendado": false,
+   "regra_antecedencia": null
+  }
+ }
+]

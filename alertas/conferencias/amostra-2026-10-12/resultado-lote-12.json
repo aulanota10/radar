@@ -1,0 +1,242 @@
+[
+ {
+  "id": "uerj-224-2026#ev-0020",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Entrega dos planos de trabalho da prova prática em 19/03/2027, sem hora",
+  "documento_diz": "11.1 r) \"Entrega de Títulos e Trabalhos e dos planos de trabalhos referentes à prova prática –19/03/2027, imediatamente após o resultado da Prova de Aula\" (resultado da aula às 9h, item q)",
+  "fonte_conferida": "documentos/uerj-2026/02 - Seleção 2026-224 - Edital.pdf (pdftotext), p. 11, item 11.1 q-t e 11.2; 9.1.3 d",
+  "observacao": "Sem hora no alerta, mas o rótulo diz 'imediatamente após o resultado da Prova de Aula' (9h, ev-0018 na agenda); sorteio da ordem da prática 9h45 e prova 10h. Item 11.2 manda chegar 10 min antes de cada horário, sem cláusula de eliminação. Nenhum documento posterior da Seleção 224 na pasta."
+ },
+ {
+  "id": "uerj-224-2026#ev-0004",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Pedido de isenção até 14/01/2027",
+  "documento_diz": "11.1 d) \"Pedido de isenção da taxa de inscrição – até o dia 14/01/2027\"; 4.3/4.6 remetem ao cronograma",
+  "fonte_conferida": "documentos/uerj-2026/02 - Seleção 2026-224 - Edital.pdf (pdftotext), p. 10, item 11.1 d; p. 4, itens 4.3-4.6",
+  "observacao": null
+ },
+ {
+  "id": "uerj-224-2026#ev-0013",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Continuação da leitura da prova escrita em 16/03/2027 às 08:00",
+  "documento_diz": "11.1 l) \"Continuação da leitura da prova escrita - 16/03/2027, às 8 h.\"",
+  "fonte_conferida": "documentos/uerj-2026/02 - Seleção 2026-224 - Edital.pdf (pdftotext), p. 10, item 11.1 l; 11.2",
+  "observacao": "11.2: apresentar-se 10 minutos antes de cada hora marcada; o edital não prevê eliminação por isso."
+ },
+ {
+  "id": "uerj-224-2026#ev-0009",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Divulgação da composição da Comissão Examinadora em 26/02/2027, até 18h",
+  "documento_diz": "11.1 h) \"Divulgação da lista dos candidatos inscritos (no sistema PROSSIM) e da composição da Comissão Examinadora – 26/02/2027, até às 18 h.\"",
+  "fonte_conferida": "documentos/uerj-2026/02 - Seleção 2026-224 - Edital.pdf (pdftotext), p. 10, item 11.1 h; 8.5 e 8.7",
+  "observacao": "O alerta escreve 'às 18:00' para um 'até às 18 h'; é divulgação, não prazo do candidato, então não induz erro. O prazo de impugnação (7 dias, 8.7) conta desta data e está em ev-0023."
+ },
+ {
+  "id": "uerj-224-2026#ev-0026",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Revisão/impugnação junto à Comissão: 7 dias úteis após a divulgação do resultado final",
+  "documento_diz": "13.1 \"...a revisão e/ou a impugnação dos resultados das provas... no prazo de até 07 (sete) dias úteis, a contar da divulgação do resultado final.\"",
+  "fonte_conferida": "documentos/uerj-2026/02 - Seleção 2026-224 - Edital.pdf (pdftotext), p. 11, item 13.1; 12.1 e 12.3",
+  "observacao": "Âncora, quantidade, unidade e sentido batem. A linha de data ('7 dias úteis depois de...') omite o 'até', mas a regra de aviso (início e véspera do fim) trata como prazo. A âncora (resultado final, 12.1 'em até 07 dias úteis') não tem data, então o aviso só se materializa quando ela for publicada."
+ },
+ {
+  "id": "ufvjm-101-2026#ev-0033",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Sessão de Abertura da prova didática em 25/01/2027 às 08:00 (área 101.4)",
+  "documento_diz": "Cronograma da área: \"2ª | Sessão de Abertura da prova didática | 25/01/2027 | 08:00 h | Sala 31 prédio 2, Campus I\"; 2.4 \"incluindo a sessão de abertura... O não comparecimento ou o atraso implicará eliminação\"",
+  "fonte_conferida": "documentos/ufvjm-101-2026/Área 101.4.docling.md, p. 1-2, itens 2.2, 2.4 e tabela do cronograma; Edital 102/2026 (retificação de 08/10)",
+  "observacao": "2.2 chama o cronograma de 'previsto... de caráter meramente estimativo', alterável com 10 dias úteis de antecedência; é data pontual, não janela longa. O Edital 102/2026 só retifica titulação (101.3, 101.7, 101.8, 101.9, 101.20, 101.23); a 101.4 não tem versão retificada. Diferente dos outros eventos da 101.4, a descrição não leva a ressalva 'cronograma previsto'."
+ },
+ {
+  "id": "ufvjm-101-2026#ev-0036",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Sorteio do tema da prova didática em 25/01/2027 às 09:00 (área 101.4)",
+  "documento_diz": "Cronograma da área: \"2ª | Sorteio do tema da prova didática | 25/01/2027 | 09:00 h\"; presença obrigatória sob pena de eliminação (2.4)",
+  "fonte_conferida": "documentos/ufvjm-101-2026/Área 101.4.docling.md, p. 1-2, cronograma e item 2.4",
+  "observacao": "A presença anterior que elimina (sessão de abertura às 8h) existe como evento próprio (ev-0033). Mesma ressalva de cronograma estimativo do item anterior."
+ },
+ {
+  "id": "ufvjm-101-2026#ev-0144",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Entrega do barema e comprovantes de títulos 'na sessão de abertura da prova didática' (101.23)",
+  "documento_diz": "6.2 \"O barema e os comprovantes deverão ser impressos e entregues em 01 (uma) via para o secretário da banca examinadora na sessão de abertura da prova didática e enviados para o e-mail... na data da sessão de abertura\"",
+  "fonte_conferida": "documentos/ufvjm-101-2026/Área 101.23.docling.md e 'Área 101.23 ... - Retificado.docling.md', item 6.2 (igual nas duas versões); 2.2 e 2.4",
+  "observacao": "Condição fiel. Lacuna relacionada: 2.4 torna eliminatória a ausência na sessão de abertura, e a agenda da 101.23 não tem evento próprio para ela (o cronograma da área ainda não saiu, 2.2); o rótulo pelo menos nomeia a sessão. A extração cita o documento original, não o Retificado de 08/10, mas o texto do 6.2 não mudou."
+ },
+ {
+  "id": "ufvjm-101-2026#ev-0029",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "horario_presenca_omitido",
+  "atribuicao": "extrator",
+  "extracao_diz": "Prova didática da 101.3 com data a divulgar no cronograma da área (10 dias úteis antes da 1ª prova)",
+  "documento_diz": "2.2 \"O cronograma será divulgado na página destinada ao concurso com antecedência mínima de 10 (dez) dias úteis da realização da primeira prova\"; 2.4 \"incluindo a sessão de abertura... O não comparecimento ou o atraso implicará eliminação\"",
+  "fonte_conferida": "documentos/ufvjm-101-2026/Área 101.3 - Interdisciplinar, Sociologia.docling.md e versão Retificado, itens 2.2, 2.4 e 5.2",
+  "observacao": "A condição da data está certa. Falta na agenda da 101.3 qualquer evento para a sessão de abertura da prova didática, cuja ausência elimina (2.4) e na qual se entregam barema e comprovantes (5.2); só a 101.4, que trouxe cronograma, tem esse evento. O Retificado de 08/10 não muda 2.2/2.4."
+ },
+ {
+  "id": "ufvjm-101-2026#ev-0054",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "horario_presenca_omitido",
+  "atribuicao": "extrator",
+  "extracao_diz": "Prova prática da 101.8 com data a divulgar no cronograma da área (10 dias úteis antes da 1ª prova)",
+  "documento_diz": "2.2 \"O cronograma será divulgado... com antecedência mínima de 10 (dez) dias úteis\"; 2.5 \"incluindo a sessão de abertura e os sorteios referentes à ordem de apresentação e temas... O não comparecimento ou o atraso implicará eliminação\"; 5.5 \"O ponto e a ordem dos candidatos serão sorteados antes da prova\"",
+  "fonte_conferida": "documentos/ufvjm-101-2026/Área 101.8 - Farmácia - Cuidado Farmacêutico.docling.md e versão Retificado, itens 2.2, 2.4, 2.5, 5.5",
+  "observacao": "Condição certa. A agenda da 101.8 não tem a sessão de abertura nem o sorteio de ponto e ordem da prova prática (5.5), ambos com presença eliminatória (2.5). Atenção também a 2.4: 'Todos os candidatos se apresentarão 24 horas após o sorteio do conteúdo'. O Retificado de 08/10 mantém esses itens."
+ },
+ {
+  "id": "ufpel-028-2026#ev-0022",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Janela 23/11 a 11/12/2026 tipada como prova prática (áreas 21 e 26); alerta diz 'período provável' e não é agendado",
+  "documento_diz": "6.3 \"As provas ocorrerão no período provável de 23 de novembro a 11 de dezembro de 2026, devendo ser observado o cronograma específico de cada área\"; Cronograma item 10 \"Período de Provas... 23/11 a 11/12/2026\"",
+  "fonte_conferida": "documentos/ufpel-028-2026/51 - Edital de abertura 028-2026.docling.md, item 6.3; 54 - Cronograma geral do certame, item 10; RETIFICACAO 28-26 (só Anexo I, área 11)",
+  "observacao": "Na extração o período provável virou janela de tipo prova, mas o leitor neutralizou: rótulo 'Período de Provas', texto 'período provável' e agendado=false. A presença eliminatória anterior (Ato de Instalação, 6.5/6.6) existe como ev-0018. Escopo 21/26 coerente com o Anexo III (prova prática)."
+ },
+ {
+  "id": "ufpel-028-2026#ev-0008",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Envio de formulário e documentação PcD até 1 dia útil após o encerramento das inscrições",
+  "documento_diz": "4.9.2 IV \"Enviar o formulário (inciso II) e documentação (inciso III) até o primeiro dia útil após o encerramento das inscrições\"",
+  "fonte_conferida": "documentos/ufpel-028-2026/51 - Edital de abertura 028-2026.docling.md, p. 6, item 4.9.2 IV; Cronograma item 1 (inscrições 14/09 a 04/10/2026)",
+  "observacao": "Inscrições terminaram em 04/10/2026 (domingo), logo o prazo foi 05/10/2026, já passado. Sem hora no 4.9.2 (a hora de 18h do 4.8.1 III é do nome social). Texto '1 dias úteis' só tem erro de concordância."
+ },
+ {
+  "id": "ufpel-028-2026#ev-0009",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Atendimento diferenciado: material até 1 dia corrido após o término das inscrições",
+  "documento_diz": "7.1 \"Todo o material deve ser enviado por meio do formulário online... até o dia seguinte ao término das inscrições\"",
+  "fonte_conferida": "documentos/ufpel-028-2026/51 - Edital de abertura 028-2026.docling.md, p. 19, item 7.1",
+  "observacao": "Prazo efetivo 05/10/2026, já passado."
+ },
+ {
+  "id": "ufpel-028-2026#ev-0030",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Convocação dos cotistas para os procedimentos complementares: após o resultado dos recursos, conforme convocação",
+  "documento_diz": "Cronograma item 11 \"Comunicado/convocação dos candidatos cotistas... | Após a publicação do resultado dos recursos, conforme convocação\"",
+  "fonte_conferida": "documentos/ufpel-028-2026/54 - Cronograma geral do certame.docling.md, p. 1, item 11",
+  "observacao": "Condição literal fiel. O resultado dos recursos da homologação está previsto para 16/11/2026 (item 9), e o procedimento em si para 23/11 a 11/12 (item 12)."
+ },
+ {
+  "id": "uftm-28-2026#ev-0050",
+  "veredito": "ERRADA",
+  "categoria": "outra",
+  "atribuicao": "leitor",
+  "extracao_diz": "Sessão pública de sorteio dos candidatos por turmas da prova didática, Lotação 02, 20/10/2026 às 13:15; agendado=false",
+  "documento_diz": "Portaria da Lotação 02: \"20/10/2026 às 13:15 - UFTM - Centro Educacional - Sala 229... A presença na sessão pública de sorteio dos candidatos por turmas de apresentação da prova didática é obrigatória para todos os candidatos\"; Edital 8.4.8 \"sorteio, com presença obrigatória do candidato\"; 15.1 b",
+  "fonte_conferida": "documentos/uftm-28-2026/58 - Banca examinadora, sorteios e cronograma - Lotação 02.docling.md, p. 2-3; Retifica_ccedil__atilde_o_stro_download (Portaria 975, de 02/10, só muda local da prática); 51 - Edital, itens 8.4.7, 8.4.8 e 15.1",
+  "observacao": "Data e hora certas e vigentes. O erro é que o tipo sorteio_turma não tem regra em REGRAS (alertas/agenda.py), então uma sessão de presença obrigatória para todos os candidatos, a 8 dias de hoje, não gera aviso nenhum. Agrava: a agenda da Lotação 02 também não tem os sorteios de tema da didática por turma (20/10 13:30, 21/10 13:15, 22/10 08:00 e 14:00) nem as aulas (21 a 23/10), que estão na mesma portaria; lacuna do extrator (possível horarios_individuais por turma), registrada aqui como secundária."
+ },
+ {
+  "id": "uftm-28-2026#ev-0035",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Divulgação dos indígenas e quilombolas habilitados para a verificação documental: após o resultado preliminar, conforme cronograma de cada lotação",
+  "documento_diz": "Cronograma: \"Divulgação dos candidatos indígenas e quilombolas habilitados para o procedimento de verificação documental complementar, informando a data e outras orientações. | Após a divulgação do resultado preliminar e de acordo com o cronograma de cada lotação.\"",
+  "fonte_conferida": "documentos/uftm-28-2026/51 - Edital 28-2026 - abertura (20-07-2026).docling.md, p. 3, cronograma (item 4); Retificações 01 e 02 (mesma linha mantida)",
+  "observacao": "Condição fiel. A extração tem ev-0034 e ev-0035 com rótulo idêntico (separados por modalidade indígenas/quilombolas); o candidato receberia a mesma mensagem duas vezes."
+ },
+ {
+  "id": "uftm-28-2026#ev-0013",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Divulgação da data, horário e link do sorteio público de cotas: após a lista final de homologadas; não agendado",
+  "documento_diz": "Cronograma: \"Divulgação da data de realização, horário e link para o sorteio público das vagas de cotas. | Após a divulgação da lista final das inscrições homologadas.\"",
+  "fonte_conferida": "documentos/uftm-28-2026/51 - Edital 28-2026 - abertura (20-07-2026).docling.md, p. 2, cronograma; Retificações 01 e 02; Nota Informativa db09a37e e Resultado do sorteio e3d5e29c",
+  "observacao": "Condição fiel e sem alerta agendado. O evento já se cumpriu: a lista final saiu em 21/08 e o sorteio ocorreu em 31/08/2026 às 10h (ev-0069), mas o item segue como condicionada vigente; sem efeito para o candidato porque não gera aviso."
+ },
+ {
+  "id": "unesp-ict-163-2026#ev-0010",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Convocação para as provas 5 dias úteis antes da data de realização da prova",
+  "documento_diz": "10.1 \"A convocação para as provas será feita por meio de publicação no Diário Oficial do Estado e disponibilizada no Sistema de Inscrições... com, pelo menos, 05 (cinco) dias úteis de antecedência à data de realização da prova.\"",
+  "fonte_conferida": "documentos/unesp-assistente-2026/53 - Edital 163-2026 ICT-CSJC - Odontologia - São José dos Campos (DOE-SP 21-08-2026).html.docling.md, item 10.1; 16.2",
+  "observacao": "A linha de data trata como exato ('5 dias úteis antes') o que é mínimo ('pelo menos'), mas o rótulo conserva 'com pelo menos 05 dias úteis'. A âncora (data da prova) é justamente o que a convocação define, então o aviso só existe quando a convocação sair. 16.2 elimina quem não comparecer à sala de sorteio/prova no horário: esse horário virá na convocação. Nenhum documento posterior do Edital 163 na pasta."
+ },
+ {
+  "id": "unesp-ict-163-2026#ev-0009",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Impugnação de membro da banca até 2 dias úteis após a publicação da composição provisória",
+  "documento_diz": "9.3 \"No prazo de até 2 (dois) dias úteis após a publicação da composição provisória da Banca Examinadora no Diário Oficial e disponibilização no Sistema de Inscrições... poderá ser apresentada ao Diretor da Unidade... impugnação\"",
+  "fonte_conferida": "documentos/unesp-assistente-2026/53 - Edital 163-2026 ICT-CSJC - Odontologia - São José dos Campos (DOE-SP 21-08-2026).html.docling.md, itens 9.1, 9.3 e 9.4",
+  "observacao": "Âncora, quantidade, unidade e sentido batem. Pela 9.1 a banca sai na mesma data do deferimento das inscrições (ev-0006/ev-0008, ainda sem data)."
+ },
+ {
+  "id": "unimontes-03-2026#ev-0010",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Inscrições de 24/08/2026 às 08:00 a 24/10/2026 às 23:59",
+  "documento_diz": "Retificação 1, III, leia-se 4.2.1: \"no período das 8h00 do dia 24/08/2026 às 23h59 do dia 24/10/2026\"",
+  "fonte_conferida": "documentos/unimontes-2026/06 - Edital 03-2026 - Retificação 1 (História).docling.md, p. 1, item III; 05 - Edital 03-2026 - História, 4.2.1 (original 24/09)",
+  "observacao": "A extração aplicou a retificação (original terminava em 24/09). Não há retificação 2 do Edital 03 na pasta; o Comunicado Oficial 01/2026 não cita o Edital 03."
+ },
+ {
+  "id": "uerj-229-2026#ev-0013",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Leitura da prova escrita em 03/11/2026 às 14:00",
+  "documento_diz": "11.1 k) \"Leitura da prova escrita – 03/11/2026, às 14h\"",
+  "fonte_conferida": "documentos/uerj-2026/06 - Seleção 2026-229 - Edital.pdf (pdftotext), p. 9, item 11.1 i-k e 11.2; 24 - Seleção 2026-229 - Errata",
+  "observacao": "A errata da 229 só altera a tabela de vagas e o valor da taxa (3.1 f). 11.2: apresentar-se 30 minutos antes de cada hora marcada, sem cláusula de eliminação."
+ },
+ {
+  "id": "usp-if-58-2026#ev-0016",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Apreciação do relatório pela Congregação para homologação: prazo máximo de 90 dias; publicação em 5 dias úteis",
+  "documento_diz": "13. \"O relatório da Comissão Julgadora deverá ser apreciado pela Congregação, para fins de homologação, após exame formal, no prazo máximo de 90 (noventa) dias.\" Parágrafo único: \"...deverão ser publicados no prazo de 5 (cinco) dias úteis.\"",
+  "fonte_conferida": "documentos/usp-if-58-2026/01 - Edital IF-58-2026 (publicação DOE).docling.md, item 13 (p. 7)",
+  "observacao": "Condição literal fiel; o próprio edital não diz de quando contam os 90 dias. Evento informativo, sem prazo do candidato. Os demais arquivos da pasta (01-10, Edital, CAC etc.) são de progressão horizontal e de outros editais."
+ },
+ {
+  "id": "unifesp-417-2026#ev-0006",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Pagamento da taxa por PIX ou cartão dentro do período de inscrição (item 4.4)",
+  "documento_diz": "Anexo I, 1.1.3.2 \"As inscrições somente serão efetivadas se ocorrer o pagamento por meio de PIX ou Cartão de Crédito... dentro do período de inscrição, previsto no item 4.4\"; 4.8 idem",
+  "fonte_conferida": "documentos/unifesp-2026/Edital 417-2026 - texto integral (HTML).docling.md, itens 4.4, 4.8 e Anexo I 1.1.3.2",
+  "observacao": "Condição fiel. O período de inscrição na agenda (ev-0004) é 22/06 a 21/08/2026, já encerrado; o prazo poderia ter sido datado pela inscrição, mas nada induz erro."
+ },
+ {
+  "id": "usp-fm-167-2026#ev-0010",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "extracao_diz": "Recurso contra a apreciação das inscrições: 10 dias corridos após a publicação no DOE",
+  "documento_diz": "15. \"Caberá recurso, no prazo de 10 (dez) dias, contados da data da publicação do respectivo ato no Diário Oficial do Estado, sob pena de preclusão, nas seguintes hipóteses: ... II - apreciação das inscrições pela Congregação, no que tange aos requisitos formais\"",
+  "fonte_conferida": "documentos/usp-fm-199-2026/Edital DVACAD-FM-167-2026.docling.md, item 15 II",
+  "observacao": "Âncora, quantidade, unidade (o edital não diz úteis) e sentido batem. As retificações e a suspensão da pasta são de outros editais (9, 58, 203)."
+ }
+]
