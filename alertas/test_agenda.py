@@ -109,6 +109,63 @@ class Agendados(unittest.TestCase):
         self.assertIn("até 16:00", t[0])
         self.assertIn("último dia", t[0])
 
+    def test_aviso_da_prova_leva_o_sorteio_anterior(self):  # simulação de 12/10: UERJ, UFU 118, UNILAB 14
+        t = rodar([{"tipo_evento": "prova", "etapa_ref": "escrita", "descricao_literal": "Prova escrita",
+                    "data": {"forma": "fixa", "data": "2026-11-09", "hora": "09:00"}},
+                   {"tipo_evento": "sorteio_tema", "etapa_ref": "escrita", "descricao_literal": "Sorteio do ponto da prova escrita",
+                    "data": {"forma": "fixa", "data": "2026-11-09", "hora": "08:00"}},
+                   {"tipo_evento": "outro", "etapa_ref": "escrita", "descricao_literal": "Comparecimento obrigatório 30 minutos antes",
+                    "data": {"forma": "fixa", "data": "2026-11-09", "hora": "07:30"}}],
+                  dt.date(2026, 10, 25), dt.date(2026, 10, 24))  # 15 dias antes da prova
+        self.assertEqual(len(t), 3)
+        self.assertTrue(any("07:30" in x for x in t) and any("08:00" in x for x in t))
+
+    def test_sorteio_sem_data_da_mesma_etapa_vai_com_a_condicao(self):  # UFV 48 e 49
+        t = rodar([{"tipo_evento": "prova", "etapa_ref": "didatica", "descricao_literal": "Prova de Didática",
+                    "data": {"forma": "fixa", "data": "2026-12-02"}},
+                   {"tipo_evento": "sorteio_tema", "etapa_ref": "didatica", "descricao_literal": "sorteio do ponto, presença obrigatória",
+                    "data": {"forma": "relativa", "quantidade": 24, "unidade": "horas", "evento_ancora": "Prova de Didática", "sentido": "antes"}}],
+                  dt.date(2026, 11, 2), dt.date(2026, 11, 1))
+        self.assertEqual(len(t), 2)
+        self.assertTrue(any("24 horas antes" in x for x in t))
+
+    def test_sorteio_sem_data_nao_vai_com_outro_compromisso(self):  # rodada 2: IFMG 607, FMUSP 167
+        t = rodar([{"tipo_evento": "convocacao", "etapa_ref": "escrita", "descricao_literal": "Comunicado dos locais de prova",
+                    "data": {"forma": "fixa", "data": "2026-10-15"}},
+                   {"tipo_evento": "sorteio_tema", "etapa_ref": "escrita", "descricao_literal": "Sorteio do tema",
+                    "data": {"forma": "condicionada", "condicao_literal": "10 minutos antes do início das provas"}}],
+                  dt.date(2026, 10, 13), dt.date(2026, 10, 12))
+        self.assertEqual(len(t), 1)
+
+    def test_presenca_que_ja_passou_nao_vai(self):  # rodada 2: UERJ 213, UFTM 28
+        t = rodar([{"tipo_evento": "prova", "etapa_ref": "didatica", "descricao_literal": "Prova de aula",
+                    "data": {"forma": "fixa", "data": "2026-10-29", "hora": "09:00"}},
+                   {"tipo_evento": "outro", "etapa_ref": "didatica", "descricao_literal": "Comparecimento obrigatório na leitura",
+                    "data": {"forma": "fixa", "data": "2026-10-26", "hora": "08:00"}}],
+                  dt.date(2026, 10, 27), dt.date(2026, 10, 26))
+        self.assertEqual(len(t), 1)  # a prova sai (2 dias antes); a presença de 26/10 já passou e não sai
+        self.assertFalse(any("26/10" in x for x in t))
+
+    def test_companheiro_de_outra_area_nao_entra(self):
+        t = rodar([{"tipo_evento": "prova", "etapa_ref": "escrita", "descricao_literal": "Prova escrita", "escopo": ["01"],
+                    "data": {"forma": "fixa", "data": "2026-11-09", "hora": "09:00"}},
+                   {"tipo_evento": "sorteio_tema", "etapa_ref": "escrita", "descricao_literal": "Sorteio", "escopo": ["02"],
+                    "data": {"forma": "fixa", "data": "2026-11-09", "hora": "08:00"}}],
+                  dt.date(2026, 10, 25), dt.date(2026, 10, 24))
+        self.assertEqual(len(t), 1)
+
+    def test_janela_de_dois_dias_mostra_os_dois(self):  # UFS 08, UFRGS 08, IFMT 03
+        t = rodar([{"tipo_evento": "prova", "etapa_ref": "projeto", "descricao_literal": "Prova do Projeto",
+                    "data": jan("2026-11-09", "2026-11-10", "08:00", "15:00")}], dt.date(2026, 10, 25), dt.date(2026, 10, 24))
+        self.assertEqual(len(t), 1)
+        self.assertIn("10/11/2026", t[0])
+
+    def test_janela_que_nao_e_prazo_nao_vira_ultimo_dia(self):  # IFSULDEMINAS 188, UFBA 06
+        t = rodar([{"tipo_evento": "outro", "descricao_literal": "Prova de Desempenho Didático e Entrega dos Títulos",
+                    "data": jan("2026-10-31", "2026-11-01")}], dt.date(2026, 10, 30), dt.date(2026, 10, 29))
+        self.assertEqual(len(t), 1)
+        self.assertNotIn("último dia", t[0])
+
     def test_periodo_provavel_nao_agenda(self):  # UFSM 221
         t = rodar([{"tipo_evento": "prova", "descricao_literal": "Provas",
                     "data": jan("2026-11-08", "2027-02-21")}], dt.date(2026, 10, 9), dt.date(2026, 10, 8))

@@ -1,0 +1,252 @@
+[
+  {
+    "id": "s021",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "linha_diz": "Prova escrita 26/10/2026 (segunda), 10:00-14:00; faltam 7 (fila 19/10)",
+    "documento_diz": "11.1 j) \"Prova escrita – 26/10/2026, das 10h00 às 14h00\"; errata do cronograma repete \"prova escrita: 26/10/2026, das 10h às 14h\"; 11.2 apresentar-se 60 minutos antes",
+    "fonte_conferida": "documentos/uerj-2026/01 - Seleção 2026-213 - Edital.pdf, item 11.1 (p. 9-10) e 11.2; conferido também 21 - Errata do cronograma (DOERJ, mesmas datas) e aviso_1812 (lista provisória)",
+    "observacao": "Comparecimento 09:00 (e 08:00 do sorteio) na mesma fila."
+  },
+  {
+    "id": "s034",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "linha_diz": "Resultado da prova de aula 30/10/2026 (sexta) às 18:00; faltam 2 (fila 28/10)",
+    "documento_diz": "11.1 q) \"Resultado da prova de aula – 30/10/2026, às 18h00\"",
+    "fonte_conferida": "documentos/uerj-2026/01 - Seleção 2026-213 - Edital.pdf, item 11.1 (p. 9-10) e 11.2; conferido também 21 - Errata do cronograma (DOERJ, mesmas datas) e aviso_1812 (lista provisória)",
+    "observacao": "Comparecimento 17:00 (60 min, item 11.2) na mesma fila."
+  },
+  {
+    "id": "s060",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "linha_diz": "Comparecimento 30/10/2026 (sexta) às 17:00, 60 min antes do resultado da prova de aula/entrega de títulos às 18h; faltam 15 (fila 15/10)",
+    "documento_diz": "11.1 q) e r) resultado e entrega de títulos 30/10/2026 às 18h00; 11.2 \"deverá se apresentar 60 minutos antes de cada hora marcada no cronograma\"",
+    "fonte_conferida": "documentos/uerj-2026/01 - Seleção 2026-213 - Edital.pdf, item 11.1 (p. 9-10) e 11.2; conferido também 21 - Errata do cronograma (DOERJ, mesmas datas) e aviso_1812 (lista provisória)",
+    "observacao": null
+  },
+  {
+    "id": "s062",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "linha_diz": "Sorteio do ponto da prova escrita 26/10/2026 (segunda) às 09:00; faltam 7 (fila 19/10)",
+    "documento_diz": "11.1 i) \"Sorteio do ponto para a prova escrita – 26/10/2026, às 09h00\"; errata: \"sorteio do ponto para a prova escrita: 26/10/2026, às 9h\"",
+    "fonte_conferida": "documentos/uerj-2026/01 - Seleção 2026-213 - Edital.pdf, item 11.1 (p. 9-10) e 11.2; conferido também 21 - Errata do cronograma (DOERJ, mesmas datas) e aviso_1812 (lista provisória)",
+    "observacao": "Comparecimento 08:00 na mesma fila."
+  },
+  {
+    "id": "s069",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "linha_diz": "Continuação da leitura da prova escrita 27/10/2026 (terça) às 09:00, a depender do número de candidatos; faltam 2 (fila 25/10)",
+    "documento_diz": "11.1 l) \"Continuação da leitura da prova escrita – 27/10/2026, às 09h00 (a depender do número de candidatos)\"",
+    "fonte_conferida": "documentos/uerj-2026/01 - Seleção 2026-213 - Edital.pdf, item 11.1 (p. 9-10) e 11.2; conferido também 21 - Errata do cronograma (DOERJ, mesmas datas) e aviso_1812 (lista provisória)",
+    "observacao": "Comparecimento 08:00 na mesma fila; a condição foi mantida na linha."
+  },
+  {
+    "id": "s119",
+    "veredito": "TEXTO_CONFUSO",
+    "categoria": "texto_do_leitor",
+    "atribuicao": "leitor",
+    "linha_diz": "Comparecimento 26/10/2026 (segunda) às 08:00, 60 min antes do sorteio da prova escrita; \"foi há 2 dias\" (fila 28/10)",
+    "documento_diz": "11.1 i) sorteio 26/10/2026 às 09h00; 11.2 apresentar-se 60 minutos antes",
+    "fonte_conferida": "documentos/uerj-2026/01 - Seleção 2026-213 - Edital.pdf, item 11.1 (p. 9-10) e 11.2; conferido também 21 - Errata do cronograma (DOERJ, mesmas datas) e aviso_1812 (lista provisória)",
+    "observacao": "Data, hora e contagem certas, mas a linha é de um evento já passado, listada sob \"Datas que se aproximam\". Vem de companheiros() em agenda.py, que junta presenças até 3 dias antes do compromisso sem descartar as que já passaram; a mesma mensagem de 28/10 traz mais quatro linhas passadas, e uma delas diz \"foi há 1 dias\". Não faz ninguém errar dia, só polui o aviso."
+  },
+  {
+    "id": "s131",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "linha_diz": "Leitura da prova escrita 26/10/2026 (segunda) às 15:00; faltam 2 (fila 24/10)",
+    "documento_diz": "11.1 k) \"Leitura da prova escrita – 26/10/2026, às 15h00\"; errata igual",
+    "fonte_conferida": "documentos/uerj-2026/01 - Seleção 2026-213 - Edital.pdf, item 11.1 (p. 9-10) e 11.2; conferido também 21 - Errata do cronograma (DOERJ, mesmas datas) e aviso_1812 (lista provisória)",
+    "observacao": "Comparecimento 14:00 na mesma fila."
+  },
+  {
+    "id": "s010",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "linha_diz": "Comparecimento 11/11/2026 (quarta) às 09:45, 15 min antes da divulgação da lista de pontos e do sorteio do ponto da prova de aula; faltam 29 (fila 13/10)",
+    "documento_diz": "11.1 o) \"Divulgação da lista de pontos para a prova de aula – 11/11/2026, às 10:00h\"; p) \"Sorteio do ponto para a prova de aula - início - 11/11/2026, às 10:00h\"; 11.2 \"15 (quinze) minutos antes de cada hora marcada\"",
+    "fonte_conferida": "documentos/uerj-2026/11 - Seleção 2026-234 - Edital.pdf, itens 11.1 e 11.2 (sem errata nem aviso posterior na pasta)",
+    "observacao": null
+  },
+  {
+    "id": "s043",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "linha_diz": "Sorteio do ponto da prova escrita 09/11/2026 (segunda) às 09:00; faltam 27 (fila 13/10)",
+    "documento_diz": "11.1 i) \"Sorteio do ponto para a prova escrita - 09/11/2026, às 9:00 h\"",
+    "fonte_conferida": "documentos/uerj-2026/11 - Seleção 2026-234 - Edital.pdf, itens 11.1 e 11.2 (sem errata nem aviso posterior na pasta)",
+    "observacao": "Comparecimento 08:45 na mesma fila."
+  },
+  {
+    "id": "s048",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "linha_diz": "Entrega de Títulos e Trabalhos 13/11/2026 (sexta) às 16:00; faltam 15 (fila 29/10)",
+    "documento_diz": "11.1 u) \"Entrega de Títulos e Trabalhos – 13/11/2026, às 16:00h\"",
+    "fonte_conferida": "documentos/uerj-2026/11 - Seleção 2026-234 - Edital.pdf, itens 11.1 e 11.2 (sem errata nem aviso posterior na pasta)",
+    "observacao": "Comparecimento 15:45 na mesma fila."
+  },
+  {
+    "id": "s064",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "linha_diz": "Comparecimento 12/11/2026 (quinta) às 09:45, 15 min antes da prova de aula (10:00); faltam 30 (fila 13/10)",
+    "documento_diz": "11.1 q) \"Prova de aula - início - 12/11/2026, às 10:00h\"; 11.2 apresentar-se 15 minutos antes",
+    "fonte_conferida": "documentos/uerj-2026/11 - Seleção 2026-234 - Edital.pdf, itens 11.1 e 11.2 (sem errata nem aviso posterior na pasta)",
+    "observacao": null
+  },
+  {
+    "id": "s089",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "linha_diz": "Sorteio do ponto da prova de aula 05/11/2026 (quinta) às 09:00; faltam 14 (fila 22/10)",
+    "documento_diz": "11.1 n) \"Sorteio do ponto para a prova de aula – 5/11/2026, às 09:00 h\"",
+    "fonte_conferida": "documentos/uerj-2026/12 - Seleção 2026-236 - Edital.pdf, itens 11.1 e 11.2; 29 - Errata (só vencimento e taxa)",
+    "observacao": "Comparecimento 08:30 na mesma fila. O edital 236 não tem a Obs. de horário individual que aparece no 229 e no 232."
+  },
+  {
+    "id": "s103",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "linha_diz": "Prova de aula 06/11/2026 (sexta) às 09:00; faltam 15 (fila 22/10)",
+    "documento_diz": "11.1 o) \"Prova de aula – 6/11/2026, às 09:00 h\"",
+    "fonte_conferida": "documentos/uerj-2026/12 - Seleção 2026-236 - Edital.pdf, itens 11.1 e 11.2; 29 - Errata (só vencimento e taxa)",
+    "observacao": "Comparecimento 08:30 na mesma fila."
+  },
+  {
+    "id": "s122",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "linha_diz": "Leitura da prova escrita 04/11/2026 (quarta) às 14:00; faltam 2 (fila 02/11)",
+    "documento_diz": "11.1 k) \"Leitura da prova escrita – 4/11/2026, às 14:00 h\"",
+    "fonte_conferida": "documentos/uerj-2026/12 - Seleção 2026-236 - Edital.pdf, itens 11.1 e 11.2; 29 - Errata (só vencimento e taxa)",
+    "observacao": "Comparecimento 13:30 na mesma fila."
+  },
+  {
+    "id": "s145",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "linha_diz": "Comparecimento 04/11/2026 (quarta) às 13:30, 30 min antes da leitura da prova escrita (14:00); faltam 13 (fila 22/10)",
+    "documento_diz": "11.1 k) leitura 4/11/2026 às 14:00 h; 11.2 \"30 minutos antes de cada hora marcada\"",
+    "fonte_conferida": "documentos/uerj-2026/12 - Seleção 2026-236 - Edital.pdf, itens 11.1 e 11.2; 29 - Errata (só vencimento e taxa)",
+    "observacao": null
+  },
+  {
+    "id": "s128",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "linha_diz": "26/10/2026 (segunda): Divulgação do local, horário e orientações da Prova Escrita; faltam 2 (fila 24/10)",
+    "documento_diz": "Anexo II, linha 18: \"Divulgação do local, horário e demais orientações para realização da Prova Escrita | 26/10/2026\"",
+    "fonte_conferida": "documentos/uneb-085-2026/01 - Edital de Abertura nº 085-2026 (09-09-2026).pdf, Anexo II (Cronograma Provisório); conferidos os 8 documentos posteriores da pasta (isenção, inscrições, vagas reservadas, atendimento especial, nome social, jurado, impugnações), nenhum altera o cronograma",
+    "observacao": "O Anexo II se chama \"Cronograma Provisório\" e a linha não diz isso; não conto como erro. Fora da amostra, a mesma mensagem de 24/10 traz uma linha do sorteio do ponto com \"(antes de: Divulgação do local, horário...)\", o que está errado: o sorteio é antes da Prova Escrita (7.13.2), não antes da divulgação. É companheiros() juntando o sorteio relativo da mesma etapa ao evento de divulgação."
+  },
+  {
+    "id": "s139",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "linha_diz": "08/11/2026 (domingo): Prova Escrita; faltam 15 (fila 24/10)",
+    "documento_diz": "Anexo II, linha 19: \"Prova Escrita | 08/11/2026\"; 7.8 local, data e horário a divulgar",
+    "fonte_conferida": "documentos/uneb-085-2026/01 - Edital de Abertura nº 085-2026 (09-09-2026).pdf, Anexo II e itens 7.8, 7.12, 7.13",
+    "observacao": "Hora ainda não divulgada (sai em 26/10). O edital não fixa portões nem chegada antecipada, então não falta linha de presença. A data vem do Cronograma Provisório."
+  },
+  {
+    "id": "s143",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "linha_diz": "Sorteio do ponto único da Prova Escrita imediatamente antes do início da prova (antes de: Prova Escrita)",
+    "documento_diz": "7.13.2 \"A Prova Escrita versará sobre um único ponto, comum a todos(as) os(as) candidatos(as) concorrentes à mesma vaga, sorteado imediatamente antes do início da prova\"; 7.13.2.2 sorteio na presença dos candidatos",
+    "fonte_conferida": "documentos/uneb-085-2026/01 - Edital de Abertura nº 085-2026 (09-09-2026).pdf, item 7.13.2 e 7.13.2.2",
+    "observacao": "A linha da amostra está certa e vem logo antes da linha da Prova Escrita (08/11). Mas a mesma mensagem repete esse sorteio com \"(antes de: Divulgação do local, horário e demais orientações...)\", o que está errado (ver s128)."
+  },
+  {
+    "id": "s084",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "linha_diz": "Prova de Conhecimento (prático-oral) 30/11/2026 (segunda) às 08:00; faltam 30 (fila 31/10)",
+    "documento_diz": "4.2.1 \"a ser aplicada no dia 30 de novembro de 2026, às 08h (oito horas), no Departamento de Arquitetura e Urbanismo\"; 4.2.3.1 antecedência mínima de 15 minutos, lista de presença no horário e eliminação de quem faltar",
+    "fonte_conferida": "documentos/ufv-48-2026/Edital-48-2026-DAU-1.pdf, itens 4.2.1 a 4.2.3.6 (p. 1-2); não há documento posterior na pasta",
+    "observacao": "Comparecimento 07:45 na mesma fila."
+  },
+  {
+    "id": "s125",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "linha_diz": "Sorteio do ponto da Prova de Conhecimento, o mesmo para todos, imediatamente antes do início da prova (antes de: Prova de Conhecimento)",
+    "documento_diz": "4.2.3.6 \"Será realizado o sorteio do ponto para a Prova de Conhecimento, o qual será o mesmo para todos os candidatos, sendo o início da Prova imediatamente após o sorteio\"",
+    "fonte_conferida": "documentos/ufv-48-2026/Edital-48-2026-DAU-1.pdf, item 4.2.3.6 (p. 2)",
+    "observacao": "Vem na mesma mensagem que a prova de 30/11 às 08:00 e o comparecimento das 07:45."
+  },
+  {
+    "id": "s004",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "linha_diz": "Comparecimento 05/11/2026 (quinta) às 15:30, 30 min antes do resultado da prova de aula seguido da entrega de títulos às 16h; faltam 15 (fila 21/10)",
+    "documento_diz": "11.1 p) \"Resultado da prova de aula – 05/11/2026, às 16h\"; q) \"Entrega de Títulos e Trabalhos – 05/11/2026, às 16h. imediatamente após o resultado\"; 11.2 \"30 minutos antes de cada hora marcada\"",
+    "fonte_conferida": "documentos/uerj-2026/06 - Seleção 2026-229 - Edital.pdf, itens 11.1 e 11.2; 24 - Errata (só tabela de vagas e taxa); edital_1828 (comissão e inscritos, 01/10)",
+    "observacao": "A Obs. de horário individual do 229 vale para o sorteio e a prova de aula, não para o resultado e a entrega, que o edital fixa às 16h."
+  },
+  {
+    "id": "s031",
+    "veredito": "TEXTO_CONFUSO",
+    "categoria": "horarios_individuais",
+    "atribuicao": "ambos",
+    "linha_diz": "Prova de aula 06/11/2026 (sexta) às 09:00; faltam 15 (fila 22/10)",
+    "documento_diz": "11.1 o) \"Prova de aula – 06/11/2026, às 9h.\"; Obs. do item 11.1 m): \"havendo mais de um candidato, nessa data serão divulgados o dia e a hora do sorteio do ponto e da realização da prova de aula de cada candidato\"",
+    "fonte_conferida": "documentos/uerj-2026/09 - Seleção 2026-232 - Edital.pdf, item 11.1 m-o e Obs. (p. 10), 11.2; 27 - Errata (só vencimento e taxa); isencao/pontuacao_1831 (sem lista de inscritos; a lista sai em 13/10)",
+    "observacao": "Hoje a data e a hora estão certas, mas a linha apresenta 06/11 às 9h como horário de todos, sem a ressalva de que, havendo mais de um candidato, o dia e a hora de cada um saem depois da prova escrita. A extração registra a Obs. só nos eventos de comparecimento (ev-0029, ev-0030), não na prova (ev-0020), e o leitor ainda corta esse texto com \"...\". O número de inscritos ainda não foi publicado."
+  },
+  {
+    "id": "s072",
+    "veredito": "TEXTO_CONFUSO",
+    "categoria": "texto_do_leitor",
+    "atribuicao": "ambos",
+    "linha_diz": "18/10/2026 (domingo): \"Ensalamento Geral para a realização do Sorteio dos Pontos e da Prova Escrita - Campus: Apucarana\"; faltam 2 (fila 16/10)",
+    "documento_diz": "Edital 038/2026-CPPS: Apucarana (vaga 1381 BIOLOGIA CELULAR), \"Rua Osório Ribas de Paula, 970 - Centro (Auditório Maior - Nilo Cairo...)\"; II.1 sorteio e Prova Escrita \"no dia 18/10/2026\"; II.2 \"portões ... fechados pontualmente às 8 horas\"",
+    "fonte_conferida": "documentos/unespar-023-2026/EDITAL 38 2026 CPPS Ensalamento sorteio infos.pdf (itens I e II); Edital 023/2026 itens 4.2, 4.10, 4.11.1; 01 - Cronograma; retificações 025 e 029 (não mexem em datas)",
+    "observacao": "Data, área e campus estão certos, e a mesma fila traz a linha do fechamento dos portões às 08:00. Mas a linha usa o título da publicação como se fosse o evento (\"Ensalamento Geral...\") e não dá o endereço, que a extração tem no campo local e o leitor não mostra. Quem ler pode achar que em 18/10 só sai o ensalamento. A fonte da mensagem de 16/10 também não cita o Edital 038 (fica em \"e outros\")."
+  },
+  {
+    "id": "s100",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "linha_diz": "29/10/2026 (quinta): último dia do pagamento da taxa de inscrição; faltam 2 (fila 27/10)",
+    "documento_diz": "9.1 e) \"efetuar o pagamento da taxa ... no período de 30/09/2026 a 29/10/2026\"; Anexo II \"Pagamento da taxa de inscrição 30/09/2026 a 29/10/2026\"; 8.9 \"até o dia 29/10/2026\"",
+    "fonte_conferida": "documentos/ufrn-108-2026/01 - Edital de abertura 108-2026 (...).pdf, itens 9.1 e 8.9 e Anexo II; retificações DOU 179 (22/09), DOU 184 (29/09) e DOU 192 (09/10) não alteram inscrição nem pagamento",
+    "observacao": "Vale para todas as áreas, porque o prazo é único no edital."
+  },
+  {
+    "id": "s135",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "linha_diz": "Comparecimento 03/11/2026 (terça) às 13:30, 30 min antes da leitura da prova escrita (14h); faltam 13 (fila 21/10)",
+    "documento_diz": "11.1 k) \"Leitura da prova escrita - 03/11/2026, às 14h\"; 11.2 \"30 (trinta) minutos antes de cada hora marcada\"",
+    "fonte_conferida": "documentos/uerj-2026/10 - Seleção 2026-233 - Edital.pdf, itens 11.1 e 11.2; 28 - Errata (só tabela e taxa); edital_1832 (inscritos e comissão, 01/10)",
+    "observacao": null
+  }
+]

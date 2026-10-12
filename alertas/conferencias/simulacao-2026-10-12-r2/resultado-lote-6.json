@@ -1,0 +1,252 @@
+[
+ {
+  "id": "s032",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "Matemática, Confresa: de 06/11 (sex) 19:50 a 07/11 (sáb) até 16:30, por candidato; faltam 15 dias",
+  "documento_diz": "Matemática, IFMT Campus Confresa: Douglas 06/11 19:50 e Fernando 20:40; Karine 07/11 08:00; Tone 07/11 16:30 (\"Sexta-feira 06/11/2026\", \"07/11/2026 Sábado\")",
+  "fonte_conferida": "ifmt-03-2026/cronograma-da-prova-de-desempenho-didatico.pdf (pdftotext -layout, págs. 5, 8, 9 e 11; item 16.6.2 na pág. 1)",
+  "observacao": "A janela vai do primeiro ao último horário de início da área (o último candidato começa no horário dado como fim, e a aula dura até cerca de 50 min depois); a linha avisa que é por candidato. A presença 1 h antes (16.6.2) está na mesma mensagem. O campus entre parênteses é o da vaga; a prova é no IFMT Campus Cuiabá Bela Vista."
+ },
+ {
+  "id": "s033",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "Espanhol, Confresa CR Canarana: de 06/11 (sex) 19:50 a 08/11 (dom) até 10:30, por candidato",
+  "documento_diz": "PDD: Espanhol, Confresa CR de Canarana: Daniella 06/11 19:50, Amanda 20:40; 07/11 09:00 a 17:20; Wellington 08/11 08:00, Thaís 09:40, Simoni 10:30",
+  "fonte_conferida": "ifmt-03-2026/cronograma-da-prova-de-desempenho-didatico.pdf (pdftotext -layout, págs. 5, 8, 9 e 11; item 16.6.2 na pág. 1)",
+  "observacao": "A janela vai do primeiro ao último horário de início da área (o último candidato começa no horário dado como fim, e a aula dura até cerca de 50 min depois); a linha avisa que é por candidato. A presença 1 h antes (16.6.2) está na mesma mensagem. O campus entre parênteses é o da vaga; a prova é no IFMT Campus Cuiabá Bela Vista. Presença na mesma mensagem: 06/11 às 18:50."
+ },
+ {
+  "id": "s040",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "Português, Colniza: de 06/11 (sex) 19:00 a 08/11 (dom) até 09:40, por candidato; faltam 15 dias",
+  "documento_diz": "PDD: Português, IFMT Campus Colniza: Adriana 06/11 19:00, Diego 21:30; 07/11 08:50 a 14:50; Vanessa 08/11 09:40",
+  "fonte_conferida": "ifmt-03-2026/cronograma-da-prova-de-desempenho-didatico.pdf (pdftotext -layout, págs. 5, 8, 9 e 11; item 16.6.2 na pág. 1)",
+  "observacao": "A janela vai do primeiro ao último horário de início da área (o último candidato começa no horário dado como fim, e a aula dura até cerca de 50 min depois); a linha avisa que é por candidato. A presença 1 h antes (16.6.2) está na mesma mensagem. O campus entre parênteses é o da vaga; a prova é no IFMT Campus Cuiabá Bela Vista."
+ },
+ {
+  "id": "s042",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "Matemática, Colniza: de 06/11 (sex) 19:00 a 08/11 (dom) até 08:00, por candidato; faltam 15 dias",
+  "documento_diz": "Matemática, IFMT Campus Colniza: Cleyton 06/11 19:00; Lucca 07/11 09:40, Pedro 11:20, Rafael 14:00, Rosangela 15:40; Vinícius 08/11 08:00",
+  "fonte_conferida": "ifmt-03-2026/cronograma-da-prova-de-desempenho-didatico.pdf (pdftotext -layout, págs. 5, 8, 9 e 11; item 16.6.2 na pág. 1)",
+  "observacao": "A janela vai do primeiro ao último horário de início da área (o último candidato começa no horário dado como fim, e a aula dura até cerca de 50 min depois); a linha avisa que é por candidato. A presença 1 h antes (16.6.2) está na mesma mensagem. O campus entre parênteses é o da vaga; a prova é no IFMT Campus Cuiabá Bela Vista. Presença na mesma mensagem: 06/11 às 18:00."
+ },
+ {
+  "id": "s051",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "Zootecnia, Colniza: 07/11 (sáb), das 08:50 às 16:30, por candidato",
+  "documento_diz": "Zootecnia, IFMT Campus Colniza: Eldo 07/11 08:50, Emerson 09:40, Laísa 14:00, Larisse 14:50, Renato 16:30 (\"07/11/2026 Sábado\")",
+  "fonte_conferida": "ifmt-03-2026/cronograma-da-prova-de-desempenho-didatico.pdf (pdftotext -layout, págs. 5, 8, 9 e 11; item 16.6.2 na pág. 1)",
+  "observacao": "A janela vai do primeiro ao último horário de início da área (o último candidato começa no horário dado como fim, e a aula dura até cerca de 50 min depois); a linha avisa que é por candidato. A presença 1 h antes (16.6.2) está na mesma mensagem. O campus entre parênteses é o da vaga; a prova é no IFMT Campus Cuiabá Bela Vista. Presença na mesma mensagem: 07/11 às 07:50."
+ },
+ {
+  "id": "s073",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "Português, Colniza: de 06/11 (sex) 19:00 a 08/11 (dom) até 09:40, por candidato",
+  "documento_diz": "PDD: Português, IFMT Campus Colniza: Adriana 06/11 19:00, Diego 21:30; 07/11 08:50 a 14:50; Vanessa 08/11 09:40",
+  "fonte_conferida": "ifmt-03-2026/cronograma-da-prova-de-desempenho-didatico.pdf (pdftotext -layout, págs. 5, 8, 9 e 11; item 16.6.2 na pág. 1)",
+  "observacao": "A janela vai do primeiro ao último horário de início da área (o último candidato começa no horário dado como fim, e a aula dura até cerca de 50 min depois); a linha avisa que é por candidato. A presença 1 h antes (16.6.2) está na mesma mensagem. O campus entre parênteses é o da vaga; a prova é no IFMT Campus Cuiabá Bela Vista. Presença na mesma mensagem: 06/11 às 18:00."
+ },
+ {
+  "id": "s057",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "03/11 (ter) às 08:00: sorteio do ponto da prova escrita; faltam 15 dias",
+  "documento_diz": "11.1 i: \"Sorteio do ponto para a prova escrita - 03/11/2026, às 8 h\"; 11.2: apresentar-se 30 min antes de cada hora",
+  "fonte_conferida": "uerj-2026/16 - Seleção 2026-243 - Edital.pdf, item 11.1 i e 11.2 (pág. 9); 32 - Errata (3a) não altera o cronograma",
+  "observacao": "Presença das 07:30 na mesma mensagem. A lista dos candidatos inscritos de 01/10/2026 (uerj-2026/pontuacao_e_resultados_1842_1790873663, Edital 012796/2026, Gastroenterologia DEPCMI Cabo Frio) diz \"SEM INSCRITOS\"; nenhum documento cancela o concurso, mas a etapa provavelmente não ocorrerá e não há candidato inscrito para receber o alerta."
+ },
+ {
+  "id": "s071",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "04/11 (qua) às 17:00: resultado da prova de aula; faltam 2 dias",
+  "documento_diz": "11.1 p: \"Resultado da prova de aula – 04/11/2026, às 17 h\"; q: entrega de títulos \"imediatamente após o resultado\"",
+  "fonte_conferida": "uerj-2026/16 - Seleção 2026-243 - Edital.pdf, item 11.1 p e q, 11.2 (pág. 10)",
+  "observacao": "Na fila de 02/11 não há linha de presença 30 min antes (16:30, pelo 11.2) nem da entrega de títulos logo após o resultado, diferente da UERJ 231; ausência no resultado não elimina pelo edital (16.9 fala de provas). A lista dos candidatos inscritos de 01/10/2026 (uerj-2026/pontuacao_e_resultados_1842_1790873663, Edital 012796/2026, Gastroenterologia DEPCMI Cabo Frio) diz \"SEM INSCRITOS\"; nenhum documento cancela o concurso, mas a etapa provavelmente não ocorrerá e não há candidato inscrito para receber o alerta."
+ },
+ {
+  "id": "s077",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "03/11 (ter) às 08:30: comparecimento 30 min antes da prova escrita das 09:00; faltam 15 dias",
+  "documento_diz": "11.1 j: \"Prova escrita - 03/11/2026, das 9 h às 13 h\"; 11.2: \"deverá se apresentar 30 minutos antes de cada hora marcada no cronograma\"",
+  "fonte_conferida": "uerj-2026/16 - Seleção 2026-243 - Edital.pdf, itens 11.1 j e 11.2 (págs. 9-10)",
+  "observacao": "A lista dos candidatos inscritos de 01/10/2026 (uerj-2026/pontuacao_e_resultados_1842_1790873663, Edital 012796/2026, Gastroenterologia DEPCMI Cabo Frio) diz \"SEM INSCRITOS\"; nenhum documento cancela o concurso, mas a etapa provavelmente não ocorrerá e não há candidato inscrito para receber o alerta."
+ },
+ {
+  "id": "s083",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "04/11 (qua) às 14:45: comparecimento 30 min antes da prova de aula das 15:15; faltam 15 dias",
+  "documento_diz": "11.1 o: \"Prova de aula - 04/11/2026, às 15h 15 m\"; 11.2: 30 minutos antes",
+  "fonte_conferida": "uerj-2026/16 - Seleção 2026-243 - Edital.pdf, itens 11.1 o e 11.2 (pág. 10)",
+  "observacao": "A lista dos candidatos inscritos de 01/10/2026 (uerj-2026/pontuacao_e_resultados_1842_1790873663, Edital 012796/2026, Gastroenterologia DEPCMI Cabo Frio) diz \"SEM INSCRITOS\"; nenhum documento cancela o concurso, mas a etapa provavelmente não ocorrerá e não há candidato inscrito para receber o alerta."
+ },
+ {
+  "id": "s110",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "03/11 (ter) às 07:30: comparecimento 30 min antes do sorteio do ponto das 08:00; faltam 15 dias",
+  "documento_diz": "11.1 i: sorteio \"03/11/2026, às 8 h\"; 11.2: 30 minutos antes de cada hora",
+  "fonte_conferida": "uerj-2026/16 - Seleção 2026-243 - Edital.pdf, itens 11.1 i e 11.2 (pág. 9)",
+  "observacao": "A lista dos candidatos inscritos de 01/10/2026 (uerj-2026/pontuacao_e_resultados_1842_1790873663, Edital 012796/2026, Gastroenterologia DEPCMI Cabo Frio) diz \"SEM INSCRITOS\"; nenhum documento cancela o concurso, mas a etapa provavelmente não ocorrerá e não há candidato inscrito para receber o alerta."
+ },
+ {
+  "id": "s144",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "03/11 (ter) às 12:30: comparecimento 30 min antes da leitura da prova escrita das 13:00; faltam 14 dias",
+  "documento_diz": "11.1 k: \"Leitura da prova escrita - 03/11/2026, às 13 h\"; 11.2: 30 minutos antes de cada hora",
+  "fonte_conferida": "uerj-2026/16 - Seleção 2026-243 - Edital.pdf, itens 11.1 k e 11.2 (págs. 9-10)",
+  "observacao": "Aplicação literal do 11.2; às 12:30 o candidato ainda está na prova escrita (9 h às 13 h), o que torna a linha redundante, sem induzir erro. A lista dos candidatos inscritos de 01/10/2026 (uerj-2026/pontuacao_e_resultados_1842_1790873663, Edital 012796/2026, Gastroenterologia DEPCMI Cabo Frio) diz \"SEM INSCRITOS\"; nenhum documento cancela o concurso, mas a etapa provavelmente não ocorrerá e não há candidato inscrito para receber o alerta."
+ },
+ {
+  "id": "s063",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "periodo_provavel",
+  "atribuicao": "extrator",
+  "linha_diz": "de 01/12 (ter) a 02/12 (qua): PAD apresentação, Grupo II (pode se estender até 02/12); faltam 30 dias; sem marca de previsão",
+  "documento_diz": "Anexo II \"CRONOGRAMA PROVISÓRIO\": apresentação \"Grupo II - 01/12/2026 (pode se estender até o dia 02/12/2026...)\", \"24 horas após o sorteio do ponto\"; edital 8.4: \"período provável de 22 de novembro a 18 de dezembro\"; 8.4.1: CPPS divulgará cronograma executivo",
+  "fonte_conferida": "ufersa-030-2026/05 - Anexo II - Cronograma provisório grupos I, II e III (retificado).pdf (pdftotext, pág. 2); 01 - Edital 030-2026 itens 8.4, 8.4.1, 8.13.6 a 8.13.9.3.1 e quadro de vagas (Grupo I/II)",
+  "observacao": "Data e grupo certos (área 09 é do Grupo II). O cronograma é provisório e a linha o apresenta como firme; só o nome do documento na linha de fonte diz \"provisório\". O sorteio da ordem (30/11, 8h, portões cerrados às 8h, 8.13.7) está na mesma mensagem."
+ },
+ {
+  "id": "s067",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "periodo_provavel",
+  "atribuicao": "extrator",
+  "linha_diz": "de 29/11 (dom) a 30/11 (seg): PAD sorteio do ponto, Grupo I (pode se estender); faltam 29 dias; sem marca de previsão",
+  "documento_diz": "Anexo II \"CRONOGRAMA PROVISÓRIO\": sorteio do ponto \"Grupo I - 29/11/2026 (pode se estender até o dia 30/11/2026...)\", \"Sorteio do ponto: conforme sorteio da ordem\"; edital 8.4 \"período provável\"",
+  "fonte_conferida": "ufersa-030-2026/05 - Anexo II - Cronograma provisório grupos I, II e III (retificado).pdf (pdftotext, pág. 2); 01 - Edital 030-2026 itens 8.4, 8.4.1, 8.13.6 a 8.13.9.3.1 e quadro de vagas (Grupo I/II)",
+  "observacao": "Data e grupo certos (área 02 é do Grupo I). Cronograma provisório apresentado como firme. Presença: o sorteio da ordem das 8h (portões cerrados às 8h, 8.13.7; quem não participa não sorteia ponto, 8.13.9.1) está na mesma mensagem."
+ },
+ {
+  "id": "s079",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "periodo_provavel",
+  "atribuicao": "extrator",
+  "linha_diz": "29/11 (dom) às 08:00: PAD sorteio da ordem, Grupo I, pontualmente às 8h; faltam 29 dias; sem marca de previsão",
+  "documento_diz": "Anexo II \"CRONOGRAMA PROVISÓRIO\": \"29/11/2026 - Grupo I ... Pontualmente às 8h\"; 8.13.7: portões \"cerrados, impreterivelmente, às 08h\"",
+  "fonte_conferida": "ufersa-030-2026/05 - Anexo II - Cronograma provisório grupos I, II e III (retificado).pdf (pdftotext, pág. 2); 01 - Edital 030-2026 itens 8.4, 8.4.1, 8.13.6 a 8.13.9.3.1 e quadro de vagas (Grupo I/II)",
+  "observacao": "Data, hora e grupo certos; a hora do sorteio coincide com o fechamento dos portões, e \"pontualmente às 8h\" transmite a exigência. Só falta a marca de cronograma provisório (edital 8.4 e 8.4.1)."
+ },
+ {
+  "id": "s023",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "23/10 (sex), até 16:00: fim das inscrições; faltam 7 dias",
+  "documento_diz": "Preâmbulo: \"término às 16 horas (horário de Brasília) do dia 23 de outubro de 2026\"",
+  "fonte_conferida": "usp-fm-152-168-2026/56 - Edital DVACAD-FM-167-2026 - abertura (DOE-SP).html.docling.md, preâmbulo; mesmo texto em usp-fm-199-2026/Edital DVACAD-FM-167-2026; nenhuma retificação do 167 na pasta",
+  "observacao": null
+ },
+ {
+  "id": "s088",
+  "veredito": "ERRADA",
+  "categoria": "relativa_errada",
+  "atribuicao": "leitor",
+  "linha_diz": "\"5 dias úteis antes de realização das provas: Convocação para as provas (julgamento do memorial...) (antes de: Anexar, no pedido de inscrição, o memorial circunstanciado...)\", na fila de 16/10",
+  "documento_diz": "Item 4 § 1º: \"A convocação para as provas será publicada no Diário Oficial do Estado no mínimo 5 (cinco) dias úteis antes de sua realização\"; item 3: inscrições julgadas em até 90 dias após o fim das inscrições (23/10) e § 2º: concurso 30 a 120 dias após a aprovação das inscrições",
+  "fonte_conferida": "usp-fm-152-168-2026/56 - Edital DVACAD-FM-167-2026 - abertura (DOE-SP).html.docling.md, itens 1 I, 3 e 4 § 1º; extração ev-0014 (âncora \"realização das provas\") e ev-0023",
+  "observacao": "O parêntese diz que a convocação vem antes de anexar o memorial (prazo de 23/10, 16h), o que inverte a ordem do edital: a convocação só sai depois do julgamento das inscrições. A extração tem a âncora certa; o leitor juntou o evento como companheiro do prazo do memorial (mesma etapa) e escreveu \"(antes de: ...)\", e a linha aparece entre as datas próximas como se a convocação fosse iminente. As linhas com data da mesma mensagem estão certas."
+ },
+ {
+  "id": "s025",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "11/11 (qua) às 13:00: entrega de títulos e trabalhos, imediatamente após o resultado da prova de aula; faltam 15 dias",
+  "documento_diz": "11.1 q: \"Entrega de Títulos e Trabalhos – 11/11/2026, às 13 h. imediatamente após o resultado da Prova de Aula\"; 11.2: apresentar-se 20 minutos antes de cada hora",
+  "fonte_conferida": "uerj-2026/08 - Seleção 2026-231 - Edital.pdf, itens 11.1 p e q e 11.2; 26 - Errata só altera vencimento e taxa",
+  "observacao": "A presença das 12:40 (20 min antes do resultado seguido da entrega) está na mesma mensagem."
+ },
+ {
+  "id": "s130",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "09/11 (seg) às 15:40: comparecimento 20 min antes do sorteio do ponto da prova de aula das 16:00; faltam 27 dias",
+  "documento_diz": "11.1 n: \"Sorteio do ponto para a prova de aula - 09/11/2026, às 16 h\"; 11.2: \"deverá se apresentar 20 minutos antes de cada hora marcada no cronograma\"",
+  "fonte_conferida": "uerj-2026/08 - Seleção 2026-231 - Edital.pdf, itens 11.1 n e 11.2; 26 - Errata não altera o cronograma",
+  "observacao": null
+ },
+ {
+  "id": "s094",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "14/10 (qua): último dia para anexar comprovantes de isenção/redução; é amanhã",
+  "documento_diz": "Item 2 § 2º e § 3º: \"anexar, no sistema de inscrições, no período de 13/10/2026 a 14/10/2026\"",
+  "fonte_conferida": "usp-iau-03-2026/Edital-DVACAD-03-2026-...-Publicado-DOE-02.10.2026.docling.md, item 2 §§ 2º e 3º",
+  "observacao": null
+ },
+ {
+  "id": "s142",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "03/11 (ter), até 17:00: último dia do pagamento por PIX, com compensação dentro do prazo de inscrições; faltam 2 dias",
+  "documento_diz": "Preâmbulo: inscrições até \"17 horas (horário de Brasília) do dia 03/11/2026\"; item 2: pagamento por PIX com comprovante anexado na inscrição; § 9º: \"ausência de compensação bancária ... dentro do prazo de inscrições, implicará o cancelamento\"",
+  "fonte_conferida": "usp-iau-03-2026/Edital-DVACAD-03-2026-...-Publicado-DOE-02.10.2026.docling.md, preâmbulo e item 2, § 9º",
+  "observacao": null
+ },
+ {
+  "id": "s037",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "de 26/10 (seg) a 27/10 (ter): recursos contra o resultado preliminar das provas escritas; é hoje",
+  "documento_diz": "Anexo I: \"Período de recursos contra o Resultado Preliminar das Provas Escritas (folha óptica e questão dissertativa) 26/10 a 27/10/2026\"",
+  "fonte_conferida": "ifsc-01-2026/04 - Edital ... consolidado após retificação de 19-08-2026 (versão vigente).pdf, Anexo I pág. 34 (igual ao 01 original, pág. 33); COMUNICADO 01/2026 e Edital 07/2026 não mudam esta data",
+  "observacao": "A fonte citada é o edital original, não o consolidado vigente; a data é a mesma nos dois."
+ },
+ {
+  "id": "s080",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "23/10 (sex), até 16:00: fim das inscrições; faltam 7 dias",
+  "documento_diz": "Preâmbulo: \"término às 16 horas (horário de Brasília) do dia 23 de outubro de 2026\"",
+  "fonte_conferida": "usp-fm-152-168-2026/57 - Edital DVACAD-FM-168-2026 - abertura (DOE-SP).html.docling.md, preâmbulo; mesmo texto em usp-fm-199-2026/Edital DVACAD-FM-168-2026; nenhuma retificação do 168 na pasta",
+  "observacao": null
+ },
+ {
+  "id": "s102",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "18/10 (dom) às 12:30: comparecimento com antecedência mínima de 60 min da prova escrita das 13:30; faltam 2 dias",
+  "documento_diz": "11.1: prova escrita \"realizada em 18/10/2026 às 13:30\"; 11.3: \"comparecer ... com antecedência mínima de 60 (sessenta) minutos do horário fixado para seu início\"",
+  "fonte_conferida": "ufscar-004-2026/51 - Edital Único 004-2026 (arquivo do Google Drive do DCI).docling.md, itens 11.1 e 11.3",
+  "observacao": "O Anexo VI (cronograma) não está na pasta; o 11.1 já fixa data e hora."
+ },
+ {
+  "id": "s150",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "28/10 (qua), até 23:59: último dia do pedido de isenção (8h de 28/09 a 23h59 de 28/10); faltam 5 dias",
+  "documento_diz": "Retificação 1, III, leia-se 4.4.2: \"no período de 8h00 do dia 28/09/2026 às 23h59 do dia 28/10/2026\" (antes era até 07/10)",
+  "fonte_conferida": "unimontes-2026/58 - Edital 26-2026 - Retificação 1 (Educação Física).pdf, item III; 59 Quadro consolidado e Comunicado 01/2026 não alteram",
+  "observacao": null
+ }
+]

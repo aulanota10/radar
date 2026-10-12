@@ -1,0 +1,252 @@
+[
+ {
+  "id": "s002",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "texto_do_leitor",
+  "atribuicao": "leitor",
+  "linha_diz": "Regra relativa: cada candidato sorteia o ponto 2h antes da sua apresentação, \"(antes de: Sorteio do ponto da Prova Didática de cada candidato (8 horários...)\"",
+  "documento_diz": "Edital 8.9.3: \"Cada candidato/a sorteará o ponto de sua Prova Didática 2 (duas) horas antes do horário previsto para sua apresentação.\" Cronograma Psiquiatria: sorteio do 1º às 08h00 de 14/10, Prova Didática do 1º às 10h00.",
+  "fonte_conferida": "51 - Edital 06-2026 - publicação no DOU.pdf / 52 - versão completa retificada em 11-09-2026.pdf item 8.9.3 (p. 20); 77 - Cronograma - Psiquiatria.pdf p. 2-3",
+  "observacao": "A regra está certa, mas o parêntese ancora o sorteio do ponto nele mesmo (\"antes de: Sorteio do ponto\"), o que sugere um evento anterior ao sorteio. As datas concretas (14/10 08:00 a 15/10 09:00) estão na mesma mensagem, então não induz erro de dia. A presença eliminatória anterior (sorteio da ordem 14/10 07:50, item 8.5.5) tem linha na mesma fila."
+ },
+ {
+  "id": "s006",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "Regra relativa: sorteio do ponto 2h antes da apresentação, \"(antes de: Início da prova didática do primeiro ao oitavo candidato)\"",
+  "documento_diz": "Edital 8.9.3 (2 horas antes). Cronograma Eng. Controle e Automação: 27/10 08:30 sorteio do 1º, 10:30 início da prova didática do 1º; 08:20 sorteio da ordem \"(presença obrigatória)\".",
+  "fonte_conferida": "51 - Edital 06-2026 - publicação no DOU.pdf / 52 - versão completa retificada em 11-09-2026.pdf item 8.9.3; 64 - Cronograma - Engenharia de Controle e Automação.pdf p. 1",
+  "observacao": "Presença do mesmo dia (sorteio da ordem 27/10 08:20) está na mesma fila. À parte, fora deste item: a fila de 13/10 traz o sorteio da prova escrita de 26/10 08:50 sem a linha da sessão de abertura de 26/10 08:30, que elimina (item 8.3.2 e Observação 2 do cronograma); ela só aparece na fila de 24/10."
+ },
+ {
+  "id": "s008",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "02/11/2026 (segunda), às 08:30: Sessão Pública Contínua da Congregação: Abertura do Concurso e instalação da Comissão Julgadora (faltam 15 dias, fila 18/10)",
+  "documento_diz": "Cronograma Partículas e Campos: \"02/11/2026 08h30min Sessão Pública Contínua da Congregação: Abertura do Concurso e instalação da Comissão Julgadora.\"",
+  "fonte_conferida": "83 - Cronograma - Partículas e Campos.pdf p. 1",
+  "observacao": "02/11/2026 é segunda; 18/10 a 02/11 são 15 dias. Nenhum documento posterior altera a data."
+ },
+ {
+  "id": "s012",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "Regra relativa 8.5.4: ordem de apresentação definida por sorteio após o resultado da escrita, \"(antes de: Sorteio do ponto da Prova Didática de cada candidato...)\"",
+  "documento_diz": "Edital 8.5.4: \"...será definida por sorteio conduzido pela Banca Examinadora, após a divulgação dos resultados da Prova Teórico-Prática ou Escrita.\" Cronograma Psiquiatria: resultado da escrita 13/10 até 22h00; sorteio da ordem 14/10 07h50; sorteio do ponto do 1º às 08h00.",
+  "fonte_conferida": "51 - Edital 06-2026 - publicação no DOU.pdf / 52 - versão completa retificada em 11-09-2026.pdf item 8.5.4-8.5.5 (p. 19); 77 - Cronograma - Psiquiatria.pdf p. 1-2",
+  "observacao": "A data concreta do sorteio da ordem (14/10 07:50) está na mesma mensagem."
+ },
+ {
+  "id": "s013",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "Regra relativa 8.5.4 (sorteio da ordem após o resultado da escrita), \"(antes de: Sorteio do ponto da Prova Didática de cada candidato (4 horários...)\"",
+  "documento_diz": "Edital 8.5.4. Cronograma Patologia: resultado da escrita 26/10 até 22h00; 27/10 07h50 sorteio da ordem; 08h00 sorteio do ponto do 1º.",
+  "fonte_conferida": "51 - Edital 06-2026 - publicação no DOU.pdf / 52 - versão completa retificada em 11-09-2026.pdf item 8.5.4; 76 - Cronograma - Patologia.pdf p. 1-2",
+  "observacao": "Fila de 20/10 traz também a linha datada 27/10 07:50."
+ },
+ {
+  "id": "s015",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "Regra relativa 8.5.4, \"(antes de: Sorteio do ponto da Prova Didática do 1º candidato (Se houver))\"",
+  "documento_diz": "Edital 8.5.4. Cronograma atualizado Saúde da Mulher: resultado da escrita 15/10 15h00; \"19/10/2026 07:45 Sorteio da ordem de apresentação\"; \"08:00** Sorteio do ponto da Prova Didática do 1º candidato (Se houver)\".",
+  "fonte_conferida": "51 - Edital 06-2026 - publicação no DOU.pdf / 52 - versão completa retificada em 11-09-2026.pdf item 8.5.4; cronograma_edital_06.2026_s_da_mulher_atualizado_-_divulgacao_do_resultado_da_prova_escrita.pdf p. 1-2",
+  "observacao": "Linha datada 19/10 07:45 na mesma mensagem. A chegada 30 min antes da Observação 4 é só recomendação."
+ },
+ {
+  "id": "s016",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "04/11/2026 (quarta), às 08:00: Sorteio da Ordem de Apresentação e Pontos da Prova Didática (faltam 7 dias, fila 28/10)",
+  "documento_diz": "Cronograma Contabilidade Pública: \"DIA 04 DE NOVEMBRO DE 2026 08:00 – Apresentação da Lista De Candidatos Aprovados na Prova Escrita; Sorteio da Ordem de Apresentação e Pontos da Prova Didática\".",
+  "fonte_conferida": "71 - Cronograma - Contabilidade Pública.pdf p. 1",
+  "observacao": "Presença anterior que elimina (abertura 03/11 09:00, item 8.3.2) está na mesma fila de 28/10."
+ },
+ {
+  "id": "s018",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "Regra relativa 8.5.4, \"(antes de: Sorteio do ponto para a primeira prova didática***)\"",
+  "documento_diz": "Edital 8.5.4. Cronograma retificado (07/10) Perspectivas Indígenas: 19/10 8h \"Resultado da prova escrita e sorteio da ordem da prova didática e da defesa do memorial\"; 12h sorteio do ponto da primeira prova didática; 14h início.",
+  "fonte_conferida": "51 - Edital 06-2026 - publicação no DOU.pdf / 52 - versão completa retificada em 11-09-2026.pdf item 8.5.4; cronograma_retificado_do_concurso_edital_062026_0.pdf p. 1",
+  "observacao": "Linha datada 19/10 08:00 na mesma mensagem; abertura 15/10 09:00 (portas fechadas) também."
+ },
+ {
+  "id": "s020",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "texto_do_leitor",
+  "atribuicao": "leitor",
+  "linha_diz": "Regra relativa: sorteio do ponto 2h antes da apresentação, \"(antes de: Sorteio do ponto para a primeira prova didática***)\"",
+  "documento_diz": "Edital 8.9.3 (2 horas antes). Cronograma retificado: 19/10 12h sorteio do ponto para a primeira prova didática, 14h início da primeira prova didática.",
+  "fonte_conferida": "51 - Edital 06-2026 - publicação no DOU.pdf / 52 - versão completa retificada em 11-09-2026.pdf item 8.9.3; cronograma_retificado_do_concurso_edital_062026_0.pdf p. 1",
+  "observacao": "Mesmo defeito do s002: o parêntese ancora o sorteio do ponto no próprio sorteio do ponto. A data concreta (19/10 12:00) está na mesma mensagem, então não há erro de dia."
+ },
+ {
+  "id": "s030",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "30/10/2026 (sexta): Divulgação do resultado da prova escrita (Até 22h00) (faltam 2 dias, fila 28/10)",
+  "documento_diz": "Cronograma Cirurgia Torácica: \"Primeiro dia – 30 de outubro de 2026 ... Até 22h00 Divulgação do resultado da prova escrita\".",
+  "fonte_conferida": "79 - Cronograma - Cirurgia Torácica e Cardiovascular.pdf p. 1",
+  "observacao": "Presença não obrigatória (8.3.3)."
+ },
+ {
+  "id": "s039",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "29/10/2026 (quinta): Divulgação do resultado da prova escrita (Até 22h00) (faltam 2 dias, fila 27/10)",
+  "documento_diz": "Cronograma Clínica Cirúrgica I: \"Primeiro dia – 29 de outubro de 2026 ... Até 22h00 Divulgação do resultado da prova escrita\".",
+  "fonte_conferida": "78 - Cronograma - Clínica Cirúrgica I - Bases da Cirurgia.pdf p. 1",
+  "observacao": null
+ },
+ {
+  "id": "s046",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "26/10/2026 (segunda), das 08:15 às 09:15: Consulta bibliográfica... até 1 hora (faltam 2 dias, fila 24/10)",
+  "documento_diz": "Cronograma Patologia, 26/10: \"08h15 às 09h15 Consulta bibliográfica pelos candidatos. Duração máxima: até 1 (uma) hora\".",
+  "fonte_conferida": "76 - Cronograma - Patologia.pdf p. 1",
+  "observacao": "Abertura 08:00 e sorteio 08:15 (presença eliminatória) estão na mesma fila de 24/10."
+ },
+ {
+  "id": "s055",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "06/11/2026 (sexta), das 08:00 às 12:00: Defesa de Memorial dos aprovados na escrita (cada candidato/a no seu horário...) (faltam 15 dias, fila 22/10)",
+  "documento_diz": "Cronograma Pesquisa Operacional: \"06/11 – SEXTA-FEIRA ... 08h00 – 12h00 – Defesa de Memorial dos candidatos aprovados na prova escrita\".",
+  "fonte_conferida": "68 - Cronograma - Pesquisa Operacional e Ciência de Dados.pdf p. 2; Edital item 8.11.2.2",
+  "observacao": "A regra da ordem (8.5.4/8.5.5) está na mesma mensagem."
+ },
+ {
+  "id": "s068",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "19/11/2026 (quinta), às 08:30: comparecimento obrigatório 30 min antes da prova de aula das 09:00 (faltam 30 dias, fila 20/10)",
+  "documento_diz": "Edital 11.1 o): \"Prova de aula – 19/11/2026, às 9h.\"; 11.2: \"O candidato deverá se apresentar 30 minutos antes de cada hora marcada no cronograma\".",
+  "fonte_conferida": "uerj-2026/13 - Seleção 2026-237 - Edital.pdf itens 11.1 e 11.2 (p. 9-10); 30 - Errata (não altera datas)",
+  "observacao": "O 11.3 permite ajustes se houver mais de 10 candidatos; as datas vigentes são as do 11.1."
+ },
+ {
+  "id": "s087",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "16/11/2026 (segunda), às 08:00: Sorteio do ponto para a prova escrita (faltam 30 dias, fila 17/10)",
+  "documento_diz": "Edital 11.1 i): \"Sorteio do ponto para a prova escrita - 16/11/2026, às 8h.\"",
+  "fonte_conferida": "uerj-2026/13 - Seleção 2026-237 - Edital.pdf item 11.1 (p. 9)",
+  "observacao": "A presença de 30 min antes (07:30, item 11.2) está na mesma fila."
+ },
+ {
+  "id": "s146",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "16/11/2026 (segunda), às 13:30: comparecimento obrigatório 30 min antes da leitura da prova escrita das 14:00 (faltam 27 dias, fila 20/10)",
+  "documento_diz": "Edital 11.1 k): \"Leitura da prova escrita – 16/11/2026, às 14h.\"; 11.2 (30 minutos antes); 9.1.1 h-i (leitura na presença dos candidatos).",
+  "fonte_conferida": "uerj-2026/13 - Seleção 2026-237 - Edital.pdf itens 9.1.1, 11.1, 11.2",
+  "observacao": null
+ },
+ {
+  "id": "s024",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "10/11/2026 (terça), às 08:00: Prova escrita do Edital nº 104/2026, área D (faltam 15 dias, fila 26/10)",
+  "documento_diz": "Edital 104/2026, Anexo I, 2: \"DATA/HORÁRIO/SALA DA PROVA ESCRITA : 10/11/2026, horário: 8h, sala: 205, prédio D.\" Quadro 01: Direito do trabalho e direito processual.",
+  "fonte_conferida": "unifal-002-2026/54 - Edital 104-2026 - Direito do Trabalho e Processual (SEI).html, Anexo I item 2, Quadro 01, itens 5.1 e 5.1.1",
+  "observacao": "O 5.1 recomenda chegar 30 min antes, mas sem eliminar; só elimina quem não chega até o início (5.1.1). Não há presença anterior que elimine."
+ },
+ {
+  "id": "s115",
+  "veredito": "ERRADA",
+  "categoria": "outra",
+  "atribuicao": "ambos",
+  "linha_diz": "14/10/2026 (quarta), até 18:00: fim das inscrições (é amanhã), para todas as áreas",
+  "documento_diz": "Quadro 03: inscrições \"Das 8h do dia 14/09/2026 até as 18h do dia 09/10/2026\". Anexo III, 1: \"Encerradas as inscrições e não havendo candidatos inscritos em número igual ou superior ao número de vagas, serão reabertas, às 8h do dia 13/10/2026 até as 18h do dia 14/10/2026\"; Anexo III, 2: \"A reabertura de inscrições, caso ocorra, será divulgada\".",
+  "fonte_conferida": "unifal-002-2026/52 - Edital 102-2026 (SEI).html, Quadro 03 e Anexo III itens 1-2 (o mesmo texto está em 103 a 106, 111, 039 e 41)",
+  "observacao": "Uma reabertura condicional, que nenhum documento da pasta confirma, sai como prazo certo de inscrição. O prazo real terminou em 09/10. Quem não se inscreveu entenderia que ainda pode até 14/10. Na extração, o ev-0006 está como inscricao/janela vigente, sem a forma condicionada, e o leitor troca o rótulo por \"fim das inscrições\" e descarta a condição."
+ },
+ {
+  "id": "s028",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "de 02/11/2026 (segunda) a 25/11/2026 (quarta): período de convocação e realização do procedimento de caracterização da deficiência (faltam 2 dias, fila 31/10)",
+  "documento_diz": "Anexo I: \"02 a 25/11/2026 Período para convocação e realização do procedimento de caracterização da deficiência das pessoas candidatas que se declararem com deficiência. *As pessoas candidatas deverão acompanhar através das Notas Informativas\".",
+  "fonte_conferida": "ufpe-08-2026/01 - Edital nº 08 (versão corrigida).pdf Anexo I; conferido também no EDITAL_..._consolidado_aps_2_reti-1.pdf Anexo I (idêntico)",
+  "observacao": "É um período, não um prazo; a linha não diz que as datas individuais saem por Nota Informativa, mas não induz erro."
+ },
+ {
+  "id": "s045",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "de 02/11/2026 (segunda) a 25/11/2026 (quarta): período de verificação da condição de indígenas e quilombolas (faltam 2 dias, fila 31/10)",
+  "documento_diz": "Anexo I: \"02 a 25/11/2026 Período para convocação e realização do procedimento de verificação da condição declarada para concorrer às vagas reservadas às pessoas candidatas indígenas e quilombolas.\"",
+  "fonte_conferida": "ufpe-08-2026/01 - Edital nº 08 (versão corrigida).pdf Anexo I; consolidado após 2ª retificação, Anexo I (idêntico)",
+  "observacao": null
+ },
+ {
+  "id": "s105",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "16/10/2026 (sexta), das 09:00 às 18:10: Sessão da Prova Didática - PD (art. 33) (faltam 2 dias, fila 14/10)",
+  "documento_diz": "Cronograma final: \"Sessão da Prova Didática - PD (art. 33) ... Data (primeiro dia): 16/10/2026 – Sexta-feira\", candidatas 01 a 06 das 09h00min às 18h10min, cada uma em horário nominal; \"Obrigatória a presença do(a) Candidato(a) na data e no horário estipulados para sua prova\".",
+  "fonte_conferida": "ufrgs-08-2026/147 - Psicologia Social do Trabalho - Cronograma final.pdf p. 3",
+  "observacao": "A faixa 09:00-18:10 é a da sessão inteira, e cada candidato tem horário próprio no cronograma. A linha não diz isso, mas não induz atraso. O tema é livre (art. 33) e não há sorteio de ponto; o sorteio da ordem foi em 19/09. O cronograma final (19/09) é o documento mais recente e o RP1 deferido em 28/09 não gerou cronograma novo."
+ },
+ {
+  "id": "s127",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "de 14/10/2026 (quarta), às 09:00 a 15/10/2026 (quinta), até 16:00: Sessão de Avaliação do Exame de Títulos e Trabalhos, sessão não pública (é amanhã, fila 13/10)",
+  "documento_diz": "Cronograma final: \"Sessão de avaliação do exame de títulos e trabalhos ... Sessão não pública ... 14/10/2026 Das 09h00 às 19h00; 15/10/2026 Das 09h00 às 16h00\".",
+  "fonte_conferida": "ufrgs-08-2026/147 - Psicologia Social do Trabalho - Cronograma final.pdf p. 3",
+  "observacao": null
+ },
+ {
+  "id": "s049",
+  "veredito": "ERRADA",
+  "categoria": "relativa_errada",
+  "atribuicao": "extrator",
+  "linha_diz": "\"24 horas antes de realização da Prova de Didática: Sorteio de 1 ponto...; imediatamente após o sorteio, prazo mínimo de 24 horas para a preparação\" (antes da Didática provável de 25/11)",
+  "documento_diz": "Edital 49: 4.3.2.1 \"Em sessão pública, após a revelação dos nomes ... e dos aprovados na Prova de Conhecimento, a Comissão Avaliadora divulgará uma lista de 10 pontos\"; 4.3.2.2 \"O candidato ... que não estiver presente no momento do sorteio do ponto da Prova de Didática será eliminado\"; 4.3.2.8 \"Imediatamente após o sorteio do ponto, será concedido um prazo mínimo de 24 (vinte e quatro) horas\".",
+  "fonte_conferida": "ufv-48-2026/Edital-49-2026-DAU.pdf itens 4.2.1, 4.2.3.1, 4.3.1, 4.3.2.1-4.3.2.9 (p. 1-2)",
+  "observacao": "O edital não marca o sorteio para 24h antes da Didática. O sorteio acontece na sessão pública logo após o resultado da Prova de Conhecimento (23/11), e a Didática vem pelo menos 24h depois. Quem seguisse a âncora \"24 horas antes\" (24/11, se a Didática for em 25/11) poderia faltar a um sorteio que elimina e que pode ocorrer antes. A extração (ev-0006) transformou \"prazo mínimo de 24h após o sorteio\" em \"24 horas antes da Didática\" e ignorou o 4.3.2.1."
+ },
+ {
+  "id": "s081",
+  "veredito": "ERRADA",
+  "categoria": "tipo_trocado",
+  "atribuicao": "extrator",
+  "linha_diz": "26/10/2026 (segunda), às 13:00: Reunião de instalação da Banca Examinadora, na qual será escolhido o(a) Presidente da Banca (faltam 13 dias, fila 13/10)",
+  "documento_diz": "Edital 2261/2026: \"Fixar a data de 26 de outubro de 2026, às 13h ... para o início do Concurso Público\". Ofício 139/2026: \"A reunião de instalação da Comissão Examinadora ocorrerá em 26/10/2026, às 13h ... conforme o item 8.10 ... O não comparecimento do candidato na sessão de abertura determinará sua eliminação\". Edital 1.638, 8.10 e 8.10.1 (atraso elimina).",
+  "fonte_conferida": "ufmg-1638-2026/ConvocCandidatos_Edital_2261_Edital-1638-2026.pdf p. 1 (lido como imagem); Oficio_139-2026_DIR_Conv.Candid_Concurso_Edital-1638-2026.pdf p. 1 (lido como imagem); Portaria-de-Designacao-da-Comissa-Examinadora_ConcPub_Edital-1638-2026.pdf; 01 - Edital nº 1.638-2026, itens 8.7-8.11",
+  "observacao": "Dia e hora estão certos, mas a sessão de abertura do concurso, cuja ausência elimina, aparece como reunião interna da banca para escolher o presidente (texto da Portaria). Na mesma mensagem vem a prova escrita de 27/10 13:00, e o candidato pode entender que o compromisso dele começa em 27/10. Pode ser rebaixado a TEXTO_CONFUSO se o critério for só dia e hora, mas pelo item 3 (o evento é o que a linha diz) e pelo item 5 eu a trato como erro. A extração usou a Portaria em vez do Edital 2261 e do Ofício 139, e os PDFs desses dois têm fonte não extraível como texto."
+ },
+ {
+  "id": "s108",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "24/11/2026 (terça), às 08:30: comparecimento obrigatório 30 min antes da prova de aula das 09:00 (faltam 30 dias, fila 25/10)",
+  "documento_diz": "Edital 246, 11.1 p): \"Prova de aula – 24/11/2026, às 09 h.\"; 11.2: \"O candidato deverá se apresentar 30 minutos antes de cada hora marcada no cronograma\".",
+  "fonte_conferida": "uerj-2026/18 - Seleção 2026-246 - Edital.pdf itens 11.1 e 11.2 (p. 10)",
+  "observacao": "Não há errata para a 246 na pasta."
+ }
+]

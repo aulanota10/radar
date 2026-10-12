@@ -1,0 +1,252 @@
+[
+  {
+    "id": "s037",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "linha_diz": "15/10 (qui): fim das inscrições, Saúde da Mulher",
+    "documento_diz": "Cronograma Saúde da Mulher: \"Período de Inscrições 05/10/2026 a 15/10/2026\"; edital 3.1 inscrição por e-mail sem hora-limite",
+    "fonte_conferida": "documentos/unilab-14-2026/Cronograma-Saude-da-Mulher.pdf (pdftotext, p.1); Edital-14_2026-Versao-DOU item 3.1",
+    "observacao": null
+  },
+  {
+    "id": "s054",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "linha_diz": "09/11 (seg): Prova Escrita, área 05 MBE",
+    "documento_diz": "Cronograma MBE: \"Prova Escrita 09/11/2026\"; edital 6.4.1.1 tempo conta do sorteio do ponto, sem chegada antecipada eliminatória",
+    "fonte_conferida": "documentos/unilab-14-2026/Cronograma-Medicina-Baseada-em-Evidencias-Epidemiologia-e-Pesquisa-Clinica.pdf p.1; Edital DOU 6.3-6.4.1.1",
+    "observacao": "Cronograma sem hora; edital 6.12 remete horários a publicação posterior."
+  },
+  {
+    "id": "s056",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "linha_diz": "16/11 (seg): Prova Escrita, área 03 APS/Semiologia",
+    "documento_diz": "Cronograma Práticas em APS/Semiologia: \"Prova Escrita 16/11/2026\"",
+    "fonte_conferida": "documentos/unilab-14-2026/Cronograma-Praticas-em-Atencao-Primaria-a-Saude_Semiologia-Medica-Males.pdf p.1; Edital DOU 6.3-6.4",
+    "observacao": null
+  },
+  {
+    "id": "s078",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "linha_diz": "23/10 (sex): último dia: Período de Recurso, área 05",
+    "documento_diz": "Cronograma MBE: \"Homologação das Inscrições 22/10/2026 / Período de Recurso 23/10/2026 / Resultado Final das Inscrições 26/10/2026\"",
+    "fonte_conferida": "documentos/unilab-14-2026/Cronograma-Medicina-Baseada-em-Evidencias-Epidemiologia-e-Pesquisa-Clinica.pdf p.1; Edital DOU 12.1",
+    "observacao": "Edital 12.1 fala em até 2 dias úteis após a lista preliminar (poderia ir a 26/10), mas o cronograma da área fixa 23/10; seguir a linha não faz perder prazo. Na mensagem a linha vem logo após a homologação, então o objeto do recurso fica claro."
+  },
+  {
+    "id": "s089",
+    "veredito": "ERRADA",
+    "categoria": "horario_presenca_omitido",
+    "atribuicao": "leitor",
+    "linha_diz": "17/11 (ter): Prova Didática, área 05 (30 dias antes)",
+    "documento_diz": "Data certa (\"Prova Didática 17/11/2026\"), mas \"Sorteio dos Pontos 16/11/2026\" e edital 6.8.3, II: no sorteio da ordem \"todos os candidatos devem, obrigatoriamente, estar presentes ... com penalidade de eliminação sumária\"",
+    "fonte_conferida": "documentos/unilab-14-2026/Cronograma-Medicina-Baseada-...pdf p.1; Edital-14_2026-Versao-DOU.docling.md 6.8.2-6.8.3 (I-III)",
+    "observacao": "Nenhuma linha de Sorteio dos Pontos 16/11 para a área 05 em fila-10-13 a 10-18 (nem o alerta de 30 dias em 17/10); o sorteio só aparece mais tarde. Extração tem o evento; o leitor não o emite antes da linha da didática."
+  },
+  {
+    "id": "s102",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "linha_diz": "04/11 (qua): Homologação das Inscrições, área 01",
+    "documento_diz": "Cronograma Avaliação Nutricional: \"Homologação das Inscrições 04/11/2026\"",
+    "fonte_conferida": "documentos/unilab-14-2026/Cronograma-Avaliacao-Nutricional-e-Nutricao-Clinica.pdf p.1",
+    "observacao": null
+  },
+  {
+    "id": "s143",
+    "veredito": "ERRADA",
+    "categoria": "horario_presenca_omitido",
+    "atribuicao": "leitor",
+    "linha_diz": "10/11 (ter): Prova Didática, área 06 (15 dias antes)",
+    "documento_diz": "Data certa (\"Prova Didática 10/11/2026\"), mas \"Sorteio dos Pontos 09/11/2026\" com presença obrigatória no sorteio da ordem \"com penalidade de eliminação sumária\" (edital 6.8.3, II)",
+    "fonte_conferida": "documentos/unilab-14-2026/Cronograma-Saude-da-Mulher.pdf p.1; Edital-14_2026-Versao-DOU.docling.md 6.8.3 (I-III)",
+    "observacao": "Filas da área 06 de 13/10 a 26/10 não trazem o sorteio de 09/11; ele só aparece em fila-2026-11-02 (7 dias). O alerta de 15 dias do sorteio (25/10) não existe."
+  },
+  {
+    "id": "s016",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "linha_diz": "03/11 (ter) às 08:30: comparecimento 30 min antes da prova escrita (09h)",
+    "documento_diz": "11.1 j \"Prova escrita - 03/11/2026, das 9h às 13h\"; 11.2 \"deverá se apresentar 30 (trinta) minutos antes de cada hora marcada\"",
+    "fonte_conferida": "documentos/uerj-2026/10 - Seleção 2026-233 - Edital.pdf p.9 (11.1, 11.2); errata 28 não altera cronograma",
+    "observacao": "A mesma fila (27/10) traz também o comparecimento das 07:30 para o sorteio das 8h."
+  },
+  {
+    "id": "s020",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "linha_diz": "05/11 (qui) às 09:00: comparecimento 30 min antes da prova de aula (09h30)",
+    "documento_diz": "11.1 o \"Prova de aula - 05/11/2026, às 9h30\"; 11.2 apresentar-se 30 min antes",
+    "fonte_conferida": "documentos/uerj-2026/10 - Seleção 2026-233 - Edital.pdf p.9 (11.1 o, q; 11.2)",
+    "observacao": "Sorteio do ponto da aula (04/11 9h, chegada 8h30) já veio em fila-2026-10-28."
+  },
+  {
+    "id": "s073",
+    "veredito": "ERRADA",
+    "categoria": "horario_presenca_omitido",
+    "atribuicao": "leitor",
+    "linha_diz": "03/11 (ter) das 09:00 às 13:00: Prova escrita (15 dias antes), sem outra linha",
+    "documento_diz": "11.1 i \"Sorteio do ponto para a prova escrita - 03/11/2026, às 8h\"; 11.2 apresentar-se 30 min antes de cada hora (07h30); 9.1.1 d: 60 min entre sorteio e prova, candidatos não podem se ausentar do recinto",
+    "fonte_conferida": "documentos/uerj-2026/10 - Seleção 2026-233 - Edital.pdf p.6 (9.1.1 c-d) e p.9 (11.1 i-j, 11.2)",
+    "observacao": "A sessão da prova começa às 8h com o sorteio (chegada 7h30); quem seguisse a linha chegaria às 9h, depois do sorteio e da hora de consulta. Nenhuma linha anterior para o destinatário (sorteio e comparecimentos só em fila-10-27). Edital não diz expressamente que elimina."
+  },
+  {
+    "id": "s109",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "linha_diz": "04/11 (qua) às 08:30: comparecimento 30 min antes do sorteio do ponto da prova de aula (09h)",
+    "documento_diz": "11.1 n \"Sorteio do ponto para a prova de aula - 04/11/2026, às 9h\"; 11.2 apresentar-se 30 min antes",
+    "fonte_conferida": "documentos/uerj-2026/10 - Seleção 2026-233 - Edital.pdf p.9 (11.1 n, 11.2)",
+    "observacao": null
+  },
+  {
+    "id": "s022",
+    "veredito": "TEXTO_CONFUSO",
+    "categoria": "horario_presenca_omitido",
+    "atribuicao": "leitor",
+    "linha_diz": "23/11 (seg) às 08:00: Prova de Conhecimento",
+    "documento_diz": "4.2.1 \"no dia 23 de novembro de 2026, às 08h\"; 4.2.3.1 \"deverão se apresentar ... com antecedência mínima de 15 minutos ... No horário marcado ... lista de presença e o candidato que não estiver presente será automaticamente eliminado\"",
+    "fonte_conferida": "documentos/ufv-48-2026/Edital-49-2026-DAU.pdf p.1 (4.2.1, 4.2.3.1)",
+    "observacao": "Data e hora certas. A chegada às 07h45 exigida não aparece nesta nem em fila anterior; a eliminação está ligada à chamada às 08h, por isso não classifiquei como ERRADA. Extração tem o evento ev-0014 (07:45)."
+  },
+  {
+    "id": "s115",
+    "veredito": "ERRADA",
+    "categoria": "horario_presenca_omitido",
+    "atribuicao": "leitor",
+    "linha_diz": "25/11 (qua): Prova de Didática, data provável",
+    "documento_diz": "4.3.1 \"na data provável de 25 de novembro de 2026\" (previsão certa); 4.3.2.2 \"O candidato ... que não estiver presente no momento do sorteio do ponto da Prova de Didática será eliminado\"; 4.3.2.8 sorteio no mínimo 24h antes",
+    "fonte_conferida": "documentos/ufv-48-2026/Edital-49-2026-DAU.pdf p.1-2 (4.3.1, 4.3.2.1-4.3.2.9)",
+    "observacao": "Sessão de sorteio do ponto, eliminatória, ocorre pelo menos 24h antes (data a definir após o resultado da prova de conhecimento); nenhuma linha nesta ou em fila anterior avisa disso. Extração tem ev-0006 (24h antes)."
+  },
+  {
+    "id": "s127",
+    "veredito": "ERRADA",
+    "categoria": "horario_presenca_omitido",
+    "atribuicao": "leitor",
+    "linha_diz": "27/11 (sex): Prova de Defesa de Memorial, data provável",
+    "documento_diz": "4.4.1 \"na data provável de 27 de novembro de 2026\" (certo); 4.4.2.2 entrega do Memorial em 3 vias impressas na Secretaria \"até 3 (três) horas após o início da aula do primeiro candidato\" da didática; 4.4.2.4 quem não entregar no prazo \"estará eliminado\"",
+    "fonte_conferida": "documentos/ufv-48-2026/Edital-49-2026-DAU.pdf p.2 (4.4.1, 4.4.2.2-4.4.2.5)",
+    "observacao": "Data da linha correta. O ato presencial anterior e eliminatório (entrega física do memorial durante a didática, por volta de 25/11) não aparece em nenhuma fila do destinatário. Se o critério 5 for lido só como chegada/portões, rebaixar para CERTA. O sorteio da ordem (4.4.2.5) é no início da própria sessão."
+  },
+  {
+    "id": "s077",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "linha_diz": "27/10 (ter): último dia de recursos contra resultado preliminar das provas escritas",
+    "documento_diz": "Anexo I: \"Período de recursos contra o Resultado Preliminar das Provas Escritas (folha óptica e questão dissertativa) 26/10 a 27/10/2026\"",
+    "fonte_conferida": "documentos/ifsc-01-2026/04 - Edital ... consolidado após retificação de 19-08-2026 (versão vigente).pdf p.34-35 (Anexo I); item 10.2",
+    "observacao": "Mesma data no original e no vigente; cronograma não fixa hora. Fonte da mensagem cita o original, não o vigente."
+  },
+  {
+    "id": "s087",
+    "veredito": "ERRADA",
+    "categoria": "texto_do_leitor",
+    "atribuicao": "leitor",
+    "linha_diz": "23/11 (seg): Realização da Prova de Desempenho Didático",
+    "documento_diz": "Anexo I: \"Realização da Prova de Desempenho Didático 23/11 a 28/11/2026\" (dia de cada um sai na convocação de 11/11); 8.11.2 comparecer \"com antecedência mínima de 30 (trinta) minutos ... sob pena de eliminação\"",
+    "fonte_conferida": "documentos/ifsc-01-2026/04 - Edital ... (versão vigente).pdf p.35 (Anexo I), 8.10-8.11.2",
+    "observacao": "A linha transforma o período 23-28/11 em um único dia (só o início); a maioria dos candidatos fará a prova em outro dia. Também não há linha sobre a chegada 30 min antes (eliminatória). Extração está certa (janela); o leitor mostrou só o início."
+  },
+  {
+    "id": "s145",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "linha_diz": "23/10 (sex): Divulgação do Resultado Preliminar das Provas Escritas",
+    "documento_diz": "Anexo I: \"Divulgação do Resultado Preliminar das Provas Escritas ... 23/10/2026\"",
+    "fonte_conferida": "documentos/ifsc-01-2026/04 - Edital ... (versão vigente).pdf p.35 (Anexo I); COMUNICADO 012026 só altera data de impugnações",
+    "observacao": "Fonte da mensagem cita o original; data igual no vigente."
+  },
+  {
+    "id": "s084",
+    "veredito": "ERRADA",
+    "categoria": "horario_presenca_omitido",
+    "atribuicao": "leitor",
+    "linha_diz": "30/11 (seg) das 10:00 às 14:00: Prova escrita (30 dias antes), sem outra linha",
+    "documento_diz": "11.1 i \"Sorteio do ponto para a prova escrita - 30/11/2026, às 09h00\"; j \"das 10h00 às 14h00\"; 11.2 apresentar-se 30 min antes de cada hora (08h30); 9.1.1 d: 60 min no recinto entre sorteio e prova",
+    "fonte_conferida": "documentos/uerj-2026/19 - Seleção 2026-250 - Edital.pdf p.9-10 (11.1 i-j, 11.2) e 9.1.1 c-d",
+    "observacao": "Mesmo caso de s073: a sessão começa às 9h com o sorteio (chegada 8h30), e não há linha disso nesta fila nem antes. Edital não diz expressamente que elimina."
+  },
+  {
+    "id": "s118",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "linha_diz": "19/10 (seg) até 23:59: fim das inscrições",
+    "documento_diz": "11.1 a \"a partir de 00h00 do dia 11/09/2026 até as 23h59 do dia 19/10/2026\"",
+    "fonte_conferida": "documentos/uerj-2026/19 - Seleção 2026-250 - Edital.pdf p.9 (11.1 a)",
+    "observacao": "Não há errata para a 250 na pasta."
+  },
+  {
+    "id": "s007",
+    "veredito": "ERRADA",
+    "categoria": "horario_presenca_omitido",
+    "atribuicao": "leitor",
+    "linha_diz": "01/12 (ter): PAD apresentação Grupo II (pode ir a 02/12), área 09",
+    "documento_diz": "Cronograma provisório: apresentação \"Grupo II - 01/12/2026 (pode se estender até o dia 02/12/2026...)\"; sorteio da ordem \"30/11/2026 - Grupo II, Pontualmente às 8h\"; edital 8.13.7 portões \"cerrados, impreterivelmente, às 08h\"; 8.13.9.10 presença obrigatória no sorteio, sob pena de eliminação",
+    "fonte_conferida": "documentos/ufersa-030-2026/05 - Anexo II - Cronograma provisório ... (retificado).pdf p.1; 01 - Edital de abertura 030-2026.pdf 8.13.6-8.13.9.10; 02 - Retificação 031-2026 (Psicanálise no Grupo II)",
+    "observacao": "Data da apresentação certa para o Grupo II. O sorteio eliminatório de 30/11 às 8h não aparece nesta fila nem antes (fila-10-31 não tem mensagem para a área 09). A linha também não diz que o cronograma é provisório."
+  },
+  {
+    "id": "s034",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "linha_diz": "28/10 (qua) até 23:59: último dia do pedido de isenção",
+    "documento_diz": "4.4.2 \"no período de 8h do dia 19/10/2026 às 23h59 do dia 28/10/2026\"",
+    "fonte_conferida": "documentos/unimontes-2026/60 - Edital 27-2026 - Artes.pdf (4.4.2)",
+    "observacao": "Sem retificação do Edital 27 na pasta; Comunicado 01/2026 não se aplica."
+  },
+  {
+    "id": "s050",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "linha_diz": "01/11 (dom) até 23:59: fim das inscrições",
+    "documento_diz": "Retificação 1, II, 4.2.1 leia-se: \"das 8h00 do dia 31/08/2026 às 23h59 do dia 01/11/2026\" (antes 01/10)",
+    "fonte_conferida": "documentos/unimontes-2026/10 - Edital 05-2026 - Retificação 1 (Geociências).pdf p.1 (item II)",
+    "observacao": null
+  },
+  {
+    "id": "s085",
+    "veredito": "CERTA",
+    "categoria": null,
+    "atribuicao": null,
+    "linha_diz": "22/11 (dom): aplicação das provas objetivas (data prevista)",
+    "documento_diz": "Anexo I (Datas previstas): \"Aplicação das provas objetivas 22/11/2026\"; 7.2 data provável, turno da tarde",
+    "fonte_conferida": "documentos/uncisal-01-2026/52 - Edital 1 - Abertura atualizado conforme retificações.docling.md (Anexo I, 7.2, 7.3, 15.9, 15.14)",
+    "observacao": "Hora ainda não divulgada (edital de locais em 6/11). 15.9 pede chegada 1h antes, mas o impedimento (15.14) é só após o início; nada eliminatório antes desse horário."
+  },
+  {
+    "id": "s113",
+    "veredito": "TEXTO_CONFUSO",
+    "categoria": "tipo_trocado",
+    "atribuicao": "ambos",
+    "linha_diz": "20/10 (ter): Homologação das inscrições ... (4.2, e (cronograma previsto)",
+    "documento_diz": "Anexo III item 13: \"Homologação das inscrições, pela congregação ... (Antes dos possíveis recursos) ... Até 20/10/2026\"; 4.2 e \"Publicação da homologação das inscrições: até dia 20 de outubro de 2026\"",
+    "fonte_conferida": "documentos/ufrj-942-2026/01 - Edital de abertura 942-2026.pdf p.3 (4.2 e) e p.8-9 (Anexo III, itens 13-15); 04 - Anexo III - Cronograma.pdf",
+    "observacao": "Data-limite da instituição ('até') virou data fixa (extração: forma fixa), e o texto saiu truncado com parêntese aberto '(4.2, e (' (leitor cortou a descrição no ':'). Não leva a perder prazo: o recurso vai até 31/10 (item 14)."
+  },
+  {
+    "id": "s137",
+    "veredito": "TEXTO_CONFUSO",
+    "categoria": "horario_presenca_omitido",
+    "atribuicao": "leitor",
+    "linha_diz": "10/11 (ter) às 16:00: Entrega do Projeto de Pesquisa escrito",
+    "documento_diz": "11.1 n \"Entrega do Projeto de Pesquisa escrito - 10/11/2026, às 16:00h\"; 11.2 \"deverá se apresentar 15 (quinze) minutos antes de cada hora marcada\"",
+    "fonte_conferida": "documentos/uerj-2026/11 - Seleção 2026-234 - Edital.pdf p.9-10 (11.1 n, 11.2) e 9.1.3 d",
+    "observacao": "Data e hora certas. A chegada às 15h45 (extração ev-0034) não aparece nesta nem em fila anterior; o edital não diz que o atraso elimina, por isso não classifiquei como ERRADA."
+  }
+]

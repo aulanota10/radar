@@ -1,0 +1,252 @@
+[
+ {
+  "id": "s015",
+  "veredito": "ERRADA",
+  "categoria": "horarios_individuais",
+  "atribuicao": "ambos",
+  "linha_diz": "07/11 (sáb) às 07:50: comparecimento obrigatório 1h antes do horário de cada candidato (área 07, Física Guarantã do Norte)",
+  "documento_diz": "16.6.2: 'comparecer ... no mínimo, 01 (uma) hora antes do horário previsto para a realização da atividade'; os 6 candidatos de Guarantã têm início em 07/11 às 08:50, 11:20, 14:00, 14:50, 15:40 e em 08/11 às 09:40 (sala 7)",
+  "fonte_conferida": "documentos/ifmt-03-2026/cronograma-da-prova-de-desempenho-didatico.pdf (pdftotext -layout), p. 1 item 16.6.2 e p. 2 (Física, sala 7)",
+  "observacao": "07:50 vale só para o primeiro candidato (08:50). A linha dá data e hora únicas a uma obrigação individual: o candidato de 08/11 09:40 iria no dia errado (07/11), e na mesma mensagem a PDD aparece só como 07/11 às 08:50. Extração ev-0141 grava 'fixa 07/11 07:50' (primeiro horário) e o leitor cortou a ressalva 'o primeiro horário da lotação é... o horário de cada candidato está em lotacoes'. Horários são de Cuiabá (MT), a linha não diz."
+ },
+ {
+  "id": "s035",
+  "veredito": "ERRADA",
+  "categoria": "horarios_individuais",
+  "atribuicao": "leitor",
+  "linha_diz": "06/11 (sex) às 21:30: PDD Matemática (Campus Juína), conforme cronograma e convocação por candidato (faltam 15 dias)",
+  "documento_diz": "Cronograma, Matemática sala 5, candidatos de Juína: 06/11 21:30 (Guilherme), 07/11 08:50 (Leandro), 07/11 10:30 (Matheus), 07/11 14:50 (Rodrigo)",
+  "fonte_conferida": "documentos/ifmt-03-2026/cronograma-da-prova-de-desempenho-didatico.pdf (pdftotext -layout), p. 5",
+  "observacao": "Contagem (15) e dia da semana certos, mas a linha reduz a janela de dois dias ao primeiro horário: 3 dos 4 candidatos da área fazem a prova em 07/11. A extração ev da área 09 tem janela 06/11 21:30 a 07/11 14:50; o leitor, nas linhas 'faltam N dias', mostra só o início de janela que cruza dias (na fila de 13/10 mostrou a janela inteira). A presença de 1h (20:30) saiu na fila de 13/10 do mesmo destinatário. Parênteses 'Campus Juína' é a lotação; a prova é no Campus Cuiabá Bela Vista."
+ },
+ {
+  "id": "s055",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "texto_do_leitor",
+  "atribuicao": "leitor",
+  "linha_diz": "PDD Manutenção de Aeronaves (Primavera do Leste): 06/11 (sex), das 19:00 às 19:00",
+  "documento_diz": "Cronograma p. 3: único candidato, '1 19:00 12 122755-6 GABRIEL ... Manutenção de Aeronaves IFMT Campus Primavera do Leste', sexta-feira 06/11/2026",
+  "fonte_conferida": "documentos/ifmt-03-2026/cronograma-da-prova-de-desempenho-didatico.pdf (pdftotext -layout), p. 3",
+  "observacao": "Data e hora certas; 'das 19:00 às 19:00' é janela de início e fim iguais renderizada sem colapsar. Comparecimento 18:00 está na mesma mensagem. Local real: Campus Cuiabá Bela Vista (a linha só cita o campus da vaga)."
+ },
+ {
+  "id": "s065",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "horarios_individuais",
+  "atribuicao": "ambos",
+  "linha_diz": "PDD Med. Veterinária grandes animais (Juína): 08/11 (dom), das 08:00 às 13:30",
+  "documento_diz": "Cronograma p. 7, sala 12, domingo 08/11: inícios 08:00, 08:50, 09:40, 10:30, 11:20 e 13:30 (6 candidatos)",
+  "fonte_conferida": "documentos/ifmt-03-2026/cronograma-da-prova-de-desempenho-didatico.pdf (pdftotext -layout), p. 7",
+  "observacao": "Dia certo para todos; '13:30' é o início do último candidato, não o fim da prova, e a linha não diz isso (extrator gravou fim = início do último; leitor apresenta como intervalo). Comparecimento 07:00 está na mesma mensagem."
+ },
+ {
+  "id": "s068",
+  "veredito": "ERRADA",
+  "categoria": "horarios_individuais",
+  "atribuicao": "leitor",
+  "linha_diz": "07/11 (sáb) às 08:00: PDD Física (Campus Confresa), conforme cronograma e convocação por candidato (faltam 15 dias)",
+  "documento_diz": "Cronograma p. 2, Física sala 7, candidatos de Confresa: 07/11 08:00, 09:40, 10:30, 16:30, 17:20 e 08/11 08:00, 08:50, 10:30",
+  "fonte_conferida": "documentos/ifmt-03-2026/cronograma-da-prova-de-desempenho-didatico.pdf (pdftotext -layout), p. 2",
+  "observacao": "Extração ev-0121 tem janela 07/11 08:00 a 08/11 10:30; a linha 'faltam 15 dias' mostra só o início, então 3 dos 8 candidatos (os de 08/11) leriam o dia errado e os demais uma hora errada. Contagem e dia da semana certos. Presença de 1h saiu na fila de 13/10 do mesmo destinatário."
+ },
+ {
+  "id": "s080",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "horarios_individuais",
+  "atribuicao": "ambos",
+  "linha_diz": "PDD Física (Guarantã do Norte): de 07/11 (sáb) às 08:50 a 08/11 (dom), até 09:40",
+  "documento_diz": "Cronograma p. 2, sala 7, Guarantã: 07/11 08:50, 11:20, 14:00, 14:50, 15:40; 08/11 09:40",
+  "fonte_conferida": "documentos/ifmt-03-2026/cronograma-da-prova-de-desempenho-didatico.pdf (pdftotext -layout), p. 2",
+  "observacao": "Datas certas; 'até 09:40' é o início do último candidato (que começa às 09:40), não o fim. Ambíguo sem levar a dia errado; a mesma mensagem traz o comparecimento só como 07/11 07:50 (ver s015)."
+ },
+ {
+  "id": "s112",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "horarios_individuais",
+  "atribuicao": "ambos",
+  "linha_diz": "06/11 (sex), das 20:40 às 21:30: PDD Informática (Campus Juína) (faltam 15 dias)",
+  "documento_diz": "Cronograma p. 4, sala 12, Juína: '2 20:40 ... FRANCISCO HUGO' e '3 21:30 ... RIAN', sexta-feira 06/11/2026",
+  "fonte_conferida": "documentos/ifmt-03-2026/cronograma-da-prova-de-desempenho-didatico.pdf (pdftotext -layout), p. 4",
+  "observacao": "Dia e contagem certos; 21:30 é o início do segundo candidato, não o fim da prova. Comparecimento (19:40, válido só para o primeiro) saiu na fila de 13/10."
+ },
+ {
+  "id": "s014",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "29/10 (qui) às 08:00: comparecimento 60 min antes da divulgação da lista de pontos da prova de aula (faltam 7 dias)",
+  "documento_diz": "11.1 n) 'Divulgação da lista de pontos para a prova de aula – 29/10/2026, às 09h00'; 11.2 'deverá se apresentar 60 minutos antes de cada hora marcada'; 9.1.2 c) todos os candidatos deverão apresentar-se",
+  "fonte_conferida": "documentos/uerj-2026/01 - Seleção 2026-213 - Edital.pdf, itens 11.1 n, 11.2 e 9.1.2 c (p. 7 e 10); errata 21 (DOERJ 05/08/2026) mantém 29/10 às 09h",
+  "observacao": null
+ },
+ {
+  "id": "s117",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "29/10 (qui) às 09:00: Divulgação da lista de pontos para a prova de aula (faltam 2 dias)",
+  "documento_diz": "11.1 n) 'Divulgação da lista de pontos para a prova de aula – 29/10/2026, às 09h00.'",
+  "fonte_conferida": "documentos/uerj-2026/01 - Seleção 2026-213 - Edital.pdf, item 11.1 n; 21 - Errata do cronograma ('divulgação da lista de pontos para a prova de aula: 29/10/2026, às 09h')",
+  "observacao": "Comparecimento 08:00 (11.2) está na mesma fila."
+ },
+ {
+  "id": "s123",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "30/10 (sex) às 09:30: Prova de aula (faltam 15 dias)",
+  "documento_diz": "11.1 p) 'Prova de aula – 30/10/2026, às 09h30.'; errata: 'prova de aula: 30/10/2026, às 9h30'",
+  "fonte_conferida": "documentos/uerj-2026/01 - Seleção 2026-213 - Edital.pdf, item 11.1 p e 11.2; 21 - Errata do cronograma",
+  "observacao": "Na fila de 15/10 (primeira do destinatário) não há linha da chegada 60 min antes (11.2) nem do sorteio do ponto de 29/10; elas só saem em 22/10 e 23/10. O edital manda chegar 60 min antes mas não diz que o atraso elimina, por isso não marquei horario_presenca_omitido; se a coordenação tratar 11.2 como presença que elimina, esta linha vira ERRADA. 9.1.2 d) prevê horários de sorteio individuais se houver mais de um candidato."
+ },
+ {
+  "id": "s147",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "29/10 (qui) às 09:30: Sorteio do ponto para a prova de aula (faltam 7 dias)",
+  "documento_diz": "11.1 o) 'Sorteio do ponto para a prova de aula – 29/10/2026, às 09h30.'",
+  "fonte_conferida": "documentos/uerj-2026/01 - Seleção 2026-213 - Edital.pdf, item 11.1 o; 21 - Errata do cronograma ('sorteio da prova de aula: 29/10/2026, às 9h30')",
+  "observacao": "Comparecimento 08:30 e 08:00 (lista de pontos) na mesma fila. 9.1.2 d) admite horários de sorteio por candidato definidos pela comissão."
+ },
+ {
+  "id": "s017",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "05/11 (qui) às 08:30: comparecimento 30 min antes da prova de aula marcada para 05/11 às 09h00 (faltam 7 dias)",
+  "documento_diz": "11.1 o) 'Prova de aula – 05/11/2026, às 09:00 h.'; 11.2 'deverá se apresentar 30 minutos antes de cada hora marcada'",
+  "fonte_conferida": "documentos/uerj-2026/07 - Seleção 2026-230 - Edital.pdf, itens 11.1 o e 11.2 (p. 9-10); 25 - Errata (só muda vagas e taxa)",
+  "observacao": "11.1 m) Obs.: havendo mais de um candidato, em 03/11 serão divulgados dia e hora do sorteio e da prova de aula de cada um; até lá vale o horário do edital."
+ },
+ {
+  "id": "s064",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "03/11 (ter) às 13:30: comparecimento 30 min antes da leitura da prova escrita marcada para 03/11 às 14h00 (faltam 7 dias)",
+  "documento_diz": "11.1 k) 'Leitura da prova escrita – 03/11/2026, às 14:00 h.'; 11.2 '30 minutos antes de cada hora marcada'",
+  "fonte_conferida": "documentos/uerj-2026/07 - Seleção 2026-230 - Edital.pdf, itens 11.1 k e 11.2",
+  "observacao": null
+ },
+ {
+  "id": "s070",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "03/11 (ter) às 08:00: Sorteio do ponto para a prova escrita (faltam 7 dias)",
+  "documento_diz": "11.1 i) 'Sorteio do ponto para a prova escrita – 03/11/2026, às 08:00 h.'",
+  "fonte_conferida": "documentos/uerj-2026/07 - Seleção 2026-230 - Edital.pdf, item 11.1 i",
+  "observacao": "Comparecimento 07:30 (11.2) na mesma fila."
+ },
+ {
+  "id": "s063",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "tipo_trocado",
+  "atribuicao": "extrator",
+  "linha_diz": "23/10 (sex) às 18:00: Resultado (é hoje)",
+  "documento_diz": "Edital 207/2026, cronograma prévio: 'Resultado | até as 18h do dia 23/10'; cronograma específico: 'Divulgação do Resultado Provisório 23/10/2026'; 'Nota: O cronograma prévio pode ser alterado'",
+  "fonte_conferida": "documentos/unila-204-2026/0a604de4...pdf (Edital 207/2026, MFC), item 2, cronogramas (pdftotext)",
+  "observacao": "Data certa; o documento dá limite ('até as 18h') e a linha dá compromisso ('às 18:00'). Extração ev-0062 gravou forma fixa com hora 18:00 (e tipo resultado_final, embora seja o provisório). Não induz perda de prazo: o recurso conta 2 dias úteis da divulgação."
+ },
+ {
+  "id": "s108",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "19/10 (seg) às 08:30: comparecimento com antecedência mínima de 30 min da prova escrita de 19/10, 9h às 13h (faltam 6 dias)",
+  "documento_diz": "Edital 204, 14.2 'comparecer ... com antecedência mínima de 30 (trinta) minutos do horário fixado para o seu início'; Edital 207: 'Prova Escrita 19/10, das 9h às 13h'; Edital 259, 1.3 'fechamento das salas ... às 9h' e 1.3.1 sem entrada após",
+  "fonte_conferida": "documentos/unila-204-2026/01 - Edital de abertura 204-2026.pdf itens 14.2, 14.7, 14.9, 15.2; 0a604de4...pdf (Edital 207) item 2; d9cd10be...pdf (Edital 259/2026, 08/10) itens 1.1-1.3.1",
+  "observacao": "Fechamento das salas às 9h na mesma linha da fila. Ato de instalação (presença obrigatória, 15.2) é a primeira etapa do dia, sem hora própria; a chegada às 08:30 o cobre."
+ },
+ {
+  "id": "s133",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "horarios_individuais",
+  "atribuicao": "ambos",
+  "linha_diz": "21/10 (qua), das 08:00 às 12:00: Prova Didática (21/10, 8h-12h); ordem definida pela entrega da prova escrita (faltam 7 dias)",
+  "documento_diz": "Edital 207, cronograma prévio: 'Prova Didática | 20/10, das 14h às 18h. 21/10, das 8h às 12h.'; Edital 204, 16.7.2: ordem pela sequência de entrega da prova escrita",
+  "fonte_conferida": "documentos/unila-204-2026/0a604de4...pdf (Edital 207) item 2; 01 - Edital de abertura 204-2026.pdf item 16.7.2",
+  "observacao": "Data e contagem certas, mas a linha apresenta só a segunda sessão como 'Prova Didática' sem dizer que há sessão em 20/10 à tarde (a extração dividiu em dois eventos; a sessão de 20/10 saiu na fila de 13/10). Cronograma é 'prévio' e 'pode ser alterado', o que a linha não diz. Presença anterior (prova escrita de 19/10, 08:30) saiu na fila de 13/10."
+ },
+ {
+  "id": "s062",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "16/10 (sex), até 17:00: fim das inscrições (faltam 2 dias)",
+  "documento_diz": "2.1: inscrição e pagamento 'no período das 00:00 do dia 01/09/2026 às 17:00 horas do dia 16/10/2026, observado o horário de Brasília'",
+  "fonte_conferida": "documentos/unesp-titular-2026/57 - Edital 305-2026 CSJRP ... (DOE-SP 19-08-2026).html.docling.md, item 2.1",
+  "observacao": "Nenhum outro documento da pasta altera o 305/2026 CSJRP (os que citam '305/2026' são de outro edital, FCL Assis)."
+ },
+ {
+  "id": "s076",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "16/10 (sex), até 17:00: último dia de pagamento da taxa de R$ 286,00, no período das inscrições (faltam 2 dias)",
+  "documento_diz": "2.1: 'realizar o pagamento da taxa de inscrição no valor de R$ 286,00 ... no período das 00:00 do dia 01/09/2026 às 17:00 horas do dia 16/10/2026'",
+  "fonte_conferida": "documentos/unesp-titular-2026/57 - Edital 305-2026 CSJRP ... .html.docling.md, item 2.1",
+  "observacao": null
+ },
+ {
+  "id": "s131",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "18/10 (dom) às 07:30: comparecimento ao local da Prova Escrita com antecedência mínima de 30 min, início 18/10 às 8h (faltam 2 dias)",
+  "documento_diz": "Edital 8.3 'comparecer ... com antecedência mínima de 30 minutos'; Local e salas, item 2: 'realizada no dia 18 de outubro de 2026, com início às 8h'; item 3: 'Não será permitido o ingresso ... após as 8h'",
+  "fonte_conferida": "documentos/urca-2026/01 - Edital nº 02-2026-GR.pdf item 8.3; Local-e-salas-da-prova-escrita.pdf itens 2 e 3; 04 - Novo cronograma (18/10)",
+  "observacao": "O comunicado de local abre o acesso às 7h; 07:30 é coerente com o edital e com o fechamento às 8h."
+ },
+ {
+  "id": "s132",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "30/10 (sex): último dia do prazo de recurso do resultado preliminar da prova escrita (é amanhã)",
+  "documento_diz": "'29 e 30/10/2026 | ON LINE | PRAZO PARA INTERPOSIÇÃO DE RECURSO DO RESULTADO PRELIMINAR DA PROVA ESCRITA'",
+  "fonte_conferida": "documentos/urca-2026/03 - Cronograma do concurso (original).pdf e 04 - Novo cronograma (atualizado).pdf (pdftotext); Comunicados I-IV",
+  "observacao": "A fonte cita o cronograma original, mas o novo cronograma (Comunicado IV só alterou inscrições) mantém 29 e 30/10. Sem hora-limite no documento."
+ },
+ {
+  "id": "s048",
+  "veredito": "ERRADA",
+  "categoria": "horario_presenca_omitido",
+  "atribuicao": "leitor",
+  "linha_diz": "29/11 (dom): Realização das Provas Objetiva e Dissertativa (faltam 30 dias)",
+  "documento_diz": "Retificação 01, Anexo I leia-se: 'Realização das Provas Objetiva e Dissertativa | 29/11/2026'; Edital 15.21 'portões ... fechados 15 (quinze) minutos antes início das provas, às 07h45'; 15.22 sem acesso após o fechamento; 15.23 ausente é eliminado",
+  "fonte_conferida": "documentos/ifmg-2026/02 - Retificação 01.pdf p. 2 (imagem conferida); 01 - Edital de abertura 607-2026.pdf itens 15.21-15.23 e 16.10; 08-09-2026 Respostas à impugnação (25/10 mudou para 29/11)",
+  "observacao": "Data, dia da semana e contagem certos. Falta a presença que elimina: portões fecham às 07h45 (abrem 07h15), e nenhuma fila deste destinatário (13/10, 15/10, 30/10) traz essa linha; a extração tem o evento (ev-0086/0087, 29/11 07:45), o leitor não o pôs na fila de 30 dias. A linha também omite o início às 08:00. '07 - Cronograma' (25/10) é o anexo original, superado pela Retificação 01."
+ },
+ {
+  "id": "s083",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "19/10 (seg), até 17:00: último dia de pagamento da taxa de R$ 286,00, no período das inscrições (faltam 2 dias)",
+  "documento_diz": "2.1: pagamento de R$ 286,00 'no período das 09:00 do dia 03/09/2026 às 17:00 do dia 19/10/2026, observado o horário de Brasília'",
+  "fonte_conferida": "documentos/unesp-titular-2026/52 - Edital 138-2026 STGP-DTAd ... .html.docling.md item 2.1; d8310e8d-....pdf (mesmo edital) item 2.1",
+  "observacao": null
+ },
+ {
+  "id": "s106",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "26/11 (qui) às 09:30: 'P) Prova de aula - 26/11/2026, às 9h30' (faltam 30 dias)",
+  "documento_diz": "11.1 p) 'Prova de aula – 26/11/2026, às 9h30.'",
+  "fonte_conferida": "documentos/uerj-2026/04 - Seleção 2026-226 - Edital.pdf, itens 11.1 p e 11.2 (pdftotext); nenhuma errata do 226 na pasta",
+  "observacao": "Prefixo 'P)' é resto da alínea, sem prejuízo. Como em s123: 11.2 manda chegar 60 min antes (sem sanção expressa) e não há linha disso nesta fila nem em anterior (só 24/10, prova escrita); se a coordenação tratar 11.2 como presença que elimina, vira ERRADA."
+ },
+ {
+  "id": "s135",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "27/10 (ter): fim das inscrições (faltam 7 dias)",
+  "documento_diz": "Anexo I: 'Período de Inscrições | 28/09/2026 a 27/10/2026'",
+  "fonte_conferida": "documentos/unila-240-2026/edital_240-2026_condicoes_gerais.pdf, Anexo I (pdftotext l. 1503); versão DOU e convocatoria em espanhol iguais",
+  "observacao": "Documento não dá hora-limite; a linha também não."
+ }
+]

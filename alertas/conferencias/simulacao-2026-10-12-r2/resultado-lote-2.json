@@ -1,0 +1,252 @@
+[
+ {
+  "id": "s035",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "23/11/2026 (segunda): Sorteio dos Pontos, área 03",
+  "documento_diz": "Cronograma área 03: 'Sorteio dos Pontos 23/11/2026'",
+  "fonte_conferida": "documentos/unilab-14-2026/Cronograma-Praticas-em-Atencao-Primaria-a-Saude_Semiologia-Medica-Males.pdf (pdftotext); documentos/unilab-14-2026/Edital-no-14_2026-Versao-SEI.docling.md item 6.8.3",
+  "observacao": "Edital 6.8.3, II exige presença de todos no horário oficial do sorteio da ordem, sob eliminação; horário ainda será publicado pela unidade. Não é presença anterior ao evento, por isso sem linha extra exigida."
+ },
+ {
+  "id": "s047",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "texto_do_leitor",
+  "atribuicao": "leitor",
+  "linha_diz": "após a divulgação do resultado da prova escrita: Serão realizados sorteios públicos... (antes de: Prova Didática)",
+  "documento_diz": "6.8.3, I: 'Serão realizados sorteios públicos, após a divulgação do resultado da prova escrita, conduzidos pelo Secretário...' para definir ordem e temas; cronograma área 05 fixa 'Sorteio dos Pontos 16/11/2026'",
+  "fonte_conferida": "documentos/unilab-14-2026/Edital-no-14_2026-Versao-SEI.docling.md item 6.8.3, I a III; documentos/unilab-14-2026/Cronograma-Medicina-Baseada-em-Evidencias-Epidemiologia-e-Pesquisa-Clinica.pdf (pdftotext)",
+  "observacao": "Conteúdo literal correto e não induz erro de data, mas a linha repete sem data um evento que já aparece datado (16/11) na mesma mensagem, e a frase é cortada antes de 'para definir' e não diz que a presença no sorteio da ordem é obrigatória sob eliminação (6.8.3, II)."
+ },
+ {
+  "id": "s059",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "27/11/2026 (sexta): Provas de Títulos, área 03",
+  "documento_diz": "Cronograma área 03: 'Provas de Títulos 27/11/2026'",
+  "fonte_conferida": "documentos/unilab-14-2026/Cronograma-Praticas-em-Atencao-Primaria-a-Saude_Semiologia-Medica-Males.pdf (pdftotext); documentos/unilab-14-2026/Edital-no-14_2026-Versao-SEI.docling.md item 7.4",
+  "observacao": "Coerente com 7.4 (entrega do Lattes no primeiro dia útil após o resultado da última prova eliminatória: resultado final didática 26/11)."
+ },
+ {
+  "id": "s085",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "23/11/2026 (segunda): Prova de Títulos, área 05",
+  "documento_diz": "Cronograma área 05: 'Prova de Títulos 23/11/2026'",
+  "fonte_conferida": "documentos/unilab-14-2026/Cronograma-Medicina-Baseada-em-Evidencias-Epidemiologia-e-Pesquisa-Clinica.pdf (pdftotext)",
+  "observacao": "Resultado final didática 19/11; 20/11 é feriado nacional, logo 23/11 é o primeiro dia útil (7.4), coerente."
+ },
+ {
+  "id": "s092",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "24/11/2026 (terça): Prova Didática, área 03",
+  "documento_diz": "Cronograma área 03: 'Prova Didática 24/11/2026'",
+  "fonte_conferida": "documentos/unilab-14-2026/Cronograma-Praticas-em-Atencao-Primaria-a-Saude_Semiologia-Medica-Males.pdf (pdftotext); documentos/unilab-14-2026/Edital-no-14_2026-Versao-SEI.docling.md itens 6.8.2 e 6.8.3",
+  "observacao": "Sorteio (presença obrigatória) aparece na mesma fila, linha de 23/11."
+ },
+ {
+  "id": "s098",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "04/11/2026 (quarta): Divulgação do Resultado Preliminar Prova Escrita, área 06",
+  "documento_diz": "Cronograma área 06: 'Divulgação do Resultado Preliminar Prova Escrita 04/11/2026'",
+  "fonte_conferida": "documentos/unilab-14-2026/Cronograma-Saude-da-Mulher.pdf (pdftotext)",
+  "observacao": null
+ },
+ {
+  "id": "s099",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "03/11/2026 (terça): último dia: Período de Recurso (é amanhã), área 03",
+  "documento_diz": "Cronograma área 03: 'Período de Recurso 03/11/2026' (após Homologação 30/10)",
+  "fonte_conferida": "documentos/unilab-14-2026/Cronograma-Praticas-em-Atencao-Primaria-a-Saude_Semiologia-Medica-Males.pdf (pdftotext); documentos/unilab-14-2026/Edital-no-14_2026-Versao-SEI.docling.md item 12.1",
+  "observacao": "Edital 12.1 dá até 2 dias úteis após a lista preliminar (30/10; 02/11 feriado), o que poderia ir a 04/11; a linha segue o cronograma e é a data mais conservadora, sem risco de perder prazo."
+ },
+ {
+  "id": "s109",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "13/11/2026 (sexta): Provas de Títulos, área 06",
+  "documento_diz": "Cronograma área 06: 'Provas de Títulos 13/11/2026'",
+  "fonte_conferida": "documentos/unilab-14-2026/Cronograma-Saude-da-Mulher.pdf (pdftotext)",
+  "observacao": null
+ },
+ {
+  "id": "s022",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "23/10/2026 (sexta): Divulgação do Resultado Provisório (é hoje)",
+  "documento_diz": "Edital 207/2026, cronograma específico: 'Divulgação do Resultado Provisório 23/10/2026'",
+  "fonte_conferida": "documentos/unila-204-2026/0a604de4c967...317242705.pdf (Edital 207/2026, item 2, pdftotext); retificações 211 e 213 (só titulação)",
+  "observacao": null
+ },
+ {
+  "id": "s038",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "tipo_trocado",
+  "atribuicao": "extrator",
+  "linha_diz": "20/10/2026 (terça), às 12:00: Resultado da Prova Escrita",
+  "documento_diz": "Edital 207/2026, cronograma prévio: 'Resultado da Prova Escrita | até as 12h do dia 20/10'",
+  "fonte_conferida": "documentos/unila-204-2026/0a604de4c967...317242705.pdf (Edital 207/2026, item 2, pdftotext)",
+  "observacao": "Data certa; o documento dá limite ('até as 12h') e a linha dá hora exata ('às 12:00'). Não faz perder nada (quem olhar às 12h encontra o resultado). A extração gravou forma fixa com hora 12:00, perdendo o 'até'. O cronograma prévio 'pode ser alterado durante a realização do concurso', o que a linha não diz."
+ },
+ {
+  "id": "s041",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "23/10/2026 (sexta): Previsão para bancas de verificação das condições autodeclaradas",
+  "documento_diz": "Edital 207/2026, cronograma das bancas de ações afirmativas: 'Previsão para bancas de verificação das condições autodeclaradas. 23/10/2026'",
+  "fonte_conferida": "documentos/unila-204-2026/0a604de4c967...317242705.pdf (Edital 207/2026, item 2, pdftotext)",
+  "observacao": "Mantém 'Previsão'. Área 01 tem vaga PPP (retificação 211); evento interessa só a autodeclarados, mas não induz erro aos demais."
+ },
+ {
+  "id": "s061",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "No ato da entrega da prova escrita: Sorteio do ponto da Prova Didática (antes de: Prova Didática 20/10, 14h-18h)",
+  "documento_diz": "Edital 204, 16.7: 'No ato da entrega da prova escrita, o candidato realizará o sorteio do ponto da Prova Didática'",
+  "fonte_conferida": "documentos/unila-204-2026/01 - Edital de abertura 204-2026.pdf (pdftotext) itens 14.2, 15.2, 16.7, 17.3-17.5; documentos/unila-204-2026/d9cd10bee655...203946.pdf (Edital 259/2026, itens 1.1 a 1.3); documentos/unila-204-2026/0a604de4c967...317242705.pdf (Edital 207/2026, item 2, pdftotext)",
+  "observacao": "Presença anterior coberta na mesma fila (08:30 comparecimento, 14.2; 09:00 fechamento das salas, Edital 259 item 1.3). O parêntese cita só o turno 20/10 14h-18h; o cronograma prévio prevê também 21/10 das 8h às 12h, mas isso não muda a linha conferida."
+ },
+ {
+  "id": "s019",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "03/11/2026 (terça), às 07:30: comparecimento 30 min antes do sorteio do ponto da prova escrita (08h)",
+  "documento_diz": "11.1 i: 'Sorteio do ponto para a prova escrita – 03/11/2026, às 08:00 h'; 11.2: 'deverá se apresentar 30 minutos antes de cada hora marcada'",
+  "fonte_conferida": "documentos/uerj-2026/07 - Seleção 2026-230 - Edital.pdf item 11 (pdftotext); 25 - Errata 230 (só vagas e 3.1 f); edital_1829_* (banca e inscritos)",
+  "observacao": null
+ },
+ {
+  "id": "s090",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "03/11/2026 (terça), das 09:00 às 13:00: Prova escrita",
+  "documento_diz": "11.1 j: 'Prova escrita – 03/11/2026, das 09:00 às 13:00 h'",
+  "fonte_conferida": "documentos/uerj-2026/07 - Seleção 2026-230 - Edital.pdf itens 9.1.1 e 11 (pdftotext); 25 - Errata 230",
+  "observacao": "Linhas de comparecimento 07:30 e 08:30 na mesma fila."
+ },
+ {
+  "id": "s149",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "05/11/2026 (quinta), às 09:00: Prova de aula",
+  "documento_diz": "11.1 o: 'Prova de aula – 05/11/2026, às 09:00 h'",
+  "fonte_conferida": "documentos/uerj-2026/07 - Seleção 2026-230 - Edital.pdf itens 9.1.2 e 11 (pdftotext); edital_1829_1790888748 (lista de inscritos)",
+  "observacao": "Comparecimento 08:30 na mesma fila. A Obs. do 11.1 m (horários por candidato se houver mais de um) não se aplica hoje: lista tem 1 inscrita."
+ },
+ {
+  "id": "s097",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "25/11/2026 (quarta), às 09:30: Sorteio do ponto para a prova de aula",
+  "documento_diz": "11.1 o: 'Sorteio do ponto para a prova de aula – 25/11/2026, às 9h30'",
+  "fonte_conferida": "documentos/uerj-2026/03 - Seleção 2026-225 - Edital.pdf itens 9.1.2 e 11 (pdftotext); aviso_1824_1791243514 (17 inscritos)",
+  "observacao": "Comparecimentos 08:00 (divulgação dos pontos, 9.1.2 c) e 08:30 na mesma fila. Com 17 inscritos, 9.1.2 d prevê sorteio individual em horários definidos pela Comissão; 9h30 é o horário do cronograma e quem segue a linha não perde nada."
+ },
+ {
+  "id": "s120",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "24/11/2026 (terça), às 08:00: comparecimento 60 min antes da continuação da leitura (a depender do nº de candidatos), 09h",
+  "documento_diz": "11.1 l: 'Continuação da leitura da prova escrita – 24/11/2026, às 9 h. (a depender do número de candidatos)'; 11.2: 'apresentar 60 minutos antes'",
+  "fonte_conferida": "documentos/uerj-2026/03 - Seleção 2026-225 - Edital.pdf item 11 (pdftotext)",
+  "observacao": null
+ },
+ {
+  "id": "s132",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "23/11/2026 (segunda), às 14:00: comparecimento 60 min antes da leitura da prova escrita (15h)",
+  "documento_diz": "11.1 k: 'Leitura da prova escrita – 23/11/2026, às 15 h'; 11.2: 'apresentar 60 minutos antes'",
+  "fonte_conferida": "documentos/uerj-2026/03 - Seleção 2026-225 - Edital.pdf item 11 (pdftotext)",
+  "observacao": null
+ },
+ {
+  "id": "s029",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "27/10/2026 (terça): PREVISÃO DO RESULTADO PRELIMINAR DA PROVA ESCRITA",
+  "documento_diz": "Cronograma: '27/10/2026 ... PREVISÃO DO RESULTADO PRELIMINAR DA PROVA ESCRITA' (igual no novo cronograma)",
+  "fonte_conferida": "documentos/urca-2026/03 - Cronograma do concurso (original).pdf e 04 - Novo cronograma (atualizado).pdf (pdftotext); Comunicados I a IV",
+  "observacao": "A fonte citada é o cronograma original; o vigente é o 04 Novo cronograma (só mudou inscrições para 22/08, Comunicado IV), com a mesma data."
+ },
+ {
+  "id": "s148",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "09/11/2026 (segunda): PREVISÃO DA DIVULGAÇÃO DO LOCAL PARA SORTEIO DOS PONTOS DA PROVA DIDÁTICA",
+  "documento_diz": "Cronograma: '09/11/2026 ... PREVISÃO DA DIVULGAÇÃO DO LOCAL PARA SORTEIO DOS PONTOS DA PROVA DIDÁTICA' (igual no novo cronograma)",
+  "fonte_conferida": "documentos/urca-2026/03 - Cronograma do concurso (original).pdf e 04 - Novo cronograma (atualizado).pdf (pdftotext)",
+  "observacao": "Mesma ressalva: fonte citada é o original superado, data idêntica no vigente."
+ },
+ {
+  "id": "s117",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "13/10/2026 (terça): Publicação da Composição Final das Bancas Examinadoras (é hoje)",
+  "documento_diz": "Anexo I (Retificação 01, leia-se): 'Publicação da Composição Final das Bancas Examinadoras 13/10/2026'",
+  "fonte_conferida": "documentos/ifmg-2026/02 - Retificação 01.docling.md; 07 - Cronograma.docling.md; retificações 02 a 08",
+  "observacao": "Fonte citada é o Anexo I do edital original; a Retificação 01 alterou o cronograma (provas para 29/11), mas manteve 13/10 para este evento."
+ },
+ {
+  "id": "s129",
+  "veredito": "ERRADA",
+  "categoria": "horario_presenca_omitido",
+  "atribuicao": "leitor",
+  "linha_diz": "10 minutos antes do início de aplicação das provas: sorteio do tema da Prova Dissertativa (antes de: Comunicado dos Locais de Prova...)",
+  "documento_diz": "18.2: 'sorteio do tema ... 10 minutos antes do início de aplicação das provas'; 15.21: 'portões ... serão fechados 15 (quinze) minutos antes do início das provas, às 07h45'; 15.22: nenhum acesso após o fechamento; provas em 29/11/2026 (Retificação 01)",
+  "fonte_conferida": "documentos/ifmg-2026/01 - Edital de abertura 607-2026.docling.md itens 15.21, 15.22, 18.2, 18.3; 02 - Retificação 01.docling.md (Anexo I); filas 13/10, 15/10, 30/10",
+  "observacao": "Na fila de 13/10 (primeira do destinatário) não há linha do fechamento dos portões às 07h45; ela só aparece em 30/10. Quem planejasse chegar para o sorteio, 10 min antes do início (07h50), ficaria do lado de fora. Além disso o 'antes de: Comunicado dos Locais de Prova' (15/10) ancora mal o evento, que ocorre no dia das provas, 29/11."
+ },
+ {
+  "id": "s050",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "04/11/2026 (quarta), até 16:00: último dia: pagamento da taxa por transferência, com compensação dentro do prazo de inscrições",
+  "documento_diz": "Preâmbulo: inscrições até 'às 16 horas (horário de Brasília) do dia 04 de novembro de 2026'; item 2 e § 9º: transferência, comprovante anexado na inscrição, compensação 'dentro do prazo de inscrições'",
+  "fonte_conferida": "documentos/usp-fm-199-2026/Edital DVACAD-FM-199-2026.pdf preâmbulo e item 2 (pdftotext); versão HTML 51",
+  "observacao": null
+ },
+ {
+  "id": "s086",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "23/10/2026 (sexta), até 16:00: fim das inscrições",
+  "documento_diz": "Preâmbulo: 'término às 16 horas (horário de Brasília) do dia 23 de outubro de 2026'",
+  "fonte_conferida": "documentos/usp-fm-199-2026/Edital DVACAD-FM-166-2026.pdf (pdftotext); usp-fm-152-168-2026/55 - Edital 166 (HTML)",
+  "observacao": "Nenhum documento posterior do 166 na pasta."
+ },
+ {
+  "id": "s111",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "imediatamente antes do início da Prova de Conhecimento: sorteio do ponto, o mesmo para todos (antes de: Prova de Conhecimento)",
+  "documento_diz": "4.2.3.6: 'Será realizado o sorteio do ponto para a Prova de Conhecimento, o qual será o mesmo para todos os candidatos, sendo o início da Prova imediatamente após o sorteio'; 4.2.1: 09/11/2026 às 09h",
+  "fonte_conferida": "documentos/ufv-47-2026/Edital-47-2026-DPD.pdf itens 4.2.1 a 4.2.3.6 (pdftotext)",
+  "observacao": "Presença anterior eliminatória (4.2.3.1, 15 min antes, lista às 09h) está na mesma fila, linha 09/11 às 08:45."
+ }
+]

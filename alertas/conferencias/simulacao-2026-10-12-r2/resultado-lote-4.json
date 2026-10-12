@@ -1,0 +1,252 @@
+[
+ {
+  "id": "s009",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "30/11/2026 (seg) às 08:30, comparecimento 30 min antes do sorteio do ponto da teórico-prática (09:00)",
+  "documento_diz": "11.1 r) \"Sorteio do ponto para a prova teórico-prática - 30/11/2026, às 9h\"; 11.2 \"O candidato deverá se apresentar 30minutos antes de cada hora marcada no cronograma\"",
+  "fonte_conferida": "documentos/uerj-244-2026/edital.pdf (pdftotext), item 11.1 e 11.2, p. 10; errata.pdf (só altera 3.f, taxa)",
+  "observacao": "Contagem 01/11 a 30/11 = 29 dias. Errata não mexe no cronograma."
+ },
+ {
+  "id": "s027",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "30/11/2026 (seg) às 09:00, sorteio do ponto da prova teórico-prática",
+  "documento_diz": "11.1 r) \"Sorteio do ponto para a prova teórico-prática - 30/11/2026, às 9h\"; 9.1.3 b) sorteado pelo candidato com 24h de antecedência, lista de no máximo 10 pontos",
+  "fonte_conferida": "documentos/uerj-244-2026/edital.pdf (pdftotext), item 11.1 e 11.2, p. 10; errata.pdf (só altera 3.f, taxa)",
+  "observacao": "Presença das 08:30 (11.2) está na mesma fila de 01/11 (s009)."
+ },
+ {
+  "id": "s036",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "20/10/2026 (ter) até 23:59, fim das inscrições",
+  "documento_diz": "uerj-255: 11.1 a) \"Inscrições – a partir de 00h00 do dia 21/09/2026 até as 23h59 do dia 20/10/2026\"",
+  "fonte_conferida": "documentos/uerj-255-2026/edital.pdf, item 11.1 a (a linha NÃO é da uerj-244, cujo 11.1 a diz até 23h59 de 23/10/2026)",
+  "observacao": "O slug do lote está errado: sortear.py mapeia o nome 'UERJ' para o primeiro slug (uerj-244), mas há dois concursos com o mesmo nome 'UERJ' na fila de 13/10 (244 Nutrição e 255 Psicologia, ambos com numero_edital nulo). A fonte sem 'Errata' identifica a 255, contra a qual a linha está certa. Risco à parte: o cabeçalho 'UERJ · todas as áreas' não distingue os dois concursos; quem estiver nos dois receberia '20/10' e '23/10' sob o mesmo nome."
+ },
+ {
+  "id": "s054",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "23/11/2026 (seg) às 09:30, comparecimento 30 min antes da prova escrita (10:00)",
+  "documento_diz": "11.1 j) \"Prova escrita - 23/11/2026, das 10 às 14 h\"; 11.2 apresentar-se 30 minutos antes de cada hora marcada",
+  "fonte_conferida": "documentos/uerj-244-2026/edital.pdf (pdftotext), item 11.1 e 11.2, p. 10; errata.pdf (só altera 3.f, taxa)",
+  "observacao": "A mesma fila de 24/10 traz também o comparecimento das 08:30 para o sorteio das 09:00, que é o que de fato prende o candidato (9.1.1 d, não pode se ausentar do recinto)."
+ },
+ {
+  "id": "s070",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "19/10/2026 (seg), resultado do recurso da isenção até 19/10",
+  "documento_diz": "11.1 g) \"Resultado do recurso da isenção – até o dia 19/10/2026\"",
+  "fonte_conferida": "documentos/uerj-244-2026/edital.pdf (pdftotext), item 11.1 e 11.2, p. 10; errata.pdf (só altera 3.f, taxa)",
+  "observacao": null
+ },
+ {
+  "id": "s096",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "23/11/2026 (seg) das 10:00 às 14:00, prova escrita",
+  "documento_diz": "11.1 j) \"Prova escrita - 23/11/2026, das 10 às 14 h\"",
+  "fonte_conferida": "documentos/uerj-244-2026/edital.pdf (pdftotext), item 11.1 e 11.2, p. 10; errata.pdf (só altera 3.f, taxa)",
+  "observacao": "Presenças anteriores (08:30 sorteio, 09:30 prova) estão na mesma fila de 24/10. Exclusão por falta ou atraso no item 16.9."
+ },
+ {
+  "id": "s134",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "26/11/2026 (qui) às 08:30, comparecimento 30 min antes da prova de aula (09:00)",
+  "documento_diz": "11.1 o) \"Prova de aula - 26/11/2026, às 9h\"; 11.2 30 minutos antes",
+  "fonte_conferida": "documentos/uerj-244-2026/edital.pdf (pdftotext), item 11.1 e 11.2, p. 10; errata.pdf (só altera 3.f, taxa)",
+  "observacao": "Com mais de um candidato o dia/hora individual da aula é divulgado em 25/11 (Obs. do 11.1 m); a linha da prova de aula na mesma fila carrega essa Obs."
+ },
+ {
+  "id": "s003",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "09/11/2026 (seg) às 08:30, Ato de Instalação, obrigatório (Polímeros)",
+  "documento_diz": "4.1 \"Ato de Instalação do Concurso (art. 21) ... DIA: 09/11/2026 – Segunda-feira Horário de início: 08h30min\"",
+  "fonte_conferida": "documentos/ufrgs-09-2026/CI-Engenharia-subarea-Polimeros-Ed-09-26.pdf, itens 4.1 e 4.2; edital 09/2026 itens 7.4 e 8.1",
+  "observacao": "Não há retificação de cronograma para Polímeros na pasta."
+ },
+ {
+  "id": "s076",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "Sessão da Prova Escrita, obrigatória: 03/11/2026 (ter) às 13:00 (Educação e Artes Visuais)",
+  "documento_diz": "\"Sessão da Prova Escrita ... Data: 03 de novembro de 2026, terça-feira Horário: 13h00min\"",
+  "fonte_conferida": "documentos/ufrgs-09-2026/CI-Educacao-Subarea-Educacao-e-Artes-Visuais-Edital-09-26.pdf, p. 2; Informativo-Retificacao-Cronograma-Inicial (só muda andar do Ato de Instalação)",
+  "observacao": "O Ato de Instalação das 12:30 (exclui quem não estiver no início, edital 8.1) aparece na mesma fila de 13/10, no bloco da retificação."
+ },
+ {
+  "id": "s106",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "Avaliação de Títulos, sessão não pública: de 09/11 (seg) 17:00 a 10/11 (ter) até 10:00",
+  "documento_diz": "\"Data (primeiro dia): 09 de novembro de 2026 ... das 17h00min às 21h30 / Data (segundo dia): 10 de novembro ... das 8h00min às 10h00min\"",
+  "fonte_conferida": "documentos/ufrgs-09-2026/CI-Educacao-Subarea-Educacao-e-Artes-Visuais-Edital-09-26.pdf, p. 3",
+  "observacao": "A linha funde dois turnos numa janela contínua; sem efeito para o candidato, que não participa da sessão."
+ },
+ {
+  "id": "s114",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "03/11/2026 (ter) às 12:30, Ato de Instalação, obrigatório (Educação e Artes Visuais)",
+  "documento_diz": "\"Ato de Instalação do Concurso ... Data: 03 de novembro de 2026, terça-feira Horário: 12h30min\"",
+  "fonte_conferida": "documentos/ufrgs-09-2026/CI-Educacao-Subarea-Educacao-e-Artes-Visuais-Edital-09-26.pdf, p. 2; Informativo de retificação (local, 3º andar sala 311)",
+  "observacao": null
+ },
+ {
+  "id": "s065",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "26/11/2026 (qui) às 07:40, comparecimento 20 min antes do sorteio do ponto da prova de aula (08:00)",
+  "documento_diz": "11.1 n) \"Sorteio do ponto para a prova de aula – 26/11/2026 às 08h00\"; 11.2 \"deverá se apresentar 20 minutos antes de cada hora marcada\"",
+  "fonte_conferida": "documentos/uerj-2026/05 - Seleção 2026-228 - Edital.pdf, itens 11.1, 11.2, 9.1.2 e 16.9; 23 - Edital de alteração de item (só vencimento e taxa)",
+  "observacao": "9.1.2 d: havendo mais de um candidato, a Comissão define por escrito os horários de sorteio; a hora pode mudar, mas a linha reproduz o cronograma vigente."
+ },
+ {
+  "id": "s112",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "24/11/2026 (ter) às 07:40, comparecimento 20 min antes do sorteio do ponto da prova escrita (08:00)",
+  "documento_diz": "11.1 i) \"Sorteio do ponto para a prova escrita - 24/11/2026, às 8h00\"; 11.2 20 minutos antes",
+  "fonte_conferida": "documentos/uerj-2026/05 - Seleção 2026-228 - Edital.pdf, itens 11.1, 11.2, 9.1.2 e 16.9; 23 - Edital de alteração de item (só vencimento e taxa)",
+  "observacao": null
+ },
+ {
+  "id": "s136",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "27/11/2026 (sex) às 07:40, comparecimento 20 min antes da prova de aula (08:00)",
+  "documento_diz": "11.1 o) \"Prova de aula - 27/11/2026, às 8h00\"; 11.2 20 minutos antes",
+  "fonte_conferida": "documentos/uerj-2026/05 - Seleção 2026-228 - Edital.pdf, itens 11.1, 11.2, 9.1.2 e 16.9; 23 - Edital de alteração de item (só vencimento e taxa)",
+  "observacao": null
+ },
+ {
+  "id": "s141",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "27/11/2026 (sex) às 08:00, \"O) Prova de aula\"",
+  "documento_diz": "11.1 o) \"Prova de aula - 27/11/2026, às 8h00\"",
+  "fonte_conferida": "documentos/uerj-2026/05 - Seleção 2026-228 - Edital.pdf, itens 11.1, 11.2, 9.1.2 e 16.9; 23 - Edital de alteração de item (só vencimento e taxa)",
+  "observacao": "Presença das 07:40 na mesma fila de 28/10. Resto de alínea 'O)' no texto (cosmético). À parte: a leitura da prova escrita (11.1 k, '25/11/2016', erro do edital) ficou na extração com ano 2016 e não gera linha nem comparecimento nas filas."
+ },
+ {
+  "id": "s104",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "11/11/2026 (qua) às 10:00, comparecimento 60 min antes da entrega de Títulos (11:00)",
+  "documento_diz": "11.1 q) \"Entrega de Títulos e Trabalhos – 11/11/2026, às 11h, imediatamente após o resultado da Prova de Aula\"; 11.2 \"60 (sessenta) minutos antes de cada hora marcada\"",
+  "fonte_conferida": "documentos/uerj-2026/14 - Seleção 2026-238 - Edital.pdf, itens 11.1 e 11.2; 31 - Errata (só tabela de vagas/vencimento e taxa)",
+  "observacao": null
+ },
+ {
+  "id": "s107",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "09/11/2026 (seg) às 08:00, sorteio do ponto da prova escrita",
+  "documento_diz": "11.1 i) \"Sorteio do ponto para a prova escrita - 09/11/2026, às 08h\"",
+  "fonte_conferida": "documentos/uerj-2026/14 - Seleção 2026-238 - Edital.pdf, itens 11.1 e 11.2; 31 - Errata (só tabela de vagas/vencimento e taxa)",
+  "observacao": "Comparecimento das 07:00 (11.2) na mesma fila de 13/10 (s113)."
+ },
+ {
+  "id": "s113",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "09/11/2026 (seg) às 07:00, comparecimento 60 min antes do sorteio da prova escrita (08:00)",
+  "documento_diz": "11.1 i) 09/11/2026 às 08h; 11.2 \"O candidato deverá se apresentar 60 (sessenta) minutos antes de cada hora marcada no cronograma\"",
+  "fonte_conferida": "documentos/uerj-2026/14 - Seleção 2026-238 - Edital.pdf, itens 11.1 e 11.2; 31 - Errata (só tabela de vagas/vencimento e taxa)",
+  "observacao": null
+ },
+ {
+  "id": "s078",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "Prova de títulos: era 14/09 a 12/10/2026, agora 14/09 a 23/10/2026 (período provável)",
+  "documento_diz": "Aviso de retificação DOU 192: ONDE SE LÊ \"...(Sorteios da Ordem de Apresentação, Didática, MPAP e Títulos) serão realizadas no período de 14/09/2026 a 12/10/2026\", LEIA-SE \"... 14/09/2026 a 23/10/2026\"",
+  "fonte_conferida": "documentos/ufrn-058-2026/RETIFICAO_-_DOU_n_192_de_09-10-2026_p_57.pdf; 01 - Edital de abertura, item 12.1.1 e Anexo II",
+  "observacao": "O edital diz 'serão realizadas no período', sem 'provável'; o rótulo não induz erro. Não há calendário específico da área 267380 na pasta."
+ },
+ {
+  "id": "s093",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "Prova didática: era 14/09 a 12/10/2026, agora 14/09 a 23/10/2026 (período provável)",
+  "documento_diz": "Aviso de retificação DOU 192, item 12.1.1: de \"14/09/2026 a 12/10/2026\" para \"14/09/2026 a 23/10/2026\"",
+  "fonte_conferida": "documentos/ufrn-058-2026/RETIFICAO_-_DOU_n_192_de_09-10-2026_p_57.pdf; 01 - Edital de abertura, item 12.1.1",
+  "observacao": "Mesma observação de s078."
+ },
+ {
+  "id": "s133",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "de 04/11 (qua) 08:30 a 05/11 (qui) até 18:40, no horário de cada candidato: entrega dos Planos de Aula antes da didática",
+  "documento_diz": "\"Os Planos de Aula deverão ser entregues antes do início da prova didática, exclusivamente na sala\"; Prova Didática 04/11 (C1 08:30 a C7 17:40) e 05/11 (C8 08:20 a C15 18:40)",
+  "fonte_conferida": "documentos/ufs-08-2026/04 - Cronograma efetivo DCC (pdftotext), Orientações/informações e Calendário de Provas; edital 13.8",
+  "observacao": "Horário individual sinalizado na própria linha. A OBS. 1 avisa que dias e horários podem ser refeitos após a prova escrita (sorteio da ordem de 30/10 'e reorganização do calendário')."
+ },
+ {
+  "id": "s140",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "de 09/11 (seg) 08:00 a 10/11 (ter) até 15:00, Prova do Projeto de Pesquisa, no horário de cada candidato",
+  "documento_diz": "Prova do Projeto de Pesquisa (presença obrigatória): 09/11/2026, C01 08:00 a C09 18:00; 10/11/2026, C10 08:00 a C15 15:00",
+  "fonte_conferida": "documentos/ufs-08-2026/04 - Cronograma efetivo DCC (pdftotext), Calendário de Provas e OBS. 2",
+  "observacao": "Presenças eliminatórias anteriores (prova escrita 26/10, sorteio da ordem 30/10, sorteio do ponto da didática) aparecem em filas anteriores do mesmo destinatário (19/10, 20/10, 23/10, 24/10, 25/10)."
+ },
+ {
+  "id": "s066",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "de 13/10 (ter) a 13/11/2026 (sex), até 18:00: abertura das inscrições (é hoje)",
+  "documento_diz": "Anexo I: \"Realização de Inscrição (até as 18h do último dia) 13/10/2026 13/11/2026\"; 2.1 \"no período previsto de 13/10/2026 até 13/11/2026, até às 18h00\"",
+  "fonte_conferida": "documentos/ifmg-1077-2026/07-10-2026 EDITAL DE ABERTURA 1077-2026, item 2.1 e Anexo I; Retificações 01 a 03 (vagas, Anexo II e III, sem mudança de prazo)",
+  "observacao": "Pedagogia (AEE) consta nas retificações 01 a 03; o prazo de inscrição vale para todas as áreas."
+ },
+ {
+  "id": "s095",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "de 28/09 (seg) a 27/10/2026 (ter): solicitação e envio de documentos de atendimento especial",
+  "documento_diz": "Anexo I: \"Período para solicitação e envio dos documentos referentes à solicitação de atendimento especial 28/09/2026 a 27/10/2026\"",
+  "fonte_conferida": "documentos/unila-240-2026/edital_240-2026_condicoes_gerais.pdf (as cópias _0 e _1 são idênticas), Anexo I e item 12.1",
+  "observacao": null
+ },
+ {
+  "id": "s126",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "27/10/2026 (ter) até 23:59, fim das inscrições (Anestesiologia)",
+  "documento_diz": "Comunicado: \"Término: 23h59min do dia 27 de outubro de 2026 (terça-feira)\", só para Ciências da Saúde/Medicina/Anestesiologia",
+  "fonte_conferida": "documentos/ufsm-221-2026/09 - Comunicado de prorrogação - Anestesiologia (28-09 a 27-10).pdf",
+  "observacao": "A área 02 é Anestesiologia (vagas da extração e edital). Pagamento até 28/10 não está nesta linha."
+ }
+]

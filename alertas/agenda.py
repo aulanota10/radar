@@ -56,6 +56,13 @@ REGRAS = {
 PRESENCA = re.compile(r"port[õoã]|instala[çc][ãa]o|sess[ãa]o de abertura|abertura dos trabalhos|presen[çc]a|comparec|apresentar-se|identifica[çc][ãa]o dos candidat", re.I)
 REGRA_PRESENCA = [("ini", [7, 2, 1])]
 
+# Simulação de 12/10 (filas de 13/10 a 02/11, 150 linhas conferidas): o aviso da prova saía 30 e 15 dias antes
+# sem o sorteio, a abertura ou a chegada obrigatória que vêm antes dela, e que só tinham aviso a 7 dias
+# (UERJ, UFU 118, UNILAB 14, UFBA 06, IFMG 607). Todo aviso de compromisso leva junto esses eventos.
+COMPROMISSOS = {"prova", "sorteio_tema", "convocacao", "entrega_documento"}
+TIPOS_ANTES = {"sorteio_ordem", "sorteio_turma", "sorteio_tema", "convocacao"}
+DIAS_ANTES = 3
+
 # Prazos: uma data fixa num deles é o último dia, e a hora é limite ("até 16:00"), não horário de
 # início (FMUSP 168, UFRJ 942; amostra de 12/10). Entrega com hora marcada é compromisso, não prazo.
 PRAZOS = {"inscricao", "isencao_pedido", "pagamento", "entrega_documento", "recurso",
@@ -189,7 +196,8 @@ def texto_data(data, hoje, tipo=None):
     if f == "janela" and i and j:
         hi, hj = (data.get("inicio") or {}).get("hora"), (data.get("fim") or {}).get("hora")
         if i == j:  # a hora não pode sumir: UFBA, entrega de 30 minutos virou "de 19/10 a 19/10"
-            return (f"{fmt(i)}, das {hi} às {hj}" if hi and hj else
+            return (f"{fmt(i)}, às {hi}" if hi and hi == hj else  # IFMT: um só candidato, "das 19:00 às 19:00"
+                    f"{fmt(i)}, das {hi} às {hj}" if hi and hj else
                     f"{fmt(i)}, a partir das {hi}" if hi else f"{fmt(i)}, até {hj}" if hj else fmt(i))
         # só evento pontual tem "período provável"; inscrição de 15 dias é prazo firme (UNILAB 14, UFRN 108)
         if (j - i).days > JANELA_LONGA and not (hi or hj) and (tipo is None or tipo in PONTUAIS):
@@ -233,6 +241,41 @@ def rotulo(e):
         return lit[0].upper() + lit[1:]
     n = nome_evento(e)
     return n[0].upper() + n[1:]
+
+
+def companheiros(e, eventos, d, hoje=None):
+    """Eventos de presença do mesmo destinatário d que acontecem antes do compromisso e (até 3 dias antes,
+    ou no mesmo dia em hora anterior): vão no mesmo aviso, para ninguém chegar depois deles."""
+    f, i, _, h = intervalo(e["data"])
+    if e["tipo_evento"] not in COMPROMISSOS or f not in ("fixa", "janela") or not i:
+        return []
+    out = []
+    for c in eventos:
+        if c is e or c["estado"] != "vigente":
+            continue
+        pres = c["tipo_evento"] in TIPOS_ANTES or (c["tipo_evento"] == "outro" and PRESENCA.search(c.get("descricao_literal") or ""))
+        cf, ci, _, ch = intervalo(c["data"])
+        esc = c["escopo"]
+        if not pres or not (esc == "geral" or (d is not None and d in esc)):
+            continue
+        if cf in ("relativa", "condicionada"):
+            # sorteio da mesma etapa ainda sem data (UFV 48 e 49: "24 horas antes da Prova de Didática";
+            # UNILAB 14: sorteio da ordem com todos presentes): vai com a condição, para o candidato saber que existe
+            # só no aviso da própria prova (rodada 2: ia junto do comunicado de locais no IFMG 607 e do memorial na FMUSP 167)
+            if e["tipo_evento"] == "prova" and c.get("etapa_ref") and c.get("etapa_ref") == e.get("etapa_ref") \
+                    and c["tipo_evento"] != e["tipo_evento"]:
+                out.append(c)
+            continue
+        if cf not in ("fixa", "janela") or not ci or not (i - dt.timedelta(days=DIAS_ANTES) <= ci <= i):
+            continue
+        if hoje and ci < hoje:  # rodada 2: presença que já passou saía em "Datas que se aproximam" (UERJ 213, UFTM 28)
+            continue
+        if ci == i and h and ch and ch[:5] > h[:5]:
+            continue
+        if ci == i and h and not ch and c["tipo_evento"] != "outro":
+            continue
+        out.append(c)
+    return out
 
 
 def janela_longa(e):
@@ -329,6 +372,9 @@ def areas(c):
 def nome_concurso(c):
     sig = val(c.get("sigla")) or val(c.get("instituicao")) or c["_slug"]
     ed = val(c.get("numero_edital"))
+    if not ed:  # rodada 2: UERJ 244 e 255 sem número saíam os dois como "UERJ"
+        m = re.match(r".*?-(\d+)-(\d{4})$", c["_slug"])
+        ed = f"{m.group(1)}/{m.group(2)}" if m else None
     return f"{sig} {ed}" if ed else sig
 
 
@@ -562,8 +608,12 @@ def executar(vigia, hoje, anterior):
                         elif f == "janela" and i == j:  # janela de um dia só: mostra das X às Y
                             item = {"tipo": "agendado", "data": ref,
                                     "texto": f"{texto_data(e['data'], hoje, e['tipo_evento'])}: {rot} ({falta(ref, hoje)})", "fonte": fonte}
+                        elif f == "janela" and i != j and not (marco == "fim" and e["tipo_evento"] in PRAZOS):
+                            # UFS 08, UFRGS 08, IFMT 03: janela de dois dias com horários individuais virava só o primeiro dia
+                            item = {"tipo": "agendado", "data": ref,
+                                    "texto": f"{texto_data(e['data'], hoje, e['tipo_evento'])}: {rot} ({falta(ref, hoje)})", "fonte": fonte}
                         else:
-                            if (f == "janela" and marco == "fim" and e["tipo_evento"] != "inscricao") or (prazo and e["tipo_evento"] != "inscricao"):
+                            if (f == "janela" and marco == "fim" and e["tipo_evento"] in PRAZOS and e["tipo_evento"] != "inscricao") or (prazo and e["tipo_evento"] != "inscricao"):
                                 if not re.match(r"(último|ultimo) dia|prazo final|até\b", rot, re.I):  # FMUSP: "último dia: Último dia..."
                                     rot = f"último dia: {rot}"
                             hfim = ((e["data"].get("fim") or {}).get("hora") if f == "janela" and marco == "fim"
@@ -571,8 +621,15 @@ def executar(vigia, hoje, anterior):
                             hora = f", até {hfim}" if hfim and marco == "fim" and (f == "janela" or prazo) else f", às {hfim}" if hfim else ""
                             item = {"tipo": "agendado", "data": ref,
                                     "texto": f"{fmt(ref)}{hora}: {rot} ({falta(ref, hoje)})", "fonte": fonte}
+                        item.setdefault("hora", (h or "") if f == "fixa" else ((e["data"].get("inicio") or {}).get("hora") or "") if marco == "ini" else "")
                         for d in dest:
                             avisos[(slug, d)].append(item)
+                            for cpn in companheiros(e, c["eventos"], d, hoje):
+                                _, ci2, _, ch2 = intervalo(cpn["data"])
+                                quando = f" ({falta(ci2, hoje)})" if ci2 else f" (antes de: {corta(rotulo(e), 70)})"
+                                avisos[(slug, d)].append({"tipo": "agendado", "data": ci2 or ref, "hora": ch2 or "", "antes": not ci2,
+                                    "texto": f"{texto_data(cpn['data'], hoje, cpn['tipo_evento'])}: {rotulo(cpn)}{quando}",
+                                    "fonte": dict(cpn.get("fonte") or {}, documento=(cpn.get("fonte") or {}).get("documento") or edital)})
 
         # documentos novos sem data mas que valem aviso, e pendências resolvidas por eles
         for cam in sorted(novos):
@@ -723,7 +780,8 @@ def mensagem(c, area, itens, hoje):
             vistos.add(x["texto"])
             out.append("• " + x["texto"][0].upper() + x["texto"][1:])
         out.append("")
-    ag = sorted((x for x in itens if x["tipo"] == "agendado"), key=lambda x: x["data"])
+    # mesmo dia em ordem de hora: a chegada das 07:30 antes da prova das 09:00 (simulação de 12/10)
+    ag = sorted((x for x in itens if x["tipo"] == "agendado"), key=lambda x: (x["data"], 0 if x.get("antes") else 1, x.get("hora") or ""))
     if ag:
         out.append("Datas que se aproximam:")
         for x in ag:

@@ -1,0 +1,252 @@
+[
+ {
+  "id": "s011",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "30/10 (sexta) 08:00, Sorteio da Ordem dos Candidatos (presença obrigatória, OBS. 2); faltam 7 a partir de 23/10",
+  "documento_diz": "Sorteio da Ordem dos Candidatos nas Provas Didática e de Projeto de Pesquisa (PRESENÇA OBRIGATÓRIA): '30/10/2026 | 08:00 | Realização do Sorteio da Ordem de Apresentação...'; OBS. 2: presença obrigatória 'sob a pena de ser eliminado do certame'",
+  "fonte_conferida": "documentos/ufs-08-2026/04 - Cronograma efetivo DCC - Ciências Contábeis-Contabilidade (prova didática).pdf, p. 2 (Calendário de Provas) e OBS. 2 (pdftotext -layout); edital 008/2026 item 10.12 e 10.14",
+  "observacao": "Antecedência de 1 h é só recomendação (edital 10.12; cronograma 'Recomenda-se'), não elimina; não há presença anterior exigida."
+ },
+ {
+  "id": "s074",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "26/10 (segunda), das 08:05 às 12:05, Prova Escrita (presença obrigatória); faltam 7 a partir de 19/10",
+  "documento_diz": "'26/10/2026 | 08:05 às 12:05 | Prova Escrita | Prédio CCSA I, sala 48', precedida de '08:00 Sorteio do Ponto da Prova Escrita'",
+  "fonte_conferida": "documentos/ufs-08-2026/04 - Cronograma efetivo DCC - Ciências Contábeis-Contabilidade (prova didática).pdf, p. 2, Calendário de Provas, Prova Escrita (PRESENÇA OBRIGATÓRIA)",
+  "observacao": "Presença anterior (sorteio às 08:00) coberta na mesma fila de 19/10 pelas linhas do sorteio e de 'Presença obrigatória... sorteio do ponto às 08:00'."
+ },
+ {
+  "id": "s093",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "26/10 (segunda) às 08:00, Sorteio do Ponto da Prova Escrita (presença obrigatória); faltam 7 a partir de 19/10",
+  "documento_diz": "'26/10/2026 | 08:00 | Sorteio do Ponto da Prova Escrita'; OBS. 2 exige presença sob pena de eliminação",
+  "fonte_conferida": "documentos/ufs-08-2026/04 - Cronograma efetivo DCC - Ciências Contábeis-Contabilidade (prova didática).pdf, p. 2, Calendário de Provas, Prova Escrita; OBS. 2",
+  "observacao": null
+ },
+ {
+  "id": "s095",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "de 03/11 (terça) a 04/11 (quarta), no horário de cada candidato definido pelo sorteio: entrega do Relatório Descritivo ou Lattes no dia do sorteio do ponto da didática; faltam 2 a partir de 01/11",
+  "documento_diz": "'O Relatório Descritivo ou Currículo Lattes e o Projeto de Pesquisa ... deverão ser entregues no dia do sorteio do ponto da prova didática, exclusivamente no Departamento de Ciências Contábeis, sala 50'; sorteio do ponto: candidatos 01-07 em 03/11 e 08-15 em 04/11",
+  "fonte_conferida": "documentos/ufs-08-2026/04 - Cronograma efetivo DCC - Ciências Contábeis-Contabilidade (prova didática).pdf, p. 1 (Orientações/informações) e p. 2 (Prova Didática, sorteio do ponto)",
+  "observacao": "O documento não fixa hora para a entrega, só o dia do sorteio de cada candidato; a expressão 'no horário de cada candidato' é aproximação inofensiva. A entrega do Projeto de Pesquisa saiu em linha própria na mesma fila. OBS. 1 avisa que o calendário pode mudar após a Prova Escrita."
+ },
+ {
+  "id": "s130",
+  "veredito": "ERRADA",
+  "categoria": "horarios_individuais",
+  "atribuicao": "leitor",
+  "linha_diz": "09/11 (segunda) às 08:00: Prova do Projeto de Pesquisa, no horário de cada candidato conforme ordem de apresentação... (faltam 15 a partir de 25/10)",
+  "documento_diz": "Prova do Projeto de Pesquisa em dois dias: candidatos 01 a 09 em '09/11/2026' (08:00 a 18:00) e candidatos 10 a 15 em '10/11/2026' (08:00 a 15:00)",
+  "fonte_conferida": "documentos/ufs-08-2026/04 - Cronograma efetivo DCC - Ciências Contábeis-Contabilidade (prova didática).pdf, p. 3, Calendário de Provas, Prova do Projeto de Pesquisa (PRESENÇA OBRIGATÓRIA); Relação Definitiva de Inscritos Ret. 02 (15 inscritos deferidos em Contabilidade); extração ev-0055",
+  "observacao": "A extração tem a janela 09/11 08:00 a 10/11 15:00 e a descrição com os dois dias, mas o leitor mostrou só o início e cortou com '...' a parte 'Candidatos 10 a 15 em 10/11'. Nenhuma linha das filas cita 10/11. Com 15 inscritos, os candidatos de ordem 10 a 15 leriam o dia errado (erro no sentido de chegar um dia antes, mas é dia errado; quem planejar viagem só para 09/11 perde a prova). A ordem é definida no sorteio de 30/10 e o calendário pode ser reorganizado (OBS. 1)."
+ },
+ {
+  "id": "s150",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "27/10 (terça) às 18:00: Resultado preliminar da Prova Escrita, publicação do resultado e do espelho; faltam 2 a partir de 25/10",
+  "documento_diz": "RESULTADO PRELIMINAR DA PROVA ESCRITA: '27/10/2026 | 18:00 | Publicação do Resultado da Prova Escrita e do espelho da prova | Quadro de avisos do DCC'",
+  "fonte_conferida": "documentos/ufs-08-2026/04 - Cronograma efetivo DCC - Ciências Contábeis-Contabilidade (prova didática).pdf, p. 2, Calendário de Provas, Resultado Preliminar da Prova Escrita",
+  "observacao": null
+ },
+ {
+  "id": "s028",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "23/10 (sexta): publicação da lista de aptos, local e horário da Prova Objetiva (MCH-4); faltam 2 a partir de 21/10",
+  "documento_diz": "Anexo I (cronograma MCH-4): 'Publicação da lista de candidatos aptos à realização da prova, local e horário da Prova Objetiva | 23/10/2026'",
+  "fonte_conferida": "documentos/ifsuldeminas-188-2026/Edital Complementar.pdf (Edital 227/2026), Anexo I, p. 3; itens 4.1 e 4.2 (cronograma só para MCH-4)",
+  "observacao": null
+ },
+ {
+  "id": "s051",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "08/11 (domingo) às 09:00: reaplicação da Prova Objetiva MCH-4, portão aberto às 8h e fechado às 8h45; faltam 15 a partir de 24/10",
+  "documento_diz": "1.3 'reaplicação ... para o dia 8 de novembro de 2026, com início às 9h. O portão ... será aberto às 8h e fechado às 8h45, não sendo permitido o acesso após o fechamento'",
+  "fonte_conferida": "documentos/ifsuldeminas-188-2026/Edital Complementar.pdf, item 1.3, p. 1",
+  "observacao": "O fechamento do portão está no próprio texto da linha; em 01/11 sai também linha própria às 08:45."
+ },
+ {
+  "id": "s067",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "14/10 (quarta): Convocação para PDD e Entrega dos Títulos (datas prováveis); é amanhã (fila 13/10)",
+  "documento_diz": "Anexo I: 'Convocação para Prova de Desempenho Didático e Entrega dos Títulos | 14/10/2026', com nota '*Datas prováveis, sujeitas a alterações'",
+  "fonte_conferida": "documentos/ifsuldeminas-188-2026/04 - 1ª Retificação ao Edital 188-2026.pdf, Anexo I (nova redação); conferido também no edital de abertura (mesma data) e no Edital Complementar (só MCH-4)",
+  "observacao": "A fonte citada é o edital de abertura; a 1ª retificação mantém 14/10."
+ },
+ {
+  "id": "s079",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "31/10 (sábado): PDD e Entrega dos Títulos (datas prováveis); faltam 15 a partir de 16/10",
+  "documento_diz": "Anexo I, nova redação: 'Prova de Desempenho Didático e Entrega dos Títulos | 31/10 e 01/11/2026'; item 7.4 'datas prováveis de 31 de outubro e 1º de novembro de 2026'",
+  "fonte_conferida": "documentos/ifsuldeminas-188-2026/04 - 1ª Retificação ao Edital 188-2026.pdf, Anexo I e item 7.4",
+  "observacao": "A linha mostra só o primeiro dia; o segundo (01/11) chega ao mesmo destinatário na fila seguinte (s088). Dia e hora individuais saem na convocação (7.6); atraso ao horário agendado desclassifica (7.8), mas não há presença anterior exigida."
+ },
+ {
+  "id": "s088",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "tipo_trocado",
+  "atribuicao": "leitor",
+  "linha_diz": "01/11 (domingo): 'último dia: Prova de Desempenho Didático e Entrega dos Títulos (datas prováveis)'; faltam 15 a partir de 17/10",
+  "documento_diz": "'Prova de Desempenho Didático e Entrega dos Títulos | 31/10 e 01/11/2026'; 7.6 'Na convocação constará o horário da prova de cada candidato'; 8.2 títulos entregues 'no dia da Prova de Desempenho Didático'",
+  "fonte_conferida": "documentos/ifsuldeminas-188-2026/04 - 1ª Retificação ao Edital 188-2026.pdf, Anexo I; 02 - Edital consolidado, itens 7.4, 7.6 e 8.2",
+  "observacao": "Data certa, mas a prova (compromisso em dia e hora individuais) aparece com a palavra de prazo 'último dia', o que sugere que se pode fazer a prova ou entregar os títulos até 01/11; quem for convocado para 31/10 entrega os títulos em 31/10. A extração tem janela 31/10 a 01/11; o rótulo 'último dia' é do leitor."
+ },
+ {
+  "id": "s091",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "horarios_individuais",
+  "atribuicao": "leitor",
+  "linha_diz": "31/10 (sábado): Procedimento de confirmação da autodeclaração PPI e avaliação PcD (datas prováveis); faltam 2 a partir de 29/10",
+  "documento_diz": "Anexo I, nova redação: 'Procedimento de confirmação da autodeclaração ... e Avaliação para candidatos inscritos nas vagas para Pessoas com Deficiência (PcD) | 31/10 e 01/11/2026'",
+  "fonte_conferida": "documentos/ifsuldeminas-188-2026/04 - 1ª Retificação ao Edital 188-2026.pdf, Anexo I; item 7.6 do edital consolidado (no mesmo dia da PDD do candidato)",
+  "observacao": "A data de início está certa, mas a linha omite 01/11 e nenhuma fila manda linha com o segundo dia para este procedimento (diferente da PDD, que tem s088). O dia de cada candidato vem na convocação; a extração (ev-0117/ev-0119) tem a janela inteira."
+ },
+ {
+  "id": "s057",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "horarios_individuais",
+  "atribuicao": "extrator",
+  "linha_diz": "21/10 (quarta), das 09:05 às 15:10: Sessão da Prova Didática - PD; faltam 7 a partir de 14/10",
+  "documento_diz": "Cronograma final: 'Data: 21 de outubro de 2026'; 'PD - Candidato 1 ... Horário: 09h05' até 'PD - Candidato 5 ... Horário: 15h10'; 'Obrigatória a presença do Candidato na data e no horário estipulados para sua prova'",
+  "fonte_conferida": "documentos/ufrgs-08-2026/133 - Materiais para Eng. Química - Cronograma final.pdf, p. 3 (pdftotext -layout)",
+  "observacao": "Dia certo. 09:05 e 15:10 são os horários de início do primeiro e do último candidato, e não a duração de uma sessão comum; a linha não diz que cada um tem horário próprio e sugere que a sessão termina às 15:10. Não induz atraso. A extração (ev-0392) guardou os inícios individuais como janela."
+ },
+ {
+  "id": "s058",
+  "veredito": "ERRADA",
+  "categoria": "horarios_individuais",
+  "atribuicao": "ambos",
+  "linha_diz": "17/10 (sábado) às 09:00: Sessão da Defesa da Produção Intelectual - DPI; faltam 2 a partir de 15/10",
+  "documento_diz": "DPI em dois dias com horário individual: 17/10 (sábado), Candidatas/os 01 a 04 de 09h00 a 17h05; '18/10/2026 – Domingo': 'DPI – Candidata 05 ... 09h00min – 10h30min' e 'DPI – Candidata 06 ... 10h35min – 12h05min'",
+  "fonte_conferida": "documentos/ufrgs-08-2026/147 - Psicologia Social do Trabalho - Cronograma final.pdf, p. 3 (pdftotext -layout); extração ev-0371",
+  "observacao": "Para as candidatas 05 e 06 a linha dá o dia errado (17/10 em vez de 18/10) e a hora errada; nenhuma linha das filas cita 18/10. A extração tem janela 17/10 09:00 a 18/10 12:05 mas não diz que os horários são individuais; o leitor mostrou só o início. Obs.: julgamento de recurso de procedimento DEFERIDO em 28/09 (posterior ao cronograma de 19/09) pode alterar a lista; não há cronograma mais novo na pasta."
+ },
+ {
+  "id": "s101",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "19/10 (segunda) às 13:00: Sessão de Avaliação do Exame de Títulos e Trabalhos, sessão não pública; faltam 6 a partir de 13/10",
+  "documento_diz": "'Sessão de Avaliação da Exame de Títulos e Trabalhos (arts. 28, 29 e 30) - Sessão não pública ... Data: 19 de outubro de 2026 (segunda-feira). Horários de início e término: 13h00 – 17h00'",
+  "fonte_conferida": "documentos/ufrgs-08-2026/131 - Materiais para Eng. Química - Cronograma reformulado.pdf, p. 3; igual no 133 - Cronograma final, p. 3",
+  "observacao": null
+ },
+ {
+  "id": "s039",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "Saiu uma retificação do edital (aviso de novo documento, fila 13/10)",
+  "documento_diz": "'EDITAL Nº 102, DE 08 DE OUTUBRO DE 2026 ... RETIFICAÇÃO DO EDITAL Nº 101', que alcança a Área 101.20 (Economia), acrescentando 'OU Geografia' ao doutorado exigido e prorrogando prazos",
+  "fonte_conferida": "documentos/ufvjm-101-2026/Edital 102.2026 - Retificação Edital 101.2026 Concurso.pdf, pp. 1-4",
+  "observacao": null
+ },
+ {
+  "id": "s110",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "texto_do_leitor",
+  "atribuicao": "leitor",
+  "linha_diz": "Isenção da taxa, com requerimento do Anexo II, junto com o pedido de inscrição '(prorrogado para as Áreas 101.3, 101.7, 101.8, 101.9...: de 25/09/2026 (sexta) a 27/10/2026 (terça), até 23:59'",
+  "documento_diz": "Retificação: 'o período para solicitação de isenção da taxa de inscrição fica prorrogado até às 23h59min do dia 27 de outubro de 2026, para as áreas supracitadas' (101.3, 101.7, 101.8, 101.9, 101.20, 101.23); edital 101, 6.1: início em 25/09/2026",
+  "fonte_conferida": "documentos/ufvjm-101-2026/Edital 102.2026 - Retificação Edital 101.2026 Concurso.pdf, p. 4; 01 - Edital 101-2026-PROGEP (PDF).pdf, itens 6.1 e 6.4",
+  "observacao": "Datas e hora certas para a 101.20. Mas a lista de áreas é cortada em '...' antes de 101.20 e o parêntese não fecha, de modo que o candidato de Economia não vê sua área entre as prorrogadas e pode supor que vale o prazo original (13/10)."
+ },
+ {
+  "id": "s105",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "18/10 (domingo) às 08:30: sorteio do número do ponto da Prova Escrita; é amanhã (fila 17/10)",
+  "documento_diz": "4.10 'O número do ponto para a Prova Escrita será sorteado no dia 18/10/2026 às 8h30min'; 4.11.1 'Os portões serão fechados às 8h00'; Edital 038/2026 II.2 confirma portões 07h30 a 8h",
+  "fonte_conferida": "documentos/unespar-023-2026/51 - Edital de abertura 023-2026-CPPS (texto da página), itens 4.10, 4.11, 4.11.1; EDITAL 38 2026 CPPS Ensalamento, item II",
+  "observacao": "Presença anterior eliminatória (portões às 8h) coberta na mesma fila de 17/10 pela linha 'Fechamento dos portões às 8h00'."
+ },
+ {
+  "id": "s121",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "18/10 (domingo) às 08:00: fechamento dos portões para o sorteio dos pontos e a Prova Escrita (área 1320); faltam 2 a partir de 16/10",
+  "documento_diz": "4.11.1 'Os portões serão fechados às 8h00 (oito horas) e não será, em hipótese alguma, permitida a entrada após o fechamento'; Edital 038/2026: 1320 Ciências Contábeis em Paranaguá, portões 'fechados pontualmente às 8 horas'",
+  "fonte_conferida": "documentos/unespar-023-2026/51 - Edital de abertura 023-2026-CPPS, item 4.11.1; EDITAL 38 2026 CPPS Ensalamento sorteio infos, itens I (Paranaguá) e II.2",
+  "observacao": null
+ },
+ {
+  "id": "s021",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "30/10 (sexta), até 23:59: fim das inscrições; faltam 7 a partir de 23/10",
+  "documento_diz": "11.1 a) 'Inscrições - a partir de 00h00 do dia 01/09/2026 até as 23h59 do dia 30/10/2026'",
+  "fonte_conferida": "documentos/uerj-2026/17 - Seleção 2026-245 - Edital.pdf, item 11.1 a (p. 9-10)",
+  "observacao": "Nenhum documento posterior da Seleção 2026/245 na pasta."
+ },
+ {
+  "id": "s040",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "16/10 (sexta), até 17:00: fim das inscrições; faltam 2 a partir de 14/10",
+  "documento_diz": "2.1 'no período das 8:00 do dia 01/09/2026 às 17hs do dia 16/10/2026, observado o horário de Brasília'",
+  "fonte_conferida": "documentos/unesp-titular-2026/58 - Edital 444-2026 STGP-FC - Conservação Genética de Peixes - Bauru (DOE-SP 27-08-2026).html, item 2.1",
+  "observacao": null
+ },
+ {
+  "id": "s052",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "22/10 (quinta), até 17:00: fim das inscrições; faltam 7 a partir de 15/10",
+  "documento_diz": "2.1 'no período das 00:00 do dia 08/09/2026 às 17hs do dia 22/10/2026, observado o horário de Brasília'",
+  "fonte_conferida": "documentos/unesp-titular-2026/7ea08df5-5fe3-4852-8c07-905765ae07c0 (Edital 111/2026 - DTAd - FO/CAr), item 2.1",
+  "observacao": "A fonte citada é a página de inscrições da UNESP; o edital confirma a data."
+ },
+ {
+  "id": "s094",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "Saiu o resultado final (aviso de novo documento, fila 13/10)",
+  "documento_diz": "'a Pró-Reitoria de Gestão de Pessoas torna público o resultado do concurso ... referente ao Edital 127/2026', com notas finais e remissão ao recurso contra 'O resultado final do concurso ... no prazo de 10 (dez) dias corridos'; 'Lavras, 09 de outubro de 2026'",
+  "fonte_conferida": "documentos/ufla-127-2026/resultado_final_educacao_basica_1272026.pdf, pp. 1 e final",
+  "observacao": "É o resultado final (sujeito a recurso de 10 dias corridos, até 19/10), não preliminar."
+ },
+ {
+  "id": "s119",
+  "veredito": "ERRADA",
+  "categoria": "horario_presenca_omitido",
+  "atribuicao": "ambos",
+  "linha_diz": "02/12 (quarta): Prova de Didática, na data provável de 02/12/2026; faltam 30 a partir de 02/11",
+  "documento_diz": "4.3.1 'data provável de 02 de dezembro de 2026'; 4.3.2.2 'O candidato aprovado na Prova de Conhecimento que não estiver presente no momento do sorteio do ponto da Prova de Didática será eliminado'; 4.3.2.8 após o sorteio, 'prazo mínimo de 24 (vinte e quatro) horas para a preparação'",
+  "fonte_conferida": "documentos/ufv-48-2026/Edital-48-2026-DAU-1.pdf, itens 4.2.1, 4.3.1, 4.3.2.1 a 4.3.2.9",
+  "observacao": "Data e sentido (previsão) certos, mas a Didática exige presença anterior que elimina: o sorteio do ponto, em sessão pública, pelo menos 24 h antes (logo até 01/12, após o resultado da Prova de Conhecimento de 30/11). Nenhuma linha desta fila nem da anterior (31/10) avisa disso. A extração tem o sorteio (ev-0006) só como relativo e sem a eliminação; o leitor não o converteu em linha nem em ressalva."
+ },
+ {
+  "id": "s139",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "04/11 (quarta), até 16:00, último dia: anexar no pedido de inscrição o memorial circunstanciado e comprovantes; faltam 15 a partir de 20/10",
+  "documento_diz": "'com início às 10 horas ... do dia 21 de setembro de 2026 e término às 16 horas (horário de Brasília) do dia 04 de novembro de 2026, as inscrições'; item 1, I 'memorial circunstanciado, em Português, e comprovação dos trabalhos publicados'",
+  "fonte_conferida": "documentos/usp-fm-199-2026/51 - Edital DVACAD-FM-199-2026 - abertura (DOE-SP 14-09-2026).html, preâmbulo e item 1, I; idem Edital DVACAD-FM-199-2026.pdf",
+  "observacao": null
+ }
+]

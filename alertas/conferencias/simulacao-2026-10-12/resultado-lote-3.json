@@ -1,0 +1,252 @@
+[
+ {
+  "id": "s004",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "26/10/2026 (seg) às 13:15, sorteio do tema da didática, Turma 04, presença obrigatória da turma; faltam 7 dias (fila 19/10)",
+  "documento_diz": "Portaria 880/2026: \"26/10/2026 às 13:15 h - UFTM - Centro Educacional - Sala T-13 - Turma 04\"; \"A presença na sessão pública de sorteio dos temas da prova didática é obrigatória para os candidatos da respectiva turma\"; edital 8.4.7: ausência no sorteio elimina",
+  "fonte_conferida": "documentos/uftm-28-2026/62 - Retificação da portaria de banca - Lotação 01 (11-09-2026).docling.md, p. 2; edital 51, itens 8.1.4 e 8.4.7; AVISOs da pasta (nenhum altera Lotação 01 depois de 11/09)",
+  "observacao": "Sorteio não é prova, então 8.1.4 (30 min antes) não se aplica; a própria linha avisa a presença obrigatória."
+ },
+ {
+  "id": "s009",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "Sorteio dos temas da didática, Turma 07 (Aviso 03), presença obrigatória: 14/10/2026 (qua) às 08:00 (bloco de novo documento, fila 13/10)",
+  "documento_diz": "AVISO nº 03 (09/10/2026), Lotação 04: \"14/10/2026 às 8:00h - Centro Educacional - Sala 229 (sala do CEFORES) - Turma 07\"; \"A presença na sessão pública de sorteio dos temas da prova didática é obrigatória\"",
+  "fonte_conferida": "documentos/uftm-28-2026/AVISO_03_-_nbsp_Divulga_ccedil_download.docling.md, p. 1; edital 51, item 8.4.7",
+  "observacao": "Único habilitado da Lotação 04 (inscrição 91720). Na mesma mensagem a linha \"Datas que se aproximam\" repete o sorteio com \"(é amanhã)\", contagem certa."
+ },
+ {
+  "id": "s010",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "23/10/2026 (sex) às 13:30, comparecimento 30 min antes da didática da Turma 04 marcada para 14:00; faltam 7 dias (fila 16/10)",
+  "documento_diz": "Portaria 834/2026, Lotação 02: confinamento e apresentação \"23/10/2026 às 14:00 ... Sala 229 A/229 B - Turma 04\"; edital 8.1.4: \"comparecer ... com antecedência mínima de 30 (trinta) minutos do horário de início da prova\"",
+  "fonte_conferida": "documentos/uftm-28-2026/58 - Banca examinadora, sorteios e cronograma - Lotação 02.docling.md, p. 3; edital 51, item 8.1.4; Retifica_ccedil__atilde_o_stro_download (Portaria 975, 02/10) só muda local da prova prática",
+  "observacao": null
+ },
+ {
+  "id": "s012",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "horario_presenca_omitido",
+  "atribuicao": "extrator",
+  "linha_diz": "Apresentação da prova didática, Turma 07 (Aviso 03): 15/10/2026 (qui) às 08:00 (fila 13/10, área 04)",
+  "documento_diz": "AVISO 03: apresentação \"15/10/2026 às 08:00h - Centro Educacional - Sala 309 - Turma 07\", confinamento no mesmo horário; edital 8.1.4: \"deverá comparecer ao local ... com antecedência mínima de 30 (trinta) minutos do horário de início da prova\"; 15.1 b elimina quem \"não comparecer em qualquer das provas em data e horário estipulados\"",
+  "fonte_conferida": "documentos/uftm-28-2026/AVISO_03_-_nbsp_Divulga_ccedil_download.docling.md, pp. 1-2; edital 51, itens 8.1.4, 8.4.14 e 15.1 b; filas 13/10 e 14/10 (área 04); extração uftm-28-2026 (eventos com escopo 04)",
+  "observacao": "Data e hora certas. Falta a chegada às 07:30 (8.1.4): a extração tem o evento de comparecimento para as turmas das Lotações 01 e 02 (descrito como eliminatório via 15.1 b), mas não para a Turma 07 da Lotação 04, e nenhuma fila da área 04 traz essa linha antes da prova. Se o projeto ler 8.1.4 com 15.1 b como eliminatório, como a própria extração faz nas Lotações 01 e 02, este item passa a ERRADA. Também ficam sem linha o envio do plano em PDF até 07:00 (1 h antes do confinamento) e as 4 cópias, que só tiram ponto (8.4.15)."
+ },
+ {
+  "id": "s013",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "21/10/2026 (qua) às 13:00, comparecimento 30 min antes da didática da Turma 01 marcada para 13:30; faltam 7 dias (fila 14/10)",
+  "documento_diz": "Portaria 834/2026, Lotação 02: confinamento \"21/10/2026 às 13:30 - Centro Educacional, Sala 229 A - Turma 01\" e apresentação \"21/10/2026 às 13:30 - ... Sala 229 B - Turma 01\"; edital 8.1.4 (30 min antes)",
+  "fonte_conferida": "documentos/uftm-28-2026/58 - Banca examinadora, sorteios e cronograma - Lotação 02.docling.md, p. 3; edital 51, item 8.1.4; Portaria 975/2026 não altera a didática",
+  "observacao": null
+ },
+ {
+  "id": "s018",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "30/10/2026 (sex) às 07:30, comparecimento 30 min antes da didática da Turma 05 marcada para 08:00; faltam 7 dias (fila 23/10)",
+  "documento_diz": "Portaria 880/2026, Lotação 01: confinamento \"30/10/2026 às 08:00 h - ... Sala 307 - Turma 05\" e apresentação \"30/10/2026 às 08:00 h - ... Sala 314 - Turma 05\"; edital 8.1.4 (30 min antes)",
+  "fonte_conferida": "documentos/uftm-28-2026/62 - Retificação da portaria de banca - Lotação 01 (11-09-2026).docling.md, pp. 2-3; edital 51, item 8.1.4",
+  "observacao": null
+ },
+ {
+  "id": "s148",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "27/10/2026 (ter) às 17:00, divulgação do resultado da prova didática; faltam 2 dias (fila 25/10, área 02)",
+  "documento_diz": "Portaria 834/2026, Lotação 02: \"DATA E HORÁRIO DA DIVULGAÇÃO DO RESULTADO DA PROVA DIDÁTICA: 27/10/2026 às 17:00 - No sítio eletrônico oficial da UFTM.\"",
+  "fonte_conferida": "documentos/uftm-28-2026/58 - Banca examinadora, sorteios e cronograma - Lotação 02.docling.md, pp. 3-4; Portaria 975/2026 mantém o resto",
+  "observacao": "O rótulo vem em maiúsculas, copiado do documento, mas não diz que o resultado é final. O upload de títulos em até 24 h depois desse resultado não aparece nesta linha."
+ },
+ {
+  "id": "s031",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "03/11/2026 (ter), das 09:00 às 13:00, prova escrita; faltam 15 dias (fila 19/10)",
+  "documento_diz": "11.1 j) \"Prova escrita - 03/11/2026, das 9h às 13h.\"; 11.1 i) sorteio do ponto às 8h; 11.2 \"O candidato deverá se apresentar 30 minutos antes de cada hora marcada no cronograma\"",
+  "fonte_conferida": "documentos/uerj-2026/09 - Seleção 2026-232 - Edital.pdf, p. 9-10 (pdftotext), itens 11.1 i-k e 11.2; 27 - Errata (só vencimento e taxa); filas 19/10 a 02/11",
+  "observacao": "A fila de 19/10 não traz o sorteio das 8h nem a chegada às 07:30 e 08:30, que só aparecem a partir da fila de 27/10. O edital não diz que o atraso elimina (16.3 exclui só quem falta à prova), por isso não marquei erro."
+ },
+ {
+  "id": "s098",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "03/11/2026 (ter) às 08:00, sorteio do ponto da prova escrita; faltam 7 dias (fila 27/10)",
+  "documento_diz": "11.1 i) \"Sorteio do ponto para a prova escrita - 03/11/2026, às 8h.\"; 11.2 apresentação 30 min antes",
+  "fonte_conferida": "documentos/uerj-2026/09 - Seleção 2026-232 - Edital.pdf, p. 9-10, itens 11.1 i e 11.2; fila 27/10",
+  "observacao": "A mesma mensagem traz \"às 07:30: Comparecimento obrigatório 30 minutos antes do sorteio\"."
+ },
+ {
+  "id": "s104",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "03/11/2026 (ter) às 14:00, leitura da prova escrita; faltam 2 dias (fila 01/11)",
+  "documento_diz": "11.1 k) \"Leitura da prova escrita - 03/11/2026, às 14h.\"; 11.2 apresentação 30 min antes",
+  "fonte_conferida": "documentos/uerj-2026/09 - Seleção 2026-232 - Edital.pdf, p. 9-10, itens 11.1 k e 11.2; 9.1.1 h-i; fila 01/11",
+  "observacao": "A mesma mensagem traz a chegada às 13:30."
+ },
+ {
+  "id": "s107",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "05/11/2026 (qui) às 08:30, comparecimento 30 min antes do sorteio do ponto da prova de aula marcado para 09:00; faltam 7 dias (fila 29/10)",
+  "documento_diz": "11.1 n) \"Sorteio do ponto para a prova de aula - 05/11/2026, às 9h.\"; 11.2 \"O candidato deverá se apresentar 30 minutos antes de cada hora marcada\"",
+  "fonte_conferida": "documentos/uerj-2026/09 - Seleção 2026-232 - Edital.pdf, p. 10, itens 11.1 m-n e 11.2; 9.1.2 c-d",
+  "observacao": "Ressalva do edital: pela obs. de 11.1 m, havendo mais de um candidato, dia e hora do sorteio e da aula de cada um são divulgados com o resultado da escrita, e 9.1.2 d manda sortear um ponto único. A data vale enquanto não houver essa divulgação."
+ },
+ {
+  "id": "s146",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "tipo_trocado",
+  "atribuicao": "ambos",
+  "linha_diz": "06/11/2026 (sex): último dia: Entrega de Títulos e Trabalhos, imediatamente após o resultado da Prova de Aula; faltam 15 dias (fila 22/10)",
+  "documento_diz": "11.1 p) \"Resultado da prova de aula - 06/11/2026, às 15h.\"; q) \"Entrega de Títulos e Trabalhos - 06/11/2026, imediatamente após o resultado da Prova de Aula.\"; 11.2: entrega na Secretaria de Hematologia, apresentação 30 min antes",
+  "fonte_conferida": "documentos/uerj-2026/09 - Seleção 2026-232 - Edital.pdf, p. 10 (pdftotext), itens 11.1 p-q e 11.2; extração ev-0022 e ev-0031; filas 22/10 e 30/10",
+  "observacao": "A data está certa, mas a entrega é um compromisso presencial logo após as 15h, e \"último dia\" sugere um prazo que corre o dia inteiro. O texto literal na mesma linha corrige isso. A chegada às 14:30 só aparece na fila de 30/10. A extração não ancora a hora (15:00) e o leitor rotula entrega sem hora como prazo."
+ },
+ {
+  "id": "s045",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "05/11/2026 (qui) às 16:00, entrega de títulos e trabalhos, imediatamente após o resultado da prova de aula; faltam 15 dias (fila 21/10)",
+  "documento_diz": "11.1 q) \"Entrega de Títulos e Trabalhos - 05/11/2026, às 16h. imediatamente após o resultado da Prova de Aula.\"; p) resultado 05/11/2026 às 16h; 11.2 apresentação 30 min antes",
+  "fonte_conferida": "documentos/uerj-2026/06 - Seleção 2026-229 - Edital.docling.md, item 11.1 p-q e 11.2 (p. 9-10); 24 - Errata (só vencimento e taxa); edital_1828 (comissão e inscritos, 01/10); filas 21/10 e 29/10",
+  "observacao": "A chegada às 15:30 só vem na fila de 29/10, e o edital não diz que o atraso elimina. Entrega só para aprovados na escrita e na aula."
+ },
+ {
+  "id": "s061",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "03/11/2026 (ter), das 09:00 às 13:00, prova escrita; faltam 15 dias (fila 19/10)",
+  "documento_diz": "11.1 j) \"Prova escrita - 03/11/2026, das 9h às 13h\"; i) sorteio às 8h; 11.2 apresentação 30 min antes",
+  "fonte_conferida": "documentos/uerj-2026/06 - Seleção 2026-229 - Edital.docling.md, itens 11.1 i-k e 11.2; 24 - Errata; edital_1828 (6 inscritos, abaixo do limite de 11.3); filas 19/10 e 27/10",
+  "observacao": "Igual a s031: o sorteio das 8h e a chegada às 07:30 e 08:30 só aparecem a partir da fila de 27/10, e o edital não diz que o atraso elimina."
+ },
+ {
+  "id": "s090",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "03/11/2026 (ter) às 14:00, leitura da prova escrita; faltam 2 dias (fila 01/11)",
+  "documento_diz": "11.1 k) \"Leitura da prova escrita - 03/11/2026, às 14h\"; 11.2 apresentação 30 min antes",
+  "fonte_conferida": "documentos/uerj-2026/06 - Seleção 2026-229 - Edital.docling.md, itens 11.1 k e 11.2; fila 01/11",
+  "observacao": "A mesma mensagem traz a chegada às 13:30."
+ },
+ {
+  "id": "s038",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "23/10/2026 (sex), até 16:00, último dia para anexar memorial e comprovação no pedido de inscrição; faltam 7 dias (fila 16/10)",
+  "documento_diz": "Preâmbulo: inscrições com \"término às 16 horas (horário de Brasília) do dia 23 de outubro de 2026\"; item 1, I: memorial anexado no pedido de inscrição",
+  "fonte_conferida": "documentos/usp-fm-152-168-2026/55 - Edital DVACAD-FM-166-2026 - abertura (DOE-SP).html.docling.md, preâmbulo e item 1; documentos/usp-fm-199-2026/Edital DVACAD-FM-166-2026.pdf (pdftotext) igual",
+  "observacao": "A retificação da pasta usp-fm-199-2026 trata do edital 9/2026, não deste."
+ },
+ {
+  "id": "s059",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "outra",
+  "atribuicao": "extrator",
+  "linha_diz": "23/10/2026 (sex): último dia: pagamento da taxa por transferência, com compensação dentro do prazo de inscrições; sem hora; faltam 2 dias (fila 21/10)",
+  "documento_diz": "Preâmbulo: término das inscrições \"às 16 horas (horário de Brasília) do dia 23 de outubro de 2026\"; item 2: comprovante anexado \"no momento da inscrição\"; § 9º: sem compensação \"dentro do prazo de inscrições\" a inscrição é cancelada",
+  "fonte_conferida": "documentos/usp-fm-152-168-2026/55 - Edital DVACAD-FM-166-2026 - abertura (DOE-SP).html.docling.md, preâmbulo, item 2 e § 9º; documentos/usp-fm-199-2026/Edital DVACAD-FM-166-2026.pdf; extração usp-fm-166-2026 ev-0008 (sem hora)",
+  "observacao": "A data está certa, mas falta o limite das 16h. Quem pagasse à noite de 23/10 perderia a inscrição. A linha logo acima, na mesma mensagem, diz \"até 16:00: fim das inscrições\", e o texto fala em \"prazo de inscrições\", o que atenua. O FM/168 tem a hora 16:00 no mesmo evento."
+ },
+ {
+  "id": "s049",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "15/10/2026 (qui): último dia do período para solicitar isenção da taxa; faltam 2 dias (fila 13/10)",
+  "documento_diz": "Cronograma 2.1: \"12 a 15/10/2026 | Período para solicitar isenção do pagamento da taxa de inscrição.\"",
+  "fonte_conferida": "documentos/ufms-137-2026/edital_progep_2026_137.docling.md, item 2.1 (cronograma), item 5; edital 131 e resolução 742 da pasta não tratam do 137",
+  "observacao": "O edital não dá hora para o fim do pedido."
+ },
+ {
+  "id": "s069",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "25/10/2026 (dom): fim das inscrições; faltam 7 dias (fila 18/10)",
+  "documento_diz": "Cronograma 2.1: \"12/10 a 25/10/2026 | Período de inscrições on-line.\"",
+  "fonte_conferida": "documentos/ufms-137-2026/edital_progep_2026_137.docling.md, item 2.1 e itens 3.4 e 4.1",
+  "observacao": "Sem hora no edital. Inconsistência do edital fora desta linha: o cronograma fixa o fim do pagamento em 27/10, enquanto 3.4 manda pagar até o término das inscrições."
+ },
+ {
+  "id": "s128",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "13/10/2026 (ter): G) Resultado do recurso da isenção - até o dia 13/10/2026; é hoje (fila 13/10)",
+  "documento_diz": "11.1 g) \"Resultado do recurso da isenção - até o dia 13/10/2026.\"",
+  "fonte_conferida": "documentos/uerj-2026/05 - Seleção 2026-228 - Edital.docling.md, item 11.1 g; 23 - Edital de alteração de item (só vencimento e taxa)",
+  "observacao": "A linha conserva o \"até o dia\" do edital (data máxima de divulgação)."
+ },
+ {
+  "id": "s144",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "24/11/2026 (ter), das 09:00 às 13:00, J) prova escrita; faltam 30 dias (fila 25/10)",
+  "documento_diz": "11.1 j) \"Prova escrita - 24/11/2026, das 09h00 às 13h00.\"; i) sorteio às 8h00; 11.2 \"deverá se apresentar 20 minutos antes de cada hora marcada\"",
+  "fonte_conferida": "documentos/uerj-2026/05 - Seleção 2026-228 - Edital.docling.md, itens 11.1 i-k e 11.2 (p. 9-10); 23 - Edital de alteração de item",
+  "observacao": "Com 30 dias de antecedência, a fila não traz o sorteio das 8h nem a chegada às 07:40 e 08:40, que existem na extração (ev-0025 e ev-0026) e entram nas filas mais próximas; o edital não diz que o atraso elimina. Fora desta linha: 11.1 k traz \"25/11/2016\" (erro do edital), e a extração copiou o ano 2016 em ev-0015."
+ },
+ {
+  "id": "s046",
+  "veredito": "TEXTO_CONFUSO",
+  "categoria": "outra",
+  "atribuicao": "extrator",
+  "linha_diz": "23/10/2026 (sex): último dia: pagamento da taxa por transferência, com compensação dentro do prazo de inscrições; sem hora; faltam 2 dias (fila 21/10)",
+  "documento_diz": "Preâmbulo: término das inscrições \"às 16 horas (horário de Brasília) do dia 23 de outubro de 2026\"; item 2: comprovante anexado \"no momento da inscrição\"; § 9º: sem compensação \"dentro do prazo de inscrições\" a inscrição é cancelada",
+  "fonte_conferida": "documentos/usp-fm-152-168-2026/56 - Edital DVACAD-FM-167-2026 - abertura (DOE-SP).html.docling.md, preâmbulo, item 2 e § 9º; documentos/usp-fm-199-2026/Edital DVACAD-FM-167-2026.pdf; extração usp-fm-167-2026 ev-0008 (sem hora)",
+  "observacao": "Igual a s059: a data está certa, mas falta o limite das 16h. A linha de fim das inscrições (até 16:00) está na mesma mensagem."
+ },
+ {
+  "id": "s075",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "03/11/2026 (ter), até 23:59: fim das inscrições; faltam 7 dias (fila 27/10)",
+  "documento_diz": "Retificação 1, II (4.2.1): \"no período das 8h00 do dia 03/09/2026 às 23h59 do dia 03/11/2026\" (substitui 03/10/2026)",
+  "fonte_conferida": "documentos/unimontes-2026/20 - Edital 09-2026 - Retificação 1 (Política e Ciências Sociais).docling.md, item II; 19 - Edital 09-2026, 4.2.1; 21 - Quadro consolidado; novo-COMUNICADO_OFICIAL_01_2026 (sem mudança de prazo)",
+  "observacao": null
+ },
+ {
+  "id": "s099",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "14/10/2026 (qua): resultado definitivo das inscrições, vagas reservadas e atendimento especial; é amanhã (fila 13/10)",
+  "documento_diz": "Anexo II (Cronograma Provisório), nº 16: \"Resultado definitivo das inscrições, vagas reservadas e atendimento especial | 14/10/2026 | 14/10/2026\"",
+  "fonte_conferida": "documentos/uneb-085-2026/01 - Edital de Abertura nº 085-2026 (09-09-2026).docling.md, Anexo II e item 1.6; documentos posteriores (isenção, impugnações, preliminares de 06/10) não alteram o Anexo II",
+  "observacao": "O cronograma é declarado provisório (1.6), mas as etapas anteriores saíram nas datas previstas."
+ },
+ {
+  "id": "s129",
+  "veredito": "CERTA",
+  "categoria": null,
+  "atribuicao": null,
+  "linha_diz": "23/10/2026 (sex), até 16:00: último dia para o pagamento da taxa por transferência, com compensação dentro do prazo de inscrições; faltam 2 dias (fila 21/10)",
+  "documento_diz": "Preâmbulo: término \"às 16 horas (horário de Brasília) do dia 23 de outubro de 2026\"; item 2 e § 9º (compensação dentro do prazo de inscrições, comprovante anexado na inscrição)",
+  "fonte_conferida": "documentos/usp-fm-152-168-2026/57 - Edital DVACAD-FM-168-2026 - abertura (DOE-SP).html.docling.md, preâmbulo, item 2 e § 9º; documentos/usp-fm-199-2026/Edital DVACAD-FM-168-2026.pdf",
+  "observacao": null
+ }
+]
