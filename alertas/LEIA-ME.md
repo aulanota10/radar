@@ -25,10 +25,22 @@ A rotina agendada "Alertas do Radar, ensaio diário" roda às 13h12, de domingo 
 
 ## Conferência de 11/10 e critério de passagem
 
-A conferência das filas de 08, 09 e 11/10 (`conferencias/2026-10-11.md`) achou 14 datas erradas em 234, nenhuma por destinatário errado. O leitor foi corrigido no mesmo dia: rótulo pela descrição literal do edital, janela provável longa sem aviso agendado, horário de janela de um dia só, entrega no horário de cada candidato sem "fim do prazo", retenção dos alertas agendados do concurso com retificação vista pelo vigia e ainda não lida, cobertura dos dias sem rodada, aviso para eventos de tipo "outro", títulos de documento limpos e documento repetido em dois links contado uma vez. O critério continua o mesmo: o teste com alunos começa depois de três rodadas seguidas com zero data errada na conferência diária.
+A conferência das filas de 08, 09 e 11/10 (`conferencias/2026-10-11.md`) achou 14 datas erradas em 234, nenhuma por destinatário errado. O leitor foi corrigido no mesmo dia: rótulo pela descrição literal do edital, janela provável longa sem aviso agendado, horário de janela de um dia só, entrega no horário de cada candidato sem "fim do prazo", retenção dos alertas agendados do concurso com retificação vista pelo vigia e ainda não lida, cobertura dos dias sem rodada, aviso para eventos de tipo "outro", títulos de documento limpos e documento repetido em dois links contado uma vez. Esse critério de três rodadas diárias limpas foi substituído em 12/10/2026 pelas rodadas de simulação descritas abaixo.
 
 ## Amostra de 12/10 e testes de regra
 
 A amostra estratificada de 300 datas da agenda inteira (`conferencias/amostra-2026-10-12/RELATORIO.md`) deu 3,1% de datas erradas e 17% de textos confusos, ponderados. Dos 13 erros, 9 são do extrator (horário de presença obrigatória sem evento, hora-limite perdida no pagamento, "entre o 1º e o 5º dia útil" lido como "5 dias depois") e 4 do leitor (sorteios de ordem e de turma sem aviso). O leitor foi corrigido no mesmo dia: sorteio da ordem e da turma avisam 7 dias e 1 dia antes; compromisso de tipo "outro" que exige presença (instalação, abertura, portões) avisa 7, 2 e 1 dia antes; data fixa de prazo é "até" e último dia, com a hora como limite; "período provável" só para evento pontual, não para inscrição ou entrega; relativa sem unidade diz que o edital não a informa; o rótulo não apaga mais parêntese que começa por "ver". Cada correção tem teste em `test_agenda.py`, que a rodada diária roda antes de gerar a fila.
+
+## Simulação de 12/10 e novo critério
+
+Três rodadas de simulação das filas de 13/10 a 02/11, com 150 linhas inéditas conferidas em cada uma, deram 20, 6 e 2 linhas erradas, e os dois erros da última foram corrigidos (`conferencias/simulacao-2026-10-12*`, relatório `SIMULACAO-2026-10-12.md`). Com isso o Samuel liberou os alertas de datas para um grupo menor de alunos, com envio automático pela API oficial do WhatsApp assim que o canal estiver pronto. A conferência diária continua, como vigilância de qualidade e não mais como critério de passagem.
+
+## Modelos da API do WhatsApp
+
+Mensagem que a empresa inicia só sai por modelo aprovado pela Meta, com texto fixo e variáveis que não podem ter quebra de linha, num corpo de até 1.024 caracteres. `modelos.py` guarda os dois modelos (`alerta_datas_concurso` e `alerta_concurso_novo`) e converte a fila do leitor e o resultado do casamento nos parâmetros de cada um. A mensagem de datas vira uma linha corrida; quando não cabe, divide-se em até três partes numeradas, e a última diz quantas datas ficaram de fora e manda ao documento. Sobre as filas de 11 e 12/10, 115 de 154 mensagens couberam em uma, 22 em duas e 17 em três, todas dentro dos limites. `test_modelos.py` roda na rodada diária junto com `test_agenda.py`.
+
+## Alerta de concurso novo (ensaio)
+
+`concurso_novo.py` liga o casamento do catálogo (`catalogo/casamento.py`) à cadeia. Concurso novo é o que tem extração hoje e não estava no estado da rodada anterior; por isso o script roda antes de `agenda.py`. Para cada perfil do grupo, vai à fila só o "pode servir" de concurso ativo com inscrição não encerrada, uma mensagem por perfil e concurso, já no modelo `alerta_concurso_novo`. O "depende da banca", as vagas sem requisito interpretado e os prazos que variam por vaga vão para `concurso-novo-relatorio.md`. Até existir o cadastro do grupo, a rodada usa `perfis-ensaio.json`, os 92 perfis fictícios da conferência do catálogo. No ensaio de 12/10, tratando como novos os 13 concursos cadastrados pelo Batedor desde 01/10, saíram 144 mensagens para 61 dos 92 perfis.
 
 Nada desta pasta é enviado a candidato sem o Samuel aprovar o texto e o canal.
