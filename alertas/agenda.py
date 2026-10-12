@@ -68,6 +68,13 @@ DIAS_ANTES = 3
 PRAZOS = {"inscricao", "isencao_pedido", "pagamento", "entrega_documento", "recurso",
           "impugnacao_edital", "impugnacao_banca"}
 
+# Retificação que muda um evento só para parte das áreas (regra 10 de extracoes/_regras/datas-e-presenca.md,
+# decisão do Samuel de 12/10/2026): o evento geral continua vigente e entra um evento do mesmo tipo, etapa
+# e fase com escopo só das áreas atingidas. Para essas áreas vale o de escopo mais estreito, e o geral não
+# chega a elas (UFVJM 101: isenção geral até 13/10, seis áreas até 27/10). Só nestes tipos há um evento
+# por área; sorteio, entrega, recurso e presença podem ter vários e não entram.
+SUBSTITUIVEIS = {"inscricao", "isencao_pedido", "pagamento", "homologacao_inscricoes", "resultado_final", "prova"}
+
 # Tipos de evento que acontecem num dia só. Uma janela longa num deles é "período provável"
 # (UFSM 221: provas "de 08/11/2026 a 21/02/2027"), não a data do evento: não vira alerta agendado.
 PONTUAIS = {"prova", "sorteio_tema", "convocacao", "resultado", "resultado_final", "homologacao_inscricoes",
@@ -275,6 +282,27 @@ def companheiros(e, eventos, d, hoje=None):
         if ci == i and h and not ch and c["tipo_evento"] != "outro":
             continue
         out.append(c)
+    return out
+
+
+def sombras(eventos):
+    """{id(evento): áreas em que um evento vigente de escopo mais estreito, do mesmo tipo, etapa e fase,
+    substitui este} (regra 10 de datas-e-presenca, 12/10/2026)."""
+    vig = [e for e in eventos if e.get("estado") == "vigente"]
+    out = {}
+    for g in vig:
+        t = g["tipo_evento"]
+        if t not in SUBSTITUIVEIS or (t == "prova" and not g.get("etapa_ref")):
+            continue
+        chave = (t, g.get("etapa_ref"), g.get("fase"))
+        x = set()
+        for e in vig:
+            if e is g or e["escopo"] == "geral" or (e["tipo_evento"], e.get("etapa_ref"), e.get("fase")) != chave:
+                continue
+            if g["escopo"] == "geral" or set(e["escopo"]) < set(g["escopo"]):
+                x |= set(e["escopo"])
+        if x:
+            out[id(g)] = x
     return out
 
 
@@ -505,10 +533,23 @@ def executar(vigia, hoje, anterior):
         tem_res_final = any(e["tipo_evento"] == "resultado_final" and e["estado"] == "vigente"
                             and intervalo(e["data"])[1] for e in c["eventos"])
 
-        def destinos(escopo):
+        sombra = sombras(c["eventos"])
+        sem_vaga = set()
+
+        def destinos(escopo, ev=None):
+            fora = sombra.get(id(ev), set()) if ev is not None else set()
             if escopo == "geral":
-                return [None]
-            return [x for x in escopo if x not in canceladas]
+                if not fora:
+                    return [None]
+                if not fora <= set(nomes_area):
+                    # o escopo do evento estreito não bate com os códigos das vagas: sem saber quais são as
+                    # outras áreas, o geral vai a todas, como antes, e o caso vai ao relatório
+                    if id(ev) not in sem_vaga:
+                        sem_vaga.add(id(ev))
+                        rel["escopo_sem_vaga"].append(f"{nome}: {nome_evento(ev)} tem evento próprio para {', '.join(sorted(fora - set(nomes_area)))}, que não está entre as áreas das vagas; o aviso geral vai a todas as áreas.")
+                    return [None]
+                return [x for x in nomes_area if x not in fora and x not in canceladas]
+            return [x for x in escopo if x not in canceladas and x not in fora]
 
         # mudanças por retificação vindas de documento novo
         alteradas = set()
@@ -557,7 +598,7 @@ def executar(vigia, hoje, anterior):
 
             if sit != "ativo" or e["tipo_evento"] in ("suspensao", "retomada", "cancelamento"):
                 continue
-            dest = destinos(e["escopo"])
+            dest = destinos(e["escopo"], e)
             if not dest:
                 continue
 
@@ -816,6 +857,7 @@ def montar_relatorio(rel, agenda, total, hoje, base):
                ("pendencia_vencida", "Pendências com prazo prometido vencido (documento talvez perdido pelo vigia)"),
                ("correcao_extrator", "Datas que mudaram sem documento novo (correção do extrator; não vão ao candidato)"),
                ("inconsistencia", "Possível erro no edital (decisão 2)"),
+               ("escopo_sem_vaga", "Evento por área que não confere com as vagas (aviso geral foi a todas as áreas)"),
                ("sem_extracao", "Concursos vigiados sem extração (não geram alerta)"),
                ("vigia", "Vigia")]
     f = collections.Counter(x["forma"] for x in agenda)

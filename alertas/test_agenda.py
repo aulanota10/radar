@@ -172,5 +172,61 @@ class Agendados(unittest.TestCase):
         self.assertEqual(t, [])
 
 
+def rodar_por_area(eventos, vagas, hoje, anterior_dia):
+    """Como rodar(), com vagas, e devolve {área ou None: [textos dos agendados]}."""
+    with tempfile.TemporaryDirectory() as v:
+        os.makedirs(os.path.join(v, "extracoes", "t"))
+        evs = [dict({"estado": "vigente", "escopo": "geral", "id": f"ev-{k:04d}"}, **e) for k, e in enumerate(eventos, 1)]
+        vgs = [{"codigo": {"literal": f"Área {c}", "numero": c}, "area_conhecimento": f"Área {c}"} for c in vagas]
+        with open(os.path.join(v, "extracoes", "t", "concurso-t.json"), "w") as fh:
+            json.dump({"sigla": "TESTE", "eventos": evs, "vagas": vgs}, fh)
+        _, _, avisos, rel, _, _ = A.executar(v, hoje, {"gerado_em": anterior_dia.isoformat(), "concursos": {}})
+    out = {}
+    for (_, area), its in avisos.items():
+        out.setdefault(area, []).extend(x["texto"] for x in its if x["tipo"] == "agendado")
+    return out, rel
+
+
+ISENCAO_GERAL = {"tipo_evento": "isencao_pedido", "descricao_literal": "Pedido de isenção da taxa",
+                 "data": jan("2026-09-25", "2026-10-13", None, "23:59")}
+ISENCAO_PRORROGADA = {"tipo_evento": "isencao_pedido", "descricao_literal": "Pedido de isenção prorrogado (Edital 102)",
+                      "escopo": ["101.3", "101.23"], "data": jan("2026-09-25", "2026-10-27", None, "23:59")}
+
+
+class EscopoMaisEstreito(unittest.TestCase):
+    """Regra 10 de datas-e-presenca (12/10/2026): o evento da área atingida substitui o geral para ela."""
+
+    def test_geral_nao_chega_a_area_com_evento_proprio(self):  # UFVJM 101
+        por, _ = rodar_por_area([ISENCAO_GERAL, ISENCAO_PRORROGADA], ["101.1", "101.3", "101.23"],
+                                dt.date(2026, 10, 11), dt.date(2026, 10, 10))  # 2 dias antes de 13/10
+        self.assertNotIn(None, por)
+        self.assertTrue(any("13/10" in x for x in por["101.1"]))
+        for a in ("101.3", "101.23"):
+            self.assertFalse(any("13/10" in x for x in por.get(a, [])), a)
+
+    def test_area_atingida_recebe_o_prazo_novo(self):
+        por, _ = rodar_por_area([ISENCAO_GERAL, ISENCAO_PRORROGADA], ["101.1", "101.3", "101.23"],
+                                dt.date(2026, 10, 25), dt.date(2026, 10, 24))  # 2 dias antes de 27/10
+        self.assertTrue(any("27/10" in x for x in por["101.3"]))
+        self.assertFalse(any("27/10" in x for x in por.get("101.1", [])))
+
+    def test_sem_evento_estreito_o_geral_continua_para_todos(self):
+        por, _ = rodar_por_area([ISENCAO_GERAL], ["101.1", "101.3"], dt.date(2026, 10, 11), dt.date(2026, 10, 10))
+        self.assertEqual(list(por), [None])
+
+    def test_escopo_que_nao_bate_com_as_vagas_vai_a_todos_e_ao_relatorio(self):
+        por, rel = rodar_por_area([ISENCAO_GERAL, dict(ISENCAO_PRORROGADA, escopo=["Medicina Veterinária"])],
+                                  ["101.1", "101.3"], dt.date(2026, 10, 11), dt.date(2026, 10, 10))
+        self.assertTrue(any("13/10" in x for x in por[None]))
+        self.assertEqual(len(rel["escopo_sem_vaga"]), 1)
+
+    def test_tipo_com_varios_eventos_nao_e_substituido(self):  # dois sorteios no mesmo dia são eventos diferentes
+        geral = {"tipo_evento": "sorteio_ordem", "descricao_literal": "Sorteio da ordem, presença obrigatória",
+                 "data": {"forma": "fixa", "data": "2026-10-14", "hora": "08:00"}}
+        area = dict(geral, escopo=["101.3"], data={"forma": "fixa", "data": "2026-10-14", "hora": "14:00"})
+        por, _ = rodar_por_area([geral, area], ["101.1", "101.3"], dt.date(2026, 10, 13), dt.date(2026, 10, 12))
+        self.assertTrue(any("08:00" in x for x in por[None]))
+
+
 if __name__ == "__main__":
     unittest.main()
