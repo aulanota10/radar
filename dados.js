@@ -1,6 +1,6 @@
 // ═══════════════════════════════════════════════════════════════════════
 //  DADOS DO RADAR DE CONCURSOS · Aula Nota 10
-//  Última verificação: 11/10/2026
+//  Última verificação: 12/10/2026
 //
 //  ESTE É O ÚNICO ARQUIVO QUE VOCÊ PRECISA EDITAR PARA ATUALIZAR O SITE.
 //  Não mexa no index.html.
@@ -47,7 +47,10 @@
 // Gerado por compilar_radar.py a partir das extrações v2 (vigia-documentos/extracoes).
 // Para corrigir um dado, corrija a extração e rode o compilador de novo.
 
-window.RADAR_ATUALIZADO = "11/10/2026";
+// Gerado por compilar_radar.py a partir das extrações v2 (vigia-documentos/extracoes).
+// Para corrigir um dado, corrija a extração e rode o compilador de novo.
+
+window.RADAR_ATUALIZADO = "12/10/2026";
 
 window.CONCURSOS = [
   {
@@ -1520,7 +1523,7 @@ window.CONCURSOS = [
     "instituicao": "Universidade Federal do Rio Grande do Sul",
     "nivel": "Magistério Superior",
     "uf": "RS",
-    "numero_edital": "Edital nº 09/2026, publicado em 19/08/2026, com 3 documentos de alteração publicados depois",
+    "numero_edital": "Edital nº 09/2026, publicado em 19/08/2026, com 4 documentos de alteração publicados depois",
     "vagas": "20 vagas (10 ampla concorrência, 5 pretos, 1 indígena, 4 PcD)",
     "areas": "16 áreas, entre elas Antropologia, Subárea: Teoria Antropológica, Arquitetura e Urbanismo, Subárea: Projeto Arquitetônico: fundamentos e tecnologia, Ciências Agrárias, Subárea: Entomologia Agrícola, Ciências da Saúde/Medicina, Subárea: Anatomia Patológica e Patologia Clínica e Direito, Subárea: Direito Internacional Público",
     "campi": "Instituto de Filosofia e Ciências Humanas - Departamento de Antropologia, Faculdade de Arquitetura - Departamento de Arquitetura, Faculdade de Agronomia - Departamento de Fitossanidade e Faculdade de Medicina - Departamento de Patologia",
@@ -1541,8 +1544,10 @@ window.CONCURSOS = [
         "tipo": "discursiva",
         "carater": "Eliminatória e classificatória",
         "data": {
-          "tipo": "nao_divulgada",
-          "nota": "em prazo não inferior a 30 (trinta) dias, contados da data de publicação do presente Edital no Diário Oficial da União"
+          "tipo": "periodo",
+          "valor": "2026-11-03",
+          "fim": "2026-11-09",
+          "nota": "Datas por área: 1.2.7 (Educação, Subárea: Educação e Artes Visuais): 03/11; 1.2.9 (Engenharia, Subárea: Polímeros): 09/11; demais áreas: sem data (em prazo não inferior a 30 (trinta) dias, contados da data de publicação do presente Edital no Diário Oficial da União)"
         },
         "detalhe": {
           "nota_minima": "7,0"
@@ -1563,8 +1568,10 @@ window.CONCURSOS = [
         "tipo": "didatica",
         "carater": "Eliminatória e classificatória",
         "data": {
-          "tipo": "nao_divulgada",
-          "nota": "O edital ainda não fixou a data"
+          "tipo": "periodo",
+          "valor": "2026-11-10",
+          "fim": "2026-11-19",
+          "nota": "Datas por área: 1.2.7 (Educação, Subárea: Educação e Artes Visuais): 10/11; 1.2.9 (Engenharia, Subárea: Polímeros): 19/11"
         },
         "detalhe": {
           "nota_minima": "7,0. É corte próprio da didática: nota menor que 7,0 aqui reprova, mesmo com média geral suficiente",
@@ -1591,8 +1598,10 @@ window.CONCURSOS = [
         "tipo": "titulos",
         "carater": "Classificatória",
         "data": {
-          "tipo": "nao_divulgada",
-          "nota": "O edital ainda não fixou a data"
+          "tipo": "periodo",
+          "valor": "2026-11-09",
+          "fim": "2026-11-17",
+          "nota": "Datas por área: 1.2.7 (Educação, Subárea: Educação e Artes Visuais): 09/11 a 10/11; 1.2.9 (Engenharia, Subárea: Polímeros): 17/11"
         },
         "detalhe": {}
       },
@@ -1601,12 +1610,18 @@ window.CONCURSOS = [
         "tipo": "outra",
         "carater": "Eliminatória e classificatória",
         "data": {
-          "tipo": "nao_divulgada",
-          "nota": "O edital ainda não fixou a data"
+          "tipo": "periodo",
+          "valor": "2026-11-11",
+          "fim": "2026-11-18",
+          "nota": "Datas por área: 1.2.7 (Educação, Subárea: Educação e Artes Visuais): 11/11; 1.2.9 (Engenharia, Subárea: Polímeros): 18/11"
         },
         "detalhe": {}
       }
     ],
+    "periodo_provas": {
+      "inicio": "2026-11-03",
+      "fim": "2026-11-19"
+    },
     "logo": "ufrgs.png",
     "formacoes_status": "completo",
     "familias": [
@@ -10840,7 +10855,7 @@ window.CONCURSOS = [
         "carater": "",
         "data": {
           "tipo": "nao_divulgada",
-          "nota": "1 dias úteis após sessão pública de apuração do resultado"
+          "nota": "após o período de recursos e contrarrazões"
         },
         "detalhe": {}
       }
@@ -17852,7 +17867,7 @@ window.CONCURSOS = [
     "instituicao": "Universidade Federal da Bahia",
     "nivel": "Magistério Superior",
     "uf": "BA",
-    "numero_edital": "Edital nº 06/2026, publicado em 25/06/2026, com 7 documentos de alteração publicados depois",
+    "numero_edital": "Edital nº 06/2026, publicado em 25/06/2026, com 9 documentos de alteração publicados depois",
     "vagas": "38 vagas",
     "areas": "36 áreas, entre elas Gestão da Produção e Métodos Quantitativos, Enfermagem no Cuidado à Saúde da Mulher na Atenção Básica, Parto e Puerpério, Fundamentos de Enfermagem no Cuidado Individual e Cuidado em Enfermagem à Pessoa no Contexto Hospitalar, Gestão e Educação Permanente em Saúde e Enfermagem e Extensão Rural",
     "campi": "Salvador, Vitória da Conquista, Escola de Administração / Departamento: Coordenação Acadêmica, Escola de Enfermagem / Departamento: Coordenação Acadêmica, Escola de Medicina Veterinária e Zootecnia / Departamento: Medicina Veterinária Preventiva e Produção Animal e Escola Politécnica / Departamento: Ciência e Tecnologia dos Materiais",
@@ -20035,7 +20050,8 @@ window.CONCURSOS = [
         "data": {
           "tipo": "periodo",
           "valor": "2026-09-21",
-          "fim": "2027-01-11"
+          "fim": "2027-01-11",
+          "nota": "Datas por área: geral: 21/09 a 11/01; 03 (Contabilidade): 26/10"
         },
         "detalhe": {}
       },
@@ -20046,7 +20062,8 @@ window.CONCURSOS = [
         "data": {
           "tipo": "periodo",
           "valor": "2026-09-21",
-          "fim": "2027-01-11"
+          "fim": "2027-01-11",
+          "nota": "Datas por área: geral: 21/09 a 11/01; 03 (Contabilidade): 04/11 a 05/11"
         },
         "detalhe": {
           "duracao": "50 minutos, com tolerância de 5 minutos para mais ou para menos",
@@ -20063,7 +20080,8 @@ window.CONCURSOS = [
         "data": {
           "tipo": "periodo",
           "valor": "2026-09-21",
-          "fim": "2027-01-11"
+          "fim": "2027-01-11",
+          "nota": "Datas por área: geral: 21/09 a 11/01; 03 (Contabilidade): 09/11 a 10/11"
         },
         "detalhe": {}
       },
@@ -20074,7 +20092,18 @@ window.CONCURSOS = [
         "data": {
           "tipo": "periodo",
           "valor": "2026-09-21",
-          "fim": "2027-01-11"
+          "fim": "2027-01-11",
+          "nota": "Datas por área: geral: 21/09 a 11/01; 03 (Contabilidade): 11/11"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Resultado final",
+        "tipo": "resultado",
+        "carater": "",
+        "data": {
+          "tipo": "exata",
+          "valor": "2026-11-16"
         },
         "detalhe": {}
       }
@@ -33429,9 +33458,10 @@ window.CONCURSOS = [
         "tipo": "didatica",
         "carater": "Eliminatória e classificatória",
         "data": {
-          "tipo": "exata",
-          "valor": "2026-11-23",
-          "nota": "Datas por área: 04 (Multidisciplinar/Ensino/ Ensino de Ciências…): 23/11; demais áreas: sem data (O cronograma de cada etapa do certame será publicado e atualizado na página do concurso)"
+          "tipo": "periodo",
+          "valor": "2026-11-17",
+          "fim": "2026-11-23",
+          "nota": "Datas por área: 04 (Multidisciplinar/Ensino/ Ensino de Ciências…): 23/11; 03 (Ciências Exatas e da Terra/ Matemática): 17/11; demais áreas: sem data (O cronograma de cada etapa do certame será publicado e atualizado na página do concurso)"
         },
         "detalhe": {
           "arguicao": "Facultativa, de até 15 minutos após a aula",
@@ -41417,7 +41447,7 @@ window.CONCURSOS = [
     "inscricao": {
       "inicio": "2026-09-26",
       "fim": "2026-10-11",
-      "situacao": "aberta",
+      "situacao": "encerrada",
       "taxa": "R$ 80,00 (20 horas), R$ 180,00 (40 horas com mestrado) e R$ 330,00 (40 horas com doutorado). Pagamento até 12/10"
     },
     "etapas": [
@@ -41769,7 +41799,7 @@ window.CONCURSOS = [
     "instituicao": "Universidade Federal do Rio Grande do Norte",
     "nivel": "EBTT",
     "uf": "RN",
-    "numero_edital": "Edital nº 109/2026-PROGESP, publicado em 22/09/2026, com 3 documentos de alteração publicados depois",
+    "numero_edital": "Edital nº 109/2026-PROGESP, publicado em 22/09/2026, com 4 documentos de alteração publicados depois",
     "vagas": "9 vagas, uma por área",
     "areas": "9 áreas, entre elas Computação Cognitiva e Inteligência Artificial Responsável, Inteligência Computacional, Inovação Tecnológica em Inteligência Artificial, Geografia e Matemática",
     "campi": "Natal-RN, Instituto Metrópole Digital - Campus de Natal/RN, Escola Agrícola de Jundiaí - Campus de Macaíba/RN, Escola de Música - Campus de Natal/RN e Escola de Saúde - Campus de Natal/RN",
@@ -42083,10 +42113,10 @@ window.CONCURSOS = [
     "instituicao": "Instituto Federal de Educação, Ciência e Tecnologia de Minas Gerais",
     "nivel": "EBTT",
     "uf": "MG",
-    "numero_edital": "Edital nº 1077/2026",
+    "numero_edital": "Edital nº 1077/2026, com 3 documentos de alteração publicados depois",
     "vagas": "33 vagas",
-    "areas": "19 áreas, entre elas Ciências Biológicas, Educação Física, Enfermagem, Engenharia de Controle e Automação - Automação Industrial e Engenharia de Controle e Automação - Controle de sistemas",
-    "campi": "Ibirité, Sabará, Piumhi e Betim",
+    "areas": "23 áreas, entre elas Ciências Biológicas, Educação Física, Enfermagem, Engenharia de Controle e Automação - Automação Industrial e Engenharia de Controle e Automação - Controle de sistemas",
+    "campi": "Ibirité e Bom Despacho, Sabará, Piumhi e Betim",
     "titulacao": "Graduação",
     "regime": "40h semanais Dedicação Exclusiva",
     "remuneracao": "R$ 6.397,19 de vencimento básico em 40h semanais Dedicação Exclusiva, chegando a R$ 14.945,96 com a maior titulação",
@@ -42362,7 +42392,7 @@ window.CONCURSOS = [
     "inscricao": {
       "inicio": "2026-10-12",
       "fim": "2026-10-25",
-      "situacao": "abre_em_breve",
+      "situacao": "aberta",
       "taxa": "R$ 350,00"
     },
     "etapas": [
@@ -42600,7 +42630,7 @@ window.CONCURSOS = [
     "inscricao": {
       "inicio": "2026-09-11",
       "fim": "2026-10-11",
-      "situacao": "aberta",
+      "situacao": "encerrada",
       "taxa": "R$ 120,75. Inscrição pelo sistema GPS da UFV"
     },
     "etapas": [
@@ -42689,10 +42719,10 @@ window.CONCURSOS = [
     "banca": "Comissão própria da UFV",
     "link_oficial": "https://www.ufv.br/soc",
     "inscricao": {
-      "inicio": "2026-09-28",
-      "fim": "2026-11-12",
       "situacao": "aberta",
-      "taxa": "R$ 120,75. Inscrição pelo sistema GPS da UFV"
+      "taxa": "R$ 120,75. Inscrição pelo sistema GPS da UFV",
+      "inicio": "2026-09-28",
+      "fim": "2026-11-12"
     },
     "etapas": [
       {
@@ -42860,6 +42890,10 @@ window.CONCURSOS = [
         "detalhe": {}
       }
     ],
+    "periodo_provas": {
+      "inicio": "2027-01-25",
+      "fim": "2027-01-29"
+    },
     "formacoes_status": "nao_extraido",
     "familias": [],
     "formacoes": [],
@@ -42868,10 +42902,6 @@ window.CONCURSOS = [
     "observacao": "Três vagas de doutorado na UNILA, em Foz do Iguaçu: Anatomia humana, Farmacologia clínica e Saúde da família. Inscrição de 28/09 a 27/10/2026, com as provas marcadas para a semana de 25 a 29/01/2027. O detalhe que muda o preparo é o ritmo: a escrita é na segunda de manhã, o ponto da aula é sorteado logo depois dela, sem repetir o ponto da escrita, e a didática vem na terça à tarde ou na quarta de manhã. A aula tem 45 minutos, em sessão fechada, com plano entregue à banca antes de começar, e as provas podem ser feitas em português ou espanhol.",
     "detalhamento": "completo",
     "avisos_edital": [],
-    "periodo_provas": {
-      "inicio": "2027-01-25",
-      "fim": "2027-01-29"
-    },
     "fonte_dados": {
       "origem": "extracao_v2",
       "extracoes": [
@@ -43055,6 +43085,190 @@ window.CONCURSOS = [
         "usp-iau-03-2026"
       ],
       "extraido_em": "2026-10-11",
+      "em_conferencia": true
+    }
+  },
+  {
+    "id": "uerj-244-2026",
+    "sigla": "UERJ",
+    "instituicao": "Universidade do Estado do Rio de Janeiro",
+    "nivel": "Magistério Superior",
+    "uf": null,
+    "numero_edital": "",
+    "vagas": "1 vaga",
+    "areas": "Ciência de Alimentos (Bromatologia)",
+    "campi": "Centro Biomédico; Instituto de Nutrição; Departamento de Nutrição Básica e Experimental",
+    "titulacao": "Doutorado",
+    "regime": "CH Semanal 40",
+    "remuneracao": "R$ 6.581,01 de vencimento básico em CH Semanal 40",
+    "banca": "Comissão própria da UERJ",
+    "link_oficial": "https://prossim.uerj.br/",
+    "inscricao": {
+      "inicio": "2026-09-22",
+      "fim": "2026-10-23",
+      "situacao": "aberta",
+      "taxa": "R$ 347,54"
+    },
+    "etapas": [
+      {
+        "nome": "PROVA ESCRITA",
+        "tipo": "discursiva",
+        "carater": "Eliminatória",
+        "data": {
+          "tipo": "exata",
+          "valor": "2026-11-23"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "PROVA TEÓRICO-PRÁTICA",
+        "tipo": "outra",
+        "carater": "Eliminatória",
+        "data": {
+          "tipo": "exata",
+          "valor": "2026-12-01"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "PROVA DE AULA",
+        "tipo": "didatica",
+        "carater": "Eliminatória",
+        "data": {
+          "tipo": "exata",
+          "valor": "2026-11-26"
+        },
+        "detalhe": {
+          "sorteio": "Tema sorteado com 24 horas de antecedência",
+          "nota_minima": "8 em 10"
+        }
+      },
+      {
+        "nome": "JULGAMENTO DE TÍTULOS E TRABALHOS",
+        "tipo": "titulos",
+        "carater": "",
+        "data": {
+          "tipo": "exata",
+          "valor": "2026-11-27"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Resultado final",
+        "tipo": "resultado",
+        "carater": "",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "A divulgação pela Comissão Examinadora do Resultado Final do Concurso ocorrerá em até 07 dias úteis, no Sistema PROSSIM."
+        },
+        "detalhe": {}
+      }
+    ],
+    "periodo_provas": {
+      "inicio": "2026-11-23",
+      "fim": "2026-11-26"
+    },
+    "formacoes_status": "nao_extraido",
+    "familias": [],
+    "formacoes": [],
+    "familias_pos": [],
+    "areas_formacoes": [],
+    "observacao": "",
+    "detalhamento": "completo",
+    "avisos_edital": [],
+    "fonte_dados": {
+      "origem": "extracao_v2",
+      "extracoes": [
+        "uerj-244-2026"
+      ],
+      "extraido_em": "2026-10-12",
+      "em_conferencia": true
+    }
+  },
+  {
+    "id": "uerj-255-2026",
+    "sigla": "UERJ",
+    "instituicao": "Universidade do Estado do Rio de Janeiro",
+    "nivel": "Magistério Superior",
+    "uf": null,
+    "numero_edital": "",
+    "vagas": "1 vaga",
+    "areas": "Tratamento e Prevenção Psicológica (70710007) / Intervenção Terapêutica: Psicopatologia, Saúde Mental Coletiva e Políticas Públicas (70710015)",
+    "campi": "Rio de Janeiro e Centro de Educação e Humanidades; Instituto de Psicologia; Departamento de Psicologia Clínica",
+    "titulacao": "Doutorado",
+    "regime": "CH Semanal 40",
+    "remuneracao": "R$ 6.950,85 de vencimento básico em CH Semanal 40",
+    "banca": "Comissão própria da UERJ",
+    "link_oficial": "https://prossim.uerj.br/",
+    "inscricao": {
+      "inicio": "2026-09-21",
+      "fim": "2026-10-20",
+      "situacao": "aberta",
+      "taxa": "R$ 347,54"
+    },
+    "etapas": [
+      {
+        "nome": "PROVA ESCRITA",
+        "tipo": "discursiva",
+        "carater": "Eliminatória",
+        "data": {
+          "tipo": "exata",
+          "valor": "2026-11-30"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "PROVA DE AULA",
+        "tipo": "didatica",
+        "carater": "Eliminatória",
+        "data": {
+          "tipo": "exata",
+          "valor": "2026-12-02"
+        },
+        "detalhe": {
+          "sorteio": "Tema sorteado com 24 horas de antecedência",
+          "nota_minima": "8 em 10"
+        }
+      },
+      {
+        "nome": "JULGAMENTO DE TÍTULOS E TRABALHOS",
+        "tipo": "titulos",
+        "carater": "",
+        "data": {
+          "tipo": "exata",
+          "valor": "2026-12-03"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Resultado final",
+        "tipo": "resultado",
+        "carater": "",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "em até 07 dias úteis (o edital não diz a partir de quê)"
+        },
+        "detalhe": {}
+      }
+    ],
+    "periodo_provas": {
+      "inicio": "2026-11-30",
+      "fim": "2026-12-02"
+    },
+    "formacoes_status": "nao_extraido",
+    "familias": [],
+    "formacoes": [],
+    "familias_pos": [],
+    "areas_formacoes": [],
+    "observacao": "",
+    "detalhamento": "completo",
+    "avisos_edital": [],
+    "fonte_dados": {
+      "origem": "extracao_v2",
+      "extracoes": [
+        "uerj-255-2026"
+      ],
+      "extraido_em": "2026-10-12",
       "em_conferencia": true
     }
   }
