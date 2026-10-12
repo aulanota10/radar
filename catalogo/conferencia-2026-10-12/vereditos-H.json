@@ -1,0 +1,458 @@
+[
+ {
+  "n": 3057,
+  "concurso": "unimontes-22-2026",
+  "vaga": "02",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Exige residência ou título em Medicina de Família e Comunidade; o perfil tem residência em Cirurgia Geral."
+ },
+ {
+  "n": 3058,
+  "concurso": "ufscar-004-2026",
+  "vaga": "12",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Ensino é área de avaliação da grande área Multidisciplinar, que o edital aceita; o candidato declarou a área."
+ },
+ {
+  "n": 3059,
+  "concurso": "uncisal-01-2026",
+  "vaga": "25",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Exige residência ou título em Medicina Legal/Forense; o perfil tem residência em Ginecologia e Obstetrícia."
+ },
+ {
+  "n": 3060,
+  "concurso": "ifsuldeminas-188-2026",
+  "vaga": "MUZ-2",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Exige graduação em Zootecnia, Veterinária ou Agronomia; o perfil é Medicina."
+ },
+ {
+  "n": 3061,
+  "concurso": "ufms-137-2026",
+  "vaga": "1199",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Exige graduação em Jornalismo e doutorado; o perfil é Biblioteconomia com mestrado."
+ },
+ {
+  "n": 3062,
+  "concurso": "uema-134-2026",
+  "vaga": "01",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Exige graduação e mestrado em Psicologia e doutorado; o perfil é Pedagogia com mestrado em curso."
+ },
+ {
+  "n": 3063,
+  "concurso": "ufrgs-08-2026",
+  "vaga": "05",
+  "decisao": "depende_da_banca",
+  "veredito": "certo",
+  "explicacao": "Doutorado em Geociências está listado; a tese em estratigrafia sedimentar não é informada, logo depende da banca."
+ },
+ {
+  "n": 3064,
+  "concurso": "ufsj-2026",
+  "vaga": "021",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Graduação em Engenharia Florestal e doutorado em Ciências Florestais, ambos listados."
+ },
+ {
+  "n": 3065,
+  "concurso": "ufscar-004-2026",
+  "vaga": "47",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Exige doutorado; o perfil não tem pós."
+ },
+ {
+  "n": 3066,
+  "concurso": "ufpe-08-2026",
+  "vaga": "09",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Exige doutorado; o perfil tem só mestrado."
+ },
+ {
+  "n": 3067,
+  "concurso": "unimontes-11-2026",
+  "vaga": "03",
+  "decisao": "depende_da_banca",
+  "veredito": "certo",
+  "explicacao": "Mestrado em Ciências Contábeis não é nominalmente Administração, mas Contábeis é subárea de Administração e divide a área de avaliação; enquadramento plausível que depende da banca."
+ },
+ {
+  "n": 3068,
+  "concurso": "ufpe-08-2026",
+  "vaga": "08",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Exige graduação em Gestão da Informação e doutorado; o perfil é tecnólogo em Logística com especialização."
+ },
+ {
+  "n": 3069,
+  "concurso": "ufsm-221-2026",
+  "vaga": "01",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Graduação em Medicina e residência em Ginecologia e Obstetrícia, exatamente o pedido."
+ },
+ {
+  "n": 3070,
+  "concurso": "ufrn-058-2026",
+  "vaga": "268266",
+  "decisao": "depende_da_banca",
+  "veredito": "certo",
+  "explicacao": "Doutorado em Distúrbios da Comunicação Humana é de Fonoaudiologia ou, no mínimo, correlato; a área declarada é combinada, então depende da banca é defensável (no limite de pode_servir)."
+ },
+ {
+  "n": 3071,
+  "concurso": "unimontes-27-2026",
+  "vaga": "01",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Exige doutorado; o perfil tem só mestrado."
+ },
+ {
+  "n": 3072,
+  "concurso": "ufscar-004-2026",
+  "vaga": "36",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Exige doutorado; o perfil tem só mestrado."
+ },
+ {
+  "n": 3073,
+  "concurso": "unimontes-22-2026",
+  "vaga": "01",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Graduação em Medicina e mestrado em Ciências da Saúde, listado."
+ },
+ {
+  "n": 3074,
+  "concurso": "ufpr-276-2026",
+  "vaga": "1.10",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Exige especialização em Saúde do Trabalhador e doutorado em Saúde Coletiva ou afim; o perfil não tem nenhum dos dois."
+ },
+ {
+  "n": 3075,
+  "concurso": "ufba-06-2026",
+  "vaga": "10",
+  "decisao": "depende_da_banca",
+  "veredito": "certo",
+  "explicacao": "Engenharia Mecânica só entra por 'áreas afins' a Engenharia de Produção, nos dois níveis; depende da banca."
+ },
+ {
+  "n": 3076,
+  "concurso": "unespar-023-2026",
+  "vaga": "1382",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Doutorado em Bioquímica (Ciências Biológicas II) está sem dúvida na área Ciências Biológicas, aceita pelo edital."
+ },
+ {
+  "n": 3077,
+  "concurso": "unimontes-14-2026",
+  "vaga": "07",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Exige doutorado; o perfil tem só mestrado."
+ },
+ {
+  "n": 3078,
+  "concurso": "ufrpe-21-2026",
+  "vaga": "04",
+  "decisao": "pode_servir",
+  "veredito": "nivel_trocado",
+  "explicacao": "O edital exige tese defendida na área do concurso (Engenharia de Água e Solo) e o perfil não informa a tese; deveria ser depende_da_banca, não pode_servir."
+ },
+ {
+  "n": 3079,
+  "concurso": "ufpel-028-2026",
+  "vaga": "11",
+  "decisao": "nao_serve",
+  "veredito": "errado_deixaria_de_avisar",
+  "explicacao": "Doutorado em Sociologia é plausivelmente aceito como 'Doutorado em Ciências Sociais', que o edital lista; deveria ser ao menos depende_da_banca."
+ },
+ {
+  "n": 3080,
+  "concurso": "ufpr-276-2026",
+  "vaga": "1.24",
+  "decisao": "depende_da_banca",
+  "veredito": "certo",
+  "explicacao": "Programa em Geociências relacionado a Mineralogia, tese não informada; depende da banca."
+ },
+ {
+  "n": 3081,
+  "concurso": "ufsm-198-2026",
+  "vaga": "05",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Exige graduação em Meteorologia ou Física; o perfil é Geologia."
+ },
+ {
+  "n": 3082,
+  "concurso": "ufersa-030-2026",
+  "vaga": "18",
+  "decisao": "depende_da_banca",
+  "veredito": "errado_avisaria_quem_nao_pode",
+  "explicacao": "Doutorado em Tocoginecologia não tem afinidade razoável com Neurociências, Psicobiologia ou Neuropsicologia; o 'áreas afins' não deveria abrir a vaga para qualquer doutorado (caso no limite)."
+ },
+ {
+  "n": 3083,
+  "concurso": "unespar-023-2026",
+  "vaga": "1406",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Exige graduação em Ciências Contábeis; o perfil é Ciências Econômicas."
+ },
+ {
+  "n": 3084,
+  "concurso": "ufscar-004-2026",
+  "vaga": "06",
+  "decisao": "pode_servir",
+  "veredito": "nivel_trocado",
+  "explicacao": "'Doutor em Engenharia' com doutorado em Engenharia Agrícola, que o próprio candidato declarou em Ciências Agrárias I: o enquadramento como engenharia é plausível mas não certo; deveria ser depende_da_banca."
+ },
+ {
+  "n": 3085,
+  "concurso": "unimontes-27-2026",
+  "vaga": "12",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Graduação e mestrado em Artes Visuais, ambos listados."
+ },
+ {
+  "n": 3086,
+  "concurso": "ufvjm-101-2026",
+  "vaga": "101.12",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Ensino pertence à grande área Multidisciplinar, aceita pelo edital."
+ },
+ {
+  "n": 3087,
+  "concurso": "unespar-023-2026",
+  "vaga": "1381",
+  "decisao": "depende_da_banca",
+  "veredito": "certo",
+  "explicacao": "Biomedicina listada; doutorado em Bioquímica pode cobrir Biologia Molecular ou Biociências conforme a tese, que não é informada."
+ },
+ {
+  "n": 3088,
+  "concurso": "ufvjm-101-2026",
+  "vaga": "101.17",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Exige graduação em Geografia; o perfil é Engenharia Florestal."
+ },
+ {
+  "n": 3089,
+  "concurso": "uema-130-2026",
+  "vaga": "02",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Exige doutorado; o perfil tem só mestrado."
+ },
+ {
+  "n": 3090,
+  "concurso": "uneb-085-2026",
+  "vaga": "001",
+  "decisao": "depende_da_banca",
+  "veredito": "nivel_trocado",
+  "explicacao": "Medicina, residência em GO e doutorado em Tocoginecologia na área declarada Medicina II cumprem 'Doutorado em Medicina' sem precisar de áreas afins; deveria ser pode_servir."
+ },
+ {
+  "n": 3091,
+  "concurso": "unifesp-371-2026",
+  "vaga": "04",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Exige graduação em Farmácia; o perfil é Biomedicina."
+ },
+ {
+  "n": 3092,
+  "concurso": "ifsc-01-2026",
+  "vaga": "05",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Exige licenciatura em Artes; o perfil é Pedagogia."
+ },
+ {
+  "n": 3093,
+  "concurso": "uema-139-2026",
+  "vaga": "05",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Graduação e doutorado em Engenharia Mecânica, ambos listados."
+ },
+ {
+  "n": 3094,
+  "concurso": "ufrpe-21-2026",
+  "vaga": "02",
+  "decisao": "depende_da_banca",
+  "veredito": "certo",
+  "explicacao": "Licenciatura cumpre; doutorado em Ensino de Ciências é plausivelmente aceito como Educação, então depende da banca está certo, embora o motivo 'áreas afins' não esteja no texto do edital."
+ },
+ {
+  "n": 3095,
+  "concurso": "unimontes-14-2026",
+  "vaga": "06",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Bacharelado e mestrado em Estatística, ambos listados."
+ },
+ {
+  "n": 3096,
+  "concurso": "unimontes-16-2026",
+  "vaga": "02",
+  "decisao": "depende_da_banca",
+  "veredito": "certo",
+  "explicacao": "Pedagogia e mestrado em Educação, mas o mestrado está em curso; depende da banca."
+ },
+ {
+  "n": 3097,
+  "concurso": "ufscar-004-2026",
+  "vaga": "05",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "O título é em Ensino de Ciências, não 'Doutor em Ciências', Química ou Físico-Química."
+ },
+ {
+  "n": 3098,
+  "concurso": "ufms-137-2026",
+  "vaga": "1180",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Engenharia Florestal listada e doutorado na área de avaliação Ciências Agrárias I, declarada."
+ },
+ {
+  "n": 3099,
+  "concurso": "ufpe-08-2026",
+  "vaga": "11",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Exige graduação em Música e doutorado; o perfil é Artes Visuais com mestrado."
+ },
+ {
+  "n": 3100,
+  "concurso": "ufc-48-2026",
+  "vaga": "03",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Graduação em Economia é aceita, mas o doutorado em Economia não está na área do concurso (Estatística e Matemática Aplicada); caso no limite por causa da econometria."
+ },
+ {
+  "n": 3101,
+  "concurso": "ufu-118-2026",
+  "vaga": "7",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Geociências pertence à grande área Ciências Exatas e da Terra, aceita."
+ },
+ {
+  "n": 3102,
+  "concurso": "unespar-023-2026",
+  "vaga": "1385",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Medicina e mestrado em Ciências da Saúde, dentro das áreas das Ciências da Saúde."
+ },
+ {
+  "n": 3103,
+  "concurso": "ufpe-08-2026",
+  "vaga": "07",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Licenciatura em Ciências Sociais e doutorado em Sociologia, ambos listados."
+ },
+ {
+  "n": 3104,
+  "concurso": "ufpel-028-2026",
+  "vaga": "12",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Doutorado em Engenharia Agrícola não está entre os listados (Economia, Desenvolvimento, Agronegócios)."
+ },
+ {
+  "n": 3105,
+  "concurso": "unimontes-27-2026",
+  "vaga": "03",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Graduação em Artes Visuais (área Artes) e mestrado na área Artes declarada."
+ },
+ {
+  "n": 3106,
+  "concurso": "unimontes-02-2026",
+  "vaga": "03",
+  "decisao": "depende_da_banca",
+  "veredito": "certo",
+  "explicacao": "O candidato cumpre nas duas leituras, mas pela convenção o requisito marcado como ambíguo é rebaixado de propósito para depende_da_banca."
+ },
+ {
+  "n": 3107,
+  "concurso": "uesc-050-2026",
+  "vaga": "03",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Médico com residência em Cirurgia Geral, exatamente o pedido."
+ },
+ {
+  "n": 3108,
+  "concurso": "unimontes-17-2026",
+  "vaga": "10",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Letras e mestrado em Estudos Linguísticos, ambos listados; Libras não é formação."
+ },
+ {
+  "n": 3109,
+  "concurso": "ufmg-1633-2026",
+  "vaga": "01",
+  "decisao": "depende_da_banca",
+  "veredito": "certo",
+  "explicacao": "Mestrado em Ciência da Informação, na área de avaliação que inclui Comunicação, entra por Comunicação ou áreas correlatas; depende da banca."
+ },
+ {
+  "n": 3110,
+  "concurso": "unifesp-409-2026",
+  "vaga": "23",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Fonoaudiologia e doutorado na área de avaliação 21, ambos na grande área Ciências da Saúde, como pedido."
+ },
+ {
+  "n": 3111,
+  "concurso": "ufscar-004-2026",
+  "vaga": "43",
+  "decisao": "pode_servir",
+  "veredito": "certo",
+  "explicacao": "Doutorado em Sociologia, listado."
+ },
+ {
+  "n": 3112,
+  "concurso": "ufc-48-2026",
+  "vaga": "28",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Exige graduação em Computação ou afim; o perfil é Fonoaudiologia."
+ },
+ {
+  "n": 3113,
+  "concurso": "ufc-48-2026",
+  "vaga": "03",
+  "decisao": "nao_serve",
+  "veredito": "certo",
+  "explicacao": "Graduação em Engenharia Mecânica é aceita, mas o doutorado em Engenharia Mecânica não está na área do concurso (Estatística e Matemática Aplicada)."
+ }
+]

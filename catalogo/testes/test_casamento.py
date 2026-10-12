@@ -213,6 +213,35 @@ class Pos(unittest.TestCase):
         self.assertEqual(cat.nome_canonico("Licenciatura em Ciências", "graduacao"), "Ciências")
 
 
+class Rodada4(unittest.TestCase):
+    P = [("Medicina", None)]
+
+    def test_medicina_pela_area_declarada(self):
+        v = vaga(([grad("Medicina")], [exig(["doutorado"], "Medicina", afins=True)]))
+        p = perfil(self.P, [pos("doutorado", "Tocoginecologia", area_capes="Medicina II")])
+        self.assertEqual(nivel(v, p), "pode_servir")
+
+    def test_nome_amplo_na_mesma_area_declarada_depende(self):
+        v = vaga(("qualquer", [exig(["doutorado"], "Ciências Sociais")]))
+        self.assertEqual(nivel(v, perfil(self.P, [pos("doutorado", "Sociologia", area_capes="Sociologia")])), "depende_da_banca")
+        v = vaga(("qualquer", [exig(["especializacao"], "Letras")]))
+        self.assertEqual(nivel(v, perfil(self.P, [pos("mestrado", "Linguística", area_capes="Linguística e Literatura")])), "nao_serve")
+
+    def test_nome_generico_com_area_declarada_fora(self):
+        v = vaga(("qualquer", [exig(["doutorado"], area("Engenharia", "grande_area_capes"))]))
+        self.assertEqual(nivel(v, perfil(self.P, [pos("doutorado", "Engenharia Agrícola", area_capes="Ciências Agrárias I")])), "depende_da_banca")
+        self.assertEqual(nivel(v, perfil(self.P, [pos("doutorado", "Engenharia Agrícola", area_capes="Engenharias I")])), "pode_servir")
+
+    def test_tese_na_area_do_concurso(self):
+        e = exig(["doutorado"], "Engenharia Agrícola", tese=True)
+        base = {"requisito_interpretado": {"caminhos": [{"graduacao": [], "graduacao_qualquer": True, "graduacao_afins": False,
+                                                        "exigencias": [e], "outras_exigencias": []}], "ambiguo": False, "nota": None}}
+        q = pos("doutorado", "Engenharia Agrícola", area_capes="Ciências Agrárias I")
+        r = lambda area_vaga: C.NOME_NIVEL[C.avaliar_vaga(cat, dict(base, area_conhecimento=area_vaga), perfil(self.P, [q]))[0].nivel]
+        self.assertEqual(r("Engenharia de Água e Solo"), "depende_da_banca")
+        self.assertEqual(r("Engenharia Agrícola"), "pode_servir")
+
+
 class Vaga(unittest.TestCase):
     def test_ambiguo_rebaixa(self):
         v = vaga(([grad("Química")], []), ambiguo=True, nota="duas leituras")

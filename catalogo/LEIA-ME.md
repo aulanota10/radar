@@ -40,7 +40,7 @@ Esses dois passos ainda não estão na rotina agendada da cadeia. Entram nela qu
 
 ## Conferências
 
-A primeira, de 11/10/2026, conferiu 89 decisões de seis perfis e está em `conferencia-2026-10-11/`. A segunda, de 11 e 12/10/2026, usou 28 perfis e três rodadas de amostras novas, num total de 508 decisões julgadas por agentes independentes contra o texto do requisito. Na terceira rodada, a primeira a julgar o programa já corrigido numa amostra inédita, 156 de 159 decisões estavam certas (98%), com um único erro que avisaria quem não pode concorrer, corrigido em seguida. O relatório, as amostras e os vereditos estão em `conferencia-2026-10-12/`, junto com os três casos que dependem de correção no extrator.
+A primeira, de 11/10/2026, conferiu 89 decisões de seis perfis e está em `conferencia-2026-10-11/`. A segunda, de 11 e 12/10/2026, usou 48 perfis e quatro rodadas de amostras novas, num total de 621 decisões julgadas por agentes independentes contra o texto do requisito. Nas rodadas 3 e 4, as que julgaram o programa já corrigido em amostras inéditas, 261 de 272 decisões estavam certas na hora (96%), com um único erro de direção, num caso de afinidade que fica no resumo semanal. O relatório, as amostras e os vereditos estão em `conferencia-2026-10-12/`, junto com os três casos que dependem de correção no extrator.
 
 ## Histórico
 

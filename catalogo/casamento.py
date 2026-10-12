@@ -298,8 +298,21 @@ def comparar_area(cat, e, p):
         aproximar = academico and not especialidade
         if aproximar and len(rs) == antes and cat.comeca_com(prog, nome, "pos"):
             generico = not fn.get("area_avaliacao")
-            rs.append(R(PODE if generico else DEPENDE,
-                        f"o edital pede {nome}, e seu programa ({prog}) é {'uma delas' if generico else 'um recorte dessa área'}"))
+            ga_nome = cat.grande_area_de(nome)
+            fora = generico and dec and ga_nome and cat.areas[dec]["grande_area"] != ga_nome
+            if fora:
+                rs.append(R(DEPENDE, f"o edital pede {nome}, e seu programa ({prog}) tem esse nome, mas você o declarou na área {dec}, fora de {ga_nome}"))
+            else:
+                rs.append(R(PODE if generico else DEPENDE,
+                            f"o edital pede {nome}, e seu programa ({prog}) é {'uma delas' if generico else 'um recorte dessa área'}"))
+        if aproximar and len(rs) == antes and dec and fn.get("tipo") == "curso_graduacao" \
+                and set(e.get("niveis") or []) & {"mestrado", "doutorado"}:
+            # nome amplo de disciplina ("Letras", "Ciências Sociais", "Medicina") e o
+            # candidato declarou a área de avaliação em que esse nome se enquadra
+            if chave(nome) == "medicina" and dec in ("Medicina I", "Medicina II", "Medicina III"):
+                rs.append(R(PODE, f"o edital pede Medicina, e seu programa está na área {dec}, como você declarou"))
+            elif fn.get("area_avaliacao") == dec:
+                rs.append(R(DEPENDE, f"o edital pede {nome}; seu programa ({prog}) está na mesma área de avaliação ({dec}); confira se a banca aceita"))
         if aproximar and len(rs) == antes and cat.e_subarea_de(prog, nome):
             rs.append(R(DEPENDE, f"pela tabela do CNPq, {prog} é subárea de {nome}"))
         if aproximar and len(rs) == antes and cat.e_subarea_de(nome, prog):
@@ -336,6 +349,11 @@ def comparar_exigencia(cat, e, p, area_vaga=None):
         return R(NAO)
     ra = comparar_area(cat, e, p)
     r = junta(rn, ra)
+    if r.nivel > NAO and e.get("tese_na_area") and not e.get("nota") and area_vaga:
+        # tese "na área do concurso": basta se a área do concurso é a do próprio título
+        tema, prog = chave(area_vaga), chave(p.get("programa") or "")
+        if r.nivel == PODE and prog and not (tema == prog or tema.startswith(prog + " ") or prog.startswith(tema + " ")):
+            r = R(DEPENDE, *r.motivos, f"o edital exige tese na área do concurso ({area_vaga}); confira o tema da sua")
     if r.nivel > NAO and e.get("tese_na_area") and e.get("nota"):
         if not e.get("areas") and area_vaga:
             # qualquer doutorado, desde que com tese num tema: o tema tem de ter relação com o programa
