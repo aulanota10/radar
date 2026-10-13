@@ -166,9 +166,53 @@ class Agendados(unittest.TestCase):
         self.assertEqual(len(t), 1)
         self.assertNotIn("último dia", t[0])
 
-    def test_periodo_provavel_nao_agenda(self):  # UFSM 221
+    def test_periodo_da_prova_avisa_o_periodo_sem_data_firme(self):  # UFSM 221; antes ficava sem aviso
         t = rodar([{"tipo_evento": "prova", "descricao_literal": "Provas",
                     "data": jan("2026-11-08", "2027-02-21")}], dt.date(2026, 10, 9), dt.date(2026, 10, 8))
+        self.assertEqual(len(t), 1)  # 30 dias antes do início do período
+        self.assertTrue(t[0].startswith("Período provável de 08/11/2026"), t[0])  # abre frase: maiúscula
+        self.assertIn("faltam 30 dias para o início do período", t[0])
+        self.assertIn("não a data da sua prova", t[0])
+        self.assertNotIn("é hoje", t[0])
+
+    DIDATICA_IFMG = {"tipo_evento": "prova", "etapa_ref": "didatica",
+                     "descricao_literal": "(período para) Realização da Prova de Desempenho Didático",
+                     "data": jan("2027-04-19", "2027-04-29")}  # IFMG 1077: a candidata de Letras nunca era avisada
+
+    def test_periodo_da_didatica_avisa_a_30_15_e_7_dias_do_inicio(self):  # IFMG 1077
+        for hoje, falta in ((dt.date(2027, 3, 20), 30), (dt.date(2027, 4, 4), 15), (dt.date(2027, 4, 12), 7)):
+            t = rodar([self.DIDATICA_IFMG], hoje, hoje - dt.timedelta(days=1))
+            self.assertEqual(len(t), 1, hoje)
+            self.assertIn(f"faltam {falta} dias para o início do período", t[0])
+            self.assertIn("Realização da Prova de Desempenho Didático", t[0])
+            self.assertNotIn("(período para)", t[0])  # o texto da data já diz que é período
+
+    def test_periodo_da_prova_nao_avisa_nos_outros_dias(self):  # sem o aviso de 2 dias, que valeria para data marcada
+        for hoje in (dt.date(2027, 3, 21), dt.date(2027, 4, 17), dt.date(2027, 4, 19), dt.date(2027, 4, 22)):
+            self.assertEqual(rodar([self.DIDATICA_IFMG], hoje, hoje - dt.timedelta(days=1)), [], hoje)
+
+    def test_periodo_da_prova_nao_leva_sorteio_sem_data(self):  # IFMG 1077: o sorteio é junto da prova objetiva, em janeiro
+        t = rodar([self.DIDATICA_IFMG,
+                   {"tipo_evento": "sorteio_tema", "etapa_ref": "didatica",
+                    "descricao_literal": "O sorteio do tema para a Prova de Desempenho Didático ocorrerá na mesma data de aplicação da Prova Objetiva",
+                    "data": {"forma": "condicionada", "condicao_literal": "na mesma data de aplicação da Prova Objetiva"}}],
+                  dt.date(2027, 4, 12), dt.date(2027, 4, 11))
+        self.assertEqual(len(t), 1)
+        self.assertNotIn("Prova Objetiva", t[0])
+
+    def test_periodo_nao_avisa_quando_a_mesma_etapa_tem_dia_marcado(self):  # "só o período" seria falso
+        data = {"tipo_evento": "prova", "etapa_ref": "didatica", "descricao_literal": "Prova didática",
+                "data": {"forma": "fixa", "data": "2027-04-22", "hora": "08:00"}}
+        t = rodar([self.DIDATICA_IFMG, data], dt.date(2027, 4, 12), dt.date(2027, 4, 11))  # 7 dias do período
+        self.assertFalse(any("período" in x for x in t), t)
+        # etapa diferente não conta: a escrita tem dia, a didática continua só com o período
+        escrita = dict(data, etapa_ref="escrita", descricao_literal="Prova escrita")
+        t = rodar([self.DIDATICA_IFMG, escrita], dt.date(2027, 4, 12), dt.date(2027, 4, 11))
+        self.assertTrue(any("início do período" in x for x in t), t)
+
+    def test_periodo_longo_de_outro_evento_pontual_continua_sem_aviso(self):  # só a prova avisa o período
+        t = rodar([{"tipo_evento": "resultado", "etapa_ref": "didatica", "descricao_literal": "Resultado",
+                    "data": jan("2026-11-08", "2026-12-20")}], dt.date(2026, 11, 6), dt.date(2026, 11, 5))
         self.assertEqual(t, [])
 
 

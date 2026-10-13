@@ -76,11 +76,18 @@ PRAZOS = {"inscricao", "isencao_pedido", "pagamento", "entrega_documento", "recu
 SUBSTITUIVEIS = {"inscricao", "isencao_pedido", "pagamento", "homologacao_inscricoes", "resultado_final", "prova"}
 
 # Tipos de evento que acontecem num dia só. Uma janela longa num deles é "período provável"
-# (UFSM 221: provas "de 08/11/2026 a 21/02/2027"), não a data do evento: não vira alerta agendado.
+# (UFSM 221: provas "de 08/11/2026 a 21/02/2027"), não a data do evento: não vira alerta agendado
+# com data, com uma exceção, a prova. Quando o edital dá só o período da prova (IFMG 1077: didática
+# de 19 a 29/04/2027), o candidato precisa saber que ele começa, e a simulação de 12/10 mostrou a
+# candidata sem nenhum aviso entre a convocação e o resultado. O aviso diz que é o período, e não
+# a data dela, e sai 30, 15 e 7 dias antes do início do período (sem o aviso de 2 dias, que
+# valeria para uma data marcada). Companheiro sem data (sorteio condicionado) não vai junto.
 PONTUAIS = {"prova", "sorteio_tema", "convocacao", "resultado", "resultado_final", "homologacao_inscricoes",
             "homologacao_resultado", "portaria_banca", "recurso_resultado", "isencao_resultado",
             "sorteio_ordem", "sorteio_turma"}
 JANELA_LONGA = 7  # dias
+REGRA_PERIODO = [("ini", [30, 15, 7])]
+AVISO_PERIODO = "O edital informa só o período, e não a data da sua prova: a data de cada candidato é divulgada depois pela instituição."
 
 # documento novo que vale aviso mesmo sem data (tipo da triagem)
 DOC_AVISO = {
@@ -309,6 +316,30 @@ def sombras(eventos):
 def janela_longa(e):
     f, i, j, _ = intervalo(e["data"])
     return f == "janela" and i and j and (j - i).days > JANELA_LONGA and e["tipo_evento"] in PONTUAIS
+
+
+def periodo_da_prova(e):
+    """Prova cujo edital dá só um período longo, e não o dia (IFMG 1077, UFSM 221)."""
+    return e["tipo_evento"] == "prova" and janela_longa(e)
+
+
+def prova_com_dia_marcado(e, eventos):
+    """Outra prova vigente da mesma etapa e do mesmo escopo, com dia marcado: o edital dá a data, e o aviso
+    'só o período' seria falso. Escopo mais estreito já é tratado por sombras()."""
+    for x in eventos:
+        if x is e or x["estado"] != "vigente" or x["tipo_evento"] != "prova" or periodo_da_prova(x) \
+                or x.get("etapa_ref") != e.get("etapa_ref") or x["escopo"] != e["escopo"]:
+            continue
+        f, i, _, _ = intervalo(x["data"])
+        if f in ("fixa", "janela") and i:
+            return True
+    return False
+
+
+def sem_marca_de_periodo(rot):
+    """O literal do cronograma traz '(período para) Realização da Prova...'; o texto da data já diz que é período."""
+    r = re.sub(r"^\(\s*per[íi]odo[^)]*\)\s*", "", rot or "", flags=re.I).strip()
+    return r[0].upper() + r[1:] if r else rot
 
 
 def horario_individual(e):
@@ -620,8 +651,11 @@ def executar(vigia, hoje, anterior):
             presenca = e["tipo_evento"] == "outro" and (f == "fixa" or i == j) and PRESENCA.search(e.get("descricao_literal") or "")
             if presenca:
                 regra = REGRA_PRESENCA
-            if not regra or f not in ("fixa", "janela") or pendentes_leitura or janela_longa(e):
+            periodo = periodo_da_prova(e) and not prova_com_dia_marcado(e, c["eventos"])
+            if not regra or f not in ("fixa", "janela") or pendentes_leitura or (janela_longa(e) and not periodo):
                 continue
+            if periodo:
+                regra = REGRA_PERIODO
             individual = horario_individual(e)
             if individual or (e["tipo_evento"] == "outro" and f == "janela" and not presenca):
                 regra = [("ini" if individual else "fim", [2])]
@@ -642,7 +676,13 @@ def executar(vigia, hoje, anterior):
                         rot = rotulo(e)
                         if e["tipo_evento"] == "inscricao":
                             rot = "abertura das inscrições" if marco == "ini" else "fim das inscrições"
-                        if individual:
+                        if periodo:
+                            quando = texto_data(e["data"], hoje, e["tipo_evento"])
+                            item = {"tipo": "agendado", "data": ref, "periodo": True,
+                                    "texto": f"{quando[0].upper() + quando[1:]}: {sem_marca_de_periodo(rot)} "
+                                             f"(faltam {(ref - hoje).days} dias para o início do período). {AVISO_PERIODO}",
+                                    "fonte": fonte}
+                        elif individual:
                             item = {"tipo": "agendado", "data": ref,
                                     "texto": f"{texto_data(e['data'], hoje, e['tipo_evento'])}, no horário de cada candidato definido pelo sorteio: {rot} ({falta(ref, hoje)})",
                                     "fonte": fonte}
@@ -666,6 +706,8 @@ def executar(vigia, hoje, anterior):
                         for d in dest:
                             avisos[(slug, d)].append(item)
                             for cpn in companheiros(e, c["eventos"], d, hoje):
+                                if periodo and intervalo(cpn["data"])[0] not in ("fixa", "janela"):
+                                    continue  # sorteio sem data não vai com o período: pode já ter ocorrido (IFMG 1077: junto da prova objetiva)
                                 _, ci2, _, ch2 = intervalo(cpn["data"])
                                 quando = f" ({falta(ci2, hoje)})" if ci2 else f" (antes de: {corta(rotulo(e), 70)})"
                                 avisos[(slug, d)].append({"tipo": "agendado", "data": ci2 or ref, "hora": ch2 or "", "antes": not ci2,

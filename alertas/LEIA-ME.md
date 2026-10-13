@@ -35,6 +35,10 @@ A amostra estratificada de 300 datas da agenda inteira (`conferencias/amostra-20
 
 Três rodadas de simulação das filas de 13/10 a 02/11, com 150 linhas inéditas conferidas em cada uma, deram 20, 6 e 2 linhas erradas, e os dois erros da última foram corrigidos (`conferencias/simulacao-2026-10-12*`, relatório `SIMULACAO-2026-10-12.md`). Com isso o Samuel liberou os alertas de datas para um grupo menor de alunos, com envio automático pela API oficial do WhatsApp assim que o canal estiver pronto. A conferência diária continua, como vigilância de qualidade e não mais como critério de passagem.
 
+## Período da prova
+
+A simulação de uma candidata de Letras no IFMG 1077/2026 (`conferencias/simulacao-ifmg-1077-letras-2026-10-12.md`) mostrou que o edital dava só o período da prova de desempenho didático, de 19 a 29/04/2027, e que a candidata não recebia nenhum aviso entre a convocação e o resultado, porque janela longa de evento pontual era silenciada como "período provável". A prova passou a ser a exceção: quando o edital dá só um período com mais de sete dias, o leitor avisa 30, 15 e 7 dias antes do início do período, diz que é o período e não a data da candidata, e não leva junto sorteio sem data. Não avisa se a mesma etapa tem outra prova com dia marcado para o mesmo escopo, porque aí o edital dá a data. Resultado, convocação e demais eventos pontuais com janela longa continuam sem aviso agendado. Os testes estão em `test_agenda.py`.
+
 ## Modelos da API do WhatsApp
 
 Mensagem que a empresa inicia só sai por modelo aprovado pela Meta, com texto fixo e variáveis que não podem ter quebra de linha, num corpo de até 1.024 caracteres. `modelos.py` guarda os dois modelos (`alerta_datas_concurso` e `alerta_concurso_novo`) e converte a fila do leitor e o resultado do casamento nos parâmetros de cada um. A mensagem de datas vira uma linha corrida; quando não cabe, divide-se em até três partes numeradas, e a última diz quantas datas ficaram de fora e manda ao documento. Sobre as filas de 11 e 12/10, 115 de 154 mensagens couberam em uma, 22 em duas e 17 em três, todas dentro dos limites. `test_modelos.py` roda na rodada diária junto com `test_agenda.py`.
