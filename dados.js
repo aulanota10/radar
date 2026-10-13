@@ -41776,6 +41776,7 @@ window.CONCURSOS = [
       "inicio": "2026-11-30",
       "fim": "2027-02-16"
     },
+    "logo": "ufvjm.png",
     "formacoes_status": "nao_extraido",
     "familias": [],
     "formacoes": [],
@@ -41997,6 +41998,7 @@ window.CONCURSOS = [
         "detalhe": {}
       }
     ],
+    "logo": "unicamp.png",
     "formacoes_status": "nao_extraido",
     "familias": [],
     "formacoes": [],
@@ -42016,6 +42018,7 @@ window.CONCURSOS = [
   },
   {
     "id": "ifsp-183-2026",
+    "logo": "ifsp.png",
     "formacoes_status": "nao_extraido",
     "familias": [],
     "formacoes": [],
@@ -42191,6 +42194,7 @@ window.CONCURSOS = [
       "inicio": "2027-01-24",
       "fim": "2027-04-29"
     },
+    "logo": "ifmg.png",
     "formacoes_status": "nao_extraido",
     "familias": [],
     "formacoes": [],
@@ -42273,6 +42277,7 @@ window.CONCURSOS = [
         "detalhe": {}
       }
     ],
+    "logo": "ufmg.png",
     "formacoes_status": "nao_extraido",
     "familias": [],
     "formacoes": [],
@@ -42357,6 +42362,7 @@ window.CONCURSOS = [
         "detalhe": {}
       }
     ],
+    "logo": "ufmg.png",
     "formacoes_status": "nao_extraido",
     "familias": [],
     "formacoes": [],
@@ -42471,6 +42477,7 @@ window.CONCURSOS = [
       "inicio": "2026-12-08",
       "fim": "2026-12-12"
     },
+    "logo": "ufms.png",
     "formacoes_status": "nao_extraido",
     "familias": [],
     "formacoes": [],
@@ -42595,6 +42602,7 @@ window.CONCURSOS = [
         "detalhe": {}
       }
     ],
+    "logo": "ufpr.png",
     "formacoes_status": "nao_extraido",
     "familias": [],
     "formacoes": [],
@@ -42686,6 +42694,7 @@ window.CONCURSOS = [
       "inicio": "2026-11-09",
       "fim": "2026-11-11"
     },
+    "logo": "ufv.png",
     "formacoes_status": "nao_extraido",
     "familias": [],
     "formacoes": [],
@@ -42789,6 +42798,7 @@ window.CONCURSOS = [
       "inicio": "2026-11-23",
       "fim": "2026-12-02"
     },
+    "logo": "ufv.png",
     "formacoes_status": "nao_extraido",
     "familias": [],
     "formacoes": [],
@@ -42894,6 +42904,7 @@ window.CONCURSOS = [
       "inicio": "2027-01-25",
       "fim": "2027-01-29"
     },
+    "logo": "unila.png",
     "formacoes_status": "nao_extraido",
     "familias": [],
     "formacoes": [],
@@ -42988,6 +42999,7 @@ window.CONCURSOS = [
       "inicio": "2026-11-03",
       "fim": "2026-12-02"
     },
+    "logo": "unilab.png",
     "formacoes_status": "nao_extraido",
     "familias": [],
     "formacoes": [],
@@ -43071,6 +43083,7 @@ window.CONCURSOS = [
         "detalhe": {}
       }
     ],
+    "logo": "usp.png",
     "formacoes_status": "nao_extraido",
     "familias": [],
     "formacoes": [],
@@ -43168,6 +43181,7 @@ window.CONCURSOS = [
       "inicio": "2026-11-23",
       "fim": "2026-11-26"
     },
+    "logo": "uerj.png",
     "formacoes_status": "nao_extraido",
     "familias": [],
     "formacoes": [],
@@ -43255,6 +43269,7 @@ window.CONCURSOS = [
       "inicio": "2026-11-30",
       "fim": "2026-12-02"
     },
+    "logo": "uerj.png",
     "formacoes_status": "nao_extraido",
     "familias": [],
     "formacoes": [],
