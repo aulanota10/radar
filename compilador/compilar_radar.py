@@ -15,7 +15,8 @@ Regras do compilador
   3. O que a extração não cobre é preservado do dados.js atual: logo, selo,
      levantamento de formações (familias, formacoes, areas_formacoes...) e a
      observação. Concurso do Radar que ainda não tem extração passa inteiro,
-     sem mudança.
+     sem mudança. Concurso novo sem logo herda o da mesma sigla (dados.js
+     publicado ou compilador/logos.json).
   4. Concurso que tem extração mas ainda não está no Radar entra como novo.
 
 Uso
@@ -558,6 +559,11 @@ def situacao_inscricao(ini, fim, hoje):
     return "aberta"
 
 
+# sigla -> arquivo em radar/logos/, montado em main() a partir do dados.js publicado
+# e de compilador/logos.json. Concurso novo da mesma instituição herda o logo.
+LOGOS_POR_SIGLA = {}
+
+
 def compila_grupo(id_radar, exts, atual, hoje, validador=None, conservador=False, liberados=None):
     em_pacote = len(exts) > 1 or (id_radar != exts[0]["_slug"])
     base = exts[0]
@@ -799,6 +805,10 @@ def compila_grupo(id_radar, exts, atual, hoje, validador=None, conservador=False
               "familias_pos", "areas_formacoes", "formacoes_nota", "observacao"):
         if atual and k in atual:
             novo[k] = atual[k]
+    if not novo.get("logo"):
+        logo = LOGOS_POR_SIGLA.get(str(novo.get("sigla") or "").upper())
+        if logo:
+            novo["logo"] = logo
     novo.setdefault("formacoes_status", "nao_extraido")
     novo.setdefault("familias", [])
     novo.setdefault("formacoes", [])
@@ -1107,6 +1117,15 @@ def main():
     liberados = json.load(open(a.liberados, encoding="utf-8")) if a.liberados and os.path.exists(a.liberados) else {}
     por_id = {c["id"]: c for c in atuais}
     grupos = carregar_extracoes(a.extracoes)
+
+    # Logos por sigla: o que já está publicado, completado por compilador/logos.json
+    arq_logos = os.path.join(os.path.dirname(os.path.abspath(__file__)), "logos.json")
+    if os.path.exists(arq_logos):
+        for sig, arq in json.load(open(arq_logos, encoding="utf-8")).items():
+            LOGOS_POR_SIGLA[sig.upper()] = arq
+    for c in atuais:
+        if c.get("logo") and c.get("sigla"):
+            LOGOS_POR_SIGLA.setdefault(str(c["sigla"]).upper(), c["logo"])
 
     saida, rel = [], []
     ordem_ids = [c["id"] for c in atuais] + [g for g in grupos if g not in por_id]
