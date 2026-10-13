@@ -126,6 +126,29 @@ def _frase(itens):
     return " ".join(partes)
 
 
+# Datas que não podem sair de uma mensagem cortada: presença, eliminação, prova, sorteio, entrega e prazo final.
+PRIORIDADE = re.compile(r"obrigat|elimina(?!t[óo]ri)|presen[çc]a|comparec|prova|sorteio|entrega|abertura|instala"
+                        r"|confinamento|último dia|fim das inscrições|até \d", re.I)
+
+
+def _agrupar(itens, cabe):
+    """Divide os itens em grupos que cabem no corpo; item de lista que passa para o grupo seguinte leva o
+    cabeçalho ('... (continuação)')."""
+    grupos, atual, cab_atual = [], [], None
+    for l in itens:
+        eh_cab = not l.startswith("• ")
+        if eh_cab:
+            cab_atual = l
+        teste = _frase(atual + [l])
+        if atual and len(teste) > cabe:
+            grupos.append(atual)
+            atual = [] if eh_cab else [cab_atual + " (continuação)"]
+        atual.append(l)
+    if atual:
+        grupos.append(atual)
+    return grupos
+
+
 def params_datas(texto, concurso, area):
     """Converte uma mensagem da fila de datas em uma ou mais mensagens do modelo DATAS.
 
@@ -141,18 +164,21 @@ def params_datas(texto, concurso, area):
     fixo = len(render(DATAS, base))
     cabe = LIMITE_CORPO - fixo - len("Parte 10 de 10. ")
 
-    grupos, atual, cab_atual = [], [], None
-    for l in itens:
-        eh_cab = not l.startswith("• ")
-        if eh_cab:
-            cab_atual = l
-        teste = _frase(atual + [l])
-        if atual and len(teste) > cabe:
-            grupos.append(atual)
-            atual = [] if eh_cab else [cab_atual + " (continuação)"]
-        atual.append(l)
-    if atual:
-        grupos.append(atual)
+    grupos = _agrupar(itens, cabe)
+
+    # Conferência de 13/10: o que não cabe não pode ser a presença obrigatória ou a prova, cortadas em
+    # favor de um resultado ou de um trâmite. Antes de cortar pelo fim, saem as datas sem prioridade.
+    if len(grupos) > MAX_PARTES:
+        restantes, fora = list(itens), 0
+        for k in range(len(restantes) - 1, -1, -1):
+            l = restantes[k]
+            if l.startswith("• ") and not PRIORIDADE.search(l):
+                restantes.pop(k)
+                fora += 1
+                aviso = f"Há mais {fora} data(s) neste aviso; veja todas no documento."
+                if len(_agrupar(restantes + [aviso], cabe)) <= MAX_PARTES:
+                    grupos = _agrupar(restantes + [aviso], cabe)
+                    break
 
     # cronograma inteiro (UFRGS 09, UFSM 198) não vira sete mensagens: no máximo MAX_PARTES,
     # e a última diz quantas datas ficaram de fora e manda ao documento
@@ -190,12 +216,21 @@ def ler_fila(caminho):
 
 # ------------------------------------------------------------------ concurso novo
 
-def params_concurso_novo(nome_concurso, vagas, inscricao_fim, requisito, link, prazo_varia=False):
+def params_concurso_novo(nome_concurso, vagas, inscricao_fim, requisito, link, prazo_varia=False,
+                         inscricao_inicio=None, hora_fim=None):
     """vagas: lista de rótulos ('Química, área 12'). requisito: o texto já montado pelo chamador
-    (quando as vagas têm requisitos diferentes, ele diz isso e traz o da primeira)."""
+    (quando as vagas têm requisitos diferentes, ele diz isso e traz o da primeira).
+    inscricao_inicio: só quando as inscrições ainda não abriram (UFG 22: abrem em 16/10).
+    hora_fim: hora-limite do último dia (UNESP 463: 17:00)."""
     if inscricao_fim:
         y, m, d = str(inscricao_fim)[:10].split("-")
-        insc = f"até {d}/{m}/{y}" + (", mas o prazo varia por vaga; confira no edital" if prazo_varia else "")
+        fim = f"{d}/{m}/{y}" + (f", às {str(hora_fim)[:5]}" if hora_fim else "")
+        if inscricao_inicio:
+            yi, mi, di = str(inscricao_inicio)[:10].split("-")
+            insc = f"abrem em {di}/{mi}/{yi} e vão até {fim}"
+        else:
+            insc = f"até {fim}"
+        insc += ", mas o prazo varia por vaga; confira no edital" if prazo_varia else ""
     else:
         insc = "confira o prazo no edital"
     rot = "; ".join(vagas[:3]) + (f" e mais {len(vagas) - 3}" if len(vagas) > 3 else "")

@@ -272,5 +272,217 @@ class EscopoMaisEstreito(unittest.TestCase):
         self.assertTrue(any("08:00" in x for x in por[None]))
 
 
+# ---------------------------------------------------------------- conferência de 13/10
+
+def rodar_msgs(eventos, hoje, anterior_dia, vagas=(), extra=None, triagem=None, registro=None):
+    """Roda o leitor num vigia falso e devolve {área ou None: texto da mensagem}, como na fila."""
+    with tempfile.TemporaryDirectory() as v:
+        os.makedirs(os.path.join(v, "extracoes", "t"))
+        evs = [dict({"estado": "vigente", "escopo": "geral", "id": f"ev-{k:04d}"}, **e) for k, e in enumerate(eventos, 1)]
+        vgs = [{"codigo": {"literal": f"Área {c}", "numero": c}, "area_conhecimento": f"Área {c}"} for c in vagas]
+        conc = dict({"sigla": "TESTE", "numero_edital": "1/2026", "eventos": evs, "vagas": vgs}, **(extra or {}))
+        with open(os.path.join(v, "extracoes", "t", "concurso-t.json"), "w") as fh:
+            json.dump(conc, fh)
+        if triagem is not None:
+            with open(os.path.join(v, "extracoes", "t", "triagem-t.json"), "w") as fh:
+                json.dump(triagem, fh)
+        if registro is not None:
+            os.makedirs(os.path.join(v, "_vigia"))
+            with open(os.path.join(v, "_vigia", "registro.json"), "w") as fh:
+                json.dump({"docs": registro}, fh)
+        anterior = {"gerado_em": anterior_dia.isoformat(), "concursos": {}}
+        if triagem is not None:
+            anterior["concursos"]["t"] = {"docs": {}, "eventos": {}}
+        concursos, _, avisos, _, _, _ = A.executar(v, hoje, anterior)
+    c = concursos["t"]
+    gerais = avisos.get(("t", None), [])
+    out = {}
+    for (_, area), its in avisos.items():
+        out[area] = A.mensagem(c, area, its if area is None else gerais + its, hoje)
+    return out
+
+
+def fx(d, h=None):
+    return {"forma": "fixa", "data": d, "hora": h}
+
+
+def linhas(msg):
+    return [l for l in msg.split("\n") if l.startswith("• ")]
+
+
+class Conferencia1310Omissao(unittest.TestCase):
+    """Caso A: evento de presença, eliminação ou entrega dentro da janela da mensagem não pode ficar de fora."""
+
+    UFBA = [{"tipo_evento": "outro", "escopo": ["08"], "descricao_literal": "Sessão pública para abertura do concurso na sala da Congregação (5º andar)",
+             "data": fx("2026-10-26", "08:30")},
+            {"tipo_evento": "sorteio_tema", "etapa_ref": "escrita", "escopo": ["08"], "descricao_literal": "Sorteio do ponto da prova escrita",
+             "data": fx("2026-10-26", "08:45")},
+            {"tipo_evento": "resultado", "etapa_ref": "escrita", "escopo": ["08"],
+             "descricao_literal": "Sessão pública para divulgação dos resultados da prova escrita (etapa eliminatória)",
+             "data": fx("2026-10-27", "08:30")},
+            {"tipo_evento": "entrega_documento", "etapa_ref": "memorial", "escopo": ["08"],
+             "descricao_literal": "Entrega na Secretaria do Curriculum Vitae e de três vias do Memorial",
+             "data": jan("2026-10-27", "2026-10-27", "08:50", "12:00")},
+            {"tipo_evento": "prova", "etapa_ref": "didatica", "escopo": ["08"], "descricao_literal": "Prova didática",
+             "data": jan("2026-10-27", "2026-10-28", "14:00", "17:00")}]
+
+    def test_sessao_publica_de_abertura_e_presenca(self):  # UFBA 06, áreas 08, 11 e 37 (item 8.3.2: ausência elimina)
+        e = self.UFBA[0]
+        self.assertTrue(A.PRESENCA.search(e["descricao_literal"]))
+        self.assertTrue(A.PRESENCA.search("Sessão pública da Congregação da EPUFBA de abertura do concurso."))
+        t = rodar([dict(e, escopo="geral")], dt.date(2026, 10, 19), dt.date(2026, 10, 18))  # 7 dias antes
+        self.assertEqual(len(t), 1)
+
+    def test_mensagem_da_prova_leva_abertura_e_entrega(self):  # UFBA 06, área 08 e 37
+        m = rodar_msgs(self.UFBA, dt.date(2026, 10, 12), dt.date(2026, 10, 11), vagas=["08", "11"])  # 15 dias da didática
+        ls = linhas(m["08"])
+        self.assertTrue(any("08:30" in l and "abertura do concurso" in l for l in ls), ls)
+        self.assertTrue(any("Memorial" in l for l in ls), ls)
+        self.assertFalse(any("divulgação dos resultados" in l for l in ls), ls)  # "etapa eliminatória" não é presença
+        self.assertLess(next(k for k, l in enumerate(ls) if "08:30" in l), next(k for k, l in enumerate(ls) if "08:45" in l))
+        self.assertNotIn("11", m)  # a outra área não recebe nada
+
+    def test_prova_sem_hora_no_dia_do_sorteio(self):  # UESC 050, área 04
+        evs = [{"tipo_evento": "sorteio_ordem", "etapa_ref": "didatica", "descricao_literal": "Sorteio", "data": fx("2026-10-14", "08:00")},
+               {"tipo_evento": "prova", "etapa_ref": "didatica", "descricao_literal": "Prova Didática", "data": fx("2026-10-14")},
+               {"tipo_evento": "prova", "etapa_ref": "projeto", "descricao_literal": "Plano de Trabalho", "data": fx("2026-10-14")},
+               {"tipo_evento": "prova", "etapa_ref": "titulos", "descricao_literal": "Prova de títulos", "data": fx("2026-10-15", "08:00")}]
+        ls = linhas(rodar_msgs(evs, dt.date(2026, 10, 13), dt.date(2026, 10, 12))[None])
+        self.assertEqual(len(ls), 4, ls)
+        self.assertIn("Sorteio", ls[0])  # o evento sem hora vai depois do das 08:00
+        self.assertIn("Prova Didática", ls[1])
+        self.assertIn("Plano de Trabalho", ls[2])
+
+    def test_prova_entre_duas_datas_avisadas(self):  # UFV 47: pulava a didática de 11/11
+        evs = [{"tipo_evento": "prova", "etapa_ref": "escrita", "descricao_literal": "Prova de Conhecimento", "data": fx("2026-11-09", "09:00")},
+               {"tipo_evento": "prova", "etapa_ref": "didatica", "descricao_literal": "Prova de Didática", "data": fx("2026-11-11")},
+               {"tipo_evento": "prova", "etapa_ref": "projeto", "descricao_literal": "Prova de Defesa de Projeto", "data": fx("2026-11-12")}]
+        ls = linhas(rodar_msgs(evs, dt.date(2026, 10, 13), dt.date(2026, 10, 12))[None])  # 30 dias do projeto
+        self.assertTrue(any("Didática" in l for l in ls), ls)
+
+    def test_entrega_de_titulos_antes_dos_eventos_avisados(self):  # UFU 118, área 4
+        evs = [{"tipo_evento": "entrega_documento", "etapa_ref": "titulos", "escopo": ["4"], "descricao_literal": "Entrega dos títulos",
+                "data": jan("2026-10-26", "2026-10-26", "00:00", "23:59")},
+               {"tipo_evento": "prova", "etapa_ref": "didatica", "escopo": ["4"], "descricao_literal": "Prova didática", "data": fx("2026-10-28", "08:30")}]
+        ls = linhas(rodar_msgs(evs, dt.date(2026, 10, 13), dt.date(2026, 10, 12), vagas=["4"])["4"])
+        self.assertTrue(any("26/10" in l and "títulos" in l for l in ls), ls)
+
+    def test_turma_mais_proxima_nao_some(self):  # UFTM 28, área 01: só saía a Turma 03
+        evs = [{"tipo_evento": "sorteio_tema", "etapa_ref": "didatica", "escopo": ["01"], "descricao_literal": "Sorteio do tema - Turma 02; presença obrigatória",
+                "data": fx("2026-10-15", "07:45")},
+               {"tipo_evento": "prova", "etapa_ref": "didatica", "escopo": ["01"], "descricao_literal": "Apresentação da prova didática - Turma 02",
+                "data": fx("2026-10-16", "08:00")},
+               {"tipo_evento": "prova", "etapa_ref": "didatica", "escopo": ["01"], "descricao_literal": "Apresentação da prova didática - Turma 03",
+                "data": fx("2026-10-20", "13:30")},
+               {"tipo_evento": "prova", "etapa_ref": "didatica", "escopo": ["02"], "descricao_literal": "Apresentação de outra lotação",
+                "data": fx("2026-10-16", "08:00")}]
+        m = rodar_msgs(evs, dt.date(2026, 10, 13), dt.date(2026, 10, 12), vagas=["01", "02"])
+        ls = linhas(m["01"])
+        self.assertTrue(any("Turma 02" in l and "07:45" in l for l in ls), ls)
+        self.assertTrue(any("Turma 02" in l and "16/10" in l for l in ls), ls)
+        self.assertFalse(any("outra lotação" in l for l in ls), ls)
+
+    def test_evento_alem_da_ultima_data_nao_entra(self):  # completa só o intervalo da mensagem
+        evs = [{"tipo_evento": "prova", "etapa_ref": "escrita", "descricao_literal": "Prova escrita", "data": fx("2026-10-20", "09:00")},
+               {"tipo_evento": "prova", "etapa_ref": "didatica", "descricao_literal": "Prova didática", "data": fx("2026-11-20", "09:00")}]
+        ls = linhas(rodar_msgs(evs, dt.date(2026, 10, 13), dt.date(2026, 10, 12))[None])
+        self.assertEqual(len(ls), 1, ls)
+
+
+class Conferencia1310ProvaEmDoisDias(unittest.TestCase):
+    """Caso B: UNILA 204, didática em 20/10 das 14h às 18h e em 21/10 das 8h às 12h."""
+
+    def test_aviso_traz_os_dois_periodos(self):
+        lit = "Prova Didática ({}); horário de cada candidato: a ordem será definida pela entrega da prova escrita"
+        evs = [{"tipo_evento": "prova", "etapa_ref": "didatica", "escopo": ["01"], "descricao_literal": lit.format("20/10, das 14h às 18h"),
+                "data": jan("2026-10-20", "2026-10-20", "14:00", "18:00")},
+               {"tipo_evento": "prova", "etapa_ref": "didatica", "escopo": ["01"], "descricao_literal": lit.format("21/10, das 8h às 12h"),
+                "data": jan("2026-10-21", "2026-10-21", "08:00", "12:00")}]
+        ls = linhas(rodar_msgs(evs, dt.date(2026, 10, 13), dt.date(2026, 10, 12), vagas=["01"])["01"])
+        self.assertEqual(len(ls), 2, ls)
+        self.assertIn("20/10/2026", ls[0])
+        self.assertIn("21/10/2026", ls[1])
+        self.assertIn("08:00", ls[1])
+
+
+class Conferencia1310Textos(unittest.TestCase):
+    """Caso D: textos confusos que eram do leitor."""
+
+    def test_isencao_que_termina_amanha_vai_com_a_abertura(self):  # IFMG 1077
+        evs = [{"tipo_evento": "inscricao", "descricao_literal": "Realização de Inscrição",
+                "data": {"forma": "janela", "inicio": {"data": "2026-10-13"}, "fim": {"data": "2026-11-13", "hora": "18:00"}}},
+               {"tipo_evento": "isencao_pedido", "descricao_literal": "Solicitações de isenção da taxa de inscrição",
+                "data": jan("2026-10-13", "2026-10-14")}]
+        ls = linhas(rodar_msgs(evs, dt.date(2026, 10, 13), dt.date(2026, 10, 12))[None])
+        self.assertTrue(any("isenção" in l and "14/10" in l and "último dia" in l for l in ls), ls)
+
+    def test_lista_do_dia_em_ordem_de_hora(self):  # UFBA 06, área 17: a consulta das 09:30 saía antes da sessão das 09:00
+        evs = [{"tipo_evento": "outro", "descricao_literal": "Sessão pública da Congregação para abertura/instalação da Banca",
+                "data": fx("2026-10-15", "09:00")},
+               {"tipo_evento": "sorteio_tema", "etapa_ref": "escrita", "descricao_literal": "Sorteio do ponto", "data": fx("2026-10-15", "09:20")},
+               {"tipo_evento": "outro", "etapa_ref": "escrita", "descricao_literal": "Consulta bibliográfica pelos candidatos (1h)",
+                "data": jan("2026-10-15", "2026-10-15", "09:30", "10:30")},
+               {"tipo_evento": "prova", "etapa_ref": "escrita", "descricao_literal": "Realização da Prova Escrita",
+                "data": jan("2026-10-15", "2026-10-15", "10:45", "14:45")}]
+        ls = linhas(rodar_msgs(evs, dt.date(2026, 10, 13), dt.date(2026, 10, 12))[None])
+        horas = [l.split("às ")[1][:5] if "às " in l else l.split("das ")[1][:5] for l in ls]
+        self.assertEqual(horas, sorted(horas), ls)
+        self.assertEqual(len(ls), 4, ls)
+
+    def test_horarios_individuais_nao_viram_janela(self):  # UFRGS 08, área 12
+        t = A.texto_data(jan("2026-10-20", "2026-10-20", "09:30", "16:30"), H, "prova", "defesa_producao")
+        self.assertNotIn("das 09:30 às 16:30", t)
+        self.assertIn("horários individuais", t)
+        # prova escrita de quatro horas continua sendo uma janela única
+        self.assertEqual(A.texto_data(jan("2026-10-15", "2026-10-15", "10:45", "14:45"), H, "prova", "escrita"),
+                         "15/10/2026 (quinta), das 10:45 às 14:45")
+
+    def test_titulo_generico_vem_do_arquivo(self):  # UFRGS 08, área 13: "PDF"
+        cam = "documentos/t/SEI_UFRGS-8178955-Concurso-publico-docente-Resultado-da-2a-fase.pdf"
+        t = A.titulo_doc(cam, {}, {cam: {"texto": "PDF (divulgado em 13/10/2026 às 07:05)"}})
+        self.assertTrue(t.startswith("SEI UFRGS 8178955 Concurso publico docente Resultado da 2a fase"), t)
+        self.assertIn("divulgado em 13/10/2026", t)
+
+    def test_titulo_concatenado_vem_do_arquivo(self):  # UERJ 244 e 255
+        cam = "documentos/t/edital.pdf"
+        reg = {cam: {"texto": "Edital Errata Modelo de declaração para inscritos em cotas para negras/os Formulário de laudo médico"}}
+        t = A.titulo_doc(cam, {}, reg, ["Modelo de declaração para inscritos em cotas para negras/os", "Formulário de laudo médico"])
+        self.assertEqual(t, "Edital")
+        # um texto que só contém o de outro link continua: "Novo - Enfermagem..." (UFBA 06)
+        reg = {cam: {"texto": "Novo - Enfermagem no Cuidado à Saúde da Mulher"}}
+        self.assertEqual(A.titulo_doc(cam, {}, reg, ["Enfermagem no Cuidado à Saúde da Mulher"]), "Novo - Enfermagem no Cuidado à Saúde da Mulher")
+
+    def test_sessao_sem_candidato_nao_completa(self):  # UFRGS 08, área 12: avaliação de títulos, sessão não pública
+        self.assertFalse(A.critico({"tipo_evento": "prova", "descricao_literal": "Sessão de Avaliação do Exame de Títulos, sessão não pública",
+                                    "data": fx("2026-10-19", "13:00")}))
+
+    def test_nota_do_vigia_sai_do_titulo(self):  # IFMT 03
+        t = A.limpa_titulo("01 Pagina de arquivos do Edital 03 (edital consolidado e retificadores; nao foi possivel abrir por robots.txt)")
+        self.assertNotIn("robots", t)
+        self.assertIn("edital consolidado e retificadores", t)
+
+    def test_fuso_de_mato_grosso(self):  # IFMT 03: o edital diz que vale o horário de Cuiabá
+        evs = [{"tipo_evento": "sorteio_tema", "descricao_literal": "Sorteio do tema", "data": fx("2026-10-14", "14:30")}]
+        m = rodar_msgs(evs, dt.date(2026, 10, 13), dt.date(2026, 10, 12), extra={"sigla": "IFMT"})[None]
+        self.assertIn("Mato Grosso", m)
+        self.assertIn("Brasília", m)
+        m = rodar_msgs(evs, dt.date(2026, 10, 13), dt.date(2026, 10, 12))[None]
+        self.assertNotIn("Brasília", m)
+
+    def test_sem_url_oficial_usa_o_edital(self):  # UNILAB 14
+        c = {"_triagem": [{"tipo": "edital_abertura", "url": "https://x.br/edital.pdf", "pertence": {"valor": "sim"}}]}
+        self.assertEqual(A.link(c), "https://x.br/edital.pdf")
+        self.assertEqual(A.link({"_triagem": []}), "site da instituição")
+
+    def test_resultado_novo_diz_qual(self):  # UFRGS 08, área 13: "Saiu o resultado de uma etapa"
+        cam = "documentos/t/resultado.pdf"
+        evs = [{"tipo_evento": "resultado_final", "fase": "preliminar", "descricao_literal": "Resultado Preliminar da Segunda Fase",
+                "data": fx("2026-10-13", "07:05"), "fonte": {"documento": cam}}]
+        tri = [{"caminho": cam, "sha256": "a", "tipo": "resultado_etapa", "pertence": {"valor": "sim"},
+                "data_publicacao": {"valor": "2026-10-13"}, "escopo": {"valor": "geral"}}]
+        m = rodar_msgs(evs, dt.date(2026, 10, 13), dt.date(2026, 10, 12), triagem=tri)[None]
+        self.assertIn("Saiu o resultado de uma etapa: Resultado Preliminar da Segunda Fase", m)
+
+
 if __name__ == "__main__":
     unittest.main()

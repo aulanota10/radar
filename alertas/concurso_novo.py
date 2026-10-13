@@ -32,6 +32,39 @@ from catalogo import Catalogo  # noqa: E402
 import casamento  # noqa: E402
 
 
+def data_publicacao(c, registro=None):
+    """(data, origem) da publicação do concurso. Conferência de 13/10: a UNESP 463/2026 saiu como
+    concurso novo pela data em que o vigia capturou (12/10), mas o edital é de 28/09. Vale, nesta
+    ordem, a data_publicacao da extração, o evento de publicação do edital, a data de publicação do
+    edital de abertura (ou de condições específicas) na triagem e, sem nenhuma delas, a primeira
+    captura do vigia dos documentos do concurso."""
+    d = agenda.D(agenda.val(c.get("data_publicacao")))
+    if d:
+        return d, "data de publicação do edital"
+    pubs = [agenda.intervalo(e["data"])[1] for e in c.get("eventos") or []
+            if e.get("estado") == "vigente" and e.get("tipo_evento") == "publicacao_edital"]
+    pubs = [x for x in pubs if x]
+    if pubs:
+        return min(pubs), "evento de publicação do edital"
+    tri = [agenda.D(agenda.val(x.get("data_publicacao"))) for x in c.get("_triagem") or []
+           if x.get("tipo") in ("edital_abertura", "condicoes_especificas") and (x.get("pertence") or {}).get("valor") != "nao"]
+    tri = [x for x in tri if x]
+    if tri:
+        return min(tri), "publicação do edital na triagem"
+    caps = [agenda.D((registro or {}).get(x["caminho"], {}).get("primeira_vez")) for x in c.get("_triagem") or []]
+    caps = [x for x in caps if x]
+    if caps:
+        return min(caps), "primeira captura do vigia"
+    return None, "sem data"
+
+
+def recente_para_novo(c, hoje, registro=None):
+    """Concurso publicado há no máximo JANELA_RECENTE dias (a mesma janela do documento novo nos alertas
+    de datas). Sem data nenhuma, conta como novo: a extração acabou de aparecer."""
+    d, origem = data_publicacao(c, registro)
+    return (d is None or d >= hoje - dt.timedelta(days=agenda.JANELA_RECENTE)), d, origem
+
+
 def novos_concursos(concursos, anterior, forcados=None):
     if forcados:
         return sorted(s for s in forcados if s in concursos), False
@@ -39,6 +72,29 @@ def novos_concursos(concursos, anterior, forcados=None):
         return [], True
     conhecidos = set(json.load(open(anterior, encoding="utf-8")).get("concursos", {}))
     return sorted(s for s in concursos if s not in conhecidos), False
+
+
+def inscricao(c, cod, fim):
+    """(início, hora do fim) da inscrição da vaga, para a mensagem dizer quando abre (UFG 22: 'só abre em
+    16/10') e até que hora vai (UNESP 463: 'às 17:00 do dia 03/11')."""
+    insc = c.get("inscricao") or {}
+    ini = None
+    for esc in insc.get("por_escopo") or []:
+        if cod in (esc.get("codigos") or []) and esc.get("inscricao_inicio"):
+            ini = agenda.val(esc["inscricao_inicio"])
+    ini = agenda.D(ini or agenda.val((insc.get("padrao") or {}).get("inscricao_inicio")))
+    hora = None
+    fim_d = agenda.D(str(fim)) if fim else None
+    for e in c.get("eventos") or []:
+        if e.get("estado") != "vigente" or e.get("tipo_evento") != "inscricao":
+            continue
+        if e["escopo"] != "geral" and cod not in e["escopo"]:
+            continue
+        f, i, j, _ = agenda.intervalo(e["data"])
+        if f == "janela" and j and j == fim_d:
+            hora = (e["data"].get("fim") or {}).get("hora") or hora
+            ini = ini or i
+    return ini, hora
 
 
 def rotulo_vaga(r):
@@ -54,6 +110,14 @@ def executar(vigia, perfis, anterior, hoje, forcados=None):
     fila = []  # (perfil_id, slug, params, vagas)
     if base:
         return fila, rel, novos, base
+    registro = agenda.ler_registro(vigia)
+    antigos = []
+    for s in list(novos):
+        ok, d, origem = recente_para_novo(concursos[s], hoje, registro)
+        if not ok and not forcados:
+            antigos.append(s)
+            rel["antigo"].append(f"{agenda.nome_concurso(concursos[s])}: publicado em {d.strftime('%d/%m/%Y')} ({origem}), antes da janela de {agenda.JANELA_RECENTE} dias; entrou na base agora, mas não é concurso novo.")
+    novos = [s for s in novos if s not in antigos]
     sub = {s: concursos[s] for s in novos}
     for s in novos:
         c = concursos[s]
@@ -76,13 +140,16 @@ def executar(vigia, perfis, anterior, hoje, forcados=None):
                 rel["depende"].append(f"{p['id']} · {r['nome_concurso']} · {rotulo_vaga(r)}: {'; '.join(r['motivos'])[:300]}")
         for slug, rs in sorted(por_conc.items()):
             fins = sorted({str(r["inscricao_fim"])[:10] for r in rs if r["inscricao_fim"]})
+            c = concursos[slug]
+            ini, hora = inscricao(c, rs[0]["vaga"], fins[0] if fins else None)
             reqs = list(dict.fromkeys(modelos.limpa(r["requisito_literal"]) for r in rs if r["requisito_literal"]))
             req = reqs[0] if reqs else None
             if len(reqs) > 1:
                 req = f"varia por vaga; o de {rotulo_vaga(rs[0])} é: {req}"
             params = modelos.params_concurso_novo(
                 rs[0]["nome_concurso"], [rotulo_vaga(r) for r in rs],
-                fins[0] if fins else None, req, rs[0]["link"], prazo_varia=len(fins) > 1)
+                fins[0] if fins else None, req, rs[0]["link"], prazo_varia=len(fins) > 1,
+                inscricao_inicio=ini if ini and ini > hoje else None, hora_fim=hora if len(fins) <= 1 else None)
             if len(fins) > 1:
                 rel["prazo_variado"].append(f"{p['id']} · {rs[0]['nome_concurso']}: prazos diferentes entre as vagas ({', '.join(fins)}); a mensagem leva o mais cedo e avisa que varia.")
             pr = modelos.problemas(modelos.CONCURSO_NOVO, params)
@@ -105,7 +172,8 @@ def montar_fila(fila, hoje, novos, base):
 
 
 def montar_relatorio(rel, fila, novos, base, n_perfis, hoje):
-    titulos = [("sem_requisito", "Vagas de concurso novo sem requisito interpretado"),
+    titulos = [("antigo", "Entraram na base mas foram publicados antes da janela de concurso novo (sem alerta)"),
+               ("sem_requisito", "Vagas de concurso novo sem requisito interpretado"),
                ("depende", "Depende da banca (fora da fila; candidato ao resumo semanal)"),
                ("prazo_variado", "Concurso com prazo de inscrição diferente entre as vagas do mesmo perfil"),
                ("fora_do_limite", "Mensagens fora dos limites do modelo (não entraram na fila)"),

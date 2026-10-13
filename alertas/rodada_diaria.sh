@@ -12,7 +12,7 @@ HOJE="$(TZ=America/Fortaleza date +%F)"
 TMP="$(mktemp -d)"
 
 # testes de regra do leitor e dos modelos: se algum falhar, a rodada para antes de gerar fila
-(cd "$AQUI" && python3 -W ignore -m unittest -q test_agenda test_modelos)
+(cd "$AQUI" && python3 -W ignore -m unittest -q test_agenda test_modelos test_concurso_novo)
 
 # alerta de concurso novo (ENSAIO). Roda antes de agenda.py, que regrava o estado.
 # Perfis: perfis-ensaio.json (fictícios) até existir o cadastro do grupo de alunos.

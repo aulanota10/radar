@@ -32,6 +32,21 @@ class Modelos(unittest.TestCase):
             self.assertEqual(M.problemas(M.DATAS, p), [])
         self.assertIn("veja todas no documento", partes[-1][2])
 
+    def test_corte_preserva_presenca_e_prova(self):  # conferência de 13/10: o que sobra não pode ser o que elimina
+        tramites = [f"• 1{i % 9}/11/2026 (terça): divulgação de um resultado número {i} com uma descrição bem comprida do edital" for i in range(40)]
+        criticos = ["• 30/11/2026 (segunda), às 07:30: Comparecimento obrigatório com antecedência de 30 minutos",
+                    "• 30/11/2026 (segunda), às 08:00: Prova didática"]
+        texto = ("Radar Aula Nota 10 · X 1/2026 · Química\n\nDatas que se aproximam:\n" + "\n".join(tramites + criticos)
+                 + "\n\nFonte: Cronograma.\nA informação oficial é sempre a do edital e dos documentos da instituição. Confira em https://x.br.\n\nPara não receber mais, responda SAIR.")
+        partes = M.params_datas(texto, "X 1/2026", "Química")
+        self.assertLessEqual(len(partes), M.MAX_PARTES)
+        tudo = " ".join(p[2] for p in partes)
+        self.assertIn("Comparecimento obrigatório", tudo)
+        self.assertIn("Prova didática", tudo)
+        self.assertIn("veja todas no documento", partes[-1][2])
+        for p in partes:
+            self.assertEqual(M.problemas(M.DATAS, p), [])
+
     def test_fila_real_cabe_no_modelo(self):
         f = os.path.join(AQUI, "saida", "2026-10-12", "fila.md")
         if not os.path.exists(f):
