@@ -1,6 +1,6 @@
 // ═══════════════════════════════════════════════════════════════════════
 //  DADOS DO RADAR DE CONCURSOS · Aula Nota 10
-//  Última verificação: 12/10/2026
+//  Última verificação: 18/10/2026
 //
 //  ESTE É O ÚNICO ARQUIVO QUE VOCÊ PRECISA EDITAR PARA ATUALIZAR O SITE.
 //  Não mexa no index.html.
@@ -50,7 +50,10 @@
 // Gerado por compilar_radar.py a partir das extrações v2 (vigia-documentos/extracoes).
 // Para corrigir um dado, corrija a extração e rode o compilador de novo.
 
-window.RADAR_ATUALIZADO = "12/10/2026";
+// Gerado por compilar_radar.py a partir das extrações v2 (vigia-documentos/extracoes).
+// Para corrigir um dado, corrija a extração e rode o compilador de novo.
+
+window.RADAR_ATUALIZADO = "18/10/2026";
 
 window.CONCURSOS = [
   {
@@ -1558,8 +1561,9 @@ window.CONCURSOS = [
         "tipo": "outra",
         "carater": "Eliminatória e classificatória",
         "data": {
-          "tipo": "nao_divulgada",
-          "nota": "O edital ainda não fixou a data"
+          "tipo": "periodo",
+          "valor": "2026-11-18",
+          "fim": "2026-11-21"
         },
         "detalhe": {}
       },
@@ -10945,7 +10949,7 @@ window.CONCURSOS = [
     "instituicao": "Instituto Federal de Educação, Ciência e Tecnologia do Sul de Minas Gerais",
     "nivel": "EBTT",
     "uf": "MG",
-    "numero_edital": "Edital nº 188/2026, publicado em 27/07/2026, com 4 documentos de alteração publicados depois",
+    "numero_edital": "Edital nº 188/2026, publicado em 27/07/2026, com 10 documentos de alteração publicados depois",
     "vagas": "19 vagas para Professor EBTT + cadastro de reserva",
     "areas": "15 áreas, entre elas Administração, Português/Espanhol, Zootecnia II - Suinocultura, Nutrição e Produção Animal, Informática e Biologia I",
     "campi": "Pouso Alegre/MG, Carmo de Minas, Inconfidentes, Machado e Muzambinho",
@@ -14355,10 +14359,10 @@ window.CONCURSOS = [
     "instituicao": "Instituto Federal de Educação, Ciência e Tecnologia de Mato Grosso",
     "nivel": "EBTT",
     "uf": "MT",
-    "numero_edital": "Edital nº 03/2026, publicado em 16/07/2026, com 5 documentos de alteração publicados depois",
+    "numero_edital": "Edital nº 03/2026, publicado em 16/07/2026, com 6 documentos de alteração publicados depois",
     "vagas": "21 vagas",
     "areas": "10 áreas, entre elas Administração, Informática, Física, Matemática e Manutenção de Aeronaves",
-    "campi": "Alta Floresta, Confresa, Juína e Pontes e Lacerda",
+    "campi": "Cuiabá/MT, Alta Floresta, Confresa, Juína e Pontes e Lacerda",
     "titulacao": "Graduação",
     "regime": "40 (quarenta) horas semanais em regime de dedicação exclusiva",
     "remuneracao": "R$ 6.397,19 de vencimento básico em 40 horas semanais em regime de dedicação exclusiva, chegando a R$ 14.945,96 com a maior titulação",
@@ -17867,7 +17871,7 @@ window.CONCURSOS = [
     "instituicao": "Universidade Federal da Bahia",
     "nivel": "Magistério Superior",
     "uf": "BA",
-    "numero_edital": "Edital nº 06/2026, publicado em 25/06/2026, com 9 documentos de alteração publicados depois",
+    "numero_edital": "Edital nº 06/2026, publicado em 25/06/2026, com 12 documentos de alteração publicados depois",
     "vagas": "38 vagas",
     "areas": "36 áreas, entre elas Gestão da Produção e Métodos Quantitativos, Enfermagem no Cuidado à Saúde da Mulher na Atenção Básica, Parto e Puerpério, Fundamentos de Enfermagem no Cuidado Individual e Cuidado em Enfermagem à Pessoa no Contexto Hospitalar, Gestão e Educação Permanente em Saúde e Enfermagem e Extensão Rural",
     "campi": "Salvador, Vitória da Conquista, Escola de Administração / Departamento: Coordenação Acadêmica, Escola de Enfermagem / Departamento: Coordenação Acadêmica, Escola de Medicina Veterinária e Zootecnia / Departamento: Medicina Veterinária Preventiva e Produção Animal e Escola Politécnica / Departamento: Ciência e Tecnologia dos Materiais",
@@ -35182,8 +35186,8 @@ window.CONCURSOS = [
         "tipo": "outra",
         "carater": "Classificatória",
         "data": {
-          "tipo": "nao_divulgada",
-          "nota": "O edital ainda não fixou a data"
+          "tipo": "exata",
+          "valor": "2026-11-03"
         },
         "detalhe": {
           "duracao": "Até 4 horas"
@@ -39233,7 +39237,7 @@ window.CONCURSOS = [
     "inscricao": {
       "inicio": "2026-09-14",
       "fim": "2026-10-13",
-      "situacao": "aberta",
+      "situacao": "encerrada",
       "taxa": "R$ 220,00"
     },
     "etapas": [
@@ -40372,7 +40376,7 @@ window.CONCURSOS = [
     "inscricao": {
       "inicio": "2026-07-20",
       "fim": "2026-10-13",
-      "situacao": "aberta",
+      "situacao": "encerrada",
       "taxa": "de R$ 276,00 a R$ 286,00"
     },
     "etapas": [
@@ -41435,7 +41439,7 @@ window.CONCURSOS = [
     "instituicao": "Universidade Federal Rural do Semi-Árido",
     "nivel": "Magistério Superior",
     "uf": "RN",
-    "numero_edital": "Edital nº 030/2026, publicado em 21/09/2026, com 2 documentos de alteração publicados depois",
+    "numero_edital": "Edital nº 030/2026, publicado em 21/09/2026, com 3 documentos de alteração publicados depois",
     "vagas": "24 vagas",
     "areas": "23 áreas, entre elas Fenômenos de Transportes, Química Aplicada à Engenharia e Química Geral, Língua Latina I; Língua Latina II; Formação Histórica da Língua Portuguesa; Pesquisa Aplicada à Língua e Literatura, Engenharia de Requisitos, Projeto e Design de Interfaces, Engenharia de Usabilidade, Projeto Detalhado de Software, Banco de Dados, Geologia e Geofísica do Petróleo; Técnicas e Análise de Operações de Perfilagem; e Geologia Geral e Direito Privado e Práticas Jurídicas",
     "campi": "Campus Caraúbas - DCT, Campus Caraúbas - DLCH, Campus Pau dos Ferros - DETEC e Campus Mossoró - DET",
@@ -41568,7 +41572,7 @@ window.CONCURSOS = [
     "inscricao": {
       "inicio": "2026-10-04",
       "fim": "2026-10-13",
-      "situacao": "aberta",
+      "situacao": "encerrada",
       "taxa": "Consultar o edital. O pedido de isenção da taxa vai de 28 a 30/09"
     },
     "etapas": [
@@ -42128,7 +42132,7 @@ window.CONCURSOS = [
     "inscricao": {
       "inicio": "2026-10-13",
       "fim": "2026-11-13",
-      "situacao": "abre_em_breve",
+      "situacao": "aberta",
       "taxa": "R$ 250,00"
     },
     "etapas": [
@@ -42386,7 +42390,7 @@ window.CONCURSOS = [
     "instituicao": "Fundação Universidade Federal de Mato Grosso do Sul",
     "nivel": "Magistério Superior",
     "uf": "MS",
-    "numero_edital": "Edital nº 137/2026",
+    "numero_edital": "Edital nº 137/2026, com 1 documento de alteração publicado depois",
     "vagas": "42 vagas",
     "areas": "35 áreas, entre elas Linguística, Letras e Artes / Artes / Educação Artística, Ciências Sociais Aplicadas / Comunicação, Linguística, Letras e Artes / Artes, Ciências Humanas / Filosofia / História da Filosofia e Ciências Humanas / Psicologia / Processos de Aprendizagem, Memória e Motivação",
     "campi": "Campo Grande, Aquidauana, Corumbá, Três Lagoas, FAALC, FACH, FACOM e FAENG",
@@ -42936,7 +42940,7 @@ window.CONCURSOS = [
     "regime": "40 horas com Dedicação Exclusiva e 40 horas",
     "remuneracao": "R$ 6.397,19 de vencimento básico em 40 horas DE, chegando a R$ 13.753,96 com a maior titulação",
     "banca": "Comissão própria da UNILAB",
-    "link_oficial": null,
+    "link_oficial": "http://www.unilab.edu.br/",
     "inscricao": {
       "inicio": "2026-10-05",
       "fim": "2026-11-03",
@@ -43284,6 +43288,767 @@ window.CONCURSOS = [
         "uerj-255-2026"
       ],
       "extraido_em": "2026-10-12",
+      "em_conferencia": true
+    }
+  },
+  {
+    "id": "uerj-227-2026",
+    "sigla": "UERJ",
+    "instituicao": "Universidade do Estado do Rio de Janeiro",
+    "nivel": "Magistério Superior",
+    "uf": null,
+    "numero_edital": "",
+    "vagas": "1 vaga",
+    "areas": "BIOQUÍMICA (20800002)",
+    "campi": "Centro Biomédico; Instituto de Biologia Roberto Alcantara Gomes; Departamento de Bioquímica",
+    "titulacao": "Doutorado",
+    "regime": "CH Semanal 40",
+    "remuneracao": "R$ 6.581,01 de vencimento básico em CH Semanal 40",
+    "banca": "Comissão própria da UERJ",
+    "link_oficial": "https://prossim.uerj.br/",
+    "inscricao": {
+      "inicio": "2026-10-01",
+      "fim": "2026-10-30",
+      "situacao": "aberta",
+      "taxa": "R$ 347,54"
+    },
+    "etapas": [
+      {
+        "nome": "PROVA ESCRITA",
+        "tipo": "discursiva",
+        "carater": "Eliminatória",
+        "data": {
+          "tipo": "exata",
+          "valor": "2026-11-30"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "PROVA PRÁTICA OU TEÓRICO",
+        "tipo": "outra",
+        "carater": "Eliminatória",
+        "data": {
+          "tipo": "exata",
+          "valor": "2026-12-09"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "PROVA DE AULA",
+        "tipo": "didatica",
+        "carater": "Eliminatória",
+        "data": {
+          "tipo": "exata",
+          "valor": "2026-12-04"
+        },
+        "detalhe": {
+          "sorteio": "Tema sorteado com 24 horas de antecedência",
+          "nota_minima": "8 em 10"
+        }
+      },
+      {
+        "nome": "Memorial",
+        "tipo": "memorial",
+        "carater": "",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Plano de trabalho",
+        "tipo": "outra",
+        "carater": "",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "JULGAMENTO DE TÍTULOS E TRABALHOS",
+        "tipo": "titulos",
+        "carater": "",
+        "data": {
+          "tipo": "exata",
+          "valor": "2026-12-08"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Resultado final",
+        "tipo": "resultado",
+        "carater": "",
+        "data": {
+          "tipo": "exata",
+          "valor": "2026-12-10"
+        },
+        "detalhe": {}
+      }
+    ],
+    "periodo_provas": {
+      "inicio": "2026-11-30",
+      "fim": "2026-12-04"
+    },
+    "logo": "uerj.png",
+    "formacoes_status": "nao_extraido",
+    "familias": [],
+    "formacoes": [],
+    "familias_pos": [],
+    "areas_formacoes": [],
+    "observacao": "",
+    "detalhamento": "completo",
+    "avisos_edital": [],
+    "fonte_dados": {
+      "origem": "extracao_v2",
+      "extracoes": [
+        "uerj-227-2026"
+      ],
+      "extraido_em": "2026-10-13",
+      "em_conferencia": true
+    }
+  },
+  {
+    "id": "uerj-254-2026",
+    "sigla": "UERJ",
+    "instituicao": "Universidade do Estado do Rio de Janeiro",
+    "nivel": "Magistério Superior",
+    "uf": null,
+    "numero_edital": "",
+    "vagas": "1 vaga",
+    "areas": "Saúde Coletiva",
+    "campi": "Centro Biomédico; Faculdade de Ciências Médicas; Departamento de Medicina integral Familiar e Comunitária",
+    "titulacao": "Doutorado",
+    "regime": "CH Semanal 40",
+    "remuneracao": "R$ 6.950,85 de vencimento básico em CH Semanal 40",
+    "banca": "Comissão própria da UERJ",
+    "link_oficial": "https://prossim.uerj.br/",
+    "inscricao": {
+      "inicio": "2026-10-06",
+      "fim": "2026-11-05",
+      "situacao": "aberta",
+      "taxa": "R$ 347,54"
+    },
+    "etapas": [
+      {
+        "nome": "PROVA ESCRITA",
+        "tipo": "discursiva",
+        "carater": "Eliminatória",
+        "data": {
+          "tipo": "exata",
+          "valor": "2026-12-07"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "PROVA DE AULA",
+        "tipo": "didatica",
+        "carater": "Eliminatória",
+        "data": {
+          "tipo": "exata",
+          "valor": "2026-12-10"
+        },
+        "detalhe": {
+          "sorteio": "Tema sorteado com 24 horas de antecedência",
+          "nota_minima": "7 em 10"
+        }
+      },
+      {
+        "nome": "JULGAMENTO DE TÍTULOS E TRABALHOS",
+        "tipo": "titulos",
+        "carater": "",
+        "data": {
+          "tipo": "exata",
+          "valor": "2026-12-14"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Resultado final",
+        "tipo": "resultado",
+        "carater": "",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "em até 07 dias úteis (o edital não diz a partir de quê)"
+        },
+        "detalhe": {}
+      }
+    ],
+    "periodo_provas": {
+      "inicio": "2026-12-07",
+      "fim": "2026-12-10"
+    },
+    "logo": "uerj.png",
+    "formacoes_status": "nao_extraido",
+    "familias": [],
+    "formacoes": [],
+    "familias_pos": [],
+    "areas_formacoes": [],
+    "observacao": "",
+    "detalhamento": "completo",
+    "avisos_edital": [],
+    "fonte_dados": {
+      "origem": "extracao_v2",
+      "extracoes": [
+        "uerj-254-2026"
+      ],
+      "extraido_em": "2026-10-18",
+      "em_conferencia": true
+    }
+  },
+  {
+    "id": "ufg-22-2026",
+    "sigla": "UFG",
+    "instituicao": "Universidade Federal de Goiás",
+    "nivel": "Magistério Superior",
+    "uf": null,
+    "numero_edital": "Edital nº 22/2026, publicado em 05/10/2026",
+    "vagas": "34 vagas",
+    "areas": "33 áreas, entre elas Educação Inclusiva, Geografia, Pedagogia, Construções Rurais com ênfase em Ambiência de Precisão e Economia Rural",
+    "campi": "Centro de Ensino e Pesquisa Aplicada à Educação (CEPAE/UFG), Câmpus da Região Metropolitana de Goiânia, Escola de Agronomia (EA/UFG), Câmpus da Região Metropolitana de Goiânia, Escola de Música (EM/UFG), Câmpus da Região Metropolitana de Goiânia e Escola de Veterinária e Zootecnia (EVZ/UFG), Câmpus da Região Metropolitana de Goiânia",
+    "titulacao": "Conforme a área",
+    "regime": "DE e 20 horas",
+    "remuneracao": "R$ 6.180,86 de vencimento básico em Dedicação Exclusiva, chegando a R$ 13.288,85 com a maior titulação",
+    "banca": "Comissão própria da UFG",
+    "link_oficial": "https://www.ufg.br",
+    "inscricao": {
+      "inicio": "2026-10-16",
+      "fim": "2026-11-04",
+      "situacao": "aberta"
+    },
+    "etapas": [
+      {
+        "nome": "Prova Escrita ou Teórico-Prática",
+        "tipo": "discursiva",
+        "carater": "Eliminatória",
+        "data": {
+          "tipo": "periodo",
+          "valor": "2026-11-25",
+          "fim": "2027-02-01",
+          "nota": "Datas por área: Educação Inclusiva (Educação Inclusiva): 01/02; Geografia (Geografia): 01/12; Pedagogia (Pedagogia): 03/12; Construções Rurais com ênfase em Ambiência de Precisão (Construções Rurais com ênfase em Ambiência…): 30/11; Economia Rural (Economia Rural): 30/11; Educação Musical e Estágio Supervisionado (Educação Musical e Estágio Supervisionado): 25/11; Educação Musical e Estágio Supervisionado (Educação Musical e Estágio Supervisionado): 26/11; Educação Musical e Estágio Supervisionado (Educação Musical e Estágio Supervisionado): 27/11; Percussão e Estágio Supervisionado em Percussão (Percussão e Estágio Supervisionado em…): 30/11; Percussão e Estágio Supervisionado em Percussão (Percussão e Estágio Supervisionado em…): 01/12; Percussão e Estágio Supervisionado em Percussão (Percussão e Estágio Supervisionado em…): 02/12; Produção de Bovinos de Corte e Melhoramento Genético Animal (Produção de Bovinos de Corte e Melhoramento…): 25/01; Teoria Econômica (Teoria Econômica): 18/01; Antropologias Indígenas, Negras e Afrodiaspóricas (Antropologias Indígenas, Negras e…): 19/01; Teoria Política e Instituições (Teoria Política e Instituições): 08/12; Educação, Comunicação e Mídias (Educação, Comunicação e Mídias): 01/12; Infância e Educação Infantil (Infância e Educação Infantil): 01/12; Enfermagem Fundamental (Enfermagem Fundamental): 30/11; Análises Clínicas: Hematologia (Análises Clínicas: Hematologia): 01/12; Tecnologias aplicadas à Gestão da Informação (Tecnologias aplicadas à Gestão da Informação): 08/12; Tecnologias Avançadas aplicadas ao Jornalismo (Tecnologias Avançadas aplicadas ao Jornalismo): 01/12; Ginecologia e Obstetrícia (Ginecologia e Obstetrícia): 30/11; Radiologia e Diagnóstico por Imagem (Radiologia e Diagnóstico por Imagem): 11/01; Semiologia/Introdução ao Método Clínico I, II, III e IV (Semiologia/Introdução ao Método Clínico I…): 14/12; Urologia (Urologia): 03/12; Farmacologia (Farmacologia): 12/01; Geopolítica e Geografia Política (Geopolítica e Geografia Política): 08/12; Engenharia Física com ênfase em Instrumentação Científica e Tecnológica (Engenharia Física com ênfase em…): 11/01; Física Experimental: Física de Materiais, Teranóstica ou Fotônica/Biofotônica (Física Experimental: Física de Materiais…): 18/01; Física Médica (Física Médica): 04/01; Ciências da Segurança (Ciências da Segurança): 25/11; Tecnologia da Informação (Tecnologia da Informação): 26/11; Ciência de Dados (Ciência de Dados): 08/12; Educação Matemática (Educação Matemática): 08/12; Estatística (Estatística): 08/12; Parasitologia (Parasitologia): 26/01; Gestão de Obras e Instalações Prediais (Gestão de Obras e Instalações Prediais): 07/12"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Prova Didática",
+        "tipo": "didatica",
+        "carater": "",
+        "data": {
+          "tipo": "periodo",
+          "valor": "2026-12-07",
+          "fim": "2027-02-18",
+          "nota": "Datas por área: Educação Inclusiva (Educação Inclusiva): 17/02 a 18/02; Geografia (Geografia): 15/12 a 16/12; Pedagogia (Pedagogia): 03/02; Construções Rurais com ênfase em Ambiência de Precisão (Construções Rurais com ênfase em Ambiência…): 08/12; Economia Rural (Economia Rural): 08/12; Educação Musical e Estágio Supervisionado (Educação Musical e Estágio Supervisionado): 08/12; Percussão e Estágio Supervisionado em Percussão (Percussão e Estágio Supervisionado em…): 15/12; Produção de Bovinos de Corte e Melhoramento Genético Animal (Produção de Bovinos de Corte e Melhoramento…): 02/02; Teoria Econômica (Teoria Econômica): 26/01; Antropologias Indígenas, Negras e Afrodiaspóricas (Antropologias Indígenas, Negras e…): 28/01; Teoria Política e Instituições (Teoria Política e Instituições): 17/12; Educação, Comunicação e Mídias (Educação, Comunicação e Mídias): 09/12; Infância e Educação Infantil (Infância e Educação Infantil): 09/12; Enfermagem Fundamental (Enfermagem Fundamental): 08/12; Análises Clínicas: Hematologia (Análises Clínicas: Hematologia): 10/12; Tecnologias aplicadas à Gestão da Informação (Tecnologias aplicadas à Gestão da Informação): 15/12; Tecnologias Avançadas aplicadas ao Jornalismo (Tecnologias Avançadas aplicadas ao Jornalismo): 09/12; Ginecologia e Obstetrícia (Ginecologia e Obstetrícia): 07/12; Radiologia e Diagnóstico por Imagem (Radiologia e Diagnóstico por Imagem): 18/01; Semiologia/Introdução ao Método Clínico I, II, III e IV (Semiologia/Introdução ao Método Clínico I…): 21/12; Urologia (Urologia): 10/12; Farmacologia (Farmacologia): 16/02; Geopolítica e Geografia Política (Geopolítica e Geografia Política): 16/12; Engenharia Física com ênfase em Instrumentação Científica e Tecnológica (Engenharia Física com ênfase em…): 19/01; Física Experimental: Física de Materiais, Teranóstica ou Fotônica/Biofotônica (Física Experimental: Física de Materiais…): 26/01; Física Médica (Física Médica): 12/01; Ciências da Segurança (Ciências da Segurança): 08/12; Tecnologia da Informação (Tecnologia da Informação): 08/12; Ciência de Dados (Ciência de Dados): 16/12; Educação Matemática (Educação Matemática): 16/12; Estatística (Estatística): 16/12; Parasitologia (Parasitologia): 04/02; Gestão de Obras e Instalações Prediais (Gestão de Obras e Instalações Prediais): 16/12"
+        },
+        "detalhe": {
+          "arguicao": "Sim, por até 20 minutos, a critério da banca",
+          "sorteio": "Tema sorteado com 24 horas de antecedência"
+        }
+      },
+      {
+        "nome": "Defesa de Memorial",
+        "tipo": "memorial",
+        "carater": "",
+        "data": {
+          "tipo": "periodo",
+          "valor": "2026-12-08",
+          "fim": "2027-02-19",
+          "nota": "Datas por área: Educação Inclusiva (Educação Inclusiva): 19/02; Geografia (Geografia): 01/02 a 02/02; Pedagogia (Pedagogia): 05/02; Construções Rurais com ênfase em Ambiência de Precisão (Construções Rurais com ênfase em Ambiência…): 09/12; Economia Rural (Economia Rural): 09/12; Educação Musical e Estágio Supervisionado (Educação Musical e Estágio Supervisionado): 09/12; Percussão e Estágio Supervisionado em Percussão (Percussão e Estágio Supervisionado em…): 16/12; Produção de Bovinos de Corte e Melhoramento Genético Animal (Produção de Bovinos de Corte e Melhoramento…): 03/02; Teoria Econômica (Teoria Econômica): 27/01; Antropologias Indígenas, Negras e Afrodiaspóricas (Antropologias Indígenas, Negras e…): 29/01; Teoria Política e Instituições (Teoria Política e Instituições): 18/12; Educação, Comunicação e Mídias (Educação, Comunicação e Mídias): 10/12; Infância e Educação Infantil (Infância e Educação Infantil): 10/12; Enfermagem Fundamental (Enfermagem Fundamental): 09/12; Análises Clínicas: Hematologia (Análises Clínicas: Hematologia): 11/12; Tecnologias aplicadas à Gestão da Informação (Tecnologias aplicadas à Gestão da Informação): 16/12; Tecnologias Avançadas aplicadas ao Jornalismo (Tecnologias Avançadas aplicadas ao Jornalismo): 10/12; Ginecologia e Obstetrícia (Ginecologia e Obstetrícia): 08/12; Radiologia e Diagnóstico por Imagem (Radiologia e Diagnóstico por Imagem): 19/01; Semiologia/Introdução ao Método Clínico I, II, III e IV (Semiologia/Introdução ao Método Clínico I…): 22/12; Urologia (Urologia): 11/12; Farmacologia (Farmacologia): 17/02; Geopolítica e Geografia Política (Geopolítica e Geografia Política): 17/12; Engenharia Física com ênfase em Instrumentação Científica e Tecnológica (Engenharia Física com ênfase em…): 20/01; Física Experimental: Física de Materiais, Teranóstica ou Fotônica/Biofotônica (Física Experimental: Física de Materiais…): 27/01; Física Médica (Física Médica): 13/01; Ciências da Segurança (Ciências da Segurança): 09/12; Tecnologia da Informação (Tecnologia da Informação): 09/12; Ciência de Dados (Ciência de Dados): 17/12; Educação Matemática (Educação Matemática): 17/12; Estatística (Estatística): 17/12; Parasitologia (Parasitologia): 05/02; Gestão de Obras e Instalações Prediais (Gestão de Obras e Instalações Prediais): 17/12"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Avaliação de Títulos",
+        "tipo": "titulos",
+        "carater": "Classificatória",
+        "data": {
+          "tipo": "periodo",
+          "valor": "2026-11-25",
+          "fim": "2027-02-01",
+          "nota": "Datas por área: Educação Inclusiva (Educação Inclusiva): 01/02; Geografia (Geografia): 30/11; Pedagogia (Pedagogia): 03/12; Construções Rurais com ênfase em Ambiência de Precisão (Construções Rurais com ênfase em Ambiência…): 30/11; Economia Rural (Economia Rural): 30/11; Educação Musical e Estágio Supervisionado (Educação Musical e Estágio Supervisionado): 25/11; Percussão e Estágio Supervisionado em Percussão (Percussão e Estágio Supervisionado em…): 30/11; Produção de Bovinos de Corte e Melhoramento Genético Animal (Produção de Bovinos de Corte e Melhoramento…): 25/01; Teoria Econômica (Teoria Econômica): 18/01; Antropologias Indígenas, Negras e Afrodiaspóricas (Antropologias Indígenas, Negras e…): 18/01; Teoria Política e Instituições (Teoria Política e Instituições): 07/12; Educação, Comunicação e Mídias (Educação, Comunicação e Mídias): 30/11; Infância e Educação Infantil (Infância e Educação Infantil): 30/11; Enfermagem Fundamental (Enfermagem Fundamental): 30/11; Análises Clínicas: Hematologia (Análises Clínicas: Hematologia): 30/11; Tecnologias aplicadas à Gestão da Informação (Tecnologias aplicadas à Gestão da Informação): 07/12; Tecnologias Avançadas aplicadas ao Jornalismo (Tecnologias Avançadas aplicadas ao Jornalismo): 30/11; Ginecologia e Obstetrícia (Ginecologia e Obstetrícia): 30/11; Radiologia e Diagnóstico por Imagem (Radiologia e Diagnóstico por Imagem): 11/01; Semiologia/Introdução ao Método Clínico I, II, III e IV (Semiologia/Introdução ao Método Clínico I…): 14/12; Urologia (Urologia): 03/12; Farmacologia (Farmacologia): 12/01; Geopolítica e Geografia Política (Geopolítica e Geografia Política): 07/12; Engenharia Física com ênfase em Instrumentação Científica e Tecnológica (Engenharia Física com ênfase em…): 11/01; Física Experimental: Física de Materiais, Teranóstica ou Fotônica/Biofotônica (Física Experimental: Física de Materiais…): 18/01; Física Médica (Física Médica): 04/01; Ciências da Segurança (Ciências da Segurança): 25/11; Tecnologia da Informação (Tecnologia da Informação): 25/11; Ciência de Dados (Ciência de Dados): 07/12; Educação Matemática (Educação Matemática): 07/12; Estatística (Estatística): 07/12; Parasitologia (Parasitologia): 25/01; Gestão de Obras e Instalações Prediais (Gestão de Obras e Instalações Prediais): 07/12"
+        },
+        "detalhe": {}
+      }
+    ],
+    "periodo_provas": {
+      "inicio": "2026-11-25",
+      "fim": "2027-02-19"
+    },
+    "formacoes_status": "nao_extraido",
+    "familias": [],
+    "formacoes": [],
+    "familias_pos": [],
+    "areas_formacoes": [],
+    "observacao": "",
+    "detalhamento": "completo",
+    "avisos_edital": [],
+    "fonte_dados": {
+      "origem": "extracao_v2",
+      "extracoes": [
+        "ufg-22-2026"
+      ],
+      "extraido_em": "2026-10-13",
+      "em_conferencia": true
+    }
+  },
+  {
+    "id": "ufrb-01-2026",
+    "sigla": "UFRB",
+    "instituicao": "Universidade Federal do Recôncavo da Bahia",
+    "nivel": "Magistério Superior",
+    "uf": "BA",
+    "numero_edital": "Edital nº 01/2026, publicado em 02/10/2026, com 1 documento de alteração publicado depois",
+    "vagas": "1 vaga",
+    "areas": "Ciência e Tecnologia de Alimentos",
+    "campi": "Cruz das Almas/BA e CCAAB - Centro de Ciências Agrárias, Ambientais e Biológicas - Cruz das Almas/BA",
+    "titulacao": "Doutorado",
+    "regime": "Dedicação Exclusiva",
+    "remuneracao": "R$ 12.245,03 de vencimento básico em 40 horas com Dedicação Exclusiva - DE, chegando a R$ 26.326,81 com a maior titulação",
+    "banca": "Comissão própria da UFRB",
+    "link_oficial": "https://sistemas.ufrb.edu.br/sigrh/public/home.jsf",
+    "inscricao": {
+      "inicio": "2026-10-09",
+      "fim": "2026-10-23",
+      "situacao": "aberta",
+      "taxa": "R$ 350,00"
+    },
+    "etapas": [
+      {
+        "nome": "Prova Escrita (PE)",
+        "tipo": "discursiva",
+        "carater": "Eliminatória e classificatória",
+        "data": {
+          "tipo": "exata",
+          "valor": "2026-11-22"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Prova Didática (PD)",
+        "tipo": "didatica",
+        "carater": "Eliminatória e classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "no dia, horário e local definidos pela Comissão correspondente e divulgados previamente (14.2); data, horário e local estabelecidos em documento específico, a ser divulgado posteriormente (14.11)"
+        },
+        "detalhe": {
+          "arguicao": "Não há arguição",
+          "nota_minima": "7 em 10",
+          "criterios": "10 pontos: A - Plano de aula: 1 Clareza dos objetivos 0,2; A - Plano de aula: 2 Adequação dos objetivos ao conteúdo 0,2; A - Plano de aula: 3 Coerência na subdivisão do conteúdo 0,2; A - Plano de aula: 4 Adequação do conteúdo ao tempo disponível 0,2; A - Plano de aula: 5 Seleção apropriada do material didático 0,2; B - Desenvolvimento da aula: 1 Relação entre o plano e o… 1,0; B - Desenvolvimento da aula: 2 Linguagem clara, correta e adequação… 1,0; B - Desenvolvimento da aula: 3 Abordagem das ideias fundamentais do… 1,0; B - Desenvolvimento da aula: 4 Sequência lógica do conteúdo dissertado 1,0; B - Desenvolvimento da aula: 5 Articulação entre as ideias… 1,5; B - Desenvolvimento da aula: 6 Consistência teórica do conteúdo 1,5; B - Desenvolvimento da aula: 7 Uso adequado dos recursos didáticos 1,0; B - Desenvolvimento da aula: 8 Cumprimento do tempo estipulado (MIN… 1,0",
+          "plano_de_aula": "Exigido: entregues em data a ser divulgada oportunamente, mais envio digital em PDF, com Objetivos, Conteúdo e Material didático",
+          "recursos": "Fornecidos: quadro branco ou de vidro, pincel marcador, apagador, notebook, câmera e microfone. Proibidos: notebook, computador, tablet, projetor ou retroprojetor, microfone, caixas de som, câmeras, monitores, arma, óculos escuros, artigos de chapelaria, protetores auriculares, dicionário, apostila, livro, \"dicas\", códigos, manuais, notas ou impressos não permitidos, qualquer outro material didático do mesmo gênero, celular (ligado ou não), relógio de qualquer tipo, calculadora, câmera fotográfica e qualquer outro tipo de aparelho eletrônico ou de comunicação (bip, tablet, notebook, receptor, gravador ou outros equipamentos similares)"
+        }
+      },
+      {
+        "nome": "Defesa de Memorial (ME)",
+        "tipo": "memorial",
+        "carater": "Eliminatória e classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "As etapas do concurso estão previstas para serem realizadas em sequência de forma híbrida (sendo a prova escrita e didática totalmente presenciais e etapa de memorial e títulos totalmente remotas), sendo recomendado que para as etapas presenciais o candidato permaneça na cidade de realização das provas até tomar conhecimento da data e horário da etapa seguinte, caso esta seja presencial."
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Prova de Títulos (PT)",
+        "tipo": "titulos",
+        "carater": "Classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Resultado final",
+        "tipo": "resultado",
+        "carater": "",
+        "data": {
+          "tipo": "exata",
+          "valor": "2027-05-17"
+        },
+        "detalhe": {}
+      }
+    ],
+    "periodo_provas": {
+      "inicio": "2026-11-22",
+      "fim": "2026-11-22"
+    },
+    "formacoes_status": "nao_extraido",
+    "familias": [],
+    "formacoes": [],
+    "familias_pos": [],
+    "areas_formacoes": [],
+    "observacao": "",
+    "detalhamento": "completo",
+    "avisos_edital": [],
+    "fonte_dados": {
+      "origem": "extracao_v2",
+      "extracoes": [
+        "ufrb-01-2026"
+      ],
+      "extraido_em": "2026-10-13",
+      "em_conferencia": true
+    }
+  },
+  {
+    "id": "ufu-156-2026",
+    "sigla": "UFU",
+    "instituicao": "Universidade Federal de Uberlândia",
+    "nivel": "Magistério Superior",
+    "uf": "MG",
+    "numero_edital": "Edital nº 156/2026, publicado em 05/10/2026",
+    "vagas": "15 vagas",
+    "areas": "14 áreas, entre elas Engenharia Elétrica/Eletrônica Industrial, Sistemas e Controles Eletrônicos, Engenharia de Computação/Segurança em Redes de Computadores e Sistemas Operacionais, Engenharia Elétrica/Eletrônica, Medicina/Oncologia e Medicina/Reumatologia",
+    "campi": "Uberlândia - MG, Patos de Minas - MG, Monte Carmelo - MG, Ituiutaba - MG, Faculdade de Engenharia Elétrica - FEELT (Campus Santa Mônica, localizado na cidade de Uberlândia (MG)), Faculdade de Engenharia Elétrica - FEELT (Campus Patos de Minas, localizado em Patos de Minas (MG)), Faculdade de Medicina - FAMED (Campus Umuarama, localizado na cidade de Uberlândia (MG)) e Instituto de Ciências Agrárias - ICIAG (Campus Glória, localizado na cidade de Uberlândia (MG))",
+    "titulacao": "Doutorado",
+    "regime": "40 horas semanais com Dedicação Exclusiva (DE) e 40 horas semanais",
+    "remuneracao": "R$ 6.397,18 de vencimento básico em Dedicação Exclusiva (DE), chegando a R$ 13.753,95 com a maior titulação",
+    "banca": "Comissão própria da UFU",
+    "link_oficial": "https://www.portalselecao.ufu.br",
+    "inscricao": {
+      "inicio": "2026-10-13",
+      "fim": "2026-10-28",
+      "situacao": "aberta",
+      "taxa": "R$ 320,00"
+    },
+    "etapas": [
+      {
+        "nome": "Prova escrita",
+        "tipo": "discursiva",
+        "carater": "Eliminatória e classificatória",
+        "data": {
+          "tipo": "exata",
+          "valor": "2026-12-06",
+          "nota": "Datas por área: geral: 06/12; 2 (Engenharia de Computação/Segurança em Redes…): 06/12"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Prova didática",
+        "tipo": "didatica",
+        "carater": "Eliminatória e classificatória",
+        "data": {
+          "tipo": "exata",
+          "valor": "2027-01-26"
+        },
+        "detalhe": {
+          "sorteio": "Tema sorteado com 24 horas de antecedência",
+          "nota_minima": "70 em 100",
+          "criterios": "6.11.6.1. plano de aula apresentado, considerados seu conteúdo…; 6.11.6.2. atuação didático-pedagógica com clareza na exposição e…; 6.11.6.3. desenvolvimento objetivo e articulado do tema sorteado para…; 6.11.6.4. respeito à norma padrão do idioma estabelecido pela Unidade…; 6.11.6.5. respeito à duração mínima de 40 (quarenta) e máxima de 50…; 6.11.6.6. adequada fundamentação teórica na abordagem do tema…; 6.11.6.7. cumprimento do plano de aula apresentado; e; 6.11.6.8. uso de variedade de métodos e técnicas de ensino",
+          "plano_de_aula": "Exigido: com referenciais bibliográficos"
+        }
+      },
+      {
+        "nome": "Análise de títulos",
+        "tipo": "titulos",
+        "carater": "Classificatória",
+        "data": {
+          "tipo": "exata",
+          "valor": "2027-01-27"
+        },
+        "detalhe": {}
+      }
+    ],
+    "periodo_provas": {
+      "inicio": "2026-12-06",
+      "fim": "2027-01-26"
+    },
+    "logo": "ufu.png",
+    "formacoes_status": "nao_extraido",
+    "familias": [],
+    "formacoes": [],
+    "familias_pos": [],
+    "areas_formacoes": [],
+    "observacao": "",
+    "detalhamento": "completo",
+    "avisos_edital": [],
+    "fonte_dados": {
+      "origem": "extracao_v2",
+      "extracoes": [
+        "ufu-156-2026"
+      ],
+      "extraido_em": "2026-10-13",
+      "em_conferencia": true
+    }
+  },
+  {
+    "id": "ufv-58-2026",
+    "sigla": "UFV",
+    "instituicao": "UNIVERSIDADE FEDERAL DE VIÇOSA",
+    "nivel": "Magistério Superior",
+    "uf": null,
+    "numero_edital": "Edital nº 58/2026",
+    "vagas": "1 vaga",
+    "areas": "Bases Morfofuncionais da Medicina",
+    "campi": "Instituto de Ciências Biológicas e da Saúde, do Campus UFV-Rio Paranaíba",
+    "titulacao": "",
+    "regime": "40 (quarenta) horas semanais",
+    "remuneracao": "R$ 8.571,52 de vencimento básico em 40 (quarenta) horas semanais",
+    "banca": "Comissão própria da UFV",
+    "link_oficial": "https://www.ufv.br/soc",
+    "inscricao": {
+      "situacao": "consultar",
+      "taxa": "R$ 120,75"
+    },
+    "etapas": [
+      {
+        "nome": "Prova de Conhecimento",
+        "tipo": "discursiva",
+        "carater": "Eliminatória e classificatória",
+        "data": {
+          "tipo": "exata",
+          "valor": "2026-11-24"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Prova de Didática",
+        "tipo": "didatica",
+        "carater": "Eliminatória e classificatória",
+        "data": {
+          "tipo": "exata",
+          "valor": "2026-11-25"
+        },
+        "detalhe": {
+          "duracao": "50 minutos, com tolerância de 10 para mais ou para menos",
+          "arguicao": "Não há arguição",
+          "sorteio": "Tema sorteado com 24 horas de antecedência",
+          "nota_minima": "7 em 10",
+          "criterios": "10 pontos: I - Foco no ponto sorteado, aspecto passível de eliminação do…; II - Atualidade e exatidão de conteúdo, conceitos e informações; III - Coerência das estratégias didáticas com os objetivos e…; IV - Domínio do tema, segurança e clareza na apresentação da aula; V - Adequação na distribuição do tempo para abordagem dos tópicos da…; VI - Qualidade e utilização eficiente dos recursos didáticos; VII - Capacidade de análise e síntese do conteúdo tratado; VIII - Utilização de exemplos significativos",
+          "recursos": "Fornecidos: retroprojetor, projetor (tipo data show), quadro de giz ou quadro branco e computador. Proibidos: outro material didático diferente daquele entregue ao presidente da Banca"
+        }
+      },
+      {
+        "nome": "Prova de Títulos",
+        "tipo": "titulos",
+        "carater": "Classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {}
+      }
+    ],
+    "periodo_provas": {
+      "inicio": "2026-11-24",
+      "fim": "2026-11-25"
+    },
+    "logo": "ufv.png",
+    "formacoes_status": "nao_extraido",
+    "familias": [],
+    "formacoes": [],
+    "familias_pos": [],
+    "areas_formacoes": [],
+    "observacao": "",
+    "detalhamento": "completo",
+    "avisos_edital": [],
+    "fonte_dados": {
+      "origem": "extracao_v2",
+      "extracoes": [
+        "ufv-58-2026"
+      ],
+      "extraido_em": "2026-10-18",
+      "em_conferencia": true
+    }
+  },
+  {
+    "id": "unesp-fct-463-2026",
+    "sigla": "UNESP",
+    "instituicao": "Universidade Estadual Paulista \"Júlio de Mesquita Filho\"",
+    "nivel": "Magistério Superior",
+    "uf": null,
+    "numero_edital": "Edital nº 463/2026, publicado em 28/09/2026, com 2 documentos de alteração publicados depois",
+    "vagas": "1 vaga",
+    "areas": "EDUCAÇÃO",
+    "campi": "Presidente Prudente e Departamento de Educação da Faculdade de Ciências e Tecnologia do Campus de Presidente Prudente",
+    "titulacao": "Doutorado",
+    "regime": "Regime de Dedicação Integral à Docência e à Pesquisa - RDIDP",
+    "remuneracao": "R$ 16.994,01 de vencimento básico em Regime de Dedicação Integral à Docência e à Pesquisa - RDIDP, 40 horas semanais",
+    "banca": "Comissão própria da UNESP",
+    "link_oficial": "https://inscricoes.unesp.br",
+    "inscricao": {
+      "inicio": "2026-10-05",
+      "fim": "2026-11-03",
+      "situacao": "aberta",
+      "taxa": "R$ 286,00"
+    },
+    "etapas": [
+      {
+        "nome": "Prova escrita",
+        "tipo": "discursiva",
+        "carater": "Eliminatória e classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Prova didática",
+        "tipo": "didatica",
+        "carater": "Classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {
+          "criterios": "10 pontos: a) Plano de aula 1,0; b) Adequação ao tema e abordagem do assunto, nível de graduação 1,0; c) Domínio teórico e conceitual do assunto 2,0; d) Exatidão e atualidade das informações 1,0; e) Desenvolvimento sequencial do tema em ordem lógica 1,0; f) Clareza e objetividade na exposição do tema 1,0; g) Adequação da linguagem ao contexto de aula de graduação 1,0; h) Capacidade de síntese e abrangência 1,0; i) Utilização adequada dos recursos didáticos disponíveis 1,0",
+          "plano_de_aula": "Exigido: entregues no dia da prova didática, em momento anterior à ministração da aula teórica pelo candidato"
+        }
+      },
+      {
+        "nome": "Prova de análise e arguição do projeto de pesquisa, do plano de atividades para a graduação e para a pós-graduação, do plano de ações de extensão universitária",
+        "tipo": "outra",
+        "carater": "Classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Prova de títulos",
+        "tipo": "titulos",
+        "carater": "Classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Resultado final",
+        "tipo": "resultado",
+        "carater": "",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "após a análise dos recursos do resultado final preliminar"
+        },
+        "detalhe": {}
+      }
+    ],
+    "logo": "unesp.png",
+    "formacoes_status": "nao_extraido",
+    "familias": [],
+    "formacoes": [],
+    "familias_pos": [],
+    "areas_formacoes": [],
+    "observacao": "",
+    "detalhamento": "completo",
+    "avisos_edital": [],
+    "fonte_dados": {
+      "origem": "extracao_v2",
+      "extracoes": [
+        "unesp-fct-463-2026"
+      ],
+      "extraido_em": "2026-10-13",
+      "em_conferencia": true
+    }
+  },
+  {
+    "id": "unifei-51-2026",
+    "sigla": "UNIFEI",
+    "instituicao": "Universidade Federal de Itajubá",
+    "nivel": "Magistério Superior",
+    "uf": null,
+    "numero_edital": "Edital nº 51/2026, publicado em 09/10/2026, com 1 documento de alteração publicado depois",
+    "vagas": "5 vagas",
+    "areas": "GEOMÁTICA, APRENDIZADO DE MÁQUINA, ENGENHARIA DE SOFTWARE, REDES DE COMPUTADORES e ENGENHARIA ELÉTRICA",
+    "campi": "Itajubá, Itabira, Instituto de Recursos Naturais - Campus de Itajubá, Instituto de Ciências Tecnológicas - Campus de Itabira e Instituto de Ciências Puras e Aplicadas - Campus de Itabira",
+    "titulacao": "Doutorado",
+    "regime": "Dedicação Exclusiva",
+    "remuneracao": "R$ 6.397,19 de vencimento básico em A/Nível 1/Dedicação Exclusiva, chegando a R$ 13.753,96 com a maior titulação",
+    "banca": "Comissão própria da UNIFEI",
+    "link_oficial": "https://progepe.unifei.edu.br/concursos-e-processos-seletivos/edital-no-51-2026/",
+    "inscricao": {
+      "inicio": "2026-10-09",
+      "fim": "2026-11-08",
+      "situacao": "aberta",
+      "taxa": "R$ 200,00"
+    },
+    "etapas": [
+      {
+        "nome": "Prova Escrita",
+        "tipo": "discursiva",
+        "carater": "Eliminatória e classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "data, horário e local no edital de convocação (8.3); em duas fases, no primeiro dia previsto no edital de convocação, logo após o sorteio de temas (9.4.1, I)"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Prova Prática",
+        "tipo": "outra",
+        "carater": "Eliminatória e classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "data no edital de convocação; o local é divulgado no primeiro dia de realização do concurso"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Prova Didática",
+        "tipo": "didatica",
+        "carater": "Eliminatória e classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "24 horas após sorteio do tópico da Prova Didática (sorteio tema, didatica)"
+        },
+        "detalhe": {
+          "duracao": "50 minutos, com tolerância de 5 para mais ou para menos. Aos 55 minutos a banca interrompe",
+          "arguicao": "Sim, por até 30 minutos",
+          "sorteio": "Tema sorteado com 24 horas de antecedência",
+          "nota_minima": "70 em 100",
+          "plano_de_aula": "Exigido: entregues dentro do período de vinte e quatro horas contado imediatamente após o sorteio da Prova Didática, de acordo com o disposto no edital de convocação para esta prova"
+        }
+      },
+      {
+        "nome": "Prova Científica",
+        "tipo": "outra",
+        "carater": "Eliminatória e classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "data no edital de convocação; ordem de apresentação igual à da Prova Didática"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Prova de Títulos",
+        "tipo": "titulos",
+        "carater": "Classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Resultado final",
+        "tipo": "resultado",
+        "carater": "",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "somente após a realização de todas as provas (eliminatórias e classificatória)"
+        },
+        "detalhe": {}
+      }
+    ],
+    "formacoes_status": "nao_extraido",
+    "familias": [],
+    "formacoes": [],
+    "familias_pos": [],
+    "areas_formacoes": [],
+    "observacao": "",
+    "detalhamento": "completo",
+    "avisos_edital": [],
+    "fonte_dados": {
+      "origem": "extracao_v2",
+      "extracoes": [
+        "unifei-51-2026"
+      ],
+      "extraido_em": "2026-10-18",
       "em_conferencia": true
     }
   }
