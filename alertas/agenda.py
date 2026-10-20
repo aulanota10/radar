@@ -18,7 +18,7 @@ Uso:
       --anterior estado/estado.json --saida saida/
 Sem --anterior, a execução é a linha de base: não há alerta de documento novo.
 """
-import argparse, collections, datetime as dt, glob, json, os, re
+import argparse, collections, datetime as dt, glob, json, os, re, unicodedata
 
 # ---------------------------------------------------------------- regras
 
@@ -601,6 +601,24 @@ def areas(c):
     return out
 
 
+def norma_titulo(t):
+    t = unicodedata.normalize("NFD", t or "")
+    t = "".join(ch for ch in t if not unicodedata.combining(ch)).lower()
+    t = re.sub(r"\((?:retificad[oa]|novo|nova)[^)]*\)", " ", t)
+    return re.sub(r"[^a-z0-9]+", " ", t).strip()
+
+
+def areas_do_documento(titulo, nomes_area):
+    """Códigos das áreas que o título de um documento pendente cita pelo nome (UFBA 06: "PERSPECTIVAS INDÍGENAS
+    NAS ARTES (RETIFICADO)"). None quando o título não casa com nenhuma área: aí a retenção vale para o concurso todo."""
+    t = norma_titulo(titulo)
+    if len(t) < 8:
+        return None
+    achadas = {cod for cod, nome in nomes_area.items()
+               if len(norma_titulo(nome)) >= 8 and (norma_titulo(nome) in t or t in norma_titulo(nome))}
+    return achadas or None
+
+
 def nome_concurso(c):
     sig = val(c.get("sigla")) or val(c.get("instituicao")) or c["_slug"]
     ed = val(c.get("numero_edital"))
@@ -767,8 +785,17 @@ def executar(vigia, hoje, anterior):
         pendentes_leitura = [v for v in registro_por_conc.get(slug, []) if v.get("status") == "enviado"
                              and v.get("tipo_provavel") in ("retificacao", "cronograma", "edital_complementar")
                              and v.get("caminho") and v["caminho"] not in triados]
+        # Retenção por área: se todos os documentos pendentes citam áreas pelo nome, só essas ficam retidas
+        # (UFBA 06, 20/10: a retificação de Perspectivas Indígenas nas Artes reteve a defesa de hoje da área 02).
+        # Basta um documento sem área reconhecível para a retenção valer para o concurso todo, como antes.
+        retidas = None
+        if pendentes_leitura:
+            por_doc = [areas_do_documento(limpa_titulo(v.get("texto")), nomes_area) for v in pendentes_leitura]
+            if all(por_doc):
+                retidas = set().union(*por_doc)
         if pendentes_leitura and sit == "ativo":
-            rel["retido"].append(f"{nome}: alertas agendados retidos até o extrator ler {len(pendentes_leitura)} documento(s) que podem mudar datas: " + "; ".join(limpa_titulo(v.get("texto"))[:70] for v in pendentes_leitura[:3]) + ("..." if len(pendentes_leitura) > 3 else "") + ".")
+            onde = f" (áreas {', '.join(sorted(retidas))})" if retidas else ""
+            rel["retido"].append(f"{nome}: alertas agendados retidos{onde} até o extrator ler {len(pendentes_leitura)} documento(s) que podem mudar datas: " + "; ".join(limpa_titulo(v.get("texto"))[:70] for v in pendentes_leitura[:3]) + ("..." if len(pendentes_leitura) > 3 else "") + ".")
         ev_por_id = {e.get("id"): e for e in c["eventos"]}
 
         edital = next((x["caminho"] for x in c["_triagem"] if x.get("tipo") == "edital_abertura"
@@ -867,8 +894,12 @@ def executar(vigia, hoje, anterior):
             if presenca:
                 regra = REGRA_PRESENCA
             periodo = periodo_da_prova(e) and not prova_com_dia_marcado(e, c["eventos"])
-            if not regra or f not in ("fixa", "janela") or pendentes_leitura or (janela_longa(e) and not periodo):
+            if not regra or f not in ("fixa", "janela") or (pendentes_leitura and retidas is None) or (janela_longa(e) and not periodo):
                 continue
+            if retidas:
+                dest = [x for x in (nomes_area if dest == [None] else dest) if x not in retidas and x not in canceladas]
+                if not dest:
+                    continue
             if periodo:
                 regra = REGRA_PERIODO
             individual = horario_individual(e)

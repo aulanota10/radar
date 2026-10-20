@@ -504,6 +504,44 @@ class Conferencia1310Textos(unittest.TestCase):
         m = rodar_msgs(evs, dt.date(2026, 10, 13), dt.date(2026, 10, 12), triagem=tri)[None]
         self.assertIn("Saiu o resultado de uma etapa: Resultado Preliminar da Segunda Fase", m)
 
+class RetencaoPorArea(unittest.TestCase):
+    """Conferência de 20/10, UFBA 06: a retificação de uma área reteve os avisos de todas as outras."""
+    def rodar(self, titulo):
+        eventos = [dict(ISENCAO_GERAL, escopo=["02"], id="ev-0001", estado="vigente"),
+                   dict(ISENCAO_GERAL, escopo=["26"], id="ev-0002", estado="vigente")]
+        vagas = [{"codigo": {"numero": "02"}, "area_conhecimento": "Enfermagem no Cuidado à Saúde da Mulher"},
+                 {"codigo": {"numero": "26"}, "area_conhecimento": "Perspectivas indígenas nas artes"}]
+        with tempfile.TemporaryDirectory() as v:
+            os.makedirs(os.path.join(v, "extracoes", "t"))
+            os.makedirs(os.path.join(v, "_vigia"))
+            with open(os.path.join(v, "extracoes", "t", "concurso-t.json"), "w") as fh:
+                json.dump({"sigla": "TESTE", "eventos": eventos, "vagas": vagas}, fh)
+            with open(os.path.join(v, "_vigia", "registro.json"), "w") as fh:
+                json.dump({"docs": {"u": {"status": "enviado", "tipo_provavel": "retificacao", "texto": titulo,
+                                          "caminho": "documentos/t/r.pdf", "primeira_vez": "2026-10-12 07:00:00",
+                                          "concursos": {"t": {"texto": titulo}}}}}, fh)
+            _, _, avisos, rel, _, _ = A.executar(v, dt.date(2026, 10, 11), {"gerado_em": "2026-10-10", "concursos": {}})
+        out = {}
+        for (_, area), its in avisos.items():
+            out.setdefault(area, []).extend(x["texto"] for x in its if x["tipo"] == "agendado")
+        return out, rel
+
+    def test_so_a_area_citada_fica_retida(self):
+        out, rel = self.rodar("PERSPECTIVAS INDÍGENAS NAS ARTES (RETIFICADO)")
+        self.assertTrue(any("13/10" in x for x in out.get("02", [])), out)  # as outras áreas continuam recebendo
+        self.assertFalse(out.get("26"), out)
+        self.assertTrue(any("áreas 26" in x for x in rel["retido"]), rel["retido"])
+
+    def test_titulo_sem_area_reconhecivel_retem_o_concurso_todo(self):
+        out, rel = self.rodar("Etapa Presencial - Cronograma")
+        self.assertFalse(any(out.values()), out)
+
+    def test_areas_do_documento(self):
+        n = {"02": "Enfermagem no Cuidado à Saúde da Mulher", "26": "Perspectivas indígenas nas artes"}
+        self.assertEqual(A.areas_do_documento("PERSPECTIVAS INDÍGENAS NAS ARTES (RETIFICADO)", n), {"26"})
+        self.assertIsNone(A.areas_do_documento("Cronograma", n))
+
+
 
 if __name__ == "__main__":
     unittest.main()
