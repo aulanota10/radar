@@ -533,6 +533,22 @@ def nome_evento(e):
     return NOME_EVENTO.get(t, t.replace("_", " "))
 
 
+def doc_da_area(item, area, novos, triagem):
+    """Evento que vale para várias áreas mas veio no documento de uma só (UNILAB 14, 20/10: prazo de desistência da
+    reserva no cronograma de Saúde da Mulher, valendo também para Métodos de Imagem e Psiquiatria): a área de fora
+    não pode ler "Novo documento publicado: <outra área>". Se ela tem um único documento novo do mesmo tipo, o aviso
+    cita esse; senão fica como está."""
+    def esc(p):
+        v = (triagem.get(p) or {}).get("escopo") or {}
+        return v.get("valor") if isinstance(v, dict) else None
+    ed = esc(item["doc"])
+    if area is None or not isinstance(ed, list) or area in ed:
+        return item
+    tipo = (triagem.get(item["doc"]) or {}).get("tipo")
+    proprios = [p for p in novos if (triagem.get(p) or {}).get("tipo") == tipo and isinstance(esc(p), list) and area in esc(p)]
+    return dict(item, doc=proprios[0]) if len(proprios) == 1 else item
+
+
 def evento_vigente_da_retificacao(eventos, ev, cam):
     """Quando a retificação troca um evento por outro, o aviso descreve o evento vigente da mesma
     retificação, não o literal antigo (IFSULDEMINAS 188, conferência de 20/10: o ev-0050, de 4 vias
@@ -833,6 +849,9 @@ def executar(vigia, hoje, anterior):
                 continue
             alteradas.add(json.dumps([ea.get("tipo_evento"), ea.get("etapa_ref"), ea.get("escopo"),
                                       chave_data(alt.get("valor_novo"))], ensure_ascii=False))
+            _f, _i, _j, _h = intervalo(alt.get("valor_novo"))
+            if _f in ("fixa", "janela") and (_j or _i) and (_j or _i) < hoje:
+                continue  # UFERSA 030, 20/10: "pagamento era até 12/10, agora é até 13/10" depois de 13/10 é só ruído
             pseudo = ev_por_id.get(ea.get("evento_id")) or {"tipo_evento": ea.get("tipo_evento") or "evento",
                                                               "etapa_ref": ea.get("etapa_ref"), "fase": None}
             pseudo = evento_vigente_da_retificacao(c["eventos"], pseudo, cam)
@@ -886,7 +905,7 @@ def executar(vigia, hoje, anterior):
                     item = {"tipo": "data_nova", "doc": fonte["documento"],
                             "texto": f"{rotulo(e)}: {texto_ev(e, hoje)}", "fonte": fonte}
                     for d in dest:
-                        avisos[(slug, d)].append(item)
+                        avisos[(slug, d)].append(doc_da_area(item, d, novos, triagem))
 
             # alerta agendado
             regra = REGRAS.get(e["tipo_evento"])

@@ -541,6 +541,22 @@ class RetencaoPorArea(unittest.TestCase):
         self.assertEqual(A.areas_do_documento("PERSPECTIVAS INDÍGENAS NAS ARTES (RETIFICADO)", n), {"26"})
         self.assertIsNone(A.areas_do_documento("Cronograma", n))
 
+class DocDaArea(unittest.TestCase):
+    """Conferência de 20/10, UNILAB 14: o prazo de desistência de Saúde da Mulher foi anunciado às áreas 07 e 09 sob o documento de Saúde da Mulher."""
+    TRI = {"a.pdf": {"tipo": "retificacao_cronograma", "escopo": {"valor": ["06"]}},
+           "b.pdf": {"tipo": "retificacao_cronograma", "escopo": {"valor": ["07"]}},
+           "c.pdf": {"tipo": "retificacao_cronograma", "escopo": {"valor": ["09"]}}}
+
+    def test_area_de_fora_cita_o_proprio_documento(self):
+        item = {"tipo": "data_nova", "doc": "a.pdf", "texto": "x"}
+        self.assertEqual(A.doc_da_area(item, "07", {"a.pdf", "b.pdf", "c.pdf"}, self.TRI)["doc"], "b.pdf")
+        self.assertEqual(A.doc_da_area(item, "06", {"a.pdf", "b.pdf", "c.pdf"}, self.TRI)["doc"], "a.pdf")
+
+    def test_sem_documento_proprio_fica_como_esta(self):
+        item = {"tipo": "data_nova", "doc": "a.pdf", "texto": "x"}
+        self.assertEqual(A.doc_da_area(item, "07", {"a.pdf"}, self.TRI)["doc"], "a.pdf")
+        self.assertEqual(A.doc_da_area(item, None, {"a.pdf", "b.pdf"}, self.TRI)["doc"], "a.pdf")
+
 
 
 if __name__ == "__main__":
