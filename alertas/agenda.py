@@ -533,6 +533,19 @@ def nome_evento(e):
     return NOME_EVENTO.get(t, t.replace("_", " "))
 
 
+def evento_vigente_da_retificacao(eventos, ev, cam):
+    """Quando a retificação troca um evento por outro, o aviso descreve o evento vigente da mesma
+    retificação, não o literal antigo (IFSULDEMINAS 188, conferência de 20/10: o ev-0050, de 4 vias
+    entregues à banca, virou o ev-0156, de envio em PDF até uma hora antes). Sem um único candidato, fica o evento dado."""
+    if ev.get("estado") != "substituido":
+        return ev
+    novos = [x for x in eventos
+             if x.get("estado") == "vigente" and x["tipo_evento"] == ev["tipo_evento"]
+             and x.get("etapa_ref") == ev.get("etapa_ref") and x.get("fase") == ev.get("fase")
+             and x.get("escopo") == ev.get("escopo") and (x.get("fonte") or {}).get("documento") == cam]
+    return novos[0] if len(novos) == 1 else ev
+
+
 def chave_evento(e):
     return json.dumps([e["tipo_evento"], e.get("etapa_ref"), e.get("fase"), e["escopo"],
                        e.get("modalidade"), re.sub(r"\s+", " ", e.get("descricao_literal") or "").strip()],
@@ -795,6 +808,7 @@ def executar(vigia, hoje, anterior):
                                       chave_data(alt.get("valor_novo"))], ensure_ascii=False))
             pseudo = ev_por_id.get(ea.get("evento_id")) or {"tipo_evento": ea.get("tipo_evento") or "evento",
                                                               "etapa_ref": ea.get("etapa_ref"), "fase": None}
+            pseudo = evento_vigente_da_retificacao(c["eventos"], pseudo, cam)
             item = {"tipo": "mudanca", "doc": cam,
                     "texto": (f"{rotulo(pseudo)}: era {texto_data(alt.get('valor_anterior'), hoje, pseudo.get('tipo_evento'))}, agora é {texto_data(alt.get('valor_novo'), hoje, pseudo.get('tipo_evento'))}"
                               if intervalo(alt.get("valor_anterior"))[1] else

@@ -216,6 +216,27 @@ class Agendados(unittest.TestCase):
         self.assertEqual(t, [])
 
 
+class RetificacaoTrocaEvento(unittest.TestCase):
+    """Conferência de 20/10, IFSULDEMINAS 188: o aviso da 3ª Retificação trazia a descrição antiga."""
+    CAM = "documentos/x/3ª RETIFICAÇÃO.pdf"
+    ANTIGO = {"id": "ev-0050", "tipo_evento": "entrega_documento", "etapa_ref": "didatica", "fase": None, "escopo": "geral",
+              "estado": "substituido", "descricao_literal": "entrega do plano de aula em 4 vias assinadas, à Banca"}
+    NOVO = {"id": "ev-0156", "tipo_evento": "entrega_documento", "etapa_ref": "didatica", "fase": None, "escopo": "geral",
+            "estado": "vigente", "descricao_literal": "Envio do plano de aula em PDF por e-mail",
+            "fonte": {"documento": CAM}}
+
+    def test_usa_o_evento_vigente_da_mesma_retificacao(self):
+        r = A.evento_vigente_da_retificacao([self.ANTIGO, self.NOVO], self.ANTIGO, self.CAM)
+        self.assertEqual(r["id"], "ev-0156")
+        self.assertIn("PDF", A.rotulo(r))
+
+    def test_sem_candidato_unico_fica_o_evento_dado(self):
+        outro = dict(self.NOVO, id="ev-0157")
+        self.assertEqual(A.evento_vigente_da_retificacao([self.ANTIGO, self.NOVO, outro], self.ANTIGO, self.CAM)["id"], "ev-0050")
+        self.assertEqual(A.evento_vigente_da_retificacao([self.ANTIGO], self.ANTIGO, self.CAM)["id"], "ev-0050")
+        self.assertEqual(A.evento_vigente_da_retificacao([self.NOVO], self.NOVO, self.CAM)["id"], "ev-0156")
+
+
 def rodar_por_area(eventos, vagas, hoje, anterior_dia):
     """Como rodar(), com vagas, e devolve {área ou None: [textos dos agendados]}."""
     with tempfile.TemporaryDirectory() as v:
