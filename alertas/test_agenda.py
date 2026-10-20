@@ -216,6 +216,27 @@ class Agendados(unittest.TestCase):
         self.assertEqual(t, [])
 
 
+class RetificacaoTrocaEvento(unittest.TestCase):
+    """Conferência de 20/10, IFSULDEMINAS 188: o aviso da 3ª Retificação trazia a descrição antiga."""
+    CAM = "documentos/x/3ª RETIFICAÇÃO.pdf"
+    ANTIGO = {"id": "ev-0050", "tipo_evento": "entrega_documento", "etapa_ref": "didatica", "fase": None, "escopo": "geral",
+              "estado": "substituido", "descricao_literal": "entrega do plano de aula em 4 vias assinadas, à Banca"}
+    NOVO = {"id": "ev-0156", "tipo_evento": "entrega_documento", "etapa_ref": "didatica", "fase": None, "escopo": "geral",
+            "estado": "vigente", "descricao_literal": "Envio do plano de aula em PDF por e-mail",
+            "fonte": {"documento": CAM}}
+
+    def test_usa_o_evento_vigente_da_mesma_retificacao(self):
+        r = A.evento_vigente_da_retificacao([self.ANTIGO, self.NOVO], self.ANTIGO, self.CAM)
+        self.assertEqual(r["id"], "ev-0156")
+        self.assertIn("PDF", A.rotulo(r))
+
+    def test_sem_candidato_unico_fica_o_evento_dado(self):
+        outro = dict(self.NOVO, id="ev-0157")
+        self.assertEqual(A.evento_vigente_da_retificacao([self.ANTIGO, self.NOVO, outro], self.ANTIGO, self.CAM)["id"], "ev-0050")
+        self.assertEqual(A.evento_vigente_da_retificacao([self.ANTIGO], self.ANTIGO, self.CAM)["id"], "ev-0050")
+        self.assertEqual(A.evento_vigente_da_retificacao([self.NOVO], self.NOVO, self.CAM)["id"], "ev-0156")
+
+
 def rodar_por_area(eventos, vagas, hoje, anterior_dia):
     """Como rodar(), com vagas, e devolve {área ou None: [textos dos agendados]}."""
     with tempfile.TemporaryDirectory() as v:
@@ -482,6 +503,60 @@ class Conferencia1310Textos(unittest.TestCase):
                 "data_publicacao": {"valor": "2026-10-13"}, "escopo": {"valor": "geral"}}]
         m = rodar_msgs(evs, dt.date(2026, 10, 13), dt.date(2026, 10, 12), triagem=tri)[None]
         self.assertIn("Saiu o resultado de uma etapa: Resultado Preliminar da Segunda Fase", m)
+
+class RetencaoPorArea(unittest.TestCase):
+    """Conferência de 20/10, UFBA 06: a retificação de uma área reteve os avisos de todas as outras."""
+    def rodar(self, titulo):
+        eventos = [dict(ISENCAO_GERAL, escopo=["02"], id="ev-0001", estado="vigente"),
+                   dict(ISENCAO_GERAL, escopo=["26"], id="ev-0002", estado="vigente")]
+        vagas = [{"codigo": {"numero": "02"}, "area_conhecimento": "Enfermagem no Cuidado à Saúde da Mulher"},
+                 {"codigo": {"numero": "26"}, "area_conhecimento": "Perspectivas indígenas nas artes"}]
+        with tempfile.TemporaryDirectory() as v:
+            os.makedirs(os.path.join(v, "extracoes", "t"))
+            os.makedirs(os.path.join(v, "_vigia"))
+            with open(os.path.join(v, "extracoes", "t", "concurso-t.json"), "w") as fh:
+                json.dump({"sigla": "TESTE", "eventos": eventos, "vagas": vagas}, fh)
+            with open(os.path.join(v, "_vigia", "registro.json"), "w") as fh:
+                json.dump({"docs": {"u": {"status": "enviado", "tipo_provavel": "retificacao", "texto": titulo,
+                                          "caminho": "documentos/t/r.pdf", "primeira_vez": "2026-10-12 07:00:00",
+                                          "concursos": {"t": {"texto": titulo}}}}}, fh)
+            _, _, avisos, rel, _, _ = A.executar(v, dt.date(2026, 10, 11), {"gerado_em": "2026-10-10", "concursos": {}})
+        out = {}
+        for (_, area), its in avisos.items():
+            out.setdefault(area, []).extend(x["texto"] for x in its if x["tipo"] == "agendado")
+        return out, rel
+
+    def test_so_a_area_citada_fica_retida(self):
+        out, rel = self.rodar("PERSPECTIVAS INDÍGENAS NAS ARTES (RETIFICADO)")
+        self.assertTrue(any("13/10" in x for x in out.get("02", [])), out)  # as outras áreas continuam recebendo
+        self.assertFalse(out.get("26"), out)
+        self.assertTrue(any("áreas 26" in x for x in rel["retido"]), rel["retido"])
+
+    def test_titulo_sem_area_reconhecivel_retem_o_concurso_todo(self):
+        out, rel = self.rodar("Etapa Presencial - Cronograma")
+        self.assertFalse(any(out.values()), out)
+
+    def test_areas_do_documento(self):
+        n = {"02": "Enfermagem no Cuidado à Saúde da Mulher", "26": "Perspectivas indígenas nas artes"}
+        self.assertEqual(A.areas_do_documento("PERSPECTIVAS INDÍGENAS NAS ARTES (RETIFICADO)", n), {"26"})
+        self.assertIsNone(A.areas_do_documento("Cronograma", n))
+
+class DocDaArea(unittest.TestCase):
+    """Conferência de 20/10, UNILAB 14: o prazo de desistência de Saúde da Mulher foi anunciado às áreas 07 e 09 sob o documento de Saúde da Mulher."""
+    TRI = {"a.pdf": {"tipo": "retificacao_cronograma", "escopo": {"valor": ["06"]}},
+           "b.pdf": {"tipo": "retificacao_cronograma", "escopo": {"valor": ["07"]}},
+           "c.pdf": {"tipo": "retificacao_cronograma", "escopo": {"valor": ["09"]}}}
+
+    def test_area_de_fora_cita_o_proprio_documento(self):
+        item = {"tipo": "data_nova", "doc": "a.pdf", "texto": "x"}
+        self.assertEqual(A.doc_da_area(item, "07", {"a.pdf", "b.pdf", "c.pdf"}, self.TRI)["doc"], "b.pdf")
+        self.assertEqual(A.doc_da_area(item, "06", {"a.pdf", "b.pdf", "c.pdf"}, self.TRI)["doc"], "a.pdf")
+
+    def test_sem_documento_proprio_fica_como_esta(self):
+        item = {"tipo": "data_nova", "doc": "a.pdf", "texto": "x"}
+        self.assertEqual(A.doc_da_area(item, "07", {"a.pdf"}, self.TRI)["doc"], "a.pdf")
+        self.assertEqual(A.doc_da_area(item, None, {"a.pdf", "b.pdf"}, self.TRI)["doc"], "a.pdf")
+
 
 
 if __name__ == "__main__":

@@ -18,7 +18,7 @@ Uso:
       --anterior estado/estado.json --saida saida/
 Sem --anterior, a execução é a linha de base: não há alerta de documento novo.
 """
-import argparse, collections, datetime as dt, glob, json, os, re
+import argparse, collections, datetime as dt, glob, json, os, re, unicodedata
 
 # ---------------------------------------------------------------- regras
 
@@ -533,6 +533,35 @@ def nome_evento(e):
     return NOME_EVENTO.get(t, t.replace("_", " "))
 
 
+def doc_da_area(item, area, novos, triagem):
+    """Evento que vale para várias áreas mas veio no documento de uma só (UNILAB 14, 20/10: prazo de desistência da
+    reserva no cronograma de Saúde da Mulher, valendo também para Métodos de Imagem e Psiquiatria): a área de fora
+    não pode ler "Novo documento publicado: <outra área>". Se ela tem um único documento novo do mesmo tipo, o aviso
+    cita esse; senão fica como está."""
+    def esc(p):
+        v = (triagem.get(p) or {}).get("escopo") or {}
+        return v.get("valor") if isinstance(v, dict) else None
+    ed = esc(item["doc"])
+    if area is None or not isinstance(ed, list) or area in ed:
+        return item
+    tipo = (triagem.get(item["doc"]) or {}).get("tipo")
+    proprios = [p for p in novos if (triagem.get(p) or {}).get("tipo") == tipo and isinstance(esc(p), list) and area in esc(p)]
+    return dict(item, doc=proprios[0]) if len(proprios) == 1 else item
+
+
+def evento_vigente_da_retificacao(eventos, ev, cam):
+    """Quando a retificação troca um evento por outro, o aviso descreve o evento vigente da mesma
+    retificação, não o literal antigo (IFSULDEMINAS 188, conferência de 20/10: o ev-0050, de 4 vias
+    entregues à banca, virou o ev-0156, de envio em PDF até uma hora antes). Sem um único candidato, fica o evento dado."""
+    if ev.get("estado") != "substituido":
+        return ev
+    novos = [x for x in eventos
+             if x.get("estado") == "vigente" and x["tipo_evento"] == ev["tipo_evento"]
+             and x.get("etapa_ref") == ev.get("etapa_ref") and x.get("fase") == ev.get("fase")
+             and x.get("escopo") == ev.get("escopo") and (x.get("fonte") or {}).get("documento") == cam]
+    return novos[0] if len(novos) == 1 else ev
+
+
 def chave_evento(e):
     return json.dumps([e["tipo_evento"], e.get("etapa_ref"), e.get("fase"), e["escopo"],
                        e.get("modalidade"), re.sub(r"\s+", " ", e.get("descricao_literal") or "").strip()],
@@ -586,6 +615,24 @@ def areas(c):
         if cod:
             out[str(cod)] = a.get("area_conhecimento") or a.get("unidade") or f"área {cod}"
     return out
+
+
+def norma_titulo(t):
+    t = unicodedata.normalize("NFD", t or "")
+    t = "".join(ch for ch in t if not unicodedata.combining(ch)).lower()
+    t = re.sub(r"\((?:retificad[oa]|novo|nova)[^)]*\)", " ", t)
+    return re.sub(r"[^a-z0-9]+", " ", t).strip()
+
+
+def areas_do_documento(titulo, nomes_area):
+    """Códigos das áreas que o título de um documento pendente cita pelo nome (UFBA 06: "PERSPECTIVAS INDÍGENAS
+    NAS ARTES (RETIFICADO)"). None quando o título não casa com nenhuma área: aí a retenção vale para o concurso todo."""
+    t = norma_titulo(titulo)
+    if len(t) < 8:
+        return None
+    achadas = {cod for cod, nome in nomes_area.items()
+               if len(norma_titulo(nome)) >= 8 and (norma_titulo(nome) in t or t in norma_titulo(nome))}
+    return achadas or None
 
 
 def nome_concurso(c):
@@ -754,8 +801,17 @@ def executar(vigia, hoje, anterior):
         pendentes_leitura = [v for v in registro_por_conc.get(slug, []) if v.get("status") == "enviado"
                              and v.get("tipo_provavel") in ("retificacao", "cronograma", "edital_complementar")
                              and v.get("caminho") and v["caminho"] not in triados]
+        # Retenção por área: se todos os documentos pendentes citam áreas pelo nome, só essas ficam retidas
+        # (UFBA 06, 20/10: a retificação de Perspectivas Indígenas nas Artes reteve a defesa de hoje da área 02).
+        # Basta um documento sem área reconhecível para a retenção valer para o concurso todo, como antes.
+        retidas = None
+        if pendentes_leitura:
+            por_doc = [areas_do_documento(limpa_titulo(v.get("texto")), nomes_area) for v in pendentes_leitura]
+            if all(por_doc):
+                retidas = set().union(*por_doc)
         if pendentes_leitura and sit == "ativo":
-            rel["retido"].append(f"{nome}: alertas agendados retidos até o extrator ler {len(pendentes_leitura)} documento(s) que podem mudar datas: " + "; ".join(limpa_titulo(v.get("texto"))[:70] for v in pendentes_leitura[:3]) + ("..." if len(pendentes_leitura) > 3 else "") + ".")
+            onde = f" (áreas {', '.join(sorted(retidas))})" if retidas else ""
+            rel["retido"].append(f"{nome}: alertas agendados retidos{onde} até o extrator ler {len(pendentes_leitura)} documento(s) que podem mudar datas: " + "; ".join(limpa_titulo(v.get("texto"))[:70] for v in pendentes_leitura[:3]) + ("..." if len(pendentes_leitura) > 3 else "") + ".")
         ev_por_id = {e.get("id"): e for e in c["eventos"]}
 
         edital = next((x["caminho"] for x in c["_triagem"] if x.get("tipo") == "edital_abertura"
@@ -793,8 +849,12 @@ def executar(vigia, hoje, anterior):
                 continue
             alteradas.add(json.dumps([ea.get("tipo_evento"), ea.get("etapa_ref"), ea.get("escopo"),
                                       chave_data(alt.get("valor_novo"))], ensure_ascii=False))
+            _f, _i, _j, _h = intervalo(alt.get("valor_novo"))
+            if _f in ("fixa", "janela") and (_j or _i) and (_j or _i) < hoje:
+                continue  # UFERSA 030, 20/10: "pagamento era até 12/10, agora é até 13/10" depois de 13/10 é só ruído
             pseudo = ev_por_id.get(ea.get("evento_id")) or {"tipo_evento": ea.get("tipo_evento") or "evento",
                                                               "etapa_ref": ea.get("etapa_ref"), "fase": None}
+            pseudo = evento_vigente_da_retificacao(c["eventos"], pseudo, cam)
             item = {"tipo": "mudanca", "doc": cam,
                     "texto": (f"{rotulo(pseudo)}: era {texto_data(alt.get('valor_anterior'), hoje, pseudo.get('tipo_evento'))}, agora é {texto_data(alt.get('valor_novo'), hoje, pseudo.get('tipo_evento'))}"
                               if intervalo(alt.get("valor_anterior"))[1] else
@@ -845,7 +905,7 @@ def executar(vigia, hoje, anterior):
                     item = {"tipo": "data_nova", "doc": fonte["documento"],
                             "texto": f"{rotulo(e)}: {texto_ev(e, hoje)}", "fonte": fonte}
                     for d in dest:
-                        avisos[(slug, d)].append(item)
+                        avisos[(slug, d)].append(doc_da_area(item, d, novos, triagem))
 
             # alerta agendado
             regra = REGRAS.get(e["tipo_evento"])
@@ -853,8 +913,12 @@ def executar(vigia, hoje, anterior):
             if presenca:
                 regra = REGRA_PRESENCA
             periodo = periodo_da_prova(e) and not prova_com_dia_marcado(e, c["eventos"])
-            if not regra or f not in ("fixa", "janela") or pendentes_leitura or (janela_longa(e) and not periodo):
+            if not regra or f not in ("fixa", "janela") or (pendentes_leitura and retidas is None) or (janela_longa(e) and not periodo):
                 continue
+            if retidas:
+                dest = [x for x in (nomes_area if dest == [None] else dest) if x not in retidas and x not in canceladas]
+                if not dest:
+                    continue
             if periodo:
                 regra = REGRA_PERIODO
             individual = horario_individual(e)
