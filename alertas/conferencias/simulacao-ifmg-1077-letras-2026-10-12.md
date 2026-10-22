@@ -4,7 +4,9 @@ Perfil simulado: licenciatura em Letras com habilitação em Língua Portuguesa 
 
 As mensagens de datas foram geradas pelo leitor dos alertas, rodando dia a dia de 13/10/2026 a 18/06/2027 (sem sábado), sobre a extração atual. Esta versão foi regravada na noite de 12/10 depois da correção do silêncio sobre a prova de desempenho didático (período de 19 a 29/04/2027), com os modelos de texto fechados (sem a linha de fonte, que fica só na fila interna). A candidata passa a receber três avisos do período da prova didática, em 21/03 (o aviso de 30 dias cairia no sábado 20/03 e sai no primeiro dia de rodada), 04/04 e 12/04, e as demais mensagens só diferem da simulação anterior porque a linha de fonte saiu, o que fez quatro avisos que saíam em duas partes (25/12, 10/01, 17/01 e 22/01) caberem em uma. Documentos que ainda não saíram (retificações futuras, convocação da didática, locais de prova) não aparecem: na vida real eles gerariam avisos de documento novo além destes.
 
-Regravada em 22/10/2026 depois da decisão do Samuel sobre as mensagens de cota. A candidata não concorre por cota e, por isso, deixa de receber 8 das 51 mensagens: sete que tratam da realização, do resultado preliminar, do recurso e do resultado final dos procedimentos complementares à autodeclaração e da avaliação de equipe multidisciplinar (pessoa com deficiência), que passaram a ser avisos só de cota, e uma sobre a avaliação recursal desses procedimentos, etapa interna da comissão que não vai a ninguém. Outras duas mensagens da lista antiga, de 10/05 e 12/05/2027, continuam, porque trazem junto o resultado final da prova didática e da prova de títulos; só perderam a linha da convocação de cota. Ela passa a receber 43 mensagens de datas. Quem marca cota no cadastro recebe 50, as mesmas de antes menos a da avaliação recursal.
+Regravada em 22/10/2026 depois da decisão do Samuel sobre as mensagens de cota. A candidata não concorre por cota e, por isso, deixa de receber 8 das 51 mensagens: sete que tratam da realização, do resultado preliminar, do recurso e do resultado final dos procedimentos complementares à autodeclaração e da avaliação de equipe multidisciplinar (pessoa com deficiência), que passaram a ser avisos só de cota, e uma sobre a avaliação recursal desses procedimentos, etapa interna da comissão que não vai a ninguém. Outras duas mensagens da lista antiga, de 10/05 e 12/05/2027, continuam, porque trazem junto o resultado final da prova didática e da prova de títulos; só perderam a linha da convocação de cota. Nessa versão ela passou a receber 43 mensagens de datas. Quem marca cota no cadastro recebe 50, as mesmas de antes menos a da avaliação recursal.
+
+Regravada de novo em 22/10/2026 depois da decisão do Samuel sobre o aviso de resultado, que passou a sair uma vez só, dois dias antes, e não mais também no dia da publicação. A candidata sem cota deixa de receber as mensagens de 16/11/2026, 12/02, 18/02, 23/03, 04/05 e 12/05/2027, que traziam só o aviso do dia, e passa de 43 para 37 mensagens. As de 23/11/2026 e 31/03/2027 continuam, porque levam outras datas, só sem a linha do resultado de que ela já tinha sido avisada. Quem marca cota passa de 50 para 45. O resultado do concurso (preliminar em 11/06 e final em 18/06/2027) segue com aviso só no dia, como antes.
 
 ## 12/10/2026 · alerta de concurso novo
 
@@ -20,7 +22,7 @@ Confira o requisito completo no edital (https://portal.concursos.ifmg.edu.br/). 
 Para não receber mais, responda SAIR.
 ```
 
-## 13/10/2026 (terça) · mensagem 1 de 43
+## 13/10/2026 (terça) · mensagem 1 de 37
 
 ```
 Radar Aula Nota 10: aviso do concurso IFMG 1077/2026 para todas as áreas.
@@ -32,7 +34,7 @@ Confira nos documentos oficiais (https://portal.concursos.ifmg.edu.br/). A infor
 Para não receber mais, responda SAIR.
 ```
 
-## 20/10/2026 (terça) · mensagem 2 de 43
+## 20/10/2026 (terça) · mensagem 2 de 37
 
 ```
 Radar Aula Nota 10: aviso do concurso IFMG 1077/2026 para todas as áreas.
@@ -44,7 +46,7 @@ Confira nos documentos oficiais (https://portal.concursos.ifmg.edu.br/). A infor
 Para não receber mais, responda SAIR.
 ```
 
-## 06/11/2026 (sexta) · mensagem 3 de 43
+## 06/11/2026 (sexta) · mensagem 3 de 37
 
 ```
 Radar Aula Nota 10: aviso do concurso IFMG 1077/2026 para todas as áreas.
@@ -56,7 +58,7 @@ Confira nos documentos oficiais (https://portal.concursos.ifmg.edu.br/). A infor
 Para não receber mais, responda SAIR.
 ```
 
-## 11/11/2026 (quarta) · mensagem 4 de 43
+## 11/11/2026 (quarta) · mensagem 4 de 37
 
 ```
 Radar Aula Nota 10: aviso do concurso IFMG 1077/2026 para todas as áreas.
@@ -68,7 +70,7 @@ Confira nos documentos oficiais (https://portal.concursos.ifmg.edu.br/). A infor
 Para não receber mais, responda SAIR.
 ```
 
-## 15/11/2026 (domingo) · mensagem 5 de 43
+## 15/11/2026 (domingo) · mensagem 5 de 37
 
 ```
 Radar Aula Nota 10: aviso do concurso IFMG 1077/2026 para todas as áreas.
@@ -80,19 +82,7 @@ Confira nos documentos oficiais (https://portal.concursos.ifmg.edu.br/). A infor
 Para não receber mais, responda SAIR.
 ```
 
-## 16/11/2026 (segunda) · mensagem 6 de 43
-
-```
-Radar Aula Nota 10: aviso do concurso IFMG 1077/2026 para todas as áreas.
-
-Datas que se aproximam: 16/11/2026 (segunda): Publicação do resultado preliminar da Homologação das inscrições (é hoje).
-
-Confira nos documentos oficiais (https://portal.concursos.ifmg.edu.br/). A informação oficial é sempre a do edital e dos documentos da instituição.
-
-Para não receber mais, responda SAIR.
-```
-
-## 17/11/2026 (terça) · mensagem 7 de 43
+## 17/11/2026 (terça) · mensagem 6 de 37
 
 ```
 Radar Aula Nota 10: aviso do concurso IFMG 1077/2026 para todas as áreas.
@@ -104,7 +94,7 @@ Confira nos documentos oficiais (https://portal.concursos.ifmg.edu.br/). A infor
 Para não receber mais, responda SAIR.
 ```
 
-## 22/11/2026 (domingo) · mensagem 8 de 43
+## 22/11/2026 (domingo) · mensagem 7 de 37
 
 ```
 Radar Aula Nota 10: aviso do concurso IFMG 1077/2026 para todas as áreas.
@@ -116,19 +106,19 @@ Confira nos documentos oficiais (https://portal.concursos.ifmg.edu.br/). A infor
 Para não receber mais, responda SAIR.
 ```
 
-## 23/11/2026 (segunda) · mensagem 9 de 43
+## 23/11/2026 (segunda) · mensagem 8 de 37
 
 ```
 Radar Aula Nota 10: aviso do concurso IFMG 1077/2026 para todas as áreas.
 
-Datas que se aproximam: 23/11/2026 (segunda): Publicação do resultado final da Homologação das Inscrições (é hoje). 25/11/2026 (quarta): Publicação da Composição Preliminar das Bancas Examinadoras (faltam 2 dias).
+Datas que se aproximam: 25/11/2026 (quarta): Publicação da Composição Preliminar das Bancas Examinadoras (faltam 2 dias).
 
 Confira nos documentos oficiais (https://portal.concursos.ifmg.edu.br/). A informação oficial é sempre a do edital e dos documentos da instituição.
 
 Para não receber mais, responda SAIR.
 ```
 
-## 25/11/2026 (quarta) · mensagem 10 de 43
+## 25/11/2026 (quarta) · mensagem 9 de 37
 
 ```
 Radar Aula Nota 10: aviso do concurso IFMG 1077/2026 para todas as áreas.
@@ -140,7 +130,7 @@ Confira nos documentos oficiais (https://portal.concursos.ifmg.edu.br/). A infor
 Para não receber mais, responda SAIR.
 ```
 
-## 26/11/2026 (quinta) · mensagem 11 de 43
+## 26/11/2026 (quinta) · mensagem 10 de 37
 
 ```
 Radar Aula Nota 10: aviso do concurso IFMG 1077/2026 para todas as áreas.
@@ -152,7 +142,7 @@ Confira nos documentos oficiais (https://portal.concursos.ifmg.edu.br/). A infor
 Para não receber mais, responda SAIR.
 ```
 
-## 01/12/2026 (terça) · mensagem 12 de 43
+## 01/12/2026 (terça) · mensagem 11 de 37
 
 ```
 Radar Aula Nota 10: aviso do concurso IFMG 1077/2026 para todas as áreas.
@@ -164,7 +154,7 @@ Confira nos documentos oficiais (https://portal.concursos.ifmg.edu.br/). A infor
 Para não receber mais, responda SAIR.
 ```
 
-## 03/12/2026 (quinta) · mensagem 13 de 43
+## 03/12/2026 (quinta) · mensagem 12 de 37
 
 ```
 Radar Aula Nota 10: aviso do concurso IFMG 1077/2026 para todas as áreas.
@@ -176,7 +166,7 @@ Confira nos documentos oficiais (https://portal.concursos.ifmg.edu.br/). A infor
 Para não receber mais, responda SAIR.
 ```
 
-## 25/12/2026 (sexta) · mensagem 14 de 43
+## 25/12/2026 (sexta) · mensagem 13 de 37
 
 ```
 Radar Aula Nota 10: aviso do concurso IFMG 1077/2026 para todas as áreas.
@@ -188,7 +178,7 @@ Confira nos documentos oficiais (https://portal.concursos.ifmg.edu.br/). A infor
 Para não receber mais, responda SAIR.
 ```
 
-## 10/01/2027 (domingo) · mensagem 15 de 43
+## 10/01/2027 (domingo) · mensagem 14 de 37
 
 ```
 Radar Aula Nota 10: aviso do concurso IFMG 1077/2026 para todas as áreas.
@@ -200,7 +190,7 @@ Confira nos documentos oficiais (https://portal.concursos.ifmg.edu.br/). A infor
 Para não receber mais, responda SAIR.
 ```
 
-## 17/01/2027 (domingo) · mensagem 16 de 43
+## 17/01/2027 (domingo) · mensagem 15 de 37
 
 ```
 Radar Aula Nota 10: aviso do concurso IFMG 1077/2026 para todas as áreas.
@@ -212,7 +202,7 @@ Confira nos documentos oficiais (https://portal.concursos.ifmg.edu.br/). A infor
 Para não receber mais, responda SAIR.
 ```
 
-## 22/01/2027 (sexta) · mensagem 17 de 43
+## 22/01/2027 (sexta) · mensagem 16 de 37
 
 ```
 Radar Aula Nota 10: aviso do concurso IFMG 1077/2026 para todas as áreas.
@@ -224,7 +214,7 @@ Confira nos documentos oficiais (https://portal.concursos.ifmg.edu.br/). A infor
 Para não receber mais, responda SAIR.
 ```
 
-## 24/01/2027 (domingo) · mensagem 18 de 43
+## 24/01/2027 (domingo) · mensagem 17 de 37
 
 ```
 Radar Aula Nota 10: aviso do concurso IFMG 1077/2026 para todas as áreas.
@@ -236,7 +226,7 @@ Confira nos documentos oficiais (https://portal.concursos.ifmg.edu.br/). A infor
 Para não receber mais, responda SAIR.
 ```
 
-## 26/01/2027 (terça) · mensagem 19 de 43
+## 26/01/2027 (terça) · mensagem 18 de 37
 
 ```
 Radar Aula Nota 10: aviso do concurso IFMG 1077/2026 para todas as áreas.
@@ -248,7 +238,7 @@ Confira nos documentos oficiais (https://portal.concursos.ifmg.edu.br/). A infor
 Para não receber mais, responda SAIR.
 ```
 
-## 27/01/2027 (quarta) · mensagem 20 de 43
+## 27/01/2027 (quarta) · mensagem 19 de 37
 
 ```
 Radar Aula Nota 10: aviso do concurso IFMG 1077/2026 para todas as áreas.
@@ -260,7 +250,7 @@ Confira nos documentos oficiais (https://portal.concursos.ifmg.edu.br/). A infor
 Para não receber mais, responda SAIR.
 ```
 
-## 10/02/2027 (quarta) · mensagem 21 de 43
+## 10/02/2027 (quarta) · mensagem 20 de 37
 
 ```
 Radar Aula Nota 10: aviso do concurso IFMG 1077/2026 para todas as áreas.
@@ -272,19 +262,7 @@ Confira nos documentos oficiais (https://portal.concursos.ifmg.edu.br/). A infor
 Para não receber mais, responda SAIR.
 ```
 
-## 12/02/2027 (sexta) · mensagem 22 de 43
-
-```
-Radar Aula Nota 10: aviso do concurso IFMG 1077/2026 para todas as áreas.
-
-Datas que se aproximam: 12/02/2027 (sexta): Publicação do resultado preliminar da Prova Objetiva (é hoje).
-
-Confira nos documentos oficiais (https://portal.concursos.ifmg.edu.br/). A informação oficial é sempre a do edital e dos documentos da instituição.
-
-Para não receber mais, responda SAIR.
-```
-
-## 15/02/2027 (segunda) · mensagem 23 de 43
+## 15/02/2027 (segunda) · mensagem 21 de 37
 
 ```
 Radar Aula Nota 10: aviso do concurso IFMG 1077/2026 para todas as áreas.
@@ -296,7 +274,7 @@ Confira nos documentos oficiais (https://portal.concursos.ifmg.edu.br/). A infor
 Para não receber mais, responda SAIR.
 ```
 
-## 16/02/2027 (terça) · mensagem 24 de 43
+## 16/02/2027 (terça) · mensagem 22 de 37
 
 ```
 Radar Aula Nota 10: aviso do concurso IFMG 1077/2026 para todas as áreas.
@@ -308,19 +286,7 @@ Confira nos documentos oficiais (https://portal.concursos.ifmg.edu.br/). A infor
 Para não receber mais, responda SAIR.
 ```
 
-## 18/02/2027 (quinta) · mensagem 25 de 43
-
-```
-Radar Aula Nota 10: aviso do concurso IFMG 1077/2026 para todas as áreas.
-
-Datas que se aproximam: 18/02/2027 (quinta): Publicação de resultado final da Prova Objetiva (é hoje).
-
-Confira nos documentos oficiais (https://portal.concursos.ifmg.edu.br/). A informação oficial é sempre a do edital e dos documentos da instituição.
-
-Para não receber mais, responda SAIR.
-```
-
-## 21/03/2027 (domingo) · mensagem 26 de 43
+## 21/03/2027 (domingo) · mensagem 23 de 37
 
 ```
 Radar Aula Nota 10: aviso do concurso IFMG 1077/2026 para todas as áreas.
@@ -332,19 +298,7 @@ Confira nos documentos oficiais (https://portal.concursos.ifmg.edu.br/). A infor
 Para não receber mais, responda SAIR.
 ```
 
-## 23/03/2027 (terça) · mensagem 27 de 43
-
-```
-Radar Aula Nota 10: aviso do concurso IFMG 1077/2026 para todas as áreas.
-
-Datas que se aproximam: 23/03/2027 (terça): Publicação de resultado preliminar da Prova Dissertativa (é hoje).
-
-Confira nos documentos oficiais (https://portal.concursos.ifmg.edu.br/). A informação oficial é sempre a do edital e dos documentos da instituição.
-
-Para não receber mais, responda SAIR.
-```
-
-## 24/03/2027 (quarta) · mensagem 28 de 43
+## 24/03/2027 (quarta) · mensagem 24 de 37
 
 ```
 Radar Aula Nota 10: aviso do concurso IFMG 1077/2026 para todas as áreas.
@@ -356,7 +310,7 @@ Confira nos documentos oficiais (https://portal.concursos.ifmg.edu.br/). A infor
 Para não receber mais, responda SAIR.
 ```
 
-## 25/03/2027 (quinta) · mensagem 29 de 43
+## 25/03/2027 (quinta) · mensagem 25 de 37
 
 ```
 Radar Aula Nota 10: aviso do concurso IFMG 1077/2026 para todas as áreas.
@@ -368,7 +322,7 @@ Confira nos documentos oficiais (https://portal.concursos.ifmg.edu.br/). A infor
 Para não receber mais, responda SAIR.
 ```
 
-## 29/03/2027 (segunda) · mensagem 30 de 43
+## 29/03/2027 (segunda) · mensagem 26 de 37
 
 ```
 Radar Aula Nota 10: aviso do concurso IFMG 1077/2026 para todas as áreas.
@@ -380,19 +334,19 @@ Confira nos documentos oficiais (https://portal.concursos.ifmg.edu.br/). A infor
 Para não receber mais, responda SAIR.
 ```
 
-## 31/03/2027 (quarta) · mensagem 31 de 43
+## 31/03/2027 (quarta) · mensagem 27 de 37
 
 ```
 Radar Aula Nota 10: aviso do concurso IFMG 1077/2026 para todas as áreas.
 
-Datas que se aproximam: 31/03/2027 (quarta): Publicação de resultado final da Prova Dissertativa (é hoje). 31/03/2027 (quarta): Convocação para a Prova de Desempenho Didático (é hoje).
+Datas que se aproximam: 31/03/2027 (quarta): Convocação para a Prova de Desempenho Didático (é hoje).
 
 Confira nos documentos oficiais (https://portal.concursos.ifmg.edu.br/). A informação oficial é sempre a do edital e dos documentos da instituição.
 
 Para não receber mais, responda SAIR.
 ```
 
-## 02/04/2027 (sexta) · mensagem 32 de 43
+## 02/04/2027 (sexta) · mensagem 28 de 37
 
 ```
 Radar Aula Nota 10: aviso do concurso IFMG 1077/2026 para todas as áreas.
@@ -404,7 +358,7 @@ Confira nos documentos oficiais (https://portal.concursos.ifmg.edu.br/). A infor
 Para não receber mais, responda SAIR.
 ```
 
-## 04/04/2027 (domingo) · mensagem 33 de 43
+## 04/04/2027 (domingo) · mensagem 29 de 37
 
 ```
 Radar Aula Nota 10: aviso do concurso IFMG 1077/2026 para todas as áreas.
@@ -416,7 +370,7 @@ Confira nos documentos oficiais (https://portal.concursos.ifmg.edu.br/). A infor
 Para não receber mais, responda SAIR.
 ```
 
-## 06/04/2027 (terça) · mensagem 34 de 43
+## 06/04/2027 (terça) · mensagem 30 de 37
 
 ```
 Radar Aula Nota 10: aviso do concurso IFMG 1077/2026 para todas as áreas.
@@ -428,7 +382,7 @@ Confira nos documentos oficiais (https://portal.concursos.ifmg.edu.br/). A infor
 Para não receber mais, responda SAIR.
 ```
 
-## 12/04/2027 (segunda) · mensagem 35 de 43
+## 12/04/2027 (segunda) · mensagem 31 de 37
 
 ```
 Radar Aula Nota 10: aviso do concurso IFMG 1077/2026 para todas as áreas.
@@ -440,7 +394,7 @@ Confira nos documentos oficiais (https://portal.concursos.ifmg.edu.br/). A infor
 Para não receber mais, responda SAIR.
 ```
 
-## 02/05/2027 (domingo) · mensagem 36 de 43
+## 02/05/2027 (domingo) · mensagem 32 de 37
 
 ```
 Radar Aula Nota 10: aviso do concurso IFMG 1077/2026 para todas as áreas.
@@ -452,19 +406,7 @@ Confira nos documentos oficiais (https://portal.concursos.ifmg.edu.br/). A infor
 Para não receber mais, responda SAIR.
 ```
 
-## 04/05/2027 (terça) · mensagem 37 de 43
-
-```
-Radar Aula Nota 10: aviso do concurso IFMG 1077/2026 para todas as áreas.
-
-Datas que se aproximam: 04/05/2027 (terça): Publicação de resultado preliminar da Prova de Títulos e Prova de Desempenho Didático (é hoje).
-
-Confira nos documentos oficiais (https://portal.concursos.ifmg.edu.br/). A informação oficial é sempre a do edital e dos documentos da instituição.
-
-Para não receber mais, responda SAIR.
-```
-
-## 05/05/2027 (quarta) · mensagem 38 de 43
+## 05/05/2027 (quarta) · mensagem 33 de 37
 
 ```
 Radar Aula Nota 10: aviso do concurso IFMG 1077/2026 para todas as áreas.
@@ -476,7 +418,7 @@ Confira nos documentos oficiais (https://portal.concursos.ifmg.edu.br/). A infor
 Para não receber mais, responda SAIR.
 ```
 
-## 10/05/2027 (segunda) · mensagem 39 de 43
+## 10/05/2027 (segunda) · mensagem 34 de 37
 
 ```
 Radar Aula Nota 10: aviso do concurso IFMG 1077/2026 para todas as áreas.
@@ -488,19 +430,7 @@ Confira nos documentos oficiais (https://portal.concursos.ifmg.edu.br/). A infor
 Para não receber mais, responda SAIR.
 ```
 
-## 12/05/2027 (quarta) · mensagem 40 de 43
-
-```
-Radar Aula Nota 10: aviso do concurso IFMG 1077/2026 para todas as áreas.
-
-Datas que se aproximam: 12/05/2027 (quarta): Publicação de resultado final da Prova de Desempenho Didático e do resultado final da Prova de Títulos (é hoje).
-
-Confira nos documentos oficiais (https://portal.concursos.ifmg.edu.br/). A informação oficial é sempre a do edital e dos documentos da instituição.
-
-Para não receber mais, responda SAIR.
-```
-
-## 11/06/2027 (sexta) · mensagem 41 de 43
+## 11/06/2027 (sexta) · mensagem 35 de 37
 
 ```
 Radar Aula Nota 10: aviso do concurso IFMG 1077/2026 para todas as áreas.
@@ -512,7 +442,7 @@ Confira nos documentos oficiais (https://portal.concursos.ifmg.edu.br/). A infor
 Para não receber mais, responda SAIR.
 ```
 
-## 14/06/2027 (segunda) · mensagem 42 de 43
+## 14/06/2027 (segunda) · mensagem 36 de 37
 
 ```
 Radar Aula Nota 10: aviso do concurso IFMG 1077/2026 para todas as áreas.
@@ -524,7 +454,7 @@ Confira nos documentos oficiais (https://portal.concursos.ifmg.edu.br/). A infor
 Para não receber mais, responda SAIR.
 ```
 
-## 18/06/2027 (sexta) · mensagem 43 de 43
+## 18/06/2027 (sexta) · mensagem 37 de 37
 
 ```
 Radar Aula Nota 10: aviso do concurso IFMG 1077/2026 para todas as áreas.

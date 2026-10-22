@@ -684,5 +684,56 @@ class CotaEComissao(unittest.TestCase):
         self.assertEqual({p["cota"] for p in perfis}, {True, False})
 
 
+# ---------------------------------------------------------------- decisão de 22/10: um aviso só para resultado
+
+class ResultadoUmAviso(unittest.TestCase):
+    """IFMG 1077: a candidata recebia dois avisos por publicação de resultado, dois dias antes e no dia.
+    Decisão do Samuel: um só, dois dias antes, para o resultado de etapa e para a homologação de inscrições."""
+
+    def evento(self, tipo, dia, **extra):
+        return dict({"tipo_evento": tipo, "descricao_literal": "Publicação do resultado preliminar da prova objetiva",
+                     "data": fx(dia)}, **extra)
+
+    def test_resultado_avisa_dois_dias_antes(self):
+        t = rodar([self.evento("resultado", "2027-02-12", etapa_ref="objetiva", fase="preliminar")],
+                  dt.date(2027, 2, 10), dt.date(2027, 2, 9))
+        self.assertEqual(len(t), 1, t)
+        self.assertIn("faltam 2 dias", t[0])
+
+    def test_resultado_nao_avisa_de_novo_no_dia(self):
+        for tipo in ("resultado", "homologacao_inscricoes"):
+            t = rodar([self.evento(tipo, "2027-02-12", etapa_ref="objetiva", fase="preliminar")],
+                      dt.date(2027, 2, 12), dt.date(2027, 2, 11))
+            self.assertEqual(t, [], (tipo, t))
+
+    def test_resultado_final_e_homologacao_dois_dias_antes(self):
+        t = rodar([self.evento("homologacao_inscricoes", "2026-11-23", fase="final")], dt.date(2026, 11, 21), dt.date(2026, 11, 20))
+        self.assertEqual(len(t), 1, t)
+
+    def test_resultado_de_segunda_avisa_no_domingo(self):  # dois dias antes cai no sábado, sem rodada: sai no domingo
+        t = rodar([self.evento("resultado", "2026-11-16", etapa_ref="objetiva", fase="preliminar")],
+                  dt.date(2026, 11, 15), dt.date(2026, 11, 13))
+        self.assertEqual(len(t), 1, t)
+        self.assertIn("amanhã", t[0])
+
+    def test_resultado_com_hora_de_manha_continua_com_o_aviso(self):  # UERJ 213, UFBA 06: o do dia nunca saía
+        ev = dict(self.evento("resultado", "2026-10-29"), data=fx("2026-10-29", "09:00"))
+        t = rodar([ev], dt.date(2026, 10, 27), dt.date(2026, 10, 26))
+        self.assertEqual(len(t), 1, t)
+
+    def test_resultado_final_do_concurso_continua_no_dia(self):  # já era um aviso só, e a regra não o toca
+        ev = self.evento("resultado_final", "2027-06-18", fase="final")
+        self.assertEqual(len(rodar([ev], dt.date(2027, 6, 18), dt.date(2027, 6, 17))), 1)
+        self.assertEqual(rodar([ev], dt.date(2027, 6, 16), dt.date(2027, 6, 15)), [])
+
+    def test_prazo_de_recurso_continua_avisando_a_abertura(self):  # o recurso tem aviso próprio, por isso o do resultado basta
+        ev = {"tipo_evento": "recurso", "etapa_ref": "objetiva",
+              "descricao_literal": "Interposição de recursos contra o resultado preliminar da prova objetiva",
+              "data": jan("2027-02-15", "2027-02-16")}
+        t = rodar([ev], dt.date(2027, 2, 15), dt.date(2027, 2, 14))  # a abertura e o último dia, que acaba amanhã
+        self.assertEqual(len(t), 2, t)
+        self.assertTrue(any("é hoje" in x for x in t), t)
+
+
 if __name__ == "__main__":
     unittest.main()

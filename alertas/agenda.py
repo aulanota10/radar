@@ -29,12 +29,17 @@ REGRAS = {
     "inscricao": [("ini", [0]), ("fim", [7, 2])],
     "isencao_pedido": [("fim", [5, 2])],
     "pagamento": [("fim", [2])],
-    "homologacao_inscricoes": [("ini", [2, 0])],
+    # Decisão do Samuel em 22/10/2026 (ponto 2 do checklist de lançamento): resultado e homologação de inscrições
+    # têm um aviso só, dois dias antes. A simulação da candidata de Letras no IFMG 1077 recebia dois por publicação
+    # (dois dias antes e no dia), e o resultado não pede nada ao candidato além de ir olhar; o prazo de recurso já tem
+    # aviso próprio (regra "recurso"). Critério dele: o menor número possível de mensagens. Quem tem o resultado de
+    # manhã ou no sábado já só recebia este aviso, porque o do dia não saía.
+    "homologacao_inscricoes": [("ini", [2])],
     "portaria_banca": [("ini", [2, 0])],
     "sorteio_tema": [("ini", [7, 1])],
     "prova": [("ini", [30, 15, 7, 2])],
     "entrega_documento": [("fim", [15, 7, 3])],
-    "resultado": [("ini", [2, 0])],
+    "resultado": [("ini", [2])],  # um aviso só, ver homologacao_inscricoes
     "recurso_resultado": [("ini", [0])],
     "resultado_final": [("ini", [0])],
     "homologacao_resultado": [("ini", [0])],  # só se o concurso não tem resultado_final datado
