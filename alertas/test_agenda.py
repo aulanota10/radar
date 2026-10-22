@@ -559,5 +559,130 @@ class DocDaArea(unittest.TestCase):
 
 
 
+# ---------------------------------------------------------------- decisão de 22/10: avisos só de cota e etapa interna da comissão
+
+def rodar_avisos(eventos, hoje, anterior_dia):
+    """Como rodar(), mas devolve o concurso lido e os avisos por (concurso, área), com os itens inteiros."""
+    with tempfile.TemporaryDirectory() as v:
+        os.makedirs(os.path.join(v, "extracoes", "t"))
+        evs = [dict({"estado": "vigente", "escopo": "geral", "id": f"ev-{k:04d}"}, **e) for k, e in enumerate(eventos, 1)]
+        with open(os.path.join(v, "extracoes", "t", "concurso-t.json"), "w") as fh:
+            json.dump({"sigla": "TESTE", "numero_edital": "1/2026", "eventos": evs}, fh)
+        concursos, _, avisos, _, _, _ = A.executar(v, hoje, {"gerado_em": anterior_dia.isoformat(), "concursos": {}})
+    return concursos, avisos
+
+
+class CotaEComissao(unittest.TestCase):
+    """IFMG 1077: a candidata de Letras recebia dez avisos de que não precisava, nove de heteroidentificação e
+    avaliação de pessoa com deficiência (só de quem concorre por cota) e um da avaliação recursal (da comissão)."""
+
+    LIT_COTA = "procedimentos complementares à Autodeclaração (PN, PI, PQ) e Avaliação de Equipe Multidisciplinar (PcD)"
+    RESULTADO = {"tipo_evento": "resultado", "descricao_literal": "Publicação do resultado final da prova didática",
+                 "data": fx("2026-10-20")}
+    CONVOCACAO = {"tipo_evento": "procedimento_cotas", "fase": "convocacao",
+                  "descricao_literal": "Convocação para " + LIT_COTA, "data": fx("2026-10-20")}
+    HOJE, ANTES = dt.date(2026, 10, 18), dt.date(2026, 10, 17)  # faltam 2 dias
+
+    def test_tipo_procedimento_de_cotas_e_so_cota(self):
+        self.assertTrue(A.so_cota(self.CONVOCACAO))
+        self.assertFalse(A.so_cota(self.RESULTADO))
+
+    def test_recurso_de_heteroidentificacao_e_so_cota(self):  # IFMG 1077: o extrator tipou como recurso
+        self.assertTrue(A.so_cota({"tipo_evento": "recurso",
+                                   "descricao_literal": "Interposição de recursos contra o resultado preliminar dos " + self.LIT_COTA}))
+        self.assertTrue(A.so_cota({"tipo_evento": "recurso", "descricao_literal": "Recurso contra o parecer da Banca de Heteroidentificação"}))  # UFRN 108
+
+    def test_descricao_que_mistura_outra_etapa_vai_a_todos(self):
+        # UNEB 085: memorial e heteroidentificação no mesmo aviso
+        self.assertFalse(A.so_cota({"tipo_evento": "recurso",
+                                    "descricao_literal": "Recursos contra o resultado preliminar da Apresentação de Memorial e da Heteroidentificação"}))
+        # IFMT 03: a pontuação das provas objetivas de todos vem depois da banca de heteroidentificação
+        self.assertFalse(A.so_cota({"tipo_evento": "outro", "descricao_literal":
+                                    "PROVAS OBJETIVAS - PONTUAÇÃO POR CANDIDATO APÓS BANCA DE HETEROIDENTIFICAÇÃO E AVALIAÇÃO BIOPSICOSSOCIAL"}))
+        # UFMS 137: lista de inscrições deferidas, com a autodeclaração no meio
+        self.assertFalse(A.so_cota({"tipo_evento": "homologacao_inscricoes",
+                                    "descricao_literal": "Divulgação preliminar das inscrições deferidas e do resultado da autodeclaração"}))
+        self.assertFalse(A.so_cota({"tipo_evento": "inscricao", "descricao_literal": "Inscrições, com autodeclaração para as vagas reservadas"}))
+
+    def test_avaliacao_recursal_e_da_comissao(self):  # IFMG 1077 e IFMG 2026
+        self.assertTrue(A.interno_da_comissao({"tipo_evento": "outro", "descricao_literal": "(período para) Avaliação recursal dos " + self.LIT_COTA}))
+        self.assertTrue(A.interno_da_comissao({"tipo_evento": "outro", "descricao_literal": "(período para) Avaliação Recursal de Confirmação Complementar da Autodeclaração"}))
+        self.assertFalse(A.interno_da_comissao({"tipo_evento": "recurso", "descricao_literal": "Interposição de recursos contra o resultado preliminar dos " + self.LIT_COTA}))
+        self.assertFalse(A.interno_da_comissao({"tipo_evento": "outro", "descricao_literal": "Sessão de abertura da avaliação recursal pelo candidato"}))
+
+    def test_avaliacao_recursal_nao_gera_aviso_a_ninguem(self):
+        ev = {"tipo_evento": "outro", "descricao_literal": "(período para) Avaliação recursal dos " + self.LIT_COTA,
+              "data": jan("2026-10-20", "2026-10-25")}
+        _, avisos = rodar_avisos([ev], dt.date(2026, 10, 23), dt.date(2026, 10, 22))  # 2 dias antes do fim da janela
+        self.assertEqual(sum(len(i) for i in avisos.values()), 0)
+        # a mesma janela, sem ser etapa interna, avisa (confirma que o teste enxerga o aviso)
+        ev2 = dict(ev, descricao_literal="(período para) Entrega do laudo complementar")
+        _, avisos2 = rodar_avisos([ev2], dt.date(2026, 10, 23), dt.date(2026, 10, 22))
+        self.assertGreater(sum(len(i) for i in avisos2.values()), 0)
+
+    def test_item_so_cota_leva_a_marca(self):
+        _, avisos = rodar_avisos([self.RESULTADO, self.CONVOCACAO], self.HOJE, self.ANTES)
+        itens = avisos[("t", None)]
+        self.assertEqual(sorted(bool(x.get("so_cota")) for x in itens if x["tipo"] == "agendado"), [False, True])
+
+    def test_mensagem_mista_sem_cota_so_leva_o_geral(self):  # IFMG 1077: resultado da didática junto da convocação de cota
+        c, avisos = rodar_avisos([self.RESULTADO, self.CONVOCACAO], self.HOJE, self.ANTES)
+        itens = avisos[("t", None)]
+        ls = linhas(A.mensagem(c["t"], None, itens, self.HOJE))
+        self.assertEqual(len(ls), 1, ls)
+        self.assertIn("resultado final", ls[0])
+        self.assertNotIn("Autodeclaração", "\n".join(ls))
+
+    def test_mensagem_mista_com_cota_leva_os_dois(self):
+        c, avisos = rodar_avisos([self.RESULTADO, self.CONVOCACAO], self.HOJE, self.ANTES)
+        ls = linhas(A.mensagem(c["t"], None, avisos[("t", None)], self.HOJE, cota=True))
+        self.assertEqual(len(ls), 2, ls)
+        self.assertTrue(any("Autodeclaração" in l for l in ls))
+
+    def test_aviso_so_de_cota_nao_chega_a_quem_nao_marcou(self):
+        c, avisos = rodar_avisos([self.CONVOCACAO], self.HOJE, self.ANTES)
+        itens = avisos[("t", None)]
+        self.assertEqual(A.itens_do_publico(itens, False), [])
+        self.assertEqual(len(A.itens_do_publico(itens, True)), 1)
+        self.assertIsNone(A.mensagem_do_perfil(c["t"], None, itens, self.HOJE, {"id": "p1", "cota": False}))
+        self.assertIsNone(A.mensagem_do_perfil(c["t"], None, itens, self.HOJE, {"id": "p2"}))  # sem o campo, conta como sem cota
+        self.assertIn("Autodeclaração", A.mensagem_do_perfil(c["t"], None, itens, self.HOJE, {"id": "p3", "cota": True}))
+
+    def test_perfil_recebe_a_mensagem_do_seu_publico(self):
+        c, avisos = rodar_avisos([self.RESULTADO, self.CONVOCACAO], self.HOJE, self.ANTES)
+        itens = avisos[("t", None)]
+        sem = A.mensagem_do_perfil(c["t"], None, itens, self.HOJE, {"cota": False})
+        com = A.mensagem_do_perfil(c["t"], None, itens, self.HOJE, {"cota": True})
+        self.assertNotIn("Autodeclaração", sem)
+        self.assertIn("resultado final", sem)
+        self.assertIn("Autodeclaração", com)
+        self.assertIn("resultado final", com)
+
+    def test_fila_separa_os_dois_publicos(self):
+        c, avisos = rodar_avisos([self.RESULTADO, self.CONVOCACAO], self.HOJE, self.ANTES)
+        fila, total = A.montar_fila(c, avisos, self.HOJE, False)
+        self.assertEqual(total, 2)
+        self.assertIn("quem não marcou cota", fila)
+        self.assertIn("quem marcou cota, no lugar da outra", fila)
+
+    def test_fila_com_so_cota_gera_uma_mensagem_so_para_quem_marcou(self):
+        c, avisos = rodar_avisos([self.CONVOCACAO], self.HOJE, self.ANTES)
+        fila, total = A.montar_fila(c, avisos, self.HOJE, False)
+        self.assertEqual(total, 1)
+        self.assertIn("só quem marcou cota", fila)
+        self.assertNotIn("quem não marcou cota", fila)
+
+    def test_fila_sem_cota_continua_como_antes(self):
+        c, avisos = rodar_avisos([self.RESULTADO], self.HOJE, self.ANTES)
+        fila, total = A.montar_fila(c, avisos, self.HOJE, False)
+        self.assertEqual(total, 1)
+        self.assertNotIn("marcou cota", fila)
+
+    def test_perfis_de_ensaio_tem_os_dois_publicos(self):
+        perfis = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "perfis-ensaio.json"), encoding="utf-8"))
+        self.assertTrue(all("cota" in p for p in perfis))
+        self.assertEqual({p["cota"] for p in perfis}, {True, False})
+
+
 if __name__ == "__main__":
     unittest.main()

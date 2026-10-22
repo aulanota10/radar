@@ -74,6 +74,44 @@ SEM_CANDIDATO = re.compile(r"n[ãa]o p[úu]blica|sem (a )?(necessidade d[ae] )?p
 # Prova da mesma etapa em mais de um dia (UNILA 204: didática em 20/10 à tarde e 21/10 de manhã): o aviso
 # de um dia leva os outros dias seguintes, até DIAS_ANTES depois.
 
+# Decisão do Samuel em 22/10/2026 (ponto 1 do checklist de lançamento). A simulação da candidata de Letras no
+# IFMG 1077 mostrou dez avisos que ela não precisava: nove sobre heteroidentificação e avaliação de pessoa com
+# deficiência, que só interessam a quem concorre por cota, e um sobre a avaliação recursal, etapa interna da
+# comissão. Os de cota não somem, porque o cotista pode perder prazo eliminatório: viram "só cota" e vão só a
+# quem marcou cota no cadastro. O da comissão não vai a ninguém.
+# É "só cota" o evento que o extrator tipou como procedimento de cotas e o recurso ou resultado de recurso
+# sobre heteroidentificação. O texto só decide quando o tipo é recurso, resultado de recurso ou "outro", e nunca
+# quando a descrição mistura outra etapa (UNEB 085: "Apresentação de Memorial e da Heteroidentificação";
+# IFMT 03: "pontuação das provas objetivas após a banca de heteroidentificação"; UFMS 137: lista de inscrições),
+# porque aí o aviso interessa a todos.
+TIPOS_COTA_PELO_TEXTO = {"recurso", "recurso_resultado", "outro"}
+COTA_TEXTO = re.compile(r"autodeclara[çc][ãa]o|heteroidentifica|equipe multidisciplinar|biopsicossocial", re.I)
+COTA_MISTO = re.compile(r"memorial|prova|t[íi]tulo|did[áa]tica|inscri|pontua|homologa", re.I)
+INTERNO_DA_COMISSAO = re.compile(r"^\W*(?:\(per[ií]odo para\)\s*)?avalia[çc][ãa]o recursal\b", re.I)
+
+
+def so_cota(e):
+    """O aviso deste evento interessa só a quem concorre por cota."""
+    lit = e.get("descricao_literal") or ""
+    if e.get("tipo_evento") == "procedimento_cotas":
+        return True
+    return e.get("tipo_evento") in TIPOS_COTA_PELO_TEXTO and bool(COTA_TEXTO.search(lit)) and not COTA_MISTO.search(lit)
+
+
+def interno_da_comissao(e):
+    """Etapa interna da comissão, sem ação do candidato (IFMG 1077: "Avaliação recursal"): não vira aviso."""
+    return e.get("tipo_evento") == "outro" and bool(INTERNO_DA_COMISSAO.search(e.get("descricao_literal") or ""))
+
+
+def itens_do_publico(itens, cota):
+    """Itens que o destinatário recebe: quem marcou cota recebe todos; os demais, sem os "só cota"."""
+    return list(itens) if cota else [x for x in itens if not x.get("so_cota")]
+
+
+def publico_do_perfil(perfil):
+    """O campo "cota" do cadastro do aluno (nos perfis de ensaio, perfis-ensaio.json): verdadeiro se concorre por cota."""
+    return bool((perfil or {}).get("cota"))
+
 # Etapas em que cada candidato se apresenta sozinho: numa janela de um dia, "das 09:30 às 16:30" junta os
 # horários de vários candidatos (UFRGS 08, área 12: 16:30 é o início do quinto, não o fim da sessão).
 INDIVIDUAIS = {"didatica", "defesa_producao", "memorial", "projeto", "entrevista"}
@@ -378,6 +416,8 @@ def item_agendado(e, marco, ref, hoje, fonte, periodo=False):
     # sessão das 09:00 porque a janela do "outro" ficava sem hora)
     item["hora"] = (h or "") if f == "fixa" else (hj or "") if (marco == "fim" and i != j) else (hi or "")
     item["ev"] = id(e)
+    if so_cota(e):
+        item["so_cota"] = True
     return item
 
 
@@ -399,7 +439,8 @@ def completar(avisos, slug, c, hoje, destinos, ordem, edital, nomes_area, cancel
     """Completa as mensagens do concurso com o que não pode faltar nelas (conferência de 13/10):
     eventos críticos do destinatário entre hoje e a última data agendada da mensagem, os outros dias da
     mesma prova (UNILA 204) e os prazos que terminam hoje ou amanhã (IFMG 1077)."""
-    vig = [e for e in c["eventos"] if e["estado"] == "vigente" and e["tipo_evento"] not in ("suspensao", "retomada", "cancelamento")]
+    vig = [e for e in c["eventos"] if e["estado"] == "vigente" and e["tipo_evento"] not in ("suspensao", "retomada", "cancelamento")
+           and not interno_da_comissao(e)]
     por_id = {id(e): e for e in vig}
     dest = {id(e): destinos(e["escopo"], e) for e in vig}
     amanha = hoje + dt.timedelta(days=DIAS_PRAZO_PROXIMO)
@@ -855,11 +896,15 @@ def executar(vigia, hoje, anterior):
             pseudo = ev_por_id.get(ea.get("evento_id")) or {"tipo_evento": ea.get("tipo_evento") or "evento",
                                                               "etapa_ref": ea.get("etapa_ref"), "fase": None}
             pseudo = evento_vigente_da_retificacao(c["eventos"], pseudo, cam)
+            if interno_da_comissao(pseudo):
+                continue
             item = {"tipo": "mudanca", "doc": cam,
                     "texto": (f"{rotulo(pseudo)}: era {texto_data(alt.get('valor_anterior'), hoje, pseudo.get('tipo_evento'))}, agora é {texto_data(alt.get('valor_novo'), hoje, pseudo.get('tipo_evento'))}"
                               if intervalo(alt.get("valor_anterior"))[1] else
                               f"{rotulo(pseudo)}: {texto_data(alt.get('valor_novo'), hoje, pseudo.get('tipo_evento'))}"),
                     "fonte": alt.get("fonte") or {}}
+            if so_cota(pseudo):
+                item["so_cota"] = True
             for d in destinos(ea.get("escopo") or "geral"):
                 avisos[(slug, d)].append(item)
 
@@ -879,7 +924,8 @@ def executar(vigia, hoje, anterior):
                            "escopo": e["escopo"], "descricao": e.get("descricao_literal"), "forma": f,
                            "inicio": i.isoformat() if i else None, "fim": j.isoformat() if j else None,
                            "hora": h, "data_texto": texto_data(e["data"], hoje, e["tipo_evento"]),
-                           "documento": fonte.get("documento"), "item": fonte.get("item"), "pagina": fonte.get("pagina")})
+                           "documento": fonte.get("documento"), "item": fonte.get("item"), "pagina": fonte.get("pagina"),
+                           "publico": "interno" if interno_da_comissao(e) else "cota" if so_cota(e) else "todos"})
 
             # correção do extrator: data mudou e o documento já era conhecido
             velho = a["eventos"].get(k) if a else None
@@ -891,7 +937,7 @@ def executar(vigia, hoje, anterior):
             if sit != "ativo" or e["tipo_evento"] in ("suspensao", "retomada", "cancelamento"):
                 continue
             dest = destinos(e["escopo"], e)
-            if not dest:
+            if not dest or interno_da_comissao(e):
                 continue
 
             # data que surgiu num documento novo
@@ -904,6 +950,8 @@ def executar(vigia, hoje, anterior):
                 if futura and kk not in alteradas:
                     item = {"tipo": "data_nova", "doc": fonte["documento"],
                             "texto": f"{rotulo(e)}: {texto_ev(e, hoje)}", "fonte": fonte}
+                    if so_cota(e):
+                        item["so_cota"] = True
                     for d in dest:
                         avisos[(slug, d)].append(doc_da_area(item, d, novos, triagem))
 
@@ -959,6 +1007,7 @@ def executar(vigia, hoje, anterior):
                 continue
             esc = (t.get("escopo") or {}).get("valor") or "geral"
             frase = DOC_AVISO.get(t.get("tipo"))
+            qual = None
             if frase and t.get("tipo") in ("resultado_etapa", "resultado_final", "resultado_recursos", "homologacao_resultado",
                                           "homologados_preliminar", "homologados_final", "isencao_resultado", "sorteio"):
                 # UFRGS 08, área 13: "Saiu o resultado de uma etapa" sem dizer qual; o evento do próprio documento diz
@@ -968,6 +1017,8 @@ def executar(vigia, hoje, anterior):
                     frase = f"{frase}: {rotulo(qual)}"
             if frase:
                 item = {"tipo": "documento", "doc": cam, "texto": f"saiu {frase}", "fonte": {"documento": cam}}
+                if qual is not None and so_cota(qual):
+                    item["so_cota"] = True
                 for d in destinos(esc):
                     avisos[(slug, d)].append(item)
             for p in ([] if frase else c.get("pendencias") or []):
@@ -1075,20 +1126,32 @@ def montar_fila(concursos, avisos, hoje, base):
         for area, itens in alvos:
             if not itens:
                 continue
-            total += 1
             rot = f"área {area}, {c['_areas'].get(area, '')}".rstrip(", ") if area else (
                 "todas as áreas" if len(alvos) == 1 else "demais áreas (só os avisos gerais)")
-            linhas.append(f"**Para: {nome} · {rot}**")
-            linhas.append("")
-            linhas.append("```")
-            linhas.append(mensagem(c, area, itens, hoje))
-            linhas.append("```")
-            linhas.append("")
+            # Aviso só de cota (decisão de 22/10): quem marcou cota recebe a mensagem completa no lugar da
+            # outra, e quem não marcou recebe a mesma sem esses itens, se sobrar algum.
+            geral, com_cota = itens_do_publico(itens, False), itens_do_publico(itens, True)
+            if len(geral) == len(com_cota):
+                variantes = [("", False, com_cota)]
+            else:
+                variantes = ([("quem não marcou cota", False, geral)] if geral else []) + \
+                            [("quem marcou cota, no lugar da outra" if geral else "só quem marcou cota", True, com_cota)]
+            for quem, cota, its in variantes:
+                total += 1
+                linhas.append(f"**Para: {nome} · {rot}" + (f" · {quem}" if quem else "") + "**")
+                linhas.append("")
+                linhas.append("```")
+                linhas.append(mensagem(c, area, its, hoje, cota=cota))
+                linhas.append("```")
+                linhas.append("")
     linhas.insert(2 if not base else 4, f"{total} mensagem(ns) em {len(por_conc)} concurso(s).\n")
     return "\n".join(linhas), total
 
 
-def mensagem(c, area, itens, hoje):
+def mensagem(c, area, itens, hoje, cota=False):
+    """Mensagem de datas de um destinatário. cota=True é quem marcou cota no cadastro e recebe também os avisos
+    "só cota"; os demais recebem a mesma mensagem sem eles (quem chama confere antes se sobrou algum item)."""
+    itens = itens_do_publico(itens, cota)
     nome = nome_concurso(c)
     cab = f"Radar Aula Nota 10 · {nome}" + (f" · {c['_areas'].get(area, 'área ' + area)}" if area else "")
     out = [cab, ""]
@@ -1142,6 +1205,14 @@ def mensagem(c, area, itens, hoje):
     out.append("")
     out.append("Para não receber mais, responda SAIR.")
     return "\n".join(out)
+
+
+def mensagem_do_perfil(c, area, itens, hoje, perfil):
+    """Mensagem de datas para um aluno do grupo, ou None se, pelo campo "cota" do cadastro dele, não sobra nada a avisar."""
+    cota = publico_do_perfil(perfil)
+    if not itens_do_publico(itens, cota):
+        return None
+    return mensagem(c, area, itens, hoje, cota=cota)
 
 
 def montar_relatorio(rel, agenda, total, hoje, base):
