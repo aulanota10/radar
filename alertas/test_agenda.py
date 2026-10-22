@@ -735,5 +735,164 @@ class ResultadoUmAviso(unittest.TestCase):
         self.assertTrue(any("é hoje" in x for x in t), t)
 
 
+class RotulosETitulosLimpos(unittest.TestCase):
+    """Ponto 3 do lançamento (22/10/2026): rótulo cru do edital e título de documento sem sentido não chegam ao aluno.
+    Medido sobre os 183 concursos ativos do vigia: cada padrão tem uma regra no leitor e não é remendo de concurso."""
+
+    def test_periodo_para_solto_sai_do_rotulo(self):  # IFMG 1077 e IFMG 2026
+        r = A.rotulo({"tipo_evento": "prova", "descricao_literal": "(período para) Realização da Prova de Desempenho Didático"})
+        self.assertEqual(r, "Realização da Prova de Desempenho Didático")
+
+    def test_periodo_para_sai_tambem_de_outros_eventos_e_o_conteudo_fica(self):  # IFMG 1077, procedimentos de cota
+        r = A.rotulo({"tipo_evento": "procedimento_cotas",
+                      "descricao_literal": "(período para) Realização dos procedimentos Complementares à Autodeclaração (PN, PI, PQ)"})
+        self.assertEqual(r, "Realização dos procedimentos Complementares à Autodeclaração (PN, PI, PQ)")
+
+    def test_parentese_com_conteudo_nao_e_rotulo_solto(self):
+        r = A.rotulo({"tipo_evento": "outro", "descricao_literal": "(período de inscrição) Entrega da documentação"})
+        self.assertTrue(r.startswith("(período de inscrição)"), r)
+        r = A.rotulo({"tipo_evento": "outro", "descricao_literal": "Comparecimento obrigatório às 08:30 (a partir das 9h)"})
+        self.assertTrue(r.endswith("(a partir das 9h)"), r)
+
+    def test_a_partir_do_dia_sem_data_sai_do_fim(self):  # UFLA 127
+        r = A.rotulo({"tipo_evento": "resultado", "descricao_literal": "Resultado das solicitações de condições especiais (a partir do dia)"})
+        self.assertEqual(r, "Resultado das solicitações de condições especiais")
+
+    def test_marca_de_previsao_continua(self):  # a regra de 12/10 não pode sumir junto
+        r = A.rotulo({"tipo_evento": "outro", "descricao_literal": "Publicação do edital no DOU (datas prováveis)"})
+        self.assertTrue(r.endswith("(datas prováveis)"), r)
+
+    def test_tipo_sem_literal_nao_mostra_o_nome_interno(self):  # IFSULDEMINAS 188, UEMA
+        for tipo, esperado in (("procedimento_cotas", "Procedimento de cotas"), ("impugnacao_edital", "Impugnação ao edital"),
+                               ("impugnacao_banca_resultado", "Resultado da impugnação da banca"), ("outro", "Outra data do cronograma")):
+            self.assertEqual(A.rotulo({"tipo_evento": tipo}), esperado)
+
+    def test_todo_tipo_do_cadastro_tem_nome(self):
+        for tipo in ("publicacao_edital", "procedimento_cotas", "impugnacao_banca", "impugnacao_edital", "impugnacao_edital_resultado",
+                     "impugnacao_banca_resultado", "atendimento_especial_resultado", "sorteio_reserva", "suspensao", "retomada",
+                     "cancelamento", "confinamento", "outro"):
+            self.assertIn(tipo, A.NOME_EVENTO)
+            self.assertNotIn("_", A.nome_evento({"tipo_evento": tipo}))
+
+    def test_literal_da_alteracao_vem_do_texto_da_retificacao(self):  # IFSULDEMINAS 188: "Outro: era 14/09, agora é 09/11"
+        alt = {"onde_se_le": "Publicação do Gabarito Preliminar da Prova Objetiva | 14/09/2026",
+               "leia_se": "Publicação do Gabarito Preliminar da Prova Objetiva | 09/11/2026"}
+        self.assertEqual(A.literal_da_alteracao(alt), "Publicação do Gabarito Preliminar da Prova Objetiva")
+        self.assertIsNone(A.literal_da_alteracao({"onde_se_le": "14/09/2026", "leia_se": "09/11/2026"}))
+        self.assertIsNone(A.literal_da_alteracao({}))
+
+    def test_aviso_de_mudanca_usa_o_texto_da_retificacao(self):  # IFSULDEMINAS 188, retificação de 08/10
+        cam = "documentos/t/3ª Retificação.pdf"
+        alt = {"documento": {"caminho": cam}, "data_publicacao": "2026-10-08",
+               "evento_afetado": {"evento_id": "ev-9999", "tipo_evento": "outro", "etapa_ref": "objetiva", "escopo": "geral"},
+               "valor_anterior": fx("2026-11-14"), "valor_novo": fx("2026-11-20"),
+               "onde_se_le": "Publicação do Gabarito Preliminar da Prova Objetiva | 14/11/2026",
+               "leia_se": "Publicação do Gabarito Preliminar da Prova Objetiva | 20/11/2026"}
+        triagem = [{"caminho": cam, "sha256": "a", "tipo": "retificacao", "pertence": {"valor": "sim"},
+                    "data_publicacao": {"valor": "2026-10-10"}, "escopo": {"valor": "geral"}}]
+        msgs = rodar_msgs([], dt.date(2026, 10, 12), dt.date(2026, 10, 11), extra={"alteracoes": [alt]}, triagem=triagem)
+        t = "\n".join(msgs.values())
+        self.assertIn("Publicação do Gabarito Preliminar da Prova Objetiva: era", t)
+        self.assertNotIn("Outro:", t)
+
+    def test_download_do_portal_sai_do_titulo(self):  # USP FM 152
+        self.assertEqual(A.limpa_titulo("Formulário para solicitação de segunda via de diploma Download"),
+                         "Formulário para solicitação de segunda via de diploma")
+        self.assertEqual(A.limpa_titulo("Documentos necessário para solicitação de diploma Download / Portaria GR Nº 7137"),
+                         "Documentos necessário para solicitação de diploma / Portaria GR Nº 7137")
+
+    def test_fazer_download_do_ifsuldeminas_188_fica_limpo(self):  # conferência pedida em 22/10: a limpeza de 11/10 resolve
+        self.assertEqual(A.limpa_titulo("Fazer download deste arquivo (Edital Complementar.pdf)"), "Edital Complementar")
+        self.assertEqual(A.limpa_titulo("Fazer download deste arquivo (DOU de hoje.pdf)", dt.date(2026, 10, 5)), "DOU de 05/10/2026")
+        self.assertEqual(A.limpa_titulo("Fazer download deste arquivo (Edital 188_2026_Justificativas_Gabaritos_Preliminares_1117 (PEBTT).pdf)"),
+                         "Edital 188 2026 Justificativas Gabaritos Preliminares 1117 (PEBTT)")
+
+    def test_extensao_no_meio_e_copia_do_navegador_saem(self):  # IFSULDEMINAS 188
+        t = A.limpa_titulo("Fazer download deste arquivo (Notas_Preliminares_TO_1117_para cliente.xlsx - Resultado Final - Publicação (1).pdf)")
+        self.assertEqual(t, "Notas Preliminares TO 1117 para cliente - Resultado Final - Publicação")
+
+    def test_titulo_que_e_o_endereco_vem_da_triagem_ou_do_arquivo(self):  # UNIFESP 365, UFMG 1949
+        cam = "documentos/t/https---www.google.com-url-q=https.pdf"
+        reg = {cam: {"texto": "https://www.google.com/url?q=https"}}
+        tri = {cam: {"numero_literal": {"valor": "Edital de convocação para o procedimento de heteroidentificação"}}}
+        self.assertEqual(A.titulo_doc(cam, tri, reg), "Edital de convocação para o procedimento de heteroidentificação")
+        cam2 = "documentos/t/Termo-de-Consentimento-para-Tratamento-de-Dados.pdf"
+        t = A.titulo_doc(cam2, {}, {cam2: {"texto": "https://intranet.exemplo.br/modelos/Termo-de-Consentimento-para-Tratamento-de-Dados"}})
+        self.assertEqual(t, "Termo de Consentimento para Tratamento de Dados")
+
+    def test_titulo_so_numero_vem_da_triagem(self):  # IFSULDEMINAS 188: "188 (1).pdf"
+        cam = "documentos/t/188 (1).pdf"
+        reg = {cam: {"texto": "Fazer download deste arquivo (188 (1).pdf)"}}
+        tri = {cam: {"numero_literal": {"valor": "Gabaritos Preliminares"}}}
+        self.assertEqual(A.titulo_doc(cam, tri, reg), "Gabaritos Preliminares")
+
+    def test_bloco_de_links_repetido_em_tres_arquivos_vem_do_arquivo(self):  # UERJ 213: edital e anexos com o mesmo texto
+        bloco = "Edital Anexo 1 Anexo V - Termo de Autodeclaração de cota de indígena Anexo 2 Anexo VI - Formulário de laudo médico"
+        cam = "documentos/t/anexo1.pdf"
+        self.assertEqual(A.titulo_doc(cam, {}, {cam: {"texto": bloco}}, [bloco, bloco, bloco], 3), "Anexo 1")
+        # o mesmo arquivo em duas páginas não é bloco: com conteúdo igual, o texto continua
+        self.assertEqual(A.titulo_doc(cam, {}, {cam: {"texto": bloco}}, [bloco, bloco, bloco], 0), bloco)
+
+    def test_texto_repetido_com_nome_de_arquivo_ilegivel_continua(self):  # UFC 48: o arquivo é um código gerado
+        cam = "documentos/t/0b9bdfbc-963e-4fb9-98f4-314359abab74.pdf"
+        txt = "Parecer do recurso contra o gabarito preliminar - Língua portuguesa"
+        self.assertEqual(A.titulo_doc(cam, {}, {cam: {"texto": txt}}, [txt, txt, txt], 3), txt)
+
+    def test_nome_do_arquivo_sem_codigo_gerado(self):  # UERJ 213: "edital-994f60f6.pdf", "anexo1.pdf"
+        self.assertEqual(A.titulo_do_arquivo("documentos/uerj-2026/edital-994f60f6.pdf"), "Edital")
+        self.assertEqual(A.titulo_do_arquivo("documentos/uerj-2026/anexo1.pdf"), "Anexo 1")
+        self.assertEqual(A.titulo_do_arquivo("documentos/t/SEI_UFRGS-8178955-Resultado-da-2a-fase.pdf"), "SEI UFRGS 8178955 Resultado da 2a fase")
+
+
+class TextoLongoDoSorteioEDosPortoes(unittest.TestCase):
+    """Ponto 3 do lançamento, corte aprovado pelo Samuel em 22/10/2026: o aviso da prova objetiva do IFMG 1077 levava
+    o sorteio da dissertativa com a expressão de tempo repetida e os portões cortados no meio da frase."""
+    PORTOES = ("Fechamento dos portões às 07h45, 15 (quinze) minutos antes do início das provas; em nenhuma hipótese as pessoas "
+               "candidatas poderão acessar os locais de prova após o fechamento dos portões")
+    SORTEIO = ("O sorteio do tema para a Prova Dissertativa-Argumentativa será realizado 10 minutos antes do início de aplicação das provas")
+    QUANDO = "10 minutos antes do início de aplicação das provas"
+
+    def test_portoes_ficam_com_o_horario_e_a_consequencia(self):
+        self.assertEqual(A.rotulo({"tipo_evento": "outro", "descricao_literal": self.PORTOES}),
+                         "Fechamento dos portões às 07h45, 15 (quinze) minutos antes do início das provas; depois disso não se entra")
+
+    def test_portoes_sem_regra_de_acesso_na_parte_cortada_so_perdem_a_parte(self):
+        r = A.rotulo({"tipo_evento": "outro", "descricao_literal": "Fechamento dos portões às 07h45; leve documento com foto e caneta preta"})
+        self.assertEqual(r, "Fechamento dos portões às 07h45")
+
+    def test_portoes_sem_ponto_e_virgula_ficam_como_estavam(self):  # UFERSA 030
+        lit = "Fechamento dos portões dos locais de aplicação da Prova Escrita, impreterivelmente, às 08h00min"
+        self.assertEqual(A.rotulo({"tipo_evento": "outro", "descricao_literal": lit}), lit)
+
+    def test_outro_evento_com_ponto_e_virgula_nao_e_cortado(self):
+        lit = "Sorteio do ponto; imediatamente após o sorteio, início da prova escrita"
+        self.assertEqual(A.rotulo({"tipo_evento": "sorteio_tema", "descricao_literal": lit}), lit)
+
+    def test_tempo_repetido_no_fim_do_rotulo_sai(self):
+        self.assertEqual(A.sem_tempo_repetido(self.SORTEIO, self.QUANDO), "O sorteio do tema para a Prova Dissertativa-Argumentativa")
+
+    def test_tempo_que_nao_se_repete_fica(self):
+        self.assertEqual(A.sem_tempo_repetido("Sorteio do ponto da prova escrita", "30/11/2026 (segunda), às 09:00"),
+                         "Sorteio do ponto da prova escrita")
+        self.assertEqual(A.sem_tempo_repetido("Sorteio 10 minutos antes do início das provas e entrega do código", self.QUANDO),
+                         "Sorteio 10 minutos antes do início das provas e entrega do código")
+
+    def test_nao_deixa_o_rotulo_vazio(self):
+        self.assertEqual(A.sem_tempo_repetido(self.QUANDO, self.QUANDO), self.QUANDO)
+
+    def test_aviso_da_prova_objetiva_do_ifmg_sai_curto(self):  # IFMG 1077, 17/01/2027
+        evs = [{"tipo_evento": "prova", "etapa_ref": "escrita", "descricao_literal": "Realização das Provas Objetiva e Dissertativa",
+                "data": fx("2027-01-24")},
+               {"tipo_evento": "sorteio_tema", "etapa_ref": "escrita", "descricao_literal": self.SORTEIO,
+                "data": {"forma": "condicionada", "condicao_literal": self.QUANDO}},
+               {"tipo_evento": "outro", "descricao_literal": self.PORTOES, "data": fx("2027-01-24", "07:45")}]
+        t = rodar_msgs(evs, dt.date(2027, 1, 17), dt.date(2027, 1, 16))[None]
+        self.assertIn("• 10 minutos antes do início de aplicação das provas: O sorteio do tema para a Prova Dissertativa-Argumentativa "
+                      "(antes de: Realização das Provas Objetiva e Dissertativa)", t)
+        self.assertIn("Fechamento dos portões às 07h45, 15 (quinze) minutos antes do início das provas; depois disso não se entra (faltam 7 dias)", t)
+        self.assertNotIn("será realizado", t)
+        self.assertNotIn("...", t)
+
+
 if __name__ == "__main__":
     unittest.main()

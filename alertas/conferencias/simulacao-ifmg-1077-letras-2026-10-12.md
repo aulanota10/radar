@@ -8,6 +8,8 @@ Regravada em 22/10/2026 depois da decisão do Samuel sobre as mensagens de cota.
 
 Regravada de novo em 22/10/2026 depois da decisão do Samuel sobre o aviso de resultado, que passou a sair uma vez só, dois dias antes, e não mais também no dia da publicação. A candidata sem cota deixa de receber as mensagens de 16/11/2026, 12/02, 18/02, 23/03, 04/05 e 12/05/2027, que traziam só o aviso do dia, e passa de 43 para 37 mensagens. As de 23/11/2026 e 31/03/2027 continuam, porque levam outras datas, só sem a linha do resultado de que ela já tinha sido avisada. Quem marca cota passa de 50 para 45. O resultado do concurso (preliminar em 11/06 e final em 18/06/2027) segue com aviso só no dia, como antes.
 
+Regravada de novo em 22/10/2026 depois da limpeza dos avisos (ponto 3 do lançamento). A contagem não muda: 37 mensagens para quem não marca cota e 45 para quem marca. O que muda é o texto. O aviso da prova objetiva, em 25/12, 10/01, 17/01 e 22/01, perde 142 caracteres cada um (de 840 para 698 no texto final do WhatsApp), e o do dia da prova, em 24/01/2027, perde 76, porque o sorteio do tema da dissertativa deixa de repetir a expressão de tempo que já abre a linha e a linha dos portões deixa de ser cortada no meio da frase. Quem marca cota também perde o "(período para)" do aviso de 17 a 27/05/2027, e as duas mensagens dessa data ficam 15 caracteres menores.
+
 ## 12/10/2026 · alerta de concurso novo
 
 ```
@@ -171,7 +173,7 @@ Para não receber mais, responda SAIR.
 ```
 Radar Aula Nota 10: aviso do concurso IFMG 1077/2026 para todas as áreas.
 
-Datas que se aproximam: 10 minutos antes do início de aplicação das provas: O sorteio do tema para a Prova Dissertativa-Argumentativa será realizado 10 minutos antes do início de aplicação das provas (antes de: Realização das Provas Objetiva e Dissertativa). 24/01/2027 (domingo), às 07:45: Fechamento dos portões às 07h45, 15 (quinze) minutos antes do início das provas; em nenhuma hipótese as pessoas candidatas poderão acessar os locais de prova após o fechamento dos... (faltam 30 dias). 24/01/2027 (domingo): Realização das Provas Objetiva e Dissertativa (faltam 30 dias).
+Datas que se aproximam: 10 minutos antes do início de aplicação das provas: O sorteio do tema para a Prova Dissertativa-Argumentativa (antes de: Realização das Provas Objetiva e Dissertativa). 24/01/2027 (domingo), às 07:45: Fechamento dos portões às 07h45, 15 (quinze) minutos antes do início das provas; depois disso não se entra (faltam 30 dias). 24/01/2027 (domingo): Realização das Provas Objetiva e Dissertativa (faltam 30 dias).
 
 Confira nos documentos oficiais (https://portal.concursos.ifmg.edu.br/). A informação oficial é sempre a do edital e dos documentos da instituição.
 
@@ -183,7 +185,7 @@ Para não receber mais, responda SAIR.
 ```
 Radar Aula Nota 10: aviso do concurso IFMG 1077/2026 para todas as áreas.
 
-Datas que se aproximam: 10 minutos antes do início de aplicação das provas: O sorteio do tema para a Prova Dissertativa-Argumentativa será realizado 10 minutos antes do início de aplicação das provas (antes de: Realização das Provas Objetiva e Dissertativa). 24/01/2027 (domingo), às 07:45: Fechamento dos portões às 07h45, 15 (quinze) minutos antes do início das provas; em nenhuma hipótese as pessoas candidatas poderão acessar os locais de prova após o fechamento dos... (faltam 14 dias). 24/01/2027 (domingo): Realização das Provas Objetiva e Dissertativa (faltam 14 dias).
+Datas que se aproximam: 10 minutos antes do início de aplicação das provas: O sorteio do tema para a Prova Dissertativa-Argumentativa (antes de: Realização das Provas Objetiva e Dissertativa). 24/01/2027 (domingo), às 07:45: Fechamento dos portões às 07h45, 15 (quinze) minutos antes do início das provas; depois disso não se entra (faltam 14 dias). 24/01/2027 (domingo): Realização das Provas Objetiva e Dissertativa (faltam 14 dias).
 
 Confira nos documentos oficiais (https://portal.concursos.ifmg.edu.br/). A informação oficial é sempre a do edital e dos documentos da instituição.
 
@@ -195,7 +197,7 @@ Para não receber mais, responda SAIR.
 ```
 Radar Aula Nota 10: aviso do concurso IFMG 1077/2026 para todas as áreas.
 
-Datas que se aproximam: 10 minutos antes do início de aplicação das provas: O sorteio do tema para a Prova Dissertativa-Argumentativa será realizado 10 minutos antes do início de aplicação das provas (antes de: Realização das Provas Objetiva e Dissertativa). 24/01/2027 (domingo), às 07:45: Fechamento dos portões às 07h45, 15 (quinze) minutos antes do início das provas; em nenhuma hipótese as pessoas candidatas poderão acessar os locais de prova após o fechamento dos... (faltam 7 dias). 24/01/2027 (domingo): Realização das Provas Objetiva e Dissertativa (faltam 7 dias).
+Datas que se aproximam: 10 minutos antes do início de aplicação das provas: O sorteio do tema para a Prova Dissertativa-Argumentativa (antes de: Realização das Provas Objetiva e Dissertativa). 24/01/2027 (domingo), às 07:45: Fechamento dos portões às 07h45, 15 (quinze) minutos antes do início das provas; depois disso não se entra (faltam 7 dias). 24/01/2027 (domingo): Realização das Provas Objetiva e Dissertativa (faltam 7 dias).
 
 Confira nos documentos oficiais (https://portal.concursos.ifmg.edu.br/). A informação oficial é sempre a do edital e dos documentos da instituição.
 
@@ -207,7 +209,7 @@ Para não receber mais, responda SAIR.
 ```
 Radar Aula Nota 10: aviso do concurso IFMG 1077/2026 para todas as áreas.
 
-Datas que se aproximam: 10 minutos antes do início de aplicação das provas: O sorteio do tema para a Prova Dissertativa-Argumentativa será realizado 10 minutos antes do início de aplicação das provas (antes de: Realização das Provas Objetiva e Dissertativa). 24/01/2027 (domingo), às 07:45: Fechamento dos portões às 07h45, 15 (quinze) minutos antes do início das provas; em nenhuma hipótese as pessoas candidatas poderão acessar os locais de prova após o fechamento dos... (faltam 2 dias). 24/01/2027 (domingo): Realização das Provas Objetiva e Dissertativa (faltam 2 dias).
+Datas que se aproximam: 10 minutos antes do início de aplicação das provas: O sorteio do tema para a Prova Dissertativa-Argumentativa (antes de: Realização das Provas Objetiva e Dissertativa). 24/01/2027 (domingo), às 07:45: Fechamento dos portões às 07h45, 15 (quinze) minutos antes do início das provas; depois disso não se entra (faltam 2 dias). 24/01/2027 (domingo): Realização das Provas Objetiva e Dissertativa (faltam 2 dias).
 
 Confira nos documentos oficiais (https://portal.concursos.ifmg.edu.br/). A informação oficial é sempre a do edital e dos documentos da instituição.
 
@@ -219,7 +221,7 @@ Para não receber mais, responda SAIR.
 ```
 Radar Aula Nota 10: aviso do concurso IFMG 1077/2026 para todas as áreas.
 
-Datas que se aproximam: 24/01/2027 (domingo), às 07:45: Fechamento dos portões às 07h45, 15 (quinze) minutos antes do início das provas; em nenhuma hipótese as pessoas candidatas poderão acessar os locais de prova após o fechamento dos... (é hoje). 24/01/2027 (domingo): Realização das Provas Objetiva e Dissertativa (é hoje). 25/01/2027 (segunda): Publicação do caderno de provas e do gabarito (é amanhã).
+Datas que se aproximam: 24/01/2027 (domingo), às 07:45: Fechamento dos portões às 07h45, 15 (quinze) minutos antes do início das provas; depois disso não se entra (é hoje). 24/01/2027 (domingo): Realização das Provas Objetiva e Dissertativa (é hoje). 25/01/2027 (segunda): Publicação do caderno de provas e do gabarito (é amanhã).
 
 Confira nos documentos oficiais (https://portal.concursos.ifmg.edu.br/). A informação oficial é sempre a do edital e dos documentos da instituição.
 

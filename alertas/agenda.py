@@ -210,6 +210,13 @@ NOME_EVENTO = {
     "resultado_final": "resultado final", "homologacao_resultado": "homologação do resultado",
     "convocacao": "convocação", "recurso": "prazo de recurso",
     "sorteio_ordem": "sorteio da ordem de apresentação", "sorteio_turma": "sorteio das turmas",
+    # tipos que antes caíam no nome interno ("Outro", "Procedimento cotas", "Impugnacao edital")
+    "publicacao_edital": "publicação do edital", "procedimento_cotas": "procedimento de cotas",
+    "impugnacao_edital": "impugnação ao edital", "impugnacao_edital_resultado": "resultado da impugnação ao edital",
+    "impugnacao_banca": "impugnação da banca", "impugnacao_banca_resultado": "resultado da impugnação da banca",
+    "atendimento_especial_resultado": "resultado do atendimento especial", "sorteio_reserva": "sorteio da reserva de vagas",
+    "suspensao": "suspensão do concurso", "retomada": "retomada do concurso", "cancelamento": "cancelamento do concurso",
+    "confinamento": "confinamento", "outro": "outra data do cronograma",
 }
 NOME_ETAPA = {"defesa_producao": "defesa da produção intelectual", "didatica": "prova didática", "escrita": "prova escrita", "objetiva": "prova objetiva",
               "titulos": "prova de títulos", "memorial": "defesa de memorial", "projeto": "projeto",
@@ -327,12 +334,49 @@ def corta(t, n=180):
     return (t[:m] if m > n // 2 else t[:n].rsplit(" ", 1)[0]) + "..."
 
 
+# Fragmentos de rótulo que o edital deixa soltos entre parênteses: "(período para) Realização da Prova" e
+# "Resultado das solicitações ... (a partir do dia)". O texto da data já diz que é período e a partir de quando.
+ROTULO_SOLTO_INI = re.compile(r"^\s*\(\s*(?:per[ií]odo|prazo|data|datas)\s+(?:para|de|do|da)\s*\)\s*", re.I)
+ROTULO_SOLTO_FIM = re.compile(r"\s*\(\s*(?:a partir (?:do dia|de|da|das|do|dos)|at[ée]|no dia|em)\s*\)\s*$", re.I)
+
+
+PORTOES = re.compile(r"fechamento d[oe]s? port[õoãa]", re.I)
+ACESSO_FECHA = re.compile(r"acess|entrar|ingress|adentr|permitid", re.I)
+VERBO_DE_TEMPO = re.compile(r"\s+(?:(?:ser[áa]|[ée]|ocorrer[áa]|acontecer[áa])\s+(?:realizad[oa]s?|feit[oa]s?|efetuad[oa]s?)|ocorrer[áa]|acontecer[áa]|ocorre|acontece)\s*$", re.I)
+
+
+def resumo_dos_portoes(lit):
+    """Fechamento dos portões: o que o candidato precisa é do horário e de que depois dele não se entra. O edital
+    põe a regra inteira numa frase só (IFMG 1077: "...; em nenhuma hipótese as pessoas candidatas poderão acessar
+    os locais de prova após o fechamento dos..."), que o corte de 180 caracteres deixava pela metade."""
+    if not PORTOES.search(lit) or ";" not in lit:
+        return lit
+    ini, resto = lit.split(";", 1)
+    return ini.strip() + ("; depois disso não se entra" if ACESSO_FECHA.search(resto) else "")
+
+
+def sem_tempo_repetido(rot, quando):
+    """O texto da data já abre a linha ("10 minutos antes do início de aplicação das provas: ..."). Quando o rótulo
+    repete essa mesma expressão no fim ("... será realizado 10 minutos antes do início de aplicação das provas"),
+    a repetição sai, com o verbo que a ligava (IFMG 1077, sorteio do tema da dissertativa)."""
+    q = (quando or "").strip().rstrip(".")
+    if len(q) < 15 or not rot:
+        return rot
+    i = rot.lower().rfind(q.lower())
+    if i <= 0 or rot[i + len(q):].strip():
+        return rot
+    antes = VERBO_DE_TEMPO.sub("", rot[:i].rstrip()).rstrip(" ,;:")
+    return antes if len(antes) >= 15 else rot
+
+
 def rotulo(e):
     """O que o candidato lê é a descrição literal do edital, e não o nome do tipo interno.
     A conferência de 11/10 mostrou que o tipo engana ("resultado final" para o resultado preliminar,
     "homologação" para a lista de inscritos, "Outro", "Impugnacao banca"), enquanto o texto literal
     traz o que importa ("horário de fechamento das salas", "previsão")."""
     lit = re.sub(r"\s*\((?:Edital\b|item\b|itens\b|faixa\b|ver\b|cf\.)[^)]*\)", "", e.get("descricao_literal") or "", flags=re.I)
+    lit = ROTULO_SOLTO_FIM.sub("", ROTULO_SOLTO_INI.sub("", lit)).strip()
+    lit = resumo_dos_portoes(lit)
     # a marca de previsão que o extrator põe no fim do literal (regra de 12/10) não pode sumir no corte
     marca = re.search(r"\s*\((?:previs|prov[áa]vel|data prev|datas prov|data prov|cronograma previsto)[^)]*\)\s*$", lit, re.I)
     lit = corta(lit)
@@ -387,7 +431,7 @@ def item_agendado(e, marco, ref, hoje, fonte, periodo=False):
     """Item 'Datas que se aproximam' de um evento, no marco ('ini' ou 'fim') que vence em ref."""
     f, i, j, h = intervalo(e["data"])
     hi, hj = (e["data"].get("inicio") or {}).get("hora"), (e["data"].get("fim") or {}).get("hora")
-    rot = rotulo(e)
+    rot = sem_tempo_repetido(rotulo(e), texto_ev(e, hoje))
     individual = horario_individual(e)
     prazo = prazo_fixo(e["tipo_evento"], e["data"])
     if e["tipo_evento"] == "inscricao":
@@ -595,6 +639,19 @@ def doc_da_area(item, area, novos, triagem):
     return dict(item, doc=proprios[0]) if len(proprios) == 1 else item
 
 
+def literal_da_alteracao(alt):
+    """A retificação cita o item alterado como "texto do edital | data" (leia_se e onde_se_le). Quando o evento
+    não está no cadastro, o que o candidato lê é esse texto, e não o nome interno do tipo (IFSULDEMINAS 188,
+    UEMA: "Outro", "Procedimento cotas")."""
+    for k in ("leia_se", "onde_se_le"):
+        t = alt.get(k)
+        if isinstance(t, str) and " | " in t:
+            t = re.sub(r"\s+", " ", t.rsplit(" | ", 1)[0]).strip()
+            if len(t) >= 8:
+                return t
+    return None
+
+
 def evento_vigente_da_retificacao(eventos, ev, cam):
     """Quando a retificação troca um evento por outro, o aviso descreve o evento vigente da mesma
     retificação, não o literal antigo (IFSULDEMINAS 188, conferência de 20/10: o ev-0050, de 4 vias
@@ -764,13 +821,14 @@ def limpa_titulo(t, pub=None):
     """Título legível para o candidato: tira o texto cru do link e os prefixos do acervo."""
     t = re.sub(r"\s+", " ", t or "").strip()
     t = re.sub(r"^Fazer download deste arquivo \((.*)\)$", r"\1", t)
-    t = re.sub(r"\s*\bDOWNLOAD\.?$", "", t)
+    t = re.sub(r"\s*\bdownload\b\.?(?=\s*/|\s*$)", "", t, flags=re.I)  # botão do portal colado ao texto (USP FM 152)
     t = re.sub(r"^\d{1,3}\s*-\s*", "", t)
     t = re.sub(r"\s*\((?:texto da página|arquivo do Google Drive[^)]*|n[ãa]o foi poss[íi]vel[^)]*)\)", "", t, flags=re.I)
     # nota técnica do vigia no meio do parêntese (IFMT 03: "(edital consolidado e retificadores; nao foi possivel abrir por robots.txt)")
     t = re.sub(r"\s*[;,]\s*n[ãa]o foi poss[íi]vel[^)]*", "", t, flags=re.I)
     t = re.sub(r"\s*\([^)]*robots\.txt[^)]*\)", "", t, flags=re.I)
-    t = re.sub(r"\.(pdf|docx?|odt|xlsx?)$", "", t, flags=re.I)
+    t = re.sub(r"\.(pdf|docx?|odt|xlsx?)(?=\s|\)|$)", "", t, flags=re.I)  # inclusive no meio: "para cliente.xlsx - Resultado"
+    t = re.sub(r"(?<=[A-Za-zÀ-ÿ])\s*\(\d{1,2}\)$", "", t)  # cópia do navegador: "Publicação (1)"
     t = t.replace("_", " ").strip(" .")
     if pub and re.search(r"\bde hoje\b", t, re.I):
         t = re.sub(r"\bde hoje\b", f"de {pub.strftime('%d/%m/%Y')}", t, flags=re.I)
@@ -779,6 +837,11 @@ def limpa_titulo(t, pub=None):
 
 # Texto de link que não diz que documento é (UFRGS 08: "PDF (divulgado em 13/10/2026 às 07:05)").
 GENERICO = re.compile(r"^(pdf|arquivo|anexo|download|baixar|clique aqui|link|documento|acesse|ver|aqui)\W*$", re.I)
+# Link cujo texto é o próprio endereço (UNIFESP 365 e outros: "https://www.google.com/url?q=https").
+ENDERECO = re.compile(r"^https?://\S*$", re.I)
+SO_NUMERO = re.compile(r"^[\d\s().,/-]*$")
+# Nome de arquivo que é só código gerado (UFC 48: "0b9bdfbc-963e-4fb9-98f4-314359abab74.pdf").
+NOME_ILEGIVEL = re.compile(r"^[0-9a-f]{8}[ -][0-9a-f]{4}[ -][0-9a-f]{4}", re.I)
 
 
 def titulo_do_arquivo(cam):
@@ -787,25 +850,38 @@ def titulo_do_arquivo(cam):
     if " " not in b:
         b = re.sub(r"[_-]+", " ", b)
     b = b.replace("_", " ").strip()
+    b = re.sub(r"\s+(?=[0-9a-f]*[a-f])(?=[0-9a-f]*\d)[0-9a-f]{8}$", "", b, flags=re.I)  # sufixo aleatório do vigia: "edital-994f60f6"
+    b = re.sub(r"^([A-Za-zÀ-ÿ]+)(\d+)$", r"\1 \2", b)  # "anexo1" -> "anexo 1"
     return b[0].upper() + b[1:] if b else "documento"
 
 
-def titulo_doc(cam, triagem, registro, outros=()):
+def titulo_doc(cam, triagem, registro, outros=(), mesmo_texto_em_outros_arquivos=0):
     """outros: textos de link dos demais documentos do concurso. Texto que contém o de outro link é a
-    concatenação de vários links da página (UERJ 244 e 255: 'Edital Errata Modelo de declaração ...')."""
+    concatenação de vários links da página (UERJ 244 e 255: 'Edital Errata Modelo de declaração ...').
+    mesmo_texto_em_outros_arquivos: quantos documentos de conteúdo diferente têm este mesmo texto de link."""
     t = (registro.get(cam) or {}).get("texto")
     pub = D(val((triagem.get(cam) or {}).get("data_publicacao"))) or D((registro.get(cam) or {}).get("primeira_vez"))
     if t:
         sem_par = re.sub(r"\s*\([^)]*\)", "", t).strip()
         # dois ou mais: "Novo - Enfermagem no Cuidado..." contém o texto de outro link e não é concatenação
         concatenado = len({o for o in outros if o and len(o) >= 15 and o != t and o in t}) >= 2
-        if concatenado or GENERICO.match(sem_par or "pdf"):
+        sem_sentido = bool(GENERICO.match(sem_par or "pdf") or ENDERECO.match(sem_par))
+        # o mesmo texto em três ou mais arquivos diferentes é o título da página, e não o do documento
+        # (UERJ 213: bloco de links do edital e dos anexos; UFMG 1638: "Processo seletivo: ...")
+        compartilhado = len(t) >= 60 and mesmo_texto_em_outros_arquivos >= 2
+        if concatenado or sem_sentido or compartilhado:
             nome = val((triagem.get(cam) or {}).get("numero_literal")) or titulo_do_arquivo(cam)
-            par = re.search(r"\((divulgad[oa][^)]*|publicad[oa][^)]*)\)", t) if not concatenado else None
-            t = nome + (f" ({par.group(1)})" if par else "")
+            # nome de arquivo ilegível (UFC 48: código aleatório): o texto repetido do link ainda diz mais
+            if not (compartilhado and not concatenado and not sem_sentido and NOME_ILEGIVEL.match(nome)):
+                par = re.search(r"\((divulgad[oa][^)]*|publicad[oa][^)]*)\)", t) if not concatenado else None
+                t = nome + (f" ({par.group(1)})" if par else "")
     if not t:
         t = val((triagem.get(cam) or {}).get("numero_literal")) or os.path.basename(cam)
-    return limpa_titulo(t, pub)
+    r = limpa_titulo(t, pub)
+    # só número não diz que documento é (IFSULDEMINAS 188: "188 (1).pdf", o gabarito preliminar)
+    if SO_NUMERO.match(r) and val((triagem.get(cam) or {}).get("numero_literal")):
+        r = limpa_titulo(val(triagem[cam]["numero_literal"]), pub)
+    return r
 
 
 def executar(vigia, hoje, anterior):
@@ -838,7 +914,9 @@ def executar(vigia, hoje, anterior):
         if lidos_agora - novos:
             rel["acervo"].append(f"{nome}: {len(lidos_agora - novos)} documento(s) antigo(s) lido(s) hoje pelo extrator; não viram notícia.")
         textos = {p: (registro.get(p) or {}).get("texto") for p in triados}
-        c["_titulos"] = {p: titulo_doc(p, triagem, registro, [t for q, t in textos.items() if q != p]) for p in triados}
+        c["_titulos"] = {p: titulo_doc(p, triagem, registro, [t for q, t in textos.items() if q != p],
+                                       sum(1 for q, t in textos.items() if q != p and t and t == textos[p] and triados[q] != triados[p]))
+                         for p in triados}
         if a is None and not base:
             rel["concurso_novo"].append(slug)
 
@@ -901,6 +979,8 @@ def executar(vigia, hoje, anterior):
             pseudo = ev_por_id.get(ea.get("evento_id")) or {"tipo_evento": ea.get("tipo_evento") or "evento",
                                                               "etapa_ref": ea.get("etapa_ref"), "fase": None}
             pseudo = evento_vigente_da_retificacao(c["eventos"], pseudo, cam)
+            if not pseudo.get("descricao_literal") and literal_da_alteracao(alt):
+                pseudo = dict(pseudo, descricao_literal=literal_da_alteracao(alt))
             if interno_da_comissao(pseudo):
                 continue
             item = {"tipo": "mudanca", "doc": cam,
@@ -1002,7 +1082,7 @@ def executar(vigia, hoje, anterior):
                                 quando = f" ({falta(ci2, hoje)})" if ci2 else f" (antes de: {corta(rotulo(e), 70)})"
                                 avisos[(slug, d)].append({"tipo": "agendado", "data": ci2 or ref, "hora": ch2 or "", "antes": not ci2,
                                     "ev": id(cpn), "ordem": ordem.get(id(cpn), 0),
-                                    "texto": f"{texto_ev(cpn, hoje)}: {rotulo(cpn)}{quando}",
+                                    "texto": f"{texto_ev(cpn, hoje)}: {sem_tempo_repetido(rotulo(cpn), texto_ev(cpn, hoje))}{quando}",
                                     "fonte": dict(cpn.get("fonte") or {}, documento=(cpn.get("fonte") or {}).get("documento") or edital)})
 
         # documentos novos sem data mas que valem aviso, e pendências resolvidas por eles
