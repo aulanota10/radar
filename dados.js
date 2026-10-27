@@ -1,6 +1,6 @@
 // ═══════════════════════════════════════════════════════════════════════
 //  DADOS DO RADAR DE CONCURSOS · Aula Nota 10
-//  Última verificação: 18/10/2026
+//  Última verificação: 27/10/2026
 //
 //  ESTE É O ÚNICO ARQUIVO QUE VOCÊ PRECISA EDITAR PARA ATUALIZAR O SITE.
 //  Não mexa no index.html.
@@ -53,7 +53,10 @@
 // Gerado por compilar_radar.py a partir das extrações v2 (vigia-documentos/extracoes).
 // Para corrigir um dado, corrija a extração e rode o compilador de novo.
 
-window.RADAR_ATUALIZADO = "18/10/2026";
+// Gerado por compilar_radar.py a partir das extrações v2 (vigia-documentos/extracoes).
+// Para corrigir um dado, corrija a extração e rode o compilador de novo.
+
+window.RADAR_ATUALIZADO = "27/10/2026";
 
 window.CONCURSOS = [
   {
@@ -62,7 +65,7 @@ window.CONCURSOS = [
     "instituicao": "Universidade Federal do Rio Grande do Norte",
     "nivel": "Magistério Superior",
     "uf": "RN",
-    "numero_edital": "Edital nº 058/2026-PROGESP, publicado em 30/04/2026, com 8 documentos de alteração publicados depois",
+    "numero_edital": "Edital nº 058/2026-PROGESP, publicado em 30/04/2026, com 9 documentos de alteração publicados depois",
     "vagas": "26 vagas (5 PcD, 6 pretos e pardos, 1 indígena, 1 quilombola)",
     "areas": "26 áreas, entre elas Nutrição em Saúde Coletiva, Doenças do Sistema Genitourinário, Endocrinologia e Metabologia, Prótese Dentária, Oclusão e Anatomia e Escultura e Otoneurologia / Dispositivos Eletrônicos de Amplificação Sonora (DEAS)",
     "campi": "Natal-RN, Departamento de Nutrição - Campus de Natal/RN, Departamento de Medicina Integrada - Campus de Natal/RN, Departamento de Medicina Clínica - Campus de Natal/RN e Departamento de Odontologia - Campus de Natal/RN",
@@ -1526,7 +1529,7 @@ window.CONCURSOS = [
     "instituicao": "Universidade Federal do Rio Grande do Sul",
     "nivel": "Magistério Superior",
     "uf": "RS",
-    "numero_edital": "Edital nº 09/2026, publicado em 19/08/2026, com 4 documentos de alteração publicados depois",
+    "numero_edital": "Edital nº 09/2026, publicado em 19/08/2026, com 5 documentos de alteração publicados depois",
     "vagas": "20 vagas (10 ampla concorrência, 5 pretos, 1 indígena, 4 PcD)",
     "areas": "16 áreas, entre elas Antropologia, Subárea: Teoria Antropológica, Arquitetura e Urbanismo, Subárea: Projeto Arquitetônico: fundamentos e tecnologia, Ciências Agrárias, Subárea: Entomologia Agrícola, Ciências da Saúde/Medicina, Subárea: Anatomia Patológica e Patologia Clínica e Direito, Subárea: Direito Internacional Público",
     "campi": "Instituto de Filosofia e Ciências Humanas - Departamento de Antropologia, Faculdade de Arquitetura - Departamento de Arquitetura, Faculdade de Agronomia - Departamento de Fitossanidade e Faculdade de Medicina - Departamento de Patologia",
@@ -13360,7 +13363,7 @@ window.CONCURSOS = [
     "instituicao": "Fundação Universidade Regional do Cariri",
     "nivel": "Magistério Superior",
     "uf": "CE",
-    "numero_edital": "Edital nº 02/2026, publicado em 22/06/2026, com 5 documentos de alteração publicados depois",
+    "numero_edital": "Edital nº 02/2026, publicado em 22/06/2026, com 6 documentos de alteração publicados depois",
     "vagas": "26 vagas",
     "areas": "18 áreas, entre elas ASSISTÊNCIA EM ENFERMAGEM, CLÍNICA CIRÚRGICA/ ANATOMIA/ HISTOLOGIA/ SEMIOLOGIA/ INTERNATO, IMUNOLOGIA / MICROBIOLOGIA / PATOLOGIA CLÍNICA / INTERNATO, HISTOLOGIA E EMBRIOLOGIA / INFECTOLOGIA / ANATOMIA PATOLÓGICA / INTERNATO e CLÍNICA MÉDICA / ANESTESIA / SEMIOLOGIA/ FARMACOLOGIA / INTERNATO",
     "campi": "CCBS - ENFERMAGEM, CCBS - MEDICINA, CH - LÍNGUAS E LITERATURAS e CH - CIÊNCIAS SOCIAIS",
@@ -17871,9 +17874,9 @@ window.CONCURSOS = [
     "instituicao": "Universidade Federal da Bahia",
     "nivel": "Magistério Superior",
     "uf": "BA",
-    "numero_edital": "Edital nº 06/2026, publicado em 25/06/2026, com 12 documentos de alteração publicados depois",
-    "vagas": "38 vagas",
-    "areas": "36 áreas, entre elas Gestão da Produção e Métodos Quantitativos, Enfermagem no Cuidado à Saúde da Mulher na Atenção Básica, Parto e Puerpério, Fundamentos de Enfermagem no Cuidado Individual e Cuidado em Enfermagem à Pessoa no Contexto Hospitalar, Gestão e Educação Permanente em Saúde e Enfermagem e Extensão Rural",
+    "numero_edital": "Edital nº 06/2026, publicado em 25/06/2026, com 21 documentos de alteração publicados depois",
+    "vagas": "37 vagas",
+    "areas": "35 áreas, entre elas Gestão da Produção e Métodos Quantitativos, Enfermagem no Cuidado à Saúde da Mulher na Atenção Básica, Parto e Puerpério, Fundamentos de Enfermagem no Cuidado Individual e Cuidado em Enfermagem à Pessoa no Contexto Hospitalar, Gestão e Educação Permanente em Saúde e Enfermagem e Extensão Rural",
     "campi": "Salvador, Vitória da Conquista, Escola de Administração / Departamento: Coordenação Acadêmica, Escola de Enfermagem / Departamento: Coordenação Acadêmica, Escola de Medicina Veterinária e Zootecnia / Departamento: Medicina Veterinária Preventiva e Produção Animal e Escola Politécnica / Departamento: Ciência e Tecnologia dos Materiais",
     "titulacao": "Conforme a área",
     "regime": "Dedicação Exclusiva, 20 horas semanais e 40 horas semanais",
@@ -19784,7 +19787,6 @@ window.CONCURSOS = [
     "observacao": "Aqui está a regra mais dura do radar inteiro: o ponto é sorteado apenas 2 HORAS antes da sua aula, e logo em seguida você tem de entregar 3 vias impressas do plano de aula daquele ponto, sob pena de eliminação. Não dá para escrever o plano na hora. Quem entra nesse concurso precisa chegar com plano pronto e impresso para TODOS os pontos do programa. A aula é de 50 a 60 minutos e não há arguição: a banca não pergunta nada, o que torna a coerência entre plano e aula o eixo da avaliação. Peso 3, o mesmo da escrita. O barema é próprio de cada Congregação e fica publicado junto com o edital da sua área. As provas correm de 03/09 a 06/11, com a data da sua área avisada 30 dias antes.",
     "detalhamento": "completo",
     "avisos_edital": [
-      "Memorial, área 24 (Geofísica Aplicada): os critérios somam 10,5 pontos, mas o edital declara total de 10. Pode ser erro de digitação do edital; confira no edital, que é a fonte oficial.",
       "Avaliação de títulos, área 22 (Sistema de informação gerencial aplicado à…): um item vale até 30 pontos, acima do teto do seu grupo (20). Pode ser erro de digitação do edital; confira no edital, que é a fonte oficial."
     ],
     "fonte_dados": {
@@ -20998,7 +21000,7 @@ window.CONCURSOS = [
     "instituicao": "Instituto Federal de Educação, Ciência e Tecnologia de Minas Gerais",
     "nivel": "EBTT",
     "uf": "MG",
-    "numero_edital": "Edital nº 607/2026, publicado em 02/09/2026, com 8 documentos de alteração publicados depois",
+    "numero_edital": "Edital nº 607/2026, publicado em 02/09/2026, com 9 documentos de alteração publicados depois",
     "vagas": "4 vagas (3 ampla concorrência, 1 pessoas negras)",
     "areas": "Língua Portuguesa e suas respectivas literaturas, Redação e Libras, Direito, com ênfase em Direito Geral e Direito Empresarial, abrangendo os componentes curriculares de Filosofia do Direito, Direito Empresarial e Direito do Trabalho, Direito, com ênfase em Filosofia, Sociologia, Filosofia do Direito, Sociologia Jurídica e disciplinas da área básica do Direito e Direito, com ênfase em Direito Civil e Direito Processual Civil, abrangendo os componentes curriculares de Teoria Geral do Direito Civil, Direito das Obrigações, Teoria Geral dos Contratos, Direitos Reais, Direito de Família, Direito das Sucessões e Direito Processual Civil",
     "campi": "Congonhas, Ribeirão das Neves e Arcos",
@@ -22007,10 +22009,10 @@ window.CONCURSOS = [
     "uf": "MG",
     "numero_edital": "27 editais: 01/2026, 02/2026, 03/2026, 04/2026, 05/2026 e 06/2026 e mais 21",
     "vagas": "404 vagas",
-    "areas": "38 áreas, entre elas CIÊNCIAS EXATAS E DA TERRA/CIÊNCIA DA COMPUTAÇÃO, ENGENHARIAS/ENGENHARIAS IV, MULTIDISCIPLINAR/INTERDISCIPLINAR, CIÊNCIAS SOCIAIS APLICADAS/ECONOMIA e CIÊNCIAS HUMANAS/HISTÓRIA",
+    "areas": "42 áreas, entre elas CIÊNCIAS EXATAS E DA TERRA/CIÊNCIA DA COMPUTAÇÃO, ENGENHARIAS/ENGENHARIAS IV, MULTIDISCIPLINAR/INTERDISCIPLINAR, CIÊNCIAS SOCIAIS APLICADAS/ECONOMIA e CIÊNCIAS HUMANAS/HISTÓRIA",
     "campi": "Montes Claros/MG, Departamento de Ciências da Computação - Montes Claros/MG, Departamento de Ciências Econômicas - Montes Claros/MG, Departamento de História - Janaúba e Departamento de Saúde da Mulher e da Criança - Montes Claros/MG",
     "titulacao": "Conforme a área",
-    "regime": "40 horas e 40",
+    "regime": "40 horas, 40, 40h e 40 h",
     "remuneracao": "R$ 4.831,81 de vencimento básico em 40 horas - Doutor, Nível VI, Grau A, chegando a R$ 8.257,49 com a maior titulação",
     "banca": "Comissão própria da UNIMONTES",
     "link_oficial": "https://concurso.unimontes.br/editais-recentes/",
@@ -22030,6 +22032,17 @@ window.CONCURSOS = [
           "valor": "2027-01-10",
           "fim": "2027-02-21",
           "nota": "A data varia por edital, após as retificações que adiaram a antiga data de 08/11/2026. Artes (27) em 10/01; editais 01 a 10 em 14/02 de manhã; editais 11 a 17 em 14/02 à tarde; editais 18 a 23 em 21/02 de manhã; editais 24, 25 e 26 em 21/02 à tarde"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Prova Prática de Direito",
+        "tipo": "outra",
+        "carater": "",
+        "data": {
+          "tipo": "exata",
+          "valor": "2027-02-21",
+          "nota": "Datas por área: 21/2026 (CIÊNCIAS SOCIAIS APLICADAS/DIREITO): 21/02; 27/2026 (Música | Linguística, Letras e Artes / Artes), 27/2026 (Música | Linguística, Letras e Artes / Artes), 27/2026 (Música | Linguística, Letras e Artes / Artes) e 27/2026 (Música | Linguística, Letras e Artes / Artes): 21/02"
         },
         "detalhe": {}
       },
@@ -38468,7 +38481,7 @@ window.CONCURSOS = [
     "instituicao": "Universidade do Estado da Bahia",
     "nivel": "Magistério Superior",
     "uf": "BA",
-    "numero_edital": "Edital nº 085/2026, publicado em 09/09/2026",
+    "numero_edital": "Edital nº 085/2026, publicado em 09/09/2026, com 1 documento de alteração publicado depois",
     "vagas": "7 vagas (5 ampla concorrência, 2 para autodeclarados negros, cadastro de reserva para PcD)",
     "areas": "7 áreas, entre elas Saúde da Mulher; Componente(s) Curricular(es): Ginecologia; Obstetrícia, Clínica Médica; Componente(s) Curricular(es): Clínica Médica; Semiologia Médica, Saúde da Criança e do Adolescente; Componente(s) Curricular(es): Pediatria, Saúde Mental; Componente(s) Curricular(es): Psiquiatria; Internato em Saúde Mental e Oftalmologia; Componente(s) Curricular(es): Oftalmologia",
     "campi": "Salvador/BA e Departamento de Ciências da Vida - Campus I - Salvador",
@@ -40364,10 +40377,10 @@ window.CONCURSOS = [
     "instituicao": "Universidade Estadual Paulista \"Júlio de Mesquita Filho\"",
     "nivel": "Magistério Superior",
     "uf": "SP",
-    "numero_edital": "7 editais: 336/2026 - Faculdade de Ciências Agrárias e Veterinárias, 88/2026 - DTAd-FCF/CAr, 217/2026-STGP, 743/2026-CSCGP/FM, 729/2026-CSCGP-FMVZ e 091/2026 - STGP/IB e mais 1",
+    "numero_edital": "8 editais: 336/2026 - Faculdade de Ciências Agrárias e Veterinárias, 102/2026 - DTAd-FCF/CAr, 88/2026 - DTAd-FCF/CAr, 217/2026-STGP, 743/2026-CSCGP/FM e 729/2026-CSCGP-FMVZ e mais 2",
     "vagas": "1 vaga por edital, em 8 concursos independentes",
-    "areas": "7 áreas, entre elas Farmacologia, Engenharia de Bioprocessos, Estruturas, Medicina e Zootecnia",
-    "campi": "Jaboticabal, Araraquara, Ilha Solteira, Botucatu, Departamento de Morfologia e Fisiologia Animal da Faculdade de Ciências Agrárias e Veterinárias do Câmpus de Jaboticabal, Departamento de Engenharia de Bioprocessos e Biotecnologia da Faculdade de Ciências Farmacêuticas do Câmpus de Araraquara, Departamento de Engenharia Civil da Faculdade de Engenharia do Câmpus de Ilha Solteira e Departamento de Ginecologia e Obstetrícia da Faculdade de Medicina do Câmpus de Botucatu",
+    "areas": "8 áreas, entre elas Farmacologia, Ciência da Saúde, Engenharia de Bioprocessos, Estruturas e Medicina",
+    "campi": "Jaboticabal, Araraquara, Ilha Solteira, Botucatu, Departamento de Morfologia e Fisiologia Animal da Faculdade de Ciências Agrárias e Veterinárias do Câmpus de Jaboticabal, departamento de Análises Clínicas da Faculdade de Ciências Farmacêuticas do Câmpus de Araraquara, Departamento de Engenharia de Bioprocessos e Biotecnologia da Faculdade de Ciências Farmacêuticas do Câmpus de Araraquara e Departamento de Engenharia Civil da Faculdade de Engenharia do Câmpus de Ilha Solteira",
     "titulacao": "Doutorado",
     "regime": "Regime de Dedicação Integral à Docência e à Pesquisa - RDIDP e Regime de Turno Completo - RTC",
     "remuneracao": "R$ 16.994,01 de vencimento básico em Regime de Dedicação Integral à Docência e à Pesquisa - RDIDP, 40 horas semanais",
@@ -40780,6 +40793,7 @@ window.CONCURSOS = [
       "origem": "extracao_v2",
       "extracoes": [
         "unesp-fcav-336-2026",
+        "unesp-fcfar-102-2026",
         "unesp-fcfar-88-2026",
         "unesp-feis-217-2026",
         "unesp-fmb-743-2026",
@@ -40787,7 +40801,7 @@ window.CONCURSOS = [
         "unesp-ibrc-091-2026",
         "unesp-ict-163-2026"
       ],
-      "extraido_em": "2026-10-04",
+      "extraido_em": "2026-10-22",
       "em_conferencia": true
     }
   },
@@ -40797,10 +40811,10 @@ window.CONCURSOS = [
     "instituicao": "Universidade Estadual Paulista “Julio de Mesquita Filho”",
     "nivel": "Magistério Superior",
     "uf": "SP",
-    "numero_edital": "9 editais: 444/2026, 135/2026, 138/2026, 139/2026, 111/2026 e 294/2026 e mais 3",
-    "vagas": "9 vagas",
-    "areas": "9 áreas, entre elas disciplina “ONSERVAÇÃO GENÉTICA DE PEIXES”, conjunto de disciplinas “Endodontia I e Endodontia II”, conjunto de disciplinas “Odontopediatria I e Odontopediatria II”, conjunto de disciplinas “Periodontia I e Periodontia II” e conjunto de disciplinas \"Ortodontia Preventiva I\", \"Ortodontia Preventiva II\" e \"Ortopedia Funcional dos Maxilares\"",
-    "campi": "Bauru, Araçatuba, Araraquara, São José do Rio Preto, Departamento de CIÊNCIAS BIOLÓGICAS, da Faculdade de Ciências, do Campus de Bauru, Departamento de Dentística e Endodontia, da Faculdade de Odontologia do Campus de Araçatuba, Departamento de Odontologia Infantil e Social, da Faculdade de Odontologia do Campus de Araçatuba e Departamento de Diagnóstico e Cirurgia, da Faculdade de Odontologia do Campus de Araçatuba",
+    "numero_edital": "10 editais: 444/2026, 96/2026, 135/2026, 138/2026, 139/2026 e 111/2026 e mais 4",
+    "vagas": "10 vagas",
+    "areas": "10 áreas, entre elas disciplina “ONSERVAÇÃO GENÉTICA DE PEIXES”, conjunto de disciplinas \"Farmacotécnica I\", \"Farmacotécnica II, \"Tecnologia Farmacêutica\", \"Delineamento Teórico Prático e Tecnológico para o Desenvolvimento de Formulações I\", \"Delineamento Teórico Prático e Tecnológico para o Desenvolvimento de Formulações II\", \"Delineamento Teórico Prático e Tecnológico para o Desenvolvimento de Formulações III\" (área de Farmacotécnica), conjunto de disciplinas “Endodontia I e Endodontia II”, conjunto de disciplinas “Odontopediatria I e Odontopediatria II” e conjunto de disciplinas “Periodontia I e Periodontia II”",
+    "campi": "Bauru, Araraquara, Araçatuba, São José do Rio Preto, Departamento de CIÊNCIAS BIOLÓGICAS, da Faculdade de Ciências, do Campus de Bauru, Departamento de Fármacos e Medicamento, da Faculdade de Ciências Farmacêuticas, do Campus de Araraquara, Departamento de Dentística e Endodontia, da Faculdade de Odontologia do Campus de Araçatuba e Departamento de Odontologia Infantil e Social, da Faculdade de Odontologia do Campus de Araçatuba",
     "titulacao": "Título de Livre-Docente pela UNESP, USP ou UNICAMP, ou equivalente declarado pela UNESP, obtido há pelo menos 6 anos, mais 6 anos de docência na graduação após a Livre-Docência e o cumprimento das 13 condições do item 3.2 do edital",
     "regime": "Regime de Dedicação Integral à Docência e à Pesquisa - RDIDP",
     "remuneracao": "R$ 25.261,98 de vencimento básico em RDIDP",
@@ -40809,7 +40823,7 @@ window.CONCURSOS = [
     "inscricao": {
       "inicio": "2026-08-03",
       "fim": "2026-10-22",
-      "situacao": "aberta",
+      "situacao": "encerrada",
       "taxa": "R$ 286,00"
     },
     "etapas": [
@@ -41092,6 +41106,7 @@ window.CONCURSOS = [
       "origem": "extracao_v2",
       "extracoes": [
         "unesp-fc-444-2026",
+        "unesp-fcfar-96-2026",
         "unesp-foa-135-2026",
         "unesp-foa-138-2026",
         "unesp-foa-139-2026",
@@ -41101,7 +41116,7 @@ window.CONCURSOS = [
         "unesp-ict-161-2026",
         "unesp-igce-210-2026"
       ],
-      "extraido_em": "2026-10-04",
+      "extraido_em": "2026-10-22",
       "em_conferencia": true
     }
   },
@@ -41213,7 +41228,7 @@ window.CONCURSOS = [
     "inscricao": {
       "inicio": "2026-08-17",
       "fim": "2026-10-23",
-      "situacao": "aberta",
+      "situacao": "encerrada",
       "taxa": "R$ 384,20"
     },
     "etapas": [
@@ -41337,7 +41352,7 @@ window.CONCURSOS = [
     "inscricao": {
       "inicio": "2026-09-28",
       "fim": "2026-10-23",
-      "situacao": "aberta",
+      "situacao": "encerrada",
       "taxa": "Consultar o edital"
     },
     "etapas": [
@@ -41560,7 +41575,7 @@ window.CONCURSOS = [
     "instituicao": "Universidade Federal do Ceará",
     "nivel": "Magistério Superior",
     "uf": "CE",
-    "numero_edital": "Edital nº 48/2026/CCV/UFC, com 3 documentos de alteração publicados depois",
+    "numero_edital": "Edital nº 48/2026/CCV/UFC, com 4 documentos de alteração publicados depois",
     "vagas": "65 vagas",
     "areas": "55 áreas, entre elas Genômica e Conservação de Polinizadores, Biotecnologia Industrial, Estatística e Matemática Aplicada, Física do Estado Sólido Experimental e Arte Rupestre",
     "campi": "Município de Fortaleza - Ceará, CENTRO DE CIÊNCIAS / CAMPUS DE FORTALEZA; Departamento de Biologia, CENTRO DE CIÊNCIAS / CAMPUS DE FORTALEZA; Departamento de Bioquímica e Biologia Molecular, CENTRO DE CIÊNCIAS / CAMPUS DE FORTALEZA; Departamento de Estatística e Matemática Aplicada e CENTRO DE CIÊNCIAS / CAMPUS DE FORTALEZA; Departamento de Física",
@@ -41678,7 +41693,7 @@ window.CONCURSOS = [
     "instituicao": "Universidade Federal dos Vales do Jequitinhonha e Mucuri",
     "nivel": "Magistério Superior",
     "uf": "MG",
-    "numero_edital": "Edital nº 101/2026, com 1 documento de alteração publicado depois",
+    "numero_edital": "Edital nº 101/2026, com 2 documentos de alteração publicados depois",
     "vagas": "24 vagas",
     "areas": "23 áreas, entre elas Ciência da Computação (ou Informática) OU Engenharias - Subárea: Análise de Algoritmos e Complexidade de Computação ou Metodologia e Técnicas da Computação ou Banco de Dados ou Sistemas de Informação ou Linguagens de Programação ou Inteligência Artificial ou Inteligência Computacional, Ciência da Computação (ou Informática) OU Engenharias - Subárea: Sistemas de Computação OU Arquitetura de Sistemas de Computação OU Hardware OU Linguagens de Programação OU Metodologia e Técnicas da Computação OU Sistemas de Informação OU Inteligência Artificia, Interdisciplinar, Sociologia, Odontologia (4.02.00.00- 0) - Subárea: Clínica Odontológica (4.02.01.00-7) - Especialidade: em Dentística ou Prótese Dentária e Ciências Exatas e da Terra/Química",
     "campi": "Conceição do Mato Dentro, Diamantina, Janaúba, Teófilo Otoni, Faculdade de Ciências Exatas - FACET Conceição do Mato Dentro, Faculdade de Ciências Biológicas e da Saúde - FCBS Campus I e Campus JK, Faculdade de Ciências Exatas - FACET Campus JK e Faculdade de Ciências Agrárias - FCA Campus JK",
@@ -41690,7 +41705,7 @@ window.CONCURSOS = [
     "inscricao": {
       "inicio": "2026-09-25",
       "fim": "2026-10-23",
-      "situacao": "aberta",
+      "situacao": "encerrada",
       "taxa": "R$ 200,00",
       "excecoes": [
         {
@@ -42022,44 +42037,26 @@ window.CONCURSOS = [
   },
   {
     "id": "ifsp-183-2026",
-    "logo": "ifsp.png",
-    "formacoes_status": "nao_extraido",
-    "familias": [],
-    "formacoes": [],
-    "familias_pos": [],
-    "areas_formacoes": [],
-    "uf": "SP",
     "sigla": "IFSP",
     "instituicao": "Instituto Federal de Educação, Ciência e Tecnologia de São Paulo",
     "nivel": "EBTT",
-    "numero_edital": "Edital nº 183/2026, de 28/09/2026, com versão publicada no Diário Oficial da União e Comunicado nº 1/2026 com o cronograma previsto, ambos divulgados em 29/09/2026",
-    "areas": "Doze áreas: Informática, Pedagogia, Eletrônica, Design Gráfico, Produção de Áudio e Vídeo, Segurança do Trabalho, Educação Especial, Artes Cênicas, Energias, Engenharia de Produção e Humanidades",
+    "uf": "SP",
+    "numero_edital": "Edital nº 183/2026, publicado em 29/09/2026, com 3 documentos de alteração publicados depois",
     "vagas": "45 vagas",
-    "campi": "21 cidades de São Paulo: Avaré, Barretos, Bauru, Boituva, Campinas, Capivari, Caraguatatuba, Catanduva, Cubatão, Itaquaquecetuba, Matão, Miracatu, Presidente Epitácio, Registro, Santos, São João da Boa Vista, São José do Rio Preto, São José dos Campos, São Vicente, Suzano e a capital, nos câmpus São Paulo, Pirituba, Jardim Ângela, São Miguel Paulista e Cidade Tiradentes",
-    "titulacao": "Nível superior específico de cada área de atuação, conforme o Quadro 1 do edital. Consulte a exigência da sua área",
-    "remuneracao": "Vencimento básico de R$ 6.397,19, com retribuição por titulação de R$ 639,72 (aperfeiçoamento), R$ 1.279,44 (especialização), R$ 3.198,59 (mestrado) ou R$ 7.356,77 (doutorado)",
-    "regime": "40h com dedicação exclusiva",
-    "banca": "Comissão Organizadora de Concurso do IFSP, designada pela Portaria IFSP nº 5.830, de 16/09/2026",
+    "areas": "10 áreas, entre elas Artes Cênicas, Design Gráfico, Educação Especial, Eletrônica e Energias",
+    "campi": "São Paulo (capital), São José do Rio Preto, Jardim Ângela, São Miguel Paulista e Bauru",
+    "titulacao": "Graduação",
+    "regime": "40 horas semanais com dedicação exclusiva (DE)",
+    "remuneracao": "R$ 6.397,19 de vencimento básico em DE",
+    "banca": "Comissão própria da IFSP",
     "link_oficial": "https://concursopublico.ifsp.edu.br/editais/edital-1832026-docentes",
     "inscricao": {
       "inicio": "2026-10-06",
       "fim": "2026-11-17",
-      "situacao": "abre_em_breve",
+      "situacao": "aberta",
       "taxa": "R$ 200,00, com pagamento da GRU até 18/11"
     },
-    "detalhamento": "basico",
     "etapas": [
-      {
-        "nome": "Divulgação dos temas da prova de desempenho didático",
-        "tipo": "outra",
-        "carater": "",
-        "data": {
-          "tipo": "exata",
-          "valor": "2026-11-04",
-          "nota": "Data provável. O tema de cada área de atuação é publicado no site do concurso, antes mesmo do fim das inscrições"
-        },
-        "detalhe": {}
-      },
       {
         "nome": "Prova Objetiva",
         "tipo": "objetiva",
@@ -42083,11 +42080,12 @@ window.CONCURSOS = [
         },
         "detalhe": {
           "duracao": "45 minutos de aula, mais até 10 minutos de arguição da banca",
-          "sorteio": "Não há sorteio de ponto na hora. O tema de cada área é publicado antes, na data provável de 04/11/2026",
-          "nota_minima": "60 pontos",
           "arguicao": "Sim, arguição da banca examinadora depois da aula",
-          "modalidade": "Presencial",
-          "plano_de_aula": "Exigido. Três vias do plano de aula, entregues à banca"
+          "nota_minima": "60 pontos",
+          "criterios": "100 pontos: Pertinência do Plano de Aula com a efetiva atuação do candidato de 0 a 10; Apresentação, contextualização e problematização do tema de 0 a 10; Clareza, objetividade, comunicabilidade, fluência e dicção de 0 a 10; Linguagem e adequação de 0 a 10; Habilidade e conhecimento técnico de 0 a 10; Procedimentos e metodologia de 0 a 10; Adequação dos recursos didáticos ao tema tratado de 0 a 10; Motivação de 0 a 10; Adequação do desenvolvimento do plano ao tempo de 0 a 10; Conclusão de 0 a 10",
+          "plano_de_aula": "Exigido. Três vias do plano de aula, entregues à banca",
+          "sorteio": "Não há sorteio de ponto na hora. O tema de cada área é publicado antes, na data provável de 04/11/2026",
+          "modalidade": "Presencial"
         }
       },
       {
@@ -42112,7 +42110,27 @@ window.CONCURSOS = [
         "detalhe": {}
       }
     ],
-    "observacao": "O maior concurso EBTT aberto agora: 45 vagas em 21 cidades de São Paulo, com Informática (18 vagas) e Pedagogia (7) concentrando a maior parte. Inscrição de 06/10 a 17/11, banca própria do IFSP, sem banca terceirizada. O detalhe que muda o preparo: não há sorteio de ponto no dia da aula. O tema de cada área sai em 04/11/2026, ou seja, você tem quase quatro meses para construir a aula antes de apresentá-la entre 27/02 e 07/03/2027. Aula de 45 minutos, mais até 10 de arguição, com três vias do plano de aula entregues à banca e corte de 60 pontos."
+    "periodo_provas": {
+      "inicio": "2026-12-13",
+      "fim": "2027-03-07"
+    },
+    "logo": "ifsp.png",
+    "formacoes_status": "nao_extraido",
+    "familias": [],
+    "formacoes": [],
+    "familias_pos": [],
+    "areas_formacoes": [],
+    "observacao": "O maior concurso EBTT aberto agora: 45 vagas em 21 cidades de São Paulo, com Informática (18 vagas) e Pedagogia (7) concentrando a maior parte. Inscrição de 06/10 a 17/11, banca própria do IFSP, sem banca terceirizada. O detalhe que muda o preparo: não há sorteio de ponto no dia da aula. O tema de cada área sai em 04/11/2026, ou seja, você tem quase quatro meses para construir a aula antes de apresentá-la entre 27/02 e 07/03/2027. Aula de 45 minutos, mais até 10 de arguição, com três vias do plano de aula entregues à banca e corte de 60 pontos.",
+    "detalhamento": "completo",
+    "avisos_edital": [],
+    "fonte_dados": {
+      "origem": "extracao_v2",
+      "extracoes": [
+        "ifsp-183-2026"
+      ],
+      "extraido_em": "2026-10-23",
+      "em_conferencia": true
+    }
   },
   {
     "id": "ifmg-1077-2026",
@@ -42120,7 +42138,7 @@ window.CONCURSOS = [
     "instituicao": "Instituto Federal de Educação, Ciência e Tecnologia de Minas Gerais",
     "nivel": "EBTT",
     "uf": "MG",
-    "numero_edital": "Edital nº 1077/2026, com 3 documentos de alteração publicados depois",
+    "numero_edital": "Edital nº 1077/2026, com 4 documentos de alteração publicados depois",
     "vagas": "33 vagas",
     "areas": "23 áreas, entre elas Ciências Biológicas, Educação Física, Enfermagem, Engenharia de Controle e Automação - Automação Industrial e Engenharia de Controle e Automação - Controle de sistemas",
     "campi": "Ibirité e Bom Despacho, Sabará, Piumhi e Betim",
@@ -42402,7 +42420,7 @@ window.CONCURSOS = [
     "inscricao": {
       "inicio": "2026-10-12",
       "fim": "2026-10-25",
-      "situacao": "aberta",
+      "situacao": "encerrada",
       "taxa": "R$ 350,00"
     },
     "etapas": [
@@ -42932,7 +42950,7 @@ window.CONCURSOS = [
     "instituicao": "UNIVERSIDADE DA INTEGRAÇÃO INTERNACIONAL DA LUSOFONIA AFRO-BRASILEIRA",
     "nivel": "Magistério Superior",
     "uf": "CE",
-    "numero_edital": "Edital nº 14/2026, publicado em 01/10/2026",
+    "numero_edital": "Edital nº 14/2026, publicado em 01/10/2026, com 5 documentos de alteração publicados depois",
     "vagas": "15 vagas",
     "areas": "9 áreas, entre elas Avaliação Nutricional e Nutrição Clínica, Fundamentos da Terapia Ocupacional, Atividades e Recursos Terapêuticos Ocupacionais, Práticas em Atenção Primária à Saúde/Semiologia Médica, Anatomia Humana e Cirurgia e Medicina Baseada em Evidências, Epidemiologia e Pesquisa Clínica",
     "campi": "Baturité/CE, São Francisco do Conde/BA, Instituto de Ciências da Saúde - ICS e Instituto de Ciências da Saúde - ICS / Campus dos Malês",
@@ -43123,7 +43141,7 @@ window.CONCURSOS = [
     "inscricao": {
       "inicio": "2026-09-22",
       "fim": "2026-10-23",
-      "situacao": "aberta",
+      "situacao": "encerrada",
       "taxa": "R$ 347,54"
     },
     "etapas": [
@@ -43221,7 +43239,7 @@ window.CONCURSOS = [
     "inscricao": {
       "inicio": "2026-09-21",
       "fim": "2026-10-20",
-      "situacao": "aberta",
+      "situacao": "encerrada",
       "taxa": "R$ 347,54"
     },
     "etapas": [
@@ -43609,7 +43627,7 @@ window.CONCURSOS = [
     "inscricao": {
       "inicio": "2026-10-09",
       "fim": "2026-10-23",
-      "situacao": "aberta",
+      "situacao": "encerrada",
       "taxa": "R$ 350,00"
     },
     "etapas": [
@@ -43778,13 +43796,13 @@ window.CONCURSOS = [
     "instituicao": "UNIVERSIDADE FEDERAL DE VIÇOSA",
     "nivel": "Magistério Superior",
     "uf": null,
-    "numero_edital": "Edital nº 58/2026",
+    "numero_edital": "Edital nº 58/2026, publicado em 15/10/2026, com 1 documento de alteração publicado depois",
     "vagas": "1 vaga",
     "areas": "Bases Morfofuncionais da Medicina",
     "campi": "Instituto de Ciências Biológicas e da Saúde, do Campus UFV-Rio Paranaíba",
     "titulacao": "",
     "regime": "40 (quarenta) horas semanais",
-    "remuneracao": "R$ 8.571,52 de vencimento básico em 40 (quarenta) horas semanais",
+    "remuneracao": "R$ 4.478,03 de vencimento básico em 40 (quarenta) horas semanais",
     "banca": "Comissão própria da UFV",
     "link_oficial": "https://www.ufv.br/soc",
     "inscricao": {
@@ -44049,6 +44067,525 @@ window.CONCURSOS = [
         "unifei-51-2026"
       ],
       "extraido_em": "2026-10-18",
+      "em_conferencia": true
+    }
+  },
+  {
+    "id": "ufmg-2349-2026",
+    "sigla": "UFMG",
+    "instituicao": "Universidade Federal de Minas Gerais",
+    "nivel": "Magistério Superior",
+    "uf": null,
+    "numero_edital": "Edital nº 2349/2026, publicado em 14/10/2026",
+    "vagas": "1 vaga",
+    "areas": "Política,Planejamento e Gestão em Saúde",
+    "campi": "DEPARTAMENTO DE MEDICINA PREVENTIVA E SOCIAL da FACULDADE DE MEDICINA",
+    "titulacao": "Doutorado",
+    "regime": "40 (quarenta) horas semanais, em tempo integral, com dedicação exclusiva",
+    "remuneracao": "R$ 6.397,19 de vencimento básico em 40 (quarenta) horas semanais, em tempo integral, com dedicação exclusiva, chegando a R$ 13.753,96 com a maior titulação",
+    "banca": "Comissão própria da UFMG",
+    "link_oficial": "https://www.medicina.ufmg.br/editais/",
+    "inscricao": {
+      "situacao": "consultar",
+      "taxa": "R$ 215,99"
+    },
+    "etapas": [
+      {
+        "nome": "Prova Escrita",
+        "tipo": "discursiva",
+        "carater": "Eliminatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Prova Didática",
+        "tipo": "didatica",
+        "carater": "",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {
+          "duracao": "50 minutos",
+          "arguicao": "Sim",
+          "sorteio": "Tema sorteado com 24 horas de antecedência"
+        }
+      },
+      {
+        "nome": "Julgamento de Títulos",
+        "tipo": "titulos",
+        "carater": "",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Resultado final",
+        "tipo": "resultado",
+        "carater": "",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "em horário e data que serão comunicados aos candidatos, durante a realização do Concurso"
+        },
+        "detalhe": {}
+      }
+    ],
+    "logo": "ufmg.png",
+    "formacoes_status": "nao_extraido",
+    "familias": [],
+    "formacoes": [],
+    "familias_pos": [],
+    "areas_formacoes": [],
+    "observacao": "",
+    "detalhamento": "completo",
+    "avisos_edital": [],
+    "fonte_dados": {
+      "origem": "extracao_v2",
+      "extracoes": [
+        "ufmg-2349-2026"
+      ],
+      "extraido_em": "2026-10-21",
+      "em_conferencia": true
+    }
+  },
+  {
+    "id": "ufmg-2364-2026",
+    "sigla": "UFMG",
+    "instituicao": "Universidade Federal de Minas Gerais",
+    "nivel": "Magistério Superior",
+    "uf": null,
+    "numero_edital": "Edital nº 2364/2026, publicado em 14/10/2026",
+    "vagas": "2 vagas",
+    "areas": "Saúde Coletiva",
+    "campi": "DEPARTAMENTO DE MEDICINA PREVENTIVA E SOCIAL da FACULDADE DE MEDICINA",
+    "titulacao": "Doutorado",
+    "regime": "40 (quarenta) horas semanais, em tempo integral, com dedicação exclusiva",
+    "remuneracao": "R$ 6.397,19 de vencimento básico em 40 (quarenta) horas semanais, em tempo integral, com dedicação exclusiva, chegando a R$ 13.753,96 com a maior titulação",
+    "banca": "Comissão própria da UFMG",
+    "link_oficial": "https://www.medicina.ufmg.br/editais/",
+    "inscricao": {
+      "situacao": "consultar",
+      "taxa": "R$ 215,99"
+    },
+    "etapas": [
+      {
+        "nome": "Prova Escrita",
+        "tipo": "discursiva",
+        "carater": "Eliminatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Prova Didática",
+        "tipo": "didatica",
+        "carater": "",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {
+          "duracao": "50 minutos",
+          "arguicao": "Sim",
+          "sorteio": "Tema sorteado com 24 horas de antecedência"
+        }
+      },
+      {
+        "nome": "Julgamento de Títulos",
+        "tipo": "titulos",
+        "carater": "",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Resultado final",
+        "tipo": "resultado",
+        "carater": "",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "em horário e data que serão comunicados aos candidatos, durante a realização do Concurso"
+        },
+        "detalhe": {}
+      }
+    ],
+    "logo": "ufmg.png",
+    "formacoes_status": "nao_extraido",
+    "familias": [],
+    "formacoes": [],
+    "familias_pos": [],
+    "areas_formacoes": [],
+    "observacao": "",
+    "detalhamento": "completo",
+    "avisos_edital": [],
+    "fonte_dados": {
+      "origem": "extracao_v2",
+      "extracoes": [
+        "ufmg-2364-2026"
+      ],
+      "extraido_em": "2026-10-21",
+      "em_conferencia": true
+    }
+  },
+  {
+    "id": "ufv-57-2026",
+    "sigla": "UFV",
+    "instituicao": "UNIVERSIDADE FEDERAL DE VIÇOSA",
+    "nivel": "Magistério Superior",
+    "uf": null,
+    "numero_edital": "Edital nº 57/2026",
+    "vagas": "1 vaga",
+    "areas": "Representação Gráfica",
+    "campi": "Departamento de Arquitetura e Urbanismo, do Centro de Ciências Exatas e Tecnológicas",
+    "titulacao": "Doutorado",
+    "regime": "Dedicação Exclusiva (DE)",
+    "remuneracao": "R$ 6.180,86 de vencimento básico em Dedicação Exclusiva (DE)",
+    "banca": "Comissão própria da UFV",
+    "link_oficial": "https://www.ufv.br/soc",
+    "inscricao": {
+      "situacao": "consultar",
+      "taxa": "R$ 120,75"
+    },
+    "etapas": [
+      {
+        "nome": "Prova de Conhecimento",
+        "tipo": "discursiva",
+        "carater": "Eliminatória e classificatória",
+        "data": {
+          "tipo": "exata",
+          "valor": "2026-12-07"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Prova de Didática",
+        "tipo": "didatica",
+        "carater": "Eliminatória e classificatória",
+        "data": {
+          "tipo": "exata",
+          "valor": "2026-12-10"
+        },
+        "detalhe": {
+          "duracao": "50 minutos, com tolerância de 10 para mais ou para menos",
+          "arguicao": "Não há arguição",
+          "sorteio": "Tema sorteado com 24 horas de antecedência",
+          "nota_minima": "7 em 10",
+          "criterios": "10 pontos: I - Foco no ponto sorteado, aspecto passível de eliminação do…; II - Atualidade e exatidão de conteúdo, conceitos e informações; III - Coerência das estratégias didáticas com os objetivos e…; IV - Domínio do tema, segurança e clareza na apresentação da aula; V - Adequação na distribuição do tempo para abordagem dos tópicos da…; VI - Qualidade e utilização eficiente dos recursos didáticos; VII - Capacidade de análise e síntese do conteúdo tratado; VIII - Utilização de exemplos significativos",
+          "recursos": "Fornecidos: retroprojetor, projetor (tipo data show), quadro de giz ou quadro branco e computador. Proibidos: outro material didático diferente daquele entregue ao presidente da Banca"
+        }
+      },
+      {
+        "nome": "Prova de Defesa de Memorial",
+        "tipo": "memorial",
+        "carater": "Eliminatória e classificatória",
+        "data": {
+          "tipo": "exata",
+          "valor": "2026-12-11"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Prova de Títulos",
+        "tipo": "titulos",
+        "carater": "Classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {}
+      }
+    ],
+    "periodo_provas": {
+      "inicio": "2026-12-07",
+      "fim": "2026-12-11"
+    },
+    "logo": "ufv.png",
+    "formacoes_status": "nao_extraido",
+    "familias": [],
+    "formacoes": [],
+    "familias_pos": [],
+    "areas_formacoes": [],
+    "observacao": "",
+    "detalhamento": "completo",
+    "avisos_edital": [],
+    "fonte_dados": {
+      "origem": "extracao_v2",
+      "extracoes": [
+        "ufv-57-2026"
+      ],
+      "extraido_em": "2026-10-21",
+      "em_conferencia": true
+    }
+  },
+  {
+    "id": "ufv-59-2026",
+    "sigla": "UFV",
+    "instituicao": "UNIVERSIDADE FEDERAL DE VIÇOSA",
+    "nivel": "Magistério Superior",
+    "uf": null,
+    "numero_edital": "Edital nº 59/2026, publicado em 15/10/2026, com 1 documento de alteração publicado depois",
+    "vagas": "1 vaga",
+    "areas": "Jornalismo Audiovisual e Jornalismo de Dados",
+    "campi": "Departamento de Comunicação Social, do Centro de Ciências Humanas, Letras e Artes",
+    "titulacao": "Doutorado",
+    "regime": "Dedicação Exclusiva (DE)",
+    "remuneracao": "R$ 6.397,19 de vencimento básico em Dedicação Exclusiva (DE)",
+    "banca": "Comissão própria da UFV",
+    "link_oficial": "https://www.ufv.br/soc",
+    "inscricao": {
+      "situacao": "consultar",
+      "taxa": "R$ 120,75"
+    },
+    "etapas": [
+      {
+        "nome": "Prova de Conhecimento",
+        "tipo": "discursiva",
+        "carater": "Eliminatória e classificatória",
+        "data": {
+          "tipo": "exata",
+          "valor": "2026-12-07"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Prova de Didática",
+        "tipo": "didatica",
+        "carater": "Eliminatória e classificatória",
+        "data": {
+          "tipo": "exata",
+          "valor": "2026-12-09"
+        },
+        "detalhe": {
+          "duracao": "50 minutos, com tolerância de 10 para mais ou para menos",
+          "arguicao": "Não há arguição",
+          "sorteio": "Tema sorteado com 24 horas de antecedência",
+          "nota_minima": "7 em 10",
+          "criterios": "10 pontos: I - Foco no ponto sorteado, aspecto passível de eliminação do…; II - Atualidade e exatidão de conteúdo, conceitos e informações; III - Coerência das estratégias didáticas com os objetivos e…; IV - Domínio do tema, segurança e clareza na apresentação da aula; V - Adequação na distribuição do tempo para abordagem dos tópicos da…; VI - Qualidade e utilização eficiente dos recursos didáticos; VII - Capacidade de análise e síntese do conteúdo tratado; VIII - Utilização de exemplos significativos",
+          "recursos": "Fornecidos: retroprojetor, projetor (tipo data show), quadro de giz ou quadro branco e computador. Proibidos: outro material didático diferente daquele entregue ao presidente da Banca"
+        }
+      },
+      {
+        "nome": "Prova de Defesa de Memorial",
+        "tipo": "memorial",
+        "carater": "Eliminatória e classificatória",
+        "data": {
+          "tipo": "exata",
+          "valor": "2026-12-10"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Prova de Títulos",
+        "tipo": "titulos",
+        "carater": "Classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {}
+      }
+    ],
+    "periodo_provas": {
+      "inicio": "2026-12-07",
+      "fim": "2026-12-10"
+    },
+    "logo": "ufv.png",
+    "formacoes_status": "nao_extraido",
+    "familias": [],
+    "formacoes": [],
+    "familias_pos": [],
+    "areas_formacoes": [],
+    "observacao": "",
+    "detalhamento": "completo",
+    "avisos_edital": [],
+    "fonte_dados": {
+      "origem": "extracao_v2",
+      "extracoes": [
+        "ufv-59-2026"
+      ],
+      "extraido_em": "2026-10-20",
+      "em_conferencia": true
+    }
+  },
+  {
+    "id": "ufv-60-2026",
+    "sigla": "UFV",
+    "instituicao": "UNIVERSIDADE FEDERAL DE VIÇOSA",
+    "nivel": "Magistério Superior",
+    "uf": null,
+    "numero_edital": "Edital nº 60/2026, publicado em 15/10/2026, com 1 documento de alteração publicado depois",
+    "vagas": "1 vaga",
+    "areas": "Habilidades Médicas e Prática Interprofissional e Trabalho em Saúde",
+    "campi": "Instituto de Ciências Biológicas e da Saúde, do Campus UFV-Rio Paranaíba",
+    "titulacao": "",
+    "regime": "40 (quarenta) horas semanais",
+    "remuneracao": "R$ 4.478,03 de vencimento básico em 40 (quarenta) horas semanais",
+    "banca": "Comissão própria da UFV",
+    "link_oficial": "https://www.ufv.br/soc",
+    "inscricao": {
+      "situacao": "consultar",
+      "taxa": "R$ 120,75"
+    },
+    "etapas": [
+      {
+        "nome": "Prova de Conhecimento",
+        "tipo": "discursiva",
+        "carater": "Eliminatória e classificatória",
+        "data": {
+          "tipo": "exata",
+          "valor": "2026-11-24"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Prova de Didática",
+        "tipo": "didatica",
+        "carater": "Eliminatória e classificatória",
+        "data": {
+          "tipo": "exata",
+          "valor": "2026-11-25"
+        },
+        "detalhe": {
+          "duracao": "50 minutos, com tolerância de 10 para mais ou para menos",
+          "arguicao": "Não há arguição",
+          "sorteio": "Tema sorteado com 24 horas de antecedência",
+          "nota_minima": "7 em 10",
+          "criterios": "10 pontos: I - Foco no ponto sorteado, aspecto passível de eliminação do…; II - Atualidade e exatidão de conteúdo, conceitos e informações; III - Coerência das estratégias didáticas com os objetivos e…; IV - Domínio do tema, segurança e clareza na apresentação da aula; V - Adequação na distribuição do tempo para abordagem dos tópicos da…; VI - Qualidade e utilização eficiente dos recursos didáticos; VII - Capacidade de análise e síntese do conteúdo tratado; VIII - Utilização de exemplos significativos",
+          "recursos": "Fornecidos: retroprojetor, projetor (tipo data show), quadro de giz ou quadro branco e computador. Proibidos: outro material didático diferente daquele entregue ao presidente da Banca"
+        }
+      },
+      {
+        "nome": "Prova de Títulos",
+        "tipo": "titulos",
+        "carater": "Classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {}
+      }
+    ],
+    "periodo_provas": {
+      "inicio": "2026-11-24",
+      "fim": "2026-11-25"
+    },
+    "logo": "ufv.png",
+    "formacoes_status": "nao_extraido",
+    "familias": [],
+    "formacoes": [],
+    "familias_pos": [],
+    "areas_formacoes": [],
+    "observacao": "",
+    "detalhamento": "completo",
+    "avisos_edital": [],
+    "fonte_dados": {
+      "origem": "extracao_v2",
+      "extracoes": [
+        "ufv-60-2026"
+      ],
+      "extraido_em": "2026-10-20",
+      "em_conferencia": true
+    }
+  },
+  {
+    "id": "usp-fcf-050-2026",
+    "sigla": "USP",
+    "instituicao": "Faculdade de Ciências Farmacêuticas da Universidade de São Paulo",
+    "nivel": "Magistério Superior",
+    "uf": null,
+    "numero_edital": "Edital nº FCF/DVACAD nº 050/2026, publicado em 14/10/2026",
+    "vagas": "1 vaga",
+    "areas": "Epidemiologia e Farmacoepidemiologia",
+    "campi": "Departamento de Farmácia (FBF) da Faculdade de Ciências Farmacêuticas",
+    "titulacao": "Doutorado",
+    "regime": "Regime de Dedicação Integral à Docência e à Pesquisa (RDIDP)",
+    "remuneracao": "",
+    "banca": "Comissão própria da USP",
+    "link_oficial": null,
+    "inscricao": {
+      "inicio": "2026-10-22",
+      "fim": "2027-01-19",
+      "situacao": "aberta"
+    },
+    "etapas": [
+      {
+        "nome": "Prova escrita",
+        "tipo": "discursiva",
+        "carater": "Eliminatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "no prazo de trinta a cento e vinte dias, a contar da data da publicação no Diário Oficial do Estado da aprovação das inscrições"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Prova didática",
+        "tipo": "didatica",
+        "carater": "",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "no prazo de trinta a cento e vinte dias, a contar da data da publicação no Diário Oficial do Estado da aprovação das inscrições"
+        },
+        "detalhe": {
+          "arguicao": "Sim, a critério da banca",
+          "sorteio": "Tema sorteado com 24 horas de antecedência"
+        }
+      },
+      {
+        "nome": "Julgamento do memorial com prova pública de arguição",
+        "tipo": "memorial",
+        "carater": "",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "no prazo de trinta a cento e vinte dias, a contar da data da publicação no Diário Oficial do Estado da aprovação das inscrições"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Apresentação de um plano de atividades de ensino, pesquisa e extensão, com arguição pública",
+        "tipo": "outra",
+        "carater": "",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "no prazo de trinta a cento e vinte dias, a contar da data da publicação no Diário Oficial do Estado da aprovação das inscrições"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Resultado final",
+        "tipo": "resultado",
+        "carater": "",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "imediatamente após seu término, em sessão pública"
+        },
+        "detalhe": {}
+      }
+    ],
+    "logo": "usp.png",
+    "formacoes_status": "nao_extraido",
+    "familias": [],
+    "formacoes": [],
+    "familias_pos": [],
+    "areas_formacoes": [],
+    "observacao": "",
+    "detalhamento": "completo",
+    "avisos_edital": [],
+    "fonte_dados": {
+      "origem": "extracao_v2",
+      "extracoes": [
+        "usp-fcf-050-2026"
+      ],
+      "extraido_em": "2026-10-22",
       "em_conferencia": true
     }
   }
