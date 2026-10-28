@@ -1,1 +1,237 @@
-{}
+{
+  "CEFET-MG": {
+    "confirmado": true
+  },
+  "CP2": {
+    "confirmado": true
+  },
+  "IFRR": {
+    "compor": {
+      "url": "https://www.ifrr.edu.br/static/img/logo-if-horizontal.png",
+      "simbolo": [
+        0.0,
+        0.0,
+        0.1931,
+        0.9868
+      ],
+      "texto": [
+        0.2276,
+        0.5132,
+        0.9966,
+        1.0
+      ],
+      "modelo": "rede_federal"
+    },
+    "confirmado": true
+  },
+  "UEA": {
+    "confirmado": true
+  },
+  "UEAP": {
+    "confirmado": true
+  },
+  "UEFS": {
+    "confirmado": true
+  },
+  "UEG": {
+    "compor": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Marca_UEG_horizontal_extenso_cromia(1).png",
+      "simbolo": [
+        0.0033,
+        0,
+        0.3177,
+        0.9891
+      ],
+      "texto": [
+        0.3478,
+        0.2065,
+        1,
+        0.7283
+      ]
+    },
+    "confirmado": true
+  },
+  "UEMS": {
+    "selo": "https://commons.wikimedia.org/wiki/Special:FilePath/Logo_uems.jpg",
+    "marca": "https://commons.wikimedia.org/wiki/Special:FilePath/Logo_uems.jpg",
+    "confirmado": true
+  },
+  "UENP": {
+    "confirmado": true
+  },
+  "UEPB": {
+    "selo": "https://commons.wikimedia.org/wiki/Special:FilePath/Uepb.png",
+    "marca": "https://commons.wikimedia.org/wiki/Special:FilePath/Uepb.png",
+    "confirmado": true
+  },
+  "UERN": {
+    "confirmado": true
+  },
+  "UERR": {
+    "confirmado": true
+  },
+  "UESPI": {
+    "confirmado": true
+  },
+  "UFABC": {
+    "selo": "https://commons.wikimedia.org/wiki/Special:FilePath/Ufabc_logo.png",
+    "marca": "https://commons.wikimedia.org/wiki/Special:FilePath/Ufabc_logo.png",
+    "confirmado": true
+  },
+  "UFAC": {
+    "confirmado": true
+  },
+  "UFAPE": {
+    "confirmado": true
+  },
+  "UFCA": {
+    "confirmado": true
+  },
+  "UFCAT": {
+    "confirmado": true
+  },
+  "UFCSPA": {
+    "confirmado": true
+  },
+  "UFF": {
+    "confirmado": true
+  },
+  "UFFS": {
+    "compor": {
+      "url": "https://www.uffs.edu.br/uffs/img/logo-1.png",
+      "simbolo": [
+        0,
+        0.0217,
+        0.2625,
+        1
+      ],
+      "texto": [
+        0.2875,
+        0.1304,
+        0.9938,
+        0.8913
+      ]
+    },
+    "confirmado": true
+  },
+  "UFGD": {
+    "compor": {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Logotipo-ufgd-2021.png",
+      "simbolo": [
+        0.006,
+        0,
+        0.491,
+        1
+      ],
+      "texto": [
+        0.515,
+        0.2785,
+        1,
+        0.9747
+      ]
+    },
+    "confirmado": true
+  },
+  "UFMA": {
+    "confirmado": true
+  },
+  "UFOB": {
+    "confirmado": true
+  },
+  "UFPE": {
+    "confirmado": true
+  },
+  "UFPI": {
+    "confirmado": true
+  },
+  "UFPel": {
+    "confirmado": true
+  },
+  "UFRA": {
+    "confirmado": true
+  },
+  "UFRGS": {
+    "confirmado": true
+  },
+  "UFRN": {
+    "confirmado": true
+  },
+  "UFRPE": {
+    "confirmado": true
+  },
+  "UFRR": {
+    "confirmado": true
+  },
+  "UFS": {
+    "confirmado": true
+  },
+  "UFSM": {
+    "confirmado": true
+  },
+  "UFT": {
+    "confirmado": true
+  },
+  "UFV": {
+    "confirmado": true
+  },
+  "UFVJM": {
+    "confirmado": true
+  },
+  "UNEB": {
+    "confirmado": true
+  },
+  "UNIFAP": {
+    "confirmado": true
+  },
+  "UNIFESSPA": {
+    "compor": {
+      "url": "https://pt.wikipedia.org/wiki/Special:FilePath/Logotipo_da_Universidade_Federal_do_Sul_e_Sudeste_do_Pará.png",
+      "simbolo": [
+        0,
+        0,
+        0.2508,
+        0.9912
+      ],
+      "texto": [
+        0.2853,
+        0.2566,
+        1,
+        0.9115
+      ]
+    },
+    "confirmado": true
+  },
+  "UNIPAMPA": {
+    "confirmado": true
+  },
+  "UNITINS": {
+    "confirmado": true
+  },
+  "UPE": {
+    "confirmado": true
+  },
+  "URCA": {
+    "confirmado": true
+  },
+  "USP": {
+    "confirmado": true
+  },
+  "UVA": {
+    "compor": {
+      "url": "https://www.uva.ce.gov.br/wp-content/uploads/sites/143/2025/03/brasao-uva-oficial-horizontal.png",
+      "simbolo": [
+        0,
+        0,
+        0.2531,
+        1
+      ],
+      "texto": [
+        0.2906,
+        0.3534,
+        1,
+        0.6897
+      ]
+    },
+    "confirmado": true
+  }
+}

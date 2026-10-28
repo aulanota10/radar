@@ -30,6 +30,9 @@ from datetime import date
 import requests
 from PIL import Image, ImageDraw
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import compor as composicao  # noqa: E402
+
 AQUI = os.path.dirname(os.path.abspath(__file__))
 LADO_SELO, MIOLO_SELO = 256, 224
 ALTURA_MARCA, LARGURA_MAX_MARCA = 256, 1024
@@ -177,6 +180,9 @@ def main():
         if not item.get("selo") and not item.get("marca"):
             continue
         urls = {"selo": (item.get("selo") or {}).get("url"), "marca": (item.get("marca") or {}).get("url")}
+        comp = item.get("compor")
+        if comp:
+            urls["compor"] = comp
         anterior = estado.get(sigla) or {}
         if not a.forcar and anterior.get("urls") == urls:
             pulados.append(sigla)
@@ -185,19 +191,26 @@ def main():
         try:
             arq = item["arquivo"]
             saidas = []
+            def imagem(r, url):
+                if comp and comp.get("url") == url:
+                    return composicao.montar(r["img"], comp), True
+                return r["img"], False
+
             if urls["selo"]:
                 r = processar_uso(item["selo"], cache)
-                selo(r["img"]).save(os.path.join(AQUI, arq + ".png"), optimize=True)
+                img, composta = imagem(r, urls["selo"])
+                selo(img).save(os.path.join(AQUI, arq + ".png"), optimize=True)
                 saidas.append(arq + ".png")
-                if r["svg"]:
+                if r["svg"] and not composta:
                     with open(os.path.join(AQUI, arq + ".svg"), "wb") as f:
                         f.write(r["svg"])
                     saidas.append(arq + ".svg")
             if urls["marca"]:
                 r = processar_uso(item["marca"], cache)
-                marca(r["img"]).save(os.path.join(AQUI, arq + "-marca.png"), optimize=True)
+                img, composta = imagem(r, urls["marca"])
+                marca(img).save(os.path.join(AQUI, arq + "-marca.png"), optimize=True)
                 saidas.append(arq + "-marca.png")
-                if r["svg"] and not urls["selo"] == urls["marca"]:
+                if r["svg"] and not composta and not urls["selo"] == urls["marca"]:
                     with open(os.path.join(AQUI, arq + "-marca.svg"), "wb") as f:
                         f.write(r["svg"])
                     saidas.append(arq + "-marca.svg")

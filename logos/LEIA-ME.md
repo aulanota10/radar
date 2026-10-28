@@ -11,13 +11,14 @@ em vez de buscar a cada concurso novo.
 |---|---|---|
 | `instituicoes.json` | sessão de montagem (28/10/2026) e correções à mão | o universo: sigla, nome, UF, rede, site, `pagina_identidade`, `siglas_alternativas`, `arquivo` opcional |
 | `fontes.json` | sessão de busca (agentes) | por sigla, a página de identidade, o manual e a lista de candidatos, sem escolha |
-| `escolhas.json` | o Samuel, pela galeria | sobreposições à regra: `{"UFRN": {"selo": "<url>", "marca": "<url>", "confirmado": true}}` |
+| `escolhas.json` | o Samuel, pela galeria | sobreposições à regra: `{"UFRN": {"selo": "<url>", "marca": "<url>", "confirmado": true}}`, ou `"compor"` para a composição vertical |
 | `manifesto.json` | `escolher.py` | a escolha por sigla, as alternativas e os motivos |
 | `estado.json` | `processar.py` | URL, hash e data de cada fonte processada |
 | `relatorio.md` | os dois scripts | o que precisa de decisão, o que falta, erros de download |
 | `<arquivo>.png` | `processar.py` | selo do card: 256 × 256, fundo transparente, logotipo em 224 × 224 |
 | `<arquivo>-marca.png` | `processar.py` | marca da ficha e do site: altura 256, largura livre até 1024 |
 | `<arquivo>.svg` | `processar.py` | cópia do vetor, quando a fonte é SVG |
+| `compor.py` | fixo | monta a composição vertical (símbolo em cima, sigla ou nome embaixo) a partir de um horizontal |
 | `galeria.html` | fixo | conferência visual, em `radar.aulanota10.com/logos/galeria.html` |
 
 `<arquivo>` é a sigla em minúsculas sem acento nem hífen (`UNIFAL-MG` → `unifal`),
@@ -51,6 +52,15 @@ positiva antes da monocromática, e a negativa nunca; para o selo, vertical ante
 do símbolo isolado antes da horizontal; para a marca, vertical antes da horizontal
 antes do símbolo. Entre formatos, svg, depois pdf, png, jpg e zip; eps, ai e cdr
 ficam registrados mas não são processados.
+
+Quando a instituição não publica versão vertical, a escolha pode ser uma
+composição (decisão do Samuel de 28/10/2026): o símbolo do logotipo horizontal em
+cima e, embaixo, a sigla recortada do próprio logotipo, na tipografia original; sem
+sigla, o nome que o logotipo traz. As caixas de recorte ficam em `escolhas.json`
+(`"compor": {"url", "simbolo", "texto"}`, em frações da imagem aparada), `compor.py`
+propõe as caixas e monta a imagem, e o `processar.py` grava o resultado como selo e
+marca. Quando o bloco de texto tem a sigla numa linha própria, a caixa `texto` é
+acertada à mão para ficar só com ela.
 
 Entram em "Para o Samuel decidir": instituição com brasão e marca simplificada
 (até ele marcar `confirmado` na galeria), instituição só com horizontal,

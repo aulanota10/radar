@@ -11,7 +11,9 @@ Regra (decisão do Samuel em 28/10/2026):
   marca        vertical > horizontal > símbolo isolado
   formato      svg > pdf > png > jpg > zip (eps, ai e cdr não são processados)
 
-escolhas.json sobrepõe a regra, por sigla, com a URL do candidato escolhido.
+escolhas.json sobrepõe a regra, por sigla, com a URL do candidato escolhido, ou com
+"compor" (símbolo em cima e sigla ou nome embaixo, recortados do próprio horizontal;
+ver logos/compor.py).
 
 Saídas:
   logos/manifesto.json        a escolha por sigla, com as alternativas e o motivo
@@ -186,8 +188,15 @@ def main():
             continue
 
         esc = escolhas.get(sigla) or {}
+        comp = esc.get("compor")
+        if comp:
+            # composição vertical (logos/compor.py): o candidato horizontal vira selo e marca
+            esc = dict(esc, selo=comp.get("url"), marca=comp.get("url"))
+            item["compor"] = {k: comp[k] for k in ("url", "simbolo", "texto", "modelo") if k in comp}
         selo, motivo_selo = escolher_uso(candidatos, "selo", esc.get("selo"))
         marca, motivo_marca = escolher_uso(candidatos, "marca", esc.get("marca"))
+        if comp:
+            motivo_selo = motivo_marca = "composição vertical (escolhas.json)"
         item["selo"], item["marca"] = resumo(selo), resumo(marca)
         item["motivos"] += [f"selo: {motivo_selo}", f"marca: {motivo_marca}"]
         usadas = {c["url"] for c in (selo, marca) if c}
