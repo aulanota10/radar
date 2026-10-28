@@ -11,10 +11,11 @@
   },
   "ufrn-108-2026": {
     "campos": [
-      "vagas"
+      "vagas",
+      "inscrição fim"
     ],
-    "conferido_em": "2026-10-04",
-    "evidencia": "Retificações DOU 179 (22/09) e DOU 184 (29/09): item 2.1 passa a 15 vagas imediatas em 14 áreas."
+    "conferido_em": "2026-10-28",
+    "evidencia": "Retificações DOU 179 (22/09) e DOU 184 (29/09): item 2.1 passa a 15 vagas imediatas em 14 áreas. Versão 3 do edital, retificada no DOU nº 203 de 27/10/2026: inscrições prorrogadas até 28/10/2026 e pagamento até 03/11/2026 (ev-0037 e ev-0038)."
   },
   "ufersa-030-2026": {
     "campos": [
@@ -137,5 +138,26 @@
     ],
     "conferido_em": "2026-10-09",
     "evidencia": "Memorando 001/2026-DMTM, de 07/10/2026, p. 2: 'A 2ª Etapa (Prova Didática e Prova de Defesa de Produção Intelectual) do concurso público tem previsão para iniciar na data de 23/11/2026', só para a área 04 (Ensino de Ciências e Matemática); as demais áreas seguem o item 15.3, com cronograma a publicar. O compilador passou a escrever a data por área na nota (auditoria de 09/10/2026)."
+  },
+  "ifmt-03-2026": {
+    "campos": [
+      "Prova de desempenho didático (PDD)"
+    ],
+    "conferido_em": "2026-10-28",
+    "evidencia": "Edital Retificador 05, de 27/10/2026: a prova didática passa de 29/10 a 29/11 para 06, 07 e 08/11/2026 (extração, ev-0161 a ev-0171)."
+  },
+  "unesp-assistente-2026": {
+    "campos": [
+      "inscrição fim"
+    ],
+    "conferido_em": "2026-10-28",
+    "evidencia": "Retificação no DOE de 15/10/2026 do Edital 102/2026 (FCF Araraquara): inscrições até 03/12/2026 às 17h; é o único edital do pacote ainda aberto."
+  },
+  "ifmg-1077-2026": {
+    "campos": [
+      "vagas"
+    ],
+    "conferido_em": "2026-10-28",
+    "evidencia": "Retificação nº 05, de 26/10/2026: vaga 05 cancelada, Educação Física com 2 vagas, Informática com 7, Quadro I-A com total 50."
   }
 }
