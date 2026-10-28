@@ -1,0 +1,2106 @@
+{
+  "gerado_em": "2026-10-28",
+  "regra": "brasão > marca; positiva; selo vertical > símbolo > horizontal; marca vertical > horizontal > símbolo",
+  "instituicoes": {
+    "CEFET-MG": {
+      "nome": "Centro Federal de Educação Tecnológica de Minas Gerais",
+      "rede": "rede_federal",
+      "arquivo": "cefetmg",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://www.secom.cefetmg.br/identidade-visual-do-cefet-mg/",
+      "manual": null
+    },
+    "CEFET/RJ": {
+      "nome": "Centro Federal de Educação Tecnológica Celso Suckow da Fonseca",
+      "rede": "rede_federal",
+      "arquivo": "cefetrj",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://www.cefet-rj.br/index.php/identidade-visual",
+      "manual": null
+    },
+    "CP2": {
+      "nome": "Colégio Pedro II",
+      "rede": "rede_federal",
+      "arquivo": "cp2",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://www.cp2.g12.br/ultimas_publicacoes/223-noticiaas2017/5936-cpii-divulga-manual-de-aplicacao-da-marca.html",
+      "manual": null
+    },
+    "FURB": {
+      "nome": "Universidade Regional de Blumenau",
+      "rede": "municipal",
+      "arquivo": "furb",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://www.furb.br/pt/servicos/portais/marca",
+      "manual": null
+    },
+    "FURG": {
+      "nome": "Universidade Federal do Rio Grande",
+      "rede": "federal",
+      "arquivo": "furg",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://www.furg.br/comunicacao/identidade-visual",
+      "manual": null
+    },
+    "IFAC": {
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia do Acre",
+      "rede": "rede_federal",
+      "arquivo": "ifac",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://www.ifac.edu.br/o-ifac/comunicacao/artes-graficas/manual-de-aplicacao-da-marca/manual-de-aplicacao-da-marca",
+      "manual": null
+    },
+    "IFAL": {
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia de Alagoas",
+      "rede": "rede_federal",
+      "arquivo": "ifal",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://www2.ifal.edu.br/o-ifal/comunicacao/logomarcas-papel-timbrado-e-manuais",
+      "manual": null
+    },
+    "IFAM": {
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia do Amazonas",
+      "rede": "rede_federal",
+      "arquivo": "ifam",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://www2.ifam.edu.br/instituicao/comunicacao/produtos-e-servicos/identidade-visual-1",
+      "manual": null
+    },
+    "IFAP": {
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia do Amapá",
+      "rede": "rede_federal",
+      "arquivo": "ifap",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://ifap.edu.br/index.php/identidade-visual",
+      "manual": null
+    },
+    "IFB": {
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia de Brasília",
+      "rede": "rede_federal",
+      "arquivo": "ifb",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://www.ifb.edu.br/institucional/25915-uso-da-marca-diretoria-de-comunicacao",
+      "manual": null
+    },
+    "IFBA": {
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia da Bahia",
+      "rede": "rede_federal",
+      "arquivo": "ifba",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://portal.ifba.edu.br/dgcom/documentos-e-manuais/manuais",
+      "manual": null
+    },
+    "IFBAIANO": {
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia Baiano",
+      "rede": "rede_federal",
+      "arquivo": "ifbaiano",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://ifbaiano.edu.br/portal/wp-content/uploads/2023/07/manual-marca-nova-if-baiano-2015.pdf",
+      "manual": null
+    },
+    "IFC": {
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia Catarinense",
+      "rede": "rede_federal",
+      "arquivo": "ifc",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://cecom.ifc.edu.br/manuais-e-guias/",
+      "manual": null
+    },
+    "IFCE": {
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia do Ceará",
+      "rede": "rede_federal",
+      "arquivo": "ifce",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://portal.ifce.edu.br/institucional/comunicacao-social/identidade-visual/",
+      "manual": null
+    },
+    "IFES": {
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia do Espírito Santo",
+      "rede": "rede_federal",
+      "arquivo": "ifes",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://www.ifes.edu.br/download-de-marcas",
+      "manual": null
+    },
+    "IFFar": {
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia Farroupilha",
+      "rede": "rede_federal",
+      "arquivo": "iffar",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://www.iffarroupilha.edu.br/component/k2/attachments/download/5291/9d6596152cf3db37d431ab5190556a10",
+      "manual": null
+    },
+    "IFFluminense": {
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia Fluminense",
+      "rede": "rede_federal",
+      "arquivo": "iffluminense",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://portal1.iff.edu.br/nossos-campi/reitoria/diretorias-sistemicas/diretoria-de-comunicacao/identidade-visual/manuais-em-pdf",
+      "manual": null
+    },
+    "IFG": {
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia de Goiás",
+      "rede": "rede_federal",
+      "arquivo": "ifg",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://www.ifg.edu.br/attachments/article/278/marcadoIFG.pdf",
+      "manual": null
+    },
+    "IFGOIANO": {
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia Goiano",
+      "rede": "rede_federal",
+      "arquivo": "ifgoiano",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://ifgoiano.edu.br/home/index.php/comunicacao/972-marcas-do-if-goiano",
+      "manual": null
+    },
+    "IFMA": {
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia do Maranhão",
+      "rede": "rede_federal",
+      "arquivo": "ifma",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://portal.ifma.edu.br/manuais/manual-de-identidade-visual/",
+      "manual": null
+    },
+    "IFMG": {
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia de Minas Gerais",
+      "rede": "rede_federal",
+      "arquivo": "ifmg",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://www.ifmg.edu.br/portal/comunicacao/identidade-visual",
+      "manual": null
+    },
+    "IFMS": {
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia de Mato Grosso do Sul",
+      "rede": "rede_federal",
+      "arquivo": "ifms",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://www.ifms.edu.br/centrais-de-conteudo/identidade-visual/marca-e-manual-de-aplicacao",
+      "manual": null
+    },
+    "IFMT": {
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia de Mato Grosso",
+      "rede": "rede_federal",
+      "arquivo": "ifmt",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": null,
+      "manual": null
+    },
+    "IFNMG": {
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia do Norte de Minas Gerais",
+      "rede": "rede_federal",
+      "arquivo": "ifnmg",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://www.ifnmg.edu.br/com-identidade-visual",
+      "manual": null
+    },
+    "IFPA": {
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia do Pará",
+      "rede": "rede_federal",
+      "arquivo": "ifpa",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": null,
+      "manual": null
+    },
+    "IFPB": {
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia da Paraíba",
+      "rede": "rede_federal",
+      "arquivo": "ifpb",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://www.ifpb.edu.br/comunicacao/publicacoes/marca-ifpb",
+      "manual": null
+    },
+    "IFPE": {
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia de Pernambuco",
+      "rede": "rede_federal",
+      "arquivo": "ifpe",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://portal.ifpe.edu.br/imprensa/manual-identidade-visual/",
+      "manual": null
+    },
+    "IFPI": {
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia do Piauí",
+      "rede": "rede_federal",
+      "arquivo": "ifpi",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://www.ifpi.edu.br/a-instituicao/reitoria/comunicacao/manuais-e-marcas",
+      "manual": null
+    },
+    "IFPR": {
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia do Paraná",
+      "rede": "rede_federal",
+      "arquivo": "ifpr",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://reitoria.ifpr.edu.br/institucional/reitoria/comunicacao/programacao-visual/identidade-visual/",
+      "manual": null
+    },
+    "IFRJ": {
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia do Rio de Janeiro",
+      "rede": "rede_federal",
+      "arquivo": "ifrj",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://portal.ifrj.edu.br/area-de-imprensa/identidade-visual",
+      "manual": null
+    },
+    "IFRN": {
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte",
+      "rede": "rede_federal",
+      "arquivo": "ifrn",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://portal.ifrn.edu.br/institucional/comunicacao/identidade-visual/",
+      "manual": null
+    },
+    "IFRO": {
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia de Rondônia",
+      "rede": "rede_federal",
+      "arquivo": "ifro",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://portal.ifro.edu.br/images/ASCOM/Documentos/SEI_IFRO___0244262___Portaria_1227___Regulamenta_o_Uso_da_Marca_IFRO.pdf",
+      "manual": null
+    },
+    "IFRR": {
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia de Roraima",
+      "rede": "rede_federal",
+      "arquivo": "ifrr",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://www.ifrr.edu.br/a-instituicao/comunicacao/identidade-visual/",
+      "manual": null
+    },
+    "IFRS": {
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul",
+      "rede": "rede_federal",
+      "arquivo": "ifrs",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://ifrs.edu.br/institucional/comunicacao/materiais-para-download/",
+      "manual": null
+    },
+    "IFSC": {
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia de Santa Catarina",
+      "rede": "rede_federal",
+      "arquivo": "ifsc",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://www.ifsc.edu.br/en/identidade-visual",
+      "manual": null
+    },
+    "IFSE": {
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia de Sergipe",
+      "rede": "rede_federal",
+      "arquivo": "ifse",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "http://www.ifs.edu.br/marcas",
+      "manual": null
+    },
+    "IFSP": {
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia de São Paulo",
+      "rede": "rede_federal",
+      "arquivo": "ifsp",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "http://www2.ifsp.edu.br/index.php/comunicacao/identidade-visual.html",
+      "manual": null
+    },
+    "IFSULDEMINAS": {
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia do Sul de Minas Gerais",
+      "rede": "rede_federal",
+      "arquivo": "ifsuldeminas",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://portal.ifsuldeminas.edu.br/index.php/institucional-geral/1738-confira-os-logotipos",
+      "manual": null
+    },
+    "IFSertãoPE": {
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia do Sertão Pernambucano",
+      "rede": "rede_federal",
+      "arquivo": "ifsertaope",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://www.ifsertao-pe.edu.br/index.php/a-instituicao/noticias-em-destaque/1949-nova-marca",
+      "manual": null
+    },
+    "IFSudesteMG": {
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia do Sudeste de Minas Gerais",
+      "rede": "rede_federal",
+      "arquivo": "ifsudestemg",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://www.ifsudestemg.edu.br/comunicacao-social/logos",
+      "manual": null
+    },
+    "IFSul": {
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia Sul-rio-grandense",
+      "rede": "rede_federal",
+      "arquivo": "ifsul",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://www.ifsul.edu.br/identidade-visual-banco-de-arquivos",
+      "manual": null
+    },
+    "IFTM": {
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia do Triângulo Mineiro",
+      "rede": "rede_federal",
+      "arquivo": "iftm",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": null,
+      "manual": null
+    },
+    "IFTO": {
+      "nome": "Instituto Federal de Educação, Ciência e Tecnologia do Tocantins",
+      "rede": "rede_federal",
+      "arquivo": "ifto",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://www.ifto.edu.br/ifto/reitoria/diretoria-sistemica/comunicacao/manuais-e-guias",
+      "manual": null
+    },
+    "UDESC": {
+      "nome": "Universidade do Estado de Santa Catarina",
+      "rede": "estadual",
+      "arquivo": "udesc",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://www1.udesc.br/novamarca",
+      "manual": null
+    },
+    "UEA": {
+      "nome": "Universidade do Estado do Amazonas",
+      "rede": "estadual",
+      "arquivo": "uea",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://www2.uea.edu.br/sobre.php?dest=identidade",
+      "manual": null
+    },
+    "UEAP": {
+      "nome": "Universidade do Estado do Amapá",
+      "rede": "estadual",
+      "arquivo": "ueap",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": null,
+      "manual": null
+    },
+    "UECE": {
+      "nome": "Universidade Estadual do Ceará",
+      "rede": "estadual",
+      "arquivo": "uece",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://www.uece.br/noticias/assessoria-de-comunicacao-da-uece-lanca-atualizacao-da-marca-e-manual-de-identidade-visual/",
+      "manual": null
+    },
+    "UEFS": {
+      "nome": "Universidade Estadual de Feira de Santana",
+      "rede": "estadual",
+      "arquivo": "uefs",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": null,
+      "manual": null
+    },
+    "UEG": {
+      "nome": "Universidade Estadual de Goiás",
+      "rede": "estadual",
+      "arquivo": "ueg",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "http://www.comunicacao.ueg.br/conteudo/6069_manual_da_marca",
+      "manual": null
+    },
+    "UEL": {
+      "nome": "Universidade Estadual de Londrina",
+      "rede": "estadual",
+      "arquivo": "uel",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": null,
+      "manual": null
+    },
+    "UEM": {
+      "nome": "Universidade Estadual de Maringá",
+      "rede": "estadual",
+      "arquivo": "uem",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://www.cpr.uem.br/index.php/logotipos",
+      "manual": null
+    },
+    "UEMA": {
+      "nome": "Universidade Estadual do Maranhão",
+      "rede": "estadual",
+      "arquivo": "uema",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://dados.uema.br/ascom-marca-uema/",
+      "manual": null
+    },
+    "UEMASUL": {
+      "nome": "Universidade Estadual da Região Tocantina do Maranhão",
+      "rede": "estadual",
+      "arquivo": "uemasul",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://www.uemasul.edu.br/ascom-uemasul/identidade-visual/",
+      "manual": null
+    },
+    "UEMG": {
+      "nome": "Universidade do Estado de Minas Gerais",
+      "rede": "estadual",
+      "arquivo": "uemg",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://www.uemg.br/component/phocadownload/category/3313-identidade-visual-da-uemg",
+      "manual": null
+    },
+    "UEMS": {
+      "nome": "Universidade Estadual de Mato Grosso do Sul",
+      "rede": "estadual",
+      "arquivo": "uems",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://www.uems.br/diretoria/dcs/Manual-de-Uso-da-Marca",
+      "manual": null
+    },
+    "UENF": {
+      "nome": "Universidade Estadual do Norte Fluminense Darcy Ribeiro",
+      "rede": "estadual",
+      "arquivo": "uenf",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://uenf.br/portal/institucional-2/nossa-marca/",
+      "manual": null
+    },
+    "UENP": {
+      "nome": "Universidade Estadual do Norte do Paraná",
+      "rede": "estadual",
+      "arquivo": "uenp",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://uenp.edu.br/noticias/item/4843-uenp-publica-manual-de-identidade-visual.html",
+      "manual": null
+    },
+    "UEPA": {
+      "nome": "Universidade do Estado do Pará",
+      "rede": "estadual",
+      "arquivo": "uepa",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://www.uepa.br/pt-br/content/manual-de-uso-da-marca-uepa",
+      "manual": null
+    },
+    "UEPB": {
+      "nome": "Universidade Estadual da Paraíba",
+      "rede": "estadual",
+      "arquivo": "uepb",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://uepb.edu.br/downloads/marcas-da-uepb/",
+      "manual": null
+    },
+    "UEPG": {
+      "nome": "Universidade Estadual de Ponta Grossa",
+      "rede": "estadual",
+      "arquivo": "uepg",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://www.uepg.br/manual-da-marca/",
+      "manual": null
+    },
+    "UERGS": {
+      "nome": "Universidade Estadual do Rio Grande do Sul",
+      "rede": "estadual",
+      "arquivo": "uergs",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://www.uergs.edu.br/logotipo",
+      "manual": null
+    },
+    "UERJ": {
+      "nome": "Universidade do Estado do Rio de Janeiro",
+      "rede": "estadual",
+      "arquivo": "uerj",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://www.uerj.br/a-uerj/a-universidade/marca-uerj/",
+      "manual": null
+    },
+    "UERN": {
+      "nome": "Universidade do Estado do Rio Grande do Norte",
+      "rede": "estadual",
+      "arquivo": "uern",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://portal.uern.br/miv/",
+      "manual": null
+    },
+    "UERR": {
+      "nome": "Universidade Estadual de Roraima",
+      "rede": "estadual",
+      "arquivo": "uerr",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://www.uerr.edu.br/entenda-a-nova-marca-da-uerr/",
+      "manual": null
+    },
+    "UESB": {
+      "nome": "Universidade Estadual do Sudoeste da Bahia",
+      "rede": "estadual",
+      "arquivo": "uesb",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://www.uesb.br/noticias/nova-identidade-visual-da-uesb-e-apresentada-em-reuniao/",
+      "manual": null
+    },
+    "UESC": {
+      "nome": "Universidade Estadual de Santa Cruz",
+      "rede": "estadual",
+      "arquivo": "uesc",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://www.uesc.br/ascom/index.php?item=conteudo_marcas.php",
+      "manual": null
+    },
+    "UESPI": {
+      "nome": "Universidade Estadual do Piauí",
+      "rede": "estadual",
+      "arquivo": "uespi",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://uespi.br/wp-content/uploads/2022/09/MANUAL-DE-IDENTIDADE-VISUAL_UESPI.pdf.pdf",
+      "manual": null
+    },
+    "UFABC": {
+      "nome": "Universidade Federal do ABC",
+      "rede": "federal",
+      "arquivo": "ufabc",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://www.ufabc.edu.br/administracao/aci/programacao-visual/manual-de-identidade-visual-da-ufabc",
+      "manual": null
+    },
+    "UFAC": {
+      "nome": "Universidade Federal do Acre",
+      "rede": "federal",
+      "arquivo": "ufac",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://www.ufac.br/site/ufac/institucional/assessoria-de-comunicacao-social/manual-de-marca",
+      "manual": null
+    },
+    "UFAL": {
+      "nome": "Universidade Federal de Alagoas",
+      "rede": "federal",
+      "arquivo": "ufal",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://ufal.br/ufal/comunicacao/manuais/identidade-visual/manual-de-identidade-visual/view",
+      "manual": null
+    },
+    "UFAM": {
+      "nome": "Universidade Federal do Amazonas",
+      "rede": "federal",
+      "arquivo": "ufam",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://ascom.ufam.edu.br/manual-de-marca.html",
+      "manual": null
+    },
+    "UFAPE": {
+      "nome": "Universidade Federal do Agreste de Pernambuco",
+      "rede": "federal",
+      "arquivo": "ufape",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://ufape.edu.br/node/6989",
+      "manual": null
+    },
+    "UFBA": {
+      "nome": "Universidade Federal da Bahia",
+      "rede": "federal",
+      "arquivo": "ufba",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://www.ufba.br/manual-de-identidade-visual",
+      "manual": null
+    },
+    "UFC": {
+      "nome": "Universidade Federal do Ceará",
+      "rede": "federal",
+      "arquivo": "ufc",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://www.ufc.br/a-universidade/identidade-visual-da-ufc",
+      "manual": null
+    },
+    "UFCA": {
+      "nome": "Universidade Federal do Cariri",
+      "rede": "federal",
+      "arquivo": "ufca",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://documentos.ufca.edu.br/wp-folder/wp-content/uploads/2020/09/Guia-de-Reprodu%C3%A7%C3%A3o-de-Marca.pdf",
+      "manual": null
+    },
+    "UFCAT": {
+      "nome": "Universidade Federal de Catalão",
+      "rede": "federal",
+      "arquivo": "ufcat",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": null,
+      "manual": null
+    },
+    "UFCG": {
+      "nome": "Universidade Federal de Campina Grande",
+      "rede": "federal",
+      "arquivo": "ufcg",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": null,
+      "manual": null
+    },
+    "UFCSPA": {
+      "nome": "Universidade Federal de Ciências da Saúde de Porto Alegre",
+      "rede": "federal",
+      "arquivo": "ufcspa",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://ufcspa.edu.br/sobre-a-ufcspa/quem-somos/identidade-visual",
+      "manual": null
+    },
+    "UFDPar": {
+      "nome": "Universidade Federal do Delta do Parnaíba",
+      "rede": "federal",
+      "arquivo": "ufdpar",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://ufdpar.edu.br/ufdpar/paginas/comunicacao-paginas/nossa-identidade-visual",
+      "manual": null
+    },
+    "UFERSA": {
+      "nome": "Universidade Federal Rural do Semi-Árido",
+      "rede": "federal",
+      "arquivo": "ufersa",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://assecom.ufersa.edu.br/identidade-visual/",
+      "manual": null
+    },
+    "UFES": {
+      "nome": "Universidade Federal do Espírito Santo",
+      "rede": "federal",
+      "arquivo": "ufes",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://www.ufes.br/identidade-visual",
+      "manual": null
+    },
+    "UFF": {
+      "nome": "Universidade Federal Fluminense",
+      "rede": "federal",
+      "arquivo": "uff",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://www.uff.br/comunicacao/logotipos-da-uff/",
+      "manual": null
+    },
+    "UFFS": {
+      "nome": "Universidade Federal da Fronteira Sul",
+      "rede": "federal",
+      "arquivo": "uffs",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://www.uffs.edu.br/uffs/diretoria-de-comunicacao-social/identidade-visual-da-uffs",
+      "manual": null
+    },
+    "UFG": {
+      "nome": "Universidade Federal de Goiás",
+      "rede": "federal",
+      "arquivo": "ufg",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://ufg.br/p/51425-marca-ufg",
+      "manual": null
+    },
+    "UFGD": {
+      "nome": "Universidade Federal da Grande Dourados",
+      "rede": "federal",
+      "arquivo": "ufgd",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://www.ufgd.edu.br/secao/identidade-visual/index",
+      "manual": null
+    },
+    "UFJ": {
+      "nome": "Universidade Federal de Jataí",
+      "rede": "federal",
+      "arquivo": "ufj",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://ufj.edu.br/identidade-institucional/",
+      "manual": null
+    },
+    "UFJF": {
+      "nome": "Universidade Federal de Juiz de Fora",
+      "rede": "federal",
+      "arquivo": "ufjf",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://www2.ufjf.br/imagem/manuais-e-orientacoes/",
+      "manual": null
+    },
+    "UFLA": {
+      "nome": "Universidade Federal de Lavras",
+      "rede": "federal",
+      "arquivo": "ufla",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://ufla.br/comunicacao/identidade-visual",
+      "manual": null
+    },
+    "UFMA": {
+      "nome": "Universidade Federal do Maranhão",
+      "rede": "federal",
+      "arquivo": "ufma",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://portalpadrao.ufma.br/site/institucional/superintendencias/sce/manual-da-marca",
+      "manual": null
+    },
+    "UFMG": {
+      "nome": "Universidade Federal de Minas Gerais",
+      "rede": "federal",
+      "arquivo": "ufmg",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": null,
+      "manual": null
+    },
+    "UFMS": {
+      "nome": "Universidade Federal de Mato Grosso do Sul",
+      "rede": "federal",
+      "arquivo": "ufms",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://agecom.ufms.br/files/2026/06/Manual-de-Identidade-Visual-UFMS_abr2026.pdf",
+      "manual": null
+    },
+    "UFMT": {
+      "nome": "Universidade Federal de Mato Grosso",
+      "rede": "federal",
+      "arquivo": "ufmt",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://www.ufmt.br/secretaria/secomm/pagina/marcas-institucionais/1162",
+      "manual": null
+    },
+    "UFNT": {
+      "nome": "Universidade Federal do Norte do Tocantins",
+      "rede": "federal",
+      "arquivo": "ufnt",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": null,
+      "manual": null
+    },
+    "UFOB": {
+      "nome": "Universidade Federal do Oeste da Bahia",
+      "rede": "federal",
+      "arquivo": "ufob",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://ufob.edu.br/a-ufob/estrutura/diretorias/dircom/manual_ufob.pdf",
+      "manual": null
+    },
+    "UFOP": {
+      "nome": "Universidade Federal de Ouro Preto",
+      "rede": "federal",
+      "arquivo": "ufop",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://www.ufop.br/logomarca/",
+      "manual": null
+    },
+    "UFOPA": {
+      "nome": "Universidade Federal do Oeste do Pará",
+      "rede": "federal",
+      "arquivo": "ufopa",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://www.ufopa.edu.br/ufopa/institucional/sobre-a-ufopa/simbolos-e-insignias/",
+      "manual": null
+    },
+    "UFPA": {
+      "nome": "Universidade Federal do Pará",
+      "rede": "federal",
+      "arquivo": "ufpa",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": null,
+      "manual": null
+    },
+    "UFPB": {
+      "nome": "Universidade Federal da Paraíba",
+      "rede": "federal",
+      "arquivo": "ufpb",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": null,
+      "manual": null
+    },
+    "UFPE": {
+      "nome": "Universidade Federal de Pernambuco",
+      "rede": "federal",
+      "arquivo": "ufpe",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://www.ufpe.br/en/institucional/identidade-visual",
+      "manual": null
+    },
+    "UFPI": {
+      "nome": "Universidade Federal do Piauí",
+      "rede": "federal",
+      "arquivo": "ufpi",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": null,
+      "manual": null
+    },
+    "UFPR": {
+      "nome": "Universidade Federal do Paraná",
+      "rede": "federal",
+      "arquivo": "ufpr",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://ufpr.br/wp-content/uploads/2019/07/manual_de_marca_ufpr_1.pdf",
+      "manual": null
+    },
+    "UFPel": {
+      "nome": "Universidade Federal de Pelotas",
+      "rede": "federal",
+      "arquivo": "ufpel",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://ccs2.ufpel.edu.br/wp/2016/04/08/site-da-ufpel-disponibiliza-para-download-identidade-visual-da-instituicao/",
+      "manual": null
+    },
+    "UFR": {
+      "nome": "Universidade Federal de Rondonópolis",
+      "rede": "federal",
+      "arquivo": "ufr",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://ufr.edu.br/protic/identidadevisual/",
+      "manual": null
+    },
+    "UFRA": {
+      "nome": "Universidade Federal Rural da Amazônia",
+      "rede": "federal",
+      "arquivo": "ufra",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://ascom.ufra.edu.br/images/Brasao_e_logo_oficial_Ufra/Manual_do_uso_da_marca_Ufra_2022.pdf",
+      "manual": null
+    },
+    "UFRB": {
+      "nome": "Universidade Federal do Recôncavo da Bahia",
+      "rede": "federal",
+      "arquivo": "ufrb",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://ufrb.edu.br/ascom/identidade-visual",
+      "manual": null
+    },
+    "UFRGS": {
+      "nome": "Universidade Federal do Rio Grande do Sul",
+      "rede": "federal",
+      "arquivo": "ufrgs",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://www.ufrgs.br/documenta/d/identidade-visual/",
+      "manual": null
+    },
+    "UFRJ": {
+      "nome": "Universidade Federal do Rio de Janeiro",
+      "rede": "federal",
+      "arquivo": "ufrj",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://ufrj.br/comunicacao/identidade-visual/",
+      "manual": null
+    },
+    "UFRN": {
+      "nome": "Universidade Federal do Rio Grande do Norte",
+      "rede": "federal",
+      "arquivo": "ufrn",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://www.ufrn.br/imprensa/identidade-visual",
+      "manual": null
+    },
+    "UFRPE": {
+      "nome": "Universidade Federal Rural de Pernambuco",
+      "rede": "federal",
+      "arquivo": "ufrpe",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": null,
+      "manual": null
+    },
+    "UFRR": {
+      "nome": "Universidade Federal de Roraima",
+      "rede": "federal",
+      "arquivo": "ufrr",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://ufrr.br/identidade-visual/",
+      "manual": null
+    },
+    "UFRRJ": {
+      "nome": "Universidade Federal Rural do Rio de Janeiro",
+      "rede": "federal",
+      "arquivo": "ufrrj",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://institucional.ufrrj.br/ccs/manual-da-marca/",
+      "manual": null
+    },
+    "UFS": {
+      "nome": "Universidade Federal de Sergipe",
+      "rede": "federal",
+      "arquivo": "ufs",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://ascom.ufs.br/pagina/3217-brasao-e-marcas-da-ufs",
+      "manual": null
+    },
+    "UFSB": {
+      "nome": "Universidade Federal do Sul da Bahia",
+      "rede": "federal",
+      "arquivo": "ufsb",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://ufsb.edu.br/a-ufsb/assessorias/acs/identidade-visual-acs",
+      "manual": null
+    },
+    "UFSC": {
+      "nome": "Universidade Federal de Santa Catarina",
+      "rede": "federal",
+      "arquivo": "ufsc",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://identidade.ufsc.br/identidade-visual/",
+      "manual": null
+    },
+    "UFSCar": {
+      "nome": "Universidade Federal de São Carlos",
+      "rede": "federal",
+      "arquivo": "ufscar",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": null,
+      "manual": null
+    },
+    "UFSJ": {
+      "nome": "Universidade Federal de São João del-Rei",
+      "rede": "federal",
+      "arquivo": "ufsj",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://ufsj.edu.br/portal2-repositorio/File/ascom/manual-marca-ufsj-web.pdf",
+      "manual": null
+    },
+    "UFSM": {
+      "nome": "Universidade Federal de Santa Maria",
+      "rede": "federal",
+      "arquivo": "ufsm",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": null,
+      "manual": null
+    },
+    "UFT": {
+      "nome": "Universidade Federal do Tocantins",
+      "rede": "federal",
+      "arquivo": "uft",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://www.uft.edu.br/comunicacao/identidade-visual",
+      "manual": null
+    },
+    "UFTM": {
+      "nome": "Universidade Federal do Triângulo Mineiro",
+      "rede": "federal",
+      "arquivo": "uftm",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://www.uftm.edu.br/comunicacao/identidade-visual",
+      "manual": null
+    },
+    "UFU": {
+      "nome": "Universidade Federal de Uberlândia",
+      "rede": "federal",
+      "arquivo": "ufu",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": null,
+      "manual": null
+    },
+    "UFV": {
+      "nome": "Universidade Federal de Viçosa",
+      "rede": "federal",
+      "arquivo": "ufv",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://dci.ufv.br/estrutura-organizacional/manual-de-identidade-visual/",
+      "manual": null
+    },
+    "UFVJM": {
+      "nome": "Universidade Federal dos Vales do Jequitinhonha e Mucuri",
+      "rede": "federal",
+      "arquivo": "ufvjm",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://portal.ufvjm.edu.br/dicom/central-de-conteudo/identidade-visual",
+      "manual": null
+    },
+    "UNCISAL": {
+      "nome": "Universidade Estadual de Ciências da Saúde de Alagoas",
+      "rede": "estadual",
+      "arquivo": "uncisal",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": null,
+      "manual": null
+    },
+    "UNEAL": {
+      "nome": "Universidade Estadual de Alagoas",
+      "rede": "estadual",
+      "arquivo": "uneal",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": null,
+      "manual": null
+    },
+    "UNEB": {
+      "nome": "Universidade do Estado da Bahia",
+      "rede": "estadual",
+      "arquivo": "uneb",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://www.ascom.uneb.br/manual-de-identidade-visual/",
+      "manual": null
+    },
+    "UNEMAT": {
+      "nome": "Universidade do Estado de Mato Grosso",
+      "rede": "estadual",
+      "arquivo": "unemat",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://unemat.br/site/comunicacao/identidade-visual",
+      "manual": null
+    },
+    "UNESP": {
+      "nome": "Universidade Estadual Paulista Júlio de Mesquita Filho",
+      "rede": "estadual",
+      "arquivo": "unesp",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://www2.unesp.br/Home/aci_ses/identidade-visual/Manual_Identidade_Visual_UNESP.pdf",
+      "manual": null
+    },
+    "UNESPAR": {
+      "nome": "Universidade Estadual do Paraná",
+      "rede": "estadual",
+      "arquivo": "unespar",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://www.unespar.edu.br/a_unespar/institucional/manual-de-identidade-visual-da-unespar/unespar_identidadevisual.pdf",
+      "manual": null
+    },
+    "UNICAMP": {
+      "nome": "Universidade Estadual de Campinas",
+      "rede": "estadual",
+      "arquivo": "unicamp",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://www.siarq.unicamp.br/50anos/documents/downloads/manual-marca-unicamp-ano-50.pdf",
+      "manual": null
+    },
+    "UNICENTRO": {
+      "nome": "Universidade Estadual do Centro-Oeste",
+      "rede": "estadual",
+      "arquivo": "unicentro",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://www3.unicentro.br/marca/",
+      "manual": null
+    },
+    "UNIFAL-MG": {
+      "nome": "Universidade Federal de Alfenas",
+      "rede": "federal",
+      "arquivo": "unifal",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://www.unifal-mg.edu.br/comunicacao/logotipos",
+      "manual": null
+    },
+    "UNIFAP": {
+      "nome": "Universidade Federal do Amapá",
+      "rede": "federal",
+      "arquivo": "unifap",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": null,
+      "manual": null
+    },
+    "UNIFEI": {
+      "nome": "Universidade Federal de Itajubá",
+      "rede": "federal",
+      "arquivo": "unifei",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://comunicacao.unifei.edu.br/manual-identidade-visual/",
+      "manual": null
+    },
+    "UNIFESP": {
+      "nome": "Universidade Federal de São Paulo",
+      "rede": "federal",
+      "arquivo": "unifesp",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://unifesp.br/institucional/institucionalsub/identidade-visual",
+      "manual": null
+    },
+    "UNIFESSPA": {
+      "nome": "Universidade Federal do Sul e Sudeste do Pará",
+      "rede": "federal",
+      "arquivo": "unifesspa",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://www.unifesspa.edu.br/identidade-visual-da-unifesspa",
+      "manual": null
+    },
+    "UNILA": {
+      "nome": "Universidade Federal da Integração Latino-Americana",
+      "rede": "federal",
+      "arquivo": "unila",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://portal.unila.edu.br/secom/marca",
+      "manual": null
+    },
+    "UNILAB": {
+      "nome": "Universidade da Integração Internacional da Lusofonia Afro-Brasileira",
+      "rede": "federal",
+      "arquivo": "unilab",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://unilab.edu.br/identidade-visual/",
+      "manual": null
+    },
+    "UNIMONTES": {
+      "nome": "Universidade Estadual de Montes Claros",
+      "rede": "estadual",
+      "arquivo": "unimontes",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": null,
+      "manual": null
+    },
+    "UNIOESTE": {
+      "nome": "Universidade Estadual do Oeste do Paraná",
+      "rede": "estadual",
+      "arquivo": "unioeste",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://www.unioeste.br/portal/grafica-universitaria/identidade-visual",
+      "manual": null
+    },
+    "UNIPAMPA": {
+      "nome": "Universidade Federal do Pampa",
+      "rede": "federal",
+      "arquivo": "unipampa",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://unipampa.edu.br/portal/identidade-visual",
+      "manual": null
+    },
+    "UNIR": {
+      "nome": "Fundação Universidade Federal de Rondônia",
+      "rede": "federal",
+      "arquivo": "unir",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": null,
+      "manual": null
+    },
+    "UNIRIO": {
+      "nome": "Universidade Federal do Estado do Rio de Janeiro",
+      "rede": "federal",
+      "arquivo": "unirio",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://www.unirio.br/comunicacaosocial/identidade-visual-unirio",
+      "manual": null
+    },
+    "UNITINS": {
+      "nome": "Universidade Estadual do Tocantins",
+      "rede": "estadual",
+      "arquivo": "unitins",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": null,
+      "manual": null
+    },
+    "UNIVASF": {
+      "nome": "Universidade Federal do Vale do São Francisco",
+      "rede": "federal",
+      "arquivo": "univasf",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://portais.univasf.edu.br/comunicacao/marca-e-manual-de-identidade-visual-da-univasf",
+      "manual": null
+    },
+    "UPE": {
+      "nome": "Universidade de Pernambuco",
+      "rede": "estadual",
+      "arquivo": "upe",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://www.upe.br/manual-de-marcas.html",
+      "manual": null
+    },
+    "URCA": {
+      "nome": "Universidade Regional do Cariri",
+      "rede": "estadual",
+      "arquivo": "urca",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://www.urca.br/identidade-visual/",
+      "manual": null
+    },
+    "USP": {
+      "nome": "Universidade de São Paulo",
+      "rede": "estadual",
+      "arquivo": "usp",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": null,
+      "manual": null
+    },
+    "UTFPR": {
+      "nome": "Universidade Tecnológica Federal do Paraná",
+      "rede": "federal",
+      "arquivo": "utfpr",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://www.utfpr.edu.br/comunicacao/design/marca-da-utfpr",
+      "manual": null
+    },
+    "UVA": {
+      "nome": "Universidade Estadual Vale do Acaraú",
+      "rede": "estadual",
+      "arquivo": "uva",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": null,
+      "manual": null
+    },
+    "UnB": {
+      "nome": "Universidade de Brasília",
+      "rede": "federal",
+      "arquivo": "unb",
+      "selo": null,
+      "marca": null,
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "ainda não buscado"
+      ],
+      "pagina_identidade": "https://marca.unb.br/",
+      "manual": null
+    }
+  }
+}
