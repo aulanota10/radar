@@ -1,10 +1,10 @@
 {
   "data": "2026-10-28",
-  "mudancas": 15,
+  "mudancas": 0,
   "conflitos_novos": 1,
   "didatica_encerrada": 7,
-  "pull_request": 17,
-  "pull_request_url": "https://github.com/aulanota10/radar/pull/17",
+  "pull_request": 18,
+  "pull_request_url": "https://github.com/aulanota10/radar/pull/18",
   "relatorio": "relatorios/relatorio-2026-10-28.md",
-  "execucao": "https://github.com/aulanota10/radar/actions/runs/40748281233"
+  "execucao": "https://github.com/aulanota10/radar/actions/runs/40764585825"
 }
