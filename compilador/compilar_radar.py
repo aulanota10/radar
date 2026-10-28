@@ -950,6 +950,8 @@ def compila_grupo(id_radar, exts, atual, hoje, validador=None, conservador=False
 def escrever_js(caminho, concursos, atualizado, cabecalho):
     # o comentário "Última verificação" do cabeçalho antigo acompanha a data da rodada
     cabecalho = re.sub(r"(Última verificação: )\d{2}/\d{2}/\d{4}", lambda m: m.group(1) + atualizado, cabecalho or "")
+    # o aviso "Gerado por compilar_radar.py" é acrescentado abaixo; o do cabeçalho antigo sai, senão ele se repete a cada rodada
+    cabecalho = re.sub(r"\n*// Gerado por compilar_radar\.py[^\n]*\n// Para corrigir um dado[^\n]*", "", cabecalho)
     linhas = [cabecalho.rstrip() if cabecalho.strip() else "// DADOS DO RADAR DE CONCURSOS · Aula Nota 10", "",
               "// Gerado por compilar_radar.py a partir das extrações v2 (vigia-documentos/extracoes).",
               "// Para corrigir um dado, corrija a extração e rode o compilador de novo.", "",
