@@ -8,6 +8,7 @@ on:
       - 'index.html'
       - 'validar-dados.js'
       - 'gerar-paginas.js'
+      - 'logos/**'
       - '.github/workflows/publicar-radar.yml'
   # Todo dia às 6h13 de Fortaleza (9h13 UTC) as páginas de concurso são
   # refeitas, para que a fase no título ("inscrições até 13/10", "prova
@@ -41,8 +42,13 @@ jobs:
           mkdir -p publicar
           cp dados.js publicar/dados.js
           cp index.html publicar/index.html
+          # Logotipos das instituições (logos.yml): só o que o site usa.
+          # Os PNG que já estavam na Hostinger e não vêm daqui ficam como estão.
+          mkdir -p publicar/logos
+          cp logos/*.png logos/*.svg logos/galeria.html logos/manifesto.json \
+             logos/instituicoes.json logos/escolhas.json publicar/logos/ 2>/dev/null || true
           echo "Arquivos que serao enviados:"
-          ls -la publicar/
+          ls -la publicar/ publicar/logos/ | head -40
 
       # Uma página por concurso (concurso/<id>/), a lista escrita no index.html
       # e o sitemap.xml, para o Google ler o Radar sem depender de JavaScript.

@@ -1,0 +1,89 @@
+name: Logotipos das instituições
+
+# Escolhe (logos/escolher.py) e processa (logos/processar.py) os logotipos
+# listados em logos/fontes.json, grava os PNG/SVG em logos/ e envia para main.
+# O download roda aqui porque as sessões do Claude não alcançam os sites das
+# instituições. Depois dispara o publicar-radar.yml, que leva logos/ à Hostinger.
+#
+# A galeria de conferência fica em https://radar.aulanota10.com/logos/galeria.html
+# depois da publicação. Um logotipo errado se corrige em logos/escolhas.json, e
+# o card do Radar cai no selo tipográfico quando o arquivo não existe.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'logos/fontes.json'
+      - 'logos/escolhas.json'
+      - 'logos/instituicoes.json'
+      - 'logos/escolher.py'
+      - 'logos/processar.py'
+      - '.github/workflows/logos.yml'
+  workflow_dispatch:
+    inputs:
+      forcar:
+        description: 'Reprocessar tudo, mesmo o que não mudou'
+        type: boolean
+        default: false
+      so:
+        description: 'Só estas siglas (separadas por espaço); vazio = todas'
+        default: ''
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: logos
+  cancel-in-progress: false
+
+jobs:
+  logos:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar o repositorio
+        uses: actions/checkout@v4
+
+      - name: Instalar o python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Instalar as bibliotecas de imagem
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq libcairo2 > /dev/null
+          pip install -q cairosvg pillow pymupdf requests
+
+      - name: Escolher os logotipos pela regra
+        run: python3 logos/escolher.py
+
+      - name: Baixar e formatar
+        run: |
+          ARGS=""
+          if [ "${{ inputs.forcar }}" = "true" ]; then ARGS="$ARGS --forcar"; fi
+          if [ -n "${{ inputs.so }}" ]; then ARGS="$ARGS --so ${{ inputs.so }}"; fi
+          python3 logos/processar.py $ARGS
+
+      - name: Resumo
+        if: always()
+        run: cat logos/relatorio.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Enviar o resultado para main
+        run: |
+          git config user.name "logos-bot"
+          git config user.email "logos-bot@users.noreply.github.com"
+          git add logos compilador/logos.json
+          if git diff --cached --quiet; then
+            echo "Nada mudou."
+            exit 0
+          fi
+          git commit -m "Logotipos: $(date -u +%Y-%m-%d) [skip ci]"
+          git push
+
+      # O push acima vem do GITHUB_TOKEN e por isso não dispara outros workflows:
+      # a publicação é pedida de forma explícita.
+      - name: Pedir a publicação na Hostinger
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run publicar-radar.yml --ref main

@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Logotipos do Radar</title>
+<style>
+  :root { --azul:#284696; --grafite:#424240; --laranja:#CF5645; --creme:#F7F3EC; --borda:#DDD6CA; }
+  body { margin:0; font-family: system-ui, sans-serif; color:var(--grafite); background:var(--creme); }
+  header { padding:16px; background:#fff; border-bottom:1px solid var(--borda); position:sticky; top:0; z-index:2; }
+  header h1 { margin:0 0 6px; font-size:18px; color:var(--azul); }
+  header p { margin:0; font-size:13px; }
+  .filtros { margin-top:8px; display:flex; gap:12px; flex-wrap:wrap; font-size:13px; }
+  main { padding:16px; display:grid; gap:14px; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); }
+  .card { background:#fff; border:1px solid var(--borda); border-radius:10px; padding:12px; }
+  .card.decidir { border-color:var(--laranja); box-shadow: 0 0 0 2px rgba(207,86,69,.15); }
+  .topo { display:flex; align-items:baseline; gap:8px; }
+  .topo b { font-size:16px; color:var(--azul); }
+  .topo small { color:#777; }
+  .usos { display:flex; gap:12px; margin:10px 0; }
+  .uso { text-align:center; font-size:11px; color:#777; }
+  .selo { width:70px; height:70px; border:1px solid var(--borda); border-radius:11px; background:#fff; padding:7px; box-sizing:border-box; display:flex; align-items:center; justify-content:center; }
+  .selo img { max-width:100%; max-height:100%; object-fit:contain; }
+  .marca { height:70px; max-width:220px; border:1px solid var(--borda); border-radius:6px; background:#fff; padding:6px; box-sizing:border-box; display:flex; align-items:center; }
+  .marca img { max-height:100%; max-width:100%; object-fit:contain; }
+  .motivos { font-size:12px; color:#555; margin:6px 0; }
+  .motivos li { margin:2px 0; }
+  .alts { display:flex; flex-wrap:wrap; gap:6px; }
+  .alt { border:1px solid var(--borda); border-radius:6px; padding:4px; width:96px; font-size:10px; text-align:center; cursor:pointer; background:#fafafa; }
+  .alt.sel-selo { outline:2px solid var(--azul); }
+  .alt.sel-marca { outline:2px dashed var(--laranja); }
+  .alt img { width:88px; height:60px; object-fit:contain; background:#fff; display:block; margin:0 auto 3px; }
+  .alt .acoes { display:flex; justify-content:space-around; }
+  .alt button { font-size:10px; padding:1px 4px; }
+  .links { font-size:11px; margin-top:6px; }
+  .links a { color:var(--azul); }
+  #saida { position:fixed; right:16px; bottom:16px; background:#fff; border:1px solid var(--borda); border-radius:10px; padding:10px; width:360px; max-height:40vh; display:none; z-index:3; }
+  #saida textarea { width:100%; height:200px; font:11px monospace; }
+  .confirmar { font-size:12px; margin-top:6px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Logotipos do Radar · galeria de conferência</h1>
+  <p id="resumo">Carregando manifesto…</p>
+  <div class="filtros">
+    <label><input type="checkbox" id="soDecidir"> só as que precisam de decisão</label>
+    <label><input type="checkbox" id="soSemLogo"> só as sem logotipo</label>
+    <button id="exportar">Exportar escolhas (escolhas.json)</button>
+  </div>
+</header>
+<main id="lista"></main>
+<div id="saida">
+  <b>Cole este bloco na conversa com o Claude</b> (ou substitua o conteúdo de logos/escolhas.json):
+  <textarea id="json" readonly></textarea>
+</div>
+<script>
+(async function () {
+  const [mf, ins] = await Promise.all([
+    fetch('manifesto.json?' + Date.now()).then(r => r.json()),
+    fetch('instituicoes.json?' + Date.now()).then(r => r.json()).catch(() => []),
+  ]);
+  const escolhas = {};
+  try { Object.assign(escolhas, await fetch('escolhas.json?' + Date.now()).then(r => r.ok ? r.json() : {})); } catch (e) {}
+  const inst = mf.instituicoes;
+  const siglas = Object.keys(inst).sort((a, b) => (inst[b].decidir - inst[a].decidir) || a.localeCompare(b));
+  const lista = document.getElementById('lista');
+  const n = siglas.length, comSelo = siglas.filter(s => inst[s].selo).length,
+        dec = siglas.filter(s => inst[s].decidir).length;
+  document.getElementById('resumo').textContent =
+    `Gerado em ${mf.gerado_em}. ${n} instituições, ${comSelo} com selo, ${dec} para decidir. Regra: ${mf.regra}.`;
+
+  function alt(sigla, c, atualSelo, atualMarca) {
+    const d = document.createElement('div');
+    d.className = 'alt' + (c.url === atualSelo ? ' sel-selo' : '') + (c.url === atualMarca ? ' sel-marca' : '');
+    d.dataset.url = c.url;
+    const rotulo = [c.familia, c.orientacao, c.cor, c.formato].join(' · ');
+    d.innerHTML = `<img loading="lazy" src="${c.url}" alt="" onerror="this.replaceWith(Object.assign(document.createElement('div'),{textContent:'(sem prévia: ' + '${c.formato}' + ')',style:'height:60px;font-size:9px;color:#999'}))">${rotulo}
+      <div class="acoes"><button data-uso="selo">selo</button><button data-uso="marca">marca</button></div>`;
+    d.querySelectorAll('button').forEach(b => b.onclick = () => {
+      escolhas[sigla] = escolhas[sigla] || {};
+      escolhas[sigla][b.dataset.uso] = c.url;
+      render();
+    });
+    return d;
+  }
+
+  function render() {
+    const soDecidir = document.getElementById('soDecidir').checked;
+    const soSemLogo = document.getElementById('soSemLogo').checked;
+    lista.innerHTML = '';
+    for (const s of siglas) {
+      const i = inst[s];
+      if (soDecidir && !i.decidir) continue;
+      if (soSemLogo && i.selo) continue;
+      const e = escolhas[s] || {};
+      const urlSelo = e.selo || (i.selo && i.selo.url), urlMarca = e.marca || (i.marca && i.marca.url);
+      const card = document.createElement('div');
+      card.className = 'card' + (i.decidir ? ' decidir' : '');
+      const arq = i.arquivo;
+      card.innerHTML = `
+        <div class="topo"><b>${s}</b><small>${i.nome || ''} · ${i.rede || ''}</small></div>
+        <div class="usos">
+          <div class="uso"><div class="selo">${i.selo ? `<img src="${arq}.png?${mf.gerado_em}" alt="">` : '<span style="font-size:11px">sem selo</span>'}</div>selo (card)</div>
+          <div class="uso"><div class="marca">${i.marca ? `<img src="${arq}-marca.png?${mf.gerado_em}" alt="">` : '<span style="font-size:11px">sem marca</span>'}</div>marca (ficha e site)</div>
+        </div>
+        <ul class="motivos">${(i.motivos || []).map(m => `<li>${m}</li>`).join('')}</ul>
+        <div class="alts"></div>
+        <div class="confirmar"><label><input type="checkbox" ${e.confirmado ? 'checked' : ''}> escolha confirmada (sai da lista de decisão)</label></div>
+        <div class="links">${i.pagina_identidade ? `<a href="${i.pagina_identidade}" target="_blank">página de identidade</a>` : 'sem página de identidade'}${i.manual ? ` · <a href="${i.manual}" target="_blank">manual</a>` : ''}</div>`;
+      const alts = card.querySelector('.alts');
+      const todos = [i.selo, i.marca, ...(i.alternativas || [])].filter(Boolean);
+      const vistos = new Set();
+      for (const c of todos) { if (vistos.has(c.url)) continue; vistos.add(c.url); alts.appendChild(alt(s, c, urlSelo, urlMarca)); }
+      card.querySelector('.confirmar input').onchange = ev => {
+        escolhas[s] = escolhas[s] || {};
+        if (ev.target.checked) escolhas[s].confirmado = true; else delete escolhas[s].confirmado;
+        if (!Object.keys(escolhas[s]).length) delete escolhas[s];
+      };
+      lista.appendChild(card);
+    }
+  }
+  document.getElementById('soDecidir').onchange = render;
+  document.getElementById('soSemLogo').onchange = render;
+  document.getElementById('exportar').onclick = () => {
+    const limpo = {};
+    for (const [s, e] of Object.entries(escolhas)) if (Object.keys(e).length) limpo[s] = e;
+    document.getElementById('json').value = JSON.stringify(limpo, null, 2);
+    document.getElementById('saida').style.display = 'block';
+  };
+  render();
+})();
+</script>
+</body>
+</html>
