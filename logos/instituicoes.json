@@ -1404,7 +1404,6 @@
       "FFCLRP",
       "FFLCH",
       "FMRP",
-      "FMUSP",
       "FMVZ",
       "FO",
       "FOB",
@@ -1446,6 +1445,15 @@
     "rede": "municipal",
     "site": "https://www.furb.br",
     "pagina_identidade": "https://www.furb.br/pt/servicos/portais/marca",
+    "siglas_alternativas": []
+  },
+  {
+    "sigla": "FMUSP",
+    "nome": "Faculdade de Medicina da Universidade de São Paulo",
+    "uf": "SP",
+    "rede": "estadual",
+    "site": "https://www.fm.usp.br",
+    "pagina_identidade": null,
     "siglas_alternativas": []
   }
 ]

@@ -32,12 +32,17 @@ from PIL import Image, ImageDraw
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import compor as composicao  # noqa: E402
+from escolher import pontuar  # noqa: E402
 
 AQUI = os.path.dirname(os.path.abspath(__file__))
 LADO_SELO, MIOLO_SELO = 256, 224
 ALTURA_MARCA, LARGURA_MAX_MARCA = 256, 1024
 ALTURA_RENDER = 1200  # altura em que vetores e PDFs são rasterizados
-CABECALHOS = {"User-Agent": "Mozilla/5.0 (Radar Aula Nota 10; logotipos institucionais)"}
+CABECALHOS = {"User-Agent": "RadarAulaNota10-logotipos/1.1 (https://radar.aulanota10.com/logos/galeria.html) python-requests"}
+# intervalo mínimo entre pedidos ao mesmo servidor; o Wikimedia bloqueia (429) quem pede rápido
+INTERVALO = {"upload.wikimedia.org": 4.0, "commons.wikimedia.org": 4.0, "pt.wikipedia.org": 4.0}
+INTERVALO_PADRAO = 1.0
+ESPERAS = (15, 45, 120)  # novas tentativas depois de 429, 5xx ou conexão recusada
 
 
 def ler_json(caminho, padrao):
@@ -53,10 +58,44 @@ def gravar_json(caminho, dados):
         f.write("\n")
 
 
+_ultimo_pedido = {}
+
+
+def _aguardar(url):
+    from urllib.parse import urlparse
+    import time
+    host = urlparse(url).hostname or ""
+    espera = INTERVALO.get(host, INTERVALO_PADRAO) - (time.monotonic() - _ultimo_pedido.get(host, 0))
+    if espera > 0:
+        time.sleep(espera)
+    _ultimo_pedido[host] = time.monotonic()
+
+
 def baixar(url):
-    r = requests.get(url, headers=CABECALHOS, timeout=60, allow_redirects=True)
-    r.raise_for_status()
-    return r.content
+    """Baixa com calma: um pedido por vez por servidor e novas tentativas quando o
+    servidor pede espera (429), falha (5xx) ou não responde."""
+    import time
+    ultimo_erro = None
+    for n in range(len(ESPERAS) + 1):
+        _aguardar(url)
+        try:
+            r = requests.get(url, headers=CABECALHOS, timeout=(20, 90), allow_redirects=True)
+            if r.status_code == 429 or r.status_code >= 500:
+                raise requests.HTTPError(f"{r.status_code} para {url}", response=r)
+            r.raise_for_status()
+            cabeca = r.content[:300].lstrip().lower()
+            if cabeca.startswith(b"<!doctype html") or cabeca.startswith(b"<html"):
+                raise ValueError(f"o endereço devolveu uma página HTML, não um arquivo: {url}")
+            return r.content
+        except (requests.ConnectionError, requests.Timeout, requests.HTTPError) as e:
+            ultimo_erro = e
+            resp = getattr(e, "response", None)
+            if resp is not None and resp.status_code not in (429,) and resp.status_code < 500:
+                raise  # 403, 404: não adianta repetir
+            if n < len(ESPERAS):
+                pedido = resp.headers.get("Retry-After") if resp is not None else None
+                time.sleep(int(pedido) if pedido and pedido.isdigit() else ESPERAS[n])
+    raise ultimo_erro
 
 
 def extrair_do_zip(dados, trecho):
@@ -151,7 +190,12 @@ def marca(img):
 def processar_uso(escolha, cache):
     url = escolha["url"]
     if url not in cache:
-        dados = baixar(url)
+        if url.startswith("repo:"):
+            # arquivo enviado pelo Samuel e guardado em logos/manuais/
+            with open(os.path.join(os.path.dirname(AQUI), url[len("repo:"):]), "rb") as f:
+                dados = f.read()
+        else:
+            dados = baixar(url)
         nome_zip = None
         if formato_real(dados, escolha.get("formato")) == "zip":
             dados, nome_zip = extrair_do_zip(dados, escolha.get("arquivo_no_zip", ""))
@@ -172,7 +216,7 @@ def main():
 
     manifesto = ler_json(os.path.join(AQUI, "manifesto.json"), {}).get("instituicoes", {})
     estado = ler_json(os.path.join(AQUI, "estado.json"), {})
-    feitos, pulados, erros = [], [], []
+    feitos, pulados, erros, substitutos = [], [], [], []
 
     for sigla, item in sorted(manifesto.items()):
         if a.so and sigla not in a.so:
@@ -191,14 +235,33 @@ def main():
         try:
             arq = item["arquivo"]
             saidas = []
+            def tentar(uso):
+                """A escolha e, se ela falhar, as alternativas na ordem da regra.
+                Composição não tem substituta: falhou, fica o arquivo anterior."""
+                escolha = item[uso]
+                if comp and comp.get("url") == escolha.get("url"):
+                    return processar_uso(escolha, cache), escolha, None
+                fila = [escolha] + sorted(
+                    (c for c in item.get("alternativas") or [] if pontuar(c, uso) is not None),
+                    key=lambda c: -pontuar(c, uso))
+                erros_uso = []
+                for c in fila:
+                    try:
+                        return processar_uso(c, cache), c, (erros_uso or None)
+                    except Exception as e:  # noqa: BLE001
+                        erros_uso.append(f"{type(e).__name__}: {str(e)[:160]}")
+                raise RuntimeError("nenhum candidato baixou; " + " | ".join(erros_uso[:3]))
+
             def imagem(r, url):
                 if comp and comp.get("url") == url:
                     return composicao.montar(r["img"], comp), True
                 return r["img"], False
 
             if urls["selo"]:
-                r = processar_uso(item["selo"], cache)
-                img, composta = imagem(r, urls["selo"])
+                r, usado, falhas = tentar("selo")
+                if falhas:
+                    substitutos.append(f"{sigla} (selo): usou {usado['url']}; a escolha falhou: {falhas[0]}")
+                img, composta = imagem(r, usado["url"])
                 selo(img).save(os.path.join(AQUI, arq + ".png"), optimize=True)
                 saidas.append(arq + ".png")
                 if r["svg"] and not composta:
@@ -206,14 +269,18 @@ def main():
                         f.write(r["svg"])
                     saidas.append(arq + ".svg")
             if urls["marca"]:
-                r = processar_uso(item["marca"], cache)
-                img, composta = imagem(r, urls["marca"])
+                r, usado_m, falhas = tentar("marca")
+                if falhas:
+                    substitutos.append(f"{sigla} (marca): usou {usado_m['url']}; a escolha falhou: {falhas[0]}")
+                img, composta = imagem(r, usado_m["url"])
                 marca(img).save(os.path.join(AQUI, arq + "-marca.png"), optimize=True)
                 saidas.append(arq + "-marca.png")
                 if r["svg"] and not composta and not urls["selo"] == urls["marca"]:
                     with open(os.path.join(AQUI, arq + "-marca.svg"), "wb") as f:
                         f.write(r["svg"])
                     saidas.append(arq + "-marca.svg")
+            if any(s.startswith(sigla + " (") for s in substitutos):
+                urls = dict(urls, substituto=True)
             estado[sigla] = {
                 "urls": urls,
                 "hashes": {u: c["sha"] for u, c in cache.items()},
@@ -230,6 +297,8 @@ def main():
               f"{len(feitos)} processadas, {len(pulados)} sem mudança, {len(erros)} com erro.", ""]
     if feitos:
         linhas += ["Processadas: " + ", ".join(feitos), ""]
+    if substitutos:
+        linhas += ["### Escolha que falhou e foi substituída pela próxima da regra (tenta de novo na próxima rodada)"] + [f"- {s}" for s in substitutos] + [""]
     if erros:
         linhas += ["### Erros (os arquivos anteriores foram mantidos)"] + [f"- {e}" for e in erros] + [""]
     texto = "\n".join(linhas)

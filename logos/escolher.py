@@ -83,7 +83,7 @@ def validar_fontes(fontes):
             continue
         for i, c in enumerate(ent.get("candidatos") or []):
             ref = f"{sigla} candidato {i + 1}"
-            if not c.get("url", "").startswith("http"):
+            if not c.get("url", "").startswith(("http", "repo:")):
                 erros.append(f"{ref}: url ausente ou inválida")
             if c.get("familia") not in FAMILIAS:
                 erros.append(f"{ref}: familia deve ser uma de {FAMILIAS}")
@@ -95,7 +95,7 @@ def validar_fontes(fontes):
                 erros.append(f"{ref}: formato deve ser um de {FORMATOS + FORMATOS_NAO_PROCESSADOS}")
             if c.get("formato") == "zip" and not c.get("arquivo_no_zip"):
                 erros.append(f"{ref}: zip sem arquivo_no_zip (nome ou trecho do nome do arquivo dentro do zip)")
-            if not c.get("origem", "").startswith("http"):
+            if not c.get("origem", "").startswith(("http", "repo:")):
                 erros.append(f"{ref}: origem (página de onde o link foi tirado) ausente")
     return erros
 
@@ -229,12 +229,18 @@ def main():
     # compilador/logos.json: toda sigla com selo escolhido, mais as siglas alternativas
     caminho_logos = os.path.join(RAIZ, "compilador", "logos.json")
     logos = ler_json(caminho_logos, {})
+    # primeiro as siglas alternativas, depois as principais: uma sigla principal
+    # nunca é sobreposta pela alternativa de outra instituição (IFSC é o Instituto
+    # Federal de Santa Catarina, e também o Instituto de Física de São Carlos da USP)
     for sigla, item in manifesto.items():
         if not item["selo"]:
             continue
-        logos[sigla] = item["arquivo"] + ".png"
         for alt in por_sigla.get(sigla, {}).get("siglas_alternativas") or []:
-            logos[alt] = item["arquivo"] + ".png"
+            if alt not in por_sigla:
+                logos[alt] = item["arquivo"] + ".png"
+    for sigla, item in manifesto.items():
+        if item["selo"]:
+            logos[sigla] = item["arquivo"] + ".png"
     gravar_json(caminho_logos, dict(sorted(logos.items())))
 
     # siglas do Radar fora do universo

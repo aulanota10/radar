@@ -5,6 +5,21 @@
   "CP2": {
     "confirmado": true
   },
+  "FMUSP": {
+    "selo": "repo:logos/manuais/fmusp.jpg",
+    "marca": "repo:logos/manuais/fmusp.jpg",
+    "confirmado": true
+  },
+  "IFAC": {
+    "selo": "repo:logos/manuais/ifac.png",
+    "marca": "repo:logos/manuais/ifac.png",
+    "confirmado": true
+  },
+  "IFAP": {
+    "selo": "repo:logos/manuais/ifap.png",
+    "marca": "repo:logos/manuais/ifap.png",
+    "confirmado": true
+  },
   "IFRR": {
     "compor": {
       "url": "https://www.ifrr.edu.br/static/img/logo-if-horizontal.png",
@@ -64,10 +79,20 @@
     "marca": "https://commons.wikimedia.org/wiki/Special:FilePath/Uepb.png",
     "confirmado": true
   },
+  "UERJ": {
+    "selo": "repo:logos/manuais/uerj.png",
+    "marca": "repo:logos/manuais/uerj.png",
+    "confirmado": true
+  },
   "UERN": {
     "confirmado": true
   },
   "UERR": {
+    "confirmado": true
+  },
+  "UESC": {
+    "selo": "repo:logos/manuais/uesc.png",
+    "marca": "repo:logos/manuais/uesc.png",
     "confirmado": true
   },
   "UESPI": {
@@ -84,6 +109,11 @@
   "UFAPE": {
     "confirmado": true
   },
+  "UFBA": {
+    "selo": "repo:logos/manuais/ufba.png",
+    "marca": "repo:logos/manuais/ufba.png",
+    "confirmado": true
+  },
   "UFCA": {
     "confirmado": true
   },
@@ -91,6 +121,11 @@
     "confirmado": true
   },
   "UFCSPA": {
+    "confirmado": true
+  },
+  "UFDPar": {
+    "selo": "repo:logos/manuais/ufdpar.png",
+    "marca": "repo:logos/manuais/ufdpar.png",
     "confirmado": true
   },
   "UFF": {
@@ -132,16 +167,38 @@
     },
     "confirmado": true
   },
+  "UFJF": {
+    "selo": "repo:logos/manuais/ufjf.png",
+    "marca": "repo:logos/manuais/ufjf.png",
+    "confirmado": true
+  },
   "UFMA": {
+    "confirmado": true
+  },
+  "UFMG": {
+    "selo": "repo:logos/manuais/ufmg.png",
+    "marca": "repo:logos/manuais/ufmg.png",
     "confirmado": true
   },
   "UFOB": {
     "confirmado": true
   },
+  "UFOP": {
+    "selo": "repo:logos/manuais/ufop.png",
+    "marca": "repo:logos/manuais/ufop.png",
+    "confirmado": true
+  },
   "UFPE": {
+    "selo": "repo:logos/manuais/ufpe.png",
+    "marca": "repo:logos/manuais/ufpe.png",
     "confirmado": true
   },
   "UFPI": {
+    "confirmado": true
+  },
+  "UFPR": {
+    "selo": "repo:logos/manuais/ufpr.png",
+    "marca": "repo:logos/manuais/ufpr.png",
     "confirmado": true
   },
   "UFPel": {
@@ -150,7 +207,14 @@
   "UFRA": {
     "confirmado": true
   },
+  "UFRB": {
+    "selo": "repo:logos/manuais/ufrb.png",
+    "marca": "repo:logos/manuais/ufrb.png",
+    "confirmado": true
+  },
   "UFRGS": {
+    "selo": "repo:logos/manuais/ufrgs.png",
+    "marca": "repo:logos/manuais/ufrgs.png",
     "confirmado": true
   },
   "UFRN": {
@@ -163,6 +227,13 @@
     "confirmado": true
   },
   "UFS": {
+    "selo": "repo:logos/manuais/ufs.png",
+    "marca": "repo:logos/manuais/ufs.png",
+    "confirmado": true
+  },
+  "UFSJ": {
+    "selo": "repo:logos/manuais/ufsj.png",
+    "marca": "repo:logos/manuais/ufsj.png",
     "confirmado": true
   },
   "UFSM": {
@@ -171,16 +242,48 @@
   "UFT": {
     "confirmado": true
   },
+  "UFTM": {
+    "selo": "repo:logos/manuais/uftm.png",
+    "marca": "repo:logos/manuais/uftm.png",
+    "confirmado": true
+  },
   "UFV": {
     "confirmado": true
   },
   "UFVJM": {
     "confirmado": true
   },
+  "UNCISAL": {
+    "selo": "repo:logos/manuais/uncisal.svg",
+    "marca": "repo:logos/manuais/uncisal.svg",
+    "confirmado": true
+  },
+  "UNEAL": {
+    "selo": "repo:logos/manuais/uneal.png",
+    "marca": "repo:logos/manuais/uneal.png",
+    "confirmado": true
+  },
   "UNEB": {
+    "selo": "repo:logos/manuais/uneb.png",
+    "marca": "repo:logos/manuais/uneb.png",
+    "confirmado": true
+  },
+  "UNEMAT": {
+    "selo": "repo:logos/manuais/unemat.jpg",
+    "marca": "repo:logos/manuais/unemat.jpg",
+    "confirmado": true
+  },
+  "UNICENTRO": {
+    "selo": "repo:logos/manuais/unicentro.png",
+    "marca": "repo:logos/manuais/unicentro.png",
     "confirmado": true
   },
   "UNIFAP": {
+    "confirmado": true
+  },
+  "UNIFESP": {
+    "selo": "repo:logos/manuais/unifesp.png",
+    "marca": "repo:logos/manuais/unifesp.png",
     "confirmado": true
   },
   "UNIFESSPA": {
@@ -201,6 +304,16 @@
     },
     "confirmado": true
   },
+  "UNILAB": {
+    "selo": "repo:logos/manuais/unilab.png",
+    "marca": "repo:logos/manuais/unilab.png",
+    "confirmado": true
+  },
+  "UNIMONTES": {
+    "selo": "repo:logos/manuais/unimontes.png",
+    "marca": "repo:logos/manuais/unimontes.png",
+    "confirmado": true
+  },
   "UNIPAMPA": {
     "confirmado": true
   },
@@ -214,6 +327,8 @@
     "confirmado": true
   },
   "USP": {
+    "selo": "repo:logos/manuais/usp.png",
+    "marca": "repo:logos/manuais/usp.png",
     "confirmado": true
   },
   "UVA": {
