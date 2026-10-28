@@ -1044,5 +1044,22 @@ class Conferencia2710(unittest.TestCase):
         self.assertNotIn("28/10/2026 (quarta), às 08:00", m)
 
 
+class SuspensaoPorArea(unittest.TestCase):  # UFBA 06, Área 18, decisão de 28/10/2026
+    def ev(self, tipo, escopo, data):
+        return {"tipo_evento": tipo, "estado": "vigente", "escopo": escopo, "data": {"forma": "fixa", "data": data}}
+
+    def test_suspensao_de_area_nao_suspende_o_concurso(self):
+        c = {"eventos": [self.ev("suspensao", ["18"], "2026-10-26")]}
+        self.assertEqual(A.situacao(c), ("ativo", {"18"}))
+
+    def test_retomada_da_area_devolve_a_area(self):
+        c = {"eventos": [self.ev("suspensao", ["18"], "2026-10-26"), self.ev("retomada", ["18"], "2026-11-10")]}
+        self.assertEqual(A.situacao(c), ("ativo", set()))
+
+    def test_suspensao_geral_continua_suspendendo(self):
+        c = {"eventos": [self.ev("suspensao", "geral", "2026-10-26"), self.ev("cancelamento", ["05"], "2026-10-20")]}
+        self.assertEqual(A.situacao(c), ("suspenso", {"05"}))
+
+
 if __name__ == "__main__":
     unittest.main()

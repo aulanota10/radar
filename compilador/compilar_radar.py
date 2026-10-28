@@ -597,8 +597,11 @@ def compila_grupo(id_radar, exts, atual, hoje, validador=None, conservador=False
 
     # Vagas
     # Edital suspenso (evento suspensao vigente sem retomada posterior) fica fora da contagem de vagas.
+    # Só conta a suspensão do concurso inteiro (escopo geral); a de algumas áreas não tira o edital
+    # do Radar (decisão de 28/10/2026, UFBA 06, Área 18).
     def suspenso_desde(e):
-        evs = [ev for ev in e.get("eventos") or [] if ev.get("estado", "vigente") == "vigente"]
+        evs = [ev for ev in e.get("eventos") or [] if ev.get("estado", "vigente") == "vigente"
+               and ev.get("escopo", "geral") == "geral"]
         susp = [intervalo(ev.get("data"))[0] for ev in evs if ev.get("tipo_evento") == "suspensao" and intervalo(ev.get("data"))]
         if not susp:
             return None

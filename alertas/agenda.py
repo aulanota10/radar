@@ -958,19 +958,32 @@ def referencia_horaria(c):
 
 
 def situacao(c):
-    """('ativo'|'suspenso'|'cancelado', áreas canceladas)."""
+    """('ativo'|'suspenso'|'cancelado', áreas fora: canceladas ou suspensas).
+
+    Suspensão e retomada com escopo de áreas valem só para essas áreas, como o cancelamento com escopo
+    (decisão de 28/10/2026, UFBA 06: a suspensão da Área 18 não pode calar as outras áreas). A área
+    suspensa sai dos avisos de data até uma retomada posterior; o aviso da própria suspensão vai a ela."""
     marcos, canceladas = [], set()
+    por_area = collections.defaultdict(list)
     for e in c["eventos"]:
         if e["estado"] != "vigente":
             continue
         t = e["tipo_evento"]
         if t in ("suspensao", "retomada"):
             _, i, _, _ = intervalo(e["data"])
-            marcos.append((i or dt.date.min, t))
+            if e["escopo"] == "geral":
+                marcos.append((i or dt.date.min, t))
+            else:
+                for a in e["escopo"]:
+                    por_area[a].append((i or dt.date.min, t))
         if t == "cancelamento":
             if e["escopo"] == "geral":
                 return "cancelado", set()
             canceladas.update(e["escopo"])
+    for a, m in por_area.items():
+        m.sort()
+        if m[-1][1] == "suspensao":
+            canceladas.add(a)
     marcos.sort()
     if marcos and marcos[-1][1] == "suspensao":
         return "suspenso", canceladas
