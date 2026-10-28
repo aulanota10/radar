@@ -262,6 +262,37 @@
       "pagina_identidade": "https://www.cp2.g12.br/ultimas_publicacoes/223-noticiaas2017/5936-cpii-divulga-manual-de-aplicacao-da-marca.html",
       "manual": null
     },
+    "FMUSP": {
+      "nome": "Faculdade de Medicina da Universidade de São Paulo",
+      "rede": "estadual",
+      "arquivo": "fmusp",
+      "selo": {
+        "url": "repo:logos/manuais/fmusp.jpg",
+        "familia": "marca",
+        "orientacao": "vertical",
+        "cor": "positiva",
+        "formato": "jpg",
+        "origem": "repo:logos/manuais/",
+        "nota": "enviado pelo Samuel em 28/10/2026"
+      },
+      "marca": {
+        "url": "repo:logos/manuais/fmusp.jpg",
+        "familia": "marca",
+        "orientacao": "vertical",
+        "cor": "positiva",
+        "formato": "jpg",
+        "origem": "repo:logos/manuais/",
+        "nota": "enviado pelo Samuel em 28/10/2026"
+      },
+      "alternativas": [],
+      "decidir": false,
+      "motivos": [
+        "selo: escolha manual (escolhas.json)",
+        "marca: escolha manual (escolhas.json)"
+      ],
+      "pagina_identidade": null,
+      "manual": null
+    },
     "FURB": {
       "nome": "Universidade Regional de Blumenau",
       "rede": "municipal",
@@ -404,12 +435,30 @@
       "nome": "Instituto Federal de Educação, Ciência e Tecnologia do Acre",
       "rede": "rede_federal",
       "arquivo": "ifac",
-      "selo": null,
-      "marca": null,
+      "selo": {
+        "url": "repo:logos/manuais/ifac.png",
+        "familia": "rede_federal",
+        "orientacao": "vertical",
+        "cor": "positiva",
+        "formato": "png",
+        "origem": "repo:logos/manuais/",
+        "nota": "enviado pelo Samuel em 28/10/2026"
+      },
+      "marca": {
+        "url": "repo:logos/manuais/ifac.png",
+        "familia": "rede_federal",
+        "orientacao": "vertical",
+        "cor": "positiva",
+        "formato": "png",
+        "origem": "repo:logos/manuais/",
+        "nota": "enviado pelo Samuel em 28/10/2026"
+      },
       "alternativas": [],
-      "decidir": true,
+      "decidir": false,
       "motivos": [
-        "buscado e nada encontrado: O site do IFAC bloqueia leitura automática (robots) em todas as páginas de artes gráficas e no PDF do manual, então não vi os arquivos de logotipo. O link do manual de aplicação da marca apareceu em resultado de busca (não conferido; provavelmente é o manual padrão dos IFs de 2015, em que os logotipos horizontal e vertical estão nas páginas 6 a 11, e a capa tem texto). Pode haver logotipos para download na seção artes-graficas."
+        "selo: escolha manual (escolhas.json)",
+        "marca: escolha manual (escolhas.json)",
+        "observação da busca: O site do IFAC bloqueia leitura automática (robots) em todas as páginas de artes gráficas e no PDF do manual, então não vi os arquivos de logotipo. O link do manual de aplicação da marca apareceu em resultado de busca (não conferido; provavelmente é o manual padrão dos IFs de 2015, em que os logotipos horizontal e vertical estão nas páginas 6 a 11, e a capa tem texto). Pode haver logotipos para download na seção artes-graficas."
       ],
       "pagina_identidade": "https://www.ifac.edu.br/o-ifac/comunicacao/artes-graficas/manual-de-aplicacao-da-marca/manual-de-aplicacao-da-marca",
       "manual": "https://www.ifac.edu.br/o-ifac/comunicacao/artes-graficas/manual-de-aplicacao-da-marca/manual-de-aplicacao-da-marca.pdf/@@download/file/Manual de Aplicação da Marca.pdf"
@@ -556,12 +605,30 @@
       "nome": "Instituto Federal de Educação, Ciência e Tecnologia do Amapá",
       "rede": "rede_federal",
       "arquivo": "ifap",
-      "selo": null,
-      "marca": null,
+      "selo": {
+        "url": "repo:logos/manuais/ifap.png",
+        "familia": "rede_federal",
+        "orientacao": "vertical",
+        "cor": "positiva",
+        "formato": "png",
+        "origem": "repo:logos/manuais/",
+        "nota": "enviado pelo Samuel em 28/10/2026"
+      },
+      "marca": {
+        "url": "repo:logos/manuais/ifap.png",
+        "familia": "rede_federal",
+        "orientacao": "vertical",
+        "cor": "positiva",
+        "formato": "png",
+        "origem": "repo:logos/manuais/",
+        "nota": "enviado pelo Samuel em 28/10/2026"
+      },
       "alternativas": [],
-      "decidir": true,
+      "decidir": false,
       "motivos": [
-        "buscado e nada encontrado: A página sugerida deu erro ao abrir (client_error). Página inicial, buscas e a página de créditos (erro) não mostraram logotipo nem manual. A página inicial indica contato da Reitoria (reitoria@ifap.edu.br) e a DICOM para o material de identidade visual."
+        "selo: escolha manual (escolhas.json)",
+        "marca: escolha manual (escolhas.json)",
+        "observação da busca: A página sugerida deu erro ao abrir (client_error). Página inicial, buscas e a página de créditos (erro) não mostraram logotipo nem manual. A página inicial indica contato da Reitoria (reitoria@ifap.edu.br) e a DICOM para o material de identidade visual."
       ],
       "pagina_identidade": "https://ifap.edu.br/index.php/identidade-visual",
       "manual": null
@@ -1764,8 +1831,8 @@
         "cor": "positiva",
         "formato": "zip",
         "origem": "https://portal.ifrn.edu.br/institucional/comunicacao/identidade-visual/logotipo/",
-        "nota": "Zip institucional do IFRN (não de campus) com versões vertical e horizontal em JPG, PNG, PDF e AI; nomes internos desconhecidos, 'vertical' é palpite",
-        "arquivo_no_zip": "vertical"
+        "nota": "Zip institucional do IFRN (não de campus) com versões vertical e horizontal em JPG, PNG, PDF e AI; nomes internos desconhecidos, 'vertical' é palpite; nome interno conferido em 28/10 pelo processamento",
+        "arquivo_no_zip": "Color Vert IF"
       },
       "marca": {
         "url": "https://portal.ifrn.edu.br/documents/11089/IFRN_-_Instituto_Federal_do_Rio_Grande_do_Norte.zip",
@@ -1774,8 +1841,8 @@
         "cor": "positiva",
         "formato": "zip",
         "origem": "https://portal.ifrn.edu.br/institucional/comunicacao/identidade-visual/logotipo/",
-        "nota": "Zip institucional do IFRN (não de campus) com versões vertical e horizontal em JPG, PNG, PDF e AI; nomes internos desconhecidos, 'vertical' é palpite",
-        "arquivo_no_zip": "vertical"
+        "nota": "Zip institucional do IFRN (não de campus) com versões vertical e horizontal em JPG, PNG, PDF e AI; nomes internos desconhecidos, 'vertical' é palpite; nome interno conferido em 28/10 pelo processamento",
+        "arquivo_no_zip": "Color Vert IF"
       },
       "alternativas": [],
       "decidir": false,
@@ -3782,26 +3849,44 @@
       "rede": "estadual",
       "arquivo": "uerj",
       "selo": {
-        "url": "https://www.uerj.br/wp-content/uploads/2023/07/Marca_UERJ.zip",
-        "familia": "marca",
-        "orientacao": "vertical",
+        "url": "repo:logos/manuais/uerj.png",
+        "familia": "brasao",
+        "orientacao": "simbolo",
         "cor": "positiva",
-        "formato": "zip",
-        "origem": "https://www.uerj.br/a-uerj/a-universidade/marca-uerj/",
-        "nota": "Mesmo zip; nome interno é palpite",
-        "arquivo_no_zip": "vertical"
+        "formato": "png",
+        "origem": "repo:logos/manuais/",
+        "nota": "enviado pelo Samuel em 28/10/2026"
       },
       "marca": {
-        "url": "https://www.uerj.br/wp-content/uploads/2023/07/Marca_UERJ.zip",
-        "familia": "marca",
-        "orientacao": "vertical",
+        "url": "repo:logos/manuais/uerj.png",
+        "familia": "brasao",
+        "orientacao": "simbolo",
         "cor": "positiva",
-        "formato": "zip",
-        "origem": "https://www.uerj.br/a-uerj/a-universidade/marca-uerj/",
-        "nota": "Mesmo zip; nome interno é palpite",
-        "arquivo_no_zip": "vertical"
+        "formato": "png",
+        "origem": "repo:logos/manuais/",
+        "nota": "enviado pelo Samuel em 28/10/2026"
       },
       "alternativas": [
+        {
+          "url": "https://www.uerj.br/wp-content/uploads/2023/07/Marca_UERJ.zip",
+          "familia": "marca",
+          "orientacao": "horizontal",
+          "cor": "positiva",
+          "formato": "zip",
+          "origem": "https://www.uerj.br/a-uerj/a-universidade/marca-uerj/",
+          "nota": "Zip 'Arquivos da Marca'; conteúdo e nomes internos desconhecidos, palpite",
+          "arquivo_no_zip": "horizontal"
+        },
+        {
+          "url": "https://www.uerj.br/wp-content/uploads/2023/07/Marca_UERJ.zip",
+          "familia": "marca",
+          "orientacao": "vertical",
+          "cor": "positiva",
+          "formato": "zip",
+          "origem": "https://www.uerj.br/a-uerj/a-universidade/marca-uerj/",
+          "nota": "Mesmo zip; nome interno é palpite",
+          "arquivo_no_zip": "vertical"
+        },
         {
           "url": "https://www.uerj.br/wp-content/themes/uerj/img/logo_uerj_branca.svg",
           "familia": "marca",
@@ -3814,8 +3899,8 @@
       ],
       "decidir": false,
       "motivos": [
-        "selo: regra: marca, vertical, positiva, zip",
-        "marca: regra: marca, vertical, positiva, zip",
+        "selo: escolha manual (escolhas.json)",
+        "marca: escolha manual (escolhas.json)",
         "observação da busca: A página oferece só o zip 'Arquivos da Marca' sem descrever o conteúdo. Há também uma versão acessível do manual: https://www.uerj.br/wp-content/uploads/2021/11/Manual-de-Uso-e-Aplica%C3%A7ao-da-Marca-Uerj-Acessibilidade.pdf. Outro manual da marca: https://www.uerj.br/wp-content/uploads/2023/07/Manual_Marca_Uerj2023.pdf (visto em busca)."
       ],
       "pagina_identidade": "https://www.uerj.br/a-uerj/a-universidade/marca-uerj/",
@@ -3970,26 +4055,34 @@
       "rede": "estadual",
       "arquivo": "uesc",
       "selo": {
-        "url": "https://www.uesc.br/nucleo-web/padrao-brasao/png.zip",
+        "url": "repo:logos/manuais/uesc.png",
         "familia": "brasao",
         "orientacao": "simbolo",
         "cor": "positiva",
-        "formato": "zip",
-        "origem": "https://www.uesc.br/ascom/index.php?item=conteudo_marcas.php",
-        "nota": "Pacote PNG do brasão; nomes internos desconhecidos, 'brasao' é palpite; orientação é palpite",
-        "arquivo_no_zip": "brasao"
+        "formato": "png",
+        "origem": "repo:logos/manuais/",
+        "nota": "enviado pelo Samuel em 28/10/2026"
       },
       "marca": {
-        "url": "https://www.uesc.br/nucleo-web/padrao-brasao/png.zip",
+        "url": "repo:logos/manuais/uesc.png",
         "familia": "brasao",
         "orientacao": "simbolo",
         "cor": "positiva",
-        "formato": "zip",
-        "origem": "https://www.uesc.br/ascom/index.php?item=conteudo_marcas.php",
-        "nota": "Pacote PNG do brasão; nomes internos desconhecidos, 'brasao' é palpite; orientação é palpite",
-        "arquivo_no_zip": "brasao"
+        "formato": "png",
+        "origem": "repo:logos/manuais/",
+        "nota": "enviado pelo Samuel em 28/10/2026"
       },
       "alternativas": [
+        {
+          "url": "https://www.uesc.br/nucleo-web/padrao-brasao/png.zip",
+          "familia": "brasao",
+          "orientacao": "simbolo",
+          "cor": "positiva",
+          "formato": "zip",
+          "origem": "https://www.uesc.br/ascom/index.php?item=conteudo_marcas.php",
+          "nota": "Pacote PNG do brasão; nomes internos desconhecidos, 'brasao' é palpite; orientação é palpite; nome interno conferido em 28/10 pelo processamento",
+          "arquivo_no_zip": "png1.png"
+        },
         {
           "url": "https://www.uesc.br/nucleo-web/padrao-brasao/pdf.zip",
           "familia": "brasao",
@@ -4032,8 +4125,8 @@
       ],
       "decidir": false,
       "motivos": [
-        "selo: regra: brasao, simbolo, positiva, zip",
-        "marca: regra: brasao, simbolo, positiva, zip",
+        "selo: escolha manual (escolhas.json)",
+        "marca: escolha manual (escolhas.json)",
         "observação da busca: Página 'Marcas e Manuais para uso do Brasão da Uesc'. Também há psd.zip (não listado). Os zips reúnem possivelmente várias versões de cor."
       ],
       "pagina_identidade": "https://www.uesc.br/ascom/index.php?item=conteudo_marcas.php",
@@ -4439,24 +4532,33 @@
       "rede": "federal",
       "arquivo": "ufba",
       "selo": {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Brasão_da_UFBA.png",
+        "url": "repo:logos/manuais/ufba.png",
         "familia": "brasao",
         "orientacao": "simbolo",
         "cor": "positiva",
         "formato": "png",
-        "origem": "https://commons.wikimedia.org/wiki/File:Brasão_da_UFBA.png",
-        "nota": "Wikimedia; conferir se é a marca atual (existe também um arquivo de brasão de padrão anterior a 2008, não listado)"
+        "origem": "repo:logos/manuais/",
+        "nota": "enviado pelo Samuel em 28/10/2026"
       },
       "marca": {
-        "url": "https://ufba.br/sites/portal.ufba.br/files/logoufbaass_0.png",
+        "url": "repo:logos/manuais/ufba.png",
         "familia": "brasao",
-        "orientacao": "horizontal",
+        "orientacao": "simbolo",
         "cor": "positiva",
         "formato": "png",
-        "origem": "https://ufba.br",
-        "nota": "cabeçalho do site (assinatura); orientação e cor não verificadas"
+        "origem": "repo:logos/manuais/",
+        "nota": "enviado pelo Samuel em 28/10/2026"
       },
       "alternativas": [
+        {
+          "url": "https://ufba.br/sites/portal.ufba.br/files/logoufbaass_0.png",
+          "familia": "brasao",
+          "orientacao": "horizontal",
+          "cor": "positiva",
+          "formato": "png",
+          "origem": "https://ufba.br",
+          "nota": "cabeçalho do site (assinatura); orientação e cor não verificadas"
+        },
         {
           "url": "https://ufba.br/sites/portal.ufba.br/files/logoufba_rodape.png",
           "familia": "brasao",
@@ -4465,12 +4567,21 @@
           "formato": "png",
           "origem": "https://ufba.br",
           "nota": "rodapé do site; orientação e cor não verificadas"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Brasão_da_UFBA.png",
+          "familia": "brasao",
+          "orientacao": "simbolo",
+          "cor": "positiva",
+          "formato": "png",
+          "origem": "https://commons.wikimedia.org/wiki/File:Brasão_da_UFBA.png",
+          "nota": "Wikimedia; conferir se é a marca atual (existe também um arquivo de brasão de padrão anterior a 2008, não listado)"
         }
       ],
       "decidir": false,
       "motivos": [
-        "selo: regra: brasao, simbolo, positiva, png",
-        "marca: regra: brasao, horizontal, positiva, png",
+        "selo: escolha manual (escolhas.json)",
+        "marca: escolha manual (escolhas.json)",
         "observação da busca: A página de manual retornou client_error e proext.ufba.br/logomarcas está bloqueada por robots; a UFBA não oferece arquivos de logotipo localizáveis. O manual de marca do brasão (v2) traz a assinatura principal na p. 9, monocromática nas pp. 12-13, negativa nas pp. 14-15 e vertical/horizontal na p. 18; a página 1 é texto. O manual manda obter o arquivo digital no portal ufba.br ou com a Ascom."
       ],
       "pagina_identidade": "https://www.ufba.br/manual-de-identidade-visual",
@@ -5220,28 +5331,38 @@
       "rede": "federal",
       "arquivo": "ufdpar",
       "selo": {
-        "url": "https://ufdpar.edu.br/preuni/logo_ufdpar.png",
-        "familia": "marca",
-        "orientacao": "simbolo",
+        "url": "repo:logos/manuais/ufdpar.png",
+        "familia": "brasao",
+        "orientacao": "vertical",
         "cor": "positiva",
         "formato": "png",
-        "origem": "https://ufdpar.edu.br/preuni/logo_ufdpar.png/view",
-        "nota": "É a página /view do arquivo (Plone), não o link direto da imagem; orientação é palpite. A página oficial de identidade visual bloqueia leitura automática (robots).; busca dirigida de 28/10 pela versão vertical; achado por WebSearch geral (página de arquivo 'LOGO_UFDPAR.png' no portal da UFDPar, subsite da Prefeitura Universitária)"
+        "origem": "repo:logos/manuais/",
+        "nota": "enviado pelo Samuel em 28/10/2026"
       },
       "marca": {
-        "url": "https://ufdpar.edu.br/preuni/logo_ufdpar.png",
-        "familia": "marca",
-        "orientacao": "simbolo",
+        "url": "repo:logos/manuais/ufdpar.png",
+        "familia": "brasao",
+        "orientacao": "vertical",
         "cor": "positiva",
         "formato": "png",
-        "origem": "https://ufdpar.edu.br/preuni/logo_ufdpar.png/view",
-        "nota": "É a página /view do arquivo (Plone), não o link direto da imagem; orientação é palpite. A página oficial de identidade visual bloqueia leitura automática (robots).; busca dirigida de 28/10 pela versão vertical; achado por WebSearch geral (página de arquivo 'LOGO_UFDPAR.png' no portal da UFDPar, subsite da Prefeitura Universitária)"
+        "origem": "repo:logos/manuais/",
+        "nota": "enviado pelo Samuel em 28/10/2026"
       },
-      "alternativas": [],
+      "alternativas": [
+        {
+          "url": "https://ufdpar.edu.br/preuni/logo_ufdpar.png",
+          "familia": "marca",
+          "orientacao": "simbolo",
+          "cor": "positiva",
+          "formato": "png",
+          "origem": "https://ufdpar.edu.br/preuni/logo_ufdpar.png/view",
+          "nota": "É a página /view do arquivo (Plone), não o link direto da imagem; orientação é palpite. A página oficial de identidade visual bloqueia leitura automática (robots).; busca dirigida de 28/10 pela versão vertical; achado por WebSearch geral (página de arquivo 'LOGO_UFDPAR.png' no portal da UFDPar, subsite da Prefeitura Universitária)"
+        }
+      ],
       "decidir": false,
       "motivos": [
-        "selo: regra: marca, simbolo, positiva, png",
-        "marca: regra: marca, simbolo, positiva, png",
+        "selo: escolha manual (escolhas.json)",
+        "marca: escolha manual (escolhas.json)",
         "observação da busca: O site ufdpar.edu.br bloqueia robots (WebFetch recusou a página de identidade e as páginas de arquivo). A busca mostrou páginas Plone com 'LOGO_UFDPAR.png' (ex.: https://ufdpar.edu.br/preuni/logo_ufdpar.png/view), mas só em formato /view, sem href de arquivo visto. O manual atualizado está na Resolução Consuni 03/2021 (título da busca: manual de identidade visual); não confirmado."
       ],
       "pagina_identidade": "https://ufdpar.edu.br/ufdpar/paginas/comunicacao-paginas/nossa-identidade-visual",
@@ -5372,24 +5493,22 @@
       "rede": "federal",
       "arquivo": "uff",
       "selo": {
-        "url": "https://www.uff.br/wp-content/uploads/2024/03/brasao_da_uff_-_arquivos_vetoriais.zip",
-        "familia": "brasao",
-        "orientacao": "simbolo",
+        "url": "https://www.uff.br/wp-content/uploads/2024/03/logouff_vertical_azul-1.png",
+        "familia": "marca",
+        "orientacao": "vertical",
         "cor": "positiva",
-        "formato": "zip",
+        "formato": "png",
         "origem": "https://www.uff.br/comunicacao/logotipos-da-uff/",
-        "nota": "pacote vetorial do brasão; nomes internos desconhecidos, 'brasao' é palpite",
-        "arquivo_no_zip": "brasao"
+        "nota": "vertical azul"
       },
       "marca": {
-        "url": "https://www.uff.br/wp-content/uploads/2024/03/brasao_da_uff_-_arquivos_vetoriais.zip",
-        "familia": "brasao",
-        "orientacao": "simbolo",
+        "url": "https://www.uff.br/wp-content/uploads/2024/03/logouff_vertical_azul-1.png",
+        "familia": "marca",
+        "orientacao": "vertical",
         "cor": "positiva",
-        "formato": "zip",
+        "formato": "png",
         "origem": "https://www.uff.br/comunicacao/logotipos-da-uff/",
-        "nota": "pacote vetorial do brasão; nomes internos desconhecidos, 'brasao' é palpite",
-        "arquivo_no_zip": "brasao"
+        "nota": "vertical azul"
       },
       "alternativas": [
         {
@@ -5420,15 +5539,6 @@
           "nota": "horizontal branco sobre fundo azul"
         },
         {
-          "url": "https://www.uff.br/wp-content/uploads/2024/03/logouff_vertical_azul-1.png",
-          "familia": "marca",
-          "orientacao": "vertical",
-          "cor": "positiva",
-          "formato": "png",
-          "origem": "https://www.uff.br/comunicacao/logotipos-da-uff/",
-          "nota": "vertical azul"
-        },
-        {
           "url": "https://www.uff.br/wp-content/uploads/2024/03/logouff_vertical_branco_fundo_transparente-1.png",
           "familia": "marca",
           "orientacao": "vertical",
@@ -5455,12 +5565,21 @@
           "origem": "https://www.uff.br/comunicacao/logotipos-da-uff/",
           "nota": "pacote vetorial do logotipo; nomes internos desconhecidos, 'horizontal' é palpite (tentar também 'vertical')",
           "arquivo_no_zip": "horizontal"
+        },
+        {
+          "url": "https://www.uff.br/wp-content/uploads/2024/03/brasao_da_uff_-_arquivos_vetoriais.zip",
+          "familia": "brasao",
+          "orientacao": "simbolo",
+          "cor": "positiva",
+          "formato": "cdr",
+          "origem": "https://www.uff.br/comunicacao/logotipos-da-uff/",
+          "nota": "pacote vetorial do brasão; nomes internos desconhecidos, 'brasao' é palpite; conferido em 28/10: o zip só tem cdr e wmf"
         }
       ],
       "decidir": false,
       "motivos": [
-        "selo: regra: brasao, simbolo, positiva, zip",
-        "marca: regra: brasao, simbolo, positiva, zip",
+        "selo: regra: marca, vertical, positiva, png",
+        "marca: regra: marca, vertical, positiva, png",
         "observação da busca: O logotipo da UFF (marca) e o brasão são separados; o zip do brasão é a única fonte de brasão. Pacote dos 65 anos e assinaturas de pró-reitorias não entram (https://www.uff.br/wp-content/uploads/2025/08/Marca-65-anos-UFF.zip)."
       ],
       "pagina_identidade": "https://www.uff.br/comunicacao/logotipos-da-uff/",
@@ -5825,24 +5944,22 @@
       "rede": "federal",
       "arquivo": "ufjf",
       "selo": {
-        "url": "https://drive.google.com/uc?export=download&id=121vPGNnW3S21N9qkGe6B6_7KzRq7lIJy",
+        "url": "repo:logos/manuais/ufjf.png",
         "familia": "marca",
         "orientacao": "vertical",
         "cor": "positiva",
-        "formato": "zip",
-        "origem": "https://www2.ufjf.br/imagem/manuais-e-orientacoes/",
-        "nota": "Google Drive; link 'Pacote de logotipos da UFJF' (file/d/.../view), provavelmente zip; nomes internos desconhecidos, 'vertical' é palpite",
-        "arquivo_no_zip": "vertical"
+        "formato": "png",
+        "origem": "repo:logos/manuais/",
+        "nota": "enviado pelo Samuel em 28/10/2026"
       },
       "marca": {
-        "url": "https://drive.google.com/uc?export=download&id=121vPGNnW3S21N9qkGe6B6_7KzRq7lIJy",
+        "url": "repo:logos/manuais/ufjf.png",
         "familia": "marca",
         "orientacao": "vertical",
         "cor": "positiva",
-        "formato": "zip",
-        "origem": "https://www2.ufjf.br/imagem/manuais-e-orientacoes/",
-        "nota": "Google Drive; link 'Pacote de logotipos da UFJF' (file/d/.../view), provavelmente zip; nomes internos desconhecidos, 'vertical' é palpite",
-        "arquivo_no_zip": "vertical"
+        "formato": "png",
+        "origem": "repo:logos/manuais/",
+        "nota": "enviado pelo Samuel em 28/10/2026"
       },
       "alternativas": [
         {
@@ -5853,13 +5970,22 @@
           "formato": "outro",
           "origem": "https://www2.ufjf.br/imagem/manuais-e-orientacoes/",
           "nota": "Google Drive; link 'Brasão da UFJF' (file/d/.../view); formato, cor e orientação desconhecidos"
+        },
+        {
+          "url": "https://drive.google.com/uc?export=download&id=121vPGNnW3S21N9qkGe6B6_7KzRq7lIJy",
+          "familia": "marca",
+          "orientacao": "vertical",
+          "cor": "positiva",
+          "formato": "zip",
+          "origem": "https://www2.ufjf.br/imagem/manuais-e-orientacoes/",
+          "nota": "Google Drive; link 'Pacote de logotipos da UFJF' (file/d/.../view), provavelmente zip; nomes internos desconhecidos, 'vertical' é palpite; nome interno conferido em 28/10 pelo processamento",
+          "arquivo_no_zip": "logo_ufjf_v1.jpg"
         }
       ],
-      "decidir": true,
+      "decidir": false,
       "motivos": [
-        "selo: regra: marca, vertical, positiva, zip",
-        "marca: regra: marca, vertical, positiva, zip",
-        "tem brasão e marca simplificada; confirme a família",
+        "selo: escolha manual (escolhas.json)",
+        "marca: escolha manual (escolhas.json)",
         "observação da busca: Manual de uso/aplicação de identidade visual e guia interativo de assinatura visual existem na página, mas os hrefs não vieram na leitura."
       ],
       "pagina_identidade": "https://www2.ufjf.br/imagem/manuais-e-orientacoes/",
@@ -6011,24 +6137,22 @@
       "rede": "federal",
       "arquivo": "ufmg",
       "selo": {
-        "url": "https://www.ufmg.br/marca/arquivos/variacoes_ufmg.zip",
+        "url": "repo:logos/manuais/ufmg.png",
         "familia": "marca",
-        "orientacao": "vertical",
+        "orientacao": "horizontal",
         "cor": "positiva",
-        "formato": "zip",
-        "origem": "https://www.ufmg.br/marca/",
-        "nota": "ZIP com JPG das variações de cor; nomes internos desconhecidos, trecho é palpite",
-        "arquivo_no_zip": "vertical"
+        "formato": "png",
+        "origem": "repo:logos/manuais/",
+        "nota": "enviado pelo Samuel em 28/10/2026"
       },
       "marca": {
-        "url": "https://www.ufmg.br/marca/arquivos/variacoes_ufmg.zip",
+        "url": "repo:logos/manuais/ufmg.png",
         "familia": "marca",
-        "orientacao": "vertical",
+        "orientacao": "horizontal",
         "cor": "positiva",
-        "formato": "zip",
-        "origem": "https://www.ufmg.br/marca/",
-        "nota": "ZIP com JPG das variações de cor; nomes internos desconhecidos, trecho é palpite",
-        "arquivo_no_zip": "vertical"
+        "formato": "png",
+        "origem": "repo:logos/manuais/",
+        "nota": "enviado pelo Samuel em 28/10/2026"
       },
       "alternativas": [
         {
@@ -6039,6 +6163,16 @@
           "formato": "eps",
           "origem": "https://www.ufmg.br/marca/",
           "nota": "EPS único com a marca e as variações de cor (principal, negativo, preto, branco); orientação é palpite"
+        },
+        {
+          "url": "https://www.ufmg.br/marca/arquivos/variacoes_ufmg.zip",
+          "familia": "marca",
+          "orientacao": "vertical",
+          "cor": "positiva",
+          "formato": "zip",
+          "origem": "https://www.ufmg.br/marca/",
+          "nota": "ZIP com JPG das variações de cor; nomes internos desconhecidos, trecho é palpite; nome interno conferido em 28/10 pelo processamento",
+          "arquivo_no_zip": "principal_completa_ufmg.jpg"
         },
         {
           "url": "https://www.ufmg.br//app/uploads/2025/09/ufmg-logo.svg",
@@ -6052,8 +6186,8 @@
       ],
       "decidir": false,
       "motivos": [
-        "selo: regra: marca, vertical, positiva, zip",
-        "marca: regra: marca, vertical, positiva, zip",
+        "selo: escolha manual (escolhas.json)",
+        "marca: escolha manual (escolhas.json)",
         "observação da busca: A página de marca só oferece EPS e ZIP de JPG. O brasão não tem download: precisa ser pedido ao Cedecom (dir@cedecom.ufmg.br). Wikimedia não consultada com sucesso."
       ],
       "pagina_identidade": "https://www.ufmg.br/marca/",
@@ -6300,22 +6434,22 @@
       "rede": "federal",
       "arquivo": "ufop",
       "selo": {
-        "url": "https://ufop.br/file/logopng",
+        "url": "repo:logos/manuais/ufop.png",
         "familia": "marca",
-        "orientacao": "simbolo",
+        "orientacao": "vertical",
         "cor": "positiva",
         "formato": "png",
-        "origem": "https://www.ufop.br/logomarca/",
-        "nota": "Logo do portal da UFOP; orientação é palpite (não vi a imagem). As páginas oficiais de logomarca (ufop.br/logomarca) bloqueiam leitura automática (robots).; busca dirigida de 28/10 pela versão vertical; achado por WebSearch geral (arquivo 'logo.png' no portal ufop.br)"
+        "origem": "repo:logos/manuais/",
+        "nota": "enviado pelo Samuel em 28/10/2026"
       },
       "marca": {
-        "url": "https://ufop.br/file/logopng",
+        "url": "repo:logos/manuais/ufop.png",
         "familia": "marca",
-        "orientacao": "simbolo",
+        "orientacao": "vertical",
         "cor": "positiva",
         "formato": "png",
-        "origem": "https://www.ufop.br/logomarca/",
-        "nota": "Logo do portal da UFOP; orientação é palpite (não vi a imagem). As páginas oficiais de logomarca (ufop.br/logomarca) bloqueiam leitura automática (robots).; busca dirigida de 28/10 pela versão vertical; achado por WebSearch geral (arquivo 'logo.png' no portal ufop.br)"
+        "origem": "repo:logos/manuais/",
+        "nota": "enviado pelo Samuel em 28/10/2026"
       },
       "alternativas": [
         {
@@ -6344,12 +6478,21 @@
           "formato": "png",
           "origem": "https://ufop.br",
           "nota": "rodapé do site, versão branca; orientação não verificada"
+        },
+        {
+          "url": "https://ufop.br/file/logopng",
+          "familia": "marca",
+          "orientacao": "simbolo",
+          "cor": "positiva",
+          "formato": "png",
+          "origem": "https://www.ufop.br/logomarca/",
+          "nota": "Logo do portal da UFOP; orientação é palpite (não vi a imagem). As páginas oficiais de logomarca (ufop.br/logomarca) bloqueiam leitura automática (robots).; busca dirigida de 28/10 pela versão vertical; achado por WebSearch geral (arquivo 'logo.png' no portal ufop.br)"
         }
       ],
       "decidir": false,
       "motivos": [
-        "selo: regra: marca, simbolo, positiva, png",
-        "marca: regra: marca, simbolo, positiva, png",
+        "selo: escolha manual (escolhas.json)",
+        "marca: escolha manual (escolhas.json)",
         "observação da busca: A página /logomarca/ só tem 13 imagens GIF (SITE.gif, SITE_01.gif ... SITE_11.gif, logotipo_02_03.gif) sem texto nem links de download; não deu para saber qual é qual. Não há brasão nem manual de marca localizado. Wikimedia não localizado."
       ],
       "pagina_identidade": "https://ufop.br/logomarca/",
@@ -6770,22 +6913,22 @@
       "rede": "federal",
       "arquivo": "ufpe",
       "selo": {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Brasão_da_UFPE.png",
+        "url": "repo:logos/manuais/ufpe.png",
         "familia": "brasao",
         "orientacao": "simbolo",
         "cor": "positiva",
         "formato": "png",
-        "origem": "https://commons.wikimedia.org/wiki/File:Brasão_da_UFPE.png",
-        "nota": "Wikimedia; conferir se é a marca atual"
+        "origem": "repo:logos/manuais/",
+        "nota": "enviado pelo Samuel em 28/10/2026"
       },
       "marca": {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Brasão_da_UFPE.png",
+        "url": "repo:logos/manuais/ufpe.png",
         "familia": "brasao",
         "orientacao": "simbolo",
         "cor": "positiva",
         "formato": "png",
-        "origem": "https://commons.wikimedia.org/wiki/File:Brasão_da_UFPE.png",
-        "nota": "Wikimedia; conferir se é a marca atual"
+        "origem": "repo:logos/manuais/",
+        "nota": "enviado pelo Samuel em 28/10/2026"
       },
       "alternativas": [
         {
@@ -6796,6 +6939,15 @@
           "formato": "outro",
           "origem": "https://www.ufpe.br/institucional/identidade-visual",
           "nota": "cabeçalho do site; tipo real do arquivo não verificado (link dinâmico); orientação e cor não verificadas"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Brasão_da_UFPE.png",
+          "familia": "brasao",
+          "orientacao": "simbolo",
+          "cor": "positiva",
+          "formato": "png",
+          "origem": "https://commons.wikimedia.org/wiki/File:Brasão_da_UFPE.png",
+          "nota": "Wikimedia; conferir se é a marca atual"
         },
         {
           "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Logo-ufpe-2-2.jpg",
@@ -6809,8 +6961,8 @@
       ],
       "decidir": false,
       "motivos": [
-        "selo: regra: brasao, simbolo, positiva, png",
-        "marca: regra: brasao, simbolo, positiva, png",
+        "selo: escolha manual (escolhas.json)",
+        "marca: escolha manual (escolhas.json)",
         "observação da busca: A página de identidade visual carregou sem o corpo (só menus), então não deu para ver links de download. O manual (ufpe_id.pdf) tem a capa só com texto; assinatura principal p. 4, alternativas p. 5, P&B p. 8, negativo p. 9. A UFPE usa brasão com nome por extenso (horizontal, vertical 1 com sigla, vertical 2 com nome). Também há a cartilha https://www.ufpe.br/documents/3469311/3527680/Cartilha+-+Marca/42d3a697-34d8-43e8-830a-5190921a58c0. Sem arquivos de marca para download localizados."
       ],
       "pagina_identidade": "https://www.ufpe.br/institucional/identidade-visual",
@@ -6881,24 +7033,33 @@
       "rede": "federal",
       "arquivo": "ufpr",
       "selo": {
-        "url": "https://pt.wikipedia.org/wiki/Special:FilePath/Logo_oficial_da_UFPR_(fundo_branco).svg",
+        "url": "repo:logos/manuais/ufpr.png",
         "familia": "marca",
-        "orientacao": "horizontal",
+        "orientacao": "vertical",
         "cor": "positiva",
-        "formato": "svg",
-        "origem": "https://pt.wikipedia.org/wiki/Ficheiro:Logo_oficial_da_UFPR_(fundo_branco).svg",
-        "nota": "Wikimedia; conferir se é a marca atual; orientação é palpite"
+        "formato": "png",
+        "origem": "repo:logos/manuais/",
+        "nota": "enviado pelo Samuel em 28/10/2026"
       },
       "marca": {
-        "url": "https://pt.wikipedia.org/wiki/Special:FilePath/Logo_oficial_da_UFPR_(fundo_branco).svg",
+        "url": "repo:logos/manuais/ufpr.png",
         "familia": "marca",
-        "orientacao": "horizontal",
+        "orientacao": "vertical",
         "cor": "positiva",
-        "formato": "svg",
-        "origem": "https://pt.wikipedia.org/wiki/Ficheiro:Logo_oficial_da_UFPR_(fundo_branco).svg",
-        "nota": "Wikimedia; conferir se é a marca atual; orientação é palpite"
+        "formato": "png",
+        "origem": "repo:logos/manuais/",
+        "nota": "enviado pelo Samuel em 28/10/2026"
       },
       "alternativas": [
+        {
+          "url": "https://pt.wikipedia.org/wiki/Special:FilePath/Logo_oficial_da_UFPR_(fundo_branco).svg",
+          "familia": "marca",
+          "orientacao": "horizontal",
+          "cor": "positiva",
+          "formato": "svg",
+          "origem": "https://pt.wikipedia.org/wiki/Ficheiro:Logo_oficial_da_UFPR_(fundo_branco).svg",
+          "nota": "Wikimedia; conferir se é a marca atual; orientação é palpite"
+        },
         {
           "url": "https://pt.wikipedia.org/wiki/Special:FilePath/Logo_oficial_da_UFPR_(sem_fundo).png",
           "familia": "marca",
@@ -6927,11 +7088,10 @@
           "nota": "Wikimedia; conferir se é a marca atual; orientação é palpite"
         }
       ],
-      "decidir": true,
+      "decidir": false,
       "motivos": [
-        "selo: regra: marca, horizontal, positiva, svg",
-        "marca: regra: marca, horizontal, positiva, svg",
-        "só há versão horizontal",
+        "selo: escolha manual (escolhas.json)",
+        "marca: escolha manual (escolhas.json)",
         "observação da busca: O manual de marca (2019) e o site ufpr.br bloqueiam leitura automática (robots), então não foi possível ver se há página com arquivos nem em que página do PDF está a marca. Buscas não retornaram página de download da UFPR. Nenhum candidato verificado."
       ],
       "pagina_identidade": "https://ufpr.br/wp-content/uploads/2019/07/manual_de_marca_ufpr_1.pdf",
@@ -7109,28 +7269,47 @@
       "rede": "federal",
       "arquivo": "ufrb",
       "selo": {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Símbolo_da_UFRB.png",
-        "familia": "marca",
-        "orientacao": "simbolo",
-        "cor": "positiva",
-        "formato": "png",
-        "origem": "https://commons.wikimedia.org/wiki/File:Símbolo_da_UFRB.png",
-        "nota": "Wikimedia; conferir se é a marca atual"
-      },
-      "marca": {
-        "url": "https://ufrb.edu.br/ascom/images/marca-azul.png",
+        "url": "repo:logos/manuais/ufrb.png",
         "familia": "marca",
         "orientacao": "horizontal",
         "cor": "positiva",
         "formato": "png",
-        "origem": "https://ufrb.edu.br/ascom/identidade-visual",
-        "nota": "cabeçalho do site; orientação não verificada"
+        "origem": "repo:logos/manuais/",
+        "nota": "enviado pelo Samuel em 28/10/2026"
       },
-      "alternativas": [],
+      "marca": {
+        "url": "repo:logos/manuais/ufrb.png",
+        "familia": "marca",
+        "orientacao": "horizontal",
+        "cor": "positiva",
+        "formato": "png",
+        "origem": "repo:logos/manuais/",
+        "nota": "enviado pelo Samuel em 28/10/2026"
+      },
+      "alternativas": [
+        {
+          "url": "https://ufrb.edu.br/ascom/images/marca-azul.png",
+          "familia": "marca",
+          "orientacao": "horizontal",
+          "cor": "positiva",
+          "formato": "png",
+          "origem": "https://ufrb.edu.br/ascom/identidade-visual",
+          "nota": "cabeçalho do site; orientação não verificada"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Símbolo_da_UFRB.png",
+          "familia": "marca",
+          "orientacao": "simbolo",
+          "cor": "positiva",
+          "formato": "png",
+          "origem": "https://commons.wikimedia.org/wiki/File:Símbolo_da_UFRB.png",
+          "nota": "Wikimedia; conferir se é a marca atual"
+        }
+      ],
       "decidir": false,
       "motivos": [
-        "selo: regra: marca, simbolo, positiva, png",
-        "marca: regra: marca, horizontal, positiva, png",
+        "selo: escolha manual (escolhas.json)",
+        "marca: escolha manual (escolhas.json)",
         "observação da busca: A página 'identidade visual' só carregou menus, sem seção de download; a página de Centrais de Conteúdo também não tem kit de marca. O manual de aplicação da marca tem capa com texto de créditos; assinaturas centralizada e horizontal na seção 5, cores (positiva, negativa, cinza) na seção 9. Só imagem de cabeçalho."
       ],
       "pagina_identidade": "https://ufrb.edu.br/ascom/identidade-visual",
@@ -7141,24 +7320,33 @@
       "rede": "federal",
       "arquivo": "ufrgs",
       "selo": {
-        "url": "https://pt.wikipedia.org/wiki/Special:FilePath/Brasão_UFRGS.svg",
-        "familia": "brasao",
-        "orientacao": "simbolo",
+        "url": "repo:logos/manuais/ufrgs.png",
+        "familia": "marca",
+        "orientacao": "vertical",
         "cor": "positiva",
-        "formato": "svg",
-        "origem": "https://pt.wikipedia.org/wiki/Ficheiro:Brasão_UFRGS.svg",
-        "nota": "Wikimedia; conferir se é a marca atual"
+        "formato": "png",
+        "origem": "repo:logos/manuais/",
+        "nota": "enviado pelo Samuel em 28/10/2026"
       },
       "marca": {
-        "url": "https://pt.wikipedia.org/wiki/Special:FilePath/Brasão_UFRGS.svg",
-        "familia": "brasao",
-        "orientacao": "simbolo",
+        "url": "repo:logos/manuais/ufrgs.png",
+        "familia": "marca",
+        "orientacao": "vertical",
         "cor": "positiva",
-        "formato": "svg",
-        "origem": "https://pt.wikipedia.org/wiki/Ficheiro:Brasão_UFRGS.svg",
-        "nota": "Wikimedia; conferir se é a marca atual"
+        "formato": "png",
+        "origem": "repo:logos/manuais/",
+        "nota": "enviado pelo Samuel em 28/10/2026"
       },
       "alternativas": [
+        {
+          "url": "https://pt.wikipedia.org/wiki/Special:FilePath/Brasão_UFRGS.svg",
+          "familia": "brasao",
+          "orientacao": "simbolo",
+          "cor": "positiva",
+          "formato": "svg",
+          "origem": "https://pt.wikipedia.org/wiki/Ficheiro:Brasão_UFRGS.svg",
+          "nota": "Wikimedia; conferir se é a marca atual"
+        },
         {
           "url": "https://pt.wikipedia.org/wiki/Special:FilePath/Logo_UFRGS_formato_SVG-01.svg",
           "familia": "marca",
@@ -7189,8 +7377,8 @@
       ],
       "decidir": false,
       "motivos": [
-        "selo: regra: brasao, simbolo, positiva, svg",
-        "marca: regra: brasao, simbolo, positiva, svg",
+        "selo: escolha manual (escolhas.json)",
+        "marca: escolha manual (escolhas.json)",
         "observação da busca: www.ufrgs.br bloqueia leitura automática (robots) em todas as páginas de identidade visual encontradas pela busca (https://www.ufrgs.br/portasabertas/identidade-visual, https://www.ufrgs.br/documenta/d/identidade-visual/, https://www.ufrgs.br/secom/wordpress/?p=305, https://www.ufrgs.br/sead/?p=2083). Página de terceiro (digitei.com) não traz link oficial. Nada verificado."
       ],
       "pagina_identidade": "https://www.ufrgs.br/documenta/d/identidade-visual/",
@@ -7844,26 +8032,34 @@
       "rede": "federal",
       "arquivo": "ufs",
       "selo": {
-        "url": "https://drive.google.com/uc?export=download&id=1lcItZ2cTgOpkQ-5OXP-Ew-jqcv5sFC76",
+        "url": "repo:logos/manuais/ufs.png",
         "familia": "brasao",
-        "orientacao": "simbolo",
+        "orientacao": "vertical",
         "cor": "positiva",
-        "formato": "zip",
-        "origem": "https://ascom.ufs.br/pagina/3217-brasao-e-marcas-da-ufs",
-        "nota": "Google Drive; BRASAO.ZIP (brasão original); nomes internos desconhecidos, trecho é palpite",
-        "arquivo_no_zip": "brasao"
+        "formato": "png",
+        "origem": "repo:logos/manuais/",
+        "nota": "enviado pelo Samuel em 28/10/2026"
       },
       "marca": {
-        "url": "https://drive.google.com/uc?export=download&id=1lcItZ2cTgOpkQ-5OXP-Ew-jqcv5sFC76",
+        "url": "repo:logos/manuais/ufs.png",
         "familia": "brasao",
-        "orientacao": "simbolo",
+        "orientacao": "vertical",
         "cor": "positiva",
-        "formato": "zip",
-        "origem": "https://ascom.ufs.br/pagina/3217-brasao-e-marcas-da-ufs",
-        "nota": "Google Drive; BRASAO.ZIP (brasão original); nomes internos desconhecidos, trecho é palpite",
-        "arquivo_no_zip": "brasao"
+        "formato": "png",
+        "origem": "repo:logos/manuais/",
+        "nota": "enviado pelo Samuel em 28/10/2026"
       },
       "alternativas": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1lcItZ2cTgOpkQ-5OXP-Ew-jqcv5sFC76",
+          "familia": "brasao",
+          "orientacao": "simbolo",
+          "cor": "positiva",
+          "formato": "zip",
+          "origem": "https://ascom.ufs.br/pagina/3217-brasao-e-marcas-da-ufs",
+          "nota": "Google Drive; BRASAO.ZIP (brasão original); nomes internos desconhecidos, trecho é palpite; nome interno conferido em 28/10 pelo processamento",
+          "arquivo_no_zip": "tica.png"
+        },
         {
           "url": "https://divulgacoes.ufs.br/uploads/BRASAO_UFS_50_ANOS.zip",
           "familia": "brasao",
@@ -7886,8 +8082,8 @@
       ],
       "decidir": false,
       "motivos": [
-        "selo: regra: brasao, simbolo, positiva, zip",
-        "marca: regra: brasao, simbolo, positiva, zip",
+        "selo: escolha manual (escolhas.json)",
+        "marca: escolha manual (escolhas.json)",
         "observação da busca: A página também aponta para uma pasta do Google Drive com a identidade UFS 55 anos (https://drive.google.com/drive/folders/1EGA-JJCrUE8iRZ2ajYL3v5g0sWpt-J1Y), sem arquivo individual, não incluída. Conteúdo dos ZIPs/RAR não verificado."
       ],
       "pagina_identidade": "https://ascom.ufs.br/pagina/3217-brasao-e-marcas-da-ufs",
@@ -8246,26 +8442,44 @@
       "rede": "federal",
       "arquivo": "ufsj",
       "selo": {
-        "url": "https://ufsj.edu.br/portal2-repositorio/File/ascom/marcasparadisponibilizaoempng.zip",
+        "url": "repo:logos/manuais/ufsj.png",
         "familia": "marca",
         "orientacao": "vertical",
         "cor": "positiva",
-        "formato": "zip",
-        "origem": "https://ufsj.edu.br/ascom/logomarcas_da_ufsj.php",
-        "nota": "Mesmo pacote PNG; nomes internos desconhecidos, palpite",
-        "arquivo_no_zip": "vertical"
+        "formato": "png",
+        "origem": "repo:logos/manuais/",
+        "nota": "enviado pelo Samuel em 28/10/2026"
       },
       "marca": {
-        "url": "https://ufsj.edu.br/portal2-repositorio/File/ascom/marcasparadisponibilizaoempng.zip",
+        "url": "repo:logos/manuais/ufsj.png",
         "familia": "marca",
         "orientacao": "vertical",
         "cor": "positiva",
-        "formato": "zip",
-        "origem": "https://ufsj.edu.br/ascom/logomarcas_da_ufsj.php",
-        "nota": "Mesmo pacote PNG; nomes internos desconhecidos, palpite",
-        "arquivo_no_zip": "vertical"
+        "formato": "png",
+        "origem": "repo:logos/manuais/",
+        "nota": "enviado pelo Samuel em 28/10/2026"
       },
       "alternativas": [
+        {
+          "url": "https://ufsj.edu.br/portal2-repositorio/File/ascom/marcasparadisponibilizaoempng.zip",
+          "familia": "marca",
+          "orientacao": "horizontal",
+          "cor": "positiva",
+          "formato": "zip",
+          "origem": "https://ufsj.edu.br/ascom/logomarcas_da_ufsj.php",
+          "nota": "Pacote 'Marcas em PNG'; nomes internos desconhecidos, palpite; nome interno conferido em 28/10 pelo processamento",
+          "arquivo_no_zip": "marca assinatura hor col png"
+        },
+        {
+          "url": "https://ufsj.edu.br/portal2-repositorio/File/ascom/marcasparadisponibilizaoempng.zip",
+          "familia": "marca",
+          "orientacao": "vertical",
+          "cor": "positiva",
+          "formato": "zip",
+          "origem": "https://ufsj.edu.br/ascom/logomarcas_da_ufsj.php",
+          "nota": "Mesmo pacote PNG; nomes internos desconhecidos, palpite; nome interno conferido em 28/10 pelo processamento",
+          "arquivo_no_zip": "marca assinatura vert col png"
+        },
         {
           "url": "https://ufsj.edu.br/portal2-repositorio/File/ascom/marcasparadisponibilizaoemjpg.zip",
           "familia": "marca",
@@ -8274,7 +8488,7 @@
           "formato": "zip",
           "origem": "https://ufsj.edu.br/ascom/logomarcas_da_ufsj.php",
           "nota": "Pacote 'Marcas em JPG'; nomes internos desconhecidos, palpite",
-          "arquivo_no_zip": "horizontal"
+          "arquivo_no_zip": "marca assinatura hor col png"
         },
         {
           "url": "https://ufsj.edu.br/portal2-images/ufsj-logo.png",
@@ -8288,8 +8502,8 @@
       ],
       "decidir": false,
       "motivos": [
-        "selo: regra: marca, vertical, positiva, zip",
-        "marca: regra: marca, vertical, positiva, zip",
+        "selo: escolha manual (escolhas.json)",
+        "marca: escolha manual (escolhas.json)",
         "observação da busca: O manual diz que as variações horizontal e vertical (claro, escuro, monocromática) estão na seção 'Variações'; a ASCOM fornece arte final por e-mail. Os dois zips não têm descrição dos arquivos internos."
       ],
       "pagina_identidade": "https://ufsj.edu.br/ascom/logomarcas_da_ufsj.php",
@@ -8496,22 +8710,22 @@
       "rede": "federal",
       "arquivo": "uftm",
       "selo": {
-        "url": "http://www.uftm.edu.br/images/comunicacao/identidadevisual/v5/Logotipo-UFTM-versao-2.png",
+        "url": "repo:logos/manuais/uftm.png",
         "familia": "marca",
         "orientacao": "vertical",
         "cor": "positiva",
         "formato": "png",
-        "origem": "https://www.uftm.edu.br/comunicacao/identidade-visual",
-        "nota": "Uso externo versão 2 (manual p. 9); orientação não confirmada"
+        "origem": "repo:logos/manuais/",
+        "nota": "enviado pelo Samuel em 28/10/2026"
       },
       "marca": {
-        "url": "http://www.uftm.edu.br/images/comunicacao/identidadevisual/v5/Logotipo-UFTM-versao-2.png",
+        "url": "repo:logos/manuais/uftm.png",
         "familia": "marca",
         "orientacao": "vertical",
         "cor": "positiva",
         "formato": "png",
-        "origem": "https://www.uftm.edu.br/comunicacao/identidade-visual",
-        "nota": "Uso externo versão 2 (manual p. 9); orientação não confirmada"
+        "origem": "repo:logos/manuais/",
+        "nota": "enviado pelo Samuel em 28/10/2026"
       },
       "alternativas": [
         {
@@ -8531,6 +8745,15 @@
           "formato": "png",
           "origem": "https://www.uftm.edu.br/comunicacao/identidade-visual",
           "nota": "Uso externo versão 1 (manual p. 9); orientação não confirmada"
+        },
+        {
+          "url": "http://www.uftm.edu.br/images/comunicacao/identidadevisual/v5/Logotipo-UFTM-versao-2.png",
+          "familia": "marca",
+          "orientacao": "vertical",
+          "cor": "positiva",
+          "formato": "png",
+          "origem": "https://www.uftm.edu.br/comunicacao/identidade-visual",
+          "nota": "Uso externo versão 2 (manual p. 9); orientação não confirmada"
         },
         {
           "url": "http://www.uftm.edu.br/images/comunicacao/identidadevisual/v5/Logotipo-UFTM-versao-3.png",
@@ -8563,8 +8786,8 @@
       ],
       "decidir": false,
       "motivos": [
-        "selo: regra: marca, vertical, positiva, png",
-        "marca: regra: marca, vertical, positiva, png",
+        "selo: escolha manual (escolhas.json)",
+        "marca: escolha manual (escolhas.json)",
         "observação da busca: A página não descreve orientação nem cor de cada versão (uso interno, versões 1 a 3); as orientações acima são palpite, ver manual p. 8, 9 e 17."
       ],
       "pagina_identidade": "https://www.uftm.edu.br/comunicacao/identidade-visual",
@@ -8855,28 +9078,38 @@
       "rede": "estadual",
       "arquivo": "uncisal",
       "selo": {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Brasão_da_UNCISAL.png",
+        "url": "repo:logos/manuais/uncisal.svg",
         "familia": "brasao",
         "orientacao": "simbolo",
         "cor": "positiva",
-        "formato": "png",
-        "origem": "https://commons.wikimedia.org/wiki/File:Brasão_da_UNCISAL.png",
-        "nota": "Wikimedia; conferir se é a marca atual"
+        "formato": "svg",
+        "origem": "repo:logos/manuais/",
+        "nota": "enviado pelo Samuel em 28/10/2026"
       },
       "marca": {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Brasão_da_UNCISAL.png",
+        "url": "repo:logos/manuais/uncisal.svg",
         "familia": "brasao",
         "orientacao": "simbolo",
         "cor": "positiva",
-        "formato": "png",
-        "origem": "https://commons.wikimedia.org/wiki/File:Brasão_da_UNCISAL.png",
-        "nota": "Wikimedia; conferir se é a marca atual"
+        "formato": "svg",
+        "origem": "repo:logos/manuais/",
+        "nota": "enviado pelo Samuel em 28/10/2026"
       },
-      "alternativas": [],
+      "alternativas": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Brasão_da_UNCISAL.png",
+          "familia": "brasao",
+          "orientacao": "simbolo",
+          "cor": "positiva",
+          "formato": "png",
+          "origem": "https://commons.wikimedia.org/wiki/File:Brasão_da_UNCISAL.png",
+          "nota": "Wikimedia; conferir se é a marca atual"
+        }
+      ],
       "decidir": false,
       "motivos": [
-        "selo: regra: brasao, simbolo, positiva, png",
-        "marca: regra: brasao, simbolo, positiva, png",
+        "selo: escolha manual (escolhas.json)",
+        "marca: escolha manual (escolhas.json)",
         "observação da busca: Site uncisal.edu.br devolve conteúdo binário ao WebFetch; buscas por identidade visual só retornaram o SVO (uma unidade), 'Central de Downloads' (ilegível) e página antiga. Sem logotipo institucional obtido; Wikimedia não confirmado (nenhuma URL upload.wikimedia.org vista)."
       ],
       "pagina_identidade": null,
@@ -8886,12 +9119,30 @@
       "nome": "Universidade Estadual de Alagoas",
       "rede": "estadual",
       "arquivo": "uneal",
-      "selo": null,
-      "marca": null,
+      "selo": {
+        "url": "repo:logos/manuais/uneal.png",
+        "familia": "brasao",
+        "orientacao": "vertical",
+        "cor": "positiva",
+        "formato": "png",
+        "origem": "repo:logos/manuais/",
+        "nota": "enviado pelo Samuel em 28/10/2026"
+      },
+      "marca": {
+        "url": "repo:logos/manuais/uneal.png",
+        "familia": "brasao",
+        "orientacao": "vertical",
+        "cor": "positiva",
+        "formato": "png",
+        "origem": "repo:logos/manuais/",
+        "nota": "enviado pelo Samuel em 28/10/2026"
+      },
       "alternativas": [],
-      "decidir": true,
+      "decidir": false,
       "motivos": [
-        "buscado e nada encontrado: uneal.edu.br e www.uneal.edu.br bloqueiam o WebFetch (robots). Buscas não acharam página de identidade visual nem arquivos de logotipo; Wikimedia não confirmado (nenhuma URL upload.wikimedia.org vista)."
+        "selo: escolha manual (escolhas.json)",
+        "marca: escolha manual (escolhas.json)",
+        "observação da busca: uneal.edu.br e www.uneal.edu.br bloqueiam o WebFetch (robots). Buscas não acharam página de identidade visual nem arquivos de logotipo; Wikimedia não confirmado (nenhuma URL upload.wikimedia.org vista)."
       ],
       "pagina_identidade": null,
       "manual": null
@@ -8901,22 +9152,22 @@
       "rede": "estadual",
       "arquivo": "uneb",
       "selo": {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Brasão_da_UNEB.png",
+        "url": "repo:logos/manuais/uneb.png",
         "familia": "brasao",
         "orientacao": "simbolo",
         "cor": "positiva",
         "formato": "png",
-        "origem": "https://commons.wikimedia.org/wiki/File:Brasão_da_UNEB.png",
-        "nota": "Wikimedia; conferir se é a marca atual"
+        "origem": "repo:logos/manuais/",
+        "nota": "enviado pelo Samuel em 28/10/2026"
       },
       "marca": {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Brasão_da_UNEB.png",
+        "url": "repo:logos/manuais/uneb.png",
         "familia": "brasao",
         "orientacao": "simbolo",
         "cor": "positiva",
         "formato": "png",
-        "origem": "https://commons.wikimedia.org/wiki/File:Brasão_da_UNEB.png",
-        "nota": "Wikimedia; conferir se é a marca atual"
+        "origem": "repo:logos/manuais/",
+        "nota": "enviado pelo Samuel em 28/10/2026"
       },
       "alternativas": [
         {
@@ -8927,12 +9178,21 @@
           "formato": "svg",
           "origem": "https://www.ascom.uneb.br/manual-de-identidade-visual/",
           "nota": "cabeçalho do site; orientação é palpite"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Brasão_da_UNEB.png",
+          "familia": "brasao",
+          "orientacao": "simbolo",
+          "cor": "positiva",
+          "formato": "png",
+          "origem": "https://commons.wikimedia.org/wiki/File:Brasão_da_UNEB.png",
+          "nota": "Wikimedia; conferir se é a marca atual"
         }
       ],
       "decidir": false,
       "motivos": [
-        "selo: regra: brasao, simbolo, positiva, png",
-        "marca: regra: brasao, simbolo, positiva, png",
+        "selo: escolha manual (escolhas.json)",
+        "marca: escolha manual (escolhas.json)",
         "observação da busca: Os arquivos da marca (JPEG e EPS vetorial) estão em pasta do SharePoint (https://uneboffice365-my.sharepoint.com/:f:/g/personal/gdultra_uneb_br/IgC2JlhC0P--S6qAGTA85iIoAYTdEgNN10igQzJCMIiijNI?e=LreGb9), que é link de pasta e não de arquivo, portanto não entra como candidato. Há também pastas SharePoint por setor/departamento. Manual PDF reduzido na página; a primeira página não foi conferida."
       ],
       "pagina_identidade": "https://www.ascom.uneb.br/manual-de-identidade-visual/",
@@ -8943,22 +9203,22 @@
       "rede": "estadual",
       "arquivo": "unemat",
       "selo": {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Logo_UNEMAT.jpg",
-        "familia": "marca",
-        "orientacao": "horizontal",
+        "url": "repo:logos/manuais/unemat.jpg",
+        "familia": "brasao",
+        "orientacao": "simbolo",
         "cor": "positiva",
         "formato": "jpg",
-        "origem": "https://commons.wikimedia.org/wiki/File:Logo_UNEMAT.jpg",
-        "nota": "Wikimedia; conferir se é a marca atual; orientação é palpite"
+        "origem": "repo:logos/manuais/",
+        "nota": "enviado pelo Samuel em 28/10/2026"
       },
       "marca": {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Logo_UNEMAT.jpg",
-        "familia": "marca",
-        "orientacao": "horizontal",
+        "url": "repo:logos/manuais/unemat.jpg",
+        "familia": "brasao",
+        "orientacao": "simbolo",
         "cor": "positiva",
         "formato": "jpg",
-        "origem": "https://commons.wikimedia.org/wiki/File:Logo_UNEMAT.jpg",
-        "nota": "Wikimedia; conferir se é a marca atual; orientação é palpite"
+        "origem": "repo:logos/manuais/",
+        "nota": "enviado pelo Samuel em 28/10/2026"
       },
       "alternativas": [
         {
@@ -8987,13 +9247,21 @@
           "formato": "outro",
           "origem": "https://unemat.br/site/comunicacao/identidade-visual",
           "nota": "RAR 'Brasão da Unemat'; conteúdo interno desconhecido"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Logo_UNEMAT.jpg",
+          "familia": "marca",
+          "orientacao": "horizontal",
+          "cor": "positiva",
+          "formato": "jpg",
+          "origem": "https://commons.wikimedia.org/wiki/File:Logo_UNEMAT.jpg",
+          "nota": "Wikimedia; conferir se é a marca atual; orientação é palpite"
         }
       ],
-      "decidir": true,
+      "decidir": false,
       "motivos": [
-        "selo: regra: marca, horizontal, positiva, jpg",
-        "marca: regra: marca, horizontal, positiva, jpg",
-        "tem brasão e marca simplificada; confirme a família",
+        "selo: escolha manual (escolhas.json)",
+        "marca: escolha manual (escolhas.json)",
         "observação da busca: Todos os downloads são .rar (gravados como 'outro'; o script pode não abrir RAR). Há ainda o RAR do 'Brasão do Estado de Mato Grosso' (não é da Unemat) e logos da Editora e dos Jogos Estudantis, não listados. Manual em PDF: página do logotipo não conferida."
       ],
       "pagina_identidade": "https://unemat.br/site/comunicacao/identidade-visual",
@@ -9186,24 +9454,33 @@
       "rede": "estadual",
       "arquivo": "unicentro",
       "selo": {
-        "url": "https://drive.google.com/uc?export=download&id=1KB4SJSGOM16-TeKUMkK8ypwS5ZxEexsA",
+        "url": "repo:logos/manuais/unicentro.png",
         "familia": "marca",
-        "orientacao": "horizontal",
+        "orientacao": "vertical",
         "cor": "positiva",
         "formato": "png",
-        "origem": "https://www3.unicentro.br/marca/",
-        "nota": "Google Drive; marca oficial em PNG; orientação é palpite"
+        "origem": "repo:logos/manuais/",
+        "nota": "enviado pelo Samuel em 28/10/2026"
       },
       "marca": {
-        "url": "https://drive.google.com/uc?export=download&id=1KB4SJSGOM16-TeKUMkK8ypwS5ZxEexsA",
+        "url": "repo:logos/manuais/unicentro.png",
         "familia": "marca",
-        "orientacao": "horizontal",
+        "orientacao": "vertical",
         "cor": "positiva",
         "formato": "png",
-        "origem": "https://www3.unicentro.br/marca/",
-        "nota": "Google Drive; marca oficial em PNG; orientação é palpite"
+        "origem": "repo:logos/manuais/",
+        "nota": "enviado pelo Samuel em 28/10/2026"
       },
       "alternativas": [
+        {
+          "url": "https://drive.google.com/uc?export=download&id=1KB4SJSGOM16-TeKUMkK8ypwS5ZxEexsA",
+          "familia": "marca",
+          "orientacao": "horizontal",
+          "cor": "positiva",
+          "formato": "png",
+          "origem": "https://www3.unicentro.br/marca/",
+          "nota": "Google Drive; marca oficial em PNG; orientação é palpite"
+        },
         {
           "url": "https://drive.google.com/uc?export=download&id=1K6gHU3PTlmqgLoKiavZTY9mMC8EAshc4",
           "familia": "marca",
@@ -9241,11 +9518,10 @@
           "nota": "Google Drive; marca oficial em CDR"
         }
       ],
-      "decidir": true,
+      "decidir": false,
       "motivos": [
-        "selo: regra: marca, horizontal, positiva, png",
-        "marca: regra: marca, horizontal, positiva, png",
-        "só há versão horizontal",
+        "selo: escolha manual (escolhas.json)",
+        "marca: escolha manual (escolhas.json)",
         "observação da busca: Página 'Download da marca oficial' com cinco links do Google Drive (hrefs originais no formato open?id=, convertidos para uc?export=download). A página diz que os arquivos são compactados em .zip, então o PNG/JPG podem chegar em zip. O manual de identidade visual existe na página, mas o link não foi capturado."
       ],
       "pagina_identidade": "https://www3.unicentro.br/marca/",
@@ -9411,22 +9687,22 @@
       "rede": "federal",
       "arquivo": "unifesp",
       "selo": {
-        "url": "https://pt.wikipedia.org/wiki/Special:FilePath/Logo_Unifesp_quadrado.png",
+        "url": "repo:logos/manuais/unifesp.png",
         "familia": "marca",
         "orientacao": "vertical",
         "cor": "positiva",
         "formato": "png",
-        "origem": "https://commons.wikimedia.org/wiki/File:Logo_Unifesp_quadrado.png",
-        "nota": "Wikimedia; conferir se é a marca atual; orientação é palpite"
+        "origem": "repo:logos/manuais/",
+        "nota": "enviado pelo Samuel em 28/10/2026"
       },
       "marca": {
-        "url": "https://pt.wikipedia.org/wiki/Special:FilePath/Logo_Unifesp_quadrado.png",
+        "url": "repo:logos/manuais/unifesp.png",
         "familia": "marca",
         "orientacao": "vertical",
         "cor": "positiva",
         "formato": "png",
-        "origem": "https://commons.wikimedia.org/wiki/File:Logo_Unifesp_quadrado.png",
-        "nota": "Wikimedia; conferir se é a marca atual; orientação é palpite"
+        "origem": "repo:logos/manuais/",
+        "nota": "enviado pelo Samuel em 28/10/2026"
       },
       "alternativas": [
         {
@@ -9437,12 +9713,21 @@
           "formato": "png",
           "origem": "https://pt.wikipedia.org/wiki/Ficheiro:Logotipo_UNIFESP.png",
           "nota": "Wikimedia; conferir se é a marca atual; orientação é palpite"
+        },
+        {
+          "url": "https://pt.wikipedia.org/wiki/Special:FilePath/Logo_Unifesp_quadrado.png",
+          "familia": "marca",
+          "orientacao": "vertical",
+          "cor": "positiva",
+          "formato": "png",
+          "origem": "https://commons.wikimedia.org/wiki/File:Logo_Unifesp_quadrado.png",
+          "nota": "Wikimedia; conferir se é a marca atual; orientação é palpite"
         }
       ],
       "decidir": false,
       "motivos": [
-        "selo: regra: marca, vertical, positiva, png",
-        "marca: regra: marca, vertical, positiva, png",
+        "selo: escolha manual (escolhas.json)",
+        "marca: escolha manual (escolhas.json)",
         "observação da busca: As páginas dci.unifesp.br/marca-unifesp e unifesp.br/institucional/.../identidade-visual deram erro e não foram lidas; a home também não. O manual de 2017 (cópia em ppg-eb.unifesp.br; outra cópia em https://repositorio.unifesp.br/bitstreams/77fa5804-f9bc-4ed9-8087-aa16ebae78a9/download) tem a capa só com texto; as assinaturas estão nas páginas 3 e 5 (completa, simples, mínima, secundária) e as variações cromáticas (mono, traço, negativo) nas páginas 10 e 11. O manual diz que os arquivos digitais são fornecidos pelo DCI (dcidesign@unifesp.br). Wikimedia não achei com link direto."
       ],
       "pagina_identidade": "https://dci.unifesp.br/marca-unifesp",
@@ -9605,22 +9890,22 @@
       "rede": "federal",
       "arquivo": "unilab",
       "selo": {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Símbolo_da_UNILAB.png",
+        "url": "repo:logos/manuais/unilab.png",
         "familia": "marca",
-        "orientacao": "simbolo",
+        "orientacao": "vertical",
         "cor": "positiva",
         "formato": "png",
-        "origem": "https://commons.wikimedia.org/wiki/File:Símbolo_da_UNILAB.png",
-        "nota": "Wikimedia; conferir se é a marca atual"
+        "origem": "repo:logos/manuais/",
+        "nota": "enviado pelo Samuel em 28/10/2026"
       },
       "marca": {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Unilab_logo.svg",
+        "url": "repo:logos/manuais/unilab.png",
         "familia": "marca",
-        "orientacao": "horizontal",
+        "orientacao": "vertical",
         "cor": "positiva",
-        "formato": "svg",
-        "origem": "https://commons.wikimedia.org/wiki/File:Unilab_logo.svg",
-        "nota": "Wikimedia; conferir se é a UNILAB brasileira e a marca atual; orientação é palpite"
+        "formato": "png",
+        "origem": "repo:logos/manuais/",
+        "nota": "enviado pelo Samuel em 28/10/2026"
       },
       "alternativas": [
         {
@@ -9687,6 +9972,24 @@
           "nota": "Arquivo .rar; vertical em escala de cinza, fundo claro"
         },
         {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Unilab_logo.svg",
+          "familia": "marca",
+          "orientacao": "horizontal",
+          "cor": "positiva",
+          "formato": "svg",
+          "origem": "https://commons.wikimedia.org/wiki/File:Unilab_logo.svg",
+          "nota": "Wikimedia; conferir se é a UNILAB brasileira e a marca atual; orientação é palpite"
+        },
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Símbolo_da_UNILAB.png",
+          "familia": "marca",
+          "orientacao": "simbolo",
+          "cor": "positiva",
+          "formato": "png",
+          "origem": "https://commons.wikimedia.org/wiki/File:Símbolo_da_UNILAB.png",
+          "nota": "Wikimedia; conferir se é a marca atual"
+        },
+        {
           "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Unilab_logo.png",
           "familia": "marca",
           "orientacao": "horizontal",
@@ -9698,8 +10001,8 @@
       ],
       "decidir": false,
       "motivos": [
-        "selo: regra: marca, simbolo, positiva, png",
-        "marca: regra: marca, horizontal, positiva, svg",
+        "selo: escolha manual (escolhas.json)",
+        "marca: escolha manual (escolhas.json)",
         "observação da busca: Todos os logotipos para download são .rar (não zip), que o script pode não abrir; o único candidato processável é o PNG do cabeçalho. Há ainda rar em escala de cinza para fundo escuro (horizontal e vertical), não listados."
       ],
       "pagina_identidade": "https://unilab.edu.br/identidade-visual/",
@@ -9710,29 +10013,38 @@
       "rede": "estadual",
       "arquivo": "unimontes",
       "selo": {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Unimontes.jpg",
+        "url": "repo:logos/manuais/unimontes.png",
         "familia": "marca",
-        "orientacao": "horizontal",
+        "orientacao": "vertical",
         "cor": "positiva",
-        "formato": "jpg",
-        "origem": "https://commons.wikimedia.org/wiki/File:Unimontes.jpg",
-        "nota": "Wikimedia; só o nome do arquivo foi visto, conteúdo não conferido (pode não ser logotipo); conferir se é a marca atual; orientação é palpite"
+        "formato": "png",
+        "origem": "repo:logos/manuais/",
+        "nota": "enviado pelo Samuel em 28/10/2026"
       },
       "marca": {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Unimontes.jpg",
+        "url": "repo:logos/manuais/unimontes.png",
         "familia": "marca",
-        "orientacao": "horizontal",
+        "orientacao": "vertical",
         "cor": "positiva",
-        "formato": "jpg",
-        "origem": "https://commons.wikimedia.org/wiki/File:Unimontes.jpg",
-        "nota": "Wikimedia; só o nome do arquivo foi visto, conteúdo não conferido (pode não ser logotipo); conferir se é a marca atual; orientação é palpite"
+        "formato": "png",
+        "origem": "repo:logos/manuais/",
+        "nota": "enviado pelo Samuel em 28/10/2026"
       },
-      "alternativas": [],
-      "decidir": true,
+      "alternativas": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Unimontes.jpg",
+          "familia": "marca",
+          "orientacao": "horizontal",
+          "cor": "positiva",
+          "formato": "jpg",
+          "origem": "https://commons.wikimedia.org/wiki/File:Unimontes.jpg",
+          "nota": "Wikimedia; só o nome do arquivo foi visto, conteúdo não conferido (pode não ser logotipo); conferir se é a marca atual; orientação é palpite"
+        }
+      ],
+      "decidir": false,
       "motivos": [
-        "selo: regra: marca, horizontal, positiva, jpg",
-        "marca: regra: marca, horizontal, positiva, jpg",
-        "só há versão horizontal",
+        "selo: escolha manual (escolhas.json)",
+        "marca: escolha manual (escolhas.json)",
         "observação da busca: unimontes.br e www.unimontes.br bloqueiam o WebFetch (robots). Buscas retornaram só marcas de projetos (UAB, CEAD, congresso 2024, PPGMCS), nenhuma da universidade. Wikimedia não confirmado (nenhuma URL upload.wikimedia.org vista). Páginas possivelmente úteis: https://www.posgraduacao.unimontes.br/ppgmcs/logotipos/ e https://unimontes.br/uab-apresenta-nova-marca/ (não lidas)."
       ],
       "pagina_identidade": null,
@@ -10262,22 +10574,22 @@
       "rede": "estadual",
       "arquivo": "usp",
       "selo": {
-        "url": "https://scs.usp.br/identidadevisual/wp-content/uploads/2022/08/brasao_usp1.pdf",
-        "familia": "brasao",
-        "orientacao": "simbolo",
+        "url": "repo:logos/manuais/usp.png",
+        "familia": "marca",
+        "orientacao": "horizontal",
         "cor": "positiva",
-        "formato": "pdf",
-        "origem": "https://scs.usp.br/identidadevisual/brasao/",
-        "nota": "Brasão colorido, vetor PDF"
+        "formato": "png",
+        "origem": "repo:logos/manuais/",
+        "nota": "enviado pelo Samuel em 28/10/2026"
       },
       "marca": {
-        "url": "https://scs.usp.br/identidadevisual/wp-content/uploads/2022/08/brasao_usp1.pdf",
-        "familia": "brasao",
-        "orientacao": "simbolo",
+        "url": "repo:logos/manuais/usp.png",
+        "familia": "marca",
+        "orientacao": "horizontal",
         "cor": "positiva",
-        "formato": "pdf",
-        "origem": "https://scs.usp.br/identidadevisual/brasao/",
-        "nota": "Brasão colorido, vetor PDF"
+        "formato": "png",
+        "origem": "repo:logos/manuais/",
+        "nota": "enviado pelo Samuel em 28/10/2026"
       },
       "alternativas": [
         {
@@ -10316,6 +10628,15 @@
           "origem": "https://scs.usp.br/identidadevisual/logotipo-usp-90-anos/",
           "nota": "Logotipo USP, EPS em zip; nomes internos desconhecidos, 'usp' é palpite",
           "arquivo_no_zip": "usp"
+        },
+        {
+          "url": "https://scs.usp.br/identidadevisual/wp-content/uploads/2022/08/brasao_usp1.pdf",
+          "familia": "brasao",
+          "orientacao": "simbolo",
+          "cor": "positiva",
+          "formato": "pdf",
+          "origem": "https://scs.usp.br/identidadevisual/brasao/",
+          "nota": "Brasão colorido, vetor PDF"
         },
         {
           "url": "https://scs.usp.br/identidadevisual/wp-content/uploads/2022/08/brasao_usp1.png",
@@ -10385,8 +10706,8 @@
       ],
       "decidir": false,
       "motivos": [
-        "selo: regra: brasao, simbolo, positiva, pdf",
-        "marca: regra: brasao, simbolo, positiva, pdf",
+        "selo: escolha manual (escolhas.json)",
+        "marca: escolha manual (escolhas.json)",
         "observação da busca: Páginas da SCS/USP. O manual em PDF listado é o de recomendações de uso do logotipo (logotipo_usp.pdf); o do brasão é brasao_usp.pdf. Existem versões comemorativas (USP 90 anos: https://scs.usp.br/identidadevisual/wp-content/uploads/usp90anos.zip; USP 80 anos), não listadas como candidatas por não serem a marca corrente."
       ],
       "pagina_identidade": "https://scs.usp.br/identidadevisual/",

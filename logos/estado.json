@@ -1,4 +1,21 @@
 {
+  "CEFET-MG": {
+    "urls": {
+      "selo": "https://pt.wikipedia.org/wiki/Special:FilePath/Logo_CEFET-MG.png",
+      "marca": "https://pt.wikipedia.org/wiki/Special:FilePath/Logo_CEFET-MG.png"
+    },
+    "hashes": {
+      "https://pt.wikipedia.org/wiki/Special:FilePath/Logo_CEFET-MG.png": "24c918cd86849de81ea9290c600f34be25b58b7f13e2823ae6e0fe7649524bbe"
+    },
+    "formatos": {
+      "https://pt.wikipedia.org/wiki/Special:FilePath/Logo_CEFET-MG.png": "png"
+    },
+    "arquivos": [
+      "cefetmg.png",
+      "cefetmg-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
   "CEFET/RJ": {
     "urls": {
       "selo": "https://www.cefet-rj.br/attachments/article/431/vert_azul.png",
@@ -13,6 +30,23 @@
     "arquivos": [
       "cefetrj.png",
       "cefetrj-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "CP2": {
+    "urls": {
+      "selo": "https://pt.wikipedia.org/wiki/Special:FilePath/Brasão_Colégio_Pedro_II.png",
+      "marca": "https://pt.wikipedia.org/wiki/Special:FilePath/Brasão_Colégio_Pedro_II.png"
+    },
+    "hashes": {
+      "https://pt.wikipedia.org/wiki/Special:FilePath/Brasão_Colégio_Pedro_II.png": "8006ae7781901b2ef58eb9b08948c0a904c679f6c6e30246d98dd649f6b2003c"
+    },
+    "formatos": {
+      "https://pt.wikipedia.org/wiki/Special:FilePath/Brasão_Colégio_Pedro_II.png": "png"
+    },
+    "arquivos": [
+      "cp2.png",
+      "cp2-marca.png"
     ],
     "processado_em": "2026-10-28"
   },
@@ -69,6 +103,24 @@
     ],
     "processado_em": "2026-10-28"
   },
+  "IFAM": {
+    "urls": {
+      "selo": "https://pt.wikipedia.org/wiki/Special:FilePath/Instituto_Federal_do_Amazonas_-_Marca_Vertical_2015.svg",
+      "marca": "https://pt.wikipedia.org/wiki/Special:FilePath/Instituto_Federal_do_Amazonas_-_Marca_Vertical_2015.svg"
+    },
+    "hashes": {
+      "https://pt.wikipedia.org/wiki/Special:FilePath/Instituto_Federal_do_Amazonas_-_Marca_Vertical_2015.svg": "7789ab53c64bc8cc10c66a103ce61add9ece70951fae9b4bfe5a1478ee9da590"
+    },
+    "formatos": {
+      "https://pt.wikipedia.org/wiki/Special:FilePath/Instituto_Federal_do_Amazonas_-_Marca_Vertical_2015.svg": "svg"
+    },
+    "arquivos": [
+      "ifam.png",
+      "ifam.svg",
+      "ifam-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
   "IFB": {
     "urls": {
       "selo": "https://www.ifb.edu.br/images/IFBVertical.png",
@@ -83,6 +135,24 @@
     "arquivos": [
       "ifb.png",
       "ifb-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "IFBA": {
+    "urls": {
+      "selo": "https://pt.wikipedia.org/wiki/Special:FilePath/Instituto_Federal_da_Bahia_-_Marca_Vertical_2015.svg",
+      "marca": "https://pt.wikipedia.org/wiki/Special:FilePath/Instituto_Federal_da_Bahia_-_Marca_Vertical_2015.svg"
+    },
+    "hashes": {
+      "https://pt.wikipedia.org/wiki/Special:FilePath/Instituto_Federal_da_Bahia_-_Marca_Vertical_2015.svg": "36ba8f19853267b336c823937696d10e372355f472de81f01a25b5f46ea208a6"
+    },
+    "formatos": {
+      "https://pt.wikipedia.org/wiki/Special:FilePath/Instituto_Federal_da_Bahia_-_Marca_Vertical_2015.svg": "svg"
+    },
+    "arquivos": [
+      "ifba.png",
+      "ifba.svg",
+      "ifba-marca.png"
     ],
     "processado_em": "2026-10-28"
   },
@@ -118,6 +188,24 @@
       "ifc.png",
       "ifc.svg",
       "ifc-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "IFCE": {
+    "urls": {
+      "selo": "https://pt.wikipedia.org/wiki/Special:FilePath/Instituto_Federal_do_Ceará_-_Marca_Vertical_2015.svg",
+      "marca": "https://pt.wikipedia.org/wiki/Special:FilePath/Instituto_Federal_do_Ceará_-_Marca_Vertical_2015.svg"
+    },
+    "hashes": {
+      "https://pt.wikipedia.org/wiki/Special:FilePath/Instituto_Federal_do_Ceará_-_Marca_Vertical_2015.svg": "14f7c08340d7f30fc9e8cbe8f161539f063e0f3b38e2682421adacd6e9cae1ff"
+    },
+    "formatos": {
+      "https://pt.wikipedia.org/wiki/Special:FilePath/Instituto_Federal_do_Ceará_-_Marca_Vertical_2015.svg": "svg"
+    },
+    "arquivos": [
+      "ifce.png",
+      "ifce.svg",
+      "ifce-marca.png"
     ],
     "processado_em": "2026-10-28"
   },
@@ -190,6 +278,24 @@
     ],
     "processado_em": "2026-10-28"
   },
+  "IFMA": {
+    "urls": {
+      "selo": "https://pt.wikipedia.org/wiki/Special:FilePath/Instituto_Federal_do_Maranhão_-_Marca_Vertical_2015.svg",
+      "marca": "https://pt.wikipedia.org/wiki/Special:FilePath/Instituto_Federal_do_Maranhão_-_Marca_Vertical_2015.svg"
+    },
+    "hashes": {
+      "https://pt.wikipedia.org/wiki/Special:FilePath/Instituto_Federal_do_Maranhão_-_Marca_Vertical_2015.svg": "6d5250d9dfc80b535da9959a639f662a9bc17c5371c8b358d1ba28cb24bc412c"
+    },
+    "formatos": {
+      "https://pt.wikipedia.org/wiki/Special:FilePath/Instituto_Federal_do_Maranhão_-_Marca_Vertical_2015.svg": "svg"
+    },
+    "arquivos": [
+      "ifma.png",
+      "ifma.svg",
+      "ifma-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
   "IFMG": {
     "urls": {
       "selo": "https://www.ifmg.edu.br/portal/comunicacao/3.pdf",
@@ -257,6 +363,113 @@
       "ifnmg.png",
       "ifnmg.svg",
       "ifnmg-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "IFPA": {
+    "urls": {
+      "selo": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Instituto_Federal_do_Par%C3%A1_-_Marca_Vertical_2015.svg",
+      "marca": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Instituto_Federal_do_Par%C3%A1_-_Marca_Vertical_2015.svg"
+    },
+    "hashes": {
+      "https://upload.wikimedia.org/wikipedia/commons/3/3d/Instituto_Federal_do_Par%C3%A1_-_Marca_Vertical_2015.svg": "1000dd57b7bc576675abf7a3d50c981d5780c2746668f7419dfea61cf50b74be"
+    },
+    "formatos": {
+      "https://upload.wikimedia.org/wikipedia/commons/3/3d/Instituto_Federal_do_Par%C3%A1_-_Marca_Vertical_2015.svg": "svg"
+    },
+    "arquivos": [
+      "ifpa.png",
+      "ifpa.svg",
+      "ifpa-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "IFPE": {
+    "urls": {
+      "selo": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Instituto_Federal_de_Pernambuco_-_Marca_Vertical_2015.svg",
+      "marca": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Instituto_Federal_de_Pernambuco_-_Marca_Vertical_2015.svg"
+    },
+    "hashes": {
+      "https://upload.wikimedia.org/wikipedia/commons/c/c2/Instituto_Federal_de_Pernambuco_-_Marca_Vertical_2015.svg": "d135844180160c14b4c1ab8de736d2f0dc33828a5b7988720bbca0e5e99e720f"
+    },
+    "formatos": {
+      "https://upload.wikimedia.org/wikipedia/commons/c/c2/Instituto_Federal_de_Pernambuco_-_Marca_Vertical_2015.svg": "svg"
+    },
+    "arquivos": [
+      "ifpe.png",
+      "ifpe.svg",
+      "ifpe-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "IFPR": {
+    "urls": {
+      "selo": "https://upload.wikimedia.org/wikipedia/commons/2/25/Instituto_Federal_do_Paran%C3%A1_-_Marca_Vertical_2015.svg",
+      "marca": "https://upload.wikimedia.org/wikipedia/commons/2/25/Instituto_Federal_do_Paran%C3%A1_-_Marca_Vertical_2015.svg"
+    },
+    "hashes": {
+      "https://upload.wikimedia.org/wikipedia/commons/2/25/Instituto_Federal_do_Paran%C3%A1_-_Marca_Vertical_2015.svg": "f9d647c000bf652d16e143d4ba0a0dd6735d0c1864b09b2b0ad5fc1c8bab3863"
+    },
+    "formatos": {
+      "https://upload.wikimedia.org/wikipedia/commons/2/25/Instituto_Federal_do_Paran%C3%A1_-_Marca_Vertical_2015.svg": "svg"
+    },
+    "arquivos": [
+      "ifpr.png",
+      "ifpr.svg",
+      "ifpr-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "IFRJ": {
+    "urls": {
+      "selo": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Instituto_Federal_do_Rio_de_Janeiro_-_Marca_Vertical_2015.svg",
+      "marca": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Instituto_Federal_do_Rio_de_Janeiro_-_Marca_Vertical_2015.svg"
+    },
+    "hashes": {
+      "https://upload.wikimedia.org/wikipedia/commons/b/bd/Instituto_Federal_do_Rio_de_Janeiro_-_Marca_Vertical_2015.svg": "fcb2e96e9da9128e75d844c6d8173ed3192a990e443c9fd2008c4654d31e276f"
+    },
+    "formatos": {
+      "https://upload.wikimedia.org/wikipedia/commons/b/bd/Instituto_Federal_do_Rio_de_Janeiro_-_Marca_Vertical_2015.svg": "svg"
+    },
+    "arquivos": [
+      "ifrj.png",
+      "ifrj.svg",
+      "ifrj-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "IFRN": {
+    "urls": {
+      "selo": "https://portal.ifrn.edu.br/documents/11089/IFRN_-_Instituto_Federal_do_Rio_Grande_do_Norte.zip",
+      "marca": "https://portal.ifrn.edu.br/documents/11089/IFRN_-_Instituto_Federal_do_Rio_Grande_do_Norte.zip"
+    },
+    "hashes": {
+      "https://portal.ifrn.edu.br/documents/11089/IFRN_-_Instituto_Federal_do_Rio_Grande_do_Norte.zip": "aae8db80bd4cae4e5d10c9ec19d39642e8c823206bf551184ce7a40a62591816"
+    },
+    "formatos": {
+      "https://portal.ifrn.edu.br/documents/11089/IFRN_-_Instituto_Federal_do_Rio_Grande_do_Norte.zip": "jpg"
+    },
+    "arquivos": [
+      "ifrn.png",
+      "ifrn-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "IFRO": {
+    "urls": {
+      "selo": "https://commons.wikimedia.org/wiki/Special:FilePath/Instituto_Federal_de_Rondônia_-_Marca_Vertical_2015.svg",
+      "marca": "https://commons.wikimedia.org/wiki/Special:FilePath/Instituto_Federal_de_Rondônia_-_Marca_Vertical_2015.svg"
+    },
+    "hashes": {
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Instituto_Federal_de_Rondônia_-_Marca_Vertical_2015.svg": "fe009483cc2db835e194ba4e5a04cca4570bd160add149635034c3e05d778780"
+    },
+    "formatos": {
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Instituto_Federal_de_Rondônia_-_Marca_Vertical_2015.svg": "svg"
+    },
+    "arquivos": [
+      "ifro.png",
+      "ifro.svg",
+      "ifro-marca.png"
     ],
     "processado_em": "2026-10-28"
   },
@@ -378,6 +591,24 @@
     ],
     "processado_em": "2026-10-28"
   },
+  "IFSertãoPE": {
+    "urls": {
+      "selo": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Instituto_Federal_do_Sert%C3%A3o_de_Pernambuco_-_Marca_Vertical_2015.svg",
+      "marca": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Instituto_Federal_do_Sert%C3%A3o_de_Pernambuco_-_Marca_Vertical_2015.svg"
+    },
+    "hashes": {
+      "https://upload.wikimedia.org/wikipedia/commons/b/ba/Instituto_Federal_do_Sert%C3%A3o_de_Pernambuco_-_Marca_Vertical_2015.svg": "2a874c3f52ca018d9f1d4ac98c0ef02a79f32189707b56e32d216dd094ea8b73"
+    },
+    "formatos": {
+      "https://upload.wikimedia.org/wikipedia/commons/b/ba/Instituto_Federal_do_Sert%C3%A3o_de_Pernambuco_-_Marca_Vertical_2015.svg": "svg"
+    },
+    "arquivos": [
+      "ifsertaope.png",
+      "ifsertaope.svg",
+      "ifsertaope-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
   "IFSudesteMG": {
     "urls": {
       "selo": "https://www.ifsudestemg.edu.br/comunicacao-social/logos/logomarcas/if-sudeste-mg/logo_vertical_ifsudestemg-%281%29.png",
@@ -409,6 +640,23 @@
     "arquivos": [
       "ifsul.png",
       "ifsul-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "IFTM": {
+    "urls": {
+      "selo": "https://iftm.edu.br/documentos-site/20260408/aplicacoes-iftm-png-e-cdr",
+      "marca": "https://iftm.edu.br/documentos-site/20260408/aplicacoes-iftm-png-e-cdr"
+    },
+    "hashes": {
+      "https://iftm.edu.br/documentos-site/20260408/aplicacoes-iftm-png-e-cdr": "733af3eb1388e5a8857798b7563109c9c47e29c3c6f25852ae26aa5262797799"
+    },
+    "formatos": {
+      "https://iftm.edu.br/documentos-site/20260408/aplicacoes-iftm-png-e-cdr": "png"
+    },
+    "arquivos": [
+      "iftm.png",
+      "iftm-marca.png"
     ],
     "processado_em": "2026-10-28"
   },
@@ -446,6 +694,40 @@
     ],
     "processado_em": "2026-10-28"
   },
+  "UEA": {
+    "urls": {
+      "selo": "https://pt.wikipedia.org/wiki/Special:FilePath/Brasaouea.png",
+      "marca": "https://pt.wikipedia.org/wiki/Special:FilePath/Brasaouea.png"
+    },
+    "hashes": {
+      "https://pt.wikipedia.org/wiki/Special:FilePath/Brasaouea.png": "775b08127eb0691d14b2f4c1bfe3f033d9029343459ae9eaebff6b515b8fa47f"
+    },
+    "formatos": {
+      "https://pt.wikipedia.org/wiki/Special:FilePath/Brasaouea.png": "png"
+    },
+    "arquivos": [
+      "uea.png",
+      "uea-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UEAP": {
+    "urls": {
+      "selo": "https://pt.wikipedia.org/wiki/Special:FilePath/Brasão_UEAP.png",
+      "marca": "https://pt.wikipedia.org/wiki/Special:FilePath/Brasão_UEAP.png"
+    },
+    "hashes": {
+      "https://pt.wikipedia.org/wiki/Special:FilePath/Brasão_UEAP.png": "7e926efcf9ac0a5806843442ae87096662e2342f09fcfc960a91f957202ed099"
+    },
+    "formatos": {
+      "https://pt.wikipedia.org/wiki/Special:FilePath/Brasão_UEAP.png": "png"
+    },
+    "arquivos": [
+      "ueap.png",
+      "ueap-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
   "UECE": {
     "urls": {
       "selo": "https://www.uece.br/wp-content/uploads/2023/11/LogoUeceVerticalAltaResolu%C3%A7%C3%A3o-e1700675467882.png",
@@ -460,6 +742,23 @@
     "arquivos": [
       "uece.png",
       "uece-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UEFS": {
+    "urls": {
+      "selo": "https://pt.wikipedia.org/wiki/Special:FilePath/Brasão_da_UEFS.png",
+      "marca": "https://pt.wikipedia.org/wiki/Special:FilePath/Brasão_da_UEFS.png"
+    },
+    "hashes": {
+      "https://pt.wikipedia.org/wiki/Special:FilePath/Brasão_da_UEFS.png": "e55b91a399ffd0e0b5b5f691ebaa13671cb348b25f156b4457d381262a1f14b2"
+    },
+    "formatos": {
+      "https://pt.wikipedia.org/wiki/Special:FilePath/Brasão_da_UEFS.png": "png"
+    },
+    "arquivos": [
+      "uefs.png",
+      "uefs-marca.png"
     ],
     "processado_em": "2026-10-28"
   },
@@ -580,6 +879,23 @@
     ],
     "processado_em": "2026-10-28"
   },
+  "UEMS": {
+    "urls": {
+      "selo": "https://commons.wikimedia.org/wiki/Special:FilePath/Logo_uems.jpg",
+      "marca": "https://commons.wikimedia.org/wiki/Special:FilePath/Logo_uems.jpg"
+    },
+    "hashes": {
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Logo_uems.jpg": "3cde9b5ccae0a07dba431f77314530695d1e9cfbb885bf73b4841bb8f27b739e"
+    },
+    "formatos": {
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Logo_uems.jpg": "jpg"
+    },
+    "arquivos": [
+      "uems.png",
+      "uems-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
   "UENF": {
     "urls": {
       "selo": "https://commons.wikimedia.org/wiki/Special:FilePath/LogotipoUenf_vertical.jpg",
@@ -611,6 +927,60 @@
     "arquivos": [
       "uenp.png",
       "uenp-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UEPA": {
+    "urls": {
+      "selo": "https://commons.wikimedia.org/wiki/Special:FilePath/Brasaouepa.jpg",
+      "marca": "https://commons.wikimedia.org/wiki/Special:FilePath/Brasaouepa.jpg"
+    },
+    "hashes": {
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Brasaouepa.jpg": "1843308c98525a979f7581271cde99213554d8fd91e82777425933a7e22aeb4f"
+    },
+    "formatos": {
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Brasaouepa.jpg": "jpg"
+    },
+    "arquivos": [
+      "uepa.png",
+      "uepa-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UEPB": {
+    "urls": {
+      "selo": "https://commons.wikimedia.org/wiki/Special:FilePath/Uepb.png",
+      "marca": "https://commons.wikimedia.org/wiki/Special:FilePath/Uepb.png"
+    },
+    "hashes": {
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Uepb.png": "8cdaa3aeab6ae55888c53522887268f742bde74f2fa3bd3c0eff602e40702ec9"
+    },
+    "formatos": {
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Uepb.png": "png"
+    },
+    "arquivos": [
+      "uepb.png",
+      "uepb-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UEPG": {
+    "urls": {
+      "selo": "https://static.uepg.br/logo/uepg150x127.png",
+      "marca": "https://www.uepg.br/wp-content/uploads/2026/09/PDFs.zip",
+      "substituto": true
+    },
+    "hashes": {
+      "https://www.uepg.br/wp-content/uploads/2026/09/PNGs.zip": "948b7137f6a0b71adb971091d163b19ad072327ed6d4438a23aed3ac5e6c63c7",
+      "https://www.uepg.br/wp-content/uploads/2026/09/PDFs.zip": "90766ecbe64c22b22059fb7768a9ebfd4fc51ea592815b1505e85b0f880b20bf"
+    },
+    "formatos": {
+      "https://www.uepg.br/wp-content/uploads/2026/09/PNGs.zip": "png",
+      "https://www.uepg.br/wp-content/uploads/2026/09/PDFs.zip": "pdf"
+    },
+    "arquivos": [
+      "uepg.png",
+      "uepg-marca.png"
     ],
     "processado_em": "2026-10-28"
   },
@@ -682,6 +1052,59 @@
     ],
     "processado_em": "2026-10-28"
   },
+  "UESC": {
+    "urls": {
+      "selo": "repo:logos/manuais/uesc.png",
+      "marca": "repo:logos/manuais/uesc.png",
+      "substituto": true
+    },
+    "hashes": {
+      "https://www.uesc.br/nucleo-web/padrao-brasao/png.zip": "013b8343b2841e0f1f7ab7b3266752d2723c99fc025edee91397eb470850fcad"
+    },
+    "formatos": {
+      "https://www.uesc.br/nucleo-web/padrao-brasao/png.zip": "png"
+    },
+    "arquivos": [
+      "uesc.png",
+      "uesc-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UESPI": {
+    "urls": {
+      "selo": "https://commons.wikimedia.org/wiki/Special:FilePath/Brasão_da_UESPI.svg",
+      "marca": "https://commons.wikimedia.org/wiki/Special:FilePath/Brasão_da_UESPI.svg"
+    },
+    "hashes": {
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Brasão_da_UESPI.svg": "5ace19ed4718d8ecbdcedd86b3aad0d39d67ac2416cbe14b3f2cb56e59e16523"
+    },
+    "formatos": {
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Brasão_da_UESPI.svg": "svg"
+    },
+    "arquivos": [
+      "uespi.png",
+      "uespi.svg",
+      "uespi-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UFABC": {
+    "urls": {
+      "selo": "https://commons.wikimedia.org/wiki/Special:FilePath/Ufabc_logo.png",
+      "marca": "https://commons.wikimedia.org/wiki/Special:FilePath/Ufabc_logo.png"
+    },
+    "hashes": {
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Ufabc_logo.png": "0c043a62e1f0c68da870da0d48c9a3d4ac3c9d34fd1311d67e28a77a7b131fb0"
+    },
+    "formatos": {
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Ufabc_logo.png": "png"
+    },
+    "arquivos": [
+      "ufabc.png",
+      "ufabc-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
   "UFAC": {
     "urls": {
       "selo": "https://www.ufac.br/site/ufac/institucional/assessoria-de-comunicacao-social/manual-de-marca/brasao.pdf",
@@ -717,6 +1140,23 @@
     ],
     "processado_em": "2026-10-28"
   },
+  "UFAM": {
+    "urls": {
+      "selo": "https://pt.wikipedia.org/wiki/Special:FilePath/Brasao_ufam_2011.jpg",
+      "marca": "https://pt.wikipedia.org/wiki/Special:FilePath/Brasao_ufam_2011.jpg"
+    },
+    "hashes": {
+      "https://pt.wikipedia.org/wiki/Special:FilePath/Brasao_ufam_2011.jpg": "9086d2485fc0be700edb48529c7f367196e42066e73cfea94243093ee6fcc2f6"
+    },
+    "formatos": {
+      "https://pt.wikipedia.org/wiki/Special:FilePath/Brasao_ufam_2011.jpg": "jpg"
+    },
+    "arquivos": [
+      "ufam.png",
+      "ufam-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
   "UFAPE": {
     "urls": {
       "selo": "https://ufape.edu.br/sites/default/files/arquivos/a%29%20Proposta%20de%20Bras%C3%A3o_0.png",
@@ -731,6 +1171,26 @@
     "arquivos": [
       "ufape.png",
       "ufape-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UFBA": {
+    "urls": {
+      "selo": "repo:logos/manuais/ufba.png",
+      "marca": "repo:logos/manuais/ufba.png",
+      "substituto": true
+    },
+    "hashes": {
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Brasão_da_UFBA.png": "3ee5ecb6baa13ad8147b8fa64d6364c686456a148cd16060f42fefd0e272a328",
+      "https://ufba.br/sites/portal.ufba.br/files/logoufbaass_0.png": "57c126cc8b45a173fd0578a83efc9f7d6525f9d7a41a5d87668abaa69c067880"
+    },
+    "formatos": {
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Brasão_da_UFBA.png": "png",
+      "https://ufba.br/sites/portal.ufba.br/files/logoufbaass_0.png": "png"
+    },
+    "arquivos": [
+      "ufba.png",
+      "ufba-marca.png"
     ],
     "processado_em": "2026-10-28"
   },
@@ -765,6 +1225,23 @@
     "arquivos": [
       "ufca.png",
       "ufca-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UFCAT": {
+    "urls": {
+      "selo": "https://pt.wikipedia.org/wiki/Special:FilePath/Ufcat.jpg",
+      "marca": "https://pt.wikipedia.org/wiki/Special:FilePath/Ufcat.jpg"
+    },
+    "hashes": {
+      "https://pt.wikipedia.org/wiki/Special:FilePath/Ufcat.jpg": "f98fc33af6cef1f9c3cca14e8444838d8286aed88765c348f60d3a6de51e3324"
+    },
+    "formatos": {
+      "https://pt.wikipedia.org/wiki/Special:FilePath/Ufcat.jpg": "jpg"
+    },
+    "arquivos": [
+      "ufcat.png",
+      "ufcat-marca.png"
     ],
     "processado_em": "2026-10-28"
   },
@@ -838,6 +1315,23 @@
     ],
     "processado_em": "2026-10-28"
   },
+  "UFF": {
+    "urls": {
+      "selo": "https://www.uff.br/wp-content/uploads/2024/03/logouff_vertical_azul-1.png",
+      "marca": "https://www.uff.br/wp-content/uploads/2024/03/logouff_vertical_azul-1.png"
+    },
+    "hashes": {
+      "https://www.uff.br/wp-content/uploads/2024/03/logouff_vertical_azul-1.png": "039653e966752beb19d50545a88f75203e6506561a8d4bdee97b9f72a5a27aa3"
+    },
+    "formatos": {
+      "https://www.uff.br/wp-content/uploads/2024/03/logouff_vertical_azul-1.png": "png"
+    },
+    "arquivos": [
+      "uff.png",
+      "uff-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
   "UFFS": {
     "urls": {
       "selo": "https://www.uffs.edu.br/uffs/img/logo-1.png",
@@ -887,6 +1381,38 @@
     ],
     "processado_em": "2026-10-28"
   },
+  "UFGD": {
+    "urls": {
+      "selo": "https://commons.wikimedia.org/wiki/Special:FilePath/Logotipo-ufgd-2021.png",
+      "marca": "https://commons.wikimedia.org/wiki/Special:FilePath/Logotipo-ufgd-2021.png",
+      "compor": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Logotipo-ufgd-2021.png",
+        "simbolo": [
+          0.006,
+          0,
+          0.491,
+          1
+        ],
+        "texto": [
+          0.515,
+          0.2785,
+          1,
+          0.9747
+        ]
+      }
+    },
+    "hashes": {
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Logotipo-ufgd-2021.png": "75ea6cc3b6e9c02247aec0bd4fc254247256a229d836254cfbcaf96a63c033e3"
+    },
+    "formatos": {
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Logotipo-ufgd-2021.png": "png"
+    },
+    "arquivos": [
+      "ufgd.png",
+      "ufgd-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
   "UFJ": {
     "urls": {
       "selo": "https://files.cercomp.ufg.br/weby/up/393/o/PNG_VERTICAL_COM_DESCRITOR.png",
@@ -901,6 +1427,24 @@
     "arquivos": [
       "ufj.png",
       "ufj-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UFJF": {
+    "urls": {
+      "selo": "repo:logos/manuais/ufjf.png",
+      "marca": "repo:logos/manuais/ufjf.png",
+      "substituto": true
+    },
+    "hashes": {
+      "https://drive.google.com/uc?export=download&id=121vPGNnW3S21N9qkGe6B6_7KzRq7lIJy": "87d7310ddae52f053f0b9b5c1b70f5da83802b00ba65ef2b5c9228aca547fc4d"
+    },
+    "formatos": {
+      "https://drive.google.com/uc?export=download&id=121vPGNnW3S21N9qkGe6B6_7KzRq7lIJy": "jpg"
+    },
+    "arquivos": [
+      "ufjf.png",
+      "ufjf-marca.png"
     ],
     "processado_em": "2026-10-28"
   },
@@ -938,6 +1482,24 @@
     ],
     "processado_em": "2026-10-28"
   },
+  "UFMG": {
+    "urls": {
+      "selo": "repo:logos/manuais/ufmg.png",
+      "marca": "repo:logos/manuais/ufmg.png",
+      "substituto": true
+    },
+    "hashes": {
+      "https://www.ufmg.br/marca/arquivos/variacoes_ufmg.zip": "8e0356d94dd5cc9ab7dae2a67879fa8e36eb17d8ddcb9e9d65ec5e9e1f94fc61"
+    },
+    "formatos": {
+      "https://www.ufmg.br/marca/arquivos/variacoes_ufmg.zip": "jpg"
+    },
+    "arquivos": [
+      "ufmg.png",
+      "ufmg-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
   "UFMS": {
     "urls": {
       "selo": "https://agecom.ufms.br/wp-content/themes/institucional-ufms-flat/img/logos/padrao.png",
@@ -969,6 +1531,23 @@
     "arquivos": [
       "ufnt.png",
       "ufnt-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UFOB": {
+    "urls": {
+      "selo": "https://commons.wikimedia.org/wiki/Special:FilePath/Brasão_da_UFOB.png",
+      "marca": "https://commons.wikimedia.org/wiki/Special:FilePath/Brasão_da_UFOB.png"
+    },
+    "hashes": {
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Brasão_da_UFOB.png": "7884ef04385cd9a326ee2d079834b8ce1df18bdd347b59f7f1cfd420e2cd5585"
+    },
+    "formatos": {
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Brasão_da_UFOB.png": "png"
+    },
+    "arquivos": [
+      "ufob.png",
+      "ufob-marca.png"
     ],
     "processado_em": "2026-10-28"
   },
@@ -1024,6 +1603,60 @@
     ],
     "processado_em": "2026-10-28"
   },
+  "UFPE": {
+    "urls": {
+      "selo": "repo:logos/manuais/ufpe.png",
+      "marca": "repo:logos/manuais/ufpe.png",
+      "substituto": true
+    },
+    "hashes": {
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Brasão_da_UFPE.png": "e64792a301ebd4d64a754d3f22bda45825d1fb324cd761909013a3b95fb03b79"
+    },
+    "formatos": {
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Brasão_da_UFPE.png": "png"
+    },
+    "arquivos": [
+      "ufpe.png",
+      "ufpe-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UFPI": {
+    "urls": {
+      "selo": "https://pt.wikipedia.org/wiki/Special:FilePath/UFPI_Brasão.png",
+      "marca": "https://pt.wikipedia.org/wiki/Special:FilePath/UFPI_Brasão.png"
+    },
+    "hashes": {
+      "https://pt.wikipedia.org/wiki/Special:FilePath/UFPI_Brasão.png": "a20b9beb6bbbb2c58154b89b6e5e530c81c3c1e31f7341ba3093c7f7cf8ba3a4"
+    },
+    "formatos": {
+      "https://pt.wikipedia.org/wiki/Special:FilePath/UFPI_Brasão.png": "png"
+    },
+    "arquivos": [
+      "ufpi.png",
+      "ufpi-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UFPR": {
+    "urls": {
+      "selo": "repo:logos/manuais/ufpr.png",
+      "marca": "repo:logos/manuais/ufpr.png",
+      "substituto": true
+    },
+    "hashes": {
+      "https://pt.wikipedia.org/wiki/Special:FilePath/Logo_oficial_da_UFPR_(fundo_branco).svg": "f2625924fdc25d62e9abdca34b57c2691bcfd94ff82bf0fa4d8d2b52694ae7b8"
+    },
+    "formatos": {
+      "https://pt.wikipedia.org/wiki/Special:FilePath/Logo_oficial_da_UFPR_(fundo_branco).svg": "svg"
+    },
+    "arquivos": [
+      "ufpr.png",
+      "ufpr.svg",
+      "ufpr-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
   "UFPel": {
     "urls": {
       "selo": "https://ccs2.ufpel.edu.br/wp/wp-content/uploads/2023/08/Escudo-Colorido-UFPEL_10042014.png",
@@ -1038,6 +1671,62 @@
     "arquivos": [
       "ufpel.png",
       "ufpel-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UFRA": {
+    "urls": {
+      "selo": "https://pt.wikipedia.org/wiki/Special:FilePath/Brasão_ufra.png",
+      "marca": "https://pt.wikipedia.org/wiki/Special:FilePath/Brasão_ufra.png"
+    },
+    "hashes": {
+      "https://pt.wikipedia.org/wiki/Special:FilePath/Brasão_ufra.png": "82aaff5d7670b1d3437f7178bdb88334d1f6aeb7c089e8c9691c57b9b78826ff"
+    },
+    "formatos": {
+      "https://pt.wikipedia.org/wiki/Special:FilePath/Brasão_ufra.png": "png"
+    },
+    "arquivos": [
+      "ufra.png",
+      "ufra-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UFRB": {
+    "urls": {
+      "selo": "repo:logos/manuais/ufrb.png",
+      "marca": "repo:logos/manuais/ufrb.png",
+      "substituto": true
+    },
+    "hashes": {
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Símbolo_da_UFRB.png": "1d174852b8e0127f97f0077ee8d93e9d33d797d5a5d7a28ce5cda650691198d5",
+      "https://ufrb.edu.br/ascom/images/marca-azul.png": "77f0b771e934c5d41e1c5cd3f1ca80be257b0b216f634228bbd4f90e924fbf7e"
+    },
+    "formatos": {
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Símbolo_da_UFRB.png": "png",
+      "https://ufrb.edu.br/ascom/images/marca-azul.png": "png"
+    },
+    "arquivos": [
+      "ufrb.png",
+      "ufrb-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UFRGS": {
+    "urls": {
+      "selo": "repo:logos/manuais/ufrgs.png",
+      "marca": "repo:logos/manuais/ufrgs.png",
+      "substituto": true
+    },
+    "hashes": {
+      "https://pt.wikipedia.org/wiki/Special:FilePath/Brasão_UFRGS.svg": "c41a21bebccaeff17b581a7eae574cbdaa9f0b0af196f656fd101cb4fffc3d1e"
+    },
+    "formatos": {
+      "https://pt.wikipedia.org/wiki/Special:FilePath/Brasão_UFRGS.svg": "svg"
+    },
+    "arquivos": [
+      "ufrgs.png",
+      "ufrgs.svg",
+      "ufrgs-marca.png"
     ],
     "processado_em": "2026-10-28"
   },
@@ -1092,6 +1781,23 @@
     ],
     "processado_em": "2026-10-28"
   },
+  "UFRR": {
+    "urls": {
+      "selo": "https://pt.wikipedia.org/wiki/Special:FilePath/Brasão_da_UFRR.png",
+      "marca": "https://pt.wikipedia.org/wiki/Special:FilePath/Brasão_da_UFRR.png"
+    },
+    "hashes": {
+      "https://pt.wikipedia.org/wiki/Special:FilePath/Brasão_da_UFRR.png": "b2b270810cd1c2a8ab8d475fc2f5957e8a45c6c979e23e490cdb5f08719f6777"
+    },
+    "formatos": {
+      "https://pt.wikipedia.org/wiki/Special:FilePath/Brasão_da_UFRR.png": "png"
+    },
+    "arquivos": [
+      "ufrr.png",
+      "ufrr-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
   "UFRRJ": {
     "urls": {
       "selo": "https://institucional.ufrrj.br/ccs/files/2019/06/rural_logo_01.pdf",
@@ -1106,6 +1812,24 @@
     "arquivos": [
       "ufrrj.png",
       "ufrrj-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UFS": {
+    "urls": {
+      "selo": "repo:logos/manuais/ufs.png",
+      "marca": "repo:logos/manuais/ufs.png",
+      "substituto": true
+    },
+    "hashes": {
+      "https://drive.google.com/uc?export=download&id=1lcItZ2cTgOpkQ-5OXP-Ew-jqcv5sFC76": "ae6ac3ee2ba392f6ea2289356fd37029b4ceb45298460ec5518068c3bf392348"
+    },
+    "formatos": {
+      "https://drive.google.com/uc?export=download&id=1lcItZ2cTgOpkQ-5OXP-Ew-jqcv5sFC76": "png"
+    },
+    "arquivos": [
+      "ufs.png",
+      "ufs-marca.png"
     ],
     "processado_em": "2026-10-28"
   },
@@ -1160,6 +1884,24 @@
     ],
     "processado_em": "2026-10-28"
   },
+  "UFSJ": {
+    "urls": {
+      "selo": "repo:logos/manuais/ufsj.png",
+      "marca": "repo:logos/manuais/ufsj.png",
+      "substituto": true
+    },
+    "hashes": {
+      "https://ufsj.edu.br/portal2-repositorio/File/ascom/marcasparadisponibilizaoempng.zip": "c7c8d4193ff03fdad4cbd52edfbb262602b6cf72fdc6cdeb873153dcd3cf0929"
+    },
+    "formatos": {
+      "https://ufsj.edu.br/portal2-repositorio/File/ascom/marcasparadisponibilizaoempng.zip": "png"
+    },
+    "arquivos": [
+      "ufsj.png",
+      "ufsj-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
   "UFSM": {
     "urls": {
       "selo": "https://www.ufsm.br/app/uploads/2019/12/Bras%C3%A3o-vertical.png",
@@ -1174,6 +1916,23 @@
     "arquivos": [
       "ufsm.png",
       "ufsm-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UFT": {
+    "urls": {
+      "selo": "https://commons.wikimedia.org/wiki/Special:FilePath/Brasão_UFT.png",
+      "marca": "https://commons.wikimedia.org/wiki/Special:FilePath/Brasão_UFT.png"
+    },
+    "hashes": {
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Brasão_UFT.png": "e977f0a336d3090b4a92d67cf7b69b60335af79d57ea203a99e3cae1f1cbab99"
+    },
+    "formatos": {
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Brasão_UFT.png": "png"
+    },
+    "arquivos": [
+      "uft.png",
+      "uft-marca.png"
     ],
     "processado_em": "2026-10-28"
   },
@@ -1226,6 +1985,60 @@
     "arquivos": [
       "ufvjm.png",
       "ufvjm-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UNCISAL": {
+    "urls": {
+      "selo": "repo:logos/manuais/uncisal.svg",
+      "marca": "repo:logos/manuais/uncisal.svg",
+      "substituto": true
+    },
+    "hashes": {
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Brasão_da_UNCISAL.png": "fc6739b349755027cc193c381fd08837f20e444f1950a3dfd78d8463857493dd"
+    },
+    "formatos": {
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Brasão_da_UNCISAL.png": "png"
+    },
+    "arquivos": [
+      "uncisal.png",
+      "uncisal-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UNEB": {
+    "urls": {
+      "selo": "repo:logos/manuais/uneb.png",
+      "marca": "repo:logos/manuais/uneb.png",
+      "substituto": true
+    },
+    "hashes": {
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Brasão_da_UNEB.png": "eabc3f97561abb760565f99ad0a95415228119230a2d5de7da26ca759023306e"
+    },
+    "formatos": {
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Brasão_da_UNEB.png": "png"
+    },
+    "arquivos": [
+      "uneb.png",
+      "uneb-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UNEMAT": {
+    "urls": {
+      "selo": "repo:logos/manuais/unemat.jpg",
+      "marca": "repo:logos/manuais/unemat.jpg",
+      "substituto": true
+    },
+    "hashes": {
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Logo_UNEMAT.jpg": "1cd4fa4b47e524767b981145a15fa0574a730fa3e202abbd6f30d9a6dafafc47"
+    },
+    "formatos": {
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Logo_UNEMAT.jpg": "jpg"
+    },
+    "arquivos": [
+      "unemat.png",
+      "unemat-marca.png"
     ],
     "processado_em": "2026-10-28"
   },
@@ -1284,8 +2097,9 @@
   },
   "UNICENTRO": {
     "urls": {
-      "selo": "https://drive.google.com/uc?export=download&id=1KB4SJSGOM16-TeKUMkK8ypwS5ZxEexsA",
-      "marca": "https://drive.google.com/uc?export=download&id=1KB4SJSGOM16-TeKUMkK8ypwS5ZxEexsA"
+      "selo": "repo:logos/manuais/unicentro.png",
+      "marca": "repo:logos/manuais/unicentro.png",
+      "substituto": true
     },
     "hashes": {
       "https://drive.google.com/uc?export=download&id=1KB4SJSGOM16-TeKUMkK8ypwS5ZxEexsA": "eb3333f05ee78654fb8a3f20ff19c3d8453913fbc052fb107baa7ed031b39319"
@@ -1316,6 +2130,23 @@
     ],
     "processado_em": "2026-10-28"
   },
+  "UNIFAP": {
+    "urls": {
+      "selo": "https://commons.wikimedia.org/wiki/Special:FilePath/Brasão_da_Universidade_Federal_do_Amapá_(UNIFAP).png",
+      "marca": "https://commons.wikimedia.org/wiki/Special:FilePath/Brasão_da_Universidade_Federal_do_Amapá_(UNIFAP).png"
+    },
+    "hashes": {
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Brasão_da_Universidade_Federal_do_Amapá_(UNIFAP).png": "810d25762c8d3e3c542f5a52111ca7e2717ed8086fdf6e6474e1c35038ced4d2"
+    },
+    "formatos": {
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Brasão_da_Universidade_Federal_do_Amapá_(UNIFAP).png": "png"
+    },
+    "arquivos": [
+      "unifap.png",
+      "unifap-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
   "UNIFEI": {
     "urls": {
       "selo": "https://unifei.edu.br/wp-content/uploads/2022/08/cropped-logo-unifei-grande-270x270.png",
@@ -1330,6 +2161,56 @@
     "arquivos": [
       "unifei.png",
       "unifei-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UNIFESP": {
+    "urls": {
+      "selo": "repo:logos/manuais/unifesp.png",
+      "marca": "repo:logos/manuais/unifesp.png",
+      "substituto": true
+    },
+    "hashes": {
+      "https://pt.wikipedia.org/wiki/Special:FilePath/Logo_Unifesp_quadrado.png": "06cf65dc509ae76fa8e18a9f5959adf741abd8bee48ca81686ef2db60254d1be"
+    },
+    "formatos": {
+      "https://pt.wikipedia.org/wiki/Special:FilePath/Logo_Unifesp_quadrado.png": "png"
+    },
+    "arquivos": [
+      "unifesp.png",
+      "unifesp-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UNIFESSPA": {
+    "urls": {
+      "selo": "https://pt.wikipedia.org/wiki/Special:FilePath/Logotipo_da_Universidade_Federal_do_Sul_e_Sudeste_do_Pará.png",
+      "marca": "https://pt.wikipedia.org/wiki/Special:FilePath/Logotipo_da_Universidade_Federal_do_Sul_e_Sudeste_do_Pará.png",
+      "compor": {
+        "url": "https://pt.wikipedia.org/wiki/Special:FilePath/Logotipo_da_Universidade_Federal_do_Sul_e_Sudeste_do_Pará.png",
+        "simbolo": [
+          0,
+          0,
+          0.2508,
+          0.9912
+        ],
+        "texto": [
+          0.2853,
+          0.2566,
+          1,
+          0.9115
+        ]
+      }
+    },
+    "hashes": {
+      "https://pt.wikipedia.org/wiki/Special:FilePath/Logotipo_da_Universidade_Federal_do_Sul_e_Sudeste_do_Pará.png": "74172f43d325f4fc6f3e390a6367370d978b94d97889f8748ac2f37e1fc07170"
+    },
+    "formatos": {
+      "https://pt.wikipedia.org/wiki/Special:FilePath/Logotipo_da_Universidade_Federal_do_Sul_e_Sudeste_do_Pará.png": "png"
+    },
+    "arquivos": [
+      "unifesspa.png",
+      "unifesspa-marca.png"
     ],
     "processado_em": "2026-10-28"
   },
@@ -1350,6 +2231,96 @@
     ],
     "processado_em": "2026-10-28"
   },
+  "UNILAB": {
+    "urls": {
+      "selo": "repo:logos/manuais/unilab.png",
+      "marca": "repo:logos/manuais/unilab.png",
+      "substituto": true
+    },
+    "hashes": {
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Símbolo_da_UNILAB.png": "955b1ada2131818d1835f222f3fbe714ce5e3fb0aa5653fa2bdbf2b0f19b18ee",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Unilab_logo.svg": "2f41f7ae8bd154d34a05ed48d64c58f96f2814fc8461b7a999a9b59799009312"
+    },
+    "formatos": {
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Símbolo_da_UNILAB.png": "png",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Unilab_logo.svg": "svg"
+    },
+    "arquivos": [
+      "unilab.png",
+      "unilab-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UNIMONTES": {
+    "urls": {
+      "selo": "repo:logos/manuais/unimontes.png",
+      "marca": "repo:logos/manuais/unimontes.png",
+      "substituto": true
+    },
+    "hashes": {
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Unimontes.jpg": "dcd183036c98aaef8fe557236f716e4f1811b235816ba2e44257113e087c60c6"
+    },
+    "formatos": {
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Unimontes.jpg": "jpg"
+    },
+    "arquivos": [
+      "unimontes.png",
+      "unimontes-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UNIOESTE": {
+    "urls": {
+      "selo": "https://www.unioeste.br/portal/images/logo-unioeste-png-rgb.png",
+      "marca": "https://www.unioeste.br/portal/images/logo-unioeste-png-rgb.png"
+    },
+    "hashes": {
+      "https://www.unioeste.br/portal/images/logo-unioeste-png-rgb.png": "1c6c727e3a960ba50d199008fdf8c9fef9e02827d8c797e6762d042be0270883"
+    },
+    "formatos": {
+      "https://www.unioeste.br/portal/images/logo-unioeste-png-rgb.png": "png"
+    },
+    "arquivos": [
+      "unioeste.png",
+      "unioeste-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UNIPAMPA": {
+    "urls": {
+      "selo": "https://commons.wikimedia.org/wiki/Special:FilePath/Unipampa_Assinatura_visual_logo_logotipo_cores.svg",
+      "marca": "https://commons.wikimedia.org/wiki/Special:FilePath/Unipampa_Assinatura_visual_logo_logotipo_cores.svg"
+    },
+    "hashes": {
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Unipampa_Assinatura_visual_logo_logotipo_cores.svg": "963804087d924d1346d8fbfb6ece646275533e053aae12802c27caa011244687"
+    },
+    "formatos": {
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Unipampa_Assinatura_visual_logo_logotipo_cores.svg": "svg"
+    },
+    "arquivos": [
+      "unipampa.png",
+      "unipampa.svg",
+      "unipampa-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UNIR": {
+    "urls": {
+      "selo": "https://pt.wikipedia.org/wiki/Special:FilePath/Logo_UNIR_Vertical.png",
+      "marca": "https://pt.wikipedia.org/wiki/Special:FilePath/Logo_UNIR_Vertical.png"
+    },
+    "hashes": {
+      "https://pt.wikipedia.org/wiki/Special:FilePath/Logo_UNIR_Vertical.png": "f99723b6e6a78e5a07414cc9f0c7b10d058cf584c7233b27821312cd7780fdca"
+    },
+    "formatos": {
+      "https://pt.wikipedia.org/wiki/Special:FilePath/Logo_UNIR_Vertical.png": "png"
+    },
+    "arquivos": [
+      "unir.png",
+      "unir-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
   "UNIRIO": {
     "urls": {
       "selo": "https://www.unirio.br/comunicacaosocial/arquivos/arquivos-iv-unirio/novologounirio.pdf",
@@ -1364,6 +2335,59 @@
     "arquivos": [
       "unirio.png",
       "unirio-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UNITINS": {
+    "urls": {
+      "selo": "https://commons.wikimedia.org/wiki/Special:FilePath/Logo_marca_Unitins_2021.png",
+      "marca": "https://commons.wikimedia.org/wiki/Special:FilePath/Logo_marca_Unitins_2021.png"
+    },
+    "hashes": {
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Logo_marca_Unitins_2021.png": "566cc6aefe0f29859c666707ae08f0df346ee8611a801c2015830e92102bd98c"
+    },
+    "formatos": {
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Logo_marca_Unitins_2021.png": "png"
+    },
+    "arquivos": [
+      "unitins.png",
+      "unitins-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UNIVASF": {
+    "urls": {
+      "selo": "https://commons.wikimedia.org/wiki/Special:FilePath/Símbolo_da_UNIVASF.png",
+      "marca": "https://portais.univasf.edu.br/logo.png"
+    },
+    "hashes": {
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Símbolo_da_UNIVASF.png": "da2eb01f19e093a2375205c6579dfeee2056e6e8922541b0b7eb24e6409420f4",
+      "https://portais.univasf.edu.br/logo.png": "1819cf26dd802c479f9fc189018d4b87ca3d2fa97a1bbec6252c92d2ebde1ef4"
+    },
+    "formatos": {
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Símbolo_da_UNIVASF.png": "png",
+      "https://portais.univasf.edu.br/logo.png": "png"
+    },
+    "arquivos": [
+      "univasf.png",
+      "univasf-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UPE": {
+    "urls": {
+      "selo": "https://commons.wikimedia.org/wiki/Special:FilePath/Brasao-upe.png",
+      "marca": "https://commons.wikimedia.org/wiki/Special:FilePath/Brasao-upe.png"
+    },
+    "hashes": {
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Brasao-upe.png": "e83fe7f107d27e0640a0bd4b124a6a7054325bfbdfdae60f4a2005a54b464f92"
+    },
+    "formatos": {
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Brasao-upe.png": "png"
+    },
+    "arquivos": [
+      "upe.png",
+      "upe-marca.png"
     ],
     "processado_em": "2026-10-28"
   },
