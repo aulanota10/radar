@@ -1,1 +1,1453 @@
-{}
+{
+  "CEFET/RJ": {
+    "urls": {
+      "selo": "https://www.cefet-rj.br/attachments/article/431/vert_azul.png",
+      "marca": "https://www.cefet-rj.br/attachments/article/431/vert_azul.png"
+    },
+    "hashes": {
+      "https://www.cefet-rj.br/attachments/article/431/vert_azul.png": "33412e449c7e9e42a6614ca4839ec2cf74eec3dde7d2266a6b22ad09e6a75b6d"
+    },
+    "formatos": {
+      "https://www.cefet-rj.br/attachments/article/431/vert_azul.png": "png"
+    },
+    "arquivos": [
+      "cefetrj.png",
+      "cefetrj-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "FURB": {
+    "urls": {
+      "selo": "https://www.furb.br/sites/default/files/2026-05/furb_policromia.pdf",
+      "marca": "https://www.furb.br/sites/default/files/2026-05/furb_universidade%20de%20Blumenau_policromia_pdf.pdf"
+    },
+    "hashes": {
+      "https://www.furb.br/sites/default/files/2026-05/furb_policromia.pdf": "5392c3b0e4dbfb001545b1c9be00db248a55c1933adb6df7b44f40cbf5dbf40f",
+      "https://www.furb.br/sites/default/files/2026-05/furb_universidade%20de%20Blumenau_policromia_pdf.pdf": "eac711c4b8bc846cbbd707bcc505924006584db6a1ffa3af62119b501fc27c4c"
+    },
+    "formatos": {
+      "https://www.furb.br/sites/default/files/2026-05/furb_policromia.pdf": "pdf",
+      "https://www.furb.br/sites/default/files/2026-05/furb_universidade%20de%20Blumenau_policromia_pdf.pdf": "pdf"
+    },
+    "arquivos": [
+      "furb.png",
+      "furb-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "FURG": {
+    "urls": {
+      "selo": "https://www.furg.br/arquivos/logo-furg.png",
+      "marca": "https://www.furg.br/arquivos/logo-furg.png"
+    },
+    "hashes": {
+      "https://www.furg.br/arquivos/logo-furg.png": "ca13bde243083570eceebd3a6673bfd60987d847d20de60c357ce2cf30bf886b"
+    },
+    "formatos": {
+      "https://www.furg.br/arquivos/logo-furg.png": "png"
+    },
+    "arquivos": [
+      "furg.png",
+      "furg-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "IFAL": {
+    "urls": {
+      "selo": "https://www2.ifal.edu.br/o-ifal/comunicacao/arquivos/logos/copy_of_IFALvertical.png",
+      "marca": "https://www2.ifal.edu.br/o-ifal/comunicacao/arquivos/logos/copy_of_IFALvertical.png"
+    },
+    "hashes": {
+      "https://www2.ifal.edu.br/o-ifal/comunicacao/arquivos/logos/copy_of_IFALvertical.png": "aca2ab5043139f2b4e64d926f4771ed04d88c9d656cc5a3b82eec32b90897951"
+    },
+    "formatos": {
+      "https://www2.ifal.edu.br/o-ifal/comunicacao/arquivos/logos/copy_of_IFALvertical.png": "png"
+    },
+    "arquivos": [
+      "ifal.png",
+      "ifal-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "IFB": {
+    "urls": {
+      "selo": "https://www.ifb.edu.br/images/IFBVertical.png",
+      "marca": "https://www.ifb.edu.br/images/IFBVertical.png"
+    },
+    "hashes": {
+      "https://www.ifb.edu.br/images/IFBVertical.png": "1f17fc0715f8e4d418ec592248d8001275db416612b712f3741c3ae51769c429"
+    },
+    "formatos": {
+      "https://www.ifb.edu.br/images/IFBVertical.png": "png"
+    },
+    "arquivos": [
+      "ifb.png",
+      "ifb-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "IFBAIANO": {
+    "urls": {
+      "selo": "https://ifbaiano.edu.br/portal/wp-content/uploads/2015/10/marca-if-baiano-vertical.pdf",
+      "marca": "https://ifbaiano.edu.br/portal/wp-content/uploads/2015/10/marca-if-baiano-vertical.pdf"
+    },
+    "hashes": {
+      "https://ifbaiano.edu.br/portal/wp-content/uploads/2015/10/marca-if-baiano-vertical.pdf": "2fe355f785b1c16fd29fafc9b9cdedcb956f493c204aa4fcf1c14129f89263b7"
+    },
+    "formatos": {
+      "https://ifbaiano.edu.br/portal/wp-content/uploads/2015/10/marca-if-baiano-vertical.pdf": "pdf"
+    },
+    "arquivos": [
+      "ifbaiano.png",
+      "ifbaiano-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "IFC": {
+    "urls": {
+      "selo": "https://commons.wikimedia.org/wiki/Special:FilePath/Instituto_Federal_Catarinense_-_Marca_Vertical_2015.svg",
+      "marca": "https://commons.wikimedia.org/wiki/Special:FilePath/Instituto_Federal_Catarinense_-_Marca_Vertical_2015.svg"
+    },
+    "hashes": {
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Instituto_Federal_Catarinense_-_Marca_Vertical_2015.svg": "22ed775ef2ac5908667b3347285b9660545158995bde12342550cefa5cdfdd68"
+    },
+    "formatos": {
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Instituto_Federal_Catarinense_-_Marca_Vertical_2015.svg": "svg"
+    },
+    "arquivos": [
+      "ifc.png",
+      "ifc.svg",
+      "ifc-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "IFFar": {
+    "urls": {
+      "selo": "https://www.iffarroupilha.edu.br/component/k2/attachments/download/56531/201931c7238472a8711f3158ecbe50d2",
+      "marca": "https://www.iffarroupilha.edu.br/component/k2/attachments/download/56531/201931c7238472a8711f3158ecbe50d2"
+    },
+    "hashes": {
+      "https://www.iffarroupilha.edu.br/component/k2/attachments/download/56531/201931c7238472a8711f3158ecbe50d2": "184ceab55d5b9f7bf4bf4a73c0a68f20633c55127b3e7a380d9aabe7a84a07fc"
+    },
+    "formatos": {
+      "https://www.iffarroupilha.edu.br/component/k2/attachments/download/56531/201931c7238472a8711f3158ecbe50d2": "svg"
+    },
+    "arquivos": [
+      "iffar.png",
+      "iffar.svg",
+      "iffar-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "IFFluminense": {
+    "urls": {
+      "selo": "https://portal1.iff.edu.br/nossos-campi/reitoria/diretorias-sistemicas/diretoria-de-comunicacao/imagens-pagina-de-id-visual-iff-1/logo-iff-vertical.png/@@images/86d6cf78-2bce-46e6-9f99-740769d79283.png",
+      "marca": "https://portal1.iff.edu.br/nossos-campi/reitoria/diretorias-sistemicas/diretoria-de-comunicacao/imagens-pagina-de-id-visual-iff-1/logo-iff-vertical.png/@@images/86d6cf78-2bce-46e6-9f99-740769d79283.png"
+    },
+    "hashes": {
+      "https://portal1.iff.edu.br/nossos-campi/reitoria/diretorias-sistemicas/diretoria-de-comunicacao/imagens-pagina-de-id-visual-iff-1/logo-iff-vertical.png/@@images/86d6cf78-2bce-46e6-9f99-740769d79283.png": "294735f819ed68f2a337ff0f0095a387aefe9a4d7b18bc8bb7e23f193ab5626a"
+    },
+    "formatos": {
+      "https://portal1.iff.edu.br/nossos-campi/reitoria/diretorias-sistemicas/diretoria-de-comunicacao/imagens-pagina-de-id-visual-iff-1/logo-iff-vertical.png/@@images/86d6cf78-2bce-46e6-9f99-740769d79283.png": "png"
+    },
+    "arquivos": [
+      "iffluminense.png",
+      "iffluminense-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "IFG": {
+    "urls": {
+      "selo": "https://www.ifg.edu.br/attachments/article/278/IFG%20-%202015%20-%20Vertical.jpg",
+      "marca": "https://www.ifg.edu.br/attachments/article/278/IFG%20-%202015%20-%20Vertical.jpg"
+    },
+    "hashes": {
+      "https://www.ifg.edu.br/attachments/article/278/IFG%20-%202015%20-%20Vertical.jpg": "d17a607950ec1e0bfc35b3f57fe1583627f0d23c551d3a1c47b40f7eea6a978e"
+    },
+    "formatos": {
+      "https://www.ifg.edu.br/attachments/article/278/IFG%20-%202015%20-%20Vertical.jpg": "jpg"
+    },
+    "arquivos": [
+      "ifg.png",
+      "ifg-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "IFGOIANO": {
+    "urls": {
+      "selo": "https://ifgoiano.edu.br/home/images/REITORIA/Imagens/2026/OUT/Marcas.pdf",
+      "marca": "https://ifgoiano.edu.br/home/images/REITORIA/Imagens/2026/OUT/Marcas.pdf"
+    },
+    "hashes": {
+      "https://ifgoiano.edu.br/home/images/REITORIA/Imagens/2026/OUT/Marcas.pdf": "ac88c80e22de262e292652d35d724bc18a64ecebaa1097592ae62b67bb7d56e7"
+    },
+    "formatos": {
+      "https://ifgoiano.edu.br/home/images/REITORIA/Imagens/2026/OUT/Marcas.pdf": "pdf"
+    },
+    "arquivos": [
+      "ifgoiano.png",
+      "ifgoiano-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "IFMG": {
+    "urls": {
+      "selo": "https://www.ifmg.edu.br/portal/comunicacao/3.pdf",
+      "marca": "https://www.ifmg.edu.br/portal/comunicacao/3.pdf"
+    },
+    "hashes": {
+      "https://www.ifmg.edu.br/portal/comunicacao/3.pdf": "6c427b4f5d4d455aa60ead732460895a749821ffc2fff6b948731c0c7dbbcd19"
+    },
+    "formatos": {
+      "https://www.ifmg.edu.br/portal/comunicacao/3.pdf": "pdf"
+    },
+    "arquivos": [
+      "ifmg.png",
+      "ifmg-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "IFMS": {
+    "urls": {
+      "selo": "https://servidor.ifms.edu.br/publicacoes/identidade-visual/marca-e-manual-de-aplicacao/marca-ifms-vertical.zip/@@download/file/marca-ifms-vertical.zip",
+      "marca": "https://servidor.ifms.edu.br/publicacoes/identidade-visual/marca-e-manual-de-aplicacao/marca-ifms-vertical.zip/@@download/file/marca-ifms-vertical.zip"
+    },
+    "hashes": {
+      "https://servidor.ifms.edu.br/publicacoes/identidade-visual/marca-e-manual-de-aplicacao/marca-ifms-vertical.zip/@@download/file/marca-ifms-vertical.zip": "5dcf500a6e50386b22c85197d685030f07d13da82b10d3c43e805a3cd82c37a4"
+    },
+    "formatos": {
+      "https://servidor.ifms.edu.br/publicacoes/identidade-visual/marca-e-manual-de-aplicacao/marca-ifms-vertical.zip/@@download/file/marca-ifms-vertical.zip": "pdf"
+    },
+    "arquivos": [
+      "ifms.png",
+      "ifms-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "IFMT": {
+    "urls": {
+      "selo": "https://commons.wikimedia.org/wiki/Special:FilePath/Instituto_Federal_de_Mato_Grosso_-_Marca_Vertical_2015.svg",
+      "marca": "https://commons.wikimedia.org/wiki/Special:FilePath/Instituto_Federal_de_Mato_Grosso_-_Marca_Vertical_2015.svg"
+    },
+    "hashes": {
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Instituto_Federal_de_Mato_Grosso_-_Marca_Vertical_2015.svg": "f0b797503cca3099e48896ca9577f9dea903591c431b052b55b7019f60298b30"
+    },
+    "formatos": {
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Instituto_Federal_de_Mato_Grosso_-_Marca_Vertical_2015.svg": "svg"
+    },
+    "arquivos": [
+      "ifmt.png",
+      "ifmt.svg",
+      "ifmt-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "IFNMG": {
+    "urls": {
+      "selo": "https://upload.wikimedia.org/wikipedia/commons/a/af/Instituto_Federal_do_Norte_de_Minas_Gerais_-_Marca_Vertical_2015.svg",
+      "marca": "https://upload.wikimedia.org/wikipedia/commons/a/af/Instituto_Federal_do_Norte_de_Minas_Gerais_-_Marca_Vertical_2015.svg"
+    },
+    "hashes": {
+      "https://upload.wikimedia.org/wikipedia/commons/a/af/Instituto_Federal_do_Norte_de_Minas_Gerais_-_Marca_Vertical_2015.svg": "e4286dc26bbd5408f53e6eecafa8dbe277400903bf553466a784487d6f119c96"
+    },
+    "formatos": {
+      "https://upload.wikimedia.org/wikipedia/commons/a/af/Instituto_Federal_do_Norte_de_Minas_Gerais_-_Marca_Vertical_2015.svg": "svg"
+    },
+    "arquivos": [
+      "ifnmg.png",
+      "ifnmg.svg",
+      "ifnmg-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "IFRR": {
+    "urls": {
+      "selo": "https://www.ifrr.edu.br/static/img/logo-if-horizontal.png",
+      "marca": "https://www.ifrr.edu.br/static/img/logo-if-horizontal.png",
+      "compor": {
+        "url": "https://www.ifrr.edu.br/static/img/logo-if-horizontal.png",
+        "simbolo": [
+          0.0,
+          0.0,
+          0.1931,
+          0.9868
+        ],
+        "texto": [
+          0.2276,
+          0.5132,
+          0.9966,
+          1.0
+        ],
+        "modelo": "rede_federal"
+      }
+    },
+    "hashes": {
+      "https://www.ifrr.edu.br/static/img/logo-if-horizontal.png": "ca05fc7b5be3486e61d1b4722400325353c07910ed225363e229274c4944af98"
+    },
+    "formatos": {
+      "https://www.ifrr.edu.br/static/img/logo-if-horizontal.png": "png"
+    },
+    "arquivos": [
+      "ifrr.png",
+      "ifrr-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "IFRS": {
+    "urls": {
+      "selo": "https://ifrs.edu.br/wp-content/uploads/2022/08/Logo-IFRS-cores-sem-fundo-Vertical.png",
+      "marca": "https://ifrs.edu.br/wp-content/uploads/2022/08/Logo-IFRS-cores-sem-fundo-Vertical.png"
+    },
+    "hashes": {
+      "https://ifrs.edu.br/wp-content/uploads/2022/08/Logo-IFRS-cores-sem-fundo-Vertical.png": "a66c5f76e395bc9a9a336acc57192fcc97ea70401bc28a0334fe0880f5d68cfd"
+    },
+    "formatos": {
+      "https://ifrs.edu.br/wp-content/uploads/2022/08/Logo-IFRS-cores-sem-fundo-Vertical.png": "png"
+    },
+    "arquivos": [
+      "ifrs.png",
+      "ifrs-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "IFSC": {
+    "urls": {
+      "selo": "https://www.ifsc.edu.br/documents/d/comunicacao/reitoria",
+      "marca": "https://www.ifsc.edu.br/documents/d/comunicacao/reitoria"
+    },
+    "hashes": {
+      "https://www.ifsc.edu.br/documents/d/comunicacao/reitoria": "c07bab199ef669660fd99eb7c2346c231bf368943c9214186dcd3ee70fde958d"
+    },
+    "formatos": {
+      "https://www.ifsc.edu.br/documents/d/comunicacao/reitoria": "png"
+    },
+    "arquivos": [
+      "ifsc.png",
+      "ifsc-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "IFSE": {
+    "urls": {
+      "selo": "https://www.ifs.edu.br/comunicacao/images/Imagens/Marcas/IFS_puro/Marca_IFS_vertical-01.png",
+      "marca": "https://www.ifs.edu.br/comunicacao/images/Imagens/Marcas/IFS_puro/Marca_IFS_vertical-01.png"
+    },
+    "hashes": {
+      "https://www.ifs.edu.br/comunicacao/images/Imagens/Marcas/IFS_puro/Marca_IFS_vertical-01.png": "c49494d7855d06c92a6e03030c7597aa86ba44d9c895448fd414a036cf9ae040"
+    },
+    "formatos": {
+      "https://www.ifs.edu.br/comunicacao/images/Imagens/Marcas/IFS_puro/Marca_IFS_vertical-01.png": "png"
+    },
+    "arquivos": [
+      "ifse.png",
+      "ifse-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "IFSP": {
+    "urls": {
+      "selo": "https://www.ifsp.edu.br/images/reitoria/AssessoriaComunicacao/Marcas/Marca_IFSP_2015_Simpl_V.zip",
+      "marca": "https://www.ifsp.edu.br/images/reitoria/AssessoriaComunicacao/Marcas/Marca_IFSP_2015_Simpl_V.zip"
+    },
+    "hashes": {
+      "https://www.ifsp.edu.br/images/reitoria/AssessoriaComunicacao/Marcas/Marca_IFSP_2015_Simpl_V.zip": "fd346d3239ca983fc583e333ad5e8d3a0431988095390f529d2fd56cf4b3e66c"
+    },
+    "formatos": {
+      "https://www.ifsp.edu.br/images/reitoria/AssessoriaComunicacao/Marcas/Marca_IFSP_2015_Simpl_V.zip": "pdf"
+    },
+    "arquivos": [
+      "ifsp.png",
+      "ifsp-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "IFSULDEMINAS": {
+    "urls": {
+      "selo": "https://portal.ifsuldeminas.edu.br/images/PDFs/comunicacao/logotipos/ifsuldeminas/IFSULDEMINAS_vertical.png",
+      "marca": "https://portal.ifsuldeminas.edu.br/images/PDFs/comunicacao/logotipos/ifsuldeminas/IFSULDEMINAS_vertical.png"
+    },
+    "hashes": {
+      "https://portal.ifsuldeminas.edu.br/images/PDFs/comunicacao/logotipos/ifsuldeminas/IFSULDEMINAS_vertical.png": "51ce248fc4fef770937d2155251cacced1f45d9b2ae4e086f6dc1f1ee3764ba0"
+    },
+    "formatos": {
+      "https://portal.ifsuldeminas.edu.br/images/PDFs/comunicacao/logotipos/ifsuldeminas/IFSULDEMINAS_vertical.png": "png"
+    },
+    "arquivos": [
+      "ifsuldeminas.png",
+      "ifsuldeminas-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "IFSudesteMG": {
+    "urls": {
+      "selo": "https://www.ifsudestemg.edu.br/comunicacao-social/logos/logomarcas/if-sudeste-mg/logo_vertical_ifsudestemg-%281%29.png",
+      "marca": "https://www.ifsudestemg.edu.br/comunicacao-social/logos/logomarcas/if-sudeste-mg/logo_vertical_ifsudestemg-%281%29.png"
+    },
+    "hashes": {
+      "https://www.ifsudestemg.edu.br/comunicacao-social/logos/logomarcas/if-sudeste-mg/logo_vertical_ifsudestemg-%281%29.png": "2a50a6a7680066bb6898b5b1dcf09e59335845d45228db571a5da1ea61418cba"
+    },
+    "formatos": {
+      "https://www.ifsudestemg.edu.br/comunicacao-social/logos/logomarcas/if-sudeste-mg/logo_vertical_ifsudestemg-%281%29.png": "png"
+    },
+    "arquivos": [
+      "ifsudestemg.png",
+      "ifsudestemg-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "IFSul": {
+    "urls": {
+      "selo": "https://www.ifsul.edu.br/identidade-visual-banco-de-arquivos/item/download/33943_d17968b34dea4abefb6e7bbe1658ccc1",
+      "marca": "https://www.ifsul.edu.br/identidade-visual-banco-de-arquivos/item/download/33943_d17968b34dea4abefb6e7bbe1658ccc1"
+    },
+    "hashes": {
+      "https://www.ifsul.edu.br/identidade-visual-banco-de-arquivos/item/download/33943_d17968b34dea4abefb6e7bbe1658ccc1": "cb6d299b80617e5efbd0b7c5778c21b73477ddb6fa6d15d82c5c7c26e6521cef"
+    },
+    "formatos": {
+      "https://www.ifsul.edu.br/identidade-visual-banco-de-arquivos/item/download/33943_d17968b34dea4abefb6e7bbe1658ccc1": "pdf"
+    },
+    "arquivos": [
+      "ifsul.png",
+      "ifsul-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "IFTO": {
+    "urls": {
+      "selo": "https://www.ifto.edu.br/imagens/identidade-visual/marca-ifto-assinatura-3.png",
+      "marca": "https://www.ifto.edu.br/imagens/identidade-visual/marca-ifto-assinatura-3.png"
+    },
+    "hashes": {
+      "https://www.ifto.edu.br/imagens/identidade-visual/marca-ifto-assinatura-3.png": "d289e580ae8f3983546b721641a253c437da2a0029e3822a219b178105e01907"
+    },
+    "formatos": {
+      "https://www.ifto.edu.br/imagens/identidade-visual/marca-ifto-assinatura-3.png": "png"
+    },
+    "arquivos": [
+      "ifto.png",
+      "ifto-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UDESC": {
+    "urls": {
+      "selo": "https://www1.udesc.br/arquivos/id_submenu/899/cor_vertical_pdf.pdf",
+      "marca": "https://www1.udesc.br/arquivos/id_submenu/899/cor_vertical_pdf.pdf"
+    },
+    "hashes": {
+      "https://www1.udesc.br/arquivos/id_submenu/899/cor_vertical_pdf.pdf": "dc2e8c2b2b889574251e7efbfdbf29a2b4e978e44e94a5bb7219edc04e65f6bd"
+    },
+    "formatos": {
+      "https://www1.udesc.br/arquivos/id_submenu/899/cor_vertical_pdf.pdf": "pdf"
+    },
+    "arquivos": [
+      "udesc.png",
+      "udesc-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UECE": {
+    "urls": {
+      "selo": "https://www.uece.br/wp-content/uploads/2023/11/LogoUeceVerticalAltaResolu%C3%A7%C3%A3o-e1700675467882.png",
+      "marca": "https://www.uece.br/wp-content/uploads/2023/11/LogoUeceVerticalAltaResolu%C3%A7%C3%A3o-e1700675467882.png"
+    },
+    "hashes": {
+      "https://www.uece.br/wp-content/uploads/2023/11/LogoUeceVerticalAltaResolu%C3%A7%C3%A3o-e1700675467882.png": "0fac37410dd171c60d42a1c74f8498439442e1d5bd897c0b3d6ec33d384a527b"
+    },
+    "formatos": {
+      "https://www.uece.br/wp-content/uploads/2023/11/LogoUeceVerticalAltaResolu%C3%A7%C3%A3o-e1700675467882.png": "png"
+    },
+    "arquivos": [
+      "uece.png",
+      "uece-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UEG": {
+    "urls": {
+      "selo": "https://commons.wikimedia.org/wiki/Special:FilePath/Marca_UEG_horizontal_extenso_cromia(1).png",
+      "marca": "https://commons.wikimedia.org/wiki/Special:FilePath/Marca_UEG_horizontal_extenso_cromia(1).png",
+      "compor": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Marca_UEG_horizontal_extenso_cromia(1).png",
+        "simbolo": [
+          0.0033,
+          0,
+          0.3177,
+          0.9891
+        ],
+        "texto": [
+          0.3478,
+          0.2065,
+          1,
+          0.7283
+        ]
+      }
+    },
+    "hashes": {
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Marca_UEG_horizontal_extenso_cromia(1).png": "f06041153320d446f3f50b756c950a4369566f4a7b7693485705730e86099074"
+    },
+    "formatos": {
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Marca_UEG_horizontal_extenso_cromia(1).png": "png"
+    },
+    "arquivos": [
+      "ueg.png",
+      "ueg-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UEL": {
+    "urls": {
+      "selo": "https://portal.uel.br/wp-content/themes/portal-wordpress-uel/assets/Logo%20Color%20Vertical.png",
+      "marca": "https://portal.uel.br/wp-content/themes/portal-wordpress-uel/assets/Logo%20Color%20Vertical.png"
+    },
+    "hashes": {
+      "https://portal.uel.br/wp-content/themes/portal-wordpress-uel/assets/Logo%20Color%20Vertical.png": "500c1fb359c10a2211f543c947aa4a0419c0cb2a9e09a79ce979a35f90fe96e6"
+    },
+    "formatos": {
+      "https://portal.uel.br/wp-content/themes/portal-wordpress-uel/assets/Logo%20Color%20Vertical.png": "png"
+    },
+    "arquivos": [
+      "uel.png",
+      "uel-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UEM": {
+    "urls": {
+      "selo": "https://www.cpr.uem.br/index.php/logotipos?task=download&file=logotipo_png&id=886",
+      "marca": "https://www.cpr.uem.br/index.php/logotipos?task=download&file=logotipo_png&id=886"
+    },
+    "hashes": {
+      "https://www.cpr.uem.br/index.php/logotipos?task=download&file=logotipo_png&id=886": "97a883f9df44389f80dc783bdc85aca29359e65218b0c0c8150715ea90d62020"
+    },
+    "formatos": {
+      "https://www.cpr.uem.br/index.php/logotipos?task=download&file=logotipo_png&id=886": "png"
+    },
+    "arquivos": [
+      "uem.png",
+      "uem-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UEMA": {
+    "urls": {
+      "selo": "https://dados.uema.br/wp-content/uploads/2023/12/Brasao_UEMA_vertical.png",
+      "marca": "https://dados.uema.br/wp-content/uploads/2023/12/Brasao_UEMA_vertical.png"
+    },
+    "hashes": {
+      "https://dados.uema.br/wp-content/uploads/2023/12/Brasao_UEMA_vertical.png": "cbc5fdc0ecc307f019e4f70cc9f0631892151193deb9df8d99616c56f1f198db"
+    },
+    "formatos": {
+      "https://dados.uema.br/wp-content/uploads/2023/12/Brasao_UEMA_vertical.png": "png"
+    },
+    "arquivos": [
+      "uema.png",
+      "uema-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UEMASUL": {
+    "urls": {
+      "selo": "https://drive.google.com/uc?export=download&id=1kZw5j2c4Uzjr3PwYaYd2Z8FS5lIUV8IP",
+      "marca": "https://drive.google.com/uc?export=download&id=1kZw5j2c4Uzjr3PwYaYd2Z8FS5lIUV8IP"
+    },
+    "hashes": {
+      "https://drive.google.com/uc?export=download&id=1kZw5j2c4Uzjr3PwYaYd2Z8FS5lIUV8IP": "9d67c6c067e7029a184a02d19fedb90eef522b0fe25f2df7937f642c14b2a1f3"
+    },
+    "formatos": {
+      "https://drive.google.com/uc?export=download&id=1kZw5j2c4Uzjr3PwYaYd2Z8FS5lIUV8IP": "png"
+    },
+    "arquivos": [
+      "uemasul.png",
+      "uemasul-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UEMG": {
+    "urls": {
+      "selo": "https://www.uemg.br/component/phocadownload/category/3313-identidade-visual-da-uemg?download=17536%3Auemg-vertical-e-horizontal",
+      "marca": "https://www.uemg.br/component/phocadownload/category/3313-identidade-visual-da-uemg?download=17536%3Auemg-vertical-e-horizontal"
+    },
+    "hashes": {
+      "https://www.uemg.br/component/phocadownload/category/3313-identidade-visual-da-uemg?download=17536%3Auemg-vertical-e-horizontal": "a566a3cb1e42441c88084d881aa20f71f6a2fa713ec5351090152110d5a7167f"
+    },
+    "formatos": {
+      "https://www.uemg.br/component/phocadownload/category/3313-identidade-visual-da-uemg?download=17536%3Auemg-vertical-e-horizontal": "pdf"
+    },
+    "arquivos": [
+      "uemg.png",
+      "uemg-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UENF": {
+    "urls": {
+      "selo": "https://commons.wikimedia.org/wiki/Special:FilePath/LogotipoUenf_vertical.jpg",
+      "marca": "https://commons.wikimedia.org/wiki/Special:FilePath/LogotipoUenf_vertical.jpg"
+    },
+    "hashes": {
+      "https://commons.wikimedia.org/wiki/Special:FilePath/LogotipoUenf_vertical.jpg": "86080e3a7ce045ce4a63b756c4421da1d37ca54a8fd973322f9f6dba33c1e956"
+    },
+    "formatos": {
+      "https://commons.wikimedia.org/wiki/Special:FilePath/LogotipoUenf_vertical.jpg": "jpg"
+    },
+    "arquivos": [
+      "uenf.png",
+      "uenf-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UENP": {
+    "urls": {
+      "selo": "https://uenp.edu.br/images/logouenp.png",
+      "marca": "https://uenp.edu.br/images/logouenp.png"
+    },
+    "hashes": {
+      "https://uenp.edu.br/images/logouenp.png": "6969fed05bb91005dd0fa6d3e0d020722ab0c10ed19dfa8647392288e6f3ca09"
+    },
+    "formatos": {
+      "https://uenp.edu.br/images/logouenp.png": "png"
+    },
+    "arquivos": [
+      "uenp.png",
+      "uenp-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UERGS": {
+    "urls": {
+      "selo": "https://uergs.edu.br/upload/arquivos/201611/23155339-uergs-logotipo-vertical-verde.png",
+      "marca": "https://uergs.edu.br/upload/arquivos/201611/23155339-uergs-logotipo-vertical-verde.png"
+    },
+    "hashes": {
+      "https://uergs.edu.br/upload/arquivos/201611/23155339-uergs-logotipo-vertical-verde.png": "6eaecd92b5c942fdcb6bff532462d1440a6ba976e4aa95e016f5eccf04a1909e"
+    },
+    "formatos": {
+      "https://uergs.edu.br/upload/arquivos/201611/23155339-uergs-logotipo-vertical-verde.png": "png"
+    },
+    "arquivos": [
+      "uergs.png",
+      "uergs-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UERN": {
+    "urls": {
+      "selo": "https://commons.wikimedia.org/wiki/Special:FilePath/UERN_Brasao.png",
+      "marca": "https://commons.wikimedia.org/wiki/Special:FilePath/UERN_Brasao.png"
+    },
+    "hashes": {
+      "https://commons.wikimedia.org/wiki/Special:FilePath/UERN_Brasao.png": "3798caae339ca6ee5a634bd799a6e17ba60e8a7cfb22b58bd25542da13628682"
+    },
+    "formatos": {
+      "https://commons.wikimedia.org/wiki/Special:FilePath/UERN_Brasao.png": "png"
+    },
+    "arquivos": [
+      "uern.png",
+      "uern-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UERR": {
+    "urls": {
+      "selo": "https://www.uerr.edu.br/wp-content/uploads/2018/03/logo-brasao-uerr.png",
+      "marca": "https://www.uerr.edu.br/wp-content/uploads/2018/03/logo-brasao-uerr.png"
+    },
+    "hashes": {
+      "https://www.uerr.edu.br/wp-content/uploads/2018/03/logo-brasao-uerr.png": "d9ca760e4e3d431de1889a487668bb280eed6c0d1ee50e91f1397b3d5ff4cc49"
+    },
+    "formatos": {
+      "https://www.uerr.edu.br/wp-content/uploads/2018/03/logo-brasao-uerr.png": "png"
+    },
+    "arquivos": [
+      "uerr.png",
+      "uerr-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UESB": {
+    "urls": {
+      "selo": "https://commons.wikimedia.org/wiki/Special:FilePath/Brasão-uesb.jpg",
+      "marca": "https://commons.wikimedia.org/wiki/Special:FilePath/Brasão-uesb.jpg"
+    },
+    "hashes": {
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Brasão-uesb.jpg": "eb5cc03c0778a3b75eb406f706a03547679812919ddc349aacfea2f31c009838"
+    },
+    "formatos": {
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Brasão-uesb.jpg": "jpg"
+    },
+    "arquivos": [
+      "uesb.png",
+      "uesb-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UFAC": {
+    "urls": {
+      "selo": "https://www.ufac.br/site/ufac/institucional/assessoria-de-comunicacao-social/manual-de-marca/brasao.pdf",
+      "marca": "https://www.ufac.br/site/ufac/institucional/assessoria-de-comunicacao-social/manual-de-marca/brasao.pdf"
+    },
+    "hashes": {
+      "https://www.ufac.br/site/ufac/institucional/assessoria-de-comunicacao-social/manual-de-marca/brasao.pdf": "d3793511589c5c6b0a1d5b91850d34508751e618bc48ecc25dea89b5d77ed8aa"
+    },
+    "formatos": {
+      "https://www.ufac.br/site/ufac/institucional/assessoria-de-comunicacao-social/manual-de-marca/brasao.pdf": "pdf"
+    },
+    "arquivos": [
+      "ufac.png",
+      "ufac-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UFAL": {
+    "urls": {
+      "selo": "https://ufal.br/++theme++ufal.tema.tematico/++theme++ufal.tema.tematico/imgs/brasao-ufal.svg",
+      "marca": "https://ufal.br/++theme++ufal.tema.tematico/++theme++ufal.tema.tematico/imgs/brasao-ufal.svg"
+    },
+    "hashes": {
+      "https://ufal.br/++theme++ufal.tema.tematico/++theme++ufal.tema.tematico/imgs/brasao-ufal.svg": "4bfe864cff5bfe77cffc6a823ff7e5a15d5c2bf23e740f0401d276b5988a6fe3"
+    },
+    "formatos": {
+      "https://ufal.br/++theme++ufal.tema.tematico/++theme++ufal.tema.tematico/imgs/brasao-ufal.svg": "svg"
+    },
+    "arquivos": [
+      "ufal.png",
+      "ufal.svg",
+      "ufal-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UFAPE": {
+    "urls": {
+      "selo": "https://ufape.edu.br/sites/default/files/arquivos/a%29%20Proposta%20de%20Bras%C3%A3o_0.png",
+      "marca": "https://ufape.edu.br/sites/default/files/arquivos/a%29%20Proposta%20de%20Bras%C3%A3o_0.png"
+    },
+    "hashes": {
+      "https://ufape.edu.br/sites/default/files/arquivos/a%29%20Proposta%20de%20Bras%C3%A3o_0.png": "8e6ea42aa842eb719d2b8e70551ab525ed87313ead38e6bb863fc1fcfe44acf3"
+    },
+    "formatos": {
+      "https://ufape.edu.br/sites/default/files/arquivos/a%29%20Proposta%20de%20Bras%C3%A3o_0.png": "png"
+    },
+    "arquivos": [
+      "ufape.png",
+      "ufape-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UFC": {
+    "urls": {
+      "selo": "https://ufc2012.ufc.br/images/_images/a_universidade/identidade_visual/brasao/brasao2_vertical_cor.pdf",
+      "marca": "https://ufc2012.ufc.br/images/_images/a_universidade/identidade_visual/brasao/brasao2_vertical_cor.pdf"
+    },
+    "hashes": {
+      "https://ufc2012.ufc.br/images/_images/a_universidade/identidade_visual/brasao/brasao2_vertical_cor.pdf": "e354fa74da3af91bad9bea94654b9e4e7f5695d8fcc2b690c0b7f59aa49abd88"
+    },
+    "formatos": {
+      "https://ufc2012.ufc.br/images/_images/a_universidade/identidade_visual/brasao/brasao2_vertical_cor.pdf": "pdf"
+    },
+    "arquivos": [
+      "ufc.png",
+      "ufc-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UFCA": {
+    "urls": {
+      "selo": "https://www.ufca.edu.br/portal/wp-content/uploads/2024/06/cropped-brasao-portal-270x270.png",
+      "marca": "https://www.ufca.edu.br/portal/wp-content/uploads/2024/06/cropped-brasao-portal-270x270.png"
+    },
+    "hashes": {
+      "https://www.ufca.edu.br/portal/wp-content/uploads/2024/06/cropped-brasao-portal-270x270.png": "f70b465ddb4801ecbc689f12caa48256d8ca8f1ebf344d4fc16de79e3915c3e7"
+    },
+    "formatos": {
+      "https://www.ufca.edu.br/portal/wp-content/uploads/2024/06/cropped-brasao-portal-270x270.png": "png"
+    },
+    "arquivos": [
+      "ufca.png",
+      "ufca-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UFCG": {
+    "urls": {
+      "selo": "https://www.cdsa.ufcg.edu.br/home/arq/logomarca/logo_atual/UFCG-Central.png",
+      "marca": "https://www.cdsa.ufcg.edu.br/home/arq/logomarca/logo_atual/UFCG-Central.png"
+    },
+    "hashes": {
+      "https://www.cdsa.ufcg.edu.br/home/arq/logomarca/logo_atual/UFCG-Central.png": "08dbac5fb28f01267abb67e7bae4d2f121702b363787a6cba89e0195bdc3b5bf"
+    },
+    "formatos": {
+      "https://www.cdsa.ufcg.edu.br/home/arq/logomarca/logo_atual/UFCG-Central.png": "png"
+    },
+    "arquivos": [
+      "ufcg.png",
+      "ufcg-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UFCSPA": {
+    "urls": {
+      "selo": "https://ufcspa.edu.br/templates/ufcspa10-lib/images/logo-ufcspa.png",
+      "marca": "https://ufcspa.edu.br/templates/ufcspa10-lib/images/logo-ufcspa.png"
+    },
+    "hashes": {
+      "https://ufcspa.edu.br/templates/ufcspa10-lib/images/logo-ufcspa.png": "7a4712974055f6e9fe2c768e700b513df25d7d40716441f282a3384c9b838078"
+    },
+    "formatos": {
+      "https://ufcspa.edu.br/templates/ufcspa10-lib/images/logo-ufcspa.png": "png"
+    },
+    "arquivos": [
+      "ufcspa.png",
+      "ufcspa-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UFERSA": {
+    "urls": {
+      "selo": "http://assecom.ufersa.edu.br/wp-content/uploads/sites/24/2014/09/PNG-bras%C3%A3o-Ufersa.png",
+      "marca": "https://assecom.ufersa.edu.br/wp-content/uploads/sites/24/2018/01/assinatura_completa_cor_RGB.png"
+    },
+    "hashes": {
+      "http://assecom.ufersa.edu.br/wp-content/uploads/sites/24/2014/09/PNG-bras%C3%A3o-Ufersa.png": "ce33a1a8722a12f3436573ecacab6d3606be9ab121c4cafe06a73abeaa6114b1",
+      "https://assecom.ufersa.edu.br/wp-content/uploads/sites/24/2018/01/assinatura_completa_cor_RGB.png": "31681da6f76c4c729a35cfa94e5b0952dfe6199c52d64da707db3f2659a0b90e"
+    },
+    "formatos": {
+      "http://assecom.ufersa.edu.br/wp-content/uploads/sites/24/2014/09/PNG-bras%C3%A3o-Ufersa.png": "png",
+      "https://assecom.ufersa.edu.br/wp-content/uploads/sites/24/2018/01/assinatura_completa_cor_RGB.png": "png"
+    },
+    "arquivos": [
+      "ufersa.png",
+      "ufersa-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UFES": {
+    "urls": {
+      "selo": "https://ufes.br/sites/default/files/2024-03/marcarufes2_0.png",
+      "marca": "https://ufes.br/sites/default/files/2024-03/marcarufes2_0.png"
+    },
+    "hashes": {
+      "https://ufes.br/sites/default/files/2024-03/marcarufes2_0.png": "c9935fd3f1eb7d28f70f9ba46c5f049d5aac2b1dc6d46616a50c9bbd40911377"
+    },
+    "formatos": {
+      "https://ufes.br/sites/default/files/2024-03/marcarufes2_0.png": "png"
+    },
+    "arquivos": [
+      "ufes.png",
+      "ufes-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UFFS": {
+    "urls": {
+      "selo": "https://www.uffs.edu.br/uffs/img/logo-1.png",
+      "marca": "https://www.uffs.edu.br/uffs/img/logo-1.png",
+      "compor": {
+        "url": "https://www.uffs.edu.br/uffs/img/logo-1.png",
+        "simbolo": [
+          0,
+          0.0217,
+          0.2625,
+          1
+        ],
+        "texto": [
+          0.2875,
+          0.1304,
+          0.9938,
+          0.8913
+        ]
+      }
+    },
+    "hashes": {
+      "https://www.uffs.edu.br/uffs/img/logo-1.png": "12c2bcb89944b87f7d3c8ceae88e7e709981a8f40e213205a3c382ba66403b88"
+    },
+    "formatos": {
+      "https://www.uffs.edu.br/uffs/img/logo-1.png": "png"
+    },
+    "arquivos": [
+      "uffs.png",
+      "uffs-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UFG": {
+    "urls": {
+      "selo": "https://files.cercomp.ufg.br/weby/up/1/o/UFG_vertical_colorido.png",
+      "marca": "https://files.cercomp.ufg.br/weby/up/1/o/UFG_vertical_colorido.png"
+    },
+    "hashes": {
+      "https://files.cercomp.ufg.br/weby/up/1/o/UFG_vertical_colorido.png": "5f3f1b5e63424bbd76fbefd0ede05ce2b9bc9c74014c2e5b3e0e81b5c4d72a0d"
+    },
+    "formatos": {
+      "https://files.cercomp.ufg.br/weby/up/1/o/UFG_vertical_colorido.png": "png"
+    },
+    "arquivos": [
+      "ufg.png",
+      "ufg-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UFJ": {
+    "urls": {
+      "selo": "https://files.cercomp.ufg.br/weby/up/393/o/PNG_VERTICAL_COM_DESCRITOR.png",
+      "marca": "https://files.cercomp.ufg.br/weby/up/393/o/PNG_VERTICAL_COM_DESCRITOR.png"
+    },
+    "hashes": {
+      "https://files.cercomp.ufg.br/weby/up/393/o/PNG_VERTICAL_COM_DESCRITOR.png": "ead7b4111a3452dd33c581d4fb67bcebdb1966fa5735600fac4e696c566bc6a1"
+    },
+    "formatos": {
+      "https://files.cercomp.ufg.br/weby/up/393/o/PNG_VERTICAL_COM_DESCRITOR.png": "png"
+    },
+    "arquivos": [
+      "ufj.png",
+      "ufj-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UFLA": {
+    "urls": {
+      "selo": "http://www.ufla.br/ascom/wp-content/uploads/2014/06/logo-ufla.jpg",
+      "marca": "http://www.ufla.br/ascom/wp-content/uploads/2014/06/logo-ufla.jpg"
+    },
+    "hashes": {
+      "http://www.ufla.br/ascom/wp-content/uploads/2014/06/logo-ufla.jpg": "6b5afa284783a83a35518711a2c5265820c2b86050da91a84feb96235ac472c0"
+    },
+    "formatos": {
+      "http://www.ufla.br/ascom/wp-content/uploads/2014/06/logo-ufla.jpg": "jpg"
+    },
+    "arquivos": [
+      "ufla.png",
+      "ufla-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UFMA": {
+    "urls": {
+      "selo": "https://portalpadrao.ufma.br/site/institucional/superintendencias/sce/manual-da-marca/vertical-1.png",
+      "marca": "https://portalpadrao.ufma.br/site/institucional/superintendencias/sce/manual-da-marca/vertical-1.png"
+    },
+    "hashes": {
+      "https://portalpadrao.ufma.br/site/institucional/superintendencias/sce/manual-da-marca/vertical-1.png": "c3af01bc703a1b244af3108341c5edc31618669f27a8a2ffc75fff51bcb23d0c"
+    },
+    "formatos": {
+      "https://portalpadrao.ufma.br/site/institucional/superintendencias/sce/manual-da-marca/vertical-1.png": "png"
+    },
+    "arquivos": [
+      "ufma.png",
+      "ufma-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UFMS": {
+    "urls": {
+      "selo": "https://agecom.ufms.br/wp-content/themes/institucional-ufms-flat/img/logos/padrao.png",
+      "marca": "https://agecom.ufms.br/wp-content/themes/institucional-ufms-flat/img/logos/padrao.png"
+    },
+    "hashes": {
+      "https://agecom.ufms.br/wp-content/themes/institucional-ufms-flat/img/logos/padrao.png": "d26e3608c807880ab1569a8f4e855c352dfef9d38891b0c72ccc2795120aa184"
+    },
+    "formatos": {
+      "https://agecom.ufms.br/wp-content/themes/institucional-ufms-flat/img/logos/padrao.png": "png"
+    },
+    "arquivos": [
+      "ufms.png",
+      "ufms-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UFNT": {
+    "urls": {
+      "selo": "http://ufnt.edu.br/wp-content/uploads/2022/03/UFNT_logo-1024x633.png",
+      "marca": "http://ufnt.edu.br/wp-content/uploads/2022/03/UFNT_logo-1024x633.png"
+    },
+    "hashes": {
+      "http://ufnt.edu.br/wp-content/uploads/2022/03/UFNT_logo-1024x633.png": "3e2b1f29df06eb90a7485dcf921cb33bba99ed25051fffef73e0d2b7067062e7"
+    },
+    "formatos": {
+      "http://ufnt.edu.br/wp-content/uploads/2022/03/UFNT_logo-1024x633.png": "png"
+    },
+    "arquivos": [
+      "ufnt.png",
+      "ufnt-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UFOPA": {
+    "urls": {
+      "selo": "https://www.ufopa.edu.br/static/img/brasao.png",
+      "marca": "https://www.ufopa.edu.br/static/img/brasao.png"
+    },
+    "hashes": {
+      "https://www.ufopa.edu.br/static/img/brasao.png": "584101637f0ac0b19572fd4928c3d55d8df9313b845f082e2f323cdd06c18d43"
+    },
+    "formatos": {
+      "https://www.ufopa.edu.br/static/img/brasao.png": "png"
+    },
+    "arquivos": [
+      "ufopa.png",
+      "ufopa-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UFPA": {
+    "urls": {
+      "selo": "https://ascom.ufpa.br/documentos/UFPA.pdf",
+      "marca": "https://ascom.ufpa.br/documentos/UFPA.pdf"
+    },
+    "hashes": {
+      "https://ascom.ufpa.br/documentos/UFPA.pdf": "ec79af6c9e29600d9c5e020ef2fd6b26cebb33484cfa1ea1ad70173ab4598abf"
+    },
+    "formatos": {
+      "https://ascom.ufpa.br/documentos/UFPA.pdf": "pdf"
+    },
+    "arquivos": [
+      "ufpa.png",
+      "ufpa-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UFPB": {
+    "urls": {
+      "selo": "http://plone.ufpb.br/ufpb/menu/institucional/apresentacao/brasao-ufpb/brasao-colorido-vertical.svg",
+      "marca": "http://plone.ufpb.br/ufpb/menu/institucional/apresentacao/brasao-ufpb/brasao-colorido-vertical.svg"
+    },
+    "hashes": {
+      "http://plone.ufpb.br/ufpb/menu/institucional/apresentacao/brasao-ufpb/brasao-colorido-vertical.svg": "2fea37dee901c3572b8ae22c85b732449e2459273ff6aab6b8c9aaaeabc6f004"
+    },
+    "formatos": {
+      "http://plone.ufpb.br/ufpb/menu/institucional/apresentacao/brasao-ufpb/brasao-colorido-vertical.svg": "svg"
+    },
+    "arquivos": [
+      "ufpb.png",
+      "ufpb.svg",
+      "ufpb-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UFPel": {
+    "urls": {
+      "selo": "https://ccs2.ufpel.edu.br/wp/wp-content/uploads/2023/08/Escudo-Colorido-UFPEL_10042014.png",
+      "marca": "https://ccs2.ufpel.edu.br/wp/wp-content/uploads/2023/08/Escudo-Colorido-UFPEL_10042014.png"
+    },
+    "hashes": {
+      "https://ccs2.ufpel.edu.br/wp/wp-content/uploads/2023/08/Escudo-Colorido-UFPEL_10042014.png": "f96457158505712f812ccf9c219d775b3e6a399ab895731ad61a9bde5dcaf9c0"
+    },
+    "formatos": {
+      "https://ccs2.ufpel.edu.br/wp/wp-content/uploads/2023/08/Escudo-Colorido-UFPEL_10042014.png": "png"
+    },
+    "arquivos": [
+      "ufpel.png",
+      "ufpel-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UFRJ": {
+    "urls": {
+      "selo": "https://ufrj.br/wp-content/uploads/2024/01/ufrj-vertical-cor-cmyk-impressao.pdf",
+      "marca": "https://ufrj.br/wp-content/uploads/2024/01/ufrj-vertical-cor-cmyk-impressao.pdf"
+    },
+    "hashes": {
+      "https://ufrj.br/wp-content/uploads/2024/01/ufrj-vertical-cor-cmyk-impressao.pdf": "1f6c9a19791aa3193290210bd401bbccafbd44aa2c84f1ad96f4d76dcf2c3baa"
+    },
+    "formatos": {
+      "https://ufrj.br/wp-content/uploads/2024/01/ufrj-vertical-cor-cmyk-impressao.pdf": "pdf"
+    },
+    "arquivos": [
+      "ufrj.png",
+      "ufrj-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UFRN": {
+    "urls": {
+      "selo": "https://www.ufrn.br/resources/documentos/identidadevisual/brasao/brasao_flat.pdf",
+      "marca": "https://www.ufrn.br/resources/documentos/identidadevisual/brasao/brasao_flat.pdf"
+    },
+    "hashes": {
+      "https://www.ufrn.br/resources/documentos/identidadevisual/brasao/brasao_flat.pdf": "cb140a638463c6dd9db92c48104b5e4af7c90ede068a56da22e3d60f44f1860f"
+    },
+    "formatos": {
+      "https://www.ufrn.br/resources/documentos/identidadevisual/brasao/brasao_flat.pdf": "pdf"
+    },
+    "arquivos": [
+      "ufrn.png",
+      "ufrn-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UFRPE": {
+    "urls": {
+      "selo": "https://commons.wikimedia.org/wiki/Special:FilePath/Brasão_UFRPE.png",
+      "marca": "https://commons.wikimedia.org/wiki/Special:FilePath/Brasão_UFRPE.png"
+    },
+    "hashes": {
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Brasão_UFRPE.png": "d1683c157f2a98c87389d0ac7c61e6c964db08974e71b5b1531c52e6c982174f"
+    },
+    "formatos": {
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Brasão_UFRPE.png": "png"
+    },
+    "arquivos": [
+      "ufrpe.png",
+      "ufrpe-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UFRRJ": {
+    "urls": {
+      "selo": "https://institucional.ufrrj.br/ccs/files/2019/06/rural_logo_01.pdf",
+      "marca": "https://institucional.ufrrj.br/ccs/files/2019/06/rural_logo_01.pdf"
+    },
+    "hashes": {
+      "https://institucional.ufrrj.br/ccs/files/2019/06/rural_logo_01.pdf": "9b32f5004370173056374e07dac864e2ee8eb320f629bdfbac558cc97a943b53"
+    },
+    "formatos": {
+      "https://institucional.ufrrj.br/ccs/files/2019/06/rural_logo_01.pdf": "pdf"
+    },
+    "arquivos": [
+      "ufrrj.png",
+      "ufrrj-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UFSB": {
+    "urls": {
+      "selo": "http://ufsb.edu.br/wp-content/uploads/2015/06/Assinatura-Azul-UFSB-Oficial-Vertical-RGB7.jpg",
+      "marca": "http://ufsb.edu.br/wp-content/uploads/2015/06/Assinatura-Azul-UFSB-Oficial-Vertical-RGB7.jpg"
+    },
+    "hashes": {
+      "http://ufsb.edu.br/wp-content/uploads/2015/06/Assinatura-Azul-UFSB-Oficial-Vertical-RGB7.jpg": "e514ccc0f18d4b9ede17b87e4aac7dbc43f91da5a3c0161f44d3d6d9672a3338"
+    },
+    "formatos": {
+      "http://ufsb.edu.br/wp-content/uploads/2015/06/Assinatura-Azul-UFSB-Oficial-Vertical-RGB7.jpg": "jpg"
+    },
+    "arquivos": [
+      "ufsb.png",
+      "ufsb-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UFSC": {
+    "urls": {
+      "selo": "https://identidade.ufsc.br/files/2017/10/vertical_sigla_fundo_claro.png",
+      "marca": "https://identidade.ufsc.br/files/2017/10/vertical_sigla_fundo_claro.png"
+    },
+    "hashes": {
+      "https://identidade.ufsc.br/files/2017/10/vertical_sigla_fundo_claro.png": "5c38d1d691f2635b044bc1e9f7b58c51550c444d0247c515e19cf5b0f13d1ea0"
+    },
+    "formatos": {
+      "https://identidade.ufsc.br/files/2017/10/vertical_sigla_fundo_claro.png": "png"
+    },
+    "arquivos": [
+      "ufsc.png",
+      "ufsc-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UFSCar": {
+    "urls": {
+      "selo": "https://www.ccs.ufscar.br/arquivos/logotipo-pdf.pdf",
+      "marca": "https://www.ccs.ufscar.br/arquivos/logotipo-pdf.pdf"
+    },
+    "hashes": {
+      "https://www.ccs.ufscar.br/arquivos/logotipo-pdf.pdf": "e6ca1ca959eae60f7cefbd458595cd9ad85918e3be033125fc1482162586b52f"
+    },
+    "formatos": {
+      "https://www.ccs.ufscar.br/arquivos/logotipo-pdf.pdf": "pdf"
+    },
+    "arquivos": [
+      "ufscar.png",
+      "ufscar-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UFSM": {
+    "urls": {
+      "selo": "https://www.ufsm.br/app/uploads/2019/12/Bras%C3%A3o-vertical.png",
+      "marca": "https://www.ufsm.br/app/uploads/2019/12/Bras%C3%A3o-vertical.png"
+    },
+    "hashes": {
+      "https://www.ufsm.br/app/uploads/2019/12/Bras%C3%A3o-vertical.png": "461d783542a95f698832b5a7bece131bdc8ca6cab21dafbfa8def367b7d30f10"
+    },
+    "formatos": {
+      "https://www.ufsm.br/app/uploads/2019/12/Bras%C3%A3o-vertical.png": "png"
+    },
+    "arquivos": [
+      "ufsm.png",
+      "ufsm-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UFU": {
+    "urls": {
+      "selo": "https://ufu.br/themes/custom/ufu/logo.svg",
+      "marca": "https://ufu.br/themes/custom/ufu/logo.svg"
+    },
+    "hashes": {
+      "https://ufu.br/themes/custom/ufu/logo.svg": "3e711a9a718f3d80dc9cd8f78af842cbd2c5629340b910d816fcd7e124c7971c"
+    },
+    "formatos": {
+      "https://ufu.br/themes/custom/ufu/logo.svg": "svg"
+    },
+    "arquivos": [
+      "ufu.png",
+      "ufu.svg",
+      "ufu-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UFV": {
+    "urls": {
+      "selo": "https://commons.wikimedia.org/wiki/Special:FilePath/Brasão_oficial_da_Universidade_Federal_de_Viçosa.gif",
+      "marca": "https://commons.wikimedia.org/wiki/Special:FilePath/Brasão_oficial_da_Universidade_Federal_de_Viçosa.gif"
+    },
+    "hashes": {
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Brasão_oficial_da_Universidade_Federal_de_Viçosa.gif": "d699debf0562d2cc24643af4962d3ba0620e9f1005fbfeec077692bf4fa07353"
+    },
+    "formatos": {
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Brasão_oficial_da_Universidade_Federal_de_Viçosa.gif": "png"
+    },
+    "arquivos": [
+      "ufv.png",
+      "ufv-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UFVJM": {
+    "urls": {
+      "selo": "https://portal.ufvjm.edu.br/dicom/central-de-conteudo/identidade-visual/marcas-ufvjm/padrao/brasao-cmyk.png/@@images/db0207ac-c4bb-4dfc-9ce6-5d311f7ef914.png",
+      "marca": "https://portal.ufvjm.edu.br/dicom/central-de-conteudo/identidade-visual/marcas-ufvjm/padrao/brasao-cmyk.png/@@images/db0207ac-c4bb-4dfc-9ce6-5d311f7ef914.png"
+    },
+    "hashes": {
+      "https://portal.ufvjm.edu.br/dicom/central-de-conteudo/identidade-visual/marcas-ufvjm/padrao/brasao-cmyk.png/@@images/db0207ac-c4bb-4dfc-9ce6-5d311f7ef914.png": "e989f45cc2c6e43940e7cedb6acdbda6104332636f548a8993ddd38aacc48e57"
+    },
+    "formatos": {
+      "https://portal.ufvjm.edu.br/dicom/central-de-conteudo/identidade-visual/marcas-ufvjm/padrao/brasao-cmyk.png/@@images/db0207ac-c4bb-4dfc-9ce6-5d311f7ef914.png": "png"
+    },
+    "arquivos": [
+      "ufvjm.png",
+      "ufvjm-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UNESP": {
+    "urls": {
+      "selo": "https://www2.unesp.br/images/unesp-full-center.svg",
+      "marca": "https://www2.unesp.br/images/unesp-full-center.svg"
+    },
+    "hashes": {
+      "https://www2.unesp.br/images/unesp-full-center.svg": "3721296d9e7bc309383b8c47ccc1572341dec6021846e6fd667af2d3f92b63f0"
+    },
+    "formatos": {
+      "https://www2.unesp.br/images/unesp-full-center.svg": "svg"
+    },
+    "arquivos": [
+      "unesp.png",
+      "unesp.svg",
+      "unesp-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UNESPAR": {
+    "urls": {
+      "selo": "https://www.unespar.edu.br/logo.png",
+      "marca": "https://www.unespar.edu.br/logo.png"
+    },
+    "hashes": {
+      "https://www.unespar.edu.br/logo.png": "1819cf26dd802c479f9fc189018d4b87ca3d2fa97a1bbec6252c92d2ebde1ef4"
+    },
+    "formatos": {
+      "https://www.unespar.edu.br/logo.png": "png"
+    },
+    "arquivos": [
+      "unespar.png",
+      "unespar-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UNICAMP": {
+    "urls": {
+      "selo": "https://www.unicamp.br/wp-content/uploads/sites/33/2024/09/uec.svg",
+      "marca": "https://www.unicamp.br/wp-content/uploads/sites/33/2024/09/uec.svg"
+    },
+    "hashes": {
+      "https://www.unicamp.br/wp-content/uploads/sites/33/2024/09/uec.svg": "8ba669e03c3059ece9e6480bbfa1e3fa49e0a40432263073fd44d857780ff183"
+    },
+    "formatos": {
+      "https://www.unicamp.br/wp-content/uploads/sites/33/2024/09/uec.svg": "svg"
+    },
+    "arquivos": [
+      "unicamp.png",
+      "unicamp.svg",
+      "unicamp-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UNICENTRO": {
+    "urls": {
+      "selo": "https://drive.google.com/uc?export=download&id=1KB4SJSGOM16-TeKUMkK8ypwS5ZxEexsA",
+      "marca": "https://drive.google.com/uc?export=download&id=1KB4SJSGOM16-TeKUMkK8ypwS5ZxEexsA"
+    },
+    "hashes": {
+      "https://drive.google.com/uc?export=download&id=1KB4SJSGOM16-TeKUMkK8ypwS5ZxEexsA": "eb3333f05ee78654fb8a3f20ff19c3d8453913fbc052fb107baa7ed031b39319"
+    },
+    "formatos": {
+      "https://drive.google.com/uc?export=download&id=1KB4SJSGOM16-TeKUMkK8ypwS5ZxEexsA": "png"
+    },
+    "arquivos": [
+      "unicentro.png",
+      "unicentro-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UNIFAL-MG": {
+    "urls": {
+      "selo": "https://www.unifal-mg.edu.br/comunicacao/wp-content/uploads/sites/78/2019/02/logo-unifal.png",
+      "marca": "https://www.unifal-mg.edu.br/comunicacao/wp-content/uploads/sites/78/2019/02/logo-unifal.png"
+    },
+    "hashes": {
+      "https://www.unifal-mg.edu.br/comunicacao/wp-content/uploads/sites/78/2019/02/logo-unifal.png": "0b8c79883fbde1819ab0a8145647a4118b6ea7270f5eacd3020c5119a949b25a"
+    },
+    "formatos": {
+      "https://www.unifal-mg.edu.br/comunicacao/wp-content/uploads/sites/78/2019/02/logo-unifal.png": "png"
+    },
+    "arquivos": [
+      "unifal.png",
+      "unifal-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UNIFEI": {
+    "urls": {
+      "selo": "https://unifei.edu.br/wp-content/uploads/2022/08/cropped-logo-unifei-grande-270x270.png",
+      "marca": "https://unifei.edu.br/wp-content/uploads/2022/08/cropped-logo-unifei-grande-270x270.png"
+    },
+    "hashes": {
+      "https://unifei.edu.br/wp-content/uploads/2022/08/cropped-logo-unifei-grande-270x270.png": "6270d06fb8e045d89c631b7024199bec0e712a7b068695eb869b9a8da3c6bd68"
+    },
+    "formatos": {
+      "https://unifei.edu.br/wp-content/uploads/2022/08/cropped-logo-unifei-grande-270x270.png": "png"
+    },
+    "arquivos": [
+      "unifei.png",
+      "unifei-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UNILA": {
+    "urls": {
+      "selo": "https://portal.unila.edu.br/secom/arquivos/marca-unila-e-logos/roxotransparente-pt-3240x2196.png",
+      "marca": "https://portal.unila.edu.br/secom/arquivos/marca-unila-e-logos/roxotransparente-pt-3240x2196.png"
+    },
+    "hashes": {
+      "https://portal.unila.edu.br/secom/arquivos/marca-unila-e-logos/roxotransparente-pt-3240x2196.png": "760d1113fae15c99e15301ed49e562ff5b46ef8726fb64d37e166f21b51dadb0"
+    },
+    "formatos": {
+      "https://portal.unila.edu.br/secom/arquivos/marca-unila-e-logos/roxotransparente-pt-3240x2196.png": "png"
+    },
+    "arquivos": [
+      "unila.png",
+      "unila-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UNIRIO": {
+    "urls": {
+      "selo": "https://www.unirio.br/comunicacaosocial/arquivos/arquivos-iv-unirio/novologounirio.pdf",
+      "marca": "https://www.unirio.br/comunicacaosocial/arquivos/arquivos-iv-unirio/novologounirio.pdf"
+    },
+    "hashes": {
+      "https://www.unirio.br/comunicacaosocial/arquivos/arquivos-iv-unirio/novologounirio.pdf": "ead7f02fa5f82540b7950e38990a195cd6d1f1c7f9391a3faa5a706e0af58b21"
+    },
+    "formatos": {
+      "https://www.unirio.br/comunicacaosocial/arquivos/arquivos-iv-unirio/novologounirio.pdf": "pdf"
+    },
+    "arquivos": [
+      "unirio.png",
+      "unirio-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "URCA": {
+    "urls": {
+      "selo": "https://www.urca.br/wp-content/uploads/2021/06/brasao-urca.png",
+      "marca": "https://www.urca.br/wp-content/uploads/2021/06/brasao-urca.png"
+    },
+    "hashes": {
+      "https://www.urca.br/wp-content/uploads/2021/06/brasao-urca.png": "33b4f2bc2db2bd71c7b82f1b87f00570b474ab7cfba9c0e04f9e8dad46d6041a"
+    },
+    "formatos": {
+      "https://www.urca.br/wp-content/uploads/2021/06/brasao-urca.png": "png"
+    },
+    "arquivos": [
+      "urca.png",
+      "urca-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UTFPR": {
+    "urls": {
+      "selo": "https://www.utfpr.edu.br/comunicacao/design/marca-da-utfpr/utfpr-identidade-visual_versaousual.pdf/@@download/file",
+      "marca": "https://www.utfpr.edu.br/comunicacao/design/marca-da-utfpr/utfpr-identidade-visual_versaousual.pdf/@@download/file"
+    },
+    "hashes": {
+      "https://www.utfpr.edu.br/comunicacao/design/marca-da-utfpr/utfpr-identidade-visual_versaousual.pdf/@@download/file": "c5cd97d3d79fe14d3e6e7cdd3e86e49b4d770526a153f45d62190d23bc817ebf"
+    },
+    "formatos": {
+      "https://www.utfpr.edu.br/comunicacao/design/marca-da-utfpr/utfpr-identidade-visual_versaousual.pdf/@@download/file": "pdf"
+    },
+    "arquivos": [
+      "utfpr.png",
+      "utfpr-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UVA": {
+    "urls": {
+      "selo": "https://www.uva.ce.gov.br/wp-content/uploads/sites/143/2025/03/brasao-uva-oficial-horizontal.png",
+      "marca": "https://www.uva.ce.gov.br/wp-content/uploads/sites/143/2025/03/brasao-uva-oficial-horizontal.png",
+      "compor": {
+        "url": "https://www.uva.ce.gov.br/wp-content/uploads/sites/143/2025/03/brasao-uva-oficial-horizontal.png",
+        "simbolo": [
+          0,
+          0,
+          0.2531,
+          1
+        ],
+        "texto": [
+          0.2906,
+          0.3534,
+          1,
+          0.6897
+        ]
+      }
+    },
+    "hashes": {
+      "https://www.uva.ce.gov.br/wp-content/uploads/sites/143/2025/03/brasao-uva-oficial-horizontal.png": "ed63597cd9f7700837d6b1a881657e617739dc5cc09c33ffdcd79fc45963dab3"
+    },
+    "formatos": {
+      "https://www.uva.ce.gov.br/wp-content/uploads/sites/143/2025/03/brasao-uva-oficial-horizontal.png": "png"
+    },
+    "arquivos": [
+      "uva.png",
+      "uva-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  },
+  "UnB": {
+    "urls": {
+      "selo": "https://marca.unb.br/arquivosdigitais/files/assinaturas/ass_cor/vert_cor/as_vert_cor_pdf.zip",
+      "marca": "https://marca.unb.br/arquivosdigitais/files/assinaturas/ass_cor/vert_cor/as_vert_cor_pdf.zip"
+    },
+    "hashes": {
+      "https://marca.unb.br/arquivosdigitais/files/assinaturas/ass_cor/vert_cor/as_vert_cor_pdf.zip": "f6a1037f51f77429f025aa005825f56a5f6b2c5159660205ed8146bbc953ff5a"
+    },
+    "formatos": {
+      "https://marca.unb.br/arquivosdigitais/files/assinaturas/ass_cor/vert_cor/as_vert_cor_pdf.zip": "pdf"
+    },
+    "arquivos": [
+      "unb.png",
+      "unb-marca.png"
+    ],
+    "processado_em": "2026-10-28"
+  }
+}
