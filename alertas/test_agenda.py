@@ -894,5 +894,155 @@ class TextoLongoDoSorteioEDosPortoes(unittest.TestCase):
         self.assertNotIn("...", t)
 
 
+# ---------------------------------------------------------------- conferência dos alertas de 27/10/2026
+
+class PrazoRelativoComAncoraDatada(unittest.TestCase):
+    """UFTM 28 (títulos até 24 horas depois do resultado da didática) e UFRGS 09 (título e resumo até 4 dias antes do
+    Ato de Instalação): prazo relativo cuja âncora já tem data fixa sai com a data, dizendo que é a conta do edital."""
+    RES = {"tipo_evento": "resultado", "etapa_ref": "didatica", "fase": "preliminar",
+           "descricao_literal": "Divulgação do resultado da prova didática", "data": fx("2026-10-27", "17:00")}
+    TIT = {"tipo_evento": "entrega_documento", "etapa_ref": "titulos", "descricao_literal": "Anexar os títulos em até 24 horas",
+           "data": {"forma": "relativa", "quantidade": 24, "unidade": "horas", "evento_ancora": "resultado (didatica)", "sentido": "apos"}}
+
+    def test_conta_em_horas_vira_limite_com_hora(self):
+        d, cobre = A.resolver_relativas([dict(self.RES, id="ev-0001", estado="vigente", escopo=["02"]),
+                                         dict(self.TIT, id="ev-0002", estado="vigente", escopo="geral")], {"02": "x"}, H)
+        self.assertEqual(len(d), 1)
+        self.assertEqual(d[0]["data"]["data"], "2026-10-28")
+        self.assertEqual(d[0]["data"]["hora"], "17:00")
+        self.assertEqual(d[0]["escopo"], ["02"])
+        t = A.texto_ev(d[0], H)
+        self.assertTrue(t.startswith("até 28/10/2026 (quarta), 17:00"), t)
+        self.assertIn("conta do edital: 24 horas depois do resultado preliminar da prova didática", t)
+
+    def test_mensagem_da_vespera_leva_o_prazo(self):
+        m = rodar_msgs([dict(self.RES, escopo=["02"]), self.TIT], dt.date(2026, 10, 27), dt.date(2026, 10, 26), vagas=["02"], triagem=[])
+        self.assertIn("28/10/2026 (quarta), até 17:00: último dia: Anexar os títulos em até 24 horas (é amanhã)", m["02"])
+
+    def test_dias_antes_de_evento_pelo_id_com_23h59(self):
+        inst = {"id": "ev-0192", "estado": "vigente", "escopo": ["05"], "tipo_evento": "outro",
+                "descricao_literal": "Ato de Instalação do Concurso (art. 21), sessão obrigatória", "data": fx("2026-11-16", "08:00")}
+        env = {"id": "ev-0191", "estado": "vigente", "escopo": ["05"], "tipo_evento": "entrega_documento",
+               "descricao_literal": "Envio do Título e Resumo da Prova, com término às 23h59min do último dia do prazo",
+               "data": {"forma": "relativa", "quantidade": 4, "unidade": "dias_corridos", "sentido": "antes",
+                        "evento_ancora": "início do concurso, no Ato de Instalação (outro, ev-0192)"}}
+        d, _ = A.resolver_relativas([inst, env], {"05": "x"}, H)
+        self.assertEqual((d[0]["data"]["data"], d[0]["data"]["hora"]), ("2026-11-12", "23:59"))
+        self.assertIn("4 dias antes do evento “Ato de Instalação do Concurso”", d[0]["_conta"])
+
+    def test_sem_conta_quando_nao_ha_certeza(self):
+        base = [dict(self.RES, id="ev-0001", estado="vigente", escopo="geral"),
+                dict(self.RES, id="ev-0003", estado="vigente", escopo="geral", data=fx("2026-10-29", "17:00"))]
+        d, _ = A.resolver_relativas(base + [dict(self.TIT, id="ev-0002", estado="vigente", escopo="geral")], {}, H)
+        self.assertEqual(d, [])  # duas datas da âncora
+        uteis = dict(self.TIT, id="ev-0002", estado="vigente", escopo="geral",
+                     data=dict(self.TIT["data"], unidade="dias_uteis", quantidade=2))
+        self.assertEqual(A.resolver_relativas(base[:1] + [uteis], {}, H)[0], [])  # dia útil depende de feriado
+        sessao = dict(self.TIT, id="ev-0002", estado="vigente", escopo="geral",
+                      data=dict(self.TIT["data"], evento_ancora="confinamento (didatica)", sentido="antes", quantidade=1))
+        conf = {"id": "ev-0009", "estado": "vigente", "escopo": "geral", "tipo_evento": "confinamento", "descricao_literal": "Confinamento",
+                "data": fx("2026-10-30", "08:00")}
+        self.assertEqual(A.resolver_relativas([conf, sessao], {}, H)[0], [])  # sessão por turma: só com o id
+        self.assertIsNone(A.ancora_de("publicação do resultado (procedimento_cotas, pcd)"))
+
+    def test_data_calculada_nova_avisa_uma_vez(self):
+        inst = {"tipo_evento": "outro", "escopo": ["07"], "id": "ev-0100",
+                "descricao_literal": "Ato de Instalação do Concurso", "data": fx("2026-11-03", "12:30")}
+        env = {"tipo_evento": "entrega_documento", "escopo": ["07"], "descricao_literal": "Envio do Título e Resumo, até 23h59",
+               "data": {"forma": "relativa", "quantidade": 4, "unidade": "dias_corridos", "sentido": "antes",
+                        "evento_ancora": "início do concurso (outro, ev-0100)"}}
+        m = rodar_msgs([inst, env], dt.date(2026, 10, 28), dt.date(2026, 10, 27), vagas=["07"], triagem=[])
+        self.assertIn("30/10/2026 (sexta), até 23:59: último dia: Envio do Título e Resumo, até 23h59 (faltam 2 dias)", m["07"])
+
+
+class Conferencia2710(unittest.TestCase):
+    def test_sessao_nao_publica_fica_fora_do_documento_novo(self):  # UFRGS 09, Direito
+        tri = [{"sha256": "x", "caminho": "d.pdf", "tipo": "cronograma", "data_publicacao": {"valor": "2026-10-22"}}]
+        evs = [{"tipo_evento": "prova", "etapa_ref": "titulos", "descricao_literal": "Sessão de Avaliação do Exame de Títulos, sessão não pública",
+                "data": fx("2026-11-30", "18:10"), "fonte": {"documento": "d.pdf"}},
+               {"tipo_evento": "prova", "etapa_ref": "didatica", "descricao_literal": "Sessão da Prova Didática, pública",
+                "data": fx("2026-11-30", "07:30"), "fonte": {"documento": "d.pdf"}}]
+        m = rodar_msgs(evs, dt.date(2026, 10, 27), dt.date(2026, 10, 26), triagem=tri)[None]
+        self.assertIn("Sessão da Prova Didática", m)
+        self.assertNotIn("não pública", m)
+
+    def test_cronograma_de_provas_ja_feitas_nao_e_noticia(self):  # UFBA 06, Eletrotécnica
+        tri = [{"sha256": "x", "caminho": "c.pdf", "tipo": "cronograma", "data_publicacao": {"valor": "2026-10-21"}}]
+        evs = [{"tipo_evento": "prova", "etapa_ref": "escrita", "descricao_literal": "Prova escrita", "data": fx("2026-10-20"),
+                "fonte": {"documento": "c.pdf"}}]
+        m = rodar_msgs(evs, dt.date(2026, 10, 27), dt.date(2026, 10, 26), triagem=tri)
+        self.assertFalse(any("Saiu o cronograma" in x for x in m.values()), m)
+
+    def test_relacao_provisoria_nao_e_resultado_final(self):  # UNILA 204, área 03
+        tri = [{"sha256": "x", "caminho": "resultado_provisorio_22-10-2026.pdf", "tipo": "resultado_final", "data_publicacao": {"valor": "2026-10-23"}}]
+        m = rodar_msgs([], dt.date(2026, 10, 27), dt.date(2026, 10, 26), triagem=tri)[None]
+        self.assertIn("Saiu o resultado provisório", m)
+        self.assertNotIn("resultado final", m)
+
+    def test_resultado_final_no_dia_do_preliminar_e_provisorio(self):
+        tri = [{"sha256": "x", "caminho": "planilha.pdf", "tipo": "resultado_final", "data_publicacao": {"valor": "2026-10-23"}}]
+        evs = [{"tipo_evento": "resultado_final", "fase": "preliminar", "descricao_literal": "Divulgação do Resultado Provisório",
+                "data": fx("2026-10-23")}]
+        m = rodar_msgs(evs, dt.date(2026, 10, 27), dt.date(2026, 10, 26), triagem=tri)[None]
+        self.assertIn("Saiu o resultado provisório", m)
+
+    def test_lista_da_vaga_especial_e_so_cota(self):  # IFMG 607
+        cam = "lista-pn.pdf"
+        tri = [{"sha256": "x", "caminho": cam, "tipo": "homologados_final", "data_publicacao": {"valor": "2026-10-22"}}]
+        reg = {"u": {"caminho": cam, "status": "enviado", "primeira_vez": "2026-10-23 07:00:00",
+                     "texto": "22/10/2026 LISTA DE INSCRITOS PARA PARTICIPAR DA VAGA ESPECIAL PARA PESSOAS NEGRAS - PN", "concursos": {"t": {}}}}
+        with tempfile.TemporaryDirectory() as v:
+            os.makedirs(os.path.join(v, "extracoes", "t")); os.makedirs(os.path.join(v, "_vigia"))
+            json.dump({"sigla": "TESTE", "eventos": []}, open(os.path.join(v, "extracoes", "t", "concurso-t.json"), "w"))
+            json.dump(tri, open(os.path.join(v, "extracoes", "t", "triagem-t.json"), "w"))
+            json.dump({"docs": reg}, open(os.path.join(v, "_vigia", "registro.json"), "w"))
+            _, _, avisos, _, _, _ = A.executar(v, dt.date(2026, 10, 27), {"gerado_em": "2026-10-26", "concursos": {"t": {"docs": {}, "eventos": {}}}})
+        its = avisos[("t", None)]
+        self.assertEqual([x["texto"] for x in its], ["saiu uma lista de inscritos para as vagas reservadas"])
+        self.assertTrue(its[0].get("so_cota"))
+
+    def test_link_edital_de_abertura_em_outro_documento(self):  # UFMG 1638
+        tri = {"c.pdf": {"tipo": "convocacao", "numero_literal": {"valor": "Edital nº 2261/2026"}}}
+        reg = {"c.pdf": {"texto": "Edital de Abertura do Concurso"}}
+        self.assertEqual(A.titulo_doc("c.pdf", tri, reg), "Edital nº 2261/2026")
+        tri2 = {"e.pdf": {"tipo": "edital_abertura", "numero_literal": {"valor": "Edital nº 1638"}}}
+        self.assertEqual(A.titulo_doc("e.pdf", tri2, {"e.pdf": {"texto": "Edital de Abertura do Concurso"}}), "Edital de Abertura do Concurso")
+
+    def test_fuso_pelo_que_o_edital_diz(self):  # IFMT 03, item 1.7
+        c = {"eventos": [{"descricao_literal": "Recurso. Horário de Cuiabá (MT): pelo item 1.7 do edital, toda menção de horário"}]}
+        self.assertEqual(A.referencia_horaria(c), "local")
+        self.assertEqual(A.referencia_horaria({"eventos": [{"descricao_literal": "início às 9h, horário oficial de Brasília"}]}), "brasilia")
+        self.assertIsNone(A.referencia_horaria({"eventos": []}))
+
+    def test_retencao_de_uma_area_nao_tira_o_complemento_das_outras(self):  # UFBA 06, área 19
+        evs = [{"id": "ev-0001", "estado": "vigente", "escopo": ["19"], "tipo_evento": "sorteio_tema", "etapa_ref": "didatica",
+                "descricao_literal": "Sorteio do ponto da Prova Didática", "data": jan("2026-10-31", "2026-10-31", "07:10", "08:10")},
+               {"id": "ev-0002", "estado": "vigente", "escopo": ["19"], "tipo_evento": "entrega_documento", "etapa_ref": "didatica",
+                "descricao_literal": "Entrega, por cada candidato, no horário do sorteio do seu ponto, do plano de aula",
+                "data": jan("2026-10-31", "2026-10-31", "07:10", "08:10")},
+               {"id": "ev-0003", "estado": "vigente", "escopo": ["17"], "tipo_evento": "prova", "etapa_ref": "escrita",
+                "descricao_literal": "Prova escrita", "data": fx("2026-10-31")}]
+        vagas = [{"codigo": {"numero": "19"}, "area_conhecimento": "Cirurgia Torácica"},
+                 {"codigo": {"numero": "17"}, "area_conhecimento": "Sociologia das desigualdades sociais"}]
+        with tempfile.TemporaryDirectory() as v:
+            os.makedirs(os.path.join(v, "extracoes", "t")); os.makedirs(os.path.join(v, "_vigia"))
+            json.dump({"sigla": "TESTE", "eventos": evs, "vagas": vagas}, open(os.path.join(v, "extracoes", "t", "concurso-t.json"), "w"))
+            json.dump({"docs": {"u": {"status": "enviado", "tipo_provavel": "retificacao", "texto": "Sociologia das Desigualdades Sociais",
+                                      "caminho": "documentos/t/r.pdf", "primeira_vez": "2026-10-26 07:00:00", "concursos": {"t": {}}}}},
+                      open(os.path.join(v, "_vigia", "registro.json"), "w"))
+            _, _, avisos, _, _, _ = A.executar(v, dt.date(2026, 10, 24), {"gerado_em": "2026-10-23", "concursos": {}})
+        textos = [x["texto"] for x in avisos.get(("t", "19"), [])]
+        self.assertTrue(any("Sorteio do ponto" in x for x in textos), textos)
+        self.assertTrue(any("Entrega, por cada candidato" in x for x in textos), textos)
+        self.assertFalse(avisos.get(("t", "17")))
+
+    def test_compromisso_de_hoje_cedo_nao_entra(self):  # UFBA 06, área 12, rodada das 13h12
+        evs = [{"tipo_evento": "sorteio_ordem", "descricao_literal": "Sorteio da ordem, presença obrigatória", "data": fx("2026-10-28", "08:00")},
+               {"tipo_evento": "sorteio_ordem", "descricao_literal": "Sorteio da ordem do memorial, presença obrigatória", "data": fx("2026-10-29", "08:00")}]
+        m = rodar_msgs(evs, dt.date(2026, 10, 28), dt.date(2026, 10, 27))[None]
+        self.assertIn("29/10/2026", m)
+        self.assertNotIn("28/10/2026 (quarta), às 08:00", m)
+
+
 if __name__ == "__main__":
     unittest.main()

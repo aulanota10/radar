@@ -76,6 +76,10 @@ ELIMINA = re.compile(r"elimina(?!t[óo]ri)|obrigat[óo]ri|presen[çc]a", re.I)  
 DIAS_PRAZO_PROXIMO = 1
 # sessão sem o candidato (UFRGS 08: "Sessão de Avaliação do Exame de Títulos e Trabalhos, sessão não pública")
 SEM_CANDIDATO = re.compile(r"n[ãa]o p[úu]blica|sem (a )?(necessidade d[ae] )?presen[çc]a|presen[çc]a apenas d|presen[çc]a n[ãa]o obrigat|de presen[çc]a n[ãa]o obrigat", re.I)
+# Sessão fechada ao candidato (UFRGS 09, conferência de 27/10/2026: "Sessão de Avaliação do Exame de Títulos e
+# Trabalhos, sessão não pública" entrava na lista de datas do documento novo). Só "não pública": a sessão de
+# resultado "de presença não obrigatória" interessa ao candidato e continua.
+NAO_PUBLICA = re.compile(r"n[ãa]o p[úu]blica", re.I)
 # Prova da mesma etapa em mais de um dia (UNILA 204: didática em 20/10 à tarde e 21/10 de manhã): o aviso
 # de um dia leva os outros dias seguintes, até DIAS_ANTES depois.
 
@@ -274,9 +278,11 @@ def limpa_ancora(a):
 
 
 def prazo_fixo(tipo, data):
-    """Data fixa que é o último dia de um prazo (e não um compromisso com hora marcada)."""
+    """Data fixa que é o último dia de um prazo (e não um compromisso com hora marcada). A data calculada de um
+    prazo relativo ("_limite", ver resolver_relativas) é limite mesmo com hora: o upload até 24 horas depois do
+    resultado das 17:00 vai "até 17:00" do dia seguinte, e não "às 17:00"."""
     f, i, _, h = intervalo(data)
-    return f == "fixa" and i and tipo in PRAZOS and not (tipo == "entrega_documento" and h)
+    return bool(f == "fixa" and i and tipo in PRAZOS and (data.get("_limite") or not (tipo == "entrega_documento" and h)))
 
 
 def minutos(h):
@@ -424,7 +430,149 @@ def companheiros(e, eventos, d, hoje=None):
 
 
 def texto_ev(e, hoje):
-    return texto_data(e["data"], hoje, e["tipo_evento"], e.get("etapa_ref"))
+    t = texto_data(e["data"], hoje, e["tipo_evento"], e.get("etapa_ref"))
+    return f"{t} ({e['_conta']})" if e.get("_conta") else t
+
+
+# ---------------------------------------------------------------- prazo relativo com âncora datada
+# Conferência dos alertas de 27/10/2026: o upload dos títulos da UFTM 28, Lotação 02, "até 24 horas após a
+# divulgação do resultado da prova didática", com o resultado marcado para 27/10 às 17:00, saía sem data, e o
+# envio do título e do resumo da UFRGS 09 (Direito), "até 4 dias antes do início do concurso", também. A
+# extração não faz a conta (decisão de 12/10/2026: o extrator copia, não calcula), e o leitor a faz só quando
+# ela é certa: prazo (PRAZOS, menos inscrição), em horas ou dias corridos, com a âncora identificada pela
+# referência que o extrator põe entre parênteses ("resultado (didatica)", "(outro, ev-0192)") e com uma única
+# data fixa da âncora para cada destinatário. Dia útil não entra, porque depende de feriado local. A mensagem
+# diz que a data é a conta do edital, e de que data ela parte.
+UNIDADES_CONTAVEIS = {"horas": "hora", "hora": "hora", "dias_corridos": "dia", "dias": "dia", "dia": "dia"}
+TIPOS_RESOLVIVEIS = PRAZOS - {"inscricao"}
+# Âncora que pode ter uma sessão por turma ou por candidato (UFTM 28: um só confinamento gravado na Lotação 04, o da
+# Turma 07, e o prazo geral do plano valeria também para as outras turmas): a conta só sai com o id do evento.
+SESSOES = {"prova", "confinamento", "sorteio_tema", "sorteio_ordem", "sorteio_turma", "convocacao", "outro"}
+FIM_23H59 = re.compile(r"\b23\s*h\s*59|\b23:59", re.I)
+
+
+def ancora_de(ancora):
+    """(id do evento, tipo, etapa, fase) da referência que o extrator grava em evento_ancora, ou None quando ela
+    não identifica um evento com segurança (termo desconhecido entre parênteses, dois tipos, só texto livre)."""
+    s = (ancora.get("descricao") or ancora.get("literal") or ancora.get("tipo_evento") or "") if isinstance(ancora, dict) else str(ancora or "")
+    s = s.strip()
+    tipos = set(REGRAS) | set(NOME_EVENTO)
+    if s in tipos:  # "publicacao_edital", "pagamento"
+        return None, s, None, None
+    m = re.search(r"\(([^()]*)\)\s*$", s)
+    if not m:
+        return None
+    toks = [t.strip() for t in m.group(1).split(",") if t.strip()]
+    evid = next((t for t in toks if re.fullmatch(r"ev-\d{4}", t)), None)
+    tps = [t for t in toks if t in tipos]
+    etapa = next((t for t in toks if t in NOME_ETAPA), None)
+    fase = next((t for t in toks if t in ("preliminar", "final")), None)
+    if any(t not in tipos and t not in NOME_ETAPA and t not in ("preliminar", "final") and t != evid for t in toks):
+        return None  # "(procedimento_cotas, pcd)": qualificador que o leitor não sabe conferir
+    if not tps:  # UFTM 28: "resultado (didatica)", o tipo vem antes do parêntese
+        antes = s[:m.start()].strip().lower()
+        tps = [antes] if antes in tipos else []
+    if evid:
+        return evid, None, None, None
+    if len(tps) != 1:
+        return None
+    return None, tps[0], etapa, fase
+
+
+def contrai(n):
+    """'de' + artigo: 'do resultado', 'da homologação'."""
+    return "do " + n[2:] if n.startswith("o ") else "da " + n[2:] if n.startswith("a ") else "de " + n
+
+
+def nome_da_ancora(anc):
+    """Nome curto do evento de que a conta parte, sem o "final" que o tipo põe no resultado preliminar."""
+    t, fase = anc["tipo_evento"], anc.get("fase")
+    if t == "resultado_final":
+        return "o resultado preliminar do concurso" if fase == "preliminar" else "o resultado final"
+    if t == "homologacao_inscricoes":
+        return "a homologação das inscrições"
+    if t == "portaria_banca":
+        return "a divulgação da banca"
+    if t in ("outro", "entrega_documento"):
+        r = re.split(r"\s*[(,;:]", rotulo(anc), maxsplit=1)[0].strip()
+        return f"o evento “{r}”" if len(r) >= 8 else "o evento de referência"
+    n = nome_evento(anc)
+    return ("o " if n.startswith(("resultado", "sorteio", "pagamento", "prazo", "confinamento", "envio")) else "a ") + n
+
+
+def resolver_relativas(eventos, nomes_area, hoje):
+    """Eventos derivados, com a data calculada, e {id(evento original): áreas que eles cobrem}.
+    O original continua na agenda; para as áreas cobertas, vale o derivado."""
+    vig = [e for e in eventos if e.get("estado") == "vigente"]
+    por_id = {e.get("id"): e for e in vig}
+    derivados, cobre = [], {}
+    for e in vig:
+        d = e.get("data") or {}
+        if d.get("forma") != "relativa" or e["tipo_evento"] not in TIPOS_RESOLVIVEIS:
+            continue
+        un = UNIDADES_CONTAVEIS.get(d.get("unidade"))
+        q = d.get("quantidade")
+        if not un or not isinstance(q, (int, float)) or q <= 0 or d.get("sentido") not in ("apos", "antes"):
+            continue
+        ref = ancora_de(d.get("evento_ancora"))
+        if not ref:
+            continue
+        evid, tipo, etapa, fase = ref
+        if evid:
+            cands = [por_id[evid]] if evid in por_id else []
+        elif tipo in SESSOES:
+            continue  # sessão por turma ou candidato: só com a referência explícita ao evento (UFTM 28, "(ev-0116)")
+        else:
+            cands = [x for x in vig if x is not e and x["tipo_evento"] == tipo and not x.get("_derivado_de")
+                     and (etapa is None or x.get("etapa_ref") == etapa) and (fase is None or x.get("fase") == fase)]
+        cands = [x for x in cands if (x.get("data") or {}).get("forma") == "fixa" and D((x.get("data") or {}).get("data"))]
+        if not cands:
+            continue
+        alvos = list(nomes_area) if e["escopo"] == "geral" else list(e["escopo"])
+
+        def ancora_para(area):
+            proprios = [x for x in cands if x["escopo"] != "geral" and area in x["escopo"]]
+            gerais = [x for x in cands if x["escopo"] == "geral"]
+            usa = proprios or gerais
+            datas = {(x["data"]["data"], x["data"].get("hora")) for x in usa}
+            return usa[0] if len(datas) == 1 else None
+
+        if e["escopo"] == "geral" and not alvos:  # concurso sem vagas por área: uma âncora geral só
+            g = [x for x in cands if x["escopo"] == "geral"]
+            grupos = {None: g[0]} if len({(x["data"]["data"], x["data"].get("hora")) for x in g}) == 1 and g else {}
+        else:
+            grupos = {a: ancora_para(a) for a in alvos}
+        por_ancora = collections.defaultdict(list)
+        for a, anc in grupos.items():
+            if anc is not None:
+                por_ancora[id(anc)].append((a, anc))
+        cobertas = set()
+        for lst in por_ancora.values():
+            anc = lst[0][1]
+            ad, ah = D(anc["data"]["data"]), anc["data"].get("hora")
+            sinal = 1 if d["sentido"] == "apos" else -1
+            if un == "hora":
+                if not ah or minutos(ah) is None:
+                    continue
+                t0 = dt.datetime.combine(ad, dt.time(minutos(ah) // 60, minutos(ah) % 60))
+                t1 = t0 + sinal * dt.timedelta(hours=q)
+                nd, nh = t1.date(), t1.strftime("%H:%M")
+            else:
+                nd = ad + sinal * dt.timedelta(days=q)
+                nh = "23:59" if FIM_23H59.search(e.get("descricao_literal") or "") or FIM_23H59.search(str(d.get("evento_ancora"))) else None
+            areas_ = [a for a, _ in lst if a is not None]
+            unid = UNIDADE.get(d.get("unidade"), d.get("unidade")) if q != 1 else un
+            quando = fmt(ad) + (f", às {ah}" if ah else "")
+            novo = dict(e, data={"forma": "fixa", "data": nd.isoformat(), "hora": nh, "_limite": True},
+                        escopo=areas_ if areas_ else "geral", _derivado_de=e.get("id"),
+                        _conta=f"conta do edital: {q:g} {unid} {'depois' if sinal > 0 else 'antes'} {contrai(nome_da_ancora(anc))}, em {quando}")
+            derivados.append(novo)
+            cobertas |= set(areas_)
+        if cobertas:
+            cobre[id(e)] = cobertas
+        elif any(a is None for lst in por_ancora.values() for a, _ in lst):
+            cobre[id(e)] = {"*"}
+    return derivados, cobre
 
 
 def item_agendado(e, marco, ref, hoje, fonte, periodo=False):
@@ -484,12 +632,12 @@ def critico(e):
     return bool(ELIMINA.search(lit)) and t not in PRAZOS and (f == "fixa" or i == j)
 
 
-def completar(avisos, slug, c, hoje, destinos, ordem, edital, nomes_area, canceladas):
+def completar(avisos, slug, c, hoje, destinos, ordem, edital, nomes_area, canceladas, retidas=frozenset()):
     """Completa as mensagens do concurso com o que não pode faltar nelas (conferência de 13/10):
     eventos críticos do destinatário entre hoje e a última data agendada da mensagem, os outros dias da
     mesma prova (UNILA 204) e os prazos que terminam hoje ou amanhã (IFMG 1077)."""
     vig = [e for e in c["eventos"] if e["estado"] == "vigente" and e["tipo_evento"] not in ("suspensao", "retomada", "cancelamento")
-           and not interno_da_comissao(e)]
+           and not interno_da_comissao(e) and not e.get("_resolvido")]
     por_id = {id(e): e for e in vig}
     dest = {id(e): destinos(e["escopo"], e) for e in vig}
     amanha = hoje + dt.timedelta(days=DIAS_PRAZO_PROXIMO)
@@ -522,6 +670,8 @@ def completar(avisos, slug, c, hoje, destinos, ordem, edital, nomes_area, cancel
                     item = item_agendado(e, "fim", j, hoje, fonte)
             if item is None and e["tipo_evento"] in PRAZOS and hoje <= (j or i) <= amanha and i <= amanha:
                 item = item_agendado(e, "fim", j or i, hoje, fonte)
+            if item is not None and item.get("data") == hoje and item.get("hora") and item["hora"][:5] < "13:00":
+                continue  # a rodada sai às 13h12: o que era hoje de manhã já passou (UFBA 06, área 12, 28/10/2026)
             if item is not None:
                 item["ordem"] = ordem.get(id(e), 0)
                 item["completa"] = True
@@ -529,13 +679,14 @@ def completar(avisos, slug, c, hoje, destinos, ordem, edital, nomes_area, cancel
         return out
 
     gerais = avisos.get((slug, None), [])
-    novos_gerais = faltantes(None, gerais)
+    # com áreas retidas, o que é geral chegaria também a elas: só as áreas não retidas são completadas
+    novos_gerais = faltantes(None, gerais) if not retidas else []
     if novos_gerais:
         avisos[(slug, None)].extend(novos_gerais)
         gerais = avisos[(slug, None)]
-    alvos = {d for (s_, d) in list(avisos) if s_ == slug and d is not None}
+    alvos = {d for (s_, d) in list(avisos) if s_ == slug and d is not None and d not in retidas}
     if any(x["tipo"] == "agendado" for x in gerais):
-        alvos |= {a for a in nomes_area if a not in canceladas}
+        alvos |= {a for a in nomes_area if a not in canceladas and a not in retidas}
     for d in sorted(alvos):
         its = faltantes(d, gerais + avisos.get((slug, d), []))
         if its:
@@ -598,6 +749,27 @@ def horario_individual(e):
     t = (e.get("descricao_literal") or "").lower()
     return e["tipo_evento"] == "entrega_documento" and any(
         s in t for s in ("cada candidat", "horário do sorteio", "horario do sorteio", "seu ponto", "sorteio do ponto", "após o sorteio", "apos o sorteio"))
+
+
+VAGA_RESERVADA = re.compile(r"^(?!.*ampla concorr).*(?:vagas? especia|vagas? reservad|(?:para|às|aos) (?:as |os )?(?:pessoas|candidat[oa]s) (?:negr|pret|ind[íi]gen|quilombol|com defici))", re.I)
+PROVISORIO = re.compile(r"provis[óo]ri|prelimin", re.I)
+
+
+def so_passado(eventos, cam, hoje):
+    """O documento só traz datas que já passaram (todas as datas dele, vigentes ou substituídas, antes de hoje)."""
+    fins = [(intervalo(e["data"])[2] or intervalo(e["data"])[1]) for e in eventos
+            if (e.get("fonte") or {}).get("documento") == cam and not e.get("_derivado_de")]
+    return bool(fins) and all(f is not None and f < hoje for f in fins)
+
+
+def so_preliminar_no_dia(eventos, dia, esc):
+    """No dia da publicação, o cronograma do mesmo escopo só tem resultado preliminar previsto."""
+    if not dia:
+        return False
+    fases = {e.get("fase") for e in eventos if e.get("estado") == "vigente" and e["tipo_evento"] in ("resultado", "resultado_final")
+             and intervalo(e["data"])[1] == dia
+             and (esc == "geral" or e["escopo"] == "geral" or (isinstance(esc, list) and set(esc) & set(e["escopo"])))}
+    return fases == {"preliminar"}
 
 
 def nome_etapa(ref):
@@ -767,6 +939,24 @@ def fuso(c):
     return uf if uf in FUSO_UF else None
 
 
+# Conferência de 27/10/2026, IFMT 03: o aviso mandava conferir se os horários eram os locais ou os de Brasília,
+# mas o edital já responde (item 1.7, horário de Cuiabá), e o extrator copia essa regra na descrição dos eventos.
+HORA_LOCAL = re.compile(r"hor[áa]rio (?:oficial |local )?(?:de|da cidade de|da capital de) (?:Cuiab[áa]|Campo Grande|Porto Velho|Boa Vista"
+                        r"|Manaus|Rio Branco|Mato Grosso|Rond[ôo]nia|Roraima|Amazonas|Acre)|hor[áa]rio local\b", re.I)
+HORA_BRASILIA = re.compile(r"hor[áa]rio (?:oficial )?de Bras[íi]lia", re.I)
+
+
+def referencia_horaria(c):
+    """'local' ou 'brasilia' quando o texto copiado do edital diz qual horário vale, e só um deles; senão None."""
+    textos = []
+    for e in c.get("eventos") or []:
+        textos.append(e.get("descricao_literal") or "")
+        textos.append(str((e.get("fonte") or {}).get("trecho") or ""))
+    t = " ".join(textos)
+    loc, bra = bool(HORA_LOCAL.search(t)), bool(HORA_BRASILIA.search(t))
+    return "local" if loc and not bra else "brasilia" if bra and not loc else None
+
+
 def situacao(c):
     """('ativo'|'suspenso'|'cancelado', áreas canceladas)."""
     marcos, canceladas = [], set()
@@ -869,7 +1059,14 @@ def titulo_doc(cam, triagem, registro, outros=(), mesmo_texto_em_outros_arquivos
         # o mesmo texto em três ou mais arquivos diferentes é o título da página, e não o do documento
         # (UERJ 213: bloco de links do edital e dos anexos; UFMG 1638: "Processo seletivo: ...")
         compartilhado = len(t) >= 60 and mesmo_texto_em_outros_arquivos >= 2
-        if concatenado or sem_sentido or compartilhado:
+        # texto do link que diz "edital de abertura" num documento que não é o edital (UFMG 1638, conferência de
+        # 27/10/2026: o Edital 2261/2026, de convocação, saía como "Fonte: Edital de Abertura do Concurso")
+        tri = triagem.get(cam) or {}
+        abertura_falsa = bool(re.search(r"\bedital de abertura\b", sem_par, re.I)) and tri.get("tipo") not in (
+            None, "edital_abertura", "edital_consolidado") and bool(val(tri.get("numero_literal")))
+        if abertura_falsa:
+            t = val(tri["numero_literal"])
+        elif concatenado or sem_sentido or compartilhado:
             nome = val((triagem.get(cam) or {}).get("numero_literal")) or titulo_do_arquivo(cam)
             # nome de arquivo ilegível (UFC 48: código aleatório): o texto repetido do link ainda diz mais
             if not (compartilhado and not concatenado and not sem_sentido and NOME_ILEGIVEL.match(nome)):
@@ -944,7 +1141,18 @@ def executar(vigia, hoje, anterior):
         tem_res_final = any(e["tipo_evento"] == "resultado_final" and e["estado"] == "vigente"
                             and intervalo(e["data"])[1] for e in c["eventos"])
 
+        # prazo relativo com âncora datada: a conta do edital vira data (conferência de 27/10/2026)
+        derivados, cobre = resolver_relativas(c["eventos"], nomes_area, hoje)
+        c["eventos"] = c["eventos"] + derivados
         sombra = sombras(c["eventos"])
+        for e in c["eventos"]:
+            x = cobre.get(id(e))
+            if not x:
+                continue
+            if "*" in x or (e["escopo"] == "geral" and x >= set(nomes_area)) or (e["escopo"] != "geral" and x >= set(e["escopo"])):
+                e["_resolvido"] = True  # todas as áreas têm a data calculada: o relativo fica só na agenda
+            else:
+                sombra[id(e)] = sombra.get(id(e), set()) | x
         sem_vaga = set()
 
         def destinos(escopo, ev=None):
@@ -1001,16 +1209,20 @@ def executar(vigia, hoje, anterior):
             fonte = dict(e.get("fonte") or {})
             if not fonte.get("documento"):
                 fonte["documento"] = edital
-            k = chave_evento(e) + "|" + str(fonte.get("documento")) + "|" + str(fonte.get("item"))
+            k = chave_evento(e) + "|" + str(fonte.get("documento")) + "|" + str(fonte.get("item")) + ("|conta" if e.get("_derivado_de") else "")
             ev_estado[k] = {"data": chave_data(e["data"]), "doc": fonte.get("documento"),
                             "texto": texto_data(e["data"], hoje), "ref": (j or i).isoformat() if (j or i) else None}
+            if e.get("_derivado_de") and ((a or {}).get("eventos") or {}).get(k, {}).get("calc_avisado") \
+                    and (a["eventos"][k].get("data") == ev_estado[k]["data"]):
+                ev_estado[k]["calc_avisado"] = True  # a mesma data calculada já foi avisada
             agenda.append({"concurso": slug, "nome": nome, "situacao": sit, "evento_id": e.get("id"),
                            "tipo_evento": e["tipo_evento"], "etapa": e.get("etapa_ref"), "fase": e.get("fase"),
                            "escopo": e["escopo"], "descricao": e.get("descricao_literal"), "forma": f,
                            "inicio": i.isoformat() if i else None, "fim": j.isoformat() if j else None,
                            "hora": h, "data_texto": texto_data(e["data"], hoje, e["tipo_evento"]),
                            "documento": fonte.get("documento"), "item": fonte.get("item"), "pagina": fonte.get("pagina"),
-                           "publico": "interno" if interno_da_comissao(e) else "cota" if so_cota(e) else "todos"})
+                           "publico": "interno" if interno_da_comissao(e) else "cota" if so_cota(e) else "todos",
+                           **({"calculado": e["_conta"]} if e.get("_conta") else {})})
 
             # correção do extrator: data mudou e o documento já era conhecido
             velho = a["eventos"].get(k) if a else None
@@ -1019,7 +1231,7 @@ def executar(vigia, hoje, anterior):
                 if refs and max(refs) >= hoje.isoformat():  # só data de calendário que ainda importa
                     rel["correcao_extrator"].append(f"{nome}: {nome_evento(e)} mudou de {velho.get('texto', velho['data'])} para {ev_estado[k]['texto']} sem documento novo ({os.path.basename(fonte.get('documento') or '?')}, item {fonte.get('item')}).")
 
-            if sit != "ativo" or e["tipo_evento"] in ("suspensao", "retomada", "cancelamento"):
+            if sit != "ativo" or e["tipo_evento"] in ("suspensao", "retomada", "cancelamento") or e.get("_resolvido"):
                 continue
             dest = destinos(e["escopo"], e)
             if not dest or interno_da_comissao(e):
@@ -1032,7 +1244,7 @@ def executar(vigia, hoje, anterior):
                 if futura and f in ("fixa", "janela") and (j or i) == hoje and hfim and hfim[:5] < "13:00":
                     futura = False  # UFBA: "resultado final 08/10 às 08:30" anunciado à tarde, já ocorrido
                 kk = json.dumps([e["tipo_evento"], e.get("etapa_ref"), e["escopo"], chave_data(e["data"])], ensure_ascii=False)
-                if futura and kk not in alteradas:
+                if futura and kk not in alteradas and not NAO_PUBLICA.search(e.get("descricao_literal") or ""):
                     item = {"tipo": "data_nova", "doc": fonte["documento"],
                             "texto": f"{rotulo(e)}: {texto_ev(e, hoje)}", "fonte": fonte}
                     if so_cota(e):
@@ -1062,6 +1274,7 @@ def executar(vigia, hoje, anterior):
                 regra = [("fim", sorted({n for _, ants in regra for n in ants}, reverse=True))]
             if e["tipo_evento"] == "homologacao_resultado" and tem_res_final:
                 continue
+            disparou = False
             for marco, ants in regra:
                 ref = i if marco == "ini" else j
                 if not ref:
@@ -1071,6 +1284,7 @@ def executar(vigia, hoje, anterior):
                         continue
                     gatilho = ref - dt.timedelta(days=n)
                     if gatilho in cobertos and ref >= hoje and (n > 0 or ref == hoje):
+                        disparou = True
                         item = item_agendado(e, marco, ref, hoje, fonte, periodo)
                         item["ordem"] = ordem[id(e)]
                         for d in dest:
@@ -1084,6 +1298,21 @@ def executar(vigia, hoje, anterior):
                                     "ev": id(cpn), "ordem": ordem.get(id(cpn), 0),
                                     "texto": f"{texto_ev(cpn, hoje)}: {sem_tempo_repetido(rotulo(cpn), texto_ev(cpn, hoje))}{quando}",
                                     "fonte": dict(cpn.get("fonte") or {}, documento=(cpn.get("fonte") or {}).get("documento") or edital)})
+            # Data calculada que aparece pela primeira vez depois de passados os gatilhos (a âncora foi datada tarde, ou a
+            # conta é nova): avisa já, uma vez, se ainda está dentro da maior antecedência da regra (UFRGS 09, Lotação 07,
+            # título e resumo até 30/10/2026, que só ganhou data em 28/10).
+            ja_avisado = bool(ev_estado[k].get("calc_avisado"))
+            if disparou and e.get("_derivado_de"):
+                ev_estado[k]["calc_avisado"] = True
+            elif e.get("_derivado_de") and not base and a is not None and not ja_avisado:
+                marco, ants = regra[-1]
+                ref = i if marco == "ini" else j
+                if ref and ref >= hoje and (ref - hoje).days <= max(ants) and not (ref == hoje and h and h[:5] < "13:00"):
+                    item = item_agendado(e, marco, ref, hoje, fonte, periodo)
+                    item["ordem"] = ordem[id(e)]
+                    ev_estado[k]["calc_avisado"] = True
+                    for d in dest:
+                        avisos[(slug, d)].append(item)
 
         # documentos novos sem data mas que valem aviso, e pendências resolvidas por eles
         for cam in sorted(novos):
@@ -1092,17 +1321,32 @@ def executar(vigia, hoje, anterior):
                 continue
             esc = (t.get("escopo") or {}).get("valor") or "geral"
             frase = DOC_AVISO.get(t.get("tipo"))
-            qual = None
-            if frase and t.get("tipo") in ("resultado_etapa", "resultado_final", "resultado_recursos", "homologacao_resultado",
-                                          "homologados_preliminar", "homologados_final", "isencao_resultado", "sorteio"):
+            titulo = f"{c['_titulos'].get(cam) or ''} {os.path.basename(cam)}"
+            qual, doc_cota = None, False
+            if frase and t.get("tipo") in ("cronograma", "retificacao_cronograma") and so_passado(c["eventos"], cam, hoje):
+                # UFBA 06, conferência de 27/10/2026: cronogramas de Eletrotécnica, Química Analítica e Sociologia
+                # publicados depois das provas; "saiu o cronograma" levava o candidato a procurar etapa que não existe
+                frase = None
+            if frase and t.get("tipo") in ("homologados_preliminar", "homologados_final") and VAGA_RESERVADA.search(titulo):
+                # IFMG 607, conferência de 27/10/2026: a lista de inscritos da vaga especial para pessoas negras não é
+                # "a lista final de inscrições homologadas", e só interessa a quem concorre pela reserva
+                frase, doc_cota = "uma lista de inscritos para as vagas reservadas", True
+            elif frase and t.get("tipo") in ("resultado_etapa", "resultado_final", "resultado_recursos", "homologacao_resultado",
+                                            "homologados_preliminar", "homologados_final", "isencao_resultado", "sorteio"):
                 # UFRGS 08, área 13: "Saiu o resultado de uma etapa" sem dizer qual; o evento do próprio documento diz
                 qual = next((e for e in c["eventos"] if e["estado"] == "vigente" and (e.get("fonte") or {}).get("documento") == cam
                              and re.search(r"resultado|homologa|sorteio", e["tipo_evento"])), None)
+                # UNILA 204, conferência de 27/10/2026: a relação de classificados da área 03 é o resultado provisório
+                # (nome do arquivo e evento preliminar do cronograma no mesmo dia), e saía como "o resultado final"
+                if t.get("tipo") == "resultado_final" and (
+                        PROVISORIO.search(titulo) or (qual is not None and qual.get("fase") == "preliminar")
+                        or (qual is None and so_preliminar_no_dia(c["eventos"], D(val(t.get("data_publicacao"))), esc))):
+                    frase = "o resultado provisório"
                 if qual is not None:
                     frase = f"{frase}: {rotulo(qual)}"
             if frase:
                 item = {"tipo": "documento", "doc": cam, "texto": f"saiu {frase}", "fonte": {"documento": cam}}
-                if qual is not None and so_cota(qual):
+                if doc_cota or (qual is not None and so_cota(qual)):
                     item["so_cota"] = True
                 for d in destinos(esc):
                     avisos[(slug, d)].append(item)
@@ -1114,8 +1358,10 @@ def executar(vigia, hoje, anterior):
                         for d in destinos(esc):
                             avisos[(slug, d)].append(item)
 
-        if sit == "ativo" and not pendentes_leitura:
-            completar(avisos, slug, c, hoje, destinos, ordem, edital, nomes_area, canceladas)
+        # Com retenção só de algumas áreas, as outras também são completadas (conferência de 27/10/2026, UFBA 06:
+        # as áreas 17, 18 e 37 retidas deixavam a área 19 sem a entrega do plano de aula no horário do sorteio).
+        if sit == "ativo" and (not pendentes_leitura or retidas):
+            completar(avisos, slug, c, hoje, destinos, ordem, edital, nomes_area, canceladas, retidas or set())
 
         # suspensão e retomada por documento novo
         for e in c["eventos"]:
@@ -1273,8 +1519,14 @@ def mensagem(c, area, itens, hoje, cota=False):
         out.append("")
     uf = fuso(c)
     if uf and any(re.search(r"\b\d{2}:\d{2}\b", x["texto"]) for x in itens):
-        out.append(f"Atenção ao horário: a instituição fica em {FUSO_UF[uf]}, onde o relógio marca {FUSO_DIF[uf]} que o de Brasília. "
-                   "Confira no edital se os horários acima são os locais ou os de Brasília.")
+        ref = referencia_horaria(c)
+        if ref == "local":
+            out.append(f"Atenção ao horário: pelo edital, os horários acima são os de {FUSO_UF[uf]}, onde o relógio marca {FUSO_DIF[uf]} que o de Brasília.")
+        elif ref == "brasilia":
+            out.append(f"Atenção ao horário: pelo edital, os horários acima são os de Brasília; em {FUSO_UF[uf]} o relógio marca {FUSO_DIF[uf]}.")
+        else:
+            out.append(f"Atenção ao horário: a instituição fica em {FUSO_UF[uf]}, onde o relógio marca {FUSO_DIF[uf]} que o de Brasília. "
+                       "Confira no edital se os horários acima são os locais ou os de Brasília.")
         out.append("")
     fontes = []
     for x in itens:
