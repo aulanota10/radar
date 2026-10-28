@@ -1,61 +1,10 @@
 # Relatório do compilador do Radar · 28/10/2026
 
-75 concursos no dados.js gerado, 73 no publicado; 75 vieram das extrações.
+75 concursos no dados.js gerado, 75 no publicado; 75 vieram das extrações.
 
-## O que muda no Radar em relação ao publicado (15 concursos)
+## O que muda no Radar em relação ao publicado (0 concursos)
 
-**ufrgs-09-2026**
-- editais alterado
-
-**ifsuldeminas-188-2026**
-- Prova de Títulos: 31/10/2026 a 13/12/2026 → 13/12/2026
-
-**ifmt-03-2026**
-- Prova de desempenho didático (PDD): 29/10/2026 a 29/11/2026 → 06/11/2026 a 08/11/2026
-- editais alterado
-
-**ufba-06-2026**
-- editais alterado
-
-**unesp-assistente-2026**
-- inscrição: encerrada → aberta
-- inscrição fim: 13/10/2026 → 03/12/2026
-
-**ufrn-108-2026**
-- inscrição: encerrada → aberta
-- inscrição fim: 23/10/2026 → 28/10/2026
-- editais alterado
-
-**ufc-48-2026**
-- editais alterado
-
-**ufvjm-101-2026**
-- prazos de inscrição por área alterados
-- editais alterado
-
-**ifmg-1077-2026**
-- editais: "Edital nº 1077/2026, com 4 documentos de alteração publicados depois" → "Edital nº 1077/2026, com 5 documentos de alteração publicados depois"
-- áreas alterado
-- vagas: "33 vagas" → "50 vagas"
-- locais: "Ibirité e Bom Despacho, Sabará, Piumhi e Betim" → "Ibirité e Bom Despacho, Sabará, Congonhas, Piumhi e Betim"
-
-**unila-240-2026**
-- inscrição: aberta → encerrada
-
-**ufv-58-2026**
-- inscrição inicio:  → 15/10/2026
-
-**ufv-59-2026**
-- inscrição inicio:  → 15/10/2026
-
-**ufv-60-2026**
-- inscrição inicio:  → 15/10/2026
-
-**ufcspa-118-2026**
-- concurso novo no Radar
-
-**ufg-20-2026**
-- concurso novo no Radar
+Nada muda no site.
 
 ## Prova didática já terminou (7 concursos)
 
@@ -122,7 +71,7 @@ Já estavam no relatório anterior e seguem sem conferência.
 **unila-240-2026**
 - Prova Escrita: dados.js anterior 25/01/2027 a 29/01/2027, extração 25/01/2027 (publicado o anterior)
 
-## Liberados após conferência (16 concursos)
+## Liberados após conferência (13 concursos)
 
 Conferidos nos documentos oficiais (compilador/liberados.json); o dados.js gerado publica o valor da extração.
 
@@ -134,12 +83,6 @@ Conferidos nos documentos oficiais (compilador/liberados.json); o dados.js gerad
 
 **unila-204-2026**
 - vagas: o dados.js anterior dizia "6 vagas", a extração soma 6 (liberado após conferência: publicada a extração)
-
-**ifsuldeminas-188-2026**
-- Prova de Títulos: dados.js anterior 31/10/2026 a 13/12/2026, extração 13/12/2026 (liberado após conferência: publicada a extração)
-
-**ifmt-03-2026**
-- Prova de desempenho didático (PDD): dados.js anterior 29/10/2026 a 29/11/2026, extração 06/11/2026 a 08/11/2026 (liberado após conferência: publicada a extração)
 
 **ufba-06-2026**
 - vagas: o dados.js anterior dizia "37 vagas", a extração soma 37 (liberado após conferência: publicada a extração)
@@ -156,15 +99,11 @@ Conferidos nos documentos oficiais (compilador/liberados.json); o dados.js gerad
 **ufrpe-21-2026**
 - vagas: o dados.js anterior dizia "12 vagas", a extração soma 12 (liberado após conferência: publicada a extração)
 
-**unesp-assistente-2026**
-- inscrição fim: dados.js anterior 13/10/2026, extração 03/12/2026 (liberado após conferência: publicada a extração)
-
 **unesp-titular-2026**
 - vagas: o dados.js anterior dizia "10 vagas", a extração soma 10 (liberado após conferência: publicada a extração)
 
 **ufrn-108-2026**
 - vagas: o dados.js anterior dizia "15 vagas", a extração soma 15 (liberado após conferência: publicada a extração)
-- inscrição fim: dados.js anterior 23/10/2026, extração 28/10/2026 (liberado após conferência: publicada a extração)
 
 **ufersa-030-2026**
 - vagas: o dados.js anterior dizia "24 vagas", a extração soma 24 (liberado após conferência: publicada a extração)
@@ -173,7 +112,7 @@ Conferidos nos documentos oficiais (compilador/liberados.json); o dados.js gerad
 - vagas: o dados.js anterior dizia "65 vagas", a extração soma 65 (liberado após conferência: publicada a extração)
 
 **ifmg-1077-2026**
-- vagas: o dados.js anterior dizia "33 vagas", a extração soma 50 (liberado após conferência: publicada a extração)
+- vagas: o dados.js anterior dizia "50 vagas", a extração soma 50 (liberado após conferência: publicada a extração)
 
 ## Mantido do dados.js anterior (20 concursos)
 
