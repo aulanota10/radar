@@ -59,6 +59,9 @@
 // Gerado por compilar_radar.py a partir das extrações v2 (vigia-documentos/extracoes).
 // Para corrigir um dado, corrija a extração e rode o compilador de novo.
 
+// Gerado por compilar_radar.py a partir das extrações v2 (vigia-documentos/extracoes).
+// Para corrigir um dado, corrija a extração e rode o compilador de novo.
+
 window.RADAR_ATUALIZADO = "28/10/2026";
 
 window.CONCURSOS = [
@@ -43598,13 +43601,13 @@ window.CONCURSOS = [
       "inicio": "2026-11-25",
       "fim": "2027-02-19"
     },
+    "logo": "ufg.png",
     "formacoes_status": "nao_extraido",
     "familias": [],
     "formacoes": [],
     "familias_pos": [],
     "areas_formacoes": [],
     "observacao": "",
-    "logo": "ufg.png",
     "detalhamento": "completo",
     "avisos_edital": [],
     "fonte_dados": {
@@ -43699,13 +43702,13 @@ window.CONCURSOS = [
       "inicio": "2026-11-22",
       "fim": "2026-11-22"
     },
+    "logo": "ufrb.png",
     "formacoes_status": "nao_extraido",
     "familias": [],
     "formacoes": [],
     "familias_pos": [],
     "areas_formacoes": [],
     "observacao": "",
-    "logo": "ufrb.png",
     "detalhamento": "completo",
     "avisos_edital": [],
     "fonte_dados": {
@@ -44062,13 +44065,13 @@ window.CONCURSOS = [
         "detalhe": {}
       }
     ],
+    "logo": "unifei.png",
     "formacoes_status": "nao_extraido",
     "familias": [],
     "formacoes": [],
     "familias_pos": [],
     "areas_formacoes": [],
     "observacao": "",
-    "logo": "unifei.png",
     "detalhamento": "completo",
     "avisos_edital": [],
     "fonte_dados": {
