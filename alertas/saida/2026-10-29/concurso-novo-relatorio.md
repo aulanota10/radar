@@ -1,0 +1,25 @@
+# Relatório do alerta de concurso novo · 29/10/2026 (quinta)
+
+Concursos novos: 3 (ufcspa-118-2026, ufrrj-56-2026, usp-ea-038-2026). Perfis: 92. Mensagens na fila: 21.
+
+## Entraram na base mas foram publicados antes da janela de concurso novo (sem alerta) (1)
+
+- UFG 20/2026: publicado em 05/10/2026 (data de publicação do edital), antes da janela de 7 dias; entrou na base agora, mas não é concurso novo.
+
+## Depende da banca (fora da fila; candidato ao resumo semanal) (15)
+
+- p01-fisica-lic-doutorado-ensino · UFRRJ 56/2026 · Tecnologia em Educação, vaga 15: o edital aceita qualquer licenciatura; pós em Educação; o requisito do edital admite duas leituras: 'Doutorado em Educação ou Interdisciplinares' pode querer dizer qualquer doutorado de programa avaliado na área Interdisciplinar da CAPES (o edital não remete à tabela, e a área se chama 'Interdiscipl
+- p06-letras-portugues-doutorado-linguistica · UFRRJ 56/2026 · Latim, vaga 16: graduação em Letras; o edital pede Letras; seu programa (Linguística) está na área de avaliação Linguística e Literatura, que esse nome cobre; confira se a banca aceita
+- p17-farmacia-doutorado-em-curso · UFCSPA 118/2026 · Fisiologia Humana, vaga 02: o caminho aceita qualquer graduação; programa na grande área Ciências da Saúde, pela área que você declarou; seu doutorado está em curso; confira em que momento o edital exige o título (inscrição ou posse)
+- p17-farmacia-doutorado-em-curso · UFCSPA 118/2026 · Farmacognosia, vaga 06: graduação em Farmácia; pós em Ciências Farmacêuticas; seu doutorado está em curso; confira em que momento o edital exige o título (inscrição ou posse); confira também: Registro Profissional no Conselho Regional de Farmácia
+- p17-farmacia-doutorado-em-curso · UFCSPA 118/2026 · Bioquímica Clínica, Uroanálises e Controle de Qualidade em Análises Clínicas e Toxicológicas, vaga 08: graduação em Farmácia; o edital exige habilitação em Análises Clínicas; confirme a do seu curso; programa na grande área Ciências da Saúde, pela área que você declarou; seu doutorado está em curso; confira em que momento o edital exige o título (inscrição ou posse); confira também: Registro Profissi
+- p17-farmacia-doutorado-em-curso · UFCSPA 118/2026 · Toxicologia Ambiental e Toxicologia Regulatória, vaga 09: o caminho aceita qualquer graduação; programa na grande área Ciências da Saúde, pela área que você declarou; seu doutorado está em curso; confira em que momento o edital exige o título (inscrição ou posse)
+- p31-biomedicina-doutorado-bioquimica · UFCSPA 118/2026 · Bioquímica Clínica, Uroanálises e Controle de Qualidade em Análises Clínicas e Toxicológicas, vaga 08: graduação em Biomedicina; o edital exige habilitação em Patologia Clínica (Análises Clínicas); confirme a do seu curso; o edital pede Ciências Biológicas; seu programa (Bioquímica) está na área de avaliação Ciências Biológicas II, que esse nome cobre; confira se a banca aceita; confira também: Regis
+- p31-biomedicina-doutorado-bioquimica · UFCSPA 118/2026 · Toxicologia Ambiental e Toxicologia Regulatória, vaga 09: o caminho aceita qualquer graduação; o edital pede Biologia Molecular, que na tabela do CNPq fica dentro de Bioquímica; confira se sua tese é nesse tema
+- p49-letras-portugues-doutorado-literatura · UFRRJ 56/2026 · Latim, vaga 16: graduação em Letras; o edital pede Letras; seu programa (Estudos Literários) está na área de avaliação Linguística e Literatura, que esse nome cobre; confira se a banca aceita
+- p57-matematica-bach-doutorado-matematica-aplicada · UFRRJ 56/2026 · Matemática/Educação Matemática, vaga 09: graduação em Matemática; o edital pede Matemática, e seu programa (Matemática Aplicada) é um recorte dessa área; o requisito do edital admite duas leituras: o edital escreve 'Doutorado em Matemática ou [...] ou Engenharias', sem dizer grande área nem remeter à tabela da CAPES: pode ser qualquer dout
+- p78-pedagogia-mestrado-educacao-doutorado-em-curso · UFRRJ 56/2026 · Educação Matemática, vaga 11: graduação em Pedagogia; pós em Educação; seu doutorado está em curso; confira em que momento o edital exige o título (inscrição ou posse)
+- p78-pedagogia-mestrado-educacao-doutorado-em-curso · UFRRJ 56/2026 · Tecnologia em Educação, vaga 15: o edital aceita qualquer licenciatura; pós em Educação; seu doutorado está em curso; confira em que momento o edital exige o título (inscrição ou posse)
+- p78-pedagogia-mestrado-educacao-doutorado-em-curso · UFRRJ 56/2026 · Didática, vaga 19: o edital aceita qualquer licenciatura; pós em Educação; seu doutorado está em curso; confira em que momento o edital exige o título (inscrição ou posse)
+- p79-letras-espanhol-doutorado-linguistica-aplicada · UFRRJ 56/2026 · Latim, vaga 16: graduação em Letras; o edital pede Letras; seu programa (Linguística Aplicada) está na área de avaliação Linguística e Literatura, que esse nome cobre; confira se a banca aceita
+- p82-ciencias-contabeis-doutorado-administracao · UFRRJ 56/2026 · Finanças Corporativas, vaga 08: graduação em Ciências Contábeis; o edital pede Administração de Empresas, que na tabela do CNPq fica dentro de Administração; confira se sua tese é nesse tema
