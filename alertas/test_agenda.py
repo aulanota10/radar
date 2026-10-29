@@ -1044,6 +1044,38 @@ class Conferencia2710(unittest.TestCase):
         self.assertNotIn("28/10/2026 (quarta), às 08:00", m)
 
 
+class Conferencia2910(unittest.TestCase):  # aviso de documento novo por área (conferência de 29/10/2026)
+    def ev(self, i, escopo, tipo="sorteio_tema"):
+        return {"id": i, "tipo_evento": tipo, "escopo": escopo, "estado": "vigente", "descricao_literal": i}
+
+    def test_cada_area_recebe_o_evento_do_proprio_escopo(self):  # URCA 02
+        quais = [self.ev("a01", ["01"]), self.ev("a02", ["02"]), self.ev("a03", ["03"])]
+        out = A.itens_doc_por_area(quais, [None])
+        self.assertEqual([(d, q["id"]) for d, q in out], [("01", "a01"), ("02", "a02"), ("03", "a03")])
+
+    def test_destino_geral_nao_recebe_evento_de_area(self):  # URCA 02, "demais áreas"
+        out = A.itens_doc_por_area([self.ev("a01", ["01"])], [None])
+        self.assertNotIn(None, [d for d, _ in out])
+
+    def test_documento_de_area_nao_vai_as_outras_areas(self):  # UNILA 204, Edital 303
+        out = A.itens_doc_por_area([self.ev("pcd", ["02"], "procedimento_cotas")], ["01", "02", "03"])
+        self.assertEqual([d for d, _ in out], ["02"])
+
+    def test_evento_geral_vale_para_todos(self):
+        out = A.itens_doc_por_area([self.ev("g", "geral", "resultado")], [None])
+        self.assertEqual([(d, q["id"]) for d, q in out], [(None, "g")])
+
+    def test_area_cancelada_fica_de_fora(self):
+        out = A.itens_doc_por_area([self.ev("a01", ["01"]), self.ev("a02", ["02"])], [None], {"02"})
+        self.assertEqual([d for d, _ in out], ["01"])
+
+    def test_sem_evento_vai_a_todos_sem_rotulo(self):
+        self.assertEqual(A.itens_doc_por_area([], [None, "05"]), [(None, None), ("05", None)])
+
+    def test_resultado_de_banca_de_cotas_e_so_cota(self):  # UNILA 204
+        self.assertTrue(A.so_cota(self.ev("pcd", ["02"], "procedimento_cotas")))
+
+
 class SuspensaoPorArea(unittest.TestCase):  # UFBA 06, Área 18, decisão de 28/10/2026
     def ev(self, tipo, escopo, data):
         return {"tipo_evento": tipo, "estado": "vigente", "escopo": escopo, "data": {"forma": "fixa", "data": data}}

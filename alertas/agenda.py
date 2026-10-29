@@ -99,6 +99,33 @@ COTA_MISTO = re.compile(r"memorial|prova|t[íi]tulo|did[áa]tica|inscri|pontua|h
 INTERNO_DA_COMISSAO = re.compile(r"^\W*(?:\(per[ií]odo para\)\s*)?avalia[çc][ãa]o recursal\b", re.I)
 
 
+def itens_doc_por_area(quais, dests, fora=()):
+    """Para o aviso de documento novo: devolve (destino, evento do documento que vale para ele) por destino.
+
+    Conferência de 29/10/2026. URCA 02: o resultado da escrita traz um sorteio por setor, e o aviso de cada área
+    tem de citar o do próprio setor, não o primeiro do documento. UNILA 204: os resultados das bancas de cotas
+    só valem para as áreas 02 e 03; quando todos os eventos do documento têm escopo de área, o aviso vai só
+    a essas áreas, e não às outras nem ao destino geral. Sem evento, o aviso vai a todos os destinos, sem rótulo."""
+    if not quais:
+        return [(d, None) for d in dests]
+    geral = [e for e in quais if e.get("escopo") == "geral"]
+    out = []
+    for d in dests:
+        if d is None:
+            if geral:
+                out.append((d, geral[0]))
+            else:
+                # destino geral ("todas as áreas"): o aviso se abre nas áreas que o documento cita, cada uma com o seu evento
+                areas = sorted({a for e in quais for a in e.get("escopo") or []} - set(x for x in dests if x) - set(fora))
+                out.extend((a, next(e for e in quais if a in e.get("escopo"))) for a in areas)
+            continue
+        proprio = [e for e in quais if e.get("escopo") != "geral" and d in e.get("escopo")]
+        q = (proprio or geral or [None])[0]
+        if q is not None:
+            out.append((d, q))
+    return out
+
+
 def so_cota(e):
     """O aviso deste evento interessa só a quem concorre por cota."""
     lit = e.get("descricao_literal") or ""
@@ -1335,7 +1362,7 @@ def executar(vigia, hoje, anterior):
             esc = (t.get("escopo") or {}).get("valor") or "geral"
             frase = DOC_AVISO.get(t.get("tipo"))
             titulo = f"{c['_titulos'].get(cam) or ''} {os.path.basename(cam)}"
-            qual, doc_cota = None, False
+            qual, doc_cota, quais = None, False, []
             if frase and t.get("tipo") in ("cronograma", "retificacao_cronograma") and so_passado(c["eventos"], cam, hoje):
                 # UFBA 06, conferência de 27/10/2026: cronogramas de Eletrotécnica, Química Analítica e Sociologia
                 # publicados depois das provas; "saiu o cronograma" levava o candidato a procurar etapa que não existe
@@ -1347,21 +1374,30 @@ def executar(vigia, hoje, anterior):
             elif frase and t.get("tipo") in ("resultado_etapa", "resultado_final", "resultado_recursos", "homologacao_resultado",
                                             "homologados_preliminar", "homologados_final", "isencao_resultado", "sorteio"):
                 # UFRGS 08, área 13: "Saiu o resultado de uma etapa" sem dizer qual; o evento do próprio documento diz
-                qual = next((e for e in c["eventos"] if e["estado"] == "vigente" and (e.get("fonte") or {}).get("documento") == cam
-                             and re.search(r"resultado|homologa|sorteio", e["tipo_evento"])), None)
+                # URCA 02, conferência de 29/10/2026: o documento tem um evento por área (sorteio de cada setor), e o
+                # primeiro, da área 01, ia para todas; cada área recebe o do próprio escopo (ver qual_da_area abaixo).
+                # UNILA 204, mesma conferência: o resultado da banca de cotas é procedimento_cotas.
+                quais = [e for e in c["eventos"] if e["estado"] == "vigente" and (e.get("fonte") or {}).get("documento") == cam
+                         and re.search(r"resultado|homologa|sorteio|procedimento_cotas", e["tipo_evento"])]
+                qual = quais[0] if quais else None
                 # UNILA 204, conferência de 27/10/2026: a relação de classificados da área 03 é o resultado provisório
                 # (nome do arquivo e evento preliminar do cronograma no mesmo dia), e saía como "o resultado final"
                 if t.get("tipo") == "resultado_final" and (
                         PROVISORIO.search(titulo) or (qual is not None and qual.get("fase") == "preliminar")
                         or (qual is None and so_preliminar_no_dia(c["eventos"], D(val(t.get("data_publicacao"))), esc))):
                     frase = "o resultado provisório"
-                if qual is not None:
-                    frase = f"{frase}: {rotulo(qual)}"
             if frase:
-                item = {"tipo": "documento", "doc": cam, "texto": f"saiu {frase}", "fonte": {"documento": cam}}
-                if doc_cota or (qual is not None and so_cota(qual)):
-                    item["so_cota"] = True
-                for d in destinos(esc):
+                base_frase = frase
+                for d, q in itens_doc_por_area(quais if qual is not None else [], destinos(esc), canceladas):
+                    rot = None if q is None else rotulo(q)
+                    if rot and q["tipo_evento"] == "procedimento_cotas":
+                        # UNILA 204: o literal do resultado da banca segue com o nome e a situação de cada candidato,
+                        # que não vão à mensagem (a fila não leva dado pessoal)
+                        rot = rot.split(": ")[0]
+                    fr = base_frase if rot is None else f"{base_frase}: {rot}"
+                    item = {"tipo": "documento", "doc": cam, "texto": f"saiu {fr}", "fonte": {"documento": cam}}
+                    if doc_cota or (q is not None and so_cota(q)):
+                        item["so_cota"] = True
                     avisos[(slug, d)].append(item)
             for p in ([] if frase else c.get("pendencias") or []):
                 if p["estado"] == "resolvida" and ((p.get("resolvida_em") or {}).get("caminho") == cam):

@@ -98,3 +98,13 @@ Documento novo. Sessão "não pública" não entra na lista de datas do document
 Fuso. Quando o texto copiado do edital diz qual horário vale (IFMT 03: "Horário de Cuiabá (MT): pelo item 1.7 do edital..."), o lembrete diz isso, em vez de mandar conferir.
 
 Ficaram de fora: o período geral do IFSULDEMINAS 188 ("01/11 último dia") foi resolvido na extração (ev-0115 substituído pelos horários por área), e o prazo do plano de aula por turma da UFTM 28 e por área do IFSULDEMINAS 188 virou evento fixo na extração.
+
+## Conferência de 29/10
+
+A conferência da fila de 29/10/2026 achou dois destinatários errados, os dois no aviso de documento novo. Na URCA 02/2026, o resultado preliminar da prova escrita traz um sorteio do ponto por setor (ev-0060 a ev-0081), e o aviso usava o primeiro evento do documento, o da área 01, para todas as áreas e para "demais áreas". Na UNILA 204/2026, os resultados provisórios das bancas de pessoa com deficiência (Edital 303, área 02) e de heteroidentificação (Edital 304, área 03) foram para todas as áreas e para quem não marcou cota, porque o tipo `procedimento_cotas` não entrava na busca do evento do documento.
+
+`itens_doc_por_area` passou a escolher, para cada destino, o evento do documento que vale para ele: o do próprio escopo, ou o geral. Quando todos os eventos do documento têm escopo de área, o aviso vai só a essas áreas, cada uma com o seu evento, e não ao destino geral nem às outras áreas; área cancelada fica de fora. Documento sem evento continua indo a todos, sem rótulo. O resultado de banca de cotas leva a marca `so_cota` e, como o literal segue com o nome e a situação de cada candidato, o rótulo é cortado antes dos dois pontos. Testes em `test_agenda.py` (`Conferencia2910`).
+
+Na simulação de 29/10 sobre o mesmo estado da rodada, a fila passou de 93 para 94 mensagens (a da UNILA "todas as áreas" virou duas, uma para cotistas da área 02 e outra para os da área 03), e as 22 áreas da URCA passaram a citar o horário do próprio setor. As filas simuladas de 30 e 31/10 não mudaram (53 e 88 mensagens).
+
+Ficam para depois, por serem só texto e a fila ainda ser ensaio: o Aviso 05 da UFTM 28 tipado como convocação e com a janela corrida de 29/10 a 03/11; o anúncio do resultado da Lotação 02 da UFTM sem o prazo dos títulos; o rótulo de banca na ordem de serviço da UFSM 198 e 221; o título herdado do site no Anexo II da UFERSA 030; a linha repetida da UFBA 06, área 13; e o rótulo cru "Período de Recurso" da UNILAB 14.
