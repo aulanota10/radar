@@ -1076,6 +1076,120 @@ class Conferencia2910(unittest.TestCase):  # aviso de documento novo por área (
         self.assertTrue(A.so_cota(self.ev("pcd", ["02"], "procedimento_cotas")))
 
 
+def rodar_publicos(eventos, hoje, anterior_dia, vagas=(), triagem=None):
+    """Como rodar_msgs, mas devolve {área ou None: (mensagem de quem não marcou cota, mensagem de quem marcou)}."""
+    with tempfile.TemporaryDirectory() as v:
+        os.makedirs(os.path.join(v, "extracoes", "t"))
+        evs = [dict({"estado": "vigente", "escopo": "geral", "id": f"ev-{k:04d}"}, **e) for k, e in enumerate(eventos, 1)]
+        vgs = [{"codigo": {"literal": f"Área {c}", "numero": c}, "area_conhecimento": f"Área {c}"} for c in vagas]
+        json.dump({"sigla": "TESTE", "numero_edital": "1/2026", "eventos": evs, "vagas": vgs},
+                  open(os.path.join(v, "extracoes", "t", "concurso-t.json"), "w"))
+        anterior = {"gerado_em": anterior_dia.isoformat(), "concursos": {}}
+        if triagem is not None:
+            json.dump(triagem, open(os.path.join(v, "extracoes", "t", "triagem-t.json"), "w"))
+            anterior["concursos"]["t"] = {"docs": {}, "eventos": {}}
+        concursos, _, avisos, _, _, _ = A.executar(v, hoje, anterior)
+    c, gerais = concursos["t"], avisos.get(("t", None), [])
+    out = {}
+    for (_, area), its in avisos.items():
+        its = its if area is None else gerais + its
+        out[area] = tuple(A.mensagem(c, area, its, hoje, cota=k) if A.itens_do_publico(its, k) else None for k in (False, True))
+    return out
+
+
+class Conferencia3010(unittest.TestCase):
+    """Conferência da fila de 30/10/2026: compromisso de cota de sábado fora da mensagem de sexta (IFSULDEMINAS 188)
+    e aviso de documento novo sem os compromissos críticos do mesmo escopo (UFRGS 09, Polímeros)."""
+    SEXTA, QUINTA = dt.date(2026, 10, 30), dt.date(2026, 10, 29)
+    # IFSULDEMINAS 188: ev-0157 (deficiência), ev-0159 (heteroidentificação, 31/10) e ev-0160 (heteroidentificação, 01/11)
+    PCD = {"tipo_evento": "procedimento_cotas", "fase": "convocacao", "escopo": ["MCH-5", "MCH-6"],
+           "descricao_literal": "Avaliação presencial para caracterização da deficiência (Anexo II), no horário individual de cada "
+                                "pessoa candidata (de 08:30 a 16:30); o não comparecimento exclui da concorrência às vagas reservadas",
+           "data": jan("2026-10-31", "2026-10-31", "08:30", "16:30")}
+    HID = {"tipo_evento": "procedimento_cotas", "fase": "convocacao", "escopo": ["MCH-5"],
+           "descricao_literal": "Procedimento de Confirmação Complementar à Autodeclaração de pessoas pretas ou pardas, no horário "
+                                "individual de cada candidato pelo Anexo I (de 10:00 a 13:00); quem não comparecer no horário estabelecido é excluído",
+           "data": jan("2026-10-31", "2026-10-31", "10:00", "13:00")}
+    HID2 = dict(HID, escopo=["MCH-5", "MCH-6"], data=jan("2026-11-01", "2026-11-01", "13:00", "15:30"),
+                descricao_literal=HID["descricao_literal"].replace("10:00 a 13:00", "13:00 a 15:30"))
+
+    def test_cota_com_comparecimento_num_dia_e_critico(self):
+        self.assertTrue(A.critico(dict(self.PCD, estado="vigente")))
+        envio = dict(self.PCD, descricao_literal="Envio da documentação comprobatória do pertencimento étnico; o não envio exclui",
+                     data=jan("2026-10-14", "2026-10-31"))
+        self.assertFalse(A.critico(envio))  # prazo de vários dias não é compromisso do dia
+
+    def test_compromisso_de_sabado_avisa_na_sexta(self):
+        m = rodar_publicos([self.PCD], self.SEXTA, self.QUINTA, vagas=["MCH-5", "MCH-6"])
+        for area in ("MCH-5", "MCH-6"):
+            sem, com = m[area]
+            self.assertIsNone(sem)  # só quem marcou cota
+            self.assertIn("31/10/2026 (sábado), das 08:30 às 16:30: Avaliação presencial para caracterização da deficiência", com)
+            self.assertIn("(é amanhã)", com)
+
+    def test_resultado_de_sabado_continua_sem_aviso_na_sexta(self):  # decisão de 22/10: resultado tem um aviso só
+        m = rodar_publicos([{"tipo_evento": "resultado_final", "descricao_literal": "Resultado final do concurso",
+                           "data": fx("2026-10-31", "15:00")}], self.SEXTA, self.QUINTA)
+        self.assertEqual(m, {})
+
+    def test_mensagem_de_cota_leva_o_sabado_e_o_domingo(self):  # MCH-5 e MCH-6, quem marcou cota
+        m = rodar_publicos([self.PCD, self.HID, self.HID2], self.SEXTA, self.QUINTA, vagas=["MCH-5", "MCH-6"])
+        com = m["MCH-5"][1]
+        self.assertIn("31/10/2026 (sábado), das 08:30 às 16:30: Avaliação presencial", com)
+        self.assertIn("31/10/2026 (sábado), das 10:00 às 13:00: Procedimento de Confirmação Complementar", com)
+        self.assertIn("01/11/2026 (domingo), das 13:00 às 15:30: Procedimento de Confirmação Complementar", com)
+        self.assertIn("31/10/2026 (sábado), das 08:30 às 16:30: Avaliação presencial", m["MCH-6"][1])
+        self.assertNotIn("das 10:00 às 13:00", m["MCH-6"][1])  # a heteroidentificação de 31/10 é só da MCH-5
+
+    def test_complemento_leva_o_compromisso_de_cota_do_meio(self):  # em dia com rodada, pelo complemento
+        seg, dom = dt.date(2026, 10, 26), dt.date(2026, 10, 25)
+        pcd = dict(self.PCD, data=jan("2026-10-27", "2026-10-27", "08:30", "16:30"))
+        prova = {"tipo_evento": "prova", "etapa_ref": "didatica", "escopo": ["MCH-5"], "descricao_literal": "Prova de Desempenho Didático",
+                 "data": fx("2026-10-28", "14:00")}
+        sem, com = rodar_publicos([pcd, prova], seg, dom, vagas=["MCH-5", "MCH-6"])["MCH-5"]
+        self.assertIn("27/10/2026 (terça), das 08:30 às 16:30: Avaliação presencial", com)
+        self.assertNotIn("Avaliação presencial", sem)
+
+    # UFRGS 09, área 09 (Polímeros): a retificação de 29/10 só trocou o prédio da prova escrita de 09/11, 09:30
+    TRI = [{"sha256": "a", "caminho": "ci.pdf", "tipo": "cronograma", "data_publicacao": {"valor": "2026-10-13"}},
+           {"sha256": "b", "caminho": "ret.pdf", "tipo": "retificacao_cronograma", "data_publicacao": {"valor": "2026-10-29"},
+            "escopo": {"valor": ["09"]}}]
+    INST = {"tipo_evento": "outro", "escopo": ["09"], "fonte": {"documento": "ci.pdf"},
+            "descricao_literal": "Ato de Instalação do Concurso (art. 21), sessão obrigatória para todos os candidatos; não será "
+                                 "permitida a participação no Concurso de Candidato que não esteja presente no início",
+            "data": fx("2026-11-09", "08:30")}
+    ESC = {"tipo_evento": "prova", "etapa_ref": "escrita", "escopo": ["09"], "fonte": {"documento": "ret.pdf"},
+           "descricao_literal": "Sessão da Prova Escrita (arts. 22 e 23), sessão obrigatória para todos os candidatos; duração máxima de 4 horas",
+           "data": fx("2026-11-09", "09:30")}
+    ENV = {"tipo_evento": "entrega_documento", "etapa_ref": "didatica", "escopo": ["09"], "fonte": {"documento": "ci.pdf"},
+           "descricao_literal": "Envio do Título e Resumo da Prova Didática e do Projeto de Pesquisa ou Extensão",
+           "data": fx("2026-11-05", "23:59")}
+
+    def test_documento_novo_leva_os_criticos_do_mesmo_dia_e_da_janela(self):
+        m = rodar_publicos([self.INST, self.ESC, self.ENV], self.SEXTA, self.QUINTA, vagas=["09", "13"], triagem=self.TRI)
+        sem = m["09"][0]
+        self.assertIn("Sessão da Prova Escrita (arts. 22 e 23), sessão obrigatória para todos os candidatos; duração máxima de 4 horas: 09/11/2026", sem)
+        self.assertIn("09/11/2026 (segunda), às 08:30: Ato de Instalação do Concurso", sem)
+        self.assertIn("05/11/2026 (quinta), às 23:59: Envio do Título e Resumo", sem)
+        self.assertNotIn("13", m)  # a outra área não recebe nada
+
+    def test_documento_novo_de_data_distante_so_leva_o_mesmo_dia(self):
+        inst = dict(self.INST, data=fx("2027-01-11", "08:30"))
+        esc = dict(self.ESC, data=fx("2027-01-11", "09:30"))
+        env = dict(self.ENV, data=fx("2026-11-05", "23:59"))  # no caminho, mas fora da antecedência da prova (30 dias)
+        sem = rodar_publicos([inst, esc, env], self.SEXTA, self.QUINTA, vagas=["09"], triagem=self.TRI)["09"][0]
+        self.assertIn("11/01/2027 (segunda), às 08:30: Ato de Instalação do Concurso", sem)
+        self.assertNotIn("Envio do Título", sem)
+
+    def test_ancora_so_de_cota_nao_completa_a_mensagem_de_todos(self):
+        prova = {"tipo_evento": "prova", "etapa_ref": "didatica", "escopo": ["MCH-5"], "descricao_literal": "Prova de Desempenho Didático",
+                 "data": fx("2026-11-03", "14:00")}
+        hid = dict(self.HID, data=jan("2026-11-04", "2026-11-04", "13:00", "15:30"))  # aviso de 2 dias sai em 02/11
+        sem, com = rodar_publicos([prova, hid], dt.date(2026, 11, 2), dt.date(2026, 11, 1), vagas=["MCH-5"])["MCH-5"]
+        self.assertIsNone(sem)  # sem cota, a mensagem de 02/11 não teria nada além do complemento
+        self.assertIn("03/11/2026 (terça), às 14:00: Prova de Desempenho Didático", com)
+
+
 class SuspensaoPorArea(unittest.TestCase):  # UFBA 06, Área 18, decisão de 28/10/2026
     def ev(self, tipo, escopo, data):
         return {"tipo_evento": tipo, "estado": "vigente", "escopo": escopo, "data": {"forma": "fixa", "data": data}}

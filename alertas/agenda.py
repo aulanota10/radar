@@ -74,6 +74,8 @@ REGRA_PRESENCA = [("ini", [7, 2, 1])]
 CRITICOS = {"prova", "sorteio_tema", "sorteio_ordem", "sorteio_turma", "entrega_documento", "confinamento"}
 ELIMINA = re.compile(r"elimina(?!t[óo]ri)|obrigat[óo]ri|presen[çc]a", re.I)  # "etapa eliminatória" não é presença
 DIAS_PRAZO_PROXIMO = 1
+# A rotina "Alertas do Radar, ensaio diário" roda de domingo a sexta: sábado (weekday 5) não tem rodada.
+SEM_RODADA = {5}
 # sessão sem o candidato (UFRGS 08: "Sessão de Avaliação do Exame de Títulos e Trabalhos, sessão não pública")
 SEM_CANDIDATO = re.compile(r"n[ãa]o p[úu]blica|sem (a )?(necessidade d[ae] )?presen[çc]a|presen[çc]a apenas d|presen[çc]a n[ãa]o obrigat|de presen[çc]a n[ãa]o obrigat", re.I)
 # Sessão fechada ao candidato (UFRGS 09, conferência de 27/10/2026: "Sessão de Avaliação do Exame de Títulos e
@@ -654,9 +656,21 @@ def critico(e):
     if t in CRITICOS:
         return True
     f, i, j, _ = intervalo(e["data"])
-    if t == "outro":
+    # Conferência de 30/10/2026, IFSULDEMINAS 188: a avaliação presencial de deficiência e a heteroidentificação de 31/10
+    # ("o não comparecimento exclui da concorrência às vagas reservadas") ficavam fora da mensagem de cota que já levava a
+    # de 01/11. Procedimento de cotas num dia só, com comparecimento, é compromisso como a sessão de instalação.
+    if t in ("outro", "procedimento_cotas"):
         return bool((f == "fixa" or i == j) and PRESENCA.search(lit))
     return bool(ELIMINA.search(lit)) and t not in PRAZOS and (f == "fixa" or i == j)
+
+
+def maior_antecedencia(e):
+    """Maior antecedência, em dias, dos avisos agendados do evento (a mesma regra do laço de alertas agendados)."""
+    f, i, j, _ = intervalo(e.get("data"))
+    regra = REGRAS.get(e.get("tipo_evento"))
+    if e.get("tipo_evento") == "outro" and (f == "fixa" or i == j) and PRESENCA.search(e.get("descricao_literal") or ""):
+        regra = REGRA_PRESENCA
+    return max((n for _, ants in regra or [] for n in ants), default=0)
 
 
 def completar(avisos, slug, c, hoje, destinos, ordem, edital, nomes_area, canceladas, retidas=frozenset()):
@@ -674,8 +688,20 @@ def completar(avisos, slug, c, hoje, destinos, ordem, edital, nomes_area, cancel
             return []
         presentes = {x.get("ev") for x in base}
         ags = [x for x in base if x["tipo"] == "agendado" and not x.get("antes") and x.get("data")]
-        lim = max((x["data"] for x in ags), default=None)
+        # Âncoras do complemento: (público, até onde vai, só o dia). A data agendada cobre de hoje até ela. A data do aviso
+        # de documento novo (conferência de 30/10/2026, UFRGS 09, Polímeros: a retificação da prova escrita de 09/11 saía
+        # sem o Ato de Instalação das 08:30 do mesmo dia e sem o envio do título e resumo até 05/11) cobre o próprio dia e,
+        # quando já está dentro da maior antecedência dos avisos agendados do evento, também de hoje até ela, como cobriria o
+        # aviso agendado dele. A âncora de um item "só cota" só completa a mensagem de quem marcou cota.
+        ancoras = [(bool(x.get("so_cota")), x["data"], False) for x in ags]
+        for x in base:
+            if x["tipo"] in ("data_nova", "mudanca") and x.get("data_ev") and x["data_ev"] >= hoje:
+                ancoras.append((bool(x.get("so_cota")), x["data_ev"], not x.get("na_janela")))
         provas = [(por_id[x["ev"]], x["data"]) for x in ags if x.get("ev") in por_id and por_id[x["ev"]]["tipo_evento"] == "prova"]
+
+        def cobre(dia, cota):
+            return any((dia == ate if so_dia else hoje <= dia <= ate) for c_, ate, so_dia in ancoras if cota or not c_)
+
         out = []
         for e in vig:
             ds = dest[id(e)]
@@ -686,15 +712,20 @@ def completar(avisos, slug, c, hoje, destinos, ordem, edital, nomes_area, cancel
                 continue
             fonte = dict(e.get("fonte") or {})
             fonte["documento"] = fonte.get("documento") or edital
-            item = None
-            if lim and critico(e):
+            item, de_cota = None, False
+            if ancoras and critico(e):
                 continua = e["tipo_evento"] == "prova" and any(
                     p.get("etapa_ref") == e.get("etapa_ref") and p["escopo"] == e["escopo"] and p is not e
                     and ref < i <= ref + dt.timedelta(days=DIAS_ANTES) for p, ref in provas)
-                if hoje <= i <= lim or continua:
-                    item = item_agendado(e, "ini", i, hoje, fonte)
-                elif e["tipo_evento"] == "entrega_documento" and j and hoje <= j <= lim:
+                if continua or cobre(i, True):
+                    # prazo com data fixa (a data calculada do envio da UFRGS 09) é "até 23:59", como no aviso agendado
+                    item = item_agendado(e, "fim" if prazo_fixo(e["tipo_evento"], e["data"]) else "ini", i, hoje, fonte)
+                    de_cota = not continua and not cobre(i, False)
+                elif e["tipo_evento"] == "entrega_documento" and j and cobre(j, True):
                     item = item_agendado(e, "fim", j, hoje, fonte)
+                    de_cota = not cobre(j, False)
+                if item is not None and de_cota:
+                    item["so_cota"] = True
             if item is None and e["tipo_evento"] in PRAZOS and hoje <= (j or i) <= amanha and i <= amanha:
                 item = item_agendado(e, "fim", j or i, hoje, fonte)
             if item is not None and item.get("data") == hoje and item.get("hora") and item["hora"][:5] < "13:00":
@@ -712,7 +743,7 @@ def completar(avisos, slug, c, hoje, destinos, ordem, edital, nomes_area, cancel
         avisos[(slug, None)].extend(novos_gerais)
         gerais = avisos[(slug, None)]
     alvos = {d for (s_, d) in list(avisos) if s_ == slug and d is not None and d not in retidas}
-    if any(x["tipo"] == "agendado" for x in gerais):
+    if any(x["tipo"] == "agendado" or x.get("data_ev") for x in gerais):
         alvos |= {a for a in nomes_area if a not in canceladas and a not in retidas}
     for d in sorted(alvos):
         its = faltantes(d, gerais + avisos.get((slug, d), []))
@@ -1236,6 +1267,11 @@ def executar(vigia, hoje, anterior):
                               if intervalo(alt.get("valor_anterior"))[1] else
                               f"{rotulo(pseudo)}: {texto_data(alt.get('valor_novo'), hoje, pseudo.get('tipo_evento'))}"),
                     "fonte": alt.get("fonte") or {}}
+            if _f in ("fixa", "janela") and _i:
+                # a data nova da retificação também é âncora do complemento (conferência de 30/10/2026, ver completar)
+                item.update(data_ev=_i, na_janela=(_i - hoje).days <= maior_antecedencia(dict(pseudo, data=alt["valor_novo"])))
+                if any(pseudo is x for x in c["eventos"]):
+                    item["ev"] = id(pseudo)
             if so_cota(pseudo):
                 item["so_cota"] = True
             for d in destinos(ea.get("escopo") or "geral"):
@@ -1287,6 +1323,9 @@ def executar(vigia, hoje, anterior):
                 if futura and kk not in alteradas and not NAO_PUBLICA.search(e.get("descricao_literal") or ""):
                     item = {"tipo": "data_nova", "doc": fonte["documento"],
                             "texto": f"{rotulo(e)}: {texto_ev(e, hoje)}", "fonte": fonte}
+                    if f in ("fixa", "janela") and i:
+                        # âncora do complemento (conferência de 30/10/2026, ver completar)
+                        item.update(ev=id(e), data_ev=i, na_janela=(i - hoje).days <= maior_antecedencia(e))
                     if so_cota(e):
                         item["so_cota"] = True
                     for d in dest:
@@ -1314,16 +1353,21 @@ def executar(vigia, hoje, anterior):
                 regra = [("fim", sorted({n for _, ants in regra for n in ants}, reverse=True))]
             if e["tipo_evento"] == "homologacao_resultado" and tem_res_final:
                 continue
-            disparou = False
+            disparou, feitos = False, set()
             for marco, ants in regra:
                 ref = i if marco == "ini" else j
                 if not ref:
                     continue
                 for n in ants:
-                    if n == 0 and h and h[:5] < "13:00":
+                    # Conferência de 30/10/2026, IFSULDEMINAS 188: o aviso do dia de um compromisso de sábado se perdia, porque
+                    # sábado não tem rodada e a de domingo não avisa o que já passou. O de compromisso (critico) sai na sexta,
+                    # como véspera; o de resultado continua só com o aviso de dois dias (decisão de 22/10/2026).
+                    vespera = n == 0 and ref.weekday() in SEM_RODADA and critico(e)
+                    if n == 0 and h and h[:5] < "13:00" and not vespera:
                         continue
-                    gatilho = ref - dt.timedelta(days=n)
-                    if gatilho in cobertos and ref >= hoje and (n > 0 or ref == hoje):
+                    gatilho = ref - dt.timedelta(days=n + (1 if vespera else 0))
+                    if gatilho in cobertos and ref >= hoje and (n > 0 or ref == hoje or vespera) and (marco, ref) not in feitos:
+                        feitos.add((marco, ref))
                         disparou = True
                         item = item_agendado(e, marco, ref, hoje, fonte, periodo)
                         item["ordem"] = ordem[id(e)]
