@@ -61,7 +61,7 @@ REGRAS = {
 # Conferência de 13/10: "Sessão pública para abertura do concurso" (UFBA 06, áreas 08, 11 e 37; a ausência
 # elimina pelo item 8.3.2) não casava com "sessão de abertura" e ficava com o aviso único de 2 dias.
 PRESENCA = re.compile(r"port[õoã]|instala[çc][ãa]o|sess[ãa]o de abertura|abertura dos trabalhos|presen[çc]a|comparec|apresentar-se|identifica[çc][ãa]o dos candidat"
-                      r"|abertura do concurso|sess[ãa]o p[úu]blica[^.;]{0,60}abertura|confinamento|obrigat[óo]ri|elimina(?!t[óo]ri)", re.I)
+                      r"|abertura do concurso|sess[ãa]o p[úu]blica[^.;]{0,60}abertura|confinamento|obrigat[óo]ri|\belimina(?!t[óo]ri)", re.I)
 REGRA_PRESENCA = [("ini", [7, 2, 1])]
 
 # Conferência de 13/10: a mensagem do dia levava um sorteio ou uma prova e deixava de fora, no mesmo
@@ -72,12 +72,17 @@ REGRA_PRESENCA = [("ini", [7, 2, 1])]
 # sorteio e entrega de documento. E leva os prazos que terminam hoje ou amanhã (IFMG 1077: a abertura das
 # inscrições saía sem a isenção que acabava no dia seguinte).
 CRITICOS = {"prova", "sorteio_tema", "sorteio_ordem", "sorteio_turma", "entrega_documento", "confinamento"}
-ELIMINA = re.compile(r"elimina(?!t[óo]ri)|obrigat[óo]ri|presen[çc]a", re.I)  # "etapa eliminatória" não é presença
+# "etapa eliminatória" não é presença; e "preliminar" contém "elimina" (defeito anotado em 22/10/2026, corrigido na
+# conferência de 01/11/2026, quando o complemento dos dias seguintes passou a levar resultado preliminar como compromisso)
+ELIMINA = re.compile(r"\belimina(?!t[óo]ri)|obrigat[óo]ri|presen[çc]a", re.I)
 DIAS_PRAZO_PROXIMO = 1
+DIAS_SEQUENCIA = 7  # compromisso a até 7 dias leva os críticos dos DIAS_ANTES dias seguintes (ver completar)
+# "Comparecimento obrigatório 30 minutos antes da leitura da prova escrita" (UERJ, item 11.2; conferência de 01/11/2026)
+ANTES_DE = re.compile(r"\b\d+\s*(?:[(\[][^)\]]*[)\]]\s*)?minutos?\s+antes\s+d", re.I)
 # A rotina "Alertas do Radar, ensaio diário" roda de domingo a sexta: sábado (weekday 5) não tem rodada.
 SEM_RODADA = {5}
 # sessão sem o candidato (UFRGS 08: "Sessão de Avaliação do Exame de Títulos e Trabalhos, sessão não pública")
-SEM_CANDIDATO = re.compile(r"n[ãa]o p[úu]blica|sem (a )?(necessidade d[ae] )?presen[çc]a|presen[çc]a apenas d|presen[çc]a n[ãa]o obrigat|de presen[çc]a n[ãa]o obrigat", re.I)
+SEM_CANDIDATO = re.compile(r"n[ãa]o p[úu]blica|sem (a )?(necessidade d[ae] )?presen[çc]a|presen[çc]a apenas d|presen[çc]a n[ãa]o obrigat|de presen[çc]a n[ãa]o obrigat|presen[çc]a facultativa", re.I)
 # Sessão fechada ao candidato (UFRGS 09, conferência de 27/10/2026: "Sessão de Avaliação do Exame de Títulos e
 # Trabalhos, sessão não pública" entrava na lista de datas do documento novo). Só "não pública": a sessão de
 # resultado "de presença não obrigatória" interessa ao candidato e continua.
@@ -366,7 +371,19 @@ def corta(t, n=180):
     if len(t) <= n:
         return t
     m = max(t.rfind(s, 0, n) for s in ("; ", ", ", " - ", ": "))
-    return (t[:m] if m > n // 2 else t[:n].rsplit(" ", 1)[0]) + "..."
+    if m > n // 2:
+        return t[:m] + "..."
+    # Conferência de 01/11/2026, UFPel 028: sem fim de oração na segunda metade, o corte por palavra caía no meio do
+    # conflito ("a seção 2 do formulário dá ... às 08 horas e o cronograma dá a...") e escondia o horário da instalação.
+    # Se a frase termina até FRASE_EXTRA caracteres depois do limite, ela vai inteira.
+    fim = t.find(". ", n)
+    fim = len(t) if fim < 0 and len(t) <= n + FRASE_EXTRA else fim
+    if 0 <= fim <= n + FRASE_EXTRA:
+        return t[:fim].rstrip(".;:,") + ("..." if fim < len(t) else "")
+    return t[:n].rsplit(" ", 1)[0] + "..."
+
+
+FRASE_EXTRA = 100
 
 
 # Fragmentos de rótulo que o edital deixa soltos entre parênteses: "(período para) Realização da Prova" e
@@ -404,6 +421,24 @@ def sem_tempo_repetido(rot, quando):
     return antes if len(antes) >= 15 else rot
 
 
+CAMPUS_ENTRE_PARENTESES = re.compile(r"\s*\((?:[A-Z]{2,}\s+)?campus\s+([^()]*)\)", re.I)
+
+
+def sem_campus_de_lotacao(lit, lotacoes):
+    """Conferência de 01/11/2026, IFMT 03: "Prova de Desempenho Didático, Física (IFMT Campus Confresa)" levava o
+    candidato a ir a Confresa, mas o campus entre parênteses é o da lotação da vaga (a unidade da área no quadro de
+    vagas), e a prova é em Cuiabá. O parêntese sai quando o campus que ele cita é a unidade das áreas do evento."""
+    if not lotacoes:
+        return lit
+    nomes = [norma_titulo(u) for u in lotacoes if u]
+
+    def troca(m):
+        p = norma_titulo(m.group(1))
+        lotacao = any(n and (p == n or p.startswith(n.split(" centro ")[0]) or n.startswith(p)) for n in nomes)
+        return "" if lotacao else m.group(0)
+    return CAMPUS_ENTRE_PARENTESES.sub(troca, lit)
+
+
 def rotulo(e):
     """O que o candidato lê é a descrição literal do edital, e não o nome do tipo interno.
     A conferência de 11/10 mostrou que o tipo engana ("resultado final" para o resultado preliminar,
@@ -411,6 +446,7 @@ def rotulo(e):
     traz o que importa ("horário de fechamento das salas", "previsão")."""
     lit = re.sub(r"\s*\((?:Edital\b|item\b|itens\b|faixa\b|ver\b|cf\.)[^)]*\)", "", e.get("descricao_literal") or "", flags=re.I)
     lit = ROTULO_SOLTO_FIM.sub("", ROTULO_SOLTO_INI.sub("", lit)).strip()
+    lit = sem_campus_de_lotacao(lit, e.get("_lotacao"))
     lit = resumo_dos_portoes(lit)
     # a marca de previsão que o extrator põe no fim do literal (regra de 12/10) não pode sumir no corte
     marca = re.search(r"\s*\((?:previs|prov[áa]vel|data prev|datas prov|data prov|cronograma previsto)[^)]*\)\s*$", lit, re.I)
@@ -694,6 +730,15 @@ def completar(avisos, slug, c, hoje, destinos, ordem, edital, nomes_area, cancel
         # quando já está dentro da maior antecedência dos avisos agendados do evento, também de hoje até ela, como cobriria o
         # aviso agendado dele. A âncora de um item "só cota" só completa a mensagem de quem marcou cota.
         ancoras = [(bool(x.get("so_cota")), x["data"], False) for x in ags]
+        # Conferência de 01/11/2026 (UERJ Seleções 229, 230, 232, 233 e 243; UFU 118, área 2): a mensagem da prova escrita
+        # de 03/11 parava nela e deixava de fora o sorteio do ponto e a prova de aula de 04 e 05/11, e a do sorteio de
+        # 03/11 deixava de fora a prova didática de 04/11. Compromisso crítico da mensagem cobre também os DIAS_ANTES dias
+        # seguintes, para os eventos críticos do mesmo destinatário. Só compromisso próximo (até DIAS_SEQUENCIA dias): o aviso
+        # de 30 ou 15 dias de uma prova não arrasta o resto do calendário.
+        for x in ags:
+            ev = por_id.get(x.get("ev"))
+            if ev is not None and critico(ev) and (x["data"] - hoje).days <= DIAS_SEQUENCIA:
+                ancoras.append((bool(x.get("so_cota")), x["data"] + dt.timedelta(days=DIAS_ANTES), False))
         for x in base:
             if x["tipo"] in ("data_nova", "mudanca") and x.get("data_ev") and x["data_ev"] >= hoje:
                 ancoras.append((bool(x.get("so_cota")), x["data_ev"], not x.get("na_janela")))
@@ -734,6 +779,41 @@ def completar(avisos, slug, c, hoje, destinos, ordem, edital, nomes_area, cancel
                 item["ordem"] = ordem.get(id(e), 0)
                 item["completa"] = True
                 out.append(item)
+        out += alvos_do_comparecimento(d, base + out)
+        return out
+
+    def alvos_do_comparecimento(d, its):
+        """Conferência de 01/11/2026 (UERJ 227, 244 e Seleções 237, 239, 246 e 250): a mensagem dizia "comparecimento
+        obrigatório 30 minutos antes da leitura da prova escrita" e não dizia quando era a leitura. O evento a que o
+        comparecimento se refere (o mesmo dia, até uma hora depois, a mesma etapa) vai junto."""
+        presentes = {x.get("ev") for x in its}
+        out = []
+        for x in its:
+            p = por_id.get(x.get("ev"))
+            if p is None or not ANTES_DE.search(p.get("descricao_literal") or ""):
+                continue
+            pf, pi, _, ph = intervalo(p["data"])
+            if pf != "fixa" or not pi or minutos(ph) is None:
+                continue
+            for e in vig:
+                if id(e) in presentes or e is p:
+                    continue
+                ds = dest[id(e)]
+                if not (None in ds or (d is not None and d in ds)):
+                    continue
+                f, i, _, h = intervalo(e["data"])
+                if f not in ("fixa", "janela") or i != pi or minutos(h) is None \
+                        or not (0 < minutos(h) - minutos(ph) <= 60) \
+                        or (e.get("etapa_ref") and p.get("etapa_ref") and e.get("etapa_ref") != p.get("etapa_ref")):
+                    continue
+                fonte = dict(e.get("fonte") or {})
+                fonte["documento"] = fonte.get("documento") or edital
+                item = item_agendado(e, "ini", i, hoje, fonte)
+                item.update(ordem=ordem.get(id(e), 0), completa=True)
+                if x.get("so_cota"):
+                    item["so_cota"] = True
+                presentes.add(id(e))
+                out.append(item)
         return out
 
     gerais = avisos.get((slug, None), [])
@@ -749,6 +829,28 @@ def completar(avisos, slug, c, hoje, destinos, ordem, edital, nomes_area, cancel
         its = faltantes(d, gerais + avisos.get((slug, d), []))
         if its:
             avisos[(slug, d)].extend(its)
+    # Conferência de 01/11/2026, UFERSA 030: a prova escrita de 22/11, geral para os Grupos I, II e III, entrava pelo
+    # complemento nas mensagens das áreas dos Grupos I e II (que já iam até a didática deles) e não na mensagem das "demais
+    # áreas", a do Grupo III, que só tinha a divulgação das bancas. Evento geral que completa a mensagem de alguma área
+    # passa a ir na mensagem geral, que chega a todas; sem mensagem geral no dia, ou com áreas retidas, fica como estava.
+    if gerais and not retidas:
+        promovidos = collections.OrderedDict()
+        for d in sorted(alvos):
+            for x in avisos.get((slug, d), []):
+                e = por_id.get(x.get("ev"))
+                if x.get("completa") and e is not None and None in dest[id(e)]:
+                    if x["ev"] not in promovidos or (promovidos[x["ev"]].get("so_cota") and not x.get("so_cota")):
+                        promovidos[x["ev"]] = x
+        ja = {x.get("ev") for x in gerais}
+        novos = [x for k, x in promovidos.items() if k not in ja]
+        if novos:
+            avisos[(slug, None)].extend(novos)
+            for d in sorted(alvos):
+                k = (slug, d)
+                if k in avisos:
+                    avisos[k] = [x for x in avisos[k] if not (x.get("completa") and x.get("ev") in promovidos)]
+                    if not avisos[k]:
+                        del avisos[k]
 
 
 def sombras(eventos):
@@ -818,6 +920,26 @@ def so_passado(eventos, cam, hoje):
     fins = [(intervalo(e["data"])[2] or intervalo(e["data"])[1]) for e in eventos
             if (e.get("fonte") or {}).get("documento") == cam and not e.get("_derivado_de")]
     return bool(fins) and all(f is not None and f < hoje for f in fins)
+
+
+DATA_DA_PROVA = re.compile(r"\b(?:provas?|aulas?|apresenta[çc][ãõao]+e?s?|did[áa]tica)\s+(?:d[oea]s?\s+)?(?:dias?\s+)?(\d{1,2})/(\d{1,2})/(\d{4})", re.I)
+
+
+def sorteio_passado(eventos, cam, tri, titulo, hoje):
+    """Documento de sorteio cujas datas já passaram: as do próprio documento ou, sem evento, a data das provas que o
+    título ou o número literal da triagem cita ("Provas do dia 31/10/2026")."""
+    if so_passado(eventos, cam, hoje):
+        return True
+    if any((e.get("fonte") or {}).get("documento") == cam for e in eventos):
+        return False
+    datas = []
+    for txt in (val(tri.get("numero_literal")), titulo):
+        for d_, m_, a_ in DATA_DA_PROVA.findall(str(txt or "")):
+            try:
+                datas.append(dt.date(int(a_), int(m_), int(d_)))
+            except ValueError:
+                pass
+    return bool(datas) and all(x < hoje for x in datas)
 
 
 def so_preliminar_no_dia(eventos, dia, esc):
@@ -950,6 +1072,19 @@ def areas(c):
     return out
 
 
+def lotacoes(c):
+    """{código da área: unidade de lotação da vaga}, quando o quadro de vagas a dá (IFMT 03: "Confresa")."""
+    v = c.get("vagas")
+    lista = v if isinstance(v, list) else (v or {}).get("areas", []) if isinstance(v, dict) else []
+    out = {}
+    for a in lista:
+        cod = (a.get("codigo") or {}).get("numero") or (a.get("codigo") or {}).get("literal")
+        u = val(a.get("unidade"))
+        if cod and isinstance(u, str) and u.strip():
+            out[str(cod)] = u.strip()
+    return out
+
+
 def norma_titulo(t):
     t = unicodedata.normalize("NFD", t or "")
     t = "".join(ch for ch in t if not unicodedata.combining(ch)).lower()
@@ -1078,9 +1213,24 @@ def recente(cam, triagem, registro, hoje):
     return bool(visto and visto >= lim and r.get("origem") != "acervo")
 
 
+# Cartão de documento do portal (UFERSA 030, conferência de 01/11/2026): "📁 Anexo II - Cronograma Provisório de
+# Atividades OUTRO Cronograma provisório das atividades do concurso. 20/09/2026 Abrir". O texto do link junta o ícone,
+# o título, o tipo em maiúsculas, a descrição, a data do cartão e o botão "Abrir"; o título é só o que vem antes do tipo.
+CARTAO = re.compile(r"^[^\w(]*\s*(?P<titulo>.+?)\s+(?P<tipo>OUTRO|EDITAL|EDITAIS|RESULTADO|CONVOCA[ÇC][ÃA]O|RETIFICA[ÇC][ÃA]O|CRONOGRAMA"
+                    r"|HOMOLOGA[ÇC][ÃA]O|PORTARIA|ANEXO|AVISO|COMUNICADO|ERRATA|LISTA|BANCA)\s+.*?\d{2}/\d{2}/\d{4}\s+Abri?r?\W*$")
+
+
+def titulo_do_cartao(t):
+    m = CARTAO.match(t or "")
+    if not m or len(m.group("titulo")) < 8:
+        return t
+    return m.group("titulo").strip(" -")
+
+
 def limpa_titulo(t, pub=None):
     """Título legível para o candidato: tira o texto cru do link e os prefixos do acervo."""
     t = re.sub(r"\s+", " ", t or "").strip()
+    t = titulo_do_cartao(t)
     t = re.sub(r"^Fazer download deste arquivo \((.*)\)$", r"\1", t)
     t = re.sub(r"\s*\bdownload\b\.?(?=\s*/|\s*$)", "", t, flags=re.I)  # botão do portal colado ao texto (USP FM 152)
     t = re.sub(r"^\d{1,3}\s*-\s*", "", t)
@@ -1146,10 +1296,37 @@ def titulo_doc(cam, triagem, registro, outros=(), mesmo_texto_em_outros_arquivos
     if not t:
         t = val((triagem.get(cam) or {}).get("numero_literal")) or os.path.basename(cam)
     r = limpa_titulo(t, pub)
+    # o cartão do portal guarda o título e a data da primeira versão; o arquivo retificado diz que é a retificada
+    if t and CARTAO.match(re.sub(r"\s+", " ", t).strip()) and re.search(r"retificad", os.path.basename(cam), re.I) \
+            and not re.search(r"retificad", r, re.I):
+        r += " (retificado)"
     # só número não diz que documento é (IFSULDEMINAS 188: "188 (1).pdf", o gabarito preliminar)
     if SO_NUMERO.match(r) and val((triagem.get(cam) or {}).get("numero_literal")):
         r = limpa_titulo(val(triagem[cam]["numero_literal"]), pub)
     return r
+
+
+# Versão posterior do mesmo documento (IFMT 03, conferência de 01/11/2026): "cronograma-da-prova-de-desempenho-didatico"
+# de 09/10 e "cronograma-da-prova-de-desempenho-didatico-apos-recursos" de 14/10. O nome do arquivo novo é o do antigo
+# mais um sufixo de versão, e a publicação é posterior.
+SUFIXO_VERSAO = re.compile(r"^[-_ ]+(?:ap[oó]s|retificad|atualizad|consolidad|vers[aã]o|nov[oa]\b|corrigid|republicad)", re.I)
+
+
+def superados(triagem):
+    """{caminho do documento: caminho da versão posterior mais recente}, pelo nome do arquivo e pela data de publicação."""
+    def stem(p):
+        return re.sub(r"\.(pdf|docx?|odt|xlsx?|html?)$", "", os.path.basename(p), flags=re.I)
+    pubs = {p: D(val(x.get("data_publicacao"))) for p, x in triagem.items()}
+    out = {}
+    for a_, pa in pubs.items():
+        sa = stem(a_)
+        if len(sa) < 15 or not pa:
+            continue
+        novas = [(pb, b) for b, pb in pubs.items() if b != a_ and pb and pb > pa and stem(b).startswith(sa)
+                 and SUFIXO_VERSAO.match(stem(b)[len(sa):]) and (triagem[b].get("pertence") or {}).get("valor") != "nao"]
+        if novas:
+            out[a_] = max(novas)[1]
+    return out
 
 
 def executar(vigia, hoje, anterior):
@@ -1173,6 +1350,10 @@ def executar(vigia, hoje, anterior):
         nome, sit_canc = nome_concurso(c), situacao(c)
         sit, canceladas = sit_canc
         nomes_area = areas(c)
+        lot = lotacoes(c)
+        for e in c["eventos"]:
+            if isinstance(e.get("escopo"), list) and any(lot.get(x) for x in e["escopo"]):
+                e["_lotacao"] = sorted({lot[x] for x in e["escopo"] if lot.get(x)})
         triados = docs_triados(c)
         triagem = {x["caminho"]: x for x in c["_triagem"]}
         a = ant["concursos"].get(slug)
@@ -1185,6 +1366,7 @@ def executar(vigia, hoje, anterior):
         c["_titulos"] = {p: titulo_doc(p, triagem, registro, [t for q, t in textos.items() if q != p],
                                        sum(1 for q, t in textos.items() if q != p and t and t == textos[p] and triados[q] != triados[p]))
                          for p in triados}
+        c["_superado_por"] = superados(triagem)
         if a is None and not base:
             rel["concurso_novo"].append(slug)
 
@@ -1411,6 +1593,10 @@ def executar(vigia, hoje, anterior):
                 # UFBA 06, conferência de 27/10/2026: cronogramas de Eletrotécnica, Química Analítica e Sociologia
                 # publicados depois das provas; "saiu o cronograma" levava o candidato a procurar etapa que não existe
                 frase = None
+            if frase and t.get("tipo") == "sorteio" and sorteio_passado(c["eventos"], cam, t, titulo, hoje):
+                # IFSULDEMINAS 188, conferência de 01/11/2026: o sorteio dos temas das provas de 31/10, publicado em 30/10,
+                # chegava em 01/11 como "saiu o resultado de um sorteio", quando a prova dele já tinha acontecido
+                frase = None
             if frase and t.get("tipo") in ("homologados_preliminar", "homologados_final") and VAGA_RESERVADA.search(titulo):
                 # IFMG 607, conferência de 27/10/2026: a lista de inscritos da vaga especial para pessoas negras não é
                 # "a lista final de inscrições homologadas", e só interessa a quem concorre pela reserva
@@ -1595,6 +1781,10 @@ def mensagem(c, area, itens, hoje, cota=False):
         for x in xs:
             if x["texto"] in vistos:
                 continue
+            # UNILA 240, conferência de 01/11/2026: o mesmo arquivo em dois links dava "Saiu a lista ...: <rótulo>" por um
+            # e "Saiu a lista ..." pelo outro, sem evento; a linha que só repete o começo de outra do bloco sai
+            if any(y is not x and y["texto"].startswith(x["texto"] + ":") for y in xs):
+                continue
             vistos.add(x["texto"])
             out.append("• " + x["texto"][0].upper() + x["texto"][1:])
         out.append("")
@@ -1626,6 +1816,9 @@ def mensagem(c, area, itens, hoje, cota=False):
         f = x.get("fonte") or {}
         if f.get("documento"):
             s = c.get("_titulos", {}).get(f["documento"]) or limpa_titulo(os.path.basename(f["documento"]))
+            nova = c.get("_superado_por", {}).get(f["documento"])
+            if nova:  # IFMT 03, conferência de 01/11/2026: cronograma de 09/10 citado depois do "após recursos" de 14/10
+                s += f" (há versão posterior: {c['_titulos'].get(nova) or limpa_titulo(os.path.basename(nova))})"
             s += f", item {f['item']}" if f.get("item") and str(f["item"]).lower() not in ("cronograma", "texto", "fecho") else ""
             if s not in fontes:
                 fontes.append(s)
