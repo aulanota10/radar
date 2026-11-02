@@ -668,7 +668,10 @@ def item_agendado(e, marco, ref, hoje, fonte, periodo=False):
                 "texto": f"{texto_ev(e, hoje)}: {rot} ({falta(ref, hoje)})", "fonte": fonte}
     else:
         if (f == "janela" and marco == "fim" and e["tipo_evento"] in PRAZOS and e["tipo_evento"] != "inscricao") or (prazo and e["tipo_evento"] != "inscricao"):
-            if not re.match(r"(último|ultimo) dia|prazo final|até\b", rot, re.I):  # FMUSP: "último dia: Último dia..."
+            # UERJ 2026/232, conferência de 02/11/2026: entrega "imediatamente após o resultado da Prova de Aula" não é prazo
+            # que corre o dia inteiro, e "último dia" levava o candidato a deixar a entrega para mais tarde
+            if not re.match(r"(último|ultimo) dia|prazo final|até\b", rot, re.I) \
+                    and not re.search(r"imediatamente (ap[óo]s|depois)", e.get("descricao_literal") or "", re.I):  # FMUSP: "último dia: Último dia..."
                 rot = f"último dia: {rot}"
         hfim = (hj if f == "janela" and marco == "fim" else hi if f == "janela" else h)
         hora = f", até {hfim}" if hfim and marco == "fim" and (f == "janela" or prazo) else f", às {hfim}" if hfim else ""
@@ -681,6 +684,73 @@ def item_agendado(e, marco, ref, hoje, fonte, periodo=False):
     if so_cota(e):
         item["so_cota"] = True
     return item
+
+
+# Conferência de 02/11/2026: a mensagem da prova didática não dizia o que se faz antes ou depois dela quando o edital
+# não dá data própria. UFV 47 e 48: Projeto e currículo "até 3 horas após o início da aula do primeiro candidato sorteado
+# para a Prova de Didática"; UFBA 06, áreas 10 e 13: documentos "antes do início da segunda Prova do concurso"; UERJ
+# 2026/243: entrega de títulos "imediatamente após o resultado da Prova de Aula". Evento crítico sem data (relativo ou
+# condicionado) cuja referência cita uma prova ou um resultado que já está na mensagem vai junto, com a data dessa referência.
+TEXTO_ETAPA = {"didatica": r"did[áa]tic|prova de aula|aula p[úu]blica", "escrita": r"prova escrita|prova dissertativa",
+               "objetiva": r"prova objetiva", "pratica": r"prova pr[áa]tica|pr[áa]tico", "memorial": r"memorial",
+               "projeto": r"projeto", "titulos": r"t[íi]tulos", "defesa_producao": r"produ[çc][ãa]o intelectual",
+               "entrevista": r"entrevista"}
+ORDINAL_PROVA = re.compile(r"\b(primeir|segund|terceir|quart|quint)[oa]\s+(prova|etapa)", re.I)
+ORDINAIS = ["primeir", "segund", "terceir", "quart", "quint"]
+RESULTADOS = {"resultado", "resultado_final"}
+# "Leitura da prova escrita": cada candidato lê a própria prova (UERJ, item 9.1.1, i). Compromisso como a prova,
+# sem os avisos de 7, 2 e 1 dia da presença.
+LEITURA = re.compile(r"\bleitura (p[úu]blica )?da(s)? prova", re.I)
+
+
+def referencia_sem_data(e):
+    """Texto da referência de um evento relativo ou condicionado ("" para os demais)."""
+    d = e.get("data") or {}
+    if d.get("forma") == "relativa":
+        a = d.get("evento_ancora")
+        return (a.get("descricao") or a.get("literal") or "") if isinstance(a, dict) else str(a or "")
+    if d.get("forma") == "condicionada":
+        return d.get("condicao_literal") or ""
+    return ""
+
+
+def cita_a_referencia(e, p, ordem_etapas, etapas_com_prova=frozenset()):
+    """O evento sem data e refere-se ao evento p da mensagem (prova ou resultado)?"""
+    t = referencia_sem_data(e)
+    if not t:
+        return False
+    if re.search(r"instala[çc]|abertura", t, re.I):
+        return False  # a referência é a sessão de instalação ou de abertura, não a prova (UFMG 1632, 9.7.2.3)
+    resultado = bool(re.search(r"\bresultado", t, re.I))
+    if p["tipo_evento"] == "sorteio_tema":
+        # UFBA 06, área 13: o cronograma não tem a prova didática, só o sorteio dos pontos dela em 04/11; o sorteio
+        # marca o início da etapa para "a segunda Prova do concurso"
+        m = ORDINAL_PROVA.search(t)
+        if not m or resultado or p.get("etapa_ref") in etapas_com_prova:
+            return False
+        n = ORDINAIS.index(m.group(1).lower())
+        return n < len(ordem_etapas) and ordem_etapas[n] == p.get("etapa_ref")
+    if p["tipo_evento"] == "prova" and e["tipo_evento"] in ("sorteio_tema", "sorteio_ordem", "sorteio_turma") \
+            and e.get("etapa_ref") and e.get("etapa_ref") == p.get("etapa_ref") and not resultado:
+        return True  # UFV 47: o sorteio do ponto da didática, "24 horas antes da aula"
+    if resultado != (p["tipo_evento"] in RESULTADOS) or p["tipo_evento"] not in RESULTADOS | {"prova"}:
+        return False
+    et = p.get("etapa_ref")
+    if not et:
+        return False
+    ref = ancora_de((e.get("data") or {}).get("evento_ancora")) if (e.get("data") or {}).get("forma") == "relativa" else None
+    if ref and ref[1] and ref[1] != p["tipo_evento"]:
+        return False  # "1 hora antes do confinamento" (UFTM 28): a referência é outro evento
+    if ref and ref[2]:
+        return ref[2] == et
+    if et in TEXTO_ETAPA and re.search(TEXTO_ETAPA[et], t, re.I):
+        outras = [k for k, rx in TEXTO_ETAPA.items() if k != et and re.search(rx, t, re.I)]
+        return not outras or et == "didatica"  # "aula do primeiro candidato ... Prova de Didática" pode citar outra etapa de passagem
+    m = ORDINAL_PROVA.search(t)
+    if m and not resultado:
+        n = ORDINAIS.index(m.group(1).lower())
+        return n < len(ordem_etapas) and ordem_etapas[n] == et
+    return False
 
 
 def critico(e):
@@ -696,7 +766,7 @@ def critico(e):
     # ("o não comparecimento exclui da concorrência às vagas reservadas") ficavam fora da mensagem de cota que já levava a
     # de 01/11. Procedimento de cotas num dia só, com comparecimento, é compromisso como a sessão de instalação.
     if t in ("outro", "procedimento_cotas"):
-        return bool((f == "fixa" or i == j) and PRESENCA.search(lit))
+        return bool((f == "fixa" or i == j) and (PRESENCA.search(lit) or (t == "outro" and LEITURA.search(lit))))
     return bool(ELIMINA.search(lit)) and t not in PRAZOS and (f == "fixa" or i == j)
 
 
@@ -780,6 +850,56 @@ def completar(avisos, slug, c, hoje, destinos, ordem, edital, nomes_area, cancel
                 item["completa"] = True
                 out.append(item)
         out += alvos_do_comparecimento(d, base + out)
+        out += atrelados(d, base + out)
+        return out
+
+    def atrelados(d, its):
+        """Evento crítico sem data cuja referência é uma prova ou um resultado da mensagem (conferência de 02/11/2026)."""
+        presentes = {x.get("ev") for x in its}
+        provas_d = sorted(((intervalo(e["data"])[1], e.get("etapa_ref")) for e in vig if e["tipo_evento"] in ("prova", "sorteio_tema")
+                           and e.get("etapa_ref") and intervalo(e["data"])[1]
+                           and (None in dest[id(e)] or (d is not None and d in dest[id(e)]))), key=lambda x: x[0])
+        ordem_etapas = []
+        for _, et in provas_d:
+            if et not in ordem_etapas:
+                ordem_etapas.append(et)
+        etapas_com_prova = {e.get("etapa_ref") for e in vig if e["tipo_evento"] == "prova" and e.get("etapa_ref")
+                            and (None in dest[id(e)] or (d is not None and d in dest[id(e)]))}
+        refs = []
+        for x in sorted((x for x in its if x["tipo"] == "agendado" and x.get("data") and not x.get("antes")
+                                and not x.get("periodo")),
+                        key=lambda x: (x["data"], (x.get("hora") or "99:99")[:5])):
+            p = por_id.get(x.get("ev"))
+            if p is not None and x["data"] >= hoje and p["tipo_evento"] in RESULTADOS | {"prova", "sorteio_tema"}:
+                refs.append((p, x))
+        out = []
+        for e in vig:
+            if id(e) in presentes or (e.get("data") or {}).get("forma") not in ("relativa", "condicionada"):
+                continue
+            if not (e["tipo_evento"] in CRITICOS or (e["tipo_evento"] == "outro" and PRESENCA.search(e.get("descricao_literal") or ""))):
+                continue
+            ds = dest[id(e)]
+            if not (None in ds or (d is not None and d in ds)):
+                continue
+            for p, x in refs:
+                if p is e or not cita_a_referencia(e, p, ordem_etapas, etapas_com_prova):
+                    continue
+                apos = (e["data"].get("forma") == "relativa" and e["data"].get("sentido") == "apos") or \
+                    bool(re.search(r"\bap[óo]s\b|depois", referencia_sem_data(e), re.I))
+                _, pi, _, ph = intervalo(p["data"])
+                ref = f"{fmt(pi)}" + (f", às {ph}" if ph else "")
+                fonte = dict(e.get("fonte") or {})
+                fonte["documento"] = fonte.get("documento") or edital
+                rot = re.sub(r"[\s\-–—:;,]+$", "", sem_tempo_repetido(rotulo(e), texto_ev(e, hoje)))
+                item = {"tipo": "agendado", "data": x["data"], "hora": "99:98" if apos else "", "antes": not apos,
+                        "ev": id(e), "ordem": ordem.get(id(e), 0), "completa": True, "atrelado": True,
+                        "texto": f"{texto_ev(e, hoje)}: {rot} (a referência é {corta(rotulo(p), 70)}, em {ref})",
+                        "fonte": fonte}
+                if x.get("so_cota") or so_cota(e):
+                    item["so_cota"] = True
+                presentes.add(id(e))
+                out.append(item)
+                break
         return out
 
     def alvos_do_comparecimento(d, its):

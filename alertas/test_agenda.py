@@ -1329,5 +1329,76 @@ class Conferencia0111(unittest.TestCase):
         self.assertEqual(linhas(A.mensagem(c, None, its, self.DOM)), ["• Saiu a lista preliminar de inscrições homologadas: Relação provisória"])
 
 
+class Conferencia0211(unittest.TestCase):
+    """Conferência da fila de 02/11/2026: evento crítico sem data cuja referência é uma prova ou um resultado da mensagem
+    (UFV 47 e 48, UFBA 06, UERJ 2026/243), leitura da prova escrita (UERJ) e "último dia" de entrega imediata (UERJ 232)."""
+    SEG, DOM = dt.date(2026, 11, 2), dt.date(2026, 11, 1)
+
+    def test_entrega_relativa_a_didatica_vai_com_a_didatica(self):  # UFV 47
+        evs = [{"tipo_evento": "prova", "etapa_ref": "escrita", "descricao_literal": "Prova de Conhecimento", "data": fx("2026-11-09", "09:00")},
+               {"tipo_evento": "prova", "etapa_ref": "didatica", "descricao_literal": "Prova de Didática", "data": fx("2026-11-11")},
+               {"tipo_evento": "sorteio_tema", "etapa_ref": "didatica", "descricao_literal": "Sorteio de 1 ponto",
+                "data": {"forma": "condicionada", "condicao_literal": "em sessão pública, após a revelação dos aprovados na Prova de Conhecimento"}},
+               {"tipo_evento": "entrega_documento", "etapa_ref": "projeto", "descricao_literal": "Entrega do texto do Projeto",
+                "data": {"forma": "relativa", "quantidade": 3, "unidade": "horas", "sentido": "apos",
+                         "evento_ancora": "início da aula do primeiro candidato sorteado para a Prova de Didática (prova, didatica)"}}]
+        msg = rodar_msgs(evs, self.SEG, self.DOM)[None]
+        self.assertIn("Sorteio de 1 ponto (a referência é Prova de Didática, em 11/11/2026 (quarta))", msg)
+        self.assertIn("Entrega do texto do Projeto (a referência é Prova de Didática", msg)
+        ls = linhas(msg)
+        self.assertLess(ls.index(next(l for l in ls if "Sorteio de 1 ponto" in l)), ls.index(next(l for l in ls if "Projeto" in l)))
+
+    def test_segunda_prova_pelo_ordinal(self):  # UFBA 06, área 10
+        evs = [{"tipo_evento": "prova", "etapa_ref": "escrita", "descricao_literal": "Prova escrita", "data": fx("2026-11-03", "09:30")},
+               {"tipo_evento": "prova", "etapa_ref": "didatica", "descricao_literal": "Prova didática", "data": fx("2026-11-04", "11:00")},
+               {"tipo_evento": "entrega_documento", "etapa_ref": "memorial", "descricao_literal": "apresentar o Memorial",
+                "data": {"forma": "condicionada", "condicao_literal": "antes do início da segunda Prova do concurso"}}]
+        msg = rodar_msgs(evs, self.SEG, self.DOM)[None]
+        self.assertIn("Apresentar o Memorial (a referência é Prova didática, em 04/11/2026 (quarta), às 11:00)", msg)
+
+    def test_segunda_prova_pelo_sorteio_quando_falta_a_prova(self):  # UFBA 06, área 13
+        evs = [{"tipo_evento": "prova", "etapa_ref": "escrita", "descricao_literal": "Prova escrita", "data": fx("2026-11-04", "09:30")},
+               {"tipo_evento": "sorteio_tema", "etapa_ref": "didatica", "descricao_literal": "Sorteio dos pontos da Prova Didática", "data": fx("2026-11-05", "08:00")},
+               {"tipo_evento": "entrega_documento", "etapa_ref": "memorial", "descricao_literal": "apresentar o Memorial",
+                "data": {"forma": "condicionada", "condicao_literal": "antes do início da segunda Prova do concurso"}}]
+        msg = rodar_msgs(evs, self.SEG, self.DOM)[None]
+        self.assertIn("Apresentar o Memorial (a referência é Sorteio dos pontos da Prova Didática", msg)
+
+    def test_entrega_apos_o_resultado(self):  # UERJ 2026/243
+        evs = [{"tipo_evento": "prova", "etapa_ref": "didatica", "descricao_literal": "Prova de aula", "data": fx("2026-11-04", "09:00")},
+               {"tipo_evento": "resultado", "etapa_ref": "didatica", "descricao_literal": "Resultado da prova de aula", "data": fx("2026-11-04", "17:00")},
+               {"tipo_evento": "entrega_documento", "etapa_ref": "titulos", "descricao_literal": "Entrega de Títulos e Trabalhos",
+                "data": {"forma": "condicionada", "condicao_literal": "imediatamente após o resultado da Prova de Aula"}}]
+        msg = rodar_msgs(evs, self.SEG, self.DOM)[None]
+        self.assertIn("Entrega de Títulos e Trabalhos (a referência é Resultado da prova de aula, em 04/11/2026 (quarta), às 17:00)", msg)
+        ls = linhas(msg)
+        self.assertEqual(ls[-1].split(":")[0], "• imediatamente após o resultado da Prova de Aula")
+
+    def test_referencia_a_instalacao_nao_vai_com_a_prova(self):  # UFMG 1632
+        evs = [{"tipo_evento": "prova", "etapa_ref": "pratica", "descricao_literal": "Prova Prática", "data": fx("2026-11-04", "13:30")},
+               {"tipo_evento": "sorteio_ordem", "etapa_ref": "pratica", "descricao_literal": "Sorteio da ordem",
+                "data": {"forma": "condicionada", "condicao_literal": "na sessão de instalação; no agrupamento, no início da primeira prova"}}]
+        self.assertNotIn("a referência é", rodar_msgs(evs, self.SEG, self.DOM)[None])  # o "antes de" do aviso da própria prova continua
+
+    def test_referencia_a_outro_tipo_nao_vai(self):  # UFTM 28: "1 hora antes do confinamento"
+        evs = [{"tipo_evento": "prova", "etapa_ref": "didatica", "descricao_literal": "Prova didática", "data": fx("2026-11-04", "08:00")},
+               {"tipo_evento": "entrega_documento", "etapa_ref": "didatica", "descricao_literal": "Entrega do plano",
+                "data": {"forma": "relativa", "quantidade": 1, "unidade": "horas", "sentido": "antes", "evento_ancora": "confinamento (confinamento, didatica)"}}]
+        self.assertNotIn("Entrega do plano", rodar_msgs(evs, self.SEG, self.DOM)[None])
+
+    def test_leitura_da_prova_escrita_e_compromisso(self):  # UERJ 2026/243
+        evs = [{"tipo_evento": "prova", "etapa_ref": "escrita", "descricao_literal": "Prova escrita", "data": jan("2026-11-04", "2026-11-04", "09:00", "13:00")},
+               {"tipo_evento": "outro", "etapa_ref": "escrita", "descricao_literal": "Leitura da prova escrita - 04/11/2026, às 13 h.", "data": fx("2026-11-04", "13:00")}]
+        self.assertIn("04/11/2026 (quarta), às 13:00: Leitura da prova escrita", rodar_msgs(evs, self.SEG, self.DOM)[None])
+
+    def test_entrega_imediata_nao_e_ultimo_dia(self):  # UERJ 2026/232
+        evs = [{"tipo_evento": "prova", "etapa_ref": "didatica", "descricao_literal": "Prova de aula", "data": fx("2026-11-04", "09:00")},
+               {"tipo_evento": "entrega_documento", "etapa_ref": "titulos", "data": fx("2026-11-05"),
+                "descricao_literal": "Entrega de Títulos e Trabalhos - 06/11/2026, imediatamente após o resultado da Prova de Aula."}]
+        msg = rodar_msgs(evs, self.SEG, self.DOM)[None]
+        self.assertIn("Entrega de Títulos e Trabalhos", msg)
+        self.assertNotIn("último dia", msg)
+
+
 if __name__ == "__main__":
     unittest.main()
