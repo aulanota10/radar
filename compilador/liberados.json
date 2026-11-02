@@ -134,10 +134,11 @@
   },
   "ufsm-198-2026": {
     "campos": [
-      "Prova Didática"
+      "Prova Didática",
+      "Prova Escrita"
     ],
     "conferido_em": "2026-10-09",
-    "evidencia": "Memorando 001/2026-DMTM, de 07/10/2026, p. 2: 'A 2ª Etapa (Prova Didática e Prova de Defesa de Produção Intelectual) do concurso público tem previsão para iniciar na data de 23/11/2026', só para a área 04 (Ensino de Ciências e Matemática); as demais áreas seguem o item 15.3, com cronograma a publicar. O compilador passou a escrever a data por área na nota (auditoria de 09/10/2026)."
+    "evidencia": "Memorando 001/2026-DMTM, de 07/10/2026, p. 2: 'A 2ª Etapa (Prova Didática e Prova de Defesa de Produção Intelectual) do concurso público tem previsão para iniciar na data de 23/11/2026', só para a área 04 (Ensino de Ciências e Matemática); as demais áreas seguem o item 15.3, com cronograma a publicar. O compilador passou a escrever a data por área na nota (auditoria de 09/10/2026). Prova Escrita (conferida em 02/11/2026): retificação do Edital 198/2026 de 28/10/2026, válida para Engenharia Sanitária (área 02), item 8.1 passa a 'de 13/09/2026 a 26/04/2027' (onde se lia 27/12/2026); extração ev-0095."
   },
   "ifmt-03-2026": {
     "campos": [
@@ -166,5 +167,22 @@
     ],
     "conferido_em": "2026-11-02",
     "evidencia": "Edital nº 484/2026 (prorrogação): 'PRORROGA até às 17:00 horas do dia 18/11/2026, o período de inscrições constante do edital nº 463/2026, publicado no DOE de 28/09/2026'. Extração ev-0021, fim em 18/11/2026 às 17:00."
+  },
+  "ufrgs-09-2026": {
+    "campos": [
+      "Prova Escrita",
+      "Prova Didática",
+      "Exame de Títulos e Trabalhos",
+      "Defesa da Produção Intelectual"
+    ],
+    "conferido_em": "2026-11-02",
+    "evidencia": "Cronogramas (CI) de cada subárea do Edital 09/2026: prova escrita de 03/11 (Educação e Artes Visuais, Língua Alemã, Linguística/Teatro) a 30/11 (Entomologia Agrícola); didática até 19 a 24/12 (Arquitetura); títulos até 11/12 (Arquitetura); DPI até 18/12 (Arquitetura). O dados.js anterior só cobria as primeiras subáreas."
+  },
+  "unilab-14-2026": {
+    "campos": [
+      "inscrição fim"
+    ],
+    "conferido_em": "2026-11-02",
+    "evidencia": "Alterações de cronograma de Anatomia Humana e Cirurgia e de Práticas em Atenção Primária à Saúde/Semiologia Médica: 'Período de Inscrições | 14/10/2026 a 05/11/2026' (ev-0212 e ev-0217). As demais áreas abertas terminam em 03/11."
   }
 }
