@@ -5,6 +5,10 @@
 ## O que muda no Radar em relação ao publicado (18 concursos)
 
 **ufrgs-09-2026**
+- Prova Escrita: 03/11/2026 a 09/11/2026 → 03/11/2026 a 30/11/2026
+- Prova Didática: 10/11/2026 a 19/11/2026 → 10/11/2026 a 24/12/2026
+- Exame de Títulos e Trabalhos: 09/11/2026 a 17/11/2026 → 09/11/2026 a 11/12/2026
+- Defesa da Produção Intelectual: 11/11/2026 a 18/11/2026 → 10/11/2026 a 18/12/2026
 - editais alterado
 
 **ufba-06-2026**
@@ -14,6 +18,7 @@
 - editais alterado
 
 **ufsm-198-2026**
+- Prova Escrita: 13/09/2026 a 27/12/2026 → 13/09/2026 a 26/04/2027
 - editais: "Edital nº 198/2026, publicado em 29/06/2026" → "Edital nº 198/2026, publicado em 29/06/2026, com 1 documento de alteração publicado depois"
 
 **ufmg-1638-2026**
@@ -40,6 +45,7 @@
 - inscrição: aberta → encerrada
 
 **unilab-14-2026**
+- inscrição fim: 03/11/2026 → 05/11/2026
 - editais alterado
 
 **uerj-227-2026**
@@ -49,6 +55,7 @@
 - inscrição: aberta → encerrada
 
 **unesp-fct-463-2026**
+- inscrição fim: 03/11/2026 → 18/11/2026
 - editais alterado
 
 **ufrrj-56-2026**
@@ -73,28 +80,15 @@ Só para informação. Pela regra de 11/10/2026, o concurso continua no Radar at
 - **uesc-050-2026**: última data da prova didática 14/10/2026
 - **furb-07-2026**: última data da prova didática 29/09/2026
 
-## Conflitos novos desta semana (5 concursos)
+## Conflitos novos desta semana (2 concursos)
 
 Apareceram nesta rodada. A extração e o dados.js publicado discordam. O dados.js gerado mantém o valor publicado (modo conservador); confira no edital qual está certo.
-
-**ufrgs-09-2026**
-- Prova Escrita: dados.js anterior 03/11/2026 a 09/11/2026, extração 03/11/2026 a 30/11/2026 (publicado o anterior)
-- Prova Didática: dados.js anterior 10/11/2026 a 19/11/2026, extração 10/11/2026 a 24/12/2026 (publicado o anterior)
-- Exame de Títulos e Trabalhos: dados.js anterior 09/11/2026 a 17/11/2026, extração 09/11/2026 a 11/12/2026 (publicado o anterior)
-- Defesa da Produção Intelectual: dados.js anterior 11/11/2026 a 18/11/2026, extração 10/11/2026 a 18/12/2026 (publicado o anterior)
-
-**ufsm-198-2026**
-- Prova Escrita: dados.js anterior 13/09/2026 a 27/12/2026, extração 13/09/2026 a 26/04/2027 (publicado o anterior)
 
 **ufpel-028-2026**
 - Prova Escrita: dados.js anterior 23/11/2026 a 11/12/2026, extração 23/11/2026 a 07/12/2026 (publicado o anterior)
 
 **unilab-14-2026**
 - Avaliação de títulos: dados.js anterior 13/11/2026 a 07/12/2026, extração 23/11/2026 a 07/12/2026 (publicado o anterior)
-- inscrição fim: dados.js anterior 03/11/2026, extração 05/11/2026 (publicado o anterior)
-
-**unesp-fct-463-2026**
-- inscrição fim: dados.js anterior 03/11/2026, extração 18/11/2026 (publicado o anterior)
 
 ## Conflitos que continuam da semana anterior (11 concursos)
 
@@ -139,9 +133,15 @@ Já estavam no relatório anterior e seguem sem conferência.
 **unila-240-2026**
 - Prova Escrita: dados.js anterior 25/01/2027 a 29/01/2027, extração 25/01/2027 (publicado o anterior)
 
-## Liberados após conferência (13 concursos)
+## Liberados após conferência (17 concursos)
 
 Conferidos nos documentos oficiais (compilador/liberados.json); o dados.js gerado publica o valor da extração.
+
+**ufrgs-09-2026**
+- Prova Escrita: dados.js anterior 03/11/2026 a 09/11/2026, extração 03/11/2026 a 30/11/2026 (liberado após conferência: publicada a extração)
+- Prova Didática: dados.js anterior 10/11/2026 a 19/11/2026, extração 10/11/2026 a 24/12/2026 (liberado após conferência: publicada a extração)
+- Exame de Títulos e Trabalhos: dados.js anterior 09/11/2026 a 17/11/2026, extração 09/11/2026 a 11/12/2026 (liberado após conferência: publicada a extração)
+- Defesa da Produção Intelectual: dados.js anterior 11/11/2026 a 18/11/2026, extração 10/11/2026 a 18/12/2026 (liberado após conferência: publicada a extração)
 
 **unespar-023-2026**
 - vagas: o dados.js anterior dizia "26 vagas", a extração soma 26 (liberado após conferência: publicada a extração)
@@ -157,6 +157,9 @@ Conferidos nos documentos oficiais (compilador/liberados.json); o dados.js gerad
 
 **unifesp-2026**
 - vagas: o dados.js anterior dizia "41 vagas", a extração soma 41 (liberado após conferência: publicada a extração)
+
+**ufsm-198-2026**
+- Prova Escrita: dados.js anterior 13/09/2026 a 27/12/2026, extração 13/09/2026 a 26/04/2027 (liberado após conferência: publicada a extração)
 
 **uema-2026**
 - vagas: o dados.js anterior dizia "34 vagas nos editais em andamento; mais 20 vagas em 5 editais suspensos desde 23/07/2026", a extração soma 34 (liberado após conferência: publicada a extração)
@@ -181,6 +184,12 @@ Conferidos nos documentos oficiais (compilador/liberados.json); o dados.js gerad
 
 **ifmg-1077-2026**
 - vagas: o dados.js anterior dizia "50 vagas", a extração soma 50 (liberado após conferência: publicada a extração)
+
+**unilab-14-2026**
+- inscrição fim: dados.js anterior 03/11/2026, extração 05/11/2026 (liberado após conferência: publicada a extração)
+
+**unesp-fct-463-2026**
+- inscrição fim: dados.js anterior 03/11/2026, extração 18/11/2026 (liberado após conferência: publicada a extração)
 
 ## Dados novos trazidos pela extração (1 concursos)
 
