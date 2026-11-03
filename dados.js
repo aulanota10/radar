@@ -1,6 +1,6 @@
 // ═══════════════════════════════════════════════════════════════════════
 //  DADOS DO RADAR DE CONCURSOS · Aula Nota 10
-//  Última verificação: 28/10/2026
+//  Última verificação: 02/11/2026
 //
 //  ESTE É O ÚNICO ARQUIVO QUE VOCÊ PRECISA EDITAR PARA ATUALIZAR O SITE.
 //  Não mexa no index.html.
@@ -35,31 +35,7 @@
 // Gerado por compilar_radar.py a partir das extrações v2 (vigia-documentos/extracoes).
 // Para corrigir um dado, corrija a extração e rode o compilador de novo.
 
-// Gerado por compilar_radar.py a partir das extrações v2 (vigia-documentos/extracoes).
-// Para corrigir um dado, corrija a extração e rode o compilador de novo.
-
-// Gerado por compilar_radar.py a partir das extrações v2 (vigia-documentos/extracoes).
-// Para corrigir um dado, corrija a extração e rode o compilador de novo.
-
-// Gerado por compilar_radar.py a partir das extrações v2 (vigia-documentos/extracoes).
-// Para corrigir um dado, corrija a extração e rode o compilador de novo.
-
-// Gerado por compilar_radar.py a partir das extrações v2 (vigia-documentos/extracoes).
-// Para corrigir um dado, corrija a extração e rode o compilador de novo.
-
-// Gerado por compilar_radar.py a partir das extrações v2 (vigia-documentos/extracoes).
-// Para corrigir um dado, corrija a extração e rode o compilador de novo.
-
-// Gerado por compilar_radar.py a partir das extrações v2 (vigia-documentos/extracoes).
-// Para corrigir um dado, corrija a extração e rode o compilador de novo.
-
-// Gerado por compilar_radar.py a partir das extrações v2 (vigia-documentos/extracoes).
-// Para corrigir um dado, corrija a extração e rode o compilador de novo.
-
-// Gerado por compilar_radar.py a partir das extrações v2 (vigia-documentos/extracoes).
-// Para corrigir um dado, corrija a extração e rode o compilador de novo.
-
-window.RADAR_ATUALIZADO = "28/10/2026";
+window.RADAR_ATUALIZADO = "02/11/2026";
 
 window.CONCURSOS = [
   {
@@ -1532,7 +1508,7 @@ window.CONCURSOS = [
     "instituicao": "Universidade Federal do Rio Grande do Sul",
     "nivel": "Magistério Superior",
     "uf": "RS",
-    "numero_edital": "Edital nº 09/2026, publicado em 19/08/2026, com 6 documentos de alteração publicados depois",
+    "numero_edital": "Edital nº 09/2026, publicado em 19/08/2026, com 7 documentos de alteração publicados depois",
     "vagas": "20 vagas (10 ampla concorrência, 5 pretos, 1 indígena, 4 PcD)",
     "areas": "16 áreas, entre elas Antropologia, Subárea: Teoria Antropológica, Arquitetura e Urbanismo, Subárea: Projeto Arquitetônico: fundamentos e tecnologia, Ciências Agrárias, Subárea: Entomologia Agrícola, Ciências da Saúde/Medicina, Subárea: Anatomia Patológica e Patologia Clínica e Direito, Subárea: Direito Internacional Público",
     "campi": "Instituto de Filosofia e Ciências Humanas - Departamento de Antropologia, Faculdade de Arquitetura - Departamento de Arquitetura, Faculdade de Agronomia - Departamento de Fitossanidade e Faculdade de Medicina - Departamento de Patologia",
@@ -1555,8 +1531,8 @@ window.CONCURSOS = [
         "data": {
           "tipo": "periodo",
           "valor": "2026-11-03",
-          "fim": "2026-11-09",
-          "nota": "Datas por área: 1.2.7 (Educação, Subárea: Educação e Artes Visuais): 03/11; 1.2.9 (Engenharia, Subárea: Polímeros): 09/11; demais áreas: sem data (em prazo não inferior a 30 (trinta) dias, contados da data de publicação do presente Edital no Diário Oficial da União)"
+          "fim": "2026-11-30",
+          "nota": "Datas por área: 1.2.7 (Educação, Subárea: Educação e Artes Visuais): 03/11; 1.2.12 (Língua Alemã, Literatura de Língua Alemã e…): 03/11; 1.2.13 (Linguística, Letras e Artes - Teatro…): 03/11; 1.2.1 (Antropologia, Subárea: Teoria Antropológica): 16/11; 1.2.10 (Farmacologia): 09/11; 1.2.14 (Medicina Interna, Subárea: Nefrologia): 09/11; 1.2.15 (Odontologia, Subárea: Cariologia ou…): 09/11; 1.2.8 (Educação, Subárea: Sociologia da Educação): 09/11; 1.2.4 (Ciências da Saúde/Medicina, Subárea…): 16/11; 1.2.5 (Direito, Subárea: Direito Internacional…): 16/11; 1.2.6 (Ecofisiologia e Manejo de Plantas de Lavoura): 24/11; 1.2.3 (Ciências Agrárias, Subárea: Entomologia…): 30/11; 1.2.2 (Arquitetura e Urbanismo, Subárea: Projeto…): 23/11; 1.2.9 (Engenharia, Subárea: Polímeros): 09/11; demais áreas: sem data (em prazo não inferior a 30 (trinta) dias, contados da data de publicação do presente Edital no Diário Oficial da União)"
         },
         "detalhe": {
           "nota_minima": "7,0"
@@ -1580,8 +1556,8 @@ window.CONCURSOS = [
         "data": {
           "tipo": "periodo",
           "valor": "2026-11-10",
-          "fim": "2026-11-19",
-          "nota": "Datas por área: 1.2.7 (Educação, Subárea: Educação e Artes Visuais): 10/11; 1.2.9 (Engenharia, Subárea: Polímeros): 19/11"
+          "fim": "2026-12-24",
+          "nota": "Datas por área: 1.2.7 (Educação, Subárea: Educação e Artes Visuais): 10/11; 1.2.9 (Engenharia, Subárea: Polímeros): 19/11; 1.2.12 (Língua Alemã, Literatura de Língua Alemã e…): 12/11 a 13/11; 1.2.13 (Linguística, Letras e Artes - Teatro…): 15/11 a 18/11; 1.2.1 (Antropologia, Subárea: Teoria Antropológica): 24/11 a 26/11; 1.2.10 (Farmacologia): 26/11 a 27/11; 1.2.14 (Medicina Interna, Subárea: Nefrologia): 23/11; 1.2.15 (Odontologia, Subárea: Cariologia ou…): 30/11 a 01/12; 1.2.8 (Educação, Subárea: Sociologia da Educação): 27/11 a 29/11; 1.2.4 (Ciências da Saúde/Medicina, Subárea…): 25/11; 1.2.5 (Direito, Subárea: Direito Internacional…): 30/11; 1.2.6 (Ecofisiologia e Manejo de Plantas de Lavoura): 01/12 a 02/12; 1.2.3 (Ciências Agrárias, Subárea: Entomologia…): 11/12 a 12/12; 1.2.2 (Arquitetura e Urbanismo, Subárea: Projeto…): 19/12 a 24/12"
         },
         "detalhe": {
           "nota_minima": "7,0. É corte próprio da didática: nota menor que 7,0 aqui reprova, mesmo com média geral suficiente",
@@ -1610,8 +1586,8 @@ window.CONCURSOS = [
         "data": {
           "tipo": "periodo",
           "valor": "2026-11-09",
-          "fim": "2026-11-17",
-          "nota": "Datas por área: 1.2.7 (Educação, Subárea: Educação e Artes Visuais): 09/11 a 10/11; 1.2.9 (Engenharia, Subárea: Polímeros): 17/11"
+          "fim": "2026-12-11",
+          "nota": "Datas por área: 1.2.7 (Educação, Subárea: Educação e Artes Visuais): 09/11 a 10/11; 1.2.9 (Engenharia, Subárea: Polímeros): 17/11; 1.2.12 (Língua Alemã, Literatura de Língua Alemã e…): 09/11 a 10/11; 1.2.13 (Linguística, Letras e Artes - Teatro…): 10/11 a 11/11; 1.2.1 (Antropologia, Subárea: Teoria Antropológica): 23/11; 1.2.10 (Farmacologia): 23/11; 1.2.14 (Medicina Interna, Subárea: Nefrologia): 23/11 a 25/11; 1.2.15 (Odontologia, Subárea: Cariologia ou…): 02/12; 1.2.8 (Educação, Subárea: Sociologia da Educação): 23/11; 1.2.4 (Ciências da Saúde/Medicina, Subárea…): 24/11; 1.2.5 (Direito, Subárea: Direito Internacional…): 30/11 a 02/12; 1.2.6 (Ecofisiologia e Manejo de Plantas de Lavoura): 30/11; 1.2.3 (Ciências Agrárias, Subárea: Entomologia…): 09/12 a 10/12; 1.2.2 (Arquitetura e Urbanismo, Subárea: Projeto…): 08/12 a 11/12"
         },
         "detalhe": {}
       },
@@ -1621,16 +1597,16 @@ window.CONCURSOS = [
         "carater": "Eliminatória e classificatória",
         "data": {
           "tipo": "periodo",
-          "valor": "2026-11-11",
-          "fim": "2026-11-18",
-          "nota": "Datas por área: 1.2.7 (Educação, Subárea: Educação e Artes Visuais): 11/11; 1.2.9 (Engenharia, Subárea: Polímeros): 18/11"
+          "valor": "2026-11-10",
+          "fim": "2026-12-18",
+          "nota": "Datas por área: 1.2.7 (Educação, Subárea: Educação e Artes Visuais): 11/11; 1.2.9 (Engenharia, Subárea: Polímeros): 18/11; 1.2.12 (Língua Alemã, Literatura de Língua Alemã e…): 10/11 a 12/11; 1.2.13 (Linguística, Letras e Artes - Teatro…): 12/11 a 15/11; 1.2.1 (Antropologia, Subárea: Teoria Antropológica): 27/11 a 30/11; 1.2.10 (Farmacologia): 24/11 a 25/11; 1.2.14 (Medicina Interna, Subárea: Nefrologia): 24/11; 1.2.15 (Odontologia, Subárea: Cariologia ou…): 03/12 a 04/12; 1.2.8 (Educação, Subárea: Sociologia da Educação): 24/11 a 27/11; 1.2.4 (Ciências da Saúde/Medicina, Subárea…): 25/11 a 26/11; 1.2.5 (Direito, Subárea: Direito Internacional…): 01/12; 1.2.6 (Ecofisiologia e Manejo de Plantas de Lavoura): 03/12 a 04/12; 1.2.3 (Ciências Agrárias, Subárea: Entomologia…): 13/12 a 14/12; 1.2.2 (Arquitetura e Urbanismo, Subárea: Projeto…): 12/12 a 18/12"
         },
         "detalhe": {}
       }
     ],
     "periodo_provas": {
       "inicio": "2026-11-03",
-      "fim": "2026-11-19"
+      "fim": "2026-12-24"
     },
     "logo": "ufrgs.png",
     "formacoes_status": "completo",
@@ -17875,7 +17851,7 @@ window.CONCURSOS = [
     "instituicao": "Universidade Federal da Bahia",
     "nivel": "Magistério Superior",
     "uf": "BA",
-    "numero_edital": "Edital nº 06/2026, publicado em 25/06/2026, com 23 documentos de alteração publicados depois",
+    "numero_edital": "Edital nº 06/2026, publicado em 25/06/2026, com 24 documentos de alteração publicados depois",
     "vagas": "37 vagas",
     "areas": "35 áreas, entre elas Gestão da Produção e Métodos Quantitativos, Enfermagem no Cuidado à Saúde da Mulher na Atenção Básica, Parto e Puerpério, Fundamentos de Enfermagem no Cuidado Individual e Cuidado em Enfermagem à Pessoa no Contexto Hospitalar, Gestão e Educação Permanente em Saúde e Enfermagem e Extensão Rural",
     "campi": "Salvador, Vitória da Conquista, Escola de Administração / Departamento: Coordenação Acadêmica, Escola de Enfermagem / Departamento: Coordenação Acadêmica, Escola de Medicina Veterinária e Zootecnia / Departamento: Medicina Veterinária Preventiva e Produção Animal e Escola Politécnica / Departamento: Ciência e Tecnologia dos Materiais",
@@ -19805,7 +19781,7 @@ window.CONCURSOS = [
     "instituicao": "Universidade Federal do Triângulo Mineiro",
     "nivel": "EBTT",
     "uf": "MG",
-    "numero_edital": "Edital nº 28/2026, publicado em 20/07/2026, com 5 documentos de alteração publicados depois",
+    "numero_edital": "Edital nº 28/2026, publicado em 20/07/2026, com 6 documentos de alteração publicados depois",
     "vagas": "4 vagas",
     "areas": "Ciências Biológicas: Morfologia. Ciências da Saúde: Anatomia Patológica e Patologia Clínica, Radiologia: Saúde e Biológicas, Odontologia: Clínica Odontológica; Materiais Odontológicos e Enfermagem",
     "campi": "Uberaba-MG e Centro de Educação Profissional / CEFORES",
@@ -33431,7 +33407,7 @@ window.CONCURSOS = [
     "instituicao": "Universidade Federal de Santa Maria",
     "nivel": "Magistério Superior",
     "uf": "RS",
-    "numero_edital": "Edital nº 198/2026, publicado em 29/06/2026",
+    "numero_edital": "Edital nº 198/2026, publicado em 29/06/2026, com 1 documento de alteração publicado depois",
     "vagas": "8 vagas",
     "areas": "7 áreas, entre elas Ciências Agrárias/ Medicina Veterinária/ Clínica e Cirurgia Animal (Ênfase em Medicina de Ruminantes), Engenharias/ Engenharia Sanitária, Ciências Exatas e da Terra/ Matemática, Multidisciplinar/Ensino/ Ensino de Ciências e Matemática e Ciências Exatas e da Terra/ Geociências/ Micrometeorologia",
     "campi": "Santa Maria, Santa Maria; Departamento de Clínica de Grandes Animais Centro de Ciências Rurais, Santa Maria; Departamento de Engenharia Sanitária e Ambiental Centro de Tecnologia, Santa Maria; Departamento de Matemática Centro de Ciências Naturais e Exatas e Santa Maria; Departamento de Física Centro de Ciências Naturais e Exatas",
@@ -33454,8 +33430,8 @@ window.CONCURSOS = [
         "data": {
           "tipo": "periodo",
           "valor": "2026-09-13",
-          "fim": "2026-12-27",
-          "nota": "Período provável das provas. Até 11/09 nenhum cronograma por área foi publicado, e o edital exige publicação com no mínimo 10 dias corridos de antecedência"
+          "fim": "2027-04-26",
+          "nota": "Datas por área: geral: 13/09 a 27/12; 04 (Multidisciplinar/Ensino/ Ensino de Ciências…): 26/10; 03 (Ciências Exatas e da Terra/ Matemática): 27/10; 02 (Engenharias/ Engenharia Sanitária): 13/09 a 26/04"
         },
         "detalhe": {
           "nota_minima": "7,00"
@@ -33533,7 +33509,7 @@ window.CONCURSOS = [
     ],
     "periodo_provas": {
       "inicio": "2026-09-13",
-      "fim": "2026-12-27"
+      "fim": "2027-04-26"
     },
     "logo": "ufsm.png",
     "formacoes_status": "completo",
@@ -35412,8 +35388,10 @@ window.CONCURSOS = [
         "tipo": "didatica",
         "carater": "Classificatória, junto com o Julgamento de Títulos",
         "data": {
-          "tipo": "nao_divulgada",
-          "nota": "Ainda sem data própria; o concurso está previsto de 26/10 a 06/11/2026"
+          "tipo": "periodo",
+          "valor": "2026-11-04",
+          "fim": "2026-11-05",
+          "nota": "Datas por área: geral: 04/11; geral: 05/11; 01 (Geociências: Cartografia e Geodésia): 04/11 a 05/11"
         },
         "detalhe": {
           "duracao": "50 minutos garantidos para a exposição, seguidos de arguição pelo tempo do cronograma. O edital diz expressamente que estourar o prazo NÃO anula a prova nem desclassifica o candidato por si só",
@@ -35430,8 +35408,8 @@ window.CONCURSOS = [
         "tipo": "titulos",
         "carater": "Classificatória",
         "data": {
-          "tipo": "nao_divulgada",
-          "nota": "O edital ainda não fixou a data"
+          "tipo": "exata",
+          "valor": "2026-11-03"
         },
         "detalhe": {}
       },
@@ -35440,15 +35418,15 @@ window.CONCURSOS = [
         "tipo": "resultado",
         "carater": "",
         "data": {
-          "tipo": "nao_divulgada",
-          "nota": "em horário e data que serão comunicados aos candidatos, durante a realização do Concurso"
+          "tipo": "exata",
+          "valor": "2026-11-06"
         },
         "detalhe": {}
       }
     ],
     "periodo_provas": {
       "inicio": "2026-10-27",
-      "fim": "2026-10-27"
+      "fim": "2026-11-05"
     },
     "logo": "ufmg.png",
     "formacoes_status": "completo",
@@ -37983,7 +37961,7 @@ window.CONCURSOS = [
     "instituicao": "Universidade Federal de Pelotas",
     "nivel": "Magistério Superior",
     "uf": "RS",
-    "numero_edital": "Edital nº 028/2026, publicado em 14/09/2026, com 1 documento de alteração publicado depois",
+    "numero_edital": "Edital nº 028/2026, publicado em 14/09/2026, com 29 documentos de alteração publicados depois",
     "vagas": "32 vagas, com 40% reservadas a negros, indígenas e quilombolas e 5% a pessoas com deficiência",
     "areas": "28 áreas, entre elas Mercadologia, Teoria da Computação, Ciência da Computação, Processamento de Sinais e Eletrônica e Irrigação e Drenagem",
     "campi": "Pelotas e/ou proximidades, Cursos de Comércio Exterior, Administração e Processos Gerenciais CCSO, Cursos de Ciência da Computação e Engenharia de Computação CDTEC, Curso de Engenharia Hídrica CDTEC e Curso de Engenharia Civil CENG",
@@ -38482,7 +38460,7 @@ window.CONCURSOS = [
     "instituicao": "Universidade do Estado da Bahia",
     "nivel": "Magistério Superior",
     "uf": "BA",
-    "numero_edital": "Edital nº 085/2026, publicado em 09/09/2026, com 1 documento de alteração publicado depois",
+    "numero_edital": "Edital nº 085/2026, publicado em 09/09/2026, com 2 documentos de alteração publicados depois",
     "vagas": "7 vagas (5 ampla concorrência, 2 para autodeclarados negros, cadastro de reserva para PcD)",
     "areas": "7 áreas, entre elas Saúde da Mulher; Componente(s) Curricular(es): Ginecologia; Obstetrícia, Clínica Médica; Componente(s) Curricular(es): Clínica Médica; Semiologia Médica, Saúde da Criança e do Adolescente; Componente(s) Curricular(es): Pediatria, Saúde Mental; Componente(s) Curricular(es): Psiquiatria; Internato em Saúde Mental e Oftalmologia; Componente(s) Curricular(es): Oftalmologia",
     "campi": "Salvador/BA e Departamento de Ciências da Vida - Campus I - Salvador",
@@ -41353,7 +41331,7 @@ window.CONCURSOS = [
     "inscricao": {
       "inicio": "2026-09-28",
       "fim": "2026-10-28",
-      "situacao": "aberta",
+      "situacao": "encerrada",
       "taxa": "Consultar o edital"
     },
     "etapas": [
@@ -41455,7 +41433,7 @@ window.CONCURSOS = [
     "instituicao": "Universidade Federal Rural do Semi-Árido",
     "nivel": "Magistério Superior",
     "uf": "RN",
-    "numero_edital": "Edital nº 030/2026, publicado em 21/09/2026, com 3 documentos de alteração publicados depois",
+    "numero_edital": "Edital nº 030/2026, publicado em 21/09/2026, com 4 documentos de alteração publicados depois",
     "vagas": "24 vagas",
     "areas": "23 áreas, entre elas Fenômenos de Transportes, Química Aplicada à Engenharia e Química Geral, Língua Latina I; Língua Latina II; Formação Histórica da Língua Portuguesa; Pesquisa Aplicada à Língua e Literatura, Engenharia de Requisitos, Projeto e Design de Interfaces, Engenharia de Usabilidade, Projeto Detalhado de Software, Banco de Dados, Geologia e Geofísica do Petróleo; Técnicas e Análise de Operações de Perfilagem; e Geologia Geral e Direito Privado e Práticas Jurídicas",
     "campi": "Campus Caraúbas - DCT, Campus Caraúbas - DLCH, Campus Pau dos Ferros - DETEC e Campus Mossoró - DET",
@@ -41694,7 +41672,7 @@ window.CONCURSOS = [
     "instituicao": "Universidade Federal dos Vales do Jequitinhonha e Mucuri",
     "nivel": "Magistério Superior",
     "uf": "MG",
-    "numero_edital": "Edital nº 101/2026, publicado em 24/09/2026, com 4 documentos de alteração publicados depois",
+    "numero_edital": "Edital nº 101/2026, publicado em 24/09/2026, com 5 documentos de alteração publicados depois",
     "vagas": "24 vagas",
     "areas": "23 áreas, entre elas Ciência da Computação (ou Informática) OU Engenharias - Subárea: Análise de Algoritmos e Complexidade de Computação ou Metodologia e Técnicas da Computação ou Banco de Dados ou Sistemas de Informação ou Linguagens de Programação ou Inteligência Artificial ou Inteligência Computacional, Ciência da Computação (ou Informática) OU Engenharias - Subárea: Sistemas de Computação OU Arquitetura de Sistemas de Computação OU Hardware OU Linguagens de Programação OU Metodologia e Técnicas da Computação OU Sistemas de Informação OU Inteligência Artificia, Interdisciplinar, Sociologia, Odontologia (4.02.00.00- 0) - Subárea: Clínica Odontológica (4.02.01.00-7) - Especialidade: em Dentística ou Prótese Dentária e Ciências Exatas e da Terra/Química",
     "campi": "Conceição do Mato Dentro, Diamantina, Janaúba, Teófilo Otoni, Faculdade de Ciências Exatas - FACET Conceição do Mato Dentro, Faculdade de Ciências Biológicas e da Saúde - FCBS Campus I e Campus JK, Faculdade de Ciências Exatas - FACET Campus JK e Faculdade de Ciências Agrárias - FCA Campus JK",
@@ -42541,7 +42519,7 @@ window.CONCURSOS = [
     "inscricao": {
       "inicio": "2026-09-28",
       "fim": "2026-10-28",
-      "situacao": "aberta",
+      "situacao": "encerrada",
       "taxa": "R$ 240,00. A taxa varia de R$ 61,00 a R$ 240,00, conforme a área (Anexo 02 do edital)",
       "excecoes": [
         {
@@ -42956,7 +42934,7 @@ window.CONCURSOS = [
     "instituicao": "UNIVERSIDADE DA INTEGRAÇÃO INTERNACIONAL DA LUSOFONIA AFRO-BRASILEIRA",
     "nivel": "Magistério Superior",
     "uf": "CE",
-    "numero_edital": "Edital nº 14/2026, publicado em 01/10/2026, com 5 documentos de alteração publicados depois",
+    "numero_edital": "Edital nº 14/2026, publicado em 01/10/2026, com 10 documentos de alteração publicados depois",
     "vagas": "15 vagas",
     "areas": "9 áreas, entre elas Avaliação Nutricional e Nutrição Clínica, Fundamentos da Terapia Ocupacional, Atividades e Recursos Terapêuticos Ocupacionais, Práticas em Atenção Primária à Saúde/Semiologia Médica, Anatomia Humana e Cirurgia e Medicina Baseada em Evidências, Epidemiologia e Pesquisa Clínica",
     "campi": "Baturité/CE, São Francisco do Conde/BA, Instituto de Ciências da Saúde - ICS e Instituto de Ciências da Saúde - ICS / Campus dos Malês",
@@ -42967,7 +42945,7 @@ window.CONCURSOS = [
     "link_oficial": "http://www.unilab.edu.br/",
     "inscricao": {
       "inicio": "2026-10-05",
-      "fim": "2026-11-03",
+      "fim": "2026-11-05",
       "situacao": "aberta",
       "taxa": "R$ 190,00"
     },
@@ -43333,7 +43311,7 @@ window.CONCURSOS = [
     "inscricao": {
       "inicio": "2026-10-01",
       "fim": "2026-10-30",
-      "situacao": "aberta",
+      "situacao": "encerrada",
       "taxa": "R$ 347,54"
     },
     "etapas": [
@@ -43598,13 +43576,13 @@ window.CONCURSOS = [
       "inicio": "2026-11-25",
       "fim": "2027-02-19"
     },
+    "logo": "ufg.png",
     "formacoes_status": "nao_extraido",
     "familias": [],
     "formacoes": [],
     "familias_pos": [],
     "areas_formacoes": [],
     "observacao": "",
-    "logo": "ufg.png",
     "detalhamento": "completo",
     "avisos_edital": [],
     "fonte_dados": {
@@ -43699,13 +43677,13 @@ window.CONCURSOS = [
       "inicio": "2026-11-22",
       "fim": "2026-11-22"
     },
+    "logo": "ufrb.png",
     "formacoes_status": "nao_extraido",
     "familias": [],
     "formacoes": [],
     "familias_pos": [],
     "areas_formacoes": [],
     "observacao": "",
-    "logo": "ufrb.png",
     "detalhamento": "completo",
     "avisos_edital": [],
     "fonte_dados": {
@@ -43735,7 +43713,7 @@ window.CONCURSOS = [
     "inscricao": {
       "inicio": "2026-10-13",
       "fim": "2026-10-28",
-      "situacao": "aberta",
+      "situacao": "encerrada",
       "taxa": "R$ 320,00"
     },
     "etapas": [
@@ -43885,7 +43863,7 @@ window.CONCURSOS = [
     "instituicao": "Universidade Estadual Paulista \"Júlio de Mesquita Filho\"",
     "nivel": "Magistério Superior",
     "uf": null,
-    "numero_edital": "Edital nº 463/2026, publicado em 28/09/2026, com 2 documentos de alteração publicados depois",
+    "numero_edital": "Edital nº 463/2026, publicado em 28/09/2026, com 3 documentos de alteração publicados depois",
     "vagas": "1 vaga",
     "areas": "EDUCAÇÃO",
     "campi": "Presidente Prudente e Departamento de Educação da Faculdade de Ciências e Tecnologia do Campus de Presidente Prudente",
@@ -43896,7 +43874,7 @@ window.CONCURSOS = [
     "link_oficial": "https://inscricoes.unesp.br",
     "inscricao": {
       "inicio": "2026-10-05",
-      "fim": "2026-11-03",
+      "fim": "2026-11-18",
       "situacao": "aberta",
       "taxa": "R$ 286,00"
     },
@@ -44062,13 +44040,13 @@ window.CONCURSOS = [
         "detalhe": {}
       }
     ],
+    "logo": "unifei.png",
     "formacoes_status": "nao_extraido",
     "familias": [],
     "formacoes": [],
     "familias_pos": [],
     "areas_formacoes": [],
     "observacao": "",
-    "logo": "unifei.png",
     "detalhamento": "completo",
     "avisos_edital": [],
     "fonte_dados": {
@@ -44805,6 +44783,281 @@ window.CONCURSOS = [
         "ufg-20-2026"
       ],
       "extraido_em": "2026-10-28",
+      "em_conferencia": true
+    }
+  },
+  {
+    "id": "ufrrj-56-2026",
+    "sigla": "UFRRJ",
+    "instituicao": "Universidade Federal Rural do Rio de Janeiro",
+    "nivel": "Magistério Superior",
+    "uf": null,
+    "numero_edital": "Edital nº 56/2026, publicado em 26/10/2026, com 1 documento de alteração publicado depois",
+    "vagas": "24 vagas",
+    "areas": "23 áreas, entre elas Anestesiologia/Intensivismo Veterinária, Bovinocultura de Leite, Forragicultura e Pastagens, Fitopatologia e Serviço Social e Fundamentos do Trabalho Profissional",
+    "campi": "Instituto de Veterinária/Departamento de Medicina e Cirurgia, Instituto de Zootecnia/Departamento de Produção Animal, Instituto de Zootecnia/Departamento de Nutrição Animal e Pastagens e Instituto de Ciências Biológicas e da Saúde/ Departamento de Entomologia e Fitopatologia",
+    "titulacao": "Doutorado",
+    "regime": "DE",
+    "remuneracao": "R$ 6.180,86 de vencimento básico em DE, chegando a R$ 13.288,85 com a maior titulação",
+    "banca": "Comissão própria da UFRRJ",
+    "link_oficial": "https://www.ufrrj.br/concursos",
+    "inscricao": {
+      "inicio": "2026-10-26",
+      "fim": "2026-11-24",
+      "situacao": "aberta",
+      "taxa": "R$ 330,00"
+    },
+    "etapas": [
+      {
+        "nome": "Prova Escrita",
+        "tipo": "discursiva",
+        "carater": "Eliminatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O Calendário de Provas com as datas, horário, local de realização das provas e e-mail para o qual será enviada a documentação do candidato, será divulgado no sítio www.ufrrj.br/concursos"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Prova Didática",
+        "tipo": "didatica",
+        "carater": "Eliminatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "A etapa da prova didática só poderá se iniciar após a divulgação do resultado dos recursos constantes do item 7.1.1. Calendário de Provas divulgado no sítio www.ufrrj.br/concursos (5.5)"
+        },
+        "detalhe": {
+          "duracao": "50 minutos, com tolerância de 10 para mais ou para menos",
+          "arguicao": "Não há arguição",
+          "sorteio": "Tema sorteado com 24 horas de antecedência",
+          "nota_minima": "70 em 100"
+        }
+      },
+      {
+        "nome": "Análise de Títulos",
+        "tipo": "titulos",
+        "carater": "Classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Resultado final",
+        "tipo": "resultado",
+        "carater": "",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O resultado do concurso será divulgado em sessão pública, cuja data, horário e local serão informados às candidaturas pela Comissão Examinadora durante a realização do concurso."
+        },
+        "detalhe": {}
+      }
+    ],
+    "logo": "ufrrj.png",
+    "formacoes_status": "nao_extraido",
+    "familias": [],
+    "formacoes": [],
+    "familias_pos": [],
+    "areas_formacoes": [],
+    "observacao": "",
+    "detalhamento": "completo",
+    "avisos_edital": [],
+    "fonte_dados": {
+      "origem": "extracao_v2",
+      "extracoes": [
+        "ufrrj-56-2026"
+      ],
+      "extraido_em": "2026-10-29",
+      "em_conferencia": true
+    }
+  },
+  {
+    "id": "unifei-59-2026",
+    "sigla": "UNIFEI",
+    "instituicao": "Universidade Federal de Itajubá",
+    "nivel": "Magistério Superior",
+    "uf": null,
+    "numero_edital": "Edital nº 59/2026, publicado em 23/10/2026, com 2 documentos de alteração publicados depois",
+    "vagas": "29 vagas",
+    "areas": "28 áreas, entre elas DESENVOLVIMENTO WEB, CLOUD COMPUTING, BANCO DE DADOS E SISTEMAS COMPUTACIONAIS, ENGENHARIA DE SOFTWARE, IHM, ARQUITETURA E CONFIABILIDADE, PROGRAMAÇÃO, ALGORITMOS, MODELAGEM E VERIFICAÇÃO DE SOFTWARE, REDES DE COMPUTADORES, CRIPTOGRAFIA E PROTOCOLOS SEGUROS e SEGURANÇA DA INFORMAÇÃO",
+    "campi": "Pouso Alegre, Itabira, Itajubá, Campus Pouso Alegre, Instituto de Engenharias Integradas - Campus de Itabira, Instituto de Ciências Tecnológicas - Campus de Itabira e Instituto de Engenharia de Produção e Gestão - Campus de Itajubá",
+    "titulacao": "Doutorado",
+    "regime": "Dedicação Exclusiva",
+    "remuneracao": "R$ 6.397,19 de vencimento básico em A/Nível 1/Dedicação Exclusiva, chegando a R$ 13.753,96 com a maior titulação",
+    "banca": "Comissão própria da UNIFEI",
+    "link_oficial": "https://progepe.unifei.edu.br/concursos-e-processos-seletivos/edital-no-59-2026/",
+    "inscricao": {
+      "inicio": "2026-10-26",
+      "fim": "2026-11-26",
+      "situacao": "aberta",
+      "taxa": "R$ 200,00"
+    },
+    "etapas": [
+      {
+        "nome": "Prova Escrita",
+        "tipo": "discursiva",
+        "carater": "Eliminatória e classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "data, horário e local no edital de convocação (10.3); em duas fases, no primeiro dia previsto no edital de convocação, logo após o sorteio de temas (11.4.1, I)"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Prova Didática",
+        "tipo": "didatica",
+        "carater": "Eliminatória e classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "24 horas após sorteio do tópico da Prova Didática (sorteio tema, didatica)"
+        },
+        "detalhe": {
+          "duracao": "50 minutos, com tolerância de 5 para mais ou para menos. Aos 55 minutos a banca interrompe",
+          "arguicao": "Sim, por até 30 minutos",
+          "sorteio": "Tema sorteado com 24 horas de antecedência",
+          "nota_minima": "70 em 100",
+          "criterios": "100 pontos: I. Plano de aula 5 pontos; II. Uso de linguagem técnico-científica adequada ao tema 5 pontos; III. Uso de recursos disponibilizados e adequação ao plano de aula 5 pontos; IV. Cumprimento do tempo de 50 minutos, com tolerância de 5 minutos… 5 pontos; V. Sequência e articulação das ideias (introdução, desenvolvimento e… 10 pontos; VI. Criatividade, assertividade, postura e capacidade de estimular e… 30 pontos; VII. Domínio do conteúdo 40 pontos",
+          "plano_de_aula": "Exigido: entregues dentro do período de vinte e quatro horas contado imediatamente após o sorteio da Prova Didática, de acordo com o disposto no edital de convocação para esta prova"
+        }
+      },
+      {
+        "nome": "Prova Científica",
+        "tipo": "outra",
+        "carater": "Eliminatória e classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "data no edital de convocação; ordem de apresentação igual à da Prova Didática"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Prova de Títulos",
+        "tipo": "titulos",
+        "carater": "Classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Resultado final",
+        "tipo": "resultado",
+        "carater": "",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "somente após a realização de todas as provas (eliminatórias e classificatória)"
+        },
+        "detalhe": {}
+      }
+    ],
+    "logo": "unifei.png",
+    "formacoes_status": "nao_extraido",
+    "familias": [],
+    "formacoes": [],
+    "familias_pos": [],
+    "areas_formacoes": [],
+    "observacao": "",
+    "detalhamento": "completo",
+    "avisos_edital": [],
+    "fonte_dados": {
+      "origem": "extracao_v2",
+      "extracoes": [
+        "unifei-59-2026"
+      ],
+      "extraido_em": "2026-10-30",
+      "em_conferencia": true
+    }
+  },
+  {
+    "id": "usp-ea-038-2026",
+    "sigla": "USP",
+    "instituicao": "Universidade de São Paulo",
+    "nivel": "Magistério Superior",
+    "uf": null,
+    "numero_edital": "Edital nº RH nº 038/2026, publicado em 23/10/2026",
+    "vagas": "2 vagas",
+    "areas": "Ensino Fundamental - Polivalente",
+    "campi": "São Paulo e Escola de Aplicação da Faculdade de Educação da Universidade de São Paulo",
+    "titulacao": "Graduação",
+    "regime": "Regime da CLT, em jornada de trabalho de 40 (quarenta) horas semanais",
+    "remuneracao": "R$ 11.778,84 de vencimento básico em CLT, 40 horas semanais",
+    "banca": "FUVEST",
+    "link_oficial": "https://www.fuvest.br",
+    "inscricao": {
+      "inicio": "2026-11-11",
+      "fim": "2026-12-02",
+      "situacao": "abre_em_breve",
+      "taxa": "R$ 250,00"
+    },
+    "etapas": [
+      {
+        "nome": "Prova objetiva",
+        "tipo": "objetiva",
+        "carater": "Eliminatória e classificatória",
+        "data": {
+          "tipo": "exata",
+          "valor": "2026-12-13"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Prova dissertativa",
+        "tipo": "discursiva",
+        "carater": "Eliminatória e classificatória",
+        "data": {
+          "tipo": "exata",
+          "valor": "2026-12-13"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Prova prática",
+        "tipo": "didatica",
+        "carater": "Eliminatória e classificatória",
+        "data": {
+          "tipo": "periodo",
+          "valor": "2027-01-12",
+          "fim": "2027-01-15"
+        },
+        "detalhe": {
+          "sorteio": "Tema sorteado com 24 horas de antecedência",
+          "nota_minima": "5 em 10",
+          "plano_de_aula": "Exigido",
+          "recursos": "Proibidos: qualquer tipo de relógio ou outro dispositivo de controle de tempo, agendas eletrônicas, telefones celulares, relógios digitais, pagers, laptop, outros equipamentos similares e livros, notas ou impressos"
+        }
+      },
+      {
+        "nome": "Resultado final",
+        "tipo": "resultado",
+        "carater": "",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "a definir"
+        },
+        "detalhe": {}
+      }
+    ],
+    "periodo_provas": {
+      "inicio": "2026-12-13",
+      "fim": "2027-01-15"
+    },
+    "logo": "usp.png",
+    "formacoes_status": "nao_extraido",
+    "familias": [],
+    "formacoes": [],
+    "familias_pos": [],
+    "areas_formacoes": [],
+    "observacao": "",
+    "detalhamento": "completo",
+    "avisos_edital": [],
+    "fonte_dados": {
+      "origem": "extracao_v2",
+      "extracoes": [
+        "usp-ea-038-2026"
+      ],
+      "extraido_em": "2026-10-29",
       "em_conferencia": true
     }
   }
