@@ -11,3 +11,13 @@ Rodada diária com junção automática (decisão do Samuel, 04/11/2026: "autom�
 Atenção: o modo conservador continua valendo na junção automática. Um campo já publicado que a extração corrige vira conflito e o `dados.js` mantém o valor antigo até o campo entrar em `liberados.json` depois da conferência nos documentos. Como a comparação é com a rodada anterior, um conflito só é "novo" no primeiro dia; nos dias seguintes ele aparece em "Conflitos que continuam" e não impede a junção, mas segue com o valor publicado.
 
 Modo conservador: onde a extração e o `dados.js` publicado discordam, fica o valor publicado e a divergência vai para o relatório. Vale até a conferência humana das extrações.
+
+## Detalhe da didática, taxa e liberação de detalhe (04/11/2026)
+
+Pedido do Samuel em 04/11/2026: correção feita na extração tem de chegar ao site. Mudou o seguinte no `compilar_radar.py`:
+
+- O detalhe da etapa escrito antes continua valendo, porque costuma ser mais rico que o gerado, mas o marcador "Consultar o edital" (ou vazio) não cobre mais o que a extração já sabe (UFC 48: duração, sorteio, nota mínima e plano de aula).
+- Uma chave de detalhe pode ser liberada em `liberados.json` como `"<nome da etapa>: <chave>"` (por exemplo `"Prova de Desempenho Didático: recursos"`), e então vem da extração.
+- Recursos da didática: a condição com alternativa vai literal ("quadro de giz, giz e apagador; ou quadro branco, pincel e apagador"); os proibidos levam a ressalva comum ("no que couber (item 17.24)") e lista longa do mesmo trecho é resumida; entram os recursos próprios permitidos e a observação sobre recursos.
+- Duração sem tempo nominal, com mínimo e máximo: "De 45 a 50 minutos", com a consequência.
+- Taxa: sem taxa geral, as taxas por área e o pedido de isenção ainda aberto entram só quando o publicado está vazio ou só manda consultar o edital, ou com `"inscrição taxa"` liberado.

@@ -151,6 +151,13 @@ def juntar(itens, conj="e"):
     return ", ".join(itens[:-1]) + f" {conj} " + itens[-1]
 
 
+def marcador_vazio(x):
+    """Texto que não informa nada: vazio ou só manda consultar o edital."""
+    if x is None or x == "" or x == [] or x == {}:
+        return True
+    return isinstance(x, str) and (not x.strip() or bool(re.match(r"\s*consult(ar|e) o edital\s*\.?\s*$", x, re.I)))
+
+
 def unicos(seq):
     vistos, saida = set(), []
     for x in seq:
@@ -364,6 +371,22 @@ def detalhe_didatica(ext):
         if teto:
             partes.append(f"aos {teto} minutos a banca interrompe")
         det["duracao"] = ". ".join([partes[0] + (", " + partes[1] if len(partes) > 1 else "")] + [x[0].upper() + x[1:] for x in partes[2:]])
+    else:
+        # Sem tempo nominal, mas com mínimo e máximo (UFC 48, itens 17.12 e 17.13: de 45 a 50 minutos).
+        minimo = (v(tempo.get("piso_penalidade_min")) or v(tempo.get("piso_sem_consequencia_min"))
+                  or v(tempo.get("piso_eliminatorio_min")))
+        maximo = v(tempo.get("teto_min")) or v(tempo.get("interrupcao_min"))
+        if minimo and maximo:
+            t = f"De {minimo} a {maximo} minutos"
+            cons = v(tempo.get("consequencia_fora_da_tolerancia"))
+            if v(tempo.get("piso_penalidade_min")) == minimo:
+                if isinstance(cons, str) and re.search(r"superior|exced|acima", cons, re.I):
+                    t += ". Fora desse intervalo há desconto na nota"
+                else:
+                    t += f". Menos de {minimo} minutos tem desconto na nota"
+            elif v(tempo.get("piso_eliminatorio_min")) == minimo:
+                t += f". Menos de {minimo} minutos elimina o candidato"
+            det["duracao"] = t
 
     arg = pdd.get("arguicao") or {}
     if arg.get("existe") is True:
@@ -407,6 +430,8 @@ def detalhe_didatica(ext):
         if vias:
             partes.append(f"{vias} vias" + (f" ({fmt})" if fmt else ""))
         mom = v(pa.get("momento_entrega"))
+        if isinstance(mom, str) and len(mom) > 1 and mom[0].isupper() and mom[1].islower():
+            mom = mom[0].lower() + mom[1:]
         if mom:
             partes.append(f"entregues {mom}")
         env = v(pa.get("envio_digital"))
@@ -418,16 +443,79 @@ def detalhe_didatica(ext):
         det["plano_de_aula"] = ("Exigido: " + ", ".join(partes)) if partes else "Exigido"
 
     rec = p.get("recursos") or {}
-    forn = [r.get("item") for r in rec.get("fornecidos") or []]
-    proib = [r.get("item") for r in rec.get("proibidos") or []]
     t = []
+    forn = texto_fornecidos(rec.get("fornecidos") or [])
     if forn:
-        t.append("Fornecidos: " + juntar(forn))
+        t.append("Fornecidos: " + forn)
+    proib, ressalva = texto_proibidos(rec.get("proibidos") or [])
     if proib:
-        t.append("Proibidos: " + juntar(proib))
+        t.append(f"Proibidos{ressalva}: " + proib)
+    prop = rec.get("proprios_permitidos") or {}
+    if isinstance(prop, dict) and prop.get("valor") is True:
+        tr = ((prop.get("fonte") or {}).get("trecho") or "").strip().rstrip(".")
+        t.append("O candidato pode usar recursos próprios" + (f" ({tr})" if tr else ""))
+    elif isinstance(prop, dict) and prop.get("valor") is False:
+        t.append("Não é permitido usar recursos próprios")
+    obs = v(rec.get("observacoes"))
+    ja = " ".join(t).lower()
+    if (isinstance(obs, str) and re.search(r"recurso", obs, re.I)   # só a observação sobre os recursos
+            and obs.strip().rstrip(".").lower()[:80] not in ja):
+        o = encurta(obs.strip().rstrip("."), 320)
+        t.append(o[0].upper() + o[1:])
     if t:
         det["recursos"] = ". ".join(t)
     return det
+
+
+def texto_fornecidos(itens):
+    """Itens fornecidos; uma condição com alternativa ("A; ou B") vai literal, uma vez, no lugar dos itens
+    que ela cobre (IFSC 01, item 8.11.3: quadro de giz, giz e apagador; ou quadro branco, pincel e apagador)."""
+    partes, vistas = [], set()
+    for r in itens:
+        cond = (r.get("condicao") or "").strip()
+        if cond and re.search(r"\bou\b", cond) and sum(1 for x in itens if (x.get("condicao") or "").strip() == cond) > 1:
+            if cond not in vistas:
+                vistas.add(cond)
+                partes.append(cond.rstrip("."))
+        elif r.get("item"):
+            partes.append(r["item"])
+    if len(partes) == 1:
+        return partes[0]
+    if any(";" in x for x in partes):
+        return "; ".join(partes)
+    return juntar(partes)
+
+
+def texto_proibidos(itens):
+    """Itens proibidos, com a ressalva da condição comum a todos (UFC 48, item 17.24: as vedações do
+    capítulo 15 valem para a didática "no que couber"). Grupo longo do mesmo trecho é resumido."""
+    if not itens:
+        return "", ""
+    conds = {(r.get("condicao") or "").strip() for r in itens}
+    ressalva = ""
+    if len(conds) == 1 and next(iter(conds)):
+        c = next(iter(conds))
+        m = re.match(r"\s*(?:item\s*)?(\d+(?:\.\d+)*)", c)
+        if "no que couber" in c.lower():
+            ressalva = ", no que couber" + (f" (item {m.group(1)})" if m else "")
+        elif m:
+            ressalva = f" (item {m.group(1)})"
+    grupos = []
+    for r in itens:
+        tr = ((r.get("fonte") or {}).get("trecho") or "")
+        if grupos and grupos[-1][0] == tr and tr:
+            grupos[-1][1].append(r.get("item"))
+        else:
+            grupos.append((tr, [r.get("item")]))
+    nomes = []
+    for _, g in grupos:
+        g = [x for x in g if x]
+        if len(g) > 8:
+            nomes.extend(g[:4])
+            nomes.append(f"mais {len(g) - 4} itens da mesma lista")
+        else:
+            nomes.extend(g)
+    return juntar(nomes), ressalva
 
 
 PALAVRAS_VAZIAS = {"prova", "de", "da", "do", "e", "exame", "avaliacao", "defesa", "a", "o", "em"}
@@ -665,7 +753,7 @@ def compila_grupo(id_radar, exts, atual, hoje, validador=None, conservador=False
     # são as do prazo geral, e as áreas com prazo próprio vão escritas no texto da inscrição.
     # Entre editais diferentes de um mesmo grupo continua valendo o menor início e o maior fim.
     # Sem prazo geral na extração, os prazos por área continuam formando o período, como antes.
-    inis, fins, taxas, excecoes = [], [], [], []
+    inis, fins, taxas, excecoes, isencoes, taxas_escopo = [], [], [], [], [], []
     for e in exts:
         padrao = (e.get("inscricao") or {}).get("padrao") or {}
         escopos = (e.get("inscricao") or {}).get("por_escopo") or []
@@ -690,6 +778,13 @@ def compila_grupo(id_radar, exts, atual, hoje, validador=None, conservador=False
                 fins.append(v(ins["inscricao_fim"]))
         if isinstance(v(padrao.get("taxa")), (int, float)):   # a taxa vem só do padrão
             taxas.append(v(padrao["taxa"]))
+        else:   # sem taxa geral, as taxas por área servem só quando o publicado não diz nada (UFC 48)
+            taxas_escopo.extend(v(b["taxa"]) for b in escopos if isinstance(v(b.get("taxa")), (int, float)))
+        isen = v(padrao.get("isencao_periodo"))
+        if isinstance(isen, dict) and isen.get("forma") == "janela":
+            i0, i1 = (isen.get("inicio") or {}).get("data"), (isen.get("fim") or {}).get("data")
+            if i0 and i1 and i1 >= hoje:   # só enquanto o pedido ainda está aberto
+                isencoes.append((i0, i1))
     ini, fim = (min(inis) if inis else None), (max(fins) if fins else None)
     insc = {"inicio": ini, "fim": fim, "situacao": situacao_inscricao(ini, fim, hoje)}
     partes_taxa = []
@@ -698,6 +793,16 @@ def compila_grupo(id_radar, exts, atual, hoje, validador=None, conservador=False
                            else f"de {moeda(min(taxas))} a {moeda(max(taxas))}")
     if partes_taxa:
         insc["taxa"] = ". ".join(partes_taxa)
+    # Texto de reserva, para quando o publicado está vazio ou só manda consultar o edital (UFC 48 em
+    # 04/11/2026: o publicado trazia uma isenção de 28 a 30/09 escrita à mão; o Aditivo 01 diz 28 e 29/09).
+    reserva = list(partes_taxa)
+    if not reserva and taxas_escopo:
+        reserva.append(moeda(taxas_escopo[0]) if len(set(taxas_escopo)) == 1
+                       else f"de {moeda(min(taxas_escopo))} a {moeda(max(taxas_escopo))}, conforme a área")
+    if len(set(isencoes)) == 1:
+        i0, i1 = isencoes[0]
+        reserva.append(f"Pedido de isenção de {br_curta(i0)} a {br_curta(i1)}")
+    taxa_reserva = ". ".join(reserva) if reserva else None
     if excecoes:
         # Decisão de 11/10/2026 (caminho C): as áreas com prazo próprio vão num campo que o site mostra
         # ao lado do selo, e o selo fica "aberta em parte das áreas" quando só elas ainda recebem inscrição.
@@ -709,6 +814,8 @@ def compila_grupo(id_radar, exts, atual, hoje, validador=None, conservador=False
                 lista.append(x)
         insc["excecoes"] = sorted(lista, key=lambda x: (x["fim"] or "", x["areas"]))
     taxa_so_excecoes = bool(excecoes) and not taxas
+    if taxa_reserva and not atual:
+        insc["taxa"] = taxa_reserva
     novo["inscricao"] = {k: x for k, x in insc.items() if x is not None}
 
     # Etapas
@@ -848,6 +955,10 @@ def compila_grupo(id_radar, exts, atual, hoje, validador=None, conservador=False
                            "áreas, locais, regime, titulação e remuneração mantidos do dados.js anterior")
     if atual:
         a_ins = atual.get("inscricao") or {}
+        t_pub = a_ins.get("taxa") or ""
+        if taxa_reserva and (not t_pub.strip() or re.match(r"\s*consult(ar|e) o edital", t_pub, re.I)
+                             or "inscrição taxa" in campos_lib):
+            novo["inscricao"]["taxa"] = taxa_reserva
         for k in ("inicio", "fim", "taxa"):
             if not novo["inscricao"].get(k) and a_ins.get(k):
                 novo["inscricao"][k] = a_ins[k]
@@ -855,7 +966,10 @@ def compila_grupo(id_radar, exts, atual, hoje, validador=None, conservador=False
         # Texto da taxa completado à mão (regra de prazo, forma de inscrição, isenção): se o texto
         # publicado começa pelo que a extração gera, ele fica, para a nota escrita não se perder.
         t_novo, t_ant = novo["inscricao"].get("taxa"), a_ins.get("taxa")
-        if t_novo and t_ant and t_ant != t_novo and (t_ant.startswith(t_novo) or taxa_so_excecoes):
+        if "inscrição taxa" in campos_lib and t_novo:
+            # Texto à mão vencido, liberado após conferência (Unimontes em 04/11/2026: prazos prorrogados)
+            pass
+        elif t_novo and t_ant and t_ant != t_novo and (t_ant.startswith(t_novo) or taxa_so_excecoes):
             # Sem valor de taxa na extração, o texto publicado (que já cita as exceções) também fica.
             novo["inscricao"]["taxa"] = t_ant
         novo["inscricao"]["situacao"] = situacao_inscricao(
@@ -882,9 +996,22 @@ def compila_grupo(id_radar, exts, atual, hoje, validador=None, conservador=False
             if not ant:
                 continue
             # Detalhe: o texto escrito antes permanece; a extração só acrescenta o que faltava
+            # Detalhe: o texto escrito antes permanece (é mais rico que o gerado); a extração só acrescenta o
+            # que faltava. Duas exceções desde 04/11/2026, para a correção feita na extração chegar ao site:
+            # o marcador "Consultar o edital" (ou vazio) não cobre o que a extração sabe, e a chave liberada
+            # após conferência em liberados.json ("<nome da etapa>: <chave>", por exemplo
+            # "Prova de Desempenho Didático: recursos") passa a vir da extração.
             det_ant = ant.get("detalhe") or {}
             if det_ant:
-                et["detalhe"] = {**et["detalhe"], **det_ant}
+                for k, x in det_ant.items():
+                    gerado = et["detalhe"].get(k)
+                    if f"{et['nome']}: {k}" in campos_lib and not marcador_vazio(gerado):
+                        if x != gerado:
+                            liberados_aqui.append(f"{et['nome']}, {k}: publicada a extração (liberado após conferência)")
+                        continue
+                    if marcador_vazio(x) and not marcador_vazio(gerado):
+                        continue
+                    et["detalhe"][k] = x
             if not et["carater"] and ant.get("carater"):
                 et["carater"] = ant["carater"]
             da, dn = ant.get("data") or {}, et["data"]
