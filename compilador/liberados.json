@@ -12,10 +12,11 @@
   "ufrn-108-2026": {
     "campos": [
       "vagas",
-      "inscrição fim"
+      "inscrição fim",
+      "Prova Didática: plano_de_aula"
     ],
-    "conferido_em": "2026-10-28",
-    "evidencia": "Retificações DOU 179 (22/09) e DOU 184 (29/09): item 2.1 passa a 15 vagas imediatas em 14 áreas. Versão 3 do edital, retificada no DOU nº 203 de 27/10/2026: inscrições prorrogadas até 28/10/2026 e pagamento até 03/11/2026 (ev-0037 e ev-0038)."
+    "conferido_em": "2026-11-04",
+    "evidencia": "Retificações DOU 179 (22/09) e DOU 184 (29/09): item 2.1 passa a 15 vagas imediatas em 14 áreas. Versão 3 do edital, retificada no DOU nº 203 de 27/10/2026: inscrições prorrogadas até 28/10/2026 e pagamento até 03/11/2026 (ev-0037 e ev-0038). Auditoria de 04/11/2026: Edital, itens 14.4 e 14.4.2: plano de aula entregue de maneira eletrônica, em PDF (pen-drive, e-mail ou drive), baixado pelo fiscal no local da prova; o candidato comparece com no mínimo 30 minutos de antecedência. O publicado trazia o texto quebrado \"entregues O candidato deve...\", gerado pelo compilador."
   },
   "ufersa-030-2026": {
     "campos": [
@@ -114,20 +115,24 @@
   "ifsc-01-2026": {
     "campos": [
       "Resultado final",
-      "Prova de Desempenho Didático: recursos"
+      "Prova de Desempenho Didático: recursos",
+      "Prova de Desempenho Didático: duracao",
+      "Prova de Desempenho Didático: sorteio"
     ],
     "conferido_em": "2026-11-04",
-    "evidencia": "Critério decidido pelo Samuel em 05/10/2026: resultado final é a divulgação da classificação final (12/01/2027); a homologação (13/01/2027) só entra quando o edital não dá data para o resultado. | 04/11/2026: Edital 01/2026 consolidado, item 8.11.3: 'quadro de giz, giz e apagador; ou quadro branco, pincel e apagador' (um dos dois conjuntos, não os dois); 8.11.4: recursos próprios a critério do candidato, com os materiais por conta dele (fita crepe entre eles); 8.11.5: vedada fita adesiva transparente ou similar para fixar cartazes e perfurações. Apontado pelo Samuel em 04/11/2026."
+    "evidencia": "Critério decidido pelo Samuel em 05/10/2026: resultado final é a divulgação da classificação final (12/01/2027); a homologação (13/01/2027) só entra quando o edital não dá data para o resultado. | 04/11/2026: Edital 01/2026 consolidado, item 8.11.3: 'quadro de giz, giz e apagador; ou quadro branco, pincel e apagador' (um dos dois conjuntos, não os dois); 8.11.4: recursos próprios a critério do candidato, com os materiais por conta dele (fita crepe entre eles); 8.11.5: vedada fita adesiva transparente ou similar para fixar cartazes e perfurações. Apontado pelo Samuel em 04/11/2026. Auditoria de 04/11/2026: Edital 01/2026 retificado (versão DOU de 14/08/2026), LEIA-SE 8.8.1: aula simulada ministrada pela pessoa candidata em 35 minutos, seguida de até 15 minutos de arguição; item 8.10.2: tema sorteado e divulgado com antecedência mínima de 24 horas, em ato público. O publicado só mandava consultar o Anexo I e o item 8."
   },
   "ifsuldeminas-188-2026": {
     "campos": [
       "Prova Objetiva",
       "Prova de Desempenho Didático",
       "Prova de Títulos",
-      "Resultado final"
+      "Resultado final",
+      "Prova de Desempenho Didático: plano_de_aula",
+      "Prova de Desempenho Didático: recursos"
     ],
-    "conferido_em": "2026-10-09",
-    "evidencia": "Edital nº 227/2026 (Edital Complementar de 02/10/2026), itens 1.3 e 4.2 e Anexo I, p. 1 e 3: reaplicação da Prova Objetiva da MCH-4 'para o dia 8 de novembro de 2026', e o cronograma anexo 'substitui, exclusivamente para a área MCH-4', com 'Prova de Desempenho Didático e Entrega dos Títulos | 13/12/2026' e 'Publicação do resultado dos recursos e do Resultado Final do Concurso Público | 30/12/2026'. Para as demais áreas valem a Comunicação Nº 2 (objetiva em 13/09/2026) e o Anexo I da 1ª Retificação, p. 6 e 7 ('31/10 e 01/11/2026' e resultado final em 10/12/2026). A etapa cobre da primeira à última data, inclusive o escopo MCH-4."
+    "conferido_em": "2026-11-04",
+    "evidencia": "Edital nº 227/2026 (Edital Complementar de 02/10/2026), itens 1.3 e 4.2 e Anexo I, p. 1 e 3: reaplicação da Prova Objetiva da MCH-4 'para o dia 8 de novembro de 2026', e o cronograma anexo 'substitui, exclusivamente para a área MCH-4', com 'Prova de Desempenho Didático e Entrega dos Títulos | 13/12/2026' e 'Publicação do resultado dos recursos e do Resultado Final do Concurso Público | 30/12/2026'. Para as demais áreas valem a Comunicação Nº 2 (objetiva em 13/09/2026) e o Anexo I da 1ª Retificação, p. 6 e 7 ('31/10 e 01/11/2026' e resultado final em 10/12/2026). A etapa cobre da primeira à última data, inclusive o escopo MCH-4. Auditoria de 04/11/2026: 3ª Retificação ao Edital 188/2026 (13/10/2026), nova redação do item 7.17 a 7.17.3: plano em PDF assinado pelo e-mail divulgado com o tema, até 1 hora antes da primeira apresentação da banca, e 3 vias impressas na apresentação; atraso ou falta das vias desconta 5 pontos, omissão zera o quesito. O publicado ainda dizia 4 vias. Recursos: quadro branco ou verde, pincel ou giz e apagador (edital consolidado)."
   },
   "ufrgs-08-2026": {
     "campos": [
@@ -148,10 +153,11 @@
   },
   "ifmt-03-2026": {
     "campos": [
-      "Prova de desempenho didático (PDD)"
+      "Prova de desempenho didático (PDD)",
+      "Prova de desempenho didático (PDD): recursos"
     ],
-    "conferido_em": "2026-10-28",
-    "evidencia": "Edital Retificador 05, de 27/10/2026: a prova didática passa de 29/10 a 29/11 para 06, 07 e 08/11/2026 (extração, ev-0161 a ev-0171)."
+    "conferido_em": "2026-11-04",
+    "evidencia": "Edital Retificador 05, de 27/10/2026: a prova didática passa de 29/10 a 29/11 para 06, 07 e 08/11/2026 (extração, ev-0161 a ev-0171). Auditoria de 04/11/2026: Edital 03/2026 consolidado 04 (20/08/2026), regras da prova de desempenho didático: o IFMT fornece giz ou pincel e quadro de giz ou branco; o publicado listava os quatro como fornecidos juntos."
   },
   "unesp-assistente-2026": {
     "campos": [
@@ -222,5 +228,23 @@
     ],
     "conferido_em": "2026-11-04",
     "evidencia": "Editais publicados no DOU edição 181, seção 3, pp. 50, 52 e 53: realização das provas de 25/01 a 29/01/2027; Prova Escrita na segunda, 25/01/2027, das 9h às 13h, nas três áreas."
+  },
+  "ufrn-109-2026": {
+    "campos": [
+      "Prova Didática: plano_de_aula"
+    ],
+    "conferido_em": "2026-11-04",
+    "evidencia": "Auditoria de 04/11/2026: Edital, itens 14.4 e 14.4.2: plano de aula entregue de maneira eletrônica, em PDF (pen-drive, e-mail ou drive), baixado pelo fiscal no local da prova; o candidato comparece com no mínimo 30 minutos de antecedência. O publicado trazia o texto quebrado \"entregues O candidato deve...\", gerado pelo compilador."
+  },
+  "ufvjm-101-2026": {
+    "campos": [
+      "Prova Escrita",
+      "Prova Didática",
+      "Prova de Títulos",
+      "Prova prática",
+      "Prova defesa de projeto de atividades acadêmicas"
+    ],
+    "conferido_em": "2026-11-04",
+    "evidencia": "Auditoria de 04/11/2026: 2ª Retificação do item 2.2 das Instruções Específicas do Edital 101/2026 (datas prováveis das provas, por área): períodos de 30/11/2026 a 26/04/2027, conforme a área; as áreas 101.15 a 101.17 trazem 15/02/2026 a 26/02/2026, ano trocado no documento, e ficam fora do período, com aviso na nota (regra do compilador de 04/11/2026)."
   }
 }
