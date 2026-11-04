@@ -67,24 +67,27 @@
   },
   "ifmg-2026": {
     "campos": [
-      "Resultado final"
+      "Resultado final",
+      "Prova de Títulos"
     ],
-    "conferido_em": "2026-10-04",
-    "evidencia": "Retificação 01, Anexo I: homologação do resultado final em 03/04/2027; o 25/03 é o resultado final da confirmação de autodeclaração e PcD."
+    "conferido_em": "2026-11-04",
+    "evidencia": "Retificação 01, Anexo I: homologação do resultado final em 03/04/2027; o 25/03 é o resultado final da confirmação de autodeclaração e PcD. | 04/11/2026: Retificação 09 (21/10/2026), Anexo I, Cronograma: 'Entrega do Memorial de Títulos e Prova de Desempenho Didático | 06/02/2027 | 13/02/2027'; substitui o cronograma anterior (27/01 a 04/02/2027)."
   },
   "unesp-titular-2026": {
     "campos": [
-      "vagas"
+      "vagas",
+      "inscrição fim"
     ],
-    "conferido_em": "2026-10-04",
-    "evidencia": "Nove editais de Professor Titular nos documentos (111, 135, 138, 139, 161, 210, 294, 305, 444), 1 cargo cada; nenhuma evidência dos 12 do texto anterior."
+    "conferido_em": "2026-11-04",
+    "evidencia": "Nove editais de Professor Titular nos documentos (111, 135, 138, 139, 161, 210, 294, 305, 444), 1 cargo cada; nenhuma evidência dos 12 do texto anterior. | 04/11/2026: Edital 96/2026-DTAd-FCF/CAr (Farmacotécnica, Professor Titular, DOE 02/10/2026), item 2.1: inscrições das 00:00 de 13/10/2026 às 17h de 27/11/2026; entrou no pacote por decisão do Samuel em 22/10/2026."
   },
   "unila-204-2026": {
     "campos": [
-      "vagas"
+      "vagas",
+      "Defesa da Proposta de Atuação Acadêmica"
     ],
-    "conferido_em": "2026-10-05",
-    "evidencia": "Edital 204/2026, item 2.1 (conferido pelo Samuel no PDF): Medicina de Família 03 AC + 01 PPP, Ginecologia 01 IND, Comunicação 01 AC; total 6. Edital 237/2026 confirma."
+    "conferido_em": "2026-11-04",
+    "evidencia": "Edital 204/2026, item 2.1 (conferido pelo Samuel no PDF): Medicina de Família 03 AC + 01 PPP, Ginecologia 01 IND, Comunicação 01 AC; total 6. Edital 237/2026 confirma. | 04/11/2026: Cronogramas por área: área 01 em 20/10 às 15h (digitalizado-em-19-10-2026), área 02 em 21/10 às 9h (cronograma prévio de 19/10), área 03 de 21/10 às 13h a 22/10 às 11h (horário de atuação acadêmica de 20/10). Período de 20/10 a 22/10."
   },
   "uerj-2026": {
     "campos": [
@@ -110,10 +113,11 @@
   },
   "ifsc-01-2026": {
     "campos": [
-      "Resultado final"
+      "Resultado final",
+      "Prova de Desempenho Didático: recursos"
     ],
-    "conferido_em": "2026-10-05",
-    "evidencia": "Critério decidido pelo Samuel em 05/10/2026: resultado final é a divulgação da classificação final (12/01/2027); a homologação (13/01/2027) só entra quando o edital não dá data para o resultado."
+    "conferido_em": "2026-11-04",
+    "evidencia": "Critério decidido pelo Samuel em 05/10/2026: resultado final é a divulgação da classificação final (12/01/2027); a homologação (13/01/2027) só entra quando o edital não dá data para o resultado. | 04/11/2026: Edital 01/2026 consolidado, item 8.11.3: 'quadro de giz, giz e apagador; ou quadro branco, pincel e apagador' (um dos dois conjuntos, não os dois); 8.11.4: recursos próprios a critério do candidato, com os materiais por conta dele (fita crepe entre eles); 8.11.5: vedada fita adesiva transparente ou similar para fixar cartazes e perfurações. Apontado pelo Samuel em 04/11/2026."
   },
   "ifsuldeminas-188-2026": {
     "campos": [
@@ -127,18 +131,20 @@
   },
   "ufrgs-08-2026": {
     "campos": [
-      "Prova Prática"
+      "Prova Prática",
+      "Resultado final"
     ],
-    "conferido_em": "2026-10-09",
-    "evidencia": "Cr-Final-Retificado-Medicina-Veterinaria-Ed-08-26.pdf (Cronograma Final Retificado, assinado em 05/10/2026), p. 3: 'Sessão da Prova Prática - PP (art. 35) Data: 09/10/2026 (sexta-feira) Horário: 08:00 às 08:50'. O Cronograma Final de 09/09 dizia 07/10/2026. Só a área 1.2.13 (Medicina Veterinária, Clínica de Suínos) tem prova prática."
+    "conferido_em": "2026-11-04",
+    "evidencia": "Cr-Final-Retificado-Medicina-Veterinaria-Ed-08-26.pdf (Cronograma Final Retificado, assinado em 05/10/2026), p. 3: 'Sessão da Prova Prática - PP (art. 35) Data: 09/10/2026 (sexta-feira) Horário: 08:00 às 08:50'. O Cronograma Final de 09/09 dizia 07/10/2026. Só a área 1.2.13 (Medicina Veterinária, Clínica de Suínos) tem prova prática. | 04/11/2026: Editais de Resultado Final nº 59, de 07/10/2026 (área 07), e nº 60, de 13/10/2026 (área 10, Produção e Tecnologia de Sementes). Período de 07/10 a 13/10."
   },
   "ufsm-198-2026": {
     "campos": [
       "Prova Didática",
-      "Prova Escrita"
+      "Prova Escrita",
+      "Prova de Defesa de Produção Intelectual"
     ],
-    "conferido_em": "2026-10-09",
-    "evidencia": "Memorando 001/2026-DMTM, de 07/10/2026, p. 2: 'A 2ª Etapa (Prova Didática e Prova de Defesa de Produção Intelectual) do concurso público tem previsão para iniciar na data de 23/11/2026', só para a área 04 (Ensino de Ciências e Matemática); as demais áreas seguem o item 15.3, com cronograma a publicar. O compilador passou a escrever a data por área na nota (auditoria de 09/10/2026). Prova Escrita (conferida em 02/11/2026): retificação do Edital 198/2026 de 28/10/2026, válida para Engenharia Sanitária (área 02), item 8.1 passa a 'de 13/09/2026 a 26/04/2027' (onde se lia 27/12/2026); extração ev-0095."
+    "conferido_em": "2026-11-04",
+    "evidencia": "Memorando 001/2026-DMTM, de 07/10/2026, p. 2: 'A 2ª Etapa (Prova Didática e Prova de Defesa de Produção Intelectual) do concurso público tem previsão para iniciar na data de 23/11/2026', só para a área 04 (Ensino de Ciências e Matemática); as demais áreas seguem o item 15.3, com cronograma a publicar. O compilador passou a escrever a data por área na nota (auditoria de 09/10/2026). Prova Escrita (conferida em 02/11/2026): retificação do Edital 198/2026 de 28/10/2026, válida para Engenharia Sanitária (área 02), item 8.1 passa a 'de 13/09/2026 a 26/04/2027' (onde se lia 27/12/2026); extração ev-0095. | 04/11/2026: Memorandos de início do concurso, previsão da 2ª etapa (didática e defesa de produção intelectual) por área: 001/2026-DMTM (07/10), área 04, 23/11/2026; 002/2026-DMTM (09/10), área 03, 17/11/2026; 007/2026-DFSC (03/11), área 05, 30/11/2026. O período de 17/11 a 30/11 junta as três áreas; o 23/11 publicado era só da área 04."
   },
   "ifmt-03-2026": {
     "campos": [
@@ -173,10 +179,11 @@
       "Prova Escrita",
       "Prova Didática",
       "Exame de Títulos e Trabalhos",
-      "Defesa da Produção Intelectual"
+      "Defesa da Produção Intelectual",
+      "Prova Prática"
     ],
-    "conferido_em": "2026-11-02",
-    "evidencia": "Cronogramas (CI) de cada subárea do Edital 09/2026: prova escrita de 03/11 (Educação e Artes Visuais, Língua Alemã, Linguística/Teatro) a 30/11 (Entomologia Agrícola); didática até 19 a 24/12 (Arquitetura); títulos até 11/12 (Arquitetura); DPI até 18/12 (Arquitetura). O dados.js anterior só cobria as primeiras subáreas."
+    "conferido_em": "2026-11-04",
+    "evidencia": "Cronogramas (CI) de cada subárea do Edital 09/2026: prova escrita de 03/11 (Educação e Artes Visuais, Língua Alemã, Linguística/Teatro) a 30/11 (Entomologia Agrícola); didática até 19 a 24/12 (Arquitetura); títulos até 11/12 (Arquitetura); DPI até 18/12 (Arquitetura). O dados.js anterior só cobria as primeiras subáreas. | 04/11/2026: CI-Odontologia-Ed-09-26-1.pdf: prova prática em 02/12/2026, das 8h às 10h (área 15); CI de Linguística/Teatro (Direção Teatral): prova prática de 18/11 a 21/11 (área 13). O período vai de 18/11 a 02/12."
   },
   "unilab-14-2026": {
     "campos": [
@@ -184,5 +191,35 @@
     ],
     "conferido_em": "2026-11-02",
     "evidencia": "Alterações de cronograma de Anatomia Humana e Cirurgia e de Práticas em Atenção Primária à Saúde/Semiologia Médica: 'Período de Inscrições | 14/10/2026 a 05/11/2026' (ev-0212 e ev-0217). As demais áreas abertas terminam em 03/11."
+  },
+  "unimontes-2026": {
+    "campos": [
+      "inscrição fim",
+      "Prova de Conhecimentos",
+      "inscrição taxa"
+    ],
+    "conferido_em": "2026-11-04",
+    "evidencia": "2ª Retificações dos Editais 07, 10, 12 a 16, 18 a 22 e 24, 3ª Retificação do Edital 17 e 1ª do 27: inscrições até 09/01/2027; provas de conhecimentos em 14/02/2027 (Editais 01 a 17) e 21/02/2027 (18 a 27). O texto da taxa escrito à mão dizia prazo até 19/12, vencido pelas retificações; os prazos por edital vão nas exceções da inscrição."
+  },
+  "ufpel-028-2026": {
+    "campos": [
+      "Prova Escrita"
+    ],
+    "conferido_em": "2026-11-04",
+    "evidencia": "Formulários de homologação de 30/10/2026, seção 5 (cronograma preliminar) de cada uma das 28 áreas: prova escrita de 23/11/2026 (áreas 02, 05, 08, 12, 21, 23, 27) a 07/12/2026 (áreas 03, 14, 19, 20, 26). O 11/12 publicado era o fim do período provável do item 6.3 para todas as provas. Os conflitos internos das áreas 03, 13 e 23 são de hora ou do dia escrito na seção 2, não da data da prova escrita."
+  },
+  "ifsp-183-2026": {
+    "campos": [
+      "vagas"
+    ],
+    "conferido_em": "2026-11-04",
+    "evidencia": "Edital de Retificação nº 188 (DOU 05/10/2026), Quadro 1 no leia-se: 36 linhas ativas e 47 vagas imediatas (Humanidades, São João da Boa Vista, cancelada; Eletrônica Franco da Rocha, Informática Jaçanã e Pedagogia São Paulo incluídas)."
+  },
+  "unila-240-2026": {
+    "campos": [
+      "Prova Escrita"
+    ],
+    "conferido_em": "2026-11-04",
+    "evidencia": "Editais publicados no DOU edição 181, seção 3, pp. 50, 52 e 53: realização das provas de 25/01 a 29/01/2027; Prova Escrita na segunda, 25/01/2027, das 9h às 13h, nas três áreas."
   }
 }
