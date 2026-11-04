@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
-# Rodada semanal do Radar de Concursos · Aula Nota 10
+# Rodada do Radar de Concursos · Aula Nota 10 (diária desde 04/11/2026; o nome do arquivo ficou)
 #
 # Gera o dados.js em modo conservador a partir das extrações do vigia-documentos,
-# valida, confere que nenhum concurso sumiu e grava o relatório da semana.
-# Não faz commit nem push: isso fica com quem chama (a rotina semanal).
+# valida, confere que nenhum concurso sumiu e grava o relatório do dia.
+# Não faz commit nem push: isso fica com quem chama (o workflow rodada-semanal-radar.yml, diário).
 #
 # Uso:  compilador/rodada_semanal.sh <pasta extracoes do vigia-documentos> <AAAA-MM-DD>
 # Roda na raiz de um clone do aulanota10/radar, sobre o dados.js publicado (main).
@@ -11,7 +11,7 @@
 # Saídas:
 #   dados.js                               gerado (substitui o do clone)
 #   relatorios/relatorio-<data>.md         relatório para o Samuel
-#   relatorios/conflitos-<data>.json       base para separar os conflitos novos na semana seguinte
+#   relatorios/conflitos-<data>.json       base para separar os conflitos novos na rodada seguinte
 # Última linha impressa: RESUMO mudancas=<n> conflitos_novos=<n> didatica_encerrada=<n>
 set -euo pipefail
 

@@ -1,11 +1,18 @@
-name: Rodada semanal do Radar
+name: Rodada diária do Radar
 
 # Gera o dados.js conservador a partir das extrações do vigia-documentos,
-# grava o relatório da semana em main e abre o pull request do dados.js.
+# grava o relatório do dia em main e abre o pull request do dados.js.
 #
-# NUNCA junta o pull request e NUNCA envia dados.js, index.html, validar-dados.js
-# ou .github para main. A publicação na Hostinger continua dependendo de o Samuel
-# apertar "Merge pull request", que é o que dispara o publicar-radar.yml.
+# Desde 04/11/2026 (decisão do Samuel: "automático quando não houver conflito
+# novo") a rodada é diária e:
+#   - só abre pull request quando o dados.js gerado difere do publicado;
+#   - mantém um pull request radar/ aberto por vez (os anteriores são fechados);
+#   - com conflitos_novos = 0, junta o próprio pull request e dispara o
+#     publicar-radar.yml por workflow_dispatch (o merge feito com o
+#     GITHUB_TOKEN não dispara o evento push);
+#   - com conflito novo, deixa o pull request aberto para o Samuel decidir.
+# O modo conservador continua: campo em conflito mantém o valor publicado.
+# Nunca envia index.html, validar-dados.js ou .github para main.
 #
 # Pré-requisitos (uma vez só):
 #   1. Secret VIGIA_SSH_KEY: chave privada de uma deploy key de leitura
@@ -15,17 +22,19 @@ name: Rodada semanal do Radar
 
 on:
   schedule:
-    # 12:47 de America/Fortaleza (UTC-3) nas segundas = 15:47 UTC.
+    # 12:47 de America/Fortaleza (UTC-3), todo dia = 15:47 UTC (diária desde
+    # 04/11/2026; antes era só às segundas).
     # Depois do disparo diário do extrator (9:07, que desde 09/10/2026 faz também
     # as primeiras extrações e pode levar até três horas), para a compilação usar
     # as extrações do próprio dia. Em 07/10/2026 a rodada tinha sido adiantada
     # para 9:47 e passou a compilar antes do extrator (auditoria de 09/10/2026).
-    - cron: '47 15 * * 1'
+    - cron: '47 15 * * *'
   workflow_dispatch:
 
 permissions:
   contents: write
   pull-requests: write
+  actions: write
 
 concurrency:
   group: rodada-semanal-radar
@@ -107,6 +116,12 @@ jobs:
 
           # O dados.js gerado sai do caminho: main recebe só relatorios/.
           cp dados.js "$RUNNER_TEMP/dados-novo.js"
+          if git diff --quiet -- dados.js; then
+            echo "dados_mudou=false" >> "$GITHUB_OUTPUT"
+            echo "O dados.js gerado é igual ao publicado."
+          else
+            echo "dados_mudou=true" >> "$GITHUB_OUTPUT"
+          fi
           git checkout -- dados.js
 
       - name: Guardar a saída do script
@@ -140,7 +155,7 @@ jobs:
             echo "Nenhum arquivo novo ou alterado em relatorios/; nada a comitar."
             exit 0
           fi
-          git commit -m "Radar $HOJE: relatório da rodada semanal"
+          git commit -m "Radar $HOJE: relatório da rodada diária"
 
           FORA="$(git diff --name-only origin/main HEAD | grep -v '^relatorios/' || true)"
           if [ -n "$FORA" ]; then
@@ -155,14 +170,14 @@ jobs:
             echo "push recusado, tentando de novo ($t)"
             sleep 5
             git fetch origin main
-            git rebase origin/main || { git rebase --abort; git reset --hard origin/main; cp "$RUNNER_TEMP/relatorios-novos/"* relatorios/; git add relatorios; git commit -m "Radar $HOJE: relatório da rodada semanal"; }
+            git rebase origin/main || { git rebase --abort; git reset --hard origin/main; cp "$RUNNER_TEMP/relatorios-novos/"* relatorios/; git add relatorios; git commit -m "Radar $HOJE: relatório da rodada diária"; }
           done
           echo "PARADO: não consegui enviar o relatório para main." >&2
           exit 1
 
       - name: Abrir ou atualizar o pull request do dados.js
         id: pr
-        if: success() && (steps.compilar.outputs.mudancas != '0' || steps.compilar.outputs.conflitos != '0')
+        if: success() && steps.compilar.outputs.dados_mudou == 'true'
         working-directory: radar
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -202,7 +217,7 @@ jobs:
           echo "numero=$N" >> "$GITHUB_OUTPUT"
           echo "url=https://github.com/$GITHUB_REPOSITORY/pull/$N" >> "$GITHUB_OUTPUT"
 
-          # Fecha os pull requests radar/ das semanas anteriores. Nunca junta nenhum.
+          # Fecha os pull requests radar/ das rodadas anteriores, que este substitui.
           gh api "repos/$GITHUB_REPOSITORY/pulls?state=open&per_page=100" \
             --jq '.[] | select(.head.ref | startswith("radar/")) | .number' | while read -r M; do
             if [ "$M" != "$N" ]; then
@@ -211,6 +226,55 @@ jobs:
               gh api -X PATCH "repos/$GITHUB_REPOSITORY/pulls/$M" -f state=closed >/dev/null
               echo "Pull request $M fechado."
             fi
+          done
+
+      - name: Juntar o pull request quando não há conflito novo
+        id: merge
+        if: success() && steps.pr.outputs.numero != '' && steps.compilar.outputs.conflitos == '0'
+        working-directory: radar
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          N: ${{ steps.pr.outputs.numero }}
+          HOJE: ${{ steps.compilar.outputs.hoje }}
+          HOJE_BR: ${{ steps.compilar.outputs.hoje_br }}
+        run: |
+          set -euo pipefail
+          # O GitHub calcula se o pull request pode ser juntado em segundo plano;
+          # tenta algumas vezes antes de desistir.
+          for t in 1 2 3 4 5 6; do
+            if gh api -X PUT "repos/$GITHUB_REPOSITORY/pulls/$N/merge" \
+                 -f merge_method=merge \
+                 -f commit_title="Radar $HOJE_BR: publicação automática (sem conflito novo)" >/dev/null; then
+              echo "mesclado=true" >> "$GITHUB_OUTPUT"
+              echo "Pull request $N juntado automaticamente."
+              gh api -X DELETE "repos/$GITHUB_REPOSITORY/git/refs/heads/radar/$HOJE" >/dev/null || true
+              # Merge feito com o GITHUB_TOKEN não dispara o push do
+              # publicar-radar.yml; workflow_dispatch dispara.
+              gh workflow run publicar-radar.yml --repo "$GITHUB_REPOSITORY" --ref main
+              echo "Publicação na Hostinger disparada."
+              exit 0
+            fi
+            echo "merge recusado, tentando de novo ($t)"
+            sleep 10
+          done
+          echo "mesclado=false" >> "$GITHUB_OUTPUT"
+          echo "AVISO: não consegui juntar o pull request $N; ele fica aberto para o Samuel." >&2
+
+      - name: Fechar pull request antigo quando o dados.js não mudou
+        if: success() && steps.compilar.outputs.dados_mudou != 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          HOJE_BR: ${{ steps.compilar.outputs.hoje_br }}
+        run: |
+          set -euo pipefail
+          # O dados.js de hoje é igual ao publicado: um pull request radar/ de
+          # rodada anterior ainda aberto ficou superado pelas extrações atuais.
+          gh api "repos/$GITHUB_REPOSITORY/pulls?state=open&per_page=100" \
+            --jq '.[] | select(.head.ref | startswith("radar/")) | .number' | while read -r M; do
+            gh api -X POST "repos/$GITHUB_REPOSITORY/issues/$M/comments" \
+              -f body="Fechado pela rodada de $HOJE_BR: o dados.js gerado hoje é igual ao publicado." >/dev/null
+            gh api -X PATCH "repos/$GITHUB_REPOSITORY/pulls/$M" -f state=closed >/dev/null
+            echo "Pull request $M fechado."
           done
 
       - name: Registrar a rodada para o aviso ao Samuel
@@ -222,6 +286,8 @@ jobs:
           ENCERRADAS: ${{ steps.compilar.outputs.encerradas }}
           PR_NUMERO: ${{ steps.pr.outputs.numero }}
           PR_URL: ${{ steps.pr.outputs.url }}
+          DADOS_MUDOU: ${{ steps.compilar.outputs.dados_mudou }}
+          MESCLADO: ${{ steps.merge.outputs.mesclado }}
           RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
         run: |
           set -euo pipefail
@@ -234,6 +300,9 @@ jobs:
             "didatica_encerrada": int(os.environ["ENCERRADAS"]),
             "pull_request": int(os.environ["PR_NUMERO"]) if os.environ.get("PR_NUMERO") else None,
             "pull_request_url": os.environ.get("PR_URL") or None,
+            "dados_mudou": os.environ.get("DADOS_MUDOU") == "true",
+            "sem_mudanca": os.environ.get("DADOS_MUDOU") != "true",
+            "mesclado_automatico": os.environ.get("MESCLADO") == "true",
             "relatorio": "relatorios/relatorio-%s.md" % os.environ["HOJE"],
             "execucao": os.environ["RUN_URL"],
           }
@@ -273,6 +342,7 @@ jobs:
           RESUMO: ${{ steps.compilar.outputs.resumo }}
           HOJE: ${{ steps.compilar.outputs.hoje }}
           PR_URL: ${{ steps.pr.outputs.url }}
+          MESCLADO: ${{ steps.merge.outputs.mesclado }}
         run: |
           {
             echo "## Rodada de $HOJE"
@@ -282,13 +352,17 @@ jobs:
             if [ -n "${PR_URL:-}" ]; then
               echo "Pull request: $PR_URL"
               echo
-              echo "Para publicar, junte o pull request. Para não publicar, não faça nada."
+              if [ "${MESCLADO:-}" = "true" ]; then
+                echo "Juntado automaticamente (sem conflito novo) e publicação disparada."
+              else
+                echo "Há conflito novo: para publicar, junte o pull request. Para não publicar, não faça nada."
+              fi
             else
-              echo "Nenhum pull request nesta semana."
+              echo "Nenhum pull request hoje: o dados.js gerado é igual ao publicado."
             fi
             echo
             if [ -f "radar/relatorios/relatorio-$HOJE.md" ]; then
-              echo "<details><summary>Relatório da semana</summary>"
+              echo "<details><summary>Relatório do dia</summary>"
               echo
               cat "radar/relatorios/relatorio-$HOJE.md"
               echo
