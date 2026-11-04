@@ -21,3 +21,21 @@ Pedido do Samuel em 04/11/2026: correção feita na extração tem de chegar ao 
 - Recursos da didática: a condição com alternativa vai literal ("quadro de giz, giz e apagador; ou quadro branco, pincel e apagador"); os proibidos levam a ressalva comum ("no que couber (item 17.24)") e lista longa do mesmo trecho é resumida; entram os recursos próprios permitidos e a observação sobre recursos.
 - Duração sem tempo nominal, com mínimo e máximo: "De 45 a 50 minutos", com a consequência.
 - Taxa: sem taxa geral, as taxas por área e o pedido de isenção ainda aberto entram só quando o publicado está vazio ou só manda consultar o edital, ou com `"inscrição taxa"` liberado.
+
+## Regras da auditoria dos 78 concursos (04/11/2026)
+
+- Nota da data: a nota gerada (`Datas por área: `, `Datas por edital: `, `Data provável, pelo edital`, `Prazo máximo: até essa data`, `Só no edital `) substitui a nota gerada antes, mesmo quando o período geral não muda, para a mudança de uma área chegar ao site (UFBA 06, Geotecnia). A nota escrita à mão, que não começa por esses prefixos, continua valendo.
+- A nota por área só aparece quando as áreas têm datas diferentes ou há áreas sem data; rótulos com a mesma data vão juntos e o mesmo rótulo com duas datas vira um período só. Em pacote, a nota diz "Datas por edital", e a etapa que existe só em parte dos editais diz em qual ("Só no edital 49/2026").
+- Etapa de mesmo nome em dois tipos (memorial e projeto com o mesmo nome literal): a cópia sem data sai.
+- Remissão curta ("Consulte o Anexo I do edital consolidado", "Consulte o item 8") também é marcador vazio; "Consulte o edital do seu departamento" não é.
+- Prova datada antes da publicação do edital (ou do início da inscrição) é tratada como ano trocado no documento: não entra no período e vai para a nota com o aviso (UFVJM 101, áreas 101.15 a 101.17).
+- Data que o documento dá como provável ("na data provável de") ganha "Data provável, pelo edital"; data fixa escrita como "Até 17/05/2027" ganha "Prazo máximo: até essa data, pelo edital".
+- Resultado final de parte das áreas diz de quem é ("03 (Contabilidade): 16/11; demais áreas: sem data").
+- Inscrição com prazo relativo e sem data final: o texto da taxa diz o prazo como o edital ("Inscrições por 45 dias corridos a contar da publicação do edital no DOU de 14/10/2026; confira a data final no edital"), sem calcular o último dia, e o início sozinho não é publicado. Quando o publicado já tem as datas ou já explica o prazo, nada muda.
+- Pacote em que só o início dos trabalhos foi datado (UNIFESP): a etapa sem data diz quais editais já começaram.
+- Duração com mínimo e máximo: "desconto na nota" só quando o edital fala em penalidade; quando só diz que a banca interrompe, o site diz isso (IFMG 607).
+- Plano de aula: sem número de vias, a forma de entrega vale sozinha, e o momento de entrega escrito como frase inteira vai como frase própria (UFRN 108 e 109).
+
+## Textos corrigidos após conferência (`textos_corrigidos.json`)
+
+Para corrigir um texto escrito à mão que o compilador mantém do `dados.js` publicado, sem editar o `dados.js`. Formato: `{"<id>": [{"campo", "trocar" e "por" (ou "texto", ou "valor" para o objeto data), "evidencia", "conferido_em", "expira_em" opcional}]}`. Campos: `observacao`, `inscricao.taxa`, `etapa:<nome>:nota`, `etapa:<nome>:data` e `etapa:<nome>:<chave do detalhe>`. Com `trocar`, só o trecho muda; se o trecho não estiver mais no texto, nada muda e o relatório avisa em "Alertas". As correções aplicadas aparecem em "Liberados após conferência". Entrada com `expira_em` vencido não é aplicada e é avisada.

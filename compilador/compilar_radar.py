@@ -155,7 +155,14 @@ def marcador_vazio(x):
     """Texto que não informa nada: vazio ou só manda consultar o edital."""
     if x is None or x == "" or x == [] or x == {}:
         return True
-    return isinstance(x, str) and (not x.strip() or bool(re.match(r"\s*consult(ar|e) o edital\s*\.?\s*$", x, re.I)))
+    # Desde 04/11/2026 vale também a remissão curta, de uma oração só, a uma parte do edital ("Consulte o
+    # Anexo I do edital consolidado", "Consulte o item 8", "Consulte o corpo do edital 607/2026"): ela não
+    # informa nada e não deve cobrir o que a extração sabe (IFSC 01, IFMG 607). Texto com mais de uma frase
+    # ("Consulte o edital. A tabela geral...") continua sendo texto escrito.
+    # "Consulte o edital do seu departamento" diz que o dado muda por edital: não é marcador (Unimontes).
+    return isinstance(x, str) and (not x.strip() or (
+        bool(re.match(r"\s*consult(ar|e) (o|a|os|as)\b[^.;:]{0,70}\.?\s*$", x, re.I))
+        and not re.search(r"\b(seu|sua|cada)\b", x, re.I)))
 
 
 def unicos(seq):
@@ -202,8 +209,13 @@ def intervalo(d):
     return None
 
 
-def data_radar(periodos, nota_aberta, notas_por_escopo):
-    """Monta o objeto data do Radar a partir dos períodos conhecidos."""
+PREFIXOS_GERADOS = ("Datas por área: ", "Datas por edital: ", "Data provável, pelo edital",
+                    "Datas prováveis, pelo edital", "Prazo máximo: até essa data", "Só no edital ", "Só nos editais ")
+
+
+def data_radar(periodos, nota_aberta, notas_por_escopo, por_edital=False, extra=None):
+    """Monta o objeto data do Radar a partir dos períodos conhecidos. `extra` são frases geradas que
+    vão antes da nota por área (data provável, prazo máximo, etapa de um edital só)."""
     if periodos:
         ini = min(p[0] for p in periodos)
         fim = max(p[1] for p in periodos)
@@ -211,8 +223,14 @@ def data_radar(periodos, nota_aberta, notas_por_escopo):
             obj = {"tipo": "exata", "valor": ini}
         else:
             obj = {"tipo": "periodo", "valor": ini, "fim": fim}
-        if len(notas_por_escopo) > 1 or any(n.startswith("demais áreas") for n in notas_por_escopo):
-            obj["nota"] = "Datas por área: " + "; ".join(notas_por_escopo)
+        partes = list(extra or [])
+        # Nota por área só quando as áreas têm datas diferentes ou há áreas sem data (UFRN 108 em 04/11/2026:
+        # dois grupos de áreas, os dois em 21/02, só com hora diferente, não pedem nota).
+        datas = {n.rsplit(": ", 1)[-1] for n in notas_por_escopo if not n.startswith("demais ")}
+        if (len(notas_por_escopo) > 1 and len(datas) > 1) or any(n.startswith("demais ") for n in notas_por_escopo):
+            partes.append(("Datas por edital: " if por_edital else "Datas por área: ") + "; ".join(notas_por_escopo))
+        if partes:
+            obj["nota"] = ". ".join(partes)
         return obj
     return {"tipo": "nao_divulgada",
             "nota": nota_aberta or "O edital ainda não fixou a data"}
@@ -275,6 +293,64 @@ def menos_dias(data_iso, n):
     return (dt.date.fromisoformat(data_iso) - dt.timedelta(days=n)).isoformat()
 
 
+def referencia_do_concurso(ext):
+    """Data antes da qual nenhuma prova do concurso pode cair: a publicação do edital ou, sem ela, o início
+    da inscrição geral."""
+    pub = v(ext.get("data_publicacao"))
+    ini = v(((ext.get("inscricao") or {}).get("padrao") or {}).get("inscricao_inicio"))
+    datas = [d for d in (pub, ini) if isinstance(d, str) and re.match(r"\d{4}-\d{2}-\d{2}$", d)]
+    return min(datas) if datas else None
+
+
+def ano_suspeito(ext, iv):
+    """Prova datada antes da publicação do edital: o documento trocou o ano (UFVJM 101 em 04/11/2026: a 2ª
+    Retificação do item 2.2 dá "15/02/2026 a 26/02/2026" a três áreas de um edital de setembro de 2026).
+    A data não vale como data do Radar; vai para a nota, com o aviso."""
+    ref = referencia_do_concurso(ext)
+    return bool(ref and iv and iv[1] < ref)
+
+
+def suspeitos_da_etapa(ext, tipo):
+    """[(escopo, (ini, fim))] das provas da etapa com ano provavelmente trocado no documento."""
+    saida = []
+    for e in ext.get("eventos") or []:
+        if (e.get("etapa_ref") == tipo and e.get("tipo_evento") == "prova"
+                and e.get("estado", "vigente") == "vigente"):
+            iv = intervalo(e.get("data"))
+            if iv and ano_suspeito(ext, iv):
+                saida.append((e.get("escopo") or "geral", iv))
+    return saida
+
+
+RE_PROVAVEL = re.compile(r"datas? prováve|período provável|periodo provavel|provavelmente|caráter estimativo"
+                         r"|previsão de (início|realização)", re.I)
+RE_ATE = re.compile(r"(^|[(|;]\s*)até\s+(o dia\s+)?\d{1,2}/", re.I)
+
+
+def texto_do_evento(e):
+    return " ".join([e.get("descricao_literal") or "", ((e.get("fonte") or {}).get("trecho") or "")])
+
+
+def qualificador(eventos):
+    """Frase para a nota quando o documento dá a data como provável ("na data provável de 25 de novembro",
+    UFV 57 a 60) ou como prazo máximo ("Até 17/05/2027", UFRB 01). Só quando vale para todos os eventos."""
+    if not eventos:
+        return None
+    textos = [texto_do_evento(e) for e in eventos]
+    if all(RE_PROVAVEL.search(t) for t in textos):
+        return "Data provável, pelo edital" if len(eventos) == 1 else "Datas prováveis, pelo edital"
+    if all((e.get("data") or {}).get("forma") == "fixa" for e in eventos) and all(RE_ATE.search(t) for t in textos):
+        return "Prazo máximo: até essa data, pelo edital"
+    return None
+
+
+def eventos_datados_da_etapa(ext, tipo):
+    return [e for e in ext.get("eventos") or []
+            if e.get("etapa_ref") == tipo and e.get("tipo_evento") == "prova"
+            and e.get("estado", "vigente") == "vigente" and intervalo(e.get("data"))
+            and not ano_suspeito(ext, intervalo(e.get("data")))]
+
+
 def periodos_da_etapa(ext, tipo):
     """[(escopo, (ini, fim))] da etapa, das fontes mais precisas para as menos."""
     achados = []
@@ -309,7 +385,7 @@ def periodos_da_etapa(ext, tipo):
         if e.get("etapa_ref") != tipo or e.get("estado", "vigente") != "vigente":
             continue
         iv = intervalo(e.get("data"))
-        if not iv:
+        if not iv or ano_suspeito(ext, iv):
             continue
         if e.get("tipo_evento") == "prova":
             achados.append((e.get("escopo") or "geral", iv))
@@ -398,7 +474,13 @@ def detalhe_didatica(ext):
         if minimo and maximo:
             t = f"De {minimo} a {maximo} minutos"
             cons = v(tempo.get("consequencia_fora_da_tolerancia"))
-            if v(tempo.get("piso_penalidade_min")) == minimo:
+            pen = v((tempo.get("penalidade") or {}).get("valor")) if isinstance(tempo.get("penalidade"), dict) else None
+            fala_de_nota = pen is not None or (isinstance(cons, str) and re.search(r"descont|penal|perd|ponto|nota|zer", cons, re.I))
+            if isinstance(cons, str) and re.search(r"interromp", cons, re.I) and not fala_de_nota:
+                # IFMG 607, itens 19.2 e 19.3: passou do tempo, a banca pode interromper; o edital não fala em
+                # desconto, e o Radar não deve inventá-lo (auditoria de 04/11/2026).
+                t += ". Se passar do tempo, a banca pode interromper a aula"
+            elif v(tempo.get("piso_penalidade_min")) == minimo:
                 if isinstance(cons, str) and re.search(r"superior|exced|acima", cons, re.I):
                     t += ". Fora desse intervalo há desconto na nota"
                 else:
@@ -448,18 +530,30 @@ def detalhe_didatica(ext):
         vias, fmt = v(pa.get("numero_de_vias")), v(pa.get("formato_entrega"))
         if vias:
             partes.append(f"{vias} vias" + (f" ({fmt})" if fmt else ""))
+        elif isinstance(fmt, str) and fmt.strip():
+            # Sem número de vias, a forma de entrega vale sozinha (UFRN 108 e 109: "de maneira eletrônica...")
+            partes.append("entregue " + encurta(fmt.strip().rstrip("."), 160))
         mom = v(pa.get("momento_entrega"))
+        frase_mom = None
+        if isinstance(mom, str) and (len(mom) > 90 or re.match(r"\s*(O|A|Os|As)\s+\w+\s+(deve|deverá|deverão)\b", mom)):
+            # Momento escrito como frase inteira (UFRN 108 e 109, item 14.4.2: "O candidato deve comparecer...")
+            # vai como frase própria, e não colado em "entregues", que dava "entregues O candidato deve...".
+            frase_mom = mom.strip().rstrip(".")
+            mom = None
         if isinstance(mom, str) and len(mom) > 1 and mom[0].isupper() and mom[1].islower():
             mom = mom[0].lower() + mom[1:]
         if mom:
             partes.append(f"entregues {mom}")
         env = v(pa.get("envio_digital"))
-        if isinstance(env, dict) and env.get("formato"):
+        if isinstance(env, dict) and env.get("formato") and not (isinstance(fmt, str) and env["formato"] in fmt):
             partes.append(f"mais envio digital em {env['formato']}")
         secoes = [s.get("nome") for s in ((pa.get("secoes_exigidas") or {}).get("itens") or [])]
         if secoes:
             partes.append("com " + juntar(secoes))
-        det["plano_de_aula"] = ("Exigido: " + ", ".join(partes)) if partes else "Exigido"
+        t = ("Exigido: " + ", ".join(partes)) if partes else "Exigido"
+        if frase_mom:
+            t += ". " + frase_mom[0].upper() + frase_mom[1:]
+        det["plano_de_aula"] = t
 
     rec = p.get("recursos") or {}
     t = []
@@ -821,6 +915,27 @@ def compila_grupo(id_radar, exts, atual, hoje, validador=None, conservador=False
     if len(set(isencoes)) == 1:
         i0, i1 = isencoes[0]
         reserva.append(f"Pedido de isenção de {br_curta(i0)} a {br_curta(i1)}")
+    # Inscrição com prazo relativo e sem data final (UFMG 2349 e 2364, UFV 57 a 60): o Radar não calcula o
+    # último dia (regra de 12/10/2026) e diz o prazo como o edital o escreve, com a data do DOU quando conhecida.
+    prazo_rel = None
+    if not fim and len(exts) == 1:
+        for ev in base.get("eventos") or []:
+            d = ev.get("data") or {}
+            if (ev.get("tipo_evento") == "inscricao" and ev.get("estado", "vigente") == "vigente"
+                    and d.get("forma") == "relativa" and d.get("quantidade") and d.get("sentido") != "antes"):
+                anc = (d.get("evento_ancora") or "").lower()
+                onde = "no DOU" if ("diário oficial" in anc or "dou" in anc or "publica" in anc) else ""
+                pub = v(base.get("data_publicacao"))
+                prazo_rel = (f"Inscrições por {d['quantidade']} {UNIDADE.get(d.get('unidade'), d.get('unidade') or '')} "
+                             f"a contar da publicação do edital{(' ' + onde) if onde else ''}"
+                             f"{(' de ' + br(pub)) if pub else ''}; confira a data final no edital")
+                break
+    if prazo_rel:
+        reserva.append(prazo_rel)
+        if partes_taxa:
+            insc["taxa"] = ". ".join(partes_taxa + [prazo_rel])
+        insc.pop("inicio", None)   # início sem fim mostraria "15/10/2026 a" no site
+        insc["situacao"] = situacao_inscricao(None, None, hoje)
     taxa_reserva = ". ".join(reserva) if reserva else None
     if excecoes:
         # Decisão de 11/10/2026 (caminho C): as áreas com prazo próprio vão num campo que o site mostra
@@ -844,15 +959,33 @@ def compila_grupo(id_radar, exts, atual, hoje, validador=None, conservador=False
             if item.get("existe"):
                 etapas_existentes.setdefault(item["tipo"], item.get("nome_literal"))
     etapas = []
+    def txt_iv(iv):
+        return br_curta(iv[0]) if iv[0] == iv[1] else f"{br_curta(iv[0])} a {br_curta(iv[1])}"
+
     for tipo in sorted(etapas_existentes, key=lambda t: ORDEM.index(t) if t in ORDEM else 99):
-        periodos, notas, abertas = [], [], []
+        periodos, notas, abertas, extra = [], [], [], []
+        por_rotulo = {}   # o mesmo rótulo com duas datas vira um período só (IFMT 03, Química: 07 a 08/11 e 08/11)
+        eds_com_etapa, eds_com_data, evs_usados = [], [], []
+        suspeitos = {}
         for e in exts:
             rot = rotulos_de_escopo(e, em_pacote)
             achados = periodos_da_etapa(e, tipo)
+            tem = any(it.get("tipo") == tipo and it.get("existe") for _, it in listas_de_etapas(e))
+            if tem or achados:
+                eds_com_etapa.append(e)
+            if achados:
+                eds_com_data.append(e)
+                evs_usados += eventos_datados_da_etapa(e, tipo)
             for esc, iv in achados:
                 periodos.append(iv)
-                txt = br_curta(iv[0]) if iv[0] == iv[1] else f"{br_curta(iv[0])} a {br_curta(iv[1])}"
-                notas.append(f"{rotulo(esc, rot, e, em_pacote)}: {txt}")
+                r = rotulo(esc, rot, e, em_pacote)
+                if r in por_rotulo:
+                    a0, a1 = por_rotulo[r]
+                    por_rotulo[r] = (min(a0, iv[0]), max(a1, iv[1]))
+                else:
+                    por_rotulo[r] = iv
+            for esc, iv in suspeitos_da_etapa(e, tipo):
+                suspeitos.setdefault(iv, []).append(rotulo(esc, rot, e, em_pacote))
             if not achados:
                 por_area = notas_abertas_por_escopo(e, tipo, em_pacote)
                 ab = ("Por área: " + "; ".join(por_area)) if por_area else nota_aberta_da_etapa(e, tipo)
@@ -865,6 +998,23 @@ def compila_grupo(id_radar, exts, atual, hoje, validador=None, conservador=False
                 ab = nota_aberta_da_etapa(e, tipo)
                 if ab:
                     notas.append(f"demais áreas: sem data ({ab})")
+        por_data = {}
+        for r, iv in por_rotulo.items():   # rótulos com a mesma data vão juntos ("CDM-1 e CDM-2: 31/10")
+            por_data.setdefault(txt_iv(iv), []).append(r)
+        notas = [f"{juntar(rs)}: {t}" for t, rs in por_data.items()] + notas
+        for iv, quem in suspeitos.items():
+            extra.append(f"Para {juntar(unicos(quem))}, o documento traz {br(iv[0])} a {br(iv[1])}, com o ano "
+                         "provavelmente trocado; confira na página do concurso")
+        if em_pacote and eds_com_data and len(eds_com_etapa) > len(eds_com_data):
+            # Pacote em que só alguns editais datam a etapa (UERJ, plano de trabalho de 13/11 de uma seleção só).
+            notas.append("demais editais: sem data")
+        if em_pacote and 0 < len(eds_com_etapa) < len(exts) and len(eds_com_etapa) <= 3:
+            # Etapa que só existe em parte do pacote (UFV 48-49: a escrita é do 49, a prático-oral do 48).
+            extra.insert(0, "Só no" + ("s editais " if len(eds_com_etapa) > 1 else " edital ")
+                         + juntar([str(v(x.get("numero_edital")) or x["_slug"]) for x in eds_com_etapa]))
+        q = qualificador(evs_usados) if periodos else None
+        if q:
+            extra.insert(0, q)
         nome = etapas_existentes[tipo] or NOME_PADRAO.get(tipo, tipo)
         nome = nome[0].upper() + nome[1:] if nome else NOME_PADRAO.get(tipo, tipo)
         fases = fases_de_pontuacao(base)
@@ -872,13 +1022,50 @@ def compila_grupo(id_radar, exts, atual, hoje, validador=None, conservador=False
             "nome": nome,
             "tipo": TIPO_RADAR.get(tipo, "outra"),
             "carater": CARATER.get((fases.get(tipo) or {}).get("carater"), ""),
-            "data": data_radar(periodos, juntar(unicos(abertas), "/"), unicos(notas)),
+            "data": data_radar(periodos, juntar(unicos(abertas), "/"), unicos(notas), em_pacote, unicos(extra)),
             "detalhe": detalhe_didatica(base) if tipo == "didatica" else {},
         }
         etapas.append(etapa)
+    # Etapa de mesmo nome em dois tipos (memorial e projeto com o nome "Defesa de Memorial e Projeto de
+    # Atuação Profissional", UFRN 058, 108 e 109; UFSM 221; UFERSA 030): a cópia sem data sai. As duas
+    # com datas diferentes ficam (UFV 48-49, Prova de Conhecimento escrita e prático-oral).
+    dedup = []
+    for et in etapas:
+        mesma = [x for x in dedup if x["nome"].strip().lower() == et["nome"].strip().lower()]
+        if mesma and et["data"]["tipo"] == "nao_divulgada":
+            continue
+        if mesma and mesma[0]["data"]["tipo"] == "nao_divulgada":
+            dedup[dedup.index(mesma[0])] = et
+            continue
+        if mesma and mesma[0]["data"] == et["data"]:
+            continue
+        dedup.append(et)
+    etapas = dedup
+    # Pacote de editais com cronograma próprio em que só o "início dos trabalhos" foi datado (UNIFESP: Editais
+    # 429 e 399, convocação para 06/10 e 19/10 às 8h, com as provas em sequência). A etapa sem data diz
+    # quais editais já começaram, em vez de só "o edital ainda não fixou a data".
+    inicios = []
+    for e in exts:
+        for ev in e.get("eventos") or []:
+            if (ev.get("tipo_evento") == "outro" and ev.get("estado", "vigente") == "vigente"
+                    and re.search(r"in[íi]cio dos trabalhos", ev.get("descricao_literal") or "", re.I)
+                    and not re.search(r"comparecimento", ev.get("descricao_literal") or "", re.I)):
+                iv = intervalo(ev.get("data"))
+                if iv:
+                    inicios.append((str(v(e.get("numero_edital")) or e["_slug"]), iv[0]))
+                    break
+    if inicios:
+        inicios = sorted(set(inicios), key=lambda x: x[1])
+        txt = ("Cada edital tem cronograma próprio. Início dos trabalhos, com as provas em sequência: "
+               + "; ".join(f"{n} em {br(d)}" for n, d in inicios)
+               + ("; demais editais ainda sem data" if len(inicios) < len(exts) else ""))
+        for et in etapas:
+            if et["tipo"] != "resultado" and et["data"]["tipo"] == "nao_divulgada" and \
+                    et["data"].get("nota") in (None, "", "O edital ainda não fixou a data"):
+                et["data"]["nota"] = txt
 
     # Resultado final, quando o edital ou um documento posterior o datou
-    rf_periodos, rf_abertas = [], []
+    rf_periodos, rf_abertas, rf_notas, rf_evs = [], [], [], []
     for e in exts:
         vig = [ev for ev in e.get("eventos") or [] if ev.get("estado", "vigente") == "vigente"]
         homol = [ev for ev in vig if ev.get("tipo_evento") == "homologacao_resultado"]
@@ -904,10 +1091,24 @@ def compila_grupo(id_radar, exts, atual, hoje, validador=None, conservador=False
                         if k not in ultimos or intervalo(ev.get("data"))[1] > intervalo(ultimos[k].get("data"))[1]:
                             ultimos[k] = ev
                     rf_periodos += [intervalo(ev.get("data")) for ev in ultimos.values()]
+                    rf_evs += list(ultimos.values())
+                    # Resultado de parte das áreas não é o resultado do concurso (UFS 08 em 04/11/2026: só a
+                    # área 03, Contabilidade, tinha resultado final, em 16/11): a nota diz de quem é.
+                    rot = rotulos_de_escopo(e, em_pacote)
+                    cobertas = {c for ev in ultimos.values() for c in (ev.get("escopo") or [])}
+                    todas = {((vg.get("codigo") or {}).get("numero") or (vg.get("codigo") or {}).get("literal"))
+                             for vg in e.get("vagas") or []}
+                    for ev in ultimos.values():
+                        iv = intervalo(ev.get("data"))
+                        rf_notas.append(f"{rotulo(ev.get('escopo'), rot, e, em_pacote)}: "
+                                        + (br_curta(iv[0]) if iv[0] == iv[1] else f"{br_curta(iv[0])} a {br_curta(iv[1])}"))
+                    if todas - cobertas - {None}:
+                        rf_notas.append("demais áreas: sem data")
                     escolhido = True
                 else:
                     escolhido = max(fixos, key=lambda ev: intervalo(ev.get("data"))[1])
                     rf_periodos.append(intervalo(escolhido.get("data")))
+                    rf_evs.append(escolhido)
                 break
         if not escolhido:
             for grupo in (finais, homol):
@@ -918,7 +1119,8 @@ def compila_grupo(id_radar, exts, atual, hoje, validador=None, conservador=False
                     break
     if rf_periodos or rf_abertas:
         etapas.append({"nome": "Resultado final", "tipo": "resultado", "carater": "",
-                       "data": data_radar(rf_periodos, juntar(unicos(rf_abertas), "/"), []),
+                       "data": data_radar(rf_periodos, juntar(unicos(rf_abertas), "/"), unicos(rf_notas), em_pacote,
+                                          [q for q in [qualificador(rf_evs) if rf_periodos else None] if q]),
                        "detalhe": {}})
     novo["etapas"] = etapas
 
@@ -978,7 +1180,18 @@ def compila_grupo(id_radar, exts, atual, hoje, validador=None, conservador=False
         if taxa_reserva and (not t_pub.strip() or re.match(r"\s*consult(ar|e) o edital", t_pub, re.I)
                              or "inscrição taxa" in campos_lib):
             novo["inscricao"]["taxa"] = taxa_reserva
+        elif prazo_rel and t_pub and prazo_rel not in t_pub and not a_ins.get("fim"):
+            if re.search(r"(a partir|a contar) da publicação", t_pub, re.I):
+                novo["inscricao"]["taxa"] = t_pub   # o texto publicado já explica o prazo (UFMG 2229)
+            else:
+                novo["inscricao"]["taxa"] = t_pub.rstrip(". ") + ". " + prazo_rel
+        if prazo_rel and a_ins.get("fim"):
+            # O publicado tem as datas (conferidas antes): o prazo relativo não vai para o texto (UFMG 1638)
+            t = novo["inscricao"].get("taxa") or ""
+            novo["inscricao"]["taxa"] = t.replace(". " + prazo_rel, "").replace(prazo_rel, "") or t_pub
         for k in ("inicio", "fim", "taxa"):
+            if k == "inicio" and prazo_rel and not a_ins.get("fim"):
+                continue   # início sem fim não volta: o prazo relativo vai no texto
             if not novo["inscricao"].get(k) and a_ins.get(k):
                 novo["inscricao"][k] = a_ins[k]
                 recuperados.append(f"inscrição {k} mantida do dados.js anterior ({a_ins[k]})")
@@ -1047,8 +1260,19 @@ def compila_grupo(id_radar, exts, atual, hoje, validador=None, conservador=False
                                    "a extração não a encontrou")
             elif dn["tipo"] != "nao_divulgada" and da.get("tipo") in ("exata", "periodo"):
                 if (da.get("valor"), da.get("fim") or da.get("valor")) == (dn.get("valor"), dn.get("fim") or dn.get("valor")):
-                    if da.get("nota"):
-                        et["data"]["nota"] = da["nota"]   # mesma data: fica a nota escrita antes, mais rica
+                    # Mesma data: fica a nota escrita antes, mais rica. Desde 04/11/2026 a nota gerada (datas por
+                    # área ou por edital, data provável, prazo máximo) substitui a anterior, para a mudança de uma
+                    # área chegar ao site (UFBA 06, Geotecnia: memorial de 30/09 para 28/10 sem mudar o período
+                    # geral); e a nota anterior que era só a gerada antigamente sai quando a nova não tem nota.
+                    # A nota escrita à mão (que não começa por um prefixo gerado) continua valendo.
+                    na, nn = da.get("nota") or "", dn.get("nota") or ""
+                    if na.startswith(PREFIXOS_GERADOS):
+                        if nn:
+                            et["data"]["nota"] = nn
+                        else:
+                            et["data"].pop("nota", None)
+                    elif na:
+                        et["data"]["nota"] = na
                 else:
                     registra(et["nome"], f"{et['nome']}: dados.js anterior {br(da.get('valor'))}"
                                          f"{' a ' + br(da['fim']) if da.get('fim') else ''}, extração "
@@ -1090,6 +1314,61 @@ def compila_grupo(id_radar, exts, atual, hoje, validador=None, conservador=False
         "em_conferencia": any((e.get("controle") or {}).get("estado_extracao") != "conferida" for e in exts),
     }
     return novo
+
+# ───────────────────────── textos corrigidos ─────────────────────────
+
+def aplica_textos_corrigidos(novo, entradas, hoje):
+    """Aplica compilador/textos_corrigidos.json a um concurso já compilado. É o caminho auditável para
+    corrigir um texto escrito à mão que o compilador mantém do dados.js publicado (observação, nota da data,
+    detalhe da didática, texto da taxa), em vez de editar o dados.js. Cada entrada tem campo, evidência e
+    data da conferência; com "trocar", só o trecho é trocado e, se o trecho não estiver mais lá, nada muda e
+    o relatório avisa. Campos: "observacao", "inscricao.taxa", "etapa:<nome>:nota", "etapa:<nome>:data"
+    (objeto data inteiro, em "valor") e "etapa:<nome>:<chave do detalhe>". Entrada com "expira_em" vencido
+    é ignorada e avisada. Devolve (aplicadas, avisos)."""
+    aplicadas, avisos = [], []
+    for ent in entradas or []:
+        campo = ent.get("campo", "")
+        if ent.get("expira_em") and ent["expira_em"] < hoje:
+            avisos.append(f"texto corrigido de {campo} venceu em {br(ent['expira_em'])} e não foi aplicado; reveja a entrada")
+            continue
+        alvo, chave = None, None
+        if campo == "observacao":
+            alvo, chave = novo, "observacao"
+        elif campo == "inscricao.taxa":
+            alvo, chave = novo.setdefault("inscricao", {}), "taxa"
+        elif campo.startswith("etapa:"):
+            _, nome, sub = campo.split(":", 2)
+            et = next((x for x in novo.get("etapas") or [] if x.get("nome", "").strip().lower() == nome.strip().lower()), None)
+            if not et:
+                avisos.append(f"texto corrigido de {campo}: a etapa não existe mais; nada aplicado")
+                continue
+            if sub == "data":
+                if "valor" in ent:
+                    et["data"] = ent["valor"]
+                    aplicadas.append(f"texto corrigido após conferência ({ent.get('conferido_em', '?')}): {campo}")
+                continue
+            if sub == "nota":
+                alvo, chave = et.setdefault("data", {}), "nota"
+            else:
+                alvo, chave = et.setdefault("detalhe", {}), sub
+        else:
+            avisos.append(f"texto corrigido com campo desconhecido: {campo}")
+            continue
+        atual = alvo.get(chave) or ""
+        if "trocar" in ent:
+            if ent["trocar"] in atual:
+                alvo[chave] = atual.replace(ent["trocar"], ent.get("por", ""))
+            elif ent.get("por") and ent["por"] in atual:
+                continue   # já corrigido
+            else:
+                avisos.append(f"texto corrigido de {campo}: o trecho a trocar não está mais no texto; nada aplicado")
+                continue
+        elif "texto" in ent:
+            alvo[chave] = ent["texto"]
+        else:
+            continue
+        aplicadas.append(f"texto corrigido após conferência ({ent.get('conferido_em', '?')}): {campo}")
+    return aplicadas, avisos
 
 # ───────────────────────── saída ─────────────────────────
 
@@ -1255,6 +1534,9 @@ def main():
                     "com ele, contas do edital que não fecham viram aviso para o candidato")
     ap.add_argument("--liberados", help="JSON {id: {campos: [rótulos ou *], conferido_em, evidencia}} "
                     "com os campos conferidos em que a extração vale sobre o publicado")
+    ap.add_argument("--textos-corrigidos", help="JSON {id: [{campo, trocar/por ou texto ou valor, evidencia, "
+                    "conferido_em}]} com textos conferidos que substituem o escrito à mão; por padrão, "
+                    "compilador/textos_corrigidos.json")
     ap.add_argument("--conflitos-json", help="grava os conflitos desta rodada em JSON, "
                     "para a rodada seguinte separar os novos")
     ap.add_argument("--conflitos-anteriores", help="JSON gravado pela rodada anterior com --conflitos-json")
@@ -1268,6 +1550,8 @@ def main():
     liberados = json.load(open(a.liberados, encoding="utf-8")) if a.liberados and os.path.exists(a.liberados) else {}
     por_id = {c["id"]: c for c in atuais}
     grupos = carregar_extracoes(a.extracoes)
+    arq_textos = a.textos_corrigidos or os.path.join(os.path.dirname(os.path.abspath(__file__)), "textos_corrigidos.json")
+    textos_corr = json.load(open(arq_textos, encoding="utf-8")) if os.path.exists(arq_textos) else {}
 
     # Logos por sigla: o que já está publicado, completado por compilador/logos.json
     arq_logos = os.path.join(os.path.dirname(os.path.abspath(__file__)), "logos.json")
@@ -1293,6 +1577,10 @@ def main():
                 continue
             conf, recu, libs = novo.pop("_conflitos"), novo.pop("_recuperados"), novo.pop("_liberados")
             alts = novo.pop("_alertas")
+            if cid in textos_corr:
+                ap_t, av_t = aplica_textos_corrigidos(novo, textos_corr[cid], a.hoje)
+                libs += ap_t
+                alts += av_t
             ganhos = []
             if atual:
                 usados = set()
