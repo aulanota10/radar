@@ -156,5 +156,55 @@ class PlanoDeAula(unittest.TestCase):
         self.assertIn(". O candidato deve comparecer", det["plano_de_aula"])
 
 
+class Cosmeticos0511(unittest.TestCase):
+    """Ajustes de texto de 05/11/2026 (rótulos aninhados, plano de aula, critérios)."""
+
+    def plano(self, **campos):
+        ext = extracao([ev("ev-1", "prova", "didatica", fixa("2026-11-20"))])
+        pa = {"exigido": {"valor": True}}
+        pa.update({k: {"valor": x} for k, x in campos.items()})
+        ext["didatica"] = {"padrao": {"plano_de_aula": pa}}
+        return cr.detalhe_didatica(ext)["plano_de_aula"]
+
+    def test_escopos_sobrepostos_nao_repetem_rotulo(self):
+        vagas = [{"codigo": {"numero": c}, "area_conhecimento": a, "vagas_imediatas": 1}
+                 for c, a in (("02", "Química"), ("03", "Física"), ("04", "Biologia"), ("10", "Letras"))]
+        ext = extracao([ev("ev-1", "prova", "didatica", fixa("2026-10-19"), ["03", "04"]),
+                        ev("ev-2", "prova", "didatica", fixa("2026-10-19"), ["03"]),
+                        ev("ev-3", "prova", "didatica", fixa("2026-10-19"), ["02"]),
+                        ev("ev-4", "prova", "didatica", fixa("2026-11-04"), ["10"])], vagas=vagas)
+        c = cr.compila_grupo("teste-01-2026", [ext], None, "2026-11-04")
+        nota = etapa(c, "Prova Didática")["data"]["nota"]
+        self.assertEqual(nota, "Datas por área: 02 (Química), 03 (Física) e 04 (Biologia): 19/10; 10 (Letras): 04/11")
+
+    def test_evento_geral_vira_demais_areas_no_fim(self):
+        ext = extracao([ev("ev-1", "prova", "didatica", janela("2026-09-14", "2026-10-23")),
+                        ev("ev-2", "prova", "didatica", fixa("2026-09-25"), ["02"])])
+        c = cr.compila_grupo("teste-01-2026", [ext], None, "2026-11-04")
+        nota = etapa(c, "Prova Didática")["data"]["nota"]
+        self.assertNotIn("geral:", nota)
+        self.assertTrue(nota.endswith("demais áreas: 14/09 a 23/10"), nota)
+
+    def test_momento_com_maiuscula_e_minusculo(self):
+        self.assertEqual(self.plano(numero_de_vias=3, formato_entrega="3 (três) vias do Plano de Aula assinadas",
+                                    momento_entrega="Antes do início da prova"),
+                         "Exigido: 3 (três) vias do Plano de Aula assinadas, entregues antes do início da prova")
+
+    def test_forma_de_entrega_nao_repete_entregue(self):
+        t = self.plano(formato_entrega="entregue a cada um dos membros da Banca", momento_entrega="ao iniciar a exposição")
+        self.assertEqual(t, "Exigido: entregue a cada um dos membros da Banca, ao iniciar a exposição")
+        t = self.plano(formato_entrega="arquivo único, no formato PDF")
+        self.assertEqual(t, "Exigido: arquivo único, no formato PDF")
+
+    def test_momento_em_gerundio_vira_frase(self):
+        t = self.plano(momento_entrega="competindo a cada candidato apresentá-lo durante a sua exposição")
+        self.assertEqual(t, "Exigido. Entrega: competindo a cada candidato apresentá-lo durante a sua exposição")
+
+    def test_plano_gerado_antes_e_substituido(self):
+        self.assertTrue(cr.detalhe_gerado("plano_de_aula", "Exigido: entregues Antes do início da prova"))
+        self.assertFalse(cr.detalhe_gerado("plano_de_aula", "Exigido. Três vias do plano de aula"))
+        self.assertTrue(cr.detalhe_gerado("criterios", "clareza;; domínio"))
+
+
 if __name__ == "__main__":
     unittest.main()

@@ -151,6 +151,36 @@ def juntar(itens, conj="e"):
     return ", ".join(itens[:-1]) + f" {conj} " + itens[-1]
 
 
+INICIO_ADJ = re.compile(r"(impress[oa]s?|digital|eletronicamente|exclusivamente|somente|apenas|pessoalmente|"
+                        r"de|em|por|via|no|na|nos|nas|a|à|ao|aos|atrav[ée]s)\b", re.I)
+
+
+def forma_de_entrega(fmt, n):
+    """Texto da forma de entrega do plano de aula, pronto para ir depois de "Exigido: ". Desde 05/11/2026:
+    "entregue " só antecede adjetivo ou locução ("entregue impresso", "entregue de maneira eletrônica");
+    substantivo ou frase vai como está ("arquivo único, no formato PDF", "01 (uma) cópia a cada membro",
+    "deverá ser incluído no site"), sem dar "entregue entregue" nem "entregue cópia impressa"."""
+    f = encurta(fmt.strip().rstrip("."), n)
+    f = re.sub(r"^entregues?\s+", "", f, flags=re.I)
+    if f[:1].isupper() and f[1:2].islower():
+        f = f[0].lower() + f[1:]
+    return ("entregue " + f) if INICIO_ADJ.match(f) else f
+
+
+def detalhe_gerado(chave, x):
+    """True quando o detalhe publicado foi montado pelo compilador, e não escrito à mão: plano de aula
+    "Exigido: ..." (ou só "Exigido"). Texto à mão usa outras formas ("Obrigatório", "Três vias...",
+    "Exigido. Três vias...")."""
+    if not isinstance(x, str):
+        return False
+    if chave == "plano_de_aula":
+        return x == "Exigido" or x.startswith("Exigido: ")
+    if chave == "criterios":
+        # Itens que já terminavam em ";" davam ";;" na junção (corrigido em 05/11/2026).
+        return ";;" in x
+    return False
+
+
 def marcador_vazio(x):
     """Texto que não informa nada: vazio ou só manda consultar o edital."""
     if x is None or x == "" or x == [] or x == {}:
@@ -248,6 +278,12 @@ def rotulos_de_escopo(ext, em_pacote):
         area = encurta((vg.get("area_conhecimento") or "").strip().rstrip("."), 45)
         rot[cod] = f"{num_ed} ({area})" if em_pacote else (f"{literal} ({area})" if area else literal)
     return rot
+
+
+def chave_codigo(k):
+    """Ordena (slug, código, rótulo) pelo código, com os números em ordem numérica (02 antes de 10)."""
+    cod = k[1] if k[1] is not None else ""
+    return (k[0], [int(x) if x.isdigit() else x for x in re.split(r"(\d+)", str(cod))], k[2])
 
 
 def rotulo(escopo, rot, ext, em_pacote):
@@ -516,7 +552,7 @@ def detalhe_didatica(ext):
         itens = fichas[0].get("itens") or []
         if itens:
             def curto(t):
-                return encurta((t or "").strip().rstrip("."), 70)
+                return encurta((t or "").strip().rstrip(".;, "), 70)
             soma = fichas[0].get("soma_declarada")
             cab = f"{num(soma)} pontos: " if soma else ""
             def ponto(i):
@@ -529,21 +565,33 @@ def detalhe_didatica(ext):
         partes = []
         vias, fmt = v(pa.get("numero_de_vias")), v(pa.get("formato_entrega"))
         if vias:
-            partes.append(f"{vias} vias" + (f" ({fmt})" if fmt else ""))
+            # Formato que já diz as vias ("3 (três) vias do Plano de Aula devidamente assinadas") vai sozinho,
+            # sem "3 vias (3 (três) vias...)"; o que não as cita vai entre parênteses, como antes.
+            if isinstance(fmt, str) and re.search(r"\b(vias?|c[óo]pias?)\b", fmt, re.I):
+                partes.append(forma_de_entrega(fmt, 220))
+            else:
+                partes.append(f"{vias} vias" + (f" ({fmt})" if fmt else ""))
         elif isinstance(fmt, str) and fmt.strip():
             # Sem número de vias, a forma de entrega vale sozinha (UFRN 108 e 109: "de maneira eletrônica...")
-            partes.append("entregue " + encurta(fmt.strip().rstrip("."), 160))
+            partes.append(forma_de_entrega(fmt, 160))
         mom = v(pa.get("momento_entrega"))
         frase_mom = None
-        if isinstance(mom, str) and (len(mom) > 90 or re.match(r"\s*(O|A|Os|As)\s+\w+\s+(deve|deverá|deverão)\b", mom)):
+        if isinstance(mom, str) and (re.match(r"\s*(O|A|Os|As)\s+\w+\s+(deve|deverá|deverão)\b", mom)):
             # Momento escrito como frase inteira (UFRN 108 e 109, item 14.4.2: "O candidato deve comparecer...")
             # vai como frase própria, e não colado em "entregues", que dava "entregues O candidato deve...".
             frase_mom = mom.strip().rstrip(".")
             mom = None
         if isinstance(mom, str) and len(mom) > 1 and mom[0].isupper() and mom[1].islower():
             mom = mom[0].lower() + mom[1:]
+        if isinstance(mom, str) and re.match(r"\s*\w+ndo\b", mom):
+            # Momento que começa por gerúndio ("competindo a cada candidato apresentá-lo durante a sua
+            # exposição") não cabe depois de "entregues": vai como "entrega: ...".
+            frase_mom = "Entrega: " + mom.strip().rstrip(".")
+            mom = None
         if mom:
-            partes.append(f"entregues {mom}")
+            # Se a forma já disse "entregue ...", o momento vem logo depois, sem repetir o verbo.
+            ja = any(x.startswith("entregue ") for x in partes)
+            partes.append(mom if ja else f"entregues {mom}")
         env = v(pa.get("envio_digital"))
         if isinstance(env, dict) and env.get("formato") and not (isinstance(fmt, str) and env["formato"] in fmt):
             partes.append(f"mais envio digital em {env['formato']}")
@@ -978,12 +1026,18 @@ def compila_grupo(id_radar, exts, atual, hoje, validador=None, conservador=False
                 evs_usados += eventos_datados_da_etapa(e, tipo)
             for esc, iv in achados:
                 periodos.append(iv)
-                r = rotulo(esc, rot, e, em_pacote)
-                if r in por_rotulo:
-                    a0, a1 = por_rotulo[r]
-                    por_rotulo[r] = (min(a0, iv[0]), max(a1, iv[1]))
-                else:
-                    por_rotulo[r] = iv
+                # Desde 05/11/2026 a chave é cada código de área, e não o rótulo do escopo inteiro: escopos que
+                # se sobrepõem ("03 e 04" num evento, "03" noutro) davam rótulos aninhados e repetidos na nota
+                # (UFBA 06: "03 e 04, 03, 02 e 26: 19/10"). Cada área entra uma vez, com a união dos períodos.
+                chaves = ([(c, rot.get(c, c)) for c in esc] if isinstance(esc, list) and esc
+                          else [(None, rotulo(esc, rot, e, em_pacote))])
+                for cod, r in chaves:
+                    k = (e["_slug"], cod, r)
+                    if k in por_rotulo:
+                        a0, a1 = por_rotulo[k]
+                        por_rotulo[k] = (min(a0, iv[0]), max(a1, iv[1]))
+                    else:
+                        por_rotulo[k] = iv
             for esc, iv in suspeitos_da_etapa(e, tipo):
                 suspeitos.setdefault(iv, []).append(rotulo(esc, rot, e, em_pacote))
             if not achados:
@@ -999,9 +1053,23 @@ def compila_grupo(id_radar, exts, atual, hoje, validador=None, conservador=False
                 if ab:
                     notas.append(f"demais áreas: sem data ({ab})")
         por_data = {}
-        for r, iv in por_rotulo.items():   # rótulos com a mesma data vão juntos ("CDM-1 e CDM-2: 31/10")
-            por_data.setdefault(txt_iv(iv), []).append(r)
-        notas = [f"{juntar(rs)}: {t}" for t, rs in por_data.items()] + notas
+        for k, iv in por_rotulo.items():   # rótulos com a mesma data vão juntos ("CDM-1 e CDM-2: 31/10")
+            por_data.setdefault(iv, []).append(k)
+        # O evento geral (sem escopo) vale para as áreas sem data própria: com outras datas na nota, ele vira
+        # "demais áreas", no fim, e as áreas com a mesma data dele não se repetem (UFRN 058 em 05/11/2026:
+        # "geral: 14/09 a 23/10; 704501 (...): 25/09" passa a "704501 (...): 25/09; demais áreas: 14/09 a 23/10").
+        grupos = sorted(por_data.items())
+        if len(grupos) > 1 and not em_pacote:
+            linhas, fim = [], []
+            for iv, ks in grupos:
+                if any(k[1] is None and k[2] == "geral" for k in ks):
+                    fim.append(f"demais áreas: {txt_iv(iv)}")
+                else:
+                    linhas.append(f"{juntar(unicos([k[2] for k in sorted(ks, key=chave_codigo)]))}: {txt_iv(iv)}")
+            notas = linhas + fim + notas
+        else:
+            notas = [f"{juntar(unicos([k[2] for k in sorted(ks, key=chave_codigo)]))}: {txt_iv(iv)}"
+                     for iv, ks in grupos] + notas
         for iv, quem in suspeitos.items():
             extra.append(f"Para {juntar(unicos(quem))}, o documento traz {br(iv[0])} a {br(iv[1])}, com o ano "
                          "provavelmente trocado; confira na página do concurso")
@@ -1242,6 +1310,11 @@ def compila_grupo(id_radar, exts, atual, hoje, validador=None, conservador=False
                             liberados_aqui.append(f"{et['nome']}, {k}: publicada a extração (liberado após conferência)")
                         continue
                     if marcador_vazio(x) and not marcador_vazio(gerado):
+                        continue
+                    if detalhe_gerado(k, x) and not marcador_vazio(gerado):
+                        # Texto que o próprio compilador escreveu numa rodada anterior não é texto à mão: a
+                        # montagem nova (corrigida) o substitui (IFSC 01 em 05/11/2026: "entregues Antes do
+                        # início da prova", feito antes da regra da minúscula).
                         continue
                     et["detalhe"][k] = x
             if not et["carater"] and ant.get("carater"):
