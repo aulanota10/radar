@@ -640,6 +640,16 @@ def resolver_relativas(eventos, nomes_area, hoje):
     return derivados, cobre
 
 
+def fim_no_dia(data, hoje):
+    """Hora em que uma janela de hoje termina ("23:59" se só termina depois), ou "" quando não se sabe o fim."""
+    f, i, j, h = intervalo(data)
+    if f == "janela":
+        if j and j > hoje:
+            return "23:59"
+        return (data.get("fim") or {}).get("hora") or ""
+    return ""
+
+
 def item_agendado(e, marco, ref, hoje, fonte, periodo=False):
     """Item 'Datas que se aproximam' de um evento, no marco ('ini' ou 'fim') que vence em ref."""
     f, i, j, h = intervalo(e["data"])
@@ -680,6 +690,10 @@ def item_agendado(e, marco, ref, hoje, fonte, periodo=False):
     # hora de ordenação: a que aparece no texto (UFBA 06, área 17: a consulta das 09:30 saía antes da
     # sessão das 09:00 porque a janela do "outro" ficava sem hora)
     item["hora"] = (h or "") if f == "fixa" else (hj or "") if (marco == "fim" and i != j) else (hi or "")
+    # até que hora o evento ainda está de pé hoje (conferência de 04/11/2026, UFBA 06 e UFS 008): a janela que começou
+    # de manhã e só termina amanhã, ou à tarde, ainda está em curso quando a rodada sai
+    if ref == hoje:
+        item["fim_hoje"] = fim_no_dia(e["data"], hoje)
     item["ev"] = id(e)
     if so_cota(e):
         item["so_cota"] = True
@@ -843,8 +857,6 @@ def completar(avisos, slug, c, hoje, destinos, ordem, edital, nomes_area, cancel
                     item["so_cota"] = True
             if item is None and e["tipo_evento"] in PRAZOS and hoje <= (j or i) <= amanha and i <= amanha:
                 item = item_agendado(e, "fim", j or i, hoje, fonte)
-            if item is not None and item.get("data") == hoje and item.get("hora") and item["hora"][:5] < "13:00":
-                continue  # a rodada sai às 13h12: o que era hoje de manhã já passou (UFBA 06, área 12, 28/10/2026)
             if item is not None:
                 item["ordem"] = ordem.get(id(e), 0)
                 item["completa"] = True
@@ -892,7 +904,7 @@ def completar(avisos, slug, c, hoje, destinos, ordem, edital, nomes_area, cancel
                 fonte["documento"] = fonte.get("documento") or edital
                 rot = re.sub(r"[\s\-–—:;,]+$", "", sem_tempo_repetido(rotulo(e), texto_ev(e, hoje)))
                 item = {"tipo": "agendado", "data": x["data"], "hora": "99:98" if apos else "", "antes": not apos,
-                        "ev": id(e), "ordem": ordem.get(id(e), 0), "completa": True, "atrelado": True,
+                        "ev": id(e), "ordem": ordem.get(id(e), 0), "completa": True, "atrelado": True, "ref_ev": id(p),
                         "texto": f"{texto_ev(e, hoje)}: {rot} (a referência é {corta(rotulo(p), 70)}, em {ref})",
                         "fonte": fonte}
                 if x.get("so_cota") or so_cota(e):
@@ -958,7 +970,10 @@ def completar(avisos, slug, c, hoje, destinos, ordem, edital, nomes_area, cancel
         for d in sorted(alvos):
             for x in avisos.get((slug, d), []):
                 e = por_id.get(x.get("ev"))
-                if x.get("completa") and e is not None and None in dest[id(e)]:
+                # Conferência de 04/11/2026, UFBA 06: o atrelado geral ("2 horas antes da apresentação") cita a prova de
+                # uma área; promovido, ia às outras áreas com a referência da prova que não é delas
+                ref_area = x.get("ref_ev") in dest and None not in dest[x["ref_ev"]]
+                if x.get("completa") and e is not None and None in dest[id(e)] and not ref_area:
                     if x["ev"] not in promovidos or (promovidos[x["ev"]].get("so_cota") and not x.get("so_cota")):
                         promovidos[x["ev"]] = x
         ja = {x.get("ev") for x in gerais}
@@ -1665,8 +1680,6 @@ def executar(vigia, hoje, anterior):
                     # sábado não tem rodada e a de domingo não avisa o que já passou. O de compromisso (critico) sai na sexta,
                     # como véspera; o de resultado continua só com o aviso de dois dias (decisão de 22/10/2026).
                     vespera = n == 0 and ref.weekday() in SEM_RODADA and critico(e)
-                    if n == 0 and h and h[:5] < "13:00" and not vespera:
-                        continue
                     gatilho = ref - dt.timedelta(days=n + (1 if vespera else 0))
                     if gatilho in cobertos and ref >= hoje and (n > 0 or ref == hoje or vespera) and (marco, ref) not in feitos:
                         feitos.add((marco, ref))
@@ -1681,6 +1694,7 @@ def executar(vigia, hoje, anterior):
                                 _, ci2, _, ch2 = intervalo(cpn["data"])
                                 quando = f" ({falta(ci2, hoje)})" if ci2 else f" (antes de: {corta(rotulo(e), 70)})"
                                 avisos[(slug, d)].append({"tipo": "agendado", "data": ci2 or ref, "hora": ch2 or "", "antes": not ci2,
+                                    **({"fim_hoje": fim_no_dia(cpn["data"], hoje)} if ci2 == hoje else {}),
                                     "ev": id(cpn), "ordem": ordem.get(id(cpn), 0),
                                     "texto": f"{texto_ev(cpn, hoje)}: {sem_tempo_repetido(rotulo(cpn), texto_ev(cpn, hoje))}{quando}",
                                     "fonte": dict(cpn.get("fonte") or {}, documento=(cpn.get("fonte") or {}).get("documento") or edital)})
@@ -1730,6 +1744,14 @@ def executar(vigia, hoje, anterior):
                 quais = [e for e in c["eventos"] if e["estado"] == "vigente" and (e.get("fonte") or {}).get("documento") == cam
                          and re.search(r"resultado|homologa|sorteio|procedimento_cotas", e["tipo_evento"])]
                 qual = quais[0] if quais else None
+                if qual is None and t.get("tipo") == "resultado_etapa":
+                    # UNESPAR 023, conferência de 04/11/2026: o resultado preliminar da prova escrita chegou na data
+                    # prevista do evento condicionado, sem evento novo, e a mensagem dizia "o resultado de uma etapa" sem
+                    # dizer qual nem que o prazo de recurso já corre
+                    frase, recursos_doc = resultado_pelo_titulo(c["eventos"], titulo, t, cam, frase, edital)
+                    for d in destinos(esc):
+                        for r in recursos_doc:
+                            avisos[(slug, d)].append(r)
                 # UNILA 204, conferência de 27/10/2026: a relação de classificados da área 03 é o resultado provisório
                 # (nome do arquivo e evento preliminar do cronograma no mesmo dia), e saía como "o resultado final"
                 if t.get("tipo") == "resultado_final" and (
@@ -1837,6 +1859,83 @@ def vigilancia(vigia, concursos, hoje, rel):
 
 # ---------------------------------------------------------------- saída
 
+# Conferências de 03/11 e 04/11/2026 (UFRGS 09, UFMG 1638, UFBA 06, UFS 008, UERJ 2026/236): a rodada sai às 13h12, e o
+# corte "o que é de hoje antes das 13:00 já passou" era aplicado só em alguns caminhos e pela hora de início. A janela
+# que começou de manhã e termina à tarde ou amanhã (a prova didática da UFBA 06, de 04/11 11:00 a 05/11) caía, e o
+# compromisso das 12:45 com presença obrigatória sumia enquanto o das 13:00, que dependia dele, ficava. Agora a regra é
+# uma só, aplicada à mensagem pronta: um item de hoje passou quando termina (ou, sem fim, começa) antes das 13:00. Se a
+# mensagem não tem nada mais de hoje ainda por vir, os itens que passaram saem; se tem, eles ficam, na ordem do dia, com
+# "já passou" no lugar de "é hoje", para que a sequência do dia fique inteira e separada do que ainda vem.
+CORTE_HOJE, HORA_RODADA = "13:00", "13:12"
+JA_PASSOU = "(já passou: foi hoje, antes do envio desta mensagem)"
+
+
+def passou_hoje(x, hoje):
+    """Item de hoje que já terminou quando a rodada sai: a janela que termina até 13:12, ou, sem fim conhecido, o que
+    começa antes das 13:00 (o que começa às 13:00, como a prova didática da UFMG 1638, pode estar em curso)."""
+    if x.get("tipo") != "agendado" or x.get("antes") or x.get("data") != hoje:
+        return False
+    if x.get("fim_hoje"):
+        return x["fim_hoje"][:5] <= HORA_RODADA
+    h = x.get("hora")
+    return bool(h) and h[:5] < CORTE_HOJE
+
+
+def podar_hoje(itens, hoje):
+    """Aplica a regra do corte de hoje (ver CORTE_HOJE) a uma mensagem."""
+    passados = [x for x in itens if passou_hoje(x, hoje)]
+    if not passados:
+        return itens
+    ainda_hoje = any(x.get("tipo") == "agendado" and not x.get("antes") and x.get("data") == hoje and not passou_hoje(x, hoje)
+                     for x in itens)
+    out = []
+    for x in itens:
+        if x in passados:
+            if not ainda_hoje:
+                continue
+            if JA_PASSOU in x["texto"]:
+                out.append(x)
+                continue
+            x = dict(x)
+            t = x["texto"]
+            k = t.rfind("(é hoje)")
+            x["texto"] = t[:k] + JA_PASSOU + t[k + len("(é hoje)"):] if k >= 0 else f"{t} {JA_PASSOU}"
+        out.append(x)
+    return out
+
+
+def resultado_pelo_titulo(eventos, titulo, t, cam, frase, edital=None):
+    """Etapa e fase do resultado pelo título do documento, quando só uma etapa com resultado previsto casa com ele, e os
+    recursos que o edital conta a partir da publicação desse resultado (UNESPAR 023, conferência de 04/11/2026).
+    Devolve (frase, itens de documento com o prazo de recurso)."""
+    nt = norma_titulo(titulo).lower()
+    fase = "preliminar" if re.search(r"prelimin|provisori", nt) else "final" if re.search(r"\bfinal|definitiv", nt) else None
+    vig = [e for e in eventos if e.get("estado") == "vigente" and e["tipo_evento"] == "resultado" and e.get("etapa_ref") in NOME_ETAPA]
+    etapas = {e["etapa_ref"] for e in vig if norma_titulo(NOME_ETAPA[e["etapa_ref"]]).lower() in nt}
+    if len(etapas) != 1:
+        return frase, []
+    etapa = etapas.pop()
+    nova = f"o resultado {fase + ' ' if fase else ''}da {NOME_ETAPA[etapa]}" if NOME_ETAPA[etapa].startswith(("prova", "defesa", "entrevista")) \
+        else f"o resultado {fase + ' ' if fase else ''}do {NOME_ETAPA[etapa]}"
+    pub = D(val(t.get("data_publicacao")))
+    itens = []
+    for r in eventos:
+        d = r.get("data") or {}
+        if r.get("estado") != "vigente" or r["tipo_evento"] != "recurso" or d.get("forma") != "relativa" or d.get("sentido") != "apos":
+            continue
+        anc = ancora_de(d.get("evento_ancora"))
+        if not anc or anc[1] != "resultado" or anc[2] != etapa or (anc[3] and fase and anc[3] != fase):
+            continue
+        q, un = d.get("quantidade"), UNIDADE.get(d.get("unidade"), d.get("unidade"))
+        if not isinstance(q, (int, float)):
+            continue
+        quando = f", em {fmt(pub)}" if pub else ""
+        itens.append({"tipo": "documento", "doc": cam, "fonte": dict(r.get("fonte") or {}, documento=(r.get("fonte") or {}).get("documento") or edital),
+                      "texto": f"prazo de recurso: {q:g} {un} a contar da publicação deste resultado{quando}"
+                               f", pelo item {(r.get('fonte') or {}).get('item') or '?'} do edital; confira a data final no documento"})
+    return nova, itens
+
+
 def montar_fila(concursos, avisos, hoje, base):
     linhas = [f"# Fila de alertas · {fmt(hoje)} · ENSAIO, não enviar", ""]
     if base:
@@ -1860,7 +1959,9 @@ def montar_fila(concursos, avisos, hoje, base):
                 "todas as áreas" if len(alvos) == 1 else "demais áreas (só os avisos gerais)")
             # Aviso só de cota (decisão de 22/10): quem marcou cota recebe a mensagem completa no lugar da
             # outra, e quem não marcou recebe a mesma sem esses itens, se sobrar algum.
-            geral, com_cota = itens_do_publico(itens, False), itens_do_publico(itens, True)
+            geral, com_cota = podar_hoje(itens_do_publico(itens, False), hoje), podar_hoje(itens_do_publico(itens, True), hoje)
+            if not com_cota:
+                continue
             if len(geral) == len(com_cota):
                 variantes = [("", False, com_cota)]
             else:
@@ -1881,7 +1982,7 @@ def montar_fila(concursos, avisos, hoje, base):
 def mensagem(c, area, itens, hoje, cota=False):
     """Mensagem de datas de um destinatário. cota=True é quem marcou cota no cadastro e recebe também os avisos
     "só cota"; os demais recebem a mesma mensagem sem eles (quem chama confere antes se sobrou algum item)."""
-    itens = itens_do_publico(itens, cota)
+    itens = podar_hoje(itens_do_publico(itens, cota), hoje)
     nome = nome_concurso(c)
     cab = f"Radar Aula Nota 10 · {nome}" + (f" · {c['_areas'].get(area, 'área ' + area)}" if area else "")
     out = [cab, ""]
@@ -1897,6 +1998,12 @@ def mensagem(c, area, itens, hoje, cota=False):
             docs.setdefault(sha.get(x["doc"]) or x["doc"], []).append(x)
     for _, xs in docs.items():
         cam = xs[0]["doc"]
+        # UNESPAR 023, conferência de 04/11/2026: com o mesmo arquivo em dois links, um título dizia a etapa e o outro não;
+        # o aviso genérico sai quando o específico está no bloco, e o "saiu" vem antes do prazo que corre dele
+        generico = "saiu " + DOC_AVISO["resultado_etapa"]
+        if any(x["texto"].startswith("saiu o resultado ") and x["texto"] != generico for x in xs):
+            xs = [x for x in xs if x["texto"] != generico]
+        xs = sorted(xs, key=lambda x: 1 if x["texto"].startswith("prazo de recurso:") else 0)
         out.append(f"Novo documento publicado: {c['_titulos'].get(cam) or limpa_titulo(os.path.basename(cam))}")
         for x in xs:
             if x["texto"] in vistos:
@@ -1931,10 +2038,15 @@ def mensagem(c, area, itens, hoje, cota=False):
             out.append(f"Atenção ao horário: a instituição fica em {FUSO_UF[uf]}, onde o relógio marca {FUSO_DIF[uf]} que o de Brasília. "
                        "Confira no edital se os horários acima são os locais ou os de Brasília.")
         out.append("")
-    fontes = []
+    fontes, docs_fonte = [], set()
     for x in itens:
         f = x.get("fonte") or {}
         if f.get("documento"):
+            # UNESPAR 023, conferência de 04/11/2026: o mesmo PDF em dois links (mesmo sha256) virava duas fontes
+            chave = (sha.get(f["documento"]) or f["documento"], str(f.get("item")))
+            if chave in docs_fonte:
+                continue
+            docs_fonte.add(chave)
             s = c.get("_titulos", {}).get(f["documento"]) or limpa_titulo(os.path.basename(f["documento"]))
             nova = c.get("_superado_por", {}).get(f["documento"])
             if nova:  # IFMT 03, conferência de 01/11/2026: cronograma de 09/10 citado depois do "após recursos" de 14/10
@@ -1953,7 +2065,7 @@ def mensagem(c, area, itens, hoje, cota=False):
 def mensagem_do_perfil(c, area, itens, hoje, perfil):
     """Mensagem de datas para um aluno do grupo, ou None se, pelo campo "cota" do cadastro dele, não sobra nada a avisar."""
     cota = publico_do_perfil(perfil)
-    if not itens_do_publico(itens, cota):
+    if not podar_hoje(itens_do_publico(itens, cota), hoje):
         return None
     return mensagem(c, area, itens, hoje, cota=cota)
 

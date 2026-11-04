@@ -1402,3 +1402,68 @@ class Conferencia0211(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+def jn(di, hi, df, hf):
+    return {"forma": "janela", "inicio": {"data": di, "hora": hi}, "fim": {"data": df, "hora": hf}}
+
+
+MEMORIAL_0611 = {"tipo_evento": "prova", "etapa_ref": "memorial", "descricao_literal": "Defesa de Memorial", "data": fx("2026-11-06", "08:00")}
+
+
+class Conferencia0411(unittest.TestCase):
+    """Conferência da fila de 04/11/2026: o corte de hoje (a rodada sai às 13h12) pela hora de início derrubava a janela
+    em curso (UFBA 06, UFS 008) e o compromisso das 12:45 que vinha antes da prova das 13:00 (UFMG 1638); o resultado
+    novo sem evento próprio não dizia a etapa nem o prazo de recurso, e o mesmo PDF em dois links dava duas fontes (UNESPAR 023)."""
+    QUA, TER = dt.date(2026, 11, 4), dt.date(2026, 11, 3)
+
+    def test_janela_em_curso_fica(self):  # UFBA 06, área 10, ev-0202
+        evs = [{"tipo_evento": "prova", "etapa_ref": "didatica", "descricao_literal": "Prova didática",
+                "data": jn("2026-11-04", "11:00", "2026-11-05", "18:00")}, MEMORIAL_0611]
+        ls = linhas(rodar_msgs(evs, self.QUA, self.TER)[None])
+        self.assertTrue(any("Prova didática" in l and "(é hoje)" in l for l in ls), ls)
+
+    def test_compromisso_anterior_ao_corte_fica_marcado(self):  # UFMG 1638, ev-0034 e ev-0035
+        evs = [{"tipo_evento": "sorteio_ordem", "etapa_ref": "didatica", "descricao_literal": "Sorteio da Ordem da Prova Didática; obrigatória a presença",
+                "data": fx("2026-11-04", "12:45")},
+               {"tipo_evento": "prova", "etapa_ref": "didatica", "descricao_literal": "Realização da Prova Didática", "data": fx("2026-11-04", "13:00")},
+               MEMORIAL_0611]
+        ls = linhas(rodar_msgs(evs, self.QUA, self.TER)[None])
+        sorteio = next(l for l in ls if "Sorteio da Ordem" in l)
+        prova = next(l for l in ls if "Realização" in l)
+        self.assertIn(A.JA_PASSOU, sorteio)
+        self.assertIn("(é hoje)", prova)
+        self.assertLess(ls.index(sorteio), ls.index(prova))
+
+    def test_so_o_que_passou_hoje_sai(self):
+        evs = [{"tipo_evento": "prova", "etapa_ref": "escrita", "descricao_literal": "Prova escrita", "data": jn("2026-11-04", "09:00", "2026-11-04", "13:00")},
+               {"tipo_evento": "prova", "etapa_ref": "didatica", "descricao_literal": "Prova didática", "data": fx("2026-11-05", "09:00")}, MEMORIAL_0611]
+        ls = linhas(rodar_msgs(evs, self.QUA, self.TER)[None])
+        self.assertFalse(any("Prova escrita" in l for l in ls), ls)
+        self.assertTrue(any("Prova didática" in l for l in ls), ls)
+
+    def test_poda_marca_e_e_idempotente(self):
+        its = [{"tipo": "agendado", "data": self.QUA, "hora": "08:00", "texto": "a (é hoje)"},
+               {"tipo": "agendado", "data": self.QUA, "hora": "", "fim_hoje": "23:59", "texto": "b (é hoje)"}]
+        um = A.podar_hoje(its, self.QUA)
+        self.assertEqual(um[0]["texto"], "a " + A.JA_PASSOU)
+        self.assertEqual(A.podar_hoje(um, self.QUA)[0]["texto"], "a " + A.JA_PASSOU)
+        self.assertEqual(um[1]["texto"], "b (é hoje)")
+        self.assertEqual(A.podar_hoje(its[:1], self.QUA), [])
+
+    def test_resultado_pelo_titulo_e_prazo_de_recurso(self):  # UNESPAR 023, Edital 052/2026
+        a, b = "documentos/t/EDITAL 052 2026 preliminar Prova Escrita.pdf", "documentos/t/Edital n. 052-2026-CPPS.pdf"
+        evs = [{"tipo_evento": "resultado", "etapa_ref": "escrita", "fase": "preliminar", "descricao_literal": "Resultado Preliminar da Prova Escrita",
+                "data": {"forma": "condicionada", "condicao_literal": "a partir do dia 03/11/2026"}},
+               {"tipo_evento": "recurso", "etapa_ref": "escrita", "descricao_literal": "recurso contra o resultado da Prova Escrita", "fonte": {"item": "4.21"},
+                "data": {"forma": "relativa", "quantidade": 2, "unidade": "dias_uteis", "sentido": "apos",
+                         "evento_ancora": "publicação do edital de resultado da Prova Escrita (resultado, escrita, preliminar)"}}]
+        tri = [{"caminho": x, "sha256": "s", "tipo": "resultado_etapa", "pertence": {"valor": "sim"},
+                "data_publicacao": {"valor": "2026-11-03"}, "escopo": {"valor": "geral"}} for x in (a, b)]
+        m = rodar_msgs(evs, self.QUA, self.TER, triagem=tri)[None]
+        ls = linhas(m)
+        self.assertEqual(ls[0], "• Saiu o resultado preliminar da prova escrita")
+        self.assertIn("Prazo de recurso: 2 dias úteis a contar da publicação deste resultado, em 03/11/2026 (terça), pelo item 4.21", ls[1])
+        self.assertNotIn("de uma etapa", m)
+        fonte = next(l for l in m.split("\n") if l.startswith("Fonte:"))
+        self.assertEqual(fonte.count("052"), 1, fonte)
