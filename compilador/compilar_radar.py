@@ -284,8 +284,27 @@ def periodos_da_etapa(ext, tipo):
                            if e.get("tipo_evento") == "prova" and e.get("etapa_ref") == "didatica"
                            and e.get("estado", "vigente") == "vigente" and intervalo(e.get("data"))),
                           default=None)
-    tem_exame = any(e.get("tipo_evento") == "prova" and e.get("etapa_ref") == tipo
-                    and e.get("estado", "vigente") == "vigente" for e in ext.get("eventos") or [])
+    # Exame da etapa por escopo: a entrega de títulos só vale como a etapa onde o escopo
+    # não tem prova própria (UNILAB 14: nas áreas 06, 07 e 09 o cronograma de atividades
+    # substituiu a "Prova de Títulos" pelo envio do currículo, enquanto as outras áreas
+    # mantêm a prova).
+    escopos_com_exame = set()
+    exame_geral = False
+    for e in ext.get("eventos") or []:
+        if (e.get("tipo_evento") == "prova" and e.get("etapa_ref") == tipo
+                and e.get("estado", "vigente") == "vigente"):
+            esc = e.get("escopo")
+            if not esc or esc == "geral":
+                exame_geral = True
+            else:
+                escopos_com_exame.update(esc)
+
+    def tem_exame(esc):
+        if exame_geral:
+            return True
+        if not esc or esc == "geral":
+            return bool(escopos_com_exame)
+        return all(c in escopos_com_exame for c in esc)
     for e in ext.get("eventos") or []:
         if e.get("etapa_ref") != tipo or e.get("estado", "vigente") != "vigente":
             continue
@@ -295,7 +314,7 @@ def periodos_da_etapa(ext, tipo):
         if e.get("tipo_evento") == "prova":
             achados.append((e.get("escopo") or "geral", iv))
         elif (tipo == "titulos" and e.get("tipo_evento") == "entrega_documento"
-              and not tem_exame and inicio_didatica and iv[0] >= menos_dias(inicio_didatica, 15)):
+              and not tem_exame(e.get("escopo")) and inicio_didatica and iv[0] >= menos_dias(inicio_didatica, 15)):
             achados.append((e.get("escopo") or "geral", iv))
     if tipo == "didatica":
         for lot in ext.get("lotacoes") or []:
