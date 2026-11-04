@@ -1,6 +1,6 @@
 // ═══════════════════════════════════════════════════════════════════════
 //  DADOS DO RADAR DE CONCURSOS · Aula Nota 10
-//  Última verificação: 02/11/2026
+//  Última verificação: 04/11/2026
 //
 //  ESTE É O ÚNICO ARQUIVO QUE VOCÊ PRECISA EDITAR PARA ATUALIZAR O SITE.
 //  Não mexa no index.html.
@@ -35,7 +35,7 @@
 // Gerado por compilar_radar.py a partir das extrações v2 (vigia-documentos/extracoes).
 // Para corrigir um dado, corrija a extração e rode o compilador de novo.
 
-window.RADAR_ATUALIZADO = "02/11/2026";
+window.RADAR_ATUALIZADO = "04/11/2026";
 
 window.CONCURSOS = [
   {
@@ -86,12 +86,12 @@ window.CONCURSOS = [
           "nota": "Datas por área: geral: 14/09 a 23/10; 268266 (Otoneurologia / Dispositivos Eletrônicos de…): 19/09; 267703 (Trompete): 21/09; 924708 (Doenças do Sistema Genitourinário): 21/09; 704339 (Endocrinologia e Metabologia): 22/09; 267823 (Paisagismo): 23/09; 270307 (Português Língua Estrangeira (PLE)): 17/09; 720982 (Fotografia Publicitária. Comunicação Visual.…): 21/09; 267710 (Paleografia, Arquivística e Patrimônio): 21/09; 267710 (Paleografia, Arquivística e Patrimônio): 23/09"
         },
         "detalhe": {
+          "duracao": "Aula de 50 a 60 minutos. A arguição encerra aos 60 minutos",
           "arguicao": "Sim, obrigatória para todos os membros da banca. Até 3 minutos de pergunta por membro e até 5 minutos de resposta",
           "nota_minima": "7,00",
           "criterios": "Plano de aula (0 a 2), aspectos didático-metodológicos (0 a 5), recursos didáticos (0 a 1) e arguição (0 a 2)",
           "plano_de_aula": "Entregue em PDF na chegada. O candidato deve comparecer com no mínimo 30 minutos de antecedência",
           "recursos": "Fornecidos: quadro branco, Datashow, programas de apresentação de slides, computador/notebook e softwares livres, a exemplo do LibreOffice",
-          "duracao": "Aula de 50 a 60 minutos. A arguição encerra aos 60 minutos",
           "sorteio": "Sim. O ponto é sorteado no dia da prova escrita, 13/09, por envelope, random.org ou planilha, com comprovante assinado por dois fiscais",
           "modalidade": "Presencial obrigatória para o candidato. A comissão examinadora participa prioritariamente por videoconferência. Sessão pública, no máximo 3 candidatos por turno, com gravação em áudio e vídeo"
         }
@@ -1545,7 +1545,8 @@ window.CONCURSOS = [
         "data": {
           "tipo": "periodo",
           "valor": "2026-11-18",
-          "fim": "2026-11-21"
+          "fim": "2026-12-02",
+          "nota": "Datas por área: 1.2.13 (Linguística, Letras e Artes - Teatro…): 18/11 a 21/11; 1.2.15 (Odontologia, Subárea: Cariologia ou…): 02/12"
         },
         "detalhe": {}
       },
@@ -1560,9 +1561,9 @@ window.CONCURSOS = [
           "nota": "Datas por área: 1.2.7 (Educação, Subárea: Educação e Artes Visuais): 10/11; 1.2.9 (Engenharia, Subárea: Polímeros): 19/11; 1.2.12 (Língua Alemã, Literatura de Língua Alemã e…): 12/11 a 13/11; 1.2.13 (Linguística, Letras e Artes - Teatro…): 15/11 a 18/11; 1.2.1 (Antropologia, Subárea: Teoria Antropológica): 24/11 a 26/11; 1.2.10 (Farmacologia): 26/11 a 27/11; 1.2.14 (Medicina Interna, Subárea: Nefrologia): 23/11; 1.2.15 (Odontologia, Subárea: Cariologia ou…): 30/11 a 01/12; 1.2.8 (Educação, Subárea: Sociologia da Educação): 27/11 a 29/11; 1.2.4 (Ciências da Saúde/Medicina, Subárea…): 25/11; 1.2.5 (Direito, Subárea: Direito Internacional…): 30/11; 1.2.6 (Ecofisiologia e Manejo de Plantas de Lavoura): 01/12 a 02/12; 1.2.3 (Ciências Agrárias, Subárea: Entomologia…): 11/12 a 12/12; 1.2.2 (Arquitetura e Urbanismo, Subárea: Projeto…): 19/12 a 24/12"
         },
         "detalhe": {
+          "duracao": "Aula de 35 a 55 minutos, pela Resolução 93/2021 do CONSUN. Fora do intervalo, desconto de 0,10 ponto por minuto. Passando 10 minutos do teto, a banca interrompe a exposição",
           "nota_minima": "7,0. É corte próprio da didática: nota menor que 7,0 aqui reprova, mesmo com média geral suficiente",
           "criterios": "Quatro critérios obrigatórios: adequação científica, técnica ou artística do tema à área; domínio do tema; capacidade de organizar ideias com objetividade, rigor lógico e espírito crítico; e clareza didática. Cada Departamento pode atribuir ponderação própria, que então consta do edital",
-          "duracao": "Aula de 35 a 55 minutos, pela Resolução 93/2021 do CONSUN. Fora do intervalo, desconto de 0,10 ponto por minuto. Passando 10 minutos do teto, a banca interrompe a exposição",
           "sorteio": "NÃO HÁ SORTEIO. O tema é de LIVRE ESCOLHA do candidato, dentro do programa estabelecido pelo Departamento. O título e o resumo da aula são entregues antes, pelo sistema eletrônico, na data do cronograma",
           "arguicao": "Não há arguição na aula. A arguição é da Produção Intelectual e, em dedicação exclusiva, do projeto de pesquisa ou de extensão, em etapa separada",
           "modalidade": "Presencial e pública, na unidade da vaga, gravada para registro e avaliação. Quem não estiver presente no horário de início não faz a prova",
@@ -2518,10 +2519,10 @@ window.CONCURSOS = [
           "nota": "Período confirmado no item 13.1 do edital. A data e o horário de cada candidato saem por sorteio da ordem de apresentação, divulgado no Anexo VI, que não é publicado no DOU e só existe em concursos.ufscar.br"
         },
         "detalhe": {
+          "duracao": "Aula de 30 a 50 minutos. Menos de 30 ou mais de 50 custa 2, 4 ou 5 pontos de desconto conforme o excesso. Aos 61 minutos o presidente interrompe a prova",
           "sorteio": "Tema sorteado em tempo real pelo Google Meet, com no mínimo 24 horas de antecedência. Tema único para todos os candidatos do subedital, excluído o tema da prova escrita",
           "plano_de_aula": "Obrigatório e ENVIADO ANTES, em PDF, por formulário Google Forms aberto na página do concurso. Quem não enviar não participa da prova didática e recebe nota 0,0",
           "recursos": "Fornecidos: computador e datashow",
-          "duracao": "Aula de 30 a 50 minutos. Menos de 30 ou mais de 50 custa 2, 4 ou 5 pontos de desconto conforme o excesso. Aos 61 minutos o presidente interrompe a prova",
           "nota_minima": "Não há. A didática é classificatória, pontuada de 0 a 10",
           "arguicao": "Não há arguição na aula. A arguição é do plano de trabalho em ensino, pesquisa e extensão, em etapa separada",
           "modalidade": "Presencial, na cidade do campus da vaga, em sessão fechada. Só entram o candidato e ao menos um membro da comissão, e os demais podem participar a distância. Outros candidatos e público não podem assistir. A prova é gravada. A UFSCar fornece computador e datashow",
@@ -6573,12 +6574,12 @@ window.CONCURSOS = [
           "nota": "Ensalamento divulgado em 10/11"
         },
         "detalhe": {
+          "duracao": "Aula de 30 a 40 minutos, mais 15 minutos de arguição. Em algumas vagas há mais 15 minutos de etapa extra (portfólio, entrevista ou prática)",
           "arguicao": "Sim, 15 minutos",
           "nota_minima": "7,00",
           "criterios": "10 pontos: 1.1. Plano de Aula e/ou Roteiro de Procedimentos (até 1,0 ponto)… até 1,0 ponto; Pontos de 0,0 a 1,0; 1.2. Desenvolvimento (até 7,5 pontos): Introdução; Apresentação… até 7,5 pontos; Pontos de 0,0 a 7,5; 1.3. Arguição (até 1,5 ponto): Informações corretas; Relação com… até 1,5 ponto; Pontos de 0,0 a 1,5",
           "plano_de_aula": "Três cópias impressas entregues no início da prova, sob pena de eliminação",
           "recursos": "Fornecidos: quadro-negro/lousa e projetor de multimídia. Proibidos: dicionários (nas provas de línguas)",
-          "duracao": "Aula de 30 a 40 minutos, mais 15 minutos de arguição. Em algumas vagas há mais 15 minutos de etapa extra (portfólio, entrevista ou prática)",
           "sorteio": "Sim, mas o ponto é sorteado em 18/10, quase quatro semanas antes da aula",
           "modalidade": "Presencial, aberta ao público. Gravação proibida",
           "peso": "Peso 4, o maior do certame"
@@ -7969,9 +7970,10 @@ window.CONCURSOS = [
           "nota": "Cada seleção tem data própria. Geografia 30/10; Gastroenterologia 04/11; Clínica Médica (229 e 230) e Fisiatria 05/11; Hematologia 2026/232 e Endocrinologia 06/11; Ginecologia e Obstetrícia e Nefrologia 11/11; Física Geral 12/11; Hematologia 2026/237 19/11 (sorteio em 18/11); Língua Portuguesa 24/11; Engenharia Ambiental e Ciências Ambientais 26/11; Cardiologia (Cabo Frio) 27/11; Sistemas Elétricos 2026/250 02/12; Engenharia Econômica 03/12; Sistemas Elétricos 2026/251 09/12; Metodologia e Técnicas de Computação 10/12; Ciência da Computação 18/03/2027"
         },
         "detalhe": {
+          "duracao": "Aula de 50 a 60 minutos",
           "sorteio": "Sim. Ponto sorteado com 24 horas de antecedência, a partir de uma lista de no mínimo 10 pontos do programa divulgada pela banca",
           "nota_minima": "7,0 na maioria das seleções. Confira no edital da sua seleção",
-          "duracao": "Aula de 50 a 60 minutos",
+          "recursos": "O candidato pode usar recursos próprios (Compete ao candidato providenciar os recursos audiovisuais que pretenda utilizar na prova de aula e que não sejam disponibilizados pela Unidade)",
           "modalidade": "Presencial, em sessão pública e em português. Os candidatos não assistem à aula uns dos outros",
           "criterios": "Três examinadores avaliam capacidade de comunicação, atualização, profundidade de conhecimento e precisão"
         }
@@ -9389,9 +9391,10 @@ window.CONCURSOS = [
         "tipo": "outra",
         "carater": "Classificatória",
         "data": {
-          "tipo": "exata",
-          "valor": "2026-10-22",
-          "nota": "Datas por área: COMUNICAÇÃO OU MEDIAÇÃO CULTURAL OU LETRAS OU ARTES (Área: HUMANIDADES /CIÊNCIAS SOCIAIS…): 22/10; MEDICINA DE FAMÍLIA E COMUNIDADE (Área: CIÊNCIAS DA SAÚDE; Subárea: MEDICINA…): 22/10; GINECOLOGIA E OBSTETRÍCIA (Área: CIÊNCIAS DA SAÚDE; Subárea…): 22/10"
+          "tipo": "periodo",
+          "valor": "2026-10-20",
+          "fim": "2026-10-22",
+          "nota": "Datas por área: MEDICINA DE FAMÍLIA E COMUNIDADE (Área: CIÊNCIAS DA SAÚDE; Subárea: MEDICINA…): 20/10; GINECOLOGIA E OBSTETRÍCIA (Área: CIÊNCIAS DA SAÚDE; Subárea…): 21/10; COMUNICAÇÃO OU MEDIAÇÃO CULTURAL OU LETRAS OU ARTES (Área: HUMANIDADES /CIÊNCIAS SOCIAIS…): 21/10; COMUNICAÇÃO OU MEDIAÇÃO CULTURAL OU LETRAS OU ARTES (Área: HUMANIDADES /CIÊNCIAS SOCIAIS…): 22/10"
         },
         "detalhe": {}
       },
@@ -9684,6 +9687,7 @@ window.CONCURSOS = [
           "nota": "O cronograma de cada etapa do certame será publicado e atualizado na página do concurso"
         },
         "detalhe": {
+          "duracao": "De 40 a 50 minutos. Menos de 40 minutos tem desconto na nota",
           "arguicao": "Sim, por até 15 minutos, a critério da banca",
           "sorteio": "Tema sorteado com 24 horas de antecedência"
         }
@@ -10174,11 +10178,11 @@ window.CONCURSOS = [
           "nota": "Janela provável das provas, fixada no cronograma retificado de 25/08. A data exata do seu CPD é confirmada em 16/10, com no mínimo 20 dias de antecedência"
         },
         "detalhe": {
+          "duracao": "Aula expositiva de 40 a 50 minutos. Aos 45 minutos a banca avisa quanto falta",
           "arguicao": "Sim, facultativa, de até 20 minutos pela Comissão Examinadora",
           "sorteio": "Ponto sorteado em sessão pública, com no mínimo 24 horas de antecedência. O tema é ÚNICO para todos os candidatos do mesmo CPD. ATENÇÃO: a presença no sorteio é OBRIGATÓRIA, e quem não comparece é ELIMINADO do certame",
           "nota_minima": "Notas de 0,00 a 10,00 com 2 decimais, pela média dos examinadores. A aprovação exige nota final do concurso igual ou superior a 50% do total. A didática tem peso 1",
           "recursos": "Fornecidos: recursos multimídia necessários para a realização da Prova Didática. Proibidos: gravação pelo candidato por seus próprios meios",
-          "duracao": "Aula expositiva de 40 a 50 minutos. Aos 45 minutos a banca avisa quanto falta",
           "modalidade": "Presencial, exclusivamente nos campi da UFSJ, em sessão pública, vedada a presença dos candidatos concorrentes. Gravada pela Comissão para registro e avaliação",
           "plano_de_aula": "Entregue ANTES do início das provas do CPD, junto com todo o material didático: arquivos, lâminas de projeção, modelos e o próprio plano de aula, em local e horário informados pela Comissão. Depois da entrega NADA pode ser alterado ou acrescentado, e só se pode usar o que foi entregue",
           "criterios": "Constam de anexo próprio por CPD. Quem não comparece à entrega do material ainda faz a aula, mas SEM NENHUM RECURSO: sem slides, sem modelos, sem plano"
@@ -10991,12 +10995,12 @@ window.CONCURSOS = [
           "nota": "Datas por área: CDM-1 (Administração), CDM-2 (Português/Espanhol), IFS-1 (Zootecnia II - Suinocultura, Nutrição e…), IFS-2 (Informática), IFS-3 (Biologia I), IFS-4 (Biologia II), IFS-5 (Educação Matemática), IFS-6 (Engenharia Agrícola), IFS-7 (Atendimento Educacional Especializado), MCH-1 (Zootecnia III - Bioclimatologia e Animais…), MCH-2 (Zootecnia IV - Fisiologia Animal), MCH-3 (Informática), MCH-5 (Sociologia), MCH-6 (Matemática), MUZ-1 (Zootecnia I - Avicultura de Corte e Postura…), MUZ-2 (Zootecnia II - Suinocultura, Nutrição e…) e MUZ-3 (Informática): 31/10 a 01/11; MCH-4 (Segurança do Trabalho): 13/12"
         },
         "detalhe": {
+          "duracao": "Aula de 15 a 20 minutos, com arguição posterior de até 10 minutos",
           "arguicao": "Sim, até 10 minutos após a aula",
           "sorteio": "Sim. Tema sorteado 24 horas antes da apresentação",
           "criterios": "Planejamento, comunicação, domínio do conteúdo, metodologia de ensino, organização da aula, gestão do tempo e avaliação da aprendizagem",
           "plano_de_aula": "Exigido: 4 vias (4 (quatro) vias assinadas), entregues antes do início da primeira apresentação do dia da banca correspondente. A entrega poderá ser feita por outro candidato mediante apresentação de procuração original simples., com nível de ensino a qual se destina a aula, ensino médio ou graduação e Objetivos",
           "recursos": "Fornecidos: quadro branco, quadro verde, pincel, giz e apagador. Proibidos: datashow e outro equipamento de projeção",
-          "duracao": "Aula de 15 a 20 minutos, com arguição posterior de até 10 minutos",
           "nota_minima": "60 pontos (abaixo disso, elimina)",
           "modalidade": "Presencial em Pouso Alegre/MG (remota apenas em caso de força maior)",
           "ordem": "A ordem de apresentação segue a classificação na prova objetiva"
@@ -11776,7 +11780,7 @@ window.CONCURSOS = [
           "sorteio": "Consulte o item 8 do edital consolidado",
           "criterios": "100 pontos: 01 - PLANO DE AULA A elaboração do plano de aula apresenta objetivos… 10; 02 - INTRODUÇÃO Observa se a aula foi introduzida com criatividade… 10; 03 - CONHECIMENTO/SABERES A apresentação do conhecimento foi… 30; 04 - PROCEDIMENTOS METODOLÓGICOS A metodologia (procedimentos da ação… 30; 05 - RECURSOS DIDÁTICOS Os recursos didáticos utilizados foram… 10; 06 - SÍNTESE Conseguiu realizar o fechamento da aula respeitando o… 05; 07 - AVALIAÇÃO Realizou as atividades de avaliação da aprendizagem de… 05",
           "plano_de_aula": "Exigido: 3 vias (3 (três) vias do Plano de Aula devidamente assinadas), entregues Antes do início da prova, com objetivos, conteúdos, metodologia, recursos didáticos, atividades, avaliação, referenciais, introdução, desenvolvimento e fechamento da aula, com a respectiva distribuição do tempo",
-          "recursos": "Fornecidos: quadro de giz, giz, apagador, quadro branco, pincel e apagador. Proibidos: fita adesiva transparente ou similar para fixação de cartazes e perfurações nas salas de apresentação",
+          "recursos": "Fornecidos: quadro de giz, giz e apagador; ou quadro branco, pincel e apagador. Proibidos: fita adesiva transparente ou similar para fixação de cartazes e perfurações nas salas de apresentação. O candidato pode usar recursos próprios (A critério da pessoa candidata, poderão ser utilizados cartazes, projetor multimídia e outros recursos didáticos durante sua apresentação). Ficam sob responsabilidade da pessoa candidata todos os materiais necessários ao uso desses recursos (equipamentos eletrônicos, fita crepe, cordas, fontes de energia, extensões); a FAURGS não se responsabiliza pela instalação, funcionamento ou conexão de equipamentos; o celular fica desligado ou em modo avião sobre a…",
           "nota_minima": "70 pontos",
           "modalidade": "Presencial, perante banca examinadora",
           "convocados": "Retificação de 19/08 unificou o quantitativo de convocados: 1 vaga convoca 6, 2 vagas convocam 11, 3 vagas convocam 17"
@@ -13380,12 +13384,13 @@ window.CONCURSOS = [
           "nota": "Resultado final da didática em 26/11"
         },
         "detalhe": {
+          "duracao": "Aula de 50 a 60 minutos. Apresentar por menos de 50 minutos ou passar de 60 prejudica a nota",
           "arguicao": "Não há arguição",
           "sorteio": "Sim. Tema sorteado com 24 horas de antecedência",
           "nota_minima": "6,0 pontos",
           "criterios": "Inclui a utilização de recursos didáticos, que vale até 1 ponto na composição da nota",
           "plano_de_aula": "Exigido: entregues ao iniciar a exposição",
-          "duracao": "Aula de 50 a 60 minutos. Apresentar por menos de 50 minutos ou passar de 60 prejudica a nota",
+          "recursos": "O candidato pode usar recursos próprios (Caberá ao candidato providenciar os recursos didáticos necessários à ministração de sua aula)",
           "modalidade": "Presencial, no campus da vaga"
         }
       },
@@ -14383,11 +14388,11 @@ window.CONCURSOS = [
           "nota": "Datas por área: 01 (Administração): 06/11 a 07/11; 02 (Informática): 06/11; 03 (Informática): 06/11; 06 (Física): 07/11 a 08/11; 07 (Física): 07/11 a 08/11; 08 (Matemática): 06/11 a 07/11; 09 (Matemática): 06/11 a 07/11; 10 (Matemática): 06/11 a 08/11; 11 (Manutenção de Aeronaves): 06/11; 13 (Medicina Veterinária - Clínica médica e…): 08/11; 14 (Português/Espanhol): 06/11 a 08/11; 15 (Português/Espanhol): 06/11 a 08/11; 16 (Química): 07/11 a 08/11; 17 (Química): 07/11 a 08/11; 18 (Zootecnia): 07/11; 19 (Zootecnia): 07/11; 12 (Medicina Veterinária - Clínica médica e…): 07/11; 16 (Química): 08/11; geral: 06/11 a 08/11"
         },
         "detalhe": {
+          "duracao": "Aula de 30 a 35 minutos, com tolerância de 1 minuto. Fora do intervalo, zera o critério Gestão do tempo, que vale 5 pontos e não tem meio-termo, é 0 ou 5. Para Português/Espanhol são DUAS aulas de 30 a 35 minutos, uma em cada língua",
           "nota_minima": "65 pontos na prova de desempenho didático. Abaixo disso é eliminação. Para ser convocado à aula é preciso ter feito ao menos 70 pontos na objetiva, dentro do limite de 20 convocados por vaga",
           "criterios": "100 pontos: Plano de Aula 10, Desenvolvimento da Aula 70 (domínio de conteúdo vale 20, o maior peso isolado) e Metodologia 15. A banca avalia expressamente a coerência entre o plano entregue e a aula executada",
           "plano_de_aula": "Obrigatório, em 3 vias impressas, entregues à banca ANTES do início da aula. Não vale formato digital. Quem não entrega zera todos os itens ligados ao plano. Deve conter ementa com o ponto sorteado, título, público, objetivos, metodologia, forma de avaliação e referências. Plano ou aula com tema diferente do sorteado elimina o candidato",
           "recursos": "Fornecidos: giz, pincel, quadro de giz e quadro branco. Proibidos: bip, telefone celular, smartwatch, smartphone, walkman, agenda eletrônica, receptor, gravador, relógios digitais e equipamentos institucionais",
-          "duracao": "Aula de 30 a 35 minutos, com tolerância de 1 minuto. Fora do intervalo, zera o critério Gestão do tempo, que vale 5 pontos e não tem meio-termo, é 0 ou 5. Para Português/Espanhol são DUAS aulas de 30 a 35 minutos, uma em cada língua",
           "sorteio": "Tema sorteado em 14/10 às 14h30, comum a TODOS os candidatos da mesma área, qualquer que seja o dia da sua aula. O Anexo XVI já publica os 5 temas possíveis de cada área, então dá para preparar as cinco aulas antes do sorteio",
           "arguicao": "Não há arguição",
           "modalidade": "Presencial, gravada em áudio e vídeo, com a gravação usada só pela banca em caso de recurso e nunca entregue ao candidato. Sessão pública, mas candidatos à mesma vaga não podem assistir uns aos outros. O IFMT fornece apenas giz ou pincel e quadro. Qualquer outro recurso é do candidato, com 5 minutos para montar e 3 para desmontar, e o que passar disso vira tempo de aula"
@@ -15238,11 +15243,11 @@ window.CONCURSOS = [
           "nota": "Período confirmado no Anexo I do edital consolidado. O cronograma de cada área foi divulgado pela respectiva unidade acadêmica até 08/09, junto com a comissão examinadora e a lista de pontos"
         },
         "detalhe": {
+          "duracao": "Aula expositiva de 50 a 60 minutos perante a comissão examinadora",
           "sorteio": "Sim. O tema sai da mesma lista divulgada previamente, excluído o que já caiu na prova escrita. A presença no sorteio não é obrigatória, o resultado pode ser acompanhado pelo SIGRH.",
           "nota_minima": "7,0",
           "criterios": "Plano de aula, cumprimento do tempo, domínio do conteúdo e comunicação",
           "plano_de_aula": "Exigido: entregues antes do início da apresentação, a cada examinador da Comissão, com objetivos, conteúdos, procedimentos didáticos, recursos, avaliação e referências",
-          "duracao": "Aula expositiva de 50 a 60 minutos perante a comissão examinadora",
           "arguicao": "O candidato entrega o plano de aula antes da apresentação e pode passar por arguição da banca",
           "modalidade": "Presencial, na unidade acadêmica da vaga"
         }
@@ -17863,7 +17868,8 @@ window.CONCURSOS = [
     "inscricao": {
       "inicio": "2026-06-25",
       "fim": "2026-07-27",
-      "situacao": "encerrada"
+      "situacao": "encerrada",
+      "taxa": "de R$ 180,00 a R$ 200,00, conforme a área"
     },
     "etapas": [
       {
@@ -17893,10 +17899,10 @@ window.CONCURSOS = [
           "nota": "Datas por área: 26 (Perspectivas indígenas nas artes): 20/10; 02 (Enfermagem no Cuidado à Saúde da Mulher na…): 19/10; 03 (Fundamentos de Enfermagem no Cuidado…) e 04 (Gestão e Educação Permanente em Saúde e…): 19/10; 06 (Geotecnia): 27/10 a 28/10; 10 (Pesquisa Operacional e Ciência de Dados): 04/11 a 05/11; 21 (Patologia): 27/10; 20 (Psiquiatria): 14/10 a 15/10; 18 (MED D99 - Clínica Cirúrgica I - Bases da…): 30/10; 19 (MEDE09 - Cirurgia Torácica e Cardiovascular): 31/10; 27 (Química Analítica: Eletroanalítica): 21/10; 36 (Engenharia de Transportes - Planejamento de…): 06/10 a 08/10; 37 (Geodésia e Topografia): 27/10 a 28/10; 08 (Transporte/Infraestrutura de Transporte): 14/10 a 15/10; 07 (Materiais de Construção): 23/09; 11 (Engenharia de Controle e Automação): 27/10 a 28/10"
         },
         "detalhe": {
+          "duracao": "Aula de 50 a 60 minutos. Sair do intervalo não anula a prova nem desclassifica por si só, mas é levado em conta pela banca na avaliação",
           "arguicao": "NÃO HÁ. O item 8.9.8 veda expressamente arguição da banca sobre a Prova Didática",
           "sorteio": "ATENÇÃO, É O MAIS CURTO DO RADAR: cada candidato sorteia o SEU ponto apenas 2 HORAS antes do horário da sua apresentação. A ordem de apresentação também sai por sorteio, e quem falta a esse sorteio é eliminado",
           "plano_de_aula": "Obrigatório, em 3 vias impressas, entregues IMEDIATAMENTE APÓS o sorteio do ponto, referentes ao ponto sorteado. Quem não entrega é ELIMINADO. Na prática isso exige chegar com os planos já prontos e impressos para todos os pontos possíveis",
-          "duracao": "Aula de 50 a 60 minutos. Sair do intervalo não anula a prova nem desclassifica por si só, mas é levado em conta pela banca na avaliação",
           "nota_minima": "Peso 3, o mesmo da prova escrita. O corte de 7,0 vale para a prova escrita",
           "modalidade": "Presencial, na própria UFBA, gravada em áudio",
           "criterios": "Barema próprio de cada Congregação, publicado na Unidade e em concursos.ufba.br/docentes junto com o Edital. Considera, entre outros: domínio de conteúdo; coerência entre os objetivos do plano de aula e os conteúdos desenvolvidos; desempenho didático e uso adequado do tempo; e comunicação, clareza e objetividade"
@@ -20743,6 +20749,7 @@ window.CONCURSOS = [
           "nota": "O edital ainda não fixou a data"
         },
         "detalhe": {
+          "duracao": "De 40 a 50 minutos. Menos de 40 minutos elimina o candidato",
           "arguicao": "Sim, a critério da banca",
           "criterios": "100 pontos: Elaboração do plano de aula que deverá conter o objetivo da aula… 3; Domínio do Conteúdo: definição, pertinência, originalidade e… 32; Objetividade e clareza 10; Adequação ao nível de Graduação 15; Capacidade de Comunicação 30; Uso de Recurso Didático 10",
           "plano_de_aula": "Exigido: com objetivo da aula, conteúdo, estratégia e/ou metodologia, recursos e referências",
@@ -20894,10 +20901,10 @@ window.CONCURSOS = [
           "nota": "Datas por área: 1.2.8 (Farmácia, Subárea: Análises clínicas…): 26/08 a 27/08; 1.2.2 (Ciência do Solo, Subárea: Química do Solo): 25/08; 1.2.5 (Estratigrafia Sedimentar): 10/09; 1.2.7 (Conhecimento: Estruturas, Subárea: Pontes): 03/09; 1.2.9 (Fonoaudiologia, Subárea: Linguagem): 02/09; 1.2.6 (Estruturas, Subárea: Estruturas Mistas de…): 22/09; 1.2.3 (Cinética, Catálise e Cálculo de Reatores…): 02/09; 1.2.15 (Química Inorgânica Medicinal): 08/10; 1.2.13 (Medicina Veterinária, Subárea: Clínica de…): 06/10; 1.2.10 (Forrageiras, Subárea: Produção e Tecnologia…): 13/09; 1.2.4 (Educação, Subárea: Ensino de Alfabetização): 16/09; 1.2.11 (História, Subárea: História da América…): 23/09; 1.2.1 (Artes Visuais, Subárea: Ensino de Artes…): 24/09 a 25/09; 1.2.14 (Psicologia Social e Institucional, Subárea…): 16/10; 1.2.12 (Materiais para a Engenharia Química): 21/10"
         },
         "detalhe": {
+          "duracao": "Aula de 35 a 55 minutos, pela Resolução 93/2021 do CONSUN. Fora do intervalo, desconto de 0,10 ponto por minuto. Passando 10 minutos do teto, a banca interrompe a exposição",
           "nota_minima": "7,0. É corte próprio da didática: nota menor que 7,0 aqui reprova, mesmo com média geral suficiente",
           "criterios": "Quatro critérios obrigatórios: adequação científica, técnica ou artística do tema à área; domínio do tema; capacidade de organizar ideias com objetividade, rigor lógico e espírito crítico; e clareza didática. Cada Departamento pode atribuir ponderação própria, que então consta do edital",
           "peso": "No desempate, a prova didática é o primeiro critério considerado, à frente de títulos e da prova escrita",
-          "duracao": "Aula de 35 a 55 minutos, pela Resolução 93/2021 do CONSUN. Fora do intervalo, desconto de 0,10 ponto por minuto. Passando 10 minutos do teto, a banca interrompe a exposição",
           "sorteio": "NÃO HÁ SORTEIO. O tema é de LIVRE ESCOLHA do candidato, dentro do programa estabelecido pelo Departamento. O título e o resumo da aula são entregues antes, pelo sistema eletrônico, na data do cronograma",
           "arguicao": "Não há arguição na aula. A arguição é da Produção Intelectual e, em dedicação exclusiva, do projeto de pesquisa ou de extensão, em etapa separada",
           "modalidade": "Presencial e pública, na unidade da vaga, gravada para registro e avaliação. Quem não estiver presente no horário de início não faz a prova",
@@ -20943,8 +20950,9 @@ window.CONCURSOS = [
         "tipo": "resultado",
         "carater": "",
         "data": {
-          "tipo": "exata",
-          "valor": "2026-10-07"
+          "tipo": "periodo",
+          "valor": "2026-10-07",
+          "fim": "2026-10-13"
         },
         "detalhe": {}
       }
@@ -21027,11 +21035,11 @@ window.CONCURSOS = [
           "nota": "Período alterado pela Retificação nº 1 de 04/09. Antes era 11 a 15/01/2027"
         },
         "detalhe": {
+          "duracao": "Consulte o corpo do edital 607/2026",
           "arguicao": "Sim, por até 20 minutos",
           "criterios": "100 pontos: 1. Plano de Aula (10 pts): Estrutura formal, organização, clareza e… 5; 1. Plano de Aula (10 pts): Adequação, clareza e pertinência dos… 5; 2. Introdução da Aula (15 pts): Apresentação clara aos alunos sobre… 5; 2. Introdução da Aula (15 pts): Uso de aspectos motivacionais para… 4; 2. Introdução da Aula (15 pts): Contextualização, referência e… 6; 3. Desenvolvimento (40 pts): Segurança, exatidão conceitual e domínio… 10; 3. Desenvolvimento (40 pts): Organização lógica, estrutura didática e… 10; 3. Desenvolvimento (40 pts): Adequação do vocabulário geral e uso… 5; 3. Desenvolvimento (40 pts): Abrangência, profundidade e estrita… 5; 3. Desenvolvimento (40 pts): Utilização de exemplos práticos… 5; 3. Desenvolvimento (40 pts): Pertinência dos recursos didáticos… 2,5; 3. Desenvolvimento (40 pts): Habilidade no manuseio, utilização e… 2,5; 4. Finalização (17 pts): Capacidade de síntese, fechamento das ideias… 8; 4. Finalização (17 pts): Adequação e clareza nos procedimentos de… 3; 4. Finalização (17 pts): Cumprimento rigoroso das etapas pedagógicas… 3; 4. Finalização (17 pts): Gestão e distribuição adequada do tempo… 3; 5. Conduta e Arguição (18 pts): Autocontrole, equilíbrio emocional… 5; 5. Conduta e Arguição (18 pts): Qualidade da dicção, projeção e tom… 3,5; 5. Conduta e Arguição (18 pts): Postura corporal adequada, uso do… 3,5; 5. Conduta e Arguição (18 pts): Domínio técnico e clareza no… 6",
           "plano_de_aula": "Memorial e material entregues antes da aula, no prazo do cronograma retificado",
           "recursos": "Fornecidos: quadro, pincel, giz, projetor multimídia e computador com sistema operacional com software compatível com PDF (Portable Format Document)",
-          "duracao": "Consulte o corpo do edital 607/2026",
           "sorteio": "Consulte o corpo do edital 607/2026",
           "modalidade": "Presencial"
         }
@@ -21042,8 +21050,8 @@ window.CONCURSOS = [
         "carater": "Classificatória",
         "data": {
           "tipo": "periodo",
-          "valor": "2027-01-27",
-          "fim": "2027-02-04"
+          "valor": "2027-02-06",
+          "fim": "2027-02-13"
         },
         "detalhe": {
           "criterios": "100 pontos. Títulos acadêmicos até 50 (doutorado 25, mestrado 15, especialização 5, aperfeiçoamento 5, conforme a Retificação 04), ensino, pesquisa e extensão até 25, produção acadêmica até 20, experiência profissional até 5"
@@ -21225,11 +21233,11 @@ window.CONCURSOS = [
           "nota": "Janela geral do Anexo I, logo após a prova escrita. A data exata sai no cronograma da sua unidade acadêmica, divulgado no SIGRH até 14/09"
         },
         "detalhe": {
+          "duracao": "Definida na Resolução nº 15/2022 do CEPE, que rege as etapas. Confirme no texto da resolução, disponível no menu Concursos do SIGRH",
           "sorteio": "O tema sai da lista de pontos divulgada previamente, excluído o que caiu na prova escrita",
           "nota_minima": "7,0",
           "criterios": "10 pontos: PLANO DE AULA: Clareza na redação dos elementos do plano (ortografia… Valor: 0,00 a 2,00 pontos; ASPECTOS TEÓRICO-METODOLÓGICOS: Relaciona o tema da aula com a… Valor: 0,00 a 6,00 pontos; EMPREGO APROPRIADO DOS RECURSOS DIDÁTICOS: Utiliza recursos adequados… Valor: 0,00 a 2,00 pontos",
           "plano_de_aula": "Conforme a Resolução nº 15/2022 do CEPE. Não confundir com o Plano de Trabalho, que é outra peça, enviada pelo SIGRH até 14/09",
-          "duracao": "Definida na Resolução nº 15/2022 do CEPE, que rege as etapas. Confirme no texto da resolução, disponível no menu Concursos do SIGRH",
           "arguicao": "Conforme a Resolução nº 15/2022 do CEPE",
           "modalidade": "Presencial, em Sertânia"
         }
@@ -21985,7 +21993,7 @@ window.CONCURSOS = [
     "nivel": "Magistério Superior",
     "uf": "MG",
     "numero_edital": "27 editais: 01/2026, 02/2026, 03/2026, 04/2026, 05/2026 e 06/2026 e mais 21",
-    "vagas": "404 vagas",
+    "vagas": "406 vagas",
     "areas": "42 áreas, entre elas CIÊNCIAS EXATAS E DA TERRA/CIÊNCIA DA COMPUTAÇÃO, ENGENHARIAS/ENGENHARIAS IV, MULTIDISCIPLINAR/INTERDISCIPLINAR, CIÊNCIAS SOCIAIS APLICADAS/ECONOMIA e CIÊNCIAS HUMANAS/HISTÓRIA",
     "campi": "Montes Claros/MG, Departamento de Ciências da Computação - Montes Claros/MG, Departamento de Ciências Econômicas - Montes Claros/MG, Departamento de História - Janaúba e Departamento de Saúde da Mulher e da Criança - Montes Claros/MG",
     "titulacao": "Conforme a área",
@@ -21995,9 +22003,9 @@ window.CONCURSOS = [
     "link_oficial": "https://concurso.unimontes.br/editais-recentes/",
     "inscricao": {
       "inicio": "2026-08-24",
-      "fim": "2026-12-19",
+      "fim": "2027-01-09",
       "situacao": "aberta",
-      "taxa": "R$ 100,00 (especialização), R$ 150,00 (mestrado), R$ 200,00 (doutorado). Cada edital tem prazo próprio: 01, 02, 03 e outros de 24/08 a 24/10; 06 de 31/08 a 01/11; 08, 09 e 11 de 03/09 a 03/11; e 07, 12 a 16, 17 (Letras, após a 2ª retificação), 18 a 22 e 24 só de 19/10 a 19/12. Confira o prazo no seu edital antes de pagar"
+      "taxa": "de R$ 100,00 a R$ 200,00, conforme a área. Pedido de isenção de 09/11 a 09/12"
     },
     "etapas": [
       {
@@ -22006,9 +22014,9 @@ window.CONCURSOS = [
         "carater": "Eliminatória e classificatória",
         "data": {
           "tipo": "periodo",
-          "valor": "2027-01-10",
+          "valor": "2027-02-14",
           "fim": "2027-02-21",
-          "nota": "A data varia por edital, após as retificações que adiaram a antiga data de 08/11/2026. Artes (27) em 10/01; editais 01 a 10 em 14/02 de manhã; editais 11 a 17 em 14/02 à tarde; editais 18 a 23 em 21/02 de manhã; editais 24, 25 e 26 em 21/02 à tarde"
+          "nota": "Datas por área: 01/2026: 14/02; 02/2026: 14/02; 03/2026: 14/02; 04/2026: 14/02; 05/2026: 14/02; 06/2026: 14/02; 07/2026: 14/02; 08/2026: 14/02; 09/2026: 14/02; 10/2026: 14/02; 11/2026: 14/02; 12/2026: 14/02; 13/2026: 14/02; 14/2026: 14/02; 15/2026: 14/02; 16/2026: 14/02; 17/2026: 14/02; 18/2026: 21/02; 19/2026: 21/02; 20/2026: 21/02; 21/2026: 21/02; 22/2026: 21/02; 23/2026: 21/02; 24/2026: 21/02; 25/2026: 21/02; 26/2026: 21/02; 27/2026: 21/02"
         },
         "detalhe": {}
       },
@@ -22032,14 +22040,14 @@ window.CONCURSOS = [
           "nota": "O edital ainda não fixou a data"
         },
         "detalhe": {
+          "duracao": "Consulte o edital do seu departamento",
           "arguicao": "Não há arguição",
           "sorteio": "Sim. Prazo mínimo de 24 horas entre o sorteio do tema e a exposição oral",
           "nota_minima": "70 em 100",
           "criterios": "Candidato que estiver ao mesmo tempo na lista de cota e na de ampla concorrência faz a prova didática uma única vez, e a nota vale para as duas listas",
           "plano_de_aula": "Exigido: entregues em até, no máximo, 1 (uma) hora antes do horário previsto para sua apresentação, mais envio digital em PDF, arquivo único, com tema sorteado, objetivos, conteúdo programático, metodologia, recursos didáticos, desenvolvimento da aula, avaliação da aprendizagem e referências utilizadas, quando cabível",
           "recursos": "Fornecidos: equipamentos de projeção. Proibidos: material impresso, manuscrito, quadro, pincel, equipamentos próprios, internet, aplicativos e arquivos não inseridos previamente no sistema",
-          "pontuacao": "100 pontos",
-          "duracao": "Consulte o edital do seu departamento"
+          "pontuacao": "100 pontos"
         }
       },
       {
@@ -22054,7 +22062,7 @@ window.CONCURSOS = [
       }
     ],
     "periodo_provas": {
-      "inicio": "2027-01-10",
+      "inicio": "2027-02-14",
       "fim": "2027-02-21"
     },
     "logo": "unimontes.png",
@@ -33454,13 +33462,13 @@ window.CONCURSOS = [
         "data": {
           "tipo": "periodo",
           "valor": "2026-11-17",
-          "fim": "2026-11-23",
-          "nota": "Datas por área: 04 (Multidisciplinar/Ensino/ Ensino de Ciências…): 23/11; 03 (Ciências Exatas e da Terra/ Matemática): 17/11; demais áreas: sem data (O cronograma de cada etapa do certame será publicado e atualizado na página do concurso)"
+          "fim": "2026-11-30",
+          "nota": "Datas por área: 04 (Multidisciplinar/Ensino/ Ensino de Ciências…): 23/11; 03 (Ciências Exatas e da Terra/ Matemática): 17/11; 05 (Ciências Exatas e da Terra/ Geociências/…): 30/11; demais áreas: sem data (O cronograma de cada etapa do certame será publicado e atualizado na página do concurso)"
         },
         "detalhe": {
+          "duracao": "Aula de no mínimo 40 e no máximo 50 minutos",
           "arguicao": "Facultativa, de até 15 minutos após a aula",
           "sorteio": "Sim. Ponto sorteado exatamente 24 horas antes do início da aula",
-          "duracao": "Aula de no mínimo 40 e no máximo 50 minutos",
           "nota_minima": "7,00 na nota da 2ª etapa. O edital não fixa mínimo isolado para a didática",
           "modalidade": "Presencial, em sessão pública"
         }
@@ -33470,9 +33478,10 @@ window.CONCURSOS = [
         "tipo": "memorial",
         "carater": "Eliminatória e classificatória",
         "data": {
-          "tipo": "exata",
-          "valor": "2026-11-23",
-          "nota": "Datas por área: 04 (Multidisciplinar/Ensino/ Ensino de Ciências…): 23/11; demais áreas: sem data (O cronograma de cada etapa do certame será publicado e atualizado na página do concurso)"
+          "tipo": "periodo",
+          "valor": "2026-11-17",
+          "fim": "2026-11-30",
+          "nota": "Datas por área: 04 (Multidisciplinar/Ensino/ Ensino de Ciências…): 23/11; 03 (Ciências Exatas e da Terra/ Matemática): 17/11; 05 (Ciências Exatas e da Terra/ Geociências/…): 30/11; demais áreas: sem data (O cronograma de cada etapa do certame será publicado e atualizado na página do concurso)"
         },
         "detalhe": {}
       },
@@ -34068,11 +34077,12 @@ window.CONCURSOS = [
           "nota": "O edital ainda não fixou a data"
         },
         "detalhe": {
+          "duracao": "Aula de 45 a 55 minutos",
           "arguicao": "Facultativa, de até 10 minutos por examinador, após a aula",
           "nota_minima": "7,0",
           "criterios": "10 pontos: 1. Aspectos Formais (2,0): Apresentação do Plano de Aula contendo… 0,5; 1. Aspectos Formais (2,0): Coerência entre objetivos, conteúdos… 1,0; 1. Aspectos Formais (2,0): Duração do tempo da aula mínimo de 45 min.… 0,5; 2. Aspectos Teóricos, Didáticos e Metodológicos (6,0): Utilização de… 1,0; 2. Aspectos Teóricos, Didáticos e Metodológicos (6,0): Exposição… 1,0; 2. Aspectos Teóricos, Didáticos e Metodológicos (6,0): Abordagem do… 1,0; 2. Aspectos Teóricos, Didáticos e Metodológicos (6,0): Adequação no… 1,0; 2. Aspectos Teóricos, Didáticos e Metodológicos (6,0): Explanação da… 1,0; 2. Aspectos Teóricos, Didáticos e Metodológicos (6,0): Formas e… 1,0; 3. Arguição (2,0): Defesa e argumento das ideias com coerência… 2,0",
           "plano_de_aula": "Três vias, entregues no início da prova. A não entrega elimina na hora",
-          "duracao": "Aula de 45 a 55 minutos",
+          "recursos": "O candidato pode usar recursos próprios (Os recursos utilizados pelo candidato, na prova didática, serão de sua total responsabilidade)",
           "sorteio": "Sim. Tema sorteado da lista, excluído o da prova escrita, e comum a todos os candidatos",
           "modalidade": "Prova pública, vedada a presença dos demais candidatos. Ordem pela inscrição"
         }
@@ -35080,11 +35090,11 @@ window.CONCURSOS = [
           "nota": "Cada edital específico tem data própria. FEELT 121 e 122 e ICENP 123 em 27/10; ICIAG 124 em 28/10; FACOM 120 e ICIAG 126 em 04/11; IME 119 em 10/11; ICIAG 125 em 11/11"
         },
         "detalhe": {
+          "duracao": "Aula de 40 a 50 minutos",
           "sorteio": "Sim. Ordem e tema sorteados em sessão pública, entre 24 e 36 horas antes da aula",
           "nota_minima": "70 pontos",
           "criterios": "6.11.6.1. plano de aula apresentado, considerados seu conteúdo…; 6.11.6.2. atuação didático-pedagógica com clareza na exposição e…; 6.11.6.3. desenvolvimento objetivo e articulado do tema sorteado para…; 6.11.6.4. respeito à norma padrão do idioma estabelecido pela Unidade…; 6.11.6.5. respeito à duração mínima de 40 (quarenta) e máxima de 50…; 6.11.6.6. adequada fundamentação teórica na abordagem do tema…; 6.11.6.7. cumprimento do plano de aula apresentado; e; 6.11.6.8. uso de variedade de métodos e técnicas de ensino",
           "plano_de_aula": "Entregue no dia da prova, antes do início",
-          "duracao": "Aula de 40 a 50 minutos",
           "arguicao": "Sim, até 30 minutos",
           "modalidade": "Presencial. Remota nos editais 121 (Teams) e 123 (ConferênciaWeb)"
         }
@@ -37381,13 +37391,13 @@ window.CONCURSOS = [
           "nota": "dia e local serão divulgados no endereço eletrônico https://www.unifal-mg.edu.br/dips/professor-do-magisterio-superior e, caso seja possível a realização da prova didática no dia seguinte à prova escrita, antes do início da prova escrita, será informado o horário"
         },
         "detalhe": {
+          "duracao": "Aula de 50 a 60 minutos. Quem não cumpre o intervalo zera o quesito de cumprimento de tempo",
           "arguicao": "Não há. O edital veda expressamente a interação do candidato com a banca e a arguição pela banca durante a aula",
           "sorteio": "O ponto da didática é sorteado logo após o sorteio da prova escrita, com no mínimo 24 horas de antecedência da apresentação. Se sair o mesmo ponto da escrita, faz-se novo sorteio",
           "nota_minima": "7,0",
           "criterios": "Quatro etapas de 10,0 pontos cada: prova escrita, prova didática, defesa de projeto e títulos. Regras lidas no Edital 111/2026; confirme o barema detalhado no edital da sua área",
           "plano_de_aula": "Obrigatório, em 3 a 5 vias impressas, conforme o número de membros titulares da banca. Entregue no sorteio da ordem de apresentação, lacrado e visado pela banca e pelo candidato. ATENÇÃO: no Edital 111/2026, de Língua Inglesa, o plano deve ser redigido EM INGLÊS",
           "recursos": "Fornecidos: equipamento (computador) disponibilizado pela própria instituição. Proibidos: notebook pessoal e aparelho eletrônico ou de comunicação (bip, telefone celular, relógio de qualquer tipo, mp3, ipod, agenda eletrônica, palmtop, receptor, gravador ou outros equipamentos similares), durante a realização das provas",
-          "duracao": "Aula de 50 a 60 minutos. Quem não cumpre o intervalo zera o quesito de cumprimento de tempo",
           "modalidade": "Presencial, em sessão pública, mas vedada a presença dos outros candidatos. Gravada em áudio e vídeo pela UNIFAL-MG. Ninguém mais pode gravar nem fazer anotações. A instituição fornece sala reservada e o candidato pode usar os recursos que quiser, próprios ou disponíveis"
         }
       },
@@ -37984,8 +37994,8 @@ window.CONCURSOS = [
         "data": {
           "tipo": "periodo",
           "valor": "2026-11-23",
-          "fim": "2026-12-11",
-          "nota": "Janela geral das provas. A data da sua área sai em 30/10"
+          "fim": "2026-12-07",
+          "nota": "Datas por área: 01 (Mercadologia): 30/11; 09 (Fisioterapia Traumato-Ortopédica e em…): 30/11; 27 (Fisiologia): 23/11; 14 (Clínica Médica (Medicina de Urgência e…): 07/12; 04 (Processamento de Sinais e Eletrônica): 30/11; 05 (Irrigação e Drenagem): 23/11; 02 (Teoria da Computação): 23/11; 22 (Odontopediatria): 30/11; 21 (Gastronomia): 23/11; 03 (Ciência da Computação): 07/12; 25 (Inspeção de Produtos de Origem Animal OU…): 30/11; 07 (Geotécnica OU Engenharia Hidráulica OU…): 30/11; 28 (História da Filosofia): 24/11; 17 (Psiquiatria): 01/12; 26 (Patologia Animal): 07/12; 16 (Medicina de Família e Comunidade): 30/11; 08 (Tecnologia e Utilização de Produtos…): 23/11; 10 (Meio Ambiente e Agrárias): 04/12; 11 (Políticas e Desenvolvimento Territorial): 30/11; 23 (Odontologia Social e Preventiva): 23/11; 20 (Terapia Ocupacional em Contextos Hospitalares): 07/12; 18 (Terapia Ocupacional - Ciência do Movimento…): 30/11; 19 (Terapia Ocupacional Social): 07/12; 12 (Economia Agrária e dos Recursos Naturais): 23/11; 06 (Saneamento Básico): 30/11; 15 (Radiologia e Diagnóstico por Imagem): 30/11; 24 (Clínica Veterinária): 30/11; 13 (Arquitetura e Urbanismo): 30/11"
         },
         "detalhe": {
           "duracao": "Até 4 horas, mais 30 minutos de consulta bibliográfica. Manuscrita"
@@ -38013,11 +38023,11 @@ window.CONCURSOS = [
           "nota": "Janela geral das provas fixada no edital. A data da sua área sai com a homologação das inscrições, em 30/10"
         },
         "detalhe": {
+          "duracao": "Mínimo de 40 e máximo de 50 minutos",
           "arguicao": "Sim, até 5 minutos por membro da banca",
           "sorteio": "Ponto sorteado 24 horas antes da aula",
           "criterios": "10 pontos: Plano de aula: Adequação do conteúdo ao ponto sorteado e ao nível do… 0,70; Plano de aula: Explicitação dos objetivos 0,30; Plano de aula: Adequação do conteúdo ao tempo disponível 0,30; Plano de aula: Adequação técnico-científica da bibliografia indicada 0,20; Desempenho do(a) candidato(a): Postura, espontaneidade, movimentação… 0,50; Desempenho do(a) candidato(a): Didática da exposição e… 1,50; Desempenho do(a) candidato(a): Uso de estratégias pedagógicas variadas 0,50; Desenvolvimento da aula: Coerência entre os objetivos previstos no… 0,70; Desenvolvimento da aula: Abordagem das ideias centrais do tema… 1,00; Desenvolvimento da aula: Domínio técnico do conteúdo, exatidão… 1,50; Desenvolvimento da aula: Preocupação em relacionar o conteúdo com… 1,00; Desenvolvimento da aula: Estrutura lógica na apresentação e uso… 0,80; Desenvolvimento da aula: Uso adequado de recursos audiovisuais 1,00; Observância do tempo determinado (40 a 50 minutos): 0,1 de desconto a… -1,00 (desconto máximo)",
           "plano_de_aula": "Obrigatório. Uma cópia para cada membro da banca, antes do início da aula",
-          "duracao": "Mínimo de 40 e máximo de 50 minutos",
           "nota_minima": "Não há nota mínima só para a didática. O que elimina é a Nota Final de Avaliação abaixo de 7,0",
           "modalidade": "Presencial, em sessão pública, gravada em áudio e vídeo"
         }
@@ -38133,10 +38143,10 @@ window.CONCURSOS = [
           "nota": "Cronograma oficial publicado em 30/08. Engenharias e Computação (DEC) em 23/09 às 8h. Ciências da Saúde (DCS) em 25/09, 26/09, 01/10 e 14/10, às 8h. Confirme a data da sua área no PDF do cronograma, porque a amarração por área no DCS precisa de leitura visual"
         },
         "detalhe": {
-          "arguicao": "Consulte o edital",
+          "duracao": "De 40 a 50 minutos. Menos de 40 minutos tem desconto na nota",
+          "arguicao": "Não há arguição",
           "criterios": "I Plano de aula: Clareza dos objetivos 2; I Plano de aula: Adequação dos objetivos ao conteúdo 2; I Plano de aula: Coerência na subdivisão do conteúdo 2; I Plano de aula: Adequação do conteúdo ao tempo disponível 2; I Plano de aula: Seleção apropriada e criativa de recursos didáticos 2; II Desenvolvimento da aula: Relação de continuidade entre o plano e o… 10; II Desenvolvimento da aula: Linguagem clara, correta e adequada ao… 10; II Desenvolvimento da aula: Abordagem teórico-metodológica do… 30; II Desenvolvimento da aula: Adequação do conteúdo em função do tempo… 10; II Desenvolvimento da aula: Estrutura da aula, evidenciando… 10; II Desenvolvimento da aula: Apresentação do professor: criatividade… 20",
           "plano_de_aula": "O concurso tem etapa própria de Plano de Trabalho, que não é plano de aula. A exigência de plano de aula não está publicada em fonte aberta",
-          "duracao": "Consulte o edital",
           "sorteio": "No mesmo dia da aula, imediatamente antes. Não há 24 horas de preparo",
           "nota_minima": "Consulte o edital",
           "modalidade": "Presencial. DEC em sala do Departamento de Engenharia e Computação, DCS na Sala de Multimeios 3103 do Pavilhão Jorge Amado"
@@ -38499,13 +38509,13 @@ window.CONCURSOS = [
           "fim": "2026-12-05"
         },
         "detalhe": {
+          "duracao": "Mínimo de 40 e máximo de 50 minutos",
           "arguicao": "Não há arguição na aula pública. A arguição existe só na defesa do memorial",
           "sorteio": "Cerca de 24 horas antes da apresentação, com variação máxima tolerável de 1 hora",
           "nota_minima": "7,00",
           "criterios": "10 pontos: 01. Objetivos: clareza, coerência e adequação ao tema 0,5; 02. Conteúdo: enfoque, atualidade e relevância 0,5; 03. Metodologia: adequação, inovação e criatividade 0,5; 04. Referências: atualidade, consistência e pertinência 0,5; 05. Segurança, domínio, relevância e profundidade do conteúdo 2,0; 06. Linguagem: adequação, fluência e expressão oral 2,0; 07. Articulação entre as ideias apresentadas 1,0; 08. Objetividade e organização 1,0; 09. Conformidade ao Plano de Aula apresentado 1,0; 10. Uso adequado de recursos didáticos 1,0",
           "plano_de_aula": "Obrigatório, em 3 vias, entregue imediatamente antes da aula. A ausência custa 2 pontos",
           "recursos": "Fornecidos: sala de aula, projetor multimídia (data show), computador portátil (notebook) e quadro branco",
-          "duracao": "Mínimo de 40 e máximo de 50 minutos",
           "modalidade": "Presencial em Salvador/BA, com gravação em áudio ou em áudio e vídeo"
         }
       },
@@ -38995,8 +39005,9 @@ window.CONCURSOS = [
           "nota": "O concurso deverá realizar-se no prazo de 30 (trinta) a 120 (cento e vinte) dias, a contar da data da publicação no Diário Oficial do Estado da aprovação das inscrições"
         },
         "detalhe": {
-          "arguicao": "Consulte o edital",
           "duracao": "Aula de 40 a 60 minutos",
+          "arguicao": "Sim, a critério da banca",
+          "recursos": "O candidato pode usar recursos próprios (II - o candidato poderá utilizar o material didático que julgar necessário;)",
           "sorteio": "Consulte o edital",
           "nota_minima": "Consulte o edital",
           "modalidade": "Presencial, na Faculdade de Medicina, em São Paulo",
@@ -39095,8 +39106,8 @@ window.CONCURSOS = [
           "nota": "Às 13h30, no Campus 1, Sala B-208. Sala alterada pela retificação de 24/09, antes era a D-201. A data foi fixada pela retificação de 28/08"
         },
         "detalhe": {
-          "arguicao": "Consulte o edital",
-          "plano_de_aula": "Consulte o edital",
+          "arguicao": "Sim",
+          "plano_de_aula": "Exigido: entregues no início da Prova Didática",
           "recursos": "Fornecidos: quadro com giz ou pincel e projetor multimídia",
           "duracao": "Consulte o edital",
           "sorteio": "Consulte o edital",
@@ -39257,12 +39268,12 @@ window.CONCURSOS = [
           "nota": "Turno 1 em 15/12 pela manhã, turno 2 em 15/12 à tarde, turno 3 em 16/12 pela manhã, turno 4 em 16/12 à tarde. Acesso fechado às 8h e às 14h"
         },
         "detalhe": {
+          "duracao": "Aula de 45 a 55 minutos. O presidente da banca encerra aos 56. Ficar fora do intervalo custa 0,5 da média da fase. O tempo de instalar o próprio equipamento conta dentro da aula",
           "arguicao": "Não há. Nem a banca nem o público podem arguir durante a aula",
           "sorteio": "24 horas antes do turno. O ponto da prova escrita é retirado do sorteio, e o tema é único para todos do mesmo turno",
           "criterios": "a) Conhecimento e domínio do conteúdo do ponto sorteado 3,0 (três inteiros); b) Capacidade adequada de expor ideias a respeito do ponto sorteado… 2,0 (dois inteiros); c) Atualização do conhecimento científico 1,5 (um inteiro vírgula cinco décimos); d) Metodologia objetiva e uso de recurso didático 1,5 (um inteiro vírgula cinco décimos); e) Coerência entre o Plano de Aula apresentado e o desenvolvimento da… 1,0 (um inteiro); f) Adequação da exposição ao tempo previsto 1,0 (um inteiro)",
           "plano_de_aula": "Obrigatório, em 4 vias entregues na sala de espera com assinatura de ata. Quem não entregar não tem acesso ao local da prova e é eliminado. Não há modelo fornecido",
           "recursos": "Fornecidos: lousa, marcador e apagador",
-          "duracao": "Aula de 45 a 55 minutos. O presidente da banca encerra aos 56. Ficar fora do intervalo custa 0,5 da média da fase. O tempo de instalar o próprio equipamento conta dentro da aula",
           "nota_minima": "7,00. Abaixo disso o candidato é reprovado no concurso",
           "modalidade": "Presencial, em sessão pública, gravada em áudio ou em áudio e vídeo. A UFRPE fornece apenas lousa, marcador e apagador. Qualquer outro recurso é por conta e risco do candidato"
         }
@@ -40403,9 +40414,9 @@ window.CONCURSOS = [
           "nota": "O edital ainda não fixou a data"
         },
         "detalhe": {
+          "duracao": "Aula teórica de nível de graduação, de 40 a 60 minutos. Fora desse intervalo a nota é ZERO na prova inteira. Não é desconto, é zero",
           "criterios": "10 pontos, avaliados pelos 3 membros: plano de aula 1,0, adequação ao nível de graduação 1,0, domínio teórico e conceitual 2,0, exatidão e atualidade 1,0, sequência lógica 1,0, clareza e objetividade 1,0, adequação da linguagem 1,0, capacidade de síntese 1,0 e uso dos recursos didáticos 1,0. Barema conferido nos Editais 112 e 88/2026, idênticos entre si",
           "plano_de_aula": "Obrigatório, entregue aos membros da banca no dia da aula, antes de ministrar. Não entregar zera o critério, que vale 1,0 dos 10 pontos",
-          "duracao": "Aula teórica de nível de graduação, de 40 a 60 minutos. Fora desse intervalo a nota é ZERO na prova inteira. Não é desconto, é zero",
           "sorteio": "O ponto é sorteado NO DIA DA PROVA ESCRITA, entre os pontos do edital, excluído o que caiu na escrita. Ou seja, o tema é conhecido com antecedência e o preparo acontece entre a escrita e a aula",
           "nota_minima": "Não há corte na didática, que é classificatória. O que elimina é a média abaixo de 7,0 na prova escrita, na primeira fase",
           "arguicao": "Não há arguição na aula. A arguição é do projeto de pesquisa e dos planos de graduação, pós-graduação e extensão, em prova separada de peso 1",
@@ -40801,8 +40812,8 @@ window.CONCURSOS = [
     "link_oficial": "https://inscricoes.unesp.br/",
     "inscricao": {
       "inicio": "2026-08-03",
-      "fim": "2026-10-22",
-      "situacao": "encerrada",
+      "fim": "2026-11-27",
+      "situacao": "aberta",
       "taxa": "R$ 286,00"
     },
     "etapas": [
@@ -40815,9 +40826,9 @@ window.CONCURSOS = [
           "nota": "O edital ainda não fixou a data"
         },
         "detalhe": {
+          "duracao": "Aula de 50 a 60 minutos",
           "criterios": "10 pontos: planejamento e organização da aula 2,0, domínio teórico e conceitual do tema 3,0, clareza expositiva 3,0 e bibliografia 2,0. Barema conferido nos Editais 138 e 444/2026",
           "plano_de_aula": "Obrigatório e ENVIADO NA INSCRIÇÃO, junto com a bibliografia, não no dia da aula",
-          "duracao": "Aula de 50 a 60 minutos",
           "sorteio": "NÃO HÁ SORTEIO. O próprio candidato indica o ponto ou assunto no ato da inscrição, escolhido do programa do concurso ou definido por ele, e já anexa o plano de aula e a bibliografia",
           "nota_minima": "Não há corte só na didática. A aprovação exige média final igual ou superior a 7,0, atribuída por pelo menos 3 dos 5 examinadores",
           "arguicao": "Não há arguição na aula. A arguição é do memorial, em prova separada de peso 1, com até 30 minutos por examinador e tempo igual de resposta",
@@ -41130,8 +41141,9 @@ window.CONCURSOS = [
           "nota": "no prazo de trinta a cento e vinte dias, a contar da data da publicação no Diário Oficial do Estado da aprovação das inscrições"
         },
         "detalhe": {
-          "arguicao": "Sim, arguição após a aula",
           "duracao": "Mínimo de 40 e máximo de 60 minutos",
+          "arguicao": "Sim, arguição após a aula",
+          "recursos": "O candidato pode usar recursos próprios (II - o candidato poderá utilizar o material didático que julgar necessário;)",
           "sorteio": "Consultar o edital",
           "nota_minima": "Nota final mínima 7, pela maioria dos examinadores",
           "modalidade": "Presencial, pública, em português ou inglês (escolha na inscrição)",
@@ -41240,8 +41252,9 @@ window.CONCURSOS = [
           "nota": "O concurso deverá realizar-se no prazo de trinta a cento e vinte dias, a contar da data da publicação no Diário Oficial do Estado da aprovação das inscrições"
         },
         "detalhe": {
-          "arguicao": "Consultar o edital",
-          "duracao": "Consultar o edital",
+          "duracao": "De 40 a 60 minutos. Menos de 40 minutos tem desconto na nota",
+          "arguicao": "Sim, a critério da banca",
+          "recursos": "O candidato pode usar recursos próprios (II - o candidato poderá utilizar o material didático que julgar necessário;)",
           "sorteio": "Consultar o edital",
           "nota_minima": "Consultar o edital",
           "modalidade": "Presencial, na Faculdade de Medicina, em São Paulo",
@@ -41332,7 +41345,7 @@ window.CONCURSOS = [
       "inicio": "2026-09-28",
       "fim": "2026-10-28",
       "situacao": "encerrada",
-      "taxa": "Consultar o edital"
+      "taxa": "de R$ 180,00 a R$ 220,00, conforme a área"
     },
     "etapas": [
       {
@@ -41355,6 +41368,7 @@ window.CONCURSOS = [
           "fim": "2027-03-21"
         },
         "detalhe": {
+          "duracao": "De 50 a 60 minutos. Menos de 50 minutos tem desconto na nota",
           "arguicao": "Sim",
           "nota_minima": "7 em 10",
           "criterios": "plano de aula (0,0 a 2,0 pontos): clareza na redação dos elementos do… 0,0 a 2,0 pontos; aspectos didático-metodológicos (0,0 a 5,0 pontos): relaciona o tema… 0,0 a 5,0 pontos; emprego apropriado dos recursos didáticos (0,0 a 1,0 pontos): utiliza… 0,0 a 1,0 pontos; arguição (0,0 a 2.0 pontos): contempla nas respostas os pontos… 0,0 a 2.0 pontos",
@@ -41471,13 +41485,13 @@ window.CONCURSOS = [
           "nota": "Pelo cronograma provisório (Anexo II): Grupo I em 30/11, podendo seguir em 01/12; Grupo II em 01/12, podendo seguir em 02/12; Grupo III em 02/12, podendo seguir em 03/12. Resultado preliminar em 02/12"
         },
         "detalhe": {
-          "arguicao": "",
+          "duracao": "Aula expositiva teórico-prática, de 40 a 60 minutos",
+          "arguicao": "Sim, por até 15 minutos, a critério da banca",
           "sorteio": "Ponto sorteado entre 9, excluído o que caiu na prova escrita, com no mínimo 24 horas de antecedência",
           "nota_minima": "7,0",
           "criterios": "1. Conteúdo: 1.1. Domínio 0 - 2,5 (Redação dada pela Resolução nº 98, de 22 de dezembro de 2023, do Consuni da Ufersa); 1. Conteúdo: 1.2. Profundidade 0 - 2,0; 1. Conteúdo: 1.3. Atualização 0 - 1,0; 2. Procedimento didático: 2.1. Planejamento e execução do plano* 0 - 1,0; 2. Procedimento didático: 2.2. Ordenamento lógico e emprego… 0 - 1,5 (Redação dada pela Resolução nº 98, de 22 de dezembro de 2023, do Consuni da Ufersa); 2. Procedimento didático: 2.3. Comunicação, linguística, correção… 0 - 1,0; 3. Requisitos pessoais: 3.1. Naturalidade, controle emocional e… 0 - 1,0",
           "plano_de_aula": "Três vias impressas, entregues à banca antes da apresentação",
           "recursos": "Fornecidos: data show, lousa e mesa. Proibidos: óculos escuros, relógio digital, boné/chapéu, calculadora, celular e qualquer outro material didático adicional",
-          "duracao": "Aula expositiva teórico-prática, de 40 a 60 minutos",
           "modalidade": "Presencial, gravada em áudio e vídeo"
         }
       },
@@ -41567,7 +41581,7 @@ window.CONCURSOS = [
       "inicio": "2026-10-04",
       "fim": "2026-10-13",
       "situacao": "encerrada",
-      "taxa": "Consultar o edital. O pedido de isenção da taxa vai de 28 a 30/09"
+      "taxa": "de R$ 290,00 a R$ 395,00, conforme a área"
     },
     "etapas": [
       {
@@ -41601,11 +41615,12 @@ window.CONCURSOS = [
           "fim": "2026-12-11"
         },
         "detalhe": {
-          "arguicao": "",
-          "sorteio": "Consultar o edital",
-          "nota_minima": "Consultar o edital",
-          "plano_de_aula": "Consultar o edital",
-          "duracao": "Consultar o edital",
+          "duracao": "De 45 a 50 minutos. Fora desse intervalo há desconto na nota",
+          "arguicao": "Não há arguição",
+          "sorteio": "Tema sorteado com 24 horas de antecedência",
+          "nota_minima": "7 em 10",
+          "plano_de_aula": "Exigido: entregues no início da prova didática",
+          "recursos": "Proibidos, no que couber (item 17.24): iPod, smartphone, telefone celular, agenda eletrônica, mais 10 itens da mesma lista, relógio de qualquer espécie, óculos escuros, acessórios de chapelaria, tais como chapéu, boné, gorro, lápis, lapiseira (grafite), corretor líquido e borracha. Os recursos didáticos que poderão ser utilizados na prova, bem como a responsabilidade por sua disponibilização, serão informados pela CCV na página do certame ou no respectivo ato de convocação",
           "modalidade": "Consultar o edital"
         }
       },
@@ -41733,8 +41748,8 @@ window.CONCURSOS = [
           "nota": "Datas previstas, de caráter estimativo, nas Instruções Específicas de cada área. Exemplos: Área 101.4 (Odontologia): 26/01; Área 101.18 (Química): 16/02"
         },
         "detalhe": {
-          "sorteio": "Tema sorteado em sessão pública, com no mínimo 24 horas de antecedência",
           "duracao": "De 40 a 50 minutos",
+          "sorteio": "Tema sorteado em sessão pública, com no mínimo 24 horas de antecedência",
           "nota_minima": "70 pontos",
           "arguicao": "Arguição da banca de até 15 minutos, já incluído o tempo de resposta",
           "modalidade": "Presencial, em sessão pública",
@@ -41839,6 +41854,7 @@ window.CONCURSOS = [
           "fim": "2027-04-11"
         },
         "detalhe": {
+          "duracao": "De 50 a 60 minutos. Menos de 50 minutos tem desconto na nota",
           "arguicao": "Sim",
           "nota_minima": "7 em 10",
           "criterios": "plano de aula (0,0 a 1,0 pontos): clareza na redação dos elementos do… 0,0 a 1,0 pontos; aspectos didático-metodológicos (0,0 a 6,0 pontos): relaciona o tema… 0,0 a 6,0 pontos; emprego apropriado dos recursos didáticos (0,0 a 1,0 pontos): utiliza… 0,0 a 1,0 pontos; arguição (0,0 a 2.0 pontos): contempla nas respostas os pontos… 0,0 a 2.0 pontos",
@@ -41953,6 +41969,7 @@ window.CONCURSOS = [
         },
         "detalhe": {
           "sorteio": "Tema sorteado 24 horas antes da apresentação, entre os 10 temas divulgados previamente",
+          "recursos": "O candidato pode usar recursos próprios (vedada a simples leitura do texto da aula, mas facultando-se, com prévia aprovação da Comissão Julgadora, o emprego de roteiros, apontamentos, tabelas, gráficos, dispositivos ou outros recursos pedagógicos utilizáveis na exposição)",
           "duracao": "Até 30 minutos",
           "nota_minima": "Nota igual ou superior a 7,0 de no mínimo 3 dos 5 examinadores",
           "arguicao": "A arguição é etapa separada, com peso 3, sobre pedagogia, conteúdo, plano de trabalho e currículo",
@@ -42026,7 +42043,7 @@ window.CONCURSOS = [
     "nivel": "EBTT",
     "uf": "SP",
     "numero_edital": "Edital nº 183/2026, publicado em 29/09/2026, com 3 documentos de alteração publicados depois",
-    "vagas": "45 vagas",
+    "vagas": "47 vagas",
     "areas": "10 áreas, entre elas Artes Cênicas, Design Gráfico, Educação Especial, Eletrônica e Energias",
     "campi": "São Paulo (capital), São José do Rio Preto, Jardim Ângela, São Miguel Paulista e Bauru",
     "titulacao": "Graduação",
@@ -42168,6 +42185,7 @@ window.CONCURSOS = [
           "fim": "2027-04-29"
         },
         "detalhe": {
+          "duracao": "De 40 a 50 minutos. Menos de 40 minutos tem desconto na nota",
           "arguicao": "Sim, por até 20 minutos",
           "criterios": "100 pontos: 1. Plano de Aula (10 pontos): Estrutura formal, organização, clareza… 5; 1. Plano de Aula (10 pontos): Adequação, clareza e pertinência dos… 5; 2. Introdução da Aula (15 pontos): Apresentação clara aos alunos… 5; 2. Introdução da Aula (15 pontos): Uso de aspectos motivacionais para… 4; 2. Introdução da Aula (15 pontos): Contextualização, referência e… 6; 3. Desenvolvimento (40 pontos): Segurança, exatidão conceitual e… 10; 3. Desenvolvimento (40 pontos): Organização lógica, estrutura… 10; 3. Desenvolvimento (40 pontos): Adequação do vocabulário geral e uso… 5; 3. Desenvolvimento (40 pontos): Abrangência, profundidade e estrita… 5; 3. Desenvolvimento (40 pontos): Utilização de exemplos práticos… 5; 3. Desenvolvimento (40 pontos): Pertinência dos recursos didáticos… 2,5; 3. Desenvolvimento (40 pontos): Habilidade no manuseio, utilização e… 2,5; 4. Finalização (17 pontos): Capacidade de síntese, fechamento das… 8; 4. Finalização (17 pontos): Adequação e clareza nos procedimentos de… 3; 4. Finalização (17 pontos): Cumprimento rigoroso das etapas… 3; 4. Finalização (17 pontos): Gestão e distribuição adequada do tempo… 3; 5. Conduta e Arguição (18 pontos): Autocontrole, equilíbrio… 5; 5. Conduta e Arguição (18 pontos): Qualidade da dicção, projeção e… 3,5; 5. Conduta e Arguição (18 pontos): Postura corporal adequada, uso do… 3,5; 5. Conduta e Arguição (18 pontos): Domínio técnico e clareza no… 6",
           "plano_de_aula": "Exigido: entregues conforme as datas constantes no Cronograma - Anexo I, com Objetivos e Referências bibliográficas",
@@ -42440,6 +42458,7 @@ window.CONCURSOS = [
           "fim": "2026-12-12"
         },
         "detalhe": {
+          "duracao": "De 40 a 50 minutos. Menos de 40 minutos elimina o candidato",
           "arguicao": "Não há arguição",
           "sorteio": "Tema sorteado com 24 horas de antecedência",
           "nota_minima": "7 em 10",
@@ -42850,10 +42869,9 @@ window.CONCURSOS = [
         "tipo": "discursiva",
         "carater": "Eliminatória e classificatória",
         "data": {
-          "tipo": "periodo",
+          "tipo": "exata",
           "valor": "2027-01-25",
-          "fim": "2027-01-29",
-          "nota": "Semana de provas de 25 a 29/01/2027. Cronograma prévio dos editais de área, que pode mudar durante o concurso: escrita na segunda, das 9h às 13h"
+          "nota": "Datas por área: Morfologia/ Anatomia humana (Área: Ciências Biológicas; Subárea…): 25/01; Farmacologia/ Farmacologia clínica (Área: Ciências Biológicas; Subárea…): 25/01; Saúde coletiva/ Saúde da família (Área: Ciências Da Saúde; Subárea: Saúde…): 25/01; demais áreas: sem data (no primeiro dia do concurso)"
         },
         "detalhe": {}
       },
@@ -42973,8 +42991,10 @@ window.CONCURSOS = [
           "nota": "Datas por área: Avaliação Nutricional e Nutrição Clínica (Avaliação Nutricional e Nutrição Clínica): 01/12 a 02/12; Fundamentos da Terapia Ocupacional, Atividades e Recursos Terapêuticos Ocupacionais (Fundamentos da Terapia Ocupacional…): 01/12 a 02/12; Práticas em Atenção Primária à Saúde/Semiologia Médica (Práticas em Atenção Primária à…): 24/11; Anatomia Humana e Cirurgia (Anatomia Humana e Cirurgia): 24/11; Medicina Baseada em Evidências, Epidemiologia e Pesquisa Clínica (Medicina Baseada em Evidências…): 17/11; Saúde da Mulher (Saúde da Mulher): 10/11; Métodos de Imagem (Métodos de Imagem): 10/11; Saúde da Criança (Saúde da Criança): 17/11; Psiquiatria (Psiquiatria): 10/11"
         },
         "detalhe": {
+          "duracao": "De 45 a 50 minutos. Menos de 45 minutos tem desconto na nota",
           "sorteio": "Tema sorteado com 24 horas de antecedência",
-          "criterios": "Domínio do Conteúdo Pontuação máxima: 6; Coerência entre o tema, os objetivos previstos no plano de aula e os… Pontuação máxima: 1; Desempenho didático e utilização adequada do tempo Pontuação máxima: 1; Comunicação, Clareza, Pertinência e Objetividade Pontuação máxima: 1; Estruturação do Plano de Aula Pontuação máxima: 1"
+          "criterios": "Domínio do Conteúdo Pontuação máxima: 6; Coerência entre o tema, os objetivos previstos no plano de aula e os… Pontuação máxima: 1; Desempenho didático e utilização adequada do tempo Pontuação máxima: 1; Comunicação, Clareza, Pertinência e Objetividade Pontuação máxima: 1; Estruturação do Plano de Aula Pontuação máxima: 1",
+          "recursos": "O candidato pode usar recursos próprios (Na prova didática, poderão ser utilizados, para apresentação e exposição de conteúdo, quaisquer recursos audiovisuais, competindo ao candidato providenciar, por seus próprios meios, a obtenção, instalação e manuseio do equipamento necessário)"
         }
       },
       {
@@ -43041,7 +43061,7 @@ window.CONCURSOS = [
     "inscricao": {
       "inicio": "2026-10-05",
       "fim": "2026-11-03",
-      "situacao": "aberta",
+      "situacao": "encerrada",
       "taxa": "R$ 345,78"
     },
     "etapas": [
@@ -43064,8 +43084,10 @@ window.CONCURSOS = [
           "nota": "no prazo de trinta a cento e vinte dias, a contar da data da publicação no Diário Oficial do Estado da aprovação das inscrições"
         },
         "detalhe": {
+          "duracao": "De 40 a 60 minutos. Menos de 40 minutos tem desconto na nota",
           "arguicao": "Sim, a critério da banca",
-          "sorteio": "Tema sorteado com 24 horas de antecedência"
+          "sorteio": "Tema sorteado com 24 horas de antecedência",
+          "recursos": "O candidato pode usar recursos próprios (IV - o candidato poderá utilizar o material didático que julgar necessário;)"
         }
       },
       {
@@ -43158,8 +43180,10 @@ window.CONCURSOS = [
           "valor": "2026-11-26"
         },
         "detalhe": {
+          "duracao": "De 50 a 60 minutos. Menos de 50 minutos elimina o candidato",
           "sorteio": "Tema sorteado com 24 horas de antecedência",
-          "nota_minima": "8 em 10"
+          "nota_minima": "8 em 10",
+          "recursos": "O candidato pode usar recursos próprios (Compete ao candidato providenciar os recursos audiovisuais que pretenda utilizar na prova de aula e que não sejam disponibilizados pela Unidade)"
         }
       },
       {
@@ -43246,8 +43270,10 @@ window.CONCURSOS = [
           "valor": "2026-12-02"
         },
         "detalhe": {
+          "duracao": "De 50 a 60 minutos. Menos de 50 minutos elimina o candidato",
           "sorteio": "Tema sorteado com 24 horas de antecedência",
-          "nota_minima": "8 em 10"
+          "nota_minima": "8 em 10",
+          "recursos": "O candidato pode usar recursos próprios (Compete ao candidato providenciar os recursos audiovisuais que pretenda utilizar na prova de aula e que não sejam disponibilizados pela Unidade)"
         }
       },
       {
@@ -43344,8 +43370,10 @@ window.CONCURSOS = [
           "valor": "2026-12-04"
         },
         "detalhe": {
+          "duracao": "De 50 a 60 minutos. Menos de 50 minutos elimina o candidato",
           "sorteio": "Tema sorteado com 24 horas de antecedência",
-          "nota_minima": "8 em 10"
+          "nota_minima": "8 em 10",
+          "recursos": "O candidato pode usar recursos próprios (Compete ao candidato providenciar os recursos audiovisuais que pretenda utilizar na prova de aula e que não sejam disponibilizados pela Unidade)"
         }
       },
       {
@@ -43452,8 +43480,10 @@ window.CONCURSOS = [
           "valor": "2026-12-10"
         },
         "detalhe": {
+          "duracao": "De 50 a 60 minutos. Menos de 50 minutos elimina o candidato",
           "sorteio": "Tema sorteado com 24 horas de antecedência",
-          "nota_minima": "7 em 10"
+          "nota_minima": "7 em 10",
+          "recursos": "O candidato pode usar recursos próprios (Compete ao candidato providenciar os recursos audiovisuais que pretenda utilizar na prova de aula e que não sejam disponibilizados pela Unidade)"
         }
       },
       {
@@ -43517,7 +43547,8 @@ window.CONCURSOS = [
     "inscricao": {
       "inicio": "2026-10-16",
       "fim": "2026-11-04",
-      "situacao": "aberta"
+      "situacao": "aberta",
+      "taxa": "de R$ 70,00 a R$ 240,00, conforme a área"
     },
     "etapas": [
       {
@@ -43543,6 +43574,7 @@ window.CONCURSOS = [
           "nota": "Datas por área: Educação Inclusiva (Educação Inclusiva): 17/02 a 18/02; Geografia (Geografia): 15/12 a 16/12; Pedagogia (Pedagogia): 03/02; Construções Rurais com ênfase em Ambiência de Precisão (Construções Rurais com ênfase em Ambiência…): 08/12; Economia Rural (Economia Rural): 08/12; Educação Musical e Estágio Supervisionado (Educação Musical e Estágio Supervisionado): 08/12; Percussão e Estágio Supervisionado em Percussão (Percussão e Estágio Supervisionado em…): 15/12; Produção de Bovinos de Corte e Melhoramento Genético Animal (Produção de Bovinos de Corte e Melhoramento…): 02/02; Teoria Econômica (Teoria Econômica): 26/01; Antropologias Indígenas, Negras e Afrodiaspóricas (Antropologias Indígenas, Negras e…): 28/01; Teoria Política e Instituições (Teoria Política e Instituições): 17/12; Educação, Comunicação e Mídias (Educação, Comunicação e Mídias): 09/12; Infância e Educação Infantil (Infância e Educação Infantil): 09/12; Enfermagem Fundamental (Enfermagem Fundamental): 08/12; Análises Clínicas: Hematologia (Análises Clínicas: Hematologia): 10/12; Tecnologias aplicadas à Gestão da Informação (Tecnologias aplicadas à Gestão da Informação): 15/12; Tecnologias Avançadas aplicadas ao Jornalismo (Tecnologias Avançadas aplicadas ao Jornalismo): 09/12; Ginecologia e Obstetrícia (Ginecologia e Obstetrícia): 07/12; Radiologia e Diagnóstico por Imagem (Radiologia e Diagnóstico por Imagem): 18/01; Semiologia/Introdução ao Método Clínico I, II, III e IV (Semiologia/Introdução ao Método Clínico I…): 21/12; Urologia (Urologia): 10/12; Farmacologia (Farmacologia): 16/02; Geopolítica e Geografia Política (Geopolítica e Geografia Política): 16/12; Engenharia Física com ênfase em Instrumentação Científica e Tecnológica (Engenharia Física com ênfase em…): 19/01; Física Experimental: Física de Materiais, Teranóstica ou Fotônica/Biofotônica (Física Experimental: Física de Materiais…): 26/01; Física Médica (Física Médica): 12/01; Ciências da Segurança (Ciências da Segurança): 08/12; Tecnologia da Informação (Tecnologia da Informação): 08/12; Ciência de Dados (Ciência de Dados): 16/12; Educação Matemática (Educação Matemática): 16/12; Estatística (Estatística): 16/12; Parasitologia (Parasitologia): 04/02; Gestão de Obras e Instalações Prediais (Gestão de Obras e Instalações Prediais): 16/12"
         },
         "detalhe": {
+          "duracao": "De 40 a 50 minutos. Menos de 40 minutos tem desconto na nota",
           "arguicao": "Sim, por até 20 minutos, a critério da banca",
           "sorteio": "Tema sorteado com 24 horas de antecedência"
         }
@@ -43635,6 +43667,7 @@ window.CONCURSOS = [
           "nota": "no dia, horário e local definidos pela Comissão correspondente e divulgados previamente (14.2); data, horário e local estabelecidos em documento específico, a ser divulgado posteriormente (14.11)"
         },
         "detalhe": {
+          "duracao": "De 40 a 50 minutos. Fora desse intervalo há desconto na nota",
           "arguicao": "Não há arguição",
           "nota_minima": "7 em 10",
           "criterios": "10 pontos: A - Plano de aula: 1 Clareza dos objetivos 0,2; A - Plano de aula: 2 Adequação dos objetivos ao conteúdo 0,2; A - Plano de aula: 3 Coerência na subdivisão do conteúdo 0,2; A - Plano de aula: 4 Adequação do conteúdo ao tempo disponível 0,2; A - Plano de aula: 5 Seleção apropriada do material didático 0,2; B - Desenvolvimento da aula: 1 Relação entre o plano e o… 1,0; B - Desenvolvimento da aula: 2 Linguagem clara, correta e adequação… 1,0; B - Desenvolvimento da aula: 3 Abordagem das ideias fundamentais do… 1,0; B - Desenvolvimento da aula: 4 Sequência lógica do conteúdo dissertado 1,0; B - Desenvolvimento da aula: 5 Articulação entre as ideias… 1,5; B - Desenvolvimento da aula: 6 Consistência teórica do conteúdo 1,5; B - Desenvolvimento da aula: 7 Uso adequado dos recursos didáticos 1,0; B - Desenvolvimento da aula: 8 Cumprimento do tempo estipulado (MIN… 1,0",
@@ -43737,6 +43770,7 @@ window.CONCURSOS = [
           "valor": "2027-01-26"
         },
         "detalhe": {
+          "duracao": "De 40 a 50 minutos. Menos de 40 minutos tem desconto na nota",
           "sorteio": "Tema sorteado com 24 horas de antecedência",
           "nota_minima": "70 em 100",
           "criterios": "6.11.6.1. plano de aula apresentado, considerados seu conteúdo…; 6.11.6.2. atuação didático-pedagógica com clareza na exposição e…; 6.11.6.3. desenvolvimento objetivo e articulado do tema sorteado para…; 6.11.6.4. respeito à norma padrão do idioma estabelecido pela Unidade…; 6.11.6.5. respeito à duração mínima de 40 (quarenta) e máxima de 50…; 6.11.6.6. adequada fundamentação teórica na abordagem do tema…; 6.11.6.7. cumprimento do plano de aula apresentado; e; 6.11.6.8. uso de variedade de métodos e técnicas de ensino",
@@ -43898,6 +43932,7 @@ window.CONCURSOS = [
           "nota": "O edital ainda não fixou a data"
         },
         "detalhe": {
+          "duracao": "De 40 a 60 minutos. Menos de 40 minutos tem desconto na nota",
           "criterios": "10 pontos: a) Plano de aula 1,0; b) Adequação ao tema e abordagem do assunto, nível de graduação 1,0; c) Domínio teórico e conceitual do assunto 2,0; d) Exatidão e atualidade das informações 1,0; e) Desenvolvimento sequencial do tema em ordem lógica 1,0; f) Clareza e objetividade na exposição do tema 1,0; g) Adequação da linguagem ao contexto de aula de graduação 1,0; h) Capacidade de síntese e abrangência 1,0; i) Utilização adequada dos recursos didáticos disponíveis 1,0",
           "plano_de_aula": "Exigido: entregues no dia da prova didática, em momento anterior à ministração da aula teórica pelo candidato"
         }
@@ -44006,7 +44041,8 @@ window.CONCURSOS = [
           "arguicao": "Sim, por até 30 minutos",
           "sorteio": "Tema sorteado com 24 horas de antecedência",
           "nota_minima": "70 em 100",
-          "plano_de_aula": "Exigido: entregues dentro do período de vinte e quatro horas contado imediatamente após o sorteio da Prova Didática, de acordo com o disposto no edital de convocação para esta prova"
+          "plano_de_aula": "Exigido: entregues dentro do período de vinte e quatro horas contado imediatamente após o sorteio da Prova Didática, de acordo com o disposto no edital de convocação para esta prova",
+          "recursos": "Quando a natureza da matéria o exigir, o candidato poderá recorrer a métodos audiovisuais ou práticos, necessários à exposição do assunto, desde que solicitado ao Presidente da Comissão Julgadora no dia do sorteio, que disponibilizará o recurso a todos os candidatos, ou o negará justificadamente"
         }
       },
       {
@@ -44526,8 +44562,10 @@ window.CONCURSOS = [
           "nota": "no prazo de trinta a cento e vinte dias, a contar da data da publicação no Diário Oficial do Estado da aprovação das inscrições"
         },
         "detalhe": {
+          "duracao": "De 40 a 60 minutos. Menos de 40 minutos tem desconto na nota",
           "arguicao": "Sim, a critério da banca",
-          "sorteio": "Tema sorteado com 24 horas de antecedência"
+          "sorteio": "Tema sorteado com 24 horas de antecedência",
+          "recursos": "O candidato pode usar recursos próprios (IV - o candidato poderá utilizar o material didático que julgar necessário;)"
         }
       },
       {
@@ -44597,7 +44635,8 @@ window.CONCURSOS = [
     "inscricao": {
       "inicio": "2026-11-03",
       "fim": "2026-11-17",
-      "situacao": "abre_em_breve"
+      "situacao": "aberta",
+      "taxa": "de R$ 160,00 a R$ 200,00, conforme a área. Pedido de isenção de 03/11 a 04/11"
     },
     "etapas": [
       {
@@ -44629,6 +44668,7 @@ window.CONCURSOS = [
           "nota": "em data e horário fixados no cronograma próprio de cada concurso, a ser divulgado no site da UFCSPA (provas a partir de 04/01/2027)"
         },
         "detalhe": {
+          "duracao": "De 45 a 60 minutos. Menos de 45 minutos tem desconto na nota",
           "sorteio": "Tema sorteado com 24 horas de antecedência",
           "criterios": "organização e adequação do plano de aula ao ponto sorteado;; capacidade de comunicação e clareza;; pertinência e objetividade;; profundidade, atualização e domínio do conteúdo;; tempo de duração da prova",
           "plano_de_aula": "Exigido: entregues competindo a cada candidato apresentá-lo durante a sua exposição",
@@ -44736,6 +44776,7 @@ window.CONCURSOS = [
           "fim": "2027-02-18"
         },
         "detalhe": {
+          "duracao": "De 40 a 50 minutos. Menos de 40 minutos tem desconto na nota",
           "arguicao": "Sim, por até 20 minutos, a critério da banca",
           "sorteio": "Tema sorteado com 24 horas de antecedência",
           "criterios": "10 pontos: Plano de Aula 1,0; Tempo de duração da aula 0,5; Fundamentação teórica, reflexão sobre a proposta pedagógica e domínio… 2,0; Apresentação, organização do pensamento e linguagem adequada ao tema 2,0; Adequação do conteúdo às práticas pedagógicas e atribuições do… 4,5",
@@ -44830,7 +44871,8 @@ window.CONCURSOS = [
           "duracao": "50 minutos, com tolerância de 10 para mais ou para menos",
           "arguicao": "Não há arguição",
           "sorteio": "Tema sorteado com 24 horas de antecedência",
-          "nota_minima": "70 em 100"
+          "nota_minima": "70 em 100",
+          "recursos": "Art. 17, §6º da Deliberação 270/2023 (redação da Deliberação 419/2026): o Departamento responsável pela vaga deverá determinar e divulgar os materiais, equipamentos e recursos tecnológicos fornecidos ou exigidos para a realização da prova didática, no endereço eletrônico oficial do concurso"
         }
       },
       {
@@ -44918,7 +44960,8 @@ window.CONCURSOS = [
           "sorteio": "Tema sorteado com 24 horas de antecedência",
           "nota_minima": "70 em 100",
           "criterios": "100 pontos: I. Plano de aula 5 pontos; II. Uso de linguagem técnico-científica adequada ao tema 5 pontos; III. Uso de recursos disponibilizados e adequação ao plano de aula 5 pontos; IV. Cumprimento do tempo de 50 minutos, com tolerância de 5 minutos… 5 pontos; V. Sequência e articulação das ideias (introdução, desenvolvimento e… 10 pontos; VI. Criatividade, assertividade, postura e capacidade de estimular e… 30 pontos; VII. Domínio do conteúdo 40 pontos",
-          "plano_de_aula": "Exigido: entregues dentro do período de vinte e quatro horas contado imediatamente após o sorteio da Prova Didática, de acordo com o disposto no edital de convocação para esta prova"
+          "plano_de_aula": "Exigido: entregues dentro do período de vinte e quatro horas contado imediatamente após o sorteio da Prova Didática, de acordo com o disposto no edital de convocação para esta prova",
+          "recursos": "Quando a natureza da matéria o exigir, o candidato poderá recorrer a métodos audiovisuais ou práticos, necessários à exposição do assunto, desde que solicitado ao Presidente da Comissão Julgadora no dia do sorteio, que disponibilizará o recurso a todos os candidatos, ou o negará justificadamente"
         }
       },
       {
