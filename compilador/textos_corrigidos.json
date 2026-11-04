@@ -1,112 +1,142 @@
 {
-  "ufsm-198-2026": [
-    {
-      "campo": "observacao",
-      "trocar": "A inscrição já fechou e a prova didática ainda não tem data. O período provável começa em 13/09, mas até 11/09 nenhum cronograma por área tinha saído, e o edital exige pelo menos 10 dias de aviso.",
-      "por": "Cada área tem cronograma próprio. A 2ª etapa (didática e defesa) começa em 17/11 em Matemática, em 23/11 em Ensino de Ciências e Matemática e, pela previsão do memorando, em 30/11 em Micrometeorologia. A instalação da 1ª etapa tem presença obrigatória, e quem falta ou chega atrasado é eliminado. Confira o cronograma da sua área.",
-      "evidencia": "Memorandos de início do concurso: DMTM 001/2026 (07/10, lotação 04, 2ª etapa prevista para 23/11), DMTM 002/2026 (09/10, lotação 03, 17/11) e DFSC 007/2026 (03/11, lotação 05, instalação em 16/11 às 8h e 2ª etapa prevista para 30/11); extração ufsm-198-2026, ev-0067 a ev-0105.",
-      "conferido_em": "2026-11-04"
-    }
-  ],
-  "ufpel-028-2026": [
-    {
-      "campo": "observacao",
-      "trocar": "e a data da sua área só aparece em 30/10, junto com a homologação",
-      "por": "e a data e a hora de cada área estão no formulário de homologação publicado em 30/10",
-      "evidencia": "Formulários de homologação das inscrições das 28 áreas, publicados em 30/10/2026, com data e hora das provas (extração ufpel-028-2026; liberação da Prova Escrita de 04/11/2026).",
-      "conferido_em": "2026-11-04"
-    },
-    {
-      "campo": "etapa:Prova Didática:nota",
-      "trocar": "A data da sua área sai com a homologação das inscrições, em 30/10",
-      "por": "A data e a hora da sua área estão no formulário de homologação publicado em 30/10",
-      "evidencia": "Formulários de homologação de 30/10/2026 (idem).",
-      "conferido_em": "2026-11-04"
-    }
-  ],
-  "unesp-assistente-2026": [
-    {
-      "campo": "observacao",
-      "trocar": "prazo próprio de inscrição, do dia 17/09 ao dia 13/10",
-      "por": "prazo próprio de inscrição, o último até 03/12/2026",
-      "evidencia": "Inscrição dos 8 editais do pacote na extração: o fim mais tardio é 03/12/2026, o que o site já mostra no período de inscrição.",
-      "conferido_em": "2026-11-04"
-    }
-  ],
-  "unesp-titular-2026": [
-    {
-      "campo": "observacao",
-      "trocar": "São 12 concursos independentes, com prazos de 16/09 a 22/10",
-      "por": "São 10 concursos independentes, cada um com prazo próprio, o último até 27/11/2026 (Edital 96/2026 FCF)",
-      "evidencia": "Pacote unesp-titular-2026 com 10 editais na extração; Edital 96/2026 FCF com inscrição até 27/11/2026 (liberado em 04/11/2026).",
-      "conferido_em": "2026-11-04"
-    }
-  ],
-  "uema-2026": [
-    {
-      "campo": "observacao",
-      "trocar": "acabou de voltar, em 04/09",
-      "por": "voltou em 04/09 e, até agora, não publicou o novo calendário",
-      "evidencia": "Nenhum documento novo com calendário no acervo da UEMA desde a retomada de 04/09/2026; pendências com prazo vencido desde 18/07 no relatório dos alertas.",
-      "conferido_em": "2026-11-04"
-    }
-  ],
-  "unifal-002-2026": [
-    {
-      "campo": "inscricao.taxa",
-      "trocar": "R$ 344,00 no Edital 111/2026. CADA EDITAL TEM PRAZO PRÓPRIO: o 111/2026 (Língua Inglesa) vai de 14/09 a 09/10/2026, das 8h às 18h. Confirme o seu na página do edital",
-      "por": "R$ 344,00 no Edital 111/2026 (Língua Inglesa). As inscrições já encerraram; cada edital teve prazo próprio",
-      "evidencia": "Edital 111/2026: inscrição de 14/09 a 09/10/2026, encerrada.",
-      "conferido_em": "2026-11-04"
-    }
-  ],
-  "ufsj-2026": [
-    {
-      "campo": "etapa:Prova escrita:nota",
-      "trocar": "A data exata de cada CPD sai em 16/10",
-      "por": "As datas por CPD deveriam ter saído em 16/10 e ainda não chegaram ao Radar; confira na página do concurso",
-      "evidencia": "Cronograma retificado de 25/08/2026: data de cada CPD em 16/10; nenhum documento novo no acervo da UFSJ depois de 17/09 (auditoria de 04/11/2026).",
-      "conferido_em": "2026-11-04"
-    },
-    {
-      "campo": "etapa:Prova didática:nota",
-      "trocar": "A data exata do seu CPD é confirmada em 16/10, com no mínimo 20 dias de antecedência",
-      "por": "As datas por CPD deveriam ter saído em 16/10, com no mínimo 20 dias de antecedência, e ainda não chegaram ao Radar; confira na página do concurso",
-      "evidencia": "Idem.",
-      "conferido_em": "2026-11-04"
-    }
-  ],
-  "ifmg-2026": [
-    {
-      "campo": "etapa:Prova de Desempenho Didático:sorteio",
-      "texto": "Tema sorteado no dia da prova objetiva (29/11/2026), único para todos da mesma área, em sessão pública com ata (itens 19.7 a 19.9)",
-      "evidencia": "Edital 607/2026, itens 19.7 (sorteio na data da Prova Objetiva), 19.8 (sessão com ata) e 19.9 (tema único por área); Prova Objetiva em 29/11/2026 pela Retificação 01.",
-      "conferido_em": "2026-11-04"
-    }
-  ],
-  "ifmt-03-2026": [
-    {
-      "campo": "etapa:Prova de títulos (PT):data",
-      "valor": {
-        "tipo": "exata",
-        "valor": "2026-12-04",
-        "nota": "Documentos enviados na inscrição, até 06/08/2026. Resultado preliminar da pontuação em 04/12/2026, recurso em 04 e 05/12 e resultado após recursos em 11/12 (Edital Retificador 05, de 26/10/2026)"
-      },
-      "evidencia": "Edital Retificador 05 (26/10/2026), LEIA-SE do cronograma: resultado preliminar da Prova de Títulos em 04/12/2026, recursos em 04 e 05/12, resultado após recursos em 11/12; títulos enviados na inscrição pelo seletivo.ifmt.edu.br.",
-      "conferido_em": "2026-11-04"
-    }
-  ],
-  "ifsuldeminas-188-2026": [
-    {
-      "campo": "etapa:Prova de Títulos:data",
-      "valor": {
-        "tipo": "periodo",
-        "valor": "2026-10-31",
-        "fim": "2026-12-13",
-        "nota": "Títulos entregues no dia da prova didática (item 8.2): 31/10 ou 01/11, conforme a área; na MCH-4 (Segurança do Trabalho), em 13/12 (Edital Complementar 227/2026)"
-      },
-      "evidencia": "Edital 188/2026 consolidado, item 8.2 e cronograma (Prova de Desempenho Didático e Entrega dos Títulos); datas da didática por área na extração; MCH-4 pelo Edital 227/2026.",
-      "conferido_em": "2026-11-04"
-    }
-  ]
+ "ufsm-198-2026": [
+  {
+   "campo": "observacao",
+   "trocar": "A inscrição já fechou e a prova didática ainda não tem data. O período provável começa em 13/09, mas até 11/09 nenhum cronograma por área tinha saído, e o edital exige pelo menos 10 dias de aviso.",
+   "por": "Cada área tem cronograma próprio. A 2ª etapa (didática e defesa) começa em 17/11 em Matemática, em 23/11 em Ensino de Ciências e Matemática e, pela previsão do memorando, em 30/11 em Micrometeorologia. A instalação da 1ª etapa tem presença obrigatória, e quem falta ou chega atrasado é eliminado. Confira o cronograma da sua área.",
+   "evidencia": "Memorandos de início do concurso: DMTM 001/2026 (07/10, lotação 04, 2ª etapa prevista para 23/11), DMTM 002/2026 (09/10, lotação 03, 17/11) e DFSC 007/2026 (03/11, lotação 05, instalação em 16/11 às 8h e 2ª etapa prevista para 30/11); extração ufsm-198-2026, ev-0067 a ev-0105.",
+   "conferido_em": "2026-11-04"
+  }
+ ],
+ "ufpel-028-2026": [
+  {
+   "campo": "observacao",
+   "trocar": "e a data da sua área só aparece em 30/10, junto com a homologação",
+   "por": "e a data e a hora de cada área estão no formulário de homologação publicado em 30/10",
+   "evidencia": "Formulários de homologação das inscrições das 28 áreas, publicados em 30/10/2026, com data e hora das provas (extração ufpel-028-2026; liberação da Prova Escrita de 04/11/2026).",
+   "conferido_em": "2026-11-04"
+  },
+  {
+   "campo": "etapa:Prova Didática:nota",
+   "trocar": "A data da sua área sai com a homologação das inscrições, em 30/10",
+   "por": "A data e a hora da sua área estão no formulário de homologação publicado em 30/10",
+   "evidencia": "Formulários de homologação de 30/10/2026 (idem).",
+   "conferido_em": "2026-11-04"
+  }
+ ],
+ "unesp-assistente-2026": [
+  {
+   "campo": "observacao",
+   "trocar": "prazo próprio de inscrição, do dia 17/09 ao dia 13/10",
+   "por": "prazo próprio de inscrição, o último até 03/12/2026",
+   "evidencia": "Inscrição dos 8 editais do pacote na extração: o fim mais tardio é 03/12/2026, o que o site já mostra no período de inscrição.",
+   "conferido_em": "2026-11-04"
+  }
+ ],
+ "unesp-titular-2026": [
+  {
+   "campo": "observacao",
+   "trocar": "São 12 concursos independentes, com prazos de 16/09 a 22/10",
+   "por": "São 10 concursos independentes, cada um com prazo próprio, o último até 27/11/2026 (Edital 96/2026 FCF)",
+   "evidencia": "Pacote unesp-titular-2026 com 10 editais na extração; Edital 96/2026 FCF com inscrição até 27/11/2026 (liberado em 04/11/2026).",
+   "conferido_em": "2026-11-04"
+  }
+ ],
+ "uema-2026": [
+  {
+   "campo": "observacao",
+   "trocar": "acabou de voltar, em 04/09",
+   "por": "voltou em 04/09 e, até agora, não publicou o novo calendário",
+   "evidencia": "Nenhum documento novo com calendário no acervo da UEMA desde a retomada de 04/09/2026; pendências com prazo vencido desde 18/07 no relatório dos alertas.",
+   "conferido_em": "2026-11-04"
+  },
+  {
+   "campo": "etapa:Prova escrita, com leitura pública:data",
+   "valor": {
+    "tipo": "nao_divulgada",
+    "nota": "Os editais da UEMA já publicaram, em outubro, os editais de realização com as datas, que o Radar ainda não leu por completo. Já conhecidas: Edital 139 (Caxias): leitura pública, prova escrita e sorteio do tema da didática em 09/11/2026. Nos demais editais, confira a data no edital de realização da sua área, na página do concurso."
+   },
+   "evidencia": "Portal concursoseseletivos.uema.br, página do Edital 139/2026-GR (Campus Caxias), cronograma lido em 04/11/2026; aviso da UEMA de 04/11/2026 'Retificação do tema sorteado para a prova didática, Edital 134/2026-GR' (prova em 06/11/2026 às 8h, CECEN, Psicologia do Ensino e da Aprendizagem), que cita os Editais de Realização 252 e Retificação 254/2026-GR. O vigia ainda não trouxe esses editais de realização.",
+   "conferido_em": "2026-11-04",
+   "expira_em": "2026-12-05"
+  },
+  {
+   "campo": "etapa:Prova didática:data",
+   "valor": {
+    "tipo": "nao_divulgada",
+    "nota": "Os editais da UEMA já publicaram, em outubro, os editais de realização com as datas, que o Radar ainda não leu por completo. Já conhecidas: Edital 134 (CECEN), Psicologia do Ensino e da Aprendizagem: 06/11/2026 às 8h, prédio do CECEN, Curso de Pedagogia, sala 1 (tema retificado em 04/11); Edital 139 (Caxias): 12/11/2026. Nos demais editais, confira a data no edital de realização da sua área, na página do concurso."
+   },
+   "evidencia": "Portal concursoseseletivos.uema.br, página do Edital 139/2026-GR (Campus Caxias), cronograma lido em 04/11/2026; aviso da UEMA de 04/11/2026 'Retificação do tema sorteado para a prova didática, Edital 134/2026-GR' (prova em 06/11/2026 às 8h, CECEN, Psicologia do Ensino e da Aprendizagem), que cita os Editais de Realização 252 e Retificação 254/2026-GR. O vigia ainda não trouxe esses editais de realização.",
+   "conferido_em": "2026-11-04",
+   "expira_em": "2026-12-05"
+  },
+  {
+   "campo": "etapa:Julgamento de títulos:data",
+   "valor": {
+    "tipo": "nao_divulgada",
+    "nota": "Os editais da UEMA já publicaram, em outubro, os editais de realização com as datas, que o Radar ainda não leu por completo. Já conhecidas: Edital 139 (Caxias): anexação da documentação do currículo de 06 a 08/11/2026. Nos demais editais, confira no edital de realização da sua área."
+   },
+   "evidencia": "Portal concursoseseletivos.uema.br, página do Edital 139/2026-GR (Campus Caxias), cronograma lido em 04/11/2026; aviso da UEMA de 04/11/2026 'Retificação do tema sorteado para a prova didática, Edital 134/2026-GR' (prova em 06/11/2026 às 8h, CECEN, Psicologia do Ensino e da Aprendizagem), que cita os Editais de Realização 252 e Retificação 254/2026-GR. O vigia ainda não trouxe esses editais de realização.",
+   "conferido_em": "2026-11-04",
+   "expira_em": "2026-12-05"
+  }
+ ],
+ "unifal-002-2026": [
+  {
+   "campo": "inscricao.taxa",
+   "trocar": "R$ 344,00 no Edital 111/2026. CADA EDITAL TEM PRAZO PRÓPRIO: o 111/2026 (Língua Inglesa) vai de 14/09 a 09/10/2026, das 8h às 18h. Confirme o seu na página do edital",
+   "por": "R$ 344,00 no Edital 111/2026 (Língua Inglesa). As inscrições já encerraram; cada edital teve prazo próprio",
+   "evidencia": "Edital 111/2026: inscrição de 14/09 a 09/10/2026, encerrada.",
+   "conferido_em": "2026-11-04"
+  }
+ ],
+ "ufsj-2026": [
+  {
+   "campo": "etapa:Prova escrita:nota",
+   "trocar": "A data exata de cada CPD sai em 16/10",
+   "por": "As datas por CPD deveriam ter saído em 16/10 e ainda não chegaram ao Radar; confira na página do concurso",
+   "evidencia": "Cronograma retificado de 25/08/2026: data de cada CPD em 16/10; nenhum documento novo no acervo da UFSJ depois de 17/09 (auditoria de 04/11/2026).",
+   "conferido_em": "2026-11-04"
+  },
+  {
+   "campo": "etapa:Prova didática:nota",
+   "trocar": "A data exata do seu CPD é confirmada em 16/10, com no mínimo 20 dias de antecedência",
+   "por": "As datas por CPD deveriam ter saído em 16/10, com no mínimo 20 dias de antecedência, e ainda não chegaram ao Radar; confira na página do concurso",
+   "evidencia": "Idem.",
+   "conferido_em": "2026-11-04"
+  }
+ ],
+ "ifmg-2026": [
+  {
+   "campo": "etapa:Prova de Desempenho Didático:sorteio",
+   "texto": "Tema sorteado no dia da prova objetiva (29/11/2026), único para todos da mesma área, em sessão pública com ata (itens 19.7 a 19.9)",
+   "evidencia": "Edital 607/2026, itens 19.7 (sorteio na data da Prova Objetiva), 19.8 (sessão com ata) e 19.9 (tema único por área); Prova Objetiva em 29/11/2026 pela Retificação 01.",
+   "conferido_em": "2026-11-04"
+  }
+ ],
+ "ifmt-03-2026": [
+  {
+   "campo": "etapa:Prova de títulos (PT):data",
+   "valor": {
+    "tipo": "exata",
+    "valor": "2026-12-04",
+    "nota": "Documentos enviados na inscrição, até 06/08/2026. Resultado preliminar da pontuação em 04/12/2026, recurso em 04 e 05/12 e resultado após recursos em 11/12 (Edital Retificador 05, de 26/10/2026)"
+   },
+   "evidencia": "Edital Retificador 05 (26/10/2026), LEIA-SE do cronograma: resultado preliminar da Prova de Títulos em 04/12/2026, recursos em 04 e 05/12, resultado após recursos em 11/12; títulos enviados na inscrição pelo seletivo.ifmt.edu.br.",
+   "conferido_em": "2026-11-04"
+  }
+ ],
+ "ifsuldeminas-188-2026": [
+  {
+   "campo": "etapa:Prova de Títulos:data",
+   "valor": {
+    "tipo": "periodo",
+    "valor": "2026-10-31",
+    "fim": "2026-12-13",
+    "nota": "Títulos entregues no dia da prova didática (item 8.2): 31/10 ou 01/11, conforme a área; na MCH-4 (Segurança do Trabalho), em 13/12 (Edital Complementar 227/2026)"
+   },
+   "evidencia": "Edital 188/2026 consolidado, item 8.2 e cronograma (Prova de Desempenho Didático e Entrega dos Títulos); datas da didática por área na extração; MCH-4 pelo Edital 227/2026.",
+   "conferido_em": "2026-11-04"
+  }
+ ]
 }
