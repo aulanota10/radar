@@ -83,7 +83,7 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2026-09-14",
           "fim": "2026-10-23",
-          "nota": "Datas por área: geral: 14/09 a 23/10; 268266 (Otoneurologia / Dispositivos Eletrônicos de…): 19/09; 267703 (Trompete): 21/09; 924708 (Doenças do Sistema Genitourinário): 21/09; 704339 (Endocrinologia e Metabologia): 22/09; 267823 (Paisagismo): 23/09; 270307 (Português Língua Estrangeira (PLE)): 17/09; 720982 (Fotografia Publicitária. Comunicação Visual.…): 21/09; 267710 (Paleografia, Arquivística e Patrimônio): 21/09; 267710 (Paleografia, Arquivística e Patrimônio): 23/09"
+          "nota": "Datas por área: geral: 14/09 a 23/10; 268266 (Otoneurologia / Dispositivos Eletrônicos de…): 19/09; 267703 (Trompete), 924708 (Doenças do Sistema Genitourinário) e 720982 (Fotografia Publicitária. Comunicação Visual.…): 21/09; 704339 (Endocrinologia e Metabologia) e 860518 (Literatura Inglesa e Língua Inglesa): 22/09; 267823 (Paisagismo): 23/09; 270307 (Português Língua Estrangeira (PLE)) e 704501 (Pesquisa Operacional e Engenharia Econômica): 17/09; 267710 (Paleografia, Arquivística e Patrimônio): 21/09 a 23/09"
         },
         "detalhe": {
           "duracao": "Aula de 50 a 60 minutos. A arguição encerra aos 60 minutos",
@@ -104,17 +104,7 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2026-09-14",
           "fim": "2026-10-23",
-          "nota": "Datas por área: geral: 14/09 a 23/10; 267703 (Trompete): 24/09; 924708 (Doenças do Sistema Genitourinário): 23/09; 704339 (Endocrinologia e Metabologia): 24/09; 268266 (Otoneurologia / Dispositivos Eletrônicos de…): 23/09; 267823 (Paisagismo): 27/09; 270307 (Português Língua Estrangeira (PLE)): 22/09; 720982 (Fotografia Publicitária. Comunicação Visual.…): 24/09; 267710 (Paleografia, Arquivística e Patrimônio): 28/09"
-        },
-        "detalhe": {}
-      },
-      {
-        "nome": "Defesa de Memorial e Projeto de Atuação Profissional",
-        "tipo": "outra",
-        "carater": "",
-        "data": {
-          "tipo": "nao_divulgada",
-          "nota": "Conforme data e horário especificados na ata da prova didática"
+          "nota": "Datas por área: geral: 14/09 a 23/10; 267703 (Trompete), 704339 (Endocrinologia e Metabologia) e 720982 (Fotografia Publicitária. Comunicação Visual.…): 24/09; 924708 (Doenças do Sistema Genitourinário) e 268266 (Otoneurologia / Dispositivos Eletrônicos de…): 23/09; 267823 (Paisagismo): 27/09; 270307 (Português Língua Estrangeira (PLE)) e 704501 (Pesquisa Operacional e Engenharia Econômica): 22/09; 267710 (Paleografia, Arquivística e Patrimônio) e 860518 (Literatura Inglesa e Língua Inglesa): 28/09"
         },
         "detalhe": {}
       },
@@ -126,7 +116,7 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2026-09-14",
           "fim": "2026-10-23",
-          "nota": "Datas por área: geral: 14/09 a 23/10; 267823 (Paisagismo): 30/09; 268266 (Otoneurologia / Dispositivos Eletrônicos de…): 27/09; 704339 (Endocrinologia e Metabologia): 01/10; 924708 (Doenças do Sistema Genitourinário): 28/09; 267703 (Trompete): 28/09"
+          "nota": "Datas por área: geral: 14/09 a 23/10; 267823 (Paisagismo): 30/09; 268266 (Otoneurologia / Dispositivos Eletrônicos de…): 27/09; 704339 (Endocrinologia e Metabologia), 720982 (Fotografia Publicitária. Comunicação Visual.…) e 860518 (Literatura Inglesa e Língua Inglesa): 01/10; 924708 (Doenças do Sistema Genitourinário), 267703 (Trompete) e 270307 (Português Língua Estrangeira (PLE)): 28/09; 704501 (Pesquisa Operacional e Engenharia Econômica): 25/09; 267710 (Paleografia, Arquivística e Patrimônio): 06/10"
         },
         "detalhe": {}
       },
@@ -1532,7 +1522,7 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2026-11-03",
           "fim": "2026-11-30",
-          "nota": "Datas por área: 1.2.7 (Educação, Subárea: Educação e Artes Visuais): 03/11; 1.2.12 (Língua Alemã, Literatura de Língua Alemã e…): 03/11; 1.2.13 (Linguística, Letras e Artes - Teatro…): 03/11; 1.2.1 (Antropologia, Subárea: Teoria Antropológica): 16/11; 1.2.10 (Farmacologia): 09/11; 1.2.14 (Medicina Interna, Subárea: Nefrologia): 09/11; 1.2.15 (Odontologia, Subárea: Cariologia ou…): 09/11; 1.2.8 (Educação, Subárea: Sociologia da Educação): 09/11; 1.2.4 (Ciências da Saúde/Medicina, Subárea…): 16/11; 1.2.5 (Direito, Subárea: Direito Internacional…): 16/11; 1.2.6 (Ecofisiologia e Manejo de Plantas de Lavoura): 24/11; 1.2.3 (Ciências Agrárias, Subárea: Entomologia…): 30/11; 1.2.2 (Arquitetura e Urbanismo, Subárea: Projeto…): 23/11; 1.2.9 (Engenharia, Subárea: Polímeros): 09/11; demais áreas: sem data (em prazo não inferior a 30 (trinta) dias, contados da data de publicação do presente Edital no Diário Oficial da União)"
+          "nota": "Datas por área: 1.2.7 (Educação, Subárea: Educação e Artes Visuais), 1.2.12 (Língua Alemã, Literatura de Língua Alemã e…) e 1.2.13 (Linguística, Letras e Artes - Teatro…): 03/11; 1.2.1 (Antropologia, Subárea: Teoria Antropológica), 1.2.4 (Ciências da Saúde/Medicina, Subárea…) e 1.2.5 (Direito, Subárea: Direito Internacional…): 16/11; 1.2.10 (Farmacologia), 1.2.14 (Medicina Interna, Subárea: Nefrologia), 1.2.15 (Odontologia, Subárea: Cariologia ou…), 1.2.8 (Educação, Subárea: Sociologia da Educação) e 1.2.9 (Engenharia, Subárea: Polímeros): 09/11; 1.2.6 (Ecofisiologia e Manejo de Plantas de Lavoura): 24/11; 1.2.3 (Ciências Agrárias, Subárea: Entomologia…): 30/11; 1.2.2 (Arquitetura e Urbanismo, Subárea: Projeto…): 23/11; demais áreas: sem data (em prazo não inferior a 30 (trinta) dias, contados da data de publicação do presente Edital no Diário Oficial da União)"
         },
         "detalhe": {
           "nota_minima": "7,0"
@@ -1588,7 +1578,7 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2026-11-09",
           "fim": "2026-12-11",
-          "nota": "Datas por área: 1.2.7 (Educação, Subárea: Educação e Artes Visuais): 09/11 a 10/11; 1.2.9 (Engenharia, Subárea: Polímeros): 17/11; 1.2.12 (Língua Alemã, Literatura de Língua Alemã e…): 09/11 a 10/11; 1.2.13 (Linguística, Letras e Artes - Teatro…): 10/11 a 11/11; 1.2.1 (Antropologia, Subárea: Teoria Antropológica): 23/11; 1.2.10 (Farmacologia): 23/11; 1.2.14 (Medicina Interna, Subárea: Nefrologia): 23/11 a 25/11; 1.2.15 (Odontologia, Subárea: Cariologia ou…): 02/12; 1.2.8 (Educação, Subárea: Sociologia da Educação): 23/11; 1.2.4 (Ciências da Saúde/Medicina, Subárea…): 24/11; 1.2.5 (Direito, Subárea: Direito Internacional…): 30/11 a 02/12; 1.2.6 (Ecofisiologia e Manejo de Plantas de Lavoura): 30/11; 1.2.3 (Ciências Agrárias, Subárea: Entomologia…): 09/12 a 10/12; 1.2.2 (Arquitetura e Urbanismo, Subárea: Projeto…): 08/12 a 11/12"
+          "nota": "Datas por área: 1.2.7 (Educação, Subárea: Educação e Artes Visuais) e 1.2.12 (Língua Alemã, Literatura de Língua Alemã e…): 09/11 a 10/11; 1.2.9 (Engenharia, Subárea: Polímeros): 17/11; 1.2.13 (Linguística, Letras e Artes - Teatro…): 10/11 a 11/11; 1.2.1 (Antropologia, Subárea: Teoria Antropológica), 1.2.10 (Farmacologia) e 1.2.8 (Educação, Subárea: Sociologia da Educação): 23/11; 1.2.14 (Medicina Interna, Subárea: Nefrologia): 23/11 a 25/11; 1.2.15 (Odontologia, Subárea: Cariologia ou…): 02/12; 1.2.4 (Ciências da Saúde/Medicina, Subárea…): 24/11; 1.2.5 (Direito, Subárea: Direito Internacional…): 30/11 a 02/12; 1.2.6 (Ecofisiologia e Manejo de Plantas de Lavoura): 30/11; 1.2.3 (Ciências Agrárias, Subárea: Entomologia…): 09/12 a 10/12; 1.2.2 (Arquitetura e Urbanismo, Subárea: Projeto…): 08/12 a 11/12"
         },
         "detalhe": {}
       },
@@ -1600,7 +1590,7 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2026-11-10",
           "fim": "2026-12-18",
-          "nota": "Datas por área: 1.2.7 (Educação, Subárea: Educação e Artes Visuais): 11/11; 1.2.9 (Engenharia, Subárea: Polímeros): 18/11; 1.2.12 (Língua Alemã, Literatura de Língua Alemã e…): 10/11 a 12/11; 1.2.13 (Linguística, Letras e Artes - Teatro…): 12/11 a 15/11; 1.2.1 (Antropologia, Subárea: Teoria Antropológica): 27/11 a 30/11; 1.2.10 (Farmacologia): 24/11 a 25/11; 1.2.14 (Medicina Interna, Subárea: Nefrologia): 24/11; 1.2.15 (Odontologia, Subárea: Cariologia ou…): 03/12 a 04/12; 1.2.8 (Educação, Subárea: Sociologia da Educação): 24/11 a 27/11; 1.2.4 (Ciências da Saúde/Medicina, Subárea…): 25/11 a 26/11; 1.2.5 (Direito, Subárea: Direito Internacional…): 01/12; 1.2.6 (Ecofisiologia e Manejo de Plantas de Lavoura): 03/12 a 04/12; 1.2.3 (Ciências Agrárias, Subárea: Entomologia…): 13/12 a 14/12; 1.2.2 (Arquitetura e Urbanismo, Subárea: Projeto…): 12/12 a 18/12"
+          "nota": "Datas por área: 1.2.7 (Educação, Subárea: Educação e Artes Visuais): 11/11; 1.2.9 (Engenharia, Subárea: Polímeros): 18/11; 1.2.12 (Língua Alemã, Literatura de Língua Alemã e…): 10/11 a 12/11; 1.2.13 (Linguística, Letras e Artes - Teatro…): 12/11 a 15/11; 1.2.1 (Antropologia, Subárea: Teoria Antropológica): 27/11 a 30/11; 1.2.10 (Farmacologia): 24/11 a 25/11; 1.2.14 (Medicina Interna, Subárea: Nefrologia): 24/11; 1.2.15 (Odontologia, Subárea: Cariologia ou…) e 1.2.6 (Ecofisiologia e Manejo de Plantas de Lavoura): 03/12 a 04/12; 1.2.8 (Educação, Subárea: Sociologia da Educação): 24/11 a 27/11; 1.2.4 (Ciências da Saúde/Medicina, Subárea…): 25/11 a 26/11; 1.2.5 (Direito, Subárea: Direito Internacional…): 01/12; 1.2.3 (Ciências Agrárias, Subárea: Entomologia…): 13/12 a 14/12; 1.2.2 (Arquitetura e Urbanismo, Subárea: Projeto…): 12/12 a 18/12"
         },
         "detalhe": {}
       }
@@ -7984,7 +7974,8 @@ window.CONCURSOS = [
         "carater": "",
         "data": {
           "tipo": "exata",
-          "valor": "2026-11-13"
+          "valor": "2026-11-13",
+          "nota": "Só nos editais Seleção 2026/224 e Seleção 2026/234. Datas por edital: Seleção 2026/234: 13/11; demais editais: sem data"
         },
         "detalhe": {}
       },
@@ -9394,7 +9385,7 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2026-10-20",
           "fim": "2026-10-22",
-          "nota": "Datas por área: MEDICINA DE FAMÍLIA E COMUNIDADE (Área: CIÊNCIAS DA SAÚDE; Subárea: MEDICINA…): 20/10; GINECOLOGIA E OBSTETRÍCIA (Área: CIÊNCIAS DA SAÚDE; Subárea…): 21/10; COMUNICAÇÃO OU MEDIAÇÃO CULTURAL OU LETRAS OU ARTES (Área: HUMANIDADES /CIÊNCIAS SOCIAIS…): 21/10; COMUNICAÇÃO OU MEDIAÇÃO CULTURAL OU LETRAS OU ARTES (Área: HUMANIDADES /CIÊNCIAS SOCIAIS…): 22/10"
+          "nota": "Datas por área: MEDICINA DE FAMÍLIA E COMUNIDADE (Área: CIÊNCIAS DA SAÚDE; Subárea: MEDICINA…): 20/10; GINECOLOGIA E OBSTETRÍCIA (Área: CIÊNCIAS DA SAÚDE; Subárea…): 21/10; COMUNICAÇÃO OU MEDIAÇÃO CULTURAL OU LETRAS OU ARTES (Área: HUMANIDADES /CIÊNCIAS SOCIAIS…): 21/10 a 22/10"
         },
         "detalhe": {}
       },
@@ -9674,7 +9665,8 @@ window.CONCURSOS = [
         "data": {
           "tipo": "periodo",
           "valor": "2026-11-08",
-          "fim": "2027-02-21"
+          "fim": "2027-02-21",
+          "nota": "Data provável, pelo edital"
         },
         "detalhe": {}
       },
@@ -9699,16 +9691,6 @@ window.CONCURSOS = [
         "data": {
           "tipo": "nao_divulgada",
           "nota": "O cronograma de cada etapa do certame será publicado e atualizado na página do concurso"
-        },
-        "detalhe": {}
-      },
-      {
-        "nome": "Prova de Defesa de Produção Intelectual",
-        "tipo": "outra",
-        "carater": "",
-        "data": {
-          "tipo": "nao_divulgada",
-          "nota": "O edital ainda não fixou a data"
         },
         "detalhe": {}
       },
@@ -10152,7 +10134,7 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2026-11-12",
           "fim": "2026-12-11",
-          "nota": "Janela provável das provas, fixada no cronograma retificado. A data exata de cada CPD sai em 16/10"
+          "nota": "Janela provável das provas, fixada no cronograma retificado. As datas por CPD deveriam ter saído em 16/10 e ainda não chegaram ao Radar; confira na página do concurso"
         },
         "detalhe": {}
       },
@@ -10163,7 +10145,8 @@ window.CONCURSOS = [
         "data": {
           "tipo": "periodo",
           "valor": "2026-11-12",
-          "fim": "2026-12-11"
+          "fim": "2026-12-11",
+          "nota": "Data provável, pelo edital"
         },
         "detalhe": {}
       },
@@ -10175,7 +10158,7 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2026-11-12",
           "fim": "2026-12-11",
-          "nota": "Janela provável das provas, fixada no cronograma retificado de 25/08. A data exata do seu CPD é confirmada em 16/10, com no mínimo 20 dias de antecedência"
+          "nota": "Janela provável das provas, fixada no cronograma retificado de 25/08. As datas por CPD deveriam ter saído em 16/10, com no mínimo 20 dias de antecedência, e ainda não chegaram ao Radar; confira na página do concurso"
         },
         "detalhe": {
           "duracao": "Aula expositiva de 40 a 50 minutos. Aos 45 minutos a banca avisa quanto falta",
@@ -10195,7 +10178,8 @@ window.CONCURSOS = [
         "data": {
           "tipo": "periodo",
           "valor": "2026-11-12",
-          "fim": "2026-12-11"
+          "fim": "2026-12-11",
+          "nota": "Data provável, pelo edital"
         },
         "detalhe": {}
       },
@@ -10206,7 +10190,8 @@ window.CONCURSOS = [
         "data": {
           "tipo": "periodo",
           "valor": "2026-11-12",
-          "fim": "2026-12-11"
+          "fim": "2026-12-11",
+          "nota": "Data provável, pelo edital"
         },
         "detalhe": {}
       },
@@ -10959,7 +10944,7 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2026-09-13",
           "fim": "2026-11-08",
-          "nota": "Datas por área: MUZ-1 (Zootecnia I - Avicultura de Corte e Postura…), IFS-1 (Zootecnia II - Suinocultura, Nutrição e…), MUZ-2 (Zootecnia II - Suinocultura, Nutrição e…), MCH-1 (Zootecnia III - Bioclimatologia e Animais…), MCH-2 (Zootecnia IV - Fisiologia Animal) e IFS-6 (Engenharia Agrícola): 13/09; IFS-5 (Educação Matemática), MCH-6 (Matemática), MCH-5 (Sociologia) e IFS-3 (Biologia I): 13/09; CDM-1 (Administração), IFS-2 (Informática), MCH-3 (Informática), MUZ-3 (Informática) e IFS-4 (Biologia II): 13/09; CDM-2 (Português/Espanhol) e IFS-7 (Atendimento Educacional Especializado): 13/09; MCH-4 (Segurança do Trabalho): 08/11"
+          "nota": "Datas por área: MUZ-1 (Zootecnia I - Avicultura de Corte e Postura…), IFS-1 (Zootecnia II - Suinocultura, Nutrição e…), MUZ-2 (Zootecnia II - Suinocultura, Nutrição e…), MCH-1 (Zootecnia III - Bioclimatologia e Animais…), MCH-2 (Zootecnia IV - Fisiologia Animal) e IFS-6 (Engenharia Agrícola), IFS-5 (Educação Matemática), MCH-6 (Matemática), MCH-5 (Sociologia) e IFS-3 (Biologia I), CDM-1 (Administração), IFS-2 (Informática), MCH-3 (Informática), MUZ-3 (Informática) e IFS-4 (Biologia II) e CDM-2 (Português/Espanhol) e IFS-7 (Atendimento Educacional Especializado): 13/09; MCH-4 (Segurança do Trabalho): 08/11"
         },
         "detalhe": {
           "questoes": "50 questões",
@@ -10992,15 +10977,15 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2026-10-31",
           "fim": "2026-12-13",
-          "nota": "Datas por área: CDM-1 (Administração), CDM-2 (Português/Espanhol), IFS-1 (Zootecnia II - Suinocultura, Nutrição e…), IFS-2 (Informática), IFS-3 (Biologia I), IFS-4 (Biologia II), IFS-5 (Educação Matemática), IFS-6 (Engenharia Agrícola), IFS-7 (Atendimento Educacional Especializado), MCH-1 (Zootecnia III - Bioclimatologia e Animais…), MCH-2 (Zootecnia IV - Fisiologia Animal), MCH-3 (Informática), MCH-5 (Sociologia), MCH-6 (Matemática), MUZ-1 (Zootecnia I - Avicultura de Corte e Postura…), MUZ-2 (Zootecnia II - Suinocultura, Nutrição e…) e MUZ-3 (Informática): 31/10 a 01/11; MCH-4 (Segurança do Trabalho): 13/12"
+          "nota": "Datas por área: MCH-4 (Segurança do Trabalho): 13/12; CDM-1 (Administração), CDM-2 (Português/Espanhol), MUZ-1 (Zootecnia I - Avicultura de Corte e Postura…), IFS-1 (Zootecnia II - Suinocultura, Nutrição e…), MCH-1 (Zootecnia III - Bioclimatologia e Animais…), MCH-2 (Zootecnia IV - Fisiologia Animal) e IFS-6 (Engenharia Agrícola): 31/10; MCH-5 (Sociologia): 31/10 a 01/11; IFS-3 (Biologia I), IFS-4 (Biologia II), IFS-7 (Atendimento Educacional Especializado), MUZ-2 (Zootecnia II - Suinocultura, Nutrição e…), IFS-2 (Informática), MCH-3 (Informática) e MUZ-3 (Informática), IFS-5 (Educação Matemática) e MCH-6 (Matemática): 01/11"
         },
         "detalhe": {
           "duracao": "Aula de 15 a 20 minutos, com arguição posterior de até 10 minutos",
           "arguicao": "Sim, até 10 minutos após a aula",
           "sorteio": "Sim. Tema sorteado 24 horas antes da apresentação",
           "criterios": "Planejamento, comunicação, domínio do conteúdo, metodologia de ensino, organização da aula, gestão do tempo e avaliação da aprendizagem",
-          "plano_de_aula": "Exigido: 4 vias (4 (quatro) vias assinadas), entregues antes do início da primeira apresentação do dia da banca correspondente. A entrega poderá ser feita por outro candidato mediante apresentação de procuração original simples., com nível de ensino a qual se destina a aula, ensino médio ou graduação e Objetivos",
-          "recursos": "Fornecidos: quadro branco, quadro verde, pincel, giz e apagador. Proibidos: datashow e outro equipamento de projeção",
+          "plano_de_aula": "Exigido: 3 vias (plano de aula em formato PDF, devidamente assinado, encaminhado por endereço eletrônico, e 3 (três) vias impressas e assinadas do mesmo plano de aula entregues à Banca Avaliadora no momento da apresentação), com nível de ensino a qual se destina a aula, ensino médio ou graduação e Objetivos. O PDF até o horário de encerramento do recebimento dos planos, uma hora antes do início da primeira apresentação do dia da respectiva Banca Avaliadora; as 3 vias impressas no momento da apresentação. O plano encaminhado no prazo é definitivo, sem substituição ou alteração depois do encerramento do prazo (7.17.1)",
+          "recursos": "Fornecidos: quadro branco ou verde, pincel ou giz e apagador. Proibidos: datashow e outro equipamento de projeção. O candidato pode usar recursos próprios (Os demais recursos de que o candidato pretenda fazer uso durante a aula deverão ser por ele mesmo providenciados e reproduzidos sob sua responsabilidade). A instalação de recursos eletrônicos ou pedagógicos deverá ser realizada pelo próprio candidato (7.20). A Prova de Desempenho Didático será gravada em áudio e vídeo para efeito de registro e avaliação, sendo permitida somente a presença do candidato, da banca e de um servidor que fará a filmagem (7.16)",
           "nota_minima": "60 pontos (abaixo disso, elimina)",
           "modalidade": "Presencial em Pouso Alegre/MG (remota apenas em caso de força maior)",
           "ordem": "A ordem de apresentação segue a classificação na prova objetiva"
@@ -11011,8 +10996,10 @@ window.CONCURSOS = [
         "tipo": "titulos",
         "carater": "Classificatória",
         "data": {
-          "tipo": "exata",
-          "valor": "2026-12-13"
+          "tipo": "periodo",
+          "valor": "2026-10-31",
+          "fim": "2026-12-13",
+          "nota": "Títulos entregues no dia da prova didática (item 8.2): 31/10 ou 01/11, conforme a área; na MCH-4 (Segurança do Trabalho), em 13/12 (Edital Complementar 227/2026)"
         },
         "detalhe": {
           "criterios": "Títulos acadêmicos, experiência profissional na área e experiência docente (máx. 100 pontos)"
@@ -11025,7 +11012,8 @@ window.CONCURSOS = [
         "data": {
           "tipo": "periodo",
           "valor": "2026-12-10",
-          "fim": "2026-12-30"
+          "fim": "2026-12-30",
+          "nota": "Datas por área: CDM-1 (Administração), CDM-2 (Português/Espanhol), IFS-1 (Zootecnia II - Suinocultura, Nutrição e…), IFS-2 (Informática), IFS-3 (Biologia I), IFS-4 (Biologia II), IFS-5 (Educação Matemática), IFS-6 (Engenharia Agrícola), IFS-7 (Atendimento Educacional Especializado), MCH-1 (Zootecnia III - Bioclimatologia e Animais…), MCH-2 (Zootecnia IV - Fisiologia Animal), MCH-3 (Informática), MCH-5 (Sociologia), MCH-6 (Matemática), MUZ-1 (Zootecnia I - Avicultura de Corte e Postura…), MUZ-2 (Zootecnia II - Suinocultura, Nutrição e…) e MUZ-3 (Informática): 10/12; MCH-4 (Segurança do Trabalho): 30/12"
         },
         "detalhe": {}
       }
@@ -11775,9 +11763,9 @@ window.CONCURSOS = [
           "fim": "2026-11-28"
         },
         "detalhe": {
-          "duracao": "Consulte o Anexo I do edital consolidado",
+          "duracao": "35 minutos",
           "arguicao": "Sim, por até 15 minutos",
-          "sorteio": "Consulte o item 8 do edital consolidado",
+          "sorteio": "Tema sorteado com 24 horas de antecedência",
           "criterios": "100 pontos: 01 - PLANO DE AULA A elaboração do plano de aula apresenta objetivos… 10; 02 - INTRODUÇÃO Observa se a aula foi introduzida com criatividade… 10; 03 - CONHECIMENTO/SABERES A apresentação do conhecimento foi… 30; 04 - PROCEDIMENTOS METODOLÓGICOS A metodologia (procedimentos da ação… 30; 05 - RECURSOS DIDÁTICOS Os recursos didáticos utilizados foram… 10; 06 - SÍNTESE Conseguiu realizar o fechamento da aula respeitando o… 05; 07 - AVALIAÇÃO Realizou as atividades de avaliação da aprendizagem de… 05",
           "plano_de_aula": "Exigido: 3 vias (3 (três) vias do Plano de Aula devidamente assinadas), entregues Antes do início da prova, com objetivos, conteúdos, metodologia, recursos didáticos, atividades, avaliação, referenciais, introdução, desenvolvimento e fechamento da aula, com a respectiva distribuição do tempo",
           "recursos": "Fornecidos: quadro de giz, giz e apagador; ou quadro branco, pincel e apagador. Proibidos: fita adesiva transparente ou similar para fixação de cartazes e perfurações nas salas de apresentação. O candidato pode usar recursos próprios (A critério da pessoa candidata, poderão ser utilizados cartazes, projetor multimídia e outros recursos didáticos durante sua apresentação). Ficam sob responsabilidade da pessoa candidata todos os materiais necessários ao uso desses recursos (equipamentos eletrônicos, fita crepe, cordas, fontes de energia, extensões); a FAURGS não se responsabiliza pela instalação, funcionamento ou conexão de equipamentos; o celular fica desligado ou em modo avião sobre a…",
@@ -14385,14 +14373,14 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2026-11-06",
           "fim": "2026-11-08",
-          "nota": "Datas por área: 01 (Administração): 06/11 a 07/11; 02 (Informática): 06/11; 03 (Informática): 06/11; 06 (Física): 07/11 a 08/11; 07 (Física): 07/11 a 08/11; 08 (Matemática): 06/11 a 07/11; 09 (Matemática): 06/11 a 07/11; 10 (Matemática): 06/11 a 08/11; 11 (Manutenção de Aeronaves): 06/11; 13 (Medicina Veterinária - Clínica médica e…): 08/11; 14 (Português/Espanhol): 06/11 a 08/11; 15 (Português/Espanhol): 06/11 a 08/11; 16 (Química): 07/11 a 08/11; 17 (Química): 07/11 a 08/11; 18 (Zootecnia): 07/11; 19 (Zootecnia): 07/11; 12 (Medicina Veterinária - Clínica médica e…): 07/11; 16 (Química): 08/11; geral: 06/11 a 08/11"
+          "nota": "Datas por área: 01 (Administração), 08 (Matemática) e 09 (Matemática): 06/11 a 07/11; 02 (Informática), 03 (Informática) e 11 (Manutenção de Aeronaves): 06/11; 06 (Física), 07 (Física), 16 (Química) e 17 (Química): 07/11 a 08/11; 10 (Matemática), 14 (Português/Espanhol), 15 (Português/Espanhol) e geral: 06/11 a 08/11; 13 (Medicina Veterinária - Clínica médica e…): 08/11; 18 (Zootecnia), 19 (Zootecnia) e 12 (Medicina Veterinária - Clínica médica e…): 07/11"
         },
         "detalhe": {
           "duracao": "Aula de 30 a 35 minutos, com tolerância de 1 minuto. Fora do intervalo, zera o critério Gestão do tempo, que vale 5 pontos e não tem meio-termo, é 0 ou 5. Para Português/Espanhol são DUAS aulas de 30 a 35 minutos, uma em cada língua",
           "nota_minima": "65 pontos na prova de desempenho didático. Abaixo disso é eliminação. Para ser convocado à aula é preciso ter feito ao menos 70 pontos na objetiva, dentro do limite de 20 convocados por vaga",
           "criterios": "100 pontos: Plano de Aula 10, Desenvolvimento da Aula 70 (domínio de conteúdo vale 20, o maior peso isolado) e Metodologia 15. A banca avalia expressamente a coerência entre o plano entregue e a aula executada",
           "plano_de_aula": "Obrigatório, em 3 vias impressas, entregues à banca ANTES do início da aula. Não vale formato digital. Quem não entrega zera todos os itens ligados ao plano. Deve conter ementa com o ponto sorteado, título, público, objetivos, metodologia, forma de avaliação e referências. Plano ou aula com tema diferente do sorteado elimina o candidato",
-          "recursos": "Fornecidos: giz, pincel, quadro de giz e quadro branco. Proibidos: bip, telefone celular, smartwatch, smartphone, walkman, agenda eletrônica, receptor, gravador, relógios digitais e equipamentos institucionais",
+          "recursos": "Fornecidos: giz ou pincel e quadro de giz ou branco. Proibidos: bip, telefone celular, smartwatch, smartphone, mais 5 itens da mesma lista e equipamentos institucionais. O candidato pode usar recursos próprios (Caso o candidato queira usar equipamentos próprios, terá 5 (cinco) minutos antes do início da aula e no máximo 3 (três) minutos após o seu término para a instalação e desinstalação de equipamentos). Em caso de falta de energia elétrica, independente de responsabilidade do IFMT, a banca aguardará até 15 (quinze) minutos; após esse prazo, será dado prosseguimento a prova, mesmo sem os recursos que necessitem energia elétrica",
           "sorteio": "Tema sorteado em 14/10 às 14h30, comum a TODOS os candidatos da mesma área, qualquer que seja o dia da sua aula. O Anexo XVI já publica os 5 temas possíveis de cada área, então dá para preparar as cinco aulas antes do sorteio",
           "arguicao": "Não há arguição",
           "modalidade": "Presencial, gravada em áudio e vídeo, com a gravação usada só pela banca em caso de recurso e nunca entregue ao candidato. Sessão pública, mas candidatos à mesma vaga não podem assistir uns aos outros. O IFMT fornece apenas giz ou pincel e quadro. Qualquer outro recurso é do candidato, com 5 minutos para montar e 3 para desmontar, e o que passar disso vira tempo de aula"
@@ -14403,8 +14391,9 @@ window.CONCURSOS = [
         "tipo": "titulos",
         "carater": "Classificatória",
         "data": {
-          "tipo": "nao_divulgada",
-          "nota": "O edital ainda não fixou a data"
+          "tipo": "exata",
+          "valor": "2026-12-04",
+          "nota": "Documentos enviados na inscrição, até 06/08/2026. Resultado preliminar da pontuação em 04/12/2026, recurso em 04 e 05/12 e resultado após recursos em 11/12 (Edital Retificador 05, de 26/10/2026)"
         },
         "detalhe": {
           "criterios": "Envio em ambiente virtual pelo sistema seletivo.ifmt.edu.br, durante a inscrição"
@@ -17880,7 +17869,7 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2026-09-21",
           "fim": "2026-11-03",
-          "nota": "Datas por área: 16 (Filosofia/Ensino de Filosofia): 06/10; 17 (Sociologia/Sociologia das desigualdades…): 15/10; 22 (Sistema de informação gerencial aplicado à…): 03/11; 26 (Perspectivas indígenas nas artes): 15/10; 02 (Enfermagem no Cuidado à Saúde da Mulher na…): 28/09; 03 (Fundamentos de Enfermagem no Cuidado…) e 04 (Gestão e Educação Permanente em Saúde e…): 21/09; 24 (Geofísica Aplicada): 26/10; 25 (Partículas e Campos: Física da Interação…): 02/11; 06 (Geotecnia): 26/10; 14 (Educação, Gênero e Sexualidades): 06/10; 10 (Pesquisa Operacional e Ciência de Dados): 03/11; 21 (Patologia): 26/10; 20 (Psiquiatria): 13/10; 18 (MED D99 - Clínica Cirúrgica I - Bases da…): 29/10; 19 (MEDE09 - Cirurgia Torácica e Cardiovascular): 30/10; 05 (Extensão Rural): 26/10; 01 (Gestão da Produção e Métodos Quantitativos): 13/10; 15 (Arte e Educação): 19/10; 27 (Química Analítica: Eletroanalítica): 19/10; 12 (Contabilidade e Direito): 27/10; 13 (Contabilidade Pública): 03/11; 36 (Engenharia de Transportes - Planejamento de…): 05/10; 37 (Geodésia e Topografia): 26/10; 08 (Transporte/Infraestrutura de Transporte): 13/10; 09 (Eletrotécnica): 19/10; 07 (Materiais de Construção): 21/09; 11 (Engenharia de Controle e Automação): 26/10"
+          "nota": "Datas por área: 16 (Filosofia/Ensino de Filosofia) e 14 (Educação, Gênero e Sexualidades): 06/10; 22 (Sistema de informação gerencial aplicado à…), 10 (Pesquisa Operacional e Ciência de Dados) e 13 (Contabilidade Pública): 03/11; 02 (Enfermagem no Cuidado à Saúde da Mulher na…): 28/09; 03 (Fundamentos de Enfermagem no Cuidado…) e 04 (Gestão e Educação Permanente em Saúde e…) e 07 (Materiais de Construção): 21/09; 24 (Geofísica Aplicada), 06 (Geotecnia), 21 (Patologia), 05 (Extensão Rural) e 37 (Geodésia e Topografia): 26/10; 25 (Partículas e Campos: Física da Interação…): 02/11; 20 (Psiquiatria), 01 (Gestão da Produção e Métodos Quantitativos) e 08 (Transporte/Infraestrutura de Transporte): 13/10; 18 (MED D99 - Clínica Cirúrgica I - Bases da…): 29/10; 19 (MEDE09 - Cirurgia Torácica e Cardiovascular): 30/10; 15 (Arte e Educação), 09 (Eletrotécnica) e 27 (Química Analítica: Eletroanalítica): 19/10; 12 (Contabilidade e Direito): 27/10; 36 (Engenharia de Transportes - Planejamento de…): 05/10; 26 (Perspectivas indígenas nas artes) e 17 (Sociologia/Sociologia das desigualdades…): 15/10; demais áreas: sem data (em datas a serem divulgadas, com antecedência mínima de 30 (trinta) dias da realização das Provas, através do endereço www.concursos.ufba.br/docentes, respeitando-se o período de 03/09/2026 a 06/11/2026)"
         },
         "detalhe": {
           "formato": "Avalia competência técnica, capacidade analítica e expressão escrita",
@@ -17896,7 +17885,7 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2026-09-23",
           "fim": "2026-11-05",
-          "nota": "Datas por área: 26 (Perspectivas indígenas nas artes): 20/10; 02 (Enfermagem no Cuidado à Saúde da Mulher na…): 19/10; 03 (Fundamentos de Enfermagem no Cuidado…) e 04 (Gestão e Educação Permanente em Saúde e…): 19/10; 06 (Geotecnia): 27/10 a 28/10; 10 (Pesquisa Operacional e Ciência de Dados): 04/11 a 05/11; 21 (Patologia): 27/10; 20 (Psiquiatria): 14/10 a 15/10; 18 (MED D99 - Clínica Cirúrgica I - Bases da…): 30/10; 19 (MEDE09 - Cirurgia Torácica e Cardiovascular): 31/10; 27 (Química Analítica: Eletroanalítica): 21/10; 36 (Engenharia de Transportes - Planejamento de…): 06/10 a 08/10; 37 (Geodésia e Topografia): 27/10 a 28/10; 08 (Transporte/Infraestrutura de Transporte): 14/10 a 15/10; 07 (Materiais de Construção): 23/09; 11 (Engenharia de Controle e Automação): 27/10 a 28/10"
+          "nota": "Datas por área: 03 (Fundamentos de Enfermagem no Cuidado…) e 04 (Gestão e Educação Permanente em Saúde e…), 03 (Fundamentos de Enfermagem no Cuidado…), 02 (Enfermagem no Cuidado à Saúde da Mulher na…) e 26 (Perspectivas indígenas nas artes): 19/10; 10 (Pesquisa Operacional e Ciência de Dados): 04/11 a 05/11; 21 (Patologia), 37 (Geodésia e Topografia) e 06 (Geotecnia): 27/10; 20 (Psiquiatria) e 08 (Transporte/Infraestrutura de Transporte): 14/10 a 15/10; 18 (MED D99 - Clínica Cirúrgica I - Bases da…): 30/10; 19 (MEDE09 - Cirurgia Torácica e Cardiovascular): 31/10; 07 (Materiais de Construção): 23/09; 36 (Engenharia de Transportes - Planejamento de…): 06/10; 04 (Gestão e Educação Permanente em Saúde e…) e 17 (Sociologia/Sociologia das desigualdades…): 19/10 a 20/10; 27 (Química Analítica: Eletroanalítica): 21/10; 09 (Eletrotécnica): 20/10; 11 (Engenharia de Controle e Automação): 27/10 a 28/10; demais áreas: sem data (em datas a serem divulgadas, com antecedência mínima de 30 (trinta) dias da realização das Provas, através do endereço www.concursos.ufba.br/docentes, respeitando-se o período de 03/09/2026 a 06/11/2026)"
         },
         "detalhe": {
           "duracao": "Aula de 50 a 60 minutos. Sair do intervalo não anula a prova nem desclassifica por si só, mas é levado em conta pela banca na avaliação",
@@ -17916,7 +17905,7 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2026-09-24",
           "fim": "2026-11-06",
-          "nota": "Datas por área: 26 (Perspectivas indígenas nas artes): 21/10 a 23/10; 06 (Geotecnia): 29/10; 06 (Geotecnia): 30/09; 10 (Pesquisa Operacional e Ciência de Dados): 06/11; 21 (Patologia): 28/10; 20 (Psiquiatria): 15/10 a 17/10; 18 (MED D99 - Clínica Cirúrgica I - Bases da…): 31/10; 19 (MEDE09 - Cirurgia Torácica e Cardiovascular): 31/10; 36 (Engenharia de Transportes - Planejamento de…): 08/10 a 10/10; 37 (Geodésia e Topografia): 28/10 a 29/10; 08 (Transporte/Infraestrutura de Transporte): 15/10 a 17/10; 07 (Materiais de Construção): 24/09; 11 (Engenharia de Controle e Automação): 28/10 a 29/10"
+          "nota": "Datas por área: 10 (Pesquisa Operacional e Ciência de Dados): 06/11; 21 (Patologia), 37 (Geodésia e Topografia) e 06 (Geotecnia): 28/10; 20 (Psiquiatria): 15/10 a 17/10; 18 (MED D99 - Clínica Cirúrgica I - Bases da…) e 19 (MEDE09 - Cirurgia Torácica e Cardiovascular): 31/10; 07 (Materiais de Construção): 24/09; 36 (Engenharia de Transportes - Planejamento de…): 07/10; 08 (Transporte/Infraestrutura de Transporte): 15/10; 04 (Gestão e Educação Permanente em Saúde e…) e 17 (Sociologia/Sociologia das desigualdades…): 21/10 a 22/10; 03 (Fundamentos de Enfermagem no Cuidado…) e 09 (Eletrotécnica): 21/10; 02 (Enfermagem no Cuidado à Saúde da Mulher na…): 20/10; 26 (Perspectivas indígenas nas artes): 20/10 a 21/10; 27 (Química Analítica: Eletroanalítica): 22/10; demais áreas: sem data (em datas a serem divulgadas, com antecedência mínima de 30 (trinta) dias da realização das Provas, através do endereço www.concursos.ufba.br/docentes, respeitando-se o período de 03/09/2026 a 06/11/2026)"
         },
         "detalhe": {
           "formato": "Defesa da trajetória acadêmica e profissional perante a banca"
@@ -17930,7 +17919,7 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2026-10-17",
           "fim": "2026-10-31",
-          "nota": "Datas por área: 21 (Patologia): 29/10; 20 (Psiquiatria): 17/10; 18 (MED D99 - Clínica Cirúrgica I - Bases da…): 30/10; 19 (MEDE09 - Cirurgia Torácica e Cardiovascular): 31/10"
+          "nota": "Datas por área: 21 (Patologia): 29/10; 20 (Psiquiatria): 17/10; 18 (MED D99 - Clínica Cirúrgica I - Bases da…): 30/10; 19 (MEDE09 - Cirurgia Torácica e Cardiovascular): 31/10; 26 (Perspectivas indígenas nas artes): 19/10; demais áreas: sem data (em datas a serem divulgadas, com antecedência mínima de 30 (trinta) dias da realização das Provas, através do endereço www.concursos.ufba.br/docentes, respeitando-se o período de 03/09/2026 a 06/11/2026)"
         },
         "detalhe": {
           "criterios": "Formação acadêmica e produção do candidato"
@@ -17943,7 +17932,8 @@ window.CONCURSOS = [
         "data": {
           "tipo": "periodo",
           "valor": "2026-09-25",
-          "fim": "2026-12-30"
+          "fim": "2026-12-30",
+          "nota": "Datas por área: 03 (Fundamentos de Enfermagem no Cuidado…) e 04 (Gestão e Educação Permanente em Saúde e…): 23/10; 10 (Pesquisa Operacional e Ciência de Dados): 06/11; 21 (Patologia): 29/10; 20 (Psiquiatria): 17/10; 18 (MED D99 - Clínica Cirúrgica I - Bases da…): 31/10; 19 (MEDE09 - Cirurgia Torácica e Cardiovascular): 31/10; 12 (Contabilidade e Direito): 30/12; 13 (Contabilidade Pública): 06/11; 07 (Materiais de Construção): 25/09; 36 (Engenharia de Transportes - Planejamento de…): 08/10; 08 (Transporte/Infraestrutura de Transporte): 16/10; 04 (Gestão e Educação Permanente em Saúde e…): 23/10; 03 (Fundamentos de Enfermagem no Cuidado…): 23/10; 02 (Enfermagem no Cuidado à Saúde da Mulher na…): 23/10; 27 (Química Analítica: Eletroanalítica): 23/10; 09 (Eletrotécnica): 22/10; 37 (Geodésia e Topografia): 28/10; 17 (Sociologia/Sociologia das desigualdades…): 26/10; 06 (Geotecnia): 29/10; demais áreas: sem data"
         },
         "detalhe": {}
       }
@@ -20092,7 +20082,8 @@ window.CONCURSOS = [
         "carater": "",
         "data": {
           "tipo": "exata",
-          "valor": "2026-11-16"
+          "valor": "2026-11-16",
+          "nota": "Datas por área: 03 (Contabilidade): 16/11; demais áreas: sem data"
         },
         "detalhe": {}
       }
@@ -20726,7 +20717,7 @@ window.CONCURSOS = [
         "carater": "Eliminatória",
         "data": {
           "tipo": "nao_divulgada",
-          "nota": "O edital ainda não fixou a data"
+          "nota": "Cada edital tem cronograma próprio. Início dos trabalhos, com as provas em sequência: 429/2026 em 06/10/2026; 399/2026 em 19/10/2026; demais editais ainda sem data"
         },
         "detalhe": {}
       },
@@ -20736,7 +20727,7 @@ window.CONCURSOS = [
         "carater": "Eliminatória",
         "data": {
           "tipo": "nao_divulgada",
-          "nota": "O edital ainda não fixou a data"
+          "nota": "Cada edital tem cronograma próprio. Início dos trabalhos, com as provas em sequência: 429/2026 em 06/10/2026; 399/2026 em 19/10/2026; demais editais ainda sem data"
         },
         "detalhe": {}
       },
@@ -20746,7 +20737,7 @@ window.CONCURSOS = [
         "carater": "Eliminatória",
         "data": {
           "tipo": "nao_divulgada",
-          "nota": "O edital ainda não fixou a data"
+          "nota": "Cada edital tem cronograma próprio. Início dos trabalhos, com as provas em sequência: 429/2026 em 06/10/2026; 399/2026 em 19/10/2026; demais editais ainda sem data"
         },
         "detalhe": {
           "duracao": "De 40 a 50 minutos. Menos de 40 minutos elimina o candidato",
@@ -20762,7 +20753,7 @@ window.CONCURSOS = [
         "carater": "",
         "data": {
           "tipo": "nao_divulgada",
-          "nota": "O edital ainda não fixou a data"
+          "nota": "Cada edital tem cronograma próprio. Início dos trabalhos, com as provas em sequência: 429/2026 em 06/10/2026; 399/2026 em 19/10/2026; demais editais ainda sem data"
         },
         "detalhe": {}
       },
@@ -20772,7 +20763,7 @@ window.CONCURSOS = [
         "carater": "",
         "data": {
           "tipo": "nao_divulgada",
-          "nota": "O edital ainda não fixou a data"
+          "nota": "Cada edital tem cronograma próprio. Início dos trabalhos, com as provas em sequência: 429/2026 em 06/10/2026; 399/2026 em 19/10/2026; demais editais ainda sem data"
         },
         "detalhe": {}
       },
@@ -20782,7 +20773,7 @@ window.CONCURSOS = [
         "carater": "Eliminatória",
         "data": {
           "tipo": "nao_divulgada",
-          "nota": "O edital ainda não fixou a data"
+          "nota": "Cada edital tem cronograma próprio. Início dos trabalhos, com as provas em sequência: 429/2026 em 06/10/2026; 399/2026 em 19/10/2026; demais editais ainda sem data"
         },
         "detalhe": {}
       }
@@ -20874,7 +20865,7 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2026-08-17",
           "fim": "2026-09-21",
-          "nota": "Datas por área: 1.2.6 (Estruturas, Subárea: Estruturas Mistas de…): 25/08; 1.2.7 (Conhecimento: Estruturas, Subárea: Pontes): 17/08; 1.2.9 (Fonoaudiologia, Subárea: Linguagem): 24/08; 1.2.4 (Educação, Subárea: Ensino de Alfabetização): 01/09; 1.2.2 (Ciência do Solo, Subárea: Química do Solo): 17/08; 1.2.8 (Farmácia, Subárea: Análises clínicas…): 18/08; 1.2.11 (História, Subárea: História da América…): 14/09; 1.2.1 (Artes Visuais, Subárea: Ensino de Artes…): 14/09; 1.2.14 (Psicologia Social e Institucional, Subárea…): 15/09; 1.2.3 (Cinética, Catálise e Cálculo de Reatores…): 25/08; 1.2.5 (Estratigrafia Sedimentar): 31/08; 1.2.15 (Química Inorgânica Medicinal): 01/09; 1.2.13 (Medicina Veterinária, Subárea: Clínica de…): 08/09; 1.2.10 (Forrageiras, Subárea: Produção e Tecnologia…): 08/09; 1.2.12 (Materiais para a Engenharia Química): 21/09"
+          "nota": "Datas por área: 1.2.6 (Estruturas, Subárea: Estruturas Mistas de…) e 1.2.3 (Cinética, Catálise e Cálculo de Reatores…): 25/08; 1.2.7 (Conhecimento: Estruturas, Subárea: Pontes) e 1.2.2 (Ciência do Solo, Subárea: Química do Solo): 17/08; 1.2.9 (Fonoaudiologia, Subárea: Linguagem): 24/08; 1.2.4 (Educação, Subárea: Ensino de Alfabetização) e 1.2.15 (Química Inorgânica Medicinal): 01/09; 1.2.8 (Farmácia, Subárea: Análises clínicas…): 18/08; 1.2.11 (História, Subárea: História da América…) e 1.2.1 (Artes Visuais, Subárea: Ensino de Artes…): 14/09; 1.2.14 (Psicologia Social e Institucional, Subárea…): 15/09; 1.2.5 (Estratigrafia Sedimentar): 31/08; 1.2.13 (Medicina Veterinária, Subárea: Clínica de…) e 1.2.10 (Forrageiras, Subárea: Produção e Tecnologia…): 08/09; 1.2.12 (Materiais para a Engenharia Química): 21/09; demais áreas: sem data (em prazo não inferior a 30 (trinta) dias, contados da data de publicação do presente Edital no Diário Oficial da União)"
         },
         "detalhe": {
           "nota_minima": "7,0"
@@ -20898,7 +20889,7 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2026-08-25",
           "fim": "2026-10-21",
-          "nota": "Datas por área: 1.2.8 (Farmácia, Subárea: Análises clínicas…): 26/08 a 27/08; 1.2.2 (Ciência do Solo, Subárea: Química do Solo): 25/08; 1.2.5 (Estratigrafia Sedimentar): 10/09; 1.2.7 (Conhecimento: Estruturas, Subárea: Pontes): 03/09; 1.2.9 (Fonoaudiologia, Subárea: Linguagem): 02/09; 1.2.6 (Estruturas, Subárea: Estruturas Mistas de…): 22/09; 1.2.3 (Cinética, Catálise e Cálculo de Reatores…): 02/09; 1.2.15 (Química Inorgânica Medicinal): 08/10; 1.2.13 (Medicina Veterinária, Subárea: Clínica de…): 06/10; 1.2.10 (Forrageiras, Subárea: Produção e Tecnologia…): 13/09; 1.2.4 (Educação, Subárea: Ensino de Alfabetização): 16/09; 1.2.11 (História, Subárea: História da América…): 23/09; 1.2.1 (Artes Visuais, Subárea: Ensino de Artes…): 24/09 a 25/09; 1.2.14 (Psicologia Social e Institucional, Subárea…): 16/10; 1.2.12 (Materiais para a Engenharia Química): 21/10"
+          "nota": "Datas por área: 1.2.8 (Farmácia, Subárea: Análises clínicas…): 26/08 a 27/08; 1.2.2 (Ciência do Solo, Subárea: Química do Solo): 25/08; 1.2.5 (Estratigrafia Sedimentar): 10/09; 1.2.7 (Conhecimento: Estruturas, Subárea: Pontes): 03/09; 1.2.9 (Fonoaudiologia, Subárea: Linguagem) e 1.2.3 (Cinética, Catálise e Cálculo de Reatores…): 02/09; 1.2.6 (Estruturas, Subárea: Estruturas Mistas de…): 22/09; 1.2.15 (Química Inorgânica Medicinal) e 1.2.13 (Medicina Veterinária, Subárea: Clínica de…): 08/10; 1.2.10 (Forrageiras, Subárea: Produção e Tecnologia…): 13/09; 1.2.4 (Educação, Subárea: Ensino de Alfabetização): 15/09 a 16/09; 1.2.11 (História, Subárea: História da América…): 23/09; 1.2.1 (Artes Visuais, Subárea: Ensino de Artes…): 24/09 a 25/09; 1.2.14 (Psicologia Social e Institucional, Subárea…): 16/10; 1.2.12 (Materiais para a Engenharia Química): 21/10"
         },
         "detalhe": {
           "duracao": "Aula de 35 a 55 minutos, pela Resolução 93/2021 do CONSUN. Fora do intervalo, desconto de 0,10 ponto por minuto. Passando 10 minutos do teto, a banca interrompe a exposição",
@@ -20929,7 +20920,7 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2026-08-23",
           "fim": "2026-10-19",
-          "nota": "Datas por área: 1.2.6 (Estruturas, Subárea: Estruturas Mistas de…): 21/09; 1.2.8 (Farmácia, Subárea: Análises clínicas…): 24/08 a 25/08; 1.2.9 (Fonoaudiologia, Subárea: Linguagem): 01/09; 1.2.3 (Cinética, Catálise e Cálculo de Reatores…): 01/09; 1.2.15 (Química Inorgânica Medicinal): 06/10; 1.2.5 (Estratigrafia Sedimentar): 08/09; 1.2.7 (Conhecimento: Estruturas, Subárea: Pontes): 02/09; 1.2.2 (Ciência do Solo, Subárea: Química do Solo): 23/08; 1.2.13 (Medicina Veterinária, Subárea: Clínica de…): 05/10; 1.2.4 (Educação, Subárea: Ensino de Alfabetização): 15/09; 1.2.10 (Forrageiras, Subárea: Produção e Tecnologia…): 13/09; 1.2.11 (História, Subárea: História da América…): 21/09; 1.2.1 (Artes Visuais, Subárea: Ensino de Artes…): 21/09 a 22/09; 1.2.14 (Psicologia Social e Institucional, Subárea…): 14/10 a 15/10; 1.2.12 (Materiais para a Engenharia Química): 19/10"
+          "nota": "Datas por área: 1.2.6 (Estruturas, Subárea: Estruturas Mistas de…) e 1.2.11 (História, Subárea: História da América…): 21/09; 1.2.8 (Farmácia, Subárea: Análises clínicas…): 24/08 a 25/08; 1.2.9 (Fonoaudiologia, Subárea: Linguagem) e 1.2.3 (Cinética, Catálise e Cálculo de Reatores…): 01/09; 1.2.15 (Química Inorgânica Medicinal): 06/10; 1.2.5 (Estratigrafia Sedimentar): 08/09; 1.2.7 (Conhecimento: Estruturas, Subárea: Pontes): 02/09; 1.2.2 (Ciência do Solo, Subárea: Química do Solo): 23/08; 1.2.4 (Educação, Subárea: Ensino de Alfabetização): 15/09; 1.2.10 (Forrageiras, Subárea: Produção e Tecnologia…): 13/09; 1.2.1 (Artes Visuais, Subárea: Ensino de Artes…): 21/09 a 22/09; 1.2.14 (Psicologia Social e Institucional, Subárea…): 14/10 a 15/10; 1.2.12 (Materiais para a Engenharia Química): 19/10; 1.2.13 (Medicina Veterinária, Subárea: Clínica de…): 07/10"
         },
         "detalhe": {}
       },
@@ -20941,7 +20932,7 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2026-08-24",
           "fim": "2026-10-20",
-          "nota": "Datas por área: 1.2.8 (Farmácia, Subárea: Análises clínicas…): 25/08 a 26/08; 1.2.2 (Ciência do Solo, Subárea: Química do Solo): 24/08; 1.2.5 (Estratigrafia Sedimentar): 09/09; 1.2.7 (Conhecimento: Estruturas, Subárea: Pontes): 03/09; 1.2.9 (Fonoaudiologia, Subárea: Linguagem): 03/09; 1.2.6 (Estruturas, Subárea: Estruturas Mistas de…): 22/09; 1.2.3 (Cinética, Catálise e Cálculo de Reatores…): 02/09; 1.2.15 (Química Inorgânica Medicinal): 07/10; 1.2.13 (Medicina Veterinária, Subárea: Clínica de…): 06/10; 1.2.10 (Forrageiras, Subárea: Produção e Tecnologia…): 14/09; 1.2.4 (Educação, Subárea: Ensino de Alfabetização): 17/09; 1.2.11 (História, Subárea: História da América…): 22/09; 1.2.1 (Artes Visuais, Subárea: Ensino de Artes…): 23/09 a 24/09; 1.2.14 (Psicologia Social e Institucional, Subárea…): 17/10 a 18/10; 1.2.12 (Materiais para a Engenharia Química): 20/10"
+          "nota": "Datas por área: 1.2.8 (Farmácia, Subárea: Análises clínicas…): 25/08 a 26/08; 1.2.2 (Ciência do Solo, Subárea: Química do Solo): 24/08; 1.2.5 (Estratigrafia Sedimentar): 09/09; 1.2.7 (Conhecimento: Estruturas, Subárea: Pontes) e 1.2.9 (Fonoaudiologia, Subárea: Linguagem): 03/09; 1.2.6 (Estruturas, Subárea: Estruturas Mistas de…) e 1.2.11 (História, Subárea: História da América…): 22/09; 1.2.3 (Cinética, Catálise e Cálculo de Reatores…): 02/09; 1.2.15 (Química Inorgânica Medicinal): 07/10; 1.2.10 (Forrageiras, Subárea: Produção e Tecnologia…): 14/09; 1.2.4 (Educação, Subárea: Ensino de Alfabetização): 16/09 a 17/09; 1.2.1 (Artes Visuais, Subárea: Ensino de Artes…): 23/09 a 24/09; 1.2.14 (Psicologia Social e Institucional, Subárea…): 17/10 a 18/10; 1.2.12 (Materiais para a Engenharia Química): 20/10; 1.2.13 (Medicina Veterinária, Subárea: Clínica de…): 08/10"
         },
         "detalhe": {}
       },
@@ -20952,7 +20943,8 @@ window.CONCURSOS = [
         "data": {
           "tipo": "periodo",
           "valor": "2026-10-07",
-          "fim": "2026-10-13"
+          "fim": "2026-10-13",
+          "nota": "Datas por área: 1.2.7 (Conhecimento: Estruturas, Subárea: Pontes): 07/10; 1.2.10 (Forrageiras, Subárea: Produção e Tecnologia…): 13/10; demais áreas: sem data"
         },
         "detalhe": {}
       }
@@ -21035,12 +21027,12 @@ window.CONCURSOS = [
           "nota": "Período alterado pela Retificação nº 1 de 04/09. Antes era 11 a 15/01/2027"
         },
         "detalhe": {
-          "duracao": "Consulte o corpo do edital 607/2026",
+          "duracao": "De 40 a 50 minutos. Se passar do tempo, a banca pode interromper a aula",
           "arguicao": "Sim, por até 20 minutos",
           "criterios": "100 pontos: 1. Plano de Aula (10 pts): Estrutura formal, organização, clareza e… 5; 1. Plano de Aula (10 pts): Adequação, clareza e pertinência dos… 5; 2. Introdução da Aula (15 pts): Apresentação clara aos alunos sobre… 5; 2. Introdução da Aula (15 pts): Uso de aspectos motivacionais para… 4; 2. Introdução da Aula (15 pts): Contextualização, referência e… 6; 3. Desenvolvimento (40 pts): Segurança, exatidão conceitual e domínio… 10; 3. Desenvolvimento (40 pts): Organização lógica, estrutura didática e… 10; 3. Desenvolvimento (40 pts): Adequação do vocabulário geral e uso… 5; 3. Desenvolvimento (40 pts): Abrangência, profundidade e estrita… 5; 3. Desenvolvimento (40 pts): Utilização de exemplos práticos… 5; 3. Desenvolvimento (40 pts): Pertinência dos recursos didáticos… 2,5; 3. Desenvolvimento (40 pts): Habilidade no manuseio, utilização e… 2,5; 4. Finalização (17 pts): Capacidade de síntese, fechamento das ideias… 8; 4. Finalização (17 pts): Adequação e clareza nos procedimentos de… 3; 4. Finalização (17 pts): Cumprimento rigoroso das etapas pedagógicas… 3; 4. Finalização (17 pts): Gestão e distribuição adequada do tempo… 3; 5. Conduta e Arguição (18 pts): Autocontrole, equilíbrio emocional… 5; 5. Conduta e Arguição (18 pts): Qualidade da dicção, projeção e tom… 3,5; 5. Conduta e Arguição (18 pts): Postura corporal adequada, uso do… 3,5; 5. Conduta e Arguição (18 pts): Domínio técnico e clareza no… 6",
           "plano_de_aula": "Memorial e material entregues antes da aula, no prazo do cronograma retificado",
           "recursos": "Fornecidos: quadro, pincel, giz, projetor multimídia e computador com sistema operacional com software compatível com PDF (Portable Format Document)",
-          "sorteio": "Consulte o corpo do edital 607/2026",
+          "sorteio": "Tema sorteado no dia da prova objetiva (29/11/2026), único para todos da mesma área, em sessão pública com ata (itens 19.7 a 19.9)",
           "modalidade": "Presencial"
         }
       },
@@ -22016,7 +22008,7 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2027-02-14",
           "fim": "2027-02-21",
-          "nota": "Datas por área: 01/2026: 14/02; 02/2026: 14/02; 03/2026: 14/02; 04/2026: 14/02; 05/2026: 14/02; 06/2026: 14/02; 07/2026: 14/02; 08/2026: 14/02; 09/2026: 14/02; 10/2026: 14/02; 11/2026: 14/02; 12/2026: 14/02; 13/2026: 14/02; 14/2026: 14/02; 15/2026: 14/02; 16/2026: 14/02; 17/2026: 14/02; 18/2026: 21/02; 19/2026: 21/02; 20/2026: 21/02; 21/2026: 21/02; 22/2026: 21/02; 23/2026: 21/02; 24/2026: 21/02; 25/2026: 21/02; 26/2026: 21/02; 27/2026: 21/02"
+          "nota": "Datas por edital: 01/2026, 02/2026, 03/2026, 04/2026, 05/2026, 06/2026, 07/2026, 08/2026, 09/2026, 10/2026, 11/2026, 12/2026, 13/2026, 14/2026, 15/2026, 16/2026 e 17/2026: 14/02; 18/2026, 19/2026, 20/2026, 21/2026, 22/2026, 23/2026, 24/2026, 25/2026, 26/2026 e 27/2026: 21/02"
         },
         "detalhe": {}
       },
@@ -22027,7 +22019,7 @@ window.CONCURSOS = [
         "data": {
           "tipo": "exata",
           "valor": "2027-02-21",
-          "nota": "Datas por área: 21/2026 (CIÊNCIAS SOCIAIS APLICADAS/DIREITO): 21/02; 27/2026 (Música | Linguística, Letras e Artes / Artes), 27/2026 (Música | Linguística, Letras e Artes / Artes), 27/2026 (Música | Linguística, Letras e Artes / Artes) e 27/2026 (Música | Linguística, Letras e Artes / Artes): 21/02"
+          "nota": "Só nos editais 21/2026 e 27/2026"
         },
         "detalhe": {}
       },
@@ -33439,7 +33431,7 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2026-09-13",
           "fim": "2027-04-26",
-          "nota": "Datas por área: geral: 13/09 a 27/12; 04 (Multidisciplinar/Ensino/ Ensino de Ciências…): 26/10; 03 (Ciências Exatas e da Terra/ Matemática): 27/10; 02 (Engenharias/ Engenharia Sanitária): 13/09 a 26/04"
+          "nota": "Datas por área: geral: 13/09 a 27/12; 04 (Multidisciplinar/Ensino/ Ensino de Ciências…): 26/10; 03 (Ciências Exatas e da Terra/ Matemática): 27/10; 02 (Engenharias/ Engenharia Sanitária): 13/09 a 26/04; 05 (Ciências Exatas e da Terra/ Geociências/…): 16/11"
         },
         "detalhe": {
           "nota_minima": "7,00"
@@ -33482,16 +33474,6 @@ window.CONCURSOS = [
           "valor": "2026-11-17",
           "fim": "2026-11-30",
           "nota": "Datas por área: 04 (Multidisciplinar/Ensino/ Ensino de Ciências…): 23/11; 03 (Ciências Exatas e da Terra/ Matemática): 17/11; 05 (Ciências Exatas e da Terra/ Geociências/…): 30/11; demais áreas: sem data (O cronograma de cada etapa do certame será publicado e atualizado na página do concurso)"
-        },
-        "detalhe": {}
-      },
-      {
-        "nome": "Prova de Defesa de Produção Intelectual",
-        "tipo": "outra",
-        "carater": "",
-        "data": {
-          "tipo": "nao_divulgada",
-          "nota": "O edital ainda não fixou a data"
         },
         "detalhe": {}
       },
@@ -34022,7 +34004,7 @@ window.CONCURSOS = [
         ]
       }
     ],
-    "observacao": "A inscrição já fechou e a prova didática ainda não tem data. O período provável começa em 13/09, mas até 11/09 nenhum cronograma por área tinha saído, e o edital exige pelo menos 10 dias de aviso. Se você está inscrito, o que manda é o sorteio 24 horas antes e a média 7,0 na segunda etapa.",
+    "observacao": "Cada área tem cronograma próprio. A 2ª etapa (didática e defesa) começa em 17/11 em Matemática, em 23/11 em Ensino de Ciências e Matemática e, pela previsão do memorando, em 30/11 em Micrometeorologia. A instalação da 1ª etapa tem presença obrigatória, e quem falta ou chega atrasado é eliminado. Confira o cronograma da sua área. Se você está inscrito, o que manda é o sorteio 24 horas antes e a média 7,0 na segunda etapa.",
     "detalhamento": "completo",
     "avisos_edital": [
       "Remuneração: o edital informa total de R$ 13.753,98, mas vencimento (R$ 6.397,19) mais retribuição (R$ 7.356,77) dão R$ 13.753,96. Pode ser erro de digitação do edital; confira no edital, que é a fonte oficial."
@@ -35017,7 +34999,7 @@ window.CONCURSOS = [
       }
     ],
     "formacoes_nota": "Extraídos os Editais 132, 137 e 139/2026. Faltam 129, 130, 133 e 134/2026.",
-    "observacao": "Este é o mais imprevisível do radar. O concurso ficou parado por liminar de julho a setembro e acabou de voltar, em 04/09. Quem está inscrito precisa olhar o site da UEMA todo dia, porque o novo calendário sai a qualquer momento e o intervalo entre convocação e aula tende a ser curto. Regra dura de plano de aula: três vias na mão ou eliminação. Os editais 131, 135, 136, 138 e 140 seguem suspensos.",
+    "observacao": "Este é o mais imprevisível do radar. O concurso ficou parado por liminar de julho a setembro e voltou em 04/09 e, até agora, não publicou o novo calendário. Quem está inscrito precisa olhar o site da UEMA todo dia, porque o novo calendário sai a qualquer momento e o intervalo entre convocação e aula tende a ser curto. Regra dura de plano de aula: três vias na mão ou eliminação. Os editais 131, 135, 136, 138 e 140 seguem suspensos.",
     "detalhamento": "completo",
     "avisos_edital": [
       "Editais 129/2026-GR/UEMA, 130/2026-GR/UEMA, 131/2026-GR/UEMA, 132/2026-GR/UEMA, 133/2026-GR/UEMA, 134/2026-GR/UEMA, 135/2026-GR/UEMA, 136/2026-GR/UEMA, 137/2026-GR/UEMA, 138/2026-GR/UEMA, 139/2026-GR/UEMA e 140/2026-GR/UEMA, remuneração: o edital informa total de R$ 11.294,38, mas vencimento (R$ 7.058,99) mais retribuição (R$ 4.235,29) dão R$ 11.294,28. Pode ser erro de digitação do edital; confira no edital, que é a fonte oficial."
@@ -35187,7 +35169,8 @@ window.CONCURSOS = [
         "carater": "Classificatória",
         "data": {
           "tipo": "exata",
-          "valor": "2026-11-03"
+          "valor": "2026-11-03",
+          "nota": "Só no edital 1632/2026"
         },
         "detalhe": {
           "duracao": "Até 4 horas"
@@ -35199,7 +35182,8 @@ window.CONCURSOS = [
         "carater": "Classificatória",
         "data": {
           "tipo": "exata",
-          "valor": "2026-10-08"
+          "valor": "2026-10-08",
+          "nota": "Datas por edital: 1633/2026: 08/10; demais editais: sem data"
         },
         "detalhe": {
           "duracao": "50 minutos para a exposição do tema, seguidos de arguição pelo tempo do cronograma",
@@ -35217,7 +35201,8 @@ window.CONCURSOS = [
         "carater": "Classificatória",
         "data": {
           "tipo": "exata",
-          "valor": "2026-10-07"
+          "valor": "2026-10-07",
+          "nota": "Datas por edital: 1633/2026: 07/10; demais editais: sem data"
         },
         "detalhe": {}
       },
@@ -35400,8 +35385,7 @@ window.CONCURSOS = [
         "data": {
           "tipo": "periodo",
           "valor": "2026-11-04",
-          "fim": "2026-11-05",
-          "nota": "Datas por área: geral: 04/11; geral: 05/11; 01 (Geociências: Cartografia e Geodésia): 04/11 a 05/11"
+          "fim": "2026-11-05"
         },
         "detalhe": {
           "duracao": "50 minutos garantidos para a exposição, seguidos de arguição pelo tempo do cronograma. O edital diz expressamente que estourar o prazo NÃO anula a prova nem desclassifica o candidato por si só",
@@ -37365,7 +37349,7 @@ window.CONCURSOS = [
       "inicio": "2026-09-14",
       "fim": "2026-10-09",
       "situacao": "encerrada",
-      "taxa": "R$ 344,00 no Edital 111/2026. CADA EDITAL TEM PRAZO PRÓPRIO: o 111/2026 (Língua Inglesa) vai de 14/09 a 09/10/2026, das 8h às 18h. Confirme o seu na página do edital"
+      "taxa": "R$ 344,00 no Edital 111/2026 (Língua Inglesa). As inscrições já encerraram; cada edital teve prazo próprio"
     },
     "etapas": [
       {
@@ -37376,7 +37360,7 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2026-11-09",
           "fim": "2026-11-30",
-          "nota": "Datas por área: Vaga A (Direito público: direito constitucional e…): 09/11; Vaga B (Teoria do direito, propedêuticas e…): 30/11; Vaga C (Clínica Médica - Cardiologia: Semiologia…): 09/11; Vaga D (Direito do trabalho e direito processual e…): 10/11; Vaga E (Direito público: constitucional…): 23/11; Vaga F (Língua Inglesa: Linguística e Ensino): 23/11; Vaga G (Direito privado e demais unidades…): 24/11; Vaga H (Geodésia, Sistemas de Referência e Projeções…): 16/11"
+          "nota": "Datas por área: Vaga A (Direito público: direito constitucional e…) e Vaga C (Clínica Médica - Cardiologia: Semiologia…): 09/11; Vaga B (Teoria do direito, propedêuticas e…): 30/11; Vaga D (Direito do trabalho e direito processual e…): 10/11; Vaga E (Direito público: constitucional…) e Vaga F (Língua Inglesa: Linguística e Ensino): 23/11; Vaga G (Direito privado e demais unidades…): 24/11; Vaga H (Geodésia, Sistemas de Referência e Projeções…): 16/11"
         },
         "detalhe": {
           "nota_minima": "7,0"
@@ -37995,7 +37979,7 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2026-11-23",
           "fim": "2026-12-07",
-          "nota": "Datas por área: 01 (Mercadologia): 30/11; 09 (Fisioterapia Traumato-Ortopédica e em…): 30/11; 27 (Fisiologia): 23/11; 14 (Clínica Médica (Medicina de Urgência e…): 07/12; 04 (Processamento de Sinais e Eletrônica): 30/11; 05 (Irrigação e Drenagem): 23/11; 02 (Teoria da Computação): 23/11; 22 (Odontopediatria): 30/11; 21 (Gastronomia): 23/11; 03 (Ciência da Computação): 07/12; 25 (Inspeção de Produtos de Origem Animal OU…): 30/11; 07 (Geotécnica OU Engenharia Hidráulica OU…): 30/11; 28 (História da Filosofia): 24/11; 17 (Psiquiatria): 01/12; 26 (Patologia Animal): 07/12; 16 (Medicina de Família e Comunidade): 30/11; 08 (Tecnologia e Utilização de Produtos…): 23/11; 10 (Meio Ambiente e Agrárias): 04/12; 11 (Políticas e Desenvolvimento Territorial): 30/11; 23 (Odontologia Social e Preventiva): 23/11; 20 (Terapia Ocupacional em Contextos Hospitalares): 07/12; 18 (Terapia Ocupacional - Ciência do Movimento…): 30/11; 19 (Terapia Ocupacional Social): 07/12; 12 (Economia Agrária e dos Recursos Naturais): 23/11; 06 (Saneamento Básico): 30/11; 15 (Radiologia e Diagnóstico por Imagem): 30/11; 24 (Clínica Veterinária): 30/11; 13 (Arquitetura e Urbanismo): 30/11"
+          "nota": "Datas por área: 01 (Mercadologia), 09 (Fisioterapia Traumato-Ortopédica e em…), 04 (Processamento de Sinais e Eletrônica), 22 (Odontopediatria), 25 (Inspeção de Produtos de Origem Animal OU…), 07 (Geotécnica OU Engenharia Hidráulica OU…), 16 (Medicina de Família e Comunidade), 11 (Políticas e Desenvolvimento Territorial), 18 (Terapia Ocupacional - Ciência do Movimento…), 06 (Saneamento Básico), 15 (Radiologia e Diagnóstico por Imagem), 24 (Clínica Veterinária) e 13 (Arquitetura e Urbanismo): 30/11; 27 (Fisiologia), 05 (Irrigação e Drenagem), 02 (Teoria da Computação), 21 (Gastronomia), 08 (Tecnologia e Utilização de Produtos…), 23 (Odontologia Social e Preventiva) e 12 (Economia Agrária e dos Recursos Naturais): 23/11; 14 (Clínica Médica (Medicina de Urgência e…), 03 (Ciência da Computação), 26 (Patologia Animal), 20 (Terapia Ocupacional em Contextos Hospitalares) e 19 (Terapia Ocupacional Social): 07/12; 28 (História da Filosofia): 24/11; 17 (Psiquiatria): 01/12; 10 (Meio Ambiente e Agrárias): 04/12"
         },
         "detalhe": {
           "duracao": "Até 4 horas, mais 30 minutos de consulta bibliográfica. Manuscrita"
@@ -38008,7 +37992,8 @@ window.CONCURSOS = [
         "data": {
           "tipo": "periodo",
           "valor": "2026-11-23",
-          "fim": "2026-12-11"
+          "fim": "2026-12-11",
+          "nota": "Data provável, pelo edital"
         },
         "detalhe": {}
       },
@@ -38020,7 +38005,7 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2026-11-23",
           "fim": "2026-12-11",
-          "nota": "Janela geral das provas fixada no edital. A data da sua área sai com a homologação das inscrições, em 30/10"
+          "nota": "Janela geral das provas fixada no edital. A data e a hora da sua área estão no formulário de homologação publicado em 30/10"
         },
         "detalhe": {
           "duracao": "Mínimo de 40 e máximo de 50 minutos",
@@ -38039,21 +38024,12 @@ window.CONCURSOS = [
         "data": {
           "tipo": "periodo",
           "valor": "2026-11-23",
-          "fim": "2026-12-11"
+          "fim": "2026-12-11",
+          "nota": "Data provável, pelo edital"
         },
         "detalhe": {
           "duracao": "Memorial de até 10 páginas. Exposição de 30 minutos e 15 minutos de respostas"
         }
-      },
-      {
-        "nome": "Prova de Defesa de Memorial Descritivo e do Plano de Atividades Acadêmicas",
-        "tipo": "outra",
-        "carater": "",
-        "data": {
-          "tipo": "nao_divulgada",
-          "nota": "O edital ainda não fixou a data"
-        },
-        "detalhe": {}
       },
       {
         "nome": "Exame de Títulos",
@@ -38088,7 +38064,7 @@ window.CONCURSOS = [
     "formacoes": [],
     "familias_pos": [],
     "areas_formacoes": [],
-    "observacao": "A janela de provas é larga, de 23/11 a 11/12, e a data da sua área só aparece em 30/10, junto com a homologação. Dá para montar a aula antes disso. Plano de aula é obrigatório, uma cópia por examinador, e a sessão é gravada em áudio e vídeo. Não existe corte só na didática: o que elimina é a nota final abaixo de 7,0.",
+    "observacao": "A janela de provas é larga, de 23/11 a 11/12, e a data e a hora de cada área estão no formulário de homologação publicado em 30/10. Dá para montar a aula antes disso. Plano de aula é obrigatório, uma cópia por examinador, e a sessão é gravada em áudio e vídeo. Não existe corte só na didática: o que elimina é a nota final abaixo de 7,0.",
     "detalhamento": "completo",
     "avisos_edital": [],
     "fonte_dados": {
@@ -39285,8 +39261,7 @@ window.CONCURSOS = [
         "data": {
           "tipo": "periodo",
           "valor": "2026-12-17",
-          "fim": "2026-12-18",
-          "nota": "Datas por área: geral: 17/12; geral: 18/12"
+          "fim": "2026-12-18"
         },
         "detalhe": {}
       },
@@ -39319,7 +39294,8 @@ window.CONCURSOS = [
         "carater": "",
         "data": {
           "tipo": "exata",
-          "valor": "2027-03-16"
+          "valor": "2027-03-16",
+          "nota": "Prazo máximo: até essa data, pelo edital"
         },
         "detalhe": {}
       }
@@ -40776,7 +40752,7 @@ window.CONCURSOS = [
       }
     ],
     "formacoes_nota": "Extraídos os Editais 88, 112, 729 e 743/2026. Faltam 091, 163, 217 e 336/2026.",
-    "observacao": "São 8 concursos independentes, cada um com uma vaga e prazo próprio de inscrição, do dia 17/09 ao dia 13/10. Confira o seu antes de tudo. As regras da aula são iguais nos oito, e duas mudam todo o preparo. A primeira: o ponto é sorteado no dia da prova escrita, então o tema é conhecido com antecedência e dá para preparar com calma, coisa rara em concurso. A segunda: o tempo é tudo ou nada. Menos de 40 ou mais de 60 minutos zera a prova inteira, não desconta ponto. O plano de aula vale 1,0 e é entregue no dia, antes de começar. Quem elimina é a escrita, com corte 7,0; a didática decide a colocação. Cada edital tem página própria em inscricoes.unesp.br.",
+    "observacao": "São 8 concursos independentes, cada um com uma vaga e prazo próprio de inscrição, o último até 03/12/2026. Confira o seu antes de tudo. As regras da aula são iguais nos oito, e duas mudam todo o preparo. A primeira: o ponto é sorteado no dia da prova escrita, então o tema é conhecido com antecedência e dá para preparar com calma, coisa rara em concurso. A segunda: o tempo é tudo ou nada. Menos de 40 ou mais de 60 minutos zera a prova inteira, não desconta ponto. O plano de aula vale 1,0 e é entregue no dia, antes de começar. Quem elimina é a escrita, com corte 7,0; a didática decide a colocação. Cada edital tem página própria em inscricoes.unesp.br.",
     "detalhamento": "completo",
     "avisos_edital": [],
     "fonte_dados": {
@@ -41089,7 +41065,7 @@ window.CONCURSOS = [
       }
     ],
     "formacoes_nota": "Extraídos os Editais 68, 111, 135, 138, 139, 340 e 444/2026. Faltam 084, 161, 210, 294 e 305/2026.",
-    "observacao": "São 12 concursos independentes, com prazos de 16/09 a 22/10: confira o seu antes de tudo. O funcionamento é o oposto de tudo o mais no radar. Não há sorteio de ponto: o próprio candidato escolhe o assunto da aula na inscrição e já entrega ali o plano de aula e a bibliografia. A aula é de 50 a 60 minutos e em nível de pós-graduação, não de graduação. Como o tema é escolhido e o plano vai antes, a banca julga exatamente o que você se propôs a fazer, e a coerência entre proposta e execução é o que está em jogo. A didática pesa 1, contra 2 dos títulos, então decide desempate mais do que classificação. Exige Livre-Docência há pelo menos 6 anos: é concurso para quem já está na carreira, não porta de entrada. Cada edital tem página própria em inscricoes.unesp.br.",
+    "observacao": "São 10 concursos independentes, cada um com prazo próprio, o último até 27/11/2026 (Edital 96/2026 FCF): confira o seu antes de tudo. O funcionamento é o oposto de tudo o mais no radar. Não há sorteio de ponto: o próprio candidato escolhe o assunto da aula na inscrição e já entrega ali o plano de aula e a bibliografia. A aula é de 50 a 60 minutos e em nível de pós-graduação, não de graduação. Como o tema é escolhido e o plano vai antes, a banca julga exatamente o que você se propôs a fazer, e a coerência entre proposta e execução é o que está em jogo. A didática pesa 1, contra 2 dos títulos, então decide desempate mais do que classificação. Exige Livre-Docência há pelo menos 6 anos: é concurso para quem já está na carreira, não porta de entrada. Cada edital tem página própria em inscricoes.unesp.br.",
     "detalhamento": "completo",
     "avisos_edital": [],
     "fonte_dados": {
@@ -41372,7 +41348,7 @@ window.CONCURSOS = [
           "arguicao": "Sim",
           "nota_minima": "7 em 10",
           "criterios": "plano de aula (0,0 a 2,0 pontos): clareza na redação dos elementos do… 0,0 a 2,0 pontos; aspectos didático-metodológicos (0,0 a 5,0 pontos): relaciona o tema… 0,0 a 5,0 pontos; emprego apropriado dos recursos didáticos (0,0 a 1,0 pontos): utiliza… 0,0 a 1,0 pontos; arguição (0,0 a 2.0 pontos): contempla nas respostas os pontos… 0,0 a 2.0 pontos",
-          "plano_de_aula": "Exigido: entregues O candidato deve comparecer ao local da prova didática com uma antecedência mínima de 30 minutos para a realização do procedimento descrito no item anterior (download do plano pelo fiscal e envio à Comissão Examinadora)., mais envio digital em PDF, com objetivos, conteúdos, procedimentos didáticos, recursos, avaliação e referências",
+          "plano_de_aula": "Exigido: entregue de maneira eletrônica (pen-drive, e-mail ou drive na nuvem), devendo o arquivo estar salvo em formato PDF, esteja a comissão examinadora em formato presencial…, com objetivos, conteúdos, procedimentos didáticos, recursos, avaliação e referências. O candidato deve comparecer ao local da prova didática com uma antecedência mínima de 30 minutos para a realização do procedimento descrito no item anterior (download do plano pelo fiscal e envio à Comissão Examinadora)",
           "recursos": "Fornecidos: quadro branco, Datashow, programas de apresentação de slides, computador/notebook e softwares livres, a exemplo do LibreOffice"
         }
       },
@@ -41384,16 +41360,6 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2027-02-22",
           "fim": "2027-03-21"
-        },
-        "detalhe": {}
-      },
-      {
-        "nome": "Defesa de Memorial e Projeto de Atuação Profissional",
-        "tipo": "outra",
-        "carater": "",
-        "data": {
-          "tipo": "nao_divulgada",
-          "nota": "Conforme data e horário especificados na ata da prova didática"
         },
         "detalhe": {}
       },
@@ -41504,16 +41470,6 @@ window.CONCURSOS = [
           "valor": "2026-12-08",
           "fim": "2026-12-10",
           "nota": "Entrega dos documentos em 06 e 07/12. Apresentação: Grupo I em 08/12, Grupo II em 09/12 e Grupo III em 10/12"
-        },
-        "detalhe": {}
-      },
-      {
-        "nome": "Memorial e Plano de Trabalho - MPT",
-        "tipo": "outra",
-        "carater": "",
-        "data": {
-          "tipo": "nao_divulgada",
-          "nota": "O edital ainda não fixou a data"
         },
         "detalhe": {}
       },
@@ -41720,9 +41676,10 @@ window.CONCURSOS = [
         "tipo": "discursiva",
         "carater": "Eliminatória e classificatória",
         "data": {
-          "tipo": "exata",
+          "tipo": "periodo",
           "valor": "2026-11-30",
-          "nota": "Datas por área: Área 101.4 (Odontologia (4.02.00.00- 0) - Subárea…): 30/11; Área 101.18 (Química (1.06.00.00-0) ou Ciências -…): 30/11"
+          "fim": "2027-04-26",
+          "nota": "Para Área 101.15 (Ensino de Geografia, Novas Tecnologias…), Área 101.16 (Geografia Econômica; Geografia Regional e…) e Área 101.17 (Metodologia Quantitativa de Banco de Dados…), o documento traz 15/02/2026 a 26/02/2026, com o ano provavelmente trocado; confira na página do concurso. Datas por área: Área 101.4 (Odontologia (4.02.00.00- 0) - Subárea…) e Área 101.18 (Química (1.06.00.00-0) ou Ciências -…): 30/11; Área 101.1 (Ciência da Computação (ou Informática) OU…), Área 101.3 (Interdisciplinar, Sociologia) e Área 101.20 (Economia): 28/12 a 15/02; Área 101.2 (Ciência da Computação (ou Informática) OU…): 29/12 a 22/02; Área 101.5 (Ciências Exatas e da Terra/Química), Área 101.21 (Educação (70800006) - Subárea: Fundamentos…) e Área 101.22 (Engenharia - Subárea: Engenharia de Produção…): 14/12 a 05/02; Área 101.6 (Ciências Agrárias - Subárea…): 18/01 a 29/01; Área 101.7 (Recursos Florestais E Engenharia Florestal -…): 15/02 a 01/04; Área 101.8 (Farmácia - Subárea: Cuidado Farmacêutico…): 27/01 a 15/04; Área 101.9 (Farmácia - Subárea: Farmacotecnia): 27/01 a 14/04; Área 101.11 (Ciências Humanas, Educação, Educação Básica…): 18/01 a 22/02; Área 101.13 (Psicologia (70700001) - Subárea: Psicologia…): 09/03 a 15/04; Área 101.14 (Psicologia (70700001) - Subárea: Tratamento…): 14/12 a 17/02; Área 101.19 (Ciência da Computação (OU Informática) OU…): 15/02 a 26/04; Área 101.23 (Medicina Veterinária - Subárea: Clínica e…): 22/02 a 26/02; Área 101.10 (Nutrição - Subárea: Nutrição Básica e…): 15/02 a 29/03; Área 101.12 (Ciências Humanas, Ciências Sociais Aplicadas…): 22/02 a 25/03"
         },
         "detalhe": {}
       },
@@ -41731,9 +41688,10 @@ window.CONCURSOS = [
         "tipo": "outra",
         "carater": "Eliminatória e classificatória",
         "data": {
-          "tipo": "exata",
+          "tipo": "periodo",
           "valor": "2027-01-27",
-          "nota": "Datas por área: Área 101.4 (Odontologia (4.02.00.00- 0) - Subárea…): 27/01; demais áreas: sem data (O cronograma será divulgado na página destinada ao concurso com antecedência mínima de 10 (dez) dias úteis da realização da primeira prova)"
+          "fim": "2027-04-15",
+          "nota": "Datas por área: Área 101.4 (Odontologia (4.02.00.00- 0) - Subárea…): 27/01; Área 101.8 (Farmácia - Subárea: Cuidado Farmacêutico…): 27/01 a 15/04; Área 101.23 (Medicina Veterinária - Subárea: Clínica e…): 22/02 a 26/02"
         },
         "detalhe": {}
       },
@@ -41743,9 +41701,9 @@ window.CONCURSOS = [
         "carater": "Eliminatória e classificatória",
         "data": {
           "tipo": "periodo",
-          "valor": "2027-01-26",
-          "fim": "2027-02-16",
-          "nota": "Datas previstas, de caráter estimativo, nas Instruções Específicas de cada área. Exemplos: Área 101.4 (Odontologia): 26/01; Área 101.18 (Química): 16/02"
+          "valor": "2026-12-14",
+          "fim": "2027-04-26",
+          "nota": "Para Área 101.15 (Ensino de Geografia, Novas Tecnologias…), Área 101.16 (Geografia Econômica; Geografia Regional e…) e Área 101.17 (Metodologia Quantitativa de Banco de Dados…), o documento traz 15/02/2026 a 26/02/2026, com o ano provavelmente trocado; confira na página do concurso. Datas por área: Área 101.4 (Odontologia (4.02.00.00- 0) - Subárea…): 26/01; Área 101.18 (Química (1.06.00.00-0) ou Ciências -…): 16/02; Área 101.1 (Ciência da Computação (ou Informática) OU…), Área 101.3 (Interdisciplinar, Sociologia) e Área 101.20 (Economia): 28/12 a 15/02; Área 101.2 (Ciência da Computação (ou Informática) OU…): 29/12 a 22/02; Área 101.5 (Ciências Exatas e da Terra/Química), Área 101.21 (Educação (70800006) - Subárea: Fundamentos…) e Área 101.22 (Engenharia - Subárea: Engenharia de Produção…): 14/12 a 05/02; Área 101.6 (Ciências Agrárias - Subárea…): 18/01 a 29/01; Área 101.7 (Recursos Florestais E Engenharia Florestal -…): 15/02 a 01/04; Área 101.8 (Farmácia - Subárea: Cuidado Farmacêutico…): 27/01 a 15/04; Área 101.9 (Farmácia - Subárea: Farmacotecnia): 27/01 a 14/04; Área 101.11 (Ciências Humanas, Educação, Educação Básica…): 18/01 a 22/02; Área 101.13 (Psicologia (70700001) - Subárea: Psicologia…): 09/03 a 15/04; Área 101.14 (Psicologia (70700001) - Subárea: Tratamento…): 14/12 a 17/02; Área 101.19 (Ciência da Computação (OU Informática) OU…): 15/02 a 26/04; Área 101.23 (Medicina Veterinária - Subárea: Clínica e…): 22/02 a 26/02; Área 101.10 (Nutrição - Subárea: Nutrição Básica e…): 15/02 a 29/03; Área 101.12 (Ciências Humanas, Ciências Sociais Aplicadas…): 22/02 a 25/03"
         },
         "detalhe": {
           "duracao": "De 40 a 50 minutos",
@@ -41761,9 +41719,10 @@ window.CONCURSOS = [
         "tipo": "outra",
         "carater": "Eliminatória e classificatória",
         "data": {
-          "tipo": "exata",
-          "valor": "2027-02-18",
-          "nota": "Datas por área: Área 101.18 (Química (1.06.00.00-0) ou Ciências -…): 18/02; demais áreas: sem data (O cronograma será divulgado na página destinada ao concurso com antecedência mínima de 10 (dez) dias úteis da realização da primeira prova)"
+          "tipo": "periodo",
+          "valor": "2026-12-14",
+          "fim": "2027-04-15",
+          "nota": "Datas por área: Área 101.18 (Química (1.06.00.00-0) ou Ciências -…): 18/02; Área 101.5 (Ciências Exatas e da Terra/Química), Área 101.21 (Educação (70800006) - Subárea: Fundamentos…) e Área 101.22 (Engenharia - Subárea: Engenharia de Produção…): 14/12 a 05/02; Área 101.6 (Ciências Agrárias - Subárea…): 18/01 a 29/01; Área 101.7 (Recursos Florestais E Engenharia Florestal -…): 15/02 a 01/04; Área 101.8 (Farmácia - Subárea: Cuidado Farmacêutico…): 27/01 a 15/04; Área 101.9 (Farmácia - Subárea: Farmacotecnia): 27/01 a 14/04; Área 101.11 (Ciências Humanas, Educação, Educação Básica…): 18/01 a 22/02; Área 101.10 (Nutrição - Subárea: Nutrição Básica e…): 15/02 a 29/03; Área 101.20 (Economia): 28/12 a 15/02"
         },
         "detalhe": {}
       },
@@ -41773,9 +41732,9 @@ window.CONCURSOS = [
         "carater": "Classificatória",
         "data": {
           "tipo": "periodo",
-          "valor": "2027-01-27",
-          "fim": "2027-02-19",
-          "nota": "Datas por área: Área 101.4 (Odontologia (4.02.00.00- 0) - Subárea…): 27/01; Área 101.18 (Química (1.06.00.00-0) ou Ciências -…): 19/02"
+          "valor": "2026-12-14",
+          "fim": "2027-04-26",
+          "nota": "Para Área 101.15 (Ensino de Geografia, Novas Tecnologias…), Área 101.16 (Geografia Econômica; Geografia Regional e…) e Área 101.17 (Metodologia Quantitativa de Banco de Dados…), o documento traz 15/02/2026 a 26/02/2026, com o ano provavelmente trocado; confira na página do concurso. Datas por área: Área 101.4 (Odontologia (4.02.00.00- 0) - Subárea…): 27/01; Área 101.18 (Química (1.06.00.00-0) ou Ciências -…): 19/02; Área 101.1 (Ciência da Computação (ou Informática) OU…), Área 101.3 (Interdisciplinar, Sociologia) e Área 101.20 (Economia): 28/12 a 15/02; Área 101.2 (Ciência da Computação (ou Informática) OU…): 29/12 a 22/02; Área 101.5 (Ciências Exatas e da Terra/Química), Área 101.21 (Educação (70800006) - Subárea: Fundamentos…) e Área 101.22 (Engenharia - Subárea: Engenharia de Produção…): 14/12 a 05/02; Área 101.6 (Ciências Agrárias - Subárea…): 18/01 a 29/01; Área 101.7 (Recursos Florestais E Engenharia Florestal -…): 15/02 a 01/04; Área 101.8 (Farmácia - Subárea: Cuidado Farmacêutico…): 27/01 a 15/04; Área 101.9 (Farmácia - Subárea: Farmacotecnia): 27/01 a 14/04; Área 101.11 (Ciências Humanas, Educação, Educação Básica…): 18/01 a 22/02; Área 101.13 (Psicologia (70700001) - Subárea: Psicologia…): 09/03 a 15/04; Área 101.14 (Psicologia (70700001) - Subárea: Tratamento…): 14/12 a 17/02; Área 101.19 (Ciência da Computação (OU Informática) OU…): 15/02 a 26/04; Área 101.23 (Medicina Veterinária - Subárea: Clínica e…): 22/02 a 26/02; Área 101.10 (Nutrição - Subárea: Nutrição Básica e…): 15/02 a 29/03; Área 101.12 (Ciências Humanas, Ciências Sociais Aplicadas…): 22/02 a 25/03"
         },
         "detalhe": {}
       },
@@ -41792,7 +41751,7 @@ window.CONCURSOS = [
     ],
     "periodo_provas": {
       "inicio": "2026-11-30",
-      "fim": "2027-02-16"
+      "fim": "2027-04-26"
     },
     "logo": "ufvjm.png",
     "formacoes_status": "nao_extraido",
@@ -41858,7 +41817,7 @@ window.CONCURSOS = [
           "arguicao": "Sim",
           "nota_minima": "7 em 10",
           "criterios": "plano de aula (0,0 a 1,0 pontos): clareza na redação dos elementos do… 0,0 a 1,0 pontos; aspectos didático-metodológicos (0,0 a 6,0 pontos): relaciona o tema… 0,0 a 6,0 pontos; emprego apropriado dos recursos didáticos (0,0 a 1,0 pontos): utiliza… 0,0 a 1,0 pontos; arguição (0,0 a 2.0 pontos): contempla nas respostas os pontos… 0,0 a 2.0 pontos",
-          "plano_de_aula": "Exigido: entregues O candidato deve comparecer ao local da prova didática com uma antecedência mínima de 30 minutos para a realização do procedimento descrito no item anterior (download do plano pelo fiscal e envio à Comissão Examinadora)., mais envio digital em PDF, com objetivos, conteúdos, procedimentos didáticos, recursos, avaliação e referências",
+          "plano_de_aula": "Exigido: entregue de maneira eletrônica (pen-drive, e-mail ou drive na nuvem), devendo o arquivo estar salvo em formato PDF, esteja a comissão examinadora em formato presencial…, com objetivos, conteúdos, procedimentos didáticos, recursos, avaliação e referências. O candidato deve comparecer ao local da prova didática com uma antecedência mínima de 30 minutos para a realização do procedimento descrito no item anterior (download do plano pelo fiscal e envio à Comissão Examinadora)",
           "recursos": "Fornecidos: quadro branco, Datashow, programas de apresentação de slides, computador/notebook e softwares livres, a exemplo do LibreOffice"
         }
       },
@@ -41870,16 +41829,6 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2027-03-22",
           "fim": "2027-04-11"
-        },
-        "detalhe": {}
-      },
-      {
-        "nome": "Defesa de Memorial e Projeto de Atuação Profissional",
-        "tipo": "outra",
-        "carater": "",
-        "data": {
-          "tipo": "nao_divulgada",
-          "nota": "Conforme data e horário especificados na ata da prova didática"
         },
         "detalhe": {}
       },
@@ -41944,9 +41893,9 @@ window.CONCURSOS = [
     "link_oficial": "https://solicita.dados.unicamp.br/concurso/ver_edital_abertura/1105",
     "inscricao": {
       "situacao": "encerrada",
+      "taxa": "Não mencionada no edital",
       "inicio": "2026-09-08",
-      "fim": "2026-10-07",
-      "taxa": "Não mencionada no edital"
+      "fim": "2026-10-07"
     },
     "etapas": [
       {
@@ -42683,7 +42632,8 @@ window.CONCURSOS = [
         "carater": "Eliminatória e classificatória",
         "data": {
           "tipo": "exata",
-          "valor": "2026-11-11"
+          "valor": "2026-11-11",
+          "nota": "Data provável, pelo edital"
         },
         "detalhe": {
           "duracao": "50 minutos, com tolerância de 10 para mais ou para menos",
@@ -42700,7 +42650,8 @@ window.CONCURSOS = [
         "carater": "Eliminatória e classificatória",
         "data": {
           "tipo": "exata",
-          "valor": "2026-11-12"
+          "valor": "2026-11-12",
+          "nota": "Data provável, pelo edital"
         },
         "detalhe": {}
       },
@@ -42765,7 +42716,8 @@ window.CONCURSOS = [
         "carater": "",
         "data": {
           "tipo": "exata",
-          "valor": "2026-11-23"
+          "valor": "2026-11-23",
+          "nota": "Só no edital 49/2026"
         },
         "detalhe": {}
       },
@@ -42775,7 +42727,8 @@ window.CONCURSOS = [
         "carater": "Eliminatória e classificatória",
         "data": {
           "tipo": "exata",
-          "valor": "2026-11-30"
+          "valor": "2026-11-30",
+          "nota": "Só no edital 48/2026"
         },
         "detalhe": {}
       },
@@ -42787,7 +42740,7 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2026-11-25",
           "fim": "2026-12-02",
-          "nota": "Datas por área: 48/2026: 02/12; 49/2026: 25/11"
+          "nota": "Datas prováveis, pelo edital. Datas por edital: 48/2026: 02/12; 49/2026: 25/11"
         },
         "detalhe": {
           "duracao": "50 minutos, com tolerância de 10 para mais ou para menos",
@@ -42804,7 +42757,8 @@ window.CONCURSOS = [
         "carater": "",
         "data": {
           "tipo": "exata",
-          "valor": "2026-11-27"
+          "valor": "2026-11-27",
+          "nota": "Data provável, pelo edital. Só no edital 49/2026"
         },
         "detalhe": {}
       },
@@ -42871,7 +42825,7 @@ window.CONCURSOS = [
         "data": {
           "tipo": "exata",
           "valor": "2027-01-25",
-          "nota": "Datas por área: Morfologia/ Anatomia humana (Área: Ciências Biológicas; Subárea…): 25/01; Farmacologia/ Farmacologia clínica (Área: Ciências Biológicas; Subárea…): 25/01; Saúde coletiva/ Saúde da família (Área: Ciências Da Saúde; Subárea: Saúde…): 25/01; demais áreas: sem data (no primeiro dia do concurso)"
+          "nota": "Datas por área: Morfologia/ Anatomia humana (Área: Ciências Biológicas; Subárea…), Farmacologia/ Farmacologia clínica (Área: Ciências Biológicas; Subárea…) e Saúde coletiva/ Saúde da família (Área: Ciências Da Saúde; Subárea: Saúde…): 25/01; demais áreas: sem data (no primeiro dia do concurso)"
         },
         "detalhe": {}
       },
@@ -42976,7 +42930,7 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2026-11-03",
           "fim": "2026-11-23",
-          "nota": "Datas por área: Avaliação Nutricional e Nutrição Clínica (Avaliação Nutricional e Nutrição Clínica): 23/11; Fundamentos da Terapia Ocupacional, Atividades e Recursos Terapêuticos Ocupacionais (Fundamentos da Terapia Ocupacional…): 23/11; Práticas em Atenção Primária à Saúde/Semiologia Médica (Práticas em Atenção Primária à…): 16/11; Anatomia Humana e Cirurgia (Anatomia Humana e Cirurgia): 16/11; Medicina Baseada em Evidências, Epidemiologia e Pesquisa Clínica (Medicina Baseada em Evidências…): 09/11; Saúde da Mulher (Saúde da Mulher): 03/11; Métodos de Imagem (Métodos de Imagem): 03/11; Saúde da Criança (Saúde da Criança): 09/11; Psiquiatria (Psiquiatria): 03/11"
+          "nota": "Datas por área: Avaliação Nutricional e Nutrição Clínica (Avaliação Nutricional e Nutrição Clínica) e Fundamentos da Terapia Ocupacional, Atividades e Recursos Terapêuticos Ocupacionais (Fundamentos da Terapia Ocupacional…): 23/11; Práticas em Atenção Primária à Saúde/Semiologia Médica (Práticas em Atenção Primária à…) e Anatomia Humana e Cirurgia (Anatomia Humana e Cirurgia): 16/11; Medicina Baseada em Evidências, Epidemiologia e Pesquisa Clínica (Medicina Baseada em Evidências…) e Saúde da Criança (Saúde da Criança): 09/11; Saúde da Mulher (Saúde da Mulher), Métodos de Imagem (Métodos de Imagem) e Psiquiatria (Psiquiatria): 03/11"
         },
         "detalhe": {}
       },
@@ -42988,7 +42942,7 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2026-11-10",
           "fim": "2026-12-02",
-          "nota": "Datas por área: Avaliação Nutricional e Nutrição Clínica (Avaliação Nutricional e Nutrição Clínica): 01/12 a 02/12; Fundamentos da Terapia Ocupacional, Atividades e Recursos Terapêuticos Ocupacionais (Fundamentos da Terapia Ocupacional…): 01/12 a 02/12; Práticas em Atenção Primária à Saúde/Semiologia Médica (Práticas em Atenção Primária à…): 24/11; Anatomia Humana e Cirurgia (Anatomia Humana e Cirurgia): 24/11; Medicina Baseada em Evidências, Epidemiologia e Pesquisa Clínica (Medicina Baseada em Evidências…): 17/11; Saúde da Mulher (Saúde da Mulher): 10/11; Métodos de Imagem (Métodos de Imagem): 10/11; Saúde da Criança (Saúde da Criança): 17/11; Psiquiatria (Psiquiatria): 10/11"
+          "nota": "Datas por área: Avaliação Nutricional e Nutrição Clínica (Avaliação Nutricional e Nutrição Clínica) e Fundamentos da Terapia Ocupacional, Atividades e Recursos Terapêuticos Ocupacionais (Fundamentos da Terapia Ocupacional…): 01/12 a 02/12; Práticas em Atenção Primária à Saúde/Semiologia Médica (Práticas em Atenção Primária à…) e Anatomia Humana e Cirurgia (Anatomia Humana e Cirurgia): 24/11; Medicina Baseada em Evidências, Epidemiologia e Pesquisa Clínica (Medicina Baseada em Evidências…) e Saúde da Criança (Saúde da Criança): 17/11; Saúde da Mulher (Saúde da Mulher), Métodos de Imagem (Métodos de Imagem) e Psiquiatria (Psiquiatria): 10/11"
         },
         "detalhe": {
           "duracao": "De 45 a 50 minutos. Menos de 45 minutos tem desconto na nota",
@@ -43005,7 +42959,7 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2026-11-13",
           "fim": "2026-12-07",
-          "nota": "Datas por área: Avaliação Nutricional e Nutrição Clínica (Avaliação Nutricional e Nutrição Clínica): 07/12; Fundamentos da Terapia Ocupacional, Atividades e Recursos Terapêuticos Ocupacionais (Fundamentos da Terapia Ocupacional…): 07/12; Práticas em Atenção Primária à Saúde/Semiologia Médica (Práticas em Atenção Primária à…): 27/11; Anatomia Humana e Cirurgia (Anatomia Humana e Cirurgia): 27/11; Medicina Baseada em Evidências, Epidemiologia e Pesquisa Clínica (Medicina Baseada em Evidências…): 23/11; Saúde da Mulher (Saúde da Mulher): 13/11; Métodos de Imagem (Métodos de Imagem): 13/11; Saúde da Criança (Saúde da Criança): 23/11; Psiquiatria (Psiquiatria): 13/11"
+          "nota": "Datas por área: Avaliação Nutricional e Nutrição Clínica (Avaliação Nutricional e Nutrição Clínica) e Fundamentos da Terapia Ocupacional, Atividades e Recursos Terapêuticos Ocupacionais (Fundamentos da Terapia Ocupacional…): 07/12; Práticas em Atenção Primária à Saúde/Semiologia Médica (Práticas em Atenção Primária à…) e Anatomia Humana e Cirurgia (Anatomia Humana e Cirurgia): 27/11; Medicina Baseada em Evidências, Epidemiologia e Pesquisa Clínica (Medicina Baseada em Evidências…) e Saúde da Criança (Saúde da Criança): 23/11; Saúde da Mulher (Saúde da Mulher), Métodos de Imagem (Métodos de Imagem) e Psiquiatria (Psiquiatria): 13/11"
         },
         "detalhe": {}
       },
@@ -43016,7 +42970,8 @@ window.CONCURSOS = [
         "data": {
           "tipo": "periodo",
           "valor": "2026-11-19",
-          "fim": "2026-12-11"
+          "fim": "2026-12-11",
+          "nota": "Datas por área: Avaliação Nutricional e Nutrição Clínica (Avaliação Nutricional e Nutrição Clínica): 11/12; Fundamentos da Terapia Ocupacional, Atividades e Recursos Terapêuticos Ocupacionais (Fundamentos da Terapia Ocupacional…): 11/12; Práticas em Atenção Primária à Saúde/Semiologia Médica (Práticas em Atenção Primária à…): 03/12; Anatomia Humana e Cirurgia (Anatomia Humana e Cirurgia): 03/12; Medicina Baseada em Evidências, Epidemiologia e Pesquisa Clínica (Medicina Baseada em Evidências…): 27/11; Saúde da Criança (Saúde da Criança): 27/11; Saúde da Mulher (Saúde da Mulher): 19/11; Métodos de Imagem (Métodos de Imagem): 19/11; Psiquiatria (Psiquiatria): 19/11"
         },
         "detalhe": {}
       }
@@ -43559,7 +43514,7 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2026-11-25",
           "fim": "2027-02-01",
-          "nota": "Datas por área: Educação Inclusiva (Educação Inclusiva): 01/02; Geografia (Geografia): 01/12; Pedagogia (Pedagogia): 03/12; Construções Rurais com ênfase em Ambiência de Precisão (Construções Rurais com ênfase em Ambiência…): 30/11; Economia Rural (Economia Rural): 30/11; Educação Musical e Estágio Supervisionado (Educação Musical e Estágio Supervisionado): 25/11; Educação Musical e Estágio Supervisionado (Educação Musical e Estágio Supervisionado): 26/11; Educação Musical e Estágio Supervisionado (Educação Musical e Estágio Supervisionado): 27/11; Percussão e Estágio Supervisionado em Percussão (Percussão e Estágio Supervisionado em…): 30/11; Percussão e Estágio Supervisionado em Percussão (Percussão e Estágio Supervisionado em…): 01/12; Percussão e Estágio Supervisionado em Percussão (Percussão e Estágio Supervisionado em…): 02/12; Produção de Bovinos de Corte e Melhoramento Genético Animal (Produção de Bovinos de Corte e Melhoramento…): 25/01; Teoria Econômica (Teoria Econômica): 18/01; Antropologias Indígenas, Negras e Afrodiaspóricas (Antropologias Indígenas, Negras e…): 19/01; Teoria Política e Instituições (Teoria Política e Instituições): 08/12; Educação, Comunicação e Mídias (Educação, Comunicação e Mídias): 01/12; Infância e Educação Infantil (Infância e Educação Infantil): 01/12; Enfermagem Fundamental (Enfermagem Fundamental): 30/11; Análises Clínicas: Hematologia (Análises Clínicas: Hematologia): 01/12; Tecnologias aplicadas à Gestão da Informação (Tecnologias aplicadas à Gestão da Informação): 08/12; Tecnologias Avançadas aplicadas ao Jornalismo (Tecnologias Avançadas aplicadas ao Jornalismo): 01/12; Ginecologia e Obstetrícia (Ginecologia e Obstetrícia): 30/11; Radiologia e Diagnóstico por Imagem (Radiologia e Diagnóstico por Imagem): 11/01; Semiologia/Introdução ao Método Clínico I, II, III e IV (Semiologia/Introdução ao Método Clínico I…): 14/12; Urologia (Urologia): 03/12; Farmacologia (Farmacologia): 12/01; Geopolítica e Geografia Política (Geopolítica e Geografia Política): 08/12; Engenharia Física com ênfase em Instrumentação Científica e Tecnológica (Engenharia Física com ênfase em…): 11/01; Física Experimental: Física de Materiais, Teranóstica ou Fotônica/Biofotônica (Física Experimental: Física de Materiais…): 18/01; Física Médica (Física Médica): 04/01; Ciências da Segurança (Ciências da Segurança): 25/11; Tecnologia da Informação (Tecnologia da Informação): 26/11; Ciência de Dados (Ciência de Dados): 08/12; Educação Matemática (Educação Matemática): 08/12; Estatística (Estatística): 08/12; Parasitologia (Parasitologia): 26/01; Gestão de Obras e Instalações Prediais (Gestão de Obras e Instalações Prediais): 07/12"
+          "nota": "Datas por área: Educação Inclusiva (Educação Inclusiva): 01/02; Geografia (Geografia), Educação, Comunicação e Mídias (Educação, Comunicação e Mídias), Infância e Educação Infantil (Infância e Educação Infantil), Análises Clínicas: Hematologia (Análises Clínicas: Hematologia) e Tecnologias Avançadas aplicadas ao Jornalismo (Tecnologias Avançadas aplicadas ao Jornalismo): 01/12; Pedagogia (Pedagogia) e Urologia (Urologia): 03/12; Construções Rurais com ênfase em Ambiência de Precisão (Construções Rurais com ênfase em Ambiência…), Economia Rural (Economia Rural), Enfermagem Fundamental (Enfermagem Fundamental) e Ginecologia e Obstetrícia (Ginecologia e Obstetrícia): 30/11; Educação Musical e Estágio Supervisionado (Educação Musical e Estágio Supervisionado): 25/11 a 27/11; Percussão e Estágio Supervisionado em Percussão (Percussão e Estágio Supervisionado em…): 30/11 a 02/12; Produção de Bovinos de Corte e Melhoramento Genético Animal (Produção de Bovinos de Corte e Melhoramento…): 25/01; Teoria Econômica (Teoria Econômica) e Física Experimental: Física de Materiais, Teranóstica ou Fotônica/Biofotônica (Física Experimental: Física de Materiais…): 18/01; Antropologias Indígenas, Negras e Afrodiaspóricas (Antropologias Indígenas, Negras e…): 19/01; Teoria Política e Instituições (Teoria Política e Instituições), Tecnologias aplicadas à Gestão da Informação (Tecnologias aplicadas à Gestão da Informação), Geopolítica e Geografia Política (Geopolítica e Geografia Política), Ciência de Dados (Ciência de Dados), Educação Matemática (Educação Matemática) e Estatística (Estatística): 08/12; Radiologia e Diagnóstico por Imagem (Radiologia e Diagnóstico por Imagem) e Engenharia Física com ênfase em Instrumentação Científica e Tecnológica (Engenharia Física com ênfase em…): 11/01; Semiologia/Introdução ao Método Clínico I, II, III e IV (Semiologia/Introdução ao Método Clínico I…): 14/12; Farmacologia (Farmacologia): 12/01; Física Médica (Física Médica): 04/01; Ciências da Segurança (Ciências da Segurança): 25/11; Tecnologia da Informação (Tecnologia da Informação): 26/11; Parasitologia (Parasitologia): 26/01; Gestão de Obras e Instalações Prediais (Gestão de Obras e Instalações Prediais): 07/12"
         },
         "detalhe": {}
       },
@@ -43571,7 +43526,7 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2026-12-07",
           "fim": "2027-02-18",
-          "nota": "Datas por área: Educação Inclusiva (Educação Inclusiva): 17/02 a 18/02; Geografia (Geografia): 15/12 a 16/12; Pedagogia (Pedagogia): 03/02; Construções Rurais com ênfase em Ambiência de Precisão (Construções Rurais com ênfase em Ambiência…): 08/12; Economia Rural (Economia Rural): 08/12; Educação Musical e Estágio Supervisionado (Educação Musical e Estágio Supervisionado): 08/12; Percussão e Estágio Supervisionado em Percussão (Percussão e Estágio Supervisionado em…): 15/12; Produção de Bovinos de Corte e Melhoramento Genético Animal (Produção de Bovinos de Corte e Melhoramento…): 02/02; Teoria Econômica (Teoria Econômica): 26/01; Antropologias Indígenas, Negras e Afrodiaspóricas (Antropologias Indígenas, Negras e…): 28/01; Teoria Política e Instituições (Teoria Política e Instituições): 17/12; Educação, Comunicação e Mídias (Educação, Comunicação e Mídias): 09/12; Infância e Educação Infantil (Infância e Educação Infantil): 09/12; Enfermagem Fundamental (Enfermagem Fundamental): 08/12; Análises Clínicas: Hematologia (Análises Clínicas: Hematologia): 10/12; Tecnologias aplicadas à Gestão da Informação (Tecnologias aplicadas à Gestão da Informação): 15/12; Tecnologias Avançadas aplicadas ao Jornalismo (Tecnologias Avançadas aplicadas ao Jornalismo): 09/12; Ginecologia e Obstetrícia (Ginecologia e Obstetrícia): 07/12; Radiologia e Diagnóstico por Imagem (Radiologia e Diagnóstico por Imagem): 18/01; Semiologia/Introdução ao Método Clínico I, II, III e IV (Semiologia/Introdução ao Método Clínico I…): 21/12; Urologia (Urologia): 10/12; Farmacologia (Farmacologia): 16/02; Geopolítica e Geografia Política (Geopolítica e Geografia Política): 16/12; Engenharia Física com ênfase em Instrumentação Científica e Tecnológica (Engenharia Física com ênfase em…): 19/01; Física Experimental: Física de Materiais, Teranóstica ou Fotônica/Biofotônica (Física Experimental: Física de Materiais…): 26/01; Física Médica (Física Médica): 12/01; Ciências da Segurança (Ciências da Segurança): 08/12; Tecnologia da Informação (Tecnologia da Informação): 08/12; Ciência de Dados (Ciência de Dados): 16/12; Educação Matemática (Educação Matemática): 16/12; Estatística (Estatística): 16/12; Parasitologia (Parasitologia): 04/02; Gestão de Obras e Instalações Prediais (Gestão de Obras e Instalações Prediais): 16/12"
+          "nota": "Datas por área: Educação Inclusiva (Educação Inclusiva): 17/02 a 18/02; Geografia (Geografia): 15/12 a 16/12; Pedagogia (Pedagogia): 03/02; Construções Rurais com ênfase em Ambiência de Precisão (Construções Rurais com ênfase em Ambiência…), Economia Rural (Economia Rural), Educação Musical e Estágio Supervisionado (Educação Musical e Estágio Supervisionado), Enfermagem Fundamental (Enfermagem Fundamental), Ciências da Segurança (Ciências da Segurança) e Tecnologia da Informação (Tecnologia da Informação): 08/12; Percussão e Estágio Supervisionado em Percussão (Percussão e Estágio Supervisionado em…) e Tecnologias aplicadas à Gestão da Informação (Tecnologias aplicadas à Gestão da Informação): 15/12; Produção de Bovinos de Corte e Melhoramento Genético Animal (Produção de Bovinos de Corte e Melhoramento…): 02/02; Teoria Econômica (Teoria Econômica) e Física Experimental: Física de Materiais, Teranóstica ou Fotônica/Biofotônica (Física Experimental: Física de Materiais…): 26/01; Antropologias Indígenas, Negras e Afrodiaspóricas (Antropologias Indígenas, Negras e…): 28/01; Teoria Política e Instituições (Teoria Política e Instituições): 17/12; Educação, Comunicação e Mídias (Educação, Comunicação e Mídias), Infância e Educação Infantil (Infância e Educação Infantil) e Tecnologias Avançadas aplicadas ao Jornalismo (Tecnologias Avançadas aplicadas ao Jornalismo): 09/12; Análises Clínicas: Hematologia (Análises Clínicas: Hematologia) e Urologia (Urologia): 10/12; Ginecologia e Obstetrícia (Ginecologia e Obstetrícia): 07/12; Radiologia e Diagnóstico por Imagem (Radiologia e Diagnóstico por Imagem): 18/01; Semiologia/Introdução ao Método Clínico I, II, III e IV (Semiologia/Introdução ao Método Clínico I…): 21/12; Farmacologia (Farmacologia): 16/02; Geopolítica e Geografia Política (Geopolítica e Geografia Política), Ciência de Dados (Ciência de Dados), Educação Matemática (Educação Matemática), Estatística (Estatística) e Gestão de Obras e Instalações Prediais (Gestão de Obras e Instalações Prediais): 16/12; Engenharia Física com ênfase em Instrumentação Científica e Tecnológica (Engenharia Física com ênfase em…): 19/01; Física Médica (Física Médica): 12/01; Parasitologia (Parasitologia): 04/02"
         },
         "detalhe": {
           "duracao": "De 40 a 50 minutos. Menos de 40 minutos tem desconto na nota",
@@ -43587,7 +43542,7 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2026-12-08",
           "fim": "2027-02-19",
-          "nota": "Datas por área: Educação Inclusiva (Educação Inclusiva): 19/02; Geografia (Geografia): 01/02 a 02/02; Pedagogia (Pedagogia): 05/02; Construções Rurais com ênfase em Ambiência de Precisão (Construções Rurais com ênfase em Ambiência…): 09/12; Economia Rural (Economia Rural): 09/12; Educação Musical e Estágio Supervisionado (Educação Musical e Estágio Supervisionado): 09/12; Percussão e Estágio Supervisionado em Percussão (Percussão e Estágio Supervisionado em…): 16/12; Produção de Bovinos de Corte e Melhoramento Genético Animal (Produção de Bovinos de Corte e Melhoramento…): 03/02; Teoria Econômica (Teoria Econômica): 27/01; Antropologias Indígenas, Negras e Afrodiaspóricas (Antropologias Indígenas, Negras e…): 29/01; Teoria Política e Instituições (Teoria Política e Instituições): 18/12; Educação, Comunicação e Mídias (Educação, Comunicação e Mídias): 10/12; Infância e Educação Infantil (Infância e Educação Infantil): 10/12; Enfermagem Fundamental (Enfermagem Fundamental): 09/12; Análises Clínicas: Hematologia (Análises Clínicas: Hematologia): 11/12; Tecnologias aplicadas à Gestão da Informação (Tecnologias aplicadas à Gestão da Informação): 16/12; Tecnologias Avançadas aplicadas ao Jornalismo (Tecnologias Avançadas aplicadas ao Jornalismo): 10/12; Ginecologia e Obstetrícia (Ginecologia e Obstetrícia): 08/12; Radiologia e Diagnóstico por Imagem (Radiologia e Diagnóstico por Imagem): 19/01; Semiologia/Introdução ao Método Clínico I, II, III e IV (Semiologia/Introdução ao Método Clínico I…): 22/12; Urologia (Urologia): 11/12; Farmacologia (Farmacologia): 17/02; Geopolítica e Geografia Política (Geopolítica e Geografia Política): 17/12; Engenharia Física com ênfase em Instrumentação Científica e Tecnológica (Engenharia Física com ênfase em…): 20/01; Física Experimental: Física de Materiais, Teranóstica ou Fotônica/Biofotônica (Física Experimental: Física de Materiais…): 27/01; Física Médica (Física Médica): 13/01; Ciências da Segurança (Ciências da Segurança): 09/12; Tecnologia da Informação (Tecnologia da Informação): 09/12; Ciência de Dados (Ciência de Dados): 17/12; Educação Matemática (Educação Matemática): 17/12; Estatística (Estatística): 17/12; Parasitologia (Parasitologia): 05/02; Gestão de Obras e Instalações Prediais (Gestão de Obras e Instalações Prediais): 17/12"
+          "nota": "Datas por área: Educação Inclusiva (Educação Inclusiva): 19/02; Geografia (Geografia): 01/02 a 02/02; Pedagogia (Pedagogia) e Parasitologia (Parasitologia): 05/02; Construções Rurais com ênfase em Ambiência de Precisão (Construções Rurais com ênfase em Ambiência…), Economia Rural (Economia Rural), Educação Musical e Estágio Supervisionado (Educação Musical e Estágio Supervisionado), Enfermagem Fundamental (Enfermagem Fundamental), Ciências da Segurança (Ciências da Segurança) e Tecnologia da Informação (Tecnologia da Informação): 09/12; Percussão e Estágio Supervisionado em Percussão (Percussão e Estágio Supervisionado em…) e Tecnologias aplicadas à Gestão da Informação (Tecnologias aplicadas à Gestão da Informação): 16/12; Produção de Bovinos de Corte e Melhoramento Genético Animal (Produção de Bovinos de Corte e Melhoramento…): 03/02; Teoria Econômica (Teoria Econômica) e Física Experimental: Física de Materiais, Teranóstica ou Fotônica/Biofotônica (Física Experimental: Física de Materiais…): 27/01; Antropologias Indígenas, Negras e Afrodiaspóricas (Antropologias Indígenas, Negras e…): 29/01; Teoria Política e Instituições (Teoria Política e Instituições): 18/12; Educação, Comunicação e Mídias (Educação, Comunicação e Mídias), Infância e Educação Infantil (Infância e Educação Infantil) e Tecnologias Avançadas aplicadas ao Jornalismo (Tecnologias Avançadas aplicadas ao Jornalismo): 10/12; Análises Clínicas: Hematologia (Análises Clínicas: Hematologia) e Urologia (Urologia): 11/12; Ginecologia e Obstetrícia (Ginecologia e Obstetrícia): 08/12; Radiologia e Diagnóstico por Imagem (Radiologia e Diagnóstico por Imagem): 19/01; Semiologia/Introdução ao Método Clínico I, II, III e IV (Semiologia/Introdução ao Método Clínico I…): 22/12; Farmacologia (Farmacologia): 17/02; Geopolítica e Geografia Política (Geopolítica e Geografia Política), Ciência de Dados (Ciência de Dados), Educação Matemática (Educação Matemática), Estatística (Estatística) e Gestão de Obras e Instalações Prediais (Gestão de Obras e Instalações Prediais): 17/12; Engenharia Física com ênfase em Instrumentação Científica e Tecnológica (Engenharia Física com ênfase em…): 20/01; Física Médica (Física Médica): 13/01"
         },
         "detalhe": {}
       },
@@ -43599,7 +43554,7 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2026-11-25",
           "fim": "2027-02-01",
-          "nota": "Datas por área: Educação Inclusiva (Educação Inclusiva): 01/02; Geografia (Geografia): 30/11; Pedagogia (Pedagogia): 03/12; Construções Rurais com ênfase em Ambiência de Precisão (Construções Rurais com ênfase em Ambiência…): 30/11; Economia Rural (Economia Rural): 30/11; Educação Musical e Estágio Supervisionado (Educação Musical e Estágio Supervisionado): 25/11; Percussão e Estágio Supervisionado em Percussão (Percussão e Estágio Supervisionado em…): 30/11; Produção de Bovinos de Corte e Melhoramento Genético Animal (Produção de Bovinos de Corte e Melhoramento…): 25/01; Teoria Econômica (Teoria Econômica): 18/01; Antropologias Indígenas, Negras e Afrodiaspóricas (Antropologias Indígenas, Negras e…): 18/01; Teoria Política e Instituições (Teoria Política e Instituições): 07/12; Educação, Comunicação e Mídias (Educação, Comunicação e Mídias): 30/11; Infância e Educação Infantil (Infância e Educação Infantil): 30/11; Enfermagem Fundamental (Enfermagem Fundamental): 30/11; Análises Clínicas: Hematologia (Análises Clínicas: Hematologia): 30/11; Tecnologias aplicadas à Gestão da Informação (Tecnologias aplicadas à Gestão da Informação): 07/12; Tecnologias Avançadas aplicadas ao Jornalismo (Tecnologias Avançadas aplicadas ao Jornalismo): 30/11; Ginecologia e Obstetrícia (Ginecologia e Obstetrícia): 30/11; Radiologia e Diagnóstico por Imagem (Radiologia e Diagnóstico por Imagem): 11/01; Semiologia/Introdução ao Método Clínico I, II, III e IV (Semiologia/Introdução ao Método Clínico I…): 14/12; Urologia (Urologia): 03/12; Farmacologia (Farmacologia): 12/01; Geopolítica e Geografia Política (Geopolítica e Geografia Política): 07/12; Engenharia Física com ênfase em Instrumentação Científica e Tecnológica (Engenharia Física com ênfase em…): 11/01; Física Experimental: Física de Materiais, Teranóstica ou Fotônica/Biofotônica (Física Experimental: Física de Materiais…): 18/01; Física Médica (Física Médica): 04/01; Ciências da Segurança (Ciências da Segurança): 25/11; Tecnologia da Informação (Tecnologia da Informação): 25/11; Ciência de Dados (Ciência de Dados): 07/12; Educação Matemática (Educação Matemática): 07/12; Estatística (Estatística): 07/12; Parasitologia (Parasitologia): 25/01; Gestão de Obras e Instalações Prediais (Gestão de Obras e Instalações Prediais): 07/12"
+          "nota": "Datas por área: Educação Inclusiva (Educação Inclusiva): 01/02; Geografia (Geografia), Construções Rurais com ênfase em Ambiência de Precisão (Construções Rurais com ênfase em Ambiência…), Economia Rural (Economia Rural), Percussão e Estágio Supervisionado em Percussão (Percussão e Estágio Supervisionado em…), Educação, Comunicação e Mídias (Educação, Comunicação e Mídias), Infância e Educação Infantil (Infância e Educação Infantil), Enfermagem Fundamental (Enfermagem Fundamental), Análises Clínicas: Hematologia (Análises Clínicas: Hematologia), Tecnologias Avançadas aplicadas ao Jornalismo (Tecnologias Avançadas aplicadas ao Jornalismo) e Ginecologia e Obstetrícia (Ginecologia e Obstetrícia): 30/11; Pedagogia (Pedagogia) e Urologia (Urologia): 03/12; Educação Musical e Estágio Supervisionado (Educação Musical e Estágio Supervisionado), Ciências da Segurança (Ciências da Segurança) e Tecnologia da Informação (Tecnologia da Informação): 25/11; Produção de Bovinos de Corte e Melhoramento Genético Animal (Produção de Bovinos de Corte e Melhoramento…) e Parasitologia (Parasitologia): 25/01; Teoria Econômica (Teoria Econômica), Antropologias Indígenas, Negras e Afrodiaspóricas (Antropologias Indígenas, Negras e…) e Física Experimental: Física de Materiais, Teranóstica ou Fotônica/Biofotônica (Física Experimental: Física de Materiais…): 18/01; Teoria Política e Instituições (Teoria Política e Instituições), Tecnologias aplicadas à Gestão da Informação (Tecnologias aplicadas à Gestão da Informação), Geopolítica e Geografia Política (Geopolítica e Geografia Política), Ciência de Dados (Ciência de Dados), Educação Matemática (Educação Matemática), Estatística (Estatística) e Gestão de Obras e Instalações Prediais (Gestão de Obras e Instalações Prediais): 07/12; Radiologia e Diagnóstico por Imagem (Radiologia e Diagnóstico por Imagem) e Engenharia Física com ênfase em Instrumentação Científica e Tecnológica (Engenharia Física com ênfase em…): 11/01; Semiologia/Introdução ao Método Clínico I, II, III e IV (Semiologia/Introdução ao Método Clínico I…): 14/12; Farmacologia (Farmacologia): 12/01; Física Médica (Física Médica): 04/01"
         },
         "detalhe": {}
       }
@@ -43701,7 +43656,8 @@ window.CONCURSOS = [
         "carater": "",
         "data": {
           "tipo": "exata",
-          "valor": "2027-05-17"
+          "valor": "2027-05-17",
+          "nota": "Prazo máximo: até essa data, pelo edital"
         },
         "detalhe": {}
       }
@@ -43756,8 +43712,7 @@ window.CONCURSOS = [
         "carater": "Eliminatória e classificatória",
         "data": {
           "tipo": "exata",
-          "valor": "2026-12-06",
-          "nota": "Datas por área: geral: 06/12; 2 (Engenharia de Computação/Segurança em Redes…): 06/12"
+          "valor": "2026-12-06"
         },
         "detalhe": {}
       },
@@ -43826,9 +43781,8 @@ window.CONCURSOS = [
     "banca": "Comissão própria da UFV",
     "link_oficial": "https://www.ufv.br/soc",
     "inscricao": {
-      "inicio": "2026-10-15",
       "situacao": "consultar",
-      "taxa": "R$ 120,75"
+      "taxa": "R$ 120,75. Inscrições por 30 dias corridos a contar da publicação do edital no DOU de 15/10/2026; confira a data final no edital"
     },
     "etapas": [
       {
@@ -43847,7 +43801,8 @@ window.CONCURSOS = [
         "carater": "Eliminatória e classificatória",
         "data": {
           "tipo": "exata",
-          "valor": "2026-11-25"
+          "valor": "2026-11-25",
+          "nota": "Data provável, pelo edital"
         },
         "detalhe": {
           "duracao": "50 minutos, com tolerância de 10 para mais ou para menos",
@@ -44111,7 +44066,7 @@ window.CONCURSOS = [
     "link_oficial": "https://www.medicina.ufmg.br/editais/",
     "inscricao": {
       "situacao": "consultar",
-      "taxa": "R$ 215,99"
+      "taxa": "R$ 215,99. Inscrições por 45 dias corridos a contar da publicação do edital no DOU de 14/10/2026; confira a data final no edital"
     },
     "etapas": [
       {
@@ -44194,7 +44149,7 @@ window.CONCURSOS = [
     "link_oficial": "https://www.medicina.ufmg.br/editais/",
     "inscricao": {
       "situacao": "consultar",
-      "taxa": "R$ 215,99"
+      "taxa": "R$ 215,99. Inscrições por 60 dias corridos a contar da publicação do edital no DOU de 14/10/2026; confira a data final no edital"
     },
     "etapas": [
       {
@@ -44277,7 +44232,7 @@ window.CONCURSOS = [
     "link_oficial": "https://www.ufv.br/soc",
     "inscricao": {
       "situacao": "consultar",
-      "taxa": "R$ 120,75"
+      "taxa": "R$ 120,75. Inscrições por 45 dias corridos a contar da publicação do edital no DOU; confira a data final no edital"
     },
     "etapas": [
       {
@@ -44296,7 +44251,8 @@ window.CONCURSOS = [
         "carater": "Eliminatória e classificatória",
         "data": {
           "tipo": "exata",
-          "valor": "2026-12-10"
+          "valor": "2026-12-10",
+          "nota": "Data provável, pelo edital"
         },
         "detalhe": {
           "duracao": "50 minutos, com tolerância de 10 para mais ou para menos",
@@ -44313,7 +44269,8 @@ window.CONCURSOS = [
         "carater": "Eliminatória e classificatória",
         "data": {
           "tipo": "exata",
-          "valor": "2026-12-11"
+          "valor": "2026-12-11",
+          "nota": "Data provável, pelo edital"
         },
         "detalhe": {}
       },
@@ -44366,9 +44323,8 @@ window.CONCURSOS = [
     "banca": "Comissão própria da UFV",
     "link_oficial": "https://www.ufv.br/soc",
     "inscricao": {
-      "inicio": "2026-10-15",
       "situacao": "consultar",
-      "taxa": "R$ 120,75"
+      "taxa": "R$ 120,75. Inscrições por 30 dias corridos a contar da publicação do edital no DOU de 15/10/2026; confira a data final no edital"
     },
     "etapas": [
       {
@@ -44387,7 +44343,8 @@ window.CONCURSOS = [
         "carater": "Eliminatória e classificatória",
         "data": {
           "tipo": "exata",
-          "valor": "2026-12-09"
+          "valor": "2026-12-09",
+          "nota": "Data provável, pelo edital"
         },
         "detalhe": {
           "duracao": "50 minutos, com tolerância de 10 para mais ou para menos",
@@ -44404,7 +44361,8 @@ window.CONCURSOS = [
         "carater": "Eliminatória e classificatória",
         "data": {
           "tipo": "exata",
-          "valor": "2026-12-10"
+          "valor": "2026-12-10",
+          "nota": "Data provável, pelo edital"
         },
         "detalhe": {}
       },
@@ -44457,9 +44415,8 @@ window.CONCURSOS = [
     "banca": "Comissão própria da UFV",
     "link_oficial": "https://www.ufv.br/soc",
     "inscricao": {
-      "inicio": "2026-10-15",
       "situacao": "consultar",
-      "taxa": "R$ 120,75"
+      "taxa": "R$ 120,75. Inscrições por 30 dias corridos a contar da publicação do edital no DOU de 15/10/2026; confira a data final no edital"
     },
     "etapas": [
       {
@@ -44478,7 +44435,8 @@ window.CONCURSOS = [
         "carater": "Eliminatória e classificatória",
         "data": {
           "tipo": "exata",
-          "valor": "2026-11-25"
+          "valor": "2026-11-25",
+          "nota": "Data provável, pelo edital"
         },
         "detalhe": {
           "duracao": "50 minutos, com tolerância de 10 para mais ou para menos",
