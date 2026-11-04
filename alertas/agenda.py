@@ -459,6 +459,28 @@ def rotulo(e):
     return n[0].upper() + n[1:]
 
 
+SORTEIOS = {"sorteio_tema", "sorteio_ordem", "sorteio_turma"}
+
+
+def sorteio_ja_datado(e, eventos, d):
+    """Regra geral do edital para um sorteio, sem data ("Serão realizados sorteios públicos, após a divulgação do
+    resultado da prova escrita"), quando o destinatário já tem sorteio datado da mesma etapa no cronograma dele
+    (UNILAB 14, áreas 06, 07 e 09, conferências de 03 e 04/11/2026: os sorteios de 09/11 já estavam na agenda, e a
+    linha sem data sugeria um sorteio ainda por marcar)."""
+    # Só a condicionada ("após a divulgação de..."): a relativa diz quando é para cada candidato ("2 horas antes da sua
+    # apresentação", UFBA 06), o que o sorteio datado do cronograma, uma janela de vários candidatos, não diz
+    if e["tipo_evento"] not in SORTEIOS or (e.get("data") or {}).get("forma") != "condicionada":
+        return False
+    for x in eventos:
+        if x is e or x.get("estado") != "vigente" or x["tipo_evento"] not in SORTEIOS or x.get("etapa_ref") != e.get("etapa_ref"):
+            continue
+        if intervalo(x["data"])[0] not in ("fixa", "janela") or not intervalo(x["data"])[1]:
+            continue
+        if x["escopo"] == "geral" or (d is not None and d in x["escopo"]):
+            return True
+    return False
+
+
 def companheiros(e, eventos, d, hoje=None):
     """Eventos de presença do mesmo destinatário d que acontecem antes do compromisso e (até 3 dias antes,
     ou no mesmo dia em hora anterior): vão no mesmo aviso, para ninguém chegar depois deles."""
@@ -479,7 +501,7 @@ def companheiros(e, eventos, d, hoje=None):
             # UNILAB 14: sorteio da ordem com todos presentes): vai com a condição, para o candidato saber que existe
             # só no aviso da própria prova (rodada 2: ia junto do comunicado de locais no IFMG 607 e do memorial na FMUSP 167)
             if e["tipo_evento"] == "prova" and c.get("etapa_ref") and c.get("etapa_ref") == e.get("etapa_ref") \
-                    and c["tipo_evento"] != e["tipo_evento"]:
+                    and c["tipo_evento"] != e["tipo_evento"] and not sorteio_ja_datado(c, eventos, d):
                 out.append(c)
             continue
         if cf not in ("fixa", "janela") or not ci or not (i - dt.timedelta(days=DIAS_ANTES) <= ci <= i):
@@ -492,6 +514,16 @@ def companheiros(e, eventos, d, hoje=None):
             continue
         out.append(c)
     return out
+
+
+def linha_com_data(quando, rot):
+    """"<quando>: <rótulo>", sem repetir o rótulo quando a data é a condição do edital copiada do mesmo trecho
+    (UERJ 227, conferência de 04/11/2026: "Divulgação da lista de pontos ... imediatamente após o resultado da prova
+    escrita.: Divulgação da lista de pontos ... imediatamente após...")."""
+    nq, nr = norma_titulo(quando or "").lower().strip(" ."), norma_titulo(rot or "").lower()
+    if len(nq) >= 20 and nq in nr:
+        return rot
+    return f"{quando}: {rot}"
 
 
 def texto_ev(e, hoje):
@@ -853,6 +885,11 @@ def completar(avisos, slug, c, hoje, destinos, ordem, edital, nomes_area, cancel
                 elif e["tipo_evento"] == "entrega_documento" and j and cobre(j, True):
                     item = item_agendado(e, "fim", j, hoje, fonte)
                     de_cota = not cobre(j, False)
+                elif f == "janela" and j and i < hoje <= j and cobre(hoje, True):
+                    # Conferência de 04/11/2026, UFS 008, área 03: o sorteio do ponto dos candidatos 01 a 07 foi em 03/11 e o
+                    # dos candidatos 08 a 15 é hoje; a janela começou ontem e ficava fora da mensagem da prova de hoje e amanhã
+                    item = item_agendado(e, "ini", hoje, hoje, fonte)
+                    de_cota = not cobre(hoje, False)
                 if item is not None and de_cota:
                     item["so_cota"] = True
             if item is None and e["tipo_evento"] in PRAZOS and hoje <= (j or i) <= amanha and i <= amanha:
@@ -861,8 +898,39 @@ def completar(avisos, slug, c, hoje, destinos, ordem, edital, nomes_area, cancel
                 item["ordem"] = ordem.get(id(e), 0)
                 item["completa"] = True
                 out.append(item)
+        out += resultados_com_hora(d, base + out)
         out += alvos_do_comparecimento(d, base + out)
         out += atrelados(d, base + out)
+        return out
+
+    def resultados_com_hora(d, its):
+        """Conferências de 03 e 04/11/2026 (UERJ Seleções 234, 237 e 250): a mensagem levava a entrega dos títulos
+        "imediatamente após o resultado da Prova de Aula" e o sorteio da prova prática, e deixava de fora o resultado com
+        hora marcada no mesmo dia (15:00, 15h, 09:00), que é o marco da sessão. Resultado com data e hora fixas num dia
+        que a mensagem já cobre com outro compromisso vai junto."""
+        presentes = {x.get("ev") for x in its}
+        dias = {x["data"] for x in its if x.get("tipo") == "agendado" and not x.get("antes") and x.get("data")
+                and x["data"] >= hoje}
+        if not dias:
+            return []
+        out = []
+        for e in vig:
+            if id(e) in presentes or e["tipo_evento"] not in RESULTADOS or SEM_CANDIDATO.search(e.get("descricao_literal") or ""):
+                continue
+            ds = dest[id(e)]
+            if not (None in ds or (d is not None and d in ds)):
+                continue
+            f, i, j, h = intervalo(e["data"])
+            if f != "fixa" or not i or not h or i not in dias:
+                continue
+            fonte = dict(e.get("fonte") or {})
+            fonte["documento"] = fonte.get("documento") or edital
+            item = item_agendado(e, "ini", i, hoje, fonte)
+            item.update(ordem=ordem.get(id(e), 0), completa=True)
+            if all(x.get("so_cota") for x in its if x.get("data") == i):
+                item["so_cota"] = True
+            presentes.add(id(e))
+            out.append(item)
         return out
 
     def atrelados(d, its):
@@ -891,7 +959,7 @@ def completar(avisos, slug, c, hoje, destinos, ordem, edital, nomes_area, cancel
             if not (e["tipo_evento"] in CRITICOS or (e["tipo_evento"] == "outro" and PRESENCA.search(e.get("descricao_literal") or ""))):
                 continue
             ds = dest[id(e)]
-            if not (None in ds or (d is not None and d in ds)):
+            if not (None in ds or (d is not None and d in ds)) or sorteio_ja_datado(e, vig, d):
                 continue
             for p, x in refs:
                 if p is e or not cita_a_referencia(e, p, ordem_etapas, etapas_com_prova):
@@ -905,7 +973,7 @@ def completar(avisos, slug, c, hoje, destinos, ordem, edital, nomes_area, cancel
                 rot = re.sub(r"[\s\-–—:;,]+$", "", sem_tempo_repetido(rotulo(e), texto_ev(e, hoje)))
                 item = {"tipo": "agendado", "data": x["data"], "hora": "99:98" if apos else "", "antes": not apos,
                         "ev": id(e), "ordem": ordem.get(id(e), 0), "completa": True, "atrelado": True, "ref_ev": id(p),
-                        "texto": f"{texto_ev(e, hoje)}: {rot} (a referência é {corta(rotulo(p), 70)}, em {ref})",
+                        "texto": f"{linha_com_data(texto_ev(e, hoje), rot)} (a referência é {corta(rotulo(p), 70)}, em {ref})",
                         "fonte": fonte}
                 if x.get("so_cota") or so_cota(e):
                     item["so_cota"] = True
@@ -1696,7 +1764,7 @@ def executar(vigia, hoje, anterior):
                                 avisos[(slug, d)].append({"tipo": "agendado", "data": ci2 or ref, "hora": ch2 or "", "antes": not ci2,
                                     **({"fim_hoje": fim_no_dia(cpn["data"], hoje)} if ci2 == hoje else {}),
                                     "ev": id(cpn), "ordem": ordem.get(id(cpn), 0),
-                                    "texto": f"{texto_ev(cpn, hoje)}: {sem_tempo_repetido(rotulo(cpn), texto_ev(cpn, hoje))}{quando}",
+                                    "texto": f"{linha_com_data(texto_ev(cpn, hoje), sem_tempo_repetido(rotulo(cpn), texto_ev(cpn, hoje)))}{quando}",
                                     "fonte": dict(cpn.get("fonte") or {}, documento=(cpn.get("fonte") or {}).get("documento") or edital)})
             # Data calculada que aparece pela primeira vez depois de passados os gatilhos (a âncora foi datada tarde, ou a
             # conta é nova): avisa já, uma vez, se ainda está dentro da maior antecedência da regra (UFRGS 09, Lotação 07,
@@ -1957,6 +2025,13 @@ def montar_fila(concursos, avisos, hoje, base):
                 continue
             rot = f"área {area}, {c['_areas'].get(area, '')}".rstrip(", ") if area else (
                 "todas as áreas" if len(alvos) == 1 else "demais áreas (só os avisos gerais)")
+            if not area:
+                # Conferência de 04/11/2026, UFBA 06: o aviso geral do período das provas ia também à área MED D99,
+                # suspensa em 26/10; área suspensa ou cancelada não recebe aviso geral de datas
+                fora = sorted(situacao(c)[1])
+                if fora:
+                    rot += f", exceto {'a área' if len(fora) == 1 else 'as áreas'} {', '.join(fora)} (suspensa ou cancelada)"
+                    rot = rot.replace("todas as áreas, exceto", "todas as áreas exceto")
             # Aviso só de cota (decisão de 22/10): quem marcou cota recebe a mensagem completa no lugar da
             # outra, e quem não marcou recebe a mesma sem esses itens, se sobrar algum.
             geral, com_cota = podar_hoje(itens_do_publico(itens, False), hoje), podar_hoje(itens_do_publico(itens, True), hoje)

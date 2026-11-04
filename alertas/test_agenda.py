@@ -359,7 +359,11 @@ class Conferencia1310Omissao(unittest.TestCase):
         ls = linhas(m["08"])
         self.assertTrue(any("08:30" in l and "abertura do concurso" in l for l in ls), ls)
         self.assertTrue(any("Memorial" in l for l in ls), ls)
-        self.assertFalse(any("divulgação dos resultados" in l for l in ls), ls)  # "etapa eliminatória" não é presença
+        # "etapa eliminatória" não é presença: o resultado não ganha comparecimento nem aviso próprio de 7, 2 e 1 dia.
+        # Desde a conferência de 04/11/2026 (UERJ 234, 237 e 250), o resultado com hora marcada no mesmo dia de outro
+        # compromisso da mensagem vai junto, como marco da sessão
+        self.assertFalse(any("divulgação dos resultados" in l and "Comparecimento" in l for l in ls), ls)
+        self.assertEqual(sum("divulgação dos resultados" in l for l in ls), 1, ls)
         self.assertLess(next(k for k, l in enumerate(ls) if "08:30" in l), next(k for k, l in enumerate(ls) if "08:45" in l))
         self.assertNotIn("11", m)  # a outra área não recebe nada
 
@@ -1467,3 +1471,60 @@ class Conferencia0411(unittest.TestCase):
         self.assertNotIn("de uma etapa", m)
         fonte = next(l for l in m.split("\n") if l.startswith("Fonte:"))
         self.assertEqual(fonte.count("052"), 1, fonte)
+
+
+class Conferencia0411b(unittest.TestCase):
+    """Pendências das conferências de 03 e 04/11/2026: a janela que começou ontem e termina hoje (UFS 008, sorteio do
+    ponto), o resultado com hora marcada no dia de outro compromisso (UERJ 234, 237 e 250), o rótulo repetido do
+    condicionado (UERJ 227), a regra geral do sorteio sem data quando o sorteio já está datado (UNILAB 14) e o aviso
+    geral que chegava à área suspensa (UFBA 06, MED D99)."""
+    QUA, TER = dt.date(2026, 11, 4), dt.date(2026, 11, 3)
+
+    def test_janela_que_comecou_ontem_entra(self):  # UFS 008, área 03, ev-0050
+        evs = [{"tipo_evento": "sorteio_tema", "etapa_ref": "didatica", "descricao_literal": "Sorteio do Ponto da Prova Didática (presença obrigatória)",
+                "data": jn("2026-11-03", "08:30", "2026-11-04", "18:40")},
+               {"tipo_evento": "prova", "etapa_ref": "didatica", "descricao_literal": "Prova Didática (presença obrigatória)",
+                "data": jn("2026-11-04", "08:30", "2026-11-05", "18:40")}, MEMORIAL_0611]
+        ls = linhas(rodar_msgs(evs, self.QUA, self.TER)[None])
+        s = next((l for l in ls if "Sorteio do Ponto" in l), None)
+        self.assertIsNotNone(s, ls)
+        self.assertIn("(é hoje)", s)
+
+    def test_resultado_com_hora_no_dia_de_outro_compromisso(self):  # UERJ Seleção 2026/237, itens 11.1, p e q
+        evs = [{"tipo_evento": "prova", "etapa_ref": "didatica", "descricao_literal": "O) Prova de aula - 19/11/2026, às 9h", "data": fx("2026-11-11", "09:00")},
+               {"tipo_evento": "resultado", "etapa_ref": "didatica", "descricao_literal": "P) Resultado da prova de aula - às 15h", "data": fx("2026-11-12", "15:00")},
+               {"tipo_evento": "entrega_documento", "etapa_ref": "titulos", "descricao_literal": "Q) Entrega de Títulos e Trabalhos, imediatamente após o resultado da Prova de Aula",
+                "data": fx("2026-11-12")}]
+        ls = linhas(rodar_msgs(evs, self.QUA, self.TER)[None])
+        self.assertTrue(any("P) Resultado da prova de aula" in l and "15:00" in l for l in ls), ls)
+        # resultado sozinho, sem compromisso no mesmo dia, não entra pelo complemento
+        ls2 = linhas(rodar_msgs(evs[:2], self.QUA, self.TER)[None])
+        self.assertFalse(any("Resultado" in l for l in ls2), ls2)
+
+    def test_condicionado_sem_rotulo_repetido(self):  # UERJ 227, ev-0014
+        lit = "Divulgação da lista de pontos para a prova de aula - imediatamente após o resultado da prova escrita. Todos os candidatos deverão apresentar-se"
+        evs = [{"tipo_evento": "outro", "etapa_ref": "didatica", "descricao_literal": lit,
+                "data": {"forma": "condicionada", "condicao_literal": "Divulgação da lista de pontos para a prova de aula - imediatamente após o resultado da prova escrita."}},
+               {"tipo_evento": "sorteio_tema", "etapa_ref": "didatica", "descricao_literal": "Sorteio do ponto para a prova de aula", "data": fx("2026-11-06", "09:00")},
+               {"tipo_evento": "prova", "etapa_ref": "didatica", "descricao_literal": "Prova de aula", "data": fx("2026-11-06", "10:00")}]
+        ls = linhas(rodar_msgs(evs, self.QUA, self.TER)[None])
+        l = next(l for l in ls if "lista de pontos" in l)
+        self.assertEqual(l.count("Divulgação da lista de pontos"), 1, l)
+        self.assertEqual(A.linha_com_data("até 3 dias depois de X", "Entrega"), "até 3 dias depois de X: Entrega")
+
+    def test_sorteio_condicionado_sai_quando_ja_ha_sorteio_datado(self):  # UNILAB 14, áreas 06, 07 e 09 (item 6.8.3)
+        geral = {"tipo_evento": "sorteio_ordem", "etapa_ref": "didatica", "descricao_literal": "Serão realizados sorteios públicos",
+                 "data": {"forma": "condicionada", "condicao_literal": "após a divulgação do resultado da prova escrita"}}
+        datado = {"tipo_evento": "sorteio_tema", "etapa_ref": "didatica", "escopo": ["06"], "descricao_literal": "Sorteio do ponto (tema)",
+                  "estado": "vigente", "data": fx("2026-11-09", "09:00")}
+        self.assertTrue(A.sorteio_ja_datado(dict(geral, estado="vigente"), [datado], "06"))
+        self.assertFalse(A.sorteio_ja_datado(dict(geral, estado="vigente"), [datado], "07"))
+        relativo = dict(geral, estado="vigente", data={"forma": "relativa", "quantidade": 2, "unidade": "horas", "sentido": "antes"})
+        self.assertFalse(A.sorteio_ja_datado(relativo, [datado], "06"))  # UFBA 06: "2 horas antes da sua apresentação" fica
+
+    def test_aviso_geral_nao_vai_a_area_suspensa(self):  # UFBA 06, MED D99 (área 18), suspensa em 26/10
+        c = {"sigla": "TESTE", "numero_edital": "1/2026", "_areas": {"01": "Área 01", "18": "Área 18"}, "_triagem": [], "_titulos": {},
+             "eventos": [{"tipo_evento": "suspensao", "escopo": ["18"], "estado": "vigente", "data": fx("2026-10-26")}]}
+        item = {"tipo": "agendado", "data": dt.date(2026, 11, 6), "hora": "", "texto": "06/11/2026 (sexta): Período das provas (faltam 2 dias)", "fonte": {}}
+        fila, _ = A.montar_fila({"t": c}, {("t", None): [item], ("t", "01"): [dict(item)]}, self.QUA, False)
+        self.assertIn("exceto a área 18 (suspensa ou cancelada)", fila)

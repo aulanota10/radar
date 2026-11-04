@@ -152,3 +152,17 @@ UNESPAR 023. Resultado novo sem evento próprio (o extrator só marcou como pass
 Na fila de 04/11 reproduzida sobre o vigia atual (com o memorando de Micrometeorologia da UFSM 198 já aplicado) e o estado de 03/11, a fila passa de 61 para 62 mensagens (entra a da USP RH 038, prazo de recurso de 04/11 12:00 a 06/11 12:00, que caía pela hora de início) e muda o texto de 6: UFBA 06 (áreas 10 e 13), UFS 008 (área 03), UFMG 1638, UERJ 2026/236 e UNESPAR 023. No modelo do WhatsApp, 95 partes contra 91, nenhuma fora dos limites. 177 testes, 5 novos em Conferencia0411.
 
 Ficam para depois: UERJ 227 (condicionado ancorado no evento errado), UERJ 237, 250 e 234 (resultado com hora fora da mensagem e comparecimento do sorteio do 9.1.3), UFBA 06 (regra genérica do 8.5.4 levada como evento sem data; aviso geral do período às áreas suspensas), UNILAB 14 (regra genérica do sorteio não casada com o sorteio datado) e IFMT 03 (período geral às áreas sem convocado; fonte superada e rótulo montado de dois trechos).
+
+## Pendências das conferências de 03 e 04/11/2026 (04/11/2026, à noite)
+
+Janela que começou antes de hoje e termina hoje ou depois (UFS 008, área 03: sorteio do ponto dos candidatos 01 a 07 em 03/11 e dos candidatos 08 a 15 em 04/11) entra no complemento da mensagem que cobre hoje, com "(é hoje)"; antes ficava de fora porque o complemento olhava só o início.
+
+Resultado com data e hora fixas num dia que a mensagem já cobre com outro compromisso vai junto, como marco da sessão (UERJ Seleções 234, 237 e 250: resultado das 15:00 antes da entrega do projeto, resultado das 15h antes da entrega dos títulos "imediatamente após", resultado das 09:00 antes do sorteio da prova prática). Não ganha comparecimento nem aviso próprio.
+
+Evento sem data cuja condição é o próprio trecho do rótulo não repete o texto (UERJ 227, divulgação da lista de pontos).
+
+Regra geral de sorteio condicionada ("serão realizados sorteios públicos após a divulgação do resultado da prova escrita", UNILAB 14, item 6.8.3) sai da mensagem do destinatário que já tem sorteio datado da mesma etapa no cronograma. A relativa ("2 horas antes da sua apresentação", UFBA 06) fica, porque diz o horário de cada candidato.
+
+A mensagem geral de um concurso com área suspensa ou cancelada diz no destinatário "exceto as áreas ... (suspensa ou cancelada)" (UFBA 06, MED D99, suspensa em 26/10).
+
+Ficam com o extrator, porque a informação não está na extração: o comparecimento 30 minutos antes do resultado das 15h (UERJ 237) e do sorteio do item 9.1.3 (UERJ 250), que o item 11.2 manda gerar e não foi gerado; a regra do 8.5.4 da UFBA 06 (ev-0045), cujo literal não diz que o sorteio da ordem é com todos presentes e elimina o ausente; no IFMT 03, a fonte dos eventos ainda é o cronograma de 09/10 (há versão de 14/10 com as mesmas datas), o rótulo junta dois trechos e a hora final é o início do último candidato. A UERJ 227 tem o resultado da prova escrita relativo ("até 2 dias após a leitura") e por isso a divulgação dos pontos continua sem data. O período geral do IFMT 03 indo às áreas 04 e 05, sem convocado, depende de a extração registrar quem foi convocado por área.
