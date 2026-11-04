@@ -1,12 +1,5 @@
 {
  "unesp-assistente-2026": [
   "vagas: o dados.js anterior dizia \"1 vaga por edital, em 8 concursos independentes\", a extração soma 8 (publicado o anterior)"
- ],
- "ufvjm-101-2026": [
-  "Prova Escrita: dados.js anterior 30/11/2026, extração 15/02/2026 a 26/04/2027 (publicado o anterior)",
-  "Prova prática: dados.js anterior 27/01/2027, extração 27/01/2027 a 15/04/2027 (publicado o anterior)",
-  "Prova Didática: dados.js anterior 26/01/2027 a 16/02/2027, extração 15/02/2026 a 26/04/2027 (publicado o anterior)",
-  "Prova defesa de projeto de atividades acadêmicas: dados.js anterior 18/02/2027, extração 14/12/2026 a 15/04/2027 (publicado o anterior)",
-  "Prova de Títulos: dados.js anterior 27/01/2027 a 19/02/2027, extração 15/02/2026 a 26/04/2027 (publicado o anterior)"
  ]
 }
