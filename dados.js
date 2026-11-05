@@ -1,6 +1,6 @@
 // ═══════════════════════════════════════════════════════════════════════
 //  DADOS DO RADAR DE CONCURSOS · Aula Nota 10
-//  Última verificação: 04/11/2026
+//  Última verificação: 05/11/2026
 //
 //  ESTE É O ÚNICO ARQUIVO QUE VOCÊ PRECISA EDITAR PARA ATUALIZAR O SITE.
 //  Não mexa no index.html.
@@ -35,7 +35,7 @@
 // Gerado por compilar_radar.py a partir das extrações v2 (vigia-documentos/extracoes).
 // Para corrigir um dado, corrija a extração e rode o compilador de novo.
 
-window.RADAR_ATUALIZADO = "04/11/2026";
+window.RADAR_ATUALIZADO = "05/11/2026";
 
 window.CONCURSOS = [
   {
@@ -1498,7 +1498,7 @@ window.CONCURSOS = [
     "instituicao": "Universidade Federal do Rio Grande do Sul",
     "nivel": "Magistério Superior",
     "uf": "RS",
-    "numero_edital": "Edital nº 09/2026, publicado em 19/08/2026, com 7 documentos de alteração publicados depois",
+    "numero_edital": "Edital nº 09/2026, publicado em 19/08/2026, com 10 documentos de alteração publicados depois",
     "vagas": "20 vagas (10 ampla concorrência, 5 pretos, 1 indígena, 4 PcD)",
     "areas": "16 áreas, entre elas Antropologia, Subárea: Teoria Antropológica, Arquitetura e Urbanismo, Subárea: Projeto Arquitetônico: fundamentos e tecnologia, Ciências Agrárias, Subárea: Entomologia Agrícola, Ciências da Saúde/Medicina, Subárea: Anatomia Patológica e Patologia Clínica e Direito, Subárea: Direito Internacional Público",
     "campi": "Instituto de Filosofia e Ciências Humanas - Departamento de Antropologia, Faculdade de Arquitetura - Departamento de Arquitetura, Faculdade de Agronomia - Departamento de Fitossanidade e Faculdade de Medicina - Departamento de Patologia",
@@ -1534,9 +1534,9 @@ window.CONCURSOS = [
         "carater": "Eliminatória e classificatória",
         "data": {
           "tipo": "periodo",
-          "valor": "2026-11-18",
+          "valor": "2026-11-16",
           "fim": "2026-12-02",
-          "nota": "Datas por área: 1.2.13 (Linguística, Letras e Artes - Teatro…): 18/11 a 21/11; 1.2.15 (Odontologia, Subárea: Cariologia ou…): 02/12"
+          "nota": "Datas por área: 1.2.13 (Linguística, Letras e Artes - Teatro…): 16/11 a 17/11; 1.2.15 (Odontologia, Subárea: Cariologia ou…): 02/12"
         },
         "detalhe": {}
       },
@@ -1548,7 +1548,7 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2026-11-10",
           "fim": "2026-12-24",
-          "nota": "Datas por área: 1.2.7 (Educação, Subárea: Educação e Artes Visuais): 10/11; 1.2.12 (Língua Alemã, Literatura de Língua Alemã e…): 12/11 a 13/11; 1.2.13 (Linguística, Letras e Artes - Teatro…): 15/11 a 18/11; 1.2.9 (Engenharia, Subárea: Polímeros): 19/11; 1.2.14 (Medicina Interna, Subárea: Nefrologia): 23/11; 1.2.1 (Antropologia, Subárea: Teoria Antropológica): 24/11 a 26/11; 1.2.4 (Ciências da Saúde/Medicina, Subárea…): 25/11; 1.2.10 (Farmacologia): 26/11 a 27/11; 1.2.8 (Educação, Subárea: Sociologia da Educação): 27/11 a 29/11; 1.2.5 (Direito, Subárea: Direito Internacional…): 30/11; 1.2.15 (Odontologia, Subárea: Cariologia ou…): 30/11 a 01/12; 1.2.6 (Ecofisiologia e Manejo de Plantas de Lavoura): 01/12 a 02/12; 1.2.3 (Ciências Agrárias, Subárea: Entomologia…): 11/12 a 12/12; 1.2.2 (Arquitetura e Urbanismo, Subárea: Projeto…): 19/12 a 24/12"
+          "nota": "Datas por área: 1.2.7 (Educação, Subárea: Educação e Artes Visuais): 10/11; 1.2.12 (Língua Alemã, Literatura de Língua Alemã e…): 11/11 a 13/11; 1.2.13 (Linguística, Letras e Artes - Teatro…): 13/11 a 18/11; 1.2.9 (Engenharia, Subárea: Polímeros): 19/11; 1.2.14 (Medicina Interna, Subárea: Nefrologia): 23/11; 1.2.1 (Antropologia, Subárea: Teoria Antropológica): 24/11 a 26/11; 1.2.4 (Ciências da Saúde/Medicina, Subárea…): 25/11; 1.2.10 (Farmacologia): 26/11 a 27/11; 1.2.8 (Educação, Subárea: Sociologia da Educação): 27/11 a 29/11; 1.2.5 (Direito, Subárea: Direito Internacional…): 30/11; 1.2.15 (Odontologia, Subárea: Cariologia ou…): 30/11 a 01/12; 1.2.6 (Ecofisiologia e Manejo de Plantas de Lavoura): 01/12 a 02/12; 1.2.3 (Ciências Agrárias, Subárea: Entomologia…): 11/12 a 12/12; 1.2.2 (Arquitetura e Urbanismo, Subárea: Projeto…): 19/12 a 24/12"
         },
         "detalhe": {
           "duracao": "Aula de 35 a 55 minutos, pela Resolução 93/2021 do CONSUN. Fora do intervalo, desconto de 0,10 ponto por minuto. Passando 10 minutos do teto, a banca interrompe a exposição",
@@ -1578,7 +1578,7 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2026-11-09",
           "fim": "2026-12-11",
-          "nota": "Datas por área: 1.2.7 (Educação, Subárea: Educação e Artes Visuais) e 1.2.12 (Língua Alemã, Literatura de Língua Alemã e…): 09/11 a 10/11; 1.2.13 (Linguística, Letras e Artes - Teatro…): 10/11 a 11/11; 1.2.9 (Engenharia, Subárea: Polímeros): 17/11; 1.2.1 (Antropologia, Subárea: Teoria Antropológica), 1.2.8 (Educação, Subárea: Sociologia da Educação) e 1.2.10 (Farmacologia): 23/11; 1.2.14 (Medicina Interna, Subárea: Nefrologia): 23/11 a 25/11; 1.2.4 (Ciências da Saúde/Medicina, Subárea…): 24/11; 1.2.6 (Ecofisiologia e Manejo de Plantas de Lavoura): 30/11; 1.2.5 (Direito, Subárea: Direito Internacional…): 30/11 a 02/12; 1.2.15 (Odontologia, Subárea: Cariologia ou…): 02/12; 1.2.2 (Arquitetura e Urbanismo, Subárea: Projeto…): 08/12 a 11/12; 1.2.3 (Ciências Agrárias, Subárea: Entomologia…): 09/12 a 10/12"
+          "nota": "Datas por área: 1.2.12 (Língua Alemã, Literatura de Língua Alemã e…): 09/11; 1.2.7 (Educação, Subárea: Educação e Artes Visuais): 09/11 a 10/11; 1.2.13 (Linguística, Letras e Artes - Teatro…): 10/11 a 11/11; 1.2.9 (Engenharia, Subárea: Polímeros): 17/11; 1.2.1 (Antropologia, Subárea: Teoria Antropológica), 1.2.8 (Educação, Subárea: Sociologia da Educação) e 1.2.10 (Farmacologia): 23/11; 1.2.14 (Medicina Interna, Subárea: Nefrologia): 23/11 a 25/11; 1.2.4 (Ciências da Saúde/Medicina, Subárea…): 24/11; 1.2.6 (Ecofisiologia e Manejo de Plantas de Lavoura): 30/11; 1.2.5 (Direito, Subárea: Direito Internacional…): 30/11 a 02/12; 1.2.15 (Odontologia, Subárea: Cariologia ou…): 02/12; 1.2.2 (Arquitetura e Urbanismo, Subárea: Projeto…): 08/12 a 11/12; 1.2.3 (Ciências Agrárias, Subárea: Entomologia…): 09/12 a 10/12"
         },
         "detalhe": {}
       },
@@ -1590,7 +1590,7 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2026-11-10",
           "fim": "2026-12-18",
-          "nota": "Datas por área: 1.2.12 (Língua Alemã, Literatura de Língua Alemã e…): 10/11 a 12/11; 1.2.7 (Educação, Subárea: Educação e Artes Visuais): 11/11; 1.2.13 (Linguística, Letras e Artes - Teatro…): 12/11 a 15/11; 1.2.9 (Engenharia, Subárea: Polímeros): 18/11; 1.2.14 (Medicina Interna, Subárea: Nefrologia): 24/11; 1.2.10 (Farmacologia): 24/11 a 25/11; 1.2.8 (Educação, Subárea: Sociologia da Educação): 24/11 a 27/11; 1.2.4 (Ciências da Saúde/Medicina, Subárea…): 25/11 a 26/11; 1.2.1 (Antropologia, Subárea: Teoria Antropológica): 27/11 a 30/11; 1.2.5 (Direito, Subárea: Direito Internacional…): 01/12; 1.2.6 (Ecofisiologia e Manejo de Plantas de Lavoura) e 1.2.15 (Odontologia, Subárea: Cariologia ou…): 03/12 a 04/12; 1.2.2 (Arquitetura e Urbanismo, Subárea: Projeto…): 12/12 a 18/12; 1.2.3 (Ciências Agrárias, Subárea: Entomologia…): 13/12 a 14/12"
+          "nota": "Datas por área: 1.2.12 (Língua Alemã, Literatura de Língua Alemã e…): 10/11 a 11/11; 1.2.7 (Educação, Subárea: Educação e Artes Visuais): 11/11; 1.2.13 (Linguística, Letras e Artes - Teatro…): 12/11 a 13/11; 1.2.9 (Engenharia, Subárea: Polímeros): 18/11; 1.2.14 (Medicina Interna, Subárea: Nefrologia): 24/11; 1.2.10 (Farmacologia): 24/11 a 25/11; 1.2.8 (Educação, Subárea: Sociologia da Educação): 24/11 a 27/11; 1.2.4 (Ciências da Saúde/Medicina, Subárea…): 25/11 a 26/11; 1.2.1 (Antropologia, Subárea: Teoria Antropológica): 27/11 a 30/11; 1.2.5 (Direito, Subárea: Direito Internacional…): 01/12; 1.2.6 (Ecofisiologia e Manejo de Plantas de Lavoura) e 1.2.15 (Odontologia, Subárea: Cariologia ou…): 03/12 a 04/12; 1.2.2 (Arquitetura e Urbanismo, Subárea: Projeto…): 12/12 a 18/12; 1.2.3 (Ciências Agrárias, Subárea: Entomologia…): 13/12 a 14/12"
         },
         "detalhe": {}
       }
@@ -6513,7 +6513,7 @@ window.CONCURSOS = [
     "instituicao": "Universidade Estadual do Paraná",
     "nivel": "Magistério Superior",
     "uf": "PR",
-    "numero_edital": "Edital nº 023/2026 - CPPS, publicado em 24/08/2026, com 2 documentos de alteração publicados depois",
+    "numero_edital": "Edital nº 023/2026 - CPPS, publicado em 24/08/2026, com 3 documentos de alteração publicados depois",
     "vagas": "26 vagas",
     "areas": "20 áreas, entre elas BIOLOGIA CELULAR, MORFOLOGIA/HISTOLOGIA, SAÚDE COLETIVA, MEDICINA/CLÍNICA MÉDICA e CONTABILIDADE APLICADA",
     "campi": "Campus: Apucarana; Centro de Área: Ciências Humanas e da Educação, Campus: Campo Mourão; Centro de Área: Ciências Sociais Aplicadas, Campus: Campo Mourão; Centro de Área: Ciências Humanas e da Educação e Campus: Curitiba I; Centro de Área: Música",
@@ -7996,8 +7996,9 @@ window.CONCURSOS = [
         "tipo": "resultado",
         "carater": "",
         "data": {
-          "tipo": "exata",
-          "valor": "2026-12-18"
+          "tipo": "periodo",
+          "valor": "2026-11-04",
+          "fim": "2026-12-18"
         },
         "detalhe": {}
       }
@@ -20841,7 +20842,7 @@ window.CONCURSOS = [
     "instituicao": "Universidade Federal do Rio Grande do Sul",
     "nivel": "Magistério Superior",
     "uf": "RS",
-    "numero_edital": "Edital nº 08/2026, publicado em 02/06/2026, com 10 documentos de alteração publicados depois",
+    "numero_edital": "Edital nº 08/2026, publicado em 02/06/2026, com 12 documentos de alteração publicados depois",
     "vagas": "15 vagas",
     "areas": "15 áreas, entre elas Artes Visuais, Subárea: Ensino de Artes Visuais, Ciência do Solo, Subárea: Química do Solo, Cinética, Catálise e Cálculo de Reatores Químicos, Educação, Subárea: Ensino de Alfabetização e Estratigrafia Sedimentar",
     "campi": "Instituto de Artes - Departamento de Artes Visuais, Faculdade de Agronomia - Departamento de Solos, Escola de Engenharia - Departamento de Engenharia Química e Faculdade de Educação - Departamento de Ensino e Currículo",
@@ -35349,7 +35350,7 @@ window.CONCURSOS = [
     "instituicao": "Universidade Federal de Minas Gerais",
     "nivel": "Magistério Superior",
     "uf": "MG",
-    "numero_edital": "Edital nº 1638/2026, publicado em 16/07/2026, com 1 documento de alteração publicado depois",
+    "numero_edital": "Edital nº 1638/2026, publicado em 16/07/2026, com 2 documentos de alteração publicados depois",
     "vagas": "1 vaga, ampla concorrência",
     "areas": "Geociências: Cartografia e Geodésia",
     "campi": "DEPARTAMENTO DE CARTOGRAFIA do INSTITUTO DE GEOCIÊNCIAS",
@@ -35413,7 +35414,7 @@ window.CONCURSOS = [
         "carater": "",
         "data": {
           "tipo": "exata",
-          "valor": "2026-11-06"
+          "valor": "2026-11-05"
         },
         "detalhe": {}
       }
@@ -38968,7 +38969,7 @@ window.CONCURSOS = [
     "inscricao": {
       "inicio": "2026-09-21",
       "fim": "2026-11-04",
-      "situacao": "aberta",
+      "situacao": "encerrada",
       "taxa": "R$ 384,20"
     },
     "etapas": [
@@ -42906,7 +42907,7 @@ window.CONCURSOS = [
     "instituicao": "UNIVERSIDADE DA INTEGRAÇÃO INTERNACIONAL DA LUSOFONIA AFRO-BRASILEIRA",
     "nivel": "Magistério Superior",
     "uf": "CE",
-    "numero_edital": "Edital nº 14/2026, publicado em 01/10/2026, com 10 documentos de alteração publicados depois",
+    "numero_edital": "Edital nº 14/2026, publicado em 01/10/2026, com 11 documentos de alteração publicados depois",
     "vagas": "15 vagas",
     "areas": "9 áreas, entre elas Avaliação Nutricional e Nutrição Clínica, Fundamentos da Terapia Ocupacional, Atividades e Recursos Terapêuticos Ocupacionais, Práticas em Atenção Primária à Saúde/Semiologia Médica, Anatomia Humana e Cirurgia e Medicina Baseada em Evidências, Epidemiologia e Pesquisa Clínica",
     "campi": "Baturité/CE, São Francisco do Conde/BA, Instituto de Ciências da Saúde - ICS e Instituto de Ciências da Saúde - ICS / Campus dos Malês",
@@ -43502,7 +43503,7 @@ window.CONCURSOS = [
     "inscricao": {
       "inicio": "2026-10-16",
       "fim": "2026-11-04",
-      "situacao": "aberta",
+      "situacao": "encerrada",
       "taxa": "de R$ 70,00 a R$ 240,00, conforme a área"
     },
     "etapas": [
@@ -44710,7 +44711,7 @@ window.CONCURSOS = [
     "inscricao": {
       "inicio": "2026-10-16",
       "fim": "2026-11-04",
-      "situacao": "aberta",
+      "situacao": "encerrada",
       "taxa": "R$ 110,00"
     },
     "etapas": [
@@ -44791,7 +44792,7 @@ window.CONCURSOS = [
     "instituicao": "Universidade Federal Rural do Rio de Janeiro",
     "nivel": "Magistério Superior",
     "uf": null,
-    "numero_edital": "Edital nº 56/2026, publicado em 26/10/2026, com 1 documento de alteração publicado depois",
+    "numero_edital": "Edital nº 56/2026, publicado em 26/10/2026, com 3 documentos de alteração publicados depois",
     "vagas": "24 vagas",
     "areas": "23 áreas, entre elas Anestesiologia/Intensivismo Veterinária, Bovinocultura de Leite, Forragicultura e Pastagens, Fitopatologia e Serviço Social e Fundamentos do Trabalho Profissional",
     "campi": "Instituto de Veterinária/Departamento de Medicina e Cirurgia, Instituto de Zootecnia/Departamento de Produção Animal, Instituto de Zootecnia/Departamento de Nutrição Animal e Pastagens e Instituto de Ciências Biológicas e da Saúde/ Departamento de Entomologia e Fitopatologia",
@@ -45059,6 +45060,90 @@ window.CONCURSOS = [
         "usp-ea-038-2026"
       ],
       "extraido_em": "2026-10-29",
+      "em_conferencia": true
+    }
+  },
+  {
+    "id": "ufj-05-2026",
+    "sigla": "UFJ",
+    "instituicao": "Universidade Federal de Jataí",
+    "nivel": "Magistério Superior",
+    "uf": "GO",
+    "numero_edital": "Edital nº 05/2026, publicado em 27/10/2026, com 1 documento de alteração publicado depois",
+    "vagas": "22 vagas",
+    "areas": "17 áreas, entre elas Didática e Didática da Educação Especial Inclusiva, Ensino, Fundamentação Sócio-Histórica e Pedagógica das Artes Visuais na Educação e Pesquisa, Estágio e Prática Pedagógica em Artes Visuais, Ensino, Produção e Criação Artístico Visual e Fundamentação Histórica e Sociocultural em Artes Visuais, Formação de professores e Políticas Educacionais Inclusivas e Física Computacional, Métodos Numéricos e de Inteligência Artificial",
+    "campi": "Jataí/GO, Faculdade de Educação (FE), Campus Riachuelo, Instituto de Ciências Exatas e Tecnológicas (ICET), Campus Jatobá, Instituto de Ciências Humanas e Letras (ICHL), Campus Jatobá e Instituto de Ciências da Saúde (ICS), Campus Jatobá",
+    "titulacao": "Conforme a área",
+    "regime": "40h/DE",
+    "remuneracao": "R$ 6.397,18 de vencimento básico em Dedicação Exclusiva, chegando a R$ 13.753,94 com a maior titulação",
+    "banca": "Comissão própria da UFJ",
+    "link_oficial": "https://selecoes.ufj.edu.br/",
+    "inscricao": {
+      "inicio": "2026-11-03",
+      "fim": "2026-11-27",
+      "situacao": "aberta",
+      "taxa": "R$ 290,00"
+    },
+    "etapas": [
+      {
+        "nome": "Prova Escrita",
+        "tipo": "discursiva",
+        "carater": "Eliminatória",
+        "data": {
+          "tipo": "periodo",
+          "valor": "2026-12-12",
+          "fim": "2026-12-14",
+          "nota": "Datas por área: Didática e Didática da Educação Especial Inclusiva (Didática e Didática da Educação Especial…), Ensino, Fundamentação Sócio-Histórica e Pedagógica das Artes Visuais na Educação e Pesquisa, Estágio e Prática Pedagógica em Artes Visuais (Ensino, Fundamentação Sócio-Histórica e…), Ensino, Produção e Criação Artístico Visual e Fundamentação Histórica e Sociocultural em Artes Visuais (Ensino, Produção e Criação Artístico Visual…), Formação de professores e Políticas Educacionais Inclusivas (Formação de professores e Políticas…), Física Computacional, Métodos Numéricos e de Inteligência Artificial (Física Computacional, Métodos Numéricos e de…), Processamento de Dados em Inteligência Artificial (Processamento de Dados em Inteligência…), Comunicação Social (Comunicação Social), Comunicação e Mídias (Comunicação e Mídias), Tradução e Interpretação Libras/Língua Portuguesa (Tradução e Interpretação Libras/Língua…) e Audiologia e Estágio Supervisionado (Audiologia e Estágio Supervisionado): 12/12; Introdução a Fonoaudiologia, Linguagem oral e escrita, fala e fluência e Estágio Supervisionado (Introdução a Fonoaudiologia, Linguagem oral…), Morfofisiologia, Introdução à Terapia Ocupacional e Estágio Supervisionado (Morfofisiologia, Introdução à Terapia…), Morfofisiologia, Voz e Motricidade orofacial e cervical e Estágio Supervisionado (Morfofisiologia, Voz e Motricidade orofacial…), Terapia Ocupacional nos Contextos Educacionais, do Trabalho e ao Longo do Ciclo da Vida e Estágio Supervisionado (Terapia Ocupacional nos Contextos…) e Terapia Ocupacional nos Diferentes Contextos e Níveis de Atenção à Saúde, Vulnerabilidades Sociais e Estágio Supervisionado (Terapia Ocupacional nos Diferentes Contextos…): 13/12; Ciências dos Materiais (Ciências dos Materiais) e Processos Industriais (Processos Industriais): 14/12"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Prova Didática",
+        "tipo": "didatica",
+        "carater": "Eliminatória",
+        "data": {
+          "tipo": "periodo",
+          "valor": "2026-12-21",
+          "fim": "2026-12-22",
+          "nota": "Datas por área: Ciências dos Materiais (Ciências dos Materiais) e Processos Industriais (Processos Industriais): 21/12; Didática e Didática da Educação Especial Inclusiva (Didática e Didática da Educação Especial…), Ensino, Fundamentação Sócio-Histórica e Pedagógica das Artes Visuais na Educação e Pesquisa, Estágio e Prática Pedagógica em Artes Visuais (Ensino, Fundamentação Sócio-Histórica e…), Ensino, Produção e Criação Artístico Visual e Fundamentação Histórica e Sociocultural em Artes Visuais (Ensino, Produção e Criação Artístico Visual…), Formação de professores e Políticas Educacionais Inclusivas (Formação de professores e Políticas…), Física Computacional, Métodos Numéricos e de Inteligência Artificial (Física Computacional, Métodos Numéricos e de…), Processamento de Dados em Inteligência Artificial (Processamento de Dados em Inteligência…), Comunicação Social (Comunicação Social), Comunicação e Mídias (Comunicação e Mídias), Tradução e Interpretação Libras/Língua Portuguesa (Tradução e Interpretação Libras/Língua…), Audiologia e Estágio Supervisionado (Audiologia e Estágio Supervisionado), Introdução a Fonoaudiologia, Linguagem oral e escrita, fala e fluência e Estágio Supervisionado (Introdução a Fonoaudiologia, Linguagem oral…), Morfofisiologia, Introdução à Terapia Ocupacional e Estágio Supervisionado (Morfofisiologia, Introdução à Terapia…), Morfofisiologia, Voz e Motricidade orofacial e cervical e Estágio Supervisionado (Morfofisiologia, Voz e Motricidade orofacial…), Terapia Ocupacional nos Contextos Educacionais, do Trabalho e ao Longo do Ciclo da Vida e Estágio Supervisionado (Terapia Ocupacional nos Contextos…) e Terapia Ocupacional nos Diferentes Contextos e Níveis de Atenção à Saúde, Vulnerabilidades Sociais e Estágio Supervisionado (Terapia Ocupacional nos Diferentes Contextos…): 22/12"
+        },
+        "detalhe": {
+          "duracao": "De 40 a 50 minutos. Menos de 40 minutos tem desconto na nota",
+          "arguicao": "Sim, por até 15 minutos",
+          "nota_minima": "7 em 10",
+          "recursos": "O candidato pode usar recursos próprios (É facultado ao(à) candidato(a) o uso de quaisquer recursos didáticos, desde que providenciados por ele/ela)"
+        }
+      },
+      {
+        "nome": "Prova de Títulos",
+        "tipo": "titulos",
+        "carater": "Classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {}
+      }
+    ],
+    "periodo_provas": {
+      "inicio": "2026-12-12",
+      "fim": "2026-12-22"
+    },
+    "logo": "ufj.png",
+    "formacoes_status": "nao_extraido",
+    "familias": [],
+    "formacoes": [],
+    "familias_pos": [],
+    "areas_formacoes": [],
+    "observacao": "",
+    "detalhamento": "completo",
+    "avisos_edital": [],
+    "fonte_dados": {
+      "origem": "extracao_v2",
+      "extracoes": [
+        "ufj-05-2026"
+      ],
+      "extraido_em": "2026-11-05",
       "em_conferencia": true
     }
   }
