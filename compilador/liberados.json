@@ -92,10 +92,11 @@
   },
   "uerj-2026": {
     "campos": [
-      "vagas"
+      "vagas",
+      "Resultado final"
     ],
     "conferido_em": "2026-10-05",
-    "evidencia": "20 seleções no acervo e no pacotes.json; 213 com 2 vagas e as demais com 1. Na 238 (Nefrologia) o quadro do edital e da errata traz AC 01 e Total 0; conferido pelo Samuel: erro do edital, 1 vaga. Total 21."
+    "evidencia": "20 seleções no acervo e no pacotes.json; 213 com 2 vagas e as demais com 1. Na 238 (Nefrologia) o quadro do edital e da errata traz AC 01 e Total 0; conferido pelo Samuel: erro do edital, 1 vaga. Total 21. Conferência de 05/11/2026, Resultado final: Seleção 213 (Ensino de Geografia), Etapa do certame Resultado Final assinada pela banca em 04/11/2026 (aviso_1812_1793812727, PROSSIM), aprovado único classificado; Seleção 227, resultado final fixo em 10/12/2026; Seleções 239 e 245, item 12.1 dos editais: resultado final até 18/12/2026; as demais seleções dão prazo relativo (até 7 dias úteis). Período 04/11/2026 a 18/12/2026."
   },
   "unifesp-2026": {
     "campos": [
@@ -246,5 +247,12 @@
     ],
     "conferido_em": "2026-11-04",
     "evidencia": "Auditoria de 04/11/2026: 2ª Retificação do item 2.2 das Instruções Específicas do Edital 101/2026 (datas prováveis das provas, por área): períodos de 30/11/2026 a 26/04/2027, conforme a área; as áreas 101.15 a 101.17 trazem 15/02/2026 a 26/02/2026, ano trocado no documento, e ficam fora do período, com aviso na nota (regra do compilador de 04/11/2026)."
+  },
+  "ufmg-1638-2026": {
+    "campos": [
+      "Resultado final"
+    ],
+    "conferido_em": "2026-11-05",
+    "evidencia": "Cronograma Atualizado (anexo da ata, 03/11/2026, Conc_Edital1638_2026_Cronograma_Atualizado_20261103-1): sem candidato aprovado na prova escrita (Resultado da Prova Escrita de 03/11/2026, subitem 9.6.4), sessões seguintes canceladas e Sessão Pública Final antecipada para 05/11/2026 às 9h; substitui o 06/11/2026 às 15h30 do cronograma de 27/10/2026."
   }
 }
