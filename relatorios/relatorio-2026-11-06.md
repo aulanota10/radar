@@ -1,0 +1,226 @@
+# Relatório do compilador do Radar · 06/11/2026
+
+81 concursos no dados.js gerado, 79 no publicado; 81 vieram das extrações.
+
+## O que muda no Radar em relação ao publicado (11 concursos)
+
+**ufrgs-09-2026**
+- Prova Prática: 16/11/2026 a 02/12/2026 → 13/11/2026 a 02/12/2026
+- Prova Didática: 10/11/2026 a 24/12/2026 → 09/11/2026 a 24/12/2026
+- Exame de Títulos e Trabalhos: nota da data alterada
+- Defesa da Produção Intelectual: nota da data alterada
+- editais alterado
+
+**ufmg-1632-1633-2026**
+- Prova Didática: 08/10/2026 → 08/10/2026 a 11/11/2026
+- Resultado final: 09/10/2026 → 09/10/2026 a 13/11/2026
+
+**ufpel-028-2026**
+- editais alterado
+
+**ufvjm-101-2026**
+- Prova defesa de projeto de atividades acadêmicas: nota da data alterada
+- editais alterado
+
+**ufrn-109-2026**
+- inscrição: aberta → encerrada
+
+**ufmg-2249-2026**
+- inscrição: aberta → encerrada
+
+**unilab-14-2026**
+- inscrição: aberta → encerrada
+- Resultado final: nota da data alterada
+- editais alterado
+
+**uerj-254-2026**
+- inscrição: aberta → encerrada
+
+**unifei-59-2026**
+- editais alterado
+
+**uerj-258-2026**
+- concurso novo no Radar
+
+**ufsm-252-2026**
+- concurso novo no Radar
+
+## Prova didática já terminou (10 concursos)
+
+Só para informação. Pela regra de 11/10/2026, o concurso continua no Radar até 30 dias depois do resultado final, porque a plataforma cobre todas as etapas; a prova didática ter passado não tira o concurso da lista.
+
+- **ufrn-058-2026**: última data da prova didática 23/10/2026
+- **unila-204-2026**: última data da prova didática 21/10/2026
+- **ufla-127-2026**: última data da prova didática 28/09/2026
+- **ufpe-08-2026**: última data da prova didática 30/10/2026
+- **ufba-06-2026**: última data da prova didática 05/11/2026
+- **ufrgs-08-2026**: última data da prova didática 21/10/2026
+- **ufpe-09-2026**: última data da prova didática 05/11/2026
+- **ufmg-1638-2026**: última data da prova didática 05/11/2026
+- **uesc-050-2026**: última data da prova didática 14/10/2026
+- **furb-07-2026**: última data da prova didática 29/09/2026
+
+## Conflitos que continuam da semana anterior (1 concursos)
+
+Já estavam no relatório anterior e seguem sem conferência.
+
+**unesp-assistente-2026**
+- vagas: o dados.js anterior dizia "1 vaga por edital, em 8 concursos independentes", a extração soma 8 (publicado o anterior)
+
+## Liberados após conferência (20 concursos)
+
+Conferidos nos documentos oficiais (compilador/liberados.json); o dados.js gerado publica o valor da extração.
+
+**ufrgs-09-2026**
+- Prova Prática: dados.js anterior 16/11/2026 a 02/12/2026, extração 13/11/2026 a 02/12/2026 (liberado após conferência: publicada a extração)
+- Prova Didática: dados.js anterior 10/11/2026 a 24/12/2026, extração 09/11/2026 a 24/12/2026 (liberado após conferência: publicada a extração)
+
+**unespar-023-2026**
+- vagas: o dados.js anterior dizia "26 vagas", a extração soma 26 (liberado após conferência: publicada a extração)
+
+**uerj-2026**
+- vagas: o dados.js anterior dizia "21 vagas", a extração soma 21 (liberado após conferência: publicada a extração)
+
+**unila-204-2026**
+- vagas: o dados.js anterior dizia "6 vagas", a extração soma 6 (liberado após conferência: publicada a extração)
+
+**ifsuldeminas-188-2026**
+- Prova de Títulos: dados.js anterior 31/10/2026 a 13/12/2026, extração 13/12/2026 (liberado após conferência: publicada a extração)
+- texto corrigido após conferência (2026-11-04): etapa:Prova de Títulos:data
+
+**ifmt-03-2026**
+- texto corrigido após conferência (2026-11-04): etapa:Prova de títulos (PT):data
+
+**ufba-06-2026**
+- vagas: o dados.js anterior dizia "37 vagas", a extração soma 37 (liberado após conferência: publicada a extração)
+
+**unifesp-2026**
+- vagas: o dados.js anterior dizia "41 vagas", a extração soma 41 (liberado após conferência: publicada a extração)
+
+**ifmg-2026**
+- texto corrigido após conferência (2026-11-04): etapa:Prova de Desempenho Didático:sorteio
+
+**unimontes-2026**
+- vagas: o dados.js anterior dizia "406 vagas", a extração soma 406 (liberado após conferência: publicada a extração)
+
+**uema-2026**
+- vagas: o dados.js anterior dizia "34 vagas nos editais em andamento; mais 20 vagas em 5 editais suspensos desde 23/07/2026", a extração soma 34 (liberado após conferência: publicada a extração)
+- texto corrigido após conferência (2026-11-04): etapa:Prova escrita, com leitura pública:data
+- texto corrigido após conferência (2026-11-04): etapa:Prova didática:data
+- texto corrigido após conferência (2026-11-04): etapa:Julgamento de títulos:data
+
+**ufmg-1632-1633-2026**
+- Prova Didática: dados.js anterior 08/10/2026, extração 08/10/2026 a 11/11/2026 (liberado após conferência: publicada a extração)
+- Resultado final: dados.js anterior 09/10/2026, extração 09/10/2026 a 13/11/2026 (liberado após conferência: publicada a extração)
+
+**uesc-050-2026**
+- vagas: o dados.js anterior dizia "4 vagas", a extração soma 4 (liberado após conferência: publicada a extração)
+
+**ufrpe-21-2026**
+- vagas: o dados.js anterior dizia "12 vagas", a extração soma 12 (liberado após conferência: publicada a extração)
+
+**unesp-titular-2026**
+- vagas: o dados.js anterior dizia "10 vagas", a extração soma 10 (liberado após conferência: publicada a extração)
+
+**ufrn-108-2026**
+- vagas: o dados.js anterior dizia "15 vagas", a extração soma 15 (liberado após conferência: publicada a extração)
+
+**ufersa-030-2026**
+- vagas: o dados.js anterior dizia "24 vagas", a extração soma 24 (liberado após conferência: publicada a extração)
+
+**ufc-48-2026**
+- vagas: o dados.js anterior dizia "65 vagas", a extração soma 65 (liberado após conferência: publicada a extração)
+
+**ifsp-183-2026**
+- vagas: o dados.js anterior dizia "47 vagas", a extração soma 47 (liberado após conferência: publicada a extração)
+
+**ifmg-1077-2026**
+- vagas: o dados.js anterior dizia "50 vagas", a extração soma 50 (liberado após conferência: publicada a extração)
+
+## Mantido do dados.js anterior (23 concursos)
+
+A extração não trouxe o dado e o Radar já tinha. Vale completar a extração.
+
+**ufrn-058-2026**
+- inscrição taxa mantida do dados.js anterior (R$ 220,00 (DE), R$ 180,00 (40h), R$ 150,00 (20h))
+
+**unespar-023-2026**
+- data de Resultado final mantida do dados.js anterior (08/12/2026); a extração não a encontrou
+
+**unila-204-2026**
+- data de Análise de Títulos e Currículos mantida do dados.js anterior (20/10/2026 a 23/10/2026); a extração não a encontrou
+- data de Resultado final mantida do dados.js anterior (23/10/2026); a extração não a encontrou
+
+**ufsm-221-2026**
+- inscrição taxa mantida do dados.js anterior (R$ 412,60 (doutorado DE), R$ 250,00 (doutorado 40h), R$ 154,00 (especialização 40h). O prazo geral encerrou em 23/09, com GRU até 24/09. Só a área de Anestesiologia foi prorrogada, de 28/09 a 27/10, com GRU até 28/10)
+
+**ufsj-2026**
+- inscrição taxa mantida do dados.js anterior (R$ 128,74 a R$ 343,85, conforme a vaga. Pedido de isenção até 13/09, prazo prorrogado pela retificação do cronograma de 09/09)
+
+**ufla-127-2026**
+- data de Prova didática mantida do dados.js anterior (28/09/2026); a extração não a encontrou
+- data de Prova de títulos mantida do dados.js anterior (26/09/2026); a extração não a encontrou
+
+**ifmt-03-2026**
+- data de Prova de títulos (PT) mantida do dados.js anterior (04/12/2026); a extração não a encontrou
+
+**ufba-06-2026**
+- inscrição taxa mantida do dados.js anterior (de R$ 180,00 a R$ 200,00, conforme a área)
+
+**ufs-08-2026**
+- inscrição taxa mantida do dados.js anterior (R$ 100,00 (graduação) a R$ 200,00 (doutorado))
+
+**ufmg-1632-1633-2026**
+- inscrição inicio mantida do dados.js anterior (2026-07-17)
+- inscrição fim mantida do dados.js anterior (2026-08-17)
+
+**ufmg-1638-2026**
+- inscrição inicio mantida do dados.js anterior (2026-07-29)
+- inscrição fim mantida do dados.js anterior (2026-09-11)
+- data de Julgamento de Títulos mantida do dados.js anterior (03/11/2026); a extração não a encontrou
+
+**unifal-002-2026**
+- inscrição taxa mantida do dados.js anterior (R$ 344,00 no Edital 111/2026 (Língua Inglesa). As inscrições já encerraram; cada edital teve prazo próprio)
+
+**ufpel-028-2026**
+- data de Exame de Títulos mantida do dados.js anterior (23/11/2026 a 11/12/2026); a extração não a encontrou
+- data de Resultado final mantida do dados.js anterior (12/01/2027 a 18/01/2027); a extração não a encontrou
+
+**uneb-085-2026**
+- data de Prova de Títulos mantida do dados.js anterior (21/01/2027 a 24/01/2027); a extração não a encontrou
+
+**usp-if-58-2026**
+- inscrição taxa mantida do dados.js anterior (Consultar o edital)
+
+**ufrn-108-2026**
+- inscrição taxa mantida do dados.js anterior (de R$ 180,00 a R$ 220,00, conforme a área)
+
+**ufersa-030-2026**
+- inscrição taxa mantida do dados.js anterior (R$ 80,00 (20 horas), R$ 180,00 (40 horas com mestrado) e R$ 330,00 (40 horas com doutorado). Pagamento até 12/10)
+
+**ufc-48-2026**
+- inscrição taxa mantida do dados.js anterior (de R$ 290,00 a R$ 395,00, conforme a área)
+
+**unicamp-cotil-06-2026**
+- inscrição inicio mantida do dados.js anterior (2026-09-08)
+- inscrição fim mantida do dados.js anterior (2026-10-07)
+
+**ufv-48-49-2026**
+- inscrição inicio mantida do dados.js anterior (2026-09-28)
+- inscrição fim mantida do dados.js anterior (2026-11-12)
+
+**unila-240-2026**
+- data de Prova Didática mantida do dados.js anterior (25/01/2027 a 29/01/2027); a extração não a encontrou
+- data de Defesa da Proposta de Atuação Acadêmica mantida do dados.js anterior (25/01/2027 a 29/01/2027); a extração não a encontrou
+
+**ufg-22-2026**
+- inscrição taxa mantida do dados.js anterior (de R$ 70,00 a R$ 240,00, conforme a área)
+
+**ufcspa-118-2026**
+- inscrição taxa mantida do dados.js anterior (de R$ 160,00 a R$ 200,00, conforme a área. Pedido de isenção de 03/11 a 04/11)
+
+## Sem mudança (3 concursos)
+
+- **ufmg-1689-2026**: fora do Radar (a extração não tem prova didática)
+- **ufmg-1949-2026**: fora do Radar (a extração não tem prova didática)
+- **ufmg-1992-2026**: fora do Radar (a extração não tem prova didática)
