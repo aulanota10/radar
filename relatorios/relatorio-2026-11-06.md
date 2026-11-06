@@ -1,49 +1,10 @@
 # Relatório do compilador do Radar · 06/11/2026
 
-81 concursos no dados.js gerado, 79 no publicado; 81 vieram das extrações.
+81 concursos no dados.js gerado, 81 no publicado; 81 vieram das extrações.
 
-## O que muda no Radar em relação ao publicado (11 concursos)
+## O que muda no Radar em relação ao publicado (0 concursos)
 
-**ufrgs-09-2026**
-- Prova Prática: 16/11/2026 a 02/12/2026 → 13/11/2026 a 02/12/2026
-- Prova Didática: 10/11/2026 a 24/12/2026 → 09/11/2026 a 24/12/2026
-- Exame de Títulos e Trabalhos: nota da data alterada
-- Defesa da Produção Intelectual: nota da data alterada
-- editais alterado
-
-**ufmg-1632-1633-2026**
-- Prova Didática: 08/10/2026 → 08/10/2026 a 11/11/2026
-- Resultado final: 09/10/2026 → 09/10/2026 a 13/11/2026
-
-**ufpel-028-2026**
-- editais alterado
-
-**ufvjm-101-2026**
-- Prova defesa de projeto de atividades acadêmicas: nota da data alterada
-- editais alterado
-
-**ufrn-109-2026**
-- inscrição: aberta → encerrada
-
-**ufmg-2249-2026**
-- inscrição: aberta → encerrada
-
-**unilab-14-2026**
-- inscrição: aberta → encerrada
-- Resultado final: nota da data alterada
-- editais alterado
-
-**uerj-254-2026**
-- inscrição: aberta → encerrada
-
-**unifei-59-2026**
-- editais alterado
-
-**uerj-258-2026**
-- concurso novo no Radar
-
-**ufsm-252-2026**
-- concurso novo no Radar
+Nada muda no site.
 
 ## Prova didática já terminou (10 concursos)
 
@@ -67,13 +28,9 @@ Já estavam no relatório anterior e seguem sem conferência.
 **unesp-assistente-2026**
 - vagas: o dados.js anterior dizia "1 vaga por edital, em 8 concursos independentes", a extração soma 8 (publicado o anterior)
 
-## Liberados após conferência (20 concursos)
+## Liberados após conferência (18 concursos)
 
 Conferidos nos documentos oficiais (compilador/liberados.json); o dados.js gerado publica o valor da extração.
-
-**ufrgs-09-2026**
-- Prova Prática: dados.js anterior 16/11/2026 a 02/12/2026, extração 13/11/2026 a 02/12/2026 (liberado após conferência: publicada a extração)
-- Prova Didática: dados.js anterior 10/11/2026 a 24/12/2026, extração 09/11/2026 a 24/12/2026 (liberado após conferência: publicada a extração)
 
 **unespar-023-2026**
 - vagas: o dados.js anterior dizia "26 vagas", a extração soma 26 (liberado após conferência: publicada a extração)
@@ -108,10 +65,6 @@ Conferidos nos documentos oficiais (compilador/liberados.json); o dados.js gerad
 - texto corrigido após conferência (2026-11-04): etapa:Prova escrita, com leitura pública:data
 - texto corrigido após conferência (2026-11-04): etapa:Prova didática:data
 - texto corrigido após conferência (2026-11-04): etapa:Julgamento de títulos:data
-
-**ufmg-1632-1633-2026**
-- Prova Didática: dados.js anterior 08/10/2026, extração 08/10/2026 a 11/11/2026 (liberado após conferência: publicada a extração)
-- Resultado final: dados.js anterior 09/10/2026, extração 09/10/2026 a 13/11/2026 (liberado após conferência: publicada a extração)
 
 **uesc-050-2026**
 - vagas: o dados.js anterior dizia "4 vagas", a extração soma 4 (liberado após conferência: publicada a extração)
