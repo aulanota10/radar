@@ -9,3 +9,5 @@ A Rodada diária do Radar de hoje não tinha rodado até 16h48 UTC (relatorios/u
 ## Para o Samuel
 
 nenhum
+
+Rodada de publicação: https://github.com/aulanota10/radar/pull/24, mesclado automaticamente: sim
