@@ -1,6 +1,6 @@
 // ═══════════════════════════════════════════════════════════════════════
 //  DADOS DO RADAR DE CONCURSOS · Aula Nota 10
-//  Última verificação: 05/11/2026
+//  Última verificação: 06/11/2026
 //
 //  ESTE É O ÚNICO ARQUIVO QUE VOCÊ PRECISA EDITAR PARA ATUALIZAR O SITE.
 //  Não mexa no index.html.
@@ -35,7 +35,7 @@
 // Gerado por compilar_radar.py a partir das extrações v2 (vigia-documentos/extracoes).
 // Para corrigir um dado, corrija a extração e rode o compilador de novo.
 
-window.RADAR_ATUALIZADO = "05/11/2026";
+window.RADAR_ATUALIZADO = "06/11/2026";
 
 window.CONCURSOS = [
   {
@@ -1498,7 +1498,7 @@ window.CONCURSOS = [
     "instituicao": "Universidade Federal do Rio Grande do Sul",
     "nivel": "Magistério Superior",
     "uf": "RS",
-    "numero_edital": "Edital nº 09/2026, publicado em 19/08/2026, com 10 documentos de alteração publicados depois",
+    "numero_edital": "Edital nº 09/2026, publicado em 19/08/2026, com 13 documentos de alteração publicados depois",
     "vagas": "20 vagas (10 ampla concorrência, 5 pretos, 1 indígena, 4 PcD)",
     "areas": "16 áreas, entre elas Antropologia, Subárea: Teoria Antropológica, Arquitetura e Urbanismo, Subárea: Projeto Arquitetônico: fundamentos e tecnologia, Ciências Agrárias, Subárea: Entomologia Agrícola, Ciências da Saúde/Medicina, Subárea: Anatomia Patológica e Patologia Clínica e Direito, Subárea: Direito Internacional Público",
     "campi": "Instituto de Filosofia e Ciências Humanas - Departamento de Antropologia, Faculdade de Arquitetura - Departamento de Arquitetura, Faculdade de Agronomia - Departamento de Fitossanidade e Faculdade de Medicina - Departamento de Patologia",
@@ -1534,9 +1534,9 @@ window.CONCURSOS = [
         "carater": "Eliminatória e classificatória",
         "data": {
           "tipo": "periodo",
-          "valor": "2026-11-16",
+          "valor": "2026-11-13",
           "fim": "2026-12-02",
-          "nota": "Datas por área: 1.2.13 (Linguística, Letras e Artes - Teatro…): 16/11 a 17/11; 1.2.15 (Odontologia, Subárea: Cariologia ou…): 02/12"
+          "nota": "Datas por área: 1.2.13 (Linguística, Letras e Artes - Teatro…): 13/11 a 14/11; 1.2.15 (Odontologia, Subárea: Cariologia ou…): 02/12"
         },
         "detalhe": {}
       },
@@ -1546,9 +1546,9 @@ window.CONCURSOS = [
         "carater": "Eliminatória e classificatória",
         "data": {
           "tipo": "periodo",
-          "valor": "2026-11-10",
+          "valor": "2026-11-09",
           "fim": "2026-12-24",
-          "nota": "Datas por área: 1.2.7 (Educação, Subárea: Educação e Artes Visuais): 10/11; 1.2.12 (Língua Alemã, Literatura de Língua Alemã e…): 11/11 a 13/11; 1.2.13 (Linguística, Letras e Artes - Teatro…): 13/11 a 18/11; 1.2.9 (Engenharia, Subárea: Polímeros): 19/11; 1.2.14 (Medicina Interna, Subárea: Nefrologia): 23/11; 1.2.1 (Antropologia, Subárea: Teoria Antropológica): 24/11 a 26/11; 1.2.4 (Ciências da Saúde/Medicina, Subárea…): 25/11; 1.2.10 (Farmacologia): 26/11 a 27/11; 1.2.8 (Educação, Subárea: Sociologia da Educação): 27/11 a 29/11; 1.2.5 (Direito, Subárea: Direito Internacional…): 30/11; 1.2.15 (Odontologia, Subárea: Cariologia ou…): 30/11 a 01/12; 1.2.6 (Ecofisiologia e Manejo de Plantas de Lavoura): 01/12 a 02/12; 1.2.3 (Ciências Agrárias, Subárea: Entomologia…): 11/12 a 12/12; 1.2.2 (Arquitetura e Urbanismo, Subárea: Projeto…): 19/12 a 24/12"
+          "nota": "Datas por área: 1.2.7 (Educação, Subárea: Educação e Artes Visuais): 09/11 a 10/11; 1.2.12 (Língua Alemã, Literatura de Língua Alemã e…): 11/11 a 13/11; 1.2.13 (Linguística, Letras e Artes - Teatro…): 12/11 a 18/11; 1.2.9 (Engenharia, Subárea: Polímeros): 19/11; 1.2.14 (Medicina Interna, Subárea: Nefrologia): 23/11; 1.2.1 (Antropologia, Subárea: Teoria Antropológica): 24/11 a 26/11; 1.2.4 (Ciências da Saúde/Medicina, Subárea…): 25/11; 1.2.10 (Farmacologia): 26/11 a 27/11; 1.2.8 (Educação, Subárea: Sociologia da Educação): 27/11 a 29/11; 1.2.5 (Direito, Subárea: Direito Internacional…): 30/11; 1.2.15 (Odontologia, Subárea: Cariologia ou…): 30/11 a 01/12; 1.2.6 (Ecofisiologia e Manejo de Plantas de Lavoura): 01/12 a 02/12; 1.2.3 (Ciências Agrárias, Subárea: Entomologia…): 11/12 a 12/12; 1.2.2 (Arquitetura e Urbanismo, Subárea: Projeto…): 19/12 a 24/12"
         },
         "detalhe": {
           "duracao": "Aula de 35 a 55 minutos, pela Resolução 93/2021 do CONSUN. Fora do intervalo, desconto de 0,10 ponto por minuto. Passando 10 minutos do teto, a banca interrompe a exposição",
@@ -1578,7 +1578,7 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2026-11-09",
           "fim": "2026-12-11",
-          "nota": "Datas por área: 1.2.12 (Língua Alemã, Literatura de Língua Alemã e…): 09/11; 1.2.7 (Educação, Subárea: Educação e Artes Visuais): 09/11 a 10/11; 1.2.13 (Linguística, Letras e Artes - Teatro…): 10/11 a 11/11; 1.2.9 (Engenharia, Subárea: Polímeros): 17/11; 1.2.1 (Antropologia, Subárea: Teoria Antropológica), 1.2.8 (Educação, Subárea: Sociologia da Educação) e 1.2.10 (Farmacologia): 23/11; 1.2.14 (Medicina Interna, Subárea: Nefrologia): 23/11 a 25/11; 1.2.4 (Ciências da Saúde/Medicina, Subárea…): 24/11; 1.2.6 (Ecofisiologia e Manejo de Plantas de Lavoura): 30/11; 1.2.5 (Direito, Subárea: Direito Internacional…): 30/11 a 02/12; 1.2.15 (Odontologia, Subárea: Cariologia ou…): 02/12; 1.2.2 (Arquitetura e Urbanismo, Subárea: Projeto…): 08/12 a 11/12; 1.2.3 (Ciências Agrárias, Subárea: Entomologia…): 09/12 a 10/12"
+          "nota": "Datas por área: 1.2.7 (Educação, Subárea: Educação e Artes Visuais) e 1.2.12 (Língua Alemã, Literatura de Língua Alemã e…): 09/11; 1.2.13 (Linguística, Letras e Artes - Teatro…): 10/11 a 11/11; 1.2.9 (Engenharia, Subárea: Polímeros): 17/11; 1.2.1 (Antropologia, Subárea: Teoria Antropológica), 1.2.8 (Educação, Subárea: Sociologia da Educação) e 1.2.10 (Farmacologia): 23/11; 1.2.14 (Medicina Interna, Subárea: Nefrologia): 23/11 a 25/11; 1.2.4 (Ciências da Saúde/Medicina, Subárea…): 24/11; 1.2.6 (Ecofisiologia e Manejo de Plantas de Lavoura): 30/11; 1.2.5 (Direito, Subárea: Direito Internacional…): 30/11 a 02/12; 1.2.15 (Odontologia, Subárea: Cariologia ou…): 02/12; 1.2.2 (Arquitetura e Urbanismo, Subárea: Projeto…): 08/12 a 11/12; 1.2.3 (Ciências Agrárias, Subárea: Entomologia…): 09/12 a 10/12"
         },
         "detalhe": {}
       },
@@ -1590,7 +1590,7 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2026-11-10",
           "fim": "2026-12-18",
-          "nota": "Datas por área: 1.2.12 (Língua Alemã, Literatura de Língua Alemã e…): 10/11 a 11/11; 1.2.7 (Educação, Subárea: Educação e Artes Visuais): 11/11; 1.2.13 (Linguística, Letras e Artes - Teatro…): 12/11 a 13/11; 1.2.9 (Engenharia, Subárea: Polímeros): 18/11; 1.2.14 (Medicina Interna, Subárea: Nefrologia): 24/11; 1.2.10 (Farmacologia): 24/11 a 25/11; 1.2.8 (Educação, Subárea: Sociologia da Educação): 24/11 a 27/11; 1.2.4 (Ciências da Saúde/Medicina, Subárea…): 25/11 a 26/11; 1.2.1 (Antropologia, Subárea: Teoria Antropológica): 27/11 a 30/11; 1.2.5 (Direito, Subárea: Direito Internacional…): 01/12; 1.2.6 (Ecofisiologia e Manejo de Plantas de Lavoura) e 1.2.15 (Odontologia, Subárea: Cariologia ou…): 03/12 a 04/12; 1.2.2 (Arquitetura e Urbanismo, Subárea: Projeto…): 12/12 a 18/12; 1.2.3 (Ciências Agrárias, Subárea: Entomologia…): 13/12 a 14/12"
+          "nota": "Datas por área: 1.2.7 (Educação, Subárea: Educação e Artes Visuais) e 1.2.12 (Língua Alemã, Literatura de Língua Alemã e…): 10/11; 1.2.13 (Linguística, Letras e Artes - Teatro…): 11/11 a 12/11; 1.2.9 (Engenharia, Subárea: Polímeros): 18/11; 1.2.14 (Medicina Interna, Subárea: Nefrologia): 24/11; 1.2.10 (Farmacologia): 24/11 a 25/11; 1.2.8 (Educação, Subárea: Sociologia da Educação): 24/11 a 27/11; 1.2.4 (Ciências da Saúde/Medicina, Subárea…): 25/11 a 26/11; 1.2.1 (Antropologia, Subárea: Teoria Antropológica): 27/11 a 30/11; 1.2.5 (Direito, Subárea: Direito Internacional…): 01/12; 1.2.6 (Ecofisiologia e Manejo de Plantas de Lavoura) e 1.2.15 (Odontologia, Subárea: Cariologia ou…): 03/12 a 04/12; 1.2.2 (Arquitetura e Urbanismo, Subárea: Projeto…): 12/12 a 18/12; 1.2.3 (Ciências Agrárias, Subárea: Entomologia…): 13/12 a 14/12"
         },
         "detalhe": {}
       }
@@ -35182,9 +35182,10 @@ window.CONCURSOS = [
         "tipo": "didatica",
         "carater": "Classificatória",
         "data": {
-          "tipo": "exata",
+          "tipo": "periodo",
           "valor": "2026-10-08",
-          "nota": "Datas por edital: 1633/2026: 08/10; demais editais: sem data"
+          "fim": "2026-11-11",
+          "nota": "Datas por edital: 1633/2026: 08/10; 1632/2026: 05/11 a 11/11"
         },
         "detalhe": {
           "duracao": "50 minutos para a exposição do tema, seguidos de arguição pelo tempo do cronograma",
@@ -35212,15 +35213,16 @@ window.CONCURSOS = [
         "tipo": "resultado",
         "carater": "",
         "data": {
-          "tipo": "exata",
-          "valor": "2026-10-09"
+          "tipo": "periodo",
+          "valor": "2026-10-09",
+          "fim": "2026-11-13"
         },
         "detalhe": {}
       }
     ],
     "periodo_provas": {
       "inicio": "2026-10-05",
-      "fim": "2026-10-08"
+      "fim": "2026-11-11"
     },
     "logo": "ufmg.png",
     "formacoes_status": "parcial",
@@ -37956,7 +37958,7 @@ window.CONCURSOS = [
     "instituicao": "Universidade Federal de Pelotas",
     "nivel": "Magistério Superior",
     "uf": "RS",
-    "numero_edital": "Edital nº 028/2026, publicado em 14/09/2026, com 29 documentos de alteração publicados depois",
+    "numero_edital": "Edital nº 028/2026, publicado em 14/09/2026, com 30 documentos de alteração publicados depois",
     "vagas": "32 vagas, com 40% reservadas a negros, indígenas e quilombolas e 5% a pessoas com deficiência",
     "areas": "28 áreas, entre elas Mercadologia, Teoria da Computação, Ciência da Computação, Processamento de Sinais e Eletrônica e Irrigação e Drenagem",
     "campi": "Pelotas e/ou proximidades, Cursos de Comércio Exterior, Administração e Processos Gerenciais CCSO, Cursos de Ciência da Computação e Engenharia de Computação CDTEC, Curso de Engenharia Hídrica CDTEC e Curso de Engenharia Civil CENG",
@@ -41644,7 +41646,7 @@ window.CONCURSOS = [
     "instituicao": "Universidade Federal dos Vales do Jequitinhonha e Mucuri",
     "nivel": "Magistério Superior",
     "uf": "MG",
-    "numero_edital": "Edital nº 101/2026, publicado em 24/09/2026, com 5 documentos de alteração publicados depois",
+    "numero_edital": "Edital nº 101/2026, publicado em 24/09/2026, com 6 documentos de alteração publicados depois",
     "vagas": "24 vagas",
     "areas": "23 áreas, entre elas Ciência da Computação (ou Informática) OU Engenharias - Subárea: Análise de Algoritmos e Complexidade de Computação ou Metodologia e Técnicas da Computação ou Banco de Dados ou Sistemas de Informação ou Linguagens de Programação ou Inteligência Artificial ou Inteligência Computacional, Ciência da Computação (ou Informática) OU Engenharias - Subárea: Sistemas de Computação OU Arquitetura de Sistemas de Computação OU Hardware OU Linguagens de Programação OU Metodologia e Técnicas da Computação OU Sistemas de Informação OU Inteligência Artificia, Interdisciplinar, Sociologia, Odontologia (4.02.00.00- 0) - Subárea: Clínica Odontológica (4.02.01.00-7) - Especialidade: em Dentística ou Prótese Dentária e Ciências Exatas e da Terra/Química",
     "campi": "Conceição do Mato Dentro, Diamantina, Janaúba, Teófilo Otoni, Faculdade de Ciências Exatas - FACET Conceição do Mato Dentro, Faculdade de Ciências Biológicas e da Saúde - FCBS Campus I e Campus JK, Faculdade de Ciências Exatas - FACET Campus JK e Faculdade de Ciências Agrárias - FCA Campus JK",
@@ -41723,7 +41725,7 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2026-12-14",
           "fim": "2027-04-15",
-          "nota": "Datas por área: Área 101.5 (Ciências Exatas e da Terra/Química), Área 101.21 (Educação (70800006) - Subárea: Fundamentos…) e Área 101.22 (Engenharia - Subárea: Engenharia de Produção…): 14/12 a 05/02; Área 101.20 (Economia): 28/12 a 15/02; Área 101.6 (Ciências Agrárias - Subárea…): 18/01 a 29/01; Área 101.11 (Ciências Humanas, Educação, Educação Básica…): 18/01 a 22/02; Área 101.9 (Farmácia - Subárea: Farmacotecnia): 27/01 a 14/04; Área 101.8 (Farmácia - Subárea: Cuidado Farmacêutico…): 27/01 a 15/04; Área 101.10 (Nutrição - Subárea: Nutrição Básica e…): 15/02 a 29/03; Área 101.7 (Recursos Florestais E Engenharia Florestal -…): 15/02 a 01/04; Área 101.18 (Química (1.06.00.00-0) ou Ciências -…): 18/02"
+          "nota": "Datas por área: Área 101.5 (Ciências Exatas e da Terra/Química), Área 101.21 (Educação (70800006) - Subárea: Fundamentos…) e Área 101.22 (Engenharia - Subárea: Engenharia de Produção…): 14/12 a 05/02; Área 101.20 (Economia): 28/12 a 15/02; Área 101.6 (Ciências Agrárias - Subárea…): 18/01 a 29/01; Área 101.11 (Ciências Humanas, Educação, Educação Básica…): 18/01 a 22/02; Área 101.9 (Farmácia - Subárea: Farmacotecnia): 27/01 a 14/04; Área 101.8 (Farmácia - Subárea: Cuidado Farmacêutico…): 27/01 a 15/04; Área 101.10 (Nutrição - Subárea: Nutrição Básica e…): 15/02 a 29/03; Área 101.7 (Recursos Florestais E Engenharia Florestal -…): 15/02 a 01/04; Área 101.18 (Química (1.06.00.00-0) ou Ciências -…): 08/04"
         },
         "detalhe": {}
       },
@@ -41790,7 +41792,7 @@ window.CONCURSOS = [
     "inscricao": {
       "inicio": "2026-10-07",
       "fim": "2026-11-05",
-      "situacao": "aberta",
+      "situacao": "encerrada",
       "taxa": "R$ 150,00"
     },
     "etapas": [
@@ -42287,7 +42289,7 @@ window.CONCURSOS = [
     "inscricao": {
       "inicio": "2026-10-07",
       "fim": "2026-11-05",
-      "situacao": "aberta",
+      "situacao": "encerrada",
       "taxa": "R$ 215,99. Inscrição por e-mail, de 07/10 (00h) a 05/11/2026 (23h59), horário de Brasília; pedido de isenção até 14/10"
     },
     "etapas": [
@@ -42907,7 +42909,7 @@ window.CONCURSOS = [
     "instituicao": "UNIVERSIDADE DA INTEGRAÇÃO INTERNACIONAL DA LUSOFONIA AFRO-BRASILEIRA",
     "nivel": "Magistério Superior",
     "uf": "CE",
-    "numero_edital": "Edital nº 14/2026, publicado em 01/10/2026, com 11 documentos de alteração publicados depois",
+    "numero_edital": "Edital nº 14/2026, publicado em 01/10/2026, com 12 documentos de alteração publicados depois",
     "vagas": "15 vagas",
     "areas": "9 áreas, entre elas Avaliação Nutricional e Nutrição Clínica, Fundamentos da Terapia Ocupacional, Atividades e Recursos Terapêuticos Ocupacionais, Práticas em Atenção Primária à Saúde/Semiologia Médica, Anatomia Humana e Cirurgia e Medicina Baseada em Evidências, Epidemiologia e Pesquisa Clínica",
     "campi": "Baturité/CE, São Francisco do Conde/BA, Instituto de Ciências da Saúde - ICS e Instituto de Ciências da Saúde - ICS / Campus dos Malês",
@@ -42919,7 +42921,7 @@ window.CONCURSOS = [
     "inscricao": {
       "inicio": "2026-10-05",
       "fim": "2026-11-05",
-      "situacao": "aberta",
+      "situacao": "encerrada",
       "taxa": "R$ 190,00"
     },
     "etapas": [
@@ -42972,7 +42974,7 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2026-11-19",
           "fim": "2026-12-11",
-          "nota": "Datas por área: Avaliação Nutricional e Nutrição Clínica (Avaliação Nutricional e Nutrição Clínica): 11/12; Fundamentos da Terapia Ocupacional, Atividades e Recursos Terapêuticos Ocupacionais (Fundamentos da Terapia Ocupacional…): 11/12; Práticas em Atenção Primária à Saúde/Semiologia Médica (Práticas em Atenção Primária à…): 03/12; Anatomia Humana e Cirurgia (Anatomia Humana e Cirurgia): 03/12; Medicina Baseada em Evidências, Epidemiologia e Pesquisa Clínica (Medicina Baseada em Evidências…): 27/11; Saúde da Criança (Saúde da Criança): 27/11; Saúde da Mulher (Saúde da Mulher): 19/11; Métodos de Imagem (Métodos de Imagem): 19/11; Psiquiatria (Psiquiatria): 19/11"
+          "nota": "Datas por área: Avaliação Nutricional e Nutrição Clínica (Avaliação Nutricional e Nutrição Clínica): 11/12; Fundamentos da Terapia Ocupacional, Atividades e Recursos Terapêuticos Ocupacionais (Fundamentos da Terapia Ocupacional…): 11/12; Práticas em Atenção Primária à Saúde/Semiologia Médica (Práticas em Atenção Primária à…): 03/12; Anatomia Humana e Cirurgia (Anatomia Humana e Cirurgia): 03/12; Medicina Baseada em Evidências, Epidemiologia e Pesquisa Clínica (Medicina Baseada em Evidências…): 27/11; Saúde da Mulher (Saúde da Mulher): 19/11; Métodos de Imagem (Métodos de Imagem): 19/11; Psiquiatria (Psiquiatria): 19/11; Saúde da Criança (Saúde da Criança): 27/11"
         },
         "detalhe": {}
       }
@@ -43413,7 +43415,7 @@ window.CONCURSOS = [
     "inscricao": {
       "inicio": "2026-10-06",
       "fim": "2026-11-05",
-      "situacao": "aberta",
+      "situacao": "encerrada",
       "taxa": "R$ 347,54"
     },
     "etapas": [
@@ -44879,7 +44881,7 @@ window.CONCURSOS = [
     "instituicao": "Universidade Federal de Itajubá",
     "nivel": "Magistério Superior",
     "uf": null,
-    "numero_edital": "Edital nº 59/2026, publicado em 23/10/2026, com 2 documentos de alteração publicados depois",
+    "numero_edital": "Edital nº 59/2026, publicado em 23/10/2026, com 3 documentos de alteração publicados depois",
     "vagas": "29 vagas",
     "areas": "28 áreas, entre elas DESENVOLVIMENTO WEB, CLOUD COMPUTING, BANCO DE DADOS E SISTEMAS COMPUTACIONAIS, ENGENHARIA DE SOFTWARE, IHM, ARQUITETURA E CONFIABILIDADE, PROGRAMAÇÃO, ALGORITMOS, MODELAGEM E VERIFICAÇÃO DE SOFTWARE, REDES DE COMPUTADORES, CRIPTOGRAFIA E PROTOCOLOS SEGUROS e SEGURANÇA DA INFORMAÇÃO",
     "campi": "Pouso Alegre, Itabira, Itajubá, Campus Pouso Alegre, Instituto de Engenharias Integradas - Campus de Itabira, Instituto de Ciências Tecnológicas - Campus de Itabira e Instituto de Engenharia de Produção e Gestão - Campus de Itajubá",
@@ -45144,6 +45146,200 @@ window.CONCURSOS = [
         "ufj-05-2026"
       ],
       "extraido_em": "2026-11-05",
+      "em_conferencia": true
+    }
+  },
+  {
+    "id": "uerj-258-2026",
+    "sigla": "UERJ",
+    "instituicao": "Universidade do Estado do Rio de Janeiro",
+    "nivel": "Magistério Superior",
+    "uf": "RJ",
+    "numero_edital": "",
+    "vagas": "1 vaga",
+    "areas": "História",
+    "campi": "Rio de janeiro - RJ e Centro de Educação e Humanidades; Instituto de Aplicação Fernando Rodrigues da Silveira; Departamento de Ciências Humanas e Filosofia (DCHF)",
+    "titulacao": "Doutorado",
+    "regime": "CH Semanal 40",
+    "remuneracao": "R$ 6.950,85 de vencimento básico em CH Semanal 40",
+    "banca": "Comissão própria da UERJ",
+    "link_oficial": "https://prossim.uerj.br/",
+    "inscricao": {
+      "inicio": "2026-10-19",
+      "fim": "2026-11-19",
+      "situacao": "aberta",
+      "taxa": "R$ 347,55"
+    },
+    "etapas": [
+      {
+        "nome": "PROVA ESCRITA",
+        "tipo": "discursiva",
+        "carater": "Eliminatória",
+        "data": {
+          "tipo": "exata",
+          "valor": "2026-12-07"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "PROVA DE AULA",
+        "tipo": "didatica",
+        "carater": "Eliminatória",
+        "data": {
+          "tipo": "periodo",
+          "valor": "2026-12-10",
+          "fim": "2026-12-11"
+        },
+        "detalhe": {
+          "duracao": "De 50 a 60 minutos. Menos de 50 minutos elimina o candidato",
+          "sorteio": "Tema sorteado com 24 horas de antecedência",
+          "nota_minima": "8 em 10",
+          "recursos": "O candidato pode usar recursos próprios (Compete ao candidato providenciar os recursos audiovisuais que pretenda utilizar na prova de aula e que não sejam disponibilizados pela Unidade)"
+        }
+      },
+      {
+        "nome": "JULGAMENTO DE TÍTULOS E TRABALHOS",
+        "tipo": "titulos",
+        "carater": "",
+        "data": {
+          "tipo": "exata",
+          "valor": "2026-12-11"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Resultado final",
+        "tipo": "resultado",
+        "carater": "",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "em até 07 dias úteis (o edital não diz a partir de quê)"
+        },
+        "detalhe": {}
+      }
+    ],
+    "periodo_provas": {
+      "inicio": "2026-12-07",
+      "fim": "2026-12-11"
+    },
+    "logo": "uerj.png",
+    "formacoes_status": "nao_extraido",
+    "familias": [],
+    "formacoes": [],
+    "familias_pos": [],
+    "areas_formacoes": [],
+    "observacao": "",
+    "detalhamento": "completo",
+    "avisos_edital": [],
+    "fonte_dados": {
+      "origem": "extracao_v2",
+      "extracoes": [
+        "uerj-258-2026"
+      ],
+      "extraido_em": "2026-11-06",
+      "em_conferencia": true
+    }
+  },
+  {
+    "id": "ufsm-252-2026",
+    "sigla": "UFSM",
+    "instituicao": "Universidade Federal de Santa Maria",
+    "nivel": "Magistério Superior",
+    "uf": null,
+    "numero_edital": "Edital nº 252/2026, publicado em 03/11/2026",
+    "vagas": "6 vagas",
+    "areas": "Ciências Exatas e da Terra/ Ciência da Computação/ Metodologia e Técnicas da Computação, Linguística, Letras e Artes/ Artes/ Artes Plásticas/ Fotografia, Ciências Sociais Aplicadas/ Economia/ Crescimento e Desenvolvimento Econômico (ênfase em Macroeconomia), Ciências Exatas e da Terra/ Física/ Física Estatística e Termodinâmica e Ciências Exatas e da Terra/ Física/ Física Clássica e Física Quântica/ Mecânica e Campos",
+    "campi": "Cachoeira do Sul, Santa Maria, Cachoeira do Sul; Coordenadoria Acadêmica Campus de Cachoeira do Sul, Santa Maria; Departamento de Artes Visuais Centro de Artes e Letras, Santa Maria; Departamento de Economia e Relações Internacionais Centro de Ciências Sociais e Humanas e Santa Maria; Departamento de Física Centro de Ciências Naturais e Exatas",
+    "titulacao": "Doutorado",
+    "regime": "Dedicação Exclusiva",
+    "remuneracao": "R$ 6.397,19 de vencimento básico em Dedicação Exclusiva, chegando a R$ 13.753,98 com a maior titulação",
+    "banca": "Comissão própria da UFSM",
+    "link_oficial": "https://www.ufsm.br/trabalhe-na-ufsm/",
+    "inscricao": {
+      "inicio": "2026-11-03",
+      "fim": "2026-12-02",
+      "situacao": "aberta",
+      "taxa": "R$ 412,60"
+    },
+    "etapas": [
+      {
+        "nome": "Prova Escrita",
+        "tipo": "discursiva",
+        "carater": "Eliminatória e classificatória",
+        "data": {
+          "tipo": "periodo",
+          "valor": "2027-01-17",
+          "fim": "2027-05-02",
+          "nota": "Data provável, pelo edital"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Prova Didática",
+        "tipo": "didatica",
+        "carater": "Eliminatória e classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O cronograma de cada etapa do certame será publicado e atualizado na página do concurso"
+        },
+        "detalhe": {
+          "duracao": "De 40 a 50 minutos. Menos de 40 minutos tem desconto na nota",
+          "arguicao": "Sim, por até 15 minutos, a critério da banca",
+          "sorteio": "Tema sorteado com 24 horas de antecedência"
+        }
+      },
+      {
+        "nome": "Prova de Defesa de Produção Intelectual",
+        "tipo": "memorial",
+        "carater": "Eliminatória e classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O cronograma de cada etapa do certame será publicado e atualizado na página do concurso"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Prova de Títulos",
+        "tipo": "titulos",
+        "carater": "Classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Resultado final",
+        "tipo": "resultado",
+        "carater": "",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "Encerradas todas as provas, em sessão pública, em local e horário previamente divulgado no cronograma do concurso público"
+        },
+        "detalhe": {}
+      }
+    ],
+    "periodo_provas": {
+      "inicio": "2027-01-17",
+      "fim": "2027-05-02"
+    },
+    "logo": "ufsm.png",
+    "formacoes_status": "nao_extraido",
+    "familias": [],
+    "formacoes": [],
+    "familias_pos": [],
+    "areas_formacoes": [],
+    "observacao": "",
+    "detalhamento": "completo",
+    "avisos_edital": [
+      "Remuneração: o edital informa total de R$ 13.753,98, mas vencimento (R$ 6.397,19) mais retribuição (R$ 7.356,77) dão R$ 13.753,96. Pode ser erro de digitação do edital; confira no edital, que é a fonte oficial."
+    ],
+    "fonte_dados": {
+      "origem": "extracao_v2",
+      "extracoes": [
+        "ufsm-252-2026"
+      ],
+      "extraido_em": "2026-11-06",
       "em_conferencia": true
     }
   }
