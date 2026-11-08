@@ -38,8 +38,10 @@ Pedido do Samuel em 04/11/2026: correção feita na extração tem de chegar ao 
 
 ## Textos corrigidos após conferência (`textos_corrigidos.json`)
 
-Para corrigir um texto escrito à mão que o compilador mantém do `dados.js` publicado, sem editar o `dados.js`. Formato: `{"<id>": [{"campo", "trocar" e "por" (ou "texto", ou "valor" para o objeto data), "evidencia", "conferido_em", "expira_em" opcional}]}`. Campos: `observacao`, `inscricao.taxa`, `etapa:<nome>:nota`, `etapa:<nome>:data` e `etapa:<nome>:<chave do detalhe>`. Com `trocar`, só o trecho muda; se o trecho não estiver mais no texto, nada muda e o relatório avisa em "Alertas". As correções aplicadas aparecem em "Liberados após conferência". Entrada com `expira_em` vencido não é aplicada e é avisada.
+Para corrigir um texto escrito à mão que o compilador mantém do `dados.js` publicado, sem editar o `dados.js`. Formato: `{"<id>": [{"campo", "trocar" e "por" (ou "texto", ou "valor" para o objeto data), "evidencia", "conferido_em", "expira_em" opcional}]}`. Campos: `observacao`, `inscricao.taxa`, `campi`, `etapa:<nome>:nota`, `etapa:<nome>:data` e `etapa:<nome>:<chave do detalhe>`. Com `trocar`, só o trecho muda; se o trecho não estiver mais no texto, nada muda e o relatório avisa em "Alertas". As correções aplicadas aparecem em "Liberados após conferência". Entrada com `expira_em` vencido não é aplicada e é avisada.
 
 ## Locais (08/11/2026)
 
 O campo `campi` traz todas as cidades das extrações, sem o corte antigo em quatro (que deixava Rio Claro e São José dos Campos fora da UNESP Assistente), e a mesma cidade em grafias diferentes ("Rio de Janeiro / RJ", "Rio de Janeiro - RJ") entra uma vez só. As unidades continuam limitadas a quatro, porque nos IFs e em parte das universidades são elas que dizem o campus (a cidade é a da reitoria).
+
+O `campi` também aceita correção em `textos_corrigidos.json` (08/11/2026), para tirar o departamento que só repete uma cidade já listada. A entrada troca o texto gerado inteiro; se a extração mudar o texto (cidade nova, por exemplo), a troca deixa de valer, o texto gerado volta ao site e o relatório avisa em "Alertas".

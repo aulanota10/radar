@@ -1404,7 +1404,7 @@ def aplica_textos_corrigidos(novo, entradas, hoje):
     corrigir um texto escrito à mão que o compilador mantém do dados.js publicado (observação, nota da data,
     detalhe da didática, texto da taxa), em vez de editar o dados.js. Cada entrada tem campo, evidência e
     data da conferência; com "trocar", só o trecho é trocado e, se o trecho não estiver mais lá, nada muda e
-    o relatório avisa. Campos: "observacao", "inscricao.taxa", "etapa:<nome>:nota", "etapa:<nome>:data"
+    o relatório avisa. Campos: "observacao", "inscricao.taxa", "campi", "etapa:<nome>:nota", "etapa:<nome>:data"
     (objeto data inteiro, em "valor") e "etapa:<nome>:<chave do detalhe>". Entrada com "expira_em" vencido
     é ignorada e avisada. Devolve (aplicadas, avisos)."""
     aplicadas, avisos = [], []
@@ -1418,6 +1418,8 @@ def aplica_textos_corrigidos(novo, entradas, hoje):
             alvo, chave = novo, "observacao"
         elif campo == "inscricao.taxa":
             alvo, chave = novo.setdefault("inscricao", {}), "taxa"
+        elif campo == "campi":
+            alvo, chave = novo, "campi"   # locais com departamento que só repete a cidade (08/11/2026)
         elif campo.startswith("etapa:"):
             _, nome, sub = campo.split(":", 2)
             et = next((x for x in novo.get("etapas") or [] if x.get("nome", "").strip().lower() == nome.strip().lower()), None)

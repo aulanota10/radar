@@ -6,6 +6,13 @@
    "por": "Cada área tem cronograma próprio. A 2ª etapa (didática e defesa) começa em 17/11 em Matemática, em 23/11 em Ensino de Ciências e Matemática e, pela previsão do memorando, em 30/11 em Micrometeorologia. A instalação da 1ª etapa tem presença obrigatória, e quem falta ou chega atrasado é eliminado. Confira o cronograma da sua área.",
    "evidencia": "Memorandos de início do concurso: DMTM 001/2026 (07/10, lotação 04, 2ª etapa prevista para 23/11), DMTM 002/2026 (09/10, lotação 03, 17/11) e DFSC 007/2026 (03/11, lotação 05, instalação em 16/11 às 8h e 2ª etapa prevista para 30/11); extração ufsm-198-2026, ev-0067 a ev-0105.",
    "conferido_em": "2026-11-04"
+  },
+  {
+   "campo": "campi",
+   "trocar": "Santa Maria, Santa Maria; Departamento de Clínica de Grandes Animais Centro de Ciências Rurais, Santa Maria; Departamento de Engenharia Sanitária e Ambiental Centro de Tecnologia, Santa Maria; Departamento de Matemática Centro de Ciências Naturais e Exatas e Santa Maria; Departamento de Física Centro de Ciências Naturais e Exatas",
+   "por": "Santa Maria",
+   "evidencia": "Unidades das vagas nas extrações (ufsm-198-2026): os 4 departamentos são de Santa Maria. Correção pontual dos locais pedida pelo Samuel em 08/11/2026.",
+   "conferido_em": "2026-11-08"
   }
  ],
  "ufpel-028-2026": [
@@ -22,6 +29,13 @@
    "por": "A data e a hora da sua área estão no formulário de homologação publicado em 30/10",
    "evidencia": "Formulários de homologação de 30/10/2026 (idem).",
    "conferido_em": "2026-11-04"
+  },
+  {
+   "campo": "campi",
+   "trocar": "Pelotas e/ou proximidades, Cursos de Comércio Exterior, Administração e Processos Gerenciais CCSO, Cursos de Ciência da Computação e Engenharia de Computação CDTEC, Curso de Engenharia Hídrica CDTEC e Curso de Engenharia Civil CENG",
+   "por": "Pelotas e/ou proximidades",
+   "evidencia": "Unidades das vagas nas extrações (ufpel-028-2026): os cursos não dizem lugar além da cidade. Correção pontual dos locais pedida pelo Samuel em 08/11/2026.",
+   "conferido_em": "2026-11-08"
   }
  ],
  "unesp-assistente-2026": [
@@ -38,6 +52,13 @@
    "por": "Barema igual nos 8 editais do pacote",
    "evidencia": "Critérios e pontuações da prova didática nos 8 editais do pacote (88, 091, 102, 163, 217, 336, 729 e 743/2026; no Edital 88/2026, item 12.6.3): os mesmos nove critérios e pontos em todos. Não há Edital 112 no pacote (extracoes/pacotes.json).",
    "conferido_em": "2026-11-08"
+  },
+  {
+   "campo": "campi",
+   "trocar": "Jaboticabal, Araraquara, Ilha Solteira, Botucatu, Rio Claro, São José dos Campos, Departamento de Morfologia e Fisiologia Animal da Faculdade de Ciências Agrárias e Veterinárias do Câmpus de Jaboticabal, departamento de Análises Clínicas da Faculdade de Ciências Farmacêuticas do Câmpus de Araraquara, Departamento de Engenharia de Bioprocessos e Biotecnologia da Faculdade de Ciências Farmacêuticas do Câmpus de Araraquara e Departamento de Engenharia Civil da Faculdade de Engenharia do Câmpus de Ilha Solteira",
+   "por": "Jaboticabal, Araraquara, Ilha Solteira, Botucatu, Rio Claro e São José dos Campos",
+   "evidencia": "Unidades das vagas nas extrações (unesp-assistente-2026): os 4 departamentos são dos câmpus de Jaboticabal, Araraquara e Ilha Solteira. Correção pontual dos locais pedida pelo Samuel em 08/11/2026.",
+   "conferido_em": "2026-11-08"
   }
  ],
  "unesp-titular-2026": [
@@ -47,6 +68,13 @@
    "por": "São 10 concursos independentes, cada um com prazo próprio, o último até 27/11/2026 (Edital 96/2026 FCF)",
    "evidencia": "Pacote unesp-titular-2026 com 10 editais na extração; Edital 96/2026 FCF com inscrição até 27/11/2026 (liberado em 04/11/2026).",
    "conferido_em": "2026-11-04"
+  },
+  {
+   "campo": "campi",
+   "trocar": "Bauru, Araraquara, Araçatuba, São José do Rio Preto, São José dos Campos, Rio Claro, Departamento de CIÊNCIAS BIOLÓGICAS, da Faculdade de Ciências, do Campus de Bauru, Departamento de Fármacos e Medicamento, da Faculdade de Ciências Farmacêuticas, do Campus de Araraquara, Departamento de Dentística e Endodontia, da Faculdade de Odontologia do Campus de Araçatuba e Departamento de Odontologia Infantil e Social, da Faculdade de Odontologia do Campus de Araçatuba",
+   "por": "Bauru, Araraquara, Araçatuba, São José do Rio Preto, São José dos Campos e Rio Claro",
+   "evidencia": "Unidades das vagas nas extrações (unesp-titular-2026): os 4 departamentos são dos câmpus de Bauru, Araraquara e Araçatuba. Correção pontual dos locais pedida pelo Samuel em 08/11/2026.",
+   "conferido_em": "2026-11-08"
   }
  ],
  "uema-2026": [
@@ -95,6 +123,13 @@
    "por": "R$ 344,00 no Edital 111/2026 (Língua Inglesa). As inscrições já encerraram; cada edital teve prazo próprio",
    "evidencia": "Edital 111/2026: inscrição de 14/09 a 09/10/2026, encerrada.",
    "conferido_em": "2026-11-04"
+  },
+  {
+   "campo": "campi",
+   "trocar": "Varginha-MG, Alfenas-MG, Instituto de Ciências Sociais Aplicadas (ICSA) /Campus Varginha/MG., Faculdade de Medicina/ Santa Clara/ Alfenas - MG, Varginha-MG / Instituto de Ciências Sociais Aplicadas (ICSA) e Instituto de Ciências Sociais Aplicadas (ICSA) /Campus Varginha/MG",
+   "por": "Varginha-MG e Alfenas-MG",
+   "evidencia": "Unidades das vagas nas extrações (unifal-002-2026): as unidades são do Campus Varginha e de Alfenas (Santa Clara). Correção pontual dos locais pedida pelo Samuel em 08/11/2026.",
+   "conferido_em": "2026-11-08"
   }
  ],
  "ufsj-2026": [
@@ -111,6 +146,13 @@
    "por": "As datas por CPD deveriam ter saído em 16/10, com no mínimo 20 dias de antecedência, e ainda não chegaram ao Radar; confira na página do concurso",
    "evidencia": "Idem.",
    "conferido_em": "2026-11-04"
+  },
+  {
+   "campo": "campi",
+   "trocar": "São João del-Rei/MG, Ouro Branco/MG, Sete Lagoas/MG, Departamento de Engenharia Química (DEQUI), Departamento de Engenharia Floretal (DEFLO), Departamento de Engenharia Mecânica e Produção (DEMEP) e Departamento de Ciências Térmica e dos Fluidos (DCTEF)",
+   "por": "São João del-Rei/MG, Ouro Branco/MG e Sete Lagoas/MG",
+   "evidencia": "Unidades das vagas nas extrações (ufsj-2026): os departamentos não dizem lugar além das cidades. Correção pontual dos locais pedida pelo Samuel em 08/11/2026.",
+   "conferido_em": "2026-11-08"
   }
  ],
  "ifmg-2026": [
@@ -144,6 +186,258 @@
    },
    "evidencia": "Edital 188/2026 consolidado, item 8.2 e cronograma (Prova de Desempenho Didático e Entrega dos Títulos); datas da didática por área na extração; MCH-4 pelo Edital 227/2026.",
    "conferido_em": "2026-11-04"
+  }
+ ],
+ "ufrn-058-2026": [
+  {
+   "campo": "campi",
+   "trocar": "Natal-RN, Departamento de Nutrição - Campus de Natal/RN, Departamento de Medicina Integrada - Campus de Natal/RN, Departamento de Medicina Clínica - Campus de Natal/RN e Departamento de Odontologia - Campus de Natal/RN",
+   "por": "Natal-RN",
+   "evidencia": "Unidades das vagas nas extrações (ufrn-058-2026): os 4 departamentos são do Campus de Natal/RN. Correção pontual dos locais pedida pelo Samuel em 08/11/2026.",
+   "conferido_em": "2026-11-08"
+  }
+ ],
+ "uerj-2026": [
+  {
+   "campo": "campi",
+   "trocar": "Rio de Janeiro / RJ, Resende, RJ, Centro de Tecnologia e Ciências; Instituto de Geografia; Departamento de Licenciatura em Geografia - DEPLIGEO/Campus Cabo Frio, Centro de Tecnologia e Ciências; Faculdade de Tecnologia; Departamento de Matemática, Física e Computação, Centro de Tecnologia e Ciências; Instituto de Geografia; Departamento de Ciências Ambientais - DEPCAMB/Campus Cabo Frio e Centro Biomédico; Faculdade de Ciências Médicas; Departamento de Ciências Médicas Integradas - Campus Cabo Frio",
+   "por": "Rio de Janeiro, Resende e Cabo Frio",
+   "evidencia": "Unidades das vagas nas extrações (uerj-2026): as cidades das extrações são Rio de Janeiro e Resende; os 3 departamentos do Centro de Tecnologia e Ciências e do Centro Biomédico listados são do Campus Cabo Frio. Correção pontual dos locais pedida pelo Samuel em 08/11/2026.",
+   "conferido_em": "2026-11-08"
+  }
+ ],
+ "ufsm-221-2026": [
+  {
+   "campo": "campi",
+   "trocar": "Santa Maria, Palmeira das Missões, Santa Maria; Departamento de Ginecologia e Obstetrícia Centro de Ciências da Saúde, Santa Maria; Departamento Cirurgia Centro de Ciências da Saúde, Santa Maria; Departamento de Fonoaudiologia Centro de Ciências da Saúde e Santa Maria; Departamento de Engenharia Química Centro de Tecnologia",
+   "por": "Santa Maria e Palmeira das Missões",
+   "evidencia": "Unidades das vagas nas extrações (ufsm-221-2026): os 4 departamentos listados são de Santa Maria. Correção pontual dos locais pedida pelo Samuel em 08/11/2026.",
+   "conferido_em": "2026-11-08"
+  }
+ ],
+ "ufpe-08-2026": [
+  {
+   "campo": "campi",
+   "trocar": "Recife, Vitória do Santo Antão e Caruaru, Núcleo de Formação Docente (CAA - CENTRO ACADÊMICO DO AGRESTE), Núcleo de Ciências da Vida (CAA - CENTRO ACADÊMICO DO AGRESTE), Núcleo de Design e Comunicação (CAA - CENTRO ACADÊMICO DO AGRESTE) e Curso de Licenciatura em Ciências Biológicas (CAV – CENTRO ACADÊMICO DE VITÓRIA)",
+   "por": "Recife, Vitória do Santo Antão e Caruaru",
+   "evidencia": "Unidades das vagas nas extrações (ufpe-08-2026): os núcleos são do Centro Acadêmico do Agreste (Caruaru) e o curso é do Centro Acadêmico de Vitória. Correção pontual dos locais pedida pelo Samuel em 08/11/2026.",
+   "conferido_em": "2026-11-08"
+  }
+ ],
+ "ufba-06-2026": [
+  {
+   "campo": "campi",
+   "trocar": "Salvador, Vitória da Conquista, Escola de Administração / Departamento: Coordenação Acadêmica, Escola de Enfermagem / Departamento: Coordenação Acadêmica, Escola de Medicina Veterinária e Zootecnia / Departamento: Medicina Veterinária Preventiva e Produção Animal e Escola Politécnica / Departamento: Ciência e Tecnologia dos Materiais",
+   "por": "Salvador e Vitória da Conquista",
+   "evidencia": "Unidades das vagas nas extrações (ufba-06-2026): as escolas listadas não dizem lugar além das cidades. Correção pontual dos locais pedida pelo Samuel em 08/11/2026.",
+   "conferido_em": "2026-11-08"
+  }
+ ],
+ "unifesp-2026": [
+  {
+   "campo": "campi",
+   "trocar": "Diadema, São José dos Campos, Osasco, Guarulhos, São Paulo - SP, Campus Diadema, Campus Baixada Santista e Campus São José dos Campos",
+   "por": "Diadema, São José dos Campos, Osasco, Guarulhos, São Paulo - SP e Baixada Santista",
+   "evidencia": "Unidades das vagas nas extrações (unifesp-2026): Campus Diadema e Campus São José dos Campos repetem cidades; o Campus Baixada Santista é o único lugar a mais. Correção pontual dos locais pedida pelo Samuel em 08/11/2026.",
+   "conferido_em": "2026-11-08"
+  }
+ ],
+ "ufpe-09-2026": [
+  {
+   "campo": "campi",
+   "trocar": "Sertânia, CAS - Centro Acadêmico do Sertão / Curso de Bacharelado em Medicina Veterinária, CAS - Centro Acadêmico do Sertão / Curso de Engenharia em Energias Renováveis, CAS - Centro Acadêmico do Sertão / Curso de Licenciatura em História e CAS - Centro Acadêmico do Sertão / Curso de Medicina",
+   "por": "Sertânia",
+   "evidencia": "Unidades das vagas nas extrações (ufpe-09-2026): os 4 cursos são do Centro Acadêmico do Sertão, em Sertânia. Correção pontual dos locais pedida pelo Samuel em 08/11/2026.",
+   "conferido_em": "2026-11-08"
+  }
+ ],
+ "unimontes-2026": [
+  {
+   "campo": "campi",
+   "trocar": "Montes Claros/MG, Departamento de Ciências da Computação - Montes Claros/MG, Departamento de Ciências Econômicas - Montes Claros/MG, Departamento de História - Janaúba e Departamento de Saúde da Mulher e da Criança - Montes Claros/MG",
+   "por": "Montes Claros/MG e Janaúba",
+   "evidencia": "Unidades das vagas nas extrações (unimontes-2026): três departamentos são de Montes Claros/MG; o de História é de Janaúba. Correção pontual dos locais pedida pelo Samuel em 08/11/2026.",
+   "conferido_em": "2026-11-08"
+  }
+ ],
+ "ufu-118-2026": [
+  {
+   "campo": "campi",
+   "trocar": "Uberlândia - MG, Ituiutaba - MG, Patos de Minas - MG, Faculdade de Engenharia Elétrica (Campus Santa Mônica, localizado na cidade de Uberlândia - MG), Instituto de Ciências Agrárias (Campus Glória, localizado na cidade de Uberlândia - MG), Instituto de Ciências Agrárias (Campus Glória/Umuarama, localizado na cidade de Uberlândia - MG) e Instituto de Matemática e Estatística (Campus Santa Mônica, localizado na cidade de Uberlândia - MG)",
+   "por": "Uberlândia - MG, Ituiutaba - MG e Patos de Minas - MG",
+   "evidencia": "Unidades das vagas nas extrações (ufu-118-2026): as 4 unidades listadas ficam em Uberlândia - MG. Correção pontual dos locais pedida pelo Samuel em 08/11/2026.",
+   "conferido_em": "2026-11-08"
+  }
+ ],
+ "uesc-050-2026": [
+  {
+   "campo": "campi",
+   "trocar": "Ilhéus - Bahia, DEPARTAMENTO DE ENGENHARIA E COMPUTAÇÃO - DEC e DEPARTAMENTO DE CIÊNCIAS DA SAÚDE - DCS",
+   "por": "Ilhéus - Bahia",
+   "evidencia": "Unidades das vagas nas extrações (uesc-050-2026): os 2 departamentos não dizem lugar além da cidade. Correção pontual dos locais pedida pelo Samuel em 08/11/2026.",
+   "conferido_em": "2026-11-08"
+  }
+ ],
+ "uneb-085-2026": [
+  {
+   "campo": "campi",
+   "trocar": "Salvador/BA e Departamento de Ciências da Vida - Campus I - Salvador",
+   "por": "Salvador/BA",
+   "evidencia": "Unidades das vagas nas extrações (uneb-085-2026): o departamento é do Campus I, em Salvador. Correção pontual dos locais pedida pelo Samuel em 08/11/2026.",
+   "conferido_em": "2026-11-08"
+  }
+ ],
+ "ufrn-108-2026": [
+  {
+   "campo": "campi",
+   "trocar": "Natal-RN, Departamento de Medicina Integrada - Campus de Natal/RN, Departamento de História - Campus de Caicó/RN, Instituto Metrópole Digital - Campus de Natal/RN e Faculdade de Ciências da Saúde do Trairi - Campus de Santa Cruz/RN",
+   "por": "Natal-RN, Caicó/RN e Santa Cruz/RN",
+   "evidencia": "Unidades das vagas nas extrações (ufrn-108-2026): dois departamentos são do Campus de Natal/RN, o de História é do Campus de Caicó/RN e a Faculdade do Trairi é do Campus de Santa Cruz/RN. Correção pontual dos locais pedida pelo Samuel em 08/11/2026.",
+   "conferido_em": "2026-11-08"
+  }
+ ],
+ "ufc-48-2026": [
+  {
+   "campo": "campi",
+   "trocar": "Município de Fortaleza - Ceará, CENTRO DE CIÊNCIAS / CAMPUS DE FORTALEZA; Departamento de Biologia, CENTRO DE CIÊNCIAS / CAMPUS DE FORTALEZA; Departamento de Bioquímica e Biologia Molecular, CENTRO DE CIÊNCIAS / CAMPUS DE FORTALEZA; Departamento de Estatística e Matemática Aplicada e CENTRO DE CIÊNCIAS / CAMPUS DE FORTALEZA; Departamento de Física",
+   "por": "Município de Fortaleza - Ceará",
+   "evidencia": "Unidades das vagas nas extrações (ufc-48-2026): os 4 departamentos são do Centro de Ciências, Campus de Fortaleza. Correção pontual dos locais pedida pelo Samuel em 08/11/2026.",
+   "conferido_em": "2026-11-08"
+  }
+ ],
+ "ufvjm-101-2026": [
+  {
+   "campo": "campi",
+   "trocar": "Conceição do Mato Dentro, Diamantina, Janaúba, Teófilo Otoni, Unaí, Faculdade de Ciências Exatas - FACET Conceição do Mato Dentro, Faculdade de Ciências Biológicas e da Saúde - FCBS Campus I e Campus JK, Faculdade de Ciências Exatas - FACET Campus JK e Faculdade de Ciências Agrárias - FCA Campus JK",
+   "por": "Conceição do Mato Dentro, Diamantina, Janaúba, Teófilo Otoni e Unaí",
+   "evidencia": "Unidades das vagas nas extrações (ufvjm-101-2026): as faculdades listadas são de Conceição do Mato Dentro e dos campi I e JK, em Diamantina. Correção pontual dos locais pedida pelo Samuel em 08/11/2026.",
+   "conferido_em": "2026-11-08"
+  }
+ ],
+ "ufrn-109-2026": [
+  {
+   "campo": "campi",
+   "trocar": "Natal-RN, Instituto Metrópole Digital - Campus de Natal/RN, Escola Agrícola de Jundiaí - Campus de Macaíba/RN, Escola de Música - Campus de Natal/RN e Escola de Saúde - Campus de Natal/RN",
+   "por": "Natal-RN e Macaíba/RN",
+   "evidencia": "Unidades das vagas nas extrações (ufrn-109-2026): três unidades são do Campus de Natal/RN e a Escola Agrícola de Jundiaí é do Campus de Macaíba/RN. Correção pontual dos locais pedida pelo Samuel em 08/11/2026.",
+   "conferido_em": "2026-11-08"
+  }
+ ],
+ "ufms-137-2026": [
+  {
+   "campo": "campi",
+   "trocar": "Campo Grande, Aquidauana, Corumbá, Três Lagoas, Chapadão do Sul, Nova Andradina, Naviraí, FAALC, FACH, FACOM e FAENG",
+   "por": "Campo Grande, Aquidauana, Corumbá, Três Lagoas, Chapadão do Sul, Nova Andradina e Naviraí",
+   "evidencia": "Unidades das vagas nas extrações (ufms-137-2026): FAALC, FACH, FACOM e FAENG são siglas de unidades, sem lugar além das cidades. Correção pontual dos locais pedida pelo Samuel em 08/11/2026.",
+   "conferido_em": "2026-11-08"
+  }
+ ],
+ "ufv-47-2026": [
+  {
+   "campo": "campi",
+   "trocar": "Viçosa/MG e Departamento de Direito, do Centro de Ciências Humanas, Letras e Artes",
+   "por": "Viçosa/MG",
+   "evidencia": "Unidades das vagas nas extrações (ufv-47-2026): o departamento não diz lugar além da cidade. Correção pontual dos locais pedida pelo Samuel em 08/11/2026.",
+   "conferido_em": "2026-11-08"
+  }
+ ],
+ "ufv-48-49-2026": [
+  {
+   "campo": "campi",
+   "trocar": "Viçosa/MG e Departamento de Arquitetura e Urbanismo, do Centro de Ciências Exatas e Tecnológicas",
+   "por": "Viçosa/MG",
+   "evidencia": "Unidades das vagas nas extrações (ufv-48-49-2026): o departamento não diz lugar além da cidade. Correção pontual dos locais pedida pelo Samuel em 08/11/2026.",
+   "conferido_em": "2026-11-08"
+  }
+ ],
+ "unilab-14-2026": [
+  {
+   "campo": "campi",
+   "trocar": "Baturité/CE, São Francisco do Conde/BA, Instituto de Ciências da Saúde - ICS e Instituto de Ciências da Saúde - ICS / Campus dos Malês",
+   "por": "Baturité/CE e São Francisco do Conde/BA",
+   "evidencia": "Unidades das vagas nas extrações (unilab-14-2026): o ICS não diz lugar e o Campus dos Malês fica em São Francisco do Conde/BA. Correção pontual dos locais pedida pelo Samuel em 08/11/2026.",
+   "conferido_em": "2026-11-08"
+  }
+ ],
+ "uerj-255-2026": [
+  {
+   "campo": "campi",
+   "trocar": "Rio de Janeiro e Centro de Educação e Humanidades; Instituto de Psicologia; Departamento de Psicologia Clínica",
+   "por": "Rio de Janeiro",
+   "evidencia": "Unidades das vagas nas extrações (uerj-255-2026): o departamento não diz lugar além da cidade. Correção pontual dos locais pedida pelo Samuel em 08/11/2026.",
+   "conferido_em": "2026-11-08"
+  }
+ ],
+ "ufrb-01-2026": [
+  {
+   "campo": "campi",
+   "trocar": "Cruz das Almas/BA e CCAAB - Centro de Ciências Agrárias, Ambientais e Biológicas - Cruz das Almas/BA",
+   "por": "Cruz das Almas/BA",
+   "evidencia": "Unidades das vagas nas extrações (ufrb-01-2026): o CCAAB é de Cruz das Almas/BA. Correção pontual dos locais pedida pelo Samuel em 08/11/2026.",
+   "conferido_em": "2026-11-08"
+  }
+ ],
+ "ufu-156-2026": [
+  {
+   "campo": "campi",
+   "trocar": "Uberlândia - MG, Patos de Minas - MG, Monte Carmelo - MG, Ituiutaba - MG, Faculdade de Engenharia Elétrica - FEELT (Campus Santa Mônica, localizado na cidade de Uberlândia (MG)), Faculdade de Engenharia Elétrica - FEELT (Campus Patos de Minas, localizado em Patos de Minas (MG)), Faculdade de Medicina - FAMED (Campus Umuarama, localizado na cidade de Uberlândia (MG)) e Instituto de Ciências Agrárias - ICIAG (Campus Glória, localizado na cidade de Uberlândia (MG))",
+   "por": "Uberlândia - MG, Patos de Minas - MG, Monte Carmelo - MG e Ituiutaba - MG",
+   "evidencia": "Unidades das vagas nas extrações (ufu-156-2026): as 4 unidades ficam em Uberlândia e Patos de Minas. Correção pontual dos locais pedida pelo Samuel em 08/11/2026.",
+   "conferido_em": "2026-11-08"
+  }
+ ],
+ "unesp-fct-463-2026": [
+  {
+   "campo": "campi",
+   "trocar": "Presidente Prudente e Departamento de Educação da Faculdade de Ciências e Tecnologia do Campus de Presidente Prudente",
+   "por": "Presidente Prudente",
+   "evidencia": "Unidades das vagas nas extrações (unesp-fct-463-2026): o departamento é do Campus de Presidente Prudente. Correção pontual dos locais pedida pelo Samuel em 08/11/2026.",
+   "conferido_em": "2026-11-08"
+  }
+ ],
+ "unifei-51-2026": [
+  {
+   "campo": "campi",
+   "trocar": "Itajubá, Itabira, Instituto de Recursos Naturais - Campus de Itajubá, Instituto de Ciências Tecnológicas - Campus de Itabira e Instituto de Ciências Puras e Aplicadas - Campus de Itabira",
+   "por": "Itajubá e Itabira",
+   "evidencia": "Unidades das vagas nas extrações (unifei-51-2026): os 3 institutos são dos campi de Itajubá e Itabira. Correção pontual dos locais pedida pelo Samuel em 08/11/2026.",
+   "conferido_em": "2026-11-08"
+  }
+ ],
+ "unifei-59-2026": [
+  {
+   "campo": "campi",
+   "trocar": "Pouso Alegre, Itabira, Itajubá, Campus Pouso Alegre, Instituto de Engenharias Integradas - Campus de Itabira, Instituto de Ciências Tecnológicas - Campus de Itabira e Instituto de Engenharia de Produção e Gestão - Campus de Itajubá",
+   "por": "Pouso Alegre, Itabira e Itajubá",
+   "evidencia": "Unidades das vagas nas extrações (unifei-59-2026): as 4 unidades são dos campi de Pouso Alegre, Itabira e Itajubá. Correção pontual dos locais pedida pelo Samuel em 08/11/2026.",
+   "conferido_em": "2026-11-08"
+  }
+ ],
+ "ufj-05-2026": [
+  {
+   "campo": "campi",
+   "trocar": "Jataí/GO, Faculdade de Educação (FE), Campus Riachuelo, Instituto de Ciências Exatas e Tecnológicas (ICET), Campus Jatobá, Instituto de Ciências Humanas e Letras (ICHL), Campus Jatobá e Instituto de Ciências da Saúde (ICS), Campus Jatobá",
+   "por": "Jataí/GO",
+   "evidencia": "Unidades das vagas nas extrações (ufj-05-2026): os campi Riachuelo e Jatobá ficam em Jataí/GO. Correção pontual dos locais pedida pelo Samuel em 08/11/2026.",
+   "conferido_em": "2026-11-08"
+  }
+ ],
+ "uerj-258-2026": [
+  {
+   "campo": "campi",
+   "trocar": "Rio de janeiro - RJ e Centro de Educação e Humanidades; Instituto de Aplicação Fernando Rodrigues da Silveira; Departamento de Ciências Humanas e Filosofia (DCHF)",
+   "por": "Rio de janeiro - RJ",
+   "evidencia": "Unidades das vagas nas extrações (uerj-258-2026): o departamento não diz lugar além da cidade. Correção pontual dos locais pedida pelo Samuel em 08/11/2026.",
+   "conferido_em": "2026-11-08"
+  }
+ ],
+ "ufsm-252-2026": [
+  {
+   "campo": "campi",
+   "trocar": "Cachoeira do Sul, Santa Maria, Cachoeira do Sul; Coordenadoria Acadêmica Campus de Cachoeira do Sul, Santa Maria; Departamento de Artes Visuais Centro de Artes e Letras, Santa Maria; Departamento de Economia e Relações Internacionais Centro de Ciências Sociais e Humanas e Santa Maria; Departamento de Física Centro de Ciências Naturais e Exatas",
+   "por": "Cachoeira do Sul e Santa Maria",
+   "evidencia": "Unidades das vagas nas extrações (ufsm-252-2026): as 4 unidades são de Cachoeira do Sul e Santa Maria. Correção pontual dos locais pedida pelo Samuel em 08/11/2026.",
+   "conferido_em": "2026-11-08"
   }
  ]
 }
