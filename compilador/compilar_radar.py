@@ -881,7 +881,16 @@ def compila_grupo(id_radar, exts, atual, hoje, validador=None, conservador=False
                      else f"{len(areas)} áreas, entre elas " + juntar(areas[:5]))
     unidades = unicos((vg.get("unidade") or "").strip() for vg in vagas)
     cidades = unicos(str(c) for e in exts for c in todos(e.get("cidade_uf")))
-    novo["campi"] = juntar(unicos(cidades[:4] + unidades[:4]))
+    # Todas as cidades entram; o corte em 4 deixava Rio Claro e São José dos Campos fora da UNESP Assistente (08/11/2026).
+    # As unidades continuam limitadas a 4, porque nos IFs e em parte das universidades são elas que dizem o campus.
+    # A mesma cidade em grafias diferentes ("Rio de Janeiro / RJ", "Rio de Janeiro - RJ", "Rio de Janeiro") entra uma vez só.
+    vistas, cidades_unicas = set(), []
+    for c in cidades:
+        chave = re.sub(r"[\s/,\-]+[A-Z]{2}$", "", c.strip()).strip().lower()
+        if chave not in vistas:
+            vistas.add(chave)
+            cidades_unicas.append(c)
+    novo["campi"] = juntar(unicos(cidades_unicas + unidades[:4]))
     tits = unicos(vg.get("titulacao_minima") for vg in vagas)
     novo["titulacao"] = (TITULACAO.get(tits[0], tits[0]) if len(tits) == 1
                          else "Conforme a área" if tits else (atual or {}).get("titulacao", ""))
