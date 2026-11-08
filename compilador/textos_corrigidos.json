@@ -31,6 +31,13 @@
    "por": "prazo próprio de inscrição, o último até 03/12/2026",
    "evidencia": "Inscrição dos 8 editais do pacote na extração: o fim mais tardio é 03/12/2026, o que o site já mostra no período de inscrição.",
    "conferido_em": "2026-11-04"
+  },
+  {
+   "campo": "etapa:Prova didática:criterios",
+   "trocar": "Barema conferido nos Editais 112 e 88/2026, idênticos entre si",
+   "por": "Barema igual nos 8 editais do pacote",
+   "evidencia": "Critérios e pontuações da prova didática nos 8 editais do pacote (88, 091, 102, 163, 217, 336, 729 e 743/2026; no Edital 88/2026, item 12.6.3): os mesmos nove critérios e pontos em todos. Não há Edital 112 no pacote (extracoes/pacotes.json).",
+   "conferido_em": "2026-11-08"
   }
  ],
  "unesp-titular-2026": [
