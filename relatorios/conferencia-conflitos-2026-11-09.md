@@ -5,6 +5,7 @@ unimontes-2026 | Prova Prática de Direito | 21/02/2027 | 25/04/2027 | LIBERAR |
 unesp-assistente-2026 | vagas | "1 vaga por edital, em 8 concursos independentes" | 8 | MANTER | extracoes/pacotes.json e quadro de vagas dos 8 editais do pacote (88, 091, 163, 217, 336, 729, 743 e 102/2026), 1 área com 1 vaga imediata em cada | Mesma decisão de 05/11 a 08/11/2026: o total é o mesmo e o texto publicado diz mais que a soma, porque são concursos independentes. O conflito segue aparecendo sem mudar o site.
 
 A Rodada diária do Radar de hoje não tinha rodado até 13h48 de Fortaleza (relatorios/ultima-rodada.json ainda de 06/11/2026, nenhuma execução registrada hoje no GitHub Actions, depois de 20 minutos de espera). A conferência usou a compilação local sobre o main de hoje (c6a0236) e o vigia-documentos em d98f1b6: com as duas liberações, 83 concursos gerados, nenhum conflito novo e validação aprovada. Sai pela regra do resultado final furb-07-2026. A compilação local mostra 41 concursos com mudança ainda não publicada, que dependem da próxima rodada que rodar.
+Rodada de publicação: sem pull request, porque a execução 42658470975 (https://github.com/aulanota10/radar/actions/runs/42658470975), disparada às 13h48 de Fortaleza, falhou sem começar ("The job was not started because your account is locked due to a billing issue"), mesclado automaticamente: não. As duas liberações estão em compilador/liberados.json e chegam ao site na primeira rodada depois de regularizada a cobrança do GitHub Actions.
 
 ## Para o Samuel
 
