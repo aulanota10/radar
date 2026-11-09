@@ -1,0 +1,11 @@
+Conflitos conferidos: 3. Liberados: 2. Mantidos: 1.
+
+unila-204-2026 | Resultado final | 23/10/2026 | 05/11/2026 | LIBERAR | Edital nº 314/2026/DICS, de 05/11/2026, preâmbulo (homologa o resultado final da área Ciências da Saúde, subárea Ginecologia e Obstetrícia) | O 23/10 publicado é a divulgação do resultado provisório nos cronogramas específicos. A homologação de 05/11 vale só para Ginecologia e Obstetrícia, e o compilador publica assim: "GINECOLOGIA E OBSTETRÍCIA: 05/11; demais áreas: sem data". As áreas 01 e 03 têm só "a partir de 29/10/2026" nos cronogramas, sem data fixa.
+unimontes-2026 | Prova Prática de Direito | 21/02/2027 | 25/04/2027 | LIBERAR | Edital nº 21/2026, 3ª Retificação, itens 1.12.1, 9.2.1 e 10.4.2 (leia-se) | A retificação troca 21/02/2027 por 25/04/2027, turno vespertino, para o código 003. A 2ª Retificação do Edital 27/2026 (item VII) revogou a Prova Prática de Música como componente autônomo da primeira etapa, e por isso a nota da ficha passa a citar só o Edital 21/2026.
+unesp-assistente-2026 | vagas | "1 vaga por edital, em 8 concursos independentes" | 8 | MANTER | extracoes/pacotes.json e quadro de vagas dos 8 editais do pacote (88, 091, 163, 217, 336, 729, 743 e 102/2026), 1 área com 1 vaga imediata em cada | Mesma decisão de 05/11 a 08/11/2026: o total é o mesmo e o texto publicado diz mais que a soma, porque são concursos independentes. O conflito segue aparecendo sem mudar o site.
+
+A Rodada diária do Radar de hoje não tinha rodado até 13h48 de Fortaleza (relatorios/ultima-rodada.json ainda de 06/11/2026, nenhuma execução registrada hoje no GitHub Actions, depois de 20 minutos de espera). A conferência usou a compilação local sobre o main de hoje (c6a0236) e o vigia-documentos em d98f1b6: com as duas liberações, 83 concursos gerados, nenhum conflito novo e validação aprovada. Sai pela regra do resultado final furb-07-2026. A compilação local mostra 41 concursos com mudança ainda não publicada, que dependem da próxima rodada que rodar.
+
+## Para o Samuel
+
+nenhum
