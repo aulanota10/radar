@@ -1498,7 +1498,7 @@ window.CONCURSOS = [
     "instituicao": "Universidade Federal do Rio Grande do Sul",
     "nivel": "Magistério Superior",
     "uf": "RS",
-    "numero_edital": "Edital nº 09/2026, publicado em 19/08/2026, com 13 documentos de alteração publicados depois",
+    "numero_edital": "Edital nº 09/2026, publicado em 19/08/2026, com 18 documentos de alteração publicados depois",
     "vagas": "20 vagas (10 ampla concorrência, 5 pretos, 1 indígena, 4 PcD)",
     "areas": "16 áreas, entre elas Antropologia, Subárea: Teoria Antropológica, Arquitetura e Urbanismo, Subárea: Projeto Arquitetônico: fundamentos e tecnologia, Ciências Agrárias, Subárea: Entomologia Agrícola, Ciências da Saúde/Medicina, Subárea: Anatomia Patológica e Patologia Clínica e Direito, Subárea: Direito Internacional Público",
     "campi": "Instituto de Filosofia e Ciências Humanas - Departamento de Antropologia, Faculdade de Arquitetura - Departamento de Arquitetura, Faculdade de Agronomia - Departamento de Fitossanidade e Faculdade de Medicina - Departamento de Patologia",
@@ -1522,7 +1522,7 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2026-11-03",
           "fim": "2026-11-30",
-          "nota": "Datas por área: 1.2.7 (Educação, Subárea: Educação e Artes Visuais), 1.2.12 (Língua Alemã, Literatura de Língua Alemã e…) e 1.2.13 (Linguística, Letras e Artes - Teatro…): 03/11; 1.2.8 (Educação, Subárea: Sociologia da Educação), 1.2.9 (Engenharia, Subárea: Polímeros), 1.2.10 (Farmacologia), 1.2.14 (Medicina Interna, Subárea: Nefrologia) e 1.2.15 (Odontologia, Subárea: Cariologia ou…): 09/11; 1.2.1 (Antropologia, Subárea: Teoria Antropológica), 1.2.4 (Ciências da Saúde/Medicina, Subárea…) e 1.2.5 (Direito, Subárea: Direito Internacional…): 16/11; 1.2.2 (Arquitetura e Urbanismo, Subárea: Projeto…): 23/11; 1.2.6 (Ecofisiologia e Manejo de Plantas de Lavoura): 24/11; 1.2.3 (Ciências Agrárias, Subárea: Entomologia…): 30/11; demais áreas: sem data (em prazo não inferior a 30 (trinta) dias, contados da data de publicação do presente Edital no Diário Oficial da União)"
+          "nota": "Datas por área: 1.2.7 (Educação, Subárea: Educação e Artes Visuais), 1.2.12 (Língua Alemã, Literatura de Língua Alemã e…) e 1.2.13 (Linguística, Letras e Artes - Teatro…): 03/11; 1.2.8 (Educação, Subárea: Sociologia da Educação), 1.2.9 (Engenharia, Subárea: Polímeros), 1.2.10 (Farmacologia), 1.2.14 (Medicina Interna, Subárea: Nefrologia) e 1.2.15 (Odontologia, Subárea: Cariologia ou…): 09/11; 1.2.1 (Antropologia, Subárea: Teoria Antropológica), 1.2.4 (Ciências da Saúde/Medicina, Subárea…) e 1.2.5 (Direito, Subárea: Direito Internacional…): 16/11; 1.2.2 (Arquitetura e Urbanismo, Subárea: Projeto…): 23/11; 1.2.6 (Ecofisiologia e Manejo de Plantas de Lavoura): 24/11; 1.2.3 (Ciências Agrárias, Subárea: Entomologia…) e 1.2.16 (Teatro, Subárea: Ensino de Teatro): 30/11; demais áreas: sem data (em prazo não inferior a 30 (trinta) dias, contados da data de publicação do presente Edital no Diário Oficial da União)"
         },
         "detalhe": {
           "nota_minima": "7,0"
@@ -1548,7 +1548,7 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2026-11-09",
           "fim": "2026-12-24",
-          "nota": "Datas por área: 1.2.7 (Educação, Subárea: Educação e Artes Visuais): 09/11 a 10/11; 1.2.12 (Língua Alemã, Literatura de Língua Alemã e…): 11/11 a 13/11; 1.2.13 (Linguística, Letras e Artes - Teatro…): 12/11 a 18/11; 1.2.9 (Engenharia, Subárea: Polímeros): 19/11; 1.2.14 (Medicina Interna, Subárea: Nefrologia): 23/11; 1.2.1 (Antropologia, Subárea: Teoria Antropológica): 24/11 a 26/11; 1.2.4 (Ciências da Saúde/Medicina, Subárea…): 25/11; 1.2.10 (Farmacologia): 26/11 a 27/11; 1.2.8 (Educação, Subárea: Sociologia da Educação): 27/11 a 29/11; 1.2.5 (Direito, Subárea: Direito Internacional…): 30/11; 1.2.15 (Odontologia, Subárea: Cariologia ou…): 30/11 a 01/12; 1.2.6 (Ecofisiologia e Manejo de Plantas de Lavoura): 01/12 a 02/12; 1.2.3 (Ciências Agrárias, Subárea: Entomologia…): 11/12 a 12/12; 1.2.2 (Arquitetura e Urbanismo, Subárea: Projeto…): 19/12 a 24/12"
+          "nota": "Datas por área: 1.2.7 (Educação, Subárea: Educação e Artes Visuais): 09/11 a 10/11; 1.2.12 (Língua Alemã, Literatura de Língua Alemã e…): 11/11 a 13/11; 1.2.13 (Linguística, Letras e Artes - Teatro…): 12/11 a 18/11; 1.2.9 (Engenharia, Subárea: Polímeros): 19/11; 1.2.14 (Medicina Interna, Subárea: Nefrologia): 23/11; 1.2.1 (Antropologia, Subárea: Teoria Antropológica): 24/11 a 26/11; 1.2.4 (Ciências da Saúde/Medicina, Subárea…): 25/11; 1.2.10 (Farmacologia): 25/11 a 27/11; 1.2.8 (Educação, Subárea: Sociologia da Educação): 27/11 a 29/11; 1.2.5 (Direito, Subárea: Direito Internacional…): 30/11; 1.2.15 (Odontologia, Subárea: Cariologia ou…): 30/11 a 01/12; 1.2.6 (Ecofisiologia e Manejo de Plantas de Lavoura): 01/12 a 02/12; 1.2.3 (Ciências Agrárias, Subárea: Entomologia…): 11/12 a 12/12; 1.2.16 (Teatro, Subárea: Ensino de Teatro): 13/12 a 17/12; 1.2.2 (Arquitetura e Urbanismo, Subárea: Projeto…): 19/12 a 24/12"
         },
         "detalhe": {
           "duracao": "Aula de 35 a 55 minutos, pela Resolução 93/2021 do CONSUN. Fora do intervalo, desconto de 0,10 ponto por minuto. Passando 10 minutos do teto, a banca interrompe a exposição",
@@ -1578,7 +1578,7 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2026-11-09",
           "fim": "2026-12-11",
-          "nota": "Datas por área: 1.2.7 (Educação, Subárea: Educação e Artes Visuais) e 1.2.12 (Língua Alemã, Literatura de Língua Alemã e…): 09/11; 1.2.13 (Linguística, Letras e Artes - Teatro…): 10/11 a 11/11; 1.2.9 (Engenharia, Subárea: Polímeros): 17/11; 1.2.1 (Antropologia, Subárea: Teoria Antropológica), 1.2.8 (Educação, Subárea: Sociologia da Educação) e 1.2.10 (Farmacologia): 23/11; 1.2.14 (Medicina Interna, Subárea: Nefrologia): 23/11 a 25/11; 1.2.4 (Ciências da Saúde/Medicina, Subárea…): 24/11; 1.2.6 (Ecofisiologia e Manejo de Plantas de Lavoura): 30/11; 1.2.5 (Direito, Subárea: Direito Internacional…): 30/11 a 02/12; 1.2.15 (Odontologia, Subárea: Cariologia ou…): 02/12; 1.2.2 (Arquitetura e Urbanismo, Subárea: Projeto…): 08/12 a 11/12; 1.2.3 (Ciências Agrárias, Subárea: Entomologia…): 09/12 a 10/12"
+          "nota": "Datas por área: 1.2.7 (Educação, Subárea: Educação e Artes Visuais) e 1.2.12 (Língua Alemã, Literatura de Língua Alemã e…): 09/11; 1.2.13 (Linguística, Letras e Artes - Teatro…): 10/11 a 11/11; 1.2.9 (Engenharia, Subárea: Polímeros): 17/11; 1.2.1 (Antropologia, Subárea: Teoria Antropológica), 1.2.8 (Educação, Subárea: Sociologia da Educação) e 1.2.10 (Farmacologia): 23/11; 1.2.14 (Medicina Interna, Subárea: Nefrologia): 23/11 a 25/11; 1.2.4 (Ciências da Saúde/Medicina, Subárea…): 24/11; 1.2.6 (Ecofisiologia e Manejo de Plantas de Lavoura): 30/11; 1.2.5 (Direito, Subárea: Direito Internacional…): 30/11 a 02/12; 1.2.15 (Odontologia, Subárea: Cariologia ou…): 02/12; 1.2.16 (Teatro, Subárea: Ensino de Teatro): 06/12 a 07/12; 1.2.2 (Arquitetura e Urbanismo, Subárea: Projeto…): 08/12 a 11/12; 1.2.3 (Ciências Agrárias, Subárea: Entomologia…): 09/12 a 10/12"
         },
         "detalhe": {}
       },
@@ -1590,7 +1590,7 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2026-11-10",
           "fim": "2026-12-18",
-          "nota": "Datas por área: 1.2.7 (Educação, Subárea: Educação e Artes Visuais) e 1.2.12 (Língua Alemã, Literatura de Língua Alemã e…): 10/11; 1.2.13 (Linguística, Letras e Artes - Teatro…): 11/11 a 12/11; 1.2.9 (Engenharia, Subárea: Polímeros): 18/11; 1.2.14 (Medicina Interna, Subárea: Nefrologia): 24/11; 1.2.10 (Farmacologia): 24/11 a 25/11; 1.2.8 (Educação, Subárea: Sociologia da Educação): 24/11 a 27/11; 1.2.4 (Ciências da Saúde/Medicina, Subárea…): 25/11 a 26/11; 1.2.1 (Antropologia, Subárea: Teoria Antropológica): 27/11 a 30/11; 1.2.5 (Direito, Subárea: Direito Internacional…): 01/12; 1.2.6 (Ecofisiologia e Manejo de Plantas de Lavoura) e 1.2.15 (Odontologia, Subárea: Cariologia ou…): 03/12 a 04/12; 1.2.2 (Arquitetura e Urbanismo, Subárea: Projeto…): 12/12 a 18/12; 1.2.3 (Ciências Agrárias, Subárea: Entomologia…): 13/12 a 14/12"
+          "nota": "Datas por área: 1.2.7 (Educação, Subárea: Educação e Artes Visuais) e 1.2.12 (Língua Alemã, Literatura de Língua Alemã e…): 10/11; 1.2.13 (Linguística, Letras e Artes - Teatro…): 11/11 a 12/11; 1.2.9 (Engenharia, Subárea: Polímeros): 18/11; 1.2.10 (Farmacologia) e 1.2.14 (Medicina Interna, Subárea: Nefrologia): 24/11; 1.2.8 (Educação, Subárea: Sociologia da Educação): 24/11 a 26/11; 1.2.4 (Ciências da Saúde/Medicina, Subárea…): 25/11 a 26/11; 1.2.1 (Antropologia, Subárea: Teoria Antropológica): 27/11 a 30/11; 1.2.5 (Direito, Subárea: Direito Internacional…): 01/12; 1.2.6 (Ecofisiologia e Manejo de Plantas de Lavoura) e 1.2.15 (Odontologia, Subárea: Cariologia ou…): 03/12 a 04/12; 1.2.16 (Teatro, Subárea: Ensino de Teatro): 08/12 a 13/12; 1.2.2 (Arquitetura e Urbanismo, Subárea: Projeto…): 12/12 a 18/12; 1.2.3 (Ciências Agrárias, Subárea: Entomologia…): 13/12 a 14/12"
         },
         "detalhe": {}
       }
@@ -41835,7 +41835,7 @@ window.CONCURSOS = [
     "instituicao": "Instituto Federal de Educação, Ciência e Tecnologia de São Paulo",
     "nivel": "EBTT",
     "uf": "SP",
-    "numero_edital": "Edital nº 183/2026, publicado em 29/09/2026, com 3 documentos de alteração publicados depois",
+    "numero_edital": "Edital nº 183/2026, publicado em 29/09/2026, com 4 documentos de alteração publicados depois",
     "vagas": "47 vagas",
     "areas": "10 áreas, entre elas Artes Cênicas, Design Gráfico, Educação Especial, Eletrônica e Energias",
     "campi": "São Paulo (capital), São José do Rio Preto, Jardim Ângela, São Miguel Paulista e Bauru",
