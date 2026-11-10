@@ -1,148 +1,17 @@
 # Relatório do compilador do Radar · 10/11/2026
 
-83 concursos no dados.js gerado, 81 no publicado; 84 vieram das extrações.
+83 concursos no dados.js gerado, 83 no publicado; 84 vieram das extrações.
 
-## O que muda no Radar em relação ao publicado (41 concursos)
+## O que muda no Radar em relação ao publicado (2 concursos)
 
-**ufrn-058-2026**
-- editais alterado
-- locais alterado
-
-**uerj-2026**
-- locais alterado
-
-**unila-204-2026**
-- Resultado final: 23/10/2026 → 05/11/2026
-- editais: "Edital nº 204/2026, com 1 documento de alteração publicado depois" → "Edital nº 204/2026, com 2 documentos de alteração publicados depois"
-
-**ufsm-221-2026**
-- locais alterado
-
-**ufsj-2026**
-- locais alterado
-
-**ufpe-08-2026**
-- locais alterado
-
-**ufba-06-2026**
-- locais alterado
-
-**unifesp-2026**
-- locais alterado
-
-**ifmg-2026**
-- editais alterado
-
-**ufpe-09-2026**
-- locais alterado
-
-**unimontes-2026**
-- inscrição fim: 09/01/2027 → 05/03/2027
-- taxa de inscrição alterada
-- Prova de Conhecimentos: 14/02/2027 a 21/02/2027 → 21/02/2027 a 25/04/2027
-- Prova Prática de Direito: 21/02/2027 → 25/04/2027
-- áreas alterado
-- vagas: "406 vagas" → "408 vagas"
-- locais alterado
-
-**ufsm-198-2026**
-- Prova Escrita: nota da data alterada
-- Prova Didática: 17/11/2026 a 30/11/2026 → 17/11/2026 a 02/03/2027
-- Prova de Defesa de Produção Intelectual: 17/11/2026 a 30/11/2026 → 17/11/2026 a 02/03/2027
-- locais alterado
-
-**ufu-118-2026**
-- locais alterado
-
-**uncisal-01-2026**
-- editais: "Edital nº 1/2026, com 1 documento de alteração publicado depois" → "Edital nº 1/2026, com 2 documentos de alteração publicados depois"
-
-**unifal-002-2026**
-- locais alterado
-
-**ufpel-028-2026**
-- locais alterado
-
-**uesc-050-2026**
-- locais alterado
-
-**uneb-085-2026**
-- locais: "Salvador/BA e Departamento de Ciências da Vida - Campus I - Salvador" → "Salvador/BA"
-
-**unesp-assistente-2026**
-- Prova didática: detalhes alterados
-- locais alterado
-
-**unesp-titular-2026**
-- locais alterado
-
-**ufrn-108-2026**
-- locais alterado
-
-**ufc-48-2026**
-- locais alterado
-
-**ufvjm-101-2026**
-- Prova Escrita: 30/11/2026 a 26/04/2027 → 14/12/2026 a 26/04/2027
-- Prova prática: 27/01/2027 a 15/04/2027 → 27/01/2027 a 06/05/2027
-- Prova Didática: 14/12/2026 a 26/04/2027 → 14/12/2026 a 05/05/2027
-- Prova de Títulos: 14/12/2026 a 26/04/2027 → 14/12/2026 a 06/05/2027
-- editais alterado
-- locais alterado
-
-**ufrn-109-2026**
-- locais alterado
-
-**ufms-137-2026**
-- locais: "Campo Grande, Aquidauana, Corumbá, Três Lagoas, FAALC, FACH, FACOM e FAENG" → "Campo Grande, Aquidauana, Corumbá, Três Lagoas, Chapadão do Sul, Nova Andradina e Naviraí"
-
-**ufv-47-2026**
-- locais: "Viçosa/MG e Departamento de Direito, do Centro de Ciências Humanas, Letras e Artes" → "Viçosa/MG"
-
-**ufv-48-49-2026**
-- locais alterado
-
-**unilab-14-2026**
-- Resultado final: nota da data alterada
-- editais alterado
-- locais alterado
-
-**uerj-255-2026**
-- locais alterado
-
-**ufrb-01-2026**
-- locais alterado
-
-**ufu-156-2026**
-- locais alterado
-
-**unesp-fct-463-2026**
-- locais alterado
-
-**unifei-51-2026**
-- inscrição: aberta → encerrada
-- locais alterado
-
-**unifei-59-2026**
-- locais alterado
-
-**ufj-05-2026**
-- locais alterado
-
-**uerj-258-2026**
-- locais alterado
-
-**ufsm-252-2026**
-- locais alterado
-
-**uerj-1860-2026**
-- concurso novo no Radar
-
-**uerj-1861-2026**
-- concurso novo no Radar
-
-**ufabc-53-2026**
-- concurso novo no Radar
+**uerj-227-2026**
+- inscrição: encerrada → aberta
+- inscrição fim: 30/10/2026 → 12/11/2026
+- PROVA ESCRITA: 30/11/2026 → sem data
+- PROVA PRÁTICA OU TEÓRICO: 09/12/2026 → sem data
+- PROVA DE AULA: 04/12/2026 → sem data
+- JULGAMENTO DE TÍTULOS E TRABALHOS: 08/12/2026 → sem data
+- Resultado final: 10/12/2026 → sem data
 
 **furb-07-2026**
 - sai do Radar: resultado final em 08/10/2026, há mais de 30 dias (regra de 11/10/2026)
@@ -169,7 +38,7 @@ Já estavam no relatório anterior e seguem sem conferência.
 **unesp-assistente-2026**
 - vagas: o dados.js anterior dizia "1 vaga por edital, em 8 concursos independentes", a extração soma 8 (publicado o anterior)
 
-## Liberados após conferência (44 concursos)
+## Liberados após conferência (45 concursos)
 
 Conferidos nos documentos oficiais (compilador/liberados.json); o dados.js gerado publica o valor da extração.
 
@@ -185,7 +54,6 @@ Conferidos nos documentos oficiais (compilador/liberados.json); o dados.js gerad
 
 **unila-204-2026**
 - vagas: o dados.js anterior dizia "6 vagas", a extração soma 6 (liberado após conferência: publicada a extração)
-- Resultado final: dados.js anterior 23/10/2026, extração 05/11/2026 (liberado após conferência: publicada a extração)
 
 **ufsm-221-2026**
 - texto corrigido após conferência (2026-11-08): campi
@@ -218,15 +86,10 @@ Conferidos nos documentos oficiais (compilador/liberados.json); o dados.js gerad
 - texto corrigido após conferência (2026-11-08): campi
 
 **unimontes-2026**
-- vagas: o dados.js anterior dizia "406 vagas", a extração soma 408 (liberado após conferência: publicada a extração)
-- Prova de Conhecimentos: dados.js anterior 14/02/2027 a 21/02/2027, extração 21/02/2027 a 25/04/2027 (liberado após conferência: publicada a extração)
-- Prova Prática de Direito: dados.js anterior 21/02/2027, extração 25/04/2027 (liberado após conferência: publicada a extração)
-- inscrição fim: dados.js anterior 09/01/2027, extração 05/03/2027 (liberado após conferência: publicada a extração)
+- vagas: o dados.js anterior dizia "408 vagas", a extração soma 408 (liberado após conferência: publicada a extração)
 - texto corrigido após conferência (2026-11-08): campi
 
 **ufsm-198-2026**
-- Prova Didática: dados.js anterior 17/11/2026 a 30/11/2026, extração 17/11/2026 a 02/03/2027 (liberado após conferência: publicada a extração)
-- Prova de Defesa de Produção Intelectual: dados.js anterior 17/11/2026 a 30/11/2026, extração 17/11/2026 a 02/03/2027 (liberado após conferência: publicada a extração)
 - texto corrigido após conferência (2026-11-08): campi
 
 **uema-2026**
@@ -255,7 +118,6 @@ Conferidos nos documentos oficiais (compilador/liberados.json); o dados.js gerad
 - vagas: o dados.js anterior dizia "12 vagas", a extração soma 12 (liberado após conferência: publicada a extração)
 
 **unesp-assistente-2026**
-- texto corrigido após conferência (2026-11-08): etapa:Prova didática:criterios
 - texto corrigido após conferência (2026-11-08): campi
 
 **unesp-titular-2026**
@@ -274,10 +136,6 @@ Conferidos nos documentos oficiais (compilador/liberados.json); o dados.js gerad
 - texto corrigido após conferência (2026-11-08): campi
 
 **ufvjm-101-2026**
-- Prova Escrita: dados.js anterior 30/11/2026 a 26/04/2027, extração 14/12/2026 a 26/04/2027 (liberado após conferência: publicada a extração)
-- Prova prática: dados.js anterior 27/01/2027 a 15/04/2027, extração 27/01/2027 a 06/05/2027 (liberado após conferência: publicada a extração)
-- Prova Didática: dados.js anterior 14/12/2026 a 26/04/2027, extração 14/12/2026 a 05/05/2027 (liberado após conferência: publicada a extração)
-- Prova de Títulos: dados.js anterior 14/12/2026 a 26/04/2027, extração 14/12/2026 a 06/05/2027 (liberado após conferência: publicada a extração)
 - texto corrigido após conferência (2026-11-08): campi
 
 **ufrn-109-2026**
@@ -303,6 +161,9 @@ Conferidos nos documentos oficiais (compilador/liberados.json); o dados.js gerad
 
 **uerj-255-2026**
 - texto corrigido após conferência (2026-11-08): campi
+
+**uerj-227-2026**
+- inscrição fim: dados.js anterior 30/10/2026, extração 12/11/2026 (liberado após conferência: publicada a extração)
 
 **ufrb-01-2026**
 - texto corrigido após conferência (2026-11-08): campi
@@ -336,6 +197,7 @@ A extração não trouxe o dado e o Radar já tinha. Vale completar a extração
 - inscrição taxa mantida do dados.js anterior (R$ 220,00 (DE), R$ 180,00 (40h), R$ 150,00 (20h))
 
 **unespar-023-2026**
+- data de Prova de Títulos mantida do dados.js anterior (16/11/2026 a 26/11/2026); a extração não a encontrou
 - data de Resultado final mantida do dados.js anterior (08/12/2026); a extração não a encontrou
 
 **unila-204-2026**
