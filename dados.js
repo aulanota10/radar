@@ -1,6 +1,6 @@
 // ═══════════════════════════════════════════════════════════════════════
 //  DADOS DO RADAR DE CONCURSOS · Aula Nota 10
-//  Última verificação: 06/11/2026
+//  Última verificação: 10/11/2026
 //
 //  ESTE É O ÚNICO ARQUIVO QUE VOCÊ PRECISA EDITAR PARA ATUALIZAR O SITE.
 //  Não mexa no index.html.
@@ -35,7 +35,7 @@
 // Gerado por compilar_radar.py a partir das extrações v2 (vigia-documentos/extracoes).
 // Para corrigir um dado, corrija a extração e rode o compilador de novo.
 
-window.RADAR_ATUALIZADO = "06/11/2026";
+window.RADAR_ATUALIZADO = "10/11/2026";
 
 window.CONCURSOS = [
   {
@@ -44,10 +44,10 @@ window.CONCURSOS = [
     "instituicao": "Universidade Federal do Rio Grande do Norte",
     "nivel": "Magistério Superior",
     "uf": "RN",
-    "numero_edital": "Edital nº 058/2026-PROGESP, publicado em 30/04/2026, com 9 documentos de alteração publicados depois",
+    "numero_edital": "Edital nº 058/2026-PROGESP, publicado em 30/04/2026, com 10 documentos de alteração publicados depois",
     "vagas": "26 vagas (5 PcD, 6 pretos e pardos, 1 indígena, 1 quilombola)",
     "areas": "26 áreas, entre elas Nutrição em Saúde Coletiva, Doenças do Sistema Genitourinário, Endocrinologia e Metabologia, Prótese Dentária, Oclusão e Anatomia e Escultura e Otoneurologia / Dispositivos Eletrônicos de Amplificação Sonora (DEAS)",
-    "campi": "Natal-RN, Departamento de Nutrição - Campus de Natal/RN, Departamento de Medicina Integrada - Campus de Natal/RN, Departamento de Medicina Clínica - Campus de Natal/RN e Departamento de Odontologia - Campus de Natal/RN",
+    "campi": "Natal-RN",
     "titulacao": "Conforme a área",
     "regime": "Dedicação Exclusiva, 20h e 40h",
     "remuneracao": "R$ 6.397,19 de vencimento básico em Dedicação Exclusiva, chegando a R$ 14.945,96 com a maior titulação",
@@ -7909,7 +7909,7 @@ window.CONCURSOS = [
     "numero_edital": "20 editais: Seleção 2026/213, Seleção 2026/224, Seleção 2026/225, Seleção 2026/226, Seleção 2026/228 e Seleção 2026/229 e mais 14",
     "vagas": "21 vagas",
     "areas": "18 áreas, entre elas Geografia/Ensino de Geografia, Ciência da Computação, Engenharias / Engenharia Ambiental, Ciências Ambientais e CARDIOLOGIA",
-    "campi": "Rio de Janeiro / RJ, Resende, RJ, Rio de Janeiro - RJ, Rio de Janeiro, Centro de Tecnologia e Ciências; Instituto de Geografia; Departamento de Licenciatura em Geografia - DEPLIGEO/Campus Cabo Frio, Centro de Tecnologia e Ciências; Faculdade de Tecnologia; Departamento de Matemática, Física e Computação, Centro de Tecnologia e Ciências; Instituto de Geografia; Departamento de Ciências Ambientais - DEPCAMB/Campus Cabo Frio e Centro Biomédico; Faculdade de Ciências Médicas; Departamento de Ciências Médicas Integradas - Campus Cabo Frio",
+    "campi": "Rio de Janeiro, Resende e Cabo Frio",
     "titulacao": "Conforme a área",
     "regime": "CH Semanal 40",
     "remuneracao": "R$ 6.581,01 de vencimento básico em CH Semanal 40",
@@ -9331,7 +9331,7 @@ window.CONCURSOS = [
     "instituicao": "Universidade Federal da Integração Latino-Americana",
     "nivel": "Magistério Superior",
     "uf": "PR",
-    "numero_edital": "Edital nº 204/2026, com 1 documento de alteração publicado depois",
+    "numero_edital": "Edital nº 204/2026, com 2 documentos de alteração publicados depois",
     "vagas": "6 vagas",
     "areas": "Área: CIÊNCIAS DA SAÚDE; Subárea: MEDICINA DE FAMÍLIA E COMUNIDADE, Área: CIÊNCIAS DA SAÚDE; Subárea: GINECOLOGIA E OBSTETRÍCIA e Área: HUMANIDADES /CIÊNCIAS SOCIAIS; Subárea: COMUNICAÇÃO OU MEDIAÇÃO CULTURAL OU LETRAS OU ARTES",
     "campi": "Foz do Iguaçu/PR",
@@ -9408,8 +9408,8 @@ window.CONCURSOS = [
         "carater": "",
         "data": {
           "tipo": "exata",
-          "valor": "2026-10-23",
-          "nota": "Homologação do resultado final a partir de 29/10"
+          "valor": "2026-11-05",
+          "nota": "Datas por área: GINECOLOGIA E OBSTETRÍCIA (Área: CIÊNCIAS DA SAÚDE; Subárea…): 05/11; demais áreas: sem data"
         },
         "detalhe": {}
       }
@@ -9639,7 +9639,7 @@ window.CONCURSOS = [
     "numero_edital": "Edital nº 221/2026, publicado em 24/08/2026, com 2 documentos de alteração publicados depois",
     "vagas": "9 vagas",
     "areas": "Ciências da Saúde/ Medicina/ Ginecologia e Obstetrícia, Ciências da Saúde/ Medicina/ Anestesiologia, Ciências da Saúde/ Fonoaudiologia (com ênfase em Linguagem Infantil), Engenharias/ Engenharia Química/ Processos industriais de Engenharia Química, Engenharias/ Engenharia Elétrica/ Circuitos Elétricos, Magnéticos e Eletrônicos/ Circuitos Eletrônicos (com ênfase em Microeletrônica) e Ciências Sociais Aplicadas/ Administração/ Administração de produção/ Administração financeira/ Administração de setores específicos",
-    "campi": "Santa Maria, Palmeira das Missões, Santa Maria; Departamento de Ginecologia e Obstetrícia Centro de Ciências da Saúde, Santa Maria; Departamento Cirurgia Centro de Ciências da Saúde, Santa Maria; Departamento de Fonoaudiologia Centro de Ciências da Saúde e Santa Maria; Departamento de Engenharia Química Centro de Tecnologia",
+    "campi": "Santa Maria e Palmeira das Missões",
     "titulacao": "Doutorado",
     "regime": "40 horas semanais e Dedicação Exclusiva",
     "remuneracao": "R$ 6.397,19 de vencimento básico em Dedicação Exclusiva, chegando a R$ 13.753,98 com a maior titulação",
@@ -10114,7 +10114,7 @@ window.CONCURSOS = [
     "numero_edital": "Edital de Abertura de 25/08/2026 (DOU de 26/08), unificando os CPD 020/2026 a 031/2026, com 4 retificações: 01/09, 09/09, 10/09 e 14/09. Nenhuma alterou data de prova",
     "vagas": "12 vagas (4 reservadas a pretos, pardos e indígenas, 2 para PcD)",
     "areas": "12 áreas, entre elas Engenharia Química subárea Fenômenos de Transportes, Recursos Florestais e Engenharia Florestal/Tecnologia de Produtos Florestais, Projetos Mecânicos subárea Mecânica dos Sólidos, Engenharia Mecânica/Engenharia Térmica e Música subárea Educação Musical Escolar/ Etnomusicologia",
-    "campi": "São João del-Rei/MG, Ouro Branco/MG, Sete Lagoas/MG, Departamento de Engenharia Química (DEQUI), Departamento de Engenharia Floretal (DEFLO), Departamento de Engenharia Mecânica e Produção (DEMEP) e Departamento de Ciências Térmica e dos Fluidos (DCTEF)",
+    "campi": "São João del-Rei/MG, Ouro Branco/MG e Sete Lagoas/MG",
     "titulacao": "Conforme a área",
     "regime": "40 (quarenta) horas semanais com dedicação exclusiva e 40 (quarenta) horas semanais",
     "remuneracao": "R$ 6.397,19 de vencimento básico em 40 (quarenta) horas semanais com dedicação exclusiva, chegando a R$ 13.753,96 com a maior titulação",
@@ -15192,7 +15192,7 @@ window.CONCURSOS = [
     "numero_edital": "Edital nº 08/2026, com 1 documento de alteração publicado depois",
     "vagas": "40 vagas após a 2ª Retificação, que reduziu de 41 para 40 (26 ampla concorrência, 10 pessoas negras, 1 indígena, 1 quilombola, 2 PcD)",
     "areas": "40 áreas, entre elas Matemática, Ensino de Física, Ciências da Natureza / Ensino das Ciências, Medicina/Medicina de Família e Comunidade e Medicina/Radiologia",
-    "campi": "Recife, Vitória do Santo Antão e Caruaru, Núcleo de Formação Docente (CAA - CENTRO ACADÊMICO DO AGRESTE), Núcleo de Ciências da Vida (CAA - CENTRO ACADÊMICO DO AGRESTE), Núcleo de Design e Comunicação (CAA - CENTRO ACADÊMICO DO AGRESTE) e Curso de Licenciatura em Ciências Biológicas (CAV – CENTRO ACADÊMICO DE VITÓRIA)",
+    "campi": "Recife, Vitória do Santo Antão e Caruaru",
     "titulacao": "Conforme a área",
     "regime": "DE e 20H",
     "remuneracao": "R$ 6.397,19 de vencimento básico em 40 horas semanais com regime de Dedicação Exclusiva (DE), chegando a R$ 13.753,96 com a maior titulação",
@@ -17849,7 +17849,7 @@ window.CONCURSOS = [
     "numero_edital": "Edital nº 06/2026, publicado em 25/06/2026, com 24 documentos de alteração publicados depois",
     "vagas": "37 vagas",
     "areas": "35 áreas, entre elas Gestão da Produção e Métodos Quantitativos, Enfermagem no Cuidado à Saúde da Mulher na Atenção Básica, Parto e Puerpério, Fundamentos de Enfermagem no Cuidado Individual e Cuidado em Enfermagem à Pessoa no Contexto Hospitalar, Gestão e Educação Permanente em Saúde e Enfermagem e Extensão Rural",
-    "campi": "Salvador, Vitória da Conquista, Escola de Administração / Departamento: Coordenação Acadêmica, Escola de Enfermagem / Departamento: Coordenação Acadêmica, Escola de Medicina Veterinária e Zootecnia / Departamento: Medicina Veterinária Preventiva e Produção Animal e Escola Politécnica / Departamento: Ciência e Tecnologia dos Materiais",
+    "campi": "Salvador e Vitória da Conquista",
     "titulacao": "Conforme a área",
     "regime": "Dedicação Exclusiva, 20 horas semanais e 40 horas semanais",
     "remuneracao": "R$ 6.397,19 de vencimento básico em Dedicação Exclusiva, chegando a R$ 13.753,96 com a maior titulação",
@@ -20699,7 +20699,7 @@ window.CONCURSOS = [
     "numero_edital": "38 editais: 365/2026, 367/2026, 369/2026, 371/2026, 373/2026 e 375/2026 e mais 32",
     "vagas": "41 vagas",
     "areas": "38 áreas, entre elas Engenharia Química/Operações Unitárias, Engenharia Química/Simulação, Projeto de Indústrias Químicas e Segurança Industrial, Educação/Educação Bilíngue - Língua Brasileira de Sinais, Farmácia/Dispensação de Medicamentos, Serviços Farmacêuticos e Estágio Supervisionado em Farmácia Universitária e Farmácia/Farmácia Clínica, Serviços Farmacêuticos, Estágio Supervisionado em Farmácia Universitária",
-    "campi": "Diadema, São José dos Campos, Osasco, Guarulhos, Campus Diadema, Campus Baixada Santista e Campus São José dos Campos",
+    "campi": "Diadema, São José dos Campos, Osasco, Guarulhos, São Paulo - SP e Baixada Santista",
     "titulacao": "Doutorado",
     "regime": "40h semanais/DE, 40h semanais e 20h semanais",
     "remuneracao": "R$ 6.397,19 de vencimento básico em 40 (quarenta) horas semanais - Dedicação Exclusiva, chegando a R$ 13.753,96 com a maior titulação",
@@ -20978,7 +20978,7 @@ window.CONCURSOS = [
     "instituicao": "Instituto Federal de Educação, Ciência e Tecnologia de Minas Gerais",
     "nivel": "EBTT",
     "uf": "MG",
-    "numero_edital": "Edital nº 607/2026, publicado em 02/09/2026, com 9 documentos de alteração publicados depois",
+    "numero_edital": "Edital nº 607/2026, publicado em 02/09/2026, com 12 documentos de alteração publicados depois",
     "vagas": "4 vagas (3 ampla concorrência, 1 pessoas negras)",
     "areas": "Língua Portuguesa e suas respectivas literaturas, Redação e Libras, Direito, com ênfase em Direito Geral e Direito Empresarial, abrangendo os componentes curriculares de Filosofia do Direito, Direito Empresarial e Direito do Trabalho, Direito, com ênfase em Filosofia, Sociologia, Filosofia do Direito, Sociologia Jurídica e disciplinas da área básica do Direito e Direito, com ênfase em Direito Civil e Direito Processual Civil, abrangendo os componentes curriculares de Teoria Geral do Direito Civil, Direito das Obrigações, Teoria Geral dos Contratos, Direitos Reais, Direito de Família, Direito das Sucessões e Direito Processual Civil",
     "campi": "Congonhas, Ribeirão das Neves e Arcos",
@@ -21188,7 +21188,7 @@ window.CONCURSOS = [
     "numero_edital": "Edital nº 09/2026, com 1 documento de alteração publicado depois",
     "vagas": "16 vagas (10 ampla concorrência, 4 pessoas negras, 1 indígena ou quilombola, 1 PcD)",
     "areas": "9 áreas, entre elas Parasitologia Veterinária/Doenças Parasitárias, Histologia e Patologia Veterinária, Energias Renováveis/ Energia Eólica/Previsão- Programação IA, Energias Renováveis/ Energia Solar/Climatologia- Modelagem Ambiental e História da África",
-    "campi": "Sertânia, CAS - Centro Acadêmico do Sertão / Curso de Bacharelado em Medicina Veterinária, CAS - Centro Acadêmico do Sertão / Curso de Engenharia em Energias Renováveis, CAS - Centro Acadêmico do Sertão / Curso de Licenciatura em História e CAS - Centro Acadêmico do Sertão / Curso de Medicina",
+    "campi": "Sertânia",
     "titulacao": "Conforme a área",
     "regime": "DE e 20h",
     "remuneracao": "R$ 6.397,19 de vencimento básico em 40 horas semanais com regime de Dedicação Exclusiva (DE), chegando a R$ 13.753,96 com a maior titulação",
@@ -21986,9 +21986,9 @@ window.CONCURSOS = [
     "nivel": "Magistério Superior",
     "uf": "MG",
     "numero_edital": "27 editais: 01/2026, 02/2026, 03/2026, 04/2026, 05/2026 e 06/2026 e mais 21",
-    "vagas": "406 vagas",
-    "areas": "42 áreas, entre elas CIÊNCIAS EXATAS E DA TERRA/CIÊNCIA DA COMPUTAÇÃO, ENGENHARIAS/ENGENHARIAS IV, MULTIDISCIPLINAR/INTERDISCIPLINAR, CIÊNCIAS SOCIAIS APLICADAS/ECONOMIA e CIÊNCIAS HUMANAS/HISTÓRIA",
-    "campi": "Montes Claros/MG, Departamento de Ciências da Computação - Montes Claros/MG, Departamento de Ciências Econômicas - Montes Claros/MG, Departamento de História - Janaúba e Departamento de Saúde da Mulher e da Criança - Montes Claros/MG",
+    "vagas": "408 vagas",
+    "areas": "45 áreas, entre elas CIÊNCIAS EXATAS E DA TERRA/CIÊNCIA DA COMPUTAÇÃO, ENGENHARIAS/ENGENHARIAS IV, MULTIDISCIPLINAR/INTERDISCIPLINAR, CIÊNCIAS SOCIAIS APLICADAS/ECONOMIA e CIÊNCIAS HUMANAS/HISTÓRIA",
+    "campi": "Montes Claros/MG e Janaúba",
     "titulacao": "Conforme a área",
     "regime": "40 horas, 40, 40h e 40 h",
     "remuneracao": "R$ 4.831,81 de vencimento básico em 40 horas - Doutor, Nível VI, Grau A, chegando a R$ 8.257,49 com a maior titulação",
@@ -21996,9 +21996,9 @@ window.CONCURSOS = [
     "link_oficial": "https://concurso.unimontes.br/editais-recentes/",
     "inscricao": {
       "inicio": "2026-08-24",
-      "fim": "2027-01-09",
+      "fim": "2027-03-05",
       "situacao": "aberta",
-      "taxa": "de R$ 100,00 a R$ 200,00, conforme a área. Pedido de isenção de 09/11 a 09/12"
+      "taxa": "de R$ 100,00 a R$ 200,00, conforme a área"
     },
     "etapas": [
       {
@@ -22007,9 +22007,9 @@ window.CONCURSOS = [
         "carater": "Eliminatória e classificatória",
         "data": {
           "tipo": "periodo",
-          "valor": "2027-02-14",
-          "fim": "2027-02-21",
-          "nota": "Datas por edital: 01/2026, 02/2026, 03/2026, 04/2026, 05/2026, 06/2026, 07/2026, 08/2026, 09/2026, 10/2026, 11/2026, 12/2026, 13/2026, 14/2026, 15/2026, 16/2026 e 17/2026: 14/02; 18/2026, 19/2026, 20/2026, 21/2026, 22/2026, 23/2026, 24/2026, 25/2026, 26/2026 e 27/2026: 21/02"
+          "valor": "2027-02-21",
+          "fim": "2027-04-25",
+          "nota": "Datas por edital: 25/2026 e 26/2026: 21/02; 01/2026, 02/2026, 03/2026, 04/2026, 05/2026, 06/2026, 07/2026, 08/2026, 09/2026, 10/2026, 11/2026, 12/2026 e 13/2026: 18/04; 14/2026, 15/2026, 16/2026, 17/2026, 18/2026, 19/2026, 20/2026, 21/2026, 22/2026, 23/2026, 24/2026 e 27/2026: 25/04"
         },
         "detalhe": {}
       },
@@ -22019,8 +22019,8 @@ window.CONCURSOS = [
         "carater": "",
         "data": {
           "tipo": "exata",
-          "valor": "2027-02-21",
-          "nota": "Só nos editais 21/2026 e 27/2026"
+          "valor": "2027-04-25",
+          "nota": "Só no edital 21/2026"
         },
         "detalhe": {}
       },
@@ -22055,8 +22055,8 @@ window.CONCURSOS = [
       }
     ],
     "periodo_provas": {
-      "inicio": "2027-02-14",
-      "fim": "2027-02-21"
+      "inicio": "2027-02-21",
+      "fim": "2027-04-25"
     },
     "logo": "unimontes.png",
     "sigla_selo": "UNI MONTES",
@@ -33411,7 +33411,7 @@ window.CONCURSOS = [
     "numero_edital": "Edital nº 198/2026, publicado em 29/06/2026, com 1 documento de alteração publicado depois",
     "vagas": "8 vagas",
     "areas": "7 áreas, entre elas Ciências Agrárias/ Medicina Veterinária/ Clínica e Cirurgia Animal (Ênfase em Medicina de Ruminantes), Engenharias/ Engenharia Sanitária, Ciências Exatas e da Terra/ Matemática, Multidisciplinar/Ensino/ Ensino de Ciências e Matemática e Ciências Exatas e da Terra/ Geociências/ Micrometeorologia",
-    "campi": "Santa Maria, Santa Maria; Departamento de Clínica de Grandes Animais Centro de Ciências Rurais, Santa Maria; Departamento de Engenharia Sanitária e Ambiental Centro de Tecnologia, Santa Maria; Departamento de Matemática Centro de Ciências Naturais e Exatas e Santa Maria; Departamento de Física Centro de Ciências Naturais e Exatas",
+    "campi": "Santa Maria",
     "titulacao": "Doutorado",
     "regime": "Dedicação Exclusiva",
     "remuneracao": "R$ 6.397,19 de vencimento básico em Dedicação Exclusiva, chegando a R$ 13.753,98 com a maior titulação",
@@ -33432,7 +33432,7 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2026-09-13",
           "fim": "2027-04-26",
-          "nota": "Datas por área: 02 (Engenharias/ Engenharia Sanitária): 13/09 a 26/04; 04 (Multidisciplinar/Ensino/ Ensino de Ciências…): 26/10; 03 (Ciências Exatas e da Terra/ Matemática): 27/10; 05 (Ciências Exatas e da Terra/ Geociências/…): 16/11; demais áreas: 13/09 a 27/12"
+          "nota": "Datas por área: 02 (Engenharias/ Engenharia Sanitária): 13/09 a 26/04; 04 (Multidisciplinar/Ensino/ Ensino de Ciências…): 26/10; 03 (Ciências Exatas e da Terra/ Matemática): 27/10; 05 (Ciências Exatas e da Terra/ Geociências/…): 16/11; 06 (Ciências Exatas e da Terra/ Geociências/…): 27/11; demais áreas: 13/09 a 27/12"
         },
         "detalhe": {
           "nota_minima": "7,00"
@@ -33455,8 +33455,8 @@ window.CONCURSOS = [
         "data": {
           "tipo": "periodo",
           "valor": "2026-11-17",
-          "fim": "2026-11-30",
-          "nota": "Datas por área: 03 (Ciências Exatas e da Terra/ Matemática): 17/11; 04 (Multidisciplinar/Ensino/ Ensino de Ciências…): 23/11; 05 (Ciências Exatas e da Terra/ Geociências/…): 30/11; demais áreas: sem data (O cronograma de cada etapa do certame será publicado e atualizado na página do concurso)"
+          "fim": "2027-03-02",
+          "nota": "Datas por área: 03 (Ciências Exatas e da Terra/ Matemática): 17/11; 04 (Multidisciplinar/Ensino/ Ensino de Ciências…): 23/11; 05 (Ciências Exatas e da Terra/ Geociências/…): 30/11; 06 (Ciências Exatas e da Terra/ Geociências/…): 02/03; demais áreas: sem data (O cronograma de cada etapa do certame será publicado e atualizado na página do concurso)"
         },
         "detalhe": {
           "duracao": "Aula de no mínimo 40 e no máximo 50 minutos",
@@ -33473,8 +33473,8 @@ window.CONCURSOS = [
         "data": {
           "tipo": "periodo",
           "valor": "2026-11-17",
-          "fim": "2026-11-30",
-          "nota": "Datas por área: 03 (Ciências Exatas e da Terra/ Matemática): 17/11; 04 (Multidisciplinar/Ensino/ Ensino de Ciências…): 23/11; 05 (Ciências Exatas e da Terra/ Geociências/…): 30/11; demais áreas: sem data (O cronograma de cada etapa do certame será publicado e atualizado na página do concurso)"
+          "fim": "2027-03-02",
+          "nota": "Datas por área: 03 (Ciências Exatas e da Terra/ Matemática): 17/11; 04 (Multidisciplinar/Ensino/ Ensino de Ciências…): 23/11; 05 (Ciências Exatas e da Terra/ Geociências/…): 30/11; 06 (Ciências Exatas e da Terra/ Geociências/…): 02/03; demais áreas: sem data (O cronograma de cada etapa do certame será publicado e atualizado na página do concurso)"
         },
         "detalhe": {}
       },
@@ -35034,7 +35034,7 @@ window.CONCURSOS = [
     "numero_edital": "Edital nº 118/2026, publicado em 27/07/2026, com 2 documentos de alteração publicados depois",
     "vagas": "10 vagas",
     "areas": "8 áreas, entre elas Engenharia de Computação/Inteligência Artificial, Engenharia Civil/ Mecânica dos Solos, Agronomia/Fisiologia de Plantas Cultivadas, Agronomia/Melhoramento vegetal e Probabilidade e Estatística",
-    "campi": "Uberlândia - MG, Ituiutaba - MG, Patos de Minas - MG, Faculdade de Engenharia Elétrica (Campus Santa Mônica, localizado na cidade de Uberlândia - MG), Instituto de Ciências Agrárias (Campus Glória, localizado na cidade de Uberlândia - MG), Instituto de Ciências Agrárias (Campus Glória/Umuarama, localizado na cidade de Uberlândia - MG) e Instituto de Matemática e Estatística (Campus Santa Mônica, localizado na cidade de Uberlândia - MG)",
+    "campi": "Uberlândia - MG, Ituiutaba - MG e Patos de Minas - MG",
     "titulacao": "Doutorado",
     "regime": "40 horas semanais com Dedicação Exclusiva",
     "remuneracao": "R$ 6.397,18 de vencimento básico em Dedicação Exclusiva (DE), chegando a R$ 13.753,95 com a maior titulação",
@@ -35495,7 +35495,7 @@ window.CONCURSOS = [
     "instituicao": "Universidade Estadual de Ciências da Saúde de Alagoas",
     "nivel": "Magistério Superior",
     "uf": "AL",
-    "numero_edital": "Edital nº 1/2026, com 1 documento de alteração publicado depois",
+    "numero_edital": "Edital nº 1/2026, com 2 documentos de alteração publicados depois",
     "vagas": "43 vagas imediatas e 109 de cadastro de reserva, distribuídas em 34 cargos, áreas e especialidades",
     "areas": "34 áreas, entre elas Ciências Biológicas, Ciências Farmacêuticas, Ciências Humanas e Sociais, Ciências Radiológicas e Educação e Tecnologia",
     "campi": "Maceió/AL",
@@ -37342,7 +37342,7 @@ window.CONCURSOS = [
     "numero_edital": "Edital nº 002/2026, publicado em 11/09/2026",
     "vagas": "8 vagas: 5 de ampla concorrência, 2 para pretos e pardos e 1 para pessoa com deficiência",
     "areas": "8 áreas, entre elas Direito público: direito constitucional e penal e demais unidades curriculares da área jurídica dos cursos oferecido pela UNIFAL/MG, Teoria do direito, propedêuticas e introdutórias e disciplinas relacionadas às instituições de direito público e de direito privado e demais unidades curriculares da área jurídica dos cursos oferecido pela UNIFAL/MG, Clínica Médica - Cardiologia: Semiologia Médica, Diagnóstico Médico, Urgência e Emergência Clínicas e Laboratório de Habilidades, Internato em Clínica Médica. Bases Integradas da Medicina, Direito do trabalho e direito processual e demais unidades curriculares da área jurídica dos cursos oferecido pela UNIFAL/MG e Direito público: constitucional, administrativo e tributário e demais unidades curriculares da área jurídica dos cursos oferecido pela UNIFAL/MG",
-    "campi": "Varginha-MG, Alfenas-MG, Instituto de Ciências Sociais Aplicadas (ICSA) /Campus Varginha/MG., Faculdade de Medicina/ Santa Clara/ Alfenas - MG, Varginha-MG / Instituto de Ciências Sociais Aplicadas (ICSA) e Instituto de Ciências Sociais Aplicadas (ICSA) /Campus Varginha/MG",
+    "campi": "Varginha-MG e Alfenas-MG",
     "titulacao": "Conforme a área",
     "regime": "40h DE (Dedicação Exclusiva), 20h e 40h DE (Dedicação Exclusiva).",
     "remuneracao": "R$ 6.397,19 de vencimento básico em 40h Dedicação Exclusiva, chegando a R$ 13.753,96 com a maior titulação",
@@ -37961,7 +37961,7 @@ window.CONCURSOS = [
     "numero_edital": "Edital nº 028/2026, publicado em 14/09/2026, com 30 documentos de alteração publicados depois",
     "vagas": "32 vagas, com 40% reservadas a negros, indígenas e quilombolas e 5% a pessoas com deficiência",
     "areas": "28 áreas, entre elas Mercadologia, Teoria da Computação, Ciência da Computação, Processamento de Sinais e Eletrônica e Irrigação e Drenagem",
-    "campi": "Pelotas e/ou proximidades, Cursos de Comércio Exterior, Administração e Processos Gerenciais CCSO, Cursos de Ciência da Computação e Engenharia de Computação CDTEC, Curso de Engenharia Hídrica CDTEC e Curso de Engenharia Civil CENG",
+    "campi": "Pelotas e/ou proximidades",
     "titulacao": "Conforme a área",
     "regime": "40h/DE, 40h e 20h",
     "remuneracao": "R$ 6.397,19 de vencimento básico em 40h com DE, chegando a R$ 13.753,96 com a maior titulação",
@@ -38088,7 +38088,7 @@ window.CONCURSOS = [
     "numero_edital": "Edital nº 50/2026, com 4 documentos de alteração publicados depois",
     "vagas": "4 vagas",
     "areas": "Ciência da Computação, Engenharia Civil, Medicina III/ Médico especialista em Cirurgia Geral, Medicina IV / Médico Especialista especialista em Ginecologia e Obstetrícia e Medicina II/ Médico Especialista em Pediatria",
-    "campi": "Ilhéus - Bahia, DEPARTAMENTO DE ENGENHARIA E COMPUTAÇÃO - DEC e DEPARTAMENTO DE CIÊNCIAS DA SAÚDE - DCS",
+    "campi": "Ilhéus - Bahia",
     "titulacao": "Mestrado",
     "regime": "40h DE e 40h",
     "remuneracao": "Consulte o edital. A tabela geral da carreira, de julho de 2025, traz Professor Auxiliar Nível A em R$ 6.931,35 e Assistente Nível A em R$ 8.040,36, ambos em dedicação exclusiva",
@@ -38452,7 +38452,7 @@ window.CONCURSOS = [
     "numero_edital": "Edital nº 085/2026, publicado em 09/09/2026, com 2 documentos de alteração publicados depois",
     "vagas": "7 vagas (5 ampla concorrência, 2 para autodeclarados negros, cadastro de reserva para PcD)",
     "areas": "7 áreas, entre elas Saúde da Mulher; Componente(s) Curricular(es): Ginecologia; Obstetrícia, Clínica Médica; Componente(s) Curricular(es): Clínica Médica; Semiologia Médica, Saúde da Criança e do Adolescente; Componente(s) Curricular(es): Pediatria, Saúde Mental; Componente(s) Curricular(es): Psiquiatria; Internato em Saúde Mental e Oftalmologia; Componente(s) Curricular(es): Oftalmologia",
-    "campi": "Salvador/BA e Departamento de Ciências da Vida - Campus I - Salvador",
+    "campi": "Salvador/BA",
     "titulacao": "Mestrado",
     "regime": "40 (quarenta) horas semanais",
     "remuneracao": "R$ 5.713,48 de vencimento básico em 40 (quarenta) horas semanais",
@@ -39039,165 +39039,6 @@ window.CONCURSOS = [
         "usp-fm-199-2026"
       ],
       "extraido_em": "2026-10-02",
-      "em_conferencia": true
-    }
-  },
-  {
-    "id": "furb-07-2026",
-    "sigla": "FURB",
-    "instituicao": "Fundação Universidade Regional de Blumenau",
-    "nivel": "Magistério Superior",
-    "uf": "SC",
-    "numero_edital": "Edital nº 007/2026, publicado em 06/04/2026, com 2 documentos de alteração publicados depois",
-    "vagas": "1 vaga",
-    "areas": "Contabilidade Tributária",
-    "campi": "Blumenau/SC",
-    "titulacao": "Doutorado",
-    "regime": "Tempo Parcial Horista - TPH; carga horária semanal mínima: 08 (oito) horas",
-    "remuneracao": "Consulte o edital",
-    "banca": "Comissão própria da FURB",
-    "link_oficial": "https://concursos.furb.br/informacoes/528/",
-    "inscricao": {
-      "inicio": "2026-04-23",
-      "fim": "2026-06-03",
-      "situacao": "encerrada",
-      "taxa": "R$ 230,34"
-    },
-    "etapas": [
-      {
-        "nome": "Prova Escrita de Conhecimento",
-        "tipo": "discursiva",
-        "carater": "Eliminatória e classificatória",
-        "data": {
-          "tipo": "exata",
-          "valor": "2026-09-28",
-          "nota": "Às 8h30, no Campus 1, Sala B-208. Sala alterada pela retificação de 24/09. A data foi fixada pela retificação de 28/08"
-        },
-        "detalhe": {}
-      },
-      {
-        "nome": "Prova Didática",
-        "tipo": "didatica",
-        "carater": "Eliminatória e classificatória",
-        "data": {
-          "tipo": "exata",
-          "valor": "2026-09-29",
-          "nota": "Às 13h30, no Campus 1, Sala B-208. Sala alterada pela retificação de 24/09, antes era a D-201. A data foi fixada pela retificação de 28/08"
-        },
-        "detalhe": {
-          "arguicao": "Sim",
-          "plano_de_aula": "Exigido: 01 (uma) cópia a cada membro da banca examinadora, entregues no início da Prova Didática",
-          "recursos": "Fornecidos: quadro com giz ou pincel e projetor multimídia",
-          "duracao": "Consulte o edital",
-          "sorteio": "Consulte o edital",
-          "nota_minima": "7,50 é o corte para seguir ao exame de títulos",
-          "modalidade": "Presencial, Campus 1, Sala D-201, em Blumenau"
-        }
-      },
-      {
-        "nome": "Exame de Títulos",
-        "tipo": "titulos",
-        "carater": "Classificatória",
-        "data": {
-          "tipo": "nao_divulgada",
-          "nota": "Após o encerramento das provas escrita de conhecimento e didática, para os candidatos que obtiverem nota igual ou superior a 7,5 (sete vírgula cinco)"
-        },
-        "detalhe": {}
-      },
-      {
-        "nome": "Resultado final",
-        "tipo": "resultado",
-        "carater": "",
-        "data": {
-          "tipo": "exata",
-          "valor": "2026-10-08"
-        },
-        "detalhe": {}
-      }
-    ],
-    "periodo_provas": {
-      "inicio": "2026-09-28",
-      "fim": "2026-09-29"
-    },
-    "logo": "furb.png",
-    "formacoes_status": "completo",
-    "familias": [
-      "Sociais Aplicadas"
-    ],
-    "formacoes": [
-      "Ciências Contábeis"
-    ],
-    "familias_pos": [
-      "Sociais Aplicadas"
-    ],
-    "areas_formacoes": [
-      {
-        "codigo": "1",
-        "area": "Contabilidade Tributária",
-        "campus": null,
-        "vagas": 1,
-        "requisito": "Graduação em Ciências Contábeis e Pós-Graduação em nível de Doutorado em Contabilidade, ou em Controladoria e Contabilidade, ou em Ciências Contábeis ou em Ciências Contábeis e Administração.",
-        "fonte": "2, p. 1",
-        "nivel_minimo": "doutorado",
-        "formacoes": [
-          {
-            "curso": "Ciências Contábeis",
-            "familia": "Sociais Aplicadas",
-            "modalidade": [
-              "nao_especificada"
-            ],
-            "carater": "exigida"
-          }
-        ],
-        "titulacoes": [
-          {
-            "nivel": "doutorado",
-            "area_literal": "Contabilidade",
-            "curso": null,
-            "familia": "Sociais Aplicadas",
-            "afins": false,
-            "qualquer_area": false,
-            "carater": "exigida"
-          },
-          {
-            "nivel": "doutorado",
-            "area_literal": "Controladoria e Contabilidade",
-            "curso": null,
-            "familia": "Sociais Aplicadas",
-            "afins": false,
-            "qualquer_area": false,
-            "carater": "exigida"
-          },
-          {
-            "nivel": "doutorado",
-            "area_literal": "Ciências Contábeis",
-            "curso": "Ciências Contábeis",
-            "familia": "Sociais Aplicadas",
-            "afins": false,
-            "qualquer_area": false,
-            "carater": "exigida"
-          },
-          {
-            "nivel": "doutorado",
-            "area_literal": "Ciências Contábeis e Administração",
-            "curso": null,
-            "familia": "Sociais Aplicadas",
-            "afins": false,
-            "qualquer_area": false,
-            "carater": "exigida"
-          }
-        ]
-      }
-    ],
-    "observacao": "Escrita em 28/09 pela manhã e aula no dia seguinte, 29/09 às 13h30, as duas no Campus 1, Sala B-208, sala nova definida pela retificação de 24/09. São menos de 30 horas entre uma coisa e outra, então o material da aula precisa estar pronto antes da escrita, não depois. O corte de 7,50 é o que libera o exame de títulos. A FURB tem mais seis concursos docentes do mesmo lote, os editais 01 a 06/2026, todos ainda sem data de prova publicada.",
-    "detalhamento": "completo",
-    "avisos_edital": [],
-    "fonte_dados": {
-      "origem": "extracao_v2",
-      "extracoes": [
-        "furb-07-2026"
-      ],
-      "extraido_em": "2026-10-09",
       "em_conferencia": true
     }
   },
@@ -40349,7 +40190,7 @@ window.CONCURSOS = [
     "numero_edital": "8 editais: 336/2026 - Faculdade de Ciências Agrárias e Veterinárias, 102/2026 - DTAd-FCF/CAr, 88/2026 - DTAd-FCF/CAr, 217/2026-STGP, 743/2026-CSCGP/FM e 729/2026-CSCGP-FMVZ e mais 2",
     "vagas": "1 vaga por edital, em 8 concursos independentes",
     "areas": "8 áreas, entre elas Farmacologia, Ciência da Saúde, Engenharia de Bioprocessos, Estruturas e Medicina",
-    "campi": "Jaboticabal, Araraquara, Ilha Solteira, Botucatu, Departamento de Morfologia e Fisiologia Animal da Faculdade de Ciências Agrárias e Veterinárias do Câmpus de Jaboticabal, departamento de Análises Clínicas da Faculdade de Ciências Farmacêuticas do Câmpus de Araraquara, Departamento de Engenharia de Bioprocessos e Biotecnologia da Faculdade de Ciências Farmacêuticas do Câmpus de Araraquara e Departamento de Engenharia Civil da Faculdade de Engenharia do Câmpus de Ilha Solteira",
+    "campi": "Jaboticabal, Araraquara, Ilha Solteira, Botucatu, Rio Claro e São José dos Campos",
     "titulacao": "Doutorado",
     "regime": "Regime de Dedicação Integral à Docência e à Pesquisa - RDIDP e Regime de Turno Completo - RTC",
     "remuneracao": "R$ 16.994,01 de vencimento básico em Regime de Dedicação Integral à Docência e à Pesquisa - RDIDP, 40 horas semanais",
@@ -40394,7 +40235,7 @@ window.CONCURSOS = [
         },
         "detalhe": {
           "duracao": "Aula teórica de nível de graduação, de 40 a 60 minutos. Fora desse intervalo a nota é ZERO na prova inteira. Não é desconto, é zero",
-          "criterios": "10 pontos, avaliados pelos 3 membros: plano de aula 1,0, adequação ao nível de graduação 1,0, domínio teórico e conceitual 2,0, exatidão e atualidade 1,0, sequência lógica 1,0, clareza e objetividade 1,0, adequação da linguagem 1,0, capacidade de síntese 1,0 e uso dos recursos didáticos 1,0. Barema conferido nos Editais 112 e 88/2026, idênticos entre si",
+          "criterios": "10 pontos, avaliados pelos 3 membros: plano de aula 1,0, adequação ao nível de graduação 1,0, domínio teórico e conceitual 2,0, exatidão e atualidade 1,0, sequência lógica 1,0, clareza e objetividade 1,0, adequação da linguagem 1,0, capacidade de síntese 1,0 e uso dos recursos didáticos 1,0. Barema igual nos 8 editais do pacote",
           "plano_de_aula": "Obrigatório, entregue aos membros da banca no dia da aula, antes de ministrar. Não entregar zera o critério, que vale 1,0 dos 10 pontos",
           "sorteio": "O ponto é sorteado NO DIA DA PROVA ESCRITA, entre os pontos do edital, excluído o que caiu na escrita. Ou seja, o tema é conhecido com antecedência e o preparo acontece entre a escrita e a aula",
           "nota_minima": "Não há corte na didática, que é classificatória. O que elimina é a média abaixo de 7,0 na prova escrita, na primeira fase",
@@ -40783,7 +40624,7 @@ window.CONCURSOS = [
     "numero_edital": "10 editais: 444/2026, 96/2026, 135/2026, 138/2026, 139/2026 e 111/2026 e mais 4",
     "vagas": "10 vagas",
     "areas": "10 áreas, entre elas disciplina “ONSERVAÇÃO GENÉTICA DE PEIXES”, conjunto de disciplinas \"Farmacotécnica I\", \"Farmacotécnica II, \"Tecnologia Farmacêutica\", \"Delineamento Teórico Prático e Tecnológico para o Desenvolvimento de Formulações I\", \"Delineamento Teórico Prático e Tecnológico para o Desenvolvimento de Formulações II\", \"Delineamento Teórico Prático e Tecnológico para o Desenvolvimento de Formulações III\" (área de Farmacotécnica), conjunto de disciplinas “Endodontia I e Endodontia II”, conjunto de disciplinas “Odontopediatria I e Odontopediatria II” e conjunto de disciplinas “Periodontia I e Periodontia II”",
-    "campi": "Bauru, Araraquara, Araçatuba, São José do Rio Preto, Departamento de CIÊNCIAS BIOLÓGICAS, da Faculdade de Ciências, do Campus de Bauru, Departamento de Fármacos e Medicamento, da Faculdade de Ciências Farmacêuticas, do Campus de Araraquara, Departamento de Dentística e Endodontia, da Faculdade de Odontologia do Campus de Araçatuba e Departamento de Odontologia Infantil e Social, da Faculdade de Odontologia do Campus de Araçatuba",
+    "campi": "Bauru, Araraquara, Araçatuba, São José do Rio Preto, São José dos Campos e Rio Claro",
     "titulacao": "Título de Livre-Docente pela UNESP, USP ou UNICAMP, ou equivalente declarado pela UNESP, obtido há pelo menos 6 anos, mais 6 anos de docência na graduação após a Livre-Docência e o cumprimento das 13 condições do item 3.2 do edital",
     "regime": "Regime de Dedicação Integral à Docência e à Pesquisa - RDIDP",
     "remuneracao": "R$ 25.261,98 de vencimento básico em RDIDP",
@@ -41314,7 +41155,7 @@ window.CONCURSOS = [
     "numero_edital": "Edital nº 108/2026-PROGESP, publicado em 16/09/2026, com 4 documentos de alteração publicados depois",
     "vagas": "15 vagas",
     "areas": "14 áreas, entre elas Internato em Medicina de Urgência com atuação em Unidades de Pronto Atendimento/UPAS, Ensino de História, Criptografia e Governança, Engenharia de Segurança Cibernética e Defesa Cibernética",
-    "campi": "Natal-RN, Departamento de Medicina Integrada - Campus de Natal/RN, Departamento de História - Campus de Caicó/RN, Instituto Metrópole Digital - Campus de Natal/RN e Faculdade de Ciências da Saúde do Trairi - Campus de Santa Cruz/RN",
+    "campi": "Natal-RN, Caicó/RN e Santa Cruz/RN",
     "titulacao": "Doutorado",
     "regime": "40h e Dedicação Exclusiva",
     "remuneracao": "R$ 6.397,19 de vencimento básico em Dedicação Exclusiva, chegando a R$ 14.945,96 com a maior titulação",
@@ -41530,7 +41371,7 @@ window.CONCURSOS = [
     "numero_edital": "Edital nº 48/2026/CCV/UFC, publicado em 23/09/2026, com 4 documentos de alteração publicados depois",
     "vagas": "65 vagas",
     "areas": "55 áreas, entre elas Genômica e Conservação de Polinizadores, Biotecnologia Industrial, Estatística e Matemática Aplicada, Física do Estado Sólido Experimental e Arte Rupestre",
-    "campi": "Município de Fortaleza - Ceará, CENTRO DE CIÊNCIAS / CAMPUS DE FORTALEZA; Departamento de Biologia, CENTRO DE CIÊNCIAS / CAMPUS DE FORTALEZA; Departamento de Bioquímica e Biologia Molecular, CENTRO DE CIÊNCIAS / CAMPUS DE FORTALEZA; Departamento de Estatística e Matemática Aplicada e CENTRO DE CIÊNCIAS / CAMPUS DE FORTALEZA; Departamento de Física",
+    "campi": "Município de Fortaleza - Ceará",
     "titulacao": "Conforme a área",
     "regime": "40 horas semanais com regime de dedicação exclusiva, 40 horas semanais sem regime de dedicação exclusiva e 20 horas semanais sem regime de dedicação exclusiva",
     "remuneracao": "R$ 6.397,19 de vencimento básico em 40 horas semanais com regime de dedicação exclusiva, chegando a R$ 13.753,96 com a maior titulação",
@@ -41646,10 +41487,10 @@ window.CONCURSOS = [
     "instituicao": "Universidade Federal dos Vales do Jequitinhonha e Mucuri",
     "nivel": "Magistério Superior",
     "uf": "MG",
-    "numero_edital": "Edital nº 101/2026, publicado em 24/09/2026, com 6 documentos de alteração publicados depois",
+    "numero_edital": "Edital nº 101/2026, publicado em 24/09/2026, com 7 documentos de alteração publicados depois",
     "vagas": "24 vagas",
     "areas": "23 áreas, entre elas Ciência da Computação (ou Informática) OU Engenharias - Subárea: Análise de Algoritmos e Complexidade de Computação ou Metodologia e Técnicas da Computação ou Banco de Dados ou Sistemas de Informação ou Linguagens de Programação ou Inteligência Artificial ou Inteligência Computacional, Ciência da Computação (ou Informática) OU Engenharias - Subárea: Sistemas de Computação OU Arquitetura de Sistemas de Computação OU Hardware OU Linguagens de Programação OU Metodologia e Técnicas da Computação OU Sistemas de Informação OU Inteligência Artificia, Interdisciplinar, Sociologia, Odontologia (4.02.00.00- 0) - Subárea: Clínica Odontológica (4.02.01.00-7) - Especialidade: em Dentística ou Prótese Dentária e Ciências Exatas e da Terra/Química",
-    "campi": "Conceição do Mato Dentro, Diamantina, Janaúba, Teófilo Otoni, Faculdade de Ciências Exatas - FACET Conceição do Mato Dentro, Faculdade de Ciências Biológicas e da Saúde - FCBS Campus I e Campus JK, Faculdade de Ciências Exatas - FACET Campus JK e Faculdade de Ciências Agrárias - FCA Campus JK",
+    "campi": "Conceição do Mato Dentro, Diamantina, Janaúba, Teófilo Otoni e Unaí",
     "titulacao": "Doutorado",
     "regime": "40h com Dedicação Exclusiva (DE)",
     "remuneracao": "R$ 6.180,86 de vencimento básico em 40 horas semanais com Dedicação Exclusiva (DE), chegando a R$ 13.288,85 com a maior titulação",
@@ -41680,9 +41521,9 @@ window.CONCURSOS = [
         "carater": "Eliminatória e classificatória",
         "data": {
           "tipo": "periodo",
-          "valor": "2026-11-30",
+          "valor": "2026-12-14",
           "fim": "2027-04-26",
-          "nota": "Para Área 101.15 (Ensino de Geografia, Novas Tecnologias…), Área 101.16 (Geografia Econômica; Geografia Regional e…) e Área 101.17 (Metodologia Quantitativa de Banco de Dados…), o documento traz 15/02/2026 a 26/02/2026, com o ano provavelmente trocado; confira na página do concurso. Datas por área: Área 101.4 (Odontologia (4.02.00.00- 0) - Subárea…) e Área 101.18 (Química (1.06.00.00-0) ou Ciências -…): 30/11; Área 101.1 (Ciência da Computação (ou Informática) OU…), Área 101.3 (Interdisciplinar, Sociologia) e Área 101.20 (Economia): 28/12 a 15/02; Área 101.2 (Ciência da Computação (ou Informática) OU…): 29/12 a 22/02; Área 101.5 (Ciências Exatas e da Terra/Química), Área 101.21 (Educação (70800006) - Subárea: Fundamentos…) e Área 101.22 (Engenharia - Subárea: Engenharia de Produção…): 14/12 a 05/02; Área 101.6 (Ciências Agrárias - Subárea…): 18/01 a 29/01; Área 101.7 (Recursos Florestais E Engenharia Florestal -…): 15/02 a 01/04; Área 101.8 (Farmácia - Subárea: Cuidado Farmacêutico…): 27/01 a 15/04; Área 101.9 (Farmácia - Subárea: Farmacotecnia): 27/01 a 14/04; Área 101.11 (Ciências Humanas, Educação, Educação Básica…): 18/01 a 22/02; Área 101.13 (Psicologia (70700001) - Subárea: Psicologia…): 09/03 a 15/04; Área 101.14 (Psicologia (70700001) - Subárea: Tratamento…): 14/12 a 17/02; Área 101.19 (Ciência da Computação (OU Informática) OU…): 15/02 a 26/04; Área 101.23 (Medicina Veterinária - Subárea: Clínica e…): 22/02 a 26/02; Área 101.10 (Nutrição - Subárea: Nutrição Básica e…): 15/02 a 29/03; Área 101.12 (Ciências Humanas, Ciências Sociais Aplicadas…): 22/02 a 25/03"
+          "nota": "Para Área 101.15 (Ensino de Geografia, Novas Tecnologias…), Área 101.16 (Geografia Econômica; Geografia Regional e…) e Área 101.17 (Metodologia Quantitativa de Banco de Dados…), o documento traz 15/02/2026 a 26/02/2026, com o ano provavelmente trocado; confira na página do concurso. Datas por área: Área 101.5 (Ciências Exatas e da Terra/Química), Área 101.21 (Educação (70800006) - Subárea: Fundamentos…) e Área 101.22 (Engenharia - Subárea: Engenharia de Produção…): 14/12 a 05/02; Área 101.14 (Psicologia (70700001) - Subárea: Tratamento…): 14/12 a 17/02; Área 101.1 (Ciência da Computação (ou Informática) OU…), Área 101.3 (Interdisciplinar, Sociologia) e Área 101.20 (Economia): 28/12 a 15/02; Área 101.2 (Ciência da Computação (ou Informática) OU…): 29/12 a 22/02; Área 101.6 (Ciências Agrárias - Subárea…): 18/01 a 29/01; Área 101.11 (Ciências Humanas, Educação, Educação Básica…): 18/01 a 22/02; Área 101.9 (Farmácia - Subárea: Farmacotecnia): 27/01 a 14/04; Área 101.8 (Farmácia - Subárea: Cuidado Farmacêutico…): 27/01 a 15/04; Área 101.10 (Nutrição - Subárea: Nutrição Básica e…): 15/02 a 29/03; Área 101.7 (Recursos Florestais E Engenharia Florestal -…): 15/02 a 01/04; Área 101.19 (Ciência da Computação (OU Informática) OU…): 15/02 a 26/04; Área 101.18 (Química (1.06.00.00-0) ou Ciências -…): 22/02; Área 101.23 (Medicina Veterinária - Subárea: Clínica e…): 22/02 a 26/02; Área 101.12 (Ciências Humanas, Ciências Sociais Aplicadas…): 22/02 a 25/03; Área 101.4 (Odontologia (4.02.00.00- 0) - Subárea…): 01/03; Área 101.13 (Psicologia (70700001) - Subárea: Psicologia…): 09/03 a 15/04"
         },
         "detalhe": {}
       },
@@ -41693,8 +41534,8 @@ window.CONCURSOS = [
         "data": {
           "tipo": "periodo",
           "valor": "2027-01-27",
-          "fim": "2027-04-15",
-          "nota": "Datas por área: Área 101.4 (Odontologia (4.02.00.00- 0) - Subárea…): 27/01; Área 101.8 (Farmácia - Subárea: Cuidado Farmacêutico…): 27/01 a 15/04; Área 101.23 (Medicina Veterinária - Subárea: Clínica e…): 22/02 a 26/02"
+          "fim": "2027-05-06",
+          "nota": "Datas por área: Área 101.8 (Farmácia - Subárea: Cuidado Farmacêutico…): 27/01 a 15/04; Área 101.23 (Medicina Veterinária - Subárea: Clínica e…): 22/02 a 26/02; Área 101.4 (Odontologia (4.02.00.00- 0) - Subárea…): 06/05"
         },
         "detalhe": {}
       },
@@ -41705,8 +41546,8 @@ window.CONCURSOS = [
         "data": {
           "tipo": "periodo",
           "valor": "2026-12-14",
-          "fim": "2027-04-26",
-          "nota": "Para Área 101.15 (Ensino de Geografia, Novas Tecnologias…), Área 101.16 (Geografia Econômica; Geografia Regional e…) e Área 101.17 (Metodologia Quantitativa de Banco de Dados…), o documento traz 15/02/2026 a 26/02/2026, com o ano provavelmente trocado; confira na página do concurso. Datas por área: Área 101.4 (Odontologia (4.02.00.00- 0) - Subárea…): 26/01; Área 101.18 (Química (1.06.00.00-0) ou Ciências -…): 16/02; Área 101.1 (Ciência da Computação (ou Informática) OU…), Área 101.3 (Interdisciplinar, Sociologia) e Área 101.20 (Economia): 28/12 a 15/02; Área 101.2 (Ciência da Computação (ou Informática) OU…): 29/12 a 22/02; Área 101.5 (Ciências Exatas e da Terra/Química), Área 101.21 (Educação (70800006) - Subárea: Fundamentos…) e Área 101.22 (Engenharia - Subárea: Engenharia de Produção…): 14/12 a 05/02; Área 101.6 (Ciências Agrárias - Subárea…): 18/01 a 29/01; Área 101.7 (Recursos Florestais E Engenharia Florestal -…): 15/02 a 01/04; Área 101.8 (Farmácia - Subárea: Cuidado Farmacêutico…): 27/01 a 15/04; Área 101.9 (Farmácia - Subárea: Farmacotecnia): 27/01 a 14/04; Área 101.11 (Ciências Humanas, Educação, Educação Básica…): 18/01 a 22/02; Área 101.13 (Psicologia (70700001) - Subárea: Psicologia…): 09/03 a 15/04; Área 101.14 (Psicologia (70700001) - Subárea: Tratamento…): 14/12 a 17/02; Área 101.19 (Ciência da Computação (OU Informática) OU…): 15/02 a 26/04; Área 101.23 (Medicina Veterinária - Subárea: Clínica e…): 22/02 a 26/02; Área 101.10 (Nutrição - Subárea: Nutrição Básica e…): 15/02 a 29/03; Área 101.12 (Ciências Humanas, Ciências Sociais Aplicadas…): 22/02 a 25/03"
+          "fim": "2027-05-05",
+          "nota": "Para Área 101.15 (Ensino de Geografia, Novas Tecnologias…), Área 101.16 (Geografia Econômica; Geografia Regional e…) e Área 101.17 (Metodologia Quantitativa de Banco de Dados…), o documento traz 15/02/2026 a 26/02/2026, com o ano provavelmente trocado; confira na página do concurso. Datas por área: Área 101.5 (Ciências Exatas e da Terra/Química), Área 101.21 (Educação (70800006) - Subárea: Fundamentos…) e Área 101.22 (Engenharia - Subárea: Engenharia de Produção…): 14/12 a 05/02; Área 101.14 (Psicologia (70700001) - Subárea: Tratamento…): 14/12 a 17/02; Área 101.1 (Ciência da Computação (ou Informática) OU…), Área 101.3 (Interdisciplinar, Sociologia) e Área 101.20 (Economia): 28/12 a 15/02; Área 101.2 (Ciência da Computação (ou Informática) OU…): 29/12 a 22/02; Área 101.6 (Ciências Agrárias - Subárea…): 18/01 a 29/01; Área 101.11 (Ciências Humanas, Educação, Educação Básica…): 18/01 a 22/02; Área 101.9 (Farmácia - Subárea: Farmacotecnia): 27/01 a 14/04; Área 101.8 (Farmácia - Subárea: Cuidado Farmacêutico…): 27/01 a 15/04; Área 101.10 (Nutrição - Subárea: Nutrição Básica e…): 15/02 a 29/03; Área 101.7 (Recursos Florestais E Engenharia Florestal -…): 15/02 a 01/04; Área 101.19 (Ciência da Computação (OU Informática) OU…): 15/02 a 26/04; Área 101.23 (Medicina Veterinária - Subárea: Clínica e…): 22/02 a 26/02; Área 101.12 (Ciências Humanas, Ciências Sociais Aplicadas…): 22/02 a 25/03; Área 101.13 (Psicologia (70700001) - Subárea: Psicologia…): 09/03 a 15/04; Área 101.18 (Química (1.06.00.00-0) ou Ciências -…): 06/04; Área 101.4 (Odontologia (4.02.00.00- 0) - Subárea…): 05/05"
         },
         "detalhe": {
           "duracao": "De 40 a 50 minutos",
@@ -41736,8 +41577,8 @@ window.CONCURSOS = [
         "data": {
           "tipo": "periodo",
           "valor": "2026-12-14",
-          "fim": "2027-04-26",
-          "nota": "Para Área 101.15 (Ensino de Geografia, Novas Tecnologias…), Área 101.16 (Geografia Econômica; Geografia Regional e…) e Área 101.17 (Metodologia Quantitativa de Banco de Dados…), o documento traz 15/02/2026 a 26/02/2026, com o ano provavelmente trocado; confira na página do concurso. Datas por área: Área 101.4 (Odontologia (4.02.00.00- 0) - Subárea…): 27/01; Área 101.18 (Química (1.06.00.00-0) ou Ciências -…): 19/02; Área 101.1 (Ciência da Computação (ou Informática) OU…), Área 101.3 (Interdisciplinar, Sociologia) e Área 101.20 (Economia): 28/12 a 15/02; Área 101.2 (Ciência da Computação (ou Informática) OU…): 29/12 a 22/02; Área 101.5 (Ciências Exatas e da Terra/Química), Área 101.21 (Educação (70800006) - Subárea: Fundamentos…) e Área 101.22 (Engenharia - Subárea: Engenharia de Produção…): 14/12 a 05/02; Área 101.6 (Ciências Agrárias - Subárea…): 18/01 a 29/01; Área 101.7 (Recursos Florestais E Engenharia Florestal -…): 15/02 a 01/04; Área 101.8 (Farmácia - Subárea: Cuidado Farmacêutico…): 27/01 a 15/04; Área 101.9 (Farmácia - Subárea: Farmacotecnia): 27/01 a 14/04; Área 101.11 (Ciências Humanas, Educação, Educação Básica…): 18/01 a 22/02; Área 101.13 (Psicologia (70700001) - Subárea: Psicologia…): 09/03 a 15/04; Área 101.14 (Psicologia (70700001) - Subárea: Tratamento…): 14/12 a 17/02; Área 101.19 (Ciência da Computação (OU Informática) OU…): 15/02 a 26/04; Área 101.23 (Medicina Veterinária - Subárea: Clínica e…): 22/02 a 26/02; Área 101.10 (Nutrição - Subárea: Nutrição Básica e…): 15/02 a 29/03; Área 101.12 (Ciências Humanas, Ciências Sociais Aplicadas…): 22/02 a 25/03"
+          "fim": "2027-05-06",
+          "nota": "Para Área 101.15 (Ensino de Geografia, Novas Tecnologias…), Área 101.16 (Geografia Econômica; Geografia Regional e…) e Área 101.17 (Metodologia Quantitativa de Banco de Dados…), o documento traz 15/02/2026 a 26/02/2026, com o ano provavelmente trocado; confira na página do concurso. Datas por área: Área 101.5 (Ciências Exatas e da Terra/Química), Área 101.21 (Educação (70800006) - Subárea: Fundamentos…) e Área 101.22 (Engenharia - Subárea: Engenharia de Produção…): 14/12 a 05/02; Área 101.14 (Psicologia (70700001) - Subárea: Tratamento…): 14/12 a 17/02; Área 101.1 (Ciência da Computação (ou Informática) OU…), Área 101.3 (Interdisciplinar, Sociologia) e Área 101.20 (Economia): 28/12 a 15/02; Área 101.2 (Ciência da Computação (ou Informática) OU…): 29/12 a 22/02; Área 101.6 (Ciências Agrárias - Subárea…): 18/01 a 29/01; Área 101.11 (Ciências Humanas, Educação, Educação Básica…): 18/01 a 22/02; Área 101.9 (Farmácia - Subárea: Farmacotecnia): 27/01 a 14/04; Área 101.8 (Farmácia - Subárea: Cuidado Farmacêutico…): 27/01 a 15/04; Área 101.10 (Nutrição - Subárea: Nutrição Básica e…): 15/02 a 29/03; Área 101.7 (Recursos Florestais E Engenharia Florestal -…): 15/02 a 01/04; Área 101.19 (Ciência da Computação (OU Informática) OU…): 15/02 a 26/04; Área 101.23 (Medicina Veterinária - Subárea: Clínica e…): 22/02 a 26/02; Área 101.12 (Ciências Humanas, Ciências Sociais Aplicadas…): 22/02 a 25/03; Área 101.13 (Psicologia (70700001) - Subárea: Psicologia…): 09/03 a 15/04; Área 101.18 (Química (1.06.00.00-0) ou Ciências -…): 09/04; Área 101.4 (Odontologia (4.02.00.00- 0) - Subárea…): 06/05"
         },
         "detalhe": {}
       },
@@ -41753,8 +41594,8 @@ window.CONCURSOS = [
       }
     ],
     "periodo_provas": {
-      "inicio": "2026-11-30",
-      "fim": "2027-04-26"
+      "inicio": "2026-12-14",
+      "fim": "2027-05-05"
     },
     "logo": "ufvjm.png",
     "formacoes_status": "nao_extraido",
@@ -41783,7 +41624,7 @@ window.CONCURSOS = [
     "numero_edital": "Edital nº 109/2026-PROGESP, publicado em 22/09/2026, com 4 documentos de alteração publicados depois",
     "vagas": "9 vagas, uma por área",
     "areas": "9 áreas, entre elas Computação Cognitiva e Inteligência Artificial Responsável, Inteligência Computacional, Inovação Tecnológica em Inteligência Artificial, Geografia e Matemática",
-    "campi": "Natal-RN, Instituto Metrópole Digital - Campus de Natal/RN, Escola Agrícola de Jundiaí - Campus de Macaíba/RN, Escola de Música - Campus de Natal/RN e Escola de Saúde - Campus de Natal/RN",
+    "campi": "Natal-RN e Macaíba/RN",
     "titulacao": "Conforme a área",
     "regime": "Dedicação Exclusiva",
     "remuneracao": "R$ 6.397,19 de vencimento básico em Dedicação Exclusiva, chegando a R$ 14.928,96 com a maior titulação",
@@ -42365,7 +42206,7 @@ window.CONCURSOS = [
     "numero_edital": "Edital nº 137/2026, com 1 documento de alteração publicado depois",
     "vagas": "42 vagas",
     "areas": "35 áreas, entre elas Linguística, Letras e Artes / Artes / Educação Artística, Ciências Sociais Aplicadas / Comunicação, Linguística, Letras e Artes / Artes, Ciências Humanas / Filosofia / História da Filosofia e Ciências Humanas / Psicologia / Processos de Aprendizagem, Memória e Motivação",
-    "campi": "Campo Grande, Aquidauana, Corumbá, Três Lagoas, FAALC, FACH, FACOM e FAENG",
+    "campi": "Campo Grande, Aquidauana, Corumbá, Três Lagoas, Chapadão do Sul, Nova Andradina e Naviraí",
     "titulacao": "Conforme a área",
     "regime": "Dedicação Exclusiva e 20 horas semanais",
     "remuneracao": "R$ 6.397,19 de vencimento básico em Dedicação Exclusiva",
@@ -42606,7 +42447,7 @@ window.CONCURSOS = [
     "numero_edital": "Edital nº 47/2026, publicado em 11/09/2026",
     "vagas": "1 vaga",
     "areas": "Direito Civil e Prática Processual Civil",
-    "campi": "Viçosa/MG e Departamento de Direito, do Centro de Ciências Humanas, Letras e Artes",
+    "campi": "Viçosa/MG",
     "titulacao": "Doutorado",
     "regime": "Dedicação Exclusiva (DE)",
     "remuneracao": "R$ 6.180,86 de vencimento básico em Dedicação Exclusiva (DE)",
@@ -42700,7 +42541,7 @@ window.CONCURSOS = [
     "numero_edital": "2 editais: 48/2026 e 49/2026",
     "vagas": "2 vagas",
     "areas": "Projeto Arquitetônico e Urbanístico e Teorias e práticas da arquitetura e do urbanismo contemporâneos",
-    "campi": "Viçosa/MG e Departamento de Arquitetura e Urbanismo, do Centro de Ciências Exatas e Tecnológicas",
+    "campi": "Viçosa/MG",
     "titulacao": "Doutorado",
     "regime": "Dedicação Exclusiva (DE)",
     "remuneracao": "R$ 6.180,86 de vencimento básico em Dedicação Exclusiva (DE)",
@@ -42909,10 +42750,10 @@ window.CONCURSOS = [
     "instituicao": "UNIVERSIDADE DA INTEGRAÇÃO INTERNACIONAL DA LUSOFONIA AFRO-BRASILEIRA",
     "nivel": "Magistério Superior",
     "uf": "CE",
-    "numero_edital": "Edital nº 14/2026, publicado em 01/10/2026, com 12 documentos de alteração publicados depois",
+    "numero_edital": "Edital nº 14/2026, publicado em 01/10/2026, com 13 documentos de alteração publicados depois",
     "vagas": "15 vagas",
     "areas": "9 áreas, entre elas Avaliação Nutricional e Nutrição Clínica, Fundamentos da Terapia Ocupacional, Atividades e Recursos Terapêuticos Ocupacionais, Práticas em Atenção Primária à Saúde/Semiologia Médica, Anatomia Humana e Cirurgia e Medicina Baseada em Evidências, Epidemiologia e Pesquisa Clínica",
-    "campi": "Baturité/CE, São Francisco do Conde/BA, Instituto de Ciências da Saúde - ICS e Instituto de Ciências da Saúde - ICS / Campus dos Malês",
+    "campi": "Baturité/CE e São Francisco do Conde/BA",
     "titulacao": "Doutorado",
     "regime": "40 horas com Dedicação Exclusiva e 40 horas",
     "remuneracao": "R$ 6.397,19 de vencimento básico em 40 horas DE, chegando a R$ 13.753,96 com a maior titulação",
@@ -42974,7 +42815,7 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2026-11-19",
           "fim": "2026-12-11",
-          "nota": "Datas por área: Avaliação Nutricional e Nutrição Clínica (Avaliação Nutricional e Nutrição Clínica): 11/12; Fundamentos da Terapia Ocupacional, Atividades e Recursos Terapêuticos Ocupacionais (Fundamentos da Terapia Ocupacional…): 11/12; Práticas em Atenção Primária à Saúde/Semiologia Médica (Práticas em Atenção Primária à…): 03/12; Anatomia Humana e Cirurgia (Anatomia Humana e Cirurgia): 03/12; Medicina Baseada em Evidências, Epidemiologia e Pesquisa Clínica (Medicina Baseada em Evidências…): 27/11; Saúde da Mulher (Saúde da Mulher): 19/11; Métodos de Imagem (Métodos de Imagem): 19/11; Psiquiatria (Psiquiatria): 19/11; Saúde da Criança (Saúde da Criança): 27/11"
+          "nota": "Datas por área: Avaliação Nutricional e Nutrição Clínica (Avaliação Nutricional e Nutrição Clínica): 11/12; Fundamentos da Terapia Ocupacional, Atividades e Recursos Terapêuticos Ocupacionais (Fundamentos da Terapia Ocupacional…): 11/12; Práticas em Atenção Primária à Saúde/Semiologia Médica (Práticas em Atenção Primária à…): 03/12; Anatomia Humana e Cirurgia (Anatomia Humana e Cirurgia): 03/12; Saúde da Mulher (Saúde da Mulher): 19/11; Métodos de Imagem (Métodos de Imagem): 19/11; Psiquiatria (Psiquiatria): 19/11; Saúde da Criança (Saúde da Criança): 27/11; Medicina Baseada em Evidências, Epidemiologia e Pesquisa Clínica (Medicina Baseada em Evidências…): 27/11"
         },
         "detalhe": {}
       }
@@ -43196,7 +43037,7 @@ window.CONCURSOS = [
     "numero_edital": "",
     "vagas": "1 vaga",
     "areas": "Tratamento e Prevenção Psicológica (70710007) / Intervenção Terapêutica: Psicopatologia, Saúde Mental Coletiva e Políticas Públicas (70710015)",
-    "campi": "Rio de Janeiro e Centro de Educação e Humanidades; Instituto de Psicologia; Departamento de Psicologia Clínica",
+    "campi": "Rio de Janeiro",
     "titulacao": "Doutorado",
     "regime": "CH Semanal 40",
     "remuneracao": "R$ 6.950,85 de vencimento básico em CH Semanal 40",
@@ -43593,7 +43434,7 @@ window.CONCURSOS = [
     "numero_edital": "Edital nº 01/2026, publicado em 02/10/2026, com 1 documento de alteração publicado depois",
     "vagas": "1 vaga",
     "areas": "Ciência e Tecnologia de Alimentos",
-    "campi": "Cruz das Almas/BA e CCAAB - Centro de Ciências Agrárias, Ambientais e Biológicas - Cruz das Almas/BA",
+    "campi": "Cruz das Almas/BA",
     "titulacao": "Doutorado",
     "regime": "Dedicação Exclusiva",
     "remuneracao": "R$ 12.245,03 de vencimento básico em 40 horas com Dedicação Exclusiva - DE, chegando a R$ 26.326,81 com a maior titulação",
@@ -43696,7 +43537,7 @@ window.CONCURSOS = [
     "numero_edital": "Edital nº 156/2026, publicado em 05/10/2026",
     "vagas": "15 vagas",
     "areas": "14 áreas, entre elas Engenharia Elétrica/Eletrônica Industrial, Sistemas e Controles Eletrônicos, Engenharia de Computação/Segurança em Redes de Computadores e Sistemas Operacionais, Engenharia Elétrica/Eletrônica, Medicina/Oncologia e Medicina/Reumatologia",
-    "campi": "Uberlândia - MG, Patos de Minas - MG, Monte Carmelo - MG, Ituiutaba - MG, Faculdade de Engenharia Elétrica - FEELT (Campus Santa Mônica, localizado na cidade de Uberlândia (MG)), Faculdade de Engenharia Elétrica - FEELT (Campus Patos de Minas, localizado em Patos de Minas (MG)), Faculdade de Medicina - FAMED (Campus Umuarama, localizado na cidade de Uberlândia (MG)) e Instituto de Ciências Agrárias - ICIAG (Campus Glória, localizado na cidade de Uberlândia (MG))",
+    "campi": "Uberlândia - MG, Patos de Minas - MG, Monte Carmelo - MG e Ituiutaba - MG",
     "titulacao": "Doutorado",
     "regime": "40 horas semanais com Dedicação Exclusiva (DE) e 40 horas semanais",
     "remuneracao": "R$ 6.397,18 de vencimento básico em Dedicação Exclusiva (DE), chegando a R$ 13.753,95 com a maior titulação",
@@ -43858,7 +43699,7 @@ window.CONCURSOS = [
     "numero_edital": "Edital nº 463/2026, publicado em 28/09/2026, com 3 documentos de alteração publicados depois",
     "vagas": "1 vaga",
     "areas": "EDUCAÇÃO",
-    "campi": "Presidente Prudente e Departamento de Educação da Faculdade de Ciências e Tecnologia do Campus de Presidente Prudente",
+    "campi": "Presidente Prudente",
     "titulacao": "Doutorado",
     "regime": "Regime de Dedicação Integral à Docência e à Pesquisa - RDIDP",
     "remuneracao": "R$ 16.994,01 de vencimento básico em Regime de Dedicação Integral à Docência e à Pesquisa - RDIDP, 40 horas semanais",
@@ -43953,7 +43794,7 @@ window.CONCURSOS = [
     "numero_edital": "Edital nº 51/2026, publicado em 09/10/2026, com 1 documento de alteração publicado depois",
     "vagas": "5 vagas",
     "areas": "GEOMÁTICA, APRENDIZADO DE MÁQUINA, ENGENHARIA DE SOFTWARE, REDES DE COMPUTADORES e ENGENHARIA ELÉTRICA",
-    "campi": "Itajubá, Itabira, Instituto de Recursos Naturais - Campus de Itajubá, Instituto de Ciências Tecnológicas - Campus de Itabira e Instituto de Ciências Puras e Aplicadas - Campus de Itabira",
+    "campi": "Itajubá e Itabira",
     "titulacao": "Doutorado",
     "regime": "Dedicação Exclusiva",
     "remuneracao": "R$ 6.397,19 de vencimento básico em A/Nível 1/Dedicação Exclusiva, chegando a R$ 13.753,96 com a maior titulação",
@@ -43962,7 +43803,7 @@ window.CONCURSOS = [
     "inscricao": {
       "inicio": "2026-10-09",
       "fim": "2026-11-08",
-      "situacao": "aberta",
+      "situacao": "encerrada",
       "taxa": "R$ 200,00"
     },
     "etapas": [
@@ -44884,7 +44725,7 @@ window.CONCURSOS = [
     "numero_edital": "Edital nº 59/2026, publicado em 23/10/2026, com 3 documentos de alteração publicados depois",
     "vagas": "29 vagas",
     "areas": "28 áreas, entre elas DESENVOLVIMENTO WEB, CLOUD COMPUTING, BANCO DE DADOS E SISTEMAS COMPUTACIONAIS, ENGENHARIA DE SOFTWARE, IHM, ARQUITETURA E CONFIABILIDADE, PROGRAMAÇÃO, ALGORITMOS, MODELAGEM E VERIFICAÇÃO DE SOFTWARE, REDES DE COMPUTADORES, CRIPTOGRAFIA E PROTOCOLOS SEGUROS e SEGURANÇA DA INFORMAÇÃO",
-    "campi": "Pouso Alegre, Itabira, Itajubá, Campus Pouso Alegre, Instituto de Engenharias Integradas - Campus de Itabira, Instituto de Ciências Tecnológicas - Campus de Itabira e Instituto de Engenharia de Produção e Gestão - Campus de Itajubá",
+    "campi": "Pouso Alegre, Itabira e Itajubá",
     "titulacao": "Doutorado",
     "regime": "Dedicação Exclusiva",
     "remuneracao": "R$ 6.397,19 de vencimento básico em A/Nível 1/Dedicação Exclusiva, chegando a R$ 13.753,96 com a maior titulação",
@@ -45074,7 +44915,7 @@ window.CONCURSOS = [
     "numero_edital": "Edital nº 05/2026, publicado em 27/10/2026, com 1 documento de alteração publicado depois",
     "vagas": "22 vagas",
     "areas": "17 áreas, entre elas Didática e Didática da Educação Especial Inclusiva, Ensino, Fundamentação Sócio-Histórica e Pedagógica das Artes Visuais na Educação e Pesquisa, Estágio e Prática Pedagógica em Artes Visuais, Ensino, Produção e Criação Artístico Visual e Fundamentação Histórica e Sociocultural em Artes Visuais, Formação de professores e Políticas Educacionais Inclusivas e Física Computacional, Métodos Numéricos e de Inteligência Artificial",
-    "campi": "Jataí/GO, Faculdade de Educação (FE), Campus Riachuelo, Instituto de Ciências Exatas e Tecnológicas (ICET), Campus Jatobá, Instituto de Ciências Humanas e Letras (ICHL), Campus Jatobá e Instituto de Ciências da Saúde (ICS), Campus Jatobá",
+    "campi": "Jataí/GO",
     "titulacao": "Conforme a área",
     "regime": "40h/DE",
     "remuneracao": "R$ 6.397,18 de vencimento básico em Dedicação Exclusiva, chegando a R$ 13.753,94 com a maior titulação",
@@ -45158,7 +44999,7 @@ window.CONCURSOS = [
     "numero_edital": "",
     "vagas": "1 vaga",
     "areas": "História",
-    "campi": "Rio de janeiro - RJ e Centro de Educação e Humanidades; Instituto de Aplicação Fernando Rodrigues da Silveira; Departamento de Ciências Humanas e Filosofia (DCHF)",
+    "campi": "Rio de janeiro - RJ",
     "titulacao": "Doutorado",
     "regime": "CH Semanal 40",
     "remuneracao": "R$ 6.950,85 de vencimento básico em CH Semanal 40",
@@ -45249,7 +45090,7 @@ window.CONCURSOS = [
     "numero_edital": "Edital nº 252/2026, publicado em 03/11/2026",
     "vagas": "6 vagas",
     "areas": "Ciências Exatas e da Terra/ Ciência da Computação/ Metodologia e Técnicas da Computação, Linguística, Letras e Artes/ Artes/ Artes Plásticas/ Fotografia, Ciências Sociais Aplicadas/ Economia/ Crescimento e Desenvolvimento Econômico (ênfase em Macroeconomia), Ciências Exatas e da Terra/ Física/ Física Estatística e Termodinâmica e Ciências Exatas e da Terra/ Física/ Física Clássica e Física Quântica/ Mecânica e Campos",
-    "campi": "Cachoeira do Sul, Santa Maria, Cachoeira do Sul; Coordenadoria Acadêmica Campus de Cachoeira do Sul, Santa Maria; Departamento de Artes Visuais Centro de Artes e Letras, Santa Maria; Departamento de Economia e Relações Internacionais Centro de Ciências Sociais e Humanas e Santa Maria; Departamento de Física Centro de Ciências Naturais e Exatas",
+    "campi": "Cachoeira do Sul e Santa Maria",
     "titulacao": "Doutorado",
     "regime": "Dedicação Exclusiva",
     "remuneracao": "R$ 6.397,19 de vencimento básico em Dedicação Exclusiva, chegando a R$ 13.753,98 com a maior titulação",
@@ -45340,6 +45181,257 @@ window.CONCURSOS = [
         "ufsm-252-2026"
       ],
       "extraido_em": "2026-11-06",
+      "em_conferencia": true
+    }
+  },
+  {
+    "id": "uerj-1860-2026",
+    "sigla": "UERJ",
+    "instituicao": "Universidade do Estado do Rio de Janeiro",
+    "nivel": "Magistério Superior",
+    "uf": null,
+    "numero_edital": "",
+    "vagas": "1 vaga",
+    "areas": "Ginecologia",
+    "campi": "Cabo Frio e Centro Biomédico; Faculdade de Ciências Médicas; Departamento de Ciências Médicas Integradas - DEPCMI (Campus Cabo Frio)",
+    "titulacao": "Mestrado",
+    "regime": "CH Semanal 40",
+    "remuneracao": "R$ 5.236,22 de vencimento básico em CH Semanal 40",
+    "banca": "Comissão própria da UERJ",
+    "link_oficial": "https://prossim.uerj.br/",
+    "inscricao": {
+      "inicio": "2026-11-01",
+      "fim": "2026-12-04",
+      "situacao": "aberta",
+      "taxa": "R$ 261,81"
+    },
+    "etapas": [
+      {
+        "nome": "PROVA ESCRITA",
+        "tipo": "discursiva",
+        "carater": "Eliminatória",
+        "data": {
+          "tipo": "exata",
+          "valor": "2027-04-05"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "PROVA DE AULA",
+        "tipo": "didatica",
+        "carater": "Eliminatória",
+        "data": {
+          "tipo": "exata",
+          "valor": "2027-04-07"
+        },
+        "detalhe": {
+          "duracao": "De 50 a 60 minutos. Menos de 50 minutos elimina o candidato",
+          "sorteio": "Tema sorteado com 24 horas de antecedência",
+          "nota_minima": "7 em 10",
+          "recursos": "O candidato pode usar recursos próprios (Compete ao candidato providenciar os recursos audiovisuais que pretenda utilizar na prova de aula e que não sejam disponibilizados pela Unidade)"
+        }
+      },
+      {
+        "nome": "JULGAMENTO DE TÍTULOS E TRABALHOS",
+        "tipo": "titulos",
+        "carater": "",
+        "data": {
+          "tipo": "exata",
+          "valor": "2027-04-07"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Resultado final",
+        "tipo": "resultado",
+        "carater": "",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "em até 07 dias úteis (o edital não diz a partir de quê)"
+        },
+        "detalhe": {}
+      }
+    ],
+    "periodo_provas": {
+      "inicio": "2027-04-05",
+      "fim": "2027-04-07"
+    },
+    "logo": "uerj.png",
+    "formacoes_status": "nao_extraido",
+    "familias": [],
+    "formacoes": [],
+    "familias_pos": [],
+    "areas_formacoes": [],
+    "observacao": "",
+    "detalhamento": "completo",
+    "avisos_edital": [],
+    "fonte_dados": {
+      "origem": "extracao_v2",
+      "extracoes": [
+        "uerj-1860-2026"
+      ],
+      "extraido_em": "2026-11-08",
+      "em_conferencia": true
+    }
+  },
+  {
+    "id": "uerj-1861-2026",
+    "sigla": "UERJ",
+    "instituicao": "Universidade do Estado do Rio de Janeiro",
+    "nivel": "Magistério Superior",
+    "uf": "RJ",
+    "numero_edital": "",
+    "vagas": "1 vaga",
+    "areas": "Pediatria",
+    "campi": "Rio de Janeiro - RJ e CENTRO BIOMÉDICO (CBI); FACULDADE DE CIÊNCIAS MÉDICAS (FCM); DEPARTAMENTO DE CIÊNCIAS MÉDICAS INTEGRADAS - DEPCMI (Campus Cabo Frio)",
+    "titulacao": "Mestrado",
+    "regime": "CH Semanal 40",
+    "remuneracao": "R$ 5.236,22 de vencimento básico em CH Semanal 40",
+    "banca": "Comissão própria da UERJ",
+    "link_oficial": "https://prossim.uerj.br/",
+    "inscricao": {
+      "inicio": "2026-10-29",
+      "fim": "2026-11-13",
+      "situacao": "aberta",
+      "taxa": "R$ 261,81"
+    },
+    "etapas": [
+      {
+        "nome": "PROVA ESCRITA",
+        "tipo": "discursiva",
+        "carater": "Eliminatória",
+        "data": {
+          "tipo": "exata",
+          "valor": "2026-12-07"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "PROVA DE AULA",
+        "tipo": "didatica",
+        "carater": "Eliminatória",
+        "data": {
+          "tipo": "exata",
+          "valor": "2026-12-09"
+        },
+        "detalhe": {
+          "duracao": "De 50 a 60 minutos. Menos de 50 minutos elimina o candidato",
+          "sorteio": "Tema sorteado com 24 horas de antecedência",
+          "nota_minima": "7 em 10",
+          "recursos": "O candidato pode usar recursos próprios (Compete ao candidato providenciar os recursos audiovisuais que pretenda utilizar na prova de aula e que não sejam disponibilizados pela Unidade)"
+        }
+      },
+      {
+        "nome": "JULGAMENTO DE TÍTULOS E TRABALHOS",
+        "tipo": "titulos",
+        "carater": "",
+        "data": {
+          "tipo": "exata",
+          "valor": "2026-12-09"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Resultado final",
+        "tipo": "resultado",
+        "carater": "",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "em até 07 dias úteis (o edital não diz a partir de quê)"
+        },
+        "detalhe": {}
+      }
+    ],
+    "periodo_provas": {
+      "inicio": "2026-12-07",
+      "fim": "2026-12-09"
+    },
+    "logo": "uerj.png",
+    "formacoes_status": "nao_extraido",
+    "familias": [],
+    "formacoes": [],
+    "familias_pos": [],
+    "areas_formacoes": [],
+    "observacao": "",
+    "detalhamento": "completo",
+    "avisos_edital": [],
+    "fonte_dados": {
+      "origem": "extracao_v2",
+      "extracoes": [
+        "uerj-1861-2026"
+      ],
+      "extraido_em": "2026-11-08",
+      "em_conferencia": true
+    }
+  },
+  {
+    "id": "ufabc-53-2026",
+    "sigla": "UFABC",
+    "instituicao": "Fundação Universidade Federal do ABC",
+    "nivel": "Magistério Superior",
+    "uf": null,
+    "numero_edital": "Edital nº 53/2026",
+    "vagas": "79 vagas",
+    "areas": "58 áreas, entre elas Ciência da Computação / Computação Gráfica, Ciência da Computação / Engenharia de Software, Ciência de Dados / Ciência de Dados Computacional, Economia / Macroeconomia e Educação Especial e Inclusiva / Educação Especial, Educação Inclusiva, Educação, Educação Matemática, Psicologia, Pedagogia",
+    "campi": "",
+    "titulacao": "Doutorado",
+    "regime": "40 (quarenta) horas semanais de trabalho, em tempo integral, com dedicação exclusiva (DE)",
+    "remuneracao": "R$ 6.397,19 de vencimento básico em 40 horas DE, chegando a R$ 13.753,96 com a maior titulação",
+    "banca": "Comissão própria da UFABC",
+    "link_oficial": "https://www.ufabc.edu.br/concursos/docentes/inscricoes-abertas",
+    "inscricao": {
+      "inicio": "2026-11-30",
+      "fim": "2027-01-28",
+      "situacao": "abre_em_breve",
+      "taxa": "R$ 240,00. Pedido de isenção de 30/11 a 29/12"
+    },
+    "etapas": [
+      {
+        "nome": "Prova Escrita",
+        "tipo": "discursiva",
+        "carater": "",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "As provas deverão ocorrer em até 12 (doze) meses, a contar da publicação do Edital de Homologação das Inscrições."
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Prova de Didática",
+        "tipo": "didatica",
+        "carater": "",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "As provas deverão ocorrer em até 12 (doze) meses, a contar da publicação do Edital de Homologação das Inscrições."
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Prova de Defesa de Projeto de Pesquisa",
+        "tipo": "outra",
+        "carater": "",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "As provas deverão ocorrer em até 12 (doze) meses, a contar da publicação do Edital de Homologação das Inscrições."
+        },
+        "detalhe": {}
+      }
+    ],
+    "logo": "ufabc.png",
+    "formacoes_status": "nao_extraido",
+    "familias": [],
+    "formacoes": [],
+    "familias_pos": [],
+    "areas_formacoes": [],
+    "observacao": "",
+    "detalhamento": "completo",
+    "avisos_edital": [],
+    "fonte_dados": {
+      "origem": "extracao_v2",
+      "extracoes": [
+        "ufabc-53-2026"
+      ],
+      "extraido_em": "2026-11-09",
       "em_conferencia": true
     }
   }
