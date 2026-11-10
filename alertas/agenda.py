@@ -846,6 +846,10 @@ def completar(avisos, slug, c, hoje, destinos, ordem, edital, nomes_area, cancel
         # quando já está dentro da maior antecedência dos avisos agendados do evento, também de hoje até ela, como cobriria o
         # aviso agendado dele. A âncora de um item "só cota" só completa a mensagem de quem marcou cota.
         ancoras = [(bool(x.get("so_cota")), x["data"], False) for x in ags]
+        # Conferência de 09/11/2026, UNILAB 14, áreas 06 e 09: a mensagem que só levava o aviso de documento novo (resultado
+        # final da prova escrita) saía sem o sorteio do ponto das 14h do mesmo dia e sem a prova didática do dia seguinte.
+        # Toda mensagem que sai para o destinatário cobre também os compromissos críticos dele de hoje e de amanhã.
+        ancoras.append((all(x.get("so_cota") for x in base), hoje + dt.timedelta(days=DIAS_PRAZO_PROXIMO), False))
         # Conferência de 01/11/2026 (UERJ Seleções 229, 230, 232, 233 e 243; UFU 118, área 2): a mensagem da prova escrita
         # de 03/11 parava nela e deixava de fora o sorteio do ponto e a prova de aula de 04 e 05/11, e a do sorteio de
         # 03/11 deixava de fora a prova didática de 04/11. Compromisso crítico da mensagem cobre também os DIAS_ANTES dias
@@ -1589,6 +1593,14 @@ def executar(vigia, hoje, anterior):
         if pendentes_leitura and sit == "ativo":
             onde = f" (áreas {', '.join(sorted(retidas))})" if retidas else ""
             rel["retido"].append(f"{nome}: alertas agendados retidos{onde} até o extrator ler {len(pendentes_leitura)} documento(s) que podem mudar datas: " + "; ".join(limpa_titulo(v.get("texto"))[:70] for v in pendentes_leitura[:3]) + ("..." if len(pendentes_leitura) > 3 else "") + ".")
+        # Conferência de 09/11/2026, UNILAB 14, áreas 06 e 09: o concurso ficou retido em 08/11 (cronograma de outra área
+        # sem leitura, com o conversor parado) e a véspera do sorteio de 09/11 e da prova didática de 10/11 se perdeu,
+        # porque a rodada seguinte só cobre os próprios dias de gatilho. Os dias de gatilho de uma rodada retida ficam no
+        # estado e são recuperados na primeira rodada sem retenção, para os eventos que ainda estão por vir; com retenção
+        # só de algumas áreas, a recuperação vale só para elas (as outras já receberam os avisos).
+        ret_ant = (((a or {}).get("_meta") or {}).get("retido") or {}) if not base else {}
+        rec_dias = {x for x in (D(s_) for s_ in ret_ant.get("dias") or []) if x and x not in cobertos and 0 < (hoje - x).days <= 7}
+        rec_areas = None if ret_ant.get("areas") is None else set(ret_ant["areas"])
         ev_por_id = {e.get("id"): e for e in c["eventos"]}
 
         edital = next((x["caminho"] for x in c["_triagem"] if x.get("tipo") == "edital_abertura"
@@ -1749,12 +1761,19 @@ def executar(vigia, hoje, anterior):
                     # como véspera; o de resultado continua só com o aviso de dois dias (decisão de 22/10/2026).
                     vespera = n == 0 and ref.weekday() in SEM_RODADA and critico(e)
                     gatilho = ref - dt.timedelta(days=n + (1 if vespera else 0))
-                    if gatilho in cobertos and ref >= hoje and (n > 0 or ref == hoje or vespera) and (marco, ref) not in feitos:
+                    normal = gatilho in cobertos
+                    alvo = dest
+                    if not normal and gatilho in rec_dias:  # gatilho de rodada retida (ver rec_dias)
+                        alvo = dest if rec_areas is None else \
+                            [x for x in (nomes_area if dest == [None] else dest) if x in rec_areas and x not in canceladas]
+                    elif not normal:
+                        alvo = []
+                    if alvo and ref >= hoje and (n > 0 or ref == hoje or vespera) and (marco, ref) not in feitos:
                         feitos.add((marco, ref))
                         disparou = True
                         item = item_agendado(e, marco, ref, hoje, fonte, periodo)
                         item["ordem"] = ordem[id(e)]
-                        for d in dest:
+                        for d in alvo:
                             avisos[(slug, d)].append(item)
                             for cpn in companheiros(e, c["eventos"], d, hoje):
                                 if periodo and intervalo(cpn["data"])[0] not in ("fixa", "janela"):
@@ -1893,6 +1912,11 @@ def executar(vigia, hoje, anterior):
 
         estado["concursos"][slug] = {"docs": triados, "eventos": ev_estado}
         estado["concursos"][slug]["_meta"] = {"nome": nome, "situacao": sit}
+        if pendentes_leitura and sit == "ativo":
+            # dias de gatilho que esta rodada reteve, somados aos de rodadas retidas antes (ver rec_dias)
+            dias = sorted({x.isoformat() for x in cobertos | rec_dias})
+            areas_ret = None if (retidas is None or (ret_ant and rec_areas is None)) else sorted(set(retidas) | (rec_areas or set()))
+            estado["concursos"][slug]["_meta"]["retido"] = {"dias": dias, "areas": areas_ret}
         c["_areas"] = nomes_area
 
     vigilancia(vigia, concursos, hoje, rel)

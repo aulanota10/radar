@@ -1528,3 +1528,54 @@ class Conferencia0411b(unittest.TestCase):
         item = {"tipo": "agendado", "data": dt.date(2026, 11, 6), "hora": "", "texto": "06/11/2026 (sexta): Período das provas (faltam 2 dias)", "fonte": {}}
         fila, _ = A.montar_fila({"t": c}, {("t", None): [item], ("t", "01"): [dict(item)]}, self.QUA, False)
         self.assertIn("exceto a área 18 (suspensa ou cancelada)", fila)
+
+
+class Conferencia0911(unittest.TestCase):
+    """Conferência de 09/11/2026, UNILAB 14, áreas 06 e 09."""
+    VAGAS = [{"codigo": {"numero": "06"}, "area_conhecimento": "Saúde da Mulher"},
+             {"codigo": {"numero": "05"}, "area_conhecimento": "Medicina Baseada em Evidências"}]
+    EVS = [{"id": "ev-0001", "estado": "vigente", "escopo": ["06"], "tipo_evento": "sorteio_tema", "etapa_ref": "didatica",
+            "descricao_literal": "Sorteio do ponto da prova didática, por videochamada", "data": jan("2026-11-09", "2026-11-09", "09:00", "14:00")},
+           {"id": "ev-0002", "estado": "vigente", "escopo": ["06"], "tipo_evento": "prova", "etapa_ref": "didatica",
+            "descricao_literal": "Prova didática", "data": fx("2026-11-10", "09:00")}]
+
+    def vigia(self, v, registro):
+        os.makedirs(os.path.join(v, "extracoes", "t"), exist_ok=True); os.makedirs(os.path.join(v, "_vigia"), exist_ok=True)
+        json.dump({"sigla": "TESTE", "eventos": self.EVS, "vagas": self.VAGAS}, open(os.path.join(v, "extracoes", "t", "concurso-t.json"), "w"))
+        json.dump({"docs": registro}, open(os.path.join(v, "_vigia", "registro.json"), "w"))
+
+    def textos(self, avisos, area):
+        return [x["texto"] for x in avisos.get(("t", area), []) + avisos.get(("t", None), []) if x["tipo"] == "agendado"]
+
+    def test_gatilho_de_rodada_retida_e_recuperado(self):
+        pend = {"u": {"status": "enviado", "tipo_provavel": "cronograma", "texto": "Cronograma de Atividades",
+                      "caminho": "documentos/t/c.pdf", "primeira_vez": "2026-11-08 07:00:00", "concursos": {"t": {}}}}
+        with tempfile.TemporaryDirectory() as v:
+            self.vigia(v, pend)
+            _, _, avisos, rel, estado, _ = A.executar(v, dt.date(2026, 11, 8), {"gerado_em": "2026-11-06", "concursos": {}})
+            self.assertFalse(self.textos(avisos, "06"))  # retido: o documento sem área segura o concurso todo
+            self.assertEqual(estado["concursos"]["t"]["_meta"]["retido"], {"dias": ["2026-11-07", "2026-11-08"], "areas": None})
+            self.vigia(v, {})  # o extrator leu o cronograma; nada pendente
+            _, _, avisos, _, estado2, _ = A.executar(v, dt.date(2026, 11, 9), estado)
+        ts = self.textos(avisos, "06")
+        self.assertTrue(any("10/11/2026" in x and "Prova didática" in x for x in ts), ts)  # aviso de 2 dias, de 08/11
+        self.assertTrue(any("Sorteio do ponto" in x for x in ts), ts)  # véspera, de 08/11
+        self.assertNotIn("retido", estado2["concursos"]["t"]["_meta"])
+
+    def test_sem_retencao_antes_nada_e_recuperado(self):
+        with tempfile.TemporaryDirectory() as v:
+            self.vigia(v, {})
+            _, _, avisos, _, _, _ = A.executar(v, dt.date(2026, 11, 9), {"gerado_em": "2026-11-08", "concursos": {}})
+        self.assertFalse(any("Prova didática" in x for x in self.textos(avisos, "06")))  # o aviso era de 08/11, já enviado
+
+    def test_documento_novo_leva_os_compromissos_de_hoje_e_amanha(self):
+        evs = [{"tipo_evento": "resultado", "etapa_ref": "escrita", "descricao_literal": "Resultado final da prova escrita", "data": fx("2026-11-06", "18:00")},
+               {"tipo_evento": "prova", "etapa_ref": "didatica", "descricao_literal": "Prova didática", "data": fx("2026-11-10", "09:00")},
+               {"tipo_evento": "prova", "etapa_ref": "pratica", "descricao_literal": "Prova prática", "data": fx("2026-11-12", "09:00")}]
+        base = [{"tipo": "documento", "doc": "documentos/t/r.pdf", "texto": "saiu o resultado final da prova escrita", "fonte": {}}]
+        c = {"eventos": [dict(e, id=f"ev-{k:04d}", estado="vigente", escopo="geral") for k, e in enumerate(evs, 1)]}
+        avisos = {("t", None): list(base)}
+        A.completar(avisos, "t", c, dt.date(2026, 11, 9), lambda esc, e=None: [None], {}, None, {}, set())
+        ts = [x["texto"] for x in avisos[("t", None)] if x["tipo"] == "agendado"]
+        self.assertTrue(any("Prova didática" in x for x in ts), ts)
+        self.assertFalse(any("Prova prática" in x for x in ts), ts)  # depois de amanhã: fica para os avisos agendados
