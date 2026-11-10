@@ -1404,6 +1404,16 @@ class Conferencia0211(unittest.TestCase):
         self.assertNotIn("último dia", msg)
 
 
+class ResolvidaEmComoTexto(unittest.TestCase):
+    # rodada de 10/11/2026: resolvida_em gravado como texto derrubava a rodada (AttributeError)
+    def test_formas(self):
+        self.assertEqual(A.caminho_resolucao({"resolvida_em": {"caminho": "documentos/x/a.pdf", "data": "2026-11-09"}}), "documentos/x/a.pdf")
+        self.assertEqual(A.caminho_resolucao({"resolvida_em": "documentos/x/a.pdf"}), "documentos/x/a.pdf")
+        self.assertIsNone(A.caminho_resolucao({"resolvida_em": "2026-11-09"}))
+        self.assertIsNone(A.caminho_resolucao({"resolvida_em": None}))
+        self.assertIsNone(A.caminho_resolucao({}))
+
+
 if __name__ == "__main__":
     unittest.main()
 

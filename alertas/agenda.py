@@ -265,6 +265,18 @@ DOC_IMPORTANTE_VIGIA = {"convocacao", "banca", "resultado", "retificacao", "cron
 DIAS = ["segunda", "terça", "quarta", "quinta", "sexta", "sábado", "domingo"]
 
 
+def caminho_resolucao(p):
+    """Caminho do documento que resolveu a pendência. O esquema grava resolvida_em como {caminho, data},
+    mas algumas extrações gravaram só o texto: o caminho do documento ou só a data (rodada de 10/11/2026,
+    UFERSA 030, UFC 48, UERJ 228 e 255, UNIMONTES 12 e 16). Texto que é caminho vale como caminho; data, não."""
+    r = p.get("resolvida_em")
+    if isinstance(r, dict):
+        return r.get("caminho")
+    if isinstance(r, str) and r.startswith("documentos/"):
+        return r
+    return None
+
+
 def D(s):
     try:
         return dt.date.fromisoformat(s[:10]) if s else None
@@ -1859,7 +1871,7 @@ def executar(vigia, hoje, anterior):
                         item["so_cota"] = True
                     avisos[(slug, d)].append(item)
             for p in ([] if frase else c.get("pendencias") or []):
-                if p["estado"] == "resolvida" and ((p.get("resolvida_em") or {}).get("caminho") == cam):
+                if p["estado"] == "resolvida" and caminho_resolucao(p) == cam:
                     fr = next((v for pre, v in PEND_FRASE if p["campo"].startswith(pre)), None)
                     if fr:
                         item = {"tipo": "documento", "doc": cam, "texto": f"saiu {fr}", "fonte": {"documento": cam}}
