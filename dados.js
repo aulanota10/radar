@@ -43135,8 +43135,8 @@ window.CONCURSOS = [
     "link_oficial": "https://prossim.uerj.br/",
     "inscricao": {
       "inicio": "2026-10-01",
-      "fim": "2026-10-30",
-      "situacao": "encerrada",
+      "fim": "2026-11-12",
+      "situacao": "aberta",
       "taxa": "R$ 347,54"
     },
     "etapas": [
@@ -43145,8 +43145,8 @@ window.CONCURSOS = [
         "tipo": "discursiva",
         "carater": "Eliminatória",
         "data": {
-          "tipo": "exata",
-          "valor": "2026-11-30"
+          "tipo": "nao_divulgada",
+          "nota": "data a ser divulgada no novo cronograma anunciado pela Errata de 04/11/2026 e pelo Aviso de 05/11/2026; o item 11.1 do edital previa 30/11/2026 09:30 a 30/11/2026 13:30, data superada porque o certame deve começar pelo menos 30 dias depois do fim das inscrições (12/11/2026)"
         },
         "detalhe": {}
       },
@@ -43155,8 +43155,8 @@ window.CONCURSOS = [
         "tipo": "outra",
         "carater": "Eliminatória",
         "data": {
-          "tipo": "exata",
-          "valor": "2026-12-09"
+          "tipo": "nao_divulgada",
+          "nota": "data a ser divulgada no novo cronograma anunciado pela Errata de 04/11/2026 e pelo Aviso de 05/11/2026; o item 11.1 do edital previa 09/12/2026 às 09:00, data superada porque o certame deve começar pelo menos 30 dias depois do fim das inscrições (12/11/2026)"
         },
         "detalhe": {}
       },
@@ -43165,8 +43165,8 @@ window.CONCURSOS = [
         "tipo": "didatica",
         "carater": "Eliminatória",
         "data": {
-          "tipo": "exata",
-          "valor": "2026-12-04"
+          "tipo": "nao_divulgada",
+          "nota": "data a ser divulgada no novo cronograma anunciado pela Errata de 04/11/2026 e pelo Aviso de 05/11/2026; o item 11.1 do edital previa 04/12/2026 às 09:00, data superada porque o certame deve começar pelo menos 30 dias depois do fim das inscrições (12/11/2026)"
         },
         "detalhe": {
           "duracao": "De 50 a 60 minutos. Menos de 50 minutos elimina o candidato",
@@ -43200,8 +43200,8 @@ window.CONCURSOS = [
         "tipo": "titulos",
         "carater": "",
         "data": {
-          "tipo": "exata",
-          "valor": "2026-12-08"
+          "tipo": "nao_divulgada",
+          "nota": "data a ser divulgada no novo cronograma anunciado pela Errata de 04/11/2026 e pelo Aviso de 05/11/2026 (o certame deve começar pelo menos 30 dias depois do fim das inscrições, 12/11/2026)"
         },
         "detalhe": {}
       },
@@ -43210,16 +43210,12 @@ window.CONCURSOS = [
         "tipo": "resultado",
         "carater": "",
         "data": {
-          "tipo": "exata",
-          "valor": "2026-12-10"
+          "tipo": "nao_divulgada",
+          "nota": "data a ser divulgada no novo cronograma anunciado pela Errata de 04/11/2026 e pelo Aviso de 05/11/2026; o item 11.1 do edital previa 10/12/2026 às 17:00, data superada porque o certame deve começar pelo menos 30 dias depois do fim das inscrições (12/11/2026)"
         },
         "detalhe": {}
       }
     ],
-    "periodo_provas": {
-      "inicio": "2026-11-30",
-      "fim": "2026-12-04"
-    },
     "logo": "uerj.png",
     "formacoes_status": "nao_extraido",
     "familias": [],
