@@ -2,20 +2,7 @@
 
 83 concursos no dados.js gerado, 83 no publicado; 84 vieram das extrações.
 
-## O que muda no Radar em relação ao publicado (5 concursos)
-
-**ufrgs-09-2026**
-- Exame de Títulos e Trabalhos: nota da data alterada
-- editais alterado
-
-**ufsm-221-2026**
-- Prova Escrita: nota da data alterada
-
-**uerj-227-2026**
-- inscrição fim: 12/11/2026 → 30/11/2026
-
-**usp-ea-038-2026**
-- inscrição: abre_em_breve → aberta
+## O que muda no Radar em relação ao publicado (1 concursos)
 
 **furb-07-2026**
 - sai do Radar: resultado final em 08/10/2026, há mais de 30 dias (regra de 11/10/2026)
@@ -42,7 +29,7 @@ Já estavam no relatório anterior e seguem sem conferência.
 **unesp-assistente-2026**
 - vagas: o dados.js anterior dizia "1 vaga por edital, em 8 concursos independentes", a extração soma 8 (publicado o anterior)
 
-## Liberados após conferência (45 concursos)
+## Liberados após conferência (44 concursos)
 
 Conferidos nos documentos oficiais (compilador/liberados.json); o dados.js gerado publica o valor da extração.
 
@@ -165,9 +152,6 @@ Conferidos nos documentos oficiais (compilador/liberados.json); o dados.js gerad
 
 **uerj-255-2026**
 - texto corrigido após conferência (2026-11-08): campi
-
-**uerj-227-2026**
-- inscrição fim: dados.js anterior 12/11/2026, extração 30/11/2026 (liberado após conferência: publicada a extração)
 
 **ufrb-01-2026**
 - texto corrigido após conferência (2026-11-08): campi
