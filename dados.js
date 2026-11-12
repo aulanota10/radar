@@ -1,6 +1,6 @@
 // ═══════════════════════════════════════════════════════════════════════
 //  DADOS DO RADAR DE CONCURSOS · Aula Nota 10
-//  Última verificação: 11/11/2026
+//  Última verificação: 12/11/2026
 //
 //  ESTE É O ÚNICO ARQUIVO QUE VOCÊ PRECISA EDITAR PARA ATUALIZAR O SITE.
 //  Não mexa no index.html.
@@ -35,7 +35,7 @@
 // Gerado por compilar_radar.py a partir das extrações v2 (vigia-documentos/extracoes).
 // Para corrigir um dado, corrija a extração e rode o compilador de novo.
 
-window.RADAR_ATUALIZADO = "11/11/2026";
+window.RADAR_ATUALIZADO = "12/11/2026";
 
 window.CONCURSOS = [
   {
@@ -1498,7 +1498,7 @@ window.CONCURSOS = [
     "instituicao": "Universidade Federal do Rio Grande do Sul",
     "nivel": "Magistério Superior",
     "uf": "RS",
-    "numero_edital": "Edital nº 09/2026, publicado em 19/08/2026, com 20 documentos de alteração publicados depois",
+    "numero_edital": "Edital nº 09/2026, publicado em 19/08/2026, com 21 documentos de alteração publicados depois",
     "vagas": "20 vagas (10 ampla concorrência, 5 pretos, 1 indígena, 4 PcD)",
     "areas": "16 áreas, entre elas Antropologia, Subárea: Teoria Antropológica, Arquitetura e Urbanismo, Subárea: Projeto Arquitetônico: fundamentos e tecnologia, Ciências Agrárias, Subárea: Entomologia Agrícola, Ciências da Saúde/Medicina, Subárea: Anatomia Patológica e Patologia Clínica e Direito, Subárea: Direito Internacional Público",
     "campi": "Instituto de Filosofia e Ciências Humanas - Departamento de Antropologia, Faculdade de Arquitetura - Departamento de Arquitetura, Faculdade de Agronomia - Departamento de Fitossanidade e Faculdade de Medicina - Departamento de Patologia",
@@ -10921,7 +10921,7 @@ window.CONCURSOS = [
     "instituicao": "Instituto Federal de Educação, Ciência e Tecnologia do Sul de Minas Gerais",
     "nivel": "EBTT",
     "uf": "MG",
-    "numero_edital": "Edital nº 188/2026, publicado em 27/07/2026, com 10 documentos de alteração publicados depois",
+    "numero_edital": "Edital nº 188/2026, publicado em 27/07/2026, com 13 documentos de alteração publicados depois",
     "vagas": "19 vagas para Professor EBTT + cadastro de reserva",
     "areas": "15 áreas, entre elas Administração, Português/Espanhol, Zootecnia II - Suinocultura, Nutrição e Produção Animal, Informática e Biologia I",
     "campi": "Pouso Alegre/MG, Carmo de Minas, Inconfidentes, Machado e Muzambinho",
@@ -13333,7 +13333,7 @@ window.CONCURSOS = [
     "instituicao": "Fundação Universidade Regional do Cariri",
     "nivel": "Magistério Superior",
     "uf": "CE",
-    "numero_edital": "Edital nº 02/2026, publicado em 22/06/2026, com 6 documentos de alteração publicados depois",
+    "numero_edital": "Edital nº 02/2026, publicado em 22/06/2026, com 9 documentos de alteração publicados depois",
     "vagas": "26 vagas",
     "areas": "18 áreas, entre elas ASSISTÊNCIA EM ENFERMAGEM, CLÍNICA CIRÚRGICA/ ANATOMIA/ HISTOLOGIA/ SEMIOLOGIA/ INTERNATO, IMUNOLOGIA / MICROBIOLOGIA / PATOLOGIA CLÍNICA / INTERNATO, HISTOLOGIA E EMBRIOLOGIA / INFECTOLOGIA / ANATOMIA PATOLÓGICA / INTERNATO e CLÍNICA MÉDICA / ANESTESIA / SEMIOLOGIA/ FARMACOLOGIA / INTERNATO",
     "campi": "CCBS - ENFERMAGEM, CCBS - MEDICINA, CH - LÍNGUAS E LITERATURAS e CH - CIÊNCIAS SOCIAIS",
@@ -42750,7 +42750,7 @@ window.CONCURSOS = [
     "instituicao": "UNIVERSIDADE DA INTEGRAÇÃO INTERNACIONAL DA LUSOFONIA AFRO-BRASILEIRA",
     "nivel": "Magistério Superior",
     "uf": "CE",
-    "numero_edital": "Edital nº 14/2026, publicado em 01/10/2026, com 13 documentos de alteração publicados depois",
+    "numero_edital": "Edital nº 14/2026, publicado em 01/10/2026, com 15 documentos de alteração publicados depois",
     "vagas": "15 vagas",
     "areas": "9 áreas, entre elas Avaliação Nutricional e Nutrição Clínica, Fundamentos da Terapia Ocupacional, Atividades e Recursos Terapêuticos Ocupacionais, Práticas em Atenção Primária à Saúde/Semiologia Médica, Anatomia Humana e Cirurgia e Medicina Baseada em Evidências, Epidemiologia e Pesquisa Clínica",
     "campi": "Baturité/CE e São Francisco do Conde/BA",
@@ -42815,7 +42815,7 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2026-11-19",
           "fim": "2026-12-11",
-          "nota": "Datas por área: Avaliação Nutricional e Nutrição Clínica (Avaliação Nutricional e Nutrição Clínica): 11/12; Fundamentos da Terapia Ocupacional, Atividades e Recursos Terapêuticos Ocupacionais (Fundamentos da Terapia Ocupacional…): 11/12; Práticas em Atenção Primária à Saúde/Semiologia Médica (Práticas em Atenção Primária à…): 03/12; Anatomia Humana e Cirurgia (Anatomia Humana e Cirurgia): 03/12; Saúde da Mulher (Saúde da Mulher): 19/11; Métodos de Imagem (Métodos de Imagem): 19/11; Psiquiatria (Psiquiatria): 19/11; Saúde da Criança (Saúde da Criança): 27/11; Medicina Baseada em Evidências, Epidemiologia e Pesquisa Clínica (Medicina Baseada em Evidências…): 27/11"
+          "nota": "Datas por área: Avaliação Nutricional e Nutrição Clínica (Avaliação Nutricional e Nutrição Clínica): 11/12; Fundamentos da Terapia Ocupacional, Atividades e Recursos Terapêuticos Ocupacionais (Fundamentos da Terapia Ocupacional…): 11/12; Saúde da Mulher (Saúde da Mulher): 19/11; Métodos de Imagem (Métodos de Imagem): 19/11; Psiquiatria (Psiquiatria): 19/11; Saúde da Criança (Saúde da Criança): 27/11; Medicina Baseada em Evidências, Epidemiologia e Pesquisa Clínica (Medicina Baseada em Evidências…): 27/11; Práticas em Atenção Primária à Saúde/Semiologia Médica (Práticas em Atenção Primária à…): 03/12; Anatomia Humana e Cirurgia (Anatomia Humana e Cirurgia): 03/12"
         },
         "detalhe": {}
       }
@@ -45083,7 +45083,7 @@ window.CONCURSOS = [
     "instituicao": "Universidade Federal de Santa Maria",
     "nivel": "Magistério Superior",
     "uf": null,
-    "numero_edital": "Edital nº 252/2026, publicado em 03/11/2026",
+    "numero_edital": "Edital nº 252/2026, publicado em 03/11/2026, com 1 documento de alteração publicado depois",
     "vagas": "6 vagas",
     "areas": "Ciências Exatas e da Terra/ Ciência da Computação/ Metodologia e Técnicas da Computação, Linguística, Letras e Artes/ Artes/ Artes Plásticas/ Fotografia, Ciências Sociais Aplicadas/ Economia/ Crescimento e Desenvolvimento Econômico (ênfase em Macroeconomia), Ciências Exatas e da Terra/ Física/ Física Estatística e Termodinâmica e Ciências Exatas e da Terra/ Física/ Física Clássica e Física Quântica/ Mecânica e Campos",
     "campi": "Cachoeira do Sul e Santa Maria",
@@ -45385,7 +45385,7 @@ window.CONCURSOS = [
       {
         "nome": "Prova Escrita",
         "tipo": "discursiva",
-        "carater": "",
+        "carater": "Eliminatória e classificatória",
         "data": {
           "tipo": "nao_divulgada",
           "nota": "As provas deverão ocorrer em até 12 (doze) meses, a contar da publicação do Edital de Homologação das Inscrições."
@@ -45395,7 +45395,24 @@ window.CONCURSOS = [
       {
         "nome": "Prova de Didática",
         "tipo": "didatica",
-        "carater": "",
+        "carater": "Eliminatória e classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "As provas deverão ocorrer em até 12 (doze) meses, a contar da publicação do Edital de Homologação das Inscrições."
+        },
+        "detalhe": {
+          "duracao": "De 40 a 50 minutos. Menos de 40 minutos tem desconto na nota",
+          "arguicao": "Sim, por até 10 minutos, a critério da banca",
+          "sorteio": "Tema sorteado com 24 horas de antecedência",
+          "nota_minima": "7 em 10",
+          "criterios": "10 pontos: Capacidade de planejamento de aula 3.0; Conhecimento do tema da aula 3.0; Comunicação e síntese do assunto 4.0",
+          "recursos": "Fornecidos: equipamento de projeção multimídia (Datashow). O candidato pode usar recursos próprios (Caberá ao candidato decidir sobre a forma de abordagem e apresentação do tema escolhido, sendo-lhe facultado o uso de recursos audiovisuais). Caso opte pelo uso de outro tipo de recurso audiovisual, o mesmo deverá ser providenciado pelo próprio candidato; em caso de prova telepresencial, a convocação indicará a ferramenta e seu manual de uso (14.5.1); a responsabilidade pelo manuseio do equipamento e compatibilidade de softwares é do próprio candidato…"
+        }
+      },
+      {
+        "nome": "Prova de Defesa de Projeto de Pesquisa",
+        "tipo": "outra",
+        "carater": "Eliminatória e classificatória",
         "data": {
           "tipo": "nao_divulgada",
           "nota": "As provas deverão ocorrer em até 12 (doze) meses, a contar da publicação do Edital de Homologação das Inscrições."
@@ -45403,12 +45420,12 @@ window.CONCURSOS = [
         "detalhe": {}
       },
       {
-        "nome": "Prova de Defesa de Projeto de Pesquisa",
-        "tipo": "outra",
-        "carater": "",
+        "nome": "Prova de Análise de Currículo",
+        "tipo": "titulos",
+        "carater": "Classificatória",
         "data": {
           "tipo": "nao_divulgada",
-          "nota": "As provas deverão ocorrer em até 12 (doze) meses, a contar da publicação do Edital de Homologação das Inscrições."
+          "nota": "O edital ainda não fixou a data"
         },
         "detalhe": {}
       }
@@ -45428,6 +45445,275 @@ window.CONCURSOS = [
         "ufabc-53-2026"
       ],
       "extraido_em": "2026-11-09",
+      "em_conferencia": true
+    }
+  },
+  {
+    "id": "uerj-264-2026",
+    "sigla": "UERJ",
+    "instituicao": "Universidade do Estado do Rio de Janeiro",
+    "nivel": "Magistério Superior",
+    "uf": null,
+    "numero_edital": "",
+    "vagas": "1 vaga",
+    "areas": "Linguística Aplicada à Alfabetização e ao Letramento",
+    "campi": "Rio de Janeiro e Centro de Educação e Humanidades; Faculdade de Educação; Departamento de Estudos Aplicados ao Ensino",
+    "titulacao": "Doutorado",
+    "regime": "CH Semanal 40",
+    "remuneracao": "R$ 6.950,85 de vencimento básico em CH Semanal 40",
+    "banca": "Comissão própria da UERJ",
+    "link_oficial": "https://prossim.uerj.br/",
+    "inscricao": {
+      "inicio": "2026-11-09",
+      "fim": "2026-12-09",
+      "situacao": "aberta",
+      "taxa": "R$ 347,50"
+    },
+    "etapas": [
+      {
+        "nome": "PROVA ESCRITA",
+        "tipo": "discursiva",
+        "carater": "Eliminatória",
+        "data": {
+          "tipo": "exata",
+          "valor": "2027-02-15"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "PROVA DE AULA",
+        "tipo": "didatica",
+        "carater": "Eliminatória",
+        "data": {
+          "tipo": "exata",
+          "valor": "2027-02-18"
+        },
+        "detalhe": {
+          "duracao": "De 50 a 60 minutos. Menos de 50 minutos elimina o candidato",
+          "sorteio": "Tema sorteado com 24 horas de antecedência",
+          "nota_minima": "7 em 10",
+          "recursos": "O candidato pode usar recursos próprios (Compete ao candidato providenciar os recursos audiovisuais que pretenda utilizar na prova de aula e que não sejam disponibilizados pela Unidade)"
+        }
+      },
+      {
+        "nome": "JULGAMENTO DE TÍTULOS E TRABALHOS",
+        "tipo": "titulos",
+        "carater": "",
+        "data": {
+          "tipo": "exata",
+          "valor": "2027-02-19"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Resultado final",
+        "tipo": "resultado",
+        "carater": "",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "em até 07 dias úteis (o edital não diz a partir de quê)"
+        },
+        "detalhe": {}
+      }
+    ],
+    "periodo_provas": {
+      "inicio": "2027-02-15",
+      "fim": "2027-02-18"
+    },
+    "logo": "uerj.png",
+    "formacoes_status": "nao_extraido",
+    "familias": [],
+    "formacoes": [],
+    "familias_pos": [],
+    "areas_formacoes": [],
+    "observacao": "",
+    "detalhamento": "completo",
+    "avisos_edital": [],
+    "fonte_dados": {
+      "origem": "extracao_v2",
+      "extracoes": [
+        "uerj-264-2026"
+      ],
+      "extraido_em": "2026-11-12",
+      "em_conferencia": true
+    }
+  },
+  {
+    "id": "ufc-50-2026",
+    "sigla": "UFC",
+    "instituicao": "Universidade Federal do Ceará",
+    "nivel": "EBTT",
+    "uf": null,
+    "numero_edital": "Edital nº 50/2026/CCV/UFC",
+    "vagas": "5 vagas",
+    "areas": "Educação Infantil, Atendimento Educacional Especializado, Língua e Cultura Alemã, Língua e Cultura Italiana e Língua e Cultura Espanhola",
+    "campi": "Município de Fortaleza - Ceará, FACULDADE DE EDUCAÇÃO/CAMPUS DE FORTALEZA; Núcleo de Desenvolvimento da Criança (NDC CAp), CENTRO DE HUMANIDADES/CAMPUS DE FORTALEZA; Casa de Cultura Alemã, CENTRO DE HUMANIDADES/CAMPUS DE FORTALEZA; Casa de Cultura Italiana e CENTRO DE HUMANIDADES/CAMPUS DE FORTALEZA; Casa de Cultura Hispânica",
+    "titulacao": "Graduação",
+    "regime": "40 horas semanais com regime de dedicação exclusiva",
+    "remuneracao": "R$ 6.397,19 de vencimento básico em 40 horas semanais com regime de dedicação exclusiva",
+    "banca": "Comissão própria da UFC",
+    "link_oficial": "https://centraldeconcursos.fcpc.ufc.br",
+    "inscricao": {
+      "inicio": "2026-10-31",
+      "fim": "2026-11-10",
+      "situacao": "encerrada",
+      "taxa": "R$ 290,00"
+    },
+    "etapas": [
+      {
+        "nome": "Prova escrita dissertativa",
+        "tipo": "discursiva",
+        "carater": "Eliminatória e classificatória",
+        "data": {
+          "tipo": "exata",
+          "valor": "2026-12-06"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Prova didática",
+        "tipo": "didatica",
+        "carater": "Eliminatória e classificatória",
+        "data": {
+          "tipo": "periodo",
+          "valor": "2027-01-18",
+          "fim": "2027-01-21"
+        },
+        "detalhe": {
+          "duracao": "De 45 a 50 minutos. Fora desse intervalo há desconto na nota",
+          "arguicao": "Não há arguição",
+          "sorteio": "Tema sorteado com 24 horas de antecedência",
+          "nota_minima": "7 em 10",
+          "plano_de_aula": "Exigido: entregues no início da prova didática",
+          "recursos": "Proibidos, no que couber (item 15.10): iPod, smartphone, telefone celular, agenda eletrônica, mais 10 itens da mesma lista, relógio de qualquer espécie, óculos escuros, acessórios de chapelaria, tais como chapéu, boné, gorro, lápis, lapiseira (grafite), corretor líquido e borracha. Os recursos didáticos que poderão ser utilizados na prova, bem como a responsabilidade por sua disponibilização, serão informados pela CCV na página do certame ou no respectivo ato de convocação, devendo ser asseguradas condições uniformes aos candidatos concorrentes ao mesmo setor de estudos"
+        }
+      },
+      {
+        "nome": "Avaliação de títulos",
+        "tipo": "titulos",
+        "carater": "Classificatória",
+        "data": {
+          "tipo": "periodo",
+          "valor": "2027-02-01",
+          "fim": "2027-02-02"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Resultado final",
+        "tipo": "resultado",
+        "carater": "",
+        "data": {
+          "tipo": "exata",
+          "valor": "2027-02-22"
+        },
+        "detalhe": {}
+      }
+    ],
+    "periodo_provas": {
+      "inicio": "2026-12-06",
+      "fim": "2027-01-21"
+    },
+    "logo": "ufc.png",
+    "formacoes_status": "nao_extraido",
+    "familias": [],
+    "formacoes": [],
+    "familias_pos": [],
+    "areas_formacoes": [],
+    "observacao": "",
+    "detalhamento": "completo",
+    "avisos_edital": [],
+    "fonte_dados": {
+      "origem": "extracao_v2",
+      "extracoes": [
+        "ufc-50-2026"
+      ],
+      "extraido_em": "2026-11-12",
+      "em_conferencia": true
+    }
+  },
+  {
+    "id": "unesp-fmb-80-2026",
+    "sigla": "UNESP",
+    "instituicao": "Universidade Estadual Paulista \"Julio de Mesquita Filho\"",
+    "nivel": "Magistério Superior",
+    "uf": null,
+    "numero_edital": "Edital nº 80/2026, publicado em 28/09/2026",
+    "vagas": "1 vaga",
+    "areas": "conjunto de disciplinas \"Pediatria I e Pediatria II\"",
+    "campi": "Botucatu e Departamento de Pediatria, da Faculdade de Medicina, do Campus de Botucatu",
+    "titulacao": "",
+    "regime": "Regime de Dedicação Integral à Docência e à Pesquisa (RDIDP)",
+    "remuneracao": "",
+    "banca": "Comissão própria da UNESP",
+    "link_oficial": "https://inscricoes.unesp.br",
+    "inscricao": {
+      "inicio": "2026-10-01",
+      "fim": "2026-11-16",
+      "situacao": "aberta",
+      "taxa": "R$ 286,00"
+    },
+    "etapas": [
+      {
+        "nome": "Prova Didática",
+        "tipo": "didatica",
+        "carater": "",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {
+          "duracao": "De 50 a 60 minutos. Menos de 50 minutos elimina o candidato",
+          "criterios": "10 pontos: a. Planejamento e organização da aula até 2,0 pontos; b. Clareza expositiva até 2,0 pontos; c. Domínio teórico e conceitual do tema até 2,0 pontos; d. Profundidade na abordagem do tema até 2,0 pontos; e. Adequação da bibliografia sobre o tema até 2,0 pontos",
+          "plano_de_aula": "Exigido: documentos enviados por meio do sistema de inscrições, no endereço eletrônico https://inscricoes.unesp.br/, anexos ao pedido de inscrição do candidato, no…, entregues no ato da inscrição, com a indicação do ponto ou assunto e a bibliografia pertinente (4.2), mais envio digital em PDF, com limite de 300MB por arquivo"
+        }
+      },
+      {
+        "nome": "Prova de Arguição do Memorial",
+        "tipo": "memorial",
+        "carater": "",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Prova de Títulos - julgamento de Memorial Circunstanciado",
+        "tipo": "titulos",
+        "carater": "",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Resultado final",
+        "tipo": "resultado",
+        "carater": "",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "publicação no Diário Oficial do Estado, sem data no edital"
+        },
+        "detalhe": {}
+      }
+    ],
+    "logo": "unesp.png",
+    "formacoes_status": "nao_extraido",
+    "familias": [],
+    "formacoes": [],
+    "familias_pos": [],
+    "areas_formacoes": [],
+    "observacao": "",
+    "detalhamento": "completo",
+    "avisos_edital": [],
+    "fonte_dados": {
+      "origem": "extracao_v2",
+      "extracoes": [
+        "unesp-fmb-80-2026"
+      ],
+      "extraido_em": "2026-11-12",
       "em_conferencia": true
     }
   }
