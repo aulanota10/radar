@@ -1,37 +1,8 @@
 # Relatório do compilador do Radar · 12/11/2026
 
-86 concursos no dados.js gerado, 83 no publicado; 87 vieram das extrações.
+86 concursos no dados.js gerado, 86 no publicado; 87 vieram das extrações.
 
-## O que muda no Radar em relação ao publicado (10 concursos)
-
-**ufrgs-09-2026**
-- editais alterado
-
-**ifsuldeminas-188-2026**
-- editais alterado
-
-**urca-2026**
-- editais alterado
-
-**unilab-14-2026**
-- Resultado final: nota da data alterada
-- editais alterado
-
-**ufsm-252-2026**
-- editais: "Edital nº 252/2026, publicado em 03/11/2026" → "Edital nº 252/2026, publicado em 03/11/2026, com 1 documento de alteração publicado depois"
-
-**ufabc-53-2026**
-- Prova de Didática: detalhes alterados
-- etapa nova: Prova de Análise de Currículo (sem data)
-
-**uerj-264-2026**
-- concurso novo no Radar
-
-**ufc-50-2026**
-- concurso novo no Radar
-
-**unesp-fmb-80-2026**
-- concurso novo no Radar
+## O que muda no Radar em relação ao publicado (1 concursos)
 
 **furb-07-2026**
 - sai do Radar: resultado final em 08/10/2026, há mais de 30 dias (regra de 11/10/2026)
