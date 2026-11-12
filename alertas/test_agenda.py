@@ -608,6 +608,14 @@ class CotaEComissao(unittest.TestCase):
                                     "descricao_literal": "Divulgação preliminar das inscrições deferidas e do resultado da autodeclaração"}))
         self.assertFalse(A.so_cota({"tipo_evento": "inscricao", "descricao_literal": "Inscrições, com autodeclaração para as vagas reservadas"}))
 
+    def test_inscritos_nas_vagas_e_sistema_de_inscricao_nao_misturam(self):  # IFSULDEMINAS 188, conferência de 12/11/2026
+        self.assertTrue(A.so_cota({"tipo_evento": "recurso", "descricao_literal":
+                                   "Recurso contra o Resultado do Procedimento de Confirmação da Autodeclaração para candidatos inscritos nas vagas para Pessoas Pretas ou Pardas"}))
+        self.assertTrue(A.so_cota({"tipo_evento": "recurso", "descricao_literal":
+                                   "Recursos contra o Resultado Preliminar da Confirmação Complementar à Autodeclaração de Pessoas Pretas ou Pardas, pelo sistema de inscrição, no período de 12/11/2026 a 13/11/2026"}))
+        # a lista de inscrições continua sendo de todos
+        self.assertFalse(A.so_cota({"tipo_evento": "recurso", "descricao_literal": "Recurso contra a lista de inscrições e o resultado da autodeclaração"}))
+
     def test_avaliacao_recursal_e_da_comissao(self):  # IFMG 1077 e IFMG 2026
         self.assertTrue(A.interno_da_comissao({"tipo_evento": "outro", "descricao_literal": "(período para) Avaliação recursal dos " + self.LIT_COTA}))
         self.assertTrue(A.interno_da_comissao({"tipo_evento": "outro", "descricao_literal": "(período para) Avaliação Recursal de Confirmação Complementar da Autodeclaração"}))

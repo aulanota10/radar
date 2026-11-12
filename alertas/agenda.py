@@ -103,6 +103,9 @@ NAO_PUBLICA = re.compile(r"n[ãa]o p[úu]blica", re.I)
 TIPOS_COTA_PELO_TEXTO = {"recurso", "recurso_resultado", "outro"}
 COTA_TEXTO = re.compile(r"autodeclara[çc][ãa]o|heteroidentifica|equipe multidisciplinar|biopsicossocial", re.I)
 COTA_MISTO = re.compile(r"memorial|prova|t[íi]tulo|did[áa]tica|inscri|pontua|homologa", re.I)
+# Conferência de 12/11/2026 (IFSULDEMINAS 188): "candidatos inscritos nas vagas para Pessoas Pretas ou Pardas" e
+# "pelo sistema de inscrição" não misturam outra etapa; só dizem quem recorre e por onde. Saem antes do teste.
+COTA_NAO_MISTO = re.compile(r"inscrit[oa]s?\s+(?:nas|para\s+as|às)\s+vagas|sistema\s+de\s+inscri[çc][ãa]o", re.I)
 INTERNO_DA_COMISSAO = re.compile(r"^\W*(?:\(per[ií]odo para\)\s*)?avalia[çc][ãa]o recursal\b", re.I)
 
 
@@ -138,7 +141,8 @@ def so_cota(e):
     lit = e.get("descricao_literal") or ""
     if e.get("tipo_evento") == "procedimento_cotas":
         return True
-    return e.get("tipo_evento") in TIPOS_COTA_PELO_TEXTO and bool(COTA_TEXTO.search(lit)) and not COTA_MISTO.search(lit)
+    return e.get("tipo_evento") in TIPOS_COTA_PELO_TEXTO and bool(COTA_TEXTO.search(lit)) \
+        and not COTA_MISTO.search(COTA_NAO_MISTO.sub(" ", lit))
 
 
 def interno_da_comissao(e):
