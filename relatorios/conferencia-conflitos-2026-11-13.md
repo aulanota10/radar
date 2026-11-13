@@ -11,3 +11,5 @@ A Rodada diária do Radar de hoje não tinha rodado até 13h53 de Fortaleza: rel
 ## Para o Samuel
 
 nenhum
+
+Rodada de publicação: https://github.com/aulanota10/radar/pull/30, mesclado automaticamente: sim
