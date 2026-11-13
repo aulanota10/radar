@@ -278,5 +278,15 @@
     ],
     "conferido_em": "2026-11-10",
     "evidencia": "Errata de 04/11/2026 (aviso_1826_1793823095, item 11.1, letras a e h): inscrições prorrogadas até 12/11/2026, lista de inscritos e comissão examinadora em 20/11/2026 às 19h, e \"conforme o edital, o início do certame deverá ocorrer pelo menos 30 dias após o término das inscrições. Desta forma, as demais alterações no cronograma serão divulgadas em breve\"; o Aviso de 05/11/2026 (aviso_1826_1793890462) repete que o novo cronograma será divulgado. As datas das letras i a s do item 11.1 do edital (provas de 30/11 a 09/12, resultado final em 10/12/2026) estão superadas e ficam sem data até o novo cronograma. Conferência dos alertas de 09/11/2026; correção na extração em 10/11/2026 pelo relatório diário da cadeia, por delegação geral do Samuel."
+  },
+  "uerj-258-2026": {
+    "campos": [
+      "PROVA ESCRITA",
+      "PROVA DE AULA",
+      "JULGAMENTO DE TÍTULOS E TRABALHOS",
+      "inscrição fim"
+    ],
+    "conferido_em": "2026-11-13",
+    "evidencia": "Edital do Instituto de Aplicação Fernando Rodrigues da Silveira no DOERJ nº 205 de 10/11/2026, p. 37 (aviso_1857_1794500442, PROSSIM): novo calendário com sorteio e prova escrita em 14/12/2026, prova de aula em 17/12 e 18/12/2026 às 9h e entrega de Títulos e Trabalhos em 18/12/2026 às 17h. Edital de alteração de item, novo cronograma do item 11.1 (edital_1857_1794500457, PROSSIM, 12/11/2026): confirma essas datas, letras j, p e r, e as inscrições até as 23h59 de 26/11/2026 (letra a e cabeçalho \"Inscrições: 19/10/2026 a 26/11/2026\"), depois do aviso de prorrogação (aviso_1857_1794227066)."
   }
 }
