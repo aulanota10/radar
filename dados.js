@@ -1,6 +1,6 @@
 // ═══════════════════════════════════════════════════════════════════════
 //  DADOS DO RADAR DE CONCURSOS · Aula Nota 10
-//  Última verificação: 12/11/2026
+//  Última verificação: 13/11/2026
 //
 //  ESTE É O ÚNICO ARQUIVO QUE VOCÊ PRECISA EDITAR PARA ATUALIZAR O SITE.
 //  Não mexa no index.html.
@@ -35,7 +35,7 @@
 // Gerado por compilar_radar.py a partir das extrações v2 (vigia-documentos/extracoes).
 // Para corrigir um dado, corrija a extração e rode o compilador de novo.
 
-window.RADAR_ATUALIZADO = "12/11/2026";
+window.RADAR_ATUALIZADO = "13/11/2026";
 
 window.CONCURSOS = [
   {
@@ -1498,7 +1498,7 @@ window.CONCURSOS = [
     "instituicao": "Universidade Federal do Rio Grande do Sul",
     "nivel": "Magistério Superior",
     "uf": "RS",
-    "numero_edital": "Edital nº 09/2026, publicado em 19/08/2026, com 21 documentos de alteração publicados depois",
+    "numero_edital": "Edital nº 09/2026, publicado em 19/08/2026, com 22 documentos de alteração publicados depois",
     "vagas": "20 vagas (10 ampla concorrência, 5 pretos, 1 indígena, 4 PcD)",
     "areas": "16 áreas, entre elas Antropologia, Subárea: Teoria Antropológica, Arquitetura e Urbanismo, Subárea: Projeto Arquitetônico: fundamentos e tecnologia, Ciências Agrárias, Subárea: Entomologia Agrícola, Ciências da Saúde/Medicina, Subárea: Anatomia Patológica e Patologia Clínica e Direito, Subárea: Direito Internacional Público",
     "campi": "Instituto de Filosofia e Ciências Humanas - Departamento de Antropologia, Faculdade de Arquitetura - Departamento de Arquitetura, Faculdade de Agronomia - Departamento de Fitossanidade e Faculdade de Medicina - Departamento de Patologia",
@@ -20837,142 +20837,6 @@ window.CONCURSOS = [
     }
   },
   {
-    "id": "ufrgs-08-2026",
-    "sigla": "UFRGS",
-    "instituicao": "Universidade Federal do Rio Grande do Sul",
-    "nivel": "Magistério Superior",
-    "uf": "RS",
-    "numero_edital": "Edital nº 08/2026, publicado em 02/06/2026, com 12 documentos de alteração publicados depois",
-    "vagas": "15 vagas",
-    "areas": "15 áreas, entre elas Artes Visuais, Subárea: Ensino de Artes Visuais, Ciência do Solo, Subárea: Química do Solo, Cinética, Catálise e Cálculo de Reatores Químicos, Educação, Subárea: Ensino de Alfabetização e Estratigrafia Sedimentar",
-    "campi": "Instituto de Artes - Departamento de Artes Visuais, Faculdade de Agronomia - Departamento de Solos, Escola de Engenharia - Departamento de Engenharia Química e Faculdade de Educação - Departamento de Ensino e Currículo",
-    "titulacao": "Doutorado",
-    "regime": "Dedicação Exclusiva",
-    "remuneracao": "R$ 6.397,19 de vencimento básico em Dedicação Exclusiva (DE), chegando a R$ 13.753,96 com a maior titulação",
-    "banca": "Comissão própria da UFRGS",
-    "link_oficial": "https://www.ufrgs.br/progesp/edital-08-2026-concurso-publico-docente/",
-    "inscricao": {
-      "inicio": "2026-06-10",
-      "fim": "2026-06-24",
-      "situacao": "encerrada",
-      "taxa": "R$ 262,00"
-    },
-    "etapas": [
-      {
-        "nome": "Prova Escrita",
-        "tipo": "discursiva",
-        "carater": "Eliminatória e classificatória",
-        "data": {
-          "tipo": "periodo",
-          "valor": "2026-08-17",
-          "fim": "2026-09-21",
-          "nota": "Datas por área: 1.2.2 (Ciência do Solo, Subárea: Química do Solo) e 1.2.7 (Conhecimento: Estruturas, Subárea: Pontes): 17/08; 1.2.8 (Farmácia, Subárea: Análises clínicas…): 18/08; 1.2.9 (Fonoaudiologia, Subárea: Linguagem): 24/08; 1.2.3 (Cinética, Catálise e Cálculo de Reatores…) e 1.2.6 (Estruturas, Subárea: Estruturas Mistas de…): 25/08; 1.2.5 (Estratigrafia Sedimentar): 31/08; 1.2.4 (Educação, Subárea: Ensino de Alfabetização) e 1.2.15 (Química Inorgânica Medicinal): 01/09; 1.2.10 (Forrageiras, Subárea: Produção e Tecnologia…) e 1.2.13 (Medicina Veterinária, Subárea: Clínica de…): 08/09; 1.2.1 (Artes Visuais, Subárea: Ensino de Artes…) e 1.2.11 (História, Subárea: História da América…): 14/09; 1.2.14 (Psicologia Social e Institucional, Subárea…): 15/09; 1.2.12 (Materiais para a Engenharia Química): 21/09; demais áreas: sem data (em prazo não inferior a 30 (trinta) dias, contados da data de publicação do presente Edital no Diário Oficial da União)"
-        },
-        "detalhe": {
-          "nota_minima": "7,0"
-        }
-      },
-      {
-        "nome": "Prova Prática",
-        "tipo": "outra",
-        "carater": "Eliminatória e classificatória",
-        "data": {
-          "tipo": "exata",
-          "valor": "2026-10-09"
-        },
-        "detalhe": {}
-      },
-      {
-        "nome": "Prova Didática",
-        "tipo": "didatica",
-        "carater": "Eliminatória e classificatória",
-        "data": {
-          "tipo": "periodo",
-          "valor": "2026-08-25",
-          "fim": "2026-10-21",
-          "nota": "Datas por área: 1.2.2 (Ciência do Solo, Subárea: Química do Solo): 25/08; 1.2.8 (Farmácia, Subárea: Análises clínicas…): 26/08 a 27/08; 1.2.3 (Cinética, Catálise e Cálculo de Reatores…) e 1.2.9 (Fonoaudiologia, Subárea: Linguagem): 02/09; 1.2.7 (Conhecimento: Estruturas, Subárea: Pontes): 03/09; 1.2.5 (Estratigrafia Sedimentar): 10/09; 1.2.10 (Forrageiras, Subárea: Produção e Tecnologia…): 13/09; 1.2.4 (Educação, Subárea: Ensino de Alfabetização): 15/09 a 16/09; 1.2.6 (Estruturas, Subárea: Estruturas Mistas de…): 22/09; 1.2.11 (História, Subárea: História da América…): 23/09; 1.2.1 (Artes Visuais, Subárea: Ensino de Artes…): 24/09 a 25/09; 1.2.13 (Medicina Veterinária, Subárea: Clínica de…) e 1.2.15 (Química Inorgânica Medicinal): 08/10; 1.2.14 (Psicologia Social e Institucional, Subárea…): 16/10; 1.2.12 (Materiais para a Engenharia Química): 21/10"
-        },
-        "detalhe": {
-          "duracao": "Aula de 35 a 55 minutos, pela Resolução 93/2021 do CONSUN. Fora do intervalo, desconto de 0,10 ponto por minuto. Passando 10 minutos do teto, a banca interrompe a exposição",
-          "nota_minima": "7,0. É corte próprio da didática: nota menor que 7,0 aqui reprova, mesmo com média geral suficiente",
-          "criterios": "Quatro critérios obrigatórios: adequação científica, técnica ou artística do tema à área; domínio do tema; capacidade de organizar ideias com objetividade, rigor lógico e espírito crítico; e clareza didática. Cada Departamento pode atribuir ponderação própria, que então consta do edital",
-          "peso": "No desempate, a prova didática é o primeiro critério considerado, à frente de títulos e da prova escrita",
-          "sorteio": "NÃO HÁ SORTEIO. O tema é de LIVRE ESCOLHA do candidato, dentro do programa estabelecido pelo Departamento. O título e o resumo da aula são entregues antes, pelo sistema eletrônico, na data do cronograma",
-          "arguicao": "Não há arguição na aula. A arguição é da Produção Intelectual e, em dedicação exclusiva, do projeto de pesquisa ou de extensão, em etapa separada",
-          "modalidade": "Presencial e pública, na unidade da vaga, gravada para registro e avaliação. Quem não estiver presente no horário de início não faz a prova",
-          "plano_de_aula": "Não há plano de aula no dia. O que se entrega antes, pelo sistema, é o TÍTULO e o RESUMO da prova didática, junto com o currículo documentado e o projeto"
-        }
-      },
-      {
-        "nome": "Projeto de Pesquisa ou de Extensão (avaliado na Defesa da Produção Intelectual)",
-        "tipo": "outra",
-        "carater": "",
-        "data": {
-          "tipo": "nao_divulgada",
-          "nota": "O edital ainda não fixou a data"
-        },
-        "detalhe": {}
-      },
-      {
-        "nome": "Exame de Títulos e Trabalhos",
-        "tipo": "titulos",
-        "carater": "Classificatória",
-        "data": {
-          "tipo": "periodo",
-          "valor": "2026-08-23",
-          "fim": "2026-10-19",
-          "nota": "Datas por área: 1.2.2 (Ciência do Solo, Subárea: Química do Solo): 23/08; 1.2.8 (Farmácia, Subárea: Análises clínicas…): 24/08 a 25/08; 1.2.3 (Cinética, Catálise e Cálculo de Reatores…) e 1.2.9 (Fonoaudiologia, Subárea: Linguagem): 01/09; 1.2.7 (Conhecimento: Estruturas, Subárea: Pontes): 02/09; 1.2.5 (Estratigrafia Sedimentar): 08/09; 1.2.10 (Forrageiras, Subárea: Produção e Tecnologia…): 13/09; 1.2.4 (Educação, Subárea: Ensino de Alfabetização): 15/09; 1.2.6 (Estruturas, Subárea: Estruturas Mistas de…) e 1.2.11 (História, Subárea: História da América…): 21/09; 1.2.1 (Artes Visuais, Subárea: Ensino de Artes…): 21/09 a 22/09; 1.2.15 (Química Inorgânica Medicinal): 06/10; 1.2.13 (Medicina Veterinária, Subárea: Clínica de…): 07/10; 1.2.14 (Psicologia Social e Institucional, Subárea…): 14/10 a 15/10; 1.2.12 (Materiais para a Engenharia Química): 19/10"
-        },
-        "detalhe": {}
-      },
-      {
-        "nome": "Defesa da Produção Intelectual",
-        "tipo": "outra",
-        "carater": "Eliminatória e classificatória",
-        "data": {
-          "tipo": "periodo",
-          "valor": "2026-08-24",
-          "fim": "2026-10-20",
-          "nota": "Datas por área: 1.2.2 (Ciência do Solo, Subárea: Química do Solo): 24/08; 1.2.8 (Farmácia, Subárea: Análises clínicas…): 25/08 a 26/08; 1.2.3 (Cinética, Catálise e Cálculo de Reatores…): 02/09; 1.2.7 (Conhecimento: Estruturas, Subárea: Pontes) e 1.2.9 (Fonoaudiologia, Subárea: Linguagem): 03/09; 1.2.5 (Estratigrafia Sedimentar): 09/09; 1.2.10 (Forrageiras, Subárea: Produção e Tecnologia…): 14/09; 1.2.4 (Educação, Subárea: Ensino de Alfabetização): 16/09 a 17/09; 1.2.6 (Estruturas, Subárea: Estruturas Mistas de…) e 1.2.11 (História, Subárea: História da América…): 22/09; 1.2.1 (Artes Visuais, Subárea: Ensino de Artes…): 23/09 a 24/09; 1.2.15 (Química Inorgânica Medicinal): 07/10; 1.2.13 (Medicina Veterinária, Subárea: Clínica de…): 08/10; 1.2.14 (Psicologia Social e Institucional, Subárea…): 17/10 a 18/10; 1.2.12 (Materiais para a Engenharia Química): 20/10"
-        },
-        "detalhe": {}
-      },
-      {
-        "nome": "Resultado final",
-        "tipo": "resultado",
-        "carater": "",
-        "data": {
-          "tipo": "periodo",
-          "valor": "2026-10-07",
-          "fim": "2026-10-13",
-          "nota": "Datas por área: 1.2.7 (Conhecimento: Estruturas, Subárea: Pontes): 07/10; 1.2.10 (Forrageiras, Subárea: Produção e Tecnologia…): 13/10; demais áreas: sem data"
-        },
-        "detalhe": {}
-      }
-    ],
-    "periodo_provas": {
-      "inicio": "2026-08-17",
-      "fim": "2026-10-21"
-    },
-    "logo": "ufrgs.png",
-    "formacoes_status": "nao_extraido",
-    "familias": [],
-    "formacoes": [],
-    "familias_pos": [],
-    "areas_formacoes": [],
-    "observacao": "Mesma regra do Edital 09/2026, pela Resolução 93/2021: o tema da aula é de livre escolha do candidato, sem sorteio, e o título e o resumo vão antes pelo sistema. Dá para escolher o terreno onde você é mais forte. Tempo de 35 a 55 minutos, com desconto de 0,10 por minuto fora do intervalo. Corte de 7,0 na própria didática, e no desempate ela é o primeiro critério, à frente de títulos e da escrita. Os cronogramas saem por área na PROGESP e faltar a qualquer prova elimina.",
-    "detalhamento": "completo",
-    "avisos_edital": [],
-    "fonte_dados": {
-      "origem": "extracao_v2",
-      "extracoes": [
-        "ufrgs-08-2026"
-      ],
-      "extraido_em": "2026-10-02",
-      "em_conferencia": true
-    }
-  },
-  {
     "id": "ifmg-2026",
     "sigla": "IFMG",
     "instituicao": "Instituto Federal de Educação, Ciência e Tecnologia de Minas Gerais",
@@ -33408,7 +33272,7 @@ window.CONCURSOS = [
     "instituicao": "Universidade Federal de Santa Maria",
     "nivel": "Magistério Superior",
     "uf": "RS",
-    "numero_edital": "Edital nº 198/2026, publicado em 29/06/2026, com 1 documento de alteração publicado depois",
+    "numero_edital": "Edital nº 198/2026, publicado em 29/06/2026, com 3 documentos de alteração publicados depois",
     "vagas": "8 vagas",
     "areas": "7 áreas, entre elas Ciências Agrárias/ Medicina Veterinária/ Clínica e Cirurgia Animal (Ênfase em Medicina de Ruminantes), Engenharias/ Engenharia Sanitária, Ciências Exatas e da Terra/ Matemática, Multidisciplinar/Ensino/ Ensino de Ciências e Matemática e Ciências Exatas e da Terra/ Geociências/ Micrometeorologia",
     "campi": "Santa Maria",
@@ -33454,9 +33318,9 @@ window.CONCURSOS = [
         "carater": "Eliminatória e classificatória",
         "data": {
           "tipo": "periodo",
-          "valor": "2026-11-17",
+          "valor": "2026-11-19",
           "fim": "2027-03-02",
-          "nota": "Datas por área: 03 (Ciências Exatas e da Terra/ Matemática): 17/11; 04 (Multidisciplinar/Ensino/ Ensino de Ciências…): 23/11; 05 (Ciências Exatas e da Terra/ Geociências/…): 30/11; 06 (Ciências Exatas e da Terra/ Geociências/…): 02/03; demais áreas: sem data (O cronograma de cada etapa do certame será publicado e atualizado na página do concurso)"
+          "nota": "Datas por área: 03 (Ciências Exatas e da Terra/ Matemática): 19/11; 04 (Multidisciplinar/Ensino/ Ensino de Ciências…): 24/11; 05 (Ciências Exatas e da Terra/ Geociências/…): 30/11; 02 (Engenharias/ Engenharia Sanitária): 26/02; 06 (Ciências Exatas e da Terra/ Geociências/…): 02/03; demais áreas: sem data (O cronograma de cada etapa do certame será publicado e atualizado na página do concurso)"
         },
         "detalhe": {
           "duracao": "Aula de no mínimo 40 e no máximo 50 minutos",
@@ -33474,7 +33338,7 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2026-11-17",
           "fim": "2027-03-02",
-          "nota": "Datas por área: 03 (Ciências Exatas e da Terra/ Matemática): 17/11; 04 (Multidisciplinar/Ensino/ Ensino de Ciências…): 23/11; 05 (Ciências Exatas e da Terra/ Geociências/…): 30/11; 06 (Ciências Exatas e da Terra/ Geociências/…): 02/03; demais áreas: sem data (O cronograma de cada etapa do certame será publicado e atualizado na página do concurso)"
+          "nota": "Datas por área: 03 (Ciências Exatas e da Terra/ Matemática): 17/11; 04 (Multidisciplinar/Ensino/ Ensino de Ciências…): 23/11; 05 (Ciências Exatas e da Terra/ Geociências/…): 30/11; 02 (Engenharias/ Engenharia Sanitária): 26/02; 06 (Ciências Exatas e da Terra/ Geociências/…): 02/03; demais áreas: sem data (O cronograma de cada etapa do certame será publicado e atualizado na página do concurso)"
         },
         "detalhe": {}
       },
@@ -37958,7 +37822,7 @@ window.CONCURSOS = [
     "instituicao": "Universidade Federal de Pelotas",
     "nivel": "Magistério Superior",
     "uf": "RS",
-    "numero_edital": "Edital nº 028/2026, publicado em 14/09/2026, com 30 documentos de alteração publicados depois",
+    "numero_edital": "Edital nº 028/2026, publicado em 14/09/2026, com 31 documentos de alteração publicados depois",
     "vagas": "32 vagas, com 40% reservadas a negros, indígenas e quilombolas e 5% a pessoas com deficiência",
     "areas": "28 áreas, entre elas Mercadologia, Teoria da Computação, Ciência da Computação, Processamento de Sinais e Eletrônica e Irrigação e Drenagem",
     "campi": "Pelotas e/ou proximidades",
@@ -42548,7 +42412,7 @@ window.CONCURSOS = [
     "banca": "Comissão própria da UFV",
     "link_oficial": "https://www.ufv.br/soc",
     "inscricao": {
-      "situacao": "aberta",
+      "situacao": "encerrada",
       "taxa": "R$ 120,75. Inscrição pelo sistema GPS da UFV",
       "inicio": "2026-09-28",
       "fim": "2026-11-12"
@@ -42750,7 +42614,7 @@ window.CONCURSOS = [
     "instituicao": "UNIVERSIDADE DA INTEGRAÇÃO INTERNACIONAL DA LUSOFONIA AFRO-BRASILEIRA",
     "nivel": "Magistério Superior",
     "uf": "CE",
-    "numero_edital": "Edital nº 14/2026, publicado em 01/10/2026, com 15 documentos de alteração publicados depois",
+    "numero_edital": "Edital nº 14/2026, publicado em 01/10/2026, com 16 documentos de alteração publicados depois",
     "vagas": "15 vagas",
     "areas": "9 áreas, entre elas Avaliação Nutricional e Nutrição Clínica, Fundamentos da Terapia Ocupacional, Atividades e Recursos Terapêuticos Ocupacionais, Práticas em Atenção Primária à Saúde/Semiologia Médica, Anatomia Humana e Cirurgia e Medicina Baseada em Evidências, Epidemiologia e Pesquisa Clínica",
     "campi": "Baturité/CE e São Francisco do Conde/BA",
@@ -44153,7 +44017,7 @@ window.CONCURSOS = [
     "instituicao": "UNIVERSIDADE FEDERAL DE VIÇOSA",
     "nivel": "Magistério Superior",
     "uf": null,
-    "numero_edital": "Edital nº 59/2026, publicado em 15/10/2026, com 1 documento de alteração publicado depois",
+    "numero_edital": "Edital nº 59/2026, publicado em 15/10/2026, com 2 documentos de alteração publicados depois",
     "vagas": "1 vaga",
     "areas": "Jornalismo Audiovisual e Jornalismo de Dados",
     "campi": "Departamento de Comunicação Social, do Centro de Ciências Humanas, Letras e Artes",
@@ -44421,7 +44285,7 @@ window.CONCURSOS = [
     "instituicao": "Universidade Federal de Ciências da Saúde de Porto Alegre",
     "nivel": "Magistério Superior",
     "uf": null,
-    "numero_edital": "Edital nº 118/2026, publicado em 26/10/2026, com 1 documento de alteração publicado depois",
+    "numero_edital": "Edital nº 118/2026, publicado em 26/10/2026, com 2 documentos de alteração publicados depois",
     "vagas": "10 vagas",
     "areas": "9 áreas, entre elas Gerenciamento em Enfermagem, Fisiologia Humana, Fonoaudiologia - Motricidade Orofacial, Fonoaudiologia - Saúde Coletiva e Pediatria Geral",
     "campi": "Departamento de Enfermagem, Departamento de Ciências Básicas da Saúde, Departamento de Fonoaudiologia e Departamento de Pediatria",
@@ -45003,7 +44867,7 @@ window.CONCURSOS = [
     "link_oficial": "https://prossim.uerj.br/",
     "inscricao": {
       "inicio": "2026-10-19",
-      "fim": "2026-11-19",
+      "fim": "2026-11-26",
       "situacao": "aberta",
       "taxa": "R$ 347,55"
     },
@@ -45014,7 +44878,7 @@ window.CONCURSOS = [
         "carater": "Eliminatória",
         "data": {
           "tipo": "exata",
-          "valor": "2026-12-07"
+          "valor": "2026-12-14"
         },
         "detalhe": {}
       },
@@ -45024,8 +44888,8 @@ window.CONCURSOS = [
         "carater": "Eliminatória",
         "data": {
           "tipo": "periodo",
-          "valor": "2026-12-10",
-          "fim": "2026-12-11"
+          "valor": "2026-12-17",
+          "fim": "2026-12-18"
         },
         "detalhe": {
           "duracao": "De 50 a 60 minutos. Menos de 50 minutos elimina o candidato",
@@ -45040,7 +44904,7 @@ window.CONCURSOS = [
         "carater": "",
         "data": {
           "tipo": "exata",
-          "valor": "2026-12-11"
+          "valor": "2026-12-18"
         },
         "detalhe": {}
       },
@@ -45056,8 +44920,8 @@ window.CONCURSOS = [
       }
     ],
     "periodo_provas": {
-      "inicio": "2026-12-07",
-      "fim": "2026-12-11"
+      "inicio": "2026-12-14",
+      "fim": "2026-12-18"
     },
     "logo": "uerj.png",
     "formacoes_status": "nao_extraido",
@@ -45714,6 +45578,97 @@ window.CONCURSOS = [
         "unesp-fmb-80-2026"
       ],
       "extraido_em": "2026-11-12",
+      "em_conferencia": true
+    }
+  },
+  {
+    "id": "uerj-1865-2026",
+    "sigla": "UERJ",
+    "instituicao": "Universidade do Estado do Rio de Janeiro",
+    "nivel": "Magistério Superior",
+    "uf": null,
+    "numero_edital": "",
+    "vagas": "1 vaga",
+    "areas": "Estatística aplicada à Epidemiologia",
+    "campi": "Rio de Janeiro e Centro Biomédico; Instituto de Medicina Social Hesio Cordeiro; Departamento de Epidemiologia",
+    "titulacao": "Doutorado",
+    "regime": "CH Semanal 40",
+    "remuneracao": "R$ 6.950,85 de vencimento básico em CH Semanal 40",
+    "banca": "Comissão própria da UERJ",
+    "link_oficial": "https://prossim.uerj.br/",
+    "inscricao": {
+      "inicio": "2026-11-01",
+      "fim": "2027-01-20",
+      "situacao": "aberta",
+      "taxa": "R$ 347,54. Pedido de isenção de 01/11 a 10/01"
+    },
+    "etapas": [
+      {
+        "nome": "PROVA ESCRITA",
+        "tipo": "discursiva",
+        "carater": "Eliminatória",
+        "data": {
+          "tipo": "exata",
+          "valor": "2027-03-01"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "PROVA DE AULA",
+        "tipo": "didatica",
+        "carater": "Eliminatória",
+        "data": {
+          "tipo": "exata",
+          "valor": "2027-03-04"
+        },
+        "detalhe": {
+          "duracao": "De 50 a 60 minutos. Fora desse intervalo há desconto na nota",
+          "sorteio": "Tema sorteado com 24 horas de antecedência",
+          "nota_minima": "8 em 10",
+          "criterios": "1. COMUNICAÇÃO Máximo: 1; 2. 2.1. ATUALIZAÇÃO; 2.2. PROFUNDIDADE DO CONHECIMENTO… Máximo: 5; 3. 3.1. FLUÊNCIA / LINGUAGEM; 3.2. DIDÁTICA (contextualização da… Máximo: 4; Tempo: DURAÇÃO DA AULA (perda de meio ponto (0,5) por minuto excedido… penalidade de perda de meio ponto (0,5) por minuto excedido ou faltante",
+          "recursos": "O candidato pode usar recursos próprios (Compete ao candidato providenciar os recursos audiovisuais que pretenda utilizar na prova de aula e que não sejam disponibilizados pela Unidade)"
+        }
+      },
+      {
+        "nome": "JULGAMENTO DE TÍTULOS E TRABALHOS",
+        "tipo": "titulos",
+        "carater": "Classificatória",
+        "data": {
+          "tipo": "exata",
+          "valor": "2027-03-05"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Resultado final",
+        "tipo": "resultado",
+        "carater": "",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "em até 07 dias úteis (o edital não diz a partir de quê)"
+        },
+        "detalhe": {}
+      }
+    ],
+    "periodo_provas": {
+      "inicio": "2027-03-01",
+      "fim": "2027-03-04"
+    },
+    "logo": "uerj.png",
+    "formacoes_status": "nao_extraido",
+    "familias": [],
+    "formacoes": [],
+    "familias_pos": [],
+    "areas_formacoes": [],
+    "observacao": "",
+    "detalhamento": "completo",
+    "avisos_edital": [],
+    "fonte_dados": {
+      "origem": "extracao_v2",
+      "extracoes": [
+        "uerj-1865-2026"
+      ],
+      "extraido_em": "2026-11-13",
       "em_conferencia": true
     }
   }
