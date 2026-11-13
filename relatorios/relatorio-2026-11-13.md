@@ -2,45 +2,13 @@
 
 86 concursos no dados.js gerado, 86 no publicado; 88 vieram das extrações.
 
-## O que muda no Radar em relação ao publicado (11 concursos)
-
-**ufrgs-09-2026**
-- editais alterado
-
-**ufsm-198-2026**
-- Prova Didática: 17/11/2026 a 02/03/2027 → 19/11/2026 a 02/03/2027
-- Prova de Defesa de Produção Intelectual: nota da data alterada
-- editais alterado
-
-**ufpel-028-2026**
-- editais alterado
-
-**ufv-48-49-2026**
-- inscrição: aberta → encerrada
-
-**unilab-14-2026**
-- editais alterado
-
-**ufv-59-2026**
-- editais alterado
-
-**ufcspa-118-2026**
-- editais alterado
-
-**uerj-258-2026**
-- inscrição fim: 19/11/2026 → 26/11/2026
-- PROVA ESCRITA: 07/12/2026 → 14/12/2026
-- PROVA DE AULA: 10/12/2026 a 11/12/2026 → 17/12/2026 a 18/12/2026
-- JULGAMENTO DE TÍTULOS E TRABALHOS: 11/12/2026 → 18/12/2026
-
-**uerj-1865-2026**
-- concurso novo no Radar
-
-**ufrgs-08-2026**
-- sai do Radar: resultado final em 13/10/2026, há mais de 30 dias (regra de 11/10/2026)
+## O que muda no Radar em relação ao publicado (2 concursos)
 
 **furb-07-2026**
 - sai do Radar: resultado final em 08/10/2026, há mais de 30 dias (regra de 11/10/2026)
+
+**ufrgs-08-2026**
+- sai do Radar: resultado final em 13/10/2026, há mais de 30 dias (regra de 11/10/2026)
 
 ## Prova didática já terminou (12 concursos)
 
@@ -118,7 +86,6 @@ Conferidos nos documentos oficiais (compilador/liberados.json); o dados.js gerad
 - texto corrigido após conferência (2026-11-08): campi
 
 **ufsm-198-2026**
-- Prova Didática: dados.js anterior 17/11/2026 a 02/03/2027, extração 19/11/2026 a 02/03/2027 (liberado após conferência: publicada a extração)
 - texto corrigido após conferência (2026-11-08): campi
 
 **uema-2026**
@@ -210,10 +177,6 @@ Conferidos nos documentos oficiais (compilador/liberados.json); o dados.js gerad
 - texto corrigido após conferência (2026-11-08): campi
 
 **uerj-258-2026**
-- PROVA ESCRITA: dados.js anterior 07/12/2026, extração 14/12/2026 (liberado após conferência: publicada a extração)
-- PROVA DE AULA: dados.js anterior 10/12/2026 a 11/12/2026, extração 17/12/2026 a 18/12/2026 (liberado após conferência: publicada a extração)
-- JULGAMENTO DE TÍTULOS E TRABALHOS: dados.js anterior 11/12/2026, extração 18/12/2026 (liberado após conferência: publicada a extração)
-- inscrição fim: dados.js anterior 19/11/2026, extração 26/11/2026 (liberado após conferência: publicada a extração)
 - texto corrigido após conferência (2026-11-08): campi
 
 **ufsm-252-2026**
