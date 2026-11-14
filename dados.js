@@ -1,6 +1,6 @@
 // ═══════════════════════════════════════════════════════════════════════
 //  DADOS DO RADAR DE CONCURSOS · Aula Nota 10
-//  Última verificação: 13/11/2026
+//  Última verificação: 14/11/2026
 //
 //  ESTE É O ÚNICO ARQUIVO QUE VOCÊ PRECISA EDITAR PARA ATUALIZAR O SITE.
 //  Não mexa no index.html.
@@ -35,7 +35,7 @@
 // Gerado por compilar_radar.py a partir das extrações v2 (vigia-documentos/extracoes).
 // Para corrigir um dado, corrija a extração e rode o compilador de novo.
 
-window.RADAR_ATUALIZADO = "13/11/2026";
+window.RADAR_ATUALIZADO = "14/11/2026";
 
 window.CONCURSOS = [
   {
@@ -41808,7 +41808,7 @@ window.CONCURSOS = [
     "inscricao": {
       "inicio": "2026-10-13",
       "fim": "2026-11-13",
-      "situacao": "aberta",
+      "situacao": "encerrada",
       "taxa": "R$ 250,00"
     },
     "etapas": [
@@ -45152,7 +45152,7 @@ window.CONCURSOS = [
     "inscricao": {
       "inicio": "2026-10-29",
       "fim": "2026-11-13",
-      "situacao": "aberta",
+      "situacao": "encerrada",
       "taxa": "R$ 261,81"
     },
     "etapas": [
