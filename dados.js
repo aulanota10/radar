@@ -45884,5 +45884,113 @@ window.CONCURSOS = [
       "extraido_em": "2026-11-15",
       "em_conferencia": true
     }
+  },
+  {
+    "id": "unilab-15-2026",
+    "sigla": "UNILAB",
+    "instituicao": "UNIVERSIDADE DA INTEGRAÇÃO INTERNACIONAL DA LUSOFONIA AFRO-BRASILEIRA",
+    "nivel": "Magistério Superior",
+    "uf": "CE",
+    "numero_edital": "Edital nº 15/2026, publicado em 09/11/2026, com 1 documento de alteração publicado depois",
+    "vagas": "16 vagas",
+    "areas": "14 áreas, entre elas Circuitos Eletroeletrônicos e Sistemas Digitais, Contabilidade Societária, Contabilidade Tributária e Prática Contábil, Fundamentos do Serviço Social, Instrumentalidade e Processo de Trabalho e Fisiologia Humana",
+    "campi": "Baturité/CE, Redenção/CE, Acarape/CE, Instituto de Engenharias e Desenvolvimento Sustentável - IEDS, Instituto de Ciências Sociais Aplicadas - ICSA e Instituto de Ciências da Saúde - ICS",
+    "titulacao": "Conforme a área",
+    "regime": "40 horas com Dedicação Exclusiva, 40 horas e 40 horas com dedicação exclusiva",
+    "remuneracao": "R$ 6.397,19 de vencimento básico em 40 horas DE, chegando a R$ 13.753,96 com a maior titulação",
+    "banca": "Comissão própria da UNILAB",
+    "link_oficial": null,
+    "inscricao": {
+      "inicio": "2026-11-10",
+      "fim": "2026-12-09",
+      "situacao": "aberta",
+      "taxa": "R$ 190,00"
+    },
+    "etapas": [
+      {
+        "nome": "Prova escrita",
+        "tipo": "discursiva",
+        "carater": "Eliminatória",
+        "data": {
+          "tipo": "periodo",
+          "valor": "2027-01-05",
+          "fim": "2027-01-18",
+          "nota": "Datas por área: Fundamentos do Serviço Social…: 05/01; Histologia e Embriologia Humana, Neurociências, Cinesiologia e Biomecânica…, Bases Biológicas, Neurociências e Linguagem… e Bases Morfofuncionais e Oncologia: 06/01; Contabilidade Societária, Fisiologia Humana, Anatomia Humana, Métodos de Imagem, Nutrição em Saúde Coletiva e Comportamento…, Biologia Celular e Molecular, Histologia e… e Bioquímica: 11/01; Contabilidade Tributária e Prática Contábil: 12/01; Circuitos Eletroeletrônicos e Sistemas…: 18/01"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Prova didática",
+        "tipo": "didatica",
+        "carater": "Eliminatória",
+        "data": {
+          "tipo": "periodo",
+          "valor": "2027-01-13",
+          "fim": "2027-01-20",
+          "nota": "Datas por área: Fundamentos do Serviço Social…: 13/01 a 14/01; Contabilidade Societária: 14/01; Histologia e Embriologia Humana, Neurociências, Cinesiologia e Biomecânica…, Bases Biológicas, Neurociências e Linguagem… e Bases Morfofuncionais e Oncologia: 14/01 a 15/01; Contabilidade Tributária e Prática Contábil: 15/01; Fisiologia Humana, Anatomia Humana, Métodos de Imagem, Nutrição em Saúde Coletiva e Comportamento…, Biologia Celular e Molecular, Histologia e… e Bioquímica: 19/01 a 20/01"
+        },
+        "detalhe": {
+          "duracao": "De 45 a 50 minutos. Cumprir o tempo conta na avaliação da banca",
+          "sorteio": "Tema sorteado com 24 horas de antecedência",
+          "criterios": "Domínio do Conteúdo Pontuação máxima: 6; Coerência entre o tema, os objetivos previstos no plano de aula e os… Pontuação máxima: 1; Desempenho didático e utilização adequada do tempo Pontuação máxima: 1; Comunicação, Clareza, Pertinência e Objetividade Pontuação máxima: 1; Estruturação do Plano de Aula Pontuação máxima: 1",
+          "recursos": "O candidato pode usar recursos próprios (Na prova didática, poderão ser utilizados, para apresentação e exposição de conteúdo, quaisquer recursos audiovisuais, competindo ao candidato providenciar, por seus próprios meios, a obtenção, instalação e manuseio do equipamento necessário)"
+        }
+      },
+      {
+        "nome": "Avaliação de títulos",
+        "tipo": "titulos",
+        "carater": "Classificatória",
+        "data": {
+          "tipo": "periodo",
+          "valor": "2027-01-14",
+          "fim": "2027-01-15",
+          "nota": "Datas por área: Contabilidade Societária: 14/01; Contabilidade Tributária e Prática Contábil: 15/01"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Entrevista",
+        "tipo": "outra",
+        "carater": "",
+        "data": {
+          "tipo": "exata",
+          "valor": "2027-01-18"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Resultado final",
+        "tipo": "resultado",
+        "carater": "",
+        "data": {
+          "tipo": "periodo",
+          "valor": "2027-01-21",
+          "fim": "2027-02-01",
+          "nota": "Datas por área: Contabilidade Societária: 21/01; Contabilidade Tributária e Prática Contábil: 22/01; Fundamentos do Serviço Social…: 29/01; Fisiologia Humana: 01/02; Anatomia Humana: 01/02; Métodos de Imagem: 01/02; Histologia e Embriologia Humana: 27/01; Neurociências, Cinesiologia e Biomecânica…: 27/01; Nutrição em Saúde Coletiva e Comportamento…: 01/02; Biologia Celular e Molecular, Histologia e…: 01/02; Bioquímica: 01/02; Bases Biológicas, Neurociências e Linguagem…: 27/01; Bases Morfofuncionais e Oncologia: 27/01; demais áreas: sem data"
+        },
+        "detalhe": {}
+      }
+    ],
+    "periodo_provas": {
+      "inicio": "2027-01-05",
+      "fim": "2027-01-20"
+    },
+    "logo": "unilab.png",
+    "formacoes_status": "nao_extraido",
+    "familias": [],
+    "formacoes": [],
+    "familias_pos": [],
+    "areas_formacoes": [],
+    "observacao": "",
+    "detalhamento": "completo",
+    "avisos_edital": [],
+    "fonte_dados": {
+      "origem": "extracao_v2",
+      "extracoes": [
+        "unilab-15-2026"
+      ],
+      "extraido_em": "2026-11-15",
+      "em_conferencia": true
+    }
   }
 ];
