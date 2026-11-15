@@ -175,6 +175,11 @@ def detalhe_gerado(chave, x):
         return False
     if chave == "plano_de_aula":
         return x == "Exigido" or x.startswith("Exigido: ")
+    if chave == "duracao":
+        # Conferência de 15/11/2026 (UFJ 05 e outros 16): o texto antigo do mínimo e máximo ("Menos de 40 minutos
+        # tem desconto na nota") dizia menos que o edital; a montagem nova o substitui.
+        return bool(re.fullmatch(r"De \d+ a \d+ minutos\. (?:Menos de \d+ minutos tem desconto na nota"
+                                 r"|Fora desse intervalo há desconto na nota)", x))
     if chave == "criterios":
         # Itens que já terminavam em ";" davam ";;" na junção (corrigido em 05/11/2026).
         return ";;" in x
@@ -276,6 +281,13 @@ def rotulos_de_escopo(ext, em_pacote):
                or (vg.get("codigo") or {}).get("literal") or "")
         literal = ((vg.get("codigo") or {}).get("literal") or cod).strip()
         area = encurta((vg.get("area_conhecimento") or "").strip().rstrip("."), 45)
+        area_inteira = (vg.get("area_conhecimento") or "").strip().rstrip(".")
+        if not em_pacote and area and literal and (literal.rstrip(".") == area_inteira or area_inteira.startswith(literal.rstrip("."))
+                                                   or literal.startswith(area_inteira)):
+            # Conferência de 15/11/2026 (UFJ 05, UFG 22, UNILAB 14): sem código no quadro de vagas, o literal é o nome
+            # da área, e o rótulo saía "Comunicação Social (Comunicação Social)"
+            rot[cod] = area
+            continue
         rot[cod] = f"{num_ed} ({area})" if em_pacote else (f"{literal} ({area})" if area else literal)
     return rot
 
@@ -517,7 +529,26 @@ def detalhe_didatica(ext):
                 # desconto, e o Radar não deve inventá-lo (auditoria de 04/11/2026).
                 t += ". Se passar do tempo, a banca pode interromper a aula"
             elif v(tempo.get("piso_penalidade_min")) == minimo:
-                if isinstance(cons, str) and re.search(r"superior|exced|acima", cons, re.I):
+                # Conferência de 15/11/2026 (UFJ 05 e outros 16): "limites", "não cumprimento do período",
+                # "inobservância da duração mínima e máxima" valem para os dois lados; nota zero não é desconto.
+                c = cons if isinstance(cons, str) else ""
+                zero = re.search(r"\bzero\b", c, re.I) and not re.search(r"zero\)?\s+ao\s+item", c, re.I)
+                interr = v(tempo.get("interrupcao_min"))
+                if zero and re.search(r"limites|inobserv|n[ãa]o\s+sendo\s+cumprid|m[íi]nim[oa]\s+e\s+m[áa]xim", c, re.I):
+                    t += ". Fora desse intervalo a nota da prova é zero"
+                elif zero and re.search(r"aqu[ée]m|antes|inferior|menos\s+de", c, re.I):
+                    t += f". Terminar antes de {minimo} minutos dá nota zero na prova"
+                    if interr:
+                        t += f". Aos {interr} minutos a banca interrompe"
+                elif re.search(r"n[ãa]o\s+ser[áa]\s+admitida\s+a\s+extrapola", c, re.I):
+                    t += f". Menos de {minimo} minutos tem desconto na nota, e não se pode passar de {maximo}"
+                elif re.search(r"n[ãa]o\s+(?:acarretar[áa][^.;]*|)\s*(?:elimin|desclassific|anula)|n[ãa]o\s+eliminar[áa]", c, re.I):
+                    t += f". Ficar abaixo de {minimo} ou passar de {maximo} não elimina, mas é penalizado pela banca"
+                elif re.search(r"crit[ée]rio|aspecto|pontua|avaliad", c, re.I) and not re.search(r"subtra|descont", c, re.I):
+                    t += ". Cumprir o tempo conta na avaliação da banca"
+                    if re.search(r"interromp", c, re.I):
+                        t += f". Se passar de {maximo} minutos, a banca pode interromper a aula"
+                elif re.search(r"superior|exced|acima|limites|inobserv|m[íi]nim[oa]\s+e\s+m[áa]xim|n[ãa]o\s+cumpri|tempo\s+estabelecido", c, re.I):
                     t += ". Fora desse intervalo há desconto na nota"
                 else:
                     t += f". Menos de {minimo} minutos tem desconto na nota"
@@ -851,7 +882,16 @@ def compila_grupo(id_radar, exts, atual, hoje, validador=None, conservador=False
                            or (a.get("documento") or {}).get("numero_literal"))
                           for a in base.get("alteracoes") or [])
         if docs_alt:
-            n = len(docs_alt)
+            # Conferência de 15/11/2026 (UFJ 05): a versão consolidada aplica as Retificações nº 01 e nº 02 e é um
+            # documento só; conta as retificações que o numero_literal nomeia
+            lits = {}
+            for a in base.get("alteracoes") or []:
+                d_ = a.get("documento") or {}
+                k = d_.get("caminho") or d_.get("numero_literal")
+                lit = d_.get("numero_literal") or ""
+                m = re.match(r"\s*Retifica[çc][õo]es\s+((?:n[ºo°]\s*\d+[\s,e]*)+)", lit, re.I)
+                lits[k] = max(lits.get(k, 1), len(re.findall(r"n[ºo°]\s*\d+", m.group(1))) if m else 1)
+            n = sum(lits.get(k, 1) for k in docs_alt)
             t += f", com {n} documento{'s' if n > 1 else ''} de alteração publicado{'s' if n > 1 else ''} depois"
         novo["numero_edital"] = t
     else:

@@ -420,6 +420,47 @@
    "por": "Jataí/GO",
    "evidencia": "Unidades das vagas nas extrações (ufj-05-2026): os campi Riachuelo e Jatobá ficam em Jataí/GO. Correção pontual dos locais pedida pelo Samuel em 08/11/2026.",
    "conferido_em": "2026-11-08"
+  },
+  {
+   "campo": "inscricao.taxa",
+   "texto": "R$ 290,00 (R$ 160,00 em Tradução e Interpretação Libras/Língua Portuguesa)",
+   "evidencia": "Edital Específico nº 05/2026 consolidado, item 2.1, tabela de taxas: R$ 290,00 (DE, doutorado) e R$ 160,00 (DE, especialização, Anexo XI); extração ufj-05-2026, inscrição por escopo.",
+   "conferido_em": "2026-11-15"
+  },
+  {
+   "campo": "etapa:Prova Didática:arguicao",
+   "texto": "Sim, por até 15 minutos, com igual tempo para responder",
+   "evidencia": "Edital de Condições Gerais nº 04/2026, item 12.19.5: arguição de até 15 minutos, assegurado à pessoa candidata igual período para responder.",
+   "conferido_em": "2026-11-15"
+  },
+  {
+   "campo": "etapa:Prova Didática:recursos",
+   "texto": "O candidato pode usar os recursos que levar. A UFJ não fornece projetor nem computador, exceto nas quatro áreas do ICET (Física Computacional, Dados em Inteligência Artificial, Ciências dos Materiais e Processos Industriais), que têm projetor",
+   "evidencia": "Normas Complementares, item 2.2.6 dos Anexos I a XI e 2.2.7 dos Anexos XII a XVII (a unidade não disponibilizará projetor nem computador); Anexos V a VIII, item 2.2.6 (o ICET disponibilizará projetor, mas não computador); extração ufj-05-2026, didatica.por_escopo[4] a [7].",
+   "conferido_em": "2026-11-15"
+  },
+  {
+   "campo": "etapa:Prova de Títulos:data",
+   "valor": {
+    "tipo": "periodo",
+    "valor": "2026-12-21",
+    "fim": "2026-12-22",
+    "nota": "A análise é feita durante a prova didática, sem sessão pública. O Lattes e os comprovantes são enviados em PDF único no ato da inscrição"
+   },
+   "evidencia": "Edital de Condições Gerais nº 04/2026, item 12.20.1 (análise concomitante à prova didática, em sessão não pública) e itens 3.3 a 3.5 (Lattes e comprovantes na inscrição); didática em 21/12 (Anexos VI e VIII) e 22/12 (demais), pelos cronogramas das Normas Complementares.",
+   "conferido_em": "2026-11-15"
+  },
+  {
+   "campo": "etapa:Prova Escrita:duracao",
+   "texto": "4 horas",
+   "evidencia": "Edital de Condições Gerais nº 04/2026, item 12.2; Normas Complementares, item 2.1 de cada anexo; extração ufj-05-2026, módulo escrita.",
+   "conferido_em": "2026-11-15"
+  },
+  {
+   "campo": "etapa:Prova Escrita:formato",
+   "texto": "Online, pela plataforma Exam.net com o Safe Exam Browser, em 15 áreas. Em Ciências dos Materiais e Processos Industriais é presencial em Jataí, com 1 hora de consulta a material impresso",
+   "evidencia": "Edital de Condições Gerais nº 04/2026, itens 12.2 e 12.17; Anexos VI e VIII, item 2.1.1 (prova escrita presencial com 1 hora de consulta a material impresso aprovado pela banca).",
+   "conferido_em": "2026-11-15"
   }
  ],
  "uerj-258-2026": [

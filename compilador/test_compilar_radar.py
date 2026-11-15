@@ -208,3 +208,35 @@ class Cosmeticos0511(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class ConferenciaUFJ15nov(unittest.TestCase):
+    """Conferência da ficha da UFJ 05 em 15/11/2026."""
+
+    @staticmethod
+    def did(cons):
+        return {"didatica": {"padrao": {"pdd": {"tempo": {
+            "piso_penalidade_min": {"valor": 40}, "teto_min": {"valor": 50},
+            "consequencia_fora_da_tolerancia": {"valor": cons}}}}}}
+
+    def test_limites_nos_dois_lados(self):
+        d = cr.detalhe_didatica(self.did("O desrespeito aos limites de 40 e 50 minutos não acarretará, por si só, "
+                                         "a anulação da prova, nem a desclassificação, mas será penalizado"))
+        self.assertEqual(d["duracao"], "De 40 a 50 minutos. Ficar abaixo de 40 ou passar de 50 não elimina, "
+                                       "mas é penalizado pela banca")
+
+    def test_nota_zero_nao_e_desconto(self):
+        d = cr.detalhe_didatica(self.did("Não sendo cumpridos os limites de tempo, será atribuída nota 0 (zero)"))
+        self.assertEqual(d["duracao"], "De 40 a 50 minutos. Fora desse intervalo a nota da prova é zero")
+
+    def test_texto_antigo_do_minimo_e_gerado(self):
+        self.assertTrue(cr.detalhe_gerado("duracao", "De 40 a 50 minutos. Menos de 40 minutos tem desconto na nota"))
+        self.assertFalse(cr.detalhe_gerado("duracao", "De 40 a 50 minutos, com arguição"))
+
+    def test_rotulo_sem_codigo_nao_repete_a_area(self):
+        ext = {"_slug": "ufj-05-2026", "numero_edital": {"valor": "05/2026"},
+               "vagas": [{"codigo": {"literal": "Comunicação Social"}, "area_conhecimento": "Comunicação Social"},
+                         {"codigo": {"numero": "07"}, "area_conhecimento": "Química"}]}
+        rot = cr.rotulos_de_escopo(ext, False)
+        self.assertEqual(rot["Comunicação Social"], "Comunicação Social")
+        self.assertEqual(rot["07"], "07 (Química)")
