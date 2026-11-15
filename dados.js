@@ -45792,5 +45792,97 @@ window.CONCURSOS = [
       "extraido_em": "2026-11-15",
       "em_conferencia": true
     }
+  },
+  {
+    "id": "ufv-61-2026",
+    "sigla": "UFV",
+    "instituicao": "UNIVERSIDADE FEDERAL DE VIÇOSA",
+    "nivel": "Magistério Superior",
+    "uf": null,
+    "numero_edital": "Edital nº 61/2026, publicado em 04/11/2026, com 1 documento de alteração publicado depois",
+    "vagas": "1 vaga",
+    "areas": "Língua Brasileira de Sinais",
+    "campi": "Departamento de Letras, do Centro de Ciências Humanas, Letras e Artes",
+    "titulacao": "Doutorado",
+    "regime": "Dedicação Exclusiva (DE)",
+    "remuneracao": "R$ 6.397,19 de vencimento básico em Dedicação Exclusiva (DE)",
+    "banca": "Comissão própria da UFV",
+    "link_oficial": "https://www.ufv.br/soc",
+    "inscricao": {
+      "situacao": "consultar",
+      "taxa": "R$ 120,75. Inscrições por 30 dias corridos a contar da publicação do edital no DOU de 04/11/2026; confira a data final no edital"
+    },
+    "etapas": [
+      {
+        "nome": "Prova de Conhecimento",
+        "tipo": "discursiva",
+        "carater": "Eliminatória e classificatória",
+        "data": {
+          "tipo": "exata",
+          "valor": "2027-01-11"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Prova de Didática",
+        "tipo": "didatica",
+        "carater": "Eliminatória e classificatória",
+        "data": {
+          "tipo": "exata",
+          "valor": "2027-01-13",
+          "nota": "Data provável, pelo edital"
+        },
+        "detalhe": {
+          "duracao": "50 minutos, com tolerância de 10 para mais ou para menos",
+          "arguicao": "Não há arguição",
+          "sorteio": "Tema sorteado com 24 horas de antecedência",
+          "nota_minima": "7 em 10",
+          "criterios": "10 pontos: I - Foco no ponto sorteado, aspecto passível de eliminação do…; II - Atualidade e exatidão de conteúdo, conceitos e informações; III - Coerência das estratégias didáticas com os objetivos e…; IV - Domínio do tema, segurança e clareza na apresentação da aula; V - Adequação na distribuição do tempo para abordagem dos tópicos da…; VI - Qualidade e utilização eficiente dos recursos didáticos; VII - Capacidade de análise e síntese do conteúdo tratado; VIII - Utilização de exemplos significativos",
+          "recursos": "Fornecidos: retroprojetor, projetor (tipo data show), quadro de giz ou quadro branco e computador. Proibidos: outro material didático diferente daquele entregue ao presidente da Banca. O candidato pode usar recursos próprios (todos os candidatos entregarão ao presidente da Banca todos os recursos didáticos para uso na prova de didática, inclusive dispositivos eletrônicos ou computador pessoal, se for o caso)"
+        }
+      },
+      {
+        "nome": "Prova de Defesa de Projeto em Pesquisa e Extensão",
+        "tipo": "outra",
+        "carater": "Eliminatória e classificatória",
+        "data": {
+          "tipo": "exata",
+          "valor": "2027-01-15",
+          "nota": "Data provável, pelo edital"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Prova de Títulos",
+        "tipo": "titulos",
+        "carater": "Classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {}
+      }
+    ],
+    "periodo_provas": {
+      "inicio": "2027-01-11",
+      "fim": "2027-01-13"
+    },
+    "logo": "ufv.png",
+    "formacoes_status": "nao_extraido",
+    "familias": [],
+    "formacoes": [],
+    "familias_pos": [],
+    "areas_formacoes": [],
+    "observacao": "",
+    "detalhamento": "completo",
+    "avisos_edital": [],
+    "fonte_dados": {
+      "origem": "extracao_v2",
+      "extracoes": [
+        "ufv-61-2026"
+      ],
+      "extraido_em": "2026-11-15",
+      "em_conferencia": true
+    }
   }
 ];
