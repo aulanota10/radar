@@ -1,76 +1,11 @@
 # Relatório do compilador do Radar · 15/11/2026
 
-87 concursos no dados.js gerado, 87 no publicado; 89 vieram das extrações.
+88 concursos no dados.js gerado, 87 no publicado; 90 vieram das extrações.
 
-## O que muda no Radar em relação ao publicado (20 concursos)
+## O que muda no Radar em relação ao publicado (3 concursos)
 
-**ufsm-221-2026**
-- Prova Didática: detalhes alterados
-
-**uesc-050-2026**
-- Prova Didática (Aula Pública): detalhes alterados
-
-**usp-fm-152-168-2026**
-- Prova didática: detalhes alterados
-
-**ufrn-108-2026**
-- Prova Didática: detalhes alterados
-
-**ufrn-109-2026**
-- Prova Didática: detalhes alterados
-
-**ifmg-1077-2026**
-- Prova de Desempenho Didático: detalhes alterados
-
-**unilab-14-2026**
-- Prova escrita: nota da data alterada
-- Prova didática: nota da data alterada
-- Prova didática: detalhes alterados
-- Avaliação de títulos: nota da data alterada
-- Resultado final: nota da data alterada
-
-**usp-iau-03-2026**
-- Prova didática: detalhes alterados
-
-**ufg-22-2026**
-- Prova Escrita ou Teórico-Prática: nota da data alterada
-- Prova Didática: nota da data alterada
-- Prova Didática: detalhes alterados
-- Defesa de Memorial: nota da data alterada
-- Avaliação de Títulos: nota da data alterada
-
-**ufrb-01-2026**
-- Prova Didática (PD): detalhes alterados
-
-**ufu-156-2026**
-- Prova didática: detalhes alterados
-
-**unesp-fct-463-2026**
-- Prova didática: detalhes alterados
-
-**usp-fcf-050-2026**
-- Prova didática: detalhes alterados
-
-**ufcspa-118-2026**
-- Prova Didática: detalhes alterados
-
-**ufg-20-2026**
-- Prova Didática: detalhes alterados
-
-**ufj-05-2026**
-- taxa de inscrição alterada
-- Prova Escrita: nota da data alterada
-- Prova Escrita: detalhes alterados
-- Prova Didática: nota da data alterada
-- Prova Didática: detalhes alterados
-- Prova de Títulos: sem data → 21/12/2026 a 22/12/2026
-- editais alterado
-
-**ufsm-252-2026**
-- Prova Didática: detalhes alterados
-
-**ufabc-53-2026**
-- Prova de Didática: detalhes alterados
+**ufv-61-2026**
+- concurso novo no Radar
 
 **furb-07-2026**
 - sai do Radar: resultado final em 08/10/2026, há mais de 30 dias (regra de 11/10/2026)
@@ -259,14 +194,7 @@ Conferidos nos documentos oficiais (compilador/liberados.json); o dados.js gerad
 **ufc-52-2026**
 - texto corrigido após conferência (2026-11-15): campi
 
-## Dados novos trazidos pela extração (1 concursos)
-
-Etapas que estavam sem data no Radar e agora têm data publicada.
-
-**ufj-05-2026**
-- Prova de Títulos agora tem data: 21/12/2026 a 22/12/2026
-
-## Mantido do dados.js anterior (24 concursos)
+## Mantido do dados.js anterior (25 concursos)
 
 A extração não trouxe o dado e o Radar já tinha. Vale completar a extração.
 
@@ -347,6 +275,9 @@ A extração não trouxe o dado e o Radar já tinha. Vale completar a extração
 
 **ufcspa-118-2026**
 - inscrição taxa mantida do dados.js anterior (de R$ 160,00 a R$ 200,00, conforme a área. Pedido de isenção de 03/11 a 04/11)
+
+**ufj-05-2026**
+- data de Prova de Títulos mantida do dados.js anterior (21/12/2026 a 22/12/2026); a extração não a encontrou
 
 **ufc-52-2026**
 - inscrição taxa mantida do dados.js anterior (de R$ 290,00 a R$ 395,00, conforme a área. Pedido de isenção de 17/11 a 18/11)
