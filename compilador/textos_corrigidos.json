@@ -439,5 +439,14 @@
    "evidencia": "Unidades das vagas nas extrações (ufsm-252-2026): as 4 unidades são de Cachoeira do Sul e Santa Maria. Correção pontual dos locais pedida pelo Samuel em 08/11/2026.",
    "conferido_em": "2026-11-08"
   }
+ ],
+ "ufc-52-2026": [
+  {
+   "campo": "campi",
+   "trocar": "Município de Fortaleza - Ceará, CENTRO DE CIÊNCIAS / CAMPUS DE FORTALEZA; Departamento de Matemática, INSTITUTO DE EDUCAÇÃO FÍSICA E ESPORTE; Instituto de Educação Física e Esporte, FACULDADE DE MEDICINA / CAMPUS DE FORTALEZA; Departamento de Saúde da Mulher, da Criança e do Adolescente-DSMCA e CAMPUS DE ITAPAJÉ; Campus de Itapajé",
+   "por": "Fortaleza, Itapajé e Sobral",
+   "evidencia": "Quadro de vagas do item 3.3 do Edital nº 52/2026/CCV/UFC (DOU de 13/11/2026, p. 3 e 4): vagas nos campi de Fortaleza (Centro de Ciências, IEFES e Faculdade de Medicina), Itapajé e Sobral. O texto compilado listava unidades de Fortaleza e Itapajé e deixava Sobral de fora. Correção feita na primeira publicação, a pedido do Samuel, em 15/11/2026.",
+   "conferido_em": "2026-11-15"
+  }
  ]
 }
