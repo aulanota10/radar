@@ -1,6 +1,6 @@
 // ═══════════════════════════════════════════════════════════════════════
 //  DADOS DO RADAR DE CONCURSOS · Aula Nota 10
-//  Última verificação: 14/11/2026
+//  Última verificação: 15/11/2026
 //
 //  ESTE É O ÚNICO ARQUIVO QUE VOCÊ PRECISA EDITAR PARA ATUALIZAR O SITE.
 //  Não mexa no index.html.
@@ -35,7 +35,7 @@
 // Gerado por compilar_radar.py a partir das extrações v2 (vigia-documentos/extracoes).
 // Para corrigir um dado, corrija a extração e rode o compilador de novo.
 
-window.RADAR_ATUALIZADO = "14/11/2026";
+window.RADAR_ATUALIZADO = "15/11/2026";
 
 window.CONCURSOS = [
   {
@@ -1498,7 +1498,7 @@ window.CONCURSOS = [
     "instituicao": "Universidade Federal do Rio Grande do Sul",
     "nivel": "Magistério Superior",
     "uf": "RS",
-    "numero_edital": "Edital nº 09/2026, publicado em 19/08/2026, com 22 documentos de alteração publicados depois",
+    "numero_edital": "Edital nº 09/2026, publicado em 19/08/2026, com 23 documentos de alteração publicados depois",
     "vagas": "20 vagas (10 ampla concorrência, 5 pretos, 1 indígena, 4 PcD)",
     "areas": "16 áreas, entre elas Antropologia, Subárea: Teoria Antropológica, Arquitetura e Urbanismo, Subárea: Projeto Arquitetônico: fundamentos e tecnologia, Ciências Agrárias, Subárea: Entomologia Agrícola, Ciências da Saúde/Medicina, Subárea: Anatomia Patológica e Patologia Clínica e Direito, Subárea: Direito Internacional Público",
     "campi": "Instituto de Filosofia e Ciências Humanas - Departamento de Antropologia, Faculdade de Arquitetura - Departamento de Arquitetura, Faculdade de Agronomia - Departamento de Fitossanidade e Faculdade de Medicina - Departamento de Patologia",
@@ -10830,8 +10830,8 @@ window.CONCURSOS = [
         "tipo": "resultado",
         "carater": "",
         "data": {
-          "tipo": "nao_divulgada",
-          "nota": "após o período de recursos e contrarrazões"
+          "tipo": "exata",
+          "valor": "2026-11-13"
         },
         "detalhe": {}
       }
@@ -33272,7 +33272,7 @@ window.CONCURSOS = [
     "instituicao": "Universidade Federal de Santa Maria",
     "nivel": "Magistério Superior",
     "uf": "RS",
-    "numero_edital": "Edital nº 198/2026, publicado em 29/06/2026, com 3 documentos de alteração publicados depois",
+    "numero_edital": "Edital nº 198/2026, publicado em 29/06/2026, com 4 documentos de alteração publicados depois",
     "vagas": "8 vagas",
     "areas": "7 áreas, entre elas Ciências Agrárias/ Medicina Veterinária/ Clínica e Cirurgia Animal (Ênfase em Medicina de Ruminantes), Engenharias/ Engenharia Sanitária, Ciências Exatas e da Terra/ Matemática, Multidisciplinar/Ensino/ Ensino de Ciências e Matemática e Ciências Exatas e da Terra/ Geociências/ Micrometeorologia",
     "campi": "Santa Maria",
@@ -45669,6 +45669,122 @@ window.CONCURSOS = [
         "uerj-1865-2026"
       ],
       "extraido_em": "2026-11-13",
+      "em_conferencia": true
+    }
+  },
+  {
+    "id": "ufc-52-2026",
+    "sigla": "UFC",
+    "instituicao": "Universidade Federal do Ceará",
+    "nivel": "Magistério Superior",
+    "uf": null,
+    "numero_edital": "Edital nº 52/2026/CCV/UFC, publicado em 13/11/2026",
+    "vagas": "11 vagas",
+    "areas": "11 áreas, entre elas Singularidades, Natação e Atividades Aquáticas, Gestão e Políticas Públicas de Esporte e Estágio Supervisionado no B, Pediatria e Cirurgia Pediátrica; ABS da Criança; Emergências Pediátricas, Educação Infantil e Língua Inglesa",
+    "campi": "Município de Fortaleza - Ceará, CENTRO DE CIÊNCIAS / CAMPUS DE FORTALEZA; Departamento de Matemática, INSTITUTO DE EDUCAÇÃO FÍSICA E ESPORTE; Instituto de Educação Física e Esporte, FACULDADE DE MEDICINA / CAMPUS DE FORTALEZA; Departamento de Saúde da Mulher, da Criança e do Adolescente-DSMCA e CAMPUS DE ITAPAJÉ; Campus de Itapajé",
+    "titulacao": "Conforme a área",
+    "regime": "40 horas semanais com regime de dedicação exclusiva e 40 horas semanais sem regime de dedicação exclusiva",
+    "remuneracao": "R$ 6.397,19 de vencimento básico em 40 horas semanais com regime de dedicação exclusiva, chegando a R$ 13.753,96 com a maior titulação",
+    "banca": "Comissão própria da UFC",
+    "link_oficial": "https://centraldeconcursos.fcpc.ufc.br",
+    "inscricao": {
+      "inicio": "2026-11-24",
+      "fim": "2026-12-07",
+      "situacao": "abre_em_breve",
+      "taxa": "de R$ 290,00 a R$ 395,00, conforme a área. Pedido de isenção de 17/11 a 18/11"
+    },
+    "etapas": [
+      {
+        "nome": "Prova escrita dissertativa",
+        "tipo": "discursiva",
+        "carater": "Eliminatória e classificatória",
+        "data": {
+          "tipo": "exata",
+          "valor": "2027-01-10"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Prova prática",
+        "tipo": "outra",
+        "carater": "",
+        "data": {
+          "tipo": "periodo",
+          "valor": "2027-02-22",
+          "fim": "2027-02-23"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Prova didática",
+        "tipo": "didatica",
+        "carater": "Eliminatória e classificatória",
+        "data": {
+          "tipo": "periodo",
+          "valor": "2027-02-02",
+          "fim": "2027-02-03"
+        },
+        "detalhe": {
+          "duracao": "De 45 a 50 minutos. Fora desse intervalo há desconto na nota",
+          "arguicao": "Não há arguição",
+          "sorteio": "Tema sorteado com 24 horas de antecedência",
+          "nota_minima": "7 em 10",
+          "plano_de_aula": "Exigido: entregues no início da prova didática",
+          "recursos": "Proibidos, no que couber (item 14.23): iPod, smartphone, telefone celular, agenda eletrônica, mais 10 itens da mesma lista, relógio de qualquer espécie, óculos escuros, acessórios de chapelaria, tais como chapéu, boné, gorro, lápis, lapiseira (grafite), corretor líquido e borracha. Os recursos didáticos que poderão ser utilizados na prova, bem como a responsabilidade por sua disponibilização, serão informados pela CCV na página do certame ou no respectivo ato de convocação"
+        }
+      },
+      {
+        "nome": "Defesa de projeto de pesquisa",
+        "tipo": "outra",
+        "carater": "",
+        "data": {
+          "tipo": "periodo",
+          "valor": "2027-02-22",
+          "fim": "2027-02-23"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Avaliação de títulos",
+        "tipo": "titulos",
+        "carater": "Classificatória",
+        "data": {
+          "tipo": "periodo",
+          "valor": "2027-03-03",
+          "fim": "2027-03-04"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Resultado final",
+        "tipo": "resultado",
+        "carater": "",
+        "data": {
+          "tipo": "exata",
+          "valor": "2027-03-15"
+        },
+        "detalhe": {}
+      }
+    ],
+    "periodo_provas": {
+      "inicio": "2027-01-10",
+      "fim": "2027-02-03"
+    },
+    "logo": "ufc.png",
+    "formacoes_status": "nao_extraido",
+    "familias": [],
+    "formacoes": [],
+    "familias_pos": [],
+    "areas_formacoes": [],
+    "observacao": "",
+    "detalhamento": "completo",
+    "avisos_edital": [],
+    "fonte_dados": {
+      "origem": "extracao_v2",
+      "extracoes": [
+        "ufc-52-2026"
+      ],
+      "extraido_em": "2026-11-15",
       "em_conferencia": true
     }
   }
