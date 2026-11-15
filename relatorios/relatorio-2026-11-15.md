@@ -1,10 +1,10 @@
 # Relatório do compilador do Radar · 15/11/2026
 
-88 concursos no dados.js gerado, 87 no publicado; 90 vieram das extrações.
+89 concursos no dados.js gerado, 88 no publicado; 91 vieram das extrações.
 
 ## O que muda no Radar em relação ao publicado (3 concursos)
 
-**ufv-61-2026**
+**unilab-15-2026**
 - concurso novo no Radar
 
 **furb-07-2026**
