@@ -9680,7 +9680,7 @@ window.CONCURSOS = [
           "nota": "O cronograma de cada etapa do certame será publicado e atualizado na página do concurso"
         },
         "detalhe": {
-          "duracao": "De 40 a 50 minutos. Menos de 40 minutos tem desconto na nota",
+          "duracao": "De 40 a 50 minutos. Cumprir o tempo conta na avaliação da banca",
           "arguicao": "Sim, por até 15 minutos, a critério da banca",
           "sorteio": "Tema sorteado com 24 horas de antecedência"
         }
@@ -37986,7 +37986,7 @@ window.CONCURSOS = [
           "nota": "Cronograma oficial publicado em 30/08. Engenharias e Computação (DEC) em 23/09 às 8h. Ciências da Saúde (DCS) em 25/09, 26/09, 01/10 e 14/10, às 8h. Confirme a data da sua área no PDF do cronograma, porque a amarração por área no DCS precisa de leitura visual"
         },
         "detalhe": {
-          "duracao": "De 40 a 50 minutos. Menos de 40 minutos tem desconto na nota",
+          "duracao": "De 40 a 50 minutos. Fora desse intervalo há desconto na nota",
           "arguicao": "Não há arguição",
           "criterios": "I Plano de aula: Clareza dos objetivos 2; I Plano de aula: Adequação dos objetivos ao conteúdo 2; I Plano de aula: Coerência na subdivisão do conteúdo 2; I Plano de aula: Adequação do conteúdo ao tempo disponível 2; I Plano de aula: Seleção apropriada e criativa de recursos didáticos 2; II Desenvolvimento da aula: Relação de continuidade entre o plano e o… 10; II Desenvolvimento da aula: Linguagem clara, correta e adequada ao… 10; II Desenvolvimento da aula: Abordagem teórico-metodológica do… 30; II Desenvolvimento da aula: Adequação do conteúdo em função do tempo… 10; II Desenvolvimento da aula: Estrutura da aula, evidenciando… 10; II Desenvolvimento da aula: Apresentação do professor: criatividade… 20",
           "plano_de_aula": "O concurso tem etapa própria de Plano de Trabalho, que não é plano de aula. A exigência de plano de aula não está publicada em fonte aberta",
@@ -40936,7 +40936,7 @@ window.CONCURSOS = [
           "nota": "O concurso deverá realizar-se no prazo de trinta a cento e vinte dias, a contar da data da publicação no Diário Oficial do Estado da aprovação das inscrições"
         },
         "detalhe": {
-          "duracao": "De 40 a 60 minutos. Menos de 40 minutos tem desconto na nota",
+          "duracao": "De 40 a 60 minutos. Terminar antes de 40 minutos dá nota zero na prova. Aos 60 minutos a banca interrompe",
           "arguicao": "Sim, a critério da banca",
           "recursos": "O candidato pode usar recursos próprios (II - o candidato poderá utilizar o material didático que julgar necessário;)",
           "sorteio": "Consultar o edital",
@@ -41052,7 +41052,7 @@ window.CONCURSOS = [
           "fim": "2027-03-21"
         },
         "detalhe": {
-          "duracao": "De 50 a 60 minutos. Menos de 50 minutos tem desconto na nota",
+          "duracao": "De 50 a 60 minutos. Ficar abaixo de 50 ou passar de 60 não elimina, mas é penalizado pela banca",
           "arguicao": "Sim",
           "nota_minima": "7 em 10",
           "criterios": "plano de aula (0,0 a 2,0 pontos): clareza na redação dos elementos do… 0,0 a 2,0 pontos; aspectos didático-metodológicos (0,0 a 5,0 pontos): relaciona o tema… 0,0 a 5,0 pontos; emprego apropriado dos recursos didáticos (0,0 a 1,0 pontos): utiliza… 0,0 a 1,0 pontos; arguição (0,0 a 2.0 pontos): contempla nas respostas os pontos… 0,0 a 2.0 pontos",
@@ -41521,7 +41521,7 @@ window.CONCURSOS = [
           "fim": "2027-04-11"
         },
         "detalhe": {
-          "duracao": "De 50 a 60 minutos. Menos de 50 minutos tem desconto na nota",
+          "duracao": "De 50 a 60 minutos. Ficar abaixo de 50 ou passar de 60 não elimina, mas é penalizado pela banca",
           "arguicao": "Sim",
           "nota_minima": "7 em 10",
           "criterios": "plano de aula (0,0 a 1,0 pontos): clareza na redação dos elementos do… 0,0 a 1,0 pontos; aspectos didático-metodológicos (0,0 a 6,0 pontos): relaciona o tema… 0,0 a 6,0 pontos; emprego apropriado dos recursos didáticos (0,0 a 1,0 pontos): utiliza… 0,0 a 1,0 pontos; arguição (0,0 a 2.0 pontos): contempla nas respostas os pontos… 0,0 a 2.0 pontos",
@@ -41842,7 +41842,7 @@ window.CONCURSOS = [
           "fim": "2027-04-29"
         },
         "detalhe": {
-          "duracao": "De 40 a 50 minutos. Menos de 40 minutos tem desconto na nota",
+          "duracao": "De 40 a 50 minutos. Cumprir o tempo conta na avaliação da banca. Se passar de 50 minutos, a banca pode interromper a aula",
           "arguicao": "Sim, por até 20 minutos",
           "criterios": "100 pontos: 1. Plano de Aula (10 pontos): Estrutura formal, organização, clareza… 5; 1. Plano de Aula (10 pontos): Adequação, clareza e pertinência dos… 5; 2. Introdução da Aula (15 pontos): Apresentação clara aos alunos… 5; 2. Introdução da Aula (15 pontos): Uso de aspectos motivacionais para… 4; 2. Introdução da Aula (15 pontos): Contextualização, referência e… 6; 3. Desenvolvimento (40 pontos): Segurança, exatidão conceitual e… 10; 3. Desenvolvimento (40 pontos): Organização lógica, estrutura… 10; 3. Desenvolvimento (40 pontos): Adequação do vocabulário geral e uso… 5; 3. Desenvolvimento (40 pontos): Abrangência, profundidade e estrita… 5; 3. Desenvolvimento (40 pontos): Utilização de exemplos práticos… 5; 3. Desenvolvimento (40 pontos): Pertinência dos recursos didáticos… 2,5; 3. Desenvolvimento (40 pontos): Habilidade no manuseio, utilização e… 2,5; 4. Finalização (17 pontos): Capacidade de síntese, fechamento das… 8; 4. Finalização (17 pontos): Adequação e clareza nos procedimentos de… 3; 4. Finalização (17 pontos): Cumprimento rigoroso das etapas… 3; 4. Finalização (17 pontos): Gestão e distribuição adequada do tempo… 3; 5. Conduta e Arguição (18 pontos): Autocontrole, equilíbrio… 5; 5. Conduta e Arguição (18 pontos): Qualidade da dicção, projeção e… 3,5; 5. Conduta e Arguição (18 pontos): Postura corporal adequada, uso do… 3,5; 5. Conduta e Arguição (18 pontos): Domínio técnico e clareza no… 6",
           "plano_de_aula": "Exigido: deverá ser incluído/anexado no site https://portal.concursos.ifmg.edu.br/; na página do Edital, link “Área do candidato”, aba Prova de Desempenho Didático e…, entregues conforme as datas constantes no Cronograma - Anexo I, com Objetivos e Referências bibliográficas",
@@ -42638,7 +42638,7 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2026-11-03",
           "fim": "2026-11-23",
-          "nota": "Datas por área: Saúde da Mulher (Saúde da Mulher), Métodos de Imagem (Métodos de Imagem) e Psiquiatria (Psiquiatria): 03/11; Medicina Baseada em Evidências, Epidemiologia e Pesquisa Clínica (Medicina Baseada em Evidências…) e Saúde da Criança (Saúde da Criança): 09/11; Práticas em Atenção Primária à Saúde/Semiologia Médica (Práticas em Atenção Primária à…) e Anatomia Humana e Cirurgia (Anatomia Humana e Cirurgia): 16/11; Avaliação Nutricional e Nutrição Clínica (Avaliação Nutricional e Nutrição Clínica) e Fundamentos da Terapia Ocupacional, Atividades e Recursos Terapêuticos Ocupacionais (Fundamentos da Terapia Ocupacional…): 23/11"
+          "nota": "Datas por área: Saúde da Mulher, Métodos de Imagem e Psiquiatria: 03/11; Medicina Baseada em Evidências… e Saúde da Criança: 09/11; Práticas em Atenção Primária à… e Anatomia Humana e Cirurgia: 16/11; Avaliação Nutricional e Nutrição Clínica e Fundamentos da Terapia Ocupacional…: 23/11"
         },
         "detalhe": {}
       },
@@ -42650,10 +42650,10 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2026-11-10",
           "fim": "2026-12-02",
-          "nota": "Datas por área: Saúde da Mulher (Saúde da Mulher), Métodos de Imagem (Métodos de Imagem) e Psiquiatria (Psiquiatria): 10/11; Medicina Baseada em Evidências, Epidemiologia e Pesquisa Clínica (Medicina Baseada em Evidências…) e Saúde da Criança (Saúde da Criança): 17/11; Práticas em Atenção Primária à Saúde/Semiologia Médica (Práticas em Atenção Primária à…) e Anatomia Humana e Cirurgia (Anatomia Humana e Cirurgia): 24/11; Avaliação Nutricional e Nutrição Clínica (Avaliação Nutricional e Nutrição Clínica) e Fundamentos da Terapia Ocupacional, Atividades e Recursos Terapêuticos Ocupacionais (Fundamentos da Terapia Ocupacional…): 01/12 a 02/12"
+          "nota": "Datas por área: Saúde da Mulher, Métodos de Imagem e Psiquiatria: 10/11; Medicina Baseada em Evidências… e Saúde da Criança: 17/11; Práticas em Atenção Primária à… e Anatomia Humana e Cirurgia: 24/11; Avaliação Nutricional e Nutrição Clínica e Fundamentos da Terapia Ocupacional…: 01/12 a 02/12"
         },
         "detalhe": {
-          "duracao": "De 45 a 50 minutos. Menos de 45 minutos tem desconto na nota",
+          "duracao": "De 45 a 50 minutos. Cumprir o tempo conta na avaliação da banca",
           "sorteio": "Tema sorteado com 24 horas de antecedência",
           "criterios": "Domínio do Conteúdo Pontuação máxima: 6; Coerência entre o tema, os objetivos previstos no plano de aula e os… Pontuação máxima: 1; Desempenho didático e utilização adequada do tempo Pontuação máxima: 1; Comunicação, Clareza, Pertinência e Objetividade Pontuação máxima: 1; Estruturação do Plano de Aula Pontuação máxima: 1",
           "recursos": "O candidato pode usar recursos próprios (Na prova didática, poderão ser utilizados, para apresentação e exposição de conteúdo, quaisquer recursos audiovisuais, competindo ao candidato providenciar, por seus próprios meios, a obtenção, instalação e manuseio do equipamento necessário)"
@@ -42667,7 +42667,7 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2026-11-13",
           "fim": "2026-12-07",
-          "nota": "Datas por área: Saúde da Mulher (Saúde da Mulher), Métodos de Imagem (Métodos de Imagem) e Psiquiatria (Psiquiatria): 13/11; Medicina Baseada em Evidências, Epidemiologia e Pesquisa Clínica (Medicina Baseada em Evidências…) e Saúde da Criança (Saúde da Criança): 23/11; Práticas em Atenção Primária à Saúde/Semiologia Médica (Práticas em Atenção Primária à…) e Anatomia Humana e Cirurgia (Anatomia Humana e Cirurgia): 27/11; Avaliação Nutricional e Nutrição Clínica (Avaliação Nutricional e Nutrição Clínica) e Fundamentos da Terapia Ocupacional, Atividades e Recursos Terapêuticos Ocupacionais (Fundamentos da Terapia Ocupacional…): 07/12"
+          "nota": "Datas por área: Saúde da Mulher, Métodos de Imagem e Psiquiatria: 13/11; Medicina Baseada em Evidências… e Saúde da Criança: 23/11; Práticas em Atenção Primária à… e Anatomia Humana e Cirurgia: 27/11; Avaliação Nutricional e Nutrição Clínica e Fundamentos da Terapia Ocupacional…: 07/12"
         },
         "detalhe": {}
       },
@@ -42679,7 +42679,7 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2026-11-19",
           "fim": "2026-12-11",
-          "nota": "Datas por área: Avaliação Nutricional e Nutrição Clínica (Avaliação Nutricional e Nutrição Clínica): 11/12; Fundamentos da Terapia Ocupacional, Atividades e Recursos Terapêuticos Ocupacionais (Fundamentos da Terapia Ocupacional…): 11/12; Saúde da Mulher (Saúde da Mulher): 19/11; Métodos de Imagem (Métodos de Imagem): 19/11; Psiquiatria (Psiquiatria): 19/11; Saúde da Criança (Saúde da Criança): 27/11; Medicina Baseada em Evidências, Epidemiologia e Pesquisa Clínica (Medicina Baseada em Evidências…): 27/11; Práticas em Atenção Primária à Saúde/Semiologia Médica (Práticas em Atenção Primária à…): 03/12; Anatomia Humana e Cirurgia (Anatomia Humana e Cirurgia): 03/12"
+          "nota": "Datas por área: Avaliação Nutricional e Nutrição Clínica: 11/12; Fundamentos da Terapia Ocupacional…: 11/12; Saúde da Mulher: 19/11; Métodos de Imagem: 19/11; Psiquiatria: 19/11; Saúde da Criança: 27/11; Medicina Baseada em Evidências…: 27/11; Práticas em Atenção Primária à…: 03/12; Anatomia Humana e Cirurgia: 03/12"
         },
         "detalhe": {}
       }
@@ -42747,7 +42747,7 @@ window.CONCURSOS = [
           "nota": "no prazo de trinta a cento e vinte dias, a contar da data da publicação no Diário Oficial do Estado da aprovação das inscrições"
         },
         "detalhe": {
-          "duracao": "De 40 a 60 minutos. Menos de 40 minutos tem desconto na nota",
+          "duracao": "De 40 a 60 minutos. Terminar antes de 40 minutos dá nota zero na prova. Aos 60 minutos a banca interrompe",
           "arguicao": "Sim, a critério da banca",
           "sorteio": "Tema sorteado com 24 horas de antecedência",
           "recursos": "O candidato pode usar recursos próprios (IV - o candidato poderá utilizar o material didático que julgar necessário;)"
@@ -43218,7 +43218,7 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2026-11-25",
           "fim": "2027-02-01",
-          "nota": "Datas por área: Ciências da Segurança (Ciências da Segurança): 25/11; Educação Musical e Estágio Supervisionado (Educação Musical e Estágio Supervisionado): 25/11 a 27/11; Tecnologia da Informação (Tecnologia da Informação): 26/11; Construções Rurais com ênfase em Ambiência de Precisão (Construções Rurais com ênfase em Ambiência…), Economia Rural (Economia Rural), Enfermagem Fundamental (Enfermagem Fundamental) e Ginecologia e Obstetrícia (Ginecologia e Obstetrícia): 30/11; Percussão e Estágio Supervisionado em Percussão (Percussão e Estágio Supervisionado em…): 30/11 a 02/12; Geografia (Geografia), Educação, Comunicação e Mídias (Educação, Comunicação e Mídias), Infância e Educação Infantil (Infância e Educação Infantil), Análises Clínicas: Hematologia (Análises Clínicas: Hematologia) e Tecnologias Avançadas aplicadas ao Jornalismo (Tecnologias Avançadas aplicadas ao Jornalismo): 01/12; Pedagogia (Pedagogia) e Urologia (Urologia): 03/12; Gestão de Obras e Instalações Prediais (Gestão de Obras e Instalações Prediais): 07/12; Teoria Política e Instituições (Teoria Política e Instituições), Tecnologias aplicadas à Gestão da Informação (Tecnologias aplicadas à Gestão da Informação), Geopolítica e Geografia Política (Geopolítica e Geografia Política), Ciência de Dados (Ciência de Dados), Educação Matemática (Educação Matemática) e Estatística (Estatística): 08/12; Semiologia/Introdução ao Método Clínico I, II, III e IV (Semiologia/Introdução ao Método Clínico I…): 14/12; Física Médica (Física Médica): 04/01; Radiologia e Diagnóstico por Imagem (Radiologia e Diagnóstico por Imagem) e Engenharia Física com ênfase em Instrumentação Científica e Tecnológica (Engenharia Física com ênfase em…): 11/01; Farmacologia (Farmacologia): 12/01; Teoria Econômica (Teoria Econômica) e Física Experimental: Física de Materiais, Teranóstica ou Fotônica/Biofotônica (Física Experimental: Física de Materiais…): 18/01; Antropologias Indígenas, Negras e Afrodiaspóricas (Antropologias Indígenas, Negras e…): 19/01; Produção de Bovinos de Corte e Melhoramento Genético Animal (Produção de Bovinos de Corte e Melhoramento…): 25/01; Parasitologia (Parasitologia): 26/01; Educação Inclusiva (Educação Inclusiva): 01/02"
+          "nota": "Datas por área: Ciências da Segurança: 25/11; Educação Musical e Estágio Supervisionado: 25/11 a 27/11; Tecnologia da Informação: 26/11; Construções Rurais com ênfase em Ambiência…, Economia Rural, Enfermagem Fundamental e Ginecologia e Obstetrícia: 30/11; Percussão e Estágio Supervisionado em…: 30/11 a 02/12; Geografia, Educação, Comunicação e Mídias, Infância e Educação Infantil, Análises Clínicas: Hematologia e Tecnologias Avançadas aplicadas ao Jornalismo: 01/12; Pedagogia e Urologia: 03/12; Gestão de Obras e Instalações Prediais: 07/12; Teoria Política e Instituições, Tecnologias aplicadas à Gestão da Informação, Geopolítica e Geografia Política, Ciência de Dados, Educação Matemática e Estatística: 08/12; Semiologia/Introdução ao Método Clínico I…: 14/12; Física Médica: 04/01; Radiologia e Diagnóstico por Imagem e Engenharia Física com ênfase em…: 11/01; Farmacologia: 12/01; Teoria Econômica e Física Experimental: Física de Materiais…: 18/01; Antropologias Indígenas, Negras e…: 19/01; Produção de Bovinos de Corte e Melhoramento…: 25/01; Parasitologia: 26/01; Educação Inclusiva: 01/02"
         },
         "detalhe": {}
       },
@@ -43230,10 +43230,10 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2026-12-07",
           "fim": "2027-02-18",
-          "nota": "Datas por área: Ginecologia e Obstetrícia (Ginecologia e Obstetrícia): 07/12; Construções Rurais com ênfase em Ambiência de Precisão (Construções Rurais com ênfase em Ambiência…), Economia Rural (Economia Rural), Educação Musical e Estágio Supervisionado (Educação Musical e Estágio Supervisionado), Enfermagem Fundamental (Enfermagem Fundamental), Ciências da Segurança (Ciências da Segurança) e Tecnologia da Informação (Tecnologia da Informação): 08/12; Educação, Comunicação e Mídias (Educação, Comunicação e Mídias), Infância e Educação Infantil (Infância e Educação Infantil) e Tecnologias Avançadas aplicadas ao Jornalismo (Tecnologias Avançadas aplicadas ao Jornalismo): 09/12; Análises Clínicas: Hematologia (Análises Clínicas: Hematologia) e Urologia (Urologia): 10/12; Percussão e Estágio Supervisionado em Percussão (Percussão e Estágio Supervisionado em…) e Tecnologias aplicadas à Gestão da Informação (Tecnologias aplicadas à Gestão da Informação): 15/12; Geografia (Geografia): 15/12 a 16/12; Geopolítica e Geografia Política (Geopolítica e Geografia Política), Ciência de Dados (Ciência de Dados), Educação Matemática (Educação Matemática), Estatística (Estatística) e Gestão de Obras e Instalações Prediais (Gestão de Obras e Instalações Prediais): 16/12; Teoria Política e Instituições (Teoria Política e Instituições): 17/12; Semiologia/Introdução ao Método Clínico I, II, III e IV (Semiologia/Introdução ao Método Clínico I…): 21/12; Física Médica (Física Médica): 12/01; Radiologia e Diagnóstico por Imagem (Radiologia e Diagnóstico por Imagem): 18/01; Engenharia Física com ênfase em Instrumentação Científica e Tecnológica (Engenharia Física com ênfase em…): 19/01; Teoria Econômica (Teoria Econômica) e Física Experimental: Física de Materiais, Teranóstica ou Fotônica/Biofotônica (Física Experimental: Física de Materiais…): 26/01; Antropologias Indígenas, Negras e Afrodiaspóricas (Antropologias Indígenas, Negras e…): 28/01; Produção de Bovinos de Corte e Melhoramento Genético Animal (Produção de Bovinos de Corte e Melhoramento…): 02/02; Pedagogia (Pedagogia): 03/02; Parasitologia (Parasitologia): 04/02; Farmacologia (Farmacologia): 16/02; Educação Inclusiva (Educação Inclusiva): 17/02 a 18/02"
+          "nota": "Datas por área: Ginecologia e Obstetrícia: 07/12; Construções Rurais com ênfase em Ambiência…, Economia Rural, Educação Musical e Estágio Supervisionado, Enfermagem Fundamental, Ciências da Segurança e Tecnologia da Informação: 08/12; Educação, Comunicação e Mídias, Infância e Educação Infantil e Tecnologias Avançadas aplicadas ao Jornalismo: 09/12; Análises Clínicas: Hematologia e Urologia: 10/12; Percussão e Estágio Supervisionado em… e Tecnologias aplicadas à Gestão da Informação: 15/12; Geografia: 15/12 a 16/12; Geopolítica e Geografia Política, Ciência de Dados, Educação Matemática, Estatística e Gestão de Obras e Instalações Prediais: 16/12; Teoria Política e Instituições: 17/12; Semiologia/Introdução ao Método Clínico I…: 21/12; Física Médica: 12/01; Radiologia e Diagnóstico por Imagem: 18/01; Engenharia Física com ênfase em…: 19/01; Teoria Econômica e Física Experimental: Física de Materiais…: 26/01; Antropologias Indígenas, Negras e…: 28/01; Produção de Bovinos de Corte e Melhoramento…: 02/02; Pedagogia: 03/02; Parasitologia: 04/02; Farmacologia: 16/02; Educação Inclusiva: 17/02 a 18/02"
         },
         "detalhe": {
-          "duracao": "De 40 a 50 minutos. Menos de 40 minutos tem desconto na nota",
+          "duracao": "De 40 a 50 minutos. Cumprir o tempo conta na avaliação da banca",
           "arguicao": "Sim, por até 20 minutos, a critério da banca",
           "sorteio": "Tema sorteado com 24 horas de antecedência"
         }
@@ -43246,7 +43246,7 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2026-12-08",
           "fim": "2027-02-19",
-          "nota": "Datas por área: Ginecologia e Obstetrícia (Ginecologia e Obstetrícia): 08/12; Construções Rurais com ênfase em Ambiência de Precisão (Construções Rurais com ênfase em Ambiência…), Economia Rural (Economia Rural), Educação Musical e Estágio Supervisionado (Educação Musical e Estágio Supervisionado), Enfermagem Fundamental (Enfermagem Fundamental), Ciências da Segurança (Ciências da Segurança) e Tecnologia da Informação (Tecnologia da Informação): 09/12; Educação, Comunicação e Mídias (Educação, Comunicação e Mídias), Infância e Educação Infantil (Infância e Educação Infantil) e Tecnologias Avançadas aplicadas ao Jornalismo (Tecnologias Avançadas aplicadas ao Jornalismo): 10/12; Análises Clínicas: Hematologia (Análises Clínicas: Hematologia) e Urologia (Urologia): 11/12; Percussão e Estágio Supervisionado em Percussão (Percussão e Estágio Supervisionado em…) e Tecnologias aplicadas à Gestão da Informação (Tecnologias aplicadas à Gestão da Informação): 16/12; Geopolítica e Geografia Política (Geopolítica e Geografia Política), Ciência de Dados (Ciência de Dados), Educação Matemática (Educação Matemática), Estatística (Estatística) e Gestão de Obras e Instalações Prediais (Gestão de Obras e Instalações Prediais): 17/12; Teoria Política e Instituições (Teoria Política e Instituições): 18/12; Semiologia/Introdução ao Método Clínico I, II, III e IV (Semiologia/Introdução ao Método Clínico I…): 22/12; Física Médica (Física Médica): 13/01; Radiologia e Diagnóstico por Imagem (Radiologia e Diagnóstico por Imagem): 19/01; Engenharia Física com ênfase em Instrumentação Científica e Tecnológica (Engenharia Física com ênfase em…): 20/01; Teoria Econômica (Teoria Econômica) e Física Experimental: Física de Materiais, Teranóstica ou Fotônica/Biofotônica (Física Experimental: Física de Materiais…): 27/01; Antropologias Indígenas, Negras e Afrodiaspóricas (Antropologias Indígenas, Negras e…): 29/01; Geografia (Geografia): 01/02 a 02/02; Produção de Bovinos de Corte e Melhoramento Genético Animal (Produção de Bovinos de Corte e Melhoramento…): 03/02; Pedagogia (Pedagogia) e Parasitologia (Parasitologia): 05/02; Farmacologia (Farmacologia): 17/02; Educação Inclusiva (Educação Inclusiva): 19/02"
+          "nota": "Datas por área: Ginecologia e Obstetrícia: 08/12; Construções Rurais com ênfase em Ambiência…, Economia Rural, Educação Musical e Estágio Supervisionado, Enfermagem Fundamental, Ciências da Segurança e Tecnologia da Informação: 09/12; Educação, Comunicação e Mídias, Infância e Educação Infantil e Tecnologias Avançadas aplicadas ao Jornalismo: 10/12; Análises Clínicas: Hematologia e Urologia: 11/12; Percussão e Estágio Supervisionado em… e Tecnologias aplicadas à Gestão da Informação: 16/12; Geopolítica e Geografia Política, Ciência de Dados, Educação Matemática, Estatística e Gestão de Obras e Instalações Prediais: 17/12; Teoria Política e Instituições: 18/12; Semiologia/Introdução ao Método Clínico I…: 22/12; Física Médica: 13/01; Radiologia e Diagnóstico por Imagem: 19/01; Engenharia Física com ênfase em…: 20/01; Teoria Econômica e Física Experimental: Física de Materiais…: 27/01; Antropologias Indígenas, Negras e…: 29/01; Geografia: 01/02 a 02/02; Produção de Bovinos de Corte e Melhoramento…: 03/02; Pedagogia e Parasitologia: 05/02; Farmacologia: 17/02; Educação Inclusiva: 19/02"
         },
         "detalhe": {}
       },
@@ -43258,7 +43258,7 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2026-11-25",
           "fim": "2027-02-01",
-          "nota": "Datas por área: Educação Musical e Estágio Supervisionado (Educação Musical e Estágio Supervisionado), Ciências da Segurança (Ciências da Segurança) e Tecnologia da Informação (Tecnologia da Informação): 25/11; Geografia (Geografia), Construções Rurais com ênfase em Ambiência de Precisão (Construções Rurais com ênfase em Ambiência…), Economia Rural (Economia Rural), Percussão e Estágio Supervisionado em Percussão (Percussão e Estágio Supervisionado em…), Educação, Comunicação e Mídias (Educação, Comunicação e Mídias), Infância e Educação Infantil (Infância e Educação Infantil), Enfermagem Fundamental (Enfermagem Fundamental), Análises Clínicas: Hematologia (Análises Clínicas: Hematologia), Tecnologias Avançadas aplicadas ao Jornalismo (Tecnologias Avançadas aplicadas ao Jornalismo) e Ginecologia e Obstetrícia (Ginecologia e Obstetrícia): 30/11; Pedagogia (Pedagogia) e Urologia (Urologia): 03/12; Teoria Política e Instituições (Teoria Política e Instituições), Tecnologias aplicadas à Gestão da Informação (Tecnologias aplicadas à Gestão da Informação), Geopolítica e Geografia Política (Geopolítica e Geografia Política), Ciência de Dados (Ciência de Dados), Educação Matemática (Educação Matemática), Estatística (Estatística) e Gestão de Obras e Instalações Prediais (Gestão de Obras e Instalações Prediais): 07/12; Semiologia/Introdução ao Método Clínico I, II, III e IV (Semiologia/Introdução ao Método Clínico I…): 14/12; Física Médica (Física Médica): 04/01; Radiologia e Diagnóstico por Imagem (Radiologia e Diagnóstico por Imagem) e Engenharia Física com ênfase em Instrumentação Científica e Tecnológica (Engenharia Física com ênfase em…): 11/01; Farmacologia (Farmacologia): 12/01; Teoria Econômica (Teoria Econômica), Antropologias Indígenas, Negras e Afrodiaspóricas (Antropologias Indígenas, Negras e…) e Física Experimental: Física de Materiais, Teranóstica ou Fotônica/Biofotônica (Física Experimental: Física de Materiais…): 18/01; Produção de Bovinos de Corte e Melhoramento Genético Animal (Produção de Bovinos de Corte e Melhoramento…) e Parasitologia (Parasitologia): 25/01; Educação Inclusiva (Educação Inclusiva): 01/02"
+          "nota": "Datas por área: Educação Musical e Estágio Supervisionado, Ciências da Segurança e Tecnologia da Informação: 25/11; Geografia, Construções Rurais com ênfase em Ambiência…, Economia Rural, Percussão e Estágio Supervisionado em…, Educação, Comunicação e Mídias, Infância e Educação Infantil, Enfermagem Fundamental, Análises Clínicas: Hematologia, Tecnologias Avançadas aplicadas ao Jornalismo e Ginecologia e Obstetrícia: 30/11; Pedagogia e Urologia: 03/12; Teoria Política e Instituições, Tecnologias aplicadas à Gestão da Informação, Geopolítica e Geografia Política, Ciência de Dados, Educação Matemática, Estatística e Gestão de Obras e Instalações Prediais: 07/12; Semiologia/Introdução ao Método Clínico I…: 14/12; Física Médica: 04/01; Radiologia e Diagnóstico por Imagem e Engenharia Física com ênfase em…: 11/01; Farmacologia: 12/01; Teoria Econômica, Antropologias Indígenas, Negras e… e Física Experimental: Física de Materiais…: 18/01; Produção de Bovinos de Corte e Melhoramento… e Parasitologia: 25/01; Educação Inclusiva: 01/02"
         },
         "detalhe": {}
       }
@@ -43326,7 +43326,7 @@ window.CONCURSOS = [
           "nota": "no dia, horário e local definidos pela Comissão correspondente e divulgados previamente (14.2); data, horário e local estabelecidos em documento específico, a ser divulgado posteriormente (14.11)"
         },
         "detalhe": {
-          "duracao": "De 40 a 50 minutos. Fora desse intervalo há desconto na nota",
+          "duracao": "De 40 a 50 minutos. Cumprir o tempo conta na avaliação da banca. Se passar de 50 minutos, a banca pode interromper a aula",
           "arguicao": "Não há arguição",
           "nota_minima": "7 em 10",
           "criterios": "10 pontos: A - Plano de aula: 1 Clareza dos objetivos 0,2; A - Plano de aula: 2 Adequação dos objetivos ao conteúdo 0,2; A - Plano de aula: 3 Coerência na subdivisão do conteúdo 0,2; A - Plano de aula: 4 Adequação do conteúdo ao tempo disponível 0,2; A - Plano de aula: 5 Seleção apropriada do material didático 0,2; B - Desenvolvimento da aula: 1 Relação entre o plano e o… 1,0; B - Desenvolvimento da aula: 2 Linguagem clara, correta e adequação… 1,0; B - Desenvolvimento da aula: 3 Abordagem das ideias fundamentais do… 1,0; B - Desenvolvimento da aula: 4 Sequência lógica do conteúdo dissertado 1,0; B - Desenvolvimento da aula: 5 Articulação entre as ideias… 1,5; B - Desenvolvimento da aula: 6 Consistência teórica do conteúdo 1,5; B - Desenvolvimento da aula: 7 Uso adequado dos recursos didáticos 1,0; B - Desenvolvimento da aula: 8 Cumprimento do tempo estipulado (MIN… 1,0",
@@ -43429,7 +43429,7 @@ window.CONCURSOS = [
           "valor": "2027-01-26"
         },
         "detalhe": {
-          "duracao": "De 40 a 50 minutos. Menos de 40 minutos tem desconto na nota",
+          "duracao": "De 40 a 50 minutos. Cumprir o tempo conta na avaliação da banca",
           "sorteio": "Tema sorteado com 24 horas de antecedência",
           "nota_minima": "70 em 100",
           "criterios": "6.11.6.1. plano de aula apresentado, considerados seu conteúdo…; 6.11.6.2. atuação didático-pedagógica com clareza na exposição e…; 6.11.6.3. desenvolvimento objetivo e articulado do tema sorteado para…; 6.11.6.4. respeito à norma padrão do idioma estabelecido pela Unidade…; 6.11.6.5. respeito à duração mínima de 40 (quarenta) e máxima de 50…; 6.11.6.6. adequada fundamentação teórica na abordagem do tema…; 6.11.6.7. cumprimento do plano de aula apresentado; e; 6.11.6.8. uso de variedade de métodos e técnicas de ensino",
@@ -43591,7 +43591,7 @@ window.CONCURSOS = [
           "nota": "O edital ainda não fixou a data"
         },
         "detalhe": {
-          "duracao": "De 40 a 60 minutos. Menos de 40 minutos tem desconto na nota",
+          "duracao": "De 40 a 60 minutos. Fora desse intervalo a nota da prova é zero",
           "criterios": "10 pontos: a) Plano de aula 1,0; b) Adequação ao tema e abordagem do assunto, nível de graduação 1,0; c) Domínio teórico e conceitual do assunto 2,0; d) Exatidão e atualidade das informações 1,0; e) Desenvolvimento sequencial do tema em ordem lógica 1,0; f) Clareza e objetividade na exposição do tema 1,0; g) Adequação da linguagem ao contexto de aula de graduação 1,0; h) Capacidade de síntese e abrangência 1,0; i) Utilização adequada dos recursos didáticos disponíveis 1,0",
           "plano_de_aula": "Exigido: entregues no dia da prova didática, em momento anterior à ministração da aula teórica pelo candidato"
         }
@@ -44224,7 +44224,7 @@ window.CONCURSOS = [
           "nota": "no prazo de trinta a cento e vinte dias, a contar da data da publicação no Diário Oficial do Estado da aprovação das inscrições"
         },
         "detalhe": {
-          "duracao": "De 40 a 60 minutos. Menos de 40 minutos tem desconto na nota",
+          "duracao": "De 40 a 60 minutos. Terminar antes de 40 minutos dá nota zero na prova. Aos 60 minutos a banca interrompe",
           "arguicao": "Sim, a critério da banca",
           "sorteio": "Tema sorteado com 24 horas de antecedência",
           "recursos": "O candidato pode usar recursos próprios (IV - o candidato poderá utilizar o material didático que julgar necessário;)"
@@ -44330,7 +44330,7 @@ window.CONCURSOS = [
           "nota": "em data e horário fixados no cronograma próprio de cada concurso, a ser divulgado no site da UFCSPA (provas a partir de 04/01/2027)"
         },
         "detalhe": {
-          "duracao": "De 45 a 60 minutos. Menos de 45 minutos tem desconto na nota",
+          "duracao": "De 45 a 60 minutos. Fora desse intervalo há desconto na nota",
           "sorteio": "Tema sorteado com 24 horas de antecedência",
           "criterios": "organização e adequação do plano de aula ao ponto sorteado; capacidade de comunicação e clareza; pertinência e objetividade; profundidade, atualização e domínio do conteúdo; tempo de duração da prova",
           "plano_de_aula": "Exigido. Entrega: competindo a cada candidato apresentá-lo durante a sua exposição",
@@ -44438,7 +44438,7 @@ window.CONCURSOS = [
           "fim": "2027-02-18"
         },
         "detalhe": {
-          "duracao": "De 40 a 50 minutos. Menos de 40 minutos tem desconto na nota",
+          "duracao": "De 40 a 50 minutos. Cumprir o tempo conta na avaliação da banca",
           "arguicao": "Sim, por até 20 minutos, a critério da banca",
           "sorteio": "Tema sorteado com 24 horas de antecedência",
           "criterios": "10 pontos: Plano de Aula 1,0; Tempo de duração da aula 0,5; Fundamentação teórica, reflexão sobre a proposta pedagógica e domínio… 2,0; Apresentação, organização do pensamento e linguagem adequada ao tema 2,0; Adequação do conteúdo às práticas pedagógicas e atribuições do… 4,5",
@@ -44772,7 +44772,7 @@ window.CONCURSOS = [
     "instituicao": "Universidade Federal de Jataí",
     "nivel": "Magistério Superior",
     "uf": "GO",
-    "numero_edital": "Edital nº 05/2026, publicado em 27/10/2026, com 1 documento de alteração publicado depois",
+    "numero_edital": "Edital nº 05/2026, publicado em 27/10/2026, com 2 documentos de alteração publicados depois",
     "vagas": "22 vagas",
     "areas": "17 áreas, entre elas Didática e Didática da Educação Especial Inclusiva, Ensino, Fundamentação Sócio-Histórica e Pedagógica das Artes Visuais na Educação e Pesquisa, Estágio e Prática Pedagógica em Artes Visuais, Ensino, Produção e Criação Artístico Visual e Fundamentação Histórica e Sociocultural em Artes Visuais, Formação de professores e Políticas Educacionais Inclusivas e Física Computacional, Métodos Numéricos e de Inteligência Artificial",
     "campi": "Jataí/GO",
@@ -44785,7 +44785,7 @@ window.CONCURSOS = [
       "inicio": "2026-11-03",
       "fim": "2026-11-27",
       "situacao": "aberta",
-      "taxa": "R$ 290,00"
+      "taxa": "R$ 290,00 (R$ 160,00 em Tradução e Interpretação Libras/Língua Portuguesa)"
     },
     "etapas": [
       {
@@ -44796,9 +44796,12 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2026-12-12",
           "fim": "2026-12-14",
-          "nota": "Datas por área: Didática e Didática da Educação Especial Inclusiva (Didática e Didática da Educação Especial…), Ensino, Fundamentação Sócio-Histórica e Pedagógica das Artes Visuais na Educação e Pesquisa, Estágio e Prática Pedagógica em Artes Visuais (Ensino, Fundamentação Sócio-Histórica e…), Ensino, Produção e Criação Artístico Visual e Fundamentação Histórica e Sociocultural em Artes Visuais (Ensino, Produção e Criação Artístico Visual…), Formação de professores e Políticas Educacionais Inclusivas (Formação de professores e Políticas…), Física Computacional, Métodos Numéricos e de Inteligência Artificial (Física Computacional, Métodos Numéricos e de…), Processamento de Dados em Inteligência Artificial (Processamento de Dados em Inteligência…), Comunicação Social (Comunicação Social), Comunicação e Mídias (Comunicação e Mídias), Tradução e Interpretação Libras/Língua Portuguesa (Tradução e Interpretação Libras/Língua…) e Audiologia e Estágio Supervisionado (Audiologia e Estágio Supervisionado): 12/12; Introdução a Fonoaudiologia, Linguagem oral e escrita, fala e fluência e Estágio Supervisionado (Introdução a Fonoaudiologia, Linguagem oral…), Morfofisiologia, Introdução à Terapia Ocupacional e Estágio Supervisionado (Morfofisiologia, Introdução à Terapia…), Morfofisiologia, Voz e Motricidade orofacial e cervical e Estágio Supervisionado (Morfofisiologia, Voz e Motricidade orofacial…), Terapia Ocupacional nos Contextos Educacionais, do Trabalho e ao Longo do Ciclo da Vida e Estágio Supervisionado (Terapia Ocupacional nos Contextos…) e Terapia Ocupacional nos Diferentes Contextos e Níveis de Atenção à Saúde, Vulnerabilidades Sociais e Estágio Supervisionado (Terapia Ocupacional nos Diferentes Contextos…): 13/12; Ciências dos Materiais (Ciências dos Materiais) e Processos Industriais (Processos Industriais): 14/12"
+          "nota": "Datas por área: Didática e Didática da Educação Especial…, Ensino, Fundamentação Sócio-Histórica e…, Ensino, Produção e Criação Artístico Visual…, Formação de professores e Políticas…, Física Computacional, Métodos Numéricos e de…, Processamento de Dados em Inteligência…, Comunicação Social, Comunicação e Mídias, Tradução e Interpretação Libras/Língua… e Audiologia e Estágio Supervisionado: 12/12; Introdução a Fonoaudiologia, Linguagem oral…, Morfofisiologia, Introdução à Terapia…, Morfofisiologia, Voz e Motricidade orofacial…, Terapia Ocupacional nos Contextos… e Terapia Ocupacional nos Diferentes Contextos…: 13/12; Ciências dos Materiais e Processos Industriais: 14/12"
         },
-        "detalhe": {}
+        "detalhe": {
+          "duracao": "4 horas",
+          "formato": "Online, pela plataforma Exam.net com o Safe Exam Browser, em 15 áreas. Em Ciências dos Materiais e Processos Industriais é presencial em Jataí, com 1 hora de consulta a material impresso"
+        }
       },
       {
         "nome": "Prova Didática",
@@ -44808,13 +44811,13 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2026-12-21",
           "fim": "2026-12-22",
-          "nota": "Datas por área: Ciências dos Materiais (Ciências dos Materiais) e Processos Industriais (Processos Industriais): 21/12; Didática e Didática da Educação Especial Inclusiva (Didática e Didática da Educação Especial…), Ensino, Fundamentação Sócio-Histórica e Pedagógica das Artes Visuais na Educação e Pesquisa, Estágio e Prática Pedagógica em Artes Visuais (Ensino, Fundamentação Sócio-Histórica e…), Ensino, Produção e Criação Artístico Visual e Fundamentação Histórica e Sociocultural em Artes Visuais (Ensino, Produção e Criação Artístico Visual…), Formação de professores e Políticas Educacionais Inclusivas (Formação de professores e Políticas…), Física Computacional, Métodos Numéricos e de Inteligência Artificial (Física Computacional, Métodos Numéricos e de…), Processamento de Dados em Inteligência Artificial (Processamento de Dados em Inteligência…), Comunicação Social (Comunicação Social), Comunicação e Mídias (Comunicação e Mídias), Tradução e Interpretação Libras/Língua Portuguesa (Tradução e Interpretação Libras/Língua…), Audiologia e Estágio Supervisionado (Audiologia e Estágio Supervisionado), Introdução a Fonoaudiologia, Linguagem oral e escrita, fala e fluência e Estágio Supervisionado (Introdução a Fonoaudiologia, Linguagem oral…), Morfofisiologia, Introdução à Terapia Ocupacional e Estágio Supervisionado (Morfofisiologia, Introdução à Terapia…), Morfofisiologia, Voz e Motricidade orofacial e cervical e Estágio Supervisionado (Morfofisiologia, Voz e Motricidade orofacial…), Terapia Ocupacional nos Contextos Educacionais, do Trabalho e ao Longo do Ciclo da Vida e Estágio Supervisionado (Terapia Ocupacional nos Contextos…) e Terapia Ocupacional nos Diferentes Contextos e Níveis de Atenção à Saúde, Vulnerabilidades Sociais e Estágio Supervisionado (Terapia Ocupacional nos Diferentes Contextos…): 22/12"
+          "nota": "Datas por área: Ciências dos Materiais e Processos Industriais: 21/12; Didática e Didática da Educação Especial…, Ensino, Fundamentação Sócio-Histórica e…, Ensino, Produção e Criação Artístico Visual…, Formação de professores e Políticas…, Física Computacional, Métodos Numéricos e de…, Processamento de Dados em Inteligência…, Comunicação Social, Comunicação e Mídias, Tradução e Interpretação Libras/Língua…, Audiologia e Estágio Supervisionado, Introdução a Fonoaudiologia, Linguagem oral…, Morfofisiologia, Introdução à Terapia…, Morfofisiologia, Voz e Motricidade orofacial…, Terapia Ocupacional nos Contextos… e Terapia Ocupacional nos Diferentes Contextos…: 22/12"
         },
         "detalhe": {
-          "duracao": "De 40 a 50 minutos. Menos de 40 minutos tem desconto na nota",
-          "arguicao": "Sim, por até 15 minutos",
+          "duracao": "De 40 a 50 minutos. Ficar abaixo de 40 ou passar de 50 não elimina, mas é penalizado pela banca",
+          "arguicao": "Sim, por até 15 minutos, com igual tempo para responder",
           "nota_minima": "7 em 10",
-          "recursos": "O candidato pode usar recursos próprios (É facultado ao(à) candidato(a) o uso de quaisquer recursos didáticos, desde que providenciados por ele/ela)"
+          "recursos": "O candidato pode usar os recursos que levar. A UFJ não fornece projetor nem computador, exceto nas quatro áreas do ICET (Física Computacional, Dados em Inteligência Artificial, Ciências dos Materiais e Processos Industriais), que têm projetor"
         }
       },
       {
@@ -44822,8 +44825,10 @@ window.CONCURSOS = [
         "tipo": "titulos",
         "carater": "Classificatória",
         "data": {
-          "tipo": "nao_divulgada",
-          "nota": "O edital ainda não fixou a data"
+          "tipo": "periodo",
+          "valor": "2026-12-21",
+          "fim": "2026-12-22",
+          "nota": "A análise é feita durante a prova didática, sem sessão pública. O Lattes e os comprovantes são enviados em PDF único no ato da inscrição"
         },
         "detalhe": {}
       }
@@ -44984,7 +44989,7 @@ window.CONCURSOS = [
           "nota": "O cronograma de cada etapa do certame será publicado e atualizado na página do concurso"
         },
         "detalhe": {
-          "duracao": "De 40 a 50 minutos. Menos de 40 minutos tem desconto na nota",
+          "duracao": "De 40 a 50 minutos. Cumprir o tempo conta na avaliação da banca",
           "arguicao": "Sim, por até 15 minutos, a critério da banca",
           "sorteio": "Tema sorteado com 24 horas de antecedência"
         }
@@ -45265,7 +45270,7 @@ window.CONCURSOS = [
           "nota": "As provas deverão ocorrer em até 12 (doze) meses, a contar da publicação do Edital de Homologação das Inscrições."
         },
         "detalhe": {
-          "duracao": "De 40 a 50 minutos. Menos de 40 minutos tem desconto na nota",
+          "duracao": "De 40 a 50 minutos. Menos de 40 minutos tem desconto na nota, e não se pode passar de 50",
           "arguicao": "Sim, por até 10 minutos, a critério da banca",
           "sorteio": "Tema sorteado com 24 horas de antecedência",
           "nota_minima": "7 em 10",
