@@ -591,6 +591,11 @@ class CotaEComissao(unittest.TestCase):
         self.assertTrue(A.so_cota(self.CONVOCACAO))
         self.assertFalse(A.so_cota(self.RESULTADO))
 
+    def test_acesso_a_caracterizacao_da_deficiencia_e_so_cota(self):  # UFRGS 09, conferência de 15/11/2026
+        self.assertTrue(A.so_cota({"tipo_evento": "outro",
+            "descricao_literal": "Acesso obrigatório ao link da webconferência com 5 (cinco) minutos de antecedência do "
+                                 "início do Procedimento de Análise Documental para Caracterização da Deficiência e Entrevista"}))
+
     def test_recurso_de_heteroidentificacao_e_so_cota(self):  # IFMG 1077: o extrator tipou como recurso
         self.assertTrue(A.so_cota({"tipo_evento": "recurso",
                                    "descricao_literal": "Interposição de recursos contra o resultado preliminar dos " + self.LIT_COTA}))

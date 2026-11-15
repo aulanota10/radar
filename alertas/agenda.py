@@ -101,7 +101,10 @@ NAO_PUBLICA = re.compile(r"n[ãa]o p[úu]blica", re.I)
 # IFMT 03: "pontuação das provas objetivas após a banca de heteroidentificação"; UFMS 137: lista de inscrições),
 # porque aí o aviso interessa a todos.
 TIPOS_COTA_PELO_TEXTO = {"recurso", "recurso_resultado", "outro"}
-COTA_TEXTO = re.compile(r"autodeclara[çc][ãa]o|heteroidentifica|equipe multidisciplinar|biopsicossocial", re.I)
+# Conferência de 15/11/2026 (UFRGS 09, área 07): o acesso obrigatório 5 minutos antes do "Procedimento de Análise
+# Documental para Caracterização da Deficiência" (tipo "outro") ia a quem não marcou cota.
+COTA_TEXTO = re.compile(r"autodeclara[çc][ãa]o|heteroidentifica|equipe multidisciplinar|biopsicossocial"
+                        r"|caracteriza[çc][ãa]o da defici[êe]ncia", re.I)
 COTA_MISTO = re.compile(r"memorial|prova|t[íi]tulo|did[áa]tica|inscri|pontua|homologa", re.I)
 # Conferência de 12/11/2026 (IFSULDEMINAS 188): "candidatos inscritos nas vagas para Pessoas Pretas ou Pardas" e
 # "pelo sistema de inscrição" não misturam outra etapa; só dizem quem recorre e por onde. Saem antes do teste.
@@ -919,6 +922,7 @@ def completar(avisos, slug, c, hoje, destinos, ordem, edital, nomes_area, cancel
                 item["completa"] = True
                 out.append(item)
         out += resultados_com_hora(d, base + out)
+        out += presencas_do_dia_da_prova(d, base + out)
         out += alvos_do_comparecimento(d, base + out)
         out += atrelados(d, base + out)
         return out
@@ -1000,6 +1004,34 @@ def completar(avisos, slug, c, hoje, destinos, ordem, edital, nomes_area, cancel
                 presentes.add(id(e))
                 out.append(item)
                 break
+        return out
+
+    def presencas_do_dia_da_prova(d, its):
+        """Conferência de 15/11/2026 (UFRPE 21, turnos 3 e 4): a mensagem levava a prova didática de 16/12, que continua a
+        de 15/12, e deixava de fora o fechamento do acesso de 16/12 às 8h e às 14h (item 20.4: quem não chega no horário é
+        eliminado), embora levasse os de 15/12. A presença do mesmo dia da prova (companheiros) vai junto dela."""
+        presentes = {x.get("ev") for x in its}
+        out = []
+        for x in list(its):
+            p = por_id.get(x.get("ev"))
+            if p is None or x.get("tipo") != "agendado" or x.get("antes") or not x.get("data") or x["data"] < hoje \
+                    or p["tipo_evento"] not in ("prova", "entrega_documento"):
+                continue
+            for e in companheiros(p, vig, d, hoje):
+                f, i, _, h = intervalo(e["data"])
+                if id(e) in presentes or f not in ("fixa", "janela") or i != x["data"]:
+                    continue
+                ds = dest[id(e)]
+                if not (None in ds or (d is not None and d in ds)):
+                    continue
+                fonte = dict(e.get("fonte") or {})
+                fonte["documento"] = fonte.get("documento") or edital
+                item = item_agendado(e, "ini", i, hoje, fonte)
+                item.update(ordem=ordem.get(id(e), 0), completa=True)
+                if x.get("so_cota") or so_cota(e):
+                    item["so_cota"] = True
+                presentes.add(id(e))
+                out.append(item)
         return out
 
     def alvos_do_comparecimento(d, its):
@@ -1826,6 +1858,14 @@ def executar(vigia, hoje, anterior):
             frase = DOC_AVISO.get(t.get("tipo"))
             titulo = f"{c['_titulos'].get(cam) or ''} {os.path.basename(cam)}"
             qual, doc_cota, quais = None, False, []
+            # Conferência de 15/11/2026, UFRGS 09, área 07: a convocação para a caracterização da deficiência e a
+            # retificação dela iam a quem não marcou cota ("Saiu uma convocação"). Documento cujos eventos vigentes são
+            # todos "só cota" só interessa a quem marcou cota.
+            evs_doc = [e for e in c["eventos"] if (e.get("fonte") or {}).get("documento") == cam]
+            # a convocação nº 5 ficou só com eventos substituídos pela retificação; aí valem os do próprio documento
+            evs_doc = [e for e in evs_doc if e["estado"] == "vigente"] or evs_doc
+            if evs_doc and all(so_cota(e) for e in evs_doc):
+                doc_cota = True
             if frase and t.get("tipo") in ("cronograma", "retificacao_cronograma") and so_passado(c["eventos"], cam, hoje):
                 # UFBA 06, conferência de 27/10/2026: cronogramas de Eletrotécnica, Química Analítica e Sociologia
                 # publicados depois das provas; "saiu o cronograma" levava o candidato a procurar etapa que não existe
