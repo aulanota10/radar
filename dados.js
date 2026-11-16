@@ -44632,7 +44632,7 @@ window.CONCURSOS = [
     "instituicao": "Universidade Federal Rural do Rio de Janeiro",
     "nivel": "Magistério Superior",
     "uf": null,
-    "numero_edital": "Edital nº 56/2026, publicado em 26/10/2026, com 3 documentos de alteração publicados depois",
+    "numero_edital": "Edital nº 56/2026, publicado em 26/10/2026, com 4 documentos de alteração publicados depois",
     "vagas": "24 vagas",
     "areas": "23 áreas, entre elas Anestesiologia/Intensivismo Veterinária, Bovinocultura de Leite, Forragicultura e Pastagens, Fitopatologia e Serviço Social e Fundamentos do Trabalho Profissional",
     "campi": "Instituto de Veterinária/Departamento de Medicina e Cirurgia, Instituto de Zootecnia/Departamento de Produção Animal, Instituto de Zootecnia/Departamento de Nutrição Animal e Pastagens e Instituto de Ciências Biológicas e da Saúde/ Departamento de Entomologia e Fitopatologia",
@@ -46170,6 +46170,191 @@ window.CONCURSOS = [
         "unilab-15-2026"
       ],
       "extraido_em": "2026-11-15",
+      "em_conferencia": true
+    }
+  },
+  {
+    "id": "usp-ee-061-2026",
+    "sigla": "USP",
+    "instituicao": "Escola de Enfermagem da Universidade de São Paulo",
+    "nivel": "Magistério Superior",
+    "uf": null,
+    "numero_edital": "Edital nº EE nº 061/2026, publicado em 28/10/2026, com 1 documento de alteração publicado depois",
+    "vagas": "1 vaga",
+    "areas": "Enfermagem em Saúde Coletiva",
+    "campi": "Departamento de Enfermagem em Saúde Coletiva (ENS) da Escola de Enfermagem",
+    "titulacao": "Doutorado",
+    "regime": "Regime de Dedicação Integral à Docência e à Pesquisa (RDIDP)",
+    "remuneracao": "",
+    "banca": "Comissão própria da USP",
+    "link_oficial": null,
+    "inscricao": {
+      "inicio": "2026-11-23",
+      "fim": "2027-01-22",
+      "situacao": "abre_em_breve",
+      "taxa": "R$ 384,20. Pedido de isenção de 16/11 a 17/11"
+    },
+    "etapas": [
+      {
+        "nome": "Prova escrita",
+        "tipo": "discursiva",
+        "carater": "Eliminatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "no prazo de trinta a cento e vinte dias, a contar da data da publicação no Diário Oficial do Estado da aprovação das inscrições"
+        },
+        "detalhe": {
+          "duracao": "4 horas",
+          "formato": "Com consulta durante 1 hora"
+        }
+      },
+      {
+        "nome": "Prova didática",
+        "tipo": "didatica",
+        "carater": "",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "no prazo de trinta a cento e vinte dias, a contar da data da publicação no Diário Oficial do Estado da aprovação das inscrições"
+        },
+        "detalhe": {
+          "duracao": "De 40 a 60 minutos. Terminar antes de 40 minutos dá nota zero na prova. Aos 60 minutos a banca interrompe",
+          "arguicao": "Sim, a critério da banca",
+          "recursos": "O candidato pode usar recursos próprios (II - o candidato poderá utilizar o material didático que julgar necessário;)"
+        }
+      },
+      {
+        "nome": "Julgamento do memorial com prova pública de arguição",
+        "tipo": "memorial",
+        "carater": "",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "no prazo de trinta a cento e vinte dias, a contar da data da publicação no Diário Oficial do Estado da aprovação das inscrições"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Apresentação do projeto de pesquisa e respectiva arguição",
+        "tipo": "outra",
+        "carater": "",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "no prazo de trinta a cento e vinte dias, a contar da data da publicação no Diário Oficial do Estado da aprovação das inscrições"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Resultado final",
+        "tipo": "resultado",
+        "carater": "",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "imediatamente após seu término, em sessão pública"
+        },
+        "detalhe": {}
+      }
+    ],
+    "logo": "usp.png",
+    "formacoes_status": "nao_extraido",
+    "familias": [],
+    "formacoes": [],
+    "familias_pos": [],
+    "areas_formacoes": [],
+    "observacao": "",
+    "detalhamento": "completo",
+    "avisos_edital": [],
+    "fonte_dados": {
+      "origem": "extracao_v2",
+      "extracoes": [
+        "usp-ee-061-2026"
+      ],
+      "extraido_em": "2026-11-16",
+      "em_conferencia": true
+    }
+  },
+  {
+    "id": "usp-eesc-32-2026",
+    "sigla": "USP",
+    "instituicao": "Escola de Engenharia de São Carlos da Universidade de São Paulo",
+    "nivel": "Magistério Superior",
+    "uf": null,
+    "numero_edital": "Edital nº DVACAD/EESC Nº 32, publicado em 16/10/2026",
+    "vagas": "1 vaga",
+    "areas": "Empreendedorismo tecnológico com análise de investimento e estratégia",
+    "campi": "Departamento de Engenharia de Produção da Escola de Engenharia de São Carlos",
+    "titulacao": "Doutorado",
+    "regime": "Regime de Dedicação Integral à Docência e à Pesquisa (RDIDP)",
+    "remuneracao": "",
+    "banca": "Comissão própria da USP",
+    "link_oficial": null,
+    "inscricao": {
+      "inicio": "2026-10-21",
+      "fim": "2027-01-18",
+      "situacao": "aberta"
+    },
+    "etapas": [
+      {
+        "nome": "Prova escrita",
+        "tipo": "discursiva",
+        "carater": "Eliminatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "no prazo de trinta a cento e vinte dias, a contar da data da publicação no Diário Oficial do Estado da aprovação das inscrições"
+        },
+        "detalhe": {
+          "duracao": "4 horas"
+        }
+      },
+      {
+        "nome": "Prova didática",
+        "tipo": "didatica",
+        "carater": "",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "no prazo de trinta a cento e vinte dias, a contar da data da publicação no Diário Oficial do Estado da aprovação das inscrições"
+        },
+        "detalhe": {
+          "duracao": "De 40 a 60 minutos. Terminar antes de 40 minutos dá nota zero na prova. Aos 60 minutos a banca interrompe",
+          "arguicao": "Sim, a critério da banca",
+          "sorteio": "Tema sorteado com 24 horas de antecedência",
+          "recursos": "O candidato pode usar recursos próprios (IV - o candidato poderá utilizar o material didático que julgar necessário;)"
+        }
+      },
+      {
+        "nome": "Julgamento do memorial com prova pública de arguição",
+        "tipo": "memorial",
+        "carater": "",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "no prazo de trinta a cento e vinte dias, a contar da data da publicação no Diário Oficial do Estado da aprovação das inscrições"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Resultado final",
+        "tipo": "resultado",
+        "carater": "",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "imediatamente após seu término, em sessão pública"
+        },
+        "detalhe": {}
+      }
+    ],
+    "logo": "usp.png",
+    "formacoes_status": "nao_extraido",
+    "familias": [],
+    "formacoes": [],
+    "familias_pos": [],
+    "areas_formacoes": [],
+    "observacao": "",
+    "detalhamento": "completo",
+    "avisos_edital": [],
+    "fonte_dados": {
+      "origem": "extracao_v2",
+      "extracoes": [
+        "usp-eesc-32-2026"
+      ],
+      "extraido_em": "2026-11-16",
       "em_conferencia": true
     }
   }
