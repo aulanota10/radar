@@ -264,3 +264,15 @@ class DecisoesSamuel15nov(unittest.TestCase):
         av = cr.avisos_numeral_extenso(ext, None)
         self.assertEqual(av, [(None, 'Prova didática, área 13 (Fonoaudiologia): o item "Domínio do conteúdo" vale '
                                      '"5,00 (seis)", com o numeral e o extenso diferentes; a soma do barema fecha com 5,00')])
+
+
+class DetalheEscrita16nov(unittest.TestCase):
+    def test_duracao_e_consulta(self):
+        ext = {"escrita": {"padrao": {"tempo": {"duracao_total_min": {"valor": 270}},
+                                      "consulta": {"situacao": {"valor": "permitida"}, "duracao_min": {"valor": 60}}}}}
+        self.assertEqual(cr.detalhe_escrita(ext), {"duracao": "4 horas e 30 minutos", "formato": "Com consulta durante 1 hora"})
+
+    def test_area_diferente_nao_gera_consulta(self):
+        ext = {"escrita": {"padrao": {"tempo": {"duracao_total_min": 240}, "consulta": {"situacao": "proibida"}},
+                           "por_escopo": [{"consulta": {"situacao": "permitida"}}]}}
+        self.assertEqual(cr.detalhe_escrita(ext), {"duracao": "4 horas"})

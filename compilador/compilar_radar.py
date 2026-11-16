@@ -660,6 +660,40 @@ def detalhe_didatica(ext):
     return det
 
 
+def horas(minutos):
+    h, m = divmod(int(minutos), 60)
+    if not h:
+        return f"{m} minutos"
+    t = f"{h} hora{'s' if h > 1 else ''}"
+    return t + (f" e {m} minutos" if m else "")
+
+
+def detalhe_escrita(ext):
+    """Conferência de 15/11/2026 (UFJ 05): a etapa escrita saía sem detalhe, embora a extração tenha a duração e a
+    consulta. Duração total e, quando todas as áreas dizem o mesmo, se há consulta (no campo "formato", que o
+    site mostra fora do destaque)."""
+    esc = ext.get("escrita") or {}
+    p = esc.get("padrao") or {}
+    det = {}
+    dur = v((p.get("tempo") or {}).get("duracao_total_min"))
+    durs = {v(((b.get("tempo") or {}).get("duracao_total_min"))) for b in esc.get("por_escopo") or []
+            if isinstance(b.get("tempo"), dict)} - {None}
+    if isinstance(dur, (int, float)) and dur > 0 and not (durs - {dur}):
+        det["duracao"] = horas(dur)
+    c = p.get("consulta") or {}
+    sit = v(c.get("situacao"))
+    sits = {v(((b.get("consulta") or {}).get("situacao"))) for b in esc.get("por_escopo") or []
+            if isinstance(b.get("consulta"), dict)} - {None}
+    if sit and not (sits - {sit}):
+        dc = v(c.get("duracao_min"))
+        if sit == "proibida":
+            det["formato"] = "Sem consulta"
+        elif sit == "permitida":
+            det["formato"] = "Com consulta" + (f" durante {horas(dc)}" if isinstance(dc, (int, float)) and dc > 0
+                                               and not (isinstance(dur, (int, float)) and dc >= dur) else "")
+    return det
+
+
 def texto_fornecidos(itens):
     """Itens fornecidos; uma condição com alternativa ("A; ou B") vai literal, uma vez, no lugar dos itens
     que ela cobre (IFSC 01, item 8.11.3: quadro de giz, giz e apagador; ou quadro branco, pincel e apagador)."""
@@ -820,12 +854,17 @@ def titulacao_com_excecoes(vagas):
     def encurta(a, n):  # corte sem deixar parêntese aberto ("Cordas Friccionadas Graves (Violoncelo…")
         a = a if len(a) <= 80 else globals()["encurta"](a, 80)
         return re.sub(r"\s*\([^)]*$", "…", a) if "(" in a and ")" not in a.split("(")[-1] else a
+    if len(excecoes) > 1 and any(" e " in a for a, _ in excecoes):
+        # UFSJ: "exceto em Anatomia Clínica e Epidemiologia e Clínica Médica" não deixava ver onde uma área acaba
+        nomes = [f"“{encurta(a, 60)}”" for a, _ in excecoes]
+    else:
+        nomes = [encurta(a, 60) for a, _ in excecoes]
     if len({t for _, t in excecoes}) == 1:
         t = excecoes[0][1]
         resto = f"{'que exige' if len(excecoes) == 1 else 'que exigem'} {nome(t)}"
-        return f"{TITULACAO.get(comum, comum)}, exceto em {juntar([encurta(a, 60) for a, _ in excecoes])}, {resto}"
+        return f"{TITULACAO.get(comum, comum)}, exceto em {juntar(nomes)}, {resto}"
     return (f"{TITULACAO.get(comum, comum)}, exceto em "
-            + juntar([f"{encurta(a, 60)} ({nome(t)})" for a, t in excecoes]))
+            + juntar([f"{n_} ({nome(t)})" for n_, (_, t) in zip(nomes, excecoes)]))
 
 
 NUMERAL_EXTENSO = re.compile(r'item\s+"([^"]+?)[;.]?"\s+vale\s+"([\d.,]+)\s*\(([^)]+)\)"')
@@ -1223,7 +1262,8 @@ def compila_grupo(id_radar, exts, atual, hoje, validador=None, conservador=False
             "tipo": TIPO_RADAR.get(tipo, "outra"),
             "carater": CARATER.get((fases.get(tipo) or {}).get("carater"), ""),
             "data": data_radar(periodos, juntar(unicos(abertas), "/"), unicos(notas), em_pacote, unicos(extra)),
-            "detalhe": detalhe_didatica(base) if tipo == "didatica" else {},
+            "detalhe": (detalhe_didatica(base) if tipo == "didatica"
+                        else detalhe_escrita(base) if tipo == "escrita" else {}),
         }
         etapas.append(etapa)
     # Etapa de mesmo nome em dois tipos (memorial e projeto com o nome "Defesa de Memorial e Projeto de
