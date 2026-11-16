@@ -1,6 +1,6 @@
 // ═══════════════════════════════════════════════════════════════════════
 //  DADOS DO RADAR DE CONCURSOS · Aula Nota 10
-//  Última verificação: 15/11/2026
+//  Última verificação: 16/11/2026
 //
 //  ESTE É O ÚNICO ARQUIVO QUE VOCÊ PRECISA EDITAR PARA ATUALIZAR O SITE.
 //  Não mexa no index.html.
@@ -35,7 +35,7 @@
 // Gerado por compilar_radar.py a partir das extrações v2 (vigia-documentos/extracoes).
 // Para corrigir um dado, corrija a extração e rode o compilador de novo.
 
-window.RADAR_ATUALIZADO = "15/11/2026";
+window.RADAR_ATUALIZADO = "16/11/2026";
 
 window.CONCURSOS = [
   {
@@ -48,7 +48,7 @@ window.CONCURSOS = [
     "vagas": "26 vagas (5 PcD, 6 pretos e pardos, 1 indígena, 1 quilombola)",
     "areas": "26 áreas, entre elas Nutrição em Saúde Coletiva, Doenças do Sistema Genitourinário, Endocrinologia e Metabologia, Prótese Dentária, Oclusão e Anatomia e Escultura e Otoneurologia / Dispositivos Eletrônicos de Amplificação Sonora (DEAS)",
     "campi": "Natal-RN",
-    "titulacao": "Conforme a área",
+    "titulacao": "Doutorado, exceto em Endocrinologia e Metabologia, que exige mestrado",
     "regime": "Dedicação Exclusiva, 20h e 40h",
     "remuneracao": "R$ 6.397,19 de vencimento básico em Dedicação Exclusiva, chegando a R$ 14.945,96 com a maior titulação",
     "banca": "Comissão própria da UFRN",
@@ -6517,7 +6517,7 @@ window.CONCURSOS = [
     "vagas": "26 vagas",
     "areas": "20 áreas, entre elas BIOLOGIA CELULAR, MORFOLOGIA/HISTOLOGIA, SAÚDE COLETIVA, MEDICINA/CLÍNICA MÉDICA e CONTABILIDADE APLICADA",
     "campi": "Campus: Apucarana; Centro de Área: Ciências Humanas e da Educação, Campus: Campo Mourão; Centro de Área: Ciências Sociais Aplicadas, Campus: Campo Mourão; Centro de Área: Ciências Humanas e da Educação e Campus: Curitiba I; Centro de Área: Música",
-    "titulacao": "Conforme a área",
+    "titulacao": "Doutorado, exceto em MEDICINA/CLÍNICA MÉDICA, que exige mestrado",
     "regime": "TIDE e T-34",
     "remuneracao": "R$ 8.080,62 de vencimento básico em TIDE - Tempo Integral e Dedicação Exclusiva (40 horas semanais de trabalho), chegando a R$ 16.565,27 com a maior titulação",
     "banca": "Comissão própria da UNESPAR",
@@ -7910,7 +7910,7 @@ window.CONCURSOS = [
     "vagas": "21 vagas",
     "areas": "18 áreas, entre elas Geografia/Ensino de Geografia, Ciência da Computação, Engenharias / Engenharia Ambiental, Ciências Ambientais e CARDIOLOGIA",
     "campi": "Rio de Janeiro, Resende e Cabo Frio",
-    "titulacao": "Conforme a área",
+    "titulacao": "Doutorado, exceto em CLÍNICA MÉDICA, que exige mestrado",
     "regime": "CH Semanal 40",
     "remuneracao": "R$ 6.581,01 de vencimento básico em CH Semanal 40",
     "banca": "Comissão própria da UERJ",
@@ -10115,7 +10115,7 @@ window.CONCURSOS = [
     "vagas": "12 vagas (4 reservadas a pretos, pardos e indígenas, 2 para PcD)",
     "areas": "12 áreas, entre elas Engenharia Química subárea Fenômenos de Transportes, Recursos Florestais e Engenharia Florestal/Tecnologia de Produtos Florestais, Projetos Mecânicos subárea Mecânica dos Sólidos, Engenharia Mecânica/Engenharia Térmica e Música subárea Educação Musical Escolar/ Etnomusicologia",
     "campi": "São João del-Rei/MG, Ouro Branco/MG e Sete Lagoas/MG",
-    "titulacao": "Conforme a área",
+    "titulacao": "Doutorado, exceto em Anatomia Clínica e Epidemiologia e Clínica Médica, que exigem especialização",
     "regime": "40 (quarenta) horas semanais com dedicação exclusiva e 40 (quarenta) horas semanais",
     "remuneracao": "R$ 6.397,19 de vencimento básico em 40 (quarenta) horas semanais com dedicação exclusiva, chegando a R$ 13.753,96 com a maior titulação",
     "banca": "Comissão própria da UFSJ",
@@ -10925,7 +10925,7 @@ window.CONCURSOS = [
     "vagas": "19 vagas para Professor EBTT + cadastro de reserva",
     "areas": "15 áreas, entre elas Administração, Português/Espanhol, Zootecnia II - Suinocultura, Nutrição e Produção Animal, Informática e Biologia I",
     "campi": "Pouso Alegre/MG, Carmo de Minas, Inconfidentes, Machado e Muzambinho",
-    "titulacao": "Conforme a área",
+    "titulacao": "Graduação, exceto em Segurança do Trabalho, que exige especialização",
     "regime": "40 (quarenta) horas semanais, em tempo integral, no Regime de Dedicação Exclusiva (RDE)",
     "remuneracao": "R$ 6.397,19 de vencimento básico em Dedicação Exclusiva, chegando a R$ 13.753,96 com a maior titulação",
     "banca": "Comissão própria da IFSULDEMINAS",
@@ -20011,7 +20011,7 @@ window.CONCURSOS = [
     "vagas": "8 vagas",
     "areas": "8 áreas, entre elas Saúde Coletiva, Design e Sociedade; Design e Ciência; Design e Tecnologia, Contabilidade, Ecologia Florestal; Dendrologia; Avaliação de impactos ambientais; Produção e Tecnologia de Sementes Florestais; Fitossociologia: Fundamentos e Métodos e Biologia",
     "campi": "CAMPUS DE LAGARTO - CAMPUS UNIVERSITÁRIO PROF. ANTÔNIO GARCIA FILHO; Departamento/Núcleo: Educação em Saúde, CAMPUS DE SÃO CRISTÓVÃO - CIDADE UNIVERSITÁRIA PROF. JOSÉ ALOÍSIO DE CAMPOS; Departamento/Núcleo: Artes Visuais e Design, CAMPUS DE SÃO CRISTÓVÃO - CIDADE UNIVERSITÁRIA PROF. JOSÉ ALOÍSIO DE CAMPOS; Departamento/Núcleo: Ciências Contábeis e CAMPUS DE SÃO CRISTÓVÃO - CIDADE UNIVERSITÁRIA PROF. JOSÉ ALOÍSIO DE CAMPOS; Departamento/Núcleo: Ciências Florestais",
-    "titulacao": "Conforme a área",
+    "titulacao": "Doutorado, exceto em Biologia, que exige graduação",
     "regime": "Dedicação Exclusiva e 40 horas semanais",
     "remuneracao": "R$ 6.397,19 de vencimento básico em Magistério do Ensino Básico, Técnico e Tecnológico (EBTT) - Dedicação Exclusiva",
     "banca": "Comissão própria da UFS",
@@ -37826,7 +37826,7 @@ window.CONCURSOS = [
     "vagas": "32 vagas, com 40% reservadas a negros, indígenas e quilombolas e 5% a pessoas com deficiência",
     "areas": "28 áreas, entre elas Mercadologia, Teoria da Computação, Ciência da Computação, Processamento de Sinais e Eletrônica e Irrigação e Drenagem",
     "campi": "Pelotas e/ou proximidades",
-    "titulacao": "Conforme a área",
+    "titulacao": "Doutorado, exceto em Psiquiatria, que exige mestrado",
     "regime": "40h/DE, 40h e 20h",
     "remuneracao": "R$ 6.397,19 de vencimento básico em 40h com DE, chegando a R$ 13.753,96 com a maior titulação",
     "banca": "Comissão própria da UFPel",
@@ -44289,7 +44289,7 @@ window.CONCURSOS = [
     "vagas": "10 vagas",
     "areas": "9 áreas, entre elas Gerenciamento em Enfermagem, Fisiologia Humana, Fonoaudiologia - Motricidade Orofacial, Fonoaudiologia - Saúde Coletiva e Pediatria Geral",
     "campi": "Departamento de Enfermagem, Departamento de Ciências Básicas da Saúde, Departamento de Fonoaudiologia e Departamento de Pediatria",
-    "titulacao": "Conforme a área",
+    "titulacao": "Doutorado, exceto em Pediatria Geral, que exige mestrado",
     "regime": "40h - DE e 40h",
     "remuneracao": "R$ 6.397,19 de vencimento básico em 40h - DE, chegando a R$ 13.753,96 com a maior titulação",
     "banca": "Comissão própria da UFCSPA",
@@ -44776,7 +44776,7 @@ window.CONCURSOS = [
     "vagas": "22 vagas",
     "areas": "17 áreas, entre elas Didática e Didática da Educação Especial Inclusiva, Ensino, Fundamentação Sócio-Histórica e Pedagógica das Artes Visuais na Educação e Pesquisa, Estágio e Prática Pedagógica em Artes Visuais, Ensino, Produção e Criação Artístico Visual e Fundamentação Histórica e Sociocultural em Artes Visuais, Formação de professores e Políticas Educacionais Inclusivas e Física Computacional, Métodos Numéricos e de Inteligência Artificial",
     "campi": "Jataí/GO",
-    "titulacao": "Conforme a área",
+    "titulacao": "Doutorado, exceto em Tradução e Interpretação Libras/Língua Portuguesa, que exige especialização",
     "regime": "40h/DE",
     "remuneracao": "R$ 6.397,18 de vencimento básico em Dedicação Exclusiva, chegando a R$ 13.753,94 com a maior titulação",
     "banca": "Comissão própria da UFJ",
@@ -44845,7 +44845,9 @@ window.CONCURSOS = [
     "areas_formacoes": [],
     "observacao": "",
     "detalhamento": "completo",
-    "avisos_edital": [],
+    "avisos_edital": [
+      "Prova didática, áreas Introdução a Fonoaudiologia, Linguagem oral…, Morfofisiologia, Introdução à Terapia…, Terapia Ocupacional nos Contextos… e Terapia Ocupacional nos Diferentes Contextos…: o item \"Domínio do conteúdo e abrangência do tema sorteado\" vale \"5,00 (seis)\", com o numeral e o extenso diferentes; a soma do barema fecha com 5,00. Pode ser erro de digitação do edital; confira no edital, que é a fonte oficial."
+    ],
     "fonte_dados": {
       "origem": "extracao_v2",
       "extracoes": [
@@ -45687,7 +45689,7 @@ window.CONCURSOS = [
     "vagas": "11 vagas",
     "areas": "11 áreas, entre elas Singularidades, Natação e Atividades Aquáticas, Gestão e Políticas Públicas de Esporte e Estágio Supervisionado no B, Pediatria e Cirurgia Pediátrica; ABS da Criança; Emergências Pediátricas, Educação Infantil e Língua Inglesa",
     "campi": "Fortaleza, Itapajé e Sobral",
-    "titulacao": "Conforme a área",
+    "titulacao": "Doutorado, exceto em Prática Instrumental Cordas Friccionadas Graves…, que exige graduação",
     "regime": "40 horas semanais com regime de dedicação exclusiva e 40 horas semanais sem regime de dedicação exclusiva",
     "remuneracao": "R$ 6.397,19 de vencimento básico em 40 horas semanais com regime de dedicação exclusiva, chegando a R$ 13.753,96 com a maior titulação",
     "banca": "Comissão própria da UFC",
@@ -45895,7 +45897,7 @@ window.CONCURSOS = [
     "vagas": "16 vagas",
     "areas": "14 áreas, entre elas Circuitos Eletroeletrônicos e Sistemas Digitais, Contabilidade Societária, Contabilidade Tributária e Prática Contábil, Fundamentos do Serviço Social, Instrumentalidade e Processo de Trabalho e Fisiologia Humana",
     "campi": "Baturité/CE, Redenção/CE, Acarape/CE, Instituto de Engenharias e Desenvolvimento Sustentável - IEDS, Instituto de Ciências Sociais Aplicadas - ICSA e Instituto de Ciências da Saúde - ICS",
-    "titulacao": "Conforme a área",
+    "titulacao": "Doutorado, exceto em Contabilidade Tributária e Prática Contábil, que exige mestrado",
     "regime": "40 horas com Dedicação Exclusiva, 40 horas e 40 horas com dedicação exclusiva",
     "remuneracao": "R$ 6.397,19 de vencimento básico em 40 horas DE, chegando a R$ 13.753,96 com a maior titulação",
     "banca": "Comissão própria da UNILAB",
