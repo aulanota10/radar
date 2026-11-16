@@ -70,9 +70,10 @@ window.CONCURSOS = [
           "nota": "Às 8h, em Natal/RN, para todas as áreas"
         },
         "detalhe": {
+          "duracao": "4 horas",
+          "formato": "Cláusula de barreira: classifica até 5 candidatos por lista para as etapas seguintes",
           "nota_minima": "7,0",
-          "local": "Setor III da UFRN, Natal/RN (locais retificados em 09/09)",
-          "formato": "Cláusula de barreira: classifica até 5 candidatos por lista para as etapas seguintes"
+          "local": "Setor III da UFRN, Natal/RN (locais retificados em 09/09)"
         }
       },
       {
@@ -1525,6 +1526,8 @@ window.CONCURSOS = [
           "nota": "Datas por área: 1.2.7 (Educação, Subárea: Educação e Artes Visuais), 1.2.12 (Língua Alemã, Literatura de Língua Alemã e…) e 1.2.13 (Linguística, Letras e Artes - Teatro…): 03/11; 1.2.8 (Educação, Subárea: Sociologia da Educação), 1.2.9 (Engenharia, Subárea: Polímeros), 1.2.10 (Farmacologia), 1.2.14 (Medicina Interna, Subárea: Nefrologia) e 1.2.15 (Odontologia, Subárea: Cariologia ou…): 09/11; 1.2.1 (Antropologia, Subárea: Teoria Antropológica), 1.2.4 (Ciências da Saúde/Medicina, Subárea…) e 1.2.5 (Direito, Subárea: Direito Internacional…): 16/11; 1.2.2 (Arquitetura e Urbanismo, Subárea: Projeto…): 23/11; 1.2.6 (Ecofisiologia e Manejo de Plantas de Lavoura): 24/11; 1.2.3 (Ciências Agrárias, Subárea: Entomologia…) e 1.2.16 (Teatro, Subárea: Ensino de Teatro): 30/11; demais áreas: sem data (em prazo não inferior a 30 (trinta) dias, contados da data de publicação do presente Edital no Diário Oficial da União)"
         },
         "detalhe": {
+          "duracao": "4 horas",
+          "formato": "Com consulta durante 1 hora",
           "nota_minima": "7,0"
         }
       },
@@ -2495,6 +2498,7 @@ window.CONCURSOS = [
         },
         "detalhe": {
           "duracao": "4 horas",
+          "formato": "Sem consulta",
           "modalidade": "Presencial"
         }
       },
@@ -6539,8 +6543,8 @@ window.CONCURSOS = [
         },
         "detalhe": {
           "duracao": "Até 4 horas",
-          "nota_minima": "7,0",
-          "formato": "Inclui questão obrigatória sobre o ECA"
+          "formato": "Inclui questão obrigatória sobre o ECA",
+          "nota_minima": "7,0"
         }
       },
       {
@@ -9357,6 +9361,8 @@ window.CONCURSOS = [
           "nota": "Das 9h às 13h. Resultado até 12h de 20/10"
         },
         "detalhe": {
+          "duracao": "4 horas",
+          "formato": "Sem consulta",
           "nota_minima": "7,00"
         }
       },
@@ -9669,7 +9675,10 @@ window.CONCURSOS = [
           "fim": "2027-02-21",
           "nota": "Datas por área: 06 (Ciências Sociais Aplicadas/ Administração/…): 30/11; demais áreas: 08/11 a 21/02"
         },
-        "detalhe": {}
+        "detalhe": {
+          "duracao": "5 horas",
+          "formato": "Com consulta durante 2 horas"
+        }
       },
       {
         "nome": "Prova Didática",
@@ -10115,7 +10124,7 @@ window.CONCURSOS = [
     "vagas": "12 vagas (4 reservadas a pretos, pardos e indígenas, 2 para PcD)",
     "areas": "12 áreas, entre elas Engenharia Química subárea Fenômenos de Transportes, Recursos Florestais e Engenharia Florestal/Tecnologia de Produtos Florestais, Projetos Mecânicos subárea Mecânica dos Sólidos, Engenharia Mecânica/Engenharia Térmica e Música subárea Educação Musical Escolar/ Etnomusicologia",
     "campi": "São João del-Rei/MG, Ouro Branco/MG e Sete Lagoas/MG",
-    "titulacao": "Doutorado, exceto em Anatomia Clínica e Epidemiologia e Clínica Médica, que exigem especialização",
+    "titulacao": "Doutorado, exceto em “Anatomia Clínica e Epidemiologia” e “Clínica Médica”, que exigem especialização",
     "regime": "40 (quarenta) horas semanais com dedicação exclusiva e 40 (quarenta) horas semanais",
     "remuneracao": "R$ 6.397,19 de vencimento básico em 40 (quarenta) horas semanais com dedicação exclusiva, chegando a R$ 13.753,96 com a maior titulação",
     "banca": "Comissão própria da UFSJ",
@@ -10137,7 +10146,9 @@ window.CONCURSOS = [
           "fim": "2026-12-11",
           "nota": "Janela provável das provas, fixada no cronograma retificado. As datas por CPD deveriam ter saído em 16/10 e ainda não chegaram ao Radar; confira na página do concurso"
         },
-        "detalhe": {}
+        "detalhe": {
+          "duracao": "4 horas"
+        }
       },
       {
         "nome": "Prova prática",
@@ -11750,6 +11761,7 @@ window.CONCURSOS = [
           "nota": "Aplicada junto com a objetiva, no turno da tarde, início às 15h45, conforme Edital de Convocação nº 07/2026"
         },
         "detalhe": {
+          "duracao": "4 horas e 30 minutos",
           "formato": "Questão única, igual para todas as áreas docentes",
           "local": "Preferencialmente Chapecó, Florianópolis e Joinville"
         }
@@ -13359,7 +13371,8 @@ window.CONCURSOS = [
           "nota": "Resultado definitivo em 09/11"
         },
         "detalhe": {
-          "formato": "Consulte o edital para o formato e a lista de pontos"
+          "duracao": "4 horas",
+          "formato": "Sem consulta"
         }
       },
       {
@@ -15216,8 +15229,8 @@ window.CONCURSOS = [
           "nota": "Cronograma divulgado por cada unidade acadêmica"
         },
         "detalhe": {
-          "formato": "Questão discursiva sobre um ponto sorteado de uma lista de 10 temas divulgada previamente",
           "duracao": "Até 4 horas",
+          "formato": "Questão discursiva sobre um ponto sorteado de uma lista de 10 temas divulgada previamente",
           "nota_minima": "7,0",
           "local": "Avançam para as etapas seguintes apenas os 8 melhores classificados por vaga, respeitados os empates"
         }
@@ -17873,6 +17886,7 @@ window.CONCURSOS = [
           "nota": "Datas por área: 03 (Fundamentos de Enfermagem no Cuidado…), 04 (Gestão e Educação Permanente em Saúde e…) e 07 (Materiais de Construção): 21/09; 02 (Enfermagem no Cuidado à Saúde da Mulher na…): 28/09; 36 (Engenharia de Transportes - Planejamento de…): 05/10; 14 (Educação, Gênero e Sexualidades) e 16 (Filosofia/Ensino de Filosofia): 06/10; 01 (Gestão da Produção e Métodos Quantitativos), 08 (Transporte/Infraestrutura de Transporte) e 20 (Psiquiatria): 13/10; 17 (Sociologia/Sociologia das desigualdades…) e 26 (Perspectivas indígenas nas artes): 15/10; 09 (Eletrotécnica), 15 (Arte e Educação) e 27 (Química Analítica: Eletroanalítica): 19/10; 05 (Extensão Rural), 06 (Geotecnia), 21 (Patologia), 24 (Geofísica Aplicada) e 37 (Geodésia e Topografia): 26/10; 12 (Contabilidade e Direito): 27/10; 18 (MED D99 - Clínica Cirúrgica I - Bases da…): 29/10; 19 (MEDE09 - Cirurgia Torácica e Cardiovascular): 30/10; 25 (Partículas e Campos: Física da Interação…): 02/11; 10 (Pesquisa Operacional e Ciência de Dados), 13 (Contabilidade Pública) e 22 (Sistema de informação gerencial aplicado à…): 03/11; demais áreas: sem data (em datas a serem divulgadas, com antecedência mínima de 30 (trinta) dias da realização das Provas, através do endereço www.concursos.ufba.br/docentes, respeitando-se o período de 03/09/2026 a 06/11/2026)"
         },
         "detalhe": {
+          "duracao": "5 horas",
           "formato": "Avalia competência técnica, capacidade analítica e expressão escrita",
           "nota_minima": "7,0",
           "local": "Na própria UFBA"
@@ -19804,6 +19818,7 @@ window.CONCURSOS = [
           "nota": "Já realizada, às 8h, em Uberaba, com 4 horas de duração e a primeira hora reservada para consulta a material. O resultado sai por lotação: 28/09 nas Lotações 02 (Radiologia) e 03 (Odontologia), 30/09 na Lotação 04 (Enfermagem) e 05/10 na Lotação 01 (Morfologia e Patologia)"
         },
         "detalhe": {
+          "duracao": "4 horas",
           "formato": "Temas na Relação de Temas publicada em 20/07 (Anexo I), comum às provas escrita, didática e prática"
         }
       },
@@ -20033,7 +20048,10 @@ window.CONCURSOS = [
           "fim": "2027-01-11",
           "nota": "Datas por área: 03 (Contabilidade): 26/10; demais áreas: 21/09 a 11/01"
         },
-        "detalhe": {}
+        "detalhe": {
+          "duracao": "4 horas",
+          "formato": "Sem consulta"
+        }
       },
       {
         "nome": "Prova didática",
@@ -20720,7 +20738,10 @@ window.CONCURSOS = [
           "tipo": "nao_divulgada",
           "nota": "Cada edital tem cronograma próprio. Início dos trabalhos, com as provas em sequência: 429/2026 em 06/10/2026; 399/2026 em 19/10/2026; demais editais ainda sem data"
         },
-        "detalhe": {}
+        "detalhe": {
+          "duracao": "4 horas",
+          "formato": "Com consulta durante 1 hora"
+        }
       },
       {
         "nome": "Prova Prática",
@@ -20879,7 +20900,10 @@ window.CONCURSOS = [
           "tipo": "exata",
           "valor": "2026-11-29"
         },
-        "detalhe": {}
+        "detalhe": {
+          "duracao": "4 horas",
+          "formato": "Sem consulta"
+        }
       },
       {
         "nome": "Prova de Desempenho Didático",
@@ -21076,6 +21100,7 @@ window.CONCURSOS = [
           "nota": "Janela geral do Anexo I. Cada unidade acadêmica divulga o cronograma da sua área dentro desse intervalo"
         },
         "detalhe": {
+          "duracao": "4 horas",
           "nota_minima": "7,0"
         }
       },
@@ -21875,7 +21900,10 @@ window.CONCURSOS = [
           "fim": "2027-04-25",
           "nota": "Datas por edital: 25/2026 e 26/2026: 21/02; 01/2026, 02/2026, 03/2026, 04/2026, 05/2026, 06/2026, 07/2026, 08/2026, 09/2026, 10/2026, 11/2026, 12/2026 e 13/2026: 18/04; 14/2026, 15/2026, 16/2026, 17/2026, 18/2026, 19/2026, 20/2026, 21/2026, 22/2026, 23/2026, 24/2026 e 27/2026: 25/04"
         },
-        "detalhe": {}
+        "detalhe": {
+          "duracao": "3 horas",
+          "formato": "Com consulta durante 1 hora"
+        }
       },
       {
         "nome": "Prova Prática de Direito",
@@ -33143,7 +33171,10 @@ window.CONCURSOS = [
           "valor": "2026-12-28",
           "fim": "2027-02-26"
         },
-        "detalhe": {}
+        "detalhe": {
+          "duracao": "4 horas",
+          "formato": "Com consulta durante 1 hora"
+        }
       },
       {
         "nome": "Prova prática",
@@ -33299,6 +33330,8 @@ window.CONCURSOS = [
           "nota": "Datas por área: 02 (Engenharias/ Engenharia Sanitária): 13/09 a 26/04; 04 (Multidisciplinar/Ensino/ Ensino de Ciências…): 26/10; 03 (Ciências Exatas e da Terra/ Matemática): 27/10; 05 (Ciências Exatas e da Terra/ Geociências/…): 16/11; 06 (Ciências Exatas e da Terra/ Geociências/…): 27/11; demais áreas: 13/09 a 27/12"
         },
         "detalhe": {
+          "duracao": "5 horas",
+          "formato": "Com consulta durante 2 horas",
           "nota_minima": "7,00"
         }
       },
@@ -33913,7 +33946,9 @@ window.CONCURSOS = [
           "tipo": "nao_divulgada",
           "nota": "Os editais da UEMA já publicaram, em outubro, os editais de realização com as datas, que o Radar ainda não leu por completo. Já conhecidas: Edital 139 (Caxias): leitura pública, prova escrita e sorteio do tema da didática em 09/11/2026. Nos demais editais, confira a data no edital de realização da sua área, na página do concurso."
         },
-        "detalhe": {}
+        "detalhe": {
+          "duracao": "4 horas"
+        }
       },
       {
         "nome": "Prova didática",
@@ -34922,6 +34957,7 @@ window.CONCURSOS = [
         },
         "detalhe": {
           "duracao": "Até 4 horas",
+          "formato": "Sem consulta",
           "nota_minima": "70 pontos",
           "modalidade": "Presencial"
         }
@@ -35242,6 +35278,7 @@ window.CONCURSOS = [
         },
         "detalhe": {
           "duracao": "Até 5 horas, com a primeira hora para consulta bibliográfica",
+          "formato": "Com consulta durante 1 hora",
           "nota_minima": "70%"
         }
       },
@@ -37230,6 +37267,8 @@ window.CONCURSOS = [
           "nota": "Datas por área: Vaga A (Direito público: direito constitucional e…) e Vaga C (Clínica Médica - Cardiologia: Semiologia…): 09/11; Vaga D (Direito do trabalho e direito processual e…): 10/11; Vaga H (Geodésia, Sistemas de Referência e Projeções…): 16/11; Vaga E (Direito público: constitucional…) e Vaga F (Língua Inglesa: Linguística e Ensino): 23/11; Vaga G (Direito privado e demais unidades…): 24/11; Vaga B (Teoria do direito, propedêuticas e…): 30/11"
         },
         "detalhe": {
+          "duracao": "4 horas",
+          "formato": "Com consulta durante 1 hora",
           "nota_minima": "7,0"
         }
       },
@@ -37849,7 +37888,8 @@ window.CONCURSOS = [
           "nota": "Datas por área: 02 (Teoria da Computação), 05 (Irrigação e Drenagem), 08 (Tecnologia e Utilização de Produtos…), 12 (Economia Agrária e dos Recursos Naturais), 21 (Gastronomia), 23 (Odontologia Social e Preventiva) e 27 (Fisiologia): 23/11; 28 (História da Filosofia): 24/11; 01 (Mercadologia), 04 (Processamento de Sinais e Eletrônica), 06 (Saneamento Básico), 07 (Geotécnica OU Engenharia Hidráulica OU…), 09 (Fisioterapia Traumato-Ortopédica e em…), 11 (Políticas e Desenvolvimento Territorial), 13 (Arquitetura e Urbanismo), 15 (Radiologia e Diagnóstico por Imagem), 16 (Medicina de Família e Comunidade), 18 (Terapia Ocupacional - Ciência do Movimento…), 22 (Odontopediatria), 24 (Clínica Veterinária) e 25 (Inspeção de Produtos de Origem Animal OU…): 30/11; 17 (Psiquiatria): 01/12; 10 (Meio Ambiente e Agrárias): 04/12; 03 (Ciência da Computação), 14 (Clínica Médica (Medicina de Urgência e…), 19 (Terapia Ocupacional Social), 20 (Terapia Ocupacional em Contextos Hospitalares) e 26 (Patologia Animal): 07/12"
         },
         "detalhe": {
-          "duracao": "Até 4 horas, mais 30 minutos de consulta bibliográfica. Manuscrita"
+          "duracao": "Até 4 horas, mais 30 minutos de consulta bibliográfica. Manuscrita",
+          "formato": "Com consulta durante 30 minutos"
         }
       },
       {
@@ -37973,7 +38013,10 @@ window.CONCURSOS = [
           "tipo": "nao_divulgada",
           "nota": "em data e local a serem divulgados, oportunamente, por meio da Portaria de Homologação das Inscrições"
         },
-        "detalhe": {}
+        "detalhe": {
+          "duracao": "4 horas",
+          "formato": "Com consulta durante 1 hora"
+        }
       },
       {
         "nome": "Prova Didática (Aula Pública)",
@@ -38339,6 +38382,7 @@ window.CONCURSOS = [
         },
         "detalhe": {
           "duracao": "5 horas, sendo a primeira para consulta bibliográfica. Máximo de 15 laudas, prova anônima",
+          "formato": "Com consulta durante 1 hora",
           "nota_minima": "7,00"
         }
       },
@@ -38938,7 +38982,8 @@ window.CONCURSOS = [
           "nota": "Acesso fechado às 8h. Sorteio do ponto no próprio local, antes do início. Resultado final em 09/12, com até 15 aprovados"
         },
         "detalhe": {
-          "duracao": "4 horas"
+          "duracao": "4 horas",
+          "formato": "Sem consulta"
         }
       },
       {
@@ -40076,6 +40121,8 @@ window.CONCURSOS = [
           "nota": "O edital ainda não fixou a data"
         },
         "detalhe": {
+          "duracao": "3 horas",
+          "formato": "Com consulta durante 1 hora",
           "nota_minima": "7,0. Abaixo disso o candidato é eliminado e não chega à segunda fase"
         }
       },
@@ -41040,7 +41087,10 @@ window.CONCURSOS = [
           "tipo": "exata",
           "valor": "2027-02-21"
         },
-        "detalhe": {}
+        "detalhe": {
+          "duracao": "4 horas",
+          "formato": "Sem consulta"
+        }
       },
       {
         "nome": "Prova Didática",
@@ -41146,7 +41196,10 @@ window.CONCURSOS = [
           "valor": "2026-11-22",
           "nota": "Às 8h30, com 240 minutos de duração, peso 3 e nota mínima 7. Resultado em 25/11"
         },
-        "detalhe": {}
+        "detalhe": {
+          "duracao": "4 horas",
+          "formato": "Sem consulta"
+        }
       },
       {
         "nome": "Prova de Aptidão Didática - PD",
@@ -41256,7 +41309,10 @@ window.CONCURSOS = [
           "tipo": "exata",
           "valor": "2026-11-08"
         },
-        "detalhe": {}
+        "detalhe": {
+          "duracao": "4 horas",
+          "formato": "Sem consulta"
+        }
       },
       {
         "nome": "Prova prática",
@@ -41389,7 +41445,9 @@ window.CONCURSOS = [
           "fim": "2027-04-26",
           "nota": "Para Área 101.15 (Ensino de Geografia, Novas Tecnologias…), Área 101.16 (Geografia Econômica; Geografia Regional e…) e Área 101.17 (Metodologia Quantitativa de Banco de Dados…), o documento traz 15/02/2026 a 26/02/2026, com o ano provavelmente trocado; confira na página do concurso. Datas por área: Área 101.5 (Ciências Exatas e da Terra/Química), Área 101.21 (Educação (70800006) - Subárea: Fundamentos…) e Área 101.22 (Engenharia - Subárea: Engenharia de Produção…): 14/12 a 05/02; Área 101.14 (Psicologia (70700001) - Subárea: Tratamento…): 14/12 a 17/02; Área 101.1 (Ciência da Computação (ou Informática) OU…), Área 101.3 (Interdisciplinar, Sociologia) e Área 101.20 (Economia): 28/12 a 15/02; Área 101.2 (Ciência da Computação (ou Informática) OU…): 29/12 a 22/02; Área 101.6 (Ciências Agrárias - Subárea…): 18/01 a 29/01; Área 101.11 (Ciências Humanas, Educação, Educação Básica…): 18/01 a 22/02; Área 101.9 (Farmácia - Subárea: Farmacotecnia): 27/01 a 14/04; Área 101.8 (Farmácia - Subárea: Cuidado Farmacêutico…): 27/01 a 15/04; Área 101.10 (Nutrição - Subárea: Nutrição Básica e…): 15/02 a 29/03; Área 101.7 (Recursos Florestais E Engenharia Florestal -…): 15/02 a 01/04; Área 101.19 (Ciência da Computação (OU Informática) OU…): 15/02 a 26/04; Área 101.18 (Química (1.06.00.00-0) ou Ciências -…): 22/02; Área 101.23 (Medicina Veterinária - Subárea: Clínica e…): 22/02 a 26/02; Área 101.12 (Ciências Humanas, Ciências Sociais Aplicadas…): 22/02 a 25/03; Área 101.4 (Odontologia (4.02.00.00- 0) - Subárea…): 01/03; Área 101.13 (Psicologia (70700001) - Subárea: Psicologia…): 09/03 a 15/04"
         },
-        "detalhe": {}
+        "detalhe": {
+          "duracao": "4 horas"
+        }
       },
       {
         "nome": "Prova prática",
@@ -41509,7 +41567,10 @@ window.CONCURSOS = [
           "tipo": "exata",
           "valor": "2027-03-21"
         },
-        "detalhe": {}
+        "detalhe": {
+          "duracao": "4 horas",
+          "formato": "Sem consulta"
+        }
       },
       {
         "nome": "Prova Didática",
@@ -41830,7 +41891,10 @@ window.CONCURSOS = [
           "tipo": "exata",
           "valor": "2027-01-24"
         },
-        "detalhe": {}
+        "detalhe": {
+          "duracao": "4 horas",
+          "formato": "Sem consulta"
+        }
       },
       {
         "nome": "Prova de Desempenho Didático",
@@ -41921,7 +41985,10 @@ window.CONCURSOS = [
           "tipo": "nao_divulgada",
           "nota": "O edital ainda não fixou a data"
         },
-        "detalhe": {}
+        "detalhe": {
+          "duracao": "5 horas",
+          "formato": "Com consulta durante 1 hora"
+        }
       },
       {
         "nome": "Prova Didática",
@@ -42006,7 +42073,10 @@ window.CONCURSOS = [
           "tipo": "nao_divulgada",
           "nota": "O edital ainda não fixou a data"
         },
-        "detalhe": {}
+        "detalhe": {
+          "duracao": "5 horas",
+          "formato": "Com consulta durante 1 hora"
+        }
       },
       {
         "nome": "Prova Didática",
@@ -42092,7 +42162,10 @@ window.CONCURSOS = [
           "valor": "2026-12-08",
           "fim": "2026-12-12"
         },
-        "detalhe": {}
+        "detalhe": {
+          "duracao": "3 horas",
+          "formato": "Com consulta durante 1 hora"
+        }
       },
       {
         "nome": "Atividade Prática",
@@ -42229,7 +42302,9 @@ window.CONCURSOS = [
           "tipo": "nao_divulgada",
           "nota": "Por área: Item 1.1 (Sistemas de Informação Geográfica): 2° quinzena de abril (período provável de provas); Item 1.2 (Manejo de Florestas Naturais): 2ª quinzena de maio (período provável de provas); Item 1.3 (Conservação da Natureza): 1° quinzena de março (período provável de provas); 25 áreas: 2ª quinzena de novembro (período provável de provas); Item 1.8 (Arqueologia, com subárea em Arqueologia de…), Item 1.13 (Medicina Veterinária/Clínica Cirúrgica de…) e Item 1.32 (Estatística e Ciência de Dados): 1ª quinzena de dezembro (período provável de provas); Item 1.28 (Radiologia Odontológica e Imaginologia): 2ª quinzena de fevereiro (período provável de provas)"
         },
-        "detalhe": {}
+        "detalhe": {
+          "formato": "Com consulta durante 1 hora"
+        }
       },
       {
         "nome": "Prática",
@@ -42332,7 +42407,10 @@ window.CONCURSOS = [
           "tipo": "exata",
           "valor": "2026-11-09"
         },
-        "detalhe": {}
+        "detalhe": {
+          "duracao": "3 horas",
+          "formato": "Sem consulta"
+        }
       },
       {
         "nome": "Prova de Didática",
@@ -42535,7 +42613,10 @@ window.CONCURSOS = [
           "valor": "2027-01-25",
           "nota": "Datas por área: Morfologia/ Anatomia humana (Área: Ciências Biológicas; Subárea…), Farmacologia/ Farmacologia clínica (Área: Ciências Biológicas; Subárea…) e Saúde coletiva/ Saúde da família (Área: Ciências Da Saúde; Subárea: Saúde…): 25/01; demais áreas: sem data (no primeiro dia do concurso)"
         },
-        "detalhe": {}
+        "detalhe": {
+          "duracao": "4 horas",
+          "formato": "Sem consulta"
+        }
       },
       {
         "nome": "Prova Didática",
@@ -42640,7 +42721,10 @@ window.CONCURSOS = [
           "fim": "2026-11-23",
           "nota": "Datas por área: Saúde da Mulher, Métodos de Imagem e Psiquiatria: 03/11; Medicina Baseada em Evidências… e Saúde da Criança: 09/11; Práticas em Atenção Primária à… e Anatomia Humana e Cirurgia: 16/11; Avaliação Nutricional e Nutrição Clínica e Fundamentos da Terapia Ocupacional…: 23/11"
         },
-        "detalhe": {}
+        "detalhe": {
+          "duracao": "4 horas",
+          "formato": "Sem consulta"
+        }
       },
       {
         "nome": "Prova didática",
@@ -42736,7 +42820,9 @@ window.CONCURSOS = [
           "tipo": "nao_divulgada",
           "nota": "no prazo de trinta a cento e vinte dias, a contar da data da publicação no Diário Oficial do Estado da aprovação das inscrições"
         },
-        "detalhe": {}
+        "detalhe": {
+          "duracao": "4 horas"
+        }
       },
       {
         "nome": "Prova didática",
@@ -42822,7 +42908,10 @@ window.CONCURSOS = [
           "tipo": "exata",
           "valor": "2026-11-23"
         },
-        "detalhe": {}
+        "detalhe": {
+          "duracao": "4 horas",
+          "formato": "Com consulta durante 1 hora"
+        }
       },
       {
         "nome": "PROVA TEÓRICO-PRÁTICA",
@@ -42922,7 +43011,10 @@ window.CONCURSOS = [
           "tipo": "exata",
           "valor": "2026-11-30"
         },
-        "detalhe": {}
+        "detalhe": {
+          "duracao": "4 horas",
+          "formato": "Com consulta durante 1 hora"
+        }
       },
       {
         "nome": "PROVA DE AULA",
@@ -43012,7 +43104,10 @@ window.CONCURSOS = [
           "tipo": "nao_divulgada",
           "nota": "data a ser divulgada no novo cronograma anunciado pela Errata de 04/11/2026 e pelo Aviso de 05/11/2026; o item 11.1 do edital previa 30/11/2026 09:30 a 30/11/2026 13:30, data superada porque o certame deve começar pelo menos 30 dias depois do fim das inscrições (12/11/2026)"
         },
-        "detalhe": {}
+        "detalhe": {
+          "duracao": "4 horas",
+          "formato": "Com consulta durante 1 hora"
+        }
       },
       {
         "nome": "PROVA PRÁTICA OU TEÓRICO",
@@ -43128,7 +43223,10 @@ window.CONCURSOS = [
           "tipo": "exata",
           "valor": "2026-12-07"
         },
-        "detalhe": {}
+        "detalhe": {
+          "duracao": "4 horas",
+          "formato": "Com consulta durante 1 hora"
+        }
       },
       {
         "nome": "PROVA DE AULA",
@@ -43220,7 +43318,9 @@ window.CONCURSOS = [
           "fim": "2027-02-01",
           "nota": "Datas por área: Ciências da Segurança: 25/11; Educação Musical e Estágio Supervisionado: 25/11 a 27/11; Tecnologia da Informação: 26/11; Construções Rurais com ênfase em Ambiência…, Economia Rural, Enfermagem Fundamental e Ginecologia e Obstetrícia: 30/11; Percussão e Estágio Supervisionado em…: 30/11 a 02/12; Geografia, Educação, Comunicação e Mídias, Infância e Educação Infantil, Análises Clínicas: Hematologia e Tecnologias Avançadas aplicadas ao Jornalismo: 01/12; Pedagogia e Urologia: 03/12; Gestão de Obras e Instalações Prediais: 07/12; Teoria Política e Instituições, Tecnologias aplicadas à Gestão da Informação, Geopolítica e Geografia Política, Ciência de Dados, Educação Matemática e Estatística: 08/12; Semiologia/Introdução ao Método Clínico I…: 14/12; Física Médica: 04/01; Radiologia e Diagnóstico por Imagem e Engenharia Física com ênfase em…: 11/01; Farmacologia: 12/01; Teoria Econômica e Física Experimental: Física de Materiais…: 18/01; Antropologias Indígenas, Negras e…: 19/01; Produção de Bovinos de Corte e Melhoramento…: 25/01; Parasitologia: 26/01; Educação Inclusiva: 01/02"
         },
-        "detalhe": {}
+        "detalhe": {
+          "duracao": "6 horas"
+        }
       },
       {
         "nome": "Prova Didática",
@@ -43315,7 +43415,10 @@ window.CONCURSOS = [
           "tipo": "exata",
           "valor": "2026-11-22"
         },
-        "detalhe": {}
+        "detalhe": {
+          "duracao": "4 horas",
+          "formato": "Com consulta durante 1 hora"
+        }
       },
       {
         "nome": "Prova Didática (PD)",
@@ -43418,7 +43521,10 @@ window.CONCURSOS = [
           "tipo": "exata",
           "valor": "2026-12-06"
         },
-        "detalhe": {}
+        "detalhe": {
+          "duracao": "4 horas",
+          "formato": "Sem consulta"
+        }
       },
       {
         "nome": "Prova didática",
@@ -43497,7 +43603,10 @@ window.CONCURSOS = [
           "tipo": "exata",
           "valor": "2026-11-24"
         },
-        "detalhe": {}
+        "detalhe": {
+          "duracao": "3 horas",
+          "formato": "Sem consulta"
+        }
       },
       {
         "nome": "Prova de Didática",
@@ -43580,7 +43689,10 @@ window.CONCURSOS = [
           "tipo": "nao_divulgada",
           "nota": "O edital ainda não fixou a data"
         },
-        "detalhe": {}
+        "detalhe": {
+          "duracao": "3 horas",
+          "formato": "Com consulta durante 1 hora"
+        }
       },
       {
         "nome": "Prova didática",
@@ -43675,7 +43787,9 @@ window.CONCURSOS = [
           "tipo": "nao_divulgada",
           "nota": "data, horário e local no edital de convocação (8.3); em duas fases, no primeiro dia previsto no edital de convocação, logo após o sorteio de temas (9.4.1, I)"
         },
-        "detalhe": {}
+        "detalhe": {
+          "duracao": "3 horas"
+        }
       },
       {
         "nome": "Prova Prática",
@@ -43781,7 +43895,10 @@ window.CONCURSOS = [
           "tipo": "nao_divulgada",
           "nota": "O edital ainda não fixou a data"
         },
-        "detalhe": {}
+        "detalhe": {
+          "duracao": "5 horas",
+          "formato": "Com consulta durante 1 hora"
+        }
       },
       {
         "nome": "Prova Didática",
@@ -43864,7 +43981,10 @@ window.CONCURSOS = [
           "tipo": "nao_divulgada",
           "nota": "O edital ainda não fixou a data"
         },
-        "detalhe": {}
+        "detalhe": {
+          "duracao": "5 horas",
+          "formato": "Com consulta durante 1 hora"
+        }
       },
       {
         "nome": "Prova Didática",
@@ -43947,7 +44067,10 @@ window.CONCURSOS = [
           "tipo": "exata",
           "valor": "2026-12-07"
         },
-        "detalhe": {}
+        "detalhe": {
+          "duracao": "3 horas",
+          "formato": "Sem consulta"
+        }
       },
       {
         "nome": "Prova de Didática",
@@ -44039,7 +44162,10 @@ window.CONCURSOS = [
           "tipo": "exata",
           "valor": "2026-12-07"
         },
-        "detalhe": {}
+        "detalhe": {
+          "duracao": "3 horas",
+          "formato": "Sem consulta"
+        }
       },
       {
         "nome": "Prova de Didática",
@@ -44131,7 +44257,10 @@ window.CONCURSOS = [
           "tipo": "exata",
           "valor": "2026-11-24"
         },
-        "detalhe": {}
+        "detalhe": {
+          "duracao": "3 horas",
+          "formato": "Sem consulta"
+        }
       },
       {
         "nome": "Prova de Didática",
@@ -44213,7 +44342,9 @@ window.CONCURSOS = [
           "tipo": "nao_divulgada",
           "nota": "no prazo de trinta a cento e vinte dias, a contar da data da publicação no Diário Oficial do Estado da aprovação das inscrições"
         },
-        "detalhe": {}
+        "detalhe": {
+          "duracao": "4 horas"
+        }
       },
       {
         "nome": "Prova didática",
@@ -44309,7 +44440,10 @@ window.CONCURSOS = [
           "tipo": "nao_divulgada",
           "nota": "em data e horário fixados no cronograma próprio de cada concurso, a ser divulgado no site da UFCSPA (provas a partir de 04/01/2027)"
         },
-        "detalhe": {}
+        "detalhe": {
+          "duracao": "6 horas",
+          "formato": "Com consulta durante 1 hora"
+        }
       },
       {
         "nome": "Prova Prática",
@@ -44426,7 +44560,10 @@ window.CONCURSOS = [
           "tipo": "exata",
           "valor": "2027-02-01"
         },
-        "detalhe": {}
+        "detalhe": {
+          "duracao": "4 horas",
+          "formato": "Sem consulta"
+        }
       },
       {
         "nome": "Prova Didática",
@@ -44519,7 +44656,10 @@ window.CONCURSOS = [
           "tipo": "nao_divulgada",
           "nota": "O Calendário de Provas com as datas, horário, local de realização das provas e e-mail para o qual será enviada a documentação do candidato, será divulgado no sítio www.ufrrj.br/concursos"
         },
-        "detalhe": {}
+        "detalhe": {
+          "duracao": "4 horas",
+          "formato": "Com consulta durante 1 hora"
+        }
       },
       {
         "nome": "Prova Didática",
@@ -44606,7 +44746,9 @@ window.CONCURSOS = [
           "tipo": "nao_divulgada",
           "nota": "data, horário e local no edital de convocação (10.3); em duas fases, no primeiro dia previsto no edital de convocação, logo após o sorteio de temas (11.4.1, I)"
         },
-        "detalhe": {}
+        "detalhe": {
+          "duracao": "3 horas"
+        }
       },
       {
         "nome": "Prova Didática",
@@ -44715,7 +44857,10 @@ window.CONCURSOS = [
           "tipo": "exata",
           "valor": "2026-12-13"
         },
-        "detalhe": {}
+        "detalhe": {
+          "duracao": "4 horas",
+          "formato": "Sem consulta"
+        }
       },
       {
         "nome": "Prova prática",
@@ -44887,7 +45032,10 @@ window.CONCURSOS = [
           "tipo": "exata",
           "valor": "2026-12-14"
         },
-        "detalhe": {}
+        "detalhe": {
+          "duracao": "4 horas",
+          "formato": "Com consulta durante 1 hora"
+        }
       },
       {
         "nome": "PROVA DE AULA",
@@ -44980,7 +45128,10 @@ window.CONCURSOS = [
           "fim": "2027-05-02",
           "nota": "Data provável, pelo edital"
         },
-        "detalhe": {}
+        "detalhe": {
+          "duracao": "5 horas",
+          "formato": "Com consulta durante 2 horas"
+        }
       },
       {
         "nome": "Prova Didática",
@@ -45081,7 +45232,10 @@ window.CONCURSOS = [
           "tipo": "exata",
           "valor": "2027-04-05"
         },
-        "detalhe": {}
+        "detalhe": {
+          "duracao": "3 horas",
+          "formato": "Com consulta durante 1 hora"
+        }
       },
       {
         "nome": "PROVA DE AULA",
@@ -45171,7 +45325,10 @@ window.CONCURSOS = [
           "tipo": "exata",
           "valor": "2026-12-07"
         },
-        "detalhe": {}
+        "detalhe": {
+          "duracao": "4 horas",
+          "formato": "Com consulta durante 1 hora"
+        }
       },
       {
         "nome": "PROVA DE AULA",
@@ -45261,7 +45418,10 @@ window.CONCURSOS = [
           "tipo": "nao_divulgada",
           "nota": "As provas deverão ocorrer em até 12 (doze) meses, a contar da publicação do Edital de Homologação das Inscrições."
         },
-        "detalhe": {}
+        "detalhe": {
+          "duracao": "4 horas",
+          "formato": "Sem consulta"
+        }
       },
       {
         "nome": "Prova de Didática",
@@ -45349,7 +45509,10 @@ window.CONCURSOS = [
           "tipo": "exata",
           "valor": "2027-02-15"
         },
-        "detalhe": {}
+        "detalhe": {
+          "duracao": "3 horas",
+          "formato": "Com consulta durante 1 hora"
+        }
       },
       {
         "nome": "PROVA DE AULA",
@@ -45439,7 +45602,10 @@ window.CONCURSOS = [
           "tipo": "exata",
           "valor": "2026-12-06"
         },
-        "detalhe": {}
+        "detalhe": {
+          "duracao": "4 horas",
+          "formato": "Sem consulta"
+        }
       },
       {
         "nome": "Prova didática",
@@ -45618,7 +45784,10 @@ window.CONCURSOS = [
           "tipo": "exata",
           "valor": "2027-03-01"
         },
-        "detalhe": {}
+        "detalhe": {
+          "duracao": "5 horas",
+          "formato": "Com consulta durante 1 hora"
+        }
       },
       {
         "nome": "PROVA DE AULA",
@@ -45709,7 +45878,10 @@ window.CONCURSOS = [
           "tipo": "exata",
           "valor": "2027-01-10"
         },
-        "detalhe": {}
+        "detalhe": {
+          "duracao": "4 horas",
+          "formato": "Sem consulta"
+        }
       },
       {
         "nome": "Prova prática",
@@ -45823,7 +45995,10 @@ window.CONCURSOS = [
           "tipo": "exata",
           "valor": "2027-01-11"
         },
-        "detalhe": {}
+        "detalhe": {
+          "duracao": "3 horas",
+          "formato": "Sem consulta"
+        }
       },
       {
         "nome": "Prova de Didática",
@@ -45919,7 +46094,10 @@ window.CONCURSOS = [
           "fim": "2027-01-18",
           "nota": "Datas por área: Fundamentos do Serviço Social…: 05/01; Histologia e Embriologia Humana, Neurociências, Cinesiologia e Biomecânica…, Bases Biológicas, Neurociências e Linguagem… e Bases Morfofuncionais e Oncologia: 06/01; Contabilidade Societária, Fisiologia Humana, Anatomia Humana, Métodos de Imagem, Nutrição em Saúde Coletiva e Comportamento…, Biologia Celular e Molecular, Histologia e… e Bioquímica: 11/01; Contabilidade Tributária e Prática Contábil: 12/01; Circuitos Eletroeletrônicos e Sistemas…: 18/01"
         },
-        "detalhe": {}
+        "detalhe": {
+          "duracao": "4 horas",
+          "formato": "Sem consulta"
+        }
       },
       {
         "nome": "Prova didática",
