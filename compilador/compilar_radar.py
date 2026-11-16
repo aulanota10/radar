@@ -27,6 +27,7 @@ Uso
 Precisa do node para ler o dados.js atual (o mesmo node do validar-dados.js).
 """
 import argparse
+import collections
 import datetime as dt
 import glob
 import json
@@ -798,6 +799,74 @@ def avisos_do_edital(ext, validador, triagem, rotulo_extracao):
     return saida
 
 
+def titulacao_com_excecoes(vagas):
+    """Decisão do Samuel em 15/11/2026 (UFJ 05: 16 áreas pedem doutorado e só Libras pede especialização): quando
+    todas as áreas menos uma ou duas têm a mesma titulação, o site diz "Doutorado, exceto em [área], que exige
+    especialização", no lugar de "Conforme a área". Devolve None quando a regra não se aplica."""
+    por_area = {}
+    for vg in vagas:
+        area = (vg.get("area_conhecimento") or "").strip().rstrip(".")
+        if area and vg.get("titulacao_minima"):
+            por_area.setdefault(area, vg["titulacao_minima"])
+    if len(por_area) < 4:
+        return None
+    contagem = collections.Counter(por_area.values())
+    comum, n = contagem.most_common(1)[0]
+    excecoes = [(a, t) for a, t in por_area.items() if t != comum]
+    if not 1 <= len(excecoes) <= 2 or n < 3 * len(excecoes):
+        return None
+    nome = lambda t: TITULACAO.get(t, t).lower()
+
+    def encurta(a, n):  # corte sem deixar parêntese aberto ("Cordas Friccionadas Graves (Violoncelo…")
+        a = a if len(a) <= 80 else globals()["encurta"](a, 80)
+        return re.sub(r"\s*\([^)]*$", "…", a) if "(" in a and ")" not in a.split("(")[-1] else a
+    if len({t for _, t in excecoes}) == 1:
+        t = excecoes[0][1]
+        resto = f"{'que exige' if len(excecoes) == 1 else 'que exigem'} {nome(t)}"
+        return f"{TITULACAO.get(comum, comum)}, exceto em {juntar([encurta(a, 60) for a, _ in excecoes])}, {resto}"
+    return (f"{TITULACAO.get(comum, comum)}, exceto em "
+            + juntar([f"{encurta(a, 60)} ({nome(t)})" for a, t in excecoes]))
+
+
+NUMERAL_EXTENSO = re.compile(r'item\s+"([^"]+?)[;.]?"\s+vale\s+"([\d.,]+)\s*\(([^)]+)\)"')
+
+
+def avisos_numeral_extenso(ext, rotulo_extracao):
+    """Decisão do Samuel em 15/11/2026 (UFJ 05, Anexos XIII, XIV, XVI e XVII: "5,00 (seis)"): conflito entre
+    numeral e extenso num barema, registrado pela extração em conflitos_internos, vira aviso de possível erro do
+    edital mesmo quando a soma fecha. As áreas com o mesmo item e os mesmos valores saem num aviso só."""
+    grupos = {}
+    rots = rotulos_de_escopo(ext, False)
+    for c in ext.get("conflitos_internos") or []:
+        campo, desc = c.get("campo") or "", c.get("descricao") or ""
+        if not re.search(r"barema|\.itens\[\d+\]\.pontos", campo) or not re.search(r"extenso", desc, re.I):
+            continue
+        m = NUMERAL_EXTENSO.search(desc)
+        if not m:
+            continue
+        raiz = campo.split(".")[0].split("[")[0]
+        chave = (ROTULO_CAMPO.get(raiz, raiz), m[1].strip(), m[2], m[3].strip(), bool(re.search(r"fecha", desc)))
+        areas = grupos.setdefault(chave, [])
+        m_esc = re.match(r"(\w+)\.por_escopo\[(\d+)\]", campo)
+        if m_esc:
+            try:
+                for cod in ext[m_esc[1]]["por_escopo"][int(m_esc[2])].get("codigos") or []:
+                    r_ = rots.get(cod, cod)
+                    if r_ not in areas:
+                        areas.append(r_)
+            except Exception:
+                pass
+    saida = []
+    for (rot, item, num, extenso, fecha), areas in grupos.items():
+        if areas:
+            rot += (", área " if len(areas) == 1 else ", áreas ") + juntar(areas)
+        texto = f"{rot}: o item \"{encurta(item, 70)}\" vale \"{num} ({extenso})\", com o numeral e o extenso diferentes"
+        if fecha:
+            texto += f"; a soma do barema fecha com {num}"
+        saida.append((rotulo_extracao, texto))
+    return saida
+
+
 def junta_avisos(itens):
     """Agrupa o mesmo aviso repetido em vários editais de um pacote."""
     por_texto = {}
@@ -946,7 +1015,8 @@ def compila_grupo(id_radar, exts, atual, hoje, validador=None, conservador=False
     novo["campi"] = juntar(unicos(cidades_unicas + unidades[:4]))
     tits = unicos(vg.get("titulacao_minima") for vg in vagas)
     novo["titulacao"] = (TITULACAO.get(tits[0], tits[0]) if len(tits) == 1
-                         else "Conforme a área" if tits else (atual or {}).get("titulacao", ""))
+                         else titulacao_com_excecoes(vagas) or "Conforme a área" if tits
+                         else (atual or {}).get("titulacao", ""))
     regimes = unicos((vg.get("regime") or "").strip().replace("–", "-").replace("—", "-") for vg in vagas)
     novo["regime"] = juntar(regimes) or (atual or {}).get("regime", "")
 
@@ -1282,6 +1352,7 @@ def compila_grupo(id_radar, exts, atual, hoje, validador=None, conservador=False
     for e in exts:
         avisos += avisos_do_edital(e, validador, e.get("_triagem"),
                                    (v(e.get("numero_edital")) if em_pacote else None))
+        avisos += avisos_numeral_extenso(e, v(e.get("numero_edital")) if em_pacote else None)
     novo["avisos_edital"] = junta_avisos(avisos)
 
     # Nunca perder informação que o dados.js atual já tinha e a extração não trouxe.

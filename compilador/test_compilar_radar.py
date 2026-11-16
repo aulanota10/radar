@@ -240,3 +240,27 @@ class ConferenciaUFJ15nov(unittest.TestCase):
         rot = cr.rotulos_de_escopo(ext, False)
         self.assertEqual(rot["Comunicação Social"], "Comunicação Social")
         self.assertEqual(rot["07"], "07 (Química)")
+
+
+class DecisoesSamuel15nov(unittest.TestCase):
+    """Titulação com exceções e aviso de numeral e extenso no barema (decisões de 15/11/2026)."""
+
+    def test_titulacao_com_uma_excecao(self):
+        vagas = [{"area_conhecimento": f"Área {i}", "titulacao_minima": "doutorado"} for i in range(5)]
+        vagas.append({"area_conhecimento": "Libras", "titulacao_minima": "especializacao"})
+        self.assertEqual(cr.titulacao_com_excecoes(vagas), "Doutorado, exceto em Libras, que exige especialização")
+
+    def test_titulacao_dividida_continua_conforme_a_area(self):
+        vagas = [{"area_conhecimento": f"Área {i}", "titulacao_minima": "doutorado" if i % 2 else "mestrado"}
+                 for i in range(6)]
+        self.assertIsNone(cr.titulacao_com_excecoes(vagas))
+
+    def test_numeral_e_extenso_no_barema_vira_aviso(self):
+        ext = {"_slug": "ufj-05-2026", "vagas": [{"codigo": {"numero": "13"}, "area_conhecimento": "Fonoaudiologia"}],
+               "didatica": {"por_escopo": [{"codigos": ["13"]}]},
+               "conflitos_internos": [{"campo": "didatica.por_escopo[0].barema.fichas[0].itens[0].pontos",
+                                       "descricao": 'o item "Domínio do conteúdo;" vale "5,00 (seis)", numeral 5,00 e '
+                                                    'extenso "seis"; a soma declarada (10,00) fecha com 5,00'}]}
+        av = cr.avisos_numeral_extenso(ext, None)
+        self.assertEqual(av, [(None, 'Prova didática, área 13 (Fonoaudiologia): o item "Domínio do conteúdo" vale '
+                                     '"5,00 (seis)", com o numeral e o extenso diferentes; a soma do barema fecha com 5,00')])
