@@ -2,41 +2,224 @@
 
 89 concursos no dados.js gerado, 89 no publicado; 91 vieram das extrações.
 
-## O que muda no Radar em relação ao publicado (13 concursos)
+## O que muda no Radar em relação ao publicado (74 concursos)
 
 **ufrn-058-2026**
-- titulação: "Conforme a área" → "Doutorado, exceto em Endocrinologia e Metabologia, que exige mestrado"
+- Prova Escrita: detalhes alterados
 
-**unespar-023-2026**
-- titulação: "Conforme a área" → "Doutorado, exceto em MEDICINA/CLÍNICA MÉDICA, que exige mestrado"
+**ufrgs-09-2026**
+- Prova Escrita: detalhes alterados
 
-**uerj-2026**
-- titulação: "Conforme a área" → "Doutorado, exceto em CLÍNICA MÉDICA, que exige mestrado"
+**ufscar-004-2026**
+- Prova escrita: detalhes alterados
+
+**unila-204-2026**
+- Prova Escrita: detalhes alterados
+
+**ufsm-221-2026**
+- Prova Escrita: detalhes alterados
 
 **ufsj-2026**
+- Prova escrita: detalhes alterados
 - titulação alterado
 
-**ifsuldeminas-188-2026**
-- titulação: "Conforme a área" → "Graduação, exceto em Segurança do Trabalho, que exige especialização"
+**ifsc-01-2026**
+- Prova Discursiva: detalhes alterados
+
+**urca-2026**
+- Prova Escrita: detalhes alterados
+
+**ufba-06-2026**
+- Escrita: detalhes alterados
+
+**uftm-28-2026**
+- Prova escrita: detalhes alterados
 
 **ufs-08-2026**
-- titulação: "Conforme a área" → "Doutorado, exceto em Biologia, que exige graduação"
+- Prova escrita: detalhes alterados
+
+**unifesp-2026**
+- Prova Escrita: detalhes alterados
+
+**ifmg-2026**
+- Prova Dissertativa Argumentativa: detalhes alterados
+
+**ufpe-09-2026**
+- Prova Escrita: detalhes alterados
+
+**unimontes-2026**
+- Prova de Conhecimentos: detalhes alterados
+
+**ufrj-942-2026**
+- Prova escrita: detalhes alterados
+
+**ufsm-198-2026**
+- Prova Escrita: detalhes alterados
+
+**uema-2026**
+- Prova escrita, com leitura pública: detalhes alterados
+
+**ufu-118-2026**
+- Prova escrita: detalhes alterados
+
+**ufmg-1638-2026**
+- Prova Escrita: detalhes alterados
+
+**unifal-002-2026**
+- Prova escrita: detalhes alterados
 
 **ufpel-028-2026**
-- titulação: "Conforme a área" → "Doutorado, exceto em Psiquiatria, que exige mestrado"
+- Prova Escrita: detalhes alterados
+
+**uesc-050-2026**
+- Prova Escrita: detalhes alterados
+
+**uneb-085-2026**
+- Prova Escrita: detalhes alterados
+
+**ufrpe-21-2026**
+- Prova Escrita: detalhes alterados
+
+**unesp-assistente-2026**
+- Prova escrita: detalhes alterados
+
+**ufrn-108-2026**
+- Prova Escrita: detalhes alterados
+
+**ufersa-030-2026**
+- Prova Escrita - PE: detalhes alterados
+
+**ufc-48-2026**
+- Prova escrita dissertativa: detalhes alterados
+
+**ufvjm-101-2026**
+- Prova Escrita: detalhes alterados
+
+**ufrn-109-2026**
+- Prova Escrita: detalhes alterados
+
+**ifmg-1077-2026**
+- Prova Dissertativa-Argumentativa: detalhes alterados
+
+**ufmg-2229-2026**
+- Prova Escrita: detalhes alterados
+
+**ufmg-2249-2026**
+- Prova Escrita: detalhes alterados
+
+**ufms-137-2026**
+- Prova Escrita: detalhes alterados
+
+**ufpr-276-2026**
+- Escrita: detalhes alterados
+
+**ufv-47-2026**
+- Prova de Conhecimento: detalhes alterados
+
+**unila-240-2026**
+- Prova Escrita: detalhes alterados
+
+**unilab-14-2026**
+- Prova escrita: detalhes alterados
+
+**usp-iau-03-2026**
+- Prova escrita: detalhes alterados
+
+**uerj-244-2026**
+- PROVA ESCRITA: detalhes alterados
+
+**uerj-255-2026**
+- PROVA ESCRITA: detalhes alterados
+
+**uerj-227-2026**
+- PROVA ESCRITA: detalhes alterados
+
+**uerj-254-2026**
+- PROVA ESCRITA: detalhes alterados
+
+**ufg-22-2026**
+- Prova Escrita ou Teórico-Prática: detalhes alterados
+
+**ufrb-01-2026**
+- Prova Escrita (PE): detalhes alterados
+
+**ufu-156-2026**
+- Prova escrita: detalhes alterados
+
+**ufv-58-2026**
+- Prova de Conhecimento: detalhes alterados
+
+**unesp-fct-463-2026**
+- Prova escrita: detalhes alterados
+
+**unifei-51-2026**
+- Prova Escrita: detalhes alterados
+
+**ufmg-2349-2026**
+- Prova Escrita: detalhes alterados
+
+**ufmg-2364-2026**
+- Prova Escrita: detalhes alterados
+
+**ufv-57-2026**
+- Prova de Conhecimento: detalhes alterados
+
+**ufv-59-2026**
+- Prova de Conhecimento: detalhes alterados
+
+**ufv-60-2026**
+- Prova de Conhecimento: detalhes alterados
+
+**usp-fcf-050-2026**
+- Prova escrita: detalhes alterados
 
 **ufcspa-118-2026**
-- titulação: "Conforme a área" → "Doutorado, exceto em Pediatria Geral, que exige mestrado"
+- Prova Dissertativa: detalhes alterados
 
-**ufj-05-2026**
-- titulação alterado
-- avisos de possível erro no edital alterado
+**ufg-20-2026**
+- Prova Escrita ou Teórico-Prática: detalhes alterados
+
+**ufrrj-56-2026**
+- Prova Escrita: detalhes alterados
+
+**unifei-59-2026**
+- Prova Escrita: detalhes alterados
+
+**usp-ea-038-2026**
+- Prova dissertativa: detalhes alterados
+
+**uerj-258-2026**
+- PROVA ESCRITA: detalhes alterados
+
+**ufsm-252-2026**
+- Prova Escrita: detalhes alterados
+
+**uerj-1860-2026**
+- PROVA ESCRITA: detalhes alterados
+
+**uerj-1861-2026**
+- PROVA ESCRITA: detalhes alterados
+
+**ufabc-53-2026**
+- Prova Escrita: detalhes alterados
+
+**uerj-264-2026**
+- PROVA ESCRITA: detalhes alterados
+
+**ufc-50-2026**
+- Prova escrita dissertativa: detalhes alterados
+
+**uerj-1865-2026**
+- PROVA ESCRITA: detalhes alterados
 
 **ufc-52-2026**
-- titulação: "Conforme a área" → "Doutorado, exceto em Prática Instrumental Cordas Friccionadas Graves…, que exige graduação"
+- Prova escrita dissertativa: detalhes alterados
+
+**ufv-61-2026**
+- Prova de Conhecimento: detalhes alterados
 
 **unilab-15-2026**
-- titulação: "Conforme a área" → "Doutorado, exceto em Contabilidade Tributária e Prática Contábil, que exige mestrado"
+- Prova escrita: detalhes alterados
 
 **furb-07-2026**
 - sai do Radar: resultado final em 08/10/2026, há mais de 30 dias (regra de 11/10/2026)
