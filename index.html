@@ -841,9 +841,9 @@ const ROTULO_ABA = {
   todos: "Todos"
 };
 const EXPLICA_ABA = {
-  escrita: "Inscrições encerradas. A próxima etapa é a prova escrita ou objetiva.",
-  didatica: "Escrita já realizada. O próximo passo é a prova de desempenho didático.",
-  outras: "Concursos em etapas finais (títulos, memorial, resultado) ou ainda sem cronograma divulgado."
+  escrita: "Inscrições encerradas. A próxima etapa é a prova escrita ou objetiva, com data marcada ou ainda a divulgar.",
+  didatica: "Escrita já realizada ou dispensada. O próximo passo é a prova de desempenho didático, com data marcada ou ainda a divulgar.",
+  outras: "Concursos em etapas finais (títulos, memorial, resultado) ou sem informação de cronograma."
 };
 
 // ── etapas: rótulo padronizado na tela, nome do edital guardado ao lado ──
@@ -1223,10 +1223,16 @@ function Bandeira({ uf, tam }) {
 }
 
 // ── caixa do prazo (o melhor elemento do Radar anterior, mantido) ──
-function Contagem({ marco, compacto }) {
+const NOME_PONTO = { Inscrição: "Inscrição", Escrita: "Prova escrita", Didática: "Prova didática", Títulos: "Prova de títulos", Resultado: "Resultado final" };
+function Contagem({ marco, compacto, semData }) {
   if (!marco) {
-    return h("div", { className: "contagem", style: { background: "#eceae4", borderRadius: 12, padding: "12px 14px", textAlign: "center", minWidth: 150, color: C.cinza } },
-      h("div", { style: { fontSize: 16, fontWeight: 600 } }, "Sem prazo definido"));
+    return h("div", { className: "contagem", style: { background: "#eceae4", borderRadius: 12, padding: compacto ? "8px 10px" : "12px 14px", textAlign: "center", minWidth: compacto ? 104 : 150, color: C.grafite } },
+      semData
+        ? h(React.Fragment, null,
+          h("div", { style: { fontSize: compacto ? 14 : 15, textTransform: "uppercase", letterSpacing: ".04em", fontWeight: 700, lineHeight: 1.2, color: C.cinza } }, "Próxima etapa"),
+          h("div", { style: { fontFamily: FONTE_TITULO, fontWeight: 700, fontSize: compacto ? 18 : 20, margin: "4px 0 2px", lineHeight: 1.15 } }, NOME_PONTO[semData.n] || semData.n),
+          h("div", { style: { fontSize: 15.5, color: C.cinza } }, "data a divulgar"))
+        : h("div", { style: { fontSize: 16, fontWeight: 600, color: C.cinza } }, "Sem prazo definido"));
   }
   const urg = marco.dias <= 7,
     atencao = marco.dias <= 21;
@@ -1262,6 +1268,21 @@ function pontosDoTrilho(c) {
   const i = pts.findIndex(p => !p.feito);
   if (i >= 0) pts[i].atual = true;
   return pts;
+}
+// Aba do concurso. Com data marcada, vale a próxima data (regra antiga). Sem data nenhuma à frente,
+// vale a próxima etapa que falta, a mesma que a linha do tempo destaca (17/11/2026): antes esses
+// concursos iam para "Outras etapas" mesmo com a escrita ou a didática por fazer.
+const ABA_DO_PONTO = { Inscrição: "inscricao", Escrita: "escrita", Didática: "didatica" };
+function proximaSemData(c) {
+  const pts = pontosDoTrilho(c);
+  const p = pts.find(x => x.atual);
+  return p && p.t === "a divulgar" ? p : null;
+}
+function faseDoConcurso(c) {
+  const m = proximoMarco(c);
+  if (m) return m.fase === "encerramento" || m.fase === "final" ? "outras" : m.fase;
+  const p = proximaSemData(c);
+  return p && ABA_DO_PONTO[p.n] && p.n !== "Inscrição" ? ABA_DO_PONTO[p.n] : "outras";
 }
 function Trilho({ c }) {
   const pts = pontosDoTrilho(c);
@@ -1566,8 +1587,8 @@ function Card({ item, aberto, onToggle, familia, pendente, ps, celular, comparti
       h("div", { style: { fontSize: 16.5, color: C.cinza, display: "flex", flexWrap: "wrap", alignItems: "center", gap: "2px 8px" } },
         c.uf && h("span", { style: { display: "inline-flex", alignItems: "center", gap: 6, color: C.grafite, fontWeight: 600 } }, h(Bandeira, { uf: c.uf }), c.uf),
         h("span", null, metaDoConcurso(c)))),
-    !celular && h("div", { style: { flex: "0 0 auto" } }, h(Contagem, { marco }))),
-  celular && h("div", { style: { marginTop: 12 } }, h(Contagem, { marco, compacto: true })),
+    !celular && h("div", { style: { flex: "0 0 auto" } }, h(Contagem, { marco, semData: marco ? null : proximaSemData(c) }))),
+  celular && h("div", { style: { marginTop: 12 } }, h(Contagem, { marco, compacto: true, semData: marco ? null : proximaSemData(c) })),
   h("div", { style: { marginTop: 12 } }, h(ChipsAreas, { item, ps })),
   h("div", { style: { marginTop: 14 } }, h(Trilho, { c })),
   h("div", { style: { display: "flex", flexWrap: "wrap", alignItems: "center", gap: 8, marginTop: 14 } },
@@ -1809,10 +1830,7 @@ function App() {
   }, []);
 
   const ps = palavras(busca);
-  const fase = c => {
-    const m = proximoMarco(c);
-    return m ? (m.fase === "encerramento" || m.fase === "final" ? "outras" : m.fase) : "outras";
-  };
+  const fase = faseDoConcurso;
   const naAbaDe = (f, a) => a === "todos" || f === a;
 
   // ── por concurso ──
