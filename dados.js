@@ -1,6 +1,6 @@
 // ═══════════════════════════════════════════════════════════════════════
 //  DADOS DO RADAR DE CONCURSOS · Aula Nota 10
-//  Última verificação: 16/11/2026
+//  Última verificação: 17/11/2026
 //
 //  ESTE É O ÚNICO ARQUIVO QUE VOCÊ PRECISA EDITAR PARA ATUALIZAR O SITE.
 //  Não mexa no index.html.
@@ -35,7 +35,7 @@
 // Gerado por compilar_radar.py a partir das extrações v2 (vigia-documentos/extracoes).
 // Para corrigir um dado, corrija a extração e rode o compilador de novo.
 
-window.RADAR_ATUALIZADO = "16/11/2026";
+window.RADAR_ATUALIZADO = "17/11/2026";
 
 window.CONCURSOS = [
   {
@@ -1499,7 +1499,7 @@ window.CONCURSOS = [
     "instituicao": "Universidade Federal do Rio Grande do Sul",
     "nivel": "Magistério Superior",
     "uf": "RS",
-    "numero_edital": "Edital nº 09/2026, publicado em 19/08/2026, com 23 documentos de alteração publicados depois",
+    "numero_edital": "Edital nº 09/2026, publicado em 19/08/2026, com 29 documentos de alteração publicados depois",
     "vagas": "20 vagas (10 ampla concorrência, 5 pretos, 1 indígena, 4 PcD)",
     "areas": "16 áreas, entre elas Antropologia, Subárea: Teoria Antropológica, Arquitetura e Urbanismo, Subárea: Projeto Arquitetônico: fundamentos e tecnologia, Ciências Agrárias, Subárea: Entomologia Agrícola, Ciências da Saúde/Medicina, Subárea: Anatomia Patológica e Patologia Clínica e Direito, Subárea: Direito Internacional Público",
     "campi": "Instituto de Filosofia e Ciências Humanas - Departamento de Antropologia, Faculdade de Arquitetura - Departamento de Arquitetura, Faculdade de Agronomia - Departamento de Fitossanidade e Faculdade de Medicina - Departamento de Patologia",
@@ -1551,7 +1551,7 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2026-11-09",
           "fim": "2026-12-24",
-          "nota": "Datas por área: 1.2.7 (Educação, Subárea: Educação e Artes Visuais): 09/11 a 10/11; 1.2.12 (Língua Alemã, Literatura de Língua Alemã e…): 11/11 a 13/11; 1.2.13 (Linguística, Letras e Artes - Teatro…): 12/11 a 18/11; 1.2.9 (Engenharia, Subárea: Polímeros): 19/11; 1.2.14 (Medicina Interna, Subárea: Nefrologia): 23/11; 1.2.1 (Antropologia, Subárea: Teoria Antropológica): 24/11 a 26/11; 1.2.4 (Ciências da Saúde/Medicina, Subárea…): 25/11; 1.2.10 (Farmacologia): 25/11 a 27/11; 1.2.8 (Educação, Subárea: Sociologia da Educação): 27/11 a 29/11; 1.2.5 (Direito, Subárea: Direito Internacional…): 30/11; 1.2.15 (Odontologia, Subárea: Cariologia ou…): 30/11 a 01/12; 1.2.6 (Ecofisiologia e Manejo de Plantas de Lavoura): 01/12 a 02/12; 1.2.3 (Ciências Agrárias, Subárea: Entomologia…): 11/12 a 12/12; 1.2.16 (Teatro, Subárea: Ensino de Teatro): 13/12 a 17/12; 1.2.2 (Arquitetura e Urbanismo, Subárea: Projeto…): 19/12 a 24/12"
+          "nota": "Datas por área: 1.2.7 (Educação, Subárea: Educação e Artes Visuais): 09/11 a 10/11; 1.2.12 (Língua Alemã, Literatura de Língua Alemã e…): 11/11 a 13/11; 1.2.13 (Linguística, Letras e Artes - Teatro…): 12/11 a 18/11; 1.2.9 (Engenharia, Subárea: Polímeros): 19/11; 1.2.14 (Medicina Interna, Subárea: Nefrologia): 23/11; 1.2.1 (Antropologia, Subárea: Teoria Antropológica) e 1.2.4 (Ciências da Saúde/Medicina, Subárea…): 24/11 a 25/11; 1.2.10 (Farmacologia): 25/11 a 27/11; 1.2.8 (Educação, Subárea: Sociologia da Educação): 25/11 a 29/11; 1.2.5 (Direito, Subárea: Direito Internacional…): 30/11; 1.2.15 (Odontologia, Subárea: Cariologia ou…): 30/11 a 01/12; 1.2.6 (Ecofisiologia e Manejo de Plantas de Lavoura): 01/12 a 02/12; 1.2.3 (Ciências Agrárias, Subárea: Entomologia…): 11/12 a 12/12; 1.2.16 (Teatro, Subárea: Ensino de Teatro): 13/12 a 17/12; 1.2.2 (Arquitetura e Urbanismo, Subárea: Projeto…): 19/12 a 24/12"
         },
         "detalhe": {
           "duracao": "Aula de 35 a 55 minutos, pela Resolução 93/2021 do CONSUN. Fora do intervalo, desconto de 0,10 ponto por minuto. Passando 10 minutos do teto, a banca interrompe a exposição",
@@ -1593,7 +1593,7 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2026-11-10",
           "fim": "2026-12-18",
-          "nota": "Datas por área: 1.2.7 (Educação, Subárea: Educação e Artes Visuais) e 1.2.12 (Língua Alemã, Literatura de Língua Alemã e…): 10/11; 1.2.13 (Linguística, Letras e Artes - Teatro…): 11/11 a 12/11; 1.2.9 (Engenharia, Subárea: Polímeros): 18/11; 1.2.10 (Farmacologia) e 1.2.14 (Medicina Interna, Subárea: Nefrologia): 24/11; 1.2.8 (Educação, Subárea: Sociologia da Educação): 24/11 a 26/11; 1.2.4 (Ciências da Saúde/Medicina, Subárea…): 25/11 a 26/11; 1.2.1 (Antropologia, Subárea: Teoria Antropológica): 27/11 a 30/11; 1.2.5 (Direito, Subárea: Direito Internacional…): 01/12; 1.2.6 (Ecofisiologia e Manejo de Plantas de Lavoura) e 1.2.15 (Odontologia, Subárea: Cariologia ou…): 03/12 a 04/12; 1.2.16 (Teatro, Subárea: Ensino de Teatro): 08/12 a 13/12; 1.2.2 (Arquitetura e Urbanismo, Subárea: Projeto…): 12/12 a 18/12; 1.2.3 (Ciências Agrárias, Subárea: Entomologia…): 13/12 a 14/12"
+          "nota": "Datas por área: 1.2.7 (Educação, Subárea: Educação e Artes Visuais) e 1.2.12 (Língua Alemã, Literatura de Língua Alemã e…): 10/11; 1.2.13 (Linguística, Letras e Artes - Teatro…): 11/11 a 12/11; 1.2.9 (Engenharia, Subárea: Polímeros): 18/11; 1.2.10 (Farmacologia) e 1.2.14 (Medicina Interna, Subárea: Nefrologia): 24/11; 1.2.8 (Educação, Subárea: Sociologia da Educação): 24/11 a 25/11; 1.2.4 (Ciências da Saúde/Medicina, Subárea…): 25/11; 1.2.1 (Antropologia, Subárea: Teoria Antropológica): 26/11 a 28/11; 1.2.5 (Direito, Subárea: Direito Internacional…): 01/12; 1.2.6 (Ecofisiologia e Manejo de Plantas de Lavoura) e 1.2.15 (Odontologia, Subárea: Cariologia ou…): 03/12 a 04/12; 1.2.16 (Teatro, Subárea: Ensino de Teatro): 08/12 a 13/12; 1.2.2 (Arquitetura e Urbanismo, Subárea: Projeto…): 12/12 a 18/12; 1.2.3 (Ciências Agrárias, Subárea: Entomologia…): 13/12 a 14/12"
         },
         "detalhe": {}
       }
@@ -9335,7 +9335,7 @@ window.CONCURSOS = [
     "instituicao": "Universidade Federal da Integração Latino-Americana",
     "nivel": "Magistério Superior",
     "uf": "PR",
-    "numero_edital": "Edital nº 204/2026, com 2 documentos de alteração publicados depois",
+    "numero_edital": "Edital nº 204/2026, com 3 documentos de alteração publicados depois",
     "vagas": "6 vagas",
     "areas": "Área: CIÊNCIAS DA SAÚDE; Subárea: MEDICINA DE FAMÍLIA E COMUNIDADE, Área: CIÊNCIAS DA SAÚDE; Subárea: GINECOLOGIA E OBSTETRÍCIA e Área: HUMANIDADES /CIÊNCIAS SOCIAIS; Subárea: COMUNICAÇÃO OU MEDIAÇÃO CULTURAL OU LETRAS OU ARTES",
     "campi": "Foz do Iguaçu/PR",
@@ -9413,9 +9413,10 @@ window.CONCURSOS = [
         "tipo": "resultado",
         "carater": "",
         "data": {
-          "tipo": "exata",
+          "tipo": "periodo",
           "valor": "2026-11-05",
-          "nota": "Datas por área: GINECOLOGIA E OBSTETRÍCIA (Área: CIÊNCIAS DA SAÚDE; Subárea…): 05/11; demais áreas: sem data"
+          "fim": "2026-11-16",
+          "nota": "Datas por área: GINECOLOGIA E OBSTETRÍCIA (Área: CIÊNCIAS DA SAÚDE; Subárea…): 05/11; COMUNICAÇÃO OU MEDIAÇÃO CULTURAL OU LETRAS OU ARTES (Área: HUMANIDADES /CIÊNCIAS SOCIAIS…): 16/11; demais áreas: sem data"
         },
         "detalhe": {}
       }
@@ -37861,7 +37862,7 @@ window.CONCURSOS = [
     "instituicao": "Universidade Federal de Pelotas",
     "nivel": "Magistério Superior",
     "uf": "RS",
-    "numero_edital": "Edital nº 028/2026, publicado em 14/09/2026, com 31 documentos de alteração publicados depois",
+    "numero_edital": "Edital nº 028/2026, publicado em 14/09/2026, com 32 documentos de alteração publicados depois",
     "vagas": "32 vagas, com 40% reservadas a negros, indígenas e quilombolas e 5% a pessoas com deficiência",
     "areas": "28 áreas, entre elas Mercadologia, Teoria da Computação, Ciência da Computação, Processamento de Sinais e Eletrônica e Irrigação e Drenagem",
     "campi": "Pelotas e/ou proximidades",
@@ -45687,7 +45688,7 @@ window.CONCURSOS = [
     "inscricao": {
       "inicio": "2026-10-01",
       "fim": "2026-11-16",
-      "situacao": "aberta",
+      "situacao": "encerrada",
       "taxa": "R$ 286,00"
     },
     "etapas": [
@@ -46355,6 +46356,109 @@ window.CONCURSOS = [
         "usp-eesc-32-2026"
       ],
       "extraido_em": "2026-11-16",
+      "em_conferencia": true
+    }
+  },
+  {
+    "id": "uerj-259-2026",
+    "sigla": "UERJ",
+    "instituicao": "Universidade do Estado do Rio de Janeiro",
+    "nivel": "Magistério Superior",
+    "uf": "RJ",
+    "numero_edital": "",
+    "vagas": "2 vagas",
+    "areas": "Anatomia Patológica e Patologia Clínica (com ênfase em Anatomia Patológica)",
+    "campi": "Rio de Janeiro - RJ e Centro Biomédico; Faculdade de Ciências Médicas; Departamento de Patologia e Laboratórios",
+    "titulacao": "Mestrado",
+    "regime": "CH Semanal 40",
+    "remuneracao": "R$ 5.236,22 de vencimento básico em CH Semanal 40",
+    "banca": "Comissão própria da UERJ",
+    "link_oficial": "https://prossim.uerj.br/",
+    "inscricao": {
+      "inicio": "2026-11-10",
+      "fim": "2026-12-15",
+      "situacao": "aberta",
+      "taxa": "R$ 261,81"
+    },
+    "etapas": [
+      {
+        "nome": "PROVA ESCRITA",
+        "tipo": "discursiva",
+        "carater": "Eliminatória",
+        "data": {
+          "tipo": "exata",
+          "valor": "2027-02-15"
+        },
+        "detalhe": {
+          "duracao": "3 horas",
+          "formato": "Com consulta durante 1 hora"
+        }
+      },
+      {
+        "nome": "PROVA PRÁTICA OU TEÓRICO-PRÁTICA",
+        "tipo": "outra",
+        "carater": "Eliminatória",
+        "data": {
+          "tipo": "exata",
+          "valor": "2027-02-18"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "PROVA DE AULA",
+        "tipo": "didatica",
+        "carater": "Eliminatória",
+        "data": {
+          "tipo": "exata",
+          "valor": "2027-02-17"
+        },
+        "detalhe": {
+          "duracao": "De 50 a 60 minutos. Menos de 50 minutos elimina o candidato",
+          "sorteio": "Tema sorteado com 24 horas de antecedência",
+          "nota_minima": "8 em 10",
+          "recursos": "O candidato pode usar recursos próprios (Compete ao candidato providenciar os recursos audiovisuais que pretenda utilizar na prova de aula e que não sejam disponibilizados pela Unidade)"
+        }
+      },
+      {
+        "nome": "JULGAMENTO DE TÍTULOS E TRABALHOS",
+        "tipo": "titulos",
+        "carater": "",
+        "data": {
+          "tipo": "exata",
+          "valor": "2027-02-18"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Resultado final",
+        "tipo": "resultado",
+        "carater": "",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "em até 07 dias úteis (o edital não diz a partir de quê)"
+        },
+        "detalhe": {}
+      }
+    ],
+    "periodo_provas": {
+      "inicio": "2027-02-15",
+      "fim": "2027-02-17"
+    },
+    "logo": "uerj.png",
+    "formacoes_status": "nao_extraido",
+    "familias": [],
+    "formacoes": [],
+    "familias_pos": [],
+    "areas_formacoes": [],
+    "observacao": "",
+    "detalhamento": "completo",
+    "avisos_edital": [],
+    "fonte_dados": {
+      "origem": "extracao_v2",
+      "extracoes": [
+        "uerj-259-2026"
+      ],
+      "extraido_em": "2026-11-17",
       "em_conferencia": true
     }
   }
