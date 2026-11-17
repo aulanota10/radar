@@ -45,3 +45,14 @@ Para corrigir um texto escrito à mão que o compilador mantém do `dados.js` pu
 O campo `campi` traz todas as cidades das extrações, sem o corte antigo em quatro (que deixava Rio Claro e São José dos Campos fora da UNESP Assistente), e a mesma cidade em grafias diferentes ("Rio de Janeiro / RJ", "Rio de Janeiro - RJ") entra uma vez só. As unidades continuam limitadas a quatro, porque nos IFs e em parte das universidades são elas que dizem o campus (a cidade é a da reitoria).
 
 O `campi` também aceita correção em `textos_corrigidos.json` (08/11/2026), para tirar o departamento que só repete uma cidade já listada. A entrada troca o texto gerado inteiro; se a extração mudar o texto (cidade nova, por exemplo), a troca deixa de valer, o texto gerado volta ao site e o relatório avisa em "Alertas".
+
+## Campos para a busca e a ficha do site (17/11/2026)
+
+Pedido do Samuel em 17/11/2026, na revisão visual do Radar. O compilador passou a gravar:
+
+- `uf` também pela sigla (`UF_POR_SIGLA`) ou pelo nome do estado no nome da instituição, quando a extração não traz cidade com estado. Antes 27 concursos ficavam sem UF e sumiam do filtro de estado. O `validar-dados.js` avisa (sem bloquear) concurso sem UF.
+- `edital` (`numero`, `publicacao`, `alteracoes`, ou `editais` no pacote) e `vagas_total`, tirados do texto final da ficha, para o site ordenar e mostrar sem ler texto e sem discordar do que o candidato lê.
+- `alteracoes`: os documentos que mudaram o edital, um por linha (`data`, `documento`, `muda`), do mais recente ao mais antigo. Fora do pacote.
+- `inscritos`: inscritos homologados por código de vaga (no pacote, `"<edital>|<código>"`), casados no site com `areas_formacoes[].codigo`.
+- Em cada etapa, `peso` (quando todos os editais dão o mesmo) e, na didática, `temas` (`min` e `max` de temas publicados).
+- Tipos de etapa `pratica` e `projeto`, que antes saíam como `outra`. A etapa publicada antes como `outra` continua casando com eles pela palavra principal do nome, para o modo conservador não perder data nem nota.

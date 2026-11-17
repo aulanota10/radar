@@ -74,7 +74,8 @@ window.CONCURSOS = [
           "formato": "Cláusula de barreira: classifica até 5 candidatos por lista para as etapas seguintes",
           "nota_minima": "7,0",
           "local": "Setor III da UFRN, Natal/RN (locais retificados em 09/09)"
-        }
+        },
+        "peso": "0,4"
       },
       {
         "nome": "Prova Didática",
@@ -95,6 +96,11 @@ window.CONCURSOS = [
           "recursos": "Fornecidos: quadro branco, Datashow, programas de apresentação de slides, computador/notebook e softwares livres, a exemplo do LibreOffice",
           "sorteio": "Sim. O ponto é sorteado no dia da prova escrita, 13/09, por envelope, random.org ou planilha, com comprovante assinado por dois fiscais",
           "modalidade": "Presencial obrigatória para o candidato. A comissão examinadora participa prioritariamente por videoconferência. Sessão pública, no máximo 3 candidatos por turno, com gravação em áudio e vídeo"
+        },
+        "peso": "0,3",
+        "temas": {
+          "min": 5,
+          "max": 10
         }
       },
       {
@@ -107,7 +113,8 @@ window.CONCURSOS = [
           "fim": "2026-10-23",
           "nota": "Datas por área: 270307 (Português Língua Estrangeira (PLE)) e 704501 (Pesquisa Operacional e Engenharia Econômica): 22/09; 268266 (Otoneurologia / Dispositivos Eletrônicos de…) e 924708 (Doenças do Sistema Genitourinário): 23/09; 267703 (Trompete), 704339 (Endocrinologia e Metabologia) e 720982 (Fotografia Publicitária. Comunicação Visual.…): 24/09; 267823 (Paisagismo): 27/09; 267710 (Paleografia, Arquivística e Patrimônio) e 860518 (Literatura Inglesa e Língua Inglesa): 28/09; demais áreas: 14/09 a 23/10"
         },
-        "detalhe": {}
+        "detalhe": {},
+        "peso": "0,2"
       },
       {
         "nome": "Prova de Títulos",
@@ -119,7 +126,8 @@ window.CONCURSOS = [
           "fim": "2026-10-23",
           "nota": "Datas por área: 704501 (Pesquisa Operacional e Engenharia Econômica): 25/09; 268266 (Otoneurologia / Dispositivos Eletrônicos de…): 27/09; 267703 (Trompete), 270307 (Português Língua Estrangeira (PLE)) e 924708 (Doenças do Sistema Genitourinário): 28/09; 267823 (Paisagismo): 30/09; 704339 (Endocrinologia e Metabologia), 720982 (Fotografia Publicitária. Comunicação Visual.…) e 860518 (Literatura Inglesa e Língua Inglesa): 01/10; 267710 (Paleografia, Arquivística e Patrimônio): 06/10; demais áreas: 14/09 a 23/10"
         },
-        "detalhe": {}
+        "detalhe": {},
+        "peso": "0,1"
       },
       {
         "nome": "Resultado final",
@@ -1484,6 +1492,86 @@ window.CONCURSOS = [
     "observacao": "O ponto da aula sai no mesmo dia da prova escrita, 13/09, e a janela da didática é apertada: aula, defesa de memorial e títulos entre 14/09 e 23/10, prazo estendido pela retificação do DOU de 09/10. São três eliminatórias com mínimo 7,0 cada. O plano de aula vale 2 dos 10 pontos da didática e é entregue 30 minutos antes, em PDF. É ponto que se ganha em casa.",
     "detalhamento": "completo",
     "avisos_edital": [],
+    "alteracoes": [
+      {
+        "data": "2026-11-05",
+        "documento": "Distribuição das vagas das ações afirmativas (lista única), versão 2",
+        "muda": "ajustes no edital"
+      },
+      {
+        "data": "2026-10-19",
+        "documento": "",
+        "muda": "datas"
+      },
+      {
+        "data": "2026-10-09",
+        "documento": "Aviso de Retificação do Edital nº 058/2026-Progesp (DOU nº 192, de 09/10/2026)",
+        "muda": "datas da prova didática, datas da memorial e datas da prova de títulos"
+      },
+      {
+        "data": "2026-10-03",
+        "documento": "",
+        "muda": "datas da prova de títulos"
+      },
+      {
+        "data": "2026-09-28",
+        "documento": "Ficha de Expectativa de Resposta da Prova Escrita - 1ª Retificação",
+        "muda": "prova escrita"
+      },
+      {
+        "data": "2026-09-17",
+        "documento": "Ficha de Expectativa de Resposta da Prova Escrita - 2ª Retificação",
+        "muda": "prova escrita"
+      },
+      {
+        "data": "2026-09-15",
+        "documento": "Ficha de Expectativa de Resposta da Prova Escrita - 1ª Retificação",
+        "muda": "prova escrita"
+      },
+      {
+        "data": "2026-08-10",
+        "documento": "Retificação do Edital nº 058/2026-Progesp (7 de agosto de 2026)",
+        "muda": "datas da prova didática, datas da memorial e datas da prova de títulos"
+      },
+      {
+        "data": "2026-06-26",
+        "documento": "Aviso de Retificação do Edital nº 058/2026-Progesp (25 de junho de 2026)",
+        "muda": "prova didática"
+      },
+      {
+        "data": "2026-05-19",
+        "documento": "Retificação do Edital nº 58/2026-PROGESP (Edital de 18 de maio de 2026)",
+        "muda": "reserva de vagas e vagas"
+      }
+    ],
+    "inscritos": {
+      "704591": 44,
+      "924708": 1,
+      "704339": 2,
+      "924736": 23,
+      "268266": 9,
+      "267823": 23,
+      "268797": 7,
+      "269023": 34,
+      "917861": 14,
+      "268284": 6,
+      "267380": 26,
+      "721003": 19,
+      "704590": 27,
+      "267774": 63,
+      "721017": 62,
+      "873028": 19,
+      "268032": 53,
+      "267515": 26,
+      "267710": 28,
+      "270307": 24,
+      "720982": 40,
+      "860518": 15,
+      "704501": 23,
+      "267703": 4,
+      "268538": 16,
+      "268407": 86
+    },
     "fonte_dados": {
       "origem": "extracao_v2",
       "extracoes": [
@@ -1491,7 +1579,13 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-02",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "numero": "058/2026-PROGESP",
+      "publicacao": "2026-04-30",
+      "alteracoes": 10
+    },
+    "vagas_total": 26
   },
   {
     "id": "ufrgs-09-2026",
@@ -1533,7 +1627,7 @@ window.CONCURSOS = [
       },
       {
         "nome": "Prova Prática",
-        "tipo": "outra",
+        "tipo": "pratica",
         "carater": "Eliminatória e classificatória",
         "data": {
           "tipo": "periodo",
@@ -1561,11 +1655,15 @@ window.CONCURSOS = [
           "arguicao": "Não há arguição na aula. A arguição é da Produção Intelectual e, em dedicação exclusiva, do projeto de pesquisa ou de extensão, em etapa separada",
           "modalidade": "Presencial e pública, na unidade da vaga, gravada para registro e avaliação. Quem não estiver presente no horário de início não faz a prova",
           "plano_de_aula": "Não há plano de aula no dia. O que se entrega antes, pelo sistema, é o TÍTULO e o RESUMO da prova didática, junto com o currículo documentado e o projeto"
+        },
+        "temas": {
+          "min": 2,
+          "max": 19
         }
       },
       {
         "nome": "Projeto de Pesquisa ou de Extensão (avaliado na Defesa da Produção Intelectual)",
-        "tipo": "outra",
+        "tipo": "projeto",
         "carater": "",
         "data": {
           "tipo": "nao_divulgada",
@@ -2456,6 +2554,86 @@ window.CONCURSOS = [
     "observacao": "Aqui o tema da aula é seu. A Resolução 93/2021 diz que a prova didática é de livre escolha do candidato dentro do programa do Departamento, sem sorteio, e o título e o resumo são entregues antes pelo sistema. Isso muda tudo no preparo: dá para escolher o tema em que você é mais forte e ensaiar meses antes. Em troca, a banca cobra coerência entre o resumo entregue e a aula dada. Tempo de 35 a 55 minutos, com desconto de 0,10 por minuto fora disso. E o corte de 7,0 é próprio da didática: nota abaixo disso reprova mesmo com média geral boa.",
     "detalhamento": "completo",
     "avisos_edital": [],
+    "alteracoes": [
+      {
+        "data": "2026-11-16",
+        "documento": "Cronograma Reformulado",
+        "muda": "datas da prova escrita, datas da prova didática e datas"
+      },
+      {
+        "data": "2026-11-16",
+        "documento": "Cronograma Reformulado no Ato de Instalação",
+        "muda": "datas da prova escrita, datas da prova didática e datas"
+      },
+      {
+        "data": "2026-11-16",
+        "documento": "Cronograma Final",
+        "muda": "datas da prova de títulos, datas da prova didática e datas"
+      },
+      {
+        "data": "2026-11-16",
+        "documento": "Cronograma Reformulado Ato de Instalação",
+        "muda": "datas da prova didática e datas"
+      },
+      {
+        "data": "2026-11-16",
+        "documento": "Cronograma Final Retificado",
+        "muda": "datas da prova didática"
+      },
+      {
+        "data": "2026-11-14",
+        "documento": "Cronograma Final",
+        "muda": "datas da prova de títulos, datas e datas da prova didática"
+      },
+      {
+        "data": "2026-11-13",
+        "documento": "Edital de Retificação nº 39",
+        "muda": "datas"
+      },
+      {
+        "data": "2026-11-11",
+        "documento": "Cronograma Final",
+        "muda": "datas da prova didática, datas da prova de títulos e datas"
+      },
+      {
+        "data": "2026-11-11",
+        "documento": "Cronograma Final",
+        "muda": "datas da prova de títulos, datas e datas da prova didática"
+      },
+      {
+        "data": "2026-11-10",
+        "documento": "Informativo - Retificação do Cronograma Reformulado",
+        "muda": "datas da prova escrita"
+      },
+      {
+        "data": "2026-11-09",
+        "documento": "Cronograma Reformulado no Ato de Instalação",
+        "muda": "datas e datas da prova didática"
+      },
+      {
+        "data": "2026-11-09",
+        "documento": "Cronograma Reformulado",
+        "muda": "datas e datas da prova escrita"
+      }
+    ],
+    "inscritos": {
+      "01": 96,
+      "02": 36,
+      "03": 35,
+      "04": 6,
+      "13": 27,
+      "05": 51,
+      "06": 26,
+      "07": 26,
+      "16": 38,
+      "10": 69,
+      "11": 33,
+      "12": 21,
+      "14": 6,
+      "15": 18,
+      "09": 61,
+      "08": 130
+    },
     "fonte_dados": {
       "origem": "extracao_v2",
       "extracoes": [
@@ -2463,7 +2641,13 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-02",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "numero": "09/2026",
+      "publicacao": "2026-08-19",
+      "alteracoes": 29
+    },
+    "vagas_total": 20
   },
   {
     "id": "ufscar-004-2026",
@@ -2525,7 +2709,7 @@ window.CONCURSOS = [
       },
       {
         "nome": "Arguição do Plano de Trabalho em Ensino, Pesquisa e Extensão",
-        "tipo": "outra",
+        "tipo": "projeto",
         "carater": "Classificatória",
         "data": {
           "tipo": "nao_divulgada",
@@ -6509,7 +6693,13 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-02",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "numero": "004/26",
+      "publicacao": "2026-08-12",
+      "alteracoes": 0
+    },
+    "vagas_total": 89
   },
   {
     "id": "unespar-023-2026",
@@ -6545,11 +6735,12 @@ window.CONCURSOS = [
           "duracao": "Até 4 horas",
           "formato": "Inclui questão obrigatória sobre o ECA",
           "nota_minima": "7,0"
-        }
+        },
+        "peso": "3"
       },
       {
         "nome": "Prática",
-        "tipo": "outra",
+        "tipo": "pratica",
         "carater": "",
         "data": {
           "tipo": "nao_divulgada",
@@ -6577,6 +6768,11 @@ window.CONCURSOS = [
           "sorteio": "Sim, mas o ponto é sorteado em 18/10, quase quatro semanas antes da aula",
           "modalidade": "Presencial, aberta ao público. Gravação proibida",
           "peso": "Peso 4, o maior do certame"
+        },
+        "peso": "4",
+        "temas": {
+          "min": 6,
+          "max": 6
         }
       },
       {
@@ -6590,7 +6786,8 @@ window.CONCURSOS = [
         },
         "detalhe": {
           "criterios": "Análise do Currículo Lattes, escala de 0 a 10"
-        }
+        },
+        "peso": "3"
       },
       {
         "nome": "Resultado final",
@@ -7895,6 +8092,46 @@ window.CONCURSOS = [
     "avisos_edital": [
       "Prova didática: os critérios somam 10,5 pontos, mas o edital declara total de 10. Pode ser erro de digitação do edital; confira no edital, que é a fonte oficial."
     ],
+    "alteracoes": [
+      {
+        "data": "2026-11-04",
+        "documento": "Edital nº 023/2026 - CPPS (versão 2 da página)",
+        "muda": "prova prática"
+      },
+      {
+        "data": "2026-09-09",
+        "documento": "EDITAL N.º 029/2026 - CPPS",
+        "muda": "vagas"
+      },
+      {
+        "data": "2026-09-02",
+        "documento": "EDITAL N.º 025/2026 - CPPS",
+        "muda": "etapas do concurso, prova prática, prova didática e vagas"
+      }
+    ],
+    "inscritos": {
+      "1381": 61,
+      "1382": 16,
+      "1383": 69,
+      "1385": 10,
+      "1406": 20,
+      "1414": 26,
+      "1415": 26,
+      "1416": 9,
+      "1405": 62,
+      "1322": 1,
+      "1323": 5,
+      "1321": 16,
+      "1396": 32,
+      "1398": 21,
+      "1395": 6,
+      "1474": 40,
+      "1401": 24,
+      "1402": 23,
+      "1320": 3,
+      "1412": 20,
+      "1404": 36
+    },
     "fonte_dados": {
       "origem": "extracao_v2",
       "extracoes": [
@@ -7902,7 +8139,13 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-02",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "numero": "023/2026 - CPPS",
+      "publicacao": "2026-08-24",
+      "alteracoes": 3
+    },
+    "vagas_total": 26
   },
   {
     "id": "uerj-2026",
@@ -7943,7 +8186,7 @@ window.CONCURSOS = [
       },
       {
         "nome": "PROVA PRÁTICA OU TEÓRICO-PRÁTICA",
-        "tipo": "outra",
+        "tipo": "pratica",
         "carater": "",
         "data": {
           "tipo": "periodo",
@@ -7970,11 +8213,15 @@ window.CONCURSOS = [
           "recursos": "O candidato pode usar recursos próprios (Compete ao candidato providenciar os recursos audiovisuais que pretenda utilizar na prova de aula e que não sejam disponibilizados pela Unidade)",
           "modalidade": "Presencial, em sessão pública e em português. Os candidatos não assistem à aula uns dos outros",
           "criterios": "Três examinadores avaliam capacidade de comunicação, atualização, profundidade de conhecimento e precisão"
+        },
+        "temas": {
+          "min": 10,
+          "max": 17
         }
       },
       {
         "nome": "Plano de trabalho",
-        "tipo": "outra",
+        "tipo": "projeto",
         "carater": "",
         "data": {
           "tipo": "exata",
@@ -9327,7 +9574,11 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-04",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "editais": 20
+    },
+    "vagas_total": 21
   },
   {
     "id": "unila-204-2026",
@@ -9382,11 +9633,15 @@ window.CONCURSOS = [
           "recursos": "Fornecidos: quadro de giz, giz, quadro branco, pincel e projetor multimídia (datashow)",
           "sorteio": "Sim. Ponto sorteado após a entrega da prova escrita, de uma lista de 10 pontos publicada no Edital 205/2026",
           "modalidade": "Presencial, em sessão fechada"
+        },
+        "temas": {
+          "min": 10,
+          "max": 10
         }
       },
       {
         "nome": "Defesa da Proposta de Atuação Acadêmica",
-        "tipo": "outra",
+        "tipo": "projeto",
         "carater": "Classificatória",
         "data": {
           "tipo": "periodo",
@@ -9628,6 +9883,28 @@ window.CONCURSOS = [
     "observacao": "Tudo acontece em quatro dias: escrita em 19/10 e aula já em 20 ou 21/10, com o ponto sorteado depois que você entrega a escrita. Os 10 pontos estão publicados no Edital 205/2026, então a aula de 45 minutos precisa estar pronta para qualquer um deles antes de você viajar. Confira se a sua formação bate exatamente com a combinação de graduação e doutorado exigida.",
     "detalhamento": "completo",
     "avisos_edital": [],
+    "alteracoes": [
+      {
+        "data": "2026-11-16",
+        "documento": "Edital nº 326/2026/DICS",
+        "muda": "datas"
+      },
+      {
+        "data": "2026-11-05",
+        "documento": "Edital nº 314/2026/DICS",
+        "muda": "datas"
+      },
+      {
+        "data": "2026-07-30",
+        "documento": "Edital nº 211/2026/DICS/DAP/PROGEPE (Retificação de Edital nº 204/2026)",
+        "muda": "vagas"
+      }
+    ],
+    "inscritos": {
+      "01": 8,
+      "02": 1,
+      "03": 44
+    },
     "fonte_dados": {
       "origem": "extracao_v2",
       "extracoes": [
@@ -9635,7 +9912,12 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-02",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "numero": "204/2026",
+      "alteracoes": 3
+    },
+    "vagas_total": 6
   },
   {
     "id": "ufsm-221-2026",
@@ -9679,7 +9961,8 @@ window.CONCURSOS = [
         "detalhe": {
           "duracao": "5 horas",
           "formato": "Com consulta durante 2 horas"
-        }
+        },
+        "peso": "3,5"
       },
       {
         "nome": "Prova Didática",
@@ -9693,6 +9976,11 @@ window.CONCURSOS = [
           "duracao": "De 40 a 50 minutos. Cumprir o tempo conta na avaliação da banca",
           "arguicao": "Sim, por até 15 minutos, a critério da banca",
           "sorteio": "Tema sorteado com 24 horas de antecedência"
+        },
+        "peso": "7",
+        "temas": {
+          "min": 10,
+          "max": 20
         }
       },
       {
@@ -9703,7 +9991,8 @@ window.CONCURSOS = [
           "tipo": "nao_divulgada",
           "nota": "O cronograma de cada etapa do certame será publicado e atualizado na página do concurso"
         },
-        "detalhe": {}
+        "detalhe": {},
+        "peso": "3"
       },
       {
         "nome": "Prova de Títulos",
@@ -9713,7 +10002,8 @@ window.CONCURSOS = [
           "tipo": "nao_divulgada",
           "nota": "O cronograma de cada etapa do certame será publicado e atualizado na página do concurso"
         },
-        "detalhe": {}
+        "detalhe": {},
+        "peso": "2"
       },
       {
         "nome": "Resultado final",
@@ -10106,6 +10396,25 @@ window.CONCURSOS = [
     "avisos_edital": [
       "Remuneração: o edital informa total de R$ 13.753,98, mas vencimento (R$ 6.397,19) mais retribuição (R$ 7.356,77) dão R$ 13.753,96. Pode ser erro de digitação do edital; confira no edital, que é a fonte oficial."
     ],
+    "alteracoes": [
+      {
+        "data": "2026-09-25",
+        "documento": "Comunicado (Coordenadoria de Concursos/PROGEP), de 25 de setembro de 2026",
+        "muda": "inscrição"
+      },
+      {
+        "data": "2026-08-25",
+        "documento": "Retificação do Edital de Concurso Público N. 221, de 20 de agosto de 2026",
+        "muda": "inscrição e remuneração"
+      }
+    ],
+    "inscritos": {
+      "01": 8,
+      "03": 13,
+      "04": 28,
+      "05": 15,
+      "06": 55
+    },
     "fonte_dados": {
       "origem": "extracao_v2",
       "extracoes": [
@@ -10113,7 +10422,13 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-03",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "numero": "221/2026",
+      "publicacao": "2026-08-24",
+      "alteracoes": 2
+    },
+    "vagas_total": 9
   },
   {
     "id": "ufsj-2026",
@@ -10153,7 +10468,7 @@ window.CONCURSOS = [
       },
       {
         "nome": "Prova prática",
-        "tipo": "outra",
+        "tipo": "pratica",
         "carater": "",
         "data": {
           "tipo": "periodo",
@@ -10182,11 +10497,15 @@ window.CONCURSOS = [
           "modalidade": "Presencial, exclusivamente nos campi da UFSJ, em sessão pública, vedada a presença dos candidatos concorrentes. Gravada pela Comissão para registro e avaliação",
           "plano_de_aula": "Entregue ANTES do início das provas do CPD, junto com todo o material didático: arquivos, lâminas de projeção, modelos e o próprio plano de aula, em local e horário informados pela Comissão. Depois da entrega NADA pode ser alterado ou acrescentado, e só se pode usar o que foi entregue",
           "criterios": "Constam de anexo próprio por CPD. Quem não comparece à entrega do material ainda faz a aula, mas SEM NENHUM RECURSO: sem slides, sem modelos, sem plano"
+        },
+        "temas": {
+          "min": 4,
+          "max": 10
         }
       },
       {
         "nome": "Defesa de plano de trabalho",
-        "tipo": "outra",
+        "tipo": "projeto",
         "carater": "Classificatória",
         "data": {
           "tipo": "periodo",
@@ -10761,6 +11080,38 @@ window.CONCURSOS = [
     "observacao": "Inscrição até 04/10 e provas prováveis entre 12/11 e 11/12, com a data exata confirmada em 16/10, no mínimo 20 dias antes. Três regras da UFSJ eliminam quem não leu o edital. A presença no sorteio do ponto é obrigatória: faltar ao sorteio elimina, e não é só perder a vez. Todo o material da aula, inclusive slides e plano de aula, é entregue ANTES do início das provas do concurso e não pode ser alterado depois; quem falta a essa entrega dá a aula sem nenhum recurso, no quadro. E o tema é único para todos os concorrentes do mesmo CPD, então a comparação é direta. A defesa de plano de trabalho é etapa própria: prepare o documento junto, não deixe para depois.",
     "detalhamento": "completo",
     "avisos_edital": [],
+    "alteracoes": [
+      {
+        "data": "2026-09-17",
+        "documento": "Edital de Retificação",
+        "muda": "vagas"
+      },
+      {
+        "data": "2026-09-15",
+        "documento": "Edital de Retificação",
+        "muda": "reserva de vagas"
+      },
+      {
+        "data": "2026-09-14",
+        "documento": "Edital de 11 de setembro de 2026, Retificação de Edital de Concurso Público",
+        "muda": "vagas"
+      },
+      {
+        "data": "2026-09-10",
+        "documento": "Edital de Retificação",
+        "muda": "inscrição e datas"
+      },
+      {
+        "data": "2026-09-09",
+        "documento": "Retificação do Cronograma",
+        "muda": "inscrição e datas"
+      },
+      {
+        "data": "2026-09-02",
+        "documento": "Aviso de Retificação",
+        "muda": "vagas"
+      }
+    ],
     "fonte_dados": {
       "origem": "extracao_v2",
       "extracoes": [
@@ -10768,7 +11119,11 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-02",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "alteracoes": 0
+    },
+    "vagas_total": 12
   },
   {
     "id": "ufla-127-2026",
@@ -10824,6 +11179,10 @@ window.CONCURSOS = [
           "plano_de_aula": "Exigido: entregue impresso, no início da sessão de apresentação das provas didáticas; havendo mais de um dia, antes do início das provas a cada dia",
           "recursos": "Fornecidos: recursos audiovisuais disponíveis na UFLA",
           "nota_minima": "70 de 100 pontos"
+        },
+        "temas": {
+          "min": 10,
+          "max": 10
         }
       },
       {
@@ -10918,6 +11277,18 @@ window.CONCURSOS = [
     "observacao": "O sorteio do tema está previsto para 27/09, às 8h, e a aula acontece a partir de 28/09. O currículo vai pelo sistema até 26/09. Os temas e a bibliografia já estão publicados, então quem fez a escrita de 30/08 deve montar os planos agora, sem esperar o resultado.",
     "detalhamento": "completo",
     "avisos_edital": [],
+    "alteracoes": [
+      {
+        "data": "2026-08-24",
+        "documento": "Edital nº 136/2026",
+        "muda": "prova escrita"
+      },
+      {
+        "data": "2026-08-21",
+        "documento": "Edital PROGEPE nº 136, de 21 de agosto de 2026",
+        "muda": "datas da prova escrita e prova escrita"
+      }
+    ],
     "fonte_dados": {
       "origem": "extracao_v2",
       "extracoes": [
@@ -10925,7 +11296,13 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-02",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "numero": "127/2026",
+      "publicacao": "2026-06-29",
+      "alteracoes": 2
+    },
+    "vagas_total": 8
   },
   {
     "id": "ifsuldeminas-188-2026",
@@ -10980,7 +11357,8 @@ window.CONCURSOS = [
               "pontos": "até 60 pontos (peso 2)"
             }
           ]
-        }
+        },
+        "peso": "2"
       },
       {
         "nome": "Prova de Desempenho Didático",
@@ -11002,6 +11380,11 @@ window.CONCURSOS = [
           "nota_minima": "60 pontos (abaixo disso, elimina)",
           "modalidade": "Presencial em Pouso Alegre/MG (remota apenas em caso de força maior)",
           "ordem": "A ordem de apresentação segue a classificação na prova objetiva"
+        },
+        "peso": "3",
+        "temas": {
+          "min": 8,
+          "max": 8
         }
       },
       {
@@ -11016,7 +11399,8 @@ window.CONCURSOS = [
         },
         "detalhe": {
           "criterios": "Títulos acadêmicos, experiência profissional na área e experiência docente (máx. 100 pontos)"
-        }
+        },
+        "peso": "1"
       },
       {
         "nome": "Resultado final",
@@ -11694,6 +12078,88 @@ window.CONCURSOS = [
     "observacao": "A prova objetiva virou dia único, 13/09, em dois turnos. Confira o seu turno e a sua sala no Comprovante Definitivo de Inscrição. Aula curta, de 15 a 20 minutos, com tema sorteado 24h antes: formato que exige recorte muito preciso do conteúdo, e ainda tem arguição de até 10 minutos depois.",
     "detalhamento": "completo",
     "avisos_edital": [],
+    "alteracoes": [
+      {
+        "data": "2026-11-11",
+        "documento": "Comunicado N° 3",
+        "muda": "datas da prova didática e datas"
+      },
+      {
+        "data": "2026-11-11",
+        "documento": "Resultado Preliminar - Confirmação Complementar à Autodeclaração de Pessoas Pretas ou…",
+        "muda": "datas"
+      },
+      {
+        "data": "2026-11-11",
+        "documento": "Resultado Preliminar - Prova Didática",
+        "muda": "datas da prova didática"
+      },
+      {
+        "data": "2026-10-15",
+        "documento": "Convocação para a Caracterização de Deficiência, retificação em 15/10/2026",
+        "muda": "datas"
+      },
+      {
+        "data": "2026-10-15",
+        "documento": "Convocação para a Prova de Desempenho Didático-Pedagógico e Entrega de Títulos…",
+        "muda": "datas da prova didática"
+      },
+      {
+        "data": "2026-10-14",
+        "documento": "Convocação para a Caracterização de Deficiência",
+        "muda": "datas"
+      },
+      {
+        "data": "2026-10-14",
+        "documento": "Convocação para a Confirmação Complementar à Autodeclaração",
+        "muda": "datas"
+      },
+      {
+        "data": "2026-10-14",
+        "documento": "Convocação para a Prova de Desempenho Didático-Pedagógico e Entrega de Títulos",
+        "muda": "datas da prova didática"
+      },
+      {
+        "data": "2026-10-13",
+        "documento": "3ª Retificação",
+        "muda": "prova didática e datas da prova didática"
+      },
+      {
+        "data": "2026-10-02",
+        "documento": "Edital nº 227/2026 (Edital Complementar)",
+        "muda": "datas da prova objetiva, datas da prova didática, datas da prova de títulos e datas e outros pontos"
+      },
+      {
+        "data": "2026-08-21",
+        "documento": "Comunicado nº 1",
+        "muda": "datas da prova objetiva e etapas do concurso"
+      },
+      {
+        "data": "2026-08-14",
+        "documento": "2ª Retificação",
+        "muda": "prova didática"
+      }
+    ],
+    "inscritos": {
+      "CDM-1": 265,
+      "CDM-2": 114,
+      "IFS-1": 68,
+      "IFS-2": 87,
+      "IFS-3": 229,
+      "IFS-4": 451,
+      "IFS-5": 247,
+      "IFS-6": 120,
+      "IFS-7": 283,
+      "MCH-1": 61,
+      "MCH-2": 114,
+      "MCH-3": 92,
+      "MCH-4": 175,
+      "MCH-5": 278,
+      "MCH-6": 275,
+      "MUZ-1": 61,
+      "MUZ-2": 70,
+      "MUZ-3": 87
+    },
     "fonte_dados": {
       "origem": "extracao_v2",
       "extracoes": [
@@ -11701,7 +12167,13 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-02",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "numero": "188/2026",
+      "publicacao": "2026-07-27",
+      "alteracoes": 13
+    },
+    "vagas_total": 19
   },
   {
     "id": "ifsc-01-2026",
@@ -11750,7 +12222,8 @@ window.CONCURSOS = [
               "pontos": ""
             }
           ]
-        }
+        },
+        "peso": "0,4"
       },
       {
         "nome": "Prova Discursiva",
@@ -11765,7 +12238,8 @@ window.CONCURSOS = [
           "duracao": "4 horas e 30 minutos",
           "formato": "Questão única, igual para todas as áreas docentes",
           "local": "Preferencialmente Chapecó, Florianópolis e Joinville"
-        }
+        },
+        "peso": "0,1"
       },
       {
         "nome": "Prova de Desempenho Didático",
@@ -11786,7 +12260,8 @@ window.CONCURSOS = [
           "nota_minima": "70 pontos",
           "modalidade": "Presencial, perante banca examinadora",
           "convocados": "Retificação de 19/08 unificou o quantitativo de convocados: 1 vaga convoca 6, 2 vagas convocam 11, 3 vagas convocam 17"
-        }
+        },
+        "peso": "0,3"
       },
       {
         "nome": "Prova de Títulos",
@@ -11799,7 +12274,8 @@ window.CONCURSOS = [
         },
         "detalhe": {
           "criterios": "Formulário de Relação de Títulos com envio eletrônico (JPG, JPEG ou PDF, até 5 MB por arquivo)"
-        }
+        },
+        "peso": "0,2"
       },
       {
         "nome": "Resultado final",
@@ -13331,6 +13807,68 @@ window.CONCURSOS = [
     "observacao": "Nota mínima alta na prova didática, 70 pontos. A prova escrita reúne objetiva e discursiva no mesmo dia, 27/09, no turno da tarde. Duas retificações em agosto mudaram o número de convocados para a didática, então confira a sua posição depois do resultado da escrita.",
     "detalhamento": "completo",
     "avisos_edital": [],
+    "alteracoes": [
+      {
+        "data": "2026-08-19",
+        "documento": "Edital de 18 de agosto de 2026 (retificação do Edital nº 1/2026)",
+        "muda": "pontuação e prova objetiva"
+      },
+      {
+        "data": "2026-08-14",
+        "documento": "Edital de 13 de agosto de 2026 (retificação do Edital nº 1/2026)",
+        "muda": "vagas, remuneração, prova escrita e prova didática e outros pontos"
+      },
+      {
+        "data": "2026-08-07",
+        "documento": "Comunicado - Alteração de cronograma",
+        "muda": "datas"
+      }
+    ],
+    "inscritos": {
+      "01": 127,
+      "02": 112,
+      "03": 74,
+      "04": 46,
+      "05": 75,
+      "06": 71,
+      "07": 17,
+      "08": 15,
+      "09": 28,
+      "10": 59,
+      "11": 132,
+      "12": 92,
+      "13": 63,
+      "14": 78,
+      "15": 14,
+      "16": 98,
+      "17": 69,
+      "18": 38,
+      "19": 67,
+      "20": 127,
+      "21": 63,
+      "22": 106,
+      "23": 176,
+      "24": 137,
+      "25": 73,
+      "26": 195,
+      "27": 158,
+      "28": 154,
+      "29": 123,
+      "30": 103,
+      "31": 200,
+      "32": 58,
+      "33": 67,
+      "34": 171,
+      "35": 67,
+      "36": 148,
+      "37": 61,
+      "38": 116,
+      "39": 45,
+      "40": 239,
+      "41": 148,
+      "42": 72,
+      "43": 173
+    },
     "fonte_dados": {
       "origem": "extracao_v2",
       "extracoes": [
@@ -13338,7 +13876,13 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-02",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "numero": "01/2026",
+      "publicacao": "2026-07-20",
+      "alteracoes": 3
+    },
+    "vagas_total": 46
   },
   {
     "id": "urca-2026",
@@ -13395,6 +13939,10 @@ window.CONCURSOS = [
           "plano_de_aula": "Exigido: entregue a cada um dos membros da Banca Examinadora, ao iniciar a exposição",
           "recursos": "O candidato pode usar recursos próprios (Caberá ao candidato providenciar os recursos didáticos necessários à ministração de sua aula)",
           "modalidade": "Presencial, no campus da vaga"
+        },
+        "temas": {
+          "min": 10,
+          "max": 10
         }
       },
       {
@@ -14332,6 +14880,77 @@ window.CONCURSOS = [
     "observacao": "Cronograma novo, publicado em 20/08/2026, substituiu o anterior. A prova escrita é em 18/10 e a didática de 13 a 15/11, com tema sorteado 24 horas antes. Universidade estadual do Ceará, regime estatutário estadual.",
     "detalhamento": "completo",
     "avisos_edital": [],
+    "alteracoes": [
+      {
+        "data": "2026-11-11",
+        "documento": "Comunicado VI",
+        "muda": "datas da prova didática e prova didática"
+      },
+      {
+        "data": "2026-11-10",
+        "documento": "Candidatos aprovados na Prova Escrita após recursos / Sorteio de ponto da Prova Didática",
+        "muda": "datas da prova didática"
+      },
+      {
+        "data": "2026-11-09",
+        "documento": "Comunicado V",
+        "muda": "datas da prova escrita"
+      },
+      {
+        "data": "2026-10-21",
+        "documento": "Cronograma de Execução (atualizado)",
+        "muda": "datas da prova escrita, datas da prova didática e datas da prova de títulos"
+      },
+      {
+        "data": "2026-10-08",
+        "documento": "Prova Escrita: local, data e horário e relação para consulta de sala",
+        "muda": "datas da prova escrita"
+      },
+      {
+        "data": "2026-08-20",
+        "documento": "Comunicado IV",
+        "muda": "prazo de inscrição e inscrição"
+      },
+      {
+        "data": "2026-08-20",
+        "documento": "Novo Cronograma de Execução",
+        "muda": "datas"
+      },
+      {
+        "data": "2026-08-05",
+        "documento": "Corrigenda nº 01 do Edital nº 02/2026-GR/URCA",
+        "muda": "vagas, prova escrita, prova de títulos e banca e outros pontos"
+      },
+      {
+        "data": "2026-07-14",
+        "documento": "Comunicado I",
+        "muda": "datas e inscrição"
+      }
+    ],
+    "inscritos": {
+      "01": 32,
+      "02": 6,
+      "03": 2,
+      "04": 2,
+      "05": 4,
+      "06": 17,
+      "07": 2,
+      "08": 3,
+      "09": 9,
+      "10": 5,
+      "11": 2,
+      "12": 8,
+      "13": 11,
+      "14": 11,
+      "15": 40,
+      "16": 20,
+      "17": 34,
+      "18": 69,
+      "19": 113,
+      "20": 14,
+      "21": 52,
+      "22": 59
+    },
     "fonte_dados": {
       "origem": "extracao_v2",
       "extracoes": [
@@ -14339,7 +14958,13 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-02",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "numero": "02/2026",
+      "publicacao": "2026-06-22",
+      "alteracoes": 9
+    },
+    "vagas_total": 26
   },
   {
     "id": "ifmt-03-2026",
@@ -14378,7 +15003,8 @@ window.CONCURSOS = [
           "duracao": "4 horas (14h às 18h)",
           "local": "Cuiabá e Colniza (MT), podendo haver municípios vizinhos. O candidato escolhe o local na inscrição.",
           "nota_minima": "70 pontos para ser convocado à prova de desempenho didático, respeitada a ordem de classificação"
-        }
+        },
+        "peso": "3"
       },
       {
         "nome": "Prova de desempenho didático (PDD)",
@@ -14399,6 +15025,11 @@ window.CONCURSOS = [
           "sorteio": "Tema sorteado em 14/10 às 14h30, comum a TODOS os candidatos da mesma área, qualquer que seja o dia da sua aula. O Anexo XVI já publica os 5 temas possíveis de cada área, então dá para preparar as cinco aulas antes do sorteio",
           "arguicao": "Não há arguição",
           "modalidade": "Presencial, gravada em áudio e vídeo, com a gravação usada só pela banca em caso de recurso e nunca entregue ao candidato. Sessão pública, mas candidatos à mesma vaga não podem assistir uns aos outros. O IFMT fornece apenas giz ou pincel e quadro. Qualquer outro recurso é do candidato, com 5 minutos para montar e 3 para desmontar, e o que passar disso vira tempo de aula"
+        },
+        "peso": "3",
+        "temas": {
+          "min": 5,
+          "max": 5
         }
       },
       {
@@ -14412,7 +15043,8 @@ window.CONCURSOS = [
         },
         "detalhe": {
           "criterios": "Envio em ambiente virtual pelo sistema seletivo.ifmt.edu.br, durante a inscrição"
-        }
+        },
+        "peso": "1"
       },
       {
         "nome": "Resultado final",
@@ -15188,6 +15820,64 @@ window.CONCURSOS = [
     "observacao": "O Anexo XVI já lista os cinco temas possíveis de cada área, e só um é sorteado em 14/10. Quem está habilitado pode preparar as cinco aulas desde já, sem esperar o sorteio: é a melhor janela de preparo do radar. A aula acontece entre 29/10 e 29/11, e a sua data sai na convocação de 09/10, o que dá uma das melhores janelas de preparo do calendário. Mas o tempo é curto e rígido: 30 a 35 minutos, com um minuto de tolerância, e sair disso zera os 5 pontos de gestão do tempo, sem meio-termo. Plano de aula em três vias impressas, entregue antes de começar, e ele precisa bater com a aula, porque a banca avalia a coerência entre os dois. A sala tem só quadro e pincel: se levar projetor, são 5 minutos para montar, e o que passar sai do seu tempo de aula. Corte de 65 pontos na aula. Quem concorre a Português/Espanhol dá duas aulas, uma em cada língua.",
     "detalhamento": "completo",
     "avisos_edital": [],
+    "alteracoes": [
+      {
+        "data": "2026-10-28",
+        "documento": "Edital Retificador 05/2026",
+        "muda": "datas da prova didática, datas da prova de títulos, datas e etapas do concurso"
+      },
+      {
+        "data": "2026-10-14",
+        "documento": "",
+        "muda": "lotações e datas da prova didática"
+      },
+      {
+        "data": "2026-10-02",
+        "documento": "",
+        "muda": "banca"
+      },
+      {
+        "data": "2026-08-20",
+        "documento": "Edital Retificador 04/2026",
+        "muda": "reserva de vagas"
+      },
+      {
+        "data": "2026-08-06",
+        "documento": "Edital Retificador 03/2026",
+        "muda": "datas e inscrição"
+      },
+      {
+        "data": "2026-07-23",
+        "documento": "Edital Retificador 02/2026",
+        "muda": "vagas"
+      },
+      {
+        "data": "2026-07-22",
+        "documento": "Edital Retificador e Complementar 01/2026",
+        "muda": "vagas e prova de títulos"
+      }
+    ],
+    "inscritos": {
+      "01": 143,
+      "02": 41,
+      "03": 58,
+      "04": 46,
+      "05": 48,
+      "06": 66,
+      "07": 79,
+      "08": 66,
+      "09": 97,
+      "10": 88,
+      "11": 6,
+      "12": 39,
+      "13": 46,
+      "14": 38,
+      "15": 36,
+      "16": 103,
+      "17": 108,
+      "18": 53,
+      "19": 46
+    },
     "fonte_dados": {
       "origem": "extracao_v2",
       "extracoes": [
@@ -15195,7 +15885,13 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-02",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "numero": "03/2026",
+      "publicacao": "2026-07-16",
+      "alteracoes": 7
+    },
+    "vagas_total": 21
   },
   {
     "id": "ufpe-08-2026",
@@ -17845,6 +18541,13 @@ window.CONCURSOS = [
     "observacao": "Aprovação exige nota mínima 7,0 em cada etapa eliminatória. A nota final é a média ponderada das provas. Homologação prevista para janeiro de 2027.",
     "detalhamento": "completo",
     "avisos_edital": [],
+    "alteracoes": [
+      {
+        "data": "2026-08-07",
+        "documento": "1ª Retificação",
+        "muda": "vagas e reserva de vagas"
+      }
+    ],
     "fonte_dados": {
       "origem": "extracao_v2",
       "extracoes": [
@@ -17852,7 +18555,12 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-02",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "numero": "08/2026",
+      "alteracoes": 1
+    },
+    "vagas_total": 40
   },
   {
     "id": "ufba-06-2026",
@@ -17891,7 +18599,8 @@ window.CONCURSOS = [
           "formato": "Avalia competência técnica, capacidade analítica e expressão escrita",
           "nota_minima": "7,0",
           "local": "Na própria UFBA"
-        }
+        },
+        "peso": "3"
       },
       {
         "nome": "Didática",
@@ -17911,6 +18620,11 @@ window.CONCURSOS = [
           "nota_minima": "Peso 3, o mesmo da prova escrita. O corte de 7,0 vale para a prova escrita",
           "modalidade": "Presencial, na própria UFBA, gravada em áudio",
           "criterios": "Barema próprio de cada Congregação, publicado na Unidade e em concursos.ufba.br/docentes junto com o Edital. Considera, entre outros: domínio de conteúdo; coerência entre os objetivos do plano de aula e os conteúdos desenvolvidos; desempenho didático e uso adequado do tempo; e comunicação, clareza e objetividade"
+        },
+        "peso": "3",
+        "temas": {
+          "min": 6,
+          "max": 10
         }
       },
       {
@@ -17925,7 +18639,8 @@ window.CONCURSOS = [
         },
         "detalhe": {
           "formato": "Defesa da trajetória acadêmica e profissional perante a banca"
-        }
+        },
+        "peso": "2"
       },
       {
         "nome": "De Títulos",
@@ -17939,7 +18654,8 @@ window.CONCURSOS = [
         },
         "detalhe": {
           "criterios": "Formação acadêmica e produção do candidato"
-        }
+        },
+        "peso": "2"
       },
       {
         "nome": "Resultado final",
@@ -19778,6 +20494,99 @@ window.CONCURSOS = [
     "avisos_edital": [
       "Avaliação de títulos, área 22 (Sistema de informação gerencial aplicado à…): um item vale até 30 pontos, acima do teto do seu grupo (20). Pode ser erro de digitação do edital; confira no edital, que é a fonte oficial."
     ],
+    "alteracoes": [
+      {
+        "data": "2026-10-27",
+        "documento": "Cronograma final das provas, Geodésia e Topografia (retificado em 27/10/2026)",
+        "muda": "datas, datas da prova didática e datas da memorial"
+      },
+      {
+        "data": "2026-10-27",
+        "documento": "Cronograma atualizado, Geotecnia (27/10/2026)",
+        "muda": "datas, datas da prova didática, datas da memorial e lotações"
+      },
+      {
+        "data": "2026-10-24",
+        "documento": "Retificação do cronograma do resultado final, Sociologia das Desigualdades Sociais",
+        "muda": "datas"
+      },
+      {
+        "data": "2026-10-21",
+        "documento": "Cronograma do concurso, Eletrotécnica",
+        "muda": "datas"
+      },
+      {
+        "data": "2026-10-21",
+        "documento": "Cronograma retificado em 21/10/2026, Sociologia das Desigualdades Sociais",
+        "muda": "datas da prova escrita, datas da prova didática e datas da memorial"
+      },
+      {
+        "data": "2026-10-20",
+        "documento": "Cronograma de atividades e realização das provas, Química Analítica: Eletroanalítica",
+        "muda": "datas da prova didática"
+      },
+      {
+        "data": "2026-10-19",
+        "documento": "Cronograma complementar, Perspectivas Indígenas nas Artes",
+        "muda": "datas da prova didática e datas da memorial"
+      },
+      {
+        "data": "2026-10-19",
+        "documento": "Barema da Defesa do Memorial, Geofísica Aplicada (retificado)",
+        "muda": "memorial"
+      },
+      {
+        "data": "2026-10-19",
+        "documento": "Cronograma para realização das provas (atualizado), Química Analítica - Eletroanalítica",
+        "muda": "datas da prova escrita, datas da prova didática e datas da memorial"
+      },
+      {
+        "data": "2026-10-16",
+        "documento": "Cronograma de realização atualizado, Gestão e Educação Permanente em Saúde e Enfermagem",
+        "muda": "datas da prova didática e datas"
+      },
+      {
+        "data": "2026-10-16",
+        "documento": "Cronograma de realização atualizado, Fundamentos de Enfermagem no Cuidado Individual e…",
+        "muda": "datas da prova didática e datas"
+      },
+      {
+        "data": "2026-10-16",
+        "documento": "Cronograma de realização atualizado, Enfermagem no Cuidado à Saúde da Mulher na Atenção…",
+        "muda": "datas da prova didática e datas"
+      }
+    ],
+    "inscritos": {
+      "03": 61,
+      "04": 67,
+      "13": 9,
+      "25": 11,
+      "24": 8,
+      "02": 20,
+      "15": 90,
+      "27": 28,
+      "12": 16,
+      "23": 106,
+      "16": 63,
+      "01": 38,
+      "05": 41,
+      "18": 3,
+      "21": 4,
+      "19": 2,
+      "14": 111,
+      "09": 13,
+      "11": 19,
+      "36": 23,
+      "37": 10,
+      "06": 12,
+      "07": 40,
+      "10": 19,
+      "08": 14,
+      "22": 1,
+      "20": 8,
+      "26": 41,
+      "17": 122
+    },
     "fonte_dados": {
       "origem": "extracao_v2",
       "extracoes": [
@@ -19785,7 +20594,13 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-02",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "numero": "06/2026",
+      "publicacao": "2026-06-25",
+      "alteracoes": 24
+    },
+    "vagas_total": 37
   },
   {
     "id": "uftm-28-2026",
@@ -19821,11 +20636,12 @@ window.CONCURSOS = [
         "detalhe": {
           "duracao": "4 horas",
           "formato": "Temas na Relação de Temas publicada em 20/07 (Anexo I), comum às provas escrita, didática e prática"
-        }
+        },
+        "peso": "2"
       },
       {
         "nome": "Prova prática",
-        "tipo": "outra",
+        "tipo": "pratica",
         "carater": "",
         "data": {
           "tipo": "exata",
@@ -19854,6 +20670,11 @@ window.CONCURSOS = [
           "recursos": "Projetor multimídia e computador só se o candidato pedir na sessão de sorteio do tema. A UFTM não fornece equipamento para preparar a apresentação",
           "modalidade": "Presencial para o candidato, no Centro Educacional da UFTM em Uberaba. Lotações 02 e 03 são presenciais; Lotações 01 e 04 são híbridas, com até 2 membros titulares da banca por videoconferência. A aula é gravada",
           "ordem": "Os candidatos são divididos em turmas, com sorteio e aula em dias sucessivos. A Portaria 833 chega a 8 turmas"
+        },
+        "peso": "3",
+        "temas": {
+          "min": 5,
+          "max": 10
         }
       },
       {
@@ -19864,7 +20685,8 @@ window.CONCURSOS = [
           "tipo": "nao_divulgada",
           "nota": "De acordo com a banca examinadora."
         },
-        "detalhe": {}
+        "detalhe": {},
+        "peso": "2"
       },
       {
         "nome": "Resultado final",
@@ -20008,6 +20830,44 @@ window.CONCURSOS = [
     "observacao": "Confira a data da SUA lotação: as aulas começam em 01/10 na Odontologia e só terminam em 24/11 na Lotação 01. O formato é duro. O tema sai com 24 horas de antecedência, em sessão de presença obrigatória, e no dia da aula você fica confinado até apresentar. São 50 minutos com tolerância de 5, e quem fala menos de 35 minutos está eliminado na hora. O plano de aula vai em quatro vias impressas e em PDF por e-mail uma hora antes do confinamento. No fim, a banca pode arguir por até 30 minutos.",
     "detalhamento": "completo",
     "avisos_edital": [],
+    "alteracoes": [
+      {
+        "data": "2026-10-28",
+        "documento": "Aviso nº 04",
+        "muda": "datas da prova didática"
+      },
+      {
+        "data": "2026-10-02",
+        "documento": "Portaria de Pessoal nº 975",
+        "muda": "datas da prova prática"
+      },
+      {
+        "data": "2026-09-11",
+        "documento": "Portaria de Pessoal nº 880",
+        "muda": "lotações"
+      },
+      {
+        "data": "2026-09-04",
+        "documento": "Portaria de Pessoal nº 866",
+        "muda": "datas da prova didática, lotações e prova didática"
+      },
+      {
+        "data": "2026-08-25",
+        "documento": "Retificação nº 2",
+        "muda": "datas"
+      },
+      {
+        "data": "2026-07-23",
+        "documento": "Retificação nº 1",
+        "muda": "datas da prova escrita"
+      }
+    ],
+    "inscritos": {
+      "01": 63,
+      "02": 16,
+      "03": 32,
+      "04": 68
+    },
     "fonte_dados": {
       "origem": "extracao_v2",
       "extracoes": [
@@ -20015,7 +20875,13 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-02",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "numero": "28/2026",
+      "publicacao": "2026-07-20",
+      "alteracoes": 6
+    },
+    "vagas_total": 4
   },
   {
     "id": "ufs-08-2026",
@@ -20052,7 +20918,8 @@ window.CONCURSOS = [
         "detalhe": {
           "duracao": "4 horas",
           "formato": "Sem consulta"
-        }
+        },
+        "peso": "3"
       },
       {
         "nome": "Prova didática",
@@ -20070,11 +20937,16 @@ window.CONCURSOS = [
           "nota_minima": "70 em 100",
           "criterios": "Conhecimento sobre o tema (extensão, atualização, profundidade) 30 pontos; Exposição do conteúdo de forma clara e didática 15 pontos; Elaboração, estruturação e execução do plano de aula 15 pontos; Correção e adequação da linguagem oral e escrita 10 pontos; Capacidade de síntese 10 pontos; Sequência lógica e coerência do conteúdo 15 pontos; Cumprimento do tempo 05 pontos",
           "plano_de_aula": "Exigido: entregues antes da Prova Didática, pelos meios e no período estipulado pelo Cronograma de Provas"
+        },
+        "peso": "3",
+        "temas": {
+          "min": 10,
+          "max": 12
         }
       },
       {
         "nome": "Prova de projeto de pesquisa",
-        "tipo": "outra",
+        "tipo": "projeto",
         "carater": "Eliminatória e classificatória",
         "data": {
           "tipo": "periodo",
@@ -20082,7 +20954,8 @@ window.CONCURSOS = [
           "fim": "2027-01-11",
           "nota": "Datas por área: 03 (Contabilidade): 09/11 a 10/11; demais áreas: 21/09 a 11/01"
         },
-        "detalhe": {}
+        "detalhe": {},
+        "peso": "2"
       },
       {
         "nome": "Prova de títulos",
@@ -20094,7 +20967,8 @@ window.CONCURSOS = [
           "fim": "2027-01-11",
           "nota": "Datas por área: 03 (Contabilidade): 11/11; demais áreas: 21/09 a 11/01"
         },
-        "detalhe": {}
+        "detalhe": {},
+        "peso": "2"
       },
       {
         "nome": "Resultado final",
@@ -20700,6 +21574,23 @@ window.CONCURSOS = [
     "observacao": "As provas podem cair a qualquer momento entre 21/09/2026 e 11/01/2027, conforme o departamento definir. O primeiro calendário saiu em 24/09, o de Ciências Contábeis, com aula em 04 e 05/11. Acompanhe cmop.ufs.br, porque o aviso do seu departamento pode vir com pouca antecedência.",
     "detalhamento": "completo",
     "avisos_edital": [],
+    "alteracoes": [
+      {
+        "data": "2026-07-20",
+        "documento": "Edital nº 1, de 17 de julho de 2026, Retificação do Edital nº 8/2026",
+        "muda": "projeto"
+      }
+    ],
+    "inscritos": {
+      "01": 141,
+      "02": 33,
+      "03": 15,
+      "04": 49,
+      "05": 329,
+      "06": 22,
+      "07": 1,
+      "08": 4
+    },
     "fonte_dados": {
       "origem": "extracao_v2",
       "extracoes": [
@@ -20707,7 +21598,13 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-02",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "numero": "008/2026",
+      "publicacao": "2026-07-15",
+      "alteracoes": 1
+    },
+    "vagas_total": 8
   },
   {
     "id": "unifesp-2026",
@@ -20746,7 +21643,7 @@ window.CONCURSOS = [
       },
       {
         "nome": "Prova Prática",
-        "tipo": "outra",
+        "tipo": "pratica",
         "carater": "Eliminatória",
         "data": {
           "tipo": "nao_divulgada",
@@ -20768,6 +21665,10 @@ window.CONCURSOS = [
           "criterios": "100 pontos: Elaboração do plano de aula que deverá conter o objetivo da aula… 3; Domínio do Conteúdo: definição, pertinência, originalidade e… 32; Objetividade e clareza 10; Adequação ao nível de Graduação 15; Capacidade de Comunicação 30; Uso de Recurso Didático 10",
           "plano_de_aula": "Exigido: com objetivo da aula, conteúdo, estratégia e/ou metodologia, recursos e referências",
           "recursos": "Proibidos: computador pessoal, telefone celular, gravador, receptor e pagers"
+        },
+        "temas": {
+          "min": 10,
+          "max": 20
         }
       },
       {
@@ -20782,7 +21683,7 @@ window.CONCURSOS = [
       },
       {
         "nome": "Projeto de Pesquisa",
-        "tipo": "outra",
+        "tipo": "projeto",
         "carater": "",
         "data": {
           "tipo": "nao_divulgada",
@@ -20856,7 +21757,11 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-04",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "editais": 38
+    },
+    "vagas_total": 41
   },
   {
     "id": "ifmg-2026",
@@ -20924,6 +21829,10 @@ window.CONCURSOS = [
           "recursos": "Fornecidos: quadro, pincel, giz, projetor multimídia e computador com sistema operacional com software compatível com PDF (Portable Format Document)",
           "sorteio": "Tema sorteado no dia da prova objetiva (29/11/2026), único para todos da mesma área, em sessão pública com ata (itens 19.7 a 19.9)",
           "modalidade": "Presencial"
+        },
+        "temas": {
+          "min": 10,
+          "max": 10
         }
       },
       {
@@ -21059,6 +21968,74 @@ window.CONCURSOS = [
     "observacao": "Inscrição aberta até 29/09. A retificação de 04/09 empurrou a prova escrita para 29/11 e a didática para 15 a 19/02/2027, com entrega de memorial antes da aula. São quase três meses entre a escrita e a aula: tempo de sobra para quem começar cedo.",
     "detalhamento": "completo",
     "avisos_edital": [],
+    "alteracoes": [
+      {
+        "data": "2026-10-22",
+        "documento": "Lista de Inscritos para participar da Vaga especial para pessoas Indígenas – PI (versão…",
+        "muda": "inscritos homologados"
+      },
+      {
+        "data": "2026-10-22",
+        "documento": "Lista de Inscritos para participar da Vaga especial para Pessoas Negras – PN (versão com…",
+        "muda": "inscritos homologados"
+      },
+      {
+        "data": "2026-10-22",
+        "documento": "Lista de Inscritos para participar da Vaga especial para pessoas PcD (versão com situação…",
+        "muda": "inscritos homologados"
+      },
+      {
+        "data": "2026-10-21",
+        "documento": "Retificação nº 09",
+        "muda": "datas da prova escrita, datas da prova didática, datas da prova de títulos e etapas do concurso"
+      },
+      {
+        "data": "2026-10-02",
+        "documento": "Retificação nº 08",
+        "muda": "pontuação e prova objetiva"
+      },
+      {
+        "data": "2026-09-29",
+        "documento": "Retificação nº 07",
+        "muda": "banca e pontuação"
+      },
+      {
+        "data": "2026-09-24",
+        "documento": "Retificação nº 06",
+        "muda": "pontuação e prova objetiva"
+      },
+      {
+        "data": "2026-09-21",
+        "documento": "Retificação nº 05",
+        "muda": "vagas"
+      },
+      {
+        "data": "2026-09-08",
+        "documento": "Retificação nº 02",
+        "muda": "vagas"
+      },
+      {
+        "data": "2026-09-08",
+        "documento": "Retificação nº 03",
+        "muda": "prova de títulos"
+      },
+      {
+        "data": "2026-09-08",
+        "documento": "Retificação nº 04",
+        "muda": "prova de títulos"
+      },
+      {
+        "data": "2026-09-04",
+        "documento": "Retificação nº 1",
+        "muda": "datas da prova objetiva, datas da prova escrita, datas da prova didática e datas da prova de títulos e outros pontos"
+      }
+    ],
+    "inscritos": {
+      "01": 43,
+      "02": 137,
+      "03": 159,
+      "04": 158
+    },
     "fonte_dados": {
       "origem": "extracao_v2",
       "extracoes": [
@@ -21066,7 +22043,13 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-02",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "numero": "607/2026",
+      "publicacao": "2026-09-02",
+      "alteracoes": 12
+    },
+    "vagas_total": 4
   },
   {
     "id": "ufpe-09-2026",
@@ -21867,7 +22850,12 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-02",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "numero": "09/2026",
+      "alteracoes": 1
+    },
+    "vagas_total": 16
   },
   {
     "id": "unimontes-2026",
@@ -21908,7 +22896,7 @@ window.CONCURSOS = [
       },
       {
         "nome": "Prova Prática de Direito",
-        "tipo": "outra",
+        "tipo": "pratica",
         "carater": "",
         "data": {
           "tipo": "exata",
@@ -21934,6 +22922,10 @@ window.CONCURSOS = [
           "plano_de_aula": "Exigido: arquivo único, no formato PDF, com tamanho máximo definido no ato de convocação, inserido pela pessoa candidata em sua área no sistema do Concurso, entregues em até, no máximo, 1 (uma) hora antes do horário previsto para sua apresentação, mais envio digital em PDF, arquivo único, com tema sorteado, objetivos, conteúdo programático, metodologia, recursos didáticos, desenvolvimento da aula, avaliação da aprendizagem e referências utilizadas, quando cabível",
           "recursos": "Fornecidos: equipamentos de projeção. Proibidos: material impresso, manuscrito, quadro, pincel, equipamentos próprios, internet, aplicativos e arquivos não inseridos previamente no sistema",
           "pontuacao": "100 pontos"
+        },
+        "temas": {
+          "min": 10,
+          "max": 19
         }
       },
       {
@@ -33139,7 +34131,11 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-04",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "editais": 27
+    },
+    "vagas_total": 408
   },
   {
     "id": "ufrj-942-2026",
@@ -33179,7 +34175,7 @@ window.CONCURSOS = [
       },
       {
         "nome": "Prova prática",
-        "tipo": "outra",
+        "tipo": "pratica",
         "carater": "Classificatória",
         "data": {
           "tipo": "periodo",
@@ -33201,6 +34197,10 @@ window.CONCURSOS = [
         "detalhe": {
           "duracao": "Não fixada no edital. As regras remetem à Resolução CONSUNI nº 15/2020",
           "sorteio": "Não fixado no edital. Consulte a Resolução CONSUNI nº 15/2020 e o cronograma da Escola de Música"
+        },
+        "temas": {
+          "min": 10,
+          "max": 10
         }
       },
       {
@@ -33296,7 +34296,13 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-02",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "numero": "942/2026",
+      "publicacao": "2026-08-24",
+      "alteracoes": 0
+    },
+    "vagas_total": 1
   },
   {
     "id": "ufsm-198-2026",
@@ -33334,11 +34340,12 @@ window.CONCURSOS = [
           "duracao": "5 horas",
           "formato": "Com consulta durante 2 horas",
           "nota_minima": "7,00"
-        }
+        },
+        "peso": "3,5"
       },
       {
         "nome": "Prova Prática",
-        "tipo": "outra",
+        "tipo": "pratica",
         "carater": "",
         "data": {
           "tipo": "nao_divulgada",
@@ -33362,6 +34369,11 @@ window.CONCURSOS = [
           "sorteio": "Sim. Ponto sorteado exatamente 24 horas antes do início da aula",
           "nota_minima": "7,00 na nota da 2ª etapa. O edital não fixa mínimo isolado para a didática",
           "modalidade": "Presencial, em sessão pública"
+        },
+        "peso": "7",
+        "temas": {
+          "min": 10,
+          "max": 20
         }
       },
       {
@@ -33374,7 +34386,8 @@ window.CONCURSOS = [
           "fim": "2027-03-02",
           "nota": "Datas por área: 03 (Ciências Exatas e da Terra/ Matemática): 17/11; 04 (Multidisciplinar/Ensino/ Ensino de Ciências…): 23/11; 05 (Ciências Exatas e da Terra/ Geociências/…): 30/11; 02 (Engenharias/ Engenharia Sanitária): 26/02; 06 (Ciências Exatas e da Terra/ Geociências/…): 02/03; demais áreas: sem data (O cronograma de cada etapa do certame será publicado e atualizado na página do concurso)"
         },
-        "detalhe": {}
+        "detalhe": {},
+        "peso": "3"
       },
       {
         "nome": "Prova de Títulos",
@@ -33384,7 +34397,8 @@ window.CONCURSOS = [
           "tipo": "nao_divulgada",
           "nota": "O cronograma de cada etapa do certame será publicado e atualizado na página do concurso"
         },
-        "detalhe": {}
+        "detalhe": {},
+        "peso": "2"
       },
       {
         "nome": "Resultado final",
@@ -33908,6 +34922,37 @@ window.CONCURSOS = [
     "avisos_edital": [
       "Remuneração: o edital informa total de R$ 13.753,98, mas vencimento (R$ 6.397,19) mais retribuição (R$ 7.356,77) dão R$ 13.753,96. Pode ser erro de digitação do edital; confira no edital, que é a fonte oficial."
     ],
+    "alteracoes": [
+      {
+        "data": "2026-11-13",
+        "documento": "Memorando N. 007/2026 - DFSC (corrigido)",
+        "muda": "datas da prova escrita e datas da prova didática"
+      },
+      {
+        "data": "2026-11-12",
+        "documento": "Cronograma da 2ª e 3ª etapa",
+        "muda": "datas da prova didática e datas da memorial"
+      },
+      {
+        "data": "2026-11-12",
+        "documento": "Cronograma da 2ª e 3ª etapa",
+        "muda": "datas da prova didática e datas da memorial"
+      },
+      {
+        "data": "2026-10-28",
+        "documento": "Retificação do Edital de Concurso Público N. 198, de 25 de junho de 2026 (Engenharias/…",
+        "muda": "datas da prova escrita"
+      }
+    ],
+    "inscritos": {
+      "01": 15,
+      "02": 27,
+      "03": 45,
+      "04": 22,
+      "05": 8,
+      "06": 10,
+      "07": 44
+    },
     "fonte_dados": {
       "origem": "extracao_v2",
       "extracoes": [
@@ -33915,7 +34960,13 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-02",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "numero": "198/2026",
+      "publicacao": "2026-06-29",
+      "alteracoes": 4
+    },
+    "vagas_total": 8
   },
   {
     "id": "uema-2026",
@@ -33968,6 +35019,10 @@ window.CONCURSOS = [
           "recursos": "O candidato pode usar recursos próprios (Os recursos utilizados pelo candidato, na prova didática, serão de sua total responsabilidade)",
           "sorteio": "Sim. Tema sorteado da lista, excluído o da prova escrita, e comum a todos os candidatos",
           "modalidade": "Prova pública, vedada a presença dos demais candidatos. Ordem pela inscrição"
+        },
+        "temas": {
+          "min": 10,
+          "max": 10
         }
       },
       {
@@ -34923,7 +35978,11 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-04",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "editais": 12
+    },
+    "vagas_total": 34
   },
   {
     "id": "ufu-118-2026",
@@ -34981,11 +36040,15 @@ window.CONCURSOS = [
           "plano_de_aula": "Entregue no dia da prova, antes do início",
           "arguicao": "Sim, até 30 minutos",
           "modalidade": "Presencial. Remota nos editais 121 (Teams) e 123 (ConferênciaWeb)"
+        },
+        "temas": {
+          "min": 8,
+          "max": 19
         }
       },
       {
         "nome": "Defesa de projeto",
-        "tipo": "outra",
+        "tipo": "projeto",
         "carater": "",
         "data": {
           "tipo": "exata",
@@ -35004,7 +36067,8 @@ window.CONCURSOS = [
           "fim": "2026-11-10",
           "nota": "Envio por e-mail à unidade, na data do cronograma de cada edital específico"
         },
-        "detalhe": {}
+        "detalhe": {},
+        "peso": "1"
       }
     ],
     "periodo_provas": {
@@ -35020,6 +36084,18 @@ window.CONCURSOS = [
     "observacao": "O tema sai na véspera e a aula tem de 40 a 50 minutos, com até 30 minutos de arguição e nota mínima 70. Entre a escrita de 27/09 e a aula há um mês ou mais, conforme o seu edital específico: é tempo para ensaiar com cronômetro todos os pontos da lista.",
     "detalhamento": "completo",
     "avisos_edital": [],
+    "alteracoes": [
+      {
+        "data": "2026-09-21",
+        "documento": "Edital PROGEP nº 152/2026 (Edital de Retificação)",
+        "muda": "prova de títulos"
+      },
+      {
+        "data": "2026-08-12",
+        "documento": "Edital PROGEP nº 146/2026 (Edital de Retificação)",
+        "muda": "datas da prova didática"
+      }
+    ],
     "fonte_dados": {
       "origem": "extracao_v2",
       "extracoes": [
@@ -35027,7 +36103,13 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-02",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "numero": "118/2026",
+      "publicacao": "2026-07-27",
+      "alteracoes": 2
+    },
+    "vagas_total": 10
   },
   {
     "id": "ufmg-1632-1633-2026",
@@ -35067,7 +36149,7 @@ window.CONCURSOS = [
       },
       {
         "nome": "Prova Prática",
-        "tipo": "outra",
+        "tipo": "pratica",
         "carater": "Classificatória",
         "data": {
           "tipo": "exata",
@@ -35096,7 +36178,8 @@ window.CONCURSOS = [
           "modalidade": "Presencial, em sessão pública e gravada. O candidato assina termo de consentimento para a gravação",
           "plano_de_aula": "NÃO HÁ. O edital não exige plano de aula, igual ao Edital 1638/2026 da UFMG",
           "criterios": "No desempate, a ordem é Prova Didática, depois Prova Prática e por fim Títulos. A didática é o primeiro critério"
-        }
+        },
+        "peso": "1"
       },
       {
         "nome": "Julgamento de Títulos",
@@ -35107,7 +36190,8 @@ window.CONCURSOS = [
           "valor": "2026-10-07",
           "nota": "Datas por edital: 1633/2026: 07/10; demais editais: sem data"
         },
-        "detalhe": {}
+        "detalhe": {},
+        "peso": "1"
       },
       {
         "nome": "Resultado final",
@@ -35237,6 +36321,10 @@ window.CONCURSOS = [
     "observacao": "Pelo edital, as provas caem entre 16/09 e 15/11/2026, e a convocação sai com só 15 dias de aviso: a lista de pontos precisa estar estudada antes dela. No Edital 1.632 NÃO há prova escrita, só Títulos, Prova Didática e Prova Prática de desenho de observação, então a aula de 50 minutos decide de verdade, e ela é ainda o primeiro critério de desempate. Como no 1638, a UFMG não pede plano de aula: o que a banca julga é a aula e a arguição que vem depois. A nota vai de 0 a 100 em número inteiro. O Edital 1.633 tem página própria no site da Escola de Belas Artes.",
     "detalhamento": "completo",
     "avisos_edital": [],
+    "inscritos": {
+      "1632/2026|01": 38,
+      "1633/2026|01": 46
+    },
     "fonte_dados": {
       "origem": "extracao_v2",
       "extracoes": [
@@ -35245,7 +36333,11 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-03",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "editais": 2
+    },
+    "vagas_total": 2
   },
   {
     "id": "ufmg-1638-2026",
@@ -35281,7 +36373,8 @@ window.CONCURSOS = [
           "duracao": "Até 5 horas, com a primeira hora para consulta bibliográfica",
           "formato": "Com consulta durante 1 hora",
           "nota_minima": "70%"
-        }
+        },
+        "peso": "1"
       },
       {
         "nome": "Prova Didática",
@@ -35300,7 +36393,8 @@ window.CONCURSOS = [
           "modalidade": "Presencial para o candidato, em sessão pública e gravada. Os examinadores da UFMG participam presencialmente; os externos podem entrar por videoconferência, com microfone desligado durante a aula. Se a transmissão falhar, a prova para e recomeça com o tempo restante; passando de 60 minutos de interrupção, pode ser remarcada, inclusive com novo sorteio de ponto",
           "plano_de_aula": "NÃO HÁ. O edital não exige plano de aula em nenhum momento",
           "criterios": "A Comissão avalia o domínio do tema sorteado e a capacidade de organizar e expor ideias no tempo garantido, com critérios que ela mesma define. No desempate, a Prova Didática é o PRIMEIRO critério, à frente das demais provas"
-        }
+        },
+        "peso": "1"
       },
       {
         "nome": "Julgamento de Títulos",
@@ -35310,7 +36404,8 @@ window.CONCURSOS = [
           "tipo": "exata",
           "valor": "2026-11-03"
         },
-        "detalhe": {}
+        "detalhe": {},
+        "peso": "1"
       },
       {
         "nome": "Resultado final",
@@ -35382,6 +36477,21 @@ window.CONCURSOS = [
     "observacao": "A convocação sai com apenas 15 dias de aviso, então a lista de pontos precisa estar estudada antes dela. Três particularidades da UFMG. Não se exige plano de aula: o que a banca julga é a aula e a arguição que vem depois dela. O tempo é de 50 minutos, mas o edital diz que estourar não anula a prova nem desclassifica por si só, o que é raro e tira parte da pressão do relógio. E a nota vai de 0 a 100 em número inteiro, com todas as provas em peso 1, sendo a didática o primeiro critério de desempate. A escrita tem uma hora inicial de consulta bibliográfica: leve o material organizado.",
     "detalhamento": "completo",
     "avisos_edital": [],
+    "alteracoes": [
+      {
+        "data": "2026-11-03",
+        "documento": "Cronograma Atualizado (Anexo da Ata de Atualização do Cronograma)",
+        "muda": "datas da prova de títulos, datas da prova didática e datas"
+      },
+      {
+        "data": "2026-07-28",
+        "documento": "Edital nº 1.706, de 23 de julho de 2026",
+        "muda": "ajustes no edital"
+      }
+    ],
+    "inscritos": {
+      "01": 13
+    },
     "fonte_dados": {
       "origem": "extracao_v2",
       "extracoes": [
@@ -35389,7 +36499,13 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-02",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "numero": "1638/2026",
+      "publicacao": "2026-07-16",
+      "alteracoes": 2
+    },
+    "vagas_total": 1
   },
   {
     "id": "uncisal-01-2026",
@@ -37226,6 +38342,18 @@ window.CONCURSOS = [
     "observacao": "Concurso de banca grande, com 43 vagas imediatas e 109 de cadastro de reserva, e metade dos cargos em especialidades médicas. A objetiva de 22/11 é o filtro: quem não passa nela não chega à aula. A didática só é convocada em 30/12, então ela cai em 2027 e há tempo de preparo. Duas regras fogem do padrão. A aula é HÍBRIDA, com a banca por vídeo e você presencialmente na sala, o que muda o jeito de olhar, de usar o quadro e de controlar o ritmo: vale ensaiar para câmera. E o plano de aula vale 2,00 dos 10,00, é enviado por upload depois do sorteio do tema e antes da aula, em modelo próprio do Cebraspe. Quem não envia está eliminado, sem chance de compensar. Aula de até 30 minutos, mais 10 de arguição, e o corte é 6,00.",
     "detalhamento": "completo",
     "avisos_edital": [],
+    "alteracoes": [
+      {
+        "data": "2026-11-05",
+        "documento": "Edital nº 5 - UNCISAL, de 5 de novembro de 2026",
+        "muda": "datas da prova objetiva"
+      },
+      {
+        "data": "2026-07-16",
+        "documento": "Edital nº 2 - UNCISAL, de 16 de julho de 2026",
+        "muda": "vagas e prova de títulos"
+      }
+    ],
     "fonte_dados": {
       "origem": "extracao_v2",
       "extracoes": [
@@ -37233,7 +38361,12 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-02",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "numero": "1/2026",
+      "alteracoes": 2
+    },
+    "vagas_total": 43
   },
   {
     "id": "unifal-002-2026",
@@ -37290,11 +38423,15 @@ window.CONCURSOS = [
           "plano_de_aula": "Obrigatório, em 3 a 5 vias impressas, conforme o número de membros titulares da banca. Entregue no sorteio da ordem de apresentação, lacrado e visado pela banca e pelo candidato. ATENÇÃO: no Edital 111/2026, de Língua Inglesa, o plano deve ser redigido EM INGLÊS",
           "recursos": "Fornecidos: equipamento (computador) disponibilizado pela própria instituição. Proibidos: notebook pessoal e aparelho eletrônico ou de comunicação (bip, telefone celular, relógio de qualquer tipo, mp3, ipod, agenda eletrônica, palmtop, receptor, gravador ou outros equipamentos similares), durante a realização das provas",
           "modalidade": "Presencial, em sessão pública, mas vedada a presença dos outros candidatos. Gravada em áudio e vídeo pela UNIFAL-MG. Ninguém mais pode gravar nem fazer anotações. A instituição fornece sala reservada e o candidato pode usar os recursos que quiser, próprios ou disponíveis"
+        },
+        "temas": {
+          "min": 10,
+          "max": 10
         }
       },
       {
         "nome": "Defesa de projeto",
-        "tipo": "outra",
+        "tipo": "projeto",
         "carater": "Eliminatória",
         "data": {
           "tipo": "nao_divulgada",
@@ -37854,7 +38991,13 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-02",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "numero": "002/2026",
+      "publicacao": "2026-09-11",
+      "alteracoes": 0
+    },
+    "vagas_total": 8
   },
   {
     "id": "ufpel-028-2026",
@@ -37891,11 +39034,12 @@ window.CONCURSOS = [
         "detalhe": {
           "duracao": "Até 4 horas, mais 30 minutos de consulta bibliográfica. Manuscrita",
           "formato": "Com consulta durante 30 minutos"
-        }
+        },
+        "peso": "4"
       },
       {
         "nome": "Prova Prática",
-        "tipo": "outra",
+        "tipo": "pratica",
         "carater": "",
         "data": {
           "tipo": "periodo",
@@ -37923,6 +39067,11 @@ window.CONCURSOS = [
           "plano_de_aula": "Obrigatório. Uma cópia para cada membro da banca, antes do início da aula",
           "nota_minima": "Não há nota mínima só para a didática. O que elimina é a Nota Final de Avaliação abaixo de 7,0",
           "modalidade": "Presencial, em sessão pública, gravada em áudio e vídeo"
+        },
+        "peso": "4",
+        "temas": {
+          "min": 10,
+          "max": 10
         }
       },
       {
@@ -37937,7 +39086,8 @@ window.CONCURSOS = [
         },
         "detalhe": {
           "duracao": "Memorial de até 10 páginas. Exposição de 30 minutos e 15 minutos de respostas"
-        }
+        },
+        "peso": "2"
       },
       {
         "nome": "Exame de Títulos",
@@ -37948,7 +39098,8 @@ window.CONCURSOS = [
           "valor": "2026-11-23",
           "fim": "2026-12-11"
         },
-        "detalhe": {}
+        "detalhe": {},
+        "peso": "3"
       },
       {
         "nome": "Resultado final",
@@ -37975,6 +39126,98 @@ window.CONCURSOS = [
     "observacao": "A janela de provas é larga, de 23/11 a 11/12, e a data e a hora de cada área estão no formulário de homologação publicado em 30/10. Dá para montar a aula antes disso. Plano de aula é obrigatório, uma cópia por examinador, e a sessão é gravada em áudio e vídeo. Não existe corte só na didática: o que elimina é a nota final abaixo de 7,0.",
     "detalhamento": "completo",
     "avisos_edital": [],
+    "alteracoes": [
+      {
+        "data": "2026-11-16",
+        "documento": "EDITAL CPP Nº 028/2026 RESULTADO DOS RECURSOS",
+        "muda": "inscritos homologados"
+      },
+      {
+        "data": "2026-11-12",
+        "documento": "Retificação local de início, área Fisiologia",
+        "muda": "datas"
+      },
+      {
+        "data": "2026-11-06",
+        "documento": "Informe Exame de Títulos",
+        "muda": "prova de títulos"
+      },
+      {
+        "data": "2026-10-29",
+        "documento": "Formulário de homologação, banca e cronograma, área 10 (SEI nº 4330770)",
+        "muda": "datas, datas da prova escrita e datas da prova didática"
+      },
+      {
+        "data": "2026-10-29",
+        "documento": "Formulário de homologação, banca e cronograma, área 11 (SEI nº 4330737)",
+        "muda": "datas, datas da prova escrita e datas da prova didática"
+      },
+      {
+        "data": "2026-10-29",
+        "documento": "Formulário de homologação, banca e cronograma, área 23 (SEI nº 4380642)",
+        "muda": "datas, datas da prova escrita e datas da prova didática"
+      },
+      {
+        "data": "2026-10-29",
+        "documento": "Formulário de homologação, banca e cronograma, área 20 (SEI nº 4379853)",
+        "muda": "datas, datas da prova escrita e datas da prova didática"
+      },
+      {
+        "data": "2026-10-29",
+        "documento": "Formulário de homologação, banca e cronograma, área 18 (SEI nº 4379847)",
+        "muda": "datas, datas da prova escrita e datas da prova didática"
+      },
+      {
+        "data": "2026-10-29",
+        "documento": "Formulário de homologação, banca e cronograma, área 19 (SEI nº 4379841)",
+        "muda": "datas, datas da prova escrita e datas da prova didática"
+      },
+      {
+        "data": "2026-10-29",
+        "documento": "Formulário de homologação, banca e cronograma, área 12 (SEI nº 4381551)",
+        "muda": "datas, datas da prova escrita e datas da prova didática"
+      },
+      {
+        "data": "2026-10-29",
+        "documento": "Formulário de homologação, banca e cronograma, área 06 (SEI nº 4384914)",
+        "muda": "datas, datas da prova escrita e datas da prova didática"
+      },
+      {
+        "data": "2026-10-29",
+        "documento": "Formulário de homologação, banca e cronograma, área 15 (SEI nº 4386642)",
+        "muda": "datas, datas da prova escrita e datas da prova didática"
+      }
+    ],
+    "inscritos": {
+      "01": 36,
+      "02": 8,
+      "03": 25,
+      "04": 16,
+      "05": 8,
+      "06": 24,
+      "07": 13,
+      "08": 10,
+      "09": 28,
+      "10": 47,
+      "11": 21,
+      "12": 28,
+      "13": 67,
+      "14": 2,
+      "15": 3,
+      "16": 10,
+      "17": 1,
+      "18": 6,
+      "19": 7,
+      "20": 6,
+      "21": 30,
+      "22": 25,
+      "23": 20,
+      "24": 21,
+      "25": 27,
+      "26": 20,
+      "27": 160,
+      "28": 32
+    },
     "fonte_dados": {
       "origem": "extracao_v2",
       "extracoes": [
@@ -37982,7 +39225,13 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-02",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "numero": "028/2026",
+      "publicacao": "2026-09-14",
+      "alteracoes": 32
+    },
+    "vagas_total": 32
   },
   {
     "id": "uesc-050-2026",
@@ -38017,7 +39266,8 @@ window.CONCURSOS = [
         "detalhe": {
           "duracao": "4 horas",
           "formato": "Com consulta durante 1 hora"
-        }
+        },
+        "peso": "2"
       },
       {
         "nome": "Prova Didática (Aula Pública)",
@@ -38037,11 +39287,16 @@ window.CONCURSOS = [
           "sorteio": "No mesmo dia da aula, imediatamente antes. Não há 24 horas de preparo",
           "nota_minima": "Consulte o edital",
           "modalidade": "Presencial. DEC em sala do Departamento de Engenharia e Computação, DCS na Sala de Multimeios 3103 do Pavilhão Jorge Amado"
+        },
+        "peso": "2",
+        "temas": {
+          "min": 10,
+          "max": 10
         }
       },
       {
         "nome": "Plano de Trabalho",
-        "tipo": "outra",
+        "tipo": "projeto",
         "carater": "",
         "data": {
           "tipo": "periodo",
@@ -38049,7 +39304,8 @@ window.CONCURSOS = [
           "fim": "2026-10-14",
           "nota": "No DEC em 24/09 às 8h. No DCS, no mesmo dia da prova didática"
         },
-        "detalhe": {}
+        "detalhe": {},
+        "peso": "1"
       },
       {
         "nome": "Prova de Títulos",
@@ -38061,7 +39317,8 @@ window.CONCURSOS = [
           "fim": "2026-10-15",
           "nota": "DEC em 25/09 e 29/09. DCS em 02/10 e 15/10"
         },
-        "detalhe": {}
+        "detalhe": {},
+        "peso": "1"
       }
     ],
     "periodo_provas": {
@@ -38342,6 +39599,28 @@ window.CONCURSOS = [
     "observacao": "É a didática mais próxima do radar. Computação e Engenharia Civil têm aula em 23/09 e o ponto é sorteado no mesmo dia, sem 24 horas de preparo. Medicina cai entre 25/09 e 14/10. O candidato já indicou 1ª e 2ª opção de ponto na inscrição e a aula sai dessas opções, então a preparação é sobre dois temas conhecidos. Confirme a data da sua área no cronograma de 30/08 publicado no portal.",
     "detalhamento": "completo",
     "avisos_edital": [],
+    "alteracoes": [
+      {
+        "data": "2026-06-09",
+        "documento": "Portaria Reitoria UESC nº 389/2026",
+        "muda": "datas e recursos"
+      },
+      {
+        "data": "2026-05-25",
+        "documento": "Portaria Reitoria UESC nº 353/2026",
+        "muda": "datas"
+      },
+      {
+        "data": "2026-05-18",
+        "documento": "Portaria Reitoria UESC nº 338/2026",
+        "muda": "reserva de vagas e vagas"
+      },
+      {
+        "data": "2026-05-11",
+        "documento": "Portaria Reitoria UESC nº 325/2026",
+        "muda": "datas, recursos, prazo de inscrição e inscrição"
+      }
+    ],
     "fonte_dados": {
       "origem": "extracao_v2",
       "extracoes": [
@@ -38349,7 +39628,12 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-04",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "numero": "50/2026",
+      "alteracoes": 4
+    },
+    "vagas_total": 4
   },
   {
     "id": "uneb-085-2026",
@@ -38385,7 +39669,8 @@ window.CONCURSOS = [
           "duracao": "5 horas, sendo a primeira para consulta bibliográfica. Máximo de 15 laudas, prova anônima",
           "formato": "Com consulta durante 1 hora",
           "nota_minima": "7,00"
-        }
+        },
+        "peso": "4"
       },
       {
         "nome": "Aula Pública",
@@ -38405,6 +39690,11 @@ window.CONCURSOS = [
           "plano_de_aula": "Obrigatório, em 3 vias, entregue imediatamente antes da aula. A ausência custa 2 pontos",
           "recursos": "Fornecidos: sala de aula, projetor multimídia (data show), computador portátil (notebook) e quadro branco",
           "modalidade": "Presencial em Salvador/BA, com gravação em áudio ou em áudio e vídeo"
+        },
+        "peso": "4",
+        "temas": {
+          "min": 7,
+          "max": 10
         }
       },
       {
@@ -38418,7 +39708,8 @@ window.CONCURSOS = [
         },
         "detalhe": {
           "duracao": "Memorial de até 15 laudas. Apresentação de até 30 minutos, seguida de arguição"
-        }
+        },
+        "peso": "2"
       },
       {
         "nome": "Prova de Títulos",
@@ -38853,6 +40144,27 @@ window.CONCURSOS = [
     "observacao": "A aula pública pesa 4, o mesmo que a prova escrita, e junto com o memorial define tudo. O plano de aula é obrigatório em três vias e esquecer custa 2 pontos direto na nota. Não há arguição depois da aula, então a banca julga a aula em si, sem chance de recuperar na resposta. A fórmula é (escrita x 4 + aula x 4 + memorial x 2) dividido por 10, e o corte é 7,0.",
     "detalhamento": "completo",
     "avisos_edital": [],
+    "alteracoes": [
+      {
+        "data": "2026-10-30",
+        "documento": "Edital nº 101/2026 (convocação para a Prova Escrita)",
+        "muda": "datas da prova escrita e prova escrita"
+      },
+      {
+        "data": "2026-10-23",
+        "documento": "Comunicado de alteração de data - Concurso Público Docente - Edital nº 085/2026",
+        "muda": "datas da prova escrita"
+      }
+    ],
+    "inscritos": {
+      "001": 7,
+      "002": 19,
+      "003": 10,
+      "004": 10,
+      "005": 5,
+      "006": 18,
+      "007": 10
+    },
     "fonte_dados": {
       "origem": "extracao_v2",
       "extracoes": [
@@ -38860,7 +40172,13 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-02",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "numero": "085/2026",
+      "publicacao": "2026-09-09",
+      "alteracoes": 2
+    },
+    "vagas_total": 7
   },
   {
     "id": "usp-fm-199-2026",
@@ -38900,6 +40218,11 @@ window.CONCURSOS = [
           "nota_minima": "Consulte o edital",
           "modalidade": "Presencial, na Faculdade de Medicina, em São Paulo",
           "plano_de_aula": "Consulte o edital"
+        },
+        "peso": "3",
+        "temas": {
+          "min": 20,
+          "max": 20
         }
       },
       {
@@ -38910,7 +40233,8 @@ window.CONCURSOS = [
           "tipo": "nao_divulgada",
           "nota": "O concurso deverá realizar-se no prazo de 30 (trinta) a 120 (cento e vinte) dias, a contar da data da publicação no Diário Oficial do Estado da aprovação das inscrições"
         },
-        "detalhe": {}
+        "detalhe": {},
+        "peso": "4"
       },
       {
         "nome": "Seminário",
@@ -38920,7 +40244,8 @@ window.CONCURSOS = [
           "tipo": "nao_divulgada",
           "nota": "O concurso deverá realizar-se no prazo de 30 (trinta) a 120 (cento e vinte) dias, a contar da data da publicação no Diário Oficial do Estado da aprovação das inscrições"
         },
-        "detalhe": {}
+        "detalhe": {},
+        "peso": "3"
       },
       {
         "nome": "Resultado final",
@@ -38949,7 +40274,13 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-02",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "numero": "DVACAD/FM/199/2026",
+      "publicacao": "2026-09-14",
+      "alteracoes": 0
+    },
+    "vagas_total": 1
   },
   {
     "id": "ufrpe-21-2026",
@@ -38985,7 +40316,8 @@ window.CONCURSOS = [
         "detalhe": {
           "duracao": "4 horas",
           "formato": "Sem consulta"
-        }
+        },
+        "peso": "3"
       },
       {
         "nome": "Prova Didática",
@@ -39006,18 +40338,24 @@ window.CONCURSOS = [
           "recursos": "Fornecidos: lousa, marcador e apagador",
           "nota_minima": "7,00. Abaixo disso o candidato é reprovado no concurso",
           "modalidade": "Presencial, em sessão pública, gravada em áudio ou em áudio e vídeo. A UFRPE fornece apenas lousa, marcador e apagador. Qualquer outro recurso é por conta e risco do candidato"
+        },
+        "peso": "3",
+        "temas": {
+          "min": 10,
+          "max": 10
         }
       },
       {
         "nome": "Defesa de Plano de Atividades",
-        "tipo": "outra",
+        "tipo": "projeto",
         "carater": "Eliminatória e classificatória",
         "data": {
           "tipo": "periodo",
           "valor": "2026-12-17",
           "fim": "2026-12-18"
         },
-        "detalhe": {}
+        "detalhe": {},
+        "peso": "2"
       },
       {
         "nome": "Prova de Títulos",
@@ -39029,7 +40367,8 @@ window.CONCURSOS = [
           "fim": "2026-12-10",
           "nota": "Anexação da documentação. Resultado preliminar em 23/02/2027"
         },
-        "detalhe": {}
+        "detalhe": {},
+        "peso": "2"
       },
       {
         "nome": "Compatibilidade de Perfil",
@@ -40082,6 +41421,18 @@ window.CONCURSOS = [
     "observacao": "Inscrição até 13/10 e aula só em 15 ou 16 de dezembro: quase três meses de preparo, o que é raro. Três coisas decidem aqui. O plano de aula vale 1,0 da nota, pela coerência entre o que está escrito e o que você faz na aula, e sem as quatro vias na mão você não entra na sala. Não há arguição, então a banca julga a aula e nada mais, sem chance de recuperar na resposta. E o tempo vale outro 1,0, com 0,5 de desconto extra se sair do intervalo de 45 a 55 minutos. A sala tem só lousa, marcador e apagador, e o tempo de montar seu equipamento corre dentro da aula. O barema é conhecimento 3,0, exposição 2,0, atualização científica 1,5, metodologia e recurso didático 1,5, coerência com o plano 1,0 e tempo 1,0.",
     "detalhamento": "completo",
     "avisos_edital": [],
+    "alteracoes": [
+      {
+        "data": "2026-09-21",
+        "documento": "Edital nº 24/2026",
+        "muda": "vagas e reserva de vagas"
+      },
+      {
+        "data": "2026-09-14",
+        "documento": "Edital nº 23/2026",
+        "muda": "vagas"
+      }
+    ],
     "fonte_dados": {
       "origem": "extracao_v2",
       "extracoes": [
@@ -40089,7 +41440,13 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-02",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "numero": "21/2026",
+      "publicacao": "2026-09-08",
+      "alteracoes": 2
+    },
+    "vagas_total": 12
   },
   {
     "id": "unesp-assistente-2026",
@@ -40125,11 +41482,12 @@ window.CONCURSOS = [
           "duracao": "3 horas",
           "formato": "Com consulta durante 1 hora",
           "nota_minima": "7,0. Abaixo disso o candidato é eliminado e não chega à segunda fase"
-        }
+        },
+        "peso": "1"
       },
       {
         "nome": "Prova prática",
-        "tipo": "outra",
+        "tipo": "pratica",
         "carater": "",
         "data": {
           "tipo": "nao_divulgada",
@@ -40153,17 +41511,23 @@ window.CONCURSOS = [
           "nota_minima": "Não há corte na didática, que é classificatória. O que elimina é a média abaixo de 7,0 na prova escrita, na primeira fase",
           "arguicao": "Não há arguição na aula. A arguição é do projeto de pesquisa e dos planos de graduação, pós-graduação e extensão, em prova separada de peso 1",
           "modalidade": "Presencial, em português, na cidade do câmpus da vaga. A ordem de apresentação segue a ordem de inscrição dos candidatos"
+        },
+        "peso": "2",
+        "temas": {
+          "min": 10,
+          "max": 10
         }
       },
       {
         "nome": "Prova de análise e arguição do projeto de pesquisa, do plano de atividades para a graduação e para a pós-graduação, do plano de ações de extensão universitária",
-        "tipo": "outra",
+        "tipo": "projeto",
         "carater": "Classificatória",
         "data": {
           "tipo": "nao_divulgada",
           "nota": "O edital ainda não fixou a data"
         },
-        "detalhe": {}
+        "detalhe": {},
+        "peso": "1"
       },
       {
         "nome": "Prova de títulos",
@@ -40173,7 +41537,8 @@ window.CONCURSOS = [
           "tipo": "nao_divulgada",
           "nota": "O edital ainda não fixou a data"
         },
-        "detalhe": {}
+        "detalhe": {},
+        "peso": "2"
       },
       {
         "nome": "Resultado final",
@@ -40525,7 +41890,11 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-22",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "editais": 8
+    },
+    "vagas_total": 8
   },
   {
     "id": "unesp-titular-2026",
@@ -40565,6 +41934,11 @@ window.CONCURSOS = [
           "nota_minima": "Não há corte só na didática. A aprovação exige média final igual ou superior a 7,0, atribuída por pelo menos 3 dos 5 examinadores",
           "arguicao": "Não há arguição na aula. A arguição é do memorial, em prova separada de peso 1, com até 30 minutos por examinador e tempo igual de resposta",
           "modalidade": "Presencial e pública, em nível de PÓS-GRADUAÇÃO. O edital admite também aula sobre erudição de assunto definido pelo candidato"
+        },
+        "peso": "1",
+        "temas": {
+          "min": 10,
+          "max": 15
         }
       },
       {
@@ -40577,7 +41951,8 @@ window.CONCURSOS = [
         },
         "detalhe": {
           "criterios": "10 pontos: fluência e coerência na arguição 3,0, trajetória acadêmica e profissional 5,0, capacidade crítico-propositiva 2,0"
-        }
+        },
+        "peso": "1"
       },
       {
         "nome": "Prova de Títulos - julgamento de Memorial Circunstanciado",
@@ -40587,7 +41962,8 @@ window.CONCURSOS = [
           "tipo": "nao_divulgada",
           "nota": "O edital ainda não fixou a data"
         },
-        "detalhe": {}
+        "detalhe": {},
+        "peso": "2"
       }
     ],
     "logo": "unesp.png",
@@ -40840,7 +42216,11 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-22",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "editais": 10
+    },
+    "vagas_total": 10
   },
   {
     "id": "usp-if-58-2026",
@@ -40880,6 +42260,11 @@ window.CONCURSOS = [
           "nota_minima": "Nota final mínima 7, pela maioria dos examinadores",
           "modalidade": "Presencial, pública, em português ou inglês (escolha na inscrição)",
           "plano_de_aula": "Consultar o edital. Programa: oscilador harmônico quântico, átomo de hidrogênio, adição de momento angular, partículas idênticas, perturbações, WKB, espalhamento, matriz densidade e emaranhamento; nível de pós-graduação"
+        },
+        "peso": "3",
+        "temas": {
+          "min": 9,
+          "max": 9
         }
       },
       {
@@ -40890,11 +42275,12 @@ window.CONCURSOS = [
           "tipo": "nao_divulgada",
           "nota": "no prazo de trinta a cento e vinte dias, a contar da data da publicação no Diário Oficial do Estado da aprovação das inscrições"
         },
-        "detalhe": {}
+        "detalhe": {},
+        "peso": "4"
       },
       {
         "nome": "Apresentação do projeto de pesquisa e respectiva arguição",
-        "tipo": "outra",
+        "tipo": "projeto",
         "carater": "Peso 3",
         "data": {
           "tipo": "nao_divulgada",
@@ -40902,7 +42288,8 @@ window.CONCURSOS = [
         },
         "detalhe": {
           "duracao": "Até 60 minutos para a banca e 60 minutos para o candidato"
-        }
+        },
+        "peso": "3"
       },
       {
         "nome": "Resultado final",
@@ -40931,7 +42318,13 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-02",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "numero": "IF 58/2026",
+      "publicacao": "2026-07-01",
+      "alteracoes": 0
+    },
+    "vagas_total": 1
   },
   {
     "id": "usp-fm-152-168-2026",
@@ -40967,7 +42360,7 @@ window.CONCURSOS = [
       },
       {
         "nome": "Prova prática",
-        "tipo": "outra",
+        "tipo": "pratica",
         "carater": "",
         "data": {
           "tipo": "nao_divulgada",
@@ -40991,6 +42384,11 @@ window.CONCURSOS = [
           "nota_minima": "Consultar o edital",
           "modalidade": "Presencial, na Faculdade de Medicina, em São Paulo",
           "plano_de_aula": "Consultar o edital"
+        },
+        "peso": "3",
+        "temas": {
+          "min": 10,
+          "max": 29
         }
       },
       {
@@ -41001,11 +42399,12 @@ window.CONCURSOS = [
           "tipo": "nao_divulgada",
           "nota": "O concurso deverá realizar-se no prazo de trinta a cento e vinte dias, a contar da data da publicação no Diário Oficial do Estado da aprovação das inscrições"
         },
-        "detalhe": {}
+        "detalhe": {},
+        "peso": "4"
       },
       {
         "nome": "Prática",
-        "tipo": "outra",
+        "tipo": "projeto",
         "carater": "",
         "data": {
           "tipo": "nao_divulgada",
@@ -41056,6 +42455,9 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-04",
       "em_conferencia": true
+    },
+    "edital": {
+      "editais": 7
     }
   },
   {
@@ -41091,7 +42493,8 @@ window.CONCURSOS = [
         "detalhe": {
           "duracao": "4 horas",
           "formato": "Sem consulta"
-        }
+        },
+        "peso": "0,4"
       },
       {
         "nome": "Prova Didática",
@@ -41109,6 +42512,11 @@ window.CONCURSOS = [
           "criterios": "plano de aula (0,0 a 2,0 pontos): clareza na redação dos elementos do… 0,0 a 2,0 pontos; aspectos didático-metodológicos (0,0 a 5,0 pontos): relaciona o tema… 0,0 a 5,0 pontos; emprego apropriado dos recursos didáticos (0,0 a 1,0 pontos): utiliza… 0,0 a 1,0 pontos; arguição (0,0 a 2.0 pontos): contempla nas respostas os pontos… 0,0 a 2.0 pontos",
           "plano_de_aula": "Exigido: entregue de maneira eletrônica (pen-drive, e-mail ou drive na nuvem), devendo o arquivo estar salvo em formato PDF, esteja a comissão examinadora em formato presencial…, com objetivos, conteúdos, procedimentos didáticos, recursos, avaliação e referências. O candidato deve comparecer ao local da prova didática com uma antecedência mínima de 30 minutos para a realização do procedimento descrito no item anterior (download do plano pelo fiscal e envio à Comissão Examinadora)",
           "recursos": "Fornecidos: quadro branco, Datashow, programas de apresentação de slides, computador/notebook e softwares livres, a exemplo do LibreOffice"
+        },
+        "peso": "0,3",
+        "temas": {
+          "min": 6,
+          "max": 10
         }
       },
       {
@@ -41120,7 +42528,8 @@ window.CONCURSOS = [
           "valor": "2027-02-22",
           "fim": "2027-03-21"
         },
-        "detalhe": {}
+        "detalhe": {},
+        "peso": "0,2"
       },
       {
         "nome": "Prova de Títulos",
@@ -41131,7 +42540,8 @@ window.CONCURSOS = [
           "valor": "2027-02-22",
           "fim": "2027-03-21"
         },
-        "detalhe": {}
+        "detalhe": {},
+        "peso": "0,1"
       },
       {
         "nome": "Resultado final",
@@ -41157,6 +42567,44 @@ window.CONCURSOS = [
     "observacao": "Inscrição de 28/09 a 23/10 pelo SIGRH. Depois das retificações de 22/09 e 29/09, o edital passou de 9 para 15 vagas, em 14 áreas, espalhadas por Natal, Caicó, Santa Cruz e Currais Novos, então trabalhe sempre pela versão retificada. A escrita e o sorteio dos temas da didática são em 21/02/2027, às 8h, menos nas áreas do Departamento de Informática e Matemática Aplicada, que fazem a escrita às 14h do mesmo dia, pela retificação de 09/10. Leia o edital antes de se inscrever e confira os pontos da sua área.",
     "detalhamento": "completo",
     "avisos_edital": [],
+    "alteracoes": [
+      {
+        "data": "2026-10-27",
+        "documento": "Edital nº 108/2026-PROGESP republicado (versão 3), com a marca \"(Retificado no DOU nº…",
+        "muda": "inscrição, prazo de inscrição e datas"
+      },
+      {
+        "data": "2026-10-09",
+        "documento": "Aviso de Retificação do Edital nº 108/2026-Progesp (DOU nº 192, de 09/10/2026)",
+        "muda": "datas da prova escrita e datas da prova didática"
+      },
+      {
+        "data": "2026-09-29",
+        "documento": "Aviso de Retificação do Edital nº 108/2026-Progesp (DOU nº 184, de 29/09/2026)",
+        "muda": "vagas e reserva de vagas"
+      },
+      {
+        "data": "2026-09-22",
+        "documento": "Retificação do Edital nº 108/2026-Progesp (DOU nº 179, de 22/09/2026)",
+        "muda": "vagas e reserva de vagas"
+      }
+    ],
+    "inscritos": {
+      "01": 13,
+      "02": 91,
+      "03": 5,
+      "04": 7,
+      "05": 5,
+      "06": 170,
+      "07": 5,
+      "08": 12,
+      "09": 42,
+      "10": 34,
+      "11": 16,
+      "12": 7,
+      "13": 26,
+      "14": 9
+    },
     "fonte_dados": {
       "origem": "extracao_v2",
       "extracoes": [
@@ -41164,7 +42612,13 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-02",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "numero": "108/2026-PROGESP",
+      "publicacao": "2026-09-16",
+      "alteracoes": 4
+    },
+    "vagas_total": 15
   },
   {
     "id": "ufersa-030-2026",
@@ -41200,7 +42654,8 @@ window.CONCURSOS = [
         "detalhe": {
           "duracao": "4 horas",
           "formato": "Sem consulta"
-        }
+        },
+        "peso": "3"
       },
       {
         "nome": "Prova de Aptidão Didática - PD",
@@ -41221,6 +42676,11 @@ window.CONCURSOS = [
           "plano_de_aula": "Três vias impressas, entregues à banca antes da apresentação",
           "recursos": "Fornecidos: data show, lousa e mesa. Proibidos: óculos escuros, relógio digital, boné/chapéu, calculadora, celular e qualquer outro material didático adicional",
           "modalidade": "Presencial, gravada em áudio e vídeo"
+        },
+        "peso": "3",
+        "temas": {
+          "min": 10,
+          "max": 10
         }
       },
       {
@@ -41233,7 +42693,8 @@ window.CONCURSOS = [
           "fim": "2026-12-10",
           "nota": "Entrega dos documentos em 06 e 07/12. Apresentação: Grupo I em 08/12, Grupo II em 09/12 e Grupo III em 10/12"
         },
-        "detalhe": {}
+        "detalhe": {},
+        "peso": "2"
       },
       {
         "nome": "Exame de Títulos - ET",
@@ -41245,7 +42706,8 @@ window.CONCURSOS = [
           "fim": "2026-12-14",
           "nota": "Período de envio dos títulos. Resultado em 16/12"
         },
-        "detalhe": {}
+        "detalhe": {},
+        "peso": "2"
       },
       {
         "nome": "Resultado final",
@@ -41271,6 +42733,53 @@ window.CONCURSOS = [
     "observacao": "A aula cai de 30/11 a 03/12, conforme o grupo, e o ponto sai com 24 horas de antecedência, tirado de 9 pontos do Anexo I, sem o que já caiu na escrita. São 40 a 60 minutos, com três vias impressas do plano de aula e gravação em áudio e vídeo. O cronograma é provisório: confirme o seu grupo antes de fechar a agenda.",
     "detalhamento": "completo",
     "avisos_edital": [],
+    "alteracoes": [
+      {
+        "data": "2026-10-27",
+        "documento": "Anexo II - Cronograma provisório (retificado em 27/10/2026)",
+        "muda": "datas"
+      },
+      {
+        "data": "2026-10-13",
+        "documento": "Edital nº 033/2026",
+        "muda": "datas"
+      },
+      {
+        "data": "2026-09-30",
+        "documento": "Edital nº 32/2026",
+        "muda": "vagas"
+      },
+      {
+        "data": "2026-09-25",
+        "documento": "Edital nº 031/2026",
+        "muda": "vagas, reserva de vagas, inscrição e datas"
+      }
+    ],
+    "inscritos": {
+      "02": 40,
+      "03": 22,
+      "04": 13,
+      "05": 10,
+      "06": 36,
+      "07": 6,
+      "08": 10,
+      "09": 24,
+      "10": 27,
+      "11": 17,
+      "12": 29,
+      "13": 30,
+      "14": 37,
+      "15": 35,
+      "16": 7,
+      "17": 2,
+      "18": 24,
+      "19": 64,
+      "20": 6,
+      "21": 12,
+      "22": 18,
+      "23": 20,
+      "24": 9
+    },
     "fonte_dados": {
       "origem": "extracao_v2",
       "extracoes": [
@@ -41278,7 +42787,13 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-02",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "numero": "030/2026",
+      "publicacao": "2026-09-21",
+      "alteracoes": 4
+    },
+    "vagas_total": 24
   },
   {
     "id": "ufc-48-2026",
@@ -41317,7 +42832,7 @@ window.CONCURSOS = [
       },
       {
         "nome": "Prova prática",
-        "tipo": "outra",
+        "tipo": "pratica",
         "carater": "Eliminatória",
         "data": {
           "tipo": "periodo",
@@ -41343,11 +42858,15 @@ window.CONCURSOS = [
           "plano_de_aula": "Exigido: entregues no início da prova didática",
           "recursos": "Proibidos, no que couber (item 17.24): iPod, smartphone, telefone celular, agenda eletrônica, mais 10 itens da mesma lista, relógio de qualquer espécie, óculos escuros, acessórios de chapelaria, tais como chapéu, boné, gorro, lápis, lapiseira (grafite), corretor líquido e borracha. Os recursos didáticos que poderão ser utilizados na prova, bem como a responsabilidade por sua disponibilização, serão informados pela CCV na página do certame ou no respectivo ato de convocação",
           "modalidade": "Consultar o edital"
+        },
+        "temas": {
+          "min": 10,
+          "max": 10
         }
       },
       {
         "nome": "Defesa de projeto de pesquisa",
-        "tipo": "outra",
+        "tipo": "projeto",
         "carater": "",
         "data": {
           "tipo": "periodo",
@@ -41393,6 +42912,85 @@ window.CONCURSOS = [
     "avisos_edital": [
       "Prova didática, áreas 33 (Aprendizado de Máquina e Visão Computacional), 34 (Cibersegurança), 35 (Criptografia), 36 (Engenharia de Software Seguro), 37 (Forense Digital), 38 (Processamento de Dados em Larga Escala e…), 39 (Processamento de Linguagem Natural) e 40 (Sistemas de Informação): os critérios somam 9 pontos, mas o edital declara total de 10. Pode ser erro de digitação do edital; confira no edital, que é a fonte oficial."
     ],
+    "alteracoes": [
+      {
+        "data": "2026-10-21",
+        "documento": "Aditivo nº 04 ao Edital nº 48/2026/CCV/UFC",
+        "muda": "datas"
+      },
+      {
+        "data": "2026-09-28",
+        "documento": "Aditivo nº 03 ao Edital nº 48/2026/CCV/UFC",
+        "muda": "vagas, prova escrita, prova didática e etapas do concurso e outros pontos"
+      },
+      {
+        "data": "2026-09-23",
+        "documento": "Aditivo nº 01 ao Edital nº 48/2026/CCV/UFC",
+        "muda": "datas, prazo de inscrição e inscrição"
+      },
+      {
+        "data": "2026-09-23",
+        "documento": "Aditivo nº 02 ao Edital nº 48/2026/CCV/UFC",
+        "muda": "vagas e reserva de vagas"
+      }
+    ],
+    "inscritos": {
+      "01": 5,
+      "02": 35,
+      "03": 10,
+      "04": 16,
+      "05": 9,
+      "06": 16,
+      "07": 21,
+      "08": 23,
+      "09": 26,
+      "10": 68,
+      "11": 25,
+      "12": 29,
+      "13": 3,
+      "14": 5,
+      "15": 12,
+      "16": 9,
+      "17": 47,
+      "18": 26,
+      "19": 8,
+      "20": 55,
+      "21": 1,
+      "22": 29,
+      "23": 24,
+      "24": 89,
+      "25": 10,
+      "26": 48,
+      "27": 26,
+      "28": 24,
+      "29": 3,
+      "30": 14,
+      "31": 16,
+      "32": 4,
+      "33": 17,
+      "34": 2,
+      "35": 2,
+      "36": 12,
+      "37": 3,
+      "38": 8,
+      "39": 12,
+      "40": 21,
+      "41": 14,
+      "42": 11,
+      "43": 29,
+      "44": 42,
+      "45": 40,
+      "46": 12,
+      "47": 17,
+      "48": 8,
+      "49": 5,
+      "50": 7,
+      "51": 8,
+      "52": 5,
+      "53": 7,
+      "54": 6,
+      "55": 27
+    },
     "fonte_dados": {
       "origem": "extracao_v2",
       "extracoes": [
@@ -41400,7 +42998,13 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-02",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "numero": "48/2026/CCV/UFC",
+      "publicacao": "2026-09-23",
+      "alteracoes": 4
+    },
+    "vagas_total": 65
   },
   {
     "id": "ufvjm-101-2026",
@@ -41452,7 +43056,7 @@ window.CONCURSOS = [
       },
       {
         "nome": "Prova prática",
-        "tipo": "outra",
+        "tipo": "pratica",
         "carater": "Eliminatória e classificatória",
         "data": {
           "tipo": "periodo",
@@ -41479,11 +43083,15 @@ window.CONCURSOS = [
           "arguicao": "Arguição da banca de até 15 minutos, já incluído o tempo de resposta",
           "modalidade": "Presencial, em sessão pública",
           "plano_de_aula": "Não exigido no edital base. Confira as instruções específicas da sua vaga"
+        },
+        "temas": {
+          "min": 9,
+          "max": 15
         }
       },
       {
         "nome": "Prova defesa de projeto de atividades acadêmicas",
-        "tipo": "outra",
+        "tipo": "projeto",
         "carater": "Eliminatória e classificatória",
         "data": {
           "tipo": "periodo",
@@ -41529,6 +43137,18 @@ window.CONCURSOS = [
     "observacao": "Inscrição até 23/10 e 24 vagas de doutorado em seis cidades de Minas. Seis áreas (101.3, 101.7, 101.8, 101.9, 101.20 e 101.23) tiveram a inscrição prorrogada até 06/11 pelo Edital 102/2026, de 08/10. A aula é de 40 a 50 minutos, o tema sai com 24 horas de antecedência e o corte é 70 pontos, com arguição de até 15 minutos. Cada área tem cronograma próprio nas Instruções Específicas, com datas que o próprio documento chama de estimativas e que podem mudar com aviso de 10 dias úteis antes da primeira prova. Em Odontologia e em Química, por exemplo, a escrita está prevista para 30/11 e a didática para 26/01 e 16/02/2027.",
     "detalhamento": "completo",
     "avisos_edital": [],
+    "alteracoes": [
+      {
+        "data": "2026-10-23",
+        "documento": "Edital nº 103/2026 - Retificação do Edital nº 101/2026",
+        "muda": "prazo de inscrição, datas e inscrição"
+      },
+      {
+        "data": "2026-10-08",
+        "documento": "Edital nº 102/2026 - Retificação do Edital nº 101/2026",
+        "muda": "inscrição, vagas, prazo de inscrição e datas"
+      }
+    ],
     "fonte_dados": {
       "origem": "extracao_v2",
       "extracoes": [
@@ -41536,7 +43156,13 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-02",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "numero": "101/2026",
+      "publicacao": "2026-09-24",
+      "alteracoes": 7
+    },
+    "vagas_total": 24
   },
   {
     "id": "ufrn-109-2026",
@@ -41571,7 +43197,8 @@ window.CONCURSOS = [
         "detalhe": {
           "duracao": "4 horas",
           "formato": "Sem consulta"
-        }
+        },
+        "peso": "0,4"
       },
       {
         "nome": "Prova Didática",
@@ -41589,6 +43216,11 @@ window.CONCURSOS = [
           "criterios": "plano de aula (0,0 a 1,0 pontos): clareza na redação dos elementos do… 0,0 a 1,0 pontos; aspectos didático-metodológicos (0,0 a 6,0 pontos): relaciona o tema… 0,0 a 6,0 pontos; emprego apropriado dos recursos didáticos (0,0 a 1,0 pontos): utiliza… 0,0 a 1,0 pontos; arguição (0,0 a 2.0 pontos): contempla nas respostas os pontos… 0,0 a 2.0 pontos",
           "plano_de_aula": "Exigido: entregue de maneira eletrônica (pen-drive, e-mail ou drive na nuvem), devendo o arquivo estar salvo em formato PDF, esteja a comissão examinadora em formato presencial…, com objetivos, conteúdos, procedimentos didáticos, recursos, avaliação e referências. O candidato deve comparecer ao local da prova didática com uma antecedência mínima de 30 minutos para a realização do procedimento descrito no item anterior (download do plano pelo fiscal e envio à Comissão Examinadora)",
           "recursos": "Fornecidos: quadro branco, Datashow, programas de apresentação de slides, computador/notebook e softwares livres, a exemplo do LibreOffice"
+        },
+        "peso": "0,3",
+        "temas": {
+          "min": 4,
+          "max": 10
         }
       },
       {
@@ -41600,7 +43232,8 @@ window.CONCURSOS = [
           "valor": "2027-03-22",
           "fim": "2027-04-11"
         },
-        "detalhe": {}
+        "detalhe": {},
+        "peso": "0,2"
       },
       {
         "nome": "Prova de Títulos",
@@ -41611,7 +43244,8 @@ window.CONCURSOS = [
           "valor": "2027-03-22",
           "fim": "2027-04-11"
         },
-        "detalhe": {}
+        "detalhe": {},
+        "peso": "0,1"
       },
       {
         "nome": "Resultado final",
@@ -41637,6 +43271,28 @@ window.CONCURSOS = [
     "observacao": "Edital novo, saiu em 22/09, com 9 vagas de EBTT: três de inteligência artificial no IMD, Matemática e Geografia na Escola Agrícola de Jundiaí, duas na Escola de Música e duas de Enfermagem na Escola de Saúde. Saíram duas retificações, em 28 e em 29/09, e a versão retificada do edital foi publicada em 29/09, então trabalhe sempre pela versão mais nova. O período de inscrição e as datas de prova continuam sem confirmação em fonte oficial legível: o PDF do edital não abriu nesta verificação. Baixe o edital retificado em sigrh.ufrn.br e confira o cronograma e os pontos da sua área.",
     "detalhamento": "completo",
     "avisos_edital": [],
+    "alteracoes": [
+      {
+        "data": "2026-10-09",
+        "documento": "Aviso de Retificação do Edital nº 109/2026-Progesp (DOU nº 192, de 09/10/2026)",
+        "muda": "prova de títulos"
+      },
+      {
+        "data": "2026-10-08",
+        "documento": "Anexo II, Produção Musical, versão 2 (PROVA DIDÁTICA – ATUALIZADO EM 08/10/2026)",
+        "muda": "prova didática"
+      },
+      {
+        "data": "2026-09-29",
+        "documento": "Aviso de Retificação do Edital nº 109/2026-Progesp (28 de setembro de 2026)",
+        "muda": "reserva de vagas"
+      },
+      {
+        "data": "2026-09-28",
+        "documento": "Aviso de Retificação do Edital nº 109/2026-Progesp (25 de setembro de 2026)",
+        "muda": "remuneração, datas e prova escrita"
+      }
+    ],
     "fonte_dados": {
       "origem": "extracao_v2",
       "extracoes": [
@@ -41644,7 +43300,13 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-02",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "numero": "109/2026-PROGESP",
+      "publicacao": "2026-09-22",
+      "alteracoes": 4
+    },
+    "vagas_total": 9
   },
   {
     "id": "unicamp-cotil-06-2026",
@@ -41676,7 +43338,8 @@ window.CONCURSOS = [
           "tipo": "nao_divulgada",
           "nota": "calendário fixado para as provas, notificado por edital no Diário Oficial do Estado e no site do Colégio Técnico de Limeira (3.9)"
         },
-        "detalhe": {}
+        "detalhe": {},
+        "peso": "2"
       },
       {
         "nome": "Prova Didática",
@@ -41694,11 +43357,12 @@ window.CONCURSOS = [
           "arguicao": "A arguição é etapa separada, com peso 3, sobre pedagogia, conteúdo, plano de trabalho e currículo",
           "modalidade": "Consultar o edital",
           "plano_de_aula": "Não exigido na didática pelo edital. O plano de trabalho é cobrado na prova de arguição"
-        }
+        },
+        "peso": "5"
       },
       {
         "nome": "Proposta de Plano de Trabalho",
-        "tipo": "outra",
+        "tipo": "projeto",
         "carater": "",
         "data": {
           "tipo": "nao_divulgada",
@@ -41714,7 +43378,8 @@ window.CONCURSOS = [
           "tipo": "nao_divulgada",
           "nota": "O edital ainda não fixou a data"
         },
-        "detalhe": {}
+        "detalhe": {},
+        "peso": "2"
       },
       {
         "nome": "Prova de Arguição",
@@ -41724,7 +43389,8 @@ window.CONCURSOS = [
           "tipo": "nao_divulgada",
           "nota": "calendário fixado para as provas, notificado por edital no Diário Oficial do Estado e no site do Colégio Técnico de Limeira (3.9)"
         },
-        "detalhe": {}
+        "detalhe": {},
+        "peso": "3"
       },
       {
         "nome": "Resultado final",
@@ -41753,7 +43419,13 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-02",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "numero": "06/2026",
+      "publicacao": "2026-09-04",
+      "alteracoes": 0
+    },
+    "vagas_total": 1
   },
   {
     "id": "ifsp-183-2026",
@@ -41786,7 +43458,8 @@ window.CONCURSOS = [
           "valor": "2026-12-13",
           "nota": "Data provável. Gabarito preliminar em 14/12, recursos em 15 e 16/12, gabarito definitivo em 20/01/2027 e resultado em 26/01/2027"
         },
-        "detalhe": {}
+        "detalhe": {},
+        "peso": "3"
       },
       {
         "nome": "Prova de Desempenho Didático",
@@ -41806,6 +43479,11 @@ window.CONCURSOS = [
           "plano_de_aula": "Exigido. Três vias do plano de aula, entregues à banca",
           "sorteio": "Não há sorteio de ponto na hora. O tema de cada área é publicado antes, na data provável de 04/11/2026",
           "modalidade": "Presencial"
+        },
+        "peso": "4",
+        "temas": {
+          "min": 1,
+          "max": 1
         }
       },
       {
@@ -41816,7 +43494,8 @@ window.CONCURSOS = [
           "tipo": "nao_divulgada",
           "nota": "Resultado preliminar em 15/03/2027, recursos em 16 e 17/03 e resultado dos recursos em 23/03/2027"
         },
-        "detalhe": {}
+        "detalhe": {},
+        "peso": "3"
       },
       {
         "nome": "Resultado final",
@@ -41843,6 +43522,28 @@ window.CONCURSOS = [
     "observacao": "O maior concurso EBTT aberto agora: 45 vagas em 21 cidades de São Paulo, com Informática (18 vagas) e Pedagogia (7) concentrando a maior parte. Inscrição de 06/10 a 17/11, banca própria do IFSP, sem banca terceirizada. O detalhe que muda o preparo: não há sorteio de ponto no dia da aula. O tema de cada área sai em 04/11/2026, ou seja, você tem quase quatro meses para construir a aula antes de apresentá-la entre 27/02 e 07/03/2027. Aula de 45 minutos, mais até 10 de arguição, com três vias do plano de aula entregues à banca e corte de 60 pontos.",
     "detalhamento": "completo",
     "avisos_edital": [],
+    "alteracoes": [
+      {
+        "data": "2026-11-09",
+        "documento": "Comunicado nº 7/2026 - CONC-IFSP/RET/IFSP",
+        "muda": "datas da prova didática"
+      },
+      {
+        "data": "2026-10-20",
+        "documento": "Comunicado nº 4/2026 - CONC-IFSP/RET/IFSP",
+        "muda": "datas"
+      },
+      {
+        "data": "2026-10-05",
+        "documento": "Edital de Retificação nº 188, de 2 de outubro de 2026",
+        "muda": "vagas"
+      },
+      {
+        "data": "2026-09-29",
+        "documento": "Comunicado nº 1/2026 - CONC-IFSP/RET/IFSP",
+        "muda": "datas e datas da prova objetiva"
+      }
+    ],
     "fonte_dados": {
       "origem": "extracao_v2",
       "extracoes": [
@@ -41850,7 +43551,13 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-23",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "numero": "183/2026",
+      "publicacao": "2026-09-29",
+      "alteracoes": 4
+    },
+    "vagas_total": 47
   },
   {
     "id": "ifmg-1077-2026",
@@ -41912,6 +43619,10 @@ window.CONCURSOS = [
           "criterios": "100 pontos: 1. Plano de Aula (10 pontos): Estrutura formal, organização, clareza… 5; 1. Plano de Aula (10 pontos): Adequação, clareza e pertinência dos… 5; 2. Introdução da Aula (15 pontos): Apresentação clara aos alunos… 5; 2. Introdução da Aula (15 pontos): Uso de aspectos motivacionais para… 4; 2. Introdução da Aula (15 pontos): Contextualização, referência e… 6; 3. Desenvolvimento (40 pontos): Segurança, exatidão conceitual e… 10; 3. Desenvolvimento (40 pontos): Organização lógica, estrutura… 10; 3. Desenvolvimento (40 pontos): Adequação do vocabulário geral e uso… 5; 3. Desenvolvimento (40 pontos): Abrangência, profundidade e estrita… 5; 3. Desenvolvimento (40 pontos): Utilização de exemplos práticos… 5; 3. Desenvolvimento (40 pontos): Pertinência dos recursos didáticos… 2,5; 3. Desenvolvimento (40 pontos): Habilidade no manuseio, utilização e… 2,5; 4. Finalização (17 pontos): Capacidade de síntese, fechamento das… 8; 4. Finalização (17 pontos): Adequação e clareza nos procedimentos de… 3; 4. Finalização (17 pontos): Cumprimento rigoroso das etapas… 3; 4. Finalização (17 pontos): Gestão e distribuição adequada do tempo… 3; 5. Conduta e Arguição (18 pontos): Autocontrole, equilíbrio… 5; 5. Conduta e Arguição (18 pontos): Qualidade da dicção, projeção e… 3,5; 5. Conduta e Arguição (18 pontos): Postura corporal adequada, uso do… 3,5; 5. Conduta e Arguição (18 pontos): Domínio técnico e clareza no… 6",
           "plano_de_aula": "Exigido: deverá ser incluído/anexado no site https://portal.concursos.ifmg.edu.br/; na página do Edital, link “Área do candidato”, aba Prova de Desempenho Didático e…, entregues conforme as datas constantes no Cronograma - Anexo I, com Objetivos e Referências bibliográficas",
           "recursos": "Fornecidos: quadro, pincel, giz, projetor multimídia e computador com sistema operacional com software compatível com PDF (Portable Document Format)"
+        },
+        "temas": {
+          "min": 3,
+          "max": 10
         }
       },
       {
@@ -41949,6 +43660,33 @@ window.CONCURSOS = [
     "observacao": "São 33 vagas de EBTT em 19 áreas, nos campi Ibirité, Sabará, Piumhi e Betim, com inscrição de 13/10 a 13/11/2026 e objetiva e dissertativa no mesmo dia, 24/01/2027. O detalhe que muda o preparo: o tema da prova de desempenho didático é sorteado em 24/01, no dia da objetiva, e é um só para todos os candidatos da área. Como a aula só acontece entre 19 e 29/04/2027, quem passar na dissertativa terá quase três meses com o tema conhecido. A aula vai de 40 a 50 minutos e pode ser interrompida se passar do tempo, há até 20 minutos de arguição, e o plano de aula vale 10 dos 100 pontos.",
     "detalhamento": "completo",
     "avisos_edital": [],
+    "alteracoes": [
+      {
+        "data": "2026-10-26",
+        "documento": "Retificação nº 05",
+        "muda": "reserva de vagas e vagas"
+      },
+      {
+        "data": "2026-10-23",
+        "documento": "Retificação nº 04",
+        "muda": "reserva de vagas e vagas"
+      },
+      {
+        "data": "2026-10-09",
+        "documento": "Retificação nº 01",
+        "muda": "reserva de vagas e vagas"
+      },
+      {
+        "data": "2026-10-09",
+        "documento": "Retificação nº 02",
+        "muda": "vagas"
+      },
+      {
+        "data": "2026-10-09",
+        "documento": "Retificação nº 03",
+        "muda": "prova didática e prova escrita"
+      }
+    ],
     "fonte_dados": {
       "origem": "extracao_v2",
       "extracoes": [
@@ -41956,7 +43694,12 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-07",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "numero": "1077/2026",
+      "alteracoes": 5
+    },
+    "vagas_total": 50
   },
   {
     "id": "ufmg-2229-2026",
@@ -41989,7 +43732,8 @@ window.CONCURSOS = [
         "detalhe": {
           "duracao": "5 horas",
           "formato": "Com consulta durante 1 hora"
-        }
+        },
+        "peso": "1"
       },
       {
         "nome": "Prova Didática",
@@ -42003,6 +43747,11 @@ window.CONCURSOS = [
           "duracao": "50 minutos",
           "arguicao": "Sim",
           "sorteio": "Tema sorteado com 24 horas de antecedência"
+        },
+        "peso": "1",
+        "temas": {
+          "min": 10,
+          "max": 10
         }
       },
       {
@@ -42013,7 +43762,8 @@ window.CONCURSOS = [
           "tipo": "nao_divulgada",
           "nota": "O edital ainda não fixou a data"
         },
-        "detalhe": {}
+        "detalhe": {},
+        "peso": "1"
       },
       {
         "nome": "Resultado final",
@@ -42035,6 +43785,9 @@ window.CONCURSOS = [
     "observacao": "Uma vaga de professor assistente em Dermatologia na Faculdade de Medicina da UFMG, 40 horas, para quem tem residência ou título de especialista em Dermatologia e mestrado. O edital saiu no DOU de 01/10/2026 e não traz data final de inscrição: diz só que ela vai até 30 dias a partir da publicação. Confirme o prazo na página do concurso e não deixe para a última semana. As provas começam de 30 a 90 dias depois do fim das inscrições, e a lista de temas já está publicada na página do edital, então dá para começar agora. A aula tem 50 minutos garantidos, com tema sorteado 24 horas antes, e o edital não pede plano de aula: a banca julga a aula e a arguição.",
     "detalhamento": "completo",
     "avisos_edital": [],
+    "inscritos": {
+      "01": 9
+    },
     "fonte_dados": {
       "origem": "extracao_v2",
       "extracoes": [
@@ -42042,7 +43795,13 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-11",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "numero": "2229/2026",
+      "publicacao": "2026-10-01",
+      "alteracoes": 0
+    },
+    "vagas_total": 1
   },
   {
     "id": "ufmg-2249-2026",
@@ -42077,7 +43836,8 @@ window.CONCURSOS = [
         "detalhe": {
           "duracao": "5 horas",
           "formato": "Com consulta durante 1 hora"
-        }
+        },
+        "peso": "1"
       },
       {
         "nome": "Prova Didática",
@@ -42091,7 +43851,8 @@ window.CONCURSOS = [
           "duracao": "50 minutos",
           "arguicao": "Sim",
           "sorteio": "Tema sorteado com 24 horas de antecedência"
-        }
+        },
+        "peso": "1"
       },
       {
         "nome": "Julgamento de Títulos",
@@ -42101,7 +43862,8 @@ window.CONCURSOS = [
           "tipo": "nao_divulgada",
           "nota": "O edital ainda não fixou a data"
         },
-        "detalhe": {}
+        "detalhe": {},
+        "peso": "1"
       },
       {
         "nome": "Resultado final",
@@ -42130,7 +43892,13 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-11",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "numero": "2249/2026",
+      "publicacao": "2026-10-06",
+      "alteracoes": 0
+    },
+    "vagas_total": 1
   },
   {
     "id": "ufms-137-2026",
@@ -42166,11 +43934,12 @@ window.CONCURSOS = [
         "detalhe": {
           "duracao": "3 horas",
           "formato": "Com consulta durante 1 hora"
-        }
+        },
+        "peso": "30"
       },
       {
         "nome": "Atividade Prática",
-        "tipo": "outra",
+        "tipo": "pratica",
         "carater": "",
         "data": {
           "tipo": "periodo",
@@ -42195,6 +43964,11 @@ window.CONCURSOS = [
           "nota_minima": "7 em 10",
           "criterios": "10 pontos: procedimentos didáticos: planejamento da aula; organização e… nota de 0,00 a 1,00; domínio do conteúdo: exposição clara e coerente do conteúdo… notas de 0,00 a 3,00; conhecimento do assunto: adequada profundidade; demonstração de… notas de 0,00 a 3,00; capacidade de comunicação: dicção clara e fluente; entonação de voz… notas de 0,00 a 2,00; estruturação e desenvolvimento da aula: adequado desenvolvimento da… notas de 0,00 a 1,00",
           "recursos": "Fornecidos: giz/pincel, quadro e apagador. Equipamentos do local (computador, tela de projeção, projetor) não podem ser usados; o candidato pode levar computador e projetor próprios, com até 10 minutos para montar. Proibidos: telefone celular ou qualquer dispositivo que possibilite comunicação com terceiros ou acesso à internet, inclusive para controlar o tempo"
+        },
+        "peso": "40",
+        "temas": {
+          "min": 10,
+          "max": 10
         }
       },
       {
@@ -42216,7 +43990,8 @@ window.CONCURSOS = [
           "tipo": "nao_divulgada",
           "nota": "O edital ainda não fixou a data"
         },
-        "detalhe": {}
+        "detalhe": {},
+        "peso": "1"
       },
       {
         "nome": "Resultado final",
@@ -42242,6 +44017,13 @@ window.CONCURSOS = [
     "observacao": "São 42 vagas em 35 áreas, em Campo Grande, Aquidauana, Corumbá e Três Lagoas, com inscrição curta, de 12 a 25/10/2026, e todas as provas concentradas entre 08 e 12/12/2026. O detalhe que mais pesa no preparo: a UFMS só fornece quadro, giz ou pincel e apagador, e os equipamentos da sala não podem ser usados. Quem quiser projetar precisa levar computador e projetor próprios, com até dez minutos para montar, e cada minuto além disso custa três décimos da nota. A aula vai de 40 a 50 minutos, sem arguição, com o mesmo desconto de três décimos por minuto excedente e corte 7.",
     "detalhamento": "completo",
     "avisos_edital": [],
+    "alteracoes": [
+      {
+        "data": "2026-10-13",
+        "documento": "Edital PROGEP/UFMS nº 140/2026",
+        "muda": "prova de títulos, memorial, recursos e banca e outros pontos"
+      }
+    ],
     "fonte_dados": {
       "origem": "extracao_v2",
       "extracoes": [
@@ -42249,7 +44031,12 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-11",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "numero": "137/2026",
+      "alteracoes": 1
+    },
+    "vagas_total": 42
   },
   {
     "id": "ufpr-276-2026",
@@ -42309,7 +44096,7 @@ window.CONCURSOS = [
       },
       {
         "nome": "Prática",
-        "tipo": "outra",
+        "tipo": "pratica",
         "carater": "Eliminatória e classificatória",
         "data": {
           "tipo": "nao_divulgada",
@@ -42331,7 +44118,7 @@ window.CONCURSOS = [
       },
       {
         "nome": "Proposta de projeto de pesquisa na área de conhecimento do concurso (avaliada na Defesa do currículo e do projeto de pesquisa)",
-        "tipo": "outra",
+        "tipo": "projeto",
         "carater": "",
         "data": {
           "tipo": "nao_divulgada",
@@ -42369,6 +44156,23 @@ window.CONCURSOS = [
     "observacao": "São 32 vagas, uma por área, em Curitiba, Palotina e Toledo, e cada área tem prazo e período de provas próprios. Em 28 áreas a inscrição vai de 28/09 a 28/10/2026 e as provas caem, na maioria, na segunda quinzena de novembro; Radiologia Odontológica e as três áreas de Ciências Florestais só abrem inscrição entre dezembro e março, com provas em 2027. Confira o Anexo 02 do edital antes de qualquer coisa. O ponto que mais pesa: para passar na didática não basta média 7, é preciso nota 7 ou mais de pelo menos três membros da banca, regra que vale também para a escrita e para a prática, onde houver.",
     "detalhamento": "completo",
     "avisos_edital": [],
+    "alteracoes": [
+      {
+        "data": "2026-10-08",
+        "documento": "Edital nº 291/26 - PROGEPE/2026",
+        "muda": "vagas"
+      },
+      {
+        "data": "2026-10-08",
+        "documento": "Edital nº 292/26 - PROGEPE/2026",
+        "muda": "vagas"
+      },
+      {
+        "data": "2026-10-01",
+        "documento": "Edital nº 288/26 - PROGEPE/2026",
+        "muda": "vagas"
+      }
+    ],
     "fonte_dados": {
       "origem": "extracao_v2",
       "extracoes": [
@@ -42376,7 +44180,13 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-11",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "numero": "276/2026",
+      "publicacao": "2026-09-25",
+      "alteracoes": 3
+    },
+    "vagas_total": 32
   },
   {
     "id": "ufv-47-2026",
@@ -42429,11 +44239,15 @@ window.CONCURSOS = [
           "nota_minima": "7 em 10",
           "criterios": "10 pontos: I - Foco no ponto sorteado, aspecto passível de eliminação do…; II - Atualidade e exatidão de conteúdo, conceitos e informações; III - Coerência das estratégias didáticas com os objetivos e…; IV - Domínio do tema, segurança e clareza na apresentação da aula; V - Adequação na distribuição do tempo para abordagem dos tópicos da…; VI - Qualidade e utilização eficiente dos recursos didáticos; VII - Capacidade de análise e síntese do conteúdo tratado; VIII - Utilização de exemplos significativos",
           "recursos": "Fornecidos: retroprojetor, projetor (tipo data show), quadro de giz ou quadro branco e computador. Proibidos: outro material didático diferente daquele entregue ao presidente da Banca"
+        },
+        "temas": {
+          "min": 15,
+          "max": 15
         }
       },
       {
         "nome": "Prova de Defesa de Projeto em Pesquisa",
-        "tipo": "outra",
+        "tipo": "projeto",
         "carater": "Eliminatória e classificatória",
         "data": {
           "tipo": "exata",
@@ -42473,7 +44287,13 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-11",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "numero": "47/2026",
+      "publicacao": "2026-09-11",
+      "alteracoes": 0
+    },
+    "vagas_total": 1
   },
   {
     "id": "ufv-48-49-2026",
@@ -42510,7 +44330,7 @@ window.CONCURSOS = [
       },
       {
         "nome": "Prova de Conhecimento",
-        "tipo": "outra",
+        "tipo": "pratica",
         "carater": "Eliminatória e classificatória",
         "data": {
           "tipo": "exata",
@@ -42536,6 +44356,10 @@ window.CONCURSOS = [
           "nota_minima": "7 em 10",
           "criterios": "I - Foco no ponto sorteado, aspecto passível de eliminação do…; II - Atualidade e exatidão de conteúdo, conceitos e informações; III - Coerência das estratégias didáticas com os objetivos e…; IV - Domínio do tema, segurança e clareza na apresentação da aula; V - Adequação na distribuição do tempo para abordagem dos tópicos da…; VI - Qualidade e utilização eficiente dos recursos didáticos; VII - Capacidade de análise e síntese do conteúdo tratado; VIII - Utilização de exemplos significativos",
           "recursos": "Fornecidos: retroprojetor, projetor (tipo data show), quadro de giz ou quadro branco e computador. Proibidos: outro material didático diferente daquele entregue ao presidente da Banca"
+        },
+        "temas": {
+          "min": 10,
+          "max": 11
         }
       },
       {
@@ -42581,7 +44405,11 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-11",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "editais": 2
+    },
+    "vagas_total": 2
   },
   {
     "id": "unila-240-2026",
@@ -42633,11 +44461,15 @@ window.CONCURSOS = [
           "duracao": "45 minutos",
           "plano_de_aula": "Exigido: entregue exclusivamente em formato digital, por meio de um ou mais pendrives identificados com o nome completo do candidato; arquivos em formato PDF, obrigatoriamente antes do início da apresentação da prova didática, com Tema da aula, Objetivos: gerais e específicos, Conteúdo/desenvolvimento do tema, Recursos Didáticos, Procedimentos metodológicos, Procedimentos de avaliação e Bibliografia",
           "recursos": "Fornecidos: quadro de giz, giz, quadro branco, pincel e projetor multimídia (datashow)"
+        },
+        "temas": {
+          "min": 10,
+          "max": 10
         }
       },
       {
         "nome": "Defesa da Proposta de Atuação Acadêmica",
-        "tipo": "outra",
+        "tipo": "projeto",
         "carater": "Classificatória",
         "data": {
           "tipo": "periodo",
@@ -42681,6 +44513,11 @@ window.CONCURSOS = [
     "observacao": "Três vagas de doutorado na UNILA, em Foz do Iguaçu: Anatomia humana, Farmacologia clínica e Saúde da família. Inscrição de 28/09 a 27/10/2026, com as provas marcadas para a semana de 25 a 29/01/2027. O detalhe que muda o preparo é o ritmo: a escrita é na segunda de manhã, o ponto da aula é sorteado logo depois dela, sem repetir o ponto da escrita, e a didática vem na terça à tarde ou na quarta de manhã. A aula tem 45 minutos, em sessão fechada, com plano entregue à banca antes de começar, e as provas podem ser feitas em português ou espanhol.",
     "detalhamento": "completo",
     "avisos_edital": [],
+    "inscritos": {
+      "01": 10,
+      "02": 13,
+      "03": 39
+    },
     "fonte_dados": {
       "origem": "extracao_v2",
       "extracoes": [
@@ -42688,7 +44525,13 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-09",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "numero": "240/2026",
+      "publicacao": "2026-09-24",
+      "alteracoes": 0
+    },
+    "vagas_total": 3
   },
   {
     "id": "unilab-14-2026",
@@ -42742,6 +44585,10 @@ window.CONCURSOS = [
           "sorteio": "Tema sorteado com 24 horas de antecedência",
           "criterios": "Domínio do Conteúdo Pontuação máxima: 6; Coerência entre o tema, os objetivos previstos no plano de aula e os… Pontuação máxima: 1; Desempenho didático e utilização adequada do tempo Pontuação máxima: 1; Comunicação, Clareza, Pertinência e Objetividade Pontuação máxima: 1; Estruturação do Plano de Aula Pontuação máxima: 1",
           "recursos": "O candidato pode usar recursos próprios (Na prova didática, poderão ser utilizados, para apresentação e exposição de conteúdo, quaisquer recursos audiovisuais, competindo ao candidato providenciar, por seus próprios meios, a obtenção, instalação e manuseio do equipamento necessário)"
+        },
+        "temas": {
+          "min": 10,
+          "max": 10
         }
       },
       {
@@ -42782,6 +44629,77 @@ window.CONCURSOS = [
     "observacao": "São 15 vagas de doutorado em 9 áreas da saúde na Unilab, em Baturité (CE) e no Campus dos Malês, em São Francisco do Conde (BA), com inscrição de 05/10 a 03/11/2026 e cronograma próprio por área, de novembro ao início de dezembro. Na didática, o domínio do conteúdo vale 6 dos 10 pontos da ficha de avaliação, e o plano de aula vale 1. A aula tem de 45 a 50 minutos, começa 24 horas depois do sorteio do ponto, e qualquer recurso audiovisual é por conta do candidato. Faltar ao sorteio da ordem de apresentação elimina.",
     "detalhamento": "completo",
     "avisos_edital": [],
+    "alteracoes": [
+      {
+        "data": "2026-11-12",
+        "documento": "",
+        "muda": "datas da prova escrita"
+      },
+      {
+        "data": "2026-11-11",
+        "documento": "Cronograma de Atividades – Anatomia Humana e Cirurgia (11/11/2026)",
+        "muda": "datas da prova escrita, datas da prova didática, datas da prova de títulos e datas"
+      },
+      {
+        "data": "2026-11-10",
+        "documento": "Cronograma de Atividades – Práticas em Atenção Primária à Saúde/Semiologia Médica…",
+        "muda": "datas da prova escrita, datas da prova didática, datas da prova de títulos e datas"
+      },
+      {
+        "data": "2026-11-06",
+        "documento": "Cronograma de Atividades – Medicina Baseada em Evidências, Epidemiologia e Pesquisa…",
+        "muda": "datas da prova escrita, datas da prova didática, datas da prova de títulos e datas"
+      },
+      {
+        "data": "2026-11-05",
+        "documento": "Cronograma de Atividades – Saúde da Criança (05/11/2026)",
+        "muda": "datas da prova escrita, datas da prova didática, datas da prova de títulos e datas"
+      },
+      {
+        "data": "2026-11-03",
+        "documento": "Alteração do Cronograma",
+        "muda": "datas"
+      },
+      {
+        "data": "2026-10-29",
+        "documento": "Cronograma de Atividades – Saúde da Mulher (28/10/2026)",
+        "muda": "datas da prova escrita, datas da prova didática, datas da prova de títulos e datas"
+      },
+      {
+        "data": "2026-10-29",
+        "documento": "Cronograma de Atividades – Métodos de Imagem (28/10/2026)",
+        "muda": "datas da prova escrita, datas da prova didática, datas da prova de títulos e datas"
+      },
+      {
+        "data": "2026-10-29",
+        "documento": "Cronograma de Atividades – Psiquiatria (28/10/2026)",
+        "muda": "datas da prova escrita, datas da prova didática, datas da prova de títulos e datas"
+      },
+      {
+        "data": "2026-10-27",
+        "documento": "Alteração de Cronograma – Práticas em Atenção Primária à Saúde/Semiologia Médica",
+        "muda": "prazo de inscrição, datas e inscrição"
+      },
+      {
+        "data": "2026-10-27",
+        "documento": "Alteração de Cronograma – Anatomia Humana e Cirurgia",
+        "muda": "prazo de inscrição, datas e inscrição"
+      },
+      {
+        "data": "2026-10-21",
+        "documento": "Retificação do Edital nº 14/2026",
+        "muda": "vagas e prova escrita"
+      }
+    ],
+    "inscritos": {
+      "06": 5,
+      "07": 1,
+      "09": 3,
+      "02": 6,
+      "04": 6,
+      "01": 49,
+      "03": 8
+    },
     "fonte_dados": {
       "origem": "extracao_v2",
       "extracoes": [
@@ -42789,7 +44707,13 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-11",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "numero": "14/2026",
+      "publicacao": "2026-10-01",
+      "alteracoes": 16
+    },
+    "vagas_total": 15
   },
   {
     "id": "usp-iau-03-2026",
@@ -42823,7 +44747,8 @@ window.CONCURSOS = [
         },
         "detalhe": {
           "duracao": "4 horas"
-        }
+        },
+        "peso": "3"
       },
       {
         "nome": "Prova didática",
@@ -42838,6 +44763,11 @@ window.CONCURSOS = [
           "arguicao": "Sim, a critério da banca",
           "sorteio": "Tema sorteado com 24 horas de antecedência",
           "recursos": "O candidato pode usar recursos próprios (IV - o candidato poderá utilizar o material didático que julgar necessário;)"
+        },
+        "peso": "3",
+        "temas": {
+          "min": 11,
+          "max": 11
         }
       },
       {
@@ -42848,7 +44778,8 @@ window.CONCURSOS = [
           "tipo": "nao_divulgada",
           "nota": "no prazo de trinta a cento e vinte dias, a contar da data da publicação no Diário Oficial do Estado da aprovação das inscrições"
         },
-        "detalhe": {}
+        "detalhe": {},
+        "peso": "4"
       },
       {
         "nome": "Resultado final",
@@ -42877,14 +44808,20 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-11",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "numero": "DVACAD/IAU - nº 03/2026",
+      "publicacao": "2026-10-02",
+      "alteracoes": 0
+    },
+    "vagas_total": 1
   },
   {
     "id": "uerj-244-2026",
     "sigla": "UERJ",
     "instituicao": "Universidade do Estado do Rio de Janeiro",
     "nivel": "Magistério Superior",
-    "uf": null,
+    "uf": "RJ",
     "numero_edital": "",
     "vagas": "1 vaga",
     "areas": "Ciência de Alimentos (Bromatologia)",
@@ -42916,7 +44853,7 @@ window.CONCURSOS = [
       },
       {
         "nome": "PROVA TEÓRICO-PRÁTICA",
-        "tipo": "outra",
+        "tipo": "pratica",
         "carater": "Eliminatória",
         "data": {
           "tipo": "exata",
@@ -42973,6 +44910,13 @@ window.CONCURSOS = [
     "observacao": "",
     "detalhamento": "completo",
     "avisos_edital": [],
+    "alteracoes": [
+      {
+        "data": "2026-09-09",
+        "documento": "Edital (errata) de 09/09/2026, item 3.f",
+        "muda": "inscrição"
+      }
+    ],
     "fonte_dados": {
       "origem": "extracao_v2",
       "extracoes": [
@@ -42980,14 +44924,18 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-12",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "alteracoes": 0
+    },
+    "vagas_total": 1
   },
   {
     "id": "uerj-255-2026",
     "sigla": "UERJ",
     "instituicao": "Universidade do Estado do Rio de Janeiro",
     "nivel": "Magistério Superior",
-    "uf": null,
+    "uf": "RJ",
     "numero_edital": "",
     "vagas": "1 vaga",
     "areas": "Tratamento e Prevenção Psicológica (70710007) / Intervenção Terapêutica: Psicopatologia, Saúde Mental Coletiva e Políticas Públicas (70710015)",
@@ -43066,6 +45014,16 @@ window.CONCURSOS = [
     "observacao": "",
     "detalhamento": "completo",
     "avisos_edital": [],
+    "alteracoes": [
+      {
+        "data": "2026-11-09",
+        "documento": "Aviso (data de divulgação da comissão examinadora - alteração)",
+        "muda": "datas"
+      }
+    ],
+    "inscritos": {
+      "01": 12
+    },
     "fonte_dados": {
       "origem": "extracao_v2",
       "extracoes": [
@@ -43073,14 +45031,18 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-12",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "alteracoes": 0
+    },
+    "vagas_total": 1
   },
   {
     "id": "uerj-227-2026",
     "sigla": "UERJ",
     "instituicao": "Universidade do Estado do Rio de Janeiro",
     "nivel": "Magistério Superior",
-    "uf": null,
+    "uf": "RJ",
     "numero_edital": "",
     "vagas": "1 vaga",
     "areas": "BIOQUÍMICA (20800002)",
@@ -43112,7 +45074,7 @@ window.CONCURSOS = [
       },
       {
         "nome": "PROVA PRÁTICA OU TEÓRICO",
-        "tipo": "outra",
+        "tipo": "pratica",
         "carater": "Eliminatória",
         "data": {
           "tipo": "nao_divulgada",
@@ -43147,7 +45109,7 @@ window.CONCURSOS = [
       },
       {
         "nome": "Plano de trabalho",
-        "tipo": "outra",
+        "tipo": "projeto",
         "carater": "",
         "data": {
           "tipo": "nao_divulgada",
@@ -43185,6 +45147,28 @@ window.CONCURSOS = [
     "observacao": "",
     "detalhamento": "completo",
     "avisos_edital": [],
+    "alteracoes": [
+      {
+        "data": "2026-11-10",
+        "documento": "EDITAL (prorrogação do período de inscrição, DOERJ)",
+        "muda": "inscrição"
+      },
+      {
+        "data": "2026-11-04",
+        "documento": "ERRATA (prorrogação de inscrição)",
+        "muda": "prazo de inscrição e datas"
+      },
+      {
+        "data": "2026-09-16",
+        "documento": "ERRATA II",
+        "muda": "vagas"
+      },
+      {
+        "data": "2026-09-01",
+        "documento": "ERRATA",
+        "muda": "vagas e inscrição"
+      }
+    ],
     "fonte_dados": {
       "origem": "extracao_v2",
       "extracoes": [
@@ -43192,14 +45176,18 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-13",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "alteracoes": 0
+    },
+    "vagas_total": 1
   },
   {
     "id": "uerj-254-2026",
     "sigla": "UERJ",
     "instituicao": "Universidade do Estado do Rio de Janeiro",
     "nivel": "Magistério Superior",
-    "uf": null,
+    "uf": "RJ",
     "numero_edital": "",
     "vagas": "1 vaga",
     "areas": "Saúde Coletiva",
@@ -43285,14 +45273,18 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-18",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "alteracoes": 0
+    },
+    "vagas_total": 1
   },
   {
     "id": "ufg-22-2026",
     "sigla": "UFG",
     "instituicao": "Universidade Federal de Goiás",
     "nivel": "Magistério Superior",
-    "uf": null,
+    "uf": "GO",
     "numero_edital": "Edital nº 22/2026, publicado em 05/10/2026",
     "vagas": "34 vagas",
     "areas": "33 áreas, entre elas Educação Inclusiva, Geografia, Pedagogia, Construções Rurais com ênfase em Ambiência de Precisão e Economia Rural",
@@ -43384,7 +45376,13 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-13",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "numero": "22/2026",
+      "publicacao": "2026-10-05",
+      "alteracoes": 0
+    },
+    "vagas_total": 34
   },
   {
     "id": "ufrb-01-2026",
@@ -43419,7 +45417,8 @@ window.CONCURSOS = [
         "detalhe": {
           "duracao": "4 horas",
           "formato": "Com consulta durante 1 hora"
-        }
+        },
+        "peso": "0,4"
       },
       {
         "nome": "Prova Didática (PD)",
@@ -43436,6 +45435,11 @@ window.CONCURSOS = [
           "criterios": "10 pontos: A - Plano de aula: 1 Clareza dos objetivos 0,2; A - Plano de aula: 2 Adequação dos objetivos ao conteúdo 0,2; A - Plano de aula: 3 Coerência na subdivisão do conteúdo 0,2; A - Plano de aula: 4 Adequação do conteúdo ao tempo disponível 0,2; A - Plano de aula: 5 Seleção apropriada do material didático 0,2; B - Desenvolvimento da aula: 1 Relação entre o plano e o… 1,0; B - Desenvolvimento da aula: 2 Linguagem clara, correta e adequação… 1,0; B - Desenvolvimento da aula: 3 Abordagem das ideias fundamentais do… 1,0; B - Desenvolvimento da aula: 4 Sequência lógica do conteúdo dissertado 1,0; B - Desenvolvimento da aula: 5 Articulação entre as ideias… 1,5; B - Desenvolvimento da aula: 6 Consistência teórica do conteúdo 1,5; B - Desenvolvimento da aula: 7 Uso adequado dos recursos didáticos 1,0; B - Desenvolvimento da aula: 8 Cumprimento do tempo estipulado (MIN… 1,0",
           "plano_de_aula": "Exigido: arquivo em formato PDF, enviado por link específico na página do concurso; sem o nome do candidato, identificado só pelo código individual informado na prova…, entregues em data a ser divulgada oportunamente, com Objetivos, Conteúdo e Material didático",
           "recursos": "Fornecidos: quadro branco ou de vidro, pincel marcador, apagador, notebook, câmera e microfone. Proibidos: notebook, computador, tablet, projetor ou retroprojetor, microfone, caixas de som, câmeras, monitores, arma, óculos escuros, artigos de chapelaria, protetores auriculares, dicionário, apostila, livro, \"dicas\", códigos, manuais, notas ou impressos não permitidos, qualquer outro material didático do mesmo gênero, celular (ligado ou não), relógio de qualquer tipo, calculadora, câmera fotográfica e qualquer outro tipo de aparelho eletrônico ou de comunicação (bip, tablet, notebook, receptor, gravador ou outros equipamentos similares)"
+        },
+        "peso": "0,6",
+        "temas": {
+          "min": 10,
+          "max": 10
         }
       },
       {
@@ -43446,7 +45450,8 @@ window.CONCURSOS = [
           "tipo": "nao_divulgada",
           "nota": "As etapas do concurso estão previstas para serem realizadas em sequência de forma híbrida (sendo a prova escrita e didática totalmente presenciais e etapa de memorial e títulos totalmente remotas), sendo recomendado que para as etapas presenciais o candidato permaneça na cidade de realização das provas até tomar conhecimento da data e horário da etapa seguinte, caso esta seja presencial."
         },
-        "detalhe": {}
+        "detalhe": {},
+        "peso": "0,4"
       },
       {
         "nome": "Prova de Títulos (PT)",
@@ -43456,7 +45461,8 @@ window.CONCURSOS = [
           "tipo": "nao_divulgada",
           "nota": "O edital ainda não fixou a data"
         },
-        "detalhe": {}
+        "detalhe": {},
+        "peso": "0,6"
       },
       {
         "nome": "Resultado final",
@@ -43483,6 +45489,13 @@ window.CONCURSOS = [
     "observacao": "",
     "detalhamento": "completo",
     "avisos_edital": [],
+    "alteracoes": [
+      {
+        "data": "2026-10-09",
+        "documento": "Retificação do Edital nº 01 de 01 de outubro de 2026",
+        "muda": "vagas, memorial, etapas do concurso e datas da memorial"
+      }
+    ],
     "fonte_dados": {
       "origem": "extracao_v2",
       "extracoes": [
@@ -43490,7 +45503,13 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-13",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "numero": "01/2026",
+      "publicacao": "2026-10-02",
+      "alteracoes": 1
+    },
+    "vagas_total": 1
   },
   {
     "id": "ufu-156-2026",
@@ -43541,6 +45560,10 @@ window.CONCURSOS = [
           "nota_minima": "70 em 100",
           "criterios": "6.11.6.1. plano de aula apresentado, considerados seu conteúdo…; 6.11.6.2. atuação didático-pedagógica com clareza na exposição e…; 6.11.6.3. desenvolvimento objetivo e articulado do tema sorteado para…; 6.11.6.4. respeito à norma padrão do idioma estabelecido pela Unidade…; 6.11.6.5. respeito à duração mínima de 40 (quarenta) e máxima de 50…; 6.11.6.6. adequada fundamentação teórica na abordagem do tema…; 6.11.6.7. cumprimento do plano de aula apresentado; e; 6.11.6.8. uso de variedade de métodos e técnicas de ensino",
           "plano_de_aula": "Exigido: com referenciais bibliográficos"
+        },
+        "temas": {
+          "min": 4,
+          "max": 4
         }
       },
       {
@@ -43551,7 +45574,8 @@ window.CONCURSOS = [
           "tipo": "exata",
           "valor": "2027-01-27"
         },
-        "detalhe": {}
+        "detalhe": {},
+        "peso": "1"
       }
     ],
     "periodo_provas": {
@@ -43574,14 +45598,20 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-13",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "numero": "156/2026",
+      "publicacao": "2026-10-05",
+      "alteracoes": 0
+    },
+    "vagas_total": 15
   },
   {
     "id": "ufv-58-2026",
     "sigla": "UFV",
     "instituicao": "UNIVERSIDADE FEDERAL DE VIÇOSA",
     "nivel": "Magistério Superior",
-    "uf": null,
+    "uf": "MG",
     "numero_edital": "Edital nº 58/2026, publicado em 15/10/2026, com 1 documento de alteração publicado depois",
     "vagas": "1 vaga",
     "areas": "Bases Morfofuncionais da Medicina",
@@ -43625,6 +45655,10 @@ window.CONCURSOS = [
           "nota_minima": "7 em 10",
           "criterios": "10 pontos: I - Foco no ponto sorteado, aspecto passível de eliminação do…; II - Atualidade e exatidão de conteúdo, conceitos e informações; III - Coerência das estratégias didáticas com os objetivos e…; IV - Domínio do tema, segurança e clareza na apresentação da aula; V - Adequação na distribuição do tempo para abordagem dos tópicos da…; VI - Qualidade e utilização eficiente dos recursos didáticos; VII - Capacidade de análise e síntese do conteúdo tratado; VIII - Utilização de exemplos significativos",
           "recursos": "Fornecidos: retroprojetor, projetor (tipo data show), quadro de giz ou quadro branco e computador. Proibidos: outro material didático diferente daquele entregue ao presidente da Banca"
+        },
+        "temas": {
+          "min": 10,
+          "max": 10
         }
       },
       {
@@ -43651,6 +45685,13 @@ window.CONCURSOS = [
     "observacao": "",
     "detalhamento": "completo",
     "avisos_edital": [],
+    "alteracoes": [
+      {
+        "data": "2026-10-23",
+        "documento": "Edital de 22 de outubro de 2026 (retificação do Edital de Concurso Público nº 58/2026)",
+        "muda": "remuneração"
+      }
+    ],
     "fonte_dados": {
       "origem": "extracao_v2",
       "extracoes": [
@@ -43658,14 +45699,20 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-18",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "numero": "58/2026",
+      "publicacao": "2026-10-15",
+      "alteracoes": 1
+    },
+    "vagas_total": 1
   },
   {
     "id": "unesp-fct-463-2026",
     "sigla": "UNESP",
     "instituicao": "Universidade Estadual Paulista \"Júlio de Mesquita Filho\"",
     "nivel": "Magistério Superior",
-    "uf": null,
+    "uf": "SP",
     "numero_edital": "Edital nº 463/2026, publicado em 28/09/2026, com 3 documentos de alteração publicados depois",
     "vagas": "1 vaga",
     "areas": "EDUCAÇÃO",
@@ -43693,7 +45740,8 @@ window.CONCURSOS = [
         "detalhe": {
           "duracao": "3 horas",
           "formato": "Com consulta durante 1 hora"
-        }
+        },
+        "peso": "1"
       },
       {
         "nome": "Prova didática",
@@ -43707,17 +45755,23 @@ window.CONCURSOS = [
           "duracao": "De 40 a 60 minutos. Fora desse intervalo a nota da prova é zero",
           "criterios": "10 pontos: a) Plano de aula 1,0; b) Adequação ao tema e abordagem do assunto, nível de graduação 1,0; c) Domínio teórico e conceitual do assunto 2,0; d) Exatidão e atualidade das informações 1,0; e) Desenvolvimento sequencial do tema em ordem lógica 1,0; f) Clareza e objetividade na exposição do tema 1,0; g) Adequação da linguagem ao contexto de aula de graduação 1,0; h) Capacidade de síntese e abrangência 1,0; i) Utilização adequada dos recursos didáticos disponíveis 1,0",
           "plano_de_aula": "Exigido: entregues no dia da prova didática, em momento anterior à ministração da aula teórica pelo candidato"
+        },
+        "peso": "2",
+        "temas": {
+          "min": 10,
+          "max": 10
         }
       },
       {
         "nome": "Prova de análise e arguição do projeto de pesquisa, do plano de atividades para a graduação e para a pós-graduação, do plano de ações de extensão universitária",
-        "tipo": "outra",
+        "tipo": "projeto",
         "carater": "Classificatória",
         "data": {
           "tipo": "nao_divulgada",
           "nota": "O edital ainda não fixou a data"
         },
-        "detalhe": {}
+        "detalhe": {},
+        "peso": "1"
       },
       {
         "nome": "Prova de títulos",
@@ -43727,7 +45781,8 @@ window.CONCURSOS = [
           "tipo": "nao_divulgada",
           "nota": "O edital ainda não fixou a data"
         },
-        "detalhe": {}
+        "detalhe": {},
+        "peso": "2"
       },
       {
         "nome": "Resultado final",
@@ -43749,6 +45804,23 @@ window.CONCURSOS = [
     "observacao": "",
     "detalhamento": "completo",
     "avisos_edital": [],
+    "alteracoes": [
+      {
+        "data": "2026-10-29",
+        "documento": "Edital nº 484/2026 - Prorrogando Inscrições",
+        "muda": "inscrição, projeto, prazo de inscrição e datas e outros pontos"
+      },
+      {
+        "data": "2026-10-15",
+        "documento": "Retificação do Edital nº 463/2026, de 25/09/2026",
+        "muda": "projeto"
+      },
+      {
+        "data": "2026-10-05",
+        "documento": "Retificação do Edital nº 463/2026, de 25 de setembro de 2026",
+        "muda": "vagas"
+      }
+    ],
     "fonte_dados": {
       "origem": "extracao_v2",
       "extracoes": [
@@ -43756,14 +45828,20 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-13",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "numero": "463/2026",
+      "publicacao": "2026-09-28",
+      "alteracoes": 3
+    },
+    "vagas_total": 1
   },
   {
     "id": "unifei-51-2026",
     "sigla": "UNIFEI",
     "instituicao": "Universidade Federal de Itajubá",
     "nivel": "Magistério Superior",
-    "uf": null,
+    "uf": "MG",
     "numero_edital": "Edital nº 51/2026, publicado em 09/10/2026, com 1 documento de alteração publicado depois",
     "vagas": "5 vagas",
     "areas": "GEOMÁTICA, APRENDIZADO DE MÁQUINA, ENGENHARIA DE SOFTWARE, REDES DE COMPUTADORES e ENGENHARIA ELÉTRICA",
@@ -43794,7 +45872,7 @@ window.CONCURSOS = [
       },
       {
         "nome": "Prova Prática",
-        "tipo": "outra",
+        "tipo": "pratica",
         "carater": "Eliminatória e classificatória",
         "data": {
           "tipo": "nao_divulgada",
@@ -43817,11 +45895,15 @@ window.CONCURSOS = [
           "nota_minima": "70 em 100",
           "plano_de_aula": "Exigido: entregues dentro do período de vinte e quatro horas contado imediatamente após o sorteio da Prova Didática, de acordo com o disposto no edital de convocação para esta prova",
           "recursos": "Quando a natureza da matéria o exigir, o candidato poderá recorrer a métodos audiovisuais ou práticos, necessários à exposição do assunto, desde que solicitado ao Presidente da Comissão Julgadora no dia do sorteio, que disponibilizará o recurso a todos os candidatos, ou o negará justificadamente"
+        },
+        "temas": {
+          "min": 6,
+          "max": 10
         }
       },
       {
         "nome": "Prova Científica",
-        "tipo": "outra",
+        "tipo": "projeto",
         "carater": "Eliminatória e classificatória",
         "data": {
           "tipo": "nao_divulgada",
@@ -43859,6 +45941,20 @@ window.CONCURSOS = [
     "observacao": "",
     "detalhamento": "completo",
     "avisos_edital": [],
+    "alteracoes": [
+      {
+        "data": "2026-10-15",
+        "documento": "Retificação de Edital nº 15/2026 - DDP",
+        "muda": "vagas"
+      }
+    ],
+    "inscritos": {
+      "01": 10,
+      "02": 8,
+      "03": 5,
+      "04": 1,
+      "05": 17
+    },
     "fonte_dados": {
       "origem": "extracao_v2",
       "extracoes": [
@@ -43866,14 +45962,20 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-18",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "numero": "51/2026",
+      "publicacao": "2026-10-09",
+      "alteracoes": 1
+    },
+    "vagas_total": 5
   },
   {
     "id": "ufmg-2349-2026",
     "sigla": "UFMG",
     "instituicao": "Universidade Federal de Minas Gerais",
     "nivel": "Magistério Superior",
-    "uf": null,
+    "uf": "MG",
     "numero_edital": "Edital nº 2349/2026, publicado em 14/10/2026",
     "vagas": "1 vaga",
     "areas": "Política,Planejamento e Gestão em Saúde",
@@ -43899,7 +46001,8 @@ window.CONCURSOS = [
         "detalhe": {
           "duracao": "5 horas",
           "formato": "Com consulta durante 1 hora"
-        }
+        },
+        "peso": "1"
       },
       {
         "nome": "Prova Didática",
@@ -43913,6 +46016,11 @@ window.CONCURSOS = [
           "duracao": "50 minutos",
           "arguicao": "Sim",
           "sorteio": "Tema sorteado com 24 horas de antecedência"
+        },
+        "peso": "1",
+        "temas": {
+          "min": 9,
+          "max": 9
         }
       },
       {
@@ -43923,7 +46031,8 @@ window.CONCURSOS = [
           "tipo": "nao_divulgada",
           "nota": "O edital ainda não fixou a data"
         },
-        "detalhe": {}
+        "detalhe": {},
+        "peso": "1"
       },
       {
         "nome": "Resultado final",
@@ -43952,14 +46061,20 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-21",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "numero": "2349/2026",
+      "publicacao": "2026-10-14",
+      "alteracoes": 0
+    },
+    "vagas_total": 1
   },
   {
     "id": "ufmg-2364-2026",
     "sigla": "UFMG",
     "instituicao": "Universidade Federal de Minas Gerais",
     "nivel": "Magistério Superior",
-    "uf": null,
+    "uf": "MG",
     "numero_edital": "Edital nº 2364/2026, publicado em 14/10/2026",
     "vagas": "2 vagas",
     "areas": "Saúde Coletiva",
@@ -43985,7 +46100,8 @@ window.CONCURSOS = [
         "detalhe": {
           "duracao": "5 horas",
           "formato": "Com consulta durante 1 hora"
-        }
+        },
+        "peso": "1"
       },
       {
         "nome": "Prova Didática",
@@ -43999,6 +46115,11 @@ window.CONCURSOS = [
           "duracao": "50 minutos",
           "arguicao": "Sim",
           "sorteio": "Tema sorteado com 24 horas de antecedência"
+        },
+        "peso": "1",
+        "temas": {
+          "min": 9,
+          "max": 9
         }
       },
       {
@@ -44009,7 +46130,8 @@ window.CONCURSOS = [
           "tipo": "nao_divulgada",
           "nota": "O edital ainda não fixou a data"
         },
-        "detalhe": {}
+        "detalhe": {},
+        "peso": "1"
       },
       {
         "nome": "Resultado final",
@@ -44038,14 +46160,20 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-21",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "numero": "2364/2026",
+      "publicacao": "2026-10-14",
+      "alteracoes": 0
+    },
+    "vagas_total": 2
   },
   {
     "id": "ufv-57-2026",
     "sigla": "UFV",
     "instituicao": "UNIVERSIDADE FEDERAL DE VIÇOSA",
     "nivel": "Magistério Superior",
-    "uf": null,
+    "uf": "MG",
     "numero_edital": "Edital nº 57/2026",
     "vagas": "1 vaga",
     "areas": "Representação Gráfica",
@@ -44089,6 +46217,10 @@ window.CONCURSOS = [
           "nota_minima": "7 em 10",
           "criterios": "10 pontos: I - Foco no ponto sorteado, aspecto passível de eliminação do…; II - Atualidade e exatidão de conteúdo, conceitos e informações; III - Coerência das estratégias didáticas com os objetivos e…; IV - Domínio do tema, segurança e clareza na apresentação da aula; V - Adequação na distribuição do tempo para abordagem dos tópicos da…; VI - Qualidade e utilização eficiente dos recursos didáticos; VII - Capacidade de análise e síntese do conteúdo tratado; VIII - Utilização de exemplos significativos",
           "recursos": "Fornecidos: retroprojetor, projetor (tipo data show), quadro de giz ou quadro branco e computador. Proibidos: outro material didático diferente daquele entregue ao presidente da Banca"
+        },
+        "temas": {
+          "min": 9,
+          "max": 9
         }
       },
       {
@@ -44133,14 +46265,19 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-21",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "numero": "57/2026",
+      "alteracoes": 0
+    },
+    "vagas_total": 1
   },
   {
     "id": "ufv-59-2026",
     "sigla": "UFV",
     "instituicao": "UNIVERSIDADE FEDERAL DE VIÇOSA",
     "nivel": "Magistério Superior",
-    "uf": null,
+    "uf": "MG",
     "numero_edital": "Edital nº 59/2026, publicado em 15/10/2026, com 2 documentos de alteração publicados depois",
     "vagas": "1 vaga",
     "areas": "Jornalismo Audiovisual e Jornalismo de Dados",
@@ -44184,6 +46321,10 @@ window.CONCURSOS = [
           "nota_minima": "7 em 10",
           "criterios": "10 pontos: I - Foco no ponto sorteado, aspecto passível de eliminação do…; II - Atualidade e exatidão de conteúdo, conceitos e informações; III - Coerência das estratégias didáticas com os objetivos e…; IV - Domínio do tema, segurança e clareza na apresentação da aula; V - Adequação na distribuição do tempo para abordagem dos tópicos da…; VI - Qualidade e utilização eficiente dos recursos didáticos; VII - Capacidade de análise e síntese do conteúdo tratado; VIII - Utilização de exemplos significativos",
           "recursos": "Fornecidos: retroprojetor, projetor (tipo data show), quadro de giz ou quadro branco e computador. Proibidos: outro material didático diferente daquele entregue ao presidente da Banca"
+        },
+        "temas": {
+          "min": 10,
+          "max": 10
         }
       },
       {
@@ -44221,6 +46362,18 @@ window.CONCURSOS = [
     "observacao": "",
     "detalhamento": "completo",
     "avisos_edital": [],
+    "alteracoes": [
+      {
+        "data": "2026-11-12",
+        "documento": "Edital de 11 de novembro de 2026, Retificação do Edital nº 59/2026",
+        "muda": "prova escrita e prova didática"
+      },
+      {
+        "data": "2026-10-23",
+        "documento": "Edital de 22 de outubro de 2026 (retificação do Edital de Concurso Público nº 59/2026)",
+        "muda": "remuneração"
+      }
+    ],
     "fonte_dados": {
       "origem": "extracao_v2",
       "extracoes": [
@@ -44228,14 +46381,20 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-20",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "numero": "59/2026",
+      "publicacao": "2026-10-15",
+      "alteracoes": 2
+    },
+    "vagas_total": 1
   },
   {
     "id": "ufv-60-2026",
     "sigla": "UFV",
     "instituicao": "UNIVERSIDADE FEDERAL DE VIÇOSA",
     "nivel": "Magistério Superior",
-    "uf": null,
+    "uf": "MG",
     "numero_edital": "Edital nº 60/2026, publicado em 15/10/2026, com 1 documento de alteração publicado depois",
     "vagas": "1 vaga",
     "areas": "Habilidades Médicas e Prática Interprofissional e Trabalho em Saúde",
@@ -44279,6 +46438,10 @@ window.CONCURSOS = [
           "nota_minima": "7 em 10",
           "criterios": "10 pontos: I - Foco no ponto sorteado, aspecto passível de eliminação do…; II - Atualidade e exatidão de conteúdo, conceitos e informações; III - Coerência das estratégias didáticas com os objetivos e…; IV - Domínio do tema, segurança e clareza na apresentação da aula; V - Adequação na distribuição do tempo para abordagem dos tópicos da…; VI - Qualidade e utilização eficiente dos recursos didáticos; VII - Capacidade de análise e síntese do conteúdo tratado; VIII - Utilização de exemplos significativos",
           "recursos": "Fornecidos: retroprojetor, projetor (tipo data show), quadro de giz ou quadro branco e computador. Proibidos: outro material didático diferente daquele entregue ao presidente da Banca"
+        },
+        "temas": {
+          "min": 10,
+          "max": 10
         }
       },
       {
@@ -44305,6 +46468,13 @@ window.CONCURSOS = [
     "observacao": "",
     "detalhamento": "completo",
     "avisos_edital": [],
+    "alteracoes": [
+      {
+        "data": "2026-10-23",
+        "documento": "Edital de 22 de outubro de 2026 (retificação do Edital de Concurso Público nº 60/2026)",
+        "muda": "remuneração"
+      }
+    ],
     "fonte_dados": {
       "origem": "extracao_v2",
       "extracoes": [
@@ -44312,14 +46482,20 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-20",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "numero": "60/2026",
+      "publicacao": "2026-10-15",
+      "alteracoes": 1
+    },
+    "vagas_total": 1
   },
   {
     "id": "usp-fcf-050-2026",
     "sigla": "USP",
     "instituicao": "Faculdade de Ciências Farmacêuticas da Universidade de São Paulo",
     "nivel": "Magistério Superior",
-    "uf": null,
+    "uf": "SP",
     "numero_edital": "Edital nº FCF/DVACAD nº 050/2026, publicado em 14/10/2026",
     "vagas": "1 vaga",
     "areas": "Epidemiologia e Farmacoepidemiologia",
@@ -44345,7 +46521,8 @@ window.CONCURSOS = [
         },
         "detalhe": {
           "duracao": "4 horas"
-        }
+        },
+        "peso": "1"
       },
       {
         "nome": "Prova didática",
@@ -44360,6 +46537,11 @@ window.CONCURSOS = [
           "arguicao": "Sim, a critério da banca",
           "sorteio": "Tema sorteado com 24 horas de antecedência",
           "recursos": "O candidato pode usar recursos próprios (IV - o candidato poderá utilizar o material didático que julgar necessário;)"
+        },
+        "peso": "3",
+        "temas": {
+          "min": 12,
+          "max": 12
         }
       },
       {
@@ -44370,17 +46552,19 @@ window.CONCURSOS = [
           "tipo": "nao_divulgada",
           "nota": "no prazo de trinta a cento e vinte dias, a contar da data da publicação no Diário Oficial do Estado da aprovação das inscrições"
         },
-        "detalhe": {}
+        "detalhe": {},
+        "peso": "3"
       },
       {
         "nome": "Apresentação de um plano de atividades de ensino, pesquisa e extensão, com arguição pública",
-        "tipo": "outra",
+        "tipo": "projeto",
         "carater": "",
         "data": {
           "tipo": "nao_divulgada",
           "nota": "no prazo de trinta a cento e vinte dias, a contar da data da publicação no Diário Oficial do Estado da aprovação das inscrições"
         },
-        "detalhe": {}
+        "detalhe": {},
+        "peso": "3"
       },
       {
         "nome": "Resultado final",
@@ -44409,14 +46593,20 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-22",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "numero": "FCF/DVACAD nº 050/2026",
+      "publicacao": "2026-10-14",
+      "alteracoes": 0
+    },
+    "vagas_total": 1
   },
   {
     "id": "ufcspa-118-2026",
     "sigla": "UFCSPA",
     "instituicao": "Universidade Federal de Ciências da Saúde de Porto Alegre",
     "nivel": "Magistério Superior",
-    "uf": null,
+    "uf": "RS",
     "numero_edital": "Edital nº 118/2026, publicado em 26/10/2026, com 2 documentos de alteração publicados depois",
     "vagas": "10 vagas",
     "areas": "9 áreas, entre elas Gerenciamento em Enfermagem, Fisiologia Humana, Fonoaudiologia - Motricidade Orofacial, Fonoaudiologia - Saúde Coletiva e Pediatria Geral",
@@ -44448,7 +46638,7 @@ window.CONCURSOS = [
       },
       {
         "nome": "Prova Prática",
-        "tipo": "outra",
+        "tipo": "pratica",
         "carater": "Eliminatória e classificatória",
         "data": {
           "tipo": "nao_divulgada",
@@ -44470,11 +46660,15 @@ window.CONCURSOS = [
           "criterios": "organização e adequação do plano de aula ao ponto sorteado; capacidade de comunicação e clareza; pertinência e objetividade; profundidade, atualização e domínio do conteúdo; tempo de duração da prova",
           "plano_de_aula": "Exigido. Entrega: competindo a cada candidato apresentá-lo durante a sua exposição",
           "recursos": "Fornecidos: quadro branco e data show. Proibidos: aviso sonoro ou luminoso que indique a passagem do tempo, cronômetro de mesa e celular"
+        },
+        "temas": {
+          "min": 15,
+          "max": 29
         }
       },
       {
         "nome": "Projeto de Ensino, ou de Pesquisa, ou de Extensão (avaliado na Prova de Defesa da Produção Intelectual)",
-        "tipo": "outra",
+        "tipo": "projeto",
         "carater": "",
         "data": {
           "tipo": "nao_divulgada",
@@ -44522,6 +46716,18 @@ window.CONCURSOS = [
     "observacao": "",
     "detalhamento": "completo",
     "avisos_edital": [],
+    "alteracoes": [
+      {
+        "data": "2026-11-11",
+        "documento": "Edital PROGESP nº 120/2026 (Retificação 02)",
+        "muda": "reserva de vagas"
+      },
+      {
+        "data": "2026-10-27",
+        "documento": "Edital PROGESP nº 119/2026 (Retificação 01)",
+        "muda": "vagas, remuneração e inscrição"
+      }
+    ],
     "fonte_dados": {
       "origem": "extracao_v2",
       "extracoes": [
@@ -44529,7 +46735,13 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-28",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "numero": "118/2026",
+      "publicacao": "2026-10-26",
+      "alteracoes": 2
+    },
+    "vagas_total": 10
   },
   {
     "id": "ufg-20-2026",
@@ -44582,6 +46794,10 @@ window.CONCURSOS = [
           "criterios": "10 pontos: Plano de Aula 1,0; Tempo de duração da aula 0,5; Fundamentação teórica, reflexão sobre a proposta pedagógica e domínio… 2,0; Apresentação, organização do pensamento e linguagem adequada ao tema 2,0; Adequação do conteúdo às práticas pedagógicas e atribuições do… 4,5",
           "plano_de_aula": "Exigido: quatro cópias impressas do plano de aula, acompanhadas, quando houver, dos slides ou de outro material de apoio a ser utilizado na prova didática, entregues imediatamente após o sorteio da ordem dos candidatos para prova didática",
           "recursos": "Fornecidos: projetor multimídia (datashow)"
+        },
+        "temas": {
+          "min": 11,
+          "max": 11
         }
       },
       {
@@ -44618,6 +46834,13 @@ window.CONCURSOS = [
     "observacao": "",
     "detalhamento": "completo",
     "avisos_edital": [],
+    "alteracoes": [
+      {
+        "data": "2025-10-10",
+        "documento": "Retificação do Edital nº 23/2025 (Retificação n. 1)",
+        "muda": "memorial, datas e datas da memorial"
+      }
+    ],
     "fonte_dados": {
       "origem": "extracao_v2",
       "extracoes": [
@@ -44625,14 +46848,20 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-28",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "numero": "20/2026",
+      "publicacao": "2026-10-05",
+      "alteracoes": 1
+    },
+    "vagas_total": 4
   },
   {
     "id": "ufrrj-56-2026",
     "sigla": "UFRRJ",
     "instituicao": "Universidade Federal Rural do Rio de Janeiro",
     "nivel": "Magistério Superior",
-    "uf": null,
+    "uf": "RJ",
     "numero_edital": "Edital nº 56/2026, publicado em 26/10/2026, com 4 documentos de alteração publicados depois",
     "vagas": "24 vagas",
     "areas": "23 áreas, entre elas Anestesiologia/Intensivismo Veterinária, Bovinocultura de Leite, Forragicultura e Pastagens, Fitopatologia e Serviço Social e Fundamentos do Trabalho Profissional",
@@ -44676,6 +46905,10 @@ window.CONCURSOS = [
           "sorteio": "Tema sorteado com 24 horas de antecedência",
           "nota_minima": "70 em 100",
           "recursos": "Art. 17, §6º da Deliberação 270/2023 (redação da Deliberação 419/2026): o Departamento responsável pela vaga deverá determinar e divulgar os materiais, equipamentos e recursos tecnológicos fornecidos ou exigidos para a realização da prova didática, no endereço eletrônico oficial do concurso"
+        },
+        "temas": {
+          "min": 5,
+          "max": 18
         }
       },
       {
@@ -44708,6 +46941,28 @@ window.CONCURSOS = [
     "observacao": "",
     "detalhamento": "completo",
     "avisos_edital": [],
+    "alteracoes": [
+      {
+        "data": "2026-11-13",
+        "documento": "Direito Empresarial e Direito do Trabalho, retificado em 13/11/2026",
+        "muda": "prova de títulos"
+      },
+      {
+        "data": "2026-11-04",
+        "documento": "Edital nº 56/2026 retificado em 04/11/2026",
+        "muda": "vagas"
+      },
+      {
+        "data": "2026-11-04",
+        "documento": "Engenharia de Materiais, retificado em 04/11/2026",
+        "muda": "prova didática e prova escrita"
+      },
+      {
+        "data": "2026-10-29",
+        "documento": "Edital nº 56/2026 retificado em 29/10/2026",
+        "muda": "reserva de vagas e vagas"
+      }
+    ],
     "fonte_dados": {
       "origem": "extracao_v2",
       "extracoes": [
@@ -44715,14 +46970,20 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-29",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "numero": "56/2026",
+      "publicacao": "2026-10-26",
+      "alteracoes": 4
+    },
+    "vagas_total": 24
   },
   {
     "id": "unifei-59-2026",
     "sigla": "UNIFEI",
     "instituicao": "Universidade Federal de Itajubá",
     "nivel": "Magistério Superior",
-    "uf": null,
+    "uf": "MG",
     "numero_edital": "Edital nº 59/2026, publicado em 23/10/2026, com 3 documentos de alteração publicados depois",
     "vagas": "29 vagas",
     "areas": "28 áreas, entre elas DESENVOLVIMENTO WEB, CLOUD COMPUTING, BANCO DE DADOS E SISTEMAS COMPUTACIONAIS, ENGENHARIA DE SOFTWARE, IHM, ARQUITETURA E CONFIABILIDADE, PROGRAMAÇÃO, ALGORITMOS, MODELAGEM E VERIFICAÇÃO DE SOFTWARE, REDES DE COMPUTADORES, CRIPTOGRAFIA E PROTOCOLOS SEGUROS e SEGURANÇA DA INFORMAÇÃO",
@@ -44767,11 +47028,15 @@ window.CONCURSOS = [
           "criterios": "100 pontos: I. Plano de aula 5 pontos; II. Uso de linguagem técnico-científica adequada ao tema 5 pontos; III. Uso de recursos disponibilizados e adequação ao plano de aula 5 pontos; IV. Cumprimento do tempo de 50 minutos, com tolerância de 5 minutos… 5 pontos; V. Sequência e articulação das ideias (introdução, desenvolvimento e… 10 pontos; VI. Criatividade, assertividade, postura e capacidade de estimular e… 30 pontos; VII. Domínio do conteúdo 40 pontos",
           "plano_de_aula": "Exigido: entregues dentro do período de vinte e quatro horas contado imediatamente após o sorteio da Prova Didática, de acordo com o disposto no edital de convocação para esta prova",
           "recursos": "Quando a natureza da matéria o exigir, o candidato poderá recorrer a métodos audiovisuais ou práticos, necessários à exposição do assunto, desde que solicitado ao Presidente da Comissão Julgadora no dia do sorteio, que disponibilizará o recurso a todos os candidatos, ou o negará justificadamente"
+        },
+        "temas": {
+          "min": 4,
+          "max": 10
         }
       },
       {
         "nome": "Prova Científica",
-        "tipo": "outra",
+        "tipo": "projeto",
         "carater": "Eliminatória e classificatória",
         "data": {
           "tipo": "nao_divulgada",
@@ -44809,6 +47074,23 @@ window.CONCURSOS = [
     "observacao": "",
     "detalhamento": "completo",
     "avisos_edital": [],
+    "alteracoes": [
+      {
+        "data": "2026-11-05",
+        "documento": "Retificação de Edital nº 18/2026 - DDP",
+        "muda": "reserva de vagas e vagas"
+      },
+      {
+        "data": "2026-10-27",
+        "documento": "Retificação de Edital nº 17/2026 - DDP",
+        "muda": "vagas"
+      },
+      {
+        "data": "2026-10-27",
+        "documento": "Formulário de Programa nº 10/2026 - DDP (Programa do Edital nº 59/2026, retificado em…",
+        "muda": "prova didática e etapas do concurso"
+      }
+    ],
     "fonte_dados": {
       "origem": "extracao_v2",
       "extracoes": [
@@ -44816,14 +47098,20 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-30",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "numero": "59/2026",
+      "publicacao": "2026-10-23",
+      "alteracoes": 3
+    },
+    "vagas_total": 29
   },
   {
     "id": "usp-ea-038-2026",
     "sigla": "USP",
     "instituicao": "Universidade de São Paulo",
     "nivel": "Magistério Superior",
-    "uf": null,
+    "uf": "SP",
     "numero_edital": "Edital nº RH nº 038/2026, publicado em 23/10/2026",
     "vagas": "2 vagas",
     "areas": "Ensino Fundamental - Polivalente",
@@ -44848,7 +47136,8 @@ window.CONCURSOS = [
           "tipo": "exata",
           "valor": "2026-12-13"
         },
-        "detalhe": {}
+        "detalhe": {},
+        "peso": "2"
       },
       {
         "nome": "Prova dissertativa",
@@ -44861,7 +47150,8 @@ window.CONCURSOS = [
         "detalhe": {
           "duracao": "4 horas",
           "formato": "Sem consulta"
-        }
+        },
+        "peso": "1"
       },
       {
         "nome": "Prova prática",
@@ -44877,6 +47167,11 @@ window.CONCURSOS = [
           "nota_minima": "5 em 10",
           "plano_de_aula": "Exigido",
           "recursos": "Proibidos: qualquer tipo de relógio ou outro dispositivo de controle de tempo, agendas eletrônicas, telefones celulares, relógios digitais, pagers, laptop, outros equipamentos similares e livros, notas ou impressos"
+        },
+        "peso": "3",
+        "temas": {
+          "min": 15,
+          "max": 15
         }
       },
       {
@@ -44910,7 +47205,13 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-10-29",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "numero": "RH nº 038/2026",
+      "publicacao": "2026-10-23",
+      "alteracoes": 0
+    },
+    "vagas_total": 2
   },
   {
     "id": "ufj-05-2026",
@@ -44964,6 +47265,10 @@ window.CONCURSOS = [
           "arguicao": "Sim, por até 15 minutos, com igual tempo para responder",
           "nota_minima": "7 em 10",
           "recursos": "O candidato pode usar os recursos que levar. A UFJ não fornece projetor nem computador, exceto nas quatro áreas do ICET (Física Computacional, Dados em Inteligência Artificial, Ciências dos Materiais e Processos Industriais), que têm projetor"
+        },
+        "temas": {
+          "min": 6,
+          "max": 10
         }
       },
       {
@@ -44976,7 +47281,8 @@ window.CONCURSOS = [
           "fim": "2026-12-22",
           "nota": "A análise é feita durante a prova didática, sem sessão pública. O Lattes e os comprovantes são enviados em PDF único no ato da inscrição"
         },
-        "detalhe": {}
+        "detalhe": {},
+        "peso": "3"
       }
     ],
     "periodo_provas": {
@@ -44994,6 +47300,13 @@ window.CONCURSOS = [
     "avisos_edital": [
       "Prova didática, áreas Introdução a Fonoaudiologia, Linguagem oral…, Morfofisiologia, Introdução à Terapia…, Terapia Ocupacional nos Contextos… e Terapia Ocupacional nos Diferentes Contextos…: o item \"Domínio do conteúdo e abrangência do tema sorteado\" vale \"5,00 (seis)\", com o numeral e o extenso diferentes; a soma do barema fecha com 5,00. Pode ser erro de digitação do edital; confira no edital, que é a fonte oficial."
     ],
+    "alteracoes": [
+      {
+        "data": "2026-11-03",
+        "documento": "Retificações nº 01 e nº 02 do Edital nº 05/2026 (DOU de 03/11/2026, seção 3, página 53)…",
+        "muda": "vagas, prova escrita, prova didática e etapas do concurso"
+      }
+    ],
     "fonte_dados": {
       "origem": "extracao_v2",
       "extracoes": [
@@ -45001,7 +47314,13 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-11-05",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "numero": "05/2026",
+      "publicacao": "2026-10-27",
+      "alteracoes": 2
+    },
+    "vagas_total": 22
   },
   {
     "id": "uerj-258-2026",
@@ -45088,6 +47407,23 @@ window.CONCURSOS = [
     "observacao": "",
     "detalhamento": "completo",
     "avisos_edital": [],
+    "alteracoes": [
+      {
+        "data": "2026-11-12",
+        "documento": "Edital de alteração de item - Novo cronograma",
+        "muda": "prazo de inscrição, datas, datas da prova escrita e inscrição"
+      },
+      {
+        "data": "2026-11-10",
+        "documento": "Edital do Instituto de Aplicação (DOERJ de 10/11/2026)",
+        "muda": "datas, datas da prova escrita, datas da prova didática e datas da prova de títulos"
+      },
+      {
+        "data": "2026-11-09",
+        "documento": "AVISO (inscrições)",
+        "muda": "prazo de inscrição"
+      }
+    ],
     "fonte_dados": {
       "origem": "extracao_v2",
       "extracoes": [
@@ -45095,14 +47431,18 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-11-06",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "alteracoes": 0
+    },
+    "vagas_total": 1
   },
   {
     "id": "ufsm-252-2026",
     "sigla": "UFSM",
     "instituicao": "Universidade Federal de Santa Maria",
     "nivel": "Magistério Superior",
-    "uf": null,
+    "uf": "RS",
     "numero_edital": "Edital nº 252/2026, publicado em 03/11/2026, com 1 documento de alteração publicado depois",
     "vagas": "6 vagas",
     "areas": "Ciências Exatas e da Terra/ Ciência da Computação/ Metodologia e Técnicas da Computação, Linguística, Letras e Artes/ Artes/ Artes Plásticas/ Fotografia, Ciências Sociais Aplicadas/ Economia/ Crescimento e Desenvolvimento Econômico (ênfase em Macroeconomia), Ciências Exatas e da Terra/ Física/ Física Estatística e Termodinâmica e Ciências Exatas e da Terra/ Física/ Física Clássica e Física Quântica/ Mecânica e Campos",
@@ -45132,7 +47472,8 @@ window.CONCURSOS = [
         "detalhe": {
           "duracao": "5 horas",
           "formato": "Com consulta durante 2 horas"
-        }
+        },
+        "peso": "3,5"
       },
       {
         "nome": "Prova Didática",
@@ -45146,6 +47487,11 @@ window.CONCURSOS = [
           "duracao": "De 40 a 50 minutos. Cumprir o tempo conta na avaliação da banca",
           "arguicao": "Sim, por até 15 minutos, a critério da banca",
           "sorteio": "Tema sorteado com 24 horas de antecedência"
+        },
+        "peso": "7",
+        "temas": {
+          "min": 10,
+          "max": 15
         }
       },
       {
@@ -45156,7 +47502,8 @@ window.CONCURSOS = [
           "tipo": "nao_divulgada",
           "nota": "O cronograma de cada etapa do certame será publicado e atualizado na página do concurso"
         },
-        "detalhe": {}
+        "detalhe": {},
+        "peso": "3"
       },
       {
         "nome": "Prova de Títulos",
@@ -45166,7 +47513,8 @@ window.CONCURSOS = [
           "tipo": "nao_divulgada",
           "nota": "O edital ainda não fixou a data"
         },
-        "detalhe": {}
+        "detalhe": {},
+        "peso": "2"
       },
       {
         "nome": "Resultado final",
@@ -45194,6 +47542,13 @@ window.CONCURSOS = [
     "avisos_edital": [
       "Remuneração: o edital informa total de R$ 13.753,98, mas vencimento (R$ 6.397,19) mais retribuição (R$ 7.356,77) dão R$ 13.753,96. Pode ser erro de digitação do edital; confira no edital, que é a fonte oficial."
     ],
+    "alteracoes": [
+      {
+        "data": "2026-11-11",
+        "documento": "Edital UFSM N. 254/2026",
+        "muda": "datas"
+      }
+    ],
     "fonte_dados": {
       "origem": "extracao_v2",
       "extracoes": [
@@ -45201,14 +47556,20 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-11-06",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "numero": "252/2026",
+      "publicacao": "2026-11-03",
+      "alteracoes": 1
+    },
+    "vagas_total": 6
   },
   {
     "id": "uerj-1860-2026",
     "sigla": "UERJ",
     "instituicao": "Universidade do Estado do Rio de Janeiro",
     "nivel": "Magistério Superior",
-    "uf": null,
+    "uf": "RJ",
     "numero_edital": "",
     "vagas": "1 vaga",
     "areas": "Ginecologia",
@@ -45294,7 +47655,11 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-11-08",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "alteracoes": 0
+    },
+    "vagas_total": 1
   },
   {
     "id": "uerj-1861-2026",
@@ -45387,14 +47752,18 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-11-08",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "alteracoes": 0
+    },
+    "vagas_total": 1
   },
   {
     "id": "ufabc-53-2026",
     "sigla": "UFABC",
     "instituicao": "Fundação Universidade Federal do ABC",
     "nivel": "Magistério Superior",
-    "uf": null,
+    "uf": "SP",
     "numero_edital": "Edital nº 53/2026",
     "vagas": "79 vagas",
     "areas": "58 áreas, entre elas Ciência da Computação / Computação Gráfica, Ciência da Computação / Engenharia de Software, Ciência de Dados / Ciência de Dados Computacional, Economia / Macroeconomia e Educação Especial e Inclusiva / Educação Especial, Educação Inclusiva, Educação, Educação Matemática, Psicologia, Pedagogia",
@@ -45422,7 +47791,8 @@ window.CONCURSOS = [
         "detalhe": {
           "duracao": "4 horas",
           "formato": "Sem consulta"
-        }
+        },
+        "peso": "1"
       },
       {
         "nome": "Prova de Didática",
@@ -45439,17 +47809,23 @@ window.CONCURSOS = [
           "nota_minima": "7 em 10",
           "criterios": "10 pontos: Capacidade de planejamento de aula 3.0; Conhecimento do tema da aula 3.0; Comunicação e síntese do assunto 4.0",
           "recursos": "Fornecidos: equipamento de projeção multimídia (Datashow). O candidato pode usar recursos próprios (Caberá ao candidato decidir sobre a forma de abordagem e apresentação do tema escolhido, sendo-lhe facultado o uso de recursos audiovisuais). Caso opte pelo uso de outro tipo de recurso audiovisual, o mesmo deverá ser providenciado pelo próprio candidato; em caso de prova telepresencial, a convocação indicará a ferramenta e seu manual de uso (14.5.1); a responsabilidade pelo manuseio do equipamento e compatibilidade de softwares é do próprio candidato…"
+        },
+        "peso": "3",
+        "temas": {
+          "min": 1,
+          "max": 15
         }
       },
       {
         "nome": "Prova de Defesa de Projeto de Pesquisa",
-        "tipo": "outra",
+        "tipo": "projeto",
         "carater": "Eliminatória e classificatória",
         "data": {
           "tipo": "nao_divulgada",
           "nota": "As provas deverão ocorrer em até 12 (doze) meses, a contar da publicação do Edital de Homologação das Inscrições."
         },
-        "detalhe": {}
+        "detalhe": {},
+        "peso": "3"
       },
       {
         "nome": "Prova de Análise de Currículo",
@@ -45459,7 +47835,8 @@ window.CONCURSOS = [
           "tipo": "nao_divulgada",
           "nota": "O edital ainda não fixou a data"
         },
-        "detalhe": {}
+        "detalhe": {},
+        "peso": "3"
       }
     ],
     "logo": "ufabc.png",
@@ -45478,14 +47855,19 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-11-09",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "numero": "53/2026",
+      "alteracoes": 0
+    },
+    "vagas_total": 79
   },
   {
     "id": "uerj-264-2026",
     "sigla": "UERJ",
     "instituicao": "Universidade do Estado do Rio de Janeiro",
     "nivel": "Magistério Superior",
-    "uf": null,
+    "uf": "RJ",
     "numero_edital": "",
     "vagas": "1 vaga",
     "areas": "Linguística Aplicada à Alfabetização e ao Letramento",
@@ -45571,7 +47953,11 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-11-12",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "alteracoes": 0
+    },
+    "vagas_total": 1
   },
   {
     "id": "ufc-50-2026",
@@ -45624,6 +48010,10 @@ window.CONCURSOS = [
           "nota_minima": "7 em 10",
           "plano_de_aula": "Exigido: entregues no início da prova didática",
           "recursos": "Proibidos, no que couber (item 15.10): iPod, smartphone, telefone celular, agenda eletrônica, mais 10 itens da mesma lista, relógio de qualquer espécie, óculos escuros, acessórios de chapelaria, tais como chapéu, boné, gorro, lápis, lapiseira (grafite), corretor líquido e borracha. Os recursos didáticos que poderão ser utilizados na prova, bem como a responsabilidade por sua disponibilização, serão informados pela CCV na página do certame ou no respectivo ato de convocação, devendo ser asseguradas condições uniformes aos candidatos concorrentes ao mesmo setor de estudos"
+        },
+        "temas": {
+          "min": 10,
+          "max": 10
         }
       },
       {
@@ -45668,14 +48058,19 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-11-12",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "numero": "50/2026/CCV/UFC",
+      "alteracoes": 0
+    },
+    "vagas_total": 5
   },
   {
     "id": "unesp-fmb-80-2026",
     "sigla": "UNESP",
     "instituicao": "Universidade Estadual Paulista \"Julio de Mesquita Filho\"",
     "nivel": "Magistério Superior",
-    "uf": null,
+    "uf": "SP",
     "numero_edital": "Edital nº 80/2026, publicado em 28/09/2026",
     "vagas": "1 vaga",
     "areas": "conjunto de disciplinas \"Pediatria I e Pediatria II\"",
@@ -45704,6 +48099,11 @@ window.CONCURSOS = [
           "duracao": "De 50 a 60 minutos. Menos de 50 minutos elimina o candidato",
           "criterios": "10 pontos: a. Planejamento e organização da aula até 2,0 pontos; b. Clareza expositiva até 2,0 pontos; c. Domínio teórico e conceitual do tema até 2,0 pontos; d. Profundidade na abordagem do tema até 2,0 pontos; e. Adequação da bibliografia sobre o tema até 2,0 pontos",
           "plano_de_aula": "Exigido: documentos enviados por meio do sistema de inscrições, no endereço eletrônico https://inscricoes.unesp.br/, anexos ao pedido de inscrição do candidato, no…, entregues no ato da inscrição, com a indicação do ponto ou assunto e a bibliografia pertinente (4.2), mais envio digital em PDF, com limite de 300MB por arquivo"
+        },
+        "peso": "1",
+        "temas": {
+          "min": 12,
+          "max": 12
         }
       },
       {
@@ -45714,7 +48114,8 @@ window.CONCURSOS = [
           "tipo": "nao_divulgada",
           "nota": "O edital ainda não fixou a data"
         },
-        "detalhe": {}
+        "detalhe": {},
+        "peso": "1"
       },
       {
         "nome": "Prova de Títulos - julgamento de Memorial Circunstanciado",
@@ -45724,7 +48125,8 @@ window.CONCURSOS = [
           "tipo": "nao_divulgada",
           "nota": "O edital ainda não fixou a data"
         },
-        "detalhe": {}
+        "detalhe": {},
+        "peso": "2"
       },
       {
         "nome": "Resultado final",
@@ -45753,14 +48155,20 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-11-12",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "numero": "80/2026",
+      "publicacao": "2026-09-28",
+      "alteracoes": 0
+    },
+    "vagas_total": 1
   },
   {
     "id": "uerj-1865-2026",
     "sigla": "UERJ",
     "instituicao": "Universidade do Estado do Rio de Janeiro",
     "nivel": "Magistério Superior",
-    "uf": null,
+    "uf": "RJ",
     "numero_edital": "",
     "vagas": "1 vaga",
     "areas": "Estatística aplicada à Epidemiologia",
@@ -45847,7 +48255,11 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-11-13",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "alteracoes": 0
+    },
+    "vagas_total": 1
   },
   {
     "id": "ufc-52-2026",
@@ -45886,7 +48298,7 @@ window.CONCURSOS = [
       },
       {
         "nome": "Prova prática",
-        "tipo": "outra",
+        "tipo": "pratica",
         "carater": "",
         "data": {
           "tipo": "periodo",
@@ -45911,11 +48323,15 @@ window.CONCURSOS = [
           "nota_minima": "7 em 10",
           "plano_de_aula": "Exigido: entregues no início da prova didática",
           "recursos": "Proibidos, no que couber (item 14.23): iPod, smartphone, telefone celular, agenda eletrônica, mais 10 itens da mesma lista, relógio de qualquer espécie, óculos escuros, acessórios de chapelaria, tais como chapéu, boné, gorro, lápis, lapiseira (grafite), corretor líquido e borracha. Os recursos didáticos que poderão ser utilizados na prova, bem como a responsabilidade por sua disponibilização, serão informados pela CCV na página do certame ou no respectivo ato de convocação"
+        },
+        "temas": {
+          "min": 10,
+          "max": 10
         }
       },
       {
         "nome": "Defesa de projeto de pesquisa",
-        "tipo": "outra",
+        "tipo": "projeto",
         "carater": "",
         "data": {
           "tipo": "periodo",
@@ -45966,14 +48382,20 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-11-15",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "numero": "52/2026/CCV/UFC",
+      "publicacao": "2026-11-13",
+      "alteracoes": 0
+    },
+    "vagas_total": 11
   },
   {
     "id": "ufv-61-2026",
     "sigla": "UFV",
     "instituicao": "UNIVERSIDADE FEDERAL DE VIÇOSA",
     "nivel": "Magistério Superior",
-    "uf": null,
+    "uf": "MG",
     "numero_edital": "Edital nº 61/2026, publicado em 04/11/2026, com 1 documento de alteração publicado depois",
     "vagas": "1 vaga",
     "areas": "Língua Brasileira de Sinais",
@@ -46017,11 +48439,15 @@ window.CONCURSOS = [
           "nota_minima": "7 em 10",
           "criterios": "10 pontos: I - Foco no ponto sorteado, aspecto passível de eliminação do…; II - Atualidade e exatidão de conteúdo, conceitos e informações; III - Coerência das estratégias didáticas com os objetivos e…; IV - Domínio do tema, segurança e clareza na apresentação da aula; V - Adequação na distribuição do tempo para abordagem dos tópicos da…; VI - Qualidade e utilização eficiente dos recursos didáticos; VII - Capacidade de análise e síntese do conteúdo tratado; VIII - Utilização de exemplos significativos",
           "recursos": "Fornecidos: retroprojetor, projetor (tipo data show), quadro de giz ou quadro branco e computador. Proibidos: outro material didático diferente daquele entregue ao presidente da Banca. O candidato pode usar recursos próprios (todos os candidatos entregarão ao presidente da Banca todos os recursos didáticos para uso na prova de didática, inclusive dispositivos eletrônicos ou computador pessoal, se for o caso)"
+        },
+        "temas": {
+          "min": 12,
+          "max": 12
         }
       },
       {
         "nome": "Prova de Defesa de Projeto em Pesquisa e Extensão",
-        "tipo": "outra",
+        "tipo": "projeto",
         "carater": "Eliminatória e classificatória",
         "data": {
           "tipo": "exata",
@@ -46054,6 +48480,13 @@ window.CONCURSOS = [
     "observacao": "",
     "detalhamento": "completo",
     "avisos_edital": [],
+    "alteracoes": [
+      {
+        "data": "2026-11-06",
+        "documento": "Edital de 5 de novembro de 2026 (retificação do Edital de Concurso Público nº 61/2026)",
+        "muda": "datas da prova escrita, datas da prova didática e datas da projeto"
+      }
+    ],
     "fonte_dados": {
       "origem": "extracao_v2",
       "extracoes": [
@@ -46061,7 +48494,13 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-11-15",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "numero": "61/2026",
+      "publicacao": "2026-11-04",
+      "alteracoes": 1
+    },
+    "vagas_total": 1
   },
   {
     "id": "unilab-15-2026",
@@ -46115,6 +48554,10 @@ window.CONCURSOS = [
           "sorteio": "Tema sorteado com 24 horas de antecedência",
           "criterios": "Domínio do Conteúdo Pontuação máxima: 6; Coerência entre o tema, os objetivos previstos no plano de aula e os… Pontuação máxima: 1; Desempenho didático e utilização adequada do tempo Pontuação máxima: 1; Comunicação, Clareza, Pertinência e Objetividade Pontuação máxima: 1; Estruturação do Plano de Aula Pontuação máxima: 1",
           "recursos": "O candidato pode usar recursos próprios (Na prova didática, poderão ser utilizados, para apresentação e exposição de conteúdo, quaisquer recursos audiovisuais, competindo ao candidato providenciar, por seus próprios meios, a obtenção, instalação e manuseio do equipamento necessário)"
+        },
+        "temas": {
+          "min": 10,
+          "max": 10
         }
       },
       {
@@ -46165,6 +48608,13 @@ window.CONCURSOS = [
     "observacao": "",
     "detalhamento": "completo",
     "avisos_edital": [],
+    "alteracoes": [
+      {
+        "data": "2026-11-11",
+        "documento": "Retificação do Edital nº 15/2026",
+        "muda": "vagas e etapas do concurso"
+      }
+    ],
     "fonte_dados": {
       "origem": "extracao_v2",
       "extracoes": [
@@ -46172,14 +48622,20 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-11-15",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "numero": "15/2026",
+      "publicacao": "2026-11-09",
+      "alteracoes": 1
+    },
+    "vagas_total": 16
   },
   {
     "id": "usp-ee-061-2026",
     "sigla": "USP",
     "instituicao": "Escola de Enfermagem da Universidade de São Paulo",
     "nivel": "Magistério Superior",
-    "uf": null,
+    "uf": "SP",
     "numero_edital": "Edital nº EE nº 061/2026, publicado em 28/10/2026, com 1 documento de alteração publicado depois",
     "vagas": "1 vaga",
     "areas": "Enfermagem em Saúde Coletiva",
@@ -46207,7 +48663,8 @@ window.CONCURSOS = [
         "detalhe": {
           "duracao": "4 horas",
           "formato": "Com consulta durante 1 hora"
-        }
+        },
+        "peso": "1"
       },
       {
         "nome": "Prova didática",
@@ -46221,6 +48678,11 @@ window.CONCURSOS = [
           "duracao": "De 40 a 60 minutos. Terminar antes de 40 minutos dá nota zero na prova. Aos 60 minutos a banca interrompe",
           "arguicao": "Sim, a critério da banca",
           "recursos": "O candidato pode usar recursos próprios (II - o candidato poderá utilizar o material didático que julgar necessário;)"
+        },
+        "peso": "3",
+        "temas": {
+          "min": 8,
+          "max": 8
         }
       },
       {
@@ -46231,17 +48693,19 @@ window.CONCURSOS = [
           "tipo": "nao_divulgada",
           "nota": "no prazo de trinta a cento e vinte dias, a contar da data da publicação no Diário Oficial do Estado da aprovação das inscrições"
         },
-        "detalhe": {}
+        "detalhe": {},
+        "peso": "4"
       },
       {
         "nome": "Apresentação do projeto de pesquisa e respectiva arguição",
-        "tipo": "outra",
+        "tipo": "projeto",
         "carater": "",
         "data": {
           "tipo": "nao_divulgada",
           "nota": "no prazo de trinta a cento e vinte dias, a contar da data da publicação no Diário Oficial do Estado da aprovação das inscrições"
         },
-        "detalhe": {}
+        "detalhe": {},
+        "peso": "2"
       },
       {
         "nome": "Resultado final",
@@ -46263,6 +48727,13 @@ window.CONCURSOS = [
     "observacao": "",
     "detalhamento": "completo",
     "avisos_edital": [],
+    "alteracoes": [
+      {
+        "data": "2026-11-04",
+        "documento": "RETIFICAÇÃO - EDITAL EE Nº 061/2026, DE 27 DE OUTUBRO DE 2026",
+        "muda": "datas"
+      }
+    ],
     "fonte_dados": {
       "origem": "extracao_v2",
       "extracoes": [
@@ -46270,14 +48741,20 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-11-16",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "numero": "EE nº 061/2026",
+      "publicacao": "2026-10-28",
+      "alteracoes": 1
+    },
+    "vagas_total": 1
   },
   {
     "id": "usp-eesc-32-2026",
     "sigla": "USP",
     "instituicao": "Escola de Engenharia de São Carlos da Universidade de São Paulo",
     "nivel": "Magistério Superior",
-    "uf": null,
+    "uf": "SP",
     "numero_edital": "Edital nº DVACAD/EESC Nº 32, publicado em 16/10/2026",
     "vagas": "1 vaga",
     "areas": "Empreendedorismo tecnológico com análise de investimento e estratégia",
@@ -46303,7 +48780,8 @@ window.CONCURSOS = [
         },
         "detalhe": {
           "duracao": "4 horas"
-        }
+        },
+        "peso": "2"
       },
       {
         "nome": "Prova didática",
@@ -46318,6 +48796,11 @@ window.CONCURSOS = [
           "arguicao": "Sim, a critério da banca",
           "sorteio": "Tema sorteado com 24 horas de antecedência",
           "recursos": "O candidato pode usar recursos próprios (IV - o candidato poderá utilizar o material didático que julgar necessário;)"
+        },
+        "peso": "4",
+        "temas": {
+          "min": 12,
+          "max": 12
         }
       },
       {
@@ -46328,7 +48811,8 @@ window.CONCURSOS = [
           "tipo": "nao_divulgada",
           "nota": "no prazo de trinta a cento e vinte dias, a contar da data da publicação no Diário Oficial do Estado da aprovação das inscrições"
         },
-        "detalhe": {}
+        "detalhe": {},
+        "peso": "4"
       },
       {
         "nome": "Resultado final",
@@ -46357,7 +48841,13 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-11-16",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "numero": "DVACAD/EESC Nº 32",
+      "publicacao": "2026-10-16",
+      "alteracoes": 0
+    },
+    "vagas_total": 1
   },
   {
     "id": "uerj-259-2026",
@@ -46396,7 +48886,7 @@ window.CONCURSOS = [
       },
       {
         "nome": "PROVA PRÁTICA OU TEÓRICO-PRÁTICA",
-        "tipo": "outra",
+        "tipo": "pratica",
         "carater": "Eliminatória",
         "data": {
           "tipo": "exata",
@@ -46460,6 +48950,10 @@ window.CONCURSOS = [
       ],
       "extraido_em": "2026-11-17",
       "em_conferencia": true
-    }
+    },
+    "edital": {
+      "alteracoes": 0
+    },
+    "vagas_total": 2
   }
 ];

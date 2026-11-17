@@ -309,7 +309,10 @@ def rotulo(escopo, rot, ext, em_pacote):
 # ───────────────────────── etapas ─────────────────────────
 
 TIPO_RADAR = {"escrita": "discursiva", "objetiva": "objetiva", "didatica": "didatica",
-              "titulos": "titulos", "memorial": "memorial"}
+              "titulos": "titulos", "memorial": "memorial", "pratica": "pratica", "projeto": "projeto"}
+# "pratica" e "projeto" eram "outra" até 17/11/2026; a etapa publicada antes com tipo "outra" ainda casa
+# com elas pela palavra principal do nome (etapa_correspondente).
+TIPOS_QUE_ERAM_OUTRA = {"pratica", "projeto"}
 NOME_PADRAO = {"escrita": "Prova Escrita", "objetiva": "Prova Objetiva",
                "didatica": "Prova Didática", "titulos": "Avaliação de Títulos",
                "memorial": "Defesa de Memorial", "projeto": "Projeto",
@@ -759,9 +762,12 @@ def etapa_correspondente(etapa, anteriores, usados):
     """Etapa do dados.js anterior que corresponde a esta. Tipos específicos casam
     pelo tipo; "outra" só casa quando o nome tem a mesma palavra principal."""
     for i, a in enumerate(anteriores):
-        if i in usados or a.get("tipo") != etapa["tipo"]:
+        if i in usados:
             continue
-        if etapa["tipo"] == "outra":
+        era_outra = a.get("tipo") == "outra" and etapa["tipo"] in TIPOS_QUE_ERAM_OUTRA
+        if a.get("tipo") != etapa["tipo"] and not era_outra:
+            continue
+        if etapa["tipo"] == "outra" or era_outra:
             k1, k2 = chave_nome(etapa["nome"]), chave_nome(a.get("nome"))
             if not (k1 and k2 and k1[0] == k2[0]):
                 continue
@@ -938,6 +944,44 @@ UF_POR_NOME = {
     "são paulo": "SP", "sergipe": "SE", "tocantins": "TO"}
 
 
+# UF quando a extração não traz cidade_uf com estado (17/11/2026: 27 concursos sem UF sumiam do filtro
+# de estado do Radar). Primeiro a sigla, depois o nome do estado escrito no nome da instituição.
+UF_POR_SIGLA = {
+    "UERJ": "RJ", "UFRJ": "RJ", "UFRRJ": "RJ", "UFF": "RJ", "UNIRIO": "RJ", "CEFET-RJ": "RJ", "IFRJ": "RJ",
+    "UENF": "RJ", "USP": "SP", "FMUSP": "SP", "UNESP": "SP", "UNICAMP": "SP", "UNIFESP": "SP",
+    "UFSCAR": "SP", "UFABC": "SP", "IFSP": "SP", "UFV": "MG", "UFMG": "MG", "UNIFEI": "MG",
+    "UFJF": "MG", "UFOP": "MG", "UFLA": "MG", "UFU": "MG", "UFTM": "MG", "UFSJ": "MG", "UFVJM": "MG",
+    "UNIFAL-MG": "MG", "UNIFAL": "MG", "UNIMONTES": "MG", "UEMG": "MG", "IFMG": "MG", "CEFET-MG": "MG",
+    "IFSULDEMINAS": "MG", "IFNMG": "MG", "IFTM": "MG", "IFSUDESTEMG": "MG", "UFG": "GO", "UFJ": "GO",
+    "IFG": "GO", "IFGOIANO": "GO", "UFCSPA": "RS", "UFSM": "RS", "UFRGS": "RS", "UFPEL": "RS",
+    "FURG": "RS", "UNIPAMPA": "RS", "UFFS": "SC", "UFSC": "SC", "IFSC": "SC", "UDESC": "SC",
+    "FURB": "SC", "UFPR": "PR", "UTFPR": "PR", "UNILA": "PR", "UNESPAR": "PR", "UEL": "PR", "UEM": "PR",
+    "UEPG": "PR", "UNIOESTE": "PR", "IFPR": "PR", "UFRN": "RN", "UFERSA": "RN", "UERN": "RN",
+    "IFRN": "RN", "UFC": "CE", "UFCA": "CE", "UNILAB": "CE", "URCA": "CE", "UECE": "CE", "UVA": "CE",
+    "IFCE": "CE", "UFPE": "PE", "UFRPE": "PE", "UNIVASF": "PE", "UPE": "PE", "IFPE": "PE",
+    "UFBA": "BA", "UFRB": "BA", "UFSB": "BA", "UFOB": "BA", "UNEB": "BA", "UESC": "BA", "UEFS": "BA",
+    "UESB": "BA", "IFBA": "BA", "IFBAIANO": "BA", "UFS": "SE", "IFS": "SE", "UFAL": "AL",
+    "UNCISAL": "AL", "UNEAL": "AL", "IFAL": "AL", "UFPB": "PB", "UFCG": "PB", "UEPB": "PB", "IFPB": "PB",
+    "UFMA": "MA", "UEMA": "MA", "UEMASUL": "MA", "IFMA": "MA", "UFPI": "PI", "UESPI": "PI", "IFPI": "PI",
+    "UFMT": "MT", "UNEMAT": "MT", "IFMT": "MT", "UFMS": "MS", "UFGD": "MS", "UEMS": "MS", "IFMS": "MS",
+    "UNB": "DF", "IFB": "DF", "UFES": "ES", "IFES": "ES", "UFPA": "PA", "UFOPA": "PA", "UNIFESSPA": "PA",
+    "UFRA": "PA", "UEPA": "PA", "IFPA": "PA", "UFAM": "AM", "UEA": "AM", "IFAM": "AM", "UFAC": "AC",
+    "IFAC": "AC", "UNIR": "RO", "IFRO": "RO", "UFRR": "RR", "UERR": "RR", "IFRR": "RR", "UNIFAP": "AP",
+    "UEAP": "AP", "IFAP": "AP", "UFT": "TO", "UFNT": "TO", "UNITINS": "TO", "IFTO": "TO",
+}
+
+
+def uf_da_instituicao(sigla, instituicao):
+    s = str(sigla or "").strip().upper()
+    if s in UF_POR_SIGLA:
+        return UF_POR_SIGLA[s]
+    nome = str(instituicao or "").lower()
+    for estado in sorted(UF_POR_NOME, key=len, reverse=True):
+        if re.search(r"\b(?:de|do|da)\s+" + re.escape(estado) + r"(?![\wà-ú])", nome):
+            return UF_POR_NOME[estado]
+    return None
+
+
 def uf_de(ext):
     for c in todos(ext.get("cidade_uf")):
         m = re.search(r"\b([A-Z]{2})\s*$", str(c).strip())
@@ -965,6 +1009,147 @@ def situacao_inscricao(ini, fim, hoje):
 LOGOS_POR_SIGLA = {}
 
 
+def temas_da_didatica(exts):
+    """Quantos temas a didática tem, pelas listas publicadas (17/11/2026): {"min", "max"}, ou None
+    quando nenhuma lista foi publicada."""
+    qs = []
+    for e in exts:
+        did = e.get("didatica") or {}
+        blocos = list((did.get("padrao") or {}).get("temas") or [])
+        for pe in did.get("por_escopo") or []:
+            blocos += list(pe.get("temas") or [])
+        for t in blocos:
+            if not isinstance(t, dict):
+                continue
+            if t.get("etapas") and "didatica" not in t["etapas"]:
+                continue
+            q = t.get("quantidade")
+            if not isinstance(q, int) or isinstance(q, bool):
+                q = len(t.get("lista") or [])
+            if q > 0:
+                qs.append(q)
+    return {"min": min(qs), "max": max(qs)} if qs else None
+
+
+ASSUNTO_ALTERACAO = {
+    "vagas": "vagas", "reserva": "reserva de vagas", "inscricao": "inscrição", "titulos": "prova de títulos",
+    "etapas": "etapas do concurso", "didatica": "prova didática", "escrita": "prova escrita",
+    "objetiva": "prova objetiva", "pratica": "prova prática", "memorial": "memorial", "projeto": "projeto",
+    "remuneracao": "remuneração", "eventos": "datas", "regras_de_banca": "banca",
+    "homologados": "inscritos homologados", "inscritos_homologados": "inscritos homologados",
+    "estrutura_de_pontuacao": "pontuação", "apuracao_da_nota": "pontuação",
+    "recursos_administrativos": "recursos", "lotacoes": "lotações",
+}
+ETAPA_ALTERACAO = {"escrita": "prova escrita", "objetiva": "prova objetiva", "didatica": "prova didática",
+                   "titulos": "prova de títulos", "memorial": "memorial", "projeto": "projeto",
+                   "pratica": "prova prática"}
+ASSUNTO_DOCUMENTO = {"portaria_banca": "banca", "retificacao_portaria_banca": "banca",
+                     "convocacao": "convocação", "homologados_final": "inscritos homologados",
+                     "resultado_etapa": "resultado de etapa", "prorrogacao": "prazos",
+                     "reabertura_inscricoes": "inscrição", "cronograma": "datas",
+                     "retificacao_cronograma": "datas", "resultado_final": "resultado final"}
+
+
+def alteracoes_do_concurso(ext):
+    """Os documentos que mudaram o edital, um por linha, do mais recente ao mais antigo (17/11/2026):
+    [{"data", "documento", "muda"}]."""
+    docs = {}
+    for a in ext.get("alteracoes") or []:
+        d = a.get("documento") or {}
+        k = d.get("caminho") or d.get("numero_literal")
+        if not k:
+            continue
+        reg = docs.setdefault(k, {"data": a.get("data_publicacao"), "documento": d.get("numero_literal") or "",
+                                  "tipo": d.get("tipo"), "assuntos": []})
+        if a.get("data_publicacao") and (not reg["data"] or a["data_publicacao"] < reg["data"]):
+            reg["data"] = a["data_publicacao"]
+        cf = a.get("campo_afetado")
+        ev = a.get("evento_afetado") or {}
+        if cf:
+            assunto = ASSUNTO_ALTERACAO.get(re.split(r"[.\[]", cf)[0])
+        elif ev:
+            te = str(ev.get("tipo_evento") or "")
+            assunto = ("prazo de inscrição" if te.startswith("inscricao")
+                       else f"datas da {ETAPA_ALTERACAO[ev['etapa_ref']]}" if ev.get("etapa_ref") in ETAPA_ALTERACAO
+                       else "datas")
+        else:
+            assunto = None
+        if assunto and assunto not in reg["assuntos"]:
+            reg["assuntos"].append(assunto)
+    saida = []
+    for reg in docs.values():
+        if not reg["data"]:
+            continue
+        ass = reg["assuntos"] or ([ASSUNTO_DOCUMENTO[reg["tipo"]]] if reg["tipo"] in ASSUNTO_DOCUMENTO else [])
+        muda = juntar(ass[:4]) + (" e outros pontos" if len(ass) > 4 else "") if ass else "ajustes no edital"
+        saida.append({"data": reg["data"], "documento": encurta(reg["documento"], 90), "muda": muda})
+    saida.sort(key=lambda x: x["data"], reverse=True)
+    return saida[:12]
+
+
+def inscritos_por_vaga(exts, em_pacote):
+    """Inscritos homologados por código de vaga (17/11/2026): {"<código>": n}; em pacote, a chave leva o
+    número do edital ("<edital>|<código>")."""
+    saida = {}
+    for e in exts:
+        por_lot = {}
+        for x in e.get("inscritos_homologados") or []:
+            lot, q = str(x.get("lotacao") or "").strip(), x.get("quantidade")
+            if not lot or not isinstance(q, int) or isinstance(q, bool):
+                continue
+            mod = str(x.get("modalidade") or "").lower()
+            reg = por_lot.setdefault(lot, {"total": None, "soma": 0})
+            if mod == "total":
+                reg["total"] = q
+            elif mod in ("ampla concorrência", "ampla concorrencia", "ampla", ""):
+                reg["soma"] += q
+        pref = (str(v(e.get("numero_edital")) or e["_slug"]) + "|") if em_pacote else ""
+        for lot, reg in por_lot.items():
+            n = reg["total"] if reg["total"] is not None else reg["soma"]
+            if n:
+                saida[pref + lot] = n
+    return saida
+
+
+def campos_estruturados(c):
+    """Campos para o site ordenar e filtrar sem ler texto (17/11/2026). Saem do texto final da ficha,
+    para nunca discordar do que o candidato lê: edital {numero, publicacao, alteracoes, editais},
+    vagas_total e, quando falta, a uf pela instituição."""
+    if not c.get("uf"):
+        u = uf_da_instituicao(c.get("sigla"), c.get("instituicao"))
+        if u:
+            c["uf"] = u
+    t = str(c.get("numero_edital") or "")
+    ed = {}
+    m = re.match(r"\s*(\d+) editais", t)
+    if m:
+        ed["editais"] = int(m.group(1))
+    else:
+        m = re.search(r"Edital nº\s*(.+?)(?:, publicado em|, com \d+ documento|$)", t)
+        if m:
+            ed["numero"] = m.group(1).strip()
+        m = re.search(r"publicado em (\d{2})/(\d{2})/(\d{4})", t)
+        if m:
+            ed["publicacao"] = f"{m.group(3)}-{m.group(2)}-{m.group(1)}"
+        m = re.search(r"com (\d+) documentos? de alteração", t)
+        ed["alteracoes"] = int(m.group(1)) if m else 0
+    if ed:
+        c["edital"] = ed
+    else:
+        c.pop("edital", None)
+    vg = str(c.get("vagas") or "")
+    m = re.match(r"\s*(\d+) vagas? por edital, em (\d+) concursos", vg)
+    if m:
+        c["vagas_total"] = int(m.group(1)) * int(m.group(2))
+    else:
+        m = re.match(r"\s*(\d+) vagas?\b", vg)
+        if m:
+            c["vagas_total"] = int(m.group(1))
+        else:
+            c.pop("vagas_total", None)
+    return c
+
+
 def compila_grupo(id_radar, exts, atual, hoje, validador=None, conservador=False, liberados=None):
     em_pacote = len(exts) > 1 or (id_radar != exts[0]["_slug"])
     base = exts[0]
@@ -976,7 +1161,8 @@ def compila_grupo(id_radar, exts, atual, hoje, validador=None, conservador=False
     carreiras = unicos(NIVEL.get(c) for e in exts for c in todos(e.get("carreira")))
     novo["nivel"] = (carreiras[0] if len(carreiras) == 1
                      else (atual or {}).get("nivel") or "Magistério Superior")
-    novo["uf"] = uf_de(base) or (atual or {}).get("uf")
+    novo["uf"] = (uf_de(base) or next((u for u in map(uf_de, exts[1:]) if u), None)
+                  or (atual or {}).get("uf") or uf_da_instituicao(novo["sigla"], novo["instituicao"]))
 
     if em_pacote:
         nums = unicos(v(e.get("numero_edital")) for e in exts)
@@ -1265,6 +1451,15 @@ def compila_grupo(id_radar, exts, atual, hoje, validador=None, conservador=False
             "detalhe": (detalhe_didatica(base) if tipo == "didatica"
                         else detalhe_escrita(base) if tipo == "escrita" else {}),
         }
+        # Peso na nota final (17/11/2026). Em pacote, só quando todos os editais dão o mesmo peso.
+        pesos = unicos(num(float(p)) for p in ((fases_de_pontuacao(e).get(tipo) or {}).get("peso") for e in exts)
+                       if isinstance(p, (int, float)) and not isinstance(p, bool) and p > 0)
+        if len(pesos) == 1 and all((fases_de_pontuacao(e).get(tipo) or {}).get("peso") for e in exts):
+            etapa["peso"] = pesos[0]
+        if tipo == "didatica":
+            qt = temas_da_didatica(exts)
+            if qt:
+                etapa["temas"] = qt
         etapas.append(etapa)
     # Etapa de mesmo nome em dois tipos (memorial e projeto com o nome "Defesa de Memorial e Projeto de
     # Atuação Profissional", UFRN 058, 108 e 109; UFSM 221; UFERSA 030): a cópia sem data sai. As duas
@@ -1551,6 +1746,19 @@ def compila_grupo(id_radar, exts, atual, hoje, validador=None, conservador=False
         novo["periodo_provas"] = {"inicio": min(ds), "fim": max(ds)}
     else:
         novo.pop("periodo_provas", None)
+
+    # O que cada documento posterior mudou e inscritos por vaga (17/11/2026). Em pacote, as alterações
+    # ficam fora: cada edital tem as suas e a ficha do pacote não as separa.
+    alts_ed = [] if em_pacote else alteracoes_do_concurso(base)
+    if alts_ed:
+        novo["alteracoes"] = alts_ed
+    else:
+        novo.pop("alteracoes", None)
+    insc = inscritos_por_vaga(exts, em_pacote)
+    if insc:
+        novo["inscritos"] = insc
+    else:
+        novo.pop("inscritos", None)
 
     # Rastreabilidade (o index.html ignora estes campos)
     novo["fonte_dados"] = {
@@ -1846,6 +2054,9 @@ def main():
         else:
             saida.append(atual)
             rel.append((cid, "sem extração, mantido como estava", []))
+
+    for c in saida:
+        campos_estruturados(c)
 
     removidos = saem_do_radar(saida, a.hoje, a.remover_apos_resultado) if a.remover_apos_resultado is not None else []
     if removidos:
