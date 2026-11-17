@@ -1,26 +1,8 @@
 # Relatório do compilador do Radar · 17/11/2026
 
-92 concursos no dados.js gerado, 91 no publicado; 94 vieram das extrações.
+92 concursos no dados.js gerado, 92 no publicado; 94 vieram das extrações.
 
-## O que muda no Radar em relação ao publicado (7 concursos)
-
-**ufrgs-09-2026**
-- Prova Didática: nota da data alterada
-- Defesa da Produção Intelectual: nota da data alterada
-- editais alterado
-
-**unila-204-2026**
-- Resultado final: 05/11/2026 → 05/11/2026 a 16/11/2026
-- editais: "Edital nº 204/2026, com 2 documentos de alteração publicados depois" → "Edital nº 204/2026, com 3 documentos de alteração publicados depois"
-
-**ufpel-028-2026**
-- editais alterado
-
-**unesp-fmb-80-2026**
-- inscrição: aberta → encerrada
-
-**uerj-259-2026**
-- concurso novo no Radar
+## O que muda no Radar em relação ao publicado (2 concursos)
 
 **furb-07-2026**
 - sai do Radar: resultado final em 08/10/2026, há mais de 30 dias (regra de 11/10/2026)
@@ -69,7 +51,6 @@ Conferidos nos documentos oficiais (compilador/liberados.json); o dados.js gerad
 
 **unila-204-2026**
 - vagas: o dados.js anterior dizia "6 vagas", a extração soma 6 (liberado após conferência: publicada a extração)
-- Resultado final: dados.js anterior 05/11/2026, extração 05/11/2026 a 16/11/2026 (liberado após conferência: publicada a extração)
 
 **ufsm-221-2026**
 - texto corrigido após conferência (2026-11-08): campi
