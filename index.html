@@ -504,6 +504,23 @@ const BASE_RADAR = "https://aulanota10.com/radar/";
 function linkWhats(texto) {
   return `https://wa.me/${WHATSAPP}?text=${encodeURIComponent(texto)}`;
 }
+// ── Preparação Aula Nota 10 (17/11/2026): e-book na landing do e-book, curso na landing do curso,
+// mentoria no WhatsApp com a mensagem de interesse. Cada clique vai ao Umami com o lugar e o item.
+const LINK_EBOOK = "https://aulanota10.com/ebook/";
+const LINK_CURSO = "https://aulanota10.com/";
+function linkMentoria(c) {
+  return linkWhats(c
+    ? `Olá, professor Samuel! Vi o Radar de Concursos e tenho interesse na mentoria para a prova didática do concurso ${c.sigla}${c.edital && c.edital.numero ? ` (edital ${c.edital.numero})` : ""}.`
+    : "Olá, professor Samuel! Vi o Radar de Concursos e tenho interesse na mentoria.");
+}
+const ITENS_PREP = {
+  ebook: { rotulo: "E-book gratuito", titulo: "5 erros que podem te eliminar na prova de desempenho didático", acao: "Receber o e-book" },
+  curso: { rotulo: "Curso online", titulo: "Curso Aula Nota 10: preparação para a prova de desempenho didático", acao: "Conhecer o curso" },
+  mentoria: { rotulo: "Mentoria", titulo: "Acompanhamento individual com o professor Samuel", acao: "Falar sobre a mentoria" }
+};
+function hrefPrep(item, c) {
+  return item === "ebook" ? LINK_EBOOK : item === "curso" ? LINK_CURSO : linkMentoria(c);
+}
 
 const C = {
   azul: "#284696",
@@ -1523,6 +1540,42 @@ function TabelaVagas({ c, familia, celular }) {
     h("p", { style: { fontSize: 15, color: C.cinza, margin: "8px 0 0" } }, "Toque na área para ver o requisito como está no edital. O Radar não decide quem pode concorrer: confira o requisito no edital oficial antes de se inscrever."));
 }
 
+// Ordem dos caminhos pela distância da prova didática: perto (até 30 dias ou em andamento) põe a
+// mentoria primeiro; longe ou sem data põe o curso primeiro; o e-book aparece sempre.
+function ordemPreparacao(c) {
+  const dd = c && didaticaDe(c);
+  const dt = dd && dd.data;
+  if (dt && dt.tipo !== "nao_divulgada") {
+    const ini = dias(dt.valor),
+      fim = dias(dt.fim || dt.valor);
+    if (fim >= 0 && ini <= 30) return { itens: ["mentoria", "ebook", "curso"], titulo: "Prepare-se para esta prova didática", perto: true };
+    if (fim < 0) return { itens: ["curso", "ebook", "mentoria"], titulo: "Prepare-se para a sua próxima prova didática", perto: false };
+  }
+  return { itens: ["curso", "ebook", "mentoria"], titulo: "Prepare-se para esta prova didática", perto: false };
+}
+function Preparacao({ c, lugar, compacto }) {
+  const o = c ? ordemPreparacao(c) : { itens: ["ebook", "curso", "mentoria"], titulo: "Prepare-se para a prova didática" };
+  const ext = item => item === "mentoria" ? { target: "_blank", rel: "noreferrer" } : {};
+  const evento = item => ({ "data-umami-event": "preparacao", "data-umami-event-lugar": lugar, "data-umami-event-item": item });
+  if (compacto) {
+    return h("div", { style: { display: "flex", flexDirection: "column", gap: 8 } },
+      h("div", { style: { fontFamily: FONTE_TITULO, fontWeight: 700, fontSize: 19, color: C.azul, lineHeight: 1.2 } }, o.titulo),
+      o.itens.map(item => h("a", Object.assign({ key: item, href: hrefPrep(item, c), style: { display: "block", textDecoration: "none", background: item === o.itens[0] ? C.azulClaro : C.creme, borderRadius: 10, padding: "10px 12px", color: C.grafite } }, ext(item), evento(item)),
+        h("span", { style: { display: "block", fontSize: 14.5, fontWeight: 700, color: C.cinza, textTransform: "uppercase", letterSpacing: ".04em" } }, ITENS_PREP[item].rotulo),
+        h("span", { style: { display: "block", fontSize: 16.5, lineHeight: 1.3, margin: "2px 0 4px" } }, ITENS_PREP[item].titulo),
+        h("span", { style: { fontWeight: 700, color: C.azul, fontSize: 16 } }, ITENS_PREP[item].acao, " →"))));
+  }
+  return h("div", { style: { display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))", gap: 10 } },
+    o.itens.map((item, i) => h("a", Object.assign({
+      key: item,
+      href: hrefPrep(item, c),
+      style: { display: "flex", flexDirection: "column", gap: 4, textDecoration: "none", color: C.grafite, background: i === 0 ? C.azul : C.branco, border: `1px solid ${i === 0 ? C.azul : C.borda}`, borderRadius: 12, padding: "14px 16px", minHeight: 44 }
+    }, ext(item), evento(item)),
+    h("span", { style: { fontSize: 14.5, fontWeight: 700, textTransform: "uppercase", letterSpacing: ".04em", color: i === 0 ? "#cfd8f0" : C.cinza } }, ITENS_PREP[item].rotulo),
+    h("span", { style: { fontSize: 17, lineHeight: 1.3, color: i === 0 ? C.branco : C.grafite, flex: "1 1 auto" } }, ITENS_PREP[item].titulo),
+    h("span", { style: { fontWeight: 700, fontSize: 17, color: i === 0 ? C.branco : C.azul, marginTop: 4 } }, ITENS_PREP[item].acao, " →"))));
+}
+
 function Ficha({ c, familia, celular }) {
   const a = oQueFazerAgora(c);
   const t = TOM[a.tom];
@@ -1565,8 +1618,11 @@ function Ficha({ c, familia, celular }) {
         h("p", { style: { margin: 0 } }, c.observacao)),
       h("div", { className: "linha-botoes", style: { display: "flex", flexWrap: "wrap", gap: 10 } },
         link && h("a", { href: link, target: "_blank", rel: "noreferrer", style: botao("primario") }, "Ver edital no site oficial", h(Icone, { nome: "externo", tam: 18 })),
-        h("a", { href: linkWhats(`Olá! Vi o Radar de Concursos e quero me preparar para a prova didática do concurso ${c.sigla} (${c.numero_edital}).`), target: "_blank", rel: "noreferrer", style: botao("laranja") }, "Quero preparar esta prova didática")),
-      h("p", { style: { margin: 0, fontSize: 15, color: C.cinza } }, "Resumo de apoio da Aula Nota 10. A informação oficial é a do edital e dos documentos publicados pela instituição.")));
+        null),
+      h("p", { style: { margin: 0, fontSize: 15, color: C.cinza } }, "Resumo de apoio da Aula Nota 10. A informação oficial é a do edital e dos documentos publicados pela instituição.")),
+    h("section", { style: { display: "flex", flexDirection: "column", gap: 10 } },
+      h("h3", { className: "titulo-secao", style: { margin: 0 } }, ordemPreparacao(c).titulo),
+      h(Preparacao, { c, lugar: "ficha" })));
 }
 
 function Card({ item, aberto, onToggle, familia, pendente, ps, celular, compartilhar, msgCompartilhar }) {
@@ -1797,6 +1853,7 @@ function App() {
   const celular = useCelular();
   // Tela larga: o mapa do Brasil fica sempre aberto numa coluna ao lado da lista (17/11/2026)
   const largo = useMedia("(min-width: 1240px)");
+  const alta = useMedia("(min-height: 980px)");
   const [busca, setBusca] = React.useState(ini.q);
   const [nivel, setNivel] = React.useState(ini.nivel);
   const [uf, setUf] = React.useState(ini.uf);
@@ -1939,22 +1996,33 @@ function App() {
     h("label", { htmlFor: id, style: { fontSize: 16.5, fontWeight: 600 } }, rotulo),
     h("select", { id, value: valor, onChange: e => onChange(e.target.value), style: Object.assign({}, S.campo, { height: 54 }) }, opcoes.map(([v, t]) => h("option", { key: v, value: v }, t))));
 
-  const colunaMapa = h("aside", { "aria-label": "Escolha por estado", style: { flex: "0 0 340px", position: "sticky", top: 16, background: C.branco, border: `1px solid ${C.borda}`, borderRadius: 14, padding: "16px 18px", display: "flex", flexDirection: "column", gap: 8 } },
+  const colunaMapa = h("div", { style: { flex: "0 0 340px", position: alta ? "sticky" : "static", top: 16, display: "flex", flexDirection: "column", gap: 14 } }, h("aside", { "aria-label": "Escolha por estado", style: { background: C.branco, border: `1px solid ${C.borda}`, borderRadius: 14, padding: "16px 18px", display: "flex", flexDirection: "column", gap: 8 } },
     h("div", { style: { display: "flex", alignItems: "center", justifyContent: "space-between", gap: 8, minHeight: 40 } },
       h("h2", { style: { margin: 0, fontFamily: FONTE_TITULO, fontWeight: 700, fontSize: 22, lineHeight: 1.2, color: C.azul } }, uf === "todas" ? "Onde é o seu concurso?" : NOME_UF[uf]),
       uf !== "todas" && h("button", { type: "button", onClick: () => setUf("todas"), style: Object.assign(botao(), { minHeight: 40, fontSize: 16, padding: "0 12px", whiteSpace: "nowrap" }) }, "Ver todos")),
     h("p", { style: { margin: 0, fontSize: 16.5, color: C.cinza } }, uf === "todas"
       ? "Toque no estado. A cor mostra quantos concursos há com a busca e os filtros de agora."
       : `${plural(contagemUF[uf] || 0, ehVaga ? "vaga" : "concurso", ehVaga ? "vagas" : "concursos")} com a busca e os filtros de agora. Toque de novo no estado para voltar.`),
-    h(MapaEstados, { contagem: contagemUF, uf, onEscolher: setUf, largura: 304 }));
+    h(MapaEstados, { contagem: contagemUF, uf, onEscolher: setUf, largura: 304 })),
+    h("aside", { "aria-label": "Preparação Aula Nota 10", style: { background: C.branco, border: `1px solid ${C.borda}`, borderRadius: 14, padding: "16px 18px" } }, h(Preparacao, { lugar: "coluna", compacto: true })));
 
   return h("div", { style: { fontFamily: FONTE_TEXTO, background: C.creme, minHeight: "100vh", color: C.grafite, fontSize: 18, lineHeight: 1.45 } },
     h("header", { style: { background: C.azul } },
       h("div", { className: "topo", style: { maxWidth: largo ? 1340 : 1080, margin: "0 auto", padding: "12px 20px", display: "flex", alignItems: "center", justifyContent: "space-between", flexWrap: "wrap", gap: "8px 20px" } },
         h("a", { href: SITE, "aria-label": "Aula Nota 10, página inicial", style: { display: "flex", alignItems: "center", minHeight: 44 } }, h("img", { src: LOGO, alt: "Aula Nota 10", style: { height: celular ? 40 : 50, display: "block" } })),
-        h("div", { style: { color: C.branco, textAlign: celular ? "left" : "right" } },
-          h("div", { style: { fontFamily: FONTE_TITULO, fontWeight: 700, fontSize: celular ? 20 : 23, lineHeight: 1.1 } }, "Radar de Concursos"),
-          !celular && h("div", { style: { fontSize: 16, opacity: .88, marginTop: 2 } }, "Concursos docentes EBTT, Magistério Superior e outros")))),
+        celular
+          ? h("a", { href: "#materiais", "data-umami-event": "preparacao", "data-umami-event-lugar": "cabecalho", "data-umami-event-item": "ancora", style: { color: C.branco, fontWeight: 700, fontSize: 17, textDecoration: "none", border: "1px solid rgba(255,255,255,.6)", borderRadius: 8, padding: "0 12px", minHeight: 44, display: "inline-flex", alignItems: "center" } }, "Preparação")
+          : h("div", { style: { color: C.branco, textAlign: "right", display: "flex", flexDirection: "column", alignItems: "flex-end", gap: 4 } },
+            h("div", { style: { fontFamily: FONTE_TITULO, fontWeight: 700, fontSize: 23, lineHeight: 1.1 } }, "Radar de Concursos"),
+            h("nav", { "aria-label": "Preparação Aula Nota 10", style: { display: "flex", flexWrap: "wrap", justifyContent: "flex-end", gap: 4 } },
+              [["ebook", "Material gratuito"], ["curso", "Curso online"], ["mentoria", "Mentoria"]].map(([item, t]) => h("a", Object.assign({
+                key: item,
+                href: hrefPrep(item, null),
+                "data-umami-event": "preparacao",
+                "data-umami-event-lugar": "cabecalho",
+                "data-umami-event-item": item,
+                style: { color: C.branco, fontWeight: 600, fontSize: 16.5, textDecoration: "none", padding: "6px 10px", borderRadius: 8, background: item === "ebook" ? "rgba(255,255,255,.16)" : "transparent", minHeight: 36, display: "inline-flex", alignItems: "center" }
+              }, item === "mentoria" ? { target: "_blank", rel: "noreferrer" } : {}), t)))))),
     h("main", { style: { maxWidth: largo ? 1340 : 1080, margin: "0 auto", padding: celular ? "16px 14px 48px" : "26px 20px 56px", display: "flex", flexDirection: "column", gap: 16 } },
       h("div", null,
         h("h1", { style: { margin: 0, fontFamily: FONTE_TITULO, fontWeight: 700, fontSize: celular ? 26 : 34, lineHeight: 1.15, color: C.azul } }, "Concursos para professor"),
@@ -2010,7 +2078,11 @@ function App() {
         })),
       EXPLICA_ABA[aba] && h("p", { style: { margin: "-4px 0 0", color: C.cinza, fontSize: 16.5 } }, EXPLICA_ABA[aba]),
       ehVaga && h("p", { style: { margin: 0, color: C.cinza, fontSize: 16.5 } }, `A lista por vaga mostra os concursos com quadro de vagas já conferido pela Aula Nota 10 (${N_COM_VAGAS} de ${CONCURSOS.length}). Os demais estão em “Por concurso”.`),
-      !ehVaga && lista.length > 0 && h("div", { style: { display: "flex", flexDirection: "column", gap: 14 } }, lista.map(it => h(Card, {
+      !ehVaga && lista.length > 0 && h("div", { style: { display: "flex", flexDirection: "column", gap: 14 } }, lista.map((it, i) => [i === 3 && !largo && h("aside", {
+        key: "prep",
+        "aria-label": "Preparação Aula Nota 10",
+        style: { background: C.branco, border: `2px solid ${C.azulClaro}`, borderRadius: 14, padding: celular ? "16px 14px" : "18px 20px", display: "flex", flexDirection: "column", gap: 10 }
+      }, h("div", { style: { fontFamily: FONTE_TITULO, fontWeight: 700, fontSize: 21, color: C.azul } }, "Vai fazer prova didática?"), h(Preparacao, { lugar: "lista" })), h(Card, {
         key: it.c.id,
         item: it,
         aberto: aberto === it.c.id,
@@ -2024,7 +2096,7 @@ function App() {
           compartilhar(c);
         },
         msgCompartilhar: compId === it.c.id ? msgComp : ""
-      }))),
+      })])),
       !ehVaga && familia !== "todas" && pendentes.length > 0 && h("div", { style: { background: "#fdf3dc", borderRadius: 12, padding: "14px 18px", display: "flex", flexWrap: "wrap", alignItems: "center", justifyContent: "space-between", gap: "10px 20px" } },
         h("span", { style: { flex: "999 1 380px", minWidth: 0, color: "#4a3500" } }, verPend
           ? `Mostrando também ${plural(pendentes.length, "concurso", "concursos")} cujo requisito de formação ainda não foi conferido. Confira no edital se há vaga para você.`
@@ -2037,6 +2109,10 @@ function App() {
         h("div", { style: { display: "flex", justifyContent: "center", gap: 8, marginTop: 12, flexWrap: "wrap" } },
           universo.length > 0 && h("button", { type: "button", onClick: () => setAba("todos"), style: botao("primario") }, "Ver todas as etapas"),
           temFiltro && h("button", { type: "button", onClick: limpar, style: botao() }, "Limpar filtros"))))),
+      h("section", { id: "materiais", style: { scrollMarginTop: 12, display: "flex", flexDirection: "column", gap: 10, marginTop: 14 } },
+        h("h2", { style: { margin: 0, fontFamily: FONTE_TITULO, fontWeight: 700, fontSize: 25, color: C.azul } }, "Prepare-se com a Aula Nota 10"),
+        h("p", { style: { margin: 0, color: C.cinza } }, "Material gratuito para começar, o curso online para se preparar com método e a mentoria para quem quer acompanhamento individual."),
+        h(Preparacao, { lugar: "rodape" })),
       h("section", { id: "preparacao", style: { background: C.azul, borderRadius: 14, padding: "24px 22px", marginTop: 14, color: C.branco } },
         h("h2", { style: { fontFamily: FONTE_TITULO, fontWeight: 700, fontSize: 25, lineHeight: 1.25, margin: "0 0 8px" } }, "Quer ser avisado quando sair a data da sua prova didática?"),
         h("p", { style: { fontSize: 18, lineHeight: 1.6, opacity: .95, margin: "0 0 16px" } }, "Muitos concursos ainda não fecharam o cronograma. No grupo do Aula Nota 10 você recebe aviso quando a data for divulgada, quando o prazo de inscrição estiver acabando e quando sair edital novo com prova didática."),
@@ -2105,6 +2181,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(React.createElement(
     if (!alvo || !alvo.closest) return;
     var a = alvo.closest("a[href]");
     if (!a) return;
+    if (a.hasAttribute("data-umami-event")) return;
     var href = a.getAttribute("href") || "";
     if (!/^https?:/i.test(href)) return;
     try { if (new URL(href, location.href).host === location.host) return; } catch (err) { return; }
