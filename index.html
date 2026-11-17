@@ -1027,7 +1027,9 @@ function linkConcurso(c) {
 }
 
 function useCelular() {
-  const q = "(max-width: 720px)";
+  return useMedia("(max-width: 720px)");
+}
+function useMedia(q) {
   const [m, setM] = React.useState(() => window.matchMedia ? window.matchMedia(q).matches : false);
   React.useEffect(() => {
     if (!window.matchMedia) return;
@@ -1793,6 +1795,8 @@ const GLOSSARIO = [["Prova de desempenho didático", "Também chamada de prova d
 function App() {
   const ini = React.useMemo(lerURL, []);
   const celular = useCelular();
+  // Tela larga: o mapa do Brasil fica sempre aberto numa coluna ao lado da lista (17/11/2026)
+  const largo = useMedia("(min-width: 1240px)");
   const [busca, setBusca] = React.useState(ini.q);
   const [nivel, setNivel] = React.useState(ini.nivel);
   const [uf, setUf] = React.useState(ini.uf);
@@ -1935,14 +1939,23 @@ function App() {
     h("label", { htmlFor: id, style: { fontSize: 16.5, fontWeight: 600 } }, rotulo),
     h("select", { id, value: valor, onChange: e => onChange(e.target.value), style: Object.assign({}, S.campo, { height: 54 }) }, opcoes.map(([v, t]) => h("option", { key: v, value: v }, t))));
 
+  const colunaMapa = h("aside", { "aria-label": "Escolha por estado", style: { flex: "0 0 340px", position: "sticky", top: 16, background: C.branco, border: `1px solid ${C.borda}`, borderRadius: 14, padding: "16px 18px", display: "flex", flexDirection: "column", gap: 8 } },
+    h("div", { style: { display: "flex", alignItems: "center", justifyContent: "space-between", gap: 8, minHeight: 40 } },
+      h("h2", { style: { margin: 0, fontFamily: FONTE_TITULO, fontWeight: 700, fontSize: 22, lineHeight: 1.2, color: C.azul } }, uf === "todas" ? "Onde é o seu concurso?" : NOME_UF[uf]),
+      uf !== "todas" && h("button", { type: "button", onClick: () => setUf("todas"), style: Object.assign(botao(), { minHeight: 40, fontSize: 16, padding: "0 12px", whiteSpace: "nowrap" }) }, "Ver todos")),
+    h("p", { style: { margin: 0, fontSize: 16.5, color: C.cinza } }, uf === "todas"
+      ? "Toque no estado. A cor mostra quantos concursos há com a busca e os filtros de agora."
+      : `${plural(contagemUF[uf] || 0, ehVaga ? "vaga" : "concurso", ehVaga ? "vagas" : "concursos")} com a busca e os filtros de agora. Toque de novo no estado para voltar.`),
+    h(MapaEstados, { contagem: contagemUF, uf, onEscolher: setUf, largura: 304 }));
+
   return h("div", { style: { fontFamily: FONTE_TEXTO, background: C.creme, minHeight: "100vh", color: C.grafite, fontSize: 18, lineHeight: 1.45 } },
     h("header", { style: { background: C.azul } },
-      h("div", { className: "topo", style: { maxWidth: 1080, margin: "0 auto", padding: "12px 20px", display: "flex", alignItems: "center", justifyContent: "space-between", flexWrap: "wrap", gap: "8px 20px" } },
+      h("div", { className: "topo", style: { maxWidth: largo ? 1340 : 1080, margin: "0 auto", padding: "12px 20px", display: "flex", alignItems: "center", justifyContent: "space-between", flexWrap: "wrap", gap: "8px 20px" } },
         h("a", { href: SITE, "aria-label": "Aula Nota 10, página inicial", style: { display: "flex", alignItems: "center", minHeight: 44 } }, h("img", { src: LOGO, alt: "Aula Nota 10", style: { height: celular ? 40 : 50, display: "block" } })),
         h("div", { style: { color: C.branco, textAlign: celular ? "left" : "right" } },
           h("div", { style: { fontFamily: FONTE_TITULO, fontWeight: 700, fontSize: celular ? 20 : 23, lineHeight: 1.1 } }, "Radar de Concursos"),
           !celular && h("div", { style: { fontSize: 16, opacity: .88, marginTop: 2 } }, "Concursos docentes EBTT, Magistério Superior e outros")))),
-    h("main", { style: { maxWidth: 1080, margin: "0 auto", padding: celular ? "16px 14px 48px" : "26px 20px 56px", display: "flex", flexDirection: "column", gap: 16 } },
+    h("main", { style: { maxWidth: largo ? 1340 : 1080, margin: "0 auto", padding: celular ? "16px 14px 48px" : "26px 20px 56px", display: "flex", flexDirection: "column", gap: 16 } },
       h("div", null,
         h("h1", { style: { margin: 0, fontFamily: FONTE_TITULO, fontWeight: 700, fontSize: celular ? 26 : 34, lineHeight: 1.15, color: C.azul } }, "Concursos para professor"),
         h("p", { style: { margin: "4px 0 0", color: C.cinza, fontSize: celular ? 17 : 19 } }, `${CONCURSOS.length} concursos acompanhados, do edital ao resultado final. Atualizado em ${window.RADAR_ATUALIZADO || ""}.`)),
@@ -1952,7 +1965,7 @@ function App() {
         !celular && seletor("f-nivel", "Carreira", nivel, setNivel, [["todos", "Todas"]].concat(niveis.map(n => [n, n]))),
         !celular && seletor("f-area", "Sua área de formação", familia, setFamilia, [["todas", "Todas"]].concat(familias.map(f => [f, f]))),
         !celular && seletor("f-ordem", "Ordenar por", ordem, setOrdem, [["fase", "Etapa do concurso"], ["data", "Prazo mais próximo"]])),
-      !celular && h("div", null,
+      !celular && !largo && h("div", null,
         h("button", { type: "button", onClick: () => setMapa(!mapa), "aria-expanded": mapa, "aria-controls": "painel-mapa", style: botao("fantasma") }, h(Icone, { nome: "mapa" }), mapa ? "Fechar o mapa de estados" : "Escolher o estado no mapa"),
         mapa && h("div", { id: "painel-mapa", style: { marginTop: 8, background: C.branco, border: `1px solid ${C.borda}`, borderRadius: 14, padding: "18px 20px", display: "flex", flexWrap: "wrap", gap: "18px 32px", alignItems: "flex-start" } },
           h(MapaEstados, { contagem: contagemUF, uf, onEscolher: u => {
@@ -1962,6 +1975,7 @@ function App() {
             h("div", { style: { fontFamily: FONTE_TITULO, fontWeight: 700, fontSize: 26, color: C.azul } }, uf === "todas" ? "Brasil" : NOME_UF[uf]),
             h("p", { style: { margin: 0 } }, uf === "todas" ? "Toque no estado do seu concurso, no mapa ou nos botões. A cor mostra quantos concursos há em cada estado com a busca e os filtros de agora." : `${plural(contagemUF[uf] || 0, ehVaga ? "vaga" : "concurso", ehVaga ? "vagas" : "concursos")} com a busca e os filtros de agora. A lista abaixo já mostra só este estado.`),
             h(BotoesEstados, { contagem: contagemUF, uf, onEscolher: setUf })))),
+      h("div", { style: { display: "flex", gap: 24, alignItems: "flex-start" } }, largo && colunaMapa, h("div", { style: { flex: "1 1 0", minWidth: 0, display: "flex", flexDirection: "column", gap: 16 } },
       h("div", {
         ref: statusRef,
         className: "retorno-busca",
@@ -2022,7 +2036,7 @@ function App() {
         h("div", { style: { color: C.cinza, marginTop: 4 } }, universo.length ? `Há ${plural(universo.length, un[0], un[1])} em outras etapas.` : "Confira a grafia ou tire algum filtro."),
         h("div", { style: { display: "flex", justifyContent: "center", gap: 8, marginTop: 12, flexWrap: "wrap" } },
           universo.length > 0 && h("button", { type: "button", onClick: () => setAba("todos"), style: botao("primario") }, "Ver todas as etapas"),
-          temFiltro && h("button", { type: "button", onClick: limpar, style: botao() }, "Limpar filtros"))),
+          temFiltro && h("button", { type: "button", onClick: limpar, style: botao() }, "Limpar filtros"))))),
       h("section", { id: "preparacao", style: { background: C.azul, borderRadius: 14, padding: "24px 22px", marginTop: 14, color: C.branco } },
         h("h2", { style: { fontFamily: FONTE_TITULO, fontWeight: 700, fontSize: 25, lineHeight: 1.25, margin: "0 0 8px" } }, "Quer ser avisado quando sair a data da sua prova didática?"),
         h("p", { style: { fontSize: 18, lineHeight: 1.6, opacity: .95, margin: "0 0 16px" } }, "Muitos concursos ainda não fecharam o cronograma. No grupo do Aula Nota 10 você recebe aviso quando a data for divulgada, quando o prazo de inscrição estiver acabando e quando sair edital novo com prova didática."),
