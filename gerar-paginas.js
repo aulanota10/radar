@@ -196,20 +196,61 @@ function fase(c) {
 
 // ---------- página de cada concurso ----------
 
-const ROTULOS_DIDATICA = {
+// Rótulos com acento (antes saía "Criterios") e "Tempo de aula" só na didática
+// (antes a prova escrita aparecia com "Duração da aula: 4 horas"). 17/11/2026.
+const ROTULOS_DETALHE = {
   sorteio: "Sorteio do tema",
-  duracao: "Duração da aula",
+  duracao: "Duração",
   arguicao: "Arguição",
   plano_de_aula: "Plano de aula",
   nota_minima: "Nota mínima",
   modalidade: "Modalidade",
+  criterios: "Critérios",
+  recursos: "Recursos",
+  questoes: "Questões",
+  materias: "Conteúdo",
+  formato: "Formato",
+  local: "Local",
+  pontuacao: "Pontuação",
+  ordem: "Ordem de apresentação",
+  convocados: "Convocados",
+  peso: "Peso",
 };
 
-function rotuloCampo(chave) {
-  if (ROTULOS_DIDATICA[chave]) return ROTULOS_DIDATICA[chave];
+function rotuloCampo(chave, tipo) {
+  if (chave === "duracao" && tipo === "didatica") return "Tempo de aula";
+  if (ROTULOS_DETALHE[chave]) return ROTULOS_DETALHE[chave];
   const t = String(chave).replace(/_/g, " ");
   return t.charAt(0).toUpperCase() + t.slice(1);
 }
+
+// Nome da etapa padronizado; o nome do edital vai ao lado quando diz algo a mais.
+const ROTULO_ETAPA = {
+  objetiva: "Prova objetiva",
+  discursiva: "Prova escrita",
+  didatica: "Prova didática",
+  pratica: "Prova prática",
+  projeto: "Projeto ou plano de trabalho",
+  titulos: "Prova de títulos",
+  memorial: "Memorial",
+  resultado: "Resultado final",
+};
+
+function semAcento(t) {
+  return String(t || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+}
+
+function rotuloEtapa(e) {
+  return ROTULO_ETAPA[e.tipo] || String(e.nome || "Etapa");
+}
+
+function nomeNoEdital(e) {
+  const a = semAcento(e.nome).replace(/[^a-z]/g, "");
+  const b = semAcento(rotuloEtapa(e)).replace(/[^a-z]/g, "");
+  return e.nome && a !== b ? e.nome : "";
+}
+
+const NIVEL_ROTULO = { graduacao: "Graduação", especializacao: "Especialização", mestrado: "Mestrado", doutorado: "Doutorado" };
 
 function textoValor(v) {
   if (Array.isArray(v)) return v.map(textoValor).join("; ");
@@ -227,19 +268,60 @@ function blocoEtapas(c) {
   if (!etapas.length) return "";
   const itens = etapas
     .map((e) => {
-      const detalhes = Object.entries(e.detalhe || {})
-        .map(([k, v]) => [k, textoValor(v)])
+      const det = e.detalhe || {};
+      const detalhes = Object.entries(det)
+        .map(([k, v]) => [
+          k,
+          k === "materias" && Array.isArray(v)
+            ? v.map((m) => `${m.nome}: ${m.questoes} ${m.questoes === 1 ? "questão" : "questões"}${m.pontos ? ` (${m.pontos})` : ""}`).join("; ")
+            : textoValor(v),
+        ])
         .filter(([, v]) => !vazio(v))
-        .map(([k, v]) => `<li><strong>${esc(rotuloCampo(k))}:</strong> ${esc(v)}</li>`)
+        .map(([k, v]) => `<li><strong>${esc(rotuloCampo(k, e.tipo))}:</strong> ${esc(v)}</li>`)
         .join("");
+      const temas = e.temas
+        ? `<li><strong>Temas:</strong> ${e.temas.min === e.temas.max ? `${e.temas.min} temas publicados` : `de ${e.temas.min} a ${e.temas.max} temas publicados, conforme a área`}; a lista está no edital</li>`
+        : "";
+      const literal = nomeNoEdital(e);
+      const meta = [e.carater, e.peso ? `peso ${e.peso}` : ""].filter((x) => !vazio(x)).join(" · ");
       return `<li class="etapa${e.tipo === "didatica" ? " didatica" : ""}">
-  <div class="etapa-topo"><span class="etapa-nome">${esc(e.nome)}</span><span class="etapa-data">${esc(textoData(e.data))}</span></div>
-  ${vazio(e.carater) ? "" : `<div class="etapa-carater">${esc(e.carater)}</div>`}
-  ${detalhes ? `<ul class="etapa-detalhes">${detalhes}</ul>` : ""}
+  <div class="etapa-data">${esc(!e.data || e.data.tipo === "nao_divulgada" ? "A divulgar" : textoData(e.data))}</div>
+  <div class="etapa-corpo">
+  <h3 class="etapa-nome">${esc(rotuloEtapa(e))}</h3>
+  ${literal ? `<div class="etapa-carater">No edital: ${esc(literal)}</div>` : ""}
+  ${meta ? `<div class="etapa-carater">${esc(meta)}</div>` : ""}
+  ${e.data && !vazio(e.data.nota) ? `<div class="etapa-carater">${esc(e.data.nota.charAt(0).toUpperCase() + e.data.nota.slice(1))}</div>` : ""}
+  ${detalhes || temas ? `<ul class="etapa-detalhes">${detalhes}${temas}</ul>` : ""}
+  </div>
 </li>`;
     })
     .join("\n");
   return `<section><h2>Etapas e datas</h2><ol class="etapas">${itens}</ol></section>`;
+}
+
+function blocoAlteracoes(c) {
+  const alts = (c.alteracoes || []).filter((a) => ehData(a.data));
+  if (!alts.length) return "";
+  return `<section><h2>O que mudou desde o edital</h2><ul class="mudancas">${alts
+    .map((a) => `<li><span class="quando">${esc(dataLonga(a.data))}</span><span><strong>Muda:</strong> ${esc(a.muda)}<small>${esc(a.documento)}</small></span></li>`)
+    .join("")}</ul></section>`;
+}
+
+function blocoVagas(c) {
+  const lista = c.areas_formacoes || [];
+  if (!lista.length) return "";
+  const ins = c.inscritos || {};
+  const inscritos = (a) => {
+    const cod = a.codigo == null ? "" : String(a.codigo);
+    if (!cod) return "";
+    if (a.edital && ins[`${a.edital}|${cod}`] != null) return ins[`${a.edital}|${cod}`];
+    return ins[cod] != null ? ins[cod] : "";
+  };
+  const temInscritos = lista.some((a) => inscritos(a) !== "");
+  const linhas = lista
+    .map((a) => `<tr><td><strong>${esc(a.area)}</strong><small>O edital exige: “${esc(a.requisito || "consulte o edital")}”</small></td><td>${esc([a.edital ? `Edital ${a.edital}` : "", a.campus || ""].filter(Boolean).join(" · "))}</td><td class="num">${esc(a.vagas || "")}</td><td>${esc(NIVEL_ROTULO[a.nivel_minimo] || a.nivel_minimo || "")}</td>${temInscritos ? `<td class="num">${esc(inscritos(a))}</td>` : ""}</tr>`)
+    .join("");
+  return `<section><h2>Vagas e requisitos</h2><div class="rolagem"><table class="vagas"><thead><tr><th>Área</th><th>Local</th><th class="num">Vagas</th><th>Titulação mínima</th>${temInscritos ? '<th class="num">Inscritos</th>' : ""}</tr></thead><tbody>${linhas}</tbody></table></div><p class="nota">O Radar não decide quem pode concorrer. Confira o requisito no edital oficial antes de se inscrever.</p></section>`;
 }
 
 function blocoAvisos(c) {
@@ -305,11 +387,14 @@ function paginaConcurso(c) {
 <style>
 *{box-sizing:border-box}
 html,body{margin:0;padding:0;background:#F5F1E9;color:#424240}
-body{font-family:Afacad,system-ui,sans-serif;font-size:17px;line-height:1.55}
+body{font-family:Afacad,system-ui,sans-serif;font-size:18px;line-height:1.55}
 a{color:#284696}
-.topo{background:#284696;color:#F5F1E9;padding:14px 16px}
-.topo a{color:#F5F1E9;text-decoration:none;font-family:"Funnel Display",system-ui,sans-serif;font-weight:700}
-main{max-width:760px;margin:0 auto;padding:20px 16px 48px}
+.topo{background:#284696;color:#fff;padding:12px 16px}
+.topo-dentro{max-width:900px;margin:0 auto;display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:6px 20px}
+.topo a{color:#fff;text-decoration:none;font-family:"Funnel Display",system-ui,sans-serif;font-weight:700;min-height:44px;display:inline-flex;align-items:center}
+.topo .marca{font-size:24px;font-weight:800}
+.topo .radar{font-size:19px}
+main{max-width:900px;margin:0 auto;padding:20px 16px 48px}
 .migalhas{font-size:14px;margin-bottom:12px}
 h1{font-family:"Funnel Display",system-ui,sans-serif;font-weight:800;color:#284696;font-size:28px;line-height:1.2;margin:4px 0 8px}
 h2{font-family:"Funnel Display",system-ui,sans-serif;font-weight:700;color:#284696;font-size:21px;margin:32px 0 10px}
@@ -325,24 +410,36 @@ dl{margin:0;background:#fff;border-radius:8px;overflow:hidden}
 dt{font-weight:600}
 dd{margin:0}
 .etapas,.avisos{padding:0;margin:0;list-style:none}
-.etapa{background:#fff;border-radius:8px;padding:12px 16px;margin-bottom:10px}
-.etapa.didatica{border:2px solid #284696}
-.etapa-topo{display:flex;flex-wrap:wrap;justify-content:space-between;gap:4px 12px}
-.etapa-nome{font-weight:700}
-.etapa-data{font-weight:600;color:#284696}
-.etapa-carater{font-size:15px;color:#6b6b68}
-.etapa-detalhes{margin:8px 0 0;padding-left:18px;font-size:15px}
+.etapa{background:#fff;border:1px solid #e2ddd0;border-radius:12px;padding:14px 18px;margin-bottom:10px;display:flex;flex-wrap:wrap;gap:4px 20px}
+.etapa.didatica{border:2px solid #CF5645}
+.etapa-data{flex:0 0 170px;font-family:"Funnel Display",system-ui,sans-serif;font-weight:700;color:#424240}
+.etapa-corpo{flex:999 1 360px;min-width:0}
+.etapa-nome{font-weight:700;font-size:19px;margin:0;font-family:Afacad,system-ui,sans-serif;color:#424240}
+.etapa.didatica .etapa-nome{color:#a53a2b}
+.etapa-carater{font-size:16px;color:#5b5b59}
+.etapa-detalhes{margin:8px 0 0;padding-left:18px;font-size:17px}
+.mudancas{list-style:none;margin:0;padding:4px 16px;background:#fff;border:1px solid #e2ddd0;border-radius:12px}
+.mudancas li{display:flex;flex-wrap:wrap;gap:2px 18px;padding:10px 0;border-top:1px solid #ece6da}
+.mudancas li:first-child{border-top:0}
+.mudancas .quando{flex:0 0 104px;font-weight:700;color:#284696}
+.mudancas small,.vagas small{display:block;font-size:15px;color:#5b5b59;font-weight:400}
+.rolagem{overflow-x:auto;background:#fff;border:1px solid #e2ddd0;border-radius:12px}
+.vagas{width:100%;min-width:640px;border-collapse:collapse;font-size:17px}
+.vagas th{background:#e7ebf6;color:#284696;text-align:left;padding:10px 14px}
+.vagas td{padding:10px 14px;border-top:1px solid #ece6da;vertical-align:top}
+.vagas .num{text-align:right}
 .avisos li{background:#fff;border-radius:8px;padding:10px 16px;margin-bottom:8px;border-left:4px solid #284696}
 .botoes{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px}
 .botao{display:inline-block;padding:12px 18px;border-radius:8px;font-weight:600;text-decoration:none}
 .botao.primario{background:#284696;color:#fff}
 .botao.secundario{background:#fff;color:#284696;border:2px solid #284696}
 .nota{font-size:14px;color:#6b6b68;margin-top:24px}
-@media (max-width:560px){.linha{grid-template-columns:1fr;gap:2px}h1{font-size:24px}}
+.botao.laranja{background:#b8432f;color:#fff}
+@media (max-width:560px){.linha{grid-template-columns:1fr;gap:2px}h1{font-size:24px}.etapa-data{flex:1 1 100%}.botao{flex:1 1 100%;text-align:center}}
 </style>
 </head>
 <body>
-<header class="topo"><a href="/radar/">Radar de Concursos Docentes · Aula Nota 10</a></header>
+<header class="topo"><div class="topo-dentro"><a class="marca" href="https://aulanota10.com">Aula Nota 10</a><a class="radar" href="/radar/">Radar de Concursos</a></div></header>
 <main>
 <nav class="migalhas"><a href="/radar/">Radar de Concursos Docentes</a> › ${esc(c.sigla)}</nav>
 <span class="selo ${f.classe}">${esc(f.rotulo)}</span>
@@ -362,11 +459,15 @@ ${linhaFicha("Prazo próprio", (i.excecoes || []).map((x) => `${x.areas}, ${ehDa
 ${linhaFicha("Taxa", i.taxa)}
 ${linhaFicha("Banca", c.banca)}
 </dl></section>
+${blocoAlteracoes(c)}
 ${blocoEtapas(c)}
 ${blocoAvisos(c)}
+${blocoVagas(c)}
 <div class="botoes">
-${vazio(c.link_oficial) ? "" : `<a class="botao primario" href="${esc(c.link_oficial)}" target="_blank" rel="noopener">Ver o edital oficial</a>`}
-<a class="botao secundario" href="/radar/">Ver todos os concursos no Radar</a>
+${typeof c.link_oficial !== "string" || vazio(c.link_oficial) ? "" : `<a class="botao primario" href="${esc(c.link_oficial)}" target="_blank" rel="noopener">Ver o edital oficial</a>`}
+<a class="botao laranja" href="https://wa.me/5584999360222?text=${encodeURIComponent(`Olá! Vi o Radar de Concursos e quero me preparar para a prova didática do concurso ${c.sigla} (${c.numero_edital}).`)}" target="_blank" rel="noopener">Quero preparar esta prova didática</a>
+<a class="botao secundario" href="/radar/?c=${esc(c.id)}">Ver no Radar, com as vagas e os filtros</a>
+<a class="botao secundario" href="/radar/">Ver todos os concursos</a>
 </div>
 <p class="nota">Resumo feito pela Aula Nota 10 a partir do edital e atualizado em ${esc(dataLonga(atualizado))}. As datas podem mudar por retificação; confira sempre o documento oficial.</p>
 </main>

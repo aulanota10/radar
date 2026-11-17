@@ -23,7 +23,9 @@ if (!Array.isArray(c)) {
 
 const re = /^\d{4}-\d{2}-\d{2}$/;
 const TIPOS_DATA = ['exata', 'periodo', 'nao_divulgada'];
-const TIPOS_ETAPA = ['objetiva', 'discursiva', 'didatica', 'titulos', 'memorial', 'resultado', 'outra'];
+// 'pratica' e 'projeto' desde 17/11/2026 (antes saiam como 'outra')
+const TIPOS_ETAPA = ['objetiva', 'discursiva', 'didatica', 'pratica', 'projeto', 'titulos', 'memorial', 'resultado', 'outra'];
+const UFS = ['AC','AL','AP','AM','BA','CE','DF','ES','GO','MA','MT','MS','MG','PA','PB','PR','PE','PI','RJ','RN','RS','RO','RR','SC','SP','SE','TO'];
 const SITUACOES = ['aberta', 'abre_em_breve', 'encerrada', 'consultar'];
 
 const ids = c.map(x => x.id);
@@ -35,6 +37,10 @@ c.forEach((x, i) => {
   if (!x.id) erros.push('concurso sem id na posicao ' + (i + 1));
   if (!x.sigla) avisos.push(ref + ': sem sigla');
   if (!x.link_oficial) avisos.push(ref + ': sem link_oficial');
+  // Sem UF o concurso some do filtro e do mapa de estados do site (17/11/2026). Fica como aviso, para nao
+  // parar a publicacao do Radar inteiro; o compilador preenche pela sigla ou pelo nome da instituicao.
+  if (!x.uf) avisos.push(ref + ': sem uf (nao aparece no filtro de estado)');
+  else if (!UFS.includes(x.uf)) erros.push(ref + ': uf invalida -> ' + x.uf);
 
   const etapas = x.etapas || [];
   if (!etapas.some(e => e.tipo === 'didatica')) {

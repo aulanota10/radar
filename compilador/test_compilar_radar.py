@@ -206,10 +206,6 @@ class Cosmeticos0511(unittest.TestCase):
         self.assertTrue(cr.detalhe_gerado("criterios", "clareza;; domínio"))
 
 
-if __name__ == "__main__":
-    unittest.main()
-
-
 class ConferenciaUFJ15nov(unittest.TestCase):
     """Conferência da ficha da UFJ 05 em 15/11/2026."""
 
@@ -276,3 +272,63 @@ class DetalheEscrita16nov(unittest.TestCase):
         ext = {"escrita": {"padrao": {"tempo": {"duracao_total_min": 240}, "consulta": {"situacao": "proibida"}},
                            "por_escopo": [{"consulta": {"situacao": "permitida"}}]}}
         self.assertEqual(cr.detalhe_escrita(ext), {"duracao": "4 horas"})
+
+
+class CamposDoSite17Nov(unittest.TestCase):
+    """Campos novos para a busca, o filtro de estado e a ficha do Radar (17/11/2026)."""
+
+    def test_uf_pela_sigla_e_pelo_nome(self):
+        self.assertEqual(cr.uf_da_instituicao("UERJ", ""), "RJ")
+        self.assertEqual(cr.uf_da_instituicao("XYZ", "Universidade Federal do Rio Grande do Norte"), "RN")
+        self.assertEqual(cr.uf_da_instituicao("XYZ", "Universidade Federal de Mato Grosso do Sul"), "MS")
+        self.assertEqual(cr.uf_da_instituicao("XYZ", "Universidade Federal do Paraná"), "PR")
+        self.assertIsNone(cr.uf_da_instituicao("XYZ", "Universidade Federal de Santa Maria"))
+
+    def test_campos_estruturados_do_texto_da_ficha(self):
+        c = cr.campos_estruturados({"sigla": "USP", "instituicao": "Universidade de São Paulo",
+                                    "numero_edital": "Edital nº 023/2026 - CPPS, publicado em 24/08/2026, "
+                                                     "com 3 documentos de alteração publicados depois",
+                                    "vagas": "26 vagas (5 PcD)"})
+        self.assertEqual(c["uf"], "SP")
+        self.assertEqual(c["edital"], {"numero": "023/2026 - CPPS", "publicacao": "2026-08-24", "alteracoes": 3})
+        self.assertEqual(c["vagas_total"], 26)
+        p = cr.campos_estruturados({"uf": "SP", "numero_edital": "8 editais: 1/2026 e 2/2026",
+                                    "vagas": "1 vaga por edital, em 8 concursos independentes"})
+        self.assertEqual(p["edital"], {"editais": 8})
+        self.assertEqual(p["vagas_total"], 8)
+
+    def test_alteracoes_agrupadas_por_documento(self):
+        doc = {"tipo": "retificacao", "numero_literal": "Retificação 1", "caminho": "d/r1.pdf"}
+        ext = {"alteracoes": [
+            {"documento": doc, "data_publicacao": "2026-09-02", "campo_afetado": "vagas[0].vagas_imediatas"},
+            {"documento": doc, "data_publicacao": "2026-09-02", "campo_afetado": None,
+             "evento_afetado": {"tipo_evento": "aplicacao", "etapa_ref": "didatica"}},
+            {"documento": {"tipo": "portaria_banca", "numero_literal": "Portaria 9", "caminho": "d/p9.pdf"},
+             "data_publicacao": "2026-10-01", "campo_afetado": None},
+        ]}
+        self.assertEqual(cr.alteracoes_do_concurso(ext), [
+            {"data": "2026-10-01", "documento": "Portaria 9", "muda": "banca"},
+            {"data": "2026-09-02", "documento": "Retificação 1", "muda": "vagas e datas da prova didática"},
+        ])
+
+    def test_temas_e_inscritos(self):
+        e = {"_slug": "x", "numero_edital": "5/2026",
+             "didatica": {"padrao": {"temas": [{"lista": ["a", "b"], "etapas": ["escrita", "didatica"]}]},
+                          "por_escopo": [{"temas": [{"quantidade": 10}]},
+                                         {"temas": [{"quantidade": 3, "etapas": ["escrita"]}]}]},
+             "inscritos_homologados": [{"lotacao": "01", "modalidade": "total", "quantidade": 12},
+                                       {"lotacao": "01", "modalidade": "negros", "quantidade": 2},
+                                       {"lotacao": "02", "modalidade": "ampla concorrência", "quantidade": 4}]}
+        self.assertEqual(cr.temas_da_didatica([e]), {"min": 2, "max": 10})
+        self.assertEqual(cr.inscritos_por_vaga([e], False), {"01": 12, "02": 4})
+        self.assertEqual(cr.inscritos_por_vaga([e], True), {"5/2026|01": 12, "5/2026|02": 4})
+
+    def test_pratica_publicada_como_outra_continua_casando(self):
+        anteriores = [{"nome": "Prova prática", "tipo": "outra"}]
+        self.assertIs(cr.etapa_correspondente({"nome": "Prova Prática", "tipo": "pratica"}, anteriores, set()),
+                      anteriores[0])
+        self.assertIsNone(cr.etapa_correspondente({"nome": "Projeto", "tipo": "projeto"}, anteriores, set()))
+
+
+if __name__ == "__main__":
+    unittest.main()
