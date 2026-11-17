@@ -148,6 +148,14 @@ def so_cota(e):
         and not COTA_MISTO.search(COTA_NAO_MISTO.sub(" ", lit))
 
 
+def titulo_so_cota(titulo):
+    """Documento que, pelo título, só trata de procedimento de cota (IFSULDEMINAS 188, conferência de 17/11/2026:
+    "Heteroidentificação - Edital 188_2026 - Final" e "- Recursos" iam a todos, porque a data já estava no estado
+    por outro documento e o próprio documento não tinha evento para o teste de so_cota)."""
+    t = titulo or ""
+    return bool(COTA_TEXTO.search(t)) and not COTA_MISTO.search(COTA_NAO_MISTO.sub(" ", t))
+
+
 def interno_da_comissao(e):
     """Etapa interna da comissão, sem ação do candidato (IFMG 1077: "Avaliação recursal"): não vira aviso."""
     return e.get("tipo_evento") == "outro" and bool(INTERNO_DA_COMISSAO.search(e.get("descricao_literal") or ""))
@@ -1865,6 +1873,8 @@ def executar(vigia, hoje, anterior):
             # a convocação nº 5 ficou só com eventos substituídos pela retificação; aí valem os do próprio documento
             evs_doc = [e for e in evs_doc if e["estado"] == "vigente"] or evs_doc
             if evs_doc and all(so_cota(e) for e in evs_doc):
+                doc_cota = True
+            elif not evs_doc and titulo_so_cota(titulo):
                 doc_cota = True
             if frase and t.get("tipo") in ("cronograma", "retificacao_cronograma") and so_passado(c["eventos"], cam, hoje):
                 # UFBA 06, conferência de 27/10/2026: cronogramas de Eletrotécnica, Química Analítica e Sociologia

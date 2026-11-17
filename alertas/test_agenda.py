@@ -601,6 +601,12 @@ class CotaEComissao(unittest.TestCase):
                                    "descricao_literal": "Interposição de recursos contra o resultado preliminar dos " + self.LIT_COTA}))
         self.assertTrue(A.so_cota({"tipo_evento": "recurso", "descricao_literal": "Recurso contra o parecer da Banca de Heteroidentificação"}))  # UFRN 108
 
+    def test_titulo_de_heteroidentificacao_sem_evento_e_so_cota(self):  # IFSULDEMINAS 188, conferência de 17/11/2026
+        self.assertTrue(A.titulo_so_cota("Heteroidentificação - Edital 188 2026 - Final Heteroidentificação - Edital 188_2026 - Final.pdf"))
+        self.assertTrue(A.titulo_so_cota("Heteroidentificação - Edital 188 2026 - Recursos x.pdf"))
+        self.assertFalse(A.titulo_so_cota("Resultado da prova didática e da heteroidentificação.pdf"))
+        self.assertFalse(A.titulo_so_cota("Resultado final.pdf"))
+
     def test_descricao_que_mistura_outra_etapa_vai_a_todos(self):
         # UNEB 085: memorial e heteroidentificação no mesmo aviso
         self.assertFalse(A.so_cota({"tipo_evento": "recurso",
