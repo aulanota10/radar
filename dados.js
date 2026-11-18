@@ -1,6 +1,6 @@
 // ═══════════════════════════════════════════════════════════════════════
 //  DADOS DO RADAR DE CONCURSOS · Aula Nota 10
-//  Última verificação: 17/11/2026
+//  Última verificação: 18/11/2026
 //
 //  ESTE É O ÚNICO ARQUIVO QUE VOCÊ PRECISA EDITAR PARA ATUALIZAR O SITE.
 //  Não mexa no index.html.
@@ -35,7 +35,7 @@
 // Gerado por compilar_radar.py a partir das extrações v2 (vigia-documentos/extracoes).
 // Para corrigir um dado, corrija a extração e rode o compilador de novo.
 
-window.RADAR_ATUALIZADO = "17/11/2026";
+window.RADAR_ATUALIZADO = "18/11/2026";
 
 window.CONCURSOS = [
   {
@@ -43445,7 +43445,7 @@ window.CONCURSOS = [
     "inscricao": {
       "inicio": "2026-10-06",
       "fim": "2026-11-17",
-      "situacao": "aberta",
+      "situacao": "encerrada",
       "taxa": "R$ 200,00, com pagamento da GRU até 18/11"
     },
     "etapas": [
@@ -46619,7 +46619,7 @@ window.CONCURSOS = [
     "inscricao": {
       "inicio": "2026-11-03",
       "fim": "2026-11-17",
-      "situacao": "aberta",
+      "situacao": "encerrada",
       "taxa": "de R$ 160,00 a R$ 200,00, conforme a área. Pedido de isenção de 03/11 a 04/11"
     },
     "etapas": [
