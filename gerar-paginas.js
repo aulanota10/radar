@@ -324,6 +324,42 @@ function blocoVagas(c) {
   return `<section><h2>Vagas e requisitos</h2><div class="rolagem"><table class="vagas"><thead><tr><th>Área</th><th>Local</th><th class="num">Vagas</th><th>Titulação mínima</th>${temInscritos ? '<th class="num">Inscritos</th>' : ""}</tr></thead><tbody>${linhas}</tbody></table></div><p class="nota">O Radar não decide quem pode concorrer. Confira o requisito no edital oficial antes de se inscrever.</p></section>`;
 }
 
+// Preparação Aula Nota 10 (17/11/2026): e-book e curso nas landing pages, mentoria no WhatsApp.
+// Perto da prova didática (até 30 dias ou em andamento) a mentoria vem primeiro; longe, o curso.
+const LINK_EBOOK = "https://aulanota10.com/ebook/";
+const LINK_CURSO = "https://aulanota10.com/";
+function linkMentoria(c) {
+  const msg = c
+    ? `Olá, professor Samuel! Vi o Radar de Concursos e tenho interesse na mentoria para a prova didática do concurso ${c.sigla}${c.edital && c.edital.numero ? ` (edital ${c.edital.numero})` : ""}.`
+    : "Olá, professor Samuel! Vi o Radar de Concursos e tenho interesse na mentoria.";
+  return `https://wa.me/5584999360222?text=${encodeURIComponent(msg)}`;
+}
+const ITENS_PREP = {
+  ebook: ["E-book gratuito", "5 erros que podem te eliminar na prova de desempenho didático", "Receber o e-book"],
+  curso: ["Curso online", "Curso Aula Nota 10: preparação para a prova de desempenho didático", "Conhecer o curso"],
+  mentoria: ["Mentoria", "Acompanhamento individual com o professor Samuel", "Falar sobre a mentoria"],
+};
+function blocoPreparacao(c) {
+  const dd = (c.etapas || []).find((e) => e.tipo === "didatica");
+  let ordem = ["curso", "ebook", "mentoria"];
+  let titulo = "Prepare-se para esta prova didática";
+  const ini = dd && inicioData(dd.data);
+  const fim = dd && fimData(dd.data);
+  if (ini && fim) {
+    const dias = Math.round((Date.parse(ini) - Date.parse(HOJE)) / 86400000);
+    if (fim >= HOJE && dias <= 30) ordem = ["mentoria", "ebook", "curso"];
+    if (fim < HOJE) titulo = "Prepare-se para a sua próxima prova didática";
+  }
+  const cartoes = ordem
+    .map((k, i) => {
+      const [rotulo, texto, acao] = ITENS_PREP[k];
+      const href = k === "ebook" ? LINK_EBOOK : k === "curso" ? LINK_CURSO : linkMentoria(c);
+      return `<a class="prep${i === 0 ? " primeiro" : ""}" href="${esc(href)}"${k === "mentoria" ? ' target="_blank" rel="noopener"' : ""} data-umami-event="preparacao" data-umami-event-lugar="pagina" data-umami-event-item="${k}"><small>${esc(rotulo)}</small><span>${esc(texto)}</span><strong>${esc(acao)} →</strong></a>`;
+    })
+    .join("");
+  return `<section><h2>${esc(titulo)}</h2><div class="preps">${cartoes}</div></section>`;
+}
+
 function blocoAvisos(c) {
   const avisos = (c.avisos_edital || []).filter((a) => !vazio(a));
   if (!avisos.length) return "";
@@ -435,11 +471,21 @@ dd{margin:0}
 .botao.secundario{background:#fff;color:#284696;border:2px solid #284696}
 .nota{font-size:14px;color:#6b6b68;margin-top:24px}
 .botao.laranja{background:#b8432f;color:#fff}
+.menu{display:flex;flex-wrap:wrap;gap:2px 14px}
+.menu a{font-family:Afacad,system-ui,sans-serif;font-weight:600;font-size:16.5px}
+.preps{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px}
+.prep{display:flex;flex-direction:column;gap:4px;text-decoration:none;color:#424240;background:#fff;border:1px solid #e2ddd0;border-radius:12px;padding:14px 16px}
+.prep small{font-size:14px;font-weight:700;text-transform:uppercase;letter-spacing:.04em;color:#5b5b59}
+.prep span{flex:1 1 auto;font-size:17px;line-height:1.3}
+.prep strong{color:#284696}
+.prep.primeiro{background:#284696;border-color:#284696;color:#fff}
+.prep.primeiro small{color:#cfd8f0}
+.prep.primeiro strong{color:#fff}
 @media (max-width:560px){.linha{grid-template-columns:1fr;gap:2px}h1{font-size:24px}.etapa-data{flex:1 1 100%}.botao{flex:1 1 100%;text-align:center}}
 </style>
 </head>
 <body>
-<header class="topo"><div class="topo-dentro"><a class="marca" href="https://aulanota10.com">Aula Nota 10</a><a class="radar" href="/radar/">Radar de Concursos</a></div></header>
+<header class="topo"><div class="topo-dentro"><a class="marca" href="https://aulanota10.com">Aula Nota 10</a><nav class="menu" aria-label="Radar e preparação"><a href="/radar/">Radar de Concursos</a><a href="${LINK_EBOOK}" data-umami-event="preparacao" data-umami-event-lugar="pagina-cabecalho" data-umami-event-item="ebook">Material gratuito</a><a href="${LINK_CURSO}" data-umami-event="preparacao" data-umami-event-lugar="pagina-cabecalho" data-umami-event-item="curso">Curso online</a><a href="${linkMentoria(null)}" target="_blank" rel="noopener" data-umami-event="preparacao" data-umami-event-lugar="pagina-cabecalho" data-umami-event-item="mentoria">Mentoria</a></nav></div></header>
 <main>
 <nav class="migalhas"><a href="/radar/">Radar de Concursos Docentes</a> › ${esc(c.sigla)}</nav>
 <span class="selo ${f.classe}">${esc(f.rotulo)}</span>
@@ -463,9 +509,9 @@ ${blocoAlteracoes(c)}
 ${blocoEtapas(c)}
 ${blocoAvisos(c)}
 ${blocoVagas(c)}
+${blocoPreparacao(c)}
 <div class="botoes">
 ${typeof c.link_oficial !== "string" || vazio(c.link_oficial) ? "" : `<a class="botao primario" href="${esc(c.link_oficial)}" target="_blank" rel="noopener">Ver o edital oficial</a>`}
-<a class="botao laranja" href="https://wa.me/5584999360222?text=${encodeURIComponent(`Olá! Vi o Radar de Concursos e quero me preparar para a prova didática do concurso ${c.sigla} (${c.numero_edital}).`)}" target="_blank" rel="noopener">Quero preparar esta prova didática</a>
 <a class="botao secundario" href="/radar/?c=${esc(c.id)}">Ver no Radar, com as vagas e os filtros</a>
 <a class="botao secundario" href="/radar/">Ver todos os concursos</a>
 </div>
