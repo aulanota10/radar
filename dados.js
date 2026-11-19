@@ -1,6 +1,6 @@
 // ═══════════════════════════════════════════════════════════════════════
 //  DADOS DO RADAR DE CONCURSOS · Aula Nota 10
-//  Última verificação: 18/11/2026
+//  Última verificação: 19/11/2026
 //
 //  ESTE É O ÚNICO ARQUIVO QUE VOCÊ PRECISA EDITAR PARA ATUALIZAR O SITE.
 //  Não mexa no index.html.
@@ -35,7 +35,7 @@
 // Gerado por compilar_radar.py a partir das extrações v2 (vigia-documentos/extracoes).
 // Para corrigir um dado, corrija a extração e rode o compilador de novo.
 
-window.RADAR_ATUALIZADO = "18/11/2026";
+window.RADAR_ATUALIZADO = "19/11/2026";
 
 window.CONCURSOS = [
   {
@@ -1616,8 +1616,8 @@ window.CONCURSOS = [
         "data": {
           "tipo": "periodo",
           "valor": "2026-11-03",
-          "fim": "2026-11-30",
-          "nota": "Datas por área: 1.2.7 (Educação, Subárea: Educação e Artes Visuais), 1.2.12 (Língua Alemã, Literatura de Língua Alemã e…) e 1.2.13 (Linguística, Letras e Artes - Teatro…): 03/11; 1.2.8 (Educação, Subárea: Sociologia da Educação), 1.2.9 (Engenharia, Subárea: Polímeros), 1.2.10 (Farmacologia), 1.2.14 (Medicina Interna, Subárea: Nefrologia) e 1.2.15 (Odontologia, Subárea: Cariologia ou…): 09/11; 1.2.1 (Antropologia, Subárea: Teoria Antropológica), 1.2.4 (Ciências da Saúde/Medicina, Subárea…) e 1.2.5 (Direito, Subárea: Direito Internacional…): 16/11; 1.2.2 (Arquitetura e Urbanismo, Subárea: Projeto…): 23/11; 1.2.6 (Ecofisiologia e Manejo de Plantas de Lavoura): 24/11; 1.2.3 (Ciências Agrárias, Subárea: Entomologia…) e 1.2.16 (Teatro, Subárea: Ensino de Teatro): 30/11; demais áreas: sem data (em prazo não inferior a 30 (trinta) dias, contados da data de publicação do presente Edital no Diário Oficial da União)"
+          "fim": "2026-12-08",
+          "nota": "Datas por área: 1.2.7 (Educação, Subárea: Educação e Artes Visuais), 1.2.12 (Língua Alemã, Literatura de Língua Alemã e…) e 1.2.13 (Linguística, Letras e Artes - Teatro…): 03/11; 1.2.8 (Educação, Subárea: Sociologia da Educação), 1.2.9 (Engenharia, Subárea: Polímeros), 1.2.10 (Farmacologia), 1.2.14 (Medicina Interna, Subárea: Nefrologia) e 1.2.15 (Odontologia, Subárea: Cariologia ou…): 09/11; 1.2.1 (Antropologia, Subárea: Teoria Antropológica), 1.2.4 (Ciências da Saúde/Medicina, Subárea…) e 1.2.5 (Direito, Subárea: Direito Internacional…): 16/11; 1.2.2 (Arquitetura e Urbanismo, Subárea: Projeto…): 23/11; 1.2.6 (Ecofisiologia e Manejo de Plantas de Lavoura): 24/11; 1.2.3 (Ciências Agrárias, Subárea: Entomologia…) e 1.2.16 (Teatro, Subárea: Ensino de Teatro): 30/11; 1.2.11 (Imunologia, Subárea: Imunologia Celular…): 08/12; demais áreas: sem data (em prazo não inferior a 30 (trinta) dias, contados da data de publicação do presente Edital no Diário Oficial da União)"
         },
         "detalhe": {
           "duracao": "4 horas",
@@ -1645,7 +1645,7 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2026-11-09",
           "fim": "2026-12-24",
-          "nota": "Datas por área: 1.2.7 (Educação, Subárea: Educação e Artes Visuais): 09/11 a 10/11; 1.2.12 (Língua Alemã, Literatura de Língua Alemã e…): 11/11 a 13/11; 1.2.13 (Linguística, Letras e Artes - Teatro…): 12/11 a 18/11; 1.2.9 (Engenharia, Subárea: Polímeros): 19/11; 1.2.14 (Medicina Interna, Subárea: Nefrologia): 23/11; 1.2.1 (Antropologia, Subárea: Teoria Antropológica) e 1.2.4 (Ciências da Saúde/Medicina, Subárea…): 24/11 a 25/11; 1.2.10 (Farmacologia): 25/11 a 27/11; 1.2.8 (Educação, Subárea: Sociologia da Educação): 25/11 a 29/11; 1.2.5 (Direito, Subárea: Direito Internacional…): 30/11; 1.2.15 (Odontologia, Subárea: Cariologia ou…): 30/11 a 01/12; 1.2.6 (Ecofisiologia e Manejo de Plantas de Lavoura): 01/12 a 02/12; 1.2.3 (Ciências Agrárias, Subárea: Entomologia…): 11/12 a 12/12; 1.2.16 (Teatro, Subárea: Ensino de Teatro): 13/12 a 17/12; 1.2.2 (Arquitetura e Urbanismo, Subárea: Projeto…): 19/12 a 24/12"
+          "nota": "Datas por área: 1.2.7 (Educação, Subárea: Educação e Artes Visuais): 09/11 a 10/11; 1.2.12 (Língua Alemã, Literatura de Língua Alemã e…): 11/11 a 13/11; 1.2.13 (Linguística, Letras e Artes - Teatro…): 12/11 a 18/11; 1.2.9 (Engenharia, Subárea: Polímeros): 19/11; 1.2.14 (Medicina Interna, Subárea: Nefrologia): 23/11; 1.2.1 (Antropologia, Subárea: Teoria Antropológica) e 1.2.4 (Ciências da Saúde/Medicina, Subárea…): 24/11 a 25/11; 1.2.10 (Farmacologia): 25/11 a 27/11; 1.2.8 (Educação, Subárea: Sociologia da Educação): 25/11 a 29/11; 1.2.5 (Direito, Subárea: Direito Internacional…): 30/11; 1.2.15 (Odontologia, Subárea: Cariologia ou…): 30/11 a 01/12; 1.2.6 (Ecofisiologia e Manejo de Plantas de Lavoura): 01/12 a 02/12; 1.2.3 (Ciências Agrárias, Subárea: Entomologia…): 11/12 a 12/12; 1.2.16 (Teatro, Subárea: Ensino de Teatro): 13/12 a 17/12; 1.2.11 (Imunologia, Subárea: Imunologia Celular…): 16/12; 1.2.2 (Arquitetura e Urbanismo, Subárea: Projeto…): 19/12 a 24/12"
         },
         "detalhe": {
           "duracao": "Aula de 35 a 55 minutos, pela Resolução 93/2021 do CONSUN. Fora do intervalo, desconto de 0,10 ponto por minuto. Passando 10 minutos do teto, a banca interrompe a exposição",
@@ -1678,8 +1678,8 @@ window.CONCURSOS = [
         "data": {
           "tipo": "periodo",
           "valor": "2026-11-09",
-          "fim": "2026-12-11",
-          "nota": "Datas por área: 1.2.7 (Educação, Subárea: Educação e Artes Visuais) e 1.2.12 (Língua Alemã, Literatura de Língua Alemã e…): 09/11; 1.2.13 (Linguística, Letras e Artes - Teatro…): 10/11 a 11/11; 1.2.9 (Engenharia, Subárea: Polímeros): 17/11; 1.2.1 (Antropologia, Subárea: Teoria Antropológica), 1.2.8 (Educação, Subárea: Sociologia da Educação) e 1.2.10 (Farmacologia): 23/11; 1.2.14 (Medicina Interna, Subárea: Nefrologia): 23/11 a 24/11; 1.2.4 (Ciências da Saúde/Medicina, Subárea…): 24/11; 1.2.6 (Ecofisiologia e Manejo de Plantas de Lavoura): 30/11; 1.2.5 (Direito, Subárea: Direito Internacional…): 30/11 a 02/12; 1.2.15 (Odontologia, Subárea: Cariologia ou…): 02/12; 1.2.16 (Teatro, Subárea: Ensino de Teatro): 06/12 a 07/12; 1.2.2 (Arquitetura e Urbanismo, Subárea: Projeto…): 08/12 a 11/12; 1.2.3 (Ciências Agrárias, Subárea: Entomologia…): 09/12 a 10/12"
+          "fim": "2026-12-14",
+          "nota": "Datas por área: 1.2.7 (Educação, Subárea: Educação e Artes Visuais) e 1.2.12 (Língua Alemã, Literatura de Língua Alemã e…): 09/11; 1.2.13 (Linguística, Letras e Artes - Teatro…): 10/11 a 11/11; 1.2.9 (Engenharia, Subárea: Polímeros): 17/11; 1.2.1 (Antropologia, Subárea: Teoria Antropológica), 1.2.8 (Educação, Subárea: Sociologia da Educação) e 1.2.10 (Farmacologia): 23/11; 1.2.14 (Medicina Interna, Subárea: Nefrologia): 23/11 a 24/11; 1.2.4 (Ciências da Saúde/Medicina, Subárea…): 24/11; 1.2.6 (Ecofisiologia e Manejo de Plantas de Lavoura): 30/11; 1.2.5 (Direito, Subárea: Direito Internacional…): 30/11 a 02/12; 1.2.15 (Odontologia, Subárea: Cariologia ou…): 02/12; 1.2.16 (Teatro, Subárea: Ensino de Teatro): 06/12 a 07/12; 1.2.2 (Arquitetura e Urbanismo, Subárea: Projeto…): 08/12 a 11/12; 1.2.3 (Ciências Agrárias, Subárea: Entomologia…): 09/12 a 10/12; 1.2.11 (Imunologia, Subárea: Imunologia Celular…): 14/12"
         },
         "detalhe": {}
       },
@@ -1691,7 +1691,7 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2026-11-10",
           "fim": "2026-12-18",
-          "nota": "Datas por área: 1.2.7 (Educação, Subárea: Educação e Artes Visuais) e 1.2.12 (Língua Alemã, Literatura de Língua Alemã e…): 10/11; 1.2.13 (Linguística, Letras e Artes - Teatro…): 11/11 a 12/11; 1.2.9 (Engenharia, Subárea: Polímeros): 18/11; 1.2.10 (Farmacologia) e 1.2.14 (Medicina Interna, Subárea: Nefrologia): 24/11; 1.2.8 (Educação, Subárea: Sociologia da Educação): 24/11 a 25/11; 1.2.4 (Ciências da Saúde/Medicina, Subárea…): 25/11; 1.2.1 (Antropologia, Subárea: Teoria Antropológica): 26/11 a 28/11; 1.2.5 (Direito, Subárea: Direito Internacional…): 01/12; 1.2.6 (Ecofisiologia e Manejo de Plantas de Lavoura) e 1.2.15 (Odontologia, Subárea: Cariologia ou…): 03/12 a 04/12; 1.2.16 (Teatro, Subárea: Ensino de Teatro): 08/12 a 13/12; 1.2.2 (Arquitetura e Urbanismo, Subárea: Projeto…): 12/12 a 18/12; 1.2.3 (Ciências Agrárias, Subárea: Entomologia…): 13/12 a 14/12"
+          "nota": "Datas por área: 1.2.7 (Educação, Subárea: Educação e Artes Visuais) e 1.2.12 (Língua Alemã, Literatura de Língua Alemã e…): 10/11; 1.2.13 (Linguística, Letras e Artes - Teatro…): 11/11 a 12/11; 1.2.9 (Engenharia, Subárea: Polímeros): 18/11; 1.2.10 (Farmacologia) e 1.2.14 (Medicina Interna, Subárea: Nefrologia): 24/11; 1.2.8 (Educação, Subárea: Sociologia da Educação): 24/11 a 25/11; 1.2.4 (Ciências da Saúde/Medicina, Subárea…): 25/11; 1.2.1 (Antropologia, Subárea: Teoria Antropológica): 26/11 a 28/11; 1.2.5 (Direito, Subárea: Direito Internacional…): 01/12; 1.2.6 (Ecofisiologia e Manejo de Plantas de Lavoura) e 1.2.15 (Odontologia, Subárea: Cariologia ou…): 03/12 a 04/12; 1.2.16 (Teatro, Subárea: Ensino de Teatro): 08/12 a 13/12; 1.2.2 (Arquitetura e Urbanismo, Subárea: Projeto…): 12/12 a 18/12; 1.2.3 (Ciências Agrárias, Subárea: Entomologia…): 13/12 a 14/12; 1.2.11 (Imunologia, Subárea: Imunologia Celular…): 15/12"
         },
         "detalhe": {}
       }
@@ -11310,7 +11310,7 @@ window.CONCURSOS = [
     "instituicao": "Instituto Federal de Educação, Ciência e Tecnologia do Sul de Minas Gerais",
     "nivel": "EBTT",
     "uf": "MG",
-    "numero_edital": "Edital nº 188/2026, publicado em 27/07/2026, com 13 documentos de alteração publicados depois",
+    "numero_edital": "Edital nº 188/2026, publicado em 27/07/2026, com 14 documentos de alteração publicados depois",
     "vagas": "19 vagas para Professor EBTT + cadastro de reserva",
     "areas": "15 áreas, entre elas Administração, Português/Espanhol, Zootecnia II - Suinocultura, Nutrição e Produção Animal, Informática e Biologia I",
     "campi": "Pouso Alegre/MG, Carmo de Minas, Inconfidentes, Machado e Muzambinho",
@@ -12080,6 +12080,11 @@ window.CONCURSOS = [
     "avisos_edital": [],
     "alteracoes": [
       {
+        "data": "2026-11-17",
+        "documento": "Convocação para a Confirmação Complementar à Autodeclaração de Pessoas Pretas ou Pardas -…",
+        "muda": "datas"
+      },
+      {
         "data": "2026-11-11",
         "documento": "Comunicado N° 3",
         "muda": "datas da prova didática e datas"
@@ -12133,11 +12138,6 @@ window.CONCURSOS = [
         "data": "2026-08-21",
         "documento": "Comunicado nº 1",
         "muda": "datas da prova objetiva e etapas do concurso"
-      },
-      {
-        "data": "2026-08-14",
-        "documento": "2ª Retificação",
-        "muda": "prova didática"
       }
     ],
     "inscritos": {
@@ -12171,7 +12171,7 @@ window.CONCURSOS = [
     "edital": {
       "numero": "188/2026",
       "publicacao": "2026-07-27",
-      "alteracoes": 13
+      "alteracoes": 14
     },
     "vagas_total": 19
   },
@@ -39005,7 +39005,7 @@ window.CONCURSOS = [
     "instituicao": "Universidade Federal de Pelotas",
     "nivel": "Magistério Superior",
     "uf": "RS",
-    "numero_edital": "Edital nº 028/2026, publicado em 14/09/2026, com 32 documentos de alteração publicados depois",
+    "numero_edital": "Edital nº 028/2026, publicado em 14/09/2026, com 33 documentos de alteração publicados depois",
     "vagas": "32 vagas, com 40% reservadas a negros, indígenas e quilombolas e 5% a pessoas com deficiência",
     "areas": "28 áreas, entre elas Mercadologia, Teoria da Computação, Ciência da Computação, Processamento de Sinais e Eletrônica e Irrigação e Drenagem",
     "campi": "Pelotas e/ou proximidades",
@@ -39128,6 +39128,11 @@ window.CONCURSOS = [
     "avisos_edital": [],
     "alteracoes": [
       {
+        "data": "2026-11-17",
+        "documento": "Edital CPP nº 028/2026 Convocação, Procedimento de Confirmação Complementar à…",
+        "muda": "datas"
+      },
+      {
         "data": "2026-11-16",
         "documento": "EDITAL CPP Nº 028/2026 RESULTADO DOS RECURSOS",
         "muda": "inscritos homologados"
@@ -39181,11 +39186,6 @@ window.CONCURSOS = [
         "data": "2026-10-29",
         "documento": "Formulário de homologação, banca e cronograma, área 06 (SEI nº 4384914)",
         "muda": "datas, datas da prova escrita e datas da prova didática"
-      },
-      {
-        "data": "2026-10-29",
-        "documento": "Formulário de homologação, banca e cronograma, área 15 (SEI nº 4386642)",
-        "muda": "datas, datas da prova escrita e datas da prova didática"
       }
     ],
     "inscritos": {
@@ -39229,7 +39229,7 @@ window.CONCURSOS = [
     "edital": {
       "numero": "028/2026",
       "publicacao": "2026-09-14",
-      "alteracoes": 32
+      "alteracoes": 33
     },
     "vagas_total": 32
   },
@@ -45725,7 +45725,7 @@ window.CONCURSOS = [
     "inscricao": {
       "inicio": "2026-10-05",
       "fim": "2026-11-18",
-      "situacao": "aberta",
+      "situacao": "encerrada",
       "taxa": "R$ 286,00"
     },
     "etapas": [
@@ -47443,7 +47443,7 @@ window.CONCURSOS = [
     "instituicao": "Universidade Federal de Santa Maria",
     "nivel": "Magistério Superior",
     "uf": "RS",
-    "numero_edital": "Edital nº 252/2026, publicado em 03/11/2026, com 1 documento de alteração publicado depois",
+    "numero_edital": "Edital nº 252/2026, publicado em 03/11/2026, com 2 documentos de alteração publicados depois",
     "vagas": "6 vagas",
     "areas": "Ciências Exatas e da Terra/ Ciência da Computação/ Metodologia e Técnicas da Computação, Linguística, Letras e Artes/ Artes/ Artes Plásticas/ Fotografia, Ciências Sociais Aplicadas/ Economia/ Crescimento e Desenvolvimento Econômico (ênfase em Macroeconomia), Ciências Exatas e da Terra/ Física/ Física Estatística e Termodinâmica e Ciências Exatas e da Terra/ Física/ Física Clássica e Física Quântica/ Mecânica e Campos",
     "campi": "Cachoeira do Sul e Santa Maria",
@@ -47544,6 +47544,11 @@ window.CONCURSOS = [
     ],
     "alteracoes": [
       {
+        "data": "2026-11-17",
+        "documento": "Edital UFSM N. 257/2026",
+        "muda": "datas"
+      },
+      {
         "data": "2026-11-11",
         "documento": "Edital UFSM N. 254/2026",
         "muda": "datas"
@@ -47560,7 +47565,7 @@ window.CONCURSOS = [
     "edital": {
       "numero": "252/2026",
       "publicacao": "2026-11-03",
-      "alteracoes": 1
+      "alteracoes": 2
     },
     "vagas_total": 6
   },
@@ -48955,5 +48960,110 @@ window.CONCURSOS = [
       "alteracoes": 0
     },
     "vagas_total": 2
+  },
+  {
+    "id": "ufra-10-2026",
+    "sigla": "UFRA",
+    "instituicao": "Universidade Federal Rural da Amazônia",
+    "nivel": "Magistério Superior",
+    "uf": "PA",
+    "numero_edital": "Edital nº 10/2026, publicado em 19/11/2026",
+    "vagas": "57 vagas",
+    "areas": "56 áreas, entre elas Clínica Médica de Pequenos Animais - especialidades I, Clínica Médica de Animais de Companhia - especialidades II, Forragicultura, Morfologia Animal e Biologia Molecular e Produção e Nutrição de Ruminantes",
+    "campi": "ISPA, CAPANEMA, CAPITÃO POÇO e PARAGOMINAS",
+    "titulacao": "Conforme a área",
+    "regime": "Dedicação Exclusiva",
+    "remuneracao": "R$ 6.397,19 de vencimento básico em Dedicação Exclusiva, chegando a R$ 13.753,96 com a maior titulação",
+    "banca": "Comissão própria da UFRA",
+    "link_oficial": "https://concursopublico.ufra.edu.br/",
+    "inscricao": {
+      "inicio": "2026-12-04",
+      "fim": "2026-12-18",
+      "situacao": "abre_em_breve",
+      "taxa": "R$ 180,00. Pedido de isenção de 04/12 a 07/12"
+    },
+    "etapas": [
+      {
+        "nome": "Prova Escrita de Conhecimentos Específicos",
+        "tipo": "discursiva",
+        "carater": "Eliminatória e classificatória",
+        "data": {
+          "tipo": "periodo",
+          "valor": "2027-02-15",
+          "fim": "2027-02-26"
+        },
+        "detalhe": {
+          "duracao": "4 horas",
+          "formato": "Sem consulta"
+        },
+        "peso": "3"
+      },
+      {
+        "nome": "Prova Didática",
+        "tipo": "didatica",
+        "carater": "Eliminatória e classificatória",
+        "data": {
+          "tipo": "periodo",
+          "valor": "2027-02-15",
+          "fim": "2027-02-26"
+        },
+        "detalhe": {
+          "arguicao": "Sim, por até 15 minutos, a critério da banca",
+          "nota_minima": "7 em 10",
+          "criterios": "10 pontos: I. Plano de aula: a) Clareza dos objetivos 0,2 ponto; I. Plano de aula: b) Adequação dos objetivos ao conteúdo 0,2 ponto; I. Plano de aula: c) Coerência na subdivisão do conteúdo 0,2 ponto; I. Plano de aula: d) Adequação do conteúdo ao tempo disponível 0,2 ponto; I. Plano de aula: e) Seleção apropriada do material didático 0,2 ponto; II. Desenvolvimento da aula: a) Apresentação inicial e… 0,9 ponto; II. Desenvolvimento da aula: b) Relação da continuidade entre o plano… 0,9 ponto; II. Desenvolvimento da aula: c) Linguagem clara, correta e adequada… 0,9 ponto; II. Desenvolvimento da aula: d) Abordagem das ideias fundamentais ao… 0,9 ponto; II. Desenvolvimento da aula: e) Sequência lógica do conteúdo… 0,9 ponto; II. Desenvolvimento da aula: f) Articulação entre as ideias… 0,9 ponto; II. Desenvolvimento da aula: g) Conteúdo com informações corretas 0,9 ponto; II. Desenvolvimento da aula: h) Adequação do conteúdo em função do… 0,9 ponto; II. Desenvolvimento da aula: i) Estrutura da aula, evidenciando… 0,9 ponto; II. Desenvolvimento da aula: j) Uso adequado do material didático 0,9 ponto",
+          "plano_de_aula": "Exigido: uma cópia do Plano de Aula para cada um dos membros da banca examinadora, entregues logo após o sorteio da ordem de apresentação da Prova Didática, com Objetivos, Conteúdo e Material didático",
+          "recursos": "As Unidades Acadêmicas são responsáveis pela disponibilização de equipamentos e/ou materiais didáticos necessários à execução das etapas avaliativas; o edital não lista os recursos fornecidos"
+        },
+        "peso": "4"
+      },
+      {
+        "nome": "Avaliação Curricular (AC) ou Prova de Títulos (PT)",
+        "tipo": "titulos",
+        "carater": "Classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {},
+        "peso": "2"
+      },
+      {
+        "nome": "Resultado final",
+        "tipo": "resultado",
+        "carater": "",
+        "data": {
+          "tipo": "exata",
+          "valor": "2027-03-23"
+        },
+        "detalhe": {}
+      }
+    ],
+    "periodo_provas": {
+      "inicio": "2027-02-15",
+      "fim": "2027-02-26"
+    },
+    "logo": "ufra.png",
+    "formacoes_status": "nao_extraido",
+    "familias": [],
+    "formacoes": [],
+    "familias_pos": [],
+    "areas_formacoes": [],
+    "observacao": "",
+    "detalhamento": "completo",
+    "avisos_edital": [],
+    "fonte_dados": {
+      "origem": "extracao_v2",
+      "extracoes": [
+        "ufra-10-2026"
+      ],
+      "extraido_em": "2026-11-19",
+      "em_conferencia": true
+    },
+    "edital": {
+      "numero": "10/2026",
+      "publicacao": "2026-11-19",
+      "alteracoes": 0
+    },
+    "vagas_total": 57
   }
 ];
