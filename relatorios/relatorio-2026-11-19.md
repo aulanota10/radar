@@ -1,29 +1,8 @@
 # Relatório do compilador do Radar · 19/11/2026
 
-93 concursos no dados.js gerado, 92 no publicado; 95 vieram das extrações.
+93 concursos no dados.js gerado, 93 no publicado; 95 vieram das extrações.
 
-## O que muda no Radar em relação ao publicado (8 concursos)
-
-**ufrgs-09-2026**
-- Prova Escrita: 03/11/2026 a 30/11/2026 → 03/11/2026 a 08/12/2026
-- Prova Didática: nota da data alterada
-- Exame de Títulos e Trabalhos: 09/11/2026 a 11/12/2026 → 09/11/2026 a 14/12/2026
-- Defesa da Produção Intelectual: nota da data alterada
-
-**ifsuldeminas-188-2026**
-- editais alterado
-
-**ufpel-028-2026**
-- editais alterado
-
-**unesp-fct-463-2026**
-- inscrição: aberta → encerrada
-
-**ufsm-252-2026**
-- editais alterado
-
-**ufra-10-2026**
-- concurso novo no Radar
+## O que muda no Radar em relação ao publicado (2 concursos)
 
 **furb-07-2026**
 - sai do Radar: resultado final em 08/10/2026, há mais de 30 dias (regra de 11/10/2026)
@@ -56,16 +35,12 @@ Já estavam no relatório anterior e seguem sem conferência.
 **unesp-assistente-2026**
 - vagas: o dados.js anterior dizia "1 vaga por edital, em 8 concursos independentes", a extração soma 8 (publicado o anterior)
 
-## Liberados após conferência (46 concursos)
+## Liberados após conferência (45 concursos)
 
 Conferidos nos documentos oficiais (compilador/liberados.json); o dados.js gerado publica o valor da extração.
 
 **ufrn-058-2026**
 - texto corrigido após conferência (2026-11-08): campi
-
-**ufrgs-09-2026**
-- Prova Escrita: dados.js anterior 03/11/2026 a 30/11/2026, extração 03/11/2026 a 08/12/2026 (liberado após conferência: publicada a extração)
-- Exame de Títulos e Trabalhos: dados.js anterior 09/11/2026 a 11/12/2026, extração 09/11/2026 a 14/12/2026 (liberado após conferência: publicada a extração)
 
 **unespar-023-2026**
 - vagas: o dados.js anterior dizia "26 vagas", a extração soma 26 (liberado após conferência: publicada a extração)
