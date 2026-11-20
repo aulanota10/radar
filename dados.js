@@ -1,6 +1,6 @@
 // ═══════════════════════════════════════════════════════════════════════
 //  DADOS DO RADAR DE CONCURSOS · Aula Nota 10
-//  Última verificação: 19/11/2026
+//  Última verificação: 20/11/2026
 //
 //  ESTE É O ÚNICO ARQUIVO QUE VOCÊ PRECISA EDITAR PARA ATUALIZAR O SITE.
 //  Não mexa no index.html.
@@ -35,7 +35,7 @@
 // Gerado por compilar_radar.py a partir das extrações v2 (vigia-documentos/extracoes).
 // Para corrigir um dado, corrija a extração e rode o compilador de novo.
 
-window.RADAR_ATUALIZADO = "19/11/2026";
+window.RADAR_ATUALIZADO = "20/11/2026";
 
 window.CONCURSOS = [
   {
@@ -1593,7 +1593,7 @@ window.CONCURSOS = [
     "instituicao": "Universidade Federal do Rio Grande do Sul",
     "nivel": "Magistério Superior",
     "uf": "RS",
-    "numero_edital": "Edital nº 09/2026, publicado em 19/08/2026, com 29 documentos de alteração publicados depois",
+    "numero_edital": "Edital nº 09/2026, publicado em 19/08/2026, com 30 documentos de alteração publicados depois",
     "vagas": "20 vagas (10 ampla concorrência, 5 pretos, 1 indígena, 4 PcD)",
     "areas": "16 áreas, entre elas Antropologia, Subárea: Teoria Antropológica, Arquitetura e Urbanismo, Subárea: Projeto Arquitetônico: fundamentos e tecnologia, Ciências Agrárias, Subárea: Entomologia Agrícola, Ciências da Saúde/Medicina, Subárea: Anatomia Patológica e Patologia Clínica e Direito, Subárea: Direito Internacional Público",
     "campi": "Instituto de Filosofia e Ciências Humanas - Departamento de Antropologia, Faculdade de Arquitetura - Departamento de Arquitetura, Faculdade de Agronomia - Departamento de Fitossanidade e Faculdade de Medicina - Departamento de Patologia",
@@ -2556,6 +2556,11 @@ window.CONCURSOS = [
     "avisos_edital": [],
     "alteracoes": [
       {
+        "data": "2026-11-18",
+        "documento": "Cronograma Final (SEI nº 8266602)",
+        "muda": "datas da prova didática e datas"
+      },
+      {
         "data": "2026-11-16",
         "documento": "Cronograma Reformulado",
         "muda": "datas da prova escrita, datas da prova didática e datas"
@@ -2609,11 +2614,6 @@ window.CONCURSOS = [
         "data": "2026-11-09",
         "documento": "Cronograma Reformulado no Ato de Instalação",
         "muda": "datas e datas da prova didática"
-      },
-      {
-        "data": "2026-11-09",
-        "documento": "Cronograma Reformulado",
-        "muda": "datas e datas da prova escrita"
       }
     ],
     "inscritos": {
@@ -2645,7 +2645,7 @@ window.CONCURSOS = [
     "edital": {
       "numero": "09/2026",
       "publicacao": "2026-08-19",
-      "alteracoes": 29
+      "alteracoes": 30
     },
     "vagas_total": 20
   },
@@ -11310,7 +11310,7 @@ window.CONCURSOS = [
     "instituicao": "Instituto Federal de Educação, Ciência e Tecnologia do Sul de Minas Gerais",
     "nivel": "EBTT",
     "uf": "MG",
-    "numero_edital": "Edital nº 188/2026, publicado em 27/07/2026, com 14 documentos de alteração publicados depois",
+    "numero_edital": "Edital nº 188/2026, publicado em 27/07/2026, com 17 documentos de alteração publicados depois",
     "vagas": "19 vagas para Professor EBTT + cadastro de reserva",
     "areas": "15 áreas, entre elas Administração, Português/Espanhol, Zootecnia II - Suinocultura, Nutrição e Produção Animal, Informática e Biologia I",
     "campi": "Pouso Alegre/MG, Carmo de Minas, Inconfidentes, Machado e Muzambinho",
@@ -11368,7 +11368,7 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2026-10-31",
           "fim": "2026-12-13",
-          "nota": "Datas por área: CDM-1 (Administração), CDM-2 (Português/Espanhol), IFS-1 (Zootecnia II - Suinocultura, Nutrição e…), IFS-6 (Engenharia Agrícola), MCH-1 (Zootecnia III - Bioclimatologia e Animais…), MCH-2 (Zootecnia IV - Fisiologia Animal) e MUZ-1 (Zootecnia I - Avicultura de Corte e Postura…): 31/10; MCH-5 (Sociologia): 31/10 a 01/11; IFS-2 (Informática), IFS-3 (Biologia I), IFS-4 (Biologia II), IFS-5 (Educação Matemática), IFS-7 (Atendimento Educacional Especializado), MCH-3 (Informática), MCH-6 (Matemática), MUZ-2 (Zootecnia II - Suinocultura, Nutrição e…) e MUZ-3 (Informática): 01/11; MCH-4 (Segurança do Trabalho): 13/12"
+          "nota": "Datas por área: CDM-1 (Administração), CDM-2 (Português/Espanhol), IFS-6 (Engenharia Agrícola), MCH-1 (Zootecnia III - Bioclimatologia e Animais…), MCH-2 (Zootecnia IV - Fisiologia Animal) e MUZ-1 (Zootecnia I - Avicultura de Corte e Postura…): 31/10; MCH-5 (Sociologia): 31/10 a 01/11; IFS-1 (Zootecnia II - Suinocultura, Nutrição e…): 31/10 a 13/12; IFS-2 (Informática), IFS-3 (Biologia I), IFS-4 (Biologia II), MCH-3 (Informática), MCH-6 (Matemática) e MUZ-3 (Informática): 01/11; IFS-5 (Educação Matemática), IFS-7 (Atendimento Educacional Especializado) e MUZ-2 (Zootecnia II - Suinocultura, Nutrição e…): 01/11 a 13/12; MCH-4 (Segurança do Trabalho): 13/12"
         },
         "detalhe": {
           "duracao": "Aula de 15 a 20 minutos, com arguição posterior de até 10 minutos",
@@ -11407,10 +11407,8 @@ window.CONCURSOS = [
         "tipo": "resultado",
         "carater": "",
         "data": {
-          "tipo": "periodo",
-          "valor": "2026-12-10",
-          "fim": "2026-12-30",
-          "nota": "Datas por área: CDM-1 (Administração), CDM-2 (Português/Espanhol), IFS-1 (Zootecnia II - Suinocultura, Nutrição e…), IFS-2 (Informática), IFS-3 (Biologia I), IFS-4 (Biologia II), IFS-5 (Educação Matemática), IFS-6 (Engenharia Agrícola), IFS-7 (Atendimento Educacional Especializado), MCH-1 (Zootecnia III - Bioclimatologia e Animais…), MCH-2 (Zootecnia IV - Fisiologia Animal), MCH-3 (Informática), MCH-5 (Sociologia), MCH-6 (Matemática), MUZ-1 (Zootecnia I - Avicultura de Corte e Postura…), MUZ-2 (Zootecnia II - Suinocultura, Nutrição e…) e MUZ-3 (Informática): 10/12; MCH-4 (Segurança do Trabalho): 30/12"
+          "tipo": "exata",
+          "valor": "2026-12-30"
         },
         "detalhe": {}
       }
@@ -12080,9 +12078,24 @@ window.CONCURSOS = [
     "avisos_edital": [],
     "alteracoes": [
       {
+        "data": "2026-11-18",
+        "documento": "Resultado Preliminar - Prova Didática (CDM-1 e IFS-3)",
+        "muda": "datas da prova didática"
+      },
+      {
+        "data": "2026-11-18",
+        "documento": "Resultado Preliminar - Caracterização de Deficiência",
+        "muda": "datas"
+      },
+      {
         "data": "2026-11-17",
         "documento": "Convocação para a Confirmação Complementar à Autodeclaração de Pessoas Pretas ou Pardas -…",
         "muda": "datas"
+      },
+      {
+        "data": "2026-11-17",
+        "documento": "4ª Retificação ao Edital nº 188/2026",
+        "muda": "datas da prova didática, datas da prova de títulos e datas"
       },
       {
         "data": "2026-11-11",
@@ -12123,21 +12136,6 @@ window.CONCURSOS = [
         "data": "2026-10-14",
         "documento": "Convocação para a Prova de Desempenho Didático-Pedagógico e Entrega de Títulos",
         "muda": "datas da prova didática"
-      },
-      {
-        "data": "2026-10-13",
-        "documento": "3ª Retificação",
-        "muda": "prova didática e datas da prova didática"
-      },
-      {
-        "data": "2026-10-02",
-        "documento": "Edital nº 227/2026 (Edital Complementar)",
-        "muda": "datas da prova objetiva, datas da prova didática, datas da prova de títulos e datas e outros pontos"
-      },
-      {
-        "data": "2026-08-21",
-        "documento": "Comunicado nº 1",
-        "muda": "datas da prova objetiva e etapas do concurso"
       }
     ],
     "inscritos": {
@@ -12171,7 +12169,7 @@ window.CONCURSOS = [
     "edital": {
       "numero": "188/2026",
       "publicacao": "2026-07-27",
-      "alteracoes": 14
+      "alteracoes": 17
     },
     "vagas_total": 19
   },
@@ -12181,7 +12179,7 @@ window.CONCURSOS = [
     "instituicao": "Instituto Federal de Educação, Ciência e Tecnologia de Santa Catarina",
     "nivel": "EBTT",
     "uf": "SC",
-    "numero_edital": "Edital nº 01/2026, publicado em 20/07/2026, com 3 documentos de alteração publicados depois",
+    "numero_edital": "Edital nº 01/2026, publicado em 20/07/2026, com 4 documentos de alteração publicados depois",
     "vagas": "46 vagas de provimento imediato + cadastro de reserva",
     "areas": "24 áreas, entre elas Administração, Artes Cênicas, Artes Visuais, Automação Industrial e Educação Física",
     "campi": "São Carlos, Xanxerê, Palhoça Bilíngue e Canoinhas",
@@ -12248,7 +12246,8 @@ window.CONCURSOS = [
         "data": {
           "tipo": "periodo",
           "valor": "2026-11-23",
-          "fim": "2026-11-28"
+          "fim": "2026-11-28",
+          "nota": "Datas por área: 01 (Administração), 07 (Automação Industrial), 08 (Automação Industrial), 14 (Eletrônica Geral), 15 (Enologia), 17 (Fabricação Mecânica), 20 (Física) e 33 (Matemática): 23/11; 04 (Artes Visuais), 09 (Automação Industrial), 10 (Educação Física), 16 (Espanhol), 21 (Física), 26 (História), 34 (Matemática) e 41 (Segurança e Higiene do Trabalho): 23/11 a 24/11; 23 (Geografia): 23/11 a 25/11; 02 (Administração) e 18 (Fabricação Mecânica): 24/11; 03 (Artes Cênicas), 05 (Artes Visuais), 19 (Fabricação Mecânica) e 22 (Física): 24/11 a 25/11; 11 (Educação Física) e 27 (História): 24/11 a 26/11; 06 (Artes Visuais), 24 (Geografia), 29 (Informática), 31 (Inglês), 35 (Matemática) e 40 (Química Geral): 25/11 a 26/11; 43 (Sociologia): 25/11 a 27/11; 30 (Informática) e 32 (Instalações e Acionamentos): 26/11; 12 (Educação Física), 25 (Geotécnica), 28 (História), 36 (Matemática) e 42 (Sistema de Energia): 26/11 a 27/11; 37 (Processos Têxteis) e 38 (Produção Animal): 27/11; 13 (Educação Física): 28/11; demais áreas: 23/11 a 28/11"
         },
         "detalhe": {
           "duracao": "35 minutos",
@@ -13809,6 +13808,11 @@ window.CONCURSOS = [
     "avisos_edital": [],
     "alteracoes": [
       {
+        "data": "2026-11-11",
+        "documento": "Edital de Convocação nº 13/2026",
+        "muda": "datas da prova didática"
+      },
+      {
         "data": "2026-08-19",
         "documento": "Edital de 18 de agosto de 2026 (retificação do Edital nº 1/2026)",
         "muda": "pontuação e prova objetiva"
@@ -13880,7 +13884,7 @@ window.CONCURSOS = [
     "edital": {
       "numero": "01/2026",
       "publicacao": "2026-07-20",
-      "alteracoes": 3
+      "alteracoes": 4
     },
     "vagas_total": 46
   },
@@ -18569,8 +18573,8 @@ window.CONCURSOS = [
     "nivel": "Magistério Superior",
     "uf": "BA",
     "numero_edital": "Edital nº 06/2026, publicado em 25/06/2026, com 24 documentos de alteração publicados depois",
-    "vagas": "37 vagas",
-    "areas": "35 áreas, entre elas Gestão da Produção e Métodos Quantitativos, Enfermagem no Cuidado à Saúde da Mulher na Atenção Básica, Parto e Puerpério, Fundamentos de Enfermagem no Cuidado Individual e Cuidado em Enfermagem à Pessoa no Contexto Hospitalar, Gestão e Educação Permanente em Saúde e Enfermagem e Extensão Rural",
+    "vagas": "35 vagas",
+    "areas": "34 áreas, entre elas Gestão da Produção e Métodos Quantitativos, Enfermagem no Cuidado à Saúde da Mulher na Atenção Básica, Parto e Puerpério, Fundamentos de Enfermagem no Cuidado Individual e Cuidado em Enfermagem à Pessoa no Contexto Hospitalar, Gestão e Educação Permanente em Saúde e Enfermagem e Extensão Rural",
     "campi": "Salvador e Vitória da Conquista",
     "titulacao": "Conforme a área",
     "regime": "Dedicação Exclusiva, 20 horas semanais e 40 horas semanais",
@@ -20600,7 +20604,7 @@ window.CONCURSOS = [
       "publicacao": "2026-06-25",
       "alteracoes": 24
     },
-    "vagas_total": 37
+    "vagas_total": 35
   },
   {
     "id": "uftm-28-2026",
@@ -44539,7 +44543,7 @@ window.CONCURSOS = [
     "instituicao": "UNIVERSIDADE DA INTEGRAÇÃO INTERNACIONAL DA LUSOFONIA AFRO-BRASILEIRA",
     "nivel": "Magistério Superior",
     "uf": "CE",
-    "numero_edital": "Edital nº 14/2026, publicado em 01/10/2026, com 16 documentos de alteração publicados depois",
+    "numero_edital": "Edital nº 14/2026, publicado em 01/10/2026, com 18 documentos de alteração publicados depois",
     "vagas": "15 vagas",
     "areas": "9 áreas, entre elas Avaliação Nutricional e Nutrição Clínica, Fundamentos da Terapia Ocupacional, Atividades e Recursos Terapêuticos Ocupacionais, Práticas em Atenção Primária à Saúde/Semiologia Médica, Anatomia Humana e Cirurgia e Medicina Baseada em Evidências, Epidemiologia e Pesquisa Clínica",
     "campi": "Baturité/CE e São Francisco do Conde/BA",
@@ -44577,8 +44581,8 @@ window.CONCURSOS = [
         "data": {
           "tipo": "periodo",
           "valor": "2026-11-10",
-          "fim": "2026-12-02",
-          "nota": "Datas por área: Saúde da Mulher, Métodos de Imagem e Psiquiatria: 10/11; Medicina Baseada em Evidências… e Saúde da Criança: 17/11; Práticas em Atenção Primária à… e Anatomia Humana e Cirurgia: 24/11; Avaliação Nutricional e Nutrição Clínica e Fundamentos da Terapia Ocupacional…: 01/12 a 02/12"
+          "fim": "2026-12-04",
+          "nota": "Datas por área: Saúde da Mulher, Métodos de Imagem e Psiquiatria: 10/11; Medicina Baseada em Evidências… e Saúde da Criança: 17/11; Práticas em Atenção Primária à… e Anatomia Humana e Cirurgia: 24/11; Fundamentos da Terapia Ocupacional…: 01/12; Avaliação Nutricional e Nutrição Clínica: 02/12 a 04/12"
         },
         "detalhe": {
           "duracao": "De 45 a 50 minutos. Cumprir o tempo conta na avaliação da banca",
@@ -44598,8 +44602,8 @@ window.CONCURSOS = [
         "data": {
           "tipo": "periodo",
           "valor": "2026-11-13",
-          "fim": "2026-12-07",
-          "nota": "Datas por área: Saúde da Mulher, Métodos de Imagem e Psiquiatria: 13/11; Medicina Baseada em Evidências… e Saúde da Criança: 23/11; Práticas em Atenção Primária à… e Anatomia Humana e Cirurgia: 27/11; Avaliação Nutricional e Nutrição Clínica e Fundamentos da Terapia Ocupacional…: 07/12"
+          "fim": "2026-12-09",
+          "nota": "Datas por área: Saúde da Mulher, Métodos de Imagem e Psiquiatria: 13/11; Medicina Baseada em Evidências… e Saúde da Criança: 23/11; Práticas em Atenção Primária à… e Anatomia Humana e Cirurgia: 27/11; Fundamentos da Terapia Ocupacional…: 07/12; Avaliação Nutricional e Nutrição Clínica: 09/12"
         },
         "detalhe": {}
       },
@@ -44610,15 +44614,15 @@ window.CONCURSOS = [
         "data": {
           "tipo": "periodo",
           "valor": "2026-11-19",
-          "fim": "2026-12-11",
-          "nota": "Datas por área: Avaliação Nutricional e Nutrição Clínica: 11/12; Fundamentos da Terapia Ocupacional…: 11/12; Saúde da Mulher: 19/11; Métodos de Imagem: 19/11; Psiquiatria: 19/11; Saúde da Criança: 27/11; Medicina Baseada em Evidências…: 27/11; Práticas em Atenção Primária à…: 03/12; Anatomia Humana e Cirurgia: 03/12"
+          "fim": "2026-12-16",
+          "nota": "Datas por área: Saúde da Mulher: 19/11; Métodos de Imagem: 19/11; Psiquiatria: 19/11; Saúde da Criança: 27/11; Medicina Baseada em Evidências…: 27/11; Práticas em Atenção Primária à…: 03/12; Anatomia Humana e Cirurgia: 03/12; Fundamentos da Terapia Ocupacional…: 11/12; Avaliação Nutricional e Nutrição Clínica: 16/12"
         },
         "detalhe": {}
       }
     ],
     "periodo_provas": {
       "inicio": "2026-11-03",
-      "fim": "2026-12-02"
+      "fim": "2026-12-04"
     },
     "logo": "unilab.png",
     "formacoes_status": "nao_extraido",
@@ -44630,6 +44634,16 @@ window.CONCURSOS = [
     "detalhamento": "completo",
     "avisos_edital": [],
     "alteracoes": [
+      {
+        "data": "2026-11-18",
+        "documento": "Cronograma de Atividades – Fundamentos da Terapia Ocupacional, Atividades e Recursos…",
+        "muda": "datas da prova escrita, datas da prova didática, datas da prova de títulos e datas"
+      },
+      {
+        "data": "2026-11-18",
+        "documento": "Cronograma SEI nº 1573527 – Avaliação Nutricional e Nutrição Clínica (18/11/2026)",
+        "muda": "datas da prova escrita, datas da prova didática, datas da prova de títulos e datas"
+      },
       {
         "data": "2026-11-12",
         "documento": "",
@@ -44679,16 +44693,6 @@ window.CONCURSOS = [
         "data": "2026-10-27",
         "documento": "Alteração de Cronograma – Práticas em Atenção Primária à Saúde/Semiologia Médica",
         "muda": "prazo de inscrição, datas e inscrição"
-      },
-      {
-        "data": "2026-10-27",
-        "documento": "Alteração de Cronograma – Anatomia Humana e Cirurgia",
-        "muda": "prazo de inscrição, datas e inscrição"
-      },
-      {
-        "data": "2026-10-21",
-        "documento": "Retificação do Edital nº 14/2026",
-        "muda": "vagas e prova escrita"
       }
     ],
     "inscritos": {
@@ -44711,7 +44715,7 @@ window.CONCURSOS = [
     "edital": {
       "numero": "14/2026",
       "publicacao": "2026-10-01",
-      "alteracoes": 16
+      "alteracoes": 18
     },
     "vagas_total": 15
   },
@@ -46607,7 +46611,7 @@ window.CONCURSOS = [
     "instituicao": "Universidade Federal de Ciências da Saúde de Porto Alegre",
     "nivel": "Magistério Superior",
     "uf": "RS",
-    "numero_edital": "Edital nº 118/2026, publicado em 26/10/2026, com 2 documentos de alteração publicados depois",
+    "numero_edital": "Edital nº 118/2026, publicado em 26/10/2026, com 3 documentos de alteração publicados depois",
     "vagas": "10 vagas",
     "areas": "9 áreas, entre elas Gerenciamento em Enfermagem, Fisiologia Humana, Fonoaudiologia - Motricidade Orofacial, Fonoaudiologia - Saúde Coletiva e Pediatria Geral",
     "campi": "Departamento de Enfermagem, Departamento de Ciências Básicas da Saúde, Departamento de Fonoaudiologia e Departamento de Pediatria",
@@ -46718,6 +46722,11 @@ window.CONCURSOS = [
     "avisos_edital": [],
     "alteracoes": [
       {
+        "data": "2026-11-18",
+        "documento": "Edital PROGESP nº 121/2026 (Retificação 03)",
+        "muda": "vagas"
+      },
+      {
         "data": "2026-11-11",
         "documento": "Edital PROGESP nº 120/2026 (Retificação 02)",
         "muda": "reserva de vagas"
@@ -46739,7 +46748,7 @@ window.CONCURSOS = [
     "edital": {
       "numero": "118/2026",
       "publicacao": "2026-10-26",
-      "alteracoes": 2
+      "alteracoes": 3
     },
     "vagas_total": 10
   },
@@ -46862,7 +46871,7 @@ window.CONCURSOS = [
     "instituicao": "Universidade Federal Rural do Rio de Janeiro",
     "nivel": "Magistério Superior",
     "uf": "RJ",
-    "numero_edital": "Edital nº 56/2026, publicado em 26/10/2026, com 4 documentos de alteração publicados depois",
+    "numero_edital": "Edital nº 56/2026, publicado em 26/10/2026, com 5 documentos de alteração publicados depois",
     "vagas": "24 vagas",
     "areas": "23 áreas, entre elas Anestesiologia/Intensivismo Veterinária, Bovinocultura de Leite, Forragicultura e Pastagens, Fitopatologia e Serviço Social e Fundamentos do Trabalho Profissional",
     "campi": "Instituto de Veterinária/Departamento de Medicina e Cirurgia, Instituto de Zootecnia/Departamento de Produção Animal, Instituto de Zootecnia/Departamento de Nutrição Animal e Pastagens e Instituto de Ciências Biológicas e da Saúde/ Departamento de Entomologia e Fitopatologia",
@@ -46948,6 +46957,11 @@ window.CONCURSOS = [
         "muda": "prova de títulos"
       },
       {
+        "data": "2026-11-13",
+        "documento": "Baremas, programa e plano de trabalho de História da América, retificado (assinado em…",
+        "muda": "prova de títulos"
+      },
+      {
         "data": "2026-11-04",
         "documento": "Edital nº 56/2026 retificado em 04/11/2026",
         "muda": "vagas"
@@ -46974,7 +46988,7 @@ window.CONCURSOS = [
     "edital": {
       "numero": "56/2026",
       "publicacao": "2026-10-26",
-      "alteracoes": 4
+      "alteracoes": 5
     },
     "vagas_total": 24
   },
@@ -48056,6 +48070,13 @@ window.CONCURSOS = [
     "observacao": "",
     "detalhamento": "completo",
     "avisos_edital": [],
+    "inscritos": {
+      "01": 48,
+      "02": 28,
+      "03": 13,
+      "04": 14,
+      "05": 39
+    },
     "fonte_dados": {
       "origem": "extracao_v2",
       "extracoes": [
@@ -49065,5 +49086,102 @@ window.CONCURSOS = [
       "alteracoes": 0
     },
     "vagas_total": 57
+  },
+  {
+    "id": "ufmg-2257-2026",
+    "sigla": "UFMG",
+    "instituicao": "Universidade Federal de Minas Gerais",
+    "nivel": "Magistério Superior",
+    "uf": "MG",
+    "numero_edital": "Edital nº 2257/2026, publicado em 06/10/2026",
+    "vagas": "1 vaga",
+    "areas": "Língua Inglesa",
+    "campi": "FACULDADE DE LETRAS",
+    "titulacao": "Doutorado",
+    "regime": "40 (quarenta) horas semanais, em tempo integral, com dedicação exclusiva",
+    "remuneracao": "R$ 6.397,19 de vencimento básico em 40 (quarenta) horas semanais, em tempo integral, com dedicação exclusiva, chegando a R$ 13.753,96 com a maior titulação",
+    "banca": "Comissão própria da UFMG",
+    "link_oficial": "https://www.letras.ufmg.br",
+    "inscricao": {
+      "situacao": "consultar",
+      "taxa": "R$ 215,99. Inscrições por 45 dias corridos a contar da publicação do edital no DOU de 06/10/2026; confira a data final no edital"
+    },
+    "etapas": [
+      {
+        "nome": "Prova Escrita",
+        "tipo": "discursiva",
+        "carater": "Eliminatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {
+          "duracao": "5 horas",
+          "formato": "Com consulta durante 1 hora"
+        },
+        "peso": "1"
+      },
+      {
+        "nome": "Prova Didática",
+        "tipo": "didatica",
+        "carater": "",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {
+          "duracao": "50 minutos",
+          "arguicao": "Sim",
+          "sorteio": "Tema sorteado com 24 horas de antecedência"
+        },
+        "peso": "1"
+      },
+      {
+        "nome": "Julgamento de Títulos",
+        "tipo": "titulos",
+        "carater": "",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {},
+        "peso": "1"
+      },
+      {
+        "nome": "Resultado final",
+        "tipo": "resultado",
+        "carater": "",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "em horário e data que serão comunicados aos candidatos, durante a realização do Concurso"
+        },
+        "detalhe": {}
+      }
+    ],
+    "logo": "ufmg.png",
+    "formacoes_status": "nao_extraido",
+    "familias": [],
+    "formacoes": [],
+    "familias_pos": [],
+    "areas_formacoes": [],
+    "observacao": "",
+    "detalhamento": "completo",
+    "avisos_edital": [
+      "Avaliação de títulos: um item vale até 20 pontos, acima do teto do seu grupo (10). Pode ser erro de digitação do edital; confira no edital, que é a fonte oficial."
+    ],
+    "fonte_dados": {
+      "origem": "extracao_v2",
+      "extracoes": [
+        "ufmg-2257-2026"
+      ],
+      "extraido_em": "2026-11-20",
+      "em_conferencia": true
+    },
+    "edital": {
+      "numero": "2257/2026",
+      "publicacao": "2026-10-06",
+      "alteracoes": 0
+    },
+    "vagas_total": 1
   }
 ];
