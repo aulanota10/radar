@@ -1,5 +1,12 @@
 {
  "unesp-assistente-2026": [
   "vagas: o dados.js anterior dizia \"1 vaga por edital, em 8 concursos independentes\", a extração soma 8 (publicado o anterior)"
+ ],
+ "uerj-244-2026": [
+  "PROVA ESCRITA: dados.js anterior 23/11/2026, extração 15/02/2027 (publicado o anterior)",
+  "PROVA TEÓRICO-PRÁTICA: dados.js anterior 01/12/2026, extração 23/02/2027 (publicado o anterior)",
+  "PROVA DE AULA: dados.js anterior 26/11/2026, extração 18/02/2027 (publicado o anterior)",
+  "JULGAMENTO DE TÍTULOS E TRABALHOS: dados.js anterior 27/11/2026, extração 19/02/2027 (publicado o anterior)",
+  "inscrição fim: dados.js anterior 23/10/2026, extração 26/11/2026 (publicado o anterior)"
  ]
 }

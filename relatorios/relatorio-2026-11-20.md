@@ -1,39 +1,11 @@
 # Relatório do compilador do Radar · 20/11/2026
 
-94 concursos no dados.js gerado, 93 no publicado; 96 vieram das extrações.
+94 concursos no dados.js gerado, 94 no publicado; 96 vieram das extrações.
 
-## O que muda no Radar em relação ao publicado (10 concursos)
+## O que muda no Radar em relação ao publicado (3 concursos)
 
-**ufrgs-09-2026**
-- editais alterado
-
-**ifsuldeminas-188-2026**
-- Prova de Desempenho Didático: nota da data alterada
-- Resultado final: 10/12/2026 a 30/12/2026 → 30/12/2026
-- editais alterado
-
-**ifsc-01-2026**
-- Prova de Desempenho Didático: nota da data alterada
-- editais alterado
-
-**ufba-06-2026**
-- áreas alterado
-- vagas: "37 vagas" → "35 vagas"
-
-**unilab-14-2026**
-- Prova didática: 10/11/2026 a 02/12/2026 → 10/11/2026 a 04/12/2026
-- Avaliação de títulos: 13/11/2026 a 07/12/2026 → 13/11/2026 a 09/12/2026
-- Resultado final: 19/11/2026 a 11/12/2026 → 19/11/2026 a 16/12/2026
-- editais alterado
-
-**ufcspa-118-2026**
-- editais alterado
-
-**ufrrj-56-2026**
-- editais alterado
-
-**ufmg-2257-2026**
-- concurso novo no Radar
+**uerj-244-2026**
+- Resultado final: sem data → 24/02/2027
 
 **furb-07-2026**
 - sai do Radar: resultado final em 08/10/2026, há mais de 30 dias (regra de 11/10/2026)
@@ -58,6 +30,17 @@ Só para informação. Pela regra de 11/10/2026, o concurso continua no Radar at
 - **ufmg-1638-2026**: última data da prova didática 05/11/2026
 - **uesc-050-2026**: última data da prova didática 14/10/2026
 - **ufv-47-2026**: última data da prova didática 11/11/2026
+
+## Conflitos novos desta semana (1 concursos)
+
+Apareceram nesta rodada. A extração e o dados.js publicado discordam. O dados.js gerado mantém o valor publicado (modo conservador); confira no edital qual está certo.
+
+**uerj-244-2026**
+- PROVA ESCRITA: dados.js anterior 23/11/2026, extração 15/02/2027 (publicado o anterior)
+- PROVA TEÓRICO-PRÁTICA: dados.js anterior 01/12/2026, extração 23/02/2027 (publicado o anterior)
+- PROVA DE AULA: dados.js anterior 26/11/2026, extração 18/02/2027 (publicado o anterior)
+- JULGAMENTO DE TÍTULOS E TRABALHOS: dados.js anterior 27/11/2026, extração 19/02/2027 (publicado o anterior)
+- inscrição fim: dados.js anterior 23/10/2026, extração 26/11/2026 (publicado o anterior)
 
 ## Conflitos que continuam da semana anterior (1 concursos)
 
@@ -91,7 +74,6 @@ Conferidos nos documentos oficiais (compilador/liberados.json); o dados.js gerad
 
 **ifsuldeminas-188-2026**
 - Prova de Títulos: dados.js anterior 31/10/2026 a 13/12/2026, extração 13/12/2026 (liberado após conferência: publicada a extração)
-- Resultado final: dados.js anterior 10/12/2026 a 30/12/2026, extração 30/12/2026 (liberado após conferência: publicada a extração)
 - texto corrigido após conferência (2026-11-04): etapa:Prova de Títulos:data
 
 **ifmt-03-2026**
@@ -101,7 +83,7 @@ Conferidos nos documentos oficiais (compilador/liberados.json); o dados.js gerad
 - texto corrigido após conferência (2026-11-08): campi
 
 **ufba-06-2026**
-- vagas: o dados.js anterior dizia "37 vagas", a extração soma 35 (liberado após conferência: publicada a extração)
+- vagas: o dados.js anterior dizia "35 vagas", a extração soma 35 (liberado após conferência: publicada a extração)
 - texto corrigido após conferência (2026-11-08): campi
 
 **unifesp-2026**
@@ -186,9 +168,6 @@ Conferidos nos documentos oficiais (compilador/liberados.json); o dados.js gerad
 - texto corrigido após conferência (2026-11-08): campi
 
 **unilab-14-2026**
-- Prova didática: dados.js anterior 10/11/2026 a 02/12/2026, extração 10/11/2026 a 04/12/2026 (liberado após conferência: publicada a extração)
-- Avaliação de títulos: dados.js anterior 13/11/2026 a 07/12/2026, extração 13/11/2026 a 09/12/2026 (liberado após conferência: publicada a extração)
-- Resultado final: dados.js anterior 19/11/2026 a 11/12/2026, extração 19/11/2026 a 16/12/2026 (liberado após conferência: publicada a extração)
 - texto corrigido após conferência (2026-11-08): campi
 
 **uerj-255-2026**
@@ -226,6 +205,13 @@ Conferidos nos documentos oficiais (compilador/liberados.json); o dados.js gerad
 
 **ufc-52-2026**
 - texto corrigido após conferência (2026-11-15): campi
+
+## Dados novos trazidos pela extração (1 concursos)
+
+Etapas que estavam sem data no Radar e agora têm data publicada.
+
+**uerj-244-2026**
+- Resultado final agora tem data: 24/02/2027
 
 ## Mantido do dados.js anterior (25 concursos)
 
