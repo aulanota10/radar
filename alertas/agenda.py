@@ -1267,17 +1267,41 @@ def literal_da_alteracao(alt):
     return None
 
 
-def evento_vigente_da_retificacao(eventos, ev, cam):
+def evento_vigente_da_retificacao(eventos, ev, cam, valor_novo=None, escopo=None):
     """Quando a retificação troca um evento por outro, o aviso descreve o evento vigente da mesma
     retificação, não o literal antigo (IFSULDEMINAS 188, conferência de 20/10: o ev-0050, de 4 vias
-    entregues à banca, virou o ev-0156, de envio em PDF até uma hora antes). Sem um único candidato, fica o evento dado."""
+    entregues à banca, virou o ev-0156, de envio em PDF até uma hora antes). Sem um único candidato, fica o evento dado.
+
+    Com a data nova da alteração (valor_novo), o evento escolhido tem de ter essa data, ainda que já tenha
+    sido substituído por um documento posterior (conferência de 20/11/2026, IFSULDEMINAS 188: o recurso de
+    PcD e PI de 20/11 virou "Recurso contra o Resultado Preliminar do Concurso Público", que é de 29/12,
+    porque o evento certo já tinha sido trocado pelo resultado de 18/11 e o único vigente com a mesma chave era outro)."""
     if ev.get("estado") != "substituido":
         return ev
-    novos = [x for x in eventos
-             if x.get("estado") == "vigente" and x["tipo_evento"] == ev["tipo_evento"]
-             and x.get("etapa_ref") == ev.get("etapa_ref") and x.get("fase") == ev.get("fase")
-             and x.get("escopo") == ev.get("escopo") and (x.get("fonte") or {}).get("documento") == cam]
-    return novos[0] if len(novos) == 1 else ev
+
+    def esc(x):
+        return frozenset(x) if isinstance(x, list) else x
+
+    alvo = esc(escopo if escopo is not None else ev.get("escopo"))
+    mesmos = [x for x in eventos
+              if x is not ev and x["tipo_evento"] == ev["tipo_evento"]
+              and x.get("etapa_ref") == ev.get("etapa_ref") and x.get("fase") == ev.get("fase")
+              and (x.get("fonte") or {}).get("documento") == cam]
+    if valor_novo is not None and isinstance(valor_novo, dict) and "forma" in valor_novo:
+        cd = chave_data(valor_novo)
+        com_data = [x for x in mesmos if x.get("data") is not None and chave_data(x["data"]) == cd]
+        for grupo in ([x for x in com_data if esc(x.get("escopo")) == alvo],
+                      [x for x in com_data if esc(x.get("escopo")) == esc(ev.get("escopo"))]):
+            if len(grupo) == 1:
+                return grupo[0]
+    novos = [x for x in mesmos if x.get("estado") == "vigente" and x.get("escopo") == ev.get("escopo")]
+    if len(novos) == 1:
+        x = novos[0]
+        if valor_novo is not None and isinstance(valor_novo, dict) and "forma" in valor_novo \
+                and x.get("data") is not None and chave_data(x["data"]) != chave_data(valor_novo):
+            return ev  # o único vigente tem outra data: é outro evento, e o literal antigo engana menos
+        return x
+    return ev
 
 
 def chave_evento(e):
@@ -1710,7 +1734,7 @@ def executar(vigia, hoje, anterior):
                 continue  # UFERSA 030, 20/10: "pagamento era até 12/10, agora é até 13/10" depois de 13/10 é só ruído
             pseudo = ev_por_id.get(ea.get("evento_id")) or {"tipo_evento": ea.get("tipo_evento") or "evento",
                                                               "etapa_ref": ea.get("etapa_ref"), "fase": None}
-            pseudo = evento_vigente_da_retificacao(c["eventos"], pseudo, cam)
+            pseudo = evento_vigente_da_retificacao(c["eventos"], pseudo, cam, alt.get("valor_novo"), ea.get("escopo"))
             if not pseudo.get("descricao_literal") and literal_da_alteracao(alt):
                 pseudo = dict(pseudo, descricao_literal=literal_da_alteracao(alt))
             if interno_da_comissao(pseudo):

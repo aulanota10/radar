@@ -237,6 +237,39 @@ class RetificacaoTrocaEvento(unittest.TestCase):
         self.assertEqual(A.evento_vigente_da_retificacao([self.NOVO], self.NOVO, self.CAM)["id"], "ev-0156")
 
 
+class RetificacaoTrocaEventoComData(unittest.TestCase):
+    """Conferência de 20/11/2026, IFSULDEMINAS 188: o evento novo tem de ter a data nova da alteração."""
+    CAM = "documentos/x/4ª RETIFICAÇÃO.pdf"
+    AREAS = ["CDM-1", "IFS-3"]
+
+    def ev(self, i, desc, data, estado="vigente", escopo=None, doc=None):
+        return {"id": i, "tipo_evento": "recurso", "etapa_ref": None, "fase": None, "escopo": escopo or self.AREAS,
+                "estado": estado, "descricao_literal": desc, "data": {"forma": "fixa", "data": data},
+                "fonte": {"documento": doc or self.CAM}}
+
+    def test_prefere_o_evento_com_a_data_nova_mesmo_ja_substituido(self):
+        antigo = self.ev("ev-0137", "Recurso contra resultado PcD (antigo)", "2026-11-30", "substituido", doc="documentos/x/1ª.pdf")
+        certo = self.ev("ev-0231", "Recurso contra resultado PcD e PI", "2026-11-20", "substituido")
+        outro = self.ev("ev-0223", "Recurso contra o Resultado Preliminar do Concurso Público", "2026-12-29")
+        r = A.evento_vigente_da_retificacao([antigo, certo, outro], antigo, self.CAM, {"forma": "fixa", "data": "2026-11-20"})
+        self.assertEqual(r["id"], "ev-0231")
+
+    def test_vigente_unico_com_outra_data_nao_empresta_o_literal(self):
+        antigo = self.ev("ev-0137", "Recurso antigo", "2026-11-30", "substituido", doc="documentos/x/1ª.pdf")
+        outro = self.ev("ev-0223", "Recurso contra o Resultado Preliminar do Concurso Público", "2026-12-29")
+        r = A.evento_vigente_da_retificacao([antigo, outro], antigo, self.CAM, {"forma": "fixa", "data": "2026-11-20"})
+        self.assertEqual(r["id"], "ev-0137")
+
+    def test_escopo_da_alteracao_escolhe_o_evento(self):
+        antigo = self.ev("ev-0208", "Recurso das áreas suspensas", "2026-11-13", "substituido",
+                         escopo=["CDM-1", "IFS-1", "IFS-3"], doc="documentos/x/Com3.pdf")
+        a = self.ev("ev-0213", "Recurso didática CDM-1 e IFS-3", "2026-11-20", "substituido")
+        b = self.ev("ev-0214", "Recurso didática IFS-1", "2026-12-16", escopo=["IFS-1"])
+        r1 = A.evento_vigente_da_retificacao([antigo, a, b], antigo, self.CAM, {"forma": "fixa", "data": "2026-11-20"}, ["IFS-3", "CDM-1"])
+        r2 = A.evento_vigente_da_retificacao([antigo, a, b], antigo, self.CAM, {"forma": "fixa", "data": "2026-12-16"}, ["IFS-1"])
+        self.assertEqual((r1["id"], r2["id"]), ("ev-0213", "ev-0214"))
+
+
 def rodar_por_area(eventos, vagas, hoje, anterior_dia):
     """Como rodar(), com vagas, e devolve {área ou None: [textos dos agendados]}."""
     with tempfile.TemporaryDirectory() as v:
