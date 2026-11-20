@@ -44895,8 +44895,8 @@ window.CONCURSOS = [
         "tipo": "resultado",
         "carater": "",
         "data": {
-          "tipo": "nao_divulgada",
-          "nota": "A divulgação pela Comissão Examinadora do Resultado Final do Concurso ocorrerá em até 07 dias úteis, no Sistema PROSSIM."
+          "tipo": "exata",
+          "valor": "2027-02-24"
         },
         "detalhe": {}
       }
@@ -44915,6 +44915,11 @@ window.CONCURSOS = [
     "detalhamento": "completo",
     "avisos_edital": [],
     "alteracoes": [
+      {
+        "data": "2026-11-18",
+        "documento": "EDITAL (alteração do calendário, DOERJ de 18/11/2026)",
+        "muda": "inscrição, datas, datas da prova escrita e datas da prova didática e outros pontos"
+      },
       {
         "data": "2026-09-09",
         "documento": "Edital (errata) de 09/09/2026, item 3.f",
