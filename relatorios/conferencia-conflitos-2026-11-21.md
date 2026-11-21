@@ -9,8 +9,10 @@ unesp-assistente-2026 | vagas | "1 vaga por edital, em 8 concursos independentes
 
 ## Observações da rodada
 
-A rodada do dia não tinha rodado: relatorios/ultima-rodada.json seguia com data 2026-11-20 depois de 20 minutos de espera (até cerca de 13h55 de Fortaleza), e o vigia-documentos também não tinha commit de hoje. A conferência seguiu com a compilação local sobre o main (ec20de2) e o vigia-documentos em dcc835d. Os conflitos são os do relatório de 20/11 (uerj-244-2026 novo, unesp-assistente-2026 que continua), confirmados pela compilação local: 94 concursos, validação aprovada. O pull request 49 de 20/11 ficou aberto por causa do conflito novo da UERJ 244. Depois da liberação, a compilação local passou na validação com conflitos_novos=0; ficou só o conflito da UNESP, e a UERJ 244 passa a mostrar inscrição aberta até 26/11/2026 e resultado final em 24/02/2027.
+A rodada do dia não tinha rodado: relatorios/ultima-rodada.json seguia com data 2026-11-20 depois de 20 minutos de espera (até cerca de 13h48 de Fortaleza), e o vigia-documentos também não tinha commit de hoje. A conferência seguiu com a compilação local sobre o main (ec20de2) e o vigia-documentos em dcc835d. Os conflitos são os do relatório de 20/11 (uerj-244-2026 novo, unesp-assistente-2026 que continua), confirmados pela compilação local: 94 concursos, validação aprovada. O pull request 49 de 20/11 ficou aberto por causa do conflito novo da UERJ 244. Depois da liberação, a compilação local passou na validação com conflitos_novos=0; ficou só o conflito da UNESP, e a UERJ 244 passa a mostrar inscrição aberta até 26/11/2026 e resultado final em 24/02/2027.
 
 ## Para o Samuel
 
 nenhum
+
+Rodada de publicação: https://github.com/aulanota10/radar/pull/50, mesclado automaticamente: sim
