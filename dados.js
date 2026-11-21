@@ -1,6 +1,6 @@
 // ═══════════════════════════════════════════════════════════════════════
 //  DADOS DO RADAR DE CONCURSOS · Aula Nota 10
-//  Última verificação: 20/11/2026
+//  Última verificação: 21/11/2026
 //
 //  ESTE É O ÚNICO ARQUIVO QUE VOCÊ PRECISA EDITAR PARA ATUALIZAR O SITE.
 //  Não mexa no index.html.
@@ -35,7 +35,7 @@
 // Gerado por compilar_radar.py a partir das extrações v2 (vigia-documentos/extracoes).
 // Para corrigir um dado, corrija a extração e rode o compilador de novo.
 
-window.RADAR_ATUALIZADO = "20/11/2026";
+window.RADAR_ATUALIZADO = "21/11/2026";
 
 window.CONCURSOS = [
   {
@@ -44837,8 +44837,8 @@ window.CONCURSOS = [
     "link_oficial": "https://prossim.uerj.br/",
     "inscricao": {
       "inicio": "2026-09-22",
-      "fim": "2026-10-23",
-      "situacao": "encerrada",
+      "fim": "2026-11-26",
+      "situacao": "aberta",
       "taxa": "R$ 347,54"
     },
     "etapas": [
@@ -44848,7 +44848,7 @@ window.CONCURSOS = [
         "carater": "Eliminatória",
         "data": {
           "tipo": "exata",
-          "valor": "2026-11-23"
+          "valor": "2027-02-15"
         },
         "detalhe": {
           "duracao": "4 horas",
@@ -44861,7 +44861,7 @@ window.CONCURSOS = [
         "carater": "Eliminatória",
         "data": {
           "tipo": "exata",
-          "valor": "2026-12-01"
+          "valor": "2027-02-23"
         },
         "detalhe": {}
       },
@@ -44871,7 +44871,7 @@ window.CONCURSOS = [
         "carater": "Eliminatória",
         "data": {
           "tipo": "exata",
-          "valor": "2026-11-26"
+          "valor": "2027-02-18"
         },
         "detalhe": {
           "duracao": "De 50 a 60 minutos. Menos de 50 minutos elimina o candidato",
@@ -44886,7 +44886,7 @@ window.CONCURSOS = [
         "carater": "",
         "data": {
           "tipo": "exata",
-          "valor": "2026-11-27"
+          "valor": "2027-02-19"
         },
         "detalhe": {}
       },
@@ -44895,15 +44895,15 @@ window.CONCURSOS = [
         "tipo": "resultado",
         "carater": "",
         "data": {
-          "tipo": "nao_divulgada",
-          "nota": "A divulgação pela Comissão Examinadora do Resultado Final do Concurso ocorrerá em até 07 dias úteis, no Sistema PROSSIM."
+          "tipo": "exata",
+          "valor": "2027-02-24"
         },
         "detalhe": {}
       }
     ],
     "periodo_provas": {
-      "inicio": "2026-11-23",
-      "fim": "2026-11-26"
+      "inicio": "2027-02-15",
+      "fim": "2027-02-18"
     },
     "logo": "uerj.png",
     "formacoes_status": "nao_extraido",
@@ -44915,6 +44915,11 @@ window.CONCURSOS = [
     "detalhamento": "completo",
     "avisos_edital": [],
     "alteracoes": [
+      {
+        "data": "2026-11-18",
+        "documento": "EDITAL (alteração do calendário, DOERJ de 18/11/2026)",
+        "muda": "inscrição, datas, datas da prova escrita e datas da prova didática e outros pontos"
+      },
       {
         "data": "2026-09-09",
         "documento": "Edital (errata) de 09/09/2026, item 3.f",
