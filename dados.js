@@ -1,6 +1,6 @@
 // ═══════════════════════════════════════════════════════════════════════
 //  DADOS DO RADAR DE CONCURSOS · Aula Nota 10
-//  Última verificação: 21/11/2026
+//  Última verificação: 22/11/2026
 //
 //  ESTE É O ÚNICO ARQUIVO QUE VOCÊ PRECISA EDITAR PARA ATUALIZAR O SITE.
 //  Não mexa no index.html.
@@ -35,7 +35,7 @@
 // Gerado por compilar_radar.py a partir das extrações v2 (vigia-documentos/extracoes).
 // Para corrigir um dado, corrija a extração e rode o compilador de novo.
 
-window.RADAR_ATUALIZADO = "21/11/2026";
+window.RADAR_ATUALIZADO = "22/11/2026";
 
 window.CONCURSOS = [
   {
@@ -1593,7 +1593,7 @@ window.CONCURSOS = [
     "instituicao": "Universidade Federal do Rio Grande do Sul",
     "nivel": "Magistério Superior",
     "uf": "RS",
-    "numero_edital": "Edital nº 09/2026, publicado em 19/08/2026, com 30 documentos de alteração publicados depois",
+    "numero_edital": "Edital nº 09/2026, publicado em 19/08/2026, com 31 documentos de alteração publicados depois",
     "vagas": "20 vagas (10 ampla concorrência, 5 pretos, 1 indígena, 4 PcD)",
     "areas": "16 áreas, entre elas Antropologia, Subárea: Teoria Antropológica, Arquitetura e Urbanismo, Subárea: Projeto Arquitetônico: fundamentos e tecnologia, Ciências Agrárias, Subárea: Entomologia Agrícola, Ciências da Saúde/Medicina, Subárea: Anatomia Patológica e Patologia Clínica e Direito, Subárea: Direito Internacional Público",
     "campi": "Instituto de Filosofia e Ciências Humanas - Departamento de Antropologia, Faculdade de Arquitetura - Departamento de Arquitetura, Faculdade de Agronomia - Departamento de Fitossanidade e Faculdade de Medicina - Departamento de Patologia",
@@ -1691,7 +1691,7 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2026-11-10",
           "fim": "2026-12-18",
-          "nota": "Datas por área: 1.2.7 (Educação, Subárea: Educação e Artes Visuais) e 1.2.12 (Língua Alemã, Literatura de Língua Alemã e…): 10/11; 1.2.13 (Linguística, Letras e Artes - Teatro…): 11/11 a 12/11; 1.2.9 (Engenharia, Subárea: Polímeros): 18/11; 1.2.10 (Farmacologia) e 1.2.14 (Medicina Interna, Subárea: Nefrologia): 24/11; 1.2.8 (Educação, Subárea: Sociologia da Educação): 24/11 a 25/11; 1.2.4 (Ciências da Saúde/Medicina, Subárea…): 25/11; 1.2.1 (Antropologia, Subárea: Teoria Antropológica): 26/11 a 28/11; 1.2.5 (Direito, Subárea: Direito Internacional…): 01/12; 1.2.6 (Ecofisiologia e Manejo de Plantas de Lavoura) e 1.2.15 (Odontologia, Subárea: Cariologia ou…): 03/12 a 04/12; 1.2.16 (Teatro, Subárea: Ensino de Teatro): 08/12 a 13/12; 1.2.2 (Arquitetura e Urbanismo, Subárea: Projeto…): 12/12 a 18/12; 1.2.3 (Ciências Agrárias, Subárea: Entomologia…): 13/12 a 14/12; 1.2.11 (Imunologia, Subárea: Imunologia Celular…): 15/12"
+          "nota": "Datas por área: 1.2.7 (Educação, Subárea: Educação e Artes Visuais) e 1.2.12 (Língua Alemã, Literatura de Língua Alemã e…): 10/11; 1.2.13 (Linguística, Letras e Artes - Teatro…): 11/11 a 12/11; 1.2.9 (Engenharia, Subárea: Polímeros): 18/11; 1.2.10 (Farmacologia) e 1.2.14 (Medicina Interna, Subárea: Nefrologia): 24/11; 1.2.8 (Educação, Subárea: Sociologia da Educação): 24/11 a 25/11; 1.2.4 (Ciências da Saúde/Medicina, Subárea…): 25/11; 1.2.1 (Antropologia, Subárea: Teoria Antropológica): 25/11 a 27/11; 1.2.5 (Direito, Subárea: Direito Internacional…): 01/12; 1.2.6 (Ecofisiologia e Manejo de Plantas de Lavoura) e 1.2.15 (Odontologia, Subárea: Cariologia ou…): 03/12 a 04/12; 1.2.16 (Teatro, Subárea: Ensino de Teatro): 08/12 a 13/12; 1.2.2 (Arquitetura e Urbanismo, Subárea: Projeto…): 12/12 a 18/12; 1.2.3 (Ciências Agrárias, Subárea: Entomologia…): 13/12 a 14/12; 1.2.11 (Imunologia, Subárea: Imunologia Celular…): 15/12"
         },
         "detalhe": {}
       }
@@ -2556,6 +2556,11 @@ window.CONCURSOS = [
     "avisos_edital": [],
     "alteracoes": [
       {
+        "data": "2026-11-19",
+        "documento": "Cronograma Final (SEI nº 8274559)",
+        "muda": "datas da prova didática e datas"
+      },
+      {
         "data": "2026-11-18",
         "documento": "Cronograma Final (SEI nº 8266602)",
         "muda": "datas da prova didática e datas"
@@ -2609,11 +2614,6 @@ window.CONCURSOS = [
         "data": "2026-11-10",
         "documento": "Informativo - Retificação do Cronograma Reformulado",
         "muda": "datas da prova escrita"
-      },
-      {
-        "data": "2026-11-09",
-        "documento": "Cronograma Reformulado no Ato de Instalação",
-        "muda": "datas e datas da prova didática"
       }
     ],
     "inscritos": {
@@ -2645,7 +2645,7 @@ window.CONCURSOS = [
     "edital": {
       "numero": "09/2026",
       "publicacao": "2026-08-19",
-      "alteracoes": 30
+      "alteracoes": 31
     },
     "vagas_total": 20
   },
@@ -44543,7 +44543,7 @@ window.CONCURSOS = [
     "instituicao": "UNIVERSIDADE DA INTEGRAÇÃO INTERNACIONAL DA LUSOFONIA AFRO-BRASILEIRA",
     "nivel": "Magistério Superior",
     "uf": "CE",
-    "numero_edital": "Edital nº 14/2026, publicado em 01/10/2026, com 18 documentos de alteração publicados depois",
+    "numero_edital": "Edital nº 14/2026, publicado em 01/10/2026, com 19 documentos de alteração publicados depois",
     "vagas": "15 vagas",
     "areas": "9 áreas, entre elas Avaliação Nutricional e Nutrição Clínica, Fundamentos da Terapia Ocupacional, Atividades e Recursos Terapêuticos Ocupacionais, Práticas em Atenção Primária à Saúde/Semiologia Médica, Anatomia Humana e Cirurgia e Medicina Baseada em Evidências, Epidemiologia e Pesquisa Clínica",
     "campi": "Baturité/CE e São Francisco do Conde/BA",
@@ -44635,6 +44635,11 @@ window.CONCURSOS = [
     "avisos_edital": [],
     "alteracoes": [
       {
+        "data": "2026-11-19",
+        "documento": "Cronograma de Atividades de 19/11/2026 (Avaliação Nutricional e Nutrição Clínica)",
+        "muda": "datas da prova escrita, datas da prova didática, datas da prova de títulos e datas"
+      },
+      {
         "data": "2026-11-18",
         "documento": "Cronograma de Atividades – Fundamentos da Terapia Ocupacional, Atividades e Recursos…",
         "muda": "datas da prova escrita, datas da prova didática, datas da prova de títulos e datas"
@@ -44688,11 +44693,6 @@ window.CONCURSOS = [
         "data": "2026-10-29",
         "documento": "Cronograma de Atividades – Psiquiatria (28/10/2026)",
         "muda": "datas da prova escrita, datas da prova didática, datas da prova de títulos e datas"
-      },
-      {
-        "data": "2026-10-27",
-        "documento": "Alteração de Cronograma – Práticas em Atenção Primária à Saúde/Semiologia Médica",
-        "muda": "prazo de inscrição, datas e inscrição"
       }
     ],
     "inscritos": {
@@ -44715,7 +44715,7 @@ window.CONCURSOS = [
     "edital": {
       "numero": "14/2026",
       "publicacao": "2026-10-01",
-      "alteracoes": 18
+      "alteracoes": 19
     },
     "vagas_total": 15
   },
@@ -45073,8 +45073,8 @@ window.CONCURSOS = [
         "tipo": "discursiva",
         "carater": "Eliminatória",
         "data": {
-          "tipo": "nao_divulgada",
-          "nota": "data a ser divulgada no novo cronograma anunciado pela Errata de 04/11/2026 e pelo Aviso de 05/11/2026; o item 11.1 do edital previa 30/11/2026 09:30 a 30/11/2026 13:30, data superada porque o certame deve começar pelo menos 30 dias depois do fim das inscrições (12/11/2026)"
+          "tipo": "exata",
+          "valor": "2027-03-01"
         },
         "detalhe": {
           "duracao": "4 horas",
@@ -45086,8 +45086,8 @@ window.CONCURSOS = [
         "tipo": "pratica",
         "carater": "Eliminatória",
         "data": {
-          "tipo": "nao_divulgada",
-          "nota": "data a ser divulgada no novo cronograma anunciado pela Errata de 04/11/2026 e pelo Aviso de 05/11/2026; o item 11.1 do edital previa 09/12/2026 às 09:00, data superada porque o certame deve começar pelo menos 30 dias depois do fim das inscrições (12/11/2026)"
+          "tipo": "exata",
+          "valor": "2027-03-10"
         },
         "detalhe": {}
       },
@@ -45096,8 +45096,8 @@ window.CONCURSOS = [
         "tipo": "didatica",
         "carater": "Eliminatória",
         "data": {
-          "tipo": "nao_divulgada",
-          "nota": "data a ser divulgada no novo cronograma anunciado pela Errata de 04/11/2026 e pelo Aviso de 05/11/2026; o item 11.1 do edital previa 04/12/2026 às 09:00, data superada porque o certame deve começar pelo menos 30 dias depois do fim das inscrições (12/11/2026)"
+          "tipo": "exata",
+          "valor": "2027-03-04"
         },
         "detalhe": {
           "duracao": "De 50 a 60 minutos. Menos de 50 minutos elimina o candidato",
@@ -45131,8 +45131,8 @@ window.CONCURSOS = [
         "tipo": "titulos",
         "carater": "",
         "data": {
-          "tipo": "nao_divulgada",
-          "nota": "data a ser divulgada no novo cronograma anunciado pela Errata de 04/11/2026 e pelo Aviso de 05/11/2026 (o certame deve começar pelo menos 30 dias depois do fim das inscrições, 12/11/2026)"
+          "tipo": "exata",
+          "valor": "2027-03-09"
         },
         "detalhe": {}
       },
@@ -45141,12 +45141,16 @@ window.CONCURSOS = [
         "tipo": "resultado",
         "carater": "",
         "data": {
-          "tipo": "nao_divulgada",
-          "nota": "data a ser divulgada no novo cronograma anunciado pela Errata de 04/11/2026 e pelo Aviso de 05/11/2026; o item 11.1 do edital previa 10/12/2026 às 17:00, data superada porque o certame deve começar pelo menos 30 dias depois do fim das inscrições (12/11/2026)"
+          "tipo": "exata",
+          "valor": "2027-03-12"
         },
         "detalhe": {}
       }
     ],
+    "periodo_provas": {
+      "inicio": "2027-03-01",
+      "fim": "2027-03-04"
+    },
     "logo": "uerj.png",
     "formacoes_status": "nao_extraido",
     "familias": [],
@@ -45157,6 +45161,11 @@ window.CONCURSOS = [
     "detalhamento": "completo",
     "avisos_edital": [],
     "alteracoes": [
+      {
+        "data": "2026-11-19",
+        "documento": "ERRATA IV (novo cronograma)",
+        "muda": "datas, datas da prova escrita, datas da prova didática e datas da prova de títulos e outros pontos"
+      },
       {
         "data": "2026-11-10",
         "documento": "EDITAL (prorrogação do período de inscrição, DOERJ)",
@@ -49185,6 +49194,118 @@ window.CONCURSOS = [
     "edital": {
       "numero": "2257/2026",
       "publicacao": "2026-10-06",
+      "alteracoes": 0
+    },
+    "vagas_total": 1
+  },
+  {
+    "id": "unesp-fca-821-2026",
+    "sigla": "UNESP",
+    "instituicao": "Universidade Estadual Paulista \"Júlio de Mesquita Filho\"",
+    "nivel": "Magistério Superior",
+    "uf": "SP",
+    "numero_edital": "Edital nº 821/2026-CSCGP/FCA, publicado em 13/11/2026",
+    "vagas": "1 vaga",
+    "areas": "Manejo Florestal",
+    "campi": "Botucatu e Departamento de Ciência Florestal, Solos e Ambiente da Faculdade de Ciências Agronômicas do Câmpus de Botucatu",
+    "titulacao": "Doutorado",
+    "regime": "Regime de Dedicação Integral à Docência e à Pesquisa - RDIDP",
+    "remuneracao": "R$ 16.994,01 de vencimento básico em Regime de Dedicação Integral à Docência e à Pesquisa - RDIDP, 40 horas semanais",
+    "banca": "Comissão própria da UNESP",
+    "link_oficial": "https://inscricoes.unesp.br",
+    "inscricao": {
+      "inicio": "2026-11-23",
+      "fim": "2027-01-04",
+      "situacao": "abre_em_breve",
+      "taxa": "R$ 286,00. Pedido de isenção de 23/11 a 27/11"
+    },
+    "etapas": [
+      {
+        "nome": "Prova escrita",
+        "tipo": "discursiva",
+        "carater": "Eliminatória e classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {
+          "duracao": "3 horas",
+          "formato": "Com consulta durante 1 hora"
+        },
+        "peso": "1"
+      },
+      {
+        "nome": "Prova didática",
+        "tipo": "didatica",
+        "carater": "Classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {
+          "duracao": "De 40 a 60 minutos. Fora desse intervalo a nota da prova é zero",
+          "criterios": "10 pontos: a) Plano de aula 1,0; b) Adequação ao tema e abordagem do assunto, nível de graduação 1,0; c) Domínio teórico e conceitual do assunto 2,0; d) Exatidão e atualidade das informações 1,0; e) Desenvolvimento sequencial do tema em ordem lógica 1,0; f) Clareza e objetividade na exposição do tema 1,0; g) Adequação da linguagem ao contexto de aula de graduação 1,0; h) Capacidade de síntese e abrangência 1,0; i) Utilização adequada dos recursos didáticos disponíveis 1,0",
+          "plano_de_aula": "Exigido: entregues no dia da prova didática, em momento anterior à ministração da aula teórica pelo candidato"
+        },
+        "peso": "2",
+        "temas": {
+          "min": 10,
+          "max": 10
+        }
+      },
+      {
+        "nome": "Prova de análise e arguição do projeto de pesquisa, do plano de atividades para a graduação e para a pósgraduação, do plano de ações de extensão universitária",
+        "tipo": "projeto",
+        "carater": "Classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {},
+        "peso": "1"
+      },
+      {
+        "nome": "Prova de títulos",
+        "tipo": "titulos",
+        "carater": "Classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {},
+        "peso": "2"
+      },
+      {
+        "nome": "Resultado final",
+        "tipo": "resultado",
+        "carater": "",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "após a análise dos recursos do resultado final preliminar"
+        },
+        "detalhe": {}
+      }
+    ],
+    "logo": "unesp.png",
+    "formacoes_status": "nao_extraido",
+    "familias": [],
+    "formacoes": [],
+    "familias_pos": [],
+    "areas_formacoes": [],
+    "observacao": "",
+    "detalhamento": "completo",
+    "avisos_edital": [],
+    "fonte_dados": {
+      "origem": "extracao_v2",
+      "extracoes": [
+        "unesp-fca-821-2026"
+      ],
+      "extraido_em": "2026-11-22",
+      "em_conferencia": true
+    },
+    "edital": {
+      "numero": "821/2026-CSCGP/FCA",
+      "publicacao": "2026-11-13",
       "alteracoes": 0
     },
     "vagas_total": 1
