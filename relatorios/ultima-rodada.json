@@ -1,13 +1,13 @@
 {
-  "data": "2026-11-22",
-  "mudancas": 6,
+  "data": "2026-11-23",
+  "mudancas": 4,
   "conflitos_novos": 0,
   "didatica_encerrada": 13,
-  "pull_request": 51,
-  "pull_request_url": "https://github.com/aulanota10/radar/pull/51",
+  "pull_request": 52,
+  "pull_request_url": "https://github.com/aulanota10/radar/pull/52",
   "dados_mudou": true,
   "sem_mudanca": false,
   "mesclado_automatico": true,
-  "relatorio": "relatorios/relatorio-2026-11-22.md",
-  "execucao": "https://github.com/aulanota10/radar/actions/runs/45071154620"
+  "relatorio": "relatorios/relatorio-2026-11-23.md",
+  "execucao": "https://github.com/aulanota10/radar/actions/runs/45233219899"
 }
