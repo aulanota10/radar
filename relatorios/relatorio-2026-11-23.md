@@ -2,13 +2,7 @@
 
 95 concursos no dados.js gerado, 95 no publicado; 97 vieram das extrações.
 
-## O que muda no Radar em relação ao publicado (4 concursos)
-
-**usp-ee-061-2026**
-- inscrição: abre_em_breve → aberta
-
-**unesp-fca-821-2026**
-- inscrição: abre_em_breve → aberta
+## O que muda no Radar em relação ao publicado (2 concursos)
 
 **furb-07-2026**
 - sai do Radar: resultado final em 08/10/2026, há mais de 30 dias (regra de 11/10/2026)
