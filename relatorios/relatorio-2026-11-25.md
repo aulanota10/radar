@@ -2,32 +2,7 @@
 
 97 concursos no dados.js gerado, 97 no publicado; 99 vieram das extrações.
 
-## O que muda no Radar em relação ao publicado (8 concursos)
-
-**ufrgs-09-2026**
-- Prova Didática: nota da data alterada
-- Defesa da Produção Intelectual: nota da data alterada
-- editais alterado
-
-**ufmg-2229-2026**
-- Prova Escrita: sem data → 26/01/2027
-- editais alterado
-
-**uerj-254-2026**
-- inscrição: encerrada → aberta
-- inscrição fim: 05/11/2026 → 11/12/2026
-- PROVA ESCRITA: 07/12/2026 → 25/01/2027
-- PROVA DE AULA: 10/12/2026 → 28/01/2027
-- JULGAMENTO DE TÍTULOS E TRABALHOS: 14/12/2026 → 01/02/2027
-
-**ufg-20-2026**
-- editais alterado
-
-**ufrrj-56-2026**
-- inscrição: aberta → encerrada
-
-**ufabc-53-2026**
-- editais: "Edital nº 53/2026" → "Edital nº 53/2026, com 1 documento de alteração publicado depois"
+## O que muda no Radar em relação ao publicado (2 concursos)
 
 **furb-07-2026**
 - sai do Radar: resultado final em 08/10/2026, há mais de 30 dias (regra de 11/10/2026)
@@ -61,7 +36,7 @@ Já estavam no relatório anterior e seguem sem conferência.
 **unesp-assistente-2026**
 - vagas: o dados.js anterior dizia "1 vaga por edital, em 8 concursos independentes", a extração soma 8 (publicado o anterior)
 
-## Liberados após conferência (46 concursos)
+## Liberados após conferência (45 concursos)
 
 Conferidos nos documentos oficiais (compilador/liberados.json); o dados.js gerado publica o valor da extração.
 
@@ -185,12 +160,6 @@ Conferidos nos documentos oficiais (compilador/liberados.json); o dados.js gerad
 **uerj-255-2026**
 - texto corrigido após conferência (2026-11-08): campi
 
-**uerj-254-2026**
-- PROVA ESCRITA: dados.js anterior 07/12/2026, extração 25/01/2027 (liberado após conferência: publicada a extração)
-- PROVA DE AULA: dados.js anterior 10/12/2026, extração 28/01/2027 (liberado após conferência: publicada a extração)
-- JULGAMENTO DE TÍTULOS E TRABALHOS: dados.js anterior 14/12/2026, extração 01/02/2027 (liberado após conferência: publicada a extração)
-- inscrição fim: dados.js anterior 05/11/2026, extração 11/12/2026 (liberado após conferência: publicada a extração)
-
 **ufrb-01-2026**
 - texto corrigido após conferência (2026-11-08): campi
 
@@ -223,13 +192,6 @@ Conferidos nos documentos oficiais (compilador/liberados.json); o dados.js gerad
 
 **ufc-52-2026**
 - texto corrigido após conferência (2026-11-15): campi
-
-## Dados novos trazidos pela extração (1 concursos)
-
-Etapas que estavam sem data no Radar e agora têm data publicada.
-
-**ufmg-2229-2026**
-- Prova Escrita agora tem data: 26/01/2027
 
 ## Mantido do dados.js anterior (25 concursos)
 
