@@ -1157,6 +1157,15 @@ def campos_estruturados(c):
 
 SITUACAO_FORA = ("cancelada", "cancelado", "suspensa")
 
+try:
+    from classifica_vagas import classifica_vaga, familias_do_quadro
+except ImportError:   # catálogo ausente: o quadro sai sem a classificação, como antes
+    def classifica_vaga(vaga):
+        return None
+
+    def familias_do_quadro(quadro):
+        return [], []
+
 
 def sem_acento(t):
     import unicodedata
@@ -1189,6 +1198,10 @@ def quadro_do_edital(exts, em_pacote):
                 item["fonte"] = fonte
             if ed:
                 item["edital"] = ed
+            # Família de formação pela leitura automática do requisito (25/11/2026, classifica_vagas.py)
+            cl = classifica_vaga(vg)
+            if cl:
+                item["formacoes"], item["titulacoes"] = cl
             quadro.append(item)
     return quadro
 
@@ -1787,6 +1800,7 @@ def compila_grupo(id_radar, exts, atual, hoje, validador=None, conservador=False
         quadro = quadro_do_edital(ativos, em_pacote)
         novo["areas_formacoes"] = quadro
         novo["formacoes_status"] = "edital" if quadro else "nao_extraido"
+        novo["familias"], novo["familias_pos"] = familias_do_quadro(quadro)
     tab = tabela_remuneracao(ativos)
     if tab and not pacote_parcial:
         novo["remuneracao_tabela"] = tab

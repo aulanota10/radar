@@ -391,6 +391,18 @@ class FichaCompleta25nov(unittest.TestCase):
         self.assertEqual(nf["fases"], [{"etapa": "Prova didática", "vale": "100", "minimo": "70", "peso": "2",
                                         "carater": "Eliminatória e classificatória"}])
 
+    def test_classificacao_da_vaga_pelo_requisito(self):
+        import classifica_vagas as cv
+        vg = {"area_conhecimento": "Química", "requisito_interpretado": {"caminhos": [
+            {"graduacao": [{"nome": "Licenciatura em Química", "escala": "curso"}],
+             "exigencias": [{"niveis": ["doutorado"], "areas": []}]}]}}
+        f, t = cv.classifica_vaga(vg)
+        self.assertEqual([x["familia"] for x in f], ["Exatas"])
+        self.assertEqual(t, [])   # doutorado em qualquer área não abre a vaga para todas as famílias
+        vg["requisito_interpretado"]["ambiguo"] = True
+        self.assertIsNone(cv.classifica_vaga(vg))
+        self.assertEqual(cv.familia_de("Engenharia de Computação", "curso"), "Computação")
+
     def test_nota_final_por_area_nao_aparece(self):
         ext = {"estrutura_de_pontuacao": {"padrao": {"formula_final": {"valor": "média"}}, "por_escopo": [{"codigos": ["01"]}]}}
         self.assertIsNone(cr.nota_final_de(ext))

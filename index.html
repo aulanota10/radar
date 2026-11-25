@@ -1524,7 +1524,7 @@ function TabelaVagas({ c, familia, celular }) {
       h("p", { style: { margin: 0 } }, h("b", null, "Áreas: "), c.areas || "consulte o edital"),
       h("p", { style: { margin: "6px 0 0", color: C.cinza } }, "O quadro de vagas deste concurso ainda não foi conferido pela Aula Nota 10. Confira as áreas e os requisitos no edital oficial."));
   }
-  const filtrar = familia && familia !== "todas" && !doEdital;
+  const filtrar = familia && familia !== "todas";
   lista.sort((x, y) => (filtrar ? (y.casa ? 1 : 0) - (x.casa ? 1 : 0) : 0) || x.i - y.i);
   const ps = palavras(busca);
   const achadas = ps.length ? lista.filter(x => casaBusca(norm(`${x.a.area} ${x.a.campus || ""} ${x.a.requisito || ""} ${x.a.edital || ""}`), ps)) : lista;
@@ -1545,7 +1545,7 @@ function TabelaVagas({ c, familia, celular }) {
   const onde = x => [pacote && x.a.edital ? `Edital ${x.a.edital}` : null, caixaTitulo(String(x.a.campus || "").replace(/^Campus:?\s*/i, ""))].filter(Boolean).join(" · ");
   return h("section", null, titulo,
     st === "parcial" && h("p", { style: { margin: "0 0 8px", color: "#6b4a00" } }, h("b", null, "Levantamento parcial. "), c.formacoes_nota || "Parte dos editais ainda não foi conferida."),
-    doEdital && familia && familia !== "todas" && h("p", { style: { margin: "0 0 8px", color: "#6b4a00" } }, `Quadro de vagas lido do edital. A Aula Nota 10 ainda não classificou estas vagas por área de formação, por isso nenhuma aparece destacada para ${familia}. Leia o requisito de cada área.`),
+    doEdital && familia && familia !== "todas" && h("p", { style: { margin: "0 0 8px", color: "#6b4a00" } }, `Vagas destacadas pela leitura automática do requisito do edital. As outras ainda podem servir para ${familia}: leia o requisito de cada área.`),
     filtrar && h("p", { style: { margin: "0 0 8px", color: C.cinza } }, `${nCasa} de ${lista.length} ${lista.length === 1 ? "vaga" : "vagas"} com relação à área ${familia}, pela graduação ou pela pós exigida. Elas aparecem primeiro.`),
     lista.length > LIM && h("div", { style: { maxWidth: 380, margin: "0 0 10px" } },
       h("label", { htmlFor: `bv-${c.id}`, style: { display: "block", fontSize: 16, fontWeight: 600, marginBottom: 4 } }, "Procurar nesta lista"),
