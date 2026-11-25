@@ -330,5 +330,71 @@ class CamposDoSite17Nov(unittest.TestCase):
         self.assertIsNone(cr.etapa_correspondente({"nome": "Projeto", "tipo": "projeto"}, anteriores, set()))
 
 
+class FichaCompleta25nov(unittest.TestCase):
+    """Quadro de vagas, remuneração, nota final e data de entrada (25/11/2026)."""
+
+    def didatica(self):
+        return [ev("e1", "prova", "didatica", fixa("2026-12-10"))]
+
+    def test_quadro_do_edital_sem_vaga_cancelada(self):
+        vagas = [{"codigo": {"numero": "01"}, "area_conhecimento": "Física", "vagas_imediatas": 1,
+                  "unidade": "Campus Centro", "requisito_literal": "Doutorado em Física",
+                  "titulacao_minima": "doutorado", "fonte": {"item": "Anexo I", "pagina": 3}},
+                 {"codigo": {"numero": "02"}, "area_conhecimento": "Química", "vagas_imediatas": 1,
+                  "situacao": {"valor": "cancelada"}}]
+        c = cr.compila_grupo("teste-01-2026", [extracao(self.didatica(), vagas=vagas)], None, "2026-11-25")
+        self.assertEqual(c["formacoes_status"], "edital")
+        self.assertEqual([a["area"] for a in c["areas_formacoes"]], ["Física"])
+        a = c["areas_formacoes"][0]
+        self.assertEqual((a["codigo"], a["requisito"], a["nivel_minimo"], a["fonte"]),
+                         ("01", "Doutorado em Física", "doutorado", "Anexo I, p. 3"))
+
+    def test_levantamento_conferido_nao_e_trocado(self):
+        antigo = {"id": "teste-01-2026", "formacoes_status": "completo",
+                  "areas_formacoes": [{"area": "Física", "formacoes": [], "titulacoes": []}]}
+        c = cr.compila_grupo("teste-01-2026", [extracao(self.didatica())], antigo, "2026-11-25")
+        self.assertEqual(c["formacoes_status"], "completo")
+        self.assertEqual(c["areas_formacoes"], antigo["areas_formacoes"])
+
+    def test_data_de_entrada_so_no_concurso_novo(self):
+        c = cr.compila_grupo("teste-01-2026", [extracao(self.didatica())], None, "2026-11-25")
+        self.assertEqual(c["no_radar_desde"], "2026-11-25")
+        c = cr.compila_grupo("teste-01-2026", [extracao(self.didatica())], {"id": "teste-01-2026"}, "2026-11-25")
+        self.assertNotIn("no_radar_desde", c)
+        c = cr.compila_grupo("teste-01-2026", [extracao(self.didatica())],
+                             {"id": "teste-01-2026", "no_radar_desde": "2026-10-01"}, "2026-11-25")
+        self.assertEqual(c["no_radar_desde"], "2026-10-01")
+
+    def test_remuneracao_casa_regime_e_diz_o_que_o_total_soma(self):
+        rem = {"vencimento_basico": [{"regime": "Dedicação Exclusiva (DE)", "valor": 6180.86},
+                                     {"regime": "40 horas semanais sem regime de dedicação exclusiva", "valor": 4326.6}],
+               "retribuicao_por_titulacao": [{"regime": "DE", "titulacao": "DOUTORADO", "valor": 7107.99},
+                                             {"regime": "40h", "titulacao": "titulação de doutor", "valor": 3731.69}],
+               "remuneracao_total": [{"regime": "DE", "titulacao": "DOUTORADO", "valor": 14288.85,
+                                      "componentes_literal": ["VENCIMENTO BÁSICO", "RETRIBUIÇÃO POR TITULAÇÃO",
+                                                              "AUXÍLIO ALIMETAÇÃO"]}]}
+        t = cr.tabela_de_remuneracao({"remuneracao": rem})
+        self.assertEqual(t["linhas"][0], {"regime": "Dedicação Exclusiva (DE)", "titulacao": "Doutorado",
+                                          "vb": 6180.86, "rt": 7107.99, "total": 14288.85})
+        self.assertEqual(t["linhas"][1]["vb"], 4326.6)
+        self.assertEqual(t["total_soma"], ["vencimento básico", "retribuição por titulação", "auxílio-alimentação"])
+
+    def test_so_vencimento_basico_nao_vira_tabela(self):
+        self.assertIsNone(cr.tabela_de_remuneracao({"remuneracao": {"vencimento_basico": [{"regime": "DE", "valor": 1.0}]}}))
+
+    def test_nota_final_tira_observacao_do_extrator(self):
+        ext = {"estrutura_de_pontuacao": {"padrao": {
+            "fases": [{"etapa_ref": "didatica", "peso": 2, "minimo": 70, "escala": 100, "carater": "ambos"}],
+            "formula_final": {"valor": "PF = (N1 + N2 × 2) / 3 + N3 (20.1 e 20.2; a fórmula está em imagem e foi lida pela imagem do PDF)"}}}}
+        nf = cr.nota_final_de(ext)
+        self.assertEqual(nf["formula"], "PF = (N1 + N2 × 2) / 3 + N3 (20.1 e 20.2)")
+        self.assertEqual(nf["fases"], [{"etapa": "Prova didática", "vale": "100", "minimo": "70", "peso": "2",
+                                        "carater": "Eliminatória e classificatória"}])
+
+    def test_nota_final_por_area_nao_aparece(self):
+        ext = {"estrutura_de_pontuacao": {"padrao": {"formula_final": {"valor": "média"}}, "por_escopo": [{"codigos": ["01"]}]}}
+        self.assertIsNone(cr.nota_final_de(ext))
+
+
 if __name__ == "__main__":
     unittest.main()

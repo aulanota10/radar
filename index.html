@@ -39,6 +39,7 @@ a{-webkit-tap-highlight-color:transparent}
 #carregando{font-family:system-ui,sans-serif;color:#5b5b59;padding:40px 20px;text-align:center;font-size:15px}
 .so-leitor{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 .rolagem-x{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 .grade-resumo{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1px;background:#e2ddd0;border:1px solid #e2ddd0;border-radius:12px;overflow:hidden}
 .grade-detalhe{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px 24px}
 .titulo-secao{font-family:'Funnel Display',system-ui,sans-serif;font-weight:700;font-size:22px;color:#424240;margin:0 0 10px}
@@ -950,11 +951,47 @@ function metaDoConcurso(c) {
   return p.join(" · ");
 }
 
+// ── remuneração, nota final, novidades e data de leitura (25/11/2026) ──
+function moeda(n) {
+  return typeof n === "number" ? n.toLocaleString("pt-BR", { style: "currency", currency: "BRL" }) : "";
+}
+const DIAS_NOVO = 14;
+function ehNovo(c) {
+  const n = dias(c.no_radar_desde);
+  return n != null && n <= 0 && n > -DIAS_NOVO;
+}
+function lidoEm(c) {
+  return c.fonte_dados && c.fonte_dados.extraido_em ? fmt(c.fonte_dados.extraido_em) : "";
+}
+function resumoRemuneracao(c) {
+  const t = c.remuneracao_tabela;
+  const tot = t ? t.linhas.map(l => l.total).filter(x => typeof x === "number") : [];
+  if (!tot.length) return c.remuneracao;
+  const min = Math.min.apply(null, tot),
+    max = Math.max.apply(null, tot);
+  const aux = (t.total_soma || []).some(x => /aliment/.test(x));
+  return (min === max ? `${moeda(max)} no total do edital` : `De ${moeda(min)} a ${moeda(max)} no total do edital, conforme regime e titulação`) + (aux ? " (inclui auxílio-alimentação)" : "");
+}
+function novidadesDaSemana() {
+  const novos = CONCURSOS.filter(c => {
+    const n = dias(c.no_radar_desde);
+    return n != null && n <= 0 && n > -7;
+  });
+  const idsNovos = new Set(novos.map(c => c.id));
+  const mudaram = CONCURSOS.filter(c => !idsNovos.has(c.id) && (c.alteracoes || []).some(x => {
+    const n = dias(x.data);
+    return n != null && n <= 0 && n > -7;
+  }));
+  return { novos, mudaram };
+}
+
 // ── filtro de área de formação ──
 const NIVEL_ROTULO = { graduacao: "Graduação", especializacao: "Especialização ou residência", mestrado: "Mestrado", doutorado: "Doutorado" };
 const ORDEM_FAM = ["Saúde", "Biológicas", "Agrárias", "Exatas", "Computação", "Engenharias", "Arquitetura e Design", "Humanas", "Educação", "Letras", "Artes", "Sociais Aplicadas"];
 function areaCasaFamilia(a, f) {
   if (!f || f === "todas") return true;
+  // Vaga do quadro lido do edital (formacoes_status "edital", 25/11/2026): sem classificação de formação, não casa com área nenhuma.
+  if (!a.formacoes && !a.titulacoes) return false;
   const fs = a.formacoes || [],
     ts = a.titulacoes || [];
   if (fs.some(x => x.familia === f && x.curso.indexOf("Outra graduação") !== 0 && x.curso.indexOf("Graduação não especificada") !== 0)) return true;
@@ -1479,6 +1516,7 @@ function TabelaVagas({ c, familia, celular }) {
   const [todas, setTodas] = React.useState(false);
   const [aberta, setAberta] = React.useState(null);
   const st = c.formacoes_status || "nao_extraido";
+  const doEdital = st === "edital";
   const lista = (c.areas_formacoes || []).map((a, i) => ({ a, i, casa: areaCasaFamilia(a, familia) }));
   const titulo = h("h3", { className: "titulo-secao" }, "Vagas e requisitos");
   if (st === "nao_extraido" || lista.length === 0) {
@@ -1486,7 +1524,7 @@ function TabelaVagas({ c, familia, celular }) {
       h("p", { style: { margin: 0 } }, h("b", null, "Áreas: "), c.areas || "consulte o edital"),
       h("p", { style: { margin: "6px 0 0", color: C.cinza } }, "O quadro de vagas deste concurso ainda não foi conferido pela Aula Nota 10. Confira as áreas e os requisitos no edital oficial."));
   }
-  const filtrar = familia && familia !== "todas";
+  const filtrar = familia && familia !== "todas" && !doEdital;
   lista.sort((x, y) => (filtrar ? (y.casa ? 1 : 0) - (x.casa ? 1 : 0) : 0) || x.i - y.i);
   const ps = palavras(busca);
   const achadas = ps.length ? lista.filter(x => casaBusca(norm(`${x.a.area} ${x.a.campus || ""} ${x.a.requisito || ""} ${x.a.edital || ""}`), ps)) : lista;
@@ -1507,6 +1545,7 @@ function TabelaVagas({ c, familia, celular }) {
   const onde = x => [pacote && x.a.edital ? `Edital ${x.a.edital}` : null, caixaTitulo(String(x.a.campus || "").replace(/^Campus:?\s*/i, ""))].filter(Boolean).join(" · ");
   return h("section", null, titulo,
     st === "parcial" && h("p", { style: { margin: "0 0 8px", color: "#6b4a00" } }, h("b", null, "Levantamento parcial. "), c.formacoes_nota || "Parte dos editais ainda não foi conferida."),
+    doEdital && familia && familia !== "todas" && h("p", { style: { margin: "0 0 8px", color: "#6b4a00" } }, `Quadro de vagas lido do edital. A Aula Nota 10 ainda não classificou estas vagas por área de formação, por isso nenhuma aparece destacada para ${familia}. Leia o requisito de cada área.`),
     filtrar && h("p", { style: { margin: "0 0 8px", color: C.cinza } }, `${nCasa} de ${lista.length} ${lista.length === 1 ? "vaga" : "vagas"} com relação à área ${familia}, pela graduação ou pela pós exigida. Elas aparecem primeiro.`),
     lista.length > LIM && h("div", { style: { maxWidth: 380, margin: "0 0 10px" } },
       h("label", { htmlFor: `bv-${c.id}`, style: { display: "block", fontSize: 16, fontWeight: 600, marginBottom: 4 } }, "Procurar nesta lista"),
@@ -1538,6 +1577,100 @@ function TabelaVagas({ c, familia, celular }) {
           ])))),
     !ps.length && lista.length > LIM && h("button", { type: "button", onClick: () => setTodas(!todas), style: Object.assign(botao(), { marginTop: 10 }) }, todas ? "Mostrar menos" : `Ver as ${lista.length} áreas`),
     h("p", { style: { fontSize: 15, color: C.cinza, margin: "8px 0 0" } }, "Toque na área para ver o requisito como está no edital. O Radar não decide quem pode concorrer: confira o requisito no edital oficial antes de se inscrever."));
+}
+
+function TabelaSimples({ legenda, colunas, linhas, minWidth }) {
+  const th = { padding: "8px 12px", background: C.azulClaro, color: C.azul, whiteSpace: "nowrap" };
+  const td = { padding: "8px 12px", borderTop: `1px solid ${C.borda}` };
+  return h("div", { className: "rolagem-x", style: { background: C.branco, border: `1px solid ${C.borda}`, borderRadius: 12 } },
+    h("table", { style: { width: "100%", minWidth: minWidth || 0, borderCollapse: "collapse", fontSize: 17 } },
+      legenda && h("caption", { className: "sr-only" }, legenda),
+      h("thead", null, h("tr", null, colunas.map(cl => h("th", { key: cl.k, scope: "col", style: Object.assign({ textAlign: cl.num ? "right" : "left" }, th) }, cl.t)))),
+      h("tbody", null, linhas.map((l, i) => h("tr", { key: i }, colunas.map(cl => h("td", { key: cl.k, style: Object.assign({ textAlign: cl.num ? "right" : "left", whiteSpace: cl.num ? "nowrap" : "normal", fontWeight: cl.forte ? 700 : 400 }, td) }, l[cl.k] == null ? "" : l[cl.k])))))));
+}
+
+function TabelaRemuneracao({ c, celular }) {
+  const t = c.remuneracao_tabela;
+  if (!t || !(t.linhas || []).length) return null;
+  const tem = k => t.linhas.some(l => l[k] != null && l[k] !== "");
+  const colunas = [
+    { k: "regime", t: "Regime" },
+    tem("titulacao") && { k: "titulacao", t: "Titulação" },
+    tem("vb") && { k: "vb", t: "Vencimento básico", num: true },
+    tem("rt") && { k: "rt", t: "Retribuição por titulação", num: true },
+    tem("total") && { k: "total", t: "Total no edital", num: true, forte: true }
+  ].filter(Boolean);
+  let linhas = t.linhas.map(l => ({ regime: regimeCurto(l.regime) || l.regime, titulacao: l.titulacao, vb: moeda(l.vb) || "—", rt: moeda(l.rt) || "—", total: moeda(l.total) || "—" }));
+  let cols = colunas;
+  // No celular, duas colunas: quem (regime e titulação) e quanto, para o valor não ficar fora da tela
+  if (celular) {
+    cols = [{ k: "quem", t: "Regime e titulação" }, { k: "quanto", t: tem("total") ? "Total no edital" : "Valores", num: true, forte: tem("total") }];
+    linhas = t.linhas.map((l, i) => ({
+      quem: h(React.Fragment, null, linhas[i].regime, l.titulacao && h("span", { style: { display: "block", color: C.cinza, fontSize: 15.5 } }, l.titulacao)),
+      quanto: tem("total") ? linhas[i].total : h(React.Fragment, null, l.vb != null && h("span", { style: { display: "block" } }, "Básico ", moeda(l.vb)), l.rt != null && h("span", { style: { display: "block", color: C.cinza, fontSize: 15.5 } }, "Titulação ", moeda(l.rt)))
+    }));
+  }
+  return h("section", null, h("h3", { className: "titulo-secao" }, "Remuneração"),
+    h(TabelaSimples, { legenda: "Remuneração por regime e titulação", colunas: cols, linhas, minWidth: !celular && cols.length > 3 ? 620 : 0 }),
+    celular && tem("total") && (tem("vb") || tem("rt")) && h("p", { style: { fontSize: 15.5, color: C.cinza, margin: "8px 0 0" } }, "Vencimento básico e retribuição por titulação de cada linha aparecem na tela maior e no edital."),
+    h("p", { style: { fontSize: 15.5, color: C.cinza, margin: "8px 0 0" } },
+      (t.total_soma || []).length ? `O total do edital soma ${t.total_soma.join(", ").replace(/, ([^,]*)$/, " e $1")}. ` : "",
+      "Valores do edital", t.fonte ? ` (${t.fonte})` : "", "; confirme na posse os valores em vigor."));
+}
+
+function NotaFinal({ c, celular }) {
+  const nf = c.nota_final;
+  if (!nf) return null;
+  const fases = nf.fases || [];
+  const tem = k => fases.some(l => l[k] != null && l[k] !== "");
+  const colunas = [
+    { k: "etapa", t: "Etapa", forte: true },
+    tem("vale") && { k: "vale", t: "Vale", num: true },
+    tem("minimo") && { k: "minimo", t: "Nota mínima", num: true },
+    tem("peso") && { k: "peso", t: "Peso", num: true },
+    tem("carater") && { k: "carater", t: "Caráter" }
+  ].filter(Boolean);
+  let linhas = fases.map(l => Object.assign({}, l, { vale: l.vale ? `0 a ${l.vale}` : "" }));
+  let cols = colunas;
+  if (celular) {
+    // Caráter vai para baixo do nome da etapa e "Vale" fica curto, para a tabela caber na tela
+    cols = colunas.filter(x => x.k !== "carater").map(x => x.k === "minimo" ? Object.assign({}, x, { t: "Mínima" }) : x);
+    linhas = linhas.map(l => Object.assign({}, l, { etapa: h(React.Fragment, null, l.etapa, l.carater && h("span", { style: { display: "block", fontWeight: 400, color: C.cinza, fontSize: 15 } }, l.carater)) }));
+  }
+  return h("section", null, h("h3", { className: "titulo-secao" }, "Como a nota final é calculada"),
+    fases.length > 0 && h(TabelaSimples, { legenda: "Etapas, notas mínimas e pesos", colunas: cols, linhas, minWidth: !celular && cols.length > 3 ? 560 : 0 }),
+    nf.formula && h("p", { style: { margin: fases.length ? "10px 0 0" : 0, background: C.creme, borderRadius: 8, padding: "10px 14px", fontSize: 16.5 } }, h("b", { style: { color: C.azul } }, "No edital: "), nf.formula),
+    h("p", { style: { fontSize: 15.5, color: C.cinza, margin: "8px 0 0" } }, "Resumo da regra do edital. Os critérios de desempate e os arredondamentos estão no edital."));
+}
+
+// Novidades dos últimos 7 dias: concursos que entraram no Radar e concursos com documento que mudou o edital
+const NOVIDADES = novidadesDaSemana();
+function Novidades({ onAbrir, celular }) {
+  const { novos, mudaram } = NOVIDADES;
+  if (!novos.length && !mudaram.length) return null;
+  const vezes = {};
+  novos.concat(mudaram).forEach(c => vezes[c.sigla] = (vezes[c.sigla] || 0) + 1);
+  const nome = c => {
+    if (vezes[c.sigla] < 2) return c.sigla;
+    const n = String(infoEdital(c).numero || "").split(/[ ,]/)[0];
+    const a = areasDoConcurso(c).lista[0] || "";
+    return `${c.sigla} ${n ? n : encurtaTexto(a, 26)}`;
+  };
+  const chip = c => h("button", {
+    key: c.id,
+    type: "button",
+    onClick: () => onAbrir(c.id),
+    "data-umami-event": "novidades",
+    style: { border: `1px solid ${C.borda}`, background: C.branco, color: C.azul, fontWeight: 700, fontSize: 16, borderRadius: 999, padding: "0 12px", minHeight: 40, cursor: "pointer", fontFamily: FONTE_TEXTO }
+  }, nome(c), c.vagas_total ? h("span", { style: { fontWeight: 400, color: C.cinza } }, ` · ${plural(c.vagas_total, "vaga", "vagas")}`) : null);
+  const linha = (titulo, lista) => lista.length > 0 && h("div", { style: { display: "flex", flexWrap: "wrap", alignItems: "center", gap: 8 } },
+    h("span", { style: { fontWeight: 700, marginRight: 4 } }, titulo),
+    lista.map(chip));
+  const vagasNovas = novos.reduce((s, c) => s + (c.vagas_total || 0), 0);
+  return h("section", { "aria-label": "Novidades da semana", style: { background: C.azulClaro, borderRadius: 14, padding: celular ? "12px 14px" : "14px 18px", display: "flex", flexDirection: "column", gap: 10 } },
+    h("h2", { style: { margin: 0, fontFamily: FONTE_TITULO, fontWeight: 700, fontSize: celular ? 19 : 21, color: C.azul } }, "Novidades dos últimos 7 dias"),
+    linha(`${plural(novos.length, "concurso novo", "concursos novos")}${vagasNovas ? ` (${plural(vagasNovas, "vaga", "vagas")})` : ""}:`, novos),
+    linha(`${plural(mudaram.length, "concurso mudou", "concursos mudaram")} por retificação ou documento novo:`, mudaram));
 }
 
 // Ordem dos caminhos pela distância da prova didática: perto (até 30 dias ou em andamento) põe a
@@ -1584,7 +1717,7 @@ function Ficha({ c, familia, celular }) {
   const linhasResumo = [
     ["Vagas", c.vagas],
     ["Titulação", c.titulacao],
-    ["Remuneração", c.remuneracao],
+    ["Remuneração", resumoRemuneracao(c)],
     ["Regime", regime && regime !== c.regime ? h(React.Fragment, null, regime, h("span", { style: { display: "block", fontSize: 15.5, color: C.cinza } }, "No edital: ", c.regime)) : c.regime],
     ["Onde", c.campi],
     ["Inscrição", (ins.inicio ? `${fmt(ins.inicio)} a ${fmt(ins.fim)}` : "consulte o portal") + (ins.taxa ? ` · taxa ${ins.taxa}` : "")],
@@ -1596,9 +1729,11 @@ function Ficha({ c, familia, celular }) {
   return h("div", { id: `det-${c.id}`, className: "ficha", style: { borderTop: `1px solid ${C.borda}`, marginTop: 14, paddingTop: 16, display: "flex", flexDirection: "column", gap: 22 } },
     h("div", { style: { background: t.bg, borderRadius: 10, padding: "12px 16px", fontSize: 17.5, color: t.cor, lineHeight: 1.5 } }, h("b", null, "O que fazer agora: "), a.texto),
     h("section", null, h("h3", { className: "titulo-secao" }, "Resumo"),
+      lidoEm(c) && h("p", { style: { margin: "0 0 8px", fontSize: 16, color: C.cinza } }, `Conferido nos documentos oficiais em ${lidoEm(c)}. O Radar acompanha a página do concurso e lê cada documento novo.`),
       h("dl", { className: "grade-resumo", style: { margin: 0 } }, linhasResumo.map(([k, v]) => h("div", { key: k, style: { background: C.branco, padding: "12px 16px" } },
         h("dt", { style: S.rotuloCampo }, k),
         h("dd", { style: { margin: "2px 0 0" } }, v))))),
+    h(TabelaRemuneracao, { c, celular }),
     (c.alteracoes || []).length > 0 && h("section", null, h("h3", { className: "titulo-secao" }, "O que mudou desde o edital"),
       h("ol", { style: { listStyle: "none", margin: 0, padding: "4px 16px", background: C.branco, border: `1px solid ${C.borda}`, borderRadius: 12 } }, c.alteracoes.map((x, i) => h("li", {
         key: i,
@@ -1611,6 +1746,7 @@ function Ficha({ c, familia, celular }) {
       (c.avisos_edital || []).length > 0 && h("div", { style: { marginTop: 10, background: "#fdf3dc", borderRadius: 10, padding: "10px 14px", fontSize: 16.5, color: "#5c4300" } },
         h("b", null, "Confira no edital: "), "encontramos contas que não fecham.",
         h("ul", { style: { margin: "6px 0 0", paddingLeft: 20 } }, c.avisos_edital.map((x, i) => h("li", { key: i }, x))))),
+    h(NotaFinal, { c, celular }),
     h(TabelaVagas, { c, familia, celular }),
     h("section", { style: { background: C.branco, border: `1px solid ${C.borda}`, borderRadius: 12, padding: "16px 18px", display: "flex", flexDirection: "column", gap: 12 } },
       c.observacao && h(React.Fragment, null,
@@ -1640,6 +1776,7 @@ function Card({ item, aberto, onToggle, familia, pendente, ps, celular, comparti
       h("div", { style: { display: "flex", flexWrap: "wrap", gap: 6 } },
         h("span", { style: S.selo(C.azulClaro, C.azul) }, c.nivel),
         h("span", { style: S.selo(sit.bg, sit.cor) }, sit.texto),
+        ehNovo(c) && h("span", { style: S.selo("#fde6e1", "#9a3324") }, "Novo no Radar"),
         pendente && h("span", { style: S.selo("#fdf3dc", "#6b4a00") }, "Requisito ainda não conferido")),
       h("h2", { style: { margin: 0, fontFamily: FONTE_TITULO, fontWeight: 700, fontSize: celular ? 20 : 22, lineHeight: 1.22, color: C.azul } }, c.instituicao),
       h("div", { style: { fontSize: 16.5, color: C.cinza, display: "flex", flexWrap: "wrap", alignItems: "center", gap: "2px 8px" } },
@@ -2027,6 +2164,7 @@ function App() {
       h("div", null,
         h("h1", { style: { margin: 0, fontFamily: FONTE_TITULO, fontWeight: 700, fontSize: celular ? 26 : 34, lineHeight: 1.15, color: C.azul } }, "Concursos para professor"),
         h("p", { style: { margin: "4px 0 0", color: C.cinza, fontSize: celular ? 17 : 19 } }, `${CONCURSOS.length} concursos acompanhados, do edital ao resultado final. Atualizado em ${window.RADAR_ATUALIZADO || ""}.`)),
+      h(Novidades, { onAbrir: id => { limpar(); abrirConcurso(id); }, celular }),
       h("div", { style: { display: "flex", flexWrap: "wrap", alignItems: "flex-end", gap: 12 } },
         campoBusca,
         !celular && seletor("f-uf", "Estado", uf, setUf, [["todas", "Todos"]].concat(Object.keys(NOME_UF).sort().filter(u => contagemUF[u] || uf === u).map(u => [u, `${u} (${contagemUF[u] || 0})`]))),
@@ -2077,7 +2215,7 @@ function App() {
           }, `${ROTULO_ABA[id]} (${conta[id]})`);
         })),
       EXPLICA_ABA[aba] && h("p", { style: { margin: "-4px 0 0", color: C.cinza, fontSize: 16.5 } }, EXPLICA_ABA[aba]),
-      ehVaga && h("p", { style: { margin: 0, color: C.cinza, fontSize: 16.5 } }, `A lista por vaga mostra os concursos com quadro de vagas já conferido pela Aula Nota 10 (${N_COM_VAGAS} de ${CONCURSOS.length}). Os demais estão em “Por concurso”.`),
+      ehVaga && h("p", { style: { margin: 0, color: C.cinza, fontSize: 16.5 } }, `A lista por vaga mostra os concursos com quadro de vagas no Radar (${N_COM_VAGAS} de ${CONCURSOS.length}). Os demais estão em “Por concurso”.`),
       !ehVaga && lista.length > 0 && h("div", { style: { display: "flex", flexDirection: "column", gap: 14 } }, lista.map((it, i) => [i === 3 && !largo && h("aside", {
         key: "prep",
         "aria-label": "Preparação Aula Nota 10",
