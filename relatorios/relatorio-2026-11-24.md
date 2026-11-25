@@ -1,8 +1,14 @@
 # Relatório do compilador do Radar · 24/11/2026
 
-95 concursos no dados.js gerado, 95 no publicado; 97 vieram das extrações.
+97 concursos no dados.js gerado, 95 no publicado; 99 vieram das extrações.
 
-## O que muda no Radar em relação ao publicado (2 concursos)
+## O que muda no Radar em relação ao publicado (4 concursos)
+
+**ufla-144-2026**
+- concurso novo no Radar
+
+**ufmt-02-2026**
+- concurso novo no Radar
 
 **furb-07-2026**
 - sai do Radar: resultado final em 08/10/2026, há mais de 30 dias (regra de 11/10/2026)
