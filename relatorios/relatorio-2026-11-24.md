@@ -2,34 +2,7 @@
 
 95 concursos no dados.js gerado, 95 no publicado; 97 vieram das extrações.
 
-## O que muda no Radar em relação ao publicado (9 concursos)
-
-**ufrn-058-2026**
-- Prova Didática: nota da data alterada
-- Defesa de Memorial e Projeto de Atuação Profissional: nota da data alterada
-- editais alterado
-
-**ufrgs-09-2026**
-- Prova Didática: 09/11/2026 a 24/12/2026 → 09/11/2026 a 18/12/2026
-- Exame de Títulos e Trabalhos: nota da data alterada
-- Defesa da Produção Intelectual: 10/11/2026 a 18/12/2026 → 10/11/2026 a 15/12/2026
-- editais alterado
-
-**ifsuldeminas-188-2026**
-- editais alterado
-
-**ifsc-01-2026**
-- editais alterado
-
-**ufsm-198-2026**
-- Prova Didática: nota da data alterada
-- editais alterado
-
-**ufv-47-2026**
-- editais: "Edital nº 47/2026, publicado em 11/09/2026" → "Edital nº 47/2026, publicado em 11/09/2026, com 1 documento de alteração publicado depois"
-
-**ufc-52-2026**
-- inscrição: abre_em_breve → aberta
+## O que muda no Radar em relação ao publicado (2 concursos)
 
 **furb-07-2026**
 - sai do Radar: resultado final em 08/10/2026, há mais de 30 dias (regra de 11/10/2026)
@@ -62,16 +35,12 @@ Já estavam no relatório anterior e seguem sem conferência.
 **unesp-assistente-2026**
 - vagas: o dados.js anterior dizia "1 vaga por edital, em 8 concursos independentes", a extração soma 8 (publicado o anterior)
 
-## Liberados após conferência (46 concursos)
+## Liberados após conferência (45 concursos)
 
 Conferidos nos documentos oficiais (compilador/liberados.json); o dados.js gerado publica o valor da extração.
 
 **ufrn-058-2026**
 - texto corrigido após conferência (2026-11-08): campi
-
-**ufrgs-09-2026**
-- Prova Didática: dados.js anterior 09/11/2026 a 24/12/2026, extração 09/11/2026 a 18/12/2026 (liberado após conferência: publicada a extração)
-- Defesa da Produção Intelectual: dados.js anterior 10/11/2026 a 18/12/2026, extração 10/11/2026 a 15/12/2026 (liberado após conferência: publicada a extração)
 
 **unespar-023-2026**
 - vagas: o dados.js anterior dizia "26 vagas", a extração soma 26 (liberado após conferência: publicada a extração)
