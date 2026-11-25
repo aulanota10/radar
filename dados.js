@@ -1,6 +1,6 @@
 // ═══════════════════════════════════════════════════════════════════════
 //  DADOS DO RADAR DE CONCURSOS · Aula Nota 10
-//  Última verificação: 24/11/2026
+//  Última verificação: 25/11/2026
 //
 //  ESTE É O ÚNICO ARQUIVO QUE VOCÊ PRECISA EDITAR PARA ATUALIZAR O SITE.
 //  Não mexa no index.html.
@@ -35,7 +35,7 @@
 // Gerado por compilar_radar.py a partir das extrações v2 (vigia-documentos/extracoes).
 // Para corrigir um dado, corrija a extração e rode o compilador de novo.
 
-window.RADAR_ATUALIZADO = "24/11/2026";
+window.RADAR_ATUALIZADO = "25/11/2026";
 
 window.CONCURSOS = [
   {
@@ -1603,7 +1603,7 @@ window.CONCURSOS = [
     "instituicao": "Universidade Federal do Rio Grande do Sul",
     "nivel": "Magistério Superior",
     "uf": "RS",
-    "numero_edital": "Edital nº 09/2026, publicado em 19/08/2026, com 32 documentos de alteração publicados depois",
+    "numero_edital": "Edital nº 09/2026, publicado em 19/08/2026, com 34 documentos de alteração publicados depois",
     "vagas": "20 vagas (10 ampla concorrência, 5 pretos, 1 indígena, 4 PcD)",
     "areas": "16 áreas, entre elas Antropologia, Subárea: Teoria Antropológica, Arquitetura e Urbanismo, Subárea: Projeto Arquitetônico: fundamentos e tecnologia, Ciências Agrárias, Subárea: Entomologia Agrícola, Ciências da Saúde/Medicina, Subárea: Anatomia Patológica e Patologia Clínica e Direito, Subárea: Direito Internacional Público",
     "campi": "Instituto de Filosofia e Ciências Humanas - Departamento de Antropologia, Faculdade de Arquitetura - Departamento de Arquitetura, Faculdade de Agronomia - Departamento de Fitossanidade e Faculdade de Medicina - Departamento de Patologia",
@@ -1655,7 +1655,7 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2026-11-09",
           "fim": "2026-12-18",
-          "nota": "Datas por área: 1.2.7 (Educação, Subárea: Educação e Artes Visuais): 09/11 a 10/11; 1.2.12 (Língua Alemã, Literatura de Língua Alemã e…): 11/11 a 13/11; 1.2.13 (Linguística, Letras e Artes - Teatro…): 12/11 a 18/11; 1.2.9 (Engenharia, Subárea: Polímeros): 19/11; 1.2.14 (Medicina Interna, Subárea: Nefrologia): 23/11; 1.2.1 (Antropologia, Subárea: Teoria Antropológica) e 1.2.4 (Ciências da Saúde/Medicina, Subárea…): 24/11 a 25/11; 1.2.10 (Farmacologia): 25/11 a 27/11; 1.2.8 (Educação, Subárea: Sociologia da Educação): 25/11 a 29/11; 1.2.5 (Direito, Subárea: Direito Internacional…): 30/11; 1.2.15 (Odontologia, Subárea: Cariologia ou…): 30/11 a 01/12; 1.2.6 (Ecofisiologia e Manejo de Plantas de Lavoura): 01/12 a 02/12; 1.2.3 (Ciências Agrárias, Subárea: Entomologia…): 11/12 a 12/12; 1.2.16 (Teatro, Subárea: Ensino de Teatro): 13/12 a 17/12; 1.2.2 (Arquitetura e Urbanismo, Subárea: Projeto…): 15/12 a 18/12; 1.2.11 (Imunologia, Subárea: Imunologia Celular…): 16/12"
+          "nota": "Datas por área: 1.2.7 (Educação, Subárea: Educação e Artes Visuais): 09/11 a 10/11; 1.2.12 (Língua Alemã, Literatura de Língua Alemã e…): 11/11 a 13/11; 1.2.13 (Linguística, Letras e Artes - Teatro…): 12/11 a 18/11; 1.2.9 (Engenharia, Subárea: Polímeros): 19/11; 1.2.14 (Medicina Interna, Subárea: Nefrologia): 23/11; 1.2.1 (Antropologia, Subárea: Teoria Antropológica) e 1.2.4 (Ciências da Saúde/Medicina, Subárea…): 24/11 a 25/11; 1.2.10 (Farmacologia): 25/11 a 27/11; 1.2.8 (Educação, Subárea: Sociologia da Educação): 25/11 a 29/11; 1.2.5 (Direito, Subárea: Direito Internacional…): 30/11; 1.2.15 (Odontologia, Subárea: Cariologia ou…): 30/11 a 01/12; 1.2.6 (Ecofisiologia e Manejo de Plantas de Lavoura): 01/12; 1.2.3 (Ciências Agrárias, Subárea: Entomologia…): 11/12 a 12/12; 1.2.16 (Teatro, Subárea: Ensino de Teatro): 13/12 a 17/12; 1.2.2 (Arquitetura e Urbanismo, Subárea: Projeto…): 15/12 a 18/12; 1.2.11 (Imunologia, Subárea: Imunologia Celular…): 16/12"
         },
         "detalhe": {
           "duracao": "Aula de 35 a 55 minutos, pela Resolução 93/2021 do CONSUN. Fora do intervalo, desconto de 0,10 ponto por minuto. Passando 10 minutos do teto, a banca interrompe a exposição",
@@ -1701,7 +1701,7 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2026-11-10",
           "fim": "2026-12-15",
-          "nota": "Datas por área: 1.2.7 (Educação, Subárea: Educação e Artes Visuais) e 1.2.12 (Língua Alemã, Literatura de Língua Alemã e…): 10/11; 1.2.13 (Linguística, Letras e Artes - Teatro…): 11/11 a 12/11; 1.2.9 (Engenharia, Subárea: Polímeros): 18/11; 1.2.10 (Farmacologia) e 1.2.14 (Medicina Interna, Subárea: Nefrologia): 24/11; 1.2.8 (Educação, Subárea: Sociologia da Educação): 24/11 a 25/11; 1.2.4 (Ciências da Saúde/Medicina, Subárea…): 25/11; 1.2.1 (Antropologia, Subárea: Teoria Antropológica): 25/11 a 27/11; 1.2.5 (Direito, Subárea: Direito Internacional…): 01/12; 1.2.6 (Ecofisiologia e Manejo de Plantas de Lavoura) e 1.2.15 (Odontologia, Subárea: Cariologia ou…): 03/12 a 04/12; 1.2.16 (Teatro, Subárea: Ensino de Teatro): 08/12 a 13/12; 1.2.2 (Arquitetura e Urbanismo, Subárea: Projeto…): 11/12 a 15/12; 1.2.3 (Ciências Agrárias, Subárea: Entomologia…): 13/12 a 14/12; 1.2.11 (Imunologia, Subárea: Imunologia Celular…): 15/12"
+          "nota": "Datas por área: 1.2.7 (Educação, Subárea: Educação e Artes Visuais) e 1.2.12 (Língua Alemã, Literatura de Língua Alemã e…): 10/11; 1.2.13 (Linguística, Letras e Artes - Teatro…): 11/11 a 12/11; 1.2.9 (Engenharia, Subárea: Polímeros): 18/11; 1.2.10 (Farmacologia) e 1.2.14 (Medicina Interna, Subárea: Nefrologia): 24/11; 1.2.8 (Educação, Subárea: Sociologia da Educação): 24/11 a 25/11; 1.2.4 (Ciências da Saúde/Medicina, Subárea…): 25/11; 1.2.1 (Antropologia, Subárea: Teoria Antropológica): 25/11 a 27/11; 1.2.5 (Direito, Subárea: Direito Internacional…): 01/12; 1.2.6 (Ecofisiologia e Manejo de Plantas de Lavoura): 02/12; 1.2.15 (Odontologia, Subárea: Cariologia ou…): 03/12 a 04/12; 1.2.16 (Teatro, Subárea: Ensino de Teatro): 08/12 a 13/12; 1.2.2 (Arquitetura e Urbanismo, Subárea: Projeto…): 11/12 a 15/12; 1.2.3 (Ciências Agrárias, Subárea: Entomologia…): 13/12 a 14/12; 1.2.11 (Imunologia, Subárea: Imunologia Celular…): 15/12"
         },
         "detalhe": {}
       }
@@ -2566,6 +2566,16 @@ window.CONCURSOS = [
     "avisos_edital": [],
     "alteracoes": [
       {
+        "data": "2026-11-24",
+        "documento": "Informativo - Retificação do Cronograma Inicial (Entomologia Agrícola)",
+        "muda": "datas"
+      },
+      {
+        "data": "2026-11-24",
+        "documento": "Cronograma Reformulado (Ecofisiologia e Manejo de Plantas de Lavoura)",
+        "muda": "datas da prova didática e datas"
+      },
+      {
         "data": "2026-11-23",
         "documento": "Cronograma Reformulado (SEI nº 8280184)",
         "muda": "datas da prova de títulos, datas e datas da prova didática"
@@ -2614,16 +2624,6 @@ window.CONCURSOS = [
         "data": "2026-11-13",
         "documento": "Edital de Retificação nº 39",
         "muda": "datas"
-      },
-      {
-        "data": "2026-11-11",
-        "documento": "Cronograma Final",
-        "muda": "datas da prova didática, datas da prova de títulos e datas"
-      },
-      {
-        "data": "2026-11-11",
-        "documento": "Cronograma Final",
-        "muda": "datas da prova de títulos, datas e datas da prova didática"
       }
     ],
     "inscritos": {
@@ -2655,7 +2655,7 @@ window.CONCURSOS = [
     "edital": {
       "numero": "09/2026",
       "publicacao": "2026-08-19",
-      "alteracoes": 32
+      "alteracoes": 34
     },
     "vagas_total": 20
   },
@@ -43716,6 +43716,32 @@ window.CONCURSOS = [
         "muda": "prova didática e prova escrita"
       }
     ],
+    "inscritos": {
+      "01": 735,
+      "02": 320,
+      "03": 263,
+      "04": 40,
+      "06": 16,
+      "07": 28,
+      "08": 138,
+      "09": 101,
+      "10": 32,
+      "22": 194,
+      "11": 517,
+      "25": 69,
+      "12": 465,
+      "13": 588,
+      "14": 294,
+      "15": 54,
+      "16": 804,
+      "17": 76,
+      "18": 229,
+      "23": 66,
+      "24": 299,
+      "19": 87,
+      "20": 272,
+      "21": 58
+    },
     "fonte_dados": {
       "origem": "extracao_v2",
       "extracoes": [
@@ -43736,7 +43762,7 @@ window.CONCURSOS = [
     "instituicao": "Universidade Federal de Minas Gerais",
     "nivel": "Magistério Superior",
     "uf": "MG",
-    "numero_edital": "Edital nº 2229/2026, publicado em 01/10/2026",
+    "numero_edital": "Edital nº 2229/2026, publicado em 01/10/2026, com 1 documento de alteração publicado depois",
     "vagas": "1 vaga",
     "areas": "Dermatologia",
     "campi": "DEPARTAMENTO DE CLÍNICA MÉDICA da FACULDADE DE MEDICINA",
@@ -43755,8 +43781,8 @@ window.CONCURSOS = [
         "tipo": "discursiva",
         "carater": "Eliminatória",
         "data": {
-          "tipo": "nao_divulgada",
-          "nota": "O edital ainda não fixou a data"
+          "tipo": "exata",
+          "valor": "2027-01-26"
         },
         "detalhe": {
           "duracao": "5 horas",
@@ -43805,6 +43831,10 @@ window.CONCURSOS = [
         "detalhe": {}
       }
     ],
+    "periodo_provas": {
+      "inicio": "2027-01-26",
+      "fim": "2027-01-26"
+    },
     "logo": "ufmg.png",
     "formacoes_status": "nao_extraido",
     "familias": [],
@@ -43814,6 +43844,13 @@ window.CONCURSOS = [
     "observacao": "Uma vaga de professor assistente em Dermatologia na Faculdade de Medicina da UFMG, 40 horas, para quem tem residência ou título de especialista em Dermatologia e mestrado. O edital saiu no DOU de 01/10/2026 e não traz data final de inscrição: diz só que ela vai até 30 dias a partir da publicação. Confirme o prazo na página do concurso e não deixe para a última semana. As provas começam de 30 a 90 dias depois do fim das inscrições, e a lista de temas já está publicada na página do edital, então dá para começar agora. A aula tem 50 minutos garantidos, com tema sorteado 24 horas antes, e o edital não pede plano de aula: a banca julga a aula e a arguição.",
     "detalhamento": "completo",
     "avisos_edital": [],
+    "alteracoes": [
+      {
+        "data": "2026-11-23",
+        "documento": "Edital nº 2669/2026",
+        "muda": "datas e datas da prova escrita"
+      }
+    ],
     "inscritos": {
       "01": 9
     },
@@ -43828,7 +43865,7 @@ window.CONCURSOS = [
     "edital": {
       "numero": "2229/2026",
       "publicacao": "2026-10-01",
-      "alteracoes": 0
+      "alteracoes": 1
     },
     "vagas_total": 1
   },
@@ -45057,13 +45094,18 @@ window.CONCURSOS = [
     "avisos_edital": [],
     "alteracoes": [
       {
+        "data": "2026-11-24",
+        "documento": "ERRATA Nº 01/2026",
+        "muda": "inscritos homologados"
+      },
+      {
         "data": "2026-11-09",
         "documento": "Aviso (data de divulgação da comissão examinadora - alteração)",
         "muda": "datas"
       }
     ],
     "inscritos": {
-      "01": 12
+      "01": 13
     },
     "fonte_dados": {
       "origem": "extracao_v2",
@@ -45249,8 +45291,8 @@ window.CONCURSOS = [
     "link_oficial": "https://prossim.uerj.br/",
     "inscricao": {
       "inicio": "2026-10-06",
-      "fim": "2026-11-05",
-      "situacao": "encerrada",
+      "fim": "2026-12-11",
+      "situacao": "aberta",
       "taxa": "R$ 347,54"
     },
     "etapas": [
@@ -45260,7 +45302,7 @@ window.CONCURSOS = [
         "carater": "Eliminatória",
         "data": {
           "tipo": "exata",
-          "valor": "2026-12-07"
+          "valor": "2027-01-25"
         },
         "detalhe": {
           "duracao": "4 horas",
@@ -45273,7 +45315,7 @@ window.CONCURSOS = [
         "carater": "Eliminatória",
         "data": {
           "tipo": "exata",
-          "valor": "2026-12-10"
+          "valor": "2027-01-28"
         },
         "detalhe": {
           "duracao": "De 50 a 60 minutos. Menos de 50 minutos elimina o candidato",
@@ -45288,7 +45330,7 @@ window.CONCURSOS = [
         "carater": "",
         "data": {
           "tipo": "exata",
-          "valor": "2026-12-14"
+          "valor": "2027-02-01"
         },
         "detalhe": {}
       },
@@ -45304,8 +45346,8 @@ window.CONCURSOS = [
       }
     ],
     "periodo_provas": {
-      "inicio": "2026-12-07",
-      "fim": "2026-12-10"
+      "inicio": "2027-01-25",
+      "fim": "2027-01-28"
     },
     "logo": "uerj.png",
     "formacoes_status": "nao_extraido",
@@ -45316,6 +45358,13 @@ window.CONCURSOS = [
     "observacao": "",
     "detalhamento": "completo",
     "avisos_edital": [],
+    "alteracoes": [
+      {
+        "data": "2026-11-17",
+        "documento": "EDITAL (alteração dos itens 11.1, alíneas a a l e o a r)",
+        "muda": "prazo de inscrição, datas, datas da prova escrita e datas da prova didática e outros pontos"
+      }
+    ],
     "fonte_dados": {
       "origem": "extracao_v2",
       "extracoes": [
@@ -46804,7 +46853,7 @@ window.CONCURSOS = [
     "instituicao": "Universidade Federal de Goiás",
     "nivel": "EBTT",
     "uf": "GO",
-    "numero_edital": "Edital nº 20/2026, publicado em 05/10/2026, com 1 documento de alteração publicado depois",
+    "numero_edital": "Edital nº 20/2026, publicado em 05/10/2026, com 2 documentos de alteração publicados depois",
     "vagas": "4 vagas",
     "areas": "Educação Inclusiva",
     "campi": "Goiânia/GO e Centro de Ensino e Pesquisa Aplicada à Educação (CEPAE/UFG), Câmpus da Região Metropolitana de Goiânia",
@@ -46891,11 +46940,19 @@ window.CONCURSOS = [
     "avisos_edital": [],
     "alteracoes": [
       {
+        "data": "2026-11-23",
+        "documento": "Homologação das inscrições",
+        "muda": "datas"
+      },
+      {
         "data": "2025-10-10",
         "documento": "Retificação do Edital nº 23/2025 (Retificação n. 1)",
         "muda": "memorial, datas e datas da memorial"
       }
     ],
+    "inscritos": {
+      "01": 27
+    },
     "fonte_dados": {
       "origem": "extracao_v2",
       "extracoes": [
@@ -46907,7 +46964,7 @@ window.CONCURSOS = [
     "edital": {
       "numero": "20/2026",
       "publicacao": "2026-10-05",
-      "alteracoes": 1
+      "alteracoes": 2
     },
     "vagas_total": 4
   },
@@ -46929,7 +46986,7 @@ window.CONCURSOS = [
     "inscricao": {
       "inicio": "2026-10-26",
       "fim": "2026-11-24",
-      "situacao": "aberta",
+      "situacao": "encerrada",
       "taxa": "R$ 330,00"
     },
     "etapas": [
@@ -47829,7 +47886,7 @@ window.CONCURSOS = [
     "instituicao": "Fundação Universidade Federal do ABC",
     "nivel": "Magistério Superior",
     "uf": "SP",
-    "numero_edital": "Edital nº 53/2026",
+    "numero_edital": "Edital nº 53/2026, com 1 documento de alteração publicado depois",
     "vagas": "79 vagas",
     "areas": "58 áreas, entre elas Ciência da Computação / Computação Gráfica, Ciência da Computação / Engenharia de Software, Ciência de Dados / Ciência de Dados Computacional, Economia / Macroeconomia e Educação Especial e Inclusiva / Educação Especial, Educação Inclusiva, Educação, Educação Matemática, Psicologia, Pedagogia",
     "campi": "",
@@ -47913,6 +47970,13 @@ window.CONCURSOS = [
     "observacao": "",
     "detalhamento": "completo",
     "avisos_edital": [],
+    "alteracoes": [
+      {
+        "data": "2026-11-23",
+        "documento": "Edital nº 54/2026 (Primeiro Termo de Retificação)",
+        "muda": "datas"
+      }
+    ],
     "fonte_dados": {
       "origem": "extracao_v2",
       "extracoes": [
@@ -47923,7 +47987,7 @@ window.CONCURSOS = [
     },
     "edital": {
       "numero": "53/2026",
-      "alteracoes": 0
+      "alteracoes": 1
     },
     "vagas_total": 79
   },
