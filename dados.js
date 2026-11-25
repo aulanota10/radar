@@ -49341,5 +49341,250 @@ window.CONCURSOS = [
       "alteracoes": 0
     },
     "vagas_total": 1
+  },
+  {
+    "id": "ufla-144-2026",
+    "sigla": "UFLA",
+    "instituicao": "Universidade Federal de Lavras",
+    "nivel": "Magistério Superior",
+    "uf": "MG",
+    "numero_edital": "Edital nº 144/2026, publicado em 24/11/2026",
+    "vagas": "16 vagas",
+    "areas": "16 áreas, entre elas Agrometeorologia, Algoritmos, Estruturas de Dados e Programação Orientada a Objetos, Anatomia Patológica, Anatomia Veterinária dos Animais Domésticos e Silvestres e Arquitetura, Redes de Computadores e Sistemas Operacionais",
+    "campi": "Lavras/MG, São Sebastião do Paraíso/MG, DEA/EENG - Lavras, DAC/ICET - Lavras, DME/FCS - Lavras e DMV/FZMV - Lavras",
+    "titulacao": "Doutorado, exceto em Anatomia Patológica e Pediatria, que exigem especialização",
+    "regime": "DE e 40 h",
+    "remuneracao": "R$ 6.397,19 de vencimento básico em Dedicação Exclusiva (DE), chegando a R$ 13.753,96 com a maior titulação",
+    "banca": "Comissão própria da UFLA",
+    "link_oficial": "https://progepe.ufla.br/index.php/concursos/concurso-docente/257-26/16959-edital-progepe-n-144-2026",
+    "inscricao": {
+      "inicio": "2026-12-04",
+      "fim": "2027-01-04",
+      "situacao": "abre_em_breve",
+      "taxa": "R$ 240,00. Pedido de isenção de 04/12 a 10/12"
+    },
+    "etapas": [
+      {
+        "nome": "Prova Escrita",
+        "tipo": "discursiva",
+        "carater": "Eliminatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "a partir de 25/1/2027; as datas serão divulgadas com antecedência mínima de 15 (quinze) dias da sua realização (7.1 e 7.2)"
+        },
+        "detalhe": {
+          "duracao": "3 horas",
+          "formato": "Sem consulta"
+        }
+      },
+      {
+        "nome": "Prova Didática",
+        "tipo": "didatica",
+        "carater": "Eliminatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "após um prazo mínimo de 24 horas, contado a partir do horário de sorteio do tema"
+        },
+        "detalhe": {
+          "duracao": "50 minutos, com tolerância de 5 para mais ou para menos. Aos 55 minutos a banca interrompe",
+          "arguicao": "Sim, a critério da banca",
+          "sorteio": "Tema sorteado com 24 horas de antecedência",
+          "criterios": "100 pontos: plano de aula 5 (cinco) pontos; sequência e articulação das ideias (introdução, desenvolvimento e… 20 (vinte) pontos; domínio do conteúdo 25 (vinte e cinco) pontos; uso de linguagem técnico-científica adequada ao tema 10 (dez) pontos; utilização de recursos disponibilizados e adequação ao plano de aula 10 (dez) pontos; criatividade, assertividade, postura e capacidade de comunicação 20 (vinte) pontos; cumprimento do tempo de 50 (cinquenta) minutos, com tolerância de 5… 10 (dez) pontos",
+          "plano_de_aula": "Exigido: O plano de aula pode ser enviado pelo sistema de gestão de concursos ou entregue impresso, entregues ao Presidente da banca, na sessão de sorteio da ordem de apresentação",
+          "recursos": "Fornecidos: recursos audiovisuais disponíveis na UFLA. O Presidente disponibilizará o(s) recurso(s) ao solicitante, e também, aos demais candidatos que queiram utilizá-los, ou, os negará justificadamente a todos"
+        }
+      },
+      {
+        "nome": "Prova de Defesa do Plano de Trabalho",
+        "tipo": "projeto",
+        "carater": "Classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "1 dias úteis após finalização da prova didática (prova)"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Prova de Títulos",
+        "tipo": "titulos",
+        "carater": "Classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Resultado final",
+        "tipo": "resultado",
+        "carater": "",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "1 dias úteis após realização da sessão pública de apuração (outro)"
+        },
+        "detalhe": {}
+      }
+    ],
+    "logo": "ufla.png",
+    "formacoes_status": "nao_extraido",
+    "familias": [],
+    "formacoes": [],
+    "familias_pos": [],
+    "areas_formacoes": [],
+    "observacao": "",
+    "detalhamento": "completo",
+    "avisos_edital": [],
+    "fonte_dados": {
+      "origem": "extracao_v2",
+      "extracoes": [
+        "ufla-144-2026"
+      ],
+      "extraido_em": "2026-11-24",
+      "em_conferencia": true
+    },
+    "edital": {
+      "numero": "144/2026",
+      "publicacao": "2026-11-24",
+      "alteracoes": 0
+    },
+    "vagas_total": 16
+  },
+  {
+    "id": "ufmt-02-2026",
+    "sigla": "UFMT",
+    "instituicao": "Universidade Federal de Mato Grosso",
+    "nivel": "Magistério Superior",
+    "uf": "MT",
+    "numero_edital": "Edital nº 2/PROGEP/UFMT, de 17 de novembro de 2026, publicado em 18/11/2026, com 4 documentos de alteração publicados depois",
+    "vagas": "86 vagas",
+    "areas": "57 áreas, entre elas Direito / Direito Privado; Prática Jurídica Trabalhista e Previdenciária; Direito Processual do Trabalho; Direito Previdenciário, Direito / Direito Público; Prática Jurídica Criminal; Direito Processual Penal; Direito Penal, Educação Física / Treinamento Esportivo e Estágio Supervisionado, Educação Física / Esportes Individuais e Coletivos e Estágio Supervisionado e Agronomia/Fitotecnia",
+    "campi": "Campus Universitário do Araguaia / Instituto de Ciências Humanas e Sociais / Curso de Direito, Campus Universitário do Araguaia / Instituto de Ciências Biológicas e da Saúde / Curso de Graduação em Educação Física - Licenciatura, Campus Universitário de Cuiabá / Faculdade de Agronomia e Zootecnia / Departamento de Zootecnia e Extensão Rural e Campus Universitário de Cuiabá / Faculdade de Administração e Ciências Contábeis / Departamento Ciências Contábeis",
+    "titulacao": "Conforme a área",
+    "regime": "40h, Dedicação Exclusiva e 20h",
+    "remuneracao": "R$ 6.180,86 de vencimento básico em DE, chegando a R$ 14.288,85 com a maior titulação",
+    "banca": "Comissão própria da UFMT",
+    "link_oficial": "https://www.concursos.ufmt.br",
+    "inscricao": {
+      "inicio": "2026-11-30",
+      "fim": "2026-12-22",
+      "situacao": "abre_em_breve",
+      "taxa": "R$ 200,00. Pedido de isenção de 30/11 a 03/12"
+    },
+    "etapas": [
+      {
+        "nome": "Questões objetivas (primeira parte da Prova Escrita)",
+        "tipo": "objetiva",
+        "carater": "",
+        "data": {
+          "tipo": "exata",
+          "valor": "2027-01-31"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Prova Escrita",
+        "tipo": "discursiva",
+        "carater": "Eliminatória e classificatória",
+        "data": {
+          "tipo": "exata",
+          "valor": "2027-01-31"
+        },
+        "detalhe": {
+          "duracao": "4 horas",
+          "formato": "Sem consulta"
+        }
+      },
+      {
+        "nome": "Prova Didática",
+        "tipo": "didatica",
+        "carater": "Eliminatória e classificatória",
+        "data": {
+          "tipo": "exata",
+          "valor": "2027-03-14"
+        },
+        "detalhe": {
+          "duracao": "De 40 a 50 minutos. Cumprir o tempo conta na avaliação da banca",
+          "arguicao": "Não há arguição",
+          "nota_minima": "70 em 100",
+          "criterios": "100 pontos: Plano de Aula (estruturação do plano; coerência entre os objetivos… 0 – 10 pontos; Desempenho do candidato (aptidão, capacidade pedagógica de… 0 – 25 pontos; Apresentação do tema e desenvolvimento da aula (domínio do conteúdo… 0 – 60 pontos; Utilização adequada do tempo para apresentação (40 a 50 minutos) 0 – 5 pontos",
+          "plano_de_aula": "Exigido: 3 vias, entregues antes do início da prova didática, com Objetivos, Conteúdo e Bibliografia",
+          "recursos": "Fornecidos: giz ou pincel e quadro de giz ou branco. O candidato pode usar recursos próprios (Caso queira utilizar outros recursos didáticos, é de responsabilidade do candidato providenciá-los). A UFMT não fornecerá qualquer outro tipo de recurso didático e/ou equipamento, como data show ou telas de projeção (17.13); o candidato é o único responsável pela segurança, instalação, utilização e desinstalação dos recursos próprios (17.14); a Comissão Examinadora e os espectadores não podem auxiliar na instalação…"
+        },
+        "peso": "2",
+        "temas": {
+          "min": 6,
+          "max": 10
+        }
+      },
+      {
+        "nome": "Avaliação de Títulos",
+        "tipo": "titulos",
+        "carater": "Classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Resultado final",
+        "tipo": "resultado",
+        "carater": "",
+        "data": {
+          "tipo": "exata",
+          "valor": "2027-03-29"
+        },
+        "detalhe": {}
+      }
+    ],
+    "periodo_provas": {
+      "inicio": "2027-01-31",
+      "fim": "2027-03-14"
+    },
+    "logo": "ufmt.png",
+    "formacoes_status": "nao_extraido",
+    "familias": [],
+    "formacoes": [],
+    "familias_pos": [],
+    "areas_formacoes": [],
+    "observacao": "",
+    "detalhamento": "completo",
+    "avisos_edital": [],
+    "alteracoes": [
+      {
+        "data": "2026-11-18",
+        "documento": "Anexo I – Quadro de Vagas (retificado em 19/11/2026)",
+        "muda": "vagas"
+      },
+      {
+        "data": "2026-11-18",
+        "documento": "Anexo II – Cronograma do Concurso (Retificado em 19/11/2026)",
+        "muda": "datas"
+      },
+      {
+        "data": "2026-11-18",
+        "documento": "Anexo V – Temas para a Prova Didática (Retificado em 19/11/2026)",
+        "muda": "prova didática"
+      },
+      {
+        "data": "2026-11-18",
+        "documento": "Anexo III – Conteúdo Programático e Bibliografia Básica da Prova Escrita (Retificado em…",
+        "muda": "prova escrita"
+      }
+    ],
+    "fonte_dados": {
+      "origem": "extracao_v2",
+      "extracoes": [
+        "ufmt-02-2026"
+      ],
+      "extraido_em": "2026-11-24",
+      "em_conferencia": true
+    },
+    "edital": {
+      "numero": "2/PROGEP/UFMT, de 17 de novembro de 2026",
+      "publicacao": "2026-11-18",
+      "alteracoes": 4
+    },
+    "vagas_total": 86
   }
 ];
