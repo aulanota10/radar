@@ -1,6 +1,6 @@
 // ═══════════════════════════════════════════════════════════════════════
 //  DADOS DO RADAR DE CONCURSOS · Aula Nota 10
-//  Última verificação: 25/11/2026
+//  Última verificação: 26/11/2026
 //
 //  ESTE É O ÚNICO ARQUIVO QUE VOCÊ PRECISA EDITAR PARA ATUALIZAR O SITE.
 //  Não mexa no index.html.
@@ -35,7 +35,7 @@
 // Gerado por compilar_radar.py a partir das extrações v2 (vigia-documentos/extracoes).
 // Para corrigir um dado, corrija a extração e rode o compilador de novo.
 
-window.RADAR_ATUALIZADO = "25/11/2026";
+window.RADAR_ATUALIZADO = "26/11/2026";
 
 window.CONCURSOS = [
   {
@@ -1603,7 +1603,7 @@ window.CONCURSOS = [
     "instituicao": "Universidade Federal do Rio Grande do Sul",
     "nivel": "Magistério Superior",
     "uf": "RS",
-    "numero_edital": "Edital nº 09/2026, publicado em 19/08/2026, com 34 documentos de alteração publicados depois",
+    "numero_edital": "Edital nº 09/2026, publicado em 19/08/2026, com 36 documentos de alteração publicados depois",
     "vagas": "20 vagas (10 ampla concorrência, 5 pretos, 1 indígena, 4 PcD)",
     "areas": "16 áreas, entre elas Antropologia, Subárea: Teoria Antropológica, Arquitetura e Urbanismo, Subárea: Projeto Arquitetônico: fundamentos e tecnologia, Ciências Agrárias, Subárea: Entomologia Agrícola, Ciências da Saúde/Medicina, Subárea: Anatomia Patológica e Patologia Clínica e Direito, Subárea: Direito Internacional Público",
     "campi": "Instituto de Filosofia e Ciências Humanas - Departamento de Antropologia, Faculdade de Arquitetura - Departamento de Arquitetura, Faculdade de Agronomia - Departamento de Fitossanidade e Faculdade de Medicina - Departamento de Patologia",
@@ -1655,7 +1655,7 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2026-11-09",
           "fim": "2026-12-18",
-          "nota": "Datas por área: 1.2.7 (Educação, Subárea: Educação e Artes Visuais): 09/11 a 10/11; 1.2.12 (Língua Alemã, Literatura de Língua Alemã e…): 11/11 a 13/11; 1.2.13 (Linguística, Letras e Artes - Teatro…): 12/11 a 18/11; 1.2.9 (Engenharia, Subárea: Polímeros): 19/11; 1.2.14 (Medicina Interna, Subárea: Nefrologia): 23/11; 1.2.1 (Antropologia, Subárea: Teoria Antropológica) e 1.2.4 (Ciências da Saúde/Medicina, Subárea…): 24/11 a 25/11; 1.2.10 (Farmacologia): 25/11 a 27/11; 1.2.8 (Educação, Subárea: Sociologia da Educação): 25/11 a 29/11; 1.2.5 (Direito, Subárea: Direito Internacional…): 30/11; 1.2.15 (Odontologia, Subárea: Cariologia ou…): 30/11 a 01/12; 1.2.6 (Ecofisiologia e Manejo de Plantas de Lavoura): 01/12; 1.2.3 (Ciências Agrárias, Subárea: Entomologia…): 11/12 a 12/12; 1.2.16 (Teatro, Subárea: Ensino de Teatro): 13/12 a 17/12; 1.2.2 (Arquitetura e Urbanismo, Subárea: Projeto…): 15/12 a 18/12; 1.2.11 (Imunologia, Subárea: Imunologia Celular…): 16/12"
+          "nota": "Datas por área: 1.2.7 (Educação, Subárea: Educação e Artes Visuais): 09/11 a 10/11; 1.2.12 (Língua Alemã, Literatura de Língua Alemã e…): 11/11 a 13/11; 1.2.13 (Linguística, Letras e Artes - Teatro…): 12/11 a 18/11; 1.2.9 (Engenharia, Subárea: Polímeros): 19/11; 1.2.14 (Medicina Interna, Subárea: Nefrologia): 23/11; 1.2.1 (Antropologia, Subárea: Teoria Antropológica) e 1.2.4 (Ciências da Saúde/Medicina, Subárea…): 24/11 a 25/11; 1.2.10 (Farmacologia): 25/11 a 27/11; 1.2.8 (Educação, Subárea: Sociologia da Educação): 25/11 a 29/11; 1.2.5 (Direito, Subárea: Direito Internacional…) e 1.2.6 (Ecofisiologia e Manejo de Plantas de Lavoura): 30/11; 1.2.15 (Odontologia, Subárea: Cariologia ou…): 30/11 a 01/12; 1.2.3 (Ciências Agrárias, Subárea: Entomologia…): 11/12 a 12/12; 1.2.16 (Teatro, Subárea: Ensino de Teatro): 13/12 a 17/12; 1.2.2 (Arquitetura e Urbanismo, Subárea: Projeto…): 15/12 a 18/12; 1.2.11 (Imunologia, Subárea: Imunologia Celular…): 16/12"
         },
         "detalhe": {
           "duracao": "Aula de 35 a 55 minutos, pela Resolução 93/2021 do CONSUN. Fora do intervalo, desconto de 0,10 ponto por minuto. Passando 10 minutos do teto, a banca interrompe a exposição",
@@ -1689,7 +1689,7 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2026-11-09",
           "fim": "2026-12-14",
-          "nota": "Datas por área: 1.2.7 (Educação, Subárea: Educação e Artes Visuais) e 1.2.12 (Língua Alemã, Literatura de Língua Alemã e…): 09/11; 1.2.13 (Linguística, Letras e Artes - Teatro…): 10/11 a 11/11; 1.2.9 (Engenharia, Subárea: Polímeros): 17/11; 1.2.1 (Antropologia, Subárea: Teoria Antropológica), 1.2.8 (Educação, Subárea: Sociologia da Educação) e 1.2.10 (Farmacologia): 23/11; 1.2.14 (Medicina Interna, Subárea: Nefrologia): 23/11 a 24/11; 1.2.4 (Ciências da Saúde/Medicina, Subárea…): 24/11; 1.2.6 (Ecofisiologia e Manejo de Plantas de Lavoura): 30/11; 1.2.5 (Direito, Subárea: Direito Internacional…): 30/11 a 02/12; 1.2.15 (Odontologia, Subárea: Cariologia ou…): 02/12; 1.2.16 (Teatro, Subárea: Ensino de Teatro): 06/12 a 07/12; 1.2.2 (Arquitetura e Urbanismo, Subárea: Projeto…): 08/12 a 10/12; 1.2.3 (Ciências Agrárias, Subárea: Entomologia…): 09/12 a 10/12; 1.2.11 (Imunologia, Subárea: Imunologia Celular…): 14/12"
+          "nota": "Datas por área: 1.2.7 (Educação, Subárea: Educação e Artes Visuais) e 1.2.12 (Língua Alemã, Literatura de Língua Alemã e…): 09/11; 1.2.13 (Linguística, Letras e Artes - Teatro…): 10/11 a 11/11; 1.2.9 (Engenharia, Subárea: Polímeros): 17/11; 1.2.1 (Antropologia, Subárea: Teoria Antropológica), 1.2.8 (Educação, Subárea: Sociologia da Educação) e 1.2.10 (Farmacologia): 23/11; 1.2.14 (Medicina Interna, Subárea: Nefrologia): 23/11 a 24/11; 1.2.4 (Ciências da Saúde/Medicina, Subárea…): 24/11; 1.2.6 (Ecofisiologia e Manejo de Plantas de Lavoura): 28/11; 1.2.5 (Direito, Subárea: Direito Internacional…): 30/11 a 02/12; 1.2.15 (Odontologia, Subárea: Cariologia ou…): 02/12; 1.2.16 (Teatro, Subárea: Ensino de Teatro): 06/12 a 07/12; 1.2.2 (Arquitetura e Urbanismo, Subárea: Projeto…): 08/12 a 10/12; 1.2.3 (Ciências Agrárias, Subárea: Entomologia…): 09/12 a 10/12; 1.2.11 (Imunologia, Subárea: Imunologia Celular…): 14/12"
         },
         "detalhe": {}
       },
@@ -1701,7 +1701,7 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2026-11-10",
           "fim": "2026-12-15",
-          "nota": "Datas por área: 1.2.7 (Educação, Subárea: Educação e Artes Visuais) e 1.2.12 (Língua Alemã, Literatura de Língua Alemã e…): 10/11; 1.2.13 (Linguística, Letras e Artes - Teatro…): 11/11 a 12/11; 1.2.9 (Engenharia, Subárea: Polímeros): 18/11; 1.2.10 (Farmacologia) e 1.2.14 (Medicina Interna, Subárea: Nefrologia): 24/11; 1.2.8 (Educação, Subárea: Sociologia da Educação): 24/11 a 25/11; 1.2.4 (Ciências da Saúde/Medicina, Subárea…): 25/11; 1.2.1 (Antropologia, Subárea: Teoria Antropológica): 25/11 a 27/11; 1.2.5 (Direito, Subárea: Direito Internacional…): 01/12; 1.2.6 (Ecofisiologia e Manejo de Plantas de Lavoura): 02/12; 1.2.15 (Odontologia, Subárea: Cariologia ou…): 03/12 a 04/12; 1.2.16 (Teatro, Subárea: Ensino de Teatro): 08/12 a 13/12; 1.2.2 (Arquitetura e Urbanismo, Subárea: Projeto…): 11/12 a 15/12; 1.2.3 (Ciências Agrárias, Subárea: Entomologia…): 13/12 a 14/12; 1.2.11 (Imunologia, Subárea: Imunologia Celular…): 15/12"
+          "nota": "Datas por área: 1.2.7 (Educação, Subárea: Educação e Artes Visuais) e 1.2.12 (Língua Alemã, Literatura de Língua Alemã e…): 10/11; 1.2.13 (Linguística, Letras e Artes - Teatro…): 11/11 a 12/11; 1.2.9 (Engenharia, Subárea: Polímeros): 18/11; 1.2.10 (Farmacologia) e 1.2.14 (Medicina Interna, Subárea: Nefrologia): 24/11; 1.2.8 (Educação, Subárea: Sociologia da Educação): 24/11 a 25/11; 1.2.4 (Ciências da Saúde/Medicina, Subárea…): 25/11; 1.2.1 (Antropologia, Subárea: Teoria Antropológica): 25/11 a 27/11; 1.2.6 (Ecofisiologia e Manejo de Plantas de Lavoura): 30/11; 1.2.5 (Direito, Subárea: Direito Internacional…): 01/12; 1.2.15 (Odontologia, Subárea: Cariologia ou…): 03/12 a 04/12; 1.2.16 (Teatro, Subárea: Ensino de Teatro): 08/12 a 13/12; 1.2.2 (Arquitetura e Urbanismo, Subárea: Projeto…): 11/12 a 15/12; 1.2.3 (Ciências Agrárias, Subárea: Entomologia…): 13/12 a 14/12; 1.2.11 (Imunologia, Subárea: Imunologia Celular…): 15/12"
         },
         "detalhe": {}
       }
@@ -2566,6 +2566,16 @@ window.CONCURSOS = [
     "avisos_edital": [],
     "alteracoes": [
       {
+        "data": "2026-11-25",
+        "documento": "Retificação do Cronograma Reformulado (Ecofisiologia e Manejo de Plantas de Lavoura)",
+        "muda": "datas da prova escrita"
+      },
+      {
+        "data": "2026-11-25",
+        "documento": "Cronograma Final (Ecofisiologia e Manejo de Plantas de Lavoura)",
+        "muda": "datas da prova de títulos, datas da prova didática e datas"
+      },
+      {
         "data": "2026-11-24",
         "documento": "Informativo - Retificação do Cronograma Inicial (Entomologia Agrícola)",
         "muda": "datas"
@@ -2614,16 +2624,6 @@ window.CONCURSOS = [
         "data": "2026-11-16",
         "documento": "Cronograma Final Retificado",
         "muda": "datas da prova didática"
-      },
-      {
-        "data": "2026-11-14",
-        "documento": "Cronograma Final",
-        "muda": "datas da prova de títulos, datas e datas da prova didática"
-      },
-      {
-        "data": "2026-11-13",
-        "documento": "Edital de Retificação nº 39",
-        "muda": "datas"
       }
     ],
     "inscritos": {
@@ -2655,7 +2655,7 @@ window.CONCURSOS = [
     "edital": {
       "numero": "09/2026",
       "publicacao": "2026-08-19",
-      "alteracoes": 34
+      "alteracoes": 36
     },
     "vagas_total": 20
   },
@@ -34334,7 +34334,7 @@ window.CONCURSOS = [
     "instituicao": "Universidade Federal de Santa Maria",
     "nivel": "Magistério Superior",
     "uf": "RS",
-    "numero_edital": "Edital nº 198/2026, publicado em 29/06/2026, com 5 documentos de alteração publicados depois",
+    "numero_edital": "Edital nº 198/2026, publicado em 29/06/2026, com 6 documentos de alteração publicados depois",
     "vagas": "8 vagas",
     "areas": "7 áreas, entre elas Ciências Agrárias/ Medicina Veterinária/ Clínica e Cirurgia Animal (Ênfase em Medicina de Ruminantes), Engenharias/ Engenharia Sanitária, Ciências Exatas e da Terra/ Matemática, Multidisciplinar/Ensino/ Ensino de Ciências e Matemática e Ciências Exatas e da Terra/ Geociências/ Micrometeorologia",
     "campi": "Santa Maria",
@@ -34948,6 +34948,11 @@ window.CONCURSOS = [
     ],
     "alteracoes": [
       {
+        "data": "2026-11-25",
+        "documento": "Cronograma retificado da segunda etapa (Ensino de Ciências e Matemática)",
+        "muda": "datas da prova didática"
+      },
+      {
         "data": "2026-11-23",
         "documento": "Cronograma da 2ª e 3ª etapa (Micrometeorologia)",
         "muda": "datas da prova escrita, datas da memorial e datas da prova didática"
@@ -34993,7 +34998,7 @@ window.CONCURSOS = [
     "edital": {
       "numero": "198/2026",
       "publicacao": "2026-06-29",
-      "alteracoes": 5
+      "alteracoes": 6
     },
     "vagas_total": 8
   },
@@ -43041,7 +43046,7 @@ window.CONCURSOS = [
     "instituicao": "Universidade Federal dos Vales do Jequitinhonha e Mucuri",
     "nivel": "Magistério Superior",
     "uf": "MG",
-    "numero_edital": "Edital nº 101/2026, publicado em 24/09/2026, com 7 documentos de alteração publicados depois",
+    "numero_edital": "Edital nº 101/2026, publicado em 24/09/2026, com 14 documentos de alteração publicados depois",
     "vagas": "24 vagas",
     "areas": "23 áreas, entre elas Ciência da Computação (ou Informática) OU Engenharias - Subárea: Análise de Algoritmos e Complexidade de Computação ou Metodologia e Técnicas da Computação ou Banco de Dados ou Sistemas de Informação ou Linguagens de Programação ou Inteligência Artificial ou Inteligência Computacional, Ciência da Computação (ou Informática) OU Engenharias - Subárea: Sistemas de Computação OU Arquitetura de Sistemas de Computação OU Hardware OU Linguagens de Programação OU Metodologia e Técnicas da Computação OU Sistemas de Informação OU Inteligência Artificia, Interdisciplinar, Sociologia, Odontologia (4.02.00.00- 0) - Subárea: Clínica Odontológica (4.02.01.00-7) - Especialidade: em Dentística ou Prótese Dentária e Ciências Exatas e da Terra/Química",
     "campi": "Conceição do Mato Dentro, Diamantina, Janaúba, Teófilo Otoni e Unaí",
@@ -43101,9 +43106,9 @@ window.CONCURSOS = [
         "carater": "Eliminatória e classificatória",
         "data": {
           "tipo": "periodo",
-          "valor": "2026-12-14",
+          "valor": "2026-12-28",
           "fim": "2027-05-05",
-          "nota": "Para Área 101.15 (Ensino de Geografia, Novas Tecnologias…), Área 101.16 (Geografia Econômica; Geografia Regional e…) e Área 101.17 (Metodologia Quantitativa de Banco de Dados…), o documento traz 15/02/2026 a 26/02/2026, com o ano provavelmente trocado; confira na página do concurso. Datas por área: Área 101.5 (Ciências Exatas e da Terra/Química), Área 101.21 (Educação (70800006) - Subárea: Fundamentos…) e Área 101.22 (Engenharia - Subárea: Engenharia de Produção…): 14/12 a 05/02; Área 101.14 (Psicologia (70700001) - Subárea: Tratamento…): 14/12 a 17/02; Área 101.1 (Ciência da Computação (ou Informática) OU…), Área 101.3 (Interdisciplinar, Sociologia) e Área 101.20 (Economia): 28/12 a 15/02; Área 101.2 (Ciência da Computação (ou Informática) OU…): 29/12 a 22/02; Área 101.6 (Ciências Agrárias - Subárea…): 18/01 a 29/01; Área 101.11 (Ciências Humanas, Educação, Educação Básica…): 18/01 a 22/02; Área 101.9 (Farmácia - Subárea: Farmacotecnia): 27/01 a 14/04; Área 101.8 (Farmácia - Subárea: Cuidado Farmacêutico…): 27/01 a 15/04; Área 101.10 (Nutrição - Subárea: Nutrição Básica e…): 15/02 a 29/03; Área 101.7 (Recursos Florestais E Engenharia Florestal -…): 15/02 a 01/04; Área 101.19 (Ciência da Computação (OU Informática) OU…): 15/02 a 26/04; Área 101.23 (Medicina Veterinária - Subárea: Clínica e…): 22/02 a 26/02; Área 101.12 (Ciências Humanas, Ciências Sociais Aplicadas…): 22/02 a 25/03; Área 101.13 (Psicologia (70700001) - Subárea: Psicologia…): 09/03 a 15/04; Área 101.18 (Química (1.06.00.00-0) ou Ciências -…): 06/04; Área 101.4 (Odontologia (4.02.00.00- 0) - Subárea…): 05/05"
+          "nota": "Datas por área: Área 101.3 (Interdisciplinar, Sociologia) e Área 101.20 (Economia): 28/12 a 15/02; Área 101.6 (Ciências Agrárias - Subárea…): 18/01 a 29/01; Área 101.11 (Ciências Humanas, Educação, Educação Básica…): 18/01 a 22/02; Área 101.1 (Ciência da Computação (ou Informática) OU…) e Área 101.2 (Ciência da Computação (ou Informática) OU…): 27/01; Área 101.9 (Farmácia - Subárea: Farmacotecnia): 27/01 a 14/04; Área 101.8 (Farmácia - Subárea: Cuidado Farmacêutico…): 27/01 a 15/04; Área 101.5 (Ciências Exatas e da Terra/Química): 02/02; Área 101.15 (Ensino de Geografia, Novas Tecnologias…), Área 101.16 (Geografia Econômica; Geografia Regional e…) e Área 101.17 (Metodologia Quantitativa de Banco de Dados…): 15/02 a 26/02; Área 101.10 (Nutrição - Subárea: Nutrição Básica e…): 15/02 a 29/03; Área 101.7 (Recursos Florestais E Engenharia Florestal -…): 15/02 a 01/04; Área 101.19 (Ciência da Computação (OU Informática) OU…): 15/02 a 26/04; Área 101.14 (Psicologia (70700001) - Subárea: Tratamento…): 16/02; Área 101.23 (Medicina Veterinária - Subárea: Clínica e…): 22/02 a 26/02; Área 101.12 (Ciências Humanas, Ciências Sociais Aplicadas…): 22/02 a 25/03; Área 101.21 (Educação (70800006) - Subárea: Fundamentos…): 22/02 a 16/04; Área 101.22 (Engenharia - Subárea: Engenharia de Produção…): 09/03; Área 101.13 (Psicologia (70700001) - Subárea: Psicologia…): 09/03 a 15/04; Área 101.18 (Química (1.06.00.00-0) ou Ciências -…): 06/04; Área 101.4 (Odontologia (4.02.00.00- 0) - Subárea…): 05/05"
         },
         "detalhe": {
           "duracao": "De 40 a 50 minutos",
@@ -43124,9 +43129,9 @@ window.CONCURSOS = [
         "carater": "Eliminatória e classificatória",
         "data": {
           "tipo": "periodo",
-          "valor": "2026-12-14",
-          "fim": "2027-04-15",
-          "nota": "Datas por área: Área 101.5 (Ciências Exatas e da Terra/Química), Área 101.21 (Educação (70800006) - Subárea: Fundamentos…) e Área 101.22 (Engenharia - Subárea: Engenharia de Produção…): 14/12 a 05/02; Área 101.20 (Economia): 28/12 a 15/02; Área 101.6 (Ciências Agrárias - Subárea…): 18/01 a 29/01; Área 101.11 (Ciências Humanas, Educação, Educação Básica…): 18/01 a 22/02; Área 101.9 (Farmácia - Subárea: Farmacotecnia): 27/01 a 14/04; Área 101.8 (Farmácia - Subárea: Cuidado Farmacêutico…): 27/01 a 15/04; Área 101.10 (Nutrição - Subárea: Nutrição Básica e…): 15/02 a 29/03; Área 101.7 (Recursos Florestais E Engenharia Florestal -…): 15/02 a 01/04; Área 101.18 (Química (1.06.00.00-0) ou Ciências -…): 08/04"
+          "valor": "2026-12-28",
+          "fim": "2027-04-16",
+          "nota": "Datas por área: Área 101.20 (Economia): 28/12 a 15/02; Área 101.6 (Ciências Agrárias - Subárea…): 18/01 a 29/01; Área 101.11 (Ciências Humanas, Educação, Educação Básica…): 18/01 a 22/02; Área 101.9 (Farmácia - Subárea: Farmacotecnia): 27/01 a 14/04; Área 101.8 (Farmácia - Subárea: Cuidado Farmacêutico…): 27/01 a 15/04; Área 101.5 (Ciências Exatas e da Terra/Química): 04/02; Área 101.10 (Nutrição - Subárea: Nutrição Básica e…): 15/02 a 29/03; Área 101.7 (Recursos Florestais E Engenharia Florestal -…): 15/02 a 01/04; Área 101.21 (Educação (70800006) - Subárea: Fundamentos…): 22/02 a 16/04; Área 101.22 (Engenharia - Subárea: Engenharia de Produção…): 10/03; Área 101.18 (Química (1.06.00.00-0) ou Ciências -…): 08/04"
         },
         "detalhe": {}
       },
@@ -43136,9 +43141,9 @@ window.CONCURSOS = [
         "carater": "Classificatória",
         "data": {
           "tipo": "periodo",
-          "valor": "2026-12-14",
+          "valor": "2026-12-28",
           "fim": "2027-05-06",
-          "nota": "Para Área 101.15 (Ensino de Geografia, Novas Tecnologias…), Área 101.16 (Geografia Econômica; Geografia Regional e…) e Área 101.17 (Metodologia Quantitativa de Banco de Dados…), o documento traz 15/02/2026 a 26/02/2026, com o ano provavelmente trocado; confira na página do concurso. Datas por área: Área 101.5 (Ciências Exatas e da Terra/Química), Área 101.21 (Educação (70800006) - Subárea: Fundamentos…) e Área 101.22 (Engenharia - Subárea: Engenharia de Produção…): 14/12 a 05/02; Área 101.14 (Psicologia (70700001) - Subárea: Tratamento…): 14/12 a 17/02; Área 101.1 (Ciência da Computação (ou Informática) OU…), Área 101.3 (Interdisciplinar, Sociologia) e Área 101.20 (Economia): 28/12 a 15/02; Área 101.2 (Ciência da Computação (ou Informática) OU…): 29/12 a 22/02; Área 101.6 (Ciências Agrárias - Subárea…): 18/01 a 29/01; Área 101.11 (Ciências Humanas, Educação, Educação Básica…): 18/01 a 22/02; Área 101.9 (Farmácia - Subárea: Farmacotecnia): 27/01 a 14/04; Área 101.8 (Farmácia - Subárea: Cuidado Farmacêutico…): 27/01 a 15/04; Área 101.10 (Nutrição - Subárea: Nutrição Básica e…): 15/02 a 29/03; Área 101.7 (Recursos Florestais E Engenharia Florestal -…): 15/02 a 01/04; Área 101.19 (Ciência da Computação (OU Informática) OU…): 15/02 a 26/04; Área 101.23 (Medicina Veterinária - Subárea: Clínica e…): 22/02 a 26/02; Área 101.12 (Ciências Humanas, Ciências Sociais Aplicadas…): 22/02 a 25/03; Área 101.13 (Psicologia (70700001) - Subárea: Psicologia…): 09/03 a 15/04; Área 101.18 (Química (1.06.00.00-0) ou Ciências -…): 09/04; Área 101.4 (Odontologia (4.02.00.00- 0) - Subárea…): 06/05"
+          "nota": "Datas por área: Área 101.3 (Interdisciplinar, Sociologia) e Área 101.20 (Economia): 28/12 a 15/02; Área 101.6 (Ciências Agrárias - Subárea…): 18/01 a 29/01; Área 101.11 (Ciências Humanas, Educação, Educação Básica…): 18/01 a 22/02; Área 101.1 (Ciência da Computação (ou Informática) OU…) e Área 101.2 (Ciência da Computação (ou Informática) OU…): 27/01; Área 101.9 (Farmácia - Subárea: Farmacotecnia): 27/01 a 14/04; Área 101.8 (Farmácia - Subárea: Cuidado Farmacêutico…): 27/01 a 15/04; Área 101.5 (Ciências Exatas e da Terra/Química): 01/02; Área 101.15 (Ensino de Geografia, Novas Tecnologias…), Área 101.16 (Geografia Econômica; Geografia Regional e…) e Área 101.17 (Metodologia Quantitativa de Banco de Dados…): 15/02 a 26/02; Área 101.10 (Nutrição - Subárea: Nutrição Básica e…): 15/02 a 29/03; Área 101.7 (Recursos Florestais E Engenharia Florestal -…): 15/02 a 01/04; Área 101.19 (Ciência da Computação (OU Informática) OU…): 15/02 a 26/04; Área 101.14 (Psicologia (70700001) - Subárea: Tratamento…): 16/02; Área 101.23 (Medicina Veterinária - Subárea: Clínica e…): 22/02 a 26/02; Área 101.12 (Ciências Humanas, Ciências Sociais Aplicadas…): 22/02 a 25/03; Área 101.21 (Educação (70800006) - Subárea: Fundamentos…): 22/02 a 16/04; Área 101.13 (Psicologia (70700001) - Subárea: Psicologia…): 09/03 a 15/04; Área 101.22 (Engenharia - Subárea: Engenharia de Produção…): 11/03; Área 101.18 (Química (1.06.00.00-0) ou Ciências -…): 09/04; Área 101.4 (Odontologia (4.02.00.00- 0) - Subárea…): 06/05"
         },
         "detalhe": {}
       },
@@ -43189,7 +43194,7 @@ window.CONCURSOS = [
     "edital": {
       "numero": "101/2026",
       "publicacao": "2026-09-24",
-      "alteracoes": 7
+      "alteracoes": 14
     },
     "vagas_total": 24
   },
@@ -43322,6 +43327,17 @@ window.CONCURSOS = [
         "muda": "remuneração, datas e prova escrita"
       }
     ],
+    "inscritos": {
+      "01": 19,
+      "02": 29,
+      "03": 61,
+      "04": 127,
+      "05": 135,
+      "06": 143,
+      "07": 73,
+      "08": 74,
+      "09": 95
+    },
     "fonte_dados": {
       "origem": "extracao_v2",
       "extracoes": [
@@ -45962,8 +45978,9 @@ window.CONCURSOS = [
         "tipo": "discursiva",
         "carater": "Eliminatória e classificatória",
         "data": {
-          "tipo": "nao_divulgada",
-          "nota": "data, horário e local no edital de convocação (8.3); em duas fases, no primeiro dia previsto no edital de convocação, logo após o sorteio de temas (9.4.1, I)"
+          "tipo": "exata",
+          "valor": "2026-12-14",
+          "nota": "Datas por área: ENGENHARIA ELÉTRICA: 14/12; demais áreas: sem data (data, horário e local no edital de convocação (8.3); em duas fases, no primeiro dia previsto no edital de convocação, logo após o sorteio de temas (9.4.1, I))"
         },
         "detalhe": {
           "duracao": "3 horas"
@@ -46031,6 +46048,10 @@ window.CONCURSOS = [
         "detalhe": {}
       }
     ],
+    "periodo_provas": {
+      "inicio": "2026-12-14",
+      "fim": "2026-12-14"
+    },
     "logo": "unifei.png",
     "formacoes_status": "nao_extraido",
     "familias": [],
@@ -47698,14 +47719,14 @@ window.CONCURSOS = [
     "campi": "Cabo Frio e Centro Biomédico; Faculdade de Ciências Médicas; Departamento de Ciências Médicas Integradas - DEPCMI (Campus Cabo Frio)",
     "titulacao": "Mestrado",
     "regime": "CH Semanal 40",
-    "remuneracao": "R$ 5.236,22 de vencimento básico em CH Semanal 40",
+    "remuneracao": "R$ 5.530,48 de vencimento básico em CH Semanal 40",
     "banca": "Comissão própria da UERJ",
     "link_oficial": "https://prossim.uerj.br/",
     "inscricao": {
-      "inicio": "2026-11-01",
-      "fim": "2026-12-04",
-      "situacao": "aberta",
-      "taxa": "R$ 261,81"
+      "inicio": "2026-12-07",
+      "fim": "2027-01-29",
+      "situacao": "abre_em_breve",
+      "taxa": "R$ 276,52"
     },
     "etapas": [
       {
@@ -47770,6 +47791,13 @@ window.CONCURSOS = [
     "observacao": "",
     "detalhamento": "completo",
     "avisos_edital": [],
+    "alteracoes": [
+      {
+        "data": "2026-11-25",
+        "documento": "EDITAL (alteração dos itens Vencimento Base, 3.1.f e 11.1, DOERJ de 25/11/2026)",
+        "muda": "remuneração, inscrição, prazo de inscrição e datas"
+      }
+    ],
     "fonte_dados": {
       "origem": "extracao_v2",
       "extracoes": [
