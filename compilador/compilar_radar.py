@@ -1150,6 +1150,224 @@ def campos_estruturados(c):
     return c
 
 
+# ───────────── quadro de vagas, remuneração e nota final para o site (25/11/2026) ─────────────
+# Pedido do Samuel em 25/11/2026, depois da comparação com o radar do Prof. Júlio Martins: o site mostra o
+# quadro de vagas com o requisito literal, a remuneração por regime e titulação e como a nota final é
+# calculada. Tudo sai das extrações, sem dedução: o que a extração não traz não aparece.
+
+SITUACAO_FORA = ("cancelada", "cancelado", "suspensa")
+
+try:
+    from classifica_vagas import classifica_vaga, familias_do_quadro
+except ImportError:   # catálogo ausente: o quadro sai sem a classificação, como antes
+    def classifica_vaga(vaga):
+        return None
+
+    def familias_do_quadro(quadro):
+        return [], []
+
+
+def sem_acento(t):
+    import unicodedata
+    return "".join(ch for ch in unicodedata.normalize("NFD", str(t or "")) if unicodedata.category(ch) != "Mn")
+
+
+def quadro_do_edital(exts, em_pacote):
+    """Quadro de vagas lido do edital, no formato de areas_formacoes, sem a classificação de formação
+    (formacoes/titulacoes). O site mostra a tabela e não usa estas vagas no filtro de área de formação."""
+    quadro = []
+    for e in exts:
+        ed = (v(e.get("numero_edital")) or e["_slug"]) if em_pacote else None
+        for vg in e.get("vagas") or []:
+            if str(v(vg.get("situacao")) or "").lower() in SITUACAO_FORA:
+                continue
+            cod = vg.get("codigo") or {}
+            area = (vg.get("area_conhecimento") or cod.get("literal") or "").strip().rstrip(".")
+            if not area:
+                continue
+            item = {"codigo": str(cod.get("numero") or cod.get("literal") or ""), "area": area,
+                    "campus": (vg.get("unidade") or "").strip(), "vagas": vg.get("vagas_imediatas"),
+                    "requisito": (vg.get("requisito_literal") or "").strip(),
+                    "nivel_minimo": vg.get("titulacao_minima") or ""}
+            if (vg.get("regime") or "").strip():
+                item["regime"] = vg["regime"].strip()
+            f = vg.get("fonte") or {}
+            fonte = ", ".join(x for x in (str(f["item"]) if f.get("item") else "",
+                                          f"p. {f['pagina']}" if f.get("pagina") else "") if x)
+            if fonte:
+                item["fonte"] = fonte
+            if ed:
+                item["edital"] = ed
+            # Família de formação pela leitura automática do requisito (25/11/2026, classifica_vagas.py)
+            cl = classifica_vaga(vg)
+            if cl:
+                item["formacoes"], item["titulacoes"] = cl
+            quadro.append(item)
+    return quadro
+
+
+def chave_regime(s):
+    """Junta as grafias do mesmo regime ("DE", "Dedicação Exclusiva (DE)", "40h DE") para casar o vencimento
+    básico de um regime com a retribuição e o total do mesmo regime."""
+    t = sem_acento(s).lower()
+    if re.search(r"\bsem (regime de )?dedica", t):
+        pass
+    elif re.search(r"dedicacao exclusiva|dedicacao integral|\bde\b|\brdidp\b|\btide\b", t):
+        return "de"
+    m = re.search(r"\b(20|24|30|40)\s*(h\b|horas|\(|semanais)|ch semanal (\d+)|\((\d+)h\)", t)
+    if m:
+        return m.group(1) or m.group(3) or m.group(4)
+    return t.strip()
+
+
+ORDEM_TITULACAO = [("gradua", 0), ("aperfei", 1), ("especializ", 2), ("especialista", 2), ("resid", 2),
+                   ("mestr", 3), ("doutor", 4)]
+NOME_TITULACAO = {0: "Graduação", 1: "Aperfeiçoamento", 2: "Especialização", 3: "Mestrado", 4: "Doutorado"}
+
+
+def nivel_titulacao(t):
+    t = sem_acento(t).lower()
+    for chave, n in reversed(ORDEM_TITULACAO):
+        if chave in t:
+            return n
+    return None
+
+
+def rotulo_titulacao(t):
+    """"titulação de doutor" e "DOUTORADO" viram "Doutorado"; combinações ("Mestrado ou RSC-II +
+    Especialização") ficam como o edital escreve."""
+    t = (t or "").strip()
+    if not t:
+        return ""
+    if re.search(r"\bou\b|\+|rsc", t, re.I):
+        return t[0].upper() + t[1:]
+    n = nivel_titulacao(t)
+    if n == 2 and "resid" in sem_acento(t).lower():
+        return "Especialização ou residência" if "especializ" in sem_acento(t).lower() else "Residência"
+    return NOME_TITULACAO.get(n, t[0].upper() + t[1:].lower() if t.isupper() else t)
+
+
+def componentes_do_total(lits):
+    """Nomes das parcelas que o total do edital soma, escritos de um jeito só."""
+    saida = []
+    for lit in lits:
+        t = sem_acento(lit).lower()
+        if "vencimento" in t:
+            n = "vencimento básico"
+        elif "titula" in t:
+            n = "retribuição por titulação"
+        elif "aliment" in t or "alimet" in t:
+            n = "auxílio-alimentação"
+        else:
+            n = re.sub(r"\s+", " ", lit.strip())
+            n = n[0].lower() + n[1:] if n and not n[:2].isupper() else n
+        if n and n not in saida:
+            saida.append(n)
+    return saida
+
+
+def tabela_de_remuneracao(ext):
+    rem = ext.get("remuneracao") or {}
+
+    def valido(x):
+        return isinstance(x.get("valor"), (int, float)) and not isinstance(x.get("valor"), bool) and x["valor"] > 0
+
+    vbs = [x for x in rem.get("vencimento_basico") or [] if valido(x)]
+    rts = [x for x in rem.get("retribuicao_por_titulacao") or [] if valido(x)]
+    tots = [x for x in rem.get("remuneracao_total") or [] if valido(x)]
+    if not rts and not tots:
+        return None
+    vb_por_regime, rotulo_regime = {}, {}
+    for x in vbs:
+        k = chave_regime(x.get("regime"))
+        vb_por_regime.setdefault(k, x["valor"])
+        rotulo_regime.setdefault(k, (x.get("regime") or "").strip())
+    linhas, ordem = {}, []
+    for campo, lista in (("rt", rts), ("total", tots)):
+        for x in lista:
+            k = (chave_regime(x.get("regime")), rotulo_titulacao(x.get("titulacao")))
+            if k not in linhas:
+                linhas[k] = {"regime": rotulo_regime.get(k[0]) or (x.get("regime") or "").strip(),
+                             "titulacao": k[1]}
+                ordem.append(k)
+            linhas[k].setdefault(campo, x["valor"])
+    for k in ordem:
+        if k[0] in vb_por_regime:
+            linhas[k]["vb"] = vb_por_regime[k[0]]
+    regimes = unicos(k[0] for k in ordem)
+    ordem.sort(key=lambda k: (regimes.index(k[0]), nivel_titulacao(k[1]) if nivel_titulacao(k[1]) is not None else 9))
+    tab = {"linhas": [{c: linhas[k][c] for c in ("regime", "titulacao", "vb", "rt", "total") if linhas[k].get(c) not in (None, "")}
+                      for k in ordem]}
+    comp = componentes_do_total(unicos(c for x in tots for c in (x.get("componentes_literal") or [])))
+    if comp:
+        tab["total_soma"] = comp
+    f = next((x.get("fonte") for x in rts + tots if x.get("fonte")), None) or {}
+    if f.get("item"):
+        tab["fonte"] = f"item {f['item']}" + (f", p. {f['pagina']}" if f.get("pagina") else "")
+    return tab
+
+
+def tabela_remuneracao(exts):
+    """Uma tabela só: a do edital, ou a dos editais do pacote quando todos dão a mesma."""
+    tabs = [tabela_de_remuneracao(e) for e in exts]
+    if not tabs[0] or any(t != tabs[0] for t in tabs[1:]):
+        return None
+    return tabs[0]
+
+
+ROTULO_FASE = {"escrita": "Prova escrita", "objetiva": "Prova objetiva", "didatica": "Prova didática",
+               "titulos": "Prova de títulos", "memorial": "Memorial", "pratica": "Prova prática",
+               "projeto": "Projeto ou plano de trabalho", "prova_oral": "Prova oral", "seminario": "Seminário",
+               "defesa_producao": "Defesa de produção", "compatibilidade_perfil": "Compatibilidade de perfil",
+               "outra": "Outra etapa"}
+# Observação do extrator sobre como leu o documento, não do edital ("a fórmula está em imagem e foi lida
+# pela imagem do PDF"): sai do texto mostrado ao candidato.
+NOTA_DO_EXTRATOR = re.compile(r"[;,]?\s*(a fórmula|foi lid[ao]|lida pela|pela imagem|em imagem)[^();]*", re.I)
+
+
+def limpa_formula(t):
+    t = re.sub(r"\s+", " ", str(t or "")).strip()
+    t = re.sub(r"\(([^()]*)\)", lambda m: "(" + NOTA_DO_EXTRATOR.sub("", m.group(1)).strip(" ;,") + ")"
+               if NOTA_DO_EXTRATOR.search(m.group(1)) else m.group(0), t)
+    return re.sub(r"\s*\(\s*\)", "", t).strip()
+
+
+def nota_final_de(ext):
+    ep = ext.get("estrutura_de_pontuacao") or {}
+    if ep.get("por_escopo"):
+        return None   # pontuação muda por área: o site manda ao edital em vez de mostrar uma regra que não vale para todos
+    padrao = ep.get("padrao") or {}
+    fases = []
+    for f in padrao.get("fases") or []:
+        ref = f.get("etapa_ref")
+        linha = {"etapa": ROTULO_FASE.get(ref, str(ref or "Etapa").replace("_", " ").capitalize())}
+        vale = f.get("maximo") if isinstance(f.get("maximo"), (int, float)) else f.get("escala")
+        if isinstance(vale, (int, float)) and vale:
+            linha["vale"] = num(float(vale))
+        for k in ("minimo", "peso"):
+            if isinstance(f.get(k), (int, float)) and not isinstance(f.get(k), bool):
+                linha[k] = num(float(f[k]))
+        if CARATER.get(f.get("carater")):
+            linha["carater"] = CARATER[f["carater"]]
+        fases.append(linha)
+    formula = limpa_formula((padrao.get("formula_final") or {}).get("valor"))
+    if not fases and not formula:
+        return None
+    nf = {}
+    if fases:
+        nf["fases"] = fases
+    if formula:
+        nf["formula"] = formula
+    return nf
+
+
+def nota_final(exts):
+    nfs = [nota_final_de(e) for e in exts]
+    if not nfs[0] or any(x != nfs[0] for x in nfs[1:]):
+        return None
+    return nfs[0]
+
+
 def compila_grupo(id_radar, exts, atual, hoje, validador=None, conservador=False, liberados=None):
     em_pacote = len(exts) > 1 or (id_radar != exts[0]["_slug"])
     base = exts[0]
@@ -1568,9 +1786,27 @@ def compila_grupo(id_radar, exts, atual, hoje, validador=None, conservador=False
 
     # Campos preservados do dados.js atual (o que a extração não cobre)
     for k in ("logo", "sigla_selo", "formacoes_status", "familias", "formacoes",
-              "familias_pos", "areas_formacoes", "formacoes_nota", "observacao"):
+              "familias_pos", "areas_formacoes", "formacoes_nota", "observacao", "no_radar_desde"):
         if atual and k in atual:
             novo[k] = atual[k]
+    # Data de entrada no Radar (25/11/2026), para o selo "Novo no Radar" e as novidades da semana.
+    # Concurso já publicado sem a data fica sem ela, para não aparecer como novo.
+    if not atual:
+        novo["no_radar_desde"] = hoje
+    # Quadro de vagas lido do edital (25/11/2026): vale enquanto o levantamento de formações não foi feito
+    # ("nao_extraido") e é refeito a cada rodada ("edital"), para retificação de vaga chegar ao site.
+    # O levantamento conferido ("completo" ou "parcial") continua valendo como está.
+    if novo.get("formacoes_status", "nao_extraido") in ("nao_extraido", "edital") and not pacote_parcial:
+        quadro = quadro_do_edital(ativos, em_pacote)
+        novo["areas_formacoes"] = quadro
+        novo["formacoes_status"] = "edital" if quadro else "nao_extraido"
+        novo["familias"], novo["familias_pos"] = familias_do_quadro(quadro)
+    tab = tabela_remuneracao(ativos)
+    if tab and not pacote_parcial:
+        novo["remuneracao_tabela"] = tab
+    nf = nota_final(ativos)
+    if nf and not pacote_parcial:
+        novo["nota_final"] = nf
     if not novo.get("logo"):
         logo = LOGOS_POR_SIGLA.get(str(novo.get("sigla") or "").upper())
         if logo:

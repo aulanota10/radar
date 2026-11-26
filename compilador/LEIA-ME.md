@@ -56,3 +56,13 @@ Pedido do Samuel em 17/11/2026, na revisão visual do Radar. O compilador passou
 - `inscritos`: inscritos homologados por código de vaga (no pacote, `"<edital>|<código>"`), casados no site com `areas_formacoes[].codigo`.
 - Em cada etapa, `peso` (quando todos os editais dão o mesmo) e, na didática, `temas` (`min` e `max` de temas publicados).
 - Tipos de etapa `pratica` e `projeto`, que antes saíam como `outra`. A etapa publicada antes como `outra` continua casando com eles pela palavra principal do nome, para o modo conservador não perder data nem nota.
+
+## Quadro de vagas, remuneração, nota final e data de entrada (25/11/2026)
+
+Pedido do Samuel em 25/11/2026, depois da comparação com o radar do Prof. Júlio Martins. O compilador passou a gravar:
+
+- `areas_formacoes` lido do edital quando não há levantamento de formações (`formacoes_status` vira `"edital"`; o levantamento conferido, `"completo"` ou `"parcial"`, não é tocado). É refeito a cada rodada, para retificação de vaga chegar ao site. Vaga cancelada não entra.
+- Em cada vaga do quadro do edital, `formacoes` e `titulacoes` pela leitura automática do requisito (`classifica_vagas.py`), a partir de `requisito_interpretado` e do catálogo de formações. As famílias do site saem da área de avaliação da CAPES pela tabela `AREA_FAMILIA`, tirada dos 28 concursos classificados à mão. Conferência de 25/11/2026 contra esse levantamento, em 556 vagas: o candidato acha a vaga em 95,3% dos pares vaga e família, e 85,3% das famílias marcadas estão no levantamento manual (as que sobram vêm quase todas de requisitos por grande área, como "Doutorado em Ciências Biológicas ou Engenharias"). Vaga com requisito ambíguo fica sem classificação. No site, concurso do quadro do edital que não casa com a família escolhida continua como "requisito ainda não conferido", nunca some.
+- `remuneracao_tabela` (`linhas` com regime, titulação, vencimento básico, retribuição e total; `total_soma` com o que o total do edital soma; `fonte`), só quando o edital traz retribuição ou total.
+- `nota_final` (`fases` com etapa, escala, nota mínima, peso e caráter; `formula` do edital, sem as observações do extrator). Não sai quando a pontuação muda por área.
+- `no_radar_desde`: a data de entrada no Radar, só para concurso novo. Os publicados antes de 25/11/2026 receberam a data da primeira aparição no histórico do `dados.js`.

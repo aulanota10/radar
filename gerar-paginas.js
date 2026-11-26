@@ -360,6 +360,63 @@ function blocoPreparacao(c) {
   return `<section><h2>${esc(titulo)}</h2><div class="preps">${cartoes}</div></section>`;
 }
 
+// Remuneração por regime e titulação e regra da nota final (25/11/2026), como no Radar.
+function moeda(n) {
+  return typeof n === "number" ? "R$ " + n.toFixed(2).replace(".", ",").replace(/\B(?=(\d{3})+(?!\d))/g, ".") : "";
+}
+
+function resumoRemuneracao(c) {
+  const t = c.remuneracao_tabela;
+  const tot = t ? t.linhas.map((l) => l.total).filter((x) => typeof x === "number") : [];
+  if (!tot.length) return c.remuneracao;
+  const min = Math.min(...tot);
+  const max = Math.max(...tot);
+  const aux = (t.total_soma || []).some((x) => /aliment/.test(x));
+  return (min === max ? `${moeda(max)} no total do edital` : `De ${moeda(min)} a ${moeda(max)} no total do edital, conforme regime e titulação`) + (aux ? " (inclui auxílio-alimentação)" : "");
+}
+
+function tabelaHtml(colunas, linhas, minimo) {
+  return `<div class="rolagem"><table class="vagas"${minimo ? ` style="min-width:${minimo}px"` : ' style="min-width:0"'}><thead><tr>${colunas
+    .map((cl) => `<th${cl.num ? ' class="num"' : ""}>${esc(cl.t)}</th>`)
+    .join("")}</tr></thead><tbody>${linhas
+    .map((l) => `<tr>${colunas.map((cl) => `<td${cl.num ? ' class="num"' : ""}>${cl.forte ? `<strong>${esc(l[cl.k])}</strong>` : esc(l[cl.k])}</td>`).join("")}</tr>`)
+    .join("")}</tbody></table></div>`;
+}
+
+function blocoRemuneracao(c) {
+  const t = c.remuneracao_tabela;
+  if (!t || !(t.linhas || []).length) return "";
+  const tem = (k) => t.linhas.some((l) => l[k] != null && l[k] !== "");
+  const colunas = [
+    { k: "regime", t: "Regime" },
+    tem("titulacao") && { k: "titulacao", t: "Titulação" },
+    tem("vb") && { k: "vb", t: "Vencimento básico", num: true },
+    tem("rt") && { k: "rt", t: "Retribuição por titulação", num: true },
+    tem("total") && { k: "total", t: "Total no edital", num: true, forte: true },
+  ].filter(Boolean);
+  const linhas = t.linhas.map((l) => ({ regime: l.regime, titulacao: l.titulacao, vb: moeda(l.vb) || "—", rt: moeda(l.rt) || "—", total: moeda(l.total) || "—" }));
+  const soma = (t.total_soma || []).length ? `O total do edital soma ${t.total_soma.join(", ").replace(/, ([^,]*)$/, " e $1")}. ` : "";
+  return `<section><h2>Remuneração</h2>${tabelaHtml(colunas, linhas, colunas.length > 3 ? 620 : 0)}<p class="nota">${esc(soma)}Valores do edital${t.fonte ? ` (${esc(t.fonte)})` : ""}; confirme na posse os valores em vigor.</p></section>`;
+}
+
+function blocoNotaFinal(c) {
+  const nf = c.nota_final;
+  if (!nf) return "";
+  const fases = nf.fases || [];
+  const tem = (k) => fases.some((l) => l[k] != null && l[k] !== "");
+  const colunas = [
+    { k: "etapa", t: "Etapa", forte: true },
+    tem("vale") && { k: "vale", t: "Vale", num: true },
+    tem("minimo") && { k: "minimo", t: "Nota mínima", num: true },
+    tem("peso") && { k: "peso", t: "Peso", num: true },
+    tem("carater") && { k: "carater", t: "Caráter" },
+  ].filter(Boolean);
+  const linhas = fases.map((l) => Object.assign({}, l, { vale: l.vale ? `0 a ${l.vale}` : "" }));
+  return `<section><h2>Como a nota final é calculada</h2>${fases.length ? tabelaHtml(colunas, linhas, colunas.length > 3 ? 560 : 0) : ""}${
+    nf.formula ? `<p class="resumo"><strong>No edital:</strong> ${esc(nf.formula)}</p>` : ""
+  }<p class="nota">Resumo da regra do edital. Os critérios de desempate e os arredondamentos estão no edital.</p></section>`;
+}
+
 function blocoAvisos(c) {
   const avisos = (c.avisos_edital || []).filter((a) => !vazio(a));
   if (!avisos.length) return "";
@@ -499,14 +556,16 @@ ${linhaFicha("Áreas", c.areas)}
 ${linhaFicha("Locais", c.campi)}
 ${linhaFicha("Titulação", c.titulacao)}
 ${linhaFicha("Regime", c.regime)}
-${linhaFicha("Remuneração", c.remuneracao)}
+${linhaFicha("Remuneração", resumoRemuneracao(c))}
 ${linhaFicha("Inscrição", periodoInscricao)}
 ${linhaFicha("Prazo próprio", (i.excecoes || []).map((x) => `${x.areas}, ${ehData(x.inicio) ? dataLonga(x.inicio) + " a " : "até "}${dataLonga(x.fim)}`).join("; "))}
 ${linhaFicha("Taxa", i.taxa)}
 ${linhaFicha("Banca", c.banca)}
 </dl></section>
+${blocoRemuneracao(c)}
 ${blocoAlteracoes(c)}
 ${blocoEtapas(c)}
+${blocoNotaFinal(c)}
 ${blocoAvisos(c)}
 ${blocoVagas(c)}
 ${blocoPreparacao(c)}
