@@ -9,3 +9,5 @@ A rodada do dia não tinha rodado: relatorios/ultima-rodada.json seguia com data
 Para o Samuel
 
 nenhum
+
+Rodada de publicação: https://github.com/aulanota10/radar/pull/57, mesclado automaticamente: sim
