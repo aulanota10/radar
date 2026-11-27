@@ -8,3 +8,5 @@ A rodada do dia rodou (relatorios/ultima-rodada.json com data 2026-11-27, pull r
 ## Para o Samuel
 
 UFLA 144: a retificação diz que os demais subitens ficam inalterados, então a Tabela 1 do subitem 1.1 segue com total de 16 vagas (11 de ampla concorrência, 4 para pessoas pretas ou pardas, 1 para pessoa com deficiência). Liberei 17 pela Tabela 2 retificada; a distribuição por reserva pode ainda ser corrigida pela UFLA.
+
+Rodada de publicação: https://github.com/aulanota10/radar/pull/58, mesclado automaticamente: sim
