@@ -2,32 +2,7 @@
 
 97 concursos no dados.js gerado, 97 no publicado; 99 vieram das extrações.
 
-## O que muda no Radar em relação ao publicado (7 concursos)
-
-**ufrgs-09-2026**
-- Prova Didática: nota da data alterada
-- Exame de Títulos e Trabalhos: nota da data alterada
-- Defesa da Produção Intelectual: nota da data alterada
-- editais alterado
-
-**ufsm-198-2026**
-- editais alterado
-
-**ufvjm-101-2026**
-- Prova Didática: 14/12/2026 a 05/05/2027 → 28/12/2026 a 05/05/2027
-- Prova defesa de projeto de atividades acadêmicas: 14/12/2026 a 15/04/2027 → 28/12/2026 a 16/04/2027
-- Prova de Títulos: 14/12/2026 a 06/05/2027 → 28/12/2026 a 06/05/2027
-- editais alterado
-
-**unifei-51-2026**
-- Prova Escrita: sem data → 14/12/2026
-
-**uerj-1860-2026**
-- inscrição: aberta → abre_em_breve
-- inscrição inicio: 01/11/2026 → 07/12/2026
-- inscrição fim: 04/12/2026 → 29/01/2027
-- taxa de inscrição alterada
-- remuneração: "R$ 5.236,22 de vencimento básico em CH Semanal 40" → "R$ 5.530,48 de vencimento básico em CH Semanal 40"
+## O que muda no Radar em relação ao publicado (2 concursos)
 
 **furb-07-2026**
 - sai do Radar: resultado final em 08/10/2026, há mais de 30 dias (regra de 11/10/2026)
@@ -63,7 +38,7 @@ Já estavam no relatório anterior e seguem sem conferência.
 **unesp-assistente-2026**
 - vagas: o dados.js anterior dizia "1 vaga por edital, em 8 concursos independentes", a extração soma 8 (publicado o anterior)
 
-## Liberados após conferência (46 concursos)
+## Liberados após conferência (45 concursos)
 
 Conferidos nos documentos oficiais (compilador/liberados.json); o dados.js gerado publica o valor da extração.
 
@@ -161,9 +136,6 @@ Conferidos nos documentos oficiais (compilador/liberados.json); o dados.js gerad
 - texto corrigido após conferência (2026-11-08): campi
 
 **ufvjm-101-2026**
-- Prova Didática: dados.js anterior 14/12/2026 a 05/05/2027, extração 28/12/2026 a 05/05/2027 (liberado após conferência: publicada a extração)
-- Prova defesa de projeto de atividades acadêmicas: dados.js anterior 14/12/2026 a 15/04/2027, extração 28/12/2026 a 16/04/2027 (liberado após conferência: publicada a extração)
-- Prova de Títulos: dados.js anterior 14/12/2026 a 06/05/2027, extração 28/12/2026 a 06/05/2027 (liberado após conferência: publicada a extração)
 - texto corrigido após conferência (2026-11-08): campi
 
 **ufrn-109-2026**
@@ -220,19 +192,8 @@ Conferidos nos documentos oficiais (compilador/liberados.json); o dados.js gerad
 **ufsm-252-2026**
 - texto corrigido após conferência (2026-11-08): campi
 
-**uerj-1860-2026**
-- inscrição inicio: dados.js anterior 01/11/2026, extração 07/12/2026 (liberado após conferência: publicada a extração)
-- inscrição fim: dados.js anterior 04/12/2026, extração 29/01/2027 (liberado após conferência: publicada a extração)
-
 **ufc-52-2026**
 - texto corrigido após conferência (2026-11-15): campi
-
-## Dados novos trazidos pela extração (1 concursos)
-
-Etapas que estavam sem data no Radar e agora têm data publicada.
-
-**unifei-51-2026**
-- Prova Escrita agora tem data: 14/12/2026
 
 ## Mantido do dados.js anterior (25 concursos)
 
