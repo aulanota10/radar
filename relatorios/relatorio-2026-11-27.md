@@ -30,6 +30,7 @@
 **ufla-144-2026**
 - editais: "Edital nº 144/2026, publicado em 24/11/2026" → "Edital nº 144/2026, publicado em 24/11/2026, com 1 documento de alteração publicado depois"
 - áreas alterado
+- vagas: "16 vagas" → "17 vagas"
 
 **ufrgs-11-2026**
 - concurso novo no Radar
@@ -80,13 +81,6 @@ Só para informação. Pela regra de 11/10/2026, o concurso continua no Radar at
 - **ufv-58-2026**: última data da prova didática 25/11/2026
 - **ufv-60-2026**: última data da prova didática 25/11/2026
 
-## Conflitos novos desta semana (1 concursos)
-
-Apareceram nesta rodada. A extração e o dados.js publicado discordam. O dados.js gerado mantém o valor publicado (modo conservador); confira no edital qual está certo.
-
-**ufla-144-2026**
-- vagas: o dados.js anterior dizia "16 vagas", a extração soma 17 (publicado o anterior)
-
 ## Conflitos que continuam da semana anterior (1 concursos)
 
 Já estavam no relatório anterior e seguem sem conferência.
@@ -94,7 +88,7 @@ Já estavam no relatório anterior e seguem sem conferência.
 **unesp-assistente-2026**
 - vagas: o dados.js anterior dizia "1 vaga por edital, em 8 concursos independentes", a extração soma 8 (publicado o anterior)
 
-## Liberados após conferência (45 concursos)
+## Liberados após conferência (46 concursos)
 
 Conferidos nos documentos oficiais (compilador/liberados.json); o dados.js gerado publica o valor da extração.
 
@@ -250,6 +244,9 @@ Conferidos nos documentos oficiais (compilador/liberados.json); o dados.js gerad
 
 **ufc-52-2026**
 - texto corrigido após conferência (2026-11-15): campi
+
+**ufla-144-2026**
+- vagas: o dados.js anterior dizia "16 vagas", a extração soma 17 (liberado após conferência: publicada a extração)
 
 ## Dados novos trazidos pela extração (1 concursos)
 

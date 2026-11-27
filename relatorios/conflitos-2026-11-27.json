@@ -1,8 +1,5 @@
 {
  "unesp-assistente-2026": [
   "vagas: o dados.js anterior dizia \"1 vaga por edital, em 8 concursos independentes\", a extração soma 8 (publicado o anterior)"
- ],
- "ufla-144-2026": [
-  "vagas: o dados.js anterior dizia \"16 vagas\", a extração soma 17 (publicado o anterior)"
  ]
 }
