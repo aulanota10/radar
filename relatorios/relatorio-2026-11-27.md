@@ -1,57 +1,8 @@
 # Relatório do compilador do Radar · 27/11/2026
 
-104 concursos no dados.js gerado, 97 no publicado; 106 vieram das extrações.
+104 concursos no dados.js gerado, 104 no publicado; 106 vieram das extrações.
 
-## O que muda no Radar em relação ao publicado (17 concursos)
-
-**ufsm-221-2026**
-- Prova Escrita: nota da data alterada
-- Prova Didática: sem data → 15/01/2027
-- Prova de Defesa de Produção Intelectual: sem data → 15/01/2027
-
-**ufpel-028-2026**
-- editais alterado
-
-**uerj-244-2026**
-- inscrição: aberta → encerrada
-
-**ufv-58-2026**
-- editais alterado
-
-**ufv-60-2026**
-- editais alterado
-
-**unifei-59-2026**
-- inscrição: aberta → encerrada
-
-**uerj-258-2026**
-- inscrição: aberta → encerrada
-
-**ufla-144-2026**
-- editais: "Edital nº 144/2026, publicado em 24/11/2026" → "Edital nº 144/2026, publicado em 24/11/2026, com 1 documento de alteração publicado depois"
-- áreas alterado
-- vagas: "16 vagas" → "17 vagas"
-
-**ufrgs-11-2026**
-- concurso novo no Radar
-
-**ufv-62-2026**
-- concurso novo no Radar
-
-**unesp-faac-250-2026**
-- concurso novo no Radar
-
-**unesp-fcat-107-2026**
-- concurso novo no Radar
-
-**unesp-ibb-839-2026**
-- concurso novo no Radar
-
-**unesp-ibilce-356-2026**
-- concurso novo no Radar
-
-**unesp-igce-223-2026**
-- concurso novo no Radar
+## O que muda no Radar em relação ao publicado (2 concursos)
 
 **furb-07-2026**
 - sai do Radar: resultado final em 08/10/2026, há mais de 30 dias (regra de 11/10/2026)
@@ -246,15 +197,7 @@ Conferidos nos documentos oficiais (compilador/liberados.json); o dados.js gerad
 - texto corrigido após conferência (2026-11-15): campi
 
 **ufla-144-2026**
-- vagas: o dados.js anterior dizia "16 vagas", a extração soma 17 (liberado após conferência: publicada a extração)
-
-## Dados novos trazidos pela extração (1 concursos)
-
-Etapas que estavam sem data no Radar e agora têm data publicada.
-
-**ufsm-221-2026**
-- Prova Didática agora tem data: 15/01/2027
-- Prova de Defesa de Produção Intelectual agora tem data: 15/01/2027
+- vagas: o dados.js anterior dizia "17 vagas", a extração soma 17 (liberado após conferência: publicada a extração)
 
 ## Mantido do dados.js anterior (25 concursos)
 
