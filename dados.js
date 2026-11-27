@@ -1,6 +1,6 @@
 // ═══════════════════════════════════════════════════════════════════════
 //  DADOS DO RADAR DE CONCURSOS · Aula Nota 10
-//  Última verificação: 26/11/2026
+//  Última verificação: 27/11/2026
 //
 //  ESTE É O ÚNICO ARQUIVO QUE VOCÊ PRECISA EDITAR PARA ATUALIZAR O SITE.
 //  Não mexa no index.html.
@@ -35,7 +35,7 @@
 // Gerado por compilar_radar.py a partir das extrações v2 (vigia-documentos/extracoes).
 // Para corrigir um dado, corrija a extração e rode o compilador de novo.
 
-window.RADAR_ATUALIZADO = "26/11/2026";
+window.RADAR_ATUALIZADO = "27/11/2026";
 
 window.CONCURSOS = [
   {
@@ -9966,7 +9966,7 @@ window.CONCURSOS = [
           "tipo": "periodo",
           "valor": "2026-11-08",
           "fim": "2027-02-21",
-          "nota": "Datas por área: 06 (Ciências Sociais Aplicadas/ Administração/…): 30/11; demais áreas: 08/11 a 21/02"
+          "nota": "Datas por área: 06 (Ciências Sociais Aplicadas/ Administração/…): 30/11; 05 (Engenharias/ Engenharia Elétrica/ Circuitos…): 14/12; demais áreas: 08/11 a 21/02"
         },
         "detalhe": {
           "duracao": "5 horas",
@@ -9979,8 +9979,9 @@ window.CONCURSOS = [
         "tipo": "didatica",
         "carater": "Eliminatória e classificatória",
         "data": {
-          "tipo": "nao_divulgada",
-          "nota": "O cronograma de cada etapa do certame será publicado e atualizado na página do concurso"
+          "tipo": "exata",
+          "valor": "2027-01-15",
+          "nota": "Datas por área: 05 (Engenharias/ Engenharia Elétrica/ Circuitos…): 15/01; demais áreas: sem data (O cronograma de cada etapa do certame será publicado e atualizado na página do concurso)"
         },
         "detalhe": {
           "duracao": "De 40 a 50 minutos. Cumprir o tempo conta na avaliação da banca",
@@ -9998,8 +9999,9 @@ window.CONCURSOS = [
         "tipo": "memorial",
         "carater": "Eliminatória e classificatória",
         "data": {
-          "tipo": "nao_divulgada",
-          "nota": "O cronograma de cada etapa do certame será publicado e atualizado na página do concurso"
+          "tipo": "exata",
+          "valor": "2027-01-15",
+          "nota": "Datas por área: 05 (Engenharias/ Engenharia Elétrica/ Circuitos…): 15/01; demais áreas: sem data (O cronograma de cada etapa do certame será publicado e atualizado na página do concurso)"
         },
         "detalhe": {},
         "peso": "3"
@@ -39039,7 +39041,7 @@ window.CONCURSOS = [
     "instituicao": "Universidade Federal de Pelotas",
     "nivel": "Magistério Superior",
     "uf": "RS",
-    "numero_edital": "Edital nº 028/2026, publicado em 14/09/2026, com 33 documentos de alteração publicados depois",
+    "numero_edital": "Edital nº 028/2026, publicado em 14/09/2026, com 34 documentos de alteração publicados depois",
     "vagas": "32 vagas, com 40% reservadas a negros, indígenas e quilombolas e 5% a pessoas com deficiência",
     "areas": "28 áreas, entre elas Mercadologia, Teoria da Computação, Ciência da Computação, Processamento de Sinais e Eletrônica e Irrigação e Drenagem",
     "campi": "Pelotas e/ou proximidades",
@@ -39162,6 +39164,11 @@ window.CONCURSOS = [
     "avisos_edital": [],
     "alteracoes": [
       {
+        "data": "2026-11-26",
+        "documento": "Edital CPP nº 028/2026, Retificação local de início",
+        "muda": "datas"
+      },
+      {
         "data": "2026-11-17",
         "documento": "Edital CPP nº 028/2026 Convocação, Procedimento de Confirmação Complementar à…",
         "muda": "datas"
@@ -39215,11 +39222,6 @@ window.CONCURSOS = [
         "data": "2026-10-29",
         "documento": "Formulário de homologação, banca e cronograma, área 12 (SEI nº 4381551)",
         "muda": "datas, datas da prova escrita e datas da prova didática"
-      },
-      {
-        "data": "2026-10-29",
-        "documento": "Formulário de homologação, banca e cronograma, área 06 (SEI nº 4384914)",
-        "muda": "datas, datas da prova escrita e datas da prova didática"
       }
     ],
     "inscritos": {
@@ -39263,7 +39265,7 @@ window.CONCURSOS = [
     "edital": {
       "numero": "028/2026",
       "publicacao": "2026-09-14",
-      "alteracoes": 33
+      "alteracoes": 34
     },
     "vagas_total": 32
   },
@@ -44923,7 +44925,7 @@ window.CONCURSOS = [
     "inscricao": {
       "inicio": "2026-09-22",
       "fim": "2026-11-26",
-      "situacao": "aberta",
+      "situacao": "encerrada",
       "taxa": "R$ 347,54"
     },
     "etapas": [
@@ -45727,7 +45729,7 @@ window.CONCURSOS = [
     "instituicao": "UNIVERSIDADE FEDERAL DE VIÇOSA",
     "nivel": "Magistério Superior",
     "uf": "MG",
-    "numero_edital": "Edital nº 58/2026, publicado em 15/10/2026, com 1 documento de alteração publicado depois",
+    "numero_edital": "Edital nº 58/2026, publicado em 15/10/2026, com 2 documentos de alteração publicados depois",
     "vagas": "1 vaga",
     "areas": "Bases Morfofuncionais da Medicina",
     "campi": "Instituto de Ciências Biológicas e da Saúde, do Campus UFV-Rio Paranaíba",
@@ -45802,6 +45804,11 @@ window.CONCURSOS = [
     "avisos_edital": [],
     "alteracoes": [
       {
+        "data": "2026-11-25",
+        "documento": "Resultado Final do Concurso",
+        "muda": "datas"
+      },
+      {
         "data": "2026-10-23",
         "documento": "Edital de 22 de outubro de 2026 (retificação do Edital de Concurso Público nº 58/2026)",
         "muda": "remuneração"
@@ -45818,7 +45825,7 @@ window.CONCURSOS = [
     "edital": {
       "numero": "58/2026",
       "publicacao": "2026-10-15",
-      "alteracoes": 1
+      "alteracoes": 2
     },
     "vagas_total": 1
   },
@@ -46515,7 +46522,7 @@ window.CONCURSOS = [
     "instituicao": "UNIVERSIDADE FEDERAL DE VIÇOSA",
     "nivel": "Magistério Superior",
     "uf": "MG",
-    "numero_edital": "Edital nº 60/2026, publicado em 15/10/2026, com 1 documento de alteração publicado depois",
+    "numero_edital": "Edital nº 60/2026, publicado em 15/10/2026, com 2 documentos de alteração publicados depois",
     "vagas": "1 vaga",
     "areas": "Habilidades Médicas e Prática Interprofissional e Trabalho em Saúde",
     "campi": "Instituto de Ciências Biológicas e da Saúde, do Campus UFV-Rio Paranaíba",
@@ -46590,6 +46597,11 @@ window.CONCURSOS = [
     "avisos_edital": [],
     "alteracoes": [
       {
+        "data": "2026-11-25",
+        "documento": "Resultado Final do Concurso",
+        "muda": "datas"
+      },
+      {
         "data": "2026-10-23",
         "documento": "Edital de 22 de outubro de 2026 (retificação do Edital de Concurso Público nº 60/2026)",
         "muda": "remuneração"
@@ -46606,7 +46618,7 @@ window.CONCURSOS = [
     "edital": {
       "numero": "60/2026",
       "publicacao": "2026-10-15",
-      "alteracoes": 1
+      "alteracoes": 2
     },
     "vagas_total": 1
   },
@@ -47134,7 +47146,7 @@ window.CONCURSOS = [
     "inscricao": {
       "inicio": "2026-10-26",
       "fim": "2026-11-26",
-      "situacao": "aberta",
+      "situacao": "encerrada",
       "taxa": "R$ 200,00"
     },
     "etapas": [
@@ -47478,7 +47490,7 @@ window.CONCURSOS = [
     "inscricao": {
       "inicio": "2026-10-19",
       "fim": "2026-11-26",
-      "situacao": "aberta",
+      "situacao": "encerrada",
       "taxa": "R$ 347,55"
     },
     "etapas": [
@@ -49440,9 +49452,9 @@ window.CONCURSOS = [
     "instituicao": "Universidade Federal de Lavras",
     "nivel": "Magistério Superior",
     "uf": "MG",
-    "numero_edital": "Edital nº 144/2026, publicado em 24/11/2026",
-    "vagas": "16 vagas",
-    "areas": "16 áreas, entre elas Agrometeorologia, Algoritmos, Estruturas de Dados e Programação Orientada a Objetos, Anatomia Patológica, Anatomia Veterinária dos Animais Domésticos e Silvestres e Arquitetura, Redes de Computadores e Sistemas Operacionais",
+    "numero_edital": "Edital nº 144/2026, publicado em 24/11/2026, com 1 documento de alteração publicado depois",
+    "vagas": "17 vagas",
+    "areas": "17 áreas, entre elas Agrometeorologia, Algoritmos, Estruturas de Dados e Programação Orientada a Objetos, Anatomia Patológica, Anatomia Veterinária dos Animais Domésticos e Silvestres e Arquitetura, Redes de Computadores e Sistemas Operacionais",
     "campi": "Lavras/MG, São Sebastião do Paraíso/MG, DEA/EENG - Lavras, DAC/ICET - Lavras, DME/FCS - Lavras e DMV/FZMV - Lavras",
     "titulacao": "Doutorado, exceto em Anatomia Patológica e Pediatria, que exigem especialização",
     "regime": "DE e 40 h",
@@ -49526,6 +49538,13 @@ window.CONCURSOS = [
     "observacao": "",
     "detalhamento": "completo",
     "avisos_edital": [],
+    "alteracoes": [
+      {
+        "data": "2026-11-26",
+        "documento": "Edital nº 146/2026",
+        "muda": "vagas"
+      }
+    ],
     "fonte_dados": {
       "origem": "extracao_v2",
       "extracoes": [
@@ -49537,9 +49556,9 @@ window.CONCURSOS = [
     "edital": {
       "numero": "144/2026",
       "publicacao": "2026-11-24",
-      "alteracoes": 0
+      "alteracoes": 1
     },
-    "vagas_total": 16
+    "vagas_total": 17
   },
   {
     "id": "ufmt-02-2026",
@@ -49678,5 +49697,809 @@ window.CONCURSOS = [
       "alteracoes": 4
     },
     "vagas_total": 86
+  },
+  {
+    "id": "ufrgs-11-2026",
+    "sigla": "UFRGS",
+    "instituicao": "Universidade Federal do Rio Grande do Sul",
+    "nivel": "Magistério Superior",
+    "uf": "RS",
+    "numero_edital": "Edital nº 11/2026, publicado em 25/11/2026, com 1 documento de alteração publicado depois",
+    "vagas": "25 vagas",
+    "areas": "21 áreas, entre elas Botânica, Subárea: Fisiologia Vegetal, Ciências Agrárias, Subárea Agrometeorologia, Ciências Biológicas, Subárea Biofísica, Ciências Biológicas, Subárea Ecologia e Ciências Econômicas, Subárea Macroeconomia",
+    "campi": "Instituto de Biociências - Departamento de Botânica, Faculdade de Agronomia - Departamento de Plantas Forrageiras e Agrometeorologia, Instituto de Biociências - Departamento de Biofísica e Instituto de Biociências - Departamento de Ecologia",
+    "titulacao": "Doutorado, exceto em Patologia, Subárea: Patologia Humana Geral e Aplicada, que exige mestrado",
+    "regime": "Dedicação Exclusiva, 20 horas e 40 horas",
+    "remuneracao": "R$ 6.397,19 de vencimento básico em Dedicação Exclusiva (DE), chegando a R$ 13.753,96 com a maior titulação",
+    "banca": "Comissão própria da UFRGS",
+    "link_oficial": "https://www.ufrgs.br/progesp/edital-11-2026-concurso-publico-docente/",
+    "inscricao": {
+      "inicio": "2026-12-02",
+      "fim": "2026-12-16",
+      "situacao": "abre_em_breve",
+      "taxa": "R$ 340,00"
+    },
+    "etapas": [
+      {
+        "nome": "Prova Escrita",
+        "tipo": "discursiva",
+        "carater": "Eliminatória e classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "As provas do concurso terão início em prazo não inferior a 30 (trinta) dias, contados da data de publicação do presente Edital no Diário Oficial da União"
+        },
+        "detalhe": {
+          "duracao": "4 horas",
+          "formato": "Com consulta durante 1 hora"
+        }
+      },
+      {
+        "nome": "Prova Prática",
+        "tipo": "pratica",
+        "carater": "Eliminatória e classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Prova Didática",
+        "tipo": "didatica",
+        "carater": "Eliminatória e classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {
+          "duracao": "De 35 a 55 minutos. Fora desse intervalo há desconto na nota",
+          "nota_minima": "7 em 10",
+          "criterios": "I - adequação científica, técnica e/ou artística do tema à área do…; II - domínio do tema; III - capacidade de organizar as ideias com objetividade, rigor…; IV - clareza didática"
+        },
+        "temas": {
+          "min": 3,
+          "max": 44
+        }
+      },
+      {
+        "nome": "Projeto de Pesquisa ou de Extensão (avaliado na Defesa da Produção Intelectual)",
+        "tipo": "projeto",
+        "carater": "",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Exame de Títulos e Trabalhos",
+        "tipo": "titulos",
+        "carater": "Classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Defesa da Produção Intelectual",
+        "tipo": "outra",
+        "carater": "Eliminatória e classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {}
+      }
+    ],
+    "logo": "ufrgs.png",
+    "formacoes_status": "nao_extraido",
+    "familias": [],
+    "formacoes": [],
+    "familias_pos": [],
+    "areas_formacoes": [],
+    "observacao": "",
+    "detalhamento": "completo",
+    "avisos_edital": [],
+    "alteracoes": [
+      {
+        "data": "2026-11-26",
+        "documento": "Edital de Retificação nº 40",
+        "muda": "inscrição"
+      }
+    ],
+    "fonte_dados": {
+      "origem": "extracao_v2",
+      "extracoes": [
+        "ufrgs-11-2026"
+      ],
+      "extraido_em": "2026-11-27",
+      "em_conferencia": true
+    },
+    "edital": {
+      "numero": "11/2026",
+      "publicacao": "2026-11-25",
+      "alteracoes": 1
+    },
+    "vagas_total": 25
+  },
+  {
+    "id": "ufv-62-2026",
+    "sigla": "UFV",
+    "instituicao": "UNIVERSIDADE FEDERAL DE VIÇOSA",
+    "nivel": "Magistério Superior",
+    "uf": "MG",
+    "numero_edital": "Edital nº 62/2026, publicado em 10/11/2026, com 1 documento de alteração publicado depois",
+    "vagas": "1 vaga",
+    "areas": "Ensino de Geografia",
+    "campi": "Departamento de Geografia, do Centro de Ciências Humanas, Letras e Artes",
+    "titulacao": "Doutorado",
+    "regime": "Dedicação Exclusiva (DE)",
+    "remuneracao": "R$ 6.397,19 de vencimento básico em Dedicação Exclusiva (DE)",
+    "banca": "Comissão própria da UFV",
+    "link_oficial": "https://www.ufv.br/soc",
+    "inscricao": {
+      "situacao": "consultar",
+      "taxa": "R$ 120,75. Inscrições por 30 dias corridos a contar da publicação do edital no DOU de 10/11/2026; confira a data final no edital"
+    },
+    "etapas": [
+      {
+        "nome": "Prova de Conhecimento",
+        "tipo": "discursiva",
+        "carater": "Eliminatória e classificatória",
+        "data": {
+          "tipo": "exata",
+          "valor": "2027-01-11"
+        },
+        "detalhe": {
+          "duracao": "3 horas",
+          "formato": "Sem consulta"
+        }
+      },
+      {
+        "nome": "Prova de Didática",
+        "tipo": "didatica",
+        "carater": "Eliminatória e classificatória",
+        "data": {
+          "tipo": "exata",
+          "valor": "2027-01-14",
+          "nota": "Data provável, pelo edital"
+        },
+        "detalhe": {
+          "duracao": "50 minutos, com tolerância de 10 para mais ou para menos",
+          "arguicao": "Não há arguição",
+          "sorteio": "Tema sorteado com 24 horas de antecedência",
+          "nota_minima": "7 em 10",
+          "criterios": "10 pontos: I - Foco no ponto sorteado, aspecto passível de eliminação do…; II - Atualidade e exatidão de conteúdo, conceitos e informações; III - Coerência das estratégias didáticas com os objetivos e…; IV - Domínio do tema, segurança e clareza na apresentação da aula; V - Adequação na distribuição do tempo para abordagem dos tópicos da…; VI - Qualidade e utilização eficiente dos recursos didáticos; VII - Capacidade de análise e síntese do conteúdo tratado; VIII - Utilização de exemplos significativos",
+          "recursos": "Fornecidos: retroprojetor, projetor (tipo data show), quadro de giz ou quadro branco e computador. Proibidos: outro material didático diferente daquele entregue ao presidente da Banca. O candidato pode usar recursos próprios (todos os candidatos entregarão ao presidente da Banca todos os recursos didáticos para uso na prova de didática, inclusive dispositivos eletrônicos ou computador pessoal, se for o caso)"
+        },
+        "temas": {
+          "min": 11,
+          "max": 11
+        }
+      },
+      {
+        "nome": "Prova de Defesa de Projeto em Ensino e Pesquisa",
+        "tipo": "projeto",
+        "carater": "Eliminatória e classificatória",
+        "data": {
+          "tipo": "exata",
+          "valor": "2027-01-15",
+          "nota": "Data provável, pelo edital"
+        },
+        "detalhe": {}
+      },
+      {
+        "nome": "Prova de Títulos",
+        "tipo": "titulos",
+        "carater": "Classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {}
+      }
+    ],
+    "periodo_provas": {
+      "inicio": "2027-01-11",
+      "fim": "2027-01-14"
+    },
+    "logo": "ufv.png",
+    "formacoes_status": "nao_extraido",
+    "familias": [],
+    "formacoes": [],
+    "familias_pos": [],
+    "areas_formacoes": [],
+    "observacao": "",
+    "detalhamento": "completo",
+    "avisos_edital": [],
+    "alteracoes": [
+      {
+        "data": "2026-11-19",
+        "documento": "Edital de 18 de novembro de 2026 (retificação do Edital de Concurso Público nº 62/2026)",
+        "muda": "datas da prova escrita, datas da prova didática e datas da projeto"
+      }
+    ],
+    "fonte_dados": {
+      "origem": "extracao_v2",
+      "extracoes": [
+        "ufv-62-2026"
+      ],
+      "extraido_em": "2026-11-27",
+      "em_conferencia": true
+    },
+    "edital": {
+      "numero": "62/2026",
+      "publicacao": "2026-11-10",
+      "alteracoes": 1
+    },
+    "vagas_total": 1
+  },
+  {
+    "id": "unesp-faac-250-2026",
+    "sigla": "UNESP",
+    "instituicao": "Universidade Estadual Paulista “Júlio de Mesquita Filho”",
+    "nivel": "Magistério Superior",
+    "uf": "SP",
+    "numero_edital": "Edital nº 250/2026 - STGP/FAAC, publicado em 05/11/2026",
+    "vagas": "1 vaga",
+    "areas": "Arquitetura e Urbanismo (60400005)",
+    "campi": "Bauru e Departamento de Arquitetura, Urbanismo e Paisagismo (DAUP) da Faculdade de Arquitetura, Artes, Comunicação e Design (FAAC) do Câmpus de Bauru",
+    "titulacao": "Doutorado",
+    "regime": "Regime de Dedicação Integral à Docência e à Pesquisa - RDIDP",
+    "remuneracao": "R$ 16.994,01 de vencimento básico em Regime de Dedicação Integral à Docência e à Pesquisa - RDIDP, 40 horas semanais",
+    "banca": "Comissão própria da UNESP",
+    "link_oficial": "https://inscricoes.unesp.br",
+    "inscricao": {
+      "inicio": "2026-11-13",
+      "fim": "2026-12-14",
+      "situacao": "aberta",
+      "taxa": "R$ 286,00"
+    },
+    "etapas": [
+      {
+        "nome": "Prova escrita",
+        "tipo": "discursiva",
+        "carater": "Eliminatória e classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {
+          "duracao": "3 horas",
+          "formato": "Com consulta durante 1 hora"
+        },
+        "peso": "1"
+      },
+      {
+        "nome": "Prova didática",
+        "tipo": "didatica",
+        "carater": "Classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {
+          "duracao": "De 40 a 60 minutos. Fora desse intervalo a nota da prova é zero",
+          "criterios": "10 pontos: a) Plano de aula 1,0; b) Adequação ao tema e abordagem do assunto, nível de graduação 1,0; c) Domínio teórico e conceitual do assunto 2,0; d) Exatidão e atualidade das informações 1,0; e) Desenvolvimento sequencial do tema em ordem lógica 1,0; f) Clareza e objetividade na exposição do tema 1,0; g) Adequação da linguagem ao contexto de aula de graduação 1,0; h) Capacidade de síntese e abrangência 1,0; i) Utilização adequada dos recursos didáticos disponíveis 1,0",
+          "plano_de_aula": "Exigido: entregues no dia da prova didática, em momento anterior à ministração da aula teórica pelo candidato"
+        },
+        "peso": "2",
+        "temas": {
+          "min": 10,
+          "max": 10
+        }
+      },
+      {
+        "nome": "Prova de análise e arguição do projeto de pesquisa, do plano de atividades para a graduação e para a pós-graduação, do plano de ações de extensão universitária",
+        "tipo": "projeto",
+        "carater": "Classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {},
+        "peso": "1"
+      },
+      {
+        "nome": "Prova de títulos",
+        "tipo": "titulos",
+        "carater": "Classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {},
+        "peso": "2"
+      },
+      {
+        "nome": "Resultado final",
+        "tipo": "resultado",
+        "carater": "",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "após a análise dos recursos do resultado final preliminar"
+        },
+        "detalhe": {}
+      }
+    ],
+    "logo": "unesp.png",
+    "formacoes_status": "nao_extraido",
+    "familias": [],
+    "formacoes": [],
+    "familias_pos": [],
+    "areas_formacoes": [],
+    "observacao": "",
+    "detalhamento": "completo",
+    "avisos_edital": [],
+    "fonte_dados": {
+      "origem": "extracao_v2",
+      "extracoes": [
+        "unesp-faac-250-2026"
+      ],
+      "extraido_em": "2026-11-27",
+      "em_conferencia": true
+    },
+    "edital": {
+      "numero": "250/2026 - STGP/FAAC",
+      "publicacao": "2026-11-05",
+      "alteracoes": 0
+    },
+    "vagas_total": 1
+  },
+  {
+    "id": "unesp-fcat-107-2026",
+    "sigla": "UNESP",
+    "instituicao": "Universidade Estadual Paulista “Júlio de Mesquita Filho”",
+    "nivel": "Magistério Superior",
+    "uf": "SP",
+    "numero_edital": "Edital nº 107/2026 DTAd/FCAT, publicado em 21/10/2026, com 1 documento de alteração publicado depois",
+    "vagas": "1 vaga",
+    "areas": "Ciências Agrárias",
+    "campi": "Dracena e Departamento de Produção Animal da Faculdade de Ciências Agrárias e Tecnológicas do Câmpus de Dracena",
+    "titulacao": "Doutorado",
+    "regime": "Regime de Dedicação Integral à Docência e à Pesquisa - RDIDP",
+    "remuneracao": "R$ 16.994,01 de vencimento básico em Regime de Dedicação Integral à Docência e à Pesquisa - RDIDP, 40 horas semanais",
+    "banca": "Comissão própria da UNESP",
+    "link_oficial": "https://inscricoes.unesp.br",
+    "inscricao": {
+      "inicio": "2026-10-27",
+      "fim": "2026-12-26",
+      "situacao": "aberta",
+      "taxa": "R$ 286,00"
+    },
+    "etapas": [
+      {
+        "nome": "Prova escrita",
+        "tipo": "discursiva",
+        "carater": "Eliminatória e classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {
+          "duracao": "3 horas",
+          "formato": "Com consulta durante 1 hora"
+        },
+        "peso": "1"
+      },
+      {
+        "nome": "Prova didática",
+        "tipo": "didatica",
+        "carater": "Classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {
+          "duracao": "De 40 a 60 minutos. Fora desse intervalo a nota da prova é zero",
+          "criterios": "10 pontos: a) Plano de aula 1,0; b) Adequação ao tema e abordagem do assunto, nível de graduação 1,0; c) Domínio teórico e conceitual do assunto 2,0; d) Exatidão e atualidade das informações 1,0; e) Desenvolvimento sequencial do tema em ordem lógica 1,0; f) Clareza e objetividade na exposição do tema 1,0; g) Adequação da linguagem ao contexto de aula de graduação 1,0; h) Capacidade de síntese e abrangência 1,0; i) Utilização adequada dos recursos didáticos disponíveis 1,0",
+          "plano_de_aula": "Exigido: entregues no dia da prova didática, em momento anterior à ministração da aula teórica pelo candidato"
+        },
+        "peso": "2",
+        "temas": {
+          "min": 10,
+          "max": 10
+        }
+      },
+      {
+        "nome": "Prova de análise e arguição do projeto de pesquisa, do plano de atividades para a graduação e para a pós-graduação, do plano de ações de extensão universitária",
+        "tipo": "projeto",
+        "carater": "Classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {},
+        "peso": "1"
+      },
+      {
+        "nome": "Prova de títulos",
+        "tipo": "titulos",
+        "carater": "Classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {},
+        "peso": "2"
+      },
+      {
+        "nome": "Resultado final",
+        "tipo": "resultado",
+        "carater": "",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "após a análise dos recursos do resultado final preliminar"
+        },
+        "detalhe": {}
+      }
+    ],
+    "logo": "unesp.png",
+    "formacoes_status": "nao_extraido",
+    "familias": [],
+    "formacoes": [],
+    "familias_pos": [],
+    "areas_formacoes": [],
+    "observacao": "",
+    "detalhamento": "completo",
+    "avisos_edital": [],
+    "alteracoes": [
+      {
+        "data": "2026-11-26",
+        "documento": "Despacho da Diretora da Divisão Técnica Administrativa, de 25/11/2026",
+        "muda": "inscrição, projeto, prazo de inscrição e datas e outros pontos"
+      }
+    ],
+    "fonte_dados": {
+      "origem": "extracao_v2",
+      "extracoes": [
+        "unesp-fcat-107-2026"
+      ],
+      "extraido_em": "2026-11-27",
+      "em_conferencia": true
+    },
+    "edital": {
+      "numero": "107/2026 DTAd/FCAT",
+      "publicacao": "2026-10-21",
+      "alteracoes": 1
+    },
+    "vagas_total": 1
+  },
+  {
+    "id": "unesp-ibb-839-2026",
+    "sigla": "UNESP",
+    "instituicao": "Universidade Estadual Paulista “Júlio de Mesquita Filho”",
+    "nivel": "Magistério Superior",
+    "uf": "SP",
+    "numero_edital": "Edital nº 839/2026-CSCGP/IBB, publicado em 25/11/2026",
+    "vagas": "1 vaga",
+    "areas": "Parasitologia",
+    "campi": "Botucatu e Departamento de Biodiversidade e Bioestatística do Instituto de Biociências do Câmpus de Botucatu",
+    "titulacao": "Doutorado",
+    "regime": "Regime de Dedicação Integral à Docência e à Pesquisa - RDIDP",
+    "remuneracao": "R$ 16.994,01 de vencimento básico em Regime de Dedicação Integral à Docência e à Pesquisa - RDIDP, 40 horas semanais",
+    "banca": "Comissão própria da UNESP",
+    "link_oficial": "https://inscricoes.unesp.br",
+    "inscricao": {
+      "inicio": "2026-12-07",
+      "fim": "2027-01-05",
+      "situacao": "abre_em_breve",
+      "taxa": "R$ 286,00. Pedido de isenção de 07/12 a 11/12"
+    },
+    "etapas": [
+      {
+        "nome": "Prova escrita",
+        "tipo": "discursiva",
+        "carater": "Eliminatória e classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {
+          "duracao": "3 horas",
+          "formato": "Com consulta durante 1 hora"
+        },
+        "peso": "1"
+      },
+      {
+        "nome": "Prova didática",
+        "tipo": "didatica",
+        "carater": "Classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {
+          "duracao": "De 40 a 60 minutos. Fora desse intervalo a nota da prova é zero",
+          "criterios": "10 pontos: a) Plano de aula 1,0; b) Adequação ao tema e abordagem do assunto, nível de graduação 1,0; c) Domínio teórico e conceitual do assunto 2,0; d) Exatidão e atualidade das informações 1,0; e) Desenvolvimento sequencial do tema em ordem lógica 1,0; f) Clareza e objetividade na exposição do tema 1,0; g) Adequação da linguagem ao contexto de aula de graduação 1,0; h) Capacidade de síntese e abrangência 1,0; i) Utilização adequada dos recursos didáticos disponíveis 1,0",
+          "plano_de_aula": "Exigido: entregues no dia da prova didática, em momento anterior à ministração da aula teórica pelo candidato"
+        },
+        "peso": "2",
+        "temas": {
+          "min": 10,
+          "max": 10
+        }
+      },
+      {
+        "nome": "Prova de análise e arguição do projeto de pesquisa, do plano de atividades para a graduação e para a pós-graduação, do plano de ações de extensão universitária",
+        "tipo": "projeto",
+        "carater": "Classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {},
+        "peso": "1"
+      },
+      {
+        "nome": "Prova de títulos",
+        "tipo": "titulos",
+        "carater": "Classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {},
+        "peso": "2"
+      },
+      {
+        "nome": "Resultado final",
+        "tipo": "resultado",
+        "carater": "",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "após a análise dos recursos do resultado final preliminar"
+        },
+        "detalhe": {}
+      }
+    ],
+    "logo": "unesp.png",
+    "formacoes_status": "nao_extraido",
+    "familias": [],
+    "formacoes": [],
+    "familias_pos": [],
+    "areas_formacoes": [],
+    "observacao": "",
+    "detalhamento": "completo",
+    "avisos_edital": [],
+    "fonte_dados": {
+      "origem": "extracao_v2",
+      "extracoes": [
+        "unesp-ibb-839-2026"
+      ],
+      "extraido_em": "2026-11-27",
+      "em_conferencia": true
+    },
+    "edital": {
+      "numero": "839/2026-CSCGP/IBB",
+      "publicacao": "2026-11-25",
+      "alteracoes": 0
+    },
+    "vagas_total": 1
+  },
+  {
+    "id": "unesp-ibilce-356-2026",
+    "sigla": "UNESP",
+    "instituicao": "Universidade Estadual Paulista \"Júlio de Mesquita Filho\"",
+    "nivel": "Magistério Superior",
+    "uf": "SP",
+    "numero_edital": "Edital nº 356/2026-CSJRP, publicado em 27/10/2026",
+    "vagas": "1 vaga",
+    "areas": "Tecnologia de Alimentos",
+    "campi": "São José do Rio Preto e Departamento de Engenharia e Tecnologia de Alimentos do Instituto de Biociências, Letras e Ciências Exatas do Campus de São José do Rio Preto",
+    "titulacao": "Doutorado",
+    "regime": "Regime de Dedicação Integral à Docência e à Pesquisa - RDIDP",
+    "remuneracao": "R$ 16.994,01 de vencimento básico em Regime de Dedicação Integral à Docência e à Pesquisa - RDIDP, 40 horas semanais",
+    "banca": "Comissão própria da UNESP",
+    "link_oficial": "https://inscricoes.unesp.br",
+    "inscricao": {
+      "inicio": "2026-11-09",
+      "fim": "2026-12-10",
+      "situacao": "aberta",
+      "taxa": "R$ 286,00"
+    },
+    "etapas": [
+      {
+        "nome": "Prova escrita",
+        "tipo": "discursiva",
+        "carater": "Eliminatória e classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {
+          "duracao": "3 horas",
+          "formato": "Com consulta durante 1 hora"
+        },
+        "peso": "1"
+      },
+      {
+        "nome": "Prova didática",
+        "tipo": "didatica",
+        "carater": "Classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {
+          "duracao": "De 40 a 60 minutos. Fora desse intervalo a nota da prova é zero",
+          "criterios": "10 pontos: a) Plano de aula 1,0; b) Adequação ao tema e abordagem do assunto, nível de graduação 1,0; c) Domínio teórico e conceitual do assunto 2,0; d) Exatidão e atualidade das informações 1,0; e) Desenvolvimento sequencial do tema em ordem lógica 1,0; f) Clareza e objetividade na exposição do tema 1,0; g) Adequação da linguagem ao contexto de aula de graduação 1,0; h) Capacidade de síntese e abrangência 1,0; i) Utilização adequada dos recursos didáticos disponíveis 1,0",
+          "plano_de_aula": "Exigido: entregues no dia da prova didática, em momento anterior à ministração da aula teórica pelo candidato"
+        },
+        "peso": "2",
+        "temas": {
+          "min": 10,
+          "max": 10
+        }
+      },
+      {
+        "nome": "Prova de análise e arguição do projeto de pesquisa, do plano de atividades para a graduação e para a pós-graduação, do plano de ações de extensão universitária",
+        "tipo": "projeto",
+        "carater": "Classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {},
+        "peso": "1"
+      },
+      {
+        "nome": "Prova de títulos",
+        "tipo": "titulos",
+        "carater": "Classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {},
+        "peso": "2"
+      },
+      {
+        "nome": "Resultado final",
+        "tipo": "resultado",
+        "carater": "",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "após a análise dos recursos do resultado final preliminar"
+        },
+        "detalhe": {}
+      }
+    ],
+    "logo": "unesp.png",
+    "formacoes_status": "nao_extraido",
+    "familias": [],
+    "formacoes": [],
+    "familias_pos": [],
+    "areas_formacoes": [],
+    "observacao": "",
+    "detalhamento": "completo",
+    "avisos_edital": [],
+    "fonte_dados": {
+      "origem": "extracao_v2",
+      "extracoes": [
+        "unesp-ibilce-356-2026"
+      ],
+      "extraido_em": "2026-11-27",
+      "em_conferencia": true
+    },
+    "edital": {
+      "numero": "356/2026-CSJRP",
+      "publicacao": "2026-10-27",
+      "alteracoes": 0
+    },
+    "vagas_total": 1
+  },
+  {
+    "id": "unesp-igce-223-2026",
+    "sigla": "UNESP",
+    "instituicao": "Universidade Estadual Paulista \"Júlio de Mesquita Filho\"",
+    "nivel": "Magistério Superior",
+    "uf": "SP",
+    "numero_edital": "Edital nº 223/2026 - STGP/IGCE/CRC, publicado em 08/10/2026",
+    "vagas": "1 vaga",
+    "areas": "Engenharia Sanitária",
+    "campi": "Rio Claro e Departamento de Engenharia Ambiental do Instituto de Geociências e Ciências Exatas do Câmpus de Rio Claro",
+    "titulacao": "Doutorado",
+    "regime": "Regime de Dedicação Integral à Docência e à Pesquisa - RDIDP",
+    "remuneracao": "R$ 16.994,01 de vencimento básico em Regime de Dedicação Integral à Docência e à Pesquisa - RDIDP, 40 horas semanais",
+    "banca": "Comissão própria da UNESP",
+    "link_oficial": "https://inscricoes.unesp.br",
+    "inscricao": {
+      "inicio": "2026-10-13",
+      "fim": "2026-11-11",
+      "situacao": "encerrada",
+      "taxa": "R$ 286,00"
+    },
+    "etapas": [
+      {
+        "nome": "Prova escrita",
+        "tipo": "discursiva",
+        "carater": "Eliminatória e classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {
+          "duracao": "3 horas",
+          "formato": "Com consulta durante 1 hora"
+        },
+        "peso": "1"
+      },
+      {
+        "nome": "Prova didática",
+        "tipo": "didatica",
+        "carater": "Classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {
+          "duracao": "De 40 a 60 minutos. Fora desse intervalo a nota da prova é zero",
+          "criterios": "10 pontos: a) Plano de aula 1,0 ponto; b) Adequação ao tema e abordagem do assunto, nível de graduação 1,0 ponto; c) Domínio teórico e conceitual do assunto 2,0 pontos; d) Exatidão e atualidade das informações 1,0 ponto; e) Desenvolvimento sequencial do tema em ordem lógica 1,0 ponto; f) Clareza e objetividade na exposição do tema 1,0 ponto; g) Adequação da linguagem ao contexto de aula de graduação 1,0 ponto; h) Capacidade de síntese e abrangência 1,0 ponto; i) Utilização adequada dos recursos didáticos disponíveis 1,0 ponto",
+          "plano_de_aula": "Exigido: entregues no dia da prova didática, em momento anterior à ministração da aula teórica pelo candidato"
+        },
+        "peso": "2",
+        "temas": {
+          "min": 10,
+          "max": 10
+        }
+      },
+      {
+        "nome": "Prova de análise e arguição do projeto de pesquisa, do plano de atividades para a graduação e para a pós-graduação, do plano de ações de extensão universitária",
+        "tipo": "projeto",
+        "carater": "Classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {},
+        "peso": "1"
+      },
+      {
+        "nome": "Prova de títulos",
+        "tipo": "titulos",
+        "carater": "Classificatória",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "O edital ainda não fixou a data"
+        },
+        "detalhe": {},
+        "peso": "2"
+      },
+      {
+        "nome": "Resultado final",
+        "tipo": "resultado",
+        "carater": "",
+        "data": {
+          "tipo": "nao_divulgada",
+          "nota": "após a análise dos recursos do resultado final preliminar"
+        },
+        "detalhe": {}
+      }
+    ],
+    "logo": "unesp.png",
+    "formacoes_status": "nao_extraido",
+    "familias": [],
+    "formacoes": [],
+    "familias_pos": [],
+    "areas_formacoes": [],
+    "observacao": "",
+    "detalhamento": "completo",
+    "avisos_edital": [],
+    "fonte_dados": {
+      "origem": "extracao_v2",
+      "extracoes": [
+        "unesp-igce-223-2026"
+      ],
+      "extraido_em": "2026-11-27",
+      "em_conferencia": true
+    },
+    "edital": {
+      "numero": "223/2026 - STGP/IGCE/CRC",
+      "publicacao": "2026-10-08",
+      "alteracoes": 0
+    },
+    "vagas_total": 1
   }
 ];
